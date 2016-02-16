@@ -1,0 +1,125 @@
+/* Initial styles to minimize browser differences */
+html, body, form, fieldset {
+	font:1em/1.5 "DejaVu Sans", "Trebuchet MS", sans-serif;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+/* Neutralize styling:Elements with a vertical margin:*/
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+	margin:1em 0;
+	padding:0;
+}
+/* Nested lists don't get a (vertical) margin */
+ol ol, ol ul, ol dl, ul ul, ul ol, ul dl, dl ol, dl ul, dl dl {
+	margin:0;
+}
+/* Unifying display of nested unordered lists:2 deep uses a circle (like Fx) */
+ul ul, ol ul {
+	list-style-type:circle;
+}
+/* Unifying display of nested unordered lists:3 deep (& more) uses a square (like Fx) */
+ul ul ul, ul ol ul, ol ol ul, ol ul ul {
+	list-style-type:square;
+}
+/* Apply left margin:Only to the few elements that need it:*/
+li, dd, blockquote {
+	margin-left:1em;
+}
+/* Miscellaneous conveniences:*/
+/* Some HTML5 styling for the benefit of older browsers (but not IE, which needs a JS workaround) */
+section, article, header, footer, nav, main, aside, hgroup {
+	display:block;
+}
+form label {
+	cursor:pointer;
+}
+fieldset {
+	border:none;
+}
+abbr, acronym {
+	font-variant:small-caps;
+
+}
+/* neutralize Gecko border around linked images */
+a img, a:hover img {
+	border:none;
+
+}
+q {
+	quotes:none;
+}
+p {
+	margin:0
+}
+/* Form field text-scaling */
+input, select, textarea {
+	font:1em/1.5 "DejaVu Sans", "Trebuchet MS", sans-serif;
+}
+
+/* actual page styling*/
+html {
+	background:#eee;
+}
+body {
+	background: #fff;
+	padding: 0 1em;
+	margin: 0 auto 1em auto;
+	max-width: 900px;
+	border: 10px solid #ddd;
+	border-top: none;
+	border-radius: 2em;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+header p {
+	border: 1px solid #000;
+	border-radius: 1em;
+	border-width: 1px 0;
+	padding: .5em;
+}
+.links {
+	clear: both;
+	list-style: none;
+	width: 33%;
+	margin: 2em auto;
+	display: table;
+}
+.links a {
+	color: white;
+	background: #844;
+	font-weight: bold;
+	font-size: x-large;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+}
+.links a:hover {
+	filter: saturate(250%);
+}
+.links .download {
+	color: #000;
+	background: #BBE084;
+}
+.links .documentation {
+	color: #fff;
+	background: #A984E0;
+}
+.links .support {
+	color: #000;
+	background: #84E0CE;
+}
+.links .bugreport {
+	color: #fff;
+	background: #E084A9;
+}
+.links .develop {
+	color: #000;
+	background: #E0CE84;
+}
