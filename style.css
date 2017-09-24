@@ -84,7 +84,7 @@ header p {
 .links {
 	clear: both;
 	list-style: none;
-	width: 33%;
+	width: 80%;
 	margin: 2em auto;
 	display: table;
 }
@@ -122,4 +122,33 @@ header p {
 .links .develop {
 	color: #000;
 	background: #E0CE84;
+}
+
+@media all and (min-width: 500px) {
+	.links {
+		width: 70%;
+	}
+}
+
+@media all and (min-width: 600px) {
+	.links {
+		width: 60%;
+	}
+}
+
+@media all and (min-width: 750px) {
+	.links {
+		width: 100%;
+		column-count: 2;
+		display: block;
+	}
+	.links li a {
+		margin-top: 0;
+	}
+}
+
+@media all and (min-width:800px) {
+	.links {
+		width: 90%;
+	}
 }
