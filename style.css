@@ -63,7 +63,7 @@ html {
 }
 body {
 	background: #fff;
-	padding: 0 1em;
+	padding: 0 1em 1em 1em;
 	margin: 0 auto 1em auto;
 	max-width: 900px;
 	border: 10px solid #ddd;
@@ -75,10 +75,10 @@ h1 {
 	margin: 0;
 	text-align: center;
 }
-header p {
-	border: 1px solid #000;
-	border-radius: 1em;
-	border-width: 1px 0;
+.standout {
+	background-color: #f7f7f7;
+	background-color: #ABFFF9;
+	border-radius: .5em;
 	padding: .5em;
 }
 img {
@@ -89,7 +89,7 @@ img {
 	clear: both;
 	list-style: none;
 	width: 80%;
-	margin: 2em auto;
+	margin: 2em auto .5em;
 	display: table;
 }
 .links a {
@@ -102,7 +102,7 @@ img {
 	display: block;
 	padding: 1em;
 	margin: 1em;
-	border-radius: 1em;
+	border-radius: .5em;
 }
 .links a:hover {
 	filter: saturate(250%);
@@ -128,6 +128,14 @@ img {
 	background: #E0CE84;
 }
 
+.screenshots {
+	text-align: center;
+}
+.screenshots img {
+	width: 100%;
+	max-width: 100%;
+}
+
 @media all and (min-width: 500px) {
 	.links {
 		width: 70%;
@@ -137,6 +145,9 @@ img {
 @media all and (min-width: 600px) {
 	.links {
 		width: 60%;
+	}
+	.screenshots img {
+		width: 250px;
 	}
 }
 
