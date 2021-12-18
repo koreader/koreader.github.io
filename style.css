@@ -91,7 +91,10 @@ img {
 	list-style: none;
 	width: 80%;
 	margin: 2em auto .5em;
-	display: table;
+	display: grid;
+}
+.links li {
+	margin-left: 0;
 }
 .links a {
 	color: white;
@@ -100,8 +103,7 @@ img {
 	font-size: x-large;
 	text-decoration: none;
 	text-align: center;
-	display: inline-block;
-	width: 80%;
+	display: block;
 	padding: 1em;
 	margin: 1em;
 	border-radius: .5em;
@@ -156,10 +158,7 @@ img {
 @media all and (min-width: 750px) {
 	.links {
 		width: 100%;
-		-moz-column-count: 2;
-		-webkit-column-count: 2;
-		column-count: 2;
-		display: block;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	.links li a {
 		margin-top: 0;
