@@ -81,9 +81,13 @@ releases = [
 print('<ul class="thumbnail-grid">')
 
 # The original logo.
-print('<li><h2>Original KOReader logo</h2><a href="https://github.com/koreader/koreader/pull/201" target="_blank"><img src="https://cloud.githubusercontent.com/assets/14007369/24885152/89f97930-1e12-11e7-9b3a-0d899af96e90.png" alt="Original KOReader logo" title="Original KOReader logo" loading="lazy"></a></li>')
+print('<li><h2>Original KOReader logo</h2><a href="https://github.com/koreader/koreader/pull/201" target="_blank"><img src="https://cloud.githubusercontent.com/assets/14007369/24885152/89f97930-1e12-11e7-9b3a-0d899af96e90.png" alt="Original KOReader logo" title="Original KOReader logo" loading="lazy"></a></li>', end='')
 
 for r in releases:
-  print(f'<li id="{r[1]}"><h2>{r[2]}</h2><a href="{r[0]}" target="_blank"><img src="{r[3]}" alt="{r[2]}" title="{r[2]}" loading="lazy"></a></li>')
+  print(f'''
+  <li id="{r[1]}">
+    <h2>{r[2]}</h2>
+    <a href="{r[0]}" target="_blank"><img src="{r[3]}" alt="{r[1]}" title="{r[1]}" loading="lazy"></a>
+  </li>''', end='')
 
 print('</ul>')
