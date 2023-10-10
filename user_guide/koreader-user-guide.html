@@ -89,7 +89,7 @@ hr {
     margin: 0 auto;
     background-color: var(--container-color);
     padding: 4%;
-    box-shadow: 0 0 10px 2px var(--shadow-color);
+    box-shadow: 0 0 6px 1px var(--shadow-color);
     font-size: 1em;
 }
 
@@ -172,14 +172,16 @@ hr {
 
 .L1-Chapter-heading {
     font-weight: bold;
-    font-size: 1.9rem;
-    line-height: 3.4rem;
-    text-align: right;
+    font-size:1.8rem;
+    line-height: 3rem;
+    text-align: center;
     color: #ED8649;
-    border-bottom: solid 3px #ED8649;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-shadow: 0px 0px 2px #ED8649;    
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 3%;  
+    box-shadow:  0px 3px 8px -2px #ED8649 inset;
 }
 
 
@@ -404,11 +406,13 @@ hr {
 <div class="outer-container">
 
     <div>
-        <div class="standard-text" style="font-weight: bold;            font-size: 3em; text-align: center; color: #00A89C; text-shadow: 0px 0px 1px #00A89C;"><img class="img_inline" src="pictures/koreader_logo.png" style="width:120px;"><br>KOREADER <br>USER GUIDE <br></div> 
+        <div class="standard-text" style="font-weight: bold;            font-size: 3em; text-align: center; color: #00A89C; text-shadow: 0px 0px 1px #00A89C;"><img class="img_inline" src="pictures/koreader_logo.png" style="width:120px;"><br>KOREADER USER GUIDE 
+        <br>
+        <span style="text-align: center; color: #009788; font-weight: bold;font-size: 1rem; text-shadow: 0px 0px 1px #009788;">Last Updated: 2023-11-10</span>
+        </div> 
     </div>
         
 <hr>
-
     <div class="standard-text">
     <p>This guide is designed for larger screens with color and contains links to relevant websites so we highly recommend reading this on a computer or a tablet (instead of your e-ink device). You can use the search function of your browser to find a specific topic. You can also turn on the <b>Dark Mode</b> with the button at the upper left corner.</p>
     <p>Parts of the text are color coded according to their category:</p>
@@ -484,14 +488,19 @@ hr {
         <div>
             <div class="standard-text" style="line-height: 2.3rem;">
             <ul>
-            <li><a href="#gestures">GESTURES, QUICK MENU AND PROFILES</a></li>
+            <li><a href="#gestures">GESTURES AND KEYBOARD SHORTCUTS</a></li>
                 <ul>
                     <li><a href="#predefinedgestures">Predefined Gestures</a></li>
                     <li><a href="#gesturecategories">Gesture Categories</a></li>
+                    <li><a href="#keyboardshortcuts">Keyboard Shortcuts</a></li>
+                </ul>
+     
+                <li><a href="#qmandprofiles">QUICK MENU AND PROFILES</a></li>
+                <ul>
                     <li><a href="#quickmenu">Quick Menu</a></li>
                     <li><a href="#profiles">Profiles</a></li>
                 </ul>
-     
+
             <li><a href="#plugins">PLUGINS AND USER PATCHES</a></li>
                 <ul>
                     <li><a href="#plugintypes">Plugin types</a></li>
@@ -1591,7 +1600,7 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
 
 
 
-    <div class="L1-Chapter-heading"  id="gestures">GESTURES, QUICK MENU AND PROFILES</div>
+    <div class="L1-Chapter-heading"  id="gestures">GESTURES AND KEYBOARD SHORTCUTS</div>
 
     <div class="standard-text">
     There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.
@@ -1962,6 +1971,127 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
     
     <!--END OF QUAD-->
     </div>
+
+
+    <div class="L2-Sub-heading" id="keyboardshortcuts">Keyboard Shortcuts</div>
+    <div class="standard-text">
+    If you are using the desktop Linux version of KOReader you can use keyboard shortcuts for navigating the user interface and reading books. This can also be used with non-touch devices with a keyboard like <b>Kindle 3, Kindle DX, Android and Android TV</b>.
+    </div>
+    <div class="double-container">
+    
+        <!--FIRST COLUMN START-->
+    <div>
+        <div class="L3-Smaller-heading">File browser mode</div>
+        <ul>
+            <li>Open top menu - <b>F1</b></li>
+            <li>Navigate to home - <b>Home</b></li>
+            <li>Navigate file list - <b>Up/Down</b></li>
+            <li>Open selected book - <b>Enter</b></li>
+            <li>Show selected book’s context menu - <b>Right</b></li>
+            <li>Exit application - <b>Esc</b></li>                    
+        </ul>
+
+        <div class="L3-Smaller-heading">Reading mode</div>
+        <ul>
+            <li>Open selected page link / Open bottom menu - <b>Enter</b></li>
+            <li>Open top menu - <b>F1</b></li>
+            <li>Back/exit application - <b>Esc</b></li>
+            <li>Show bookmarks - <b>B</b></li>                
+            <li>Show TOC menu - <b>T</b></li>
+        </ul>
+
+
+        <div class="L3-Smaller-heading">Highlighting</div>
+        <ul>
+            <li>Enter highlighting mode - <b>H</b></li>
+            <li>Start/stop highlight selection - <b>Enter</b></li>
+            <li>Move highlight indicator - <b>Left/Right/Up/Down </b></li>
+            <li>Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b></li>
+            <li>Exit highlight mode - <b>Esc</b></li>
+        </ul>
+
+
+        <div class="L3-Smaller-heading">Fonts</div>
+        (<b>Not</b> available for PDF, DJVU and images.)        
+            <ul>
+                <li>Show font menu - <b>F</b></li>
+                <li>Increase font size - <b>Shift+Page Up</b></li>
+                <li>Decrease font size - <b>Shift+Page Down</b></li>
+            </ul>
+
+        <div class="L3-Smaller-heading">Links</div>
+            <ul>
+                <li>Select next page link - <b>Tab</b></li>
+                <li>Select previous page link - <b>Shift+Tab</b></li>
+
+            </ul>
+
+        <div class="L3-Smaller-heading">Image viewer</div>
+            <ul>
+                <li>Zoom in - <b>Page Down</b></li>
+                <li>Zoom out - <b>Page Up</b></li>
+            </ul>
+
+
+    <!--FIRST COLUMN END-->
+    </div>
+
+
+    <!--SECOND COLUMN START-->
+    <div>
+
+        <div class="L3-Smaller-heading">Navigating the book</div>
+        <ul>
+            <li>Next/previous page/view - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
+            <li>Go to the beginning of book - <b>1</b></li>
+            <li>Go to 11% of book - <b>2</b></li>
+            <li>Go to 22% of book - <b>3</b></li>
+            <li>Go to 33% of book - <b>4</b></li>
+            <li>Go to 44% of book - <b>5</b></li>
+            <li>Go to 55% of book - <b>6</b></li>
+            <li>Go to 66% of book - <b>7</b></li>
+            <li>Go to 77% of book - <b>8</b></li>
+            <li>Go to 88% of book - <b>9</b></li>
+            <li>Go to the end of book - <b>0</b></li>
+        </ul>
+    
+    <div class="L3-Smaller-heading">In Skim Document dialog</div>
+        <ul>                
+            <li>Go to the beginning of book - <b>Q</b></li>
+            <li>Go to 11% of book - <b>W</b></li>
+            <li>Go to 22% of book - <b>E</b></li>
+            <li>Go to 33% of book - <b>R</b></li>
+            <li>Go to 44% of book - <b>T</b></li>
+            <li>Go to 55% of book - <b>Y</b></li>
+            <li>Go to 66% of book - <b>U</b></li>
+            <li>Go to 77% of book - <b>I</b></li>
+            <li>Go to 88% of book - <b>O</b></li>
+            <li>Go to the end of book - <b>P</b></li>
+        </ul>
+
+    
+    <div class="L3-Smaller-heading">Page zooming</div>
+    (<b>Only</b> available for PDF, DJVU and images.)
+        <ul>
+            <li>Zoom in - <b>Shift + PgUp</b></li>
+            <li>Zoom out - <b>Shift + PgDown</b></li>
+            <li>Zoom to fit page - <b>A</b></li>
+            <li>Zoom to fit page width - <b>S</b></li>
+            <li>Zoom to fit page height - <b>D</b></li>
+            <li>Zoom to fit content - <b>Shift+A</b></li>
+            <li>Zoom to fit content width - <b>Shift+S</b></li>
+            <li>Zoom to fit content height - <b>Shift+D</b></li>
+            <li>Manual zoom mode - <b>Shift+M</b></li>
+        </ul>
+ 
+
+    <!--SECOND COLUMN END-->
+    </div>
+
+    <!--DOUBLE CONTAINER END-->
+    </div>
+
+    <div class="L1-Chapter-heading" id="qmandprofiles">QUICK MENU AND PROFILES</div>
 
 
     <div class="L2-Sub-heading" id="quickmenu">Quick Menu</div>
@@ -2397,6 +2527,21 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
         <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
 
 
+        <div class="L3-Smaller-heading"> How can I add a password lock to KOReader?</div>
+        <div class="standard-text">
+           We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:
+    
+           <ol>
+            <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your <b>"unlock"</b> gesture by going to:
+                <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → "your selected gesture" → Device → Exit screensaver</div>
+            </li>
+            <li>And then enable this option:
+                <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings → Keep the screensaver on screen after wakeup → Until 'Exit screensaver' gesture</div>
+            </li>
+        
+           </ol>
+        </div> 
+
         <span class="link_to_heading">Switching between documents quickly</span>
         <p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class=ui>File Browser</span>. KOReader can open the last document with a gesture (<b>←→← multiswipe</b>). If you define a gesture’s action as <span class=ui>Open previous document</span>, you can switch between two documents quickly similar to <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
 
@@ -2546,7 +2691,7 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
             </div>
         </div>
         
-        <div class=warning><span class="icon_red"></span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the same name as your book. You can backup these folders separately if you wish.</div>
+        <div class=warning><span class="icon_red"></span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the <u>same name as your book</u>. You can backup these folders separately if you wish.</div>
 
 
         </div>
@@ -2602,143 +2747,6 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
 
 
 
-        <div class="L2-Sub-heading">Keyboard Shortcuts</div>
-
-        The desktop Linux version of KOReader implements keyboard shortcuts for navigating the user interface and reading books.
-        It helps Non-Touch devices with keyboard (Kindle 3, Kindle DX, Android, Android TV) and hopes also to devices with few keys.
-        <div class="double-container">
-        
-            <!--FIRST COLUMN START-->
-        <div>
-            <div class="L3-Smaller-heading">File browser mode</div>
-            <ul>
-                <li>Open top menu - <b>F1</b></li>
-                <li>Navigate to home - <b>Home</b></li>
-                <li>Navigate file list - <b>Up/Down</b></li>
-                <li>Open selected book - <b>Enter</b></li>
-                <li>Show selected book’s context menu - <b>Right</b></li>
-                <li>Exit application - <b>Esc</b></li>                    
-            </ul>
-
-            <div class="L3-Smaller-heading">Reading mode</div>
-            <ul>
-                <li>Open selected page link / Open bottom menu - <b>Enter</b></li>
-                <li>Open top menu - <b>F1</b></li>
-                <li>Back/exit application - <b>Esc</b></li>
-                <li>Show bookmarks - <b>B</b></li>                
-                <li>Show TOC menu - <b>T</b></li>
-            </ul>
-
-
-            <div class="L3-Smaller-heading">Highlighting</div>
-            <ul>
-                <li>Enter highlighting mode - <b>H</b></li>
-                <li>Start/stop highlight selection - <b>Enter</b></li>
-                <li>Move highlight indicator - <b>Left/Right/Up/Down </b></li>
-                <li>Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b></li>
-                <li>Exit highlight mode - <b>Esc</b></li>
-            </ul>
-
-
-            <div class="L3-Smaller-heading">Fonts</div>
-            (<b>Not</b> available for PDF, DJVU and images.)        
-                <ul>
-                    <li>Show font menu - <b>F</b></li>
-                    <li>Increase font size - <b>Shift+Page Up</b></li>
-                    <li>Decrease font size - <b>Shift+Page Down</b></li>
-                </ul>
-    
-            <div class="L3-Smaller-heading">Links</div>
-                <ul>
-                    <li>Select next page link - <b>Tab</b></li>
-                    <li>Select previous page link - <b>Shift+Tab</b></li>
-    
-                </ul>
-    
-            <div class="L3-Smaller-heading">Image viewer</div>
-                <ul>
-                    <li>Zoom in - <b>Page Down</b></li>
-                    <li>Zoom out - <b>Page Up</b></li>
-                </ul>
-    
-
-        <!--FIRST COLUMN END-->
-        </div>
-
-
-        <!--SECOND COLUMN START-->
-        <div>
-
-            <div class="L3-Smaller-heading">Navigating the book</div>
-            <ul>
-                <li>Next/previous page/view - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
-                <li>Go to the beginning of book - <b>1</b></li>
-                <li>Go to 11% of book - <b>2</b></li>
-                <li>Go to 22% of book - <b>3</b></li>
-                <li>Go to 33% of book - <b>4</b></li>
-                <li>Go to 44% of book - <b>5</b></li>
-                <li>Go to 55% of book - <b>6</b></li>
-                <li>Go to 66% of book - <b>7</b></li>
-                <li>Go to 77% of book - <b>8</b></li>
-                <li>Go to 88% of book - <b>9</b></li>
-                <li>Go to the end of book - <b>0</b></li>
-            </ul>
-        
-        <div class="L3-Smaller-heading">In Skim Document dialog</div>
-            <ul>                
-                <li>Go to the beginning of book - <b>Q</b></li>
-                <li>Go to 11% of book - <b>W</b></li>
-                <li>Go to 22% of book - <b>E</b></li>
-                <li>Go to 33% of book - <b>R</b></li>
-                <li>Go to 44% of book - <b>T</b></li>
-                <li>Go to 55% of book - <b>Y</b></li>
-                <li>Go to 66% of book - <b>U</b></li>
-                <li>Go to 77% of book - <b>I</b></li>
-                <li>Go to 88% of book - <b>O</b></li>
-                <li>Go to the end of book - <b>P</b></li>
-            </ul>
-
-        
-        <div class="L3-Smaller-heading">Page zooming</div>
-        (<b>Only</b> available for PDF, DJVU and images.)
-            <ul>
-                <li>Zoom in - <b>Shift + PgUp</b></li>
-                <li>Zoom out - <b>Shift + PgDown</b></li>
-                <li>Zoom to fit page - <b>A</b></li>
-                <li>Zoom to fit page width - <b>S</b></li>
-                <li>Zoom to fit page height - <b>D</b></li>
-                <li>Zoom to fit content - <b>Shift+A</b></li>
-                <li>Zoom to fit content width - <b>Shift+S</b></li>
-                <li>Zoom to fit content height - <b>Shift+D</b></li>
-                <li>Manual zoom mode - <b>Shift+M</b></li>
-            </ul>
-     
-    
-        <!--SECOND COLUMN END-->
-        </div>
-
-    <!--DOUBLE CONTAINER END-->
-    </div>
-
-
-
-    <div class="L3-Smaller-heading"> How can I add a password lock to KOReader?</div>
-    <div class="standard-text">
-       We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:
-
-       <ol>
-        <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your "unlock" gesture by going to:
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → "your selected gesture" → Device → Exit screensaver</div>
-        </li>
-        <li>Enable this option:
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings → Keep the screensaver on screen after wakeup → Until 'Exit screensaver' gesture</div>
-        </li>
-    
-       </ol>
-    </div> 
-
-        
-        
 
 
 
