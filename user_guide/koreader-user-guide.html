@@ -1,0 +1,2786 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+:root {
+  --bg-color: #ffffff;
+  --container-color: #fffaf5;
+  --text-color: #322814;
+  --shadow-color: #00000080;
+}
+
+/* DARK THEME COLORS */
+body.dark {
+  --bg-color: #000000;
+  --container-color: #221a0f;
+  --text-color: #ece3cc;
+  --shadow-color: #d3af86;
+}
+
+html{
+    font-size: 1em;
+}
+
+body {
+    font-family: 'WixMadeforText', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: #009788;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {color: #fa5750;}
+    text-shadow: 0px 0px 1px #009788;
+    border-bottom: dashed 1px #009788;
+}
+
+b {
+    text-shadow: 0px 0px 1px #af904e;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+/* IMAGES FOR ALL THE GUIDE PICTURES */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 2px 4px 2px rgba(155,155,155,1),
+0px 3px 6px 0px rgba(0,0,0,0.23);
+}
+
+
+/* IMAGES USED IN THE TEXT LIKE WARNING ICONS*/
+
+.img_inline {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: #fffaf5;
+}
+
+hr {
+  max-width: 90%;
+  margin-top: 4%;
+    margin-bottom: 4%;
+  border: 0; 
+  height: 2px; 
+  background-image: -webkit-linear-gradient(left, #fffaf5, #ffb082, #fffaf5);
+  background-image: -moz-linear-gradient(left, #fffaf5, #ffb082, #fffaf5);
+  background-image: -ms-linear-gradient(left, #fffaf5, #ffb082, #fffaf5);
+  background-image: -o-linear-gradient(left, #fffaf5, #ffb082, #fffaf5); 
+}
+
+
+/* MAIN OUTER DIV */
+
+.outer-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: var(--container-color);
+    padding: 4%;
+    box-shadow: 0 0 10px 2px var(--shadow-color);
+    font-size: 1em;
+}
+
+
+/* TWO COLUMN DIV - USED INSIDE OUTER*/
+
+.double-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+
+/* FOUR COLUMN DIV - USED INSIDE OUTER*/
+
+.quad-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+
+/* FIVE COLUMN DIV - USED INSIDE OUTER*/
+
+.penta-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+
+/* STANDARD FONT */
+
+@font-face {
+    font-family: 'WixMadeforText';
+    src: url('/pictures/WixMadeforText-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ICONS FONT */
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('/pictures/fontawesome-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ALL STANDARD PARAGRAPHS */
+
+.standard-text {
+    line-height: 160%;
+    color: var(--text-color);
+    text-align: justify;
+	text-indent: 1.6rem;
+    margin-top: 10px;
+}
+
+
+/* SMALLER TEXT FOR MULTI COLUMN ELEMENTS */
+
+.table-text {
+    font-size: 0.9rem;
+    line-height: 160%;
+    color: var(--text-color);
+    text-align: left;
+	text-indent: 0.8rem;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* MAIN CHAPTER HEADINGS - CENTERED */
+
+.L1-Chapter-heading {
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 3.4rem;
+    text-align: right;
+    color: #ED8649;
+    border-bottom: solid 3px #ED8649;
+    text-shadow: 0px 0px 2px #ED8649;    
+    margin-top: 5%;
+    margin-bottom: 3%;  
+}
+
+
+/* CHAPTER SUB HEADINGS - CENTERED */
+
+.L2-Sub-heading {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #ED8649;
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 0px 0px 1px #ED8649;
+}
+
+
+/* CHAPTER SMALL HEADINGS - LEFT ALIGNED */
+
+.L3-Smaller-heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ED8649;
+    margin-top: 3%;
+    text-indent: 0em;
+    text-shadow: 0px 0px 1px #ED8649;
+}
+
+
+/* MENU BREADCRUMB ICON */
+
+.icon_green {
+    font-family: 'fontawesome', Arial, sans-serif;
+    font-size: 1.4em;
+    color: #75B938;
+    text-shadow: 0px 0px 1px #75B938;
+
+}
+
+
+/* TIP, NOTE, WARNING BOX ICON */
+
+.icon_red {
+    font-family: 'fontawesome', Arial, sans-serif;
+    font-size: 1.5em;
+    color: #FA5750;
+    text-shadow: 0px 0px 1px #FA5750;  
+}
+
+/* COLORED TEXTS */
+
+/* USER INTERFACE ELEMENTS OF KOREADER - BLUE */
+
+.ui {
+    font-weight: bold;
+    color: #4695f7;
+    text-shadow: 0px 0px 1px #4695f7;
+}
+
+/* EXTERNAL LINKS AND SERVICES - PURPLE */
+
+.external {
+    font-weight: bold;
+    color: #dd0f90;
+    text-shadow: 0px 0px 1px #dd0f90;
+}
+
+/* INLINE ORANGE TEXT */
+
+.link_to_heading {
+    font-weight: bold;
+    color: #ed8649;
+    text-shadow: 0px 0px 1px #ed8649;
+}
+
+/* MENU PATHS OF ACTIONS - GREEN */
+
+.menu-breadcrumbs {
+    
+    font-weight: bold;
+    font-size: 1rem;
+    color: #75B938;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    text-shadow: 0px 0px 1px #75B938;
+}
+
+/* TIP, NOTE, WARNING BOX - RED */
+
+.warning {
+    font-size: 0.9rem;
+    color: #FA5750;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 3px solid #FA5750;
+    padding: 1%; 
+    background-color: #FFF;
+    text-shadow: 0px 0px 1px #FA5750;
+    text-indent: 0em;
+    box-shadow: 0 2px 3px #0000001f, 0 1px 2px #0000003d;
+}
+
+
+/* DARK MODE SWITCH */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch input:checked + .slider {
+  background-color: #221a0f;
+
+}
+.switch input:checked + .slider:before {
+  transform: translateX(30px);
+  background-color: transparent;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  box-shadow: inset -5px -3px 0 #d8e9ef;
+}
+
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fffaf5;
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #808080;;
+  
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: yellow;
+  transition: 0.4s;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+}
+
+/* GO TO THE TOP BUTTON */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 1%;
+  left: 70%;
+  z-index: 99;
+  border: none;
+  outline: none;
+  
+  color: #ED8649;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #FFF;
+    text-shadow: 0px 0px 1px #FA5750;
+    text-indent: 0em;
+    box-shadow: 0 2px 3px #ED8649, 0 1px 2px #0000003d;
+}
+
+#myBtn:hover {
+  background-color: #fdefee;
+}
+</style>
+
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Back to Table of Contents"><span class="icon_red"></span> <b>Table of Contents</b></button>
+
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 2000px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        var targetElement = document.getElementById("toc");
+
+        if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" }); // Smooth scrolling
+        }
+    }
+    </script>
+
+
+<div class="outer-container">
+
+    <div>
+        <div class="standard-text" style="font-weight: bold;            font-size: 3em; text-align: center; color: #00A89C; text-shadow: 0px 0px 1px #00A89C;"><img class="img_inline" src="pictures/koreader_logo.png" style="width:120px;"><br>KOREADER <br>USER GUIDE <br></div> 
+    </div>
+        
+<hr>
+
+    <div class="standard-text">
+    <p>This guide is designed for larger screens with color and contains links to relevant websites so we highly recommend reading this on a computer or a tablet (instead of your e-ink device). You can use the search function of your browser to find a specific topic. You can also turn on the <b>Dark Mode</b> with the button at the upper left corner.</p>
+    <p>Parts of the text are color coded according to their category:</p>
+    </div>
+   
+    <div class="standard-text" style="text-indent: 0em;margin-left: 10%;line-height: 260%;">		
+        <span style="color: #4695f7; font-weight: bold;font-size: 1.2rem;text-shadow: 0px 0px 2px #4695f7;">BLUE	    •	USER INTERFACE ELEMENTS OF KOREADER</span></br>
+        <span style="color: #75B938; font-weight: bold;font-size: 1.2rem; text-shadow: 0px 0px 2px #75B938;">GREEN 	• 	MENU PATHS</span></br>
+        <span style="color: #Fa5750; font-weight: bold;font-size: 1.2rem; text-shadow: 0px 0px 2px #Fa5750;">RED		•	ADVANCED TOPICS, NOTES AND WARNINGS</span></br>
+        <span style="color: #dd0f90; font-weight: bold;font-size: 1.2rem; text-shadow: 0px 0px 2px #dd0f90;">PURPLE	• 	EXTERNAL APPS AND SERVICES</span></br>
+        <span style="color: #009788; font-weight: bold;font-size: 1.2rem; text-shadow: 0px 0px 2px #009788;">TEAL	• 	LINKS</span>
+    </div>
+        
+    <div class="standard-text">KOReader is developed and supported by volunteers all around the world. You can contribute and be a part of this project too.
+    </div>
+
+    <div class="standard-text"><b>Things you can do:</b>
+        <ul>
+        <li>Fix bugs and implement new features</li>
+        <li>Translate the program into your language or improve an existing translation</li>
+        <li> Document lesser-known features on the wiki</li>
+        <li> Help others with your knowledge in the forums</li>
+        </ul>
+
+    <span style="text-align: center;">Check <span class="link_to_heading">MORE INFO</span> section at the end for the links.</span>
+    </div>
+
+
+    <div class="L1-Chapter-heading" id="toc">TABLE OF CONTENTS</div>
+
+    <div class="double-container">
+        <div>
+            <div class="standard-text" style="line-height: 2.3rem;">
+                <ul>
+                <li><a href="#whatcanyoudo">WHAT CAN YOU DO WITH KOREADER ?</a></li>
+                <li><a href="#userinterface">USER INTERFACE</a></li>            
+                    <ul>
+                        <li><a href="#readingscreen">Reading Screen</a></li>
+                        <li><a href="#filebrowser">File Browser</a></li>
+                        <li><a href="#uitips">User Interface Tips</a></li>
+                        <li><a href="#bottomexplained">Bottom Menu Items Explained</a></li>
+                    </ul>
+            
+                <li><a href="#basicreading">BASIC READING INFO</a></li>       
+                    <ul>
+                        <li><a href="#keyboard">Keyboard Usage And Tips</a></li>
+                        <li><a href="#autowarmth">Auto Warmth And Night Mode</a></li>
+                        <li><a href="#fonts">Fonts</a></li> 
+                    </ul>
+                
+                
+                <li><a href="#moving">MOVING THROUGH YOUR BOOK</a></li>
+                   <ul>
+                        <li><a href="#skimwidget">Skim Widget</a></li>
+                        <li><a href="#bookmap">Book Map</a></li>
+                        <li><a href="#pagebrowser">Page Browser</a></li>
+                   </ul>
+            
+                <li><a href="#bookmarks">BOOKMARKS, HIGHLIGHTING AND NOTES</a></li>
+                    <ul><li><a href="#exportinghighlights">Exporting your highlights</a></li></ul>
+            
+                <li><a href="#pdfs">READING PDFS</a></li>
+                    <ul>
+                        <li><a href="#readingpdfs">Reading large PDFs on a small screen</a></li>
+                        <li><a href="#pdfbottom">Explanations Of Pdf Specific Bottom Menu Items</a></li>
+                        <li><a href="#ocr">OCR (Optical Character Recognition)</a></li>
+                        <li><a href="#panelzoom">Panel Zoom (manga/comic)</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="standard-text" style="line-height: 2.3rem;">
+            <ul>
+            <li><a href="#gestures">GESTURES, QUICK MENU AND PROFILES</a></li>
+                <ul>
+                    <li><a href="#predefinedgestures">Predefined Gestures</a></li>
+                    <li><a href="#gesturecategories">Gesture Categories</a></li>
+                    <li><a href="#quickmenu">Quick Menu</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
+                </ul>
+     
+            <li><a href="#plugins">PLUGINS AND USER PATCHES</a></li>
+                <ul>
+                    <li><a href="#plugintypes">Plugin types</a></li>
+                    <li><a href="#pluginslist">List of internal plugins</a></li>
+                </ul>
+     
+            <li><a href="#preparing">PREPARING AND TRANSFERRING YOUR DOCUMENTS</a></li>
+            <ul>
+                <li><a href="#transferring">Transferring books to your reader</a></li>
+                <li><a href="#optimizing">Optimizing EPUB/PDF documents for your mobile reader device</a></li>
+                <li><a href="#zipfiles">ZIP file support</a></li>
+                <li><a href="#manga">Optimizing manga for your mobile reader device</a></li>
+            </ul>
+
+            <li><a href="#tips">TIPS</a></li>
+            
+            <li><a href="#troubleshooting">TROUBLESHOOTING</a></li>
+            
+            <li><a href="#moreinfo">MORE INFO</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="L1-Chapter-heading" id="whatcanyoudo">WHAT CAN YOU DO WITH KOREADER ?</div>
+
+    <div class="standard-text"><b>Despite its minimalistic looks, KOReader is a very powerful and customizable application. Check the list below to see what can you do with KOReader. All these features are explained in this guide.</b>
+    </br></br>
+        <span class="L3-Smaller-heading">Transferring your files</span>
+        <ul>
+        <li><b>USB mass storage</b> mode for supporting devices</li>
+        <li><b>Cloud storage</b> (<span class="external">Dropbox</span>/FTP/Webdav) with suitable accounts
+        <li>KOReader can act as an <b>SSH server</b>, so you can use an SFTP application or your file manager to directly transfer files
+        <li>With the <span class="external">Calibre</span> plugin you can send books from your Calibre Library directly to your KOReader devices over wifi
+        <li>With the <b>News downloader plugin</b> you can download RSS and Atom news entries to your device as HTML files
+        <li>With the Wallabag plugin you can retrieve articles from your Wallabag account (a server based read-it-later service like <span class="external">Pocket</span>)
+        </ul>
+        
+        <span class="L3-Smaller-heading">Text adjustments</span>
+        <ul>
+        <li>Change to landscape orientation manually or (if your device supports) automatically</li>
+        <li>Change fonts (including your own), font size, contrast, boldness, kerning, word spacing, word expansion</li>
+        <li>Change text alignment, line spacing, column layout and margins</li>
+        <li><b>Apply</b> or <b>ignore</b> publisher styles and fonts</li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">While reading</span>
+        <ul>
+        <li>Highlight text with different styles, place bookmarks</li>
+        <li>Add notes using a customizable keyboard including diacritic modifiers</li>
+        <li>Invert screen colors</li>
+        <li>Take screenshots</li>
+        <li>Turn pages automatically</li>
+        <li>Track your reading statistics including <b>reading progress</b>, <b>time range</b> and <b>calendar views</b></li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">Navigating through your collection</span>
+        <ul>
+        <li>Powerful <b>File Browser</b> where you can copy, move, rename, create, delete files and folders</li>
+        <li>Many options to see your books with detailed and mosaic views</li>
+        <li>Add your books to <b>Favorites</b> for quick access</li>
+        <li><b>History</b> that shows last accessed books</li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">Navigating through your book</span>
+        <ul>
+        <li><b>Skim widget</b> to quickly jump between pages, chapters, bookmarks</li>
+        <li>Unique <b>Book map</b> to see a bird’s eye view of your book including all your notes and highlights</li>
+        <li><b>Page browser</b> to move through pages like a film reel</li>
+        <li><b>Bookmarks browser</b> to navigate between your highlights easily</li>
+        </ul>
+    
+        <span class="L3-Smaller-heading"> Search, Lookup and Translation</span>
+        <ul>
+        <li>Search the document by selecting or entering text (including <b>regular expressions</b>)</li>
+        <li>Search in your bookmarks, highlights and notes</li>
+        <li>Lookup text in <span class="external">Wikipedia</span> or in installed dictionaries and translate it by a long-tap</li>
+        <li>Translate whole page at once between more than 130 languages</li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">Device settings</span>
+        <ul>
+        <li>KOReader can self update</li>
+        <li>Powerful <b>gesture system</b> which you can customize and expand</li>
+        <li>Create a menu with your favorite actions with <b>Quick Menu</b></li>
+        <li>Dim or turn off your <b>screen light</b> after a set interval</li>
+        <li>Adjust frontlight/backlight level and <b>warmth</b> manually or automatically</li>
+        <li>Set your own <b>screensaver</b> from many options like random images, book cover, reading </li>progress etc.
+        <li>Set battery <b>charge limit alarms</b> to prevent deep discharge/over charge</li>
+        <li>Set a memory usage alert (useful for devices for smaller memory) and optionally restart KOReader upon reaching this limit</li>
+        </ul>
+
+
+        <span class="L3-Smaller-heading">PDF documents</span>
+        <ul>
+        <li>Crop margins automatically or manually</li>
+        <li><b>Reflow</b> documents to extract text and read easier on a small screen</li>
+        <li>Apply <b>OCR</b></li>
+        <li>Different zoom types and page flow directions to read <b>multi-column documents</b> easily</li>
+        <li>Auto straighten tilted documents</li>
+        <li>Special <b>Panel zoom</b> feature for reading mangas</li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">Advanced features</span>
+        <ul>
+        <li>Create a <b>QR code</b> from your clipboard</li>
+        <li>Add your own <b>CSS style tweaks</b> for books</li>
+        <li>View HTML source of a selection in an EPUB document</li>
+        <li>Powerful <b>Profiles</b> feature to automate actions</li>
+        <li>Create and edit text files on your device</li>
+        <li>Open a terminal emulator and run commands on your device</li>
+        <li>See your CPU, memory and battery usage stats</li>
+        </ul>
+        
+        <span class="L3-Smaller-heading">Exporting your notes and highlights</span>
+        <ul>
+        <li>Export your notes and highlights to your device as text, markdown, HTML, JSON or Kindle clippings format</li>
+        <li>Synchronize to online services like <span class="external">Joplin</span>, <span class="external">Readwise</span> and <span class="external">Memos</span></li>
+        </ul>
+    </div>
+
+    <div class="L1-Chapter-heading" id="userinterface">USER INTERFACE</div>
+
+    <div class="standard-text">KOReader has a simple, mainly black and white user interface because gradients and different shades of gray can cause flashing and ghosting on e-ink screens which can degrade reading experience. 
+        
+    <p>KOReader has 2 main interfaces: <span class=ui>READING SCREEN</span> and <span class=ui>FILE BROWSER</span>.</p>
+    </div>
+
+    <div class="L2-Sub-heading" id="readingscreen">Reading Screen</div>
+
+    <div class="standard-text"> <b>READING SCREEN</b> has two toolbars. <span class=ui>TOP MENU</span> includes menu items related to the general usage of KOReader. You will access your books, KOReader preferences, plugins etc. here. <span class=ui>BOTTOM MENU</span> is focused on options for document formatting like font weight/size, line spacing etc. While adjusting your text appearance, you will mostly interact with the <span class=ui>BOTTOM MENU</span>.
+    </div>
+
+    <br>
+
+    <div class="double-container">
+        <div><img src=pictures/menus.png style="width:350px;"></div>
+        <div><img src=pictures/tap_zones.png style="width:350px;"></div>
+    </div>
+
+    <div class="standard-text">On the right you can see the default tap zones of KOReader. To show the <span class=ui>TOP MENU</span> or <span class=ui>BOTTOM MENU</span> you can tap the indicated zones. You can also swipe down the upper zone to show the <span class=ui>TOP MENU</span>. On non-touch devices like Kindle 4 you can open the <span class=ui>BOTTOM MENU</span> by pressing the button that corresponds to the <b>ENTER/OK</b> action.
+    
+    <p>You can set <span class=ui>TOP MENU</span> zone to open both the <span class=ui>TOP</span> and <span class=ui>BOTTOM MENU</span> at the same time via this menu:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Activate Menu
+    </div>
+    </div>
+
+    <div class="standard-text"><span class=ui>CORNER TAP ZONES</span> can be used for many different type of gestures including <b>TAP, DOUBLE TAP, TWO FINGER TAP</b> and <b>TAP and HOLD</b>.
+    <p><b>PREVIOUS PAGE</b> and <b>NEXT PAGE</b> zones can also be used for <b>DOUBLE TAP</b> gestures at the same time.</p>
+    <p><span class=ui>STATUS BAR</span> zone can be tapped to cycle between <span class=ui>STATUS BAR</span> items if only one item is visible. If all items are visible, tapping will show and hide the <span class=ui>STATUS BAR</span>. Check <span class="link_to_heading">“How can I configure the status bar ?”</span> heading for more info.</p>
+    </div>
+
+    <div class="L2-Sub-heading" id="filebrowser">File Browser</div>
+
+    <div class="standard-text">You will see <span class=ui>FILE BROWSER</span> when you run KOReader for the first time. You can access it from the reading screen by:
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU →  <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"></div>
+
+    </div>
+
+    <img src="pictures/file_browser_ui.png" style="width:700px;">
+
+    <div class="standard-text">By default, <span class=ui>FILE BROWSER</span> shows your <span class=ui>HOME</span> which is your main library folder which you can change by <b>tapping and holding on any folder</b>. You can change its many options like how books are displayed or sorted via the <span class=ui>TOP MENU</span> by swiping down from the top part of the screen.
+    <p>Circled items in the image are explained below:</p>
+    <p><span class=ui>RESET:</span> This option basically resets your book by deleting its configuration file. </p>
+    <p><div class=warning><span class="icon_red"></span> If you select this option, you will lose all your notes and highlights in this book.</div></p>
+    <p><span class=ui>OPEN WITH:</span> KOReader has different engines for rendering different file types. In some cases you can open a file in a different engine to get some other features. See <b>Viewing archive files</b> and <b>Viewing image files</b> sections just below.</p>
+    <p><span class=ui>IGNORE COVER:</span> If for some reason you want to disable the cover for this book (it may have wrong cover or cover is not very readable on the e-ink screen) you can select this.</p>
+    <p><span class=ui>IGNORE METADATA:</span> If your book metadata is not correct, name field may show useless information. Select this option to show the file name instead of metadata.</p>
+    <p><span class=ui>REFRESH CACHED BOOK INFORMATION:</span> KOReader caches a book's metadata and book cover when you add it to your library. If you make some changes to the book after copying to your device, this information might need to be updated. If you see wrong cover or metadata, you can refresh the book information with this menu item.</p>
+    </div>
+
+    <div class="L3-Smaller-heading">Viewing archive files</div>
+    <div class="standard-text">You can open <b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) files with the archive viewer to have a look at the contained files:
+    </div>
+  
+    <div class="standard-text">
+    <ol>
+    <li>In <span class=ui>File Browser</span> long-press the file name</li>
+    <li>Tap <span class=ui>Open with…</span></li>
+    <li>Tap <span class=ui>Archive viewer</span></li>
+    </ol>
+    </div>
+    
+    <div class="L3-Smaller-heading">Viewing image files</div>
+    <div class="standard-text">You can open image files with the image viewer instead of opening as a book. Files opened like this don’t show up in your history and have better scaling and rotation support.
+    <ol>
+    <li>In <span class=ui>File Browser</span> long-press the file name</li>
+    <li>Tap <span class=ui>Open with…</span></li>
+    <li>Tap <span class=ui>Image viewer</li></span>
+    </ol>
+    </div>
+    
+    <div class="L3-Smaller-heading">Accessing your books</div>
+    <div class="standard-text">
+    Following methods are available for accessing your books and articles:
+    <ul>
+    <li>File Browser</li>
+    <li>Favorites</li>
+    <li>History</li>
+    </ul>
+
+    <p>You can assign gestures for each of these dialogs. For example while reading a book, you can access your <span class=ui>History</span> or <span class=ui>Favorites</span> with a gesture and open another book without going through the <span class=ui>File Browser</span>.</p>
+    <p>You can also set KOReader to start with <span class=ui>Favorites</span> or <span class=ui>History</span> screen via:</p>
+    
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Start with</div>
+
+    </div>
+
+    <div class="L2-Sub-heading" id="uitips">User Interface Tips</div>
+
+    <div class="standard-text"> KOReader’s interface and options change according to the file type you open. There are mainly two types of files: <b>Fixed layout documents</b> (PDF, DJVU, image files...) and <b>Reflowable documents</b> (EPUB, HTML, DOCX, RTF, TXT…).
+
+    <p>- You can change the interface language via:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Language</div>
+
+    </div>
+
+    <div class="standard-text">- If you tap and hold an <b>option</b> or <b>menu item</b> (font weight, line spacing etc.), you can set its value as <span class=ui>DEFAULT</span>.  The new value will only be applied to books opened from now on. Previously opened books will keep their settings. You can identify default values as a <span class=ui>star</span> (★) in the menu or as a <span class=ui>black border</span> around the indicators as seen below:
+            
+    <img src="pictures/default_border.png" style="width:500px;">
+    <br>
+    <img src="pictures/default_star.png" style="width:240px;">
+    
+    <p>- On the <b>BOTTOM MENU</b> if you tap and hold an option’s name, you can see its explanation.</p>
+    <p>- You can <b>CLOSE</b> full screen dialogs (<span class=ui>History, Table of Contents, Bookmarks, Reading Statistics</span> etc.) by <b>swiping down.</b></p>
+    <p>- You can take a screenshot by making a <b>long diagonal swipe</b> with your finger.</p>
+
+    <img src="pictures/non_full_screen_dialog.png" style="width:240px;">
+
+    <p>- In dialogs containing adjustment arrow buttons like the one above, you can <b>tap and hold</b> on arrow buttons to change the value in bigger increments.</p>
+    <p>You can <b>CLOSE</b> this type of dialog (non-full screen) by tapping outside of its window.</p>
+    <p>You can <b>MOVE</b> this type of dialog by holding its window title and dragging.</p>
+    <p>You can make this type of dialog <b>SEMI-TRANSPARENT</b> by tapping and holding the <b>window title</b> (when you want to see the text under it while adjusting a value).</p>
+    <p>KOReader supports <b>dictionary lookup</b> in EPUB and scanned PDF/DJVU documents. To see the dictionary definition or translation, just tap and hold a word.</p>
+    <p>- Tapping and holding a word brings up a dialog where you can also search the selection in the document for more occurrences or look it up on Wikipedia.</p>
+    <p>- If you want to change the size of user interface, there is a <span class=ui>DPI</span> setting for that:</p>
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screen DPI</div>
+
+    <p>You can choose a value from the menu or select <span class=ui>CUSTOM DPI</span> to enter a value for fine tuning: <b>Higher DPI = Bigger Interface</b></p>
+    <p>Note that there is also a <span class=ui>Zoom (dpi)</span> setting in the bottom bar. That one is related to the documents only. You can find the explanation in the next section.</p>
+    <p>- You can disable black flashing (automatic partial refresh to clear ghosting) of user interface if it disturbs you :</p>
+    
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → E-ink Settings</div>
+
+
+    - If you want to check the current date you can tap on the clock in the <span class=ui>TOP MENU</span>.
+
+    </div>
+
+    <div class="L3-Smaller-heading">Menu search</div>
+    
+    <div class="standard-text">
+    KOReader has lots of features so its menu system reflects this complexity. We have a Menu Search feature for finding menu items quickly. You can access it from:
+   
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → Menu search</div>
+
+    <p>Also you can assign this feature to a gesture or add it to your <span class=ui>Quick Menu</span> for faster access.</p>
+    </div>
+            
+    <div class="L3-Smaller-heading">Scrolling types</div>
+
+    <div class="standard-text">KOReader has three types of touch scrolling. You can access this from:
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Scrolling</div>
+
+    <div class=warning><span class="icon_red"></span> You have to enable <span class=ui>Continuous mode</span> from the <span class=ui>Bottom menu</span> to be able to use scrolling.</div>
+
+    <p><b>Classic scrolling:</b> This mode works exactly like your phone/tablet scrolling.</p>
+
+    <p><b>Turbo scrolling:</b> This mode allows you to scroll faster than <span class=ui>classic scrolling</span>. Also you can scroll several pages without lifting your finger. Scrolling amount is proportional to the distance you move your finger after you initiated scrolling.</p>
+
+    <p><b>On-release scrolling:</b> This scrolling type is more suitable for e-ink screens. Because unlike other scrolling types, this mode doesn’t refresh your page continuously while scrolling. It works like <span class=ui>classic scrolling</span> but intermediate steps are not shown. So you scroll with your finger and when you release, page jumps to that position. This is especially useful <b>to reposition and adjust the view</b> if your book contains pictures or tables and you want to see all of it.</p>
+    </div>
+
+    <div class="L3-Smaller-heading">Go back to previous location</div>
+    <div class="standard-text">
+        This useful feature works like the <b>Back</b> button in your browser. When you jump to some other part of the book using <span class=ui>Skim widget, Bookmarks list, Book map</span> etc. KOReader remembers your previous location. This is useful for example if you follow an internal link or reference. With one tap you can go back to where you come from. You can access this feature from:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Go back to previous location</div>
+
+    <div class="standard-text">
+        Also you can go forward too, from the same menu. This feature is assigned to ← → multiswipe gesture. You can assign this to another gesture if you want (like tapping a corner) or add it to your <span class=ui>Quick Menu</span>.
+    </div>
+
+    <div class="L3-Smaller-heading">Prevent flashing on pages with images</div>
+
+    <div class="standard-text">
+        KOReader normally perform a full refresh on pages containing images (which you can observe as a black flash). The reason is to get rid of the residue and ghosting from the previous page. But this might not be necessary depending on your device and personal preferences. You can disable this auto-refresh behavior here:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → Screen → E-ink Settings → Full refresh rate → Always flash on pages with images</div>
+
+    <div class="L3-Smaller-heading">Partial rendering support</div>
+
+    <div class="standard-text">
+    With the version 2023.03, KOReader gained partial rendering capability while reading EPUB documents. Before this version, when you made an adjustment like changing font size, the whole book had to be rendered again to be able to preview the new setting. Depending on the device and book size, this can take a while to calculate.
+
+    <p>With this new feature, when reading EPUB documents, text appearance adjustments can be done much quicker by only rendering the current chapter.</p>
+
+    <div class=warning><span class="icon_red"></span> This is only possible if your EPUB is composed of multiple fragments. EPUB files are basically .zip archives that contain .html files. Some books can be a single .html file while others may be composed of multiple .html files like each chapter of the book is a seperate .html file. <u>If your book is only a single .html file, partial rendering can not work, because for each change KOReader still has to calculate the whole book.</u>
+    </div>
+    
+    <p>Also rotating your screen orientation is now much faster thanks to this feature. This feature is <b>ENABLED</b> by default. If necessary, it can be disabled per book (with a tap), or globally (with a long-tap) on:</p>
+    </div>
+
+    <div class="standard-text">
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → Document → Enable partial renderings</div>
+
+    <p>After these partial renderings, KOReader and the book enter a degraded state: You can turn pages but some info and features may be broken or disabled (i.e. footer info, ToC, statistics…). To get back to a normal working state, KOReader has to render the rest of the book too. While this is happening, an icon at the top left corner of the screen indicates the status:</p>
+    
+   </div>
+
+    <div class="standard-text">
+        <ol>
+        <li>
+        <img class="img_inline" src="pictures/partial_rendering_1.svg" style="width:50px;"> Document is <span class="link_to_heading">partially</span> rendered. Page count, footer info and many things are <span class="link_to_heading">innacurate</span>. You can see how the new settings look and adjust further. You can also turn pages, jump links in this state.
+        </li>
+        <li>
+        <img class="img_inline" src="pictures/partial_rendering_2.svg" style="width:50px;"> A full rendering is happening in the <span class="link_to_heading">background</span>. You can still turn pages, jump links, change settings.
+        </li>
+        <li>
+        <img class="img_inline" src="pictures/partial_rendering_3.svg" style="width:50px;"> Full rendering is done, but <span class="link_to_heading">not yet applied</span> because KOReader is waiting for you to be <span class="link_to_heading">idle</span> to reload the rest of the book (idle=not interacting with the device). You can still turn pages, jump links, change settings.
+        </li>
+        <li>
+        <img class="img_inline" src="pictures/partial_rendering_4.svg" style="width:50px;">You've been idle for a while so KOReader is now reloading the whole document. 
+        At this step KOReader is <span class="link_to_heading">blocked</span> to prevent interaction.
+        </li>
+        </ol>
+    </div>
+
+    <div class="standard-text">When these icons are all gone, you are again in a fully working state. Generally this whole process is quick and as a user you don’t need to do anything extra. You can just adjust your settings and continue reading your book, KOReader will do the rest.
+    </div>
+
+
+    <div class="L2-Sub-heading" id="bottomexplained">Bottom Menu Items Explained</div>
+
+    <div class=warning><span class="icon_red"></span> You can see an explanation of these items when you long tap on their names in the bottom menu.
+    </div>
+
+    <img src="pictures/bottom_menu_3.png" style="width:500px;">
+
+    <div class="standard-text">
+    <span class=ui>VIEW MODE:</span> If you change to <span class=ui>CONTINUOUS</span> mode you can scroll the document like a web page. This mode is more suitable for non e-ink screen types (LCD, OLED). In continuous mode <b>you lose TOP and BOTTOM MARGINS</b> so text may be cut on first and last line of screen. To solve this problem you can enable <span class=ui>PAGE OVERLAP</span>:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Page Overlap</div>
+    
+    <div class="standard-text">
+    <span class=ui>RENDER MODE:</span> This option determines how your document is rendered by KOReader. Default is <span class=ui>WEB</span> and generally you don’t need to change this setting. When a book (or saved web page) is very complicated (specified widths or margins, negative margins, floats etc.) and layout looks bad or overflow the screen, you can try other rendering modes.
+    
+    <p><span class=ui>ZOOM (dpi):</span> This setting can be thought of as a <b>general zoom factor</b> for the document (except font size). At 96 dpi (which is the default setting), images in the document are rendered at their original dimensions. Basically you will use this setting if you want to <b>make images bigger without making the text bigger</b>.</p>
+    </div>
+    
+    <hr>
+         
+    <img src="pictures/bottom_menu_4.png" style="width:500px;">
+
+    <div class="standard-text">
+    <span class=ui>WORD SPACING and WORD EXPANSION:</span> These two settings are related and they determine how your text will look when it is justified. When you justify text, space is added between words so that both edges of each line are aligned with both margins. Since word counts of lines are not equal all the time, in justified alignment, text has to be compressed or expanded to fill the line.
+    <p><span class=ui>WORD SPACING:</span> How much the <b>SPACE</b> characters in a line of text can be compressed to fit more words. This setting doesn’t affect words, it only changes the space between them.</p>
+    <p>
+    <span class=ui>WORD EXPANSION:</span> If you have too much white space in a line, how much of that can be distributed into the words by expanding them. This setting affects the appearance of words. If you don’t want your words to expand, set this to <span class=ui>NONE</span>.</p>
+    
+    <p>You can experiment with different settings until the text looks pleasing to you, then set them as defaults via their respective dialogs.</p>
+    </p>
+    </div>
+    
+    <hr>
+       
+    <img src="pictures/bottom_menu_5.png" style="width:500px;">
+
+    <div class="standard-text">
+    <span class=ui>CONTRAST</span> and <span class=ui>FONT WEIGHT</span> are two options that you can use to make your text bolder (or lighter). You can achieve the same appearance with either of these options but they use different methods to achieve it. Of course you can use them both at the same time.
+
+
+
+    The differences between them can be summarized as: 
+    <div class="double-container">
+        <div>  
+            <span class=ui>CONTRAST</span>           
+            <p><b>+</b> Doesn’t change font width, book length stays the same</p>
+            <p><b>+</b> Doesn’t need to re-render document, faster</p>
+            <p><b>-</b> Might look bad on LCD or low DPI screens.</p>
+        </div>
+        <div>
+            <span class=ui>FONT WEIGHT</span>        
+            <p><b>+</b> Will use proper weighted fonts if you have them installed</p>
+            <p><b>+</b> Look better on LCD or low DPI screens</p>
+            <p><b>-</b> Has o re-render fonts, slower</p>
+        </div>
+    </div>
+
+
+    <p><span class=ui>FONT HINTING</span> adjusts your text for maximum readability according to your screen’s pixel grid. <span class=ui>NATIVE</span> uses font’s internal hinting instructions, <span class=ui>AUTO</span> uses FreeType’s hinting algorithm. <span class=ui>AUTO</span> is a safer choice because font files that you installed may have problematic hinting instructions. Also <span class=ui>AUTO</span> handles <b>CJK</b> text better. You can try different settings to see which one looks better on your device.</p>
+    
+    <p><span class=ui>FONT KERNING</span> adjusts the spacing between letters to achieve a visually pleasing result. Default is <span class=ui>BEST</span>, which might be <b>slower</b> when opening files (depending on your device) but <b>has better support for ligatures</b> (see picture below for an example), joined <b>Arabic</b> glyphs and some other scripts. If your device is slow, you can try <span class=ui>GOOD</span> which is faster and may still look correct with western latin-script text.</p>
+    </div>
+    
+    <img src="pictures/kerning_ligatures.png" style="width:300px;">
+    
+    <hr>
+
+    <img src="pictures/bottom_menu_6.png" style="width:500px;">
+
+    <div class="standard-text">
+    <span class=ui>ALT STATUS BAR</span> enables an alternative status bar which is available only in reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). After enabling it here, you can configure <span class=ui>ALT STATUS BAR</span> via:
+    </div>
+   
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Alt status bar</div>
+    
+    <div class="standard-text">
+    <span class=ui>EMBEDDED STYLE</span> and <span class=ui>EMBEDDED FONTS</span> determine if publisher’s styles and fonts embedded in the document will be used (or ignored) to render the document. These are general on/off switches. You can achieve more fine tuned tweaks for your document via:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div>
+
+    <div class="standard-text">
+    <span class=ui>IMAGE SCALING</span> determines how images in your document are rendered. <span class=ui>BEST</span> looks more pleasing but it is slower.
+    </div>
+
+
+
+    <div class="L3-Smaller-heading">Saving your text appearance settings for later use</div>
+    <div class="standard-text">
+    This powerful feature allows you to save all the <span class=ui>BOTTOM MENU</span> settings + font type as a <b>profile</b>. This means you can have different group of settings for different conditions or book types which you can apply at once instead of changing the settings manually every time.
+    For example you can create a:
+    <ul>
+        <li><b>Double column</b> profile with <span class=ui>two columns</span> of small sized text, <span class=ui>landscape orientation</span> and minimum <span class=ui>margins</span></li>
+        <li><b>Night reading</b> profile with <span class=ui>bigger sans serif font</span> and higher <span class=ui>contrast</span> for more visible text under low light</li>
+        <li><b>Disabled styles</b> profile with <span class=ui>embedded style</span> and <span class=ui>embedded fonts</span> disabled for badly structured books</li>
+    </ul>
+    After adjusting your settings to your liking, you can create a profile from them via:
+    </div>
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Profiles → New with current document settings</div>
+
+    <div class="standard-text">
+    After creating a profile with your settings, you have many options for applying it to another book:
+        <ul>
+        <li>You can apply the profile from the <span class=ui>Profiles menu</span></li>
+        <li>You can assign a gesture to it</li>
+        <li>You can show it in your <span class=ui>Quick Menu</span></li>
+        </ul>
+
+    <p>Please see the <a href="#gestures">GESTURES, QUICK MENU AND PROFILES</a> chapter for more information.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="L1-Chapter-heading" id="basicreading">BASIC READING INFO</div>
+    <div class="L3-Smaller-heading">How can I personalize my text ?</div>
+
+    <div class="standard-text">
+    <ul>
+    <li><b>You can change the font*</b>:<div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font</div></li>
+    <li><b>Make the font bigger</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"></div></li>
+    <li><b>Make the font bolder</b><div class="menu-breadcrumbs"> <span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"></div></li>
+    <li><b>Invert the colors on screen (white on black)</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Night Mode</div></li>
+    <li><b>Change many other formatting options</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div></li>
+    </ul>
+
+
+    <div class=warning><span class="icon_red"></span> *Font selection and style tweaks are available only on reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents like PDF/DJVU are not supported.
+    </div>
+
+    <p>You can also change other formatting options from the <span class="ui">BOTTOM MENU</span> to fine tune the appearance of your text.</p>
+    <p>You can see your reading statistics via:</p>
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Reading Statistics</div>
+
+    
+    <div class="L3-Smaller-heading">How can I control the backlight / frontlight of my screen ?</div>
+    <div class="standard-text">
+    You can control your screen light via this menu. If you have warm lighting (normal white LEDs+orange ones) you can control them separately from this dialog. You can also define a gesture for this dialog:
+    </div>
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Frontlight</div>
+
+    <div class="L3-Smaller-heading">How can I configure the status bar ?</div>
+    <div class="standard-text">
+    You can configure bottom status bar from this menu. Feel free to explore the <span class=ui>SETTINGS</span> sub-menu to customize your status bar as you like.
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar</div>
+
+    <div class="standard-text">
+    There are many items you can show on the status bar. But by default, only one is shown at a time and you have to click on the status bar to cycle between them. If you want to show all items at once, enable this menu item:
+    </div>
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Show all at once</div>
+
+    <div class="standard-text">You can sort the items via:</div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Sort items</div>
+
+    <div class="standard-text">You can toggle the visibility of the status bar with a gesture or via Quick Menu:</div>
+
+    <div class="menu-breadcrumbs">Gesture selection menu → Reader → Toggle status bar</div>
+
+    <div class="standard-text">
+    There is also an <span class=ui>ALT STATUS BAR</span> which is available in reflowable documents (epub, html, docx, rtf, txt…). If you prefer to use this, you can enable via:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Alt Status Bar</div>
+
+    <div class="L3-Smaller-heading">How can I change the screen displayed while sleeping ?</div>
+    <div class="standard-text">
+    You can choose a book cover or a custom image as screensaver via this menu: 
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver</div>
+    
+    <p>You can use JPG/PNG files as screensaver (properly dithered grayscale images look best). Transfer the files from your computer into any folder on your device. And choose this folder as your screensaver folder via this menu:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings</div>
+
+    Please refer to this forum post for advanced information about screensaver images:
+    <a href="https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17">https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="L2-Sub-heading" id="keyboard">Keyboard Usage And Tips</div>
+    <div class="standard-text">
+<ul>
+    <li>Tap outside the input field to close the keyboard, tap the input field to show the keyboard again</li>
+    <li><b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase if you are already in <b>shift</b> mode)</li>
+    <li>You can change the appearance of the keyboard:
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard settings</div></li>
+    <li>You can select more than one layout:
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard layout</div></li>
+    <li>You can change between your selected layouts by tapping the  <img class="img_inline" src="pictures/keyboard_world.png" style="width:26px;">  icon on the keyboard</li>
+</ul>
+    </div>
+
+    <div class="L3-Smaller-heading">Entering extra characters</div>
+
+    <div class="standard-text">Koreader keyboard allows entering extra characters when you tap and hold a key. Most frequently used extra characters are shown below. You can tap and hold the key in the <b>gray box</b> to get the surrounding characters:
+
+        <img src="pictures/keyboard.png" style="width:800px;">
+
+    Additionally there are some shortcuts for easier text manipulation. You can tap and hold these keys for the actions:
+    <ul>
+        <li><b>Backspace</b> - Deletes all characters from the cursor to the beginning of the line</li>
+        <li><b>Left Arrow</b> - Moves the cursor to the beginning of the line</li>
+        <li><b>Right Arrow</b> - Moves the cursor to the end of the line</li>
+    </ul>
+	
+	
+	For more information you can check the related wiki page:
+    <p><a href="https://github.com/koreader/koreader/wiki/Virtual-keyboard">https://github.com/koreader/koreader/wiki/Virtual-keyboard</a></p>
+
+    KOReader also integrates the Chinese stroke keyboard for inputting simplified and traditional Chinese characters. You can find more info about it in our wiki:
+    <p><a href="https://github.com/koreader/koreader/wiki/Chinese-keyboard">https://github.com/koreader/koreader/wiki/Chinese-keyboard</a></p> 
+    </div>
+
+
+
+    <div class="L2-Sub-heading" id="autowarmth">Auto Warmth And Night Mode</div>
+
+    <div class="standard-text">
+    This plugin allows you to adjust frontlight warmth in devices with <b>natural (yellow/orange) light</b> and set <span class=ui>Night Mode</span> (inverted screen colors – <b>white text on black background</b>) automatically according to a schedule. It can control them both or you can choose <span class=ui>only warmth control</span> or <span class=ui>only Night Mode control</span> mode, so you can adjust the other one manually.
+    <p>This plugin comes enabled as default. If it is not in the menu, you can enable it via:</p>
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Auto Warmth and Night Mode</div>
+
+    You can adjust the warmth of your screen frontlight automatically in two different ways:
+
+    <p><span class=ui>FIXED SCHEDULE:</span> In this mode your frontlight warmth changes according to the daily schedule you entered. This mode is <b>STATIC</b>, it doesn’t account for daylight length. The schedule stays the same all around the year.</p>
+
+    <p><span class=ui>SUN’S POSITION:</span> This option calculates Sun’s position in your location according to <b>COORDINATES</b> and <b>ALTITUDE</b> information you entered. Frontlight warmth is adjusted gradually according to this calculated Sun position data. This mode is <b>DYNAMIC</b>. As the length of daylight changes around the year, plugin adjusts the schedule accordingly.</p>
+
+    <p>First have a look at this image to familiarize yourself with the terms used in the plugin:</p>
+    </div>
+    
+    <img src="pictures/auto_warmth_explanation.png" style="width:800px;">
+
+    <div class="L3-Smaller-heading">Fixed Schedule Mode</div>
+
+    <div class="standard-text">
+<ol>
+    <li>Go to the plugin menu: <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
+    <li>Tap Activate menu item and then <span class=ui>ACCORDING TO THE FIXED SCHEDULE</span></li>
+    <li>Go back to previous menu and tap <span class=ui>FIXED SCHEDULE SETTINGS</span> menu item</li>
+    <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+</ol>
+    </div>
+
+    
+    <div class="L3-Smaller-heading">Sun’s Position Mode</div>
+
+    <div class="standard-text">
+        <ol>
+            <li>Go to the plugin menu:
+                <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
+            <li>Tap <span class=ui>ACTIVATE</span> menu item and then <span class=ui>ACCORDING TO THE SUN’S POSITION</span></li>
+            <li>Go back to previous menu and tap <span class=ui>LOCATION SETTINGS</span> menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> (optional) correctly and give a <b>name</b> to your location.</li>
+            <li>Go back to previous menu and tap <span class=ui>WARMTH AND NIGHT MODE SETTINGS</span> menu item</li>
+            <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+        </ol>
+ 
+    <p>You can see your current schedule via <span class=ui>CURRENTLY ACTIVE PARAMETERS</span> menu option.</p>
+    <img src="pictures/auto_warmth_menu.png" style="width:400px;">
+        
+    </div>          
+    
+    <div class="L3-Smaller-heading">Night Mode</div>
+
+    <div class="standard-text">
+    While setting the warm light percentages for different intervals, you can also set that interval to <span class=ui>Night Mode</span>, which inverts the screen colors when that interval starts. If your minimum frontlight is still too bright or if you prefer a dark page background, you can activate this feature. To enable this, in the dialog on the right, you can tap <span class=ui>Use night mode</span>.
+    <p>When you do this, warm light percentage will increase to <b>110%</b> indicating that this interval has Night Mode activated. You will see a <b>moon icon</b> in the menu next to this interval. To disable Night Mode you can decrease the percentage to <b>any value under 110</b>.</p>
+    <p>If you want to manage <span class=ui>Night Mode</span> manually (or the reverse) you can change the working mode of this plugin by tapping on the option shown below.</p>
+    </div>
+
+    <img src="pictures/auto_warmth_night_mode.png" style="width:300px;">
+    
+    <div class="L3-Smaller-heading">Frontlight auto on/off</div>
+
+    <div class="standard-text">
+    This feature turns your frontlight on at sunset and turns it off at sunrise according to your <span class=ui>Currently active parameters</span> in this plugin. You can override this change by manually turning your frontlight on/off. On the next sunrise/sunset, <span class=ui>AutoWarmth</span> will toggle it again if it is necessary. You can activate it by selecting <span class=ui>Frontlight off during the day</span> menu item in this plugin.
+    </div>
+
+
+
+
+
+    <div class="L2-Sub-heading" id="fonts">Fonts</div>
+
+    <div class="L3-Smaller-heading">How can I add my own fonts ?</div>
+    <div class="standard-text">
+    KOReader supports fonts in most widely used TrueType (.ttf) and OpenType formats (.otf). Font files with these extensions can be directly copied to <span class=ui>/koreader/fonts/</span> folder on your device. Check the wiki for more info:
+    <p><a href="https://github.com/koreader/koreader/wiki/Fonts">https://github.com/koreader/koreader/wiki/Fonts</a></p>
+    
+    <p>When starting up, KOReader compiles the available fonts from the <b>font metadata/info</b> and classifies them according to family and weights. This means you can add different weights and variants of a font and KOReader will try to use the most suitable one. Since it takes font family information from metadata, font names are not important when copying to your device. Installed fonts will be available after restarting KOReader.</p>
+    <p>You can check the <span class=external>Google Fonts</span> website to get free fonts: <a href="https://fonts.google.com">https://fonts.google.com</a></p>
+    </div>
+
+    <div class="L3-Smaller-heading">Previewing the fonts on your device</div>
+    <div class="standard-text">
+    <p>KOReader can generate a document with sample text rendered with all the fonts installed on your device. This allows you to quickly compare the look and features of the fonts like ligatures and character sets in non-Latin scripts like Greek, Hebrew or Chinese. You can access this feature via:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings → Generate font test document</div>
+    </div>
+
+    <div class="L3-Smaller-heading">Monospace font scale</div>
+    <div class="standard-text">
+    <p>
+        If your book includes parts with <b>Monospace</b> fonts (like in programming books), Monospace font might look disproportional even if they are technically at the same size. This is caused by differing font metrics.
+        If you want to fix this difference, KOReader has an option that allows you to adjust the relative Monospace font size.
+    </p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings →  Monospace fonts scaling</div>
+
+    <p>Here you can increase or decrease the size of your Monospace font by adjusting its scaling as a percentage of the default size.</p>
+    </div>
+    
+    <div class="L3-Smaller-heading">Using different fonts in one document</div>
+    <div class="standard-text">
+    <p>In HTML/CSS based documents like EPUBs, books can specify to use fonts by family instead of a specific font name. These families can be <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For example in a book, normal text can be shown in <b>Sans-serif</b> while dialogues are shown in <b>Serif</b> font. KOReader normally uses your default font for all these families except <b>Monospace</b> and <b>Math</b> (which is determined by the style of the text nodes, for example <b>'font-family: serif'</b>). If you want these families to look distinct, you can assign specific fonts for them here:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font-family fonts</div>
+
+    <p>To change a family font for the current book just tap on the desired font name. If you want to set this for all your books, long-tap to set it as a <span class=ui>Default (★)</span>. If a book abuses this font family feature to the point where your default font is hardly used, you can disable that family font for this book by unchecking the association.</p>
+    </div>
+    
+    <img src="pictures/font_family.png" style="width:600px;">
+
+
+    <div class="L1-Chapter-heading" id="moving">MOVING THROUGH YOUR BOOK</div>
+
+    <div class="standard-text">
+    There are many different ways of moving through your document in KOReader.
+    <p>You can use the <span class=ui>SKIM WIDGET, BOOK MAP or PAGE BROWSER</span> features.</p>
+    
+    <div class="L2-Sub-heading" id="skimwidget">Skim Widget</div>
+
+    You can also open this widget with a long-tap on the <span class=ui>Status Bar</span> in addition to:
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Skim document</div>
+    
+    <img src="pictures/skim_widget.png" style="width:650px;">
+
+    </div>
+
+    <div class="L3-Smaller-heading">Chapter Marks</div>    
+    
+    <div class="standard-text">
+    KOReader can show chapter boundaries from your documents on the <span class=ui>SKIM WIDGET</span> and <span class=ui>PROGRESS BAR</span>.
+
+    <p><img src="pictures/skim_widget_chapter_marks.png" style="width:400px;"></p>
+
+    <p>If your document has too many heading levels, your chapter marks can look crowded like the example on the left. You can change the depth of visible ToC mark levels via:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Progress Bars</div>
+
+    <img src="pictures/skim_widget_chapter_mark_levels.png" style="width:400px;">
+
+    <p>
+        You can also use this reduced ToC for:
+        <ul>
+        <li>chapter titles (if it is shown on <span class=ui>Status Bar</span>)</li>
+        <li>chapter navigation</li>
+        <li>reading time left estimates</li>
+        These options are in the same menu.
+        </ul>
+    </p>    
+    <p>If your document doesn’t have a Table of Contents, you can enable <span class=ui>ALTERNATIVE TABLE OF CONTENTS</span>. When this setting is enabled, KOReader will build a ToC from document headings (if available) or from individual HTML files in the EPUB. Long-tap the menu item for extra info:   
+    </p>
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Alternative table of contents</div>
+    </div>
+
+    <div class="L2-Sub-heading" id="bookmap">Book Map</div>
+
+    <div class="standard-text">
+    Book map is a powerful and unique feature of KOReader which can be very useful for getting an overview of a book. For example if you are reading a book non-linearly by skipping some parts to read them later, it would be hard to track your progress. Book Map can show you which parts of the book you have already read, at a glance. 
+    <p>Additionally you can:</p>
+    <ul>
+        <li>See how much time you have spent on each page (if <span class=ui>Reading Statistics</span> plugin is enabled)</li>
+        <li>Check which pages have bookmark, highlights and notes</li>
+        <li>Navigate directly to any part of the book like the <span class=ui>SKIM WIDGET</span></li>
+    </ul>
+
+    You can access Book Map via menu and you can also assign a gesture for quicker access:
+    
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Book map</div>
+
+    </div>
+
+
+    <div class="L3-Smaller-heading">User Interface And Controls</div>
+    <div class="standard-text">
+    When you open the <span class=ui>Book Map</span> first time while reading a book, it will be in <span class=ui>Grid View</span> mode, fitting all chapters on a single screen to give the best initial overview of the book’s content. To get a detailed information about usage, tap the info icon at the upper left corner. You can close the Book Map by clicking <span class=ui>X</span> on the upper right corner or with any multiswipe gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.).
+    
+    <img src="pictures/bookmap.png" style="width:800px;">
+    
+    You can customize <span class=ui>Book Map</span> by changing these options:
+    <p>- First try swiping <span class=ui>LEFT</span> and <span class=ui>RIGHT</span> along the bottom edge of the screen to change width of columns indicating pages and observe how it changes the scale of map</p>
+    
+    <p>- Then try swiping <span class=ui>UP</span> and <span class=ui>DOWN</span> along the left edge of the screen to change chapter title depth and switch to the <span class=ui>Flat View</span>. See examples below.</p>
+
+    <p>In addition to default <span class=ui>Grid View</span> above, here you can see the <span class=ui>Flat View</span> on the left and Grid View without chapter titles on the right. Note the changing left vertical scrollbar between views. If you want to switch back to the default view, you can long-press the info icon at the upper left corner.</p>
+
+    <div class="double-container">
+        <div><img src="pictures/bookmap_flat.png" style="width:400px;"></div>
+        <div><img src="pictures/bookmap_grid.png" style="width:400px;"></div>
+    </div>
+    
+            
+    </div>
+
+
+    <div class="L3-Smaller-heading">Book map options</div>
+
+    <img src="pictures/bookmap_options.png" style="width:700px;">
+    
+    <div class="standard-text">
+    When you tap the menu icon on the <b>Book map</b> screen you are presented with the menu above. Menu options are explained below:
+    <ul>
+        <li><span class=ui>About book map:</span> Short explanation of Book map usage and icon descriptions.</li>
+        <li><span class=ui>Available gestures:</span> Gestures you can use to change the settings of Book map instead of using this menu.</li>
+        <li><span class=ui>Page browser on tap:</span> If this is checked, when you tap on a page in Book map, <span class=ui>Page browser</span> opens. This shows you an overview of the area you selected. If you disable this option, a tap in Book map directly takes you to that page. But remember, depending on factors like your screen size, touch screen sensitivity, tap accuracy etc. you might end up in adjacent pages.</li>
+        <li><span class=ui>Switch current/initial views:</span> If you customized your Book map view, tapping this switches between the <b>default view</b> and your <b>customized view</b>.</li>
+        <li><span class=ui>Switch grid/flat views:</span> Switch between seperate chapters or continuous chapters views.</li>
+        <li><span class=ui>Chapter levels:</span> Change the depth of chapter/sub chapter levels.</li>
+        <li><span class=ui>Page slot width:</span> Make each page slot wider or narrower.</li>
+        <li><span class=ui>10-page markers:</span> As you increase this value, first it will add markers to every <b>10<sup>th</sup> page</b>, then it will make them bigger and eventually it will add markers to every <b>5<sup>th</sup> page</b>.</li>
+    </ul>
+    </div>
+    
+    <div class="L2-Sub-heading" id="pagebrowser">Page Browser</div>
+    <div class="standard-text">
+    Page Browser can be used to navigate between pages like in a photo album by showing thumbnails of the pages as a grid. You can open <span class=ui>Page Browser</span> by tapping on the <span class=ui>Book Map</span> or from the menu. You can also assign a gesture for quick access.
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
+
+    You can change the number of pages shown by swiping along the <span class=ui>TOP</span> and <span class=ui>LEFT</span> sides of screen. Icons on the bottom are the same as <span class=ui>Book Map</span>. Actually the bottom part is a linear version of the <span class=ui>Book Map</span>.
+
+    <img src="pictures/page_browser.png" style="width:650px;">
+
+    </div>    
+    
+    
+    
+    <div class="L1-Chapter-heading" id="bookmarks">BOOKMARKS, HIGHLIGHTING AND NOTES</div>
+
+    <div class="standard-text">
+    KOReader gives you options to interact with your book like you can do with a real book:
+    <p><b>Bookmarks:</b> You can add (and remove) a bookmark by pressing the upper right corner. This is the equivalent of folding the corner of a page on a real book and shows a similar icon when you enable it.</p>
+    <p><b>Highlights:</b> You can highlight text in 4 different styles. In the image below, you can see a normal paragraph followed by different styles of highlights. <span class=ui>Lighten</span> (with gray background), <span class=ui>Underline, Strikeout</span> and <span class=ui>Invert</span>.</p>
+
+
+    <img src="pictures/highlight_styles.png" style="width:600px;">
+
+    <p>You can use all these styles at the same time, like they are different colored highlight markers. Or you can decide your favorite style and set it as default from this menu by long pressing:</p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
+
+    <b>Notes:</b> You can also add notes to your highlights. Just tap on a highlight and choose <span class=ui>Add note</span> from the popup menu. You can also choose a <span class=ui>Note marker</span> that shows which highlights contain a note. There are three styles: <span class=ui>Underline, Side line</span> and <span class=ui>Side mark</span> (which is the pencil icon shown on the right side of the picture below):
+
+    <img src="pictures/note_marker.png" style="width:600px;">
+
+    To enable this feature and choose a <span class=ui>Note marker</span> style, go to:
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style → Note marker</div>
+
+</div>
+
+<div class="L3-Smaller-heading">How to highlight</div>
+
+    <div class="standard-text">
+    KOReader has two highlighting modes for different use cases: 
+    <p><span class=ui>Normal mode</span> is similar to selecting a text with your finger on a phone/tablet and more suitable if your highlights are shorter than one page.</p>
+    <p><span class=ui>Select and highlight mode</span> is more suitable for highlighting longer passages which cross page boundaries. It might also work better if you have touch screen sensitivity problems or motor control issues with your hands. Because in this highlight mode you don’t need to drag your finger along the screen.</p>
+    </div>
+<div class="L3-Smaller-heading">Normal mode</div>
+
+<div class="standard-text">
+This mode is similar to selecting a text with your finger on a phone/tablet.
+<ol>
+    <li>Long-press on the starting word</li>
+    <li>Move your finger to the end of the passage</li>
+    <li>Release finger</li>
+</ol>
+If you reach page boundaries, KOReader will turn the page for you to continue highlighting <b>(only in EPUB/HTML documents)</b>.
+</div>
+
+<div class="L3-Smaller-heading">Select and highlight mode</div>
+
+<div class="standard-text">
+    <div class=warning><span class="icon_red"></span>  If you have dictionary lookup enabled when long pressing a word, you have to drag your finger to initiate this mode.
+    </div>
+
+<div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Dictionary on single word selection</div>
+
+<img src="pictures/highlight_menu.png" style="width:500px;">
+
+    <ol>
+    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the starting word, popup menu will show up.</li>
+    <li>Tap on <span class=ui>Select</span>, now you are in highlighting mode. When you are in this mode, you will see an indicator at the upper left corner of the screen (which you can tap on it to get more information). You can cancel highlighting by tapping on the beginning of highlight again. You can turn pages with taps/swipes and freely navigate the document (TOC, skim etc) in this mode.</li>
+    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the ending word for your highlight, menu will show up again.</li>
+    <li>Tap <span class=ui>Highlight</span> this time to finish highlighting the passage.</li>
+    </ol>
+
+    <div class=warning><span class="icon_red"></span> There is a <b>faster</b> method for this mode if you don’t need <u>long-press menu items</u> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class=ui>Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Select and highlight</div>
+
+    <div class=warning><span class="icon_red"></span> KOReader can highlight a passage in different styles. If you use <span class=ui>Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class=ui>Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options via:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
+
+    <div class=warning><span class="icon_red"></span> You can add multiple highlights and notes to the same section of text. If they are overlapping, when you tap on a highlight you will be presented with a menu to choose which highlight you want to edit.
+    </div>
+
+  
+    <div class="L3-Smaller-heading">Selecting punctuation</div>
+
+    <div class="standard-text">
+    When you are highlighting, KOReader tries to include the related punctuation marks around your selection. For example if you highlight from the first word to the last word of a sentence, KOReader will automatically include the punctuation marks at the both ends of the sentence to your highlight. 
+    
+    <p>But if you start highlighting from the middle of a sentence, period at the end <b>will not be included</b> because KOReader assumes that you want to make a partial highlight. So if you want the punctuation marks to be added to your highlight, be sure that you select the <b>whole sentence</b>. Also you can add these marks later by long pressing the <span class=ui>Highlight edit</span> buttons.</p>
+    </div>
+
+    <div class="L3-Smaller-heading">Editing a highlight</div>
+
+    <div class="standard-text">
+    When you click on an already highlighted text <b>(without a note)</b>, you will see this popup menu. <span class=ui>Delete</span> and <span class=ui>Add note</span> items are clear. Bottom row menu items are used to extend or shrink the highlight.
+
+    <img src="pictures/highlight_edit.png" style="width:500px;">
+
+    When you click on an already highlighted text <b>with a note added</b>, you will see this popup menu. Tap on <span class=ui>Edit highlight</span> to open the menu above where you can edit both the highlight and the contained note:
+
+    <img src="pictures/note_edit.png" style="width:300px;">
+
+    <p>On your <span class=ui>Bookmarks</span> page you can filter the view to see only one type of bookmark by pressing the menu icon ( <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> ) You can also filter by highlight style:</p>
+
+    <img src="pictures/bookmark_filter.png" style="width:800px;">
+
+    </div>    
+    
+    
+
+    <div class="L2-Sub-heading" id="exportinghighlights">Exporting your highlights</div>
+
+    <div class="standard-text">
+    After finishing a book, you can move it to a specific folder for archiving or processing purposes. Enable <span class=ui>Move to archive</span> plugin and set your target directory in the plugin’s settings (<span class=ui>Set archive folder</span>). After this, you can move a book to your archive folder using:
+    <ul>
+        <li><span class=ui>Move to archive</span> plugin menu</li>
+        <li>With a gesture or</li>
+        <li>With a <span class=ui>Quick Menu</span> entry</li>
+    </ul>
+    KOReader provides different ways of exporting your highlights and notes from your reader device:
+    </div>
+    
+    <div class="L3-Smaller-heading">1. Export Highlights plugin</div>
+    
+    <div class="standard-text">
+    This versatile plugin can export your highlights to <b>local files</b> or <b>online services</b>.
+
+    <p><span class=ui>Local export:</span> You can export your highlights to your device in these file formats:</p>
+    <ul>
+        <li>Text (.txt)</li>
+        <li>HTML (.html)</li>
+        <li>Markdown (.md)</li>
+        <li>Kindle Clippings (.txt)</li>
+        <li>JSON (.json)</li>
+    </ul>
+        
+    You can choose your preferred export formats from:
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose formats and services</div>
+
+    You can see the export location (and also change it if you want):
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose export folder</div>
+    
+    <p><span class=ui>Online services:</span> You can also export to these services over the network:</p>
+    <ul>
+        <li><span class=external>Joplin</span> (a note taking application) - <a href="https://joplinapp.org/">https://joplinapp.org/</a></li>
+        <li><span class=external>Readwise</span> (an online bookmarks/highlights application) - <a href="https://readwise.io/">https://readwise.io/</a> </li>
+        <li><span class=external>Memos</span> (a self-hosted open source memo hub) - <a href="https://github.com/usememos/memos">https://github.com/usememos/memos</a></li>
+    </ul>
+        
+    <p>You have to enter your credentials for these services to be able to activate them.</p>
+    <p>You can find setup instructions for <span class=external>Joplin</span> here: <a href="https://github.com/koreader/koreader/wiki/joplin">https://github.com/koreader/koreader/wiki/joplin</a></p>
+    
+    <p>After selecting your formats, you can export the notes for the <b>current book</b> or <b>all the books in your library</b> from the same plugin menu.</p>
+    <p>If you want to export only some of the books in your library, you can do this from the <span class=ui>File Browser</span>:</p>
+    <ol>
+        <li>Select multiple books in the <span class=ui>File Browser</span></li>
+        <li>Tap on the menu button (shown as a check mark) at the top right corner</li>
+        <li>Select <span class=ui>Export highlights</span> from the menu shown</li>
+    </ol>
+      
+    </div>
+    
+    <div class="L3-Smaller-heading">2. Using KoHighlights</div>
+
+    <div class="standard-text">
+        <span class=external>KoHighlights</span> is an external program that you can install on your computer. It can access your book notes and highlights when you plug your reader to your computer. Check the project page for download and instructions:
+        <p><a href="https://github.com/noembryo/KoHighlights">https://github.com/noembryo/KoHighlights</a></p>
+    </div>
+
+    <div class="L3-Smaller-heading">3. Using Calibre</div>
+
+    <div class="standard-text">
+        <span class=external>Calibre</span> is an external program that you can install on your computer. You can import highlights into your <span class=external>Calibre</span> database with its <span class=external>KOReader Sync</span> plugin. You can install the mentioned plugin within the <span class=external>Calibre</span> application. Check the project page for download and instructions:
+        <p><a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+    
+        <div class=warning><span class="icon_red"></span>  When you open a document in KOReader, it creates a directory alongside the document with same name as the document. This directory contains a .LUA file which includes all the highlights, notes and user options (formatting properties etc.) related to that document. You can manually backup/restore these directories.
+        </div>
+    </div>
+
+
+    <div class="L1-Chapter-heading"  id="pdfs">READING PDFS</div>
+
+    <div class="L2-Sub-heading" id="readingpdfs">Reading large PDFs on a small screen</div>
+    <div class="standard-text">
+    KOReader provides you many ways to read a PDF/DJVU document which is optimized for bigger (generally it is A4 or Letter) page sizes on your smaller screen device:
+    
+    <p><span class="link_to_heading">1. You can enable <span class=ui>REFLOW</span></span></p>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU →  <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"> → Reflow</div>
+   
+    <p>Reflow tries to extract the text portion from your document (if it is available) and format it as a single column. Results are generally satisfactory. You can also set this as <b>DEFAULT</b> by tapping and holding on it.</p>
+  
+    <span class="link_to_heading">2. You can enable <span class=ui>ZOOM TO CONTENT</span></span>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_content.svg" style="width:26px;"></div>
+        
+    <img src="pictures/bottom_pdf_3.png" style="width:800px;">
+
+ 
+    <p>With this option KOReader tries to crop margins from your document so text may look bigger on your screen. You can set <span class=ui>FIT</span> to <span class=ui>WIDTH</span> in the same menu which will try to fit only page width instead of whole page, so your text will look bigger.</p>
+
+    
+    <span class="link_to_heading">3. You can try to use your device in <span class=ui>LANDSCAPE</span> orientation</span>
+ 
+    <p>This will make your screen wider so your document may look big enough to read comfortably.</p>
+
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
+
+    <span class="link_to_heading">4. You can see your document at full size and scroll the screen to read different parts</span>
+    
+   
+    <p>This is especially helpful with comic books. First enable <span class=ui>COLUMN MODE</span> from this menu item:</p>    
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:26px;"></div>
+
+    <p>Then select an appropriate flow direction for your document from the same menu:</p>
+    
+    <img src="pictures/pdf_flow_types.png" style="width:400px;">
+    
+    <p>- For example if you are reading an article which has two columns, you will scroll down until the end of page reading left column then go to right upper side to continue reading right column:</p>
+    <img src="pictures/flow_pattern_DRD.svg" style="width:50px;">
+
+    - Or if you are reading a comic book, you will want to go <b>“right → down left → right”</b> in a zigzag pattern:
+    <img src="pictures/flow_pattern_RDR.svg" style="width:50px;">
+
+    - For a Japanese comic book (right-to-left panel order) this might be the reverse: 
+    <img src="pictures/flow_pattern_LDL.svg" style="width:50px;">
+
+    <p>In this mode you can also adjust <span class=ui>Horizontal/Vertical Overlap</span> and <span class=ui>Number of Columns</span> from the same menu to fit the text on your screen better. Feel free to experiment with settings.</p>
+    </div>
+
+
+    <div class="L2-Sub-heading" id="pdfbottom">Explanations Of Pdf Specific Bottom Menu Items</div>
+
+    <img src="pictures/bottom_pdf_6.png" style="width:400px;">
+
+    <div class="standard-text">
+    <p><span class=ui>CONTRAST</span> This setting adjusts black levels in your document. Be aware that same contrast value applies to both text and images in your document. If you set it very high, your images may become too dark to be readable.</p>
+    <p><span class=ui>DEWATERMARK</span> Removes watermarks from the rendered document. It can also be used to remove gray backgrounds. This feature can convert a grayscale or color document to black & white to produce more contrast for easier reading.</p>
+    <p><span class=ui>RENDER QUALITY</span> <b>(REFLOW  MODE)</b> Sets the quality of text and image extraction processing and output. <span class=ui>HIGH</span> is more pleasing but it can be much slower (several seconds for page turn) than <span class=ui>DEFAULT</span> depending on your document. If your PDF/DJVU files are slow, this is the first setting you should check.</p>
+        
+    <hr>
+        
+    <img src="pictures/bottom_pdf_7.png" style="width:400px;">
+    
+    <p><span class=ui>DOCUMENT LANGUAGE</span> Sets the language to be used by the OCR engine.</p>
+    <p><span class=ui>FORCED OCR</span> Force the use of OCR even if the document has a text layer</p>
+    <p><span class=ui>WRITING DIRECTION</span> <b>(REFLOW  MODE)</b> Text direction of original document. Set to RTL for languages like Arabic and Hebrew.</p>
+    <p><span class=ui>DOCUMENT COLUMNS</span> <b>(REFLOW  MODE)</b> Number of text columns in the original document.</p>
+        
+    <hr>
+
+    <img src="pictures/bottom_pdf_2.png" style="width:400px;">
+
+    <span class=ui>AUTO STRAIGHTEN</span> feature can straighten the pages of a problematic document, for example pages of a PDF which are scanned with an angle. It is available in <b>PDF, DJVU, CBZ/CBT</b> documents and <b>image</b> files. To enable, choose the maximum tilt angle which KOReader will try to correct. If it doesn’t correct you might have to choose a bigger angle. Note that this feature <b>might slow down your reader</b> depending on several factors.
+    </div>
+    
+    <div class="L2-Sub-heading" id="ocr">OCR (Optical Character Recognition)</div>
+    <div class="standard-text">
+    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images into machine readable format. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <span class=external>Tesseract Open Source OCR Engine</span> for this task (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
+    
+    <p>In order to use this feature you need to:</p>
+    <ol>
+        <li>Install <span class=external>Tesseract</span> language data to your KOReader</li>
+        <li>Add newly installed languages to koreader/defaults.lua configuration file
+    (necessary only if your language is other than English or Chinese)</li>
+    </ol>
+    
+    <div class=warning><span class="icon_red"></span> Buttons on OCR menu <u>will not function</u> until you install the necessary Tesseract files. Details of this process can be read in the related wiki page: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
+    </div>
+    </div>
+
+    <div class="L2-Sub-heading" id="panelzoom">Panel Zoom (manga/comic)</div>
+    <div class="standard-text">
+    This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Panel Zoom (manga/comic)</div>
+
+    When this option is enabled, KOReader tries to find the boundaries of rectangular panels on the screen. If you long-tap on a panel, KOReader zooms in to that panel. As you can guess, this feature works best with comics that has clean panel boundaries. Procedure can be seen below:
+    
+    <img src="pictures/panel_zoom.png" style="width:600px;">
+    
+    <p>If you want to use this feature with other file types like EPUB, FB2, HTML or image files, you should open the file with a different engine: In the <span class=ui>File Browser</span> long-tap on the file name, tap <span class=ui>Open with…</span> and select <span class=ui>MuPDF</span>.</p>
+    </div>
+
+
+
+
+    <div class="L1-Chapter-heading"  id="gestures">GESTURES, QUICK MENU AND PROFILES</div>
+
+    <div class="standard-text">
+    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.
+    <p>Note that some devices support only single touch. So multi-finger gestures <b>are not available</b> on them.</p>
+    </div>
+
+    <div class="double-container">
+    <div>
+
+        <div class="standard-text">    
+        <img src="pictures/gesture_tap.png" style="width:100px;">
+        <span class=ui>
+        <p>TAP / DOUBLE TAP</p></span>
+        <p>Single or double tap with <b>ONE</b> finger</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
+        </div>        
+       
+        <hr>        
+        
+        <div class="standard-text">    
+        <img src="pictures/gesture_tapandhold.png" style="width:100px;">
+        <span class=ui>
+        <p>TAP AND HOLD</p></span>
+        <p>Single tap and hold with <b>ONE</b> finger</p>
+        <p><b>WORKS:</b> Only on four corners</p>
+        </div>        
+            
+        <hr>
+
+        <div class="standard-text">    
+        <img src="pictures/gesture_twofingertap.png" style="width:100px;">
+        <span class=ui>
+        <p>TWO FINGER TAP</p></span>
+        <p>Single tap with <b>TWO</b> fingers at the same time</p>
+        <p><b>WORKS:</b> Only on four corners</p>
+        </div>        
+        
+    <hr>
+
+        <div class="standard-text">    
+        <img src="pictures/gesture_pinch.png" style="width:100px;">
+        <span class=ui>
+        <p>SPREAD AND PINCH</p></span>
+        <p>Same gesture as zooming in and out on a mobile phone, tablet etc.</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <div class=warning><span class="icon_red"></span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div>
+        </div>
+        
+    </div>
+    <div>
+    
+        <div class="standard-text">    
+        <img src="pictures/gesture_swipe.png" style="width:100px;">
+        <span class=ui>
+        <p>ONE FINGER SWIPE</p></span>
+        <p>Swiping motion with <b>ONE</b> finger</p>
+        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL)  Anywhere except edges (DIAGONAL) </p>
+        </div> 
+
+    <hr>
+
+        <div class="standard-text">    
+        <img src="pictures/gesture_twofingerswipe.png" style="width:100px;">
+        <span class=ui>
+        <p>TWO FINGER SWIPE</p></span>
+        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
+        </div>
+
+    <hr>
+
+        <div class="standard-text">    
+        <img src="pictures/gesture_multiswipe.png" style="width:100px;">
+        <span class=ui>
+        <p>MULTISWIPE</p></span>
+        <p>More than one swipe done after each other without lifting your finger. 
+        For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
+
+        <hr>
+        <br><br>
+        <p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
+        </div>
+        
+
+    </div>
+    </div>
+
+    
+    <div class="L2-Sub-heading" id="predefinedgestures">Predefined Gestures</div>
+    <div class="standard-text">
+    This table shows the gestures available when you install KOReader for the first time. You can change these gestures according to your preferences via:
+    </div>
+
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Gesture Manager</div>
+
+ 
+  <div class="double-container">
+    <div>
+       
+            <div class="L3-Smaller-heading">TAP CORNER</div>
+            <div class="standard-text">
+            <ul>
+                <li><b>Top Left Corner</b> > Toggle page flipping</li>
+                <li><b>Top Right Corner</b> > Toggle bookmark</li>
+            </ul>
+            </div>
+    
+        <div class="L3-Smaller-heading">DOUBLE TAP</div>
+        <div class="standard-text">
+        <ul>
+            <li><b>Left Side</b> > Go -10 pages</li>
+            <li><b>Right Side</b> > Go +10 pages</li>
+        </ul>
+        </div>
+    
+    
+        <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
+        <div class="standard-text">
+        <ul>
+            <li><b>Short diagonal swipe</b> > Full screen refresh</li>
+            <li><b>Long diagonal swipe</b> > Take screenshot</li>
+        </ul>
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="L3-Smaller-heading">MULTISWIPE</div>
+        <div class="standard-text">
+        <ul>
+            <li><b>← →</b> - Back to previous location</li>
+            <li><b>→ ←</b> - Go to latest bookmark</li>
+            <li><b>↓ ↑</b> - Skim document</li>
+            <li><b>↑ ←</b> - Bookmarks</li>
+            <li><b>↑ →</b> - Table of contents</li>
+            <li><b>↓ ←</b> - Show frontlight dialog</li>
+            <li><b>↓ →</b> - Toggle reflow</li>
+            <li><b>→ ↑</b> - History</li>
+            <li><b>← ↑</b> - Book status</li>
+            <li><b>→ ↓</b> - Go to page</li>
+            <li><b>← ↓</b> - Back</li>
+            <li><b>↑ ↓ ↑</b> - Previous chapter</li>
+            <li><b>↓ ↑ ↓</b> - Next chapter</li>
+            <li><b>← → ←</b> - Open previous document</li>
+            <li><b>→ ← →</b> - Favorites</li>
+        </ul>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="L2-Sub-heading" id="gesturecategories">Gesture Categories</div>
+    <div class="standard-text">
+        This is a list of every action that you can assign to a gesture using the <span class=ui>Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class=ui>Quick Menu</span>. Please check the relevant section in the guide for more info.
+    </div>
+
+    <div class="quad-container">
+        
+    <div>
+    <!--1. column-->
+        <div class="L3-Smaller-heading">General</div>
+
+        <div class="table-text">
+            <ul>
+                <li>Reading progress</li>
+                <li>Open previous document</li>
+                <li>History</li>
+                <li>Favorites</li>
+                <li>File browser</li>
+                <li>Dictionary lookup</li>
+                <li>Wikipedia lookup</li>
+                <li>Fulltext search</li>
+                <li>File search</li>
+                <li>Show menu</li>
+                <li>Menu search</li>
+                <li>Screenshot</li>
+                <li>Show ephemeris</li>
+                <li>Calibre metadata search</li>
+                <li>Browse all calibre tags</li>
+                <li>Browse all calibre series</li>
+                <li>Browse all calibre authors</li>
+                <li>Browse all calibre titles</li>
+                <li>(Execute) Profile x</li>
+                <li>Statistics calendar view</li>
+                <li>Statistics today’s timeline</li>
+                <li>Open vocabulary builder</li>
+            </ul>
+        </div>
+
+        <div class="L3-Smaller-heading">Device</div>
+        <div class="table-text">
+            <ul>
+                <li>Exit screensaver</li>
+                <li>Exit KOReader</li>
+                <li>Restart KOReader</li>
+                <li>Toggle hold corners</li>
+                <li>Toggle touch input</li>
+                <li>Rotation</li>
+                <li>Toggle orientation</li>
+                <li>Invert rotation</li>
+                <li>Rotate by 90 CW</li>
+                <li>Rotate by 90 CCW</li>
+                <li>Toggle Fullscreen</li>
+                <li>Show network info</li>
+                <li>System statistics</li>
+            </ul>            
+        </div>
+
+        <div class="L3-Smaller-heading">Screen and lights</div>
+        <div class="table-text">
+            <ul>
+                <li>Toggle night mode</li>
+                <li>Set night mode</li>
+                <li>Full screen refresh</li>
+                <li>Auto warmth off</li>
+                <li>Auto warmth cycle through modes</li>
+            </ul>         
+        </div>
+
+        
+    </div>
+
+    <div>
+    <!--2. column-->
+        <div class="L3-Smaller-heading">Reader</div>
+        
+        <div class="table-text">
+            <ul>
+                <li>Open next document in folder</li>
+                <li>Show bottom menu</li>
+                <li>Toggle status bar</li>
+                <li>Previous chapter</li>
+                <li>Next chapter</li>
+                <li>First page</li>
+                <li>Last page</li>
+                <li>Turn pages</li>
+                <li>Go to page</li>
+                <li>Skim document</li>
+                <li>Previous bookmark</li>
+                <li>Next bookmark</li>
+                <li>Go to latest bookmark</li>
+                <li>Back</li>
+                <li>Back to previous location</li>
+                <li>Forward to next location</li>
+                <li>Follow nearest link</li>
+                <li>Follow nearest internal link</li>
+                <li>Add current location to history</li>
+                <li>Clear location history</li>
+                <li>Table of contents</li>
+                <li>Book map</li>
+                <li>Book map (overview)</li>
+                <li>Page browser</li>
+                <li>Bookmarks</li>
+                <li>Bookmark search</li>
+                <li>Book status</li>
+                <li>Book information</li>
+                <li>Book description</li>
+                <li>Book cover</li>
+                <li>Translate current page</li>
+                <li>Toggle bookmark</li>
+                <li>Toggle page turn direction</li>
+                <li>Invert page turn buttons</li>
+                <li>Set highlight action</li>
+                <li>Cycle highlight action</li>
+                <li>Cycle highlight style</li>
+                <li>Save book metadata</li>
+                <li>Move current book to archive</li>
+                <li>Book statistics</li>
+                <li>Synchronize book statistics</li>
+            </ul>
+        </div>        
+    </div>
+
+
+    <div>
+    <!--3. column-->
+
+        <div class="L3-Smaller-heading">File browser</div>
+
+        <div class="table-text">
+            <ul>
+                <li>Folder up</li>
+                <li>Show plus menu</li>
+                <li>Toggle select mode</li>
+                <li>Refresh content</li>
+                <li>Folder shortcuts</li>
+                <li>Go to page</li>
+                <li>Back</li>
+            </ul>
+        </div>
+
+        <div class="L3-Smaller-heading">Reflowable documents</div>
+
+        <div class="table-text">
+            <ul>
+                <li>Set font</li>
+                <li>Increase font size</li>
+                <li>Decrease font size</li>
+                <li>Set font size</li>
+                <li>Word spacing</li>
+                <li>Word expansion</li>
+                <li>Contrast</li>
+                <li>Font weight</li>
+                <li>Font hinting</li>
+                <li>Font kerning</li>
+                <li>Two columns</li>
+                <li>L/R margins</li>
+                <li>Sync T/B margins</li>
+                <li>Top margin</li>
+                <li>Bottom margin</li>
+                <li>View mode (page-continuous)</li>
+                <li>Render mode</li>
+                <li>Zoom</li>
+                <li>Line spacing</li>
+                <li>Alt status bar</li>
+                <li>Embedded style</li>
+                <li>Embedded fonts</li>
+                <li>Image scaling</li>
+                <li>Invert images</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--4. column-->
+    <div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+
+        <div class="table-text">
+            <ul>
+                <li>Toggle page flipping</li>
+                <li>Toggle bookmark flipping</li>
+                <li>Toggle reflow</li>
+                <li>Zoom mode</li>
+                <li>Change zoom factor</li>
+                <li>Toggle panel zoom</li>
+                <li>Page crop</li>
+                <li>Margin</li>
+                <li>Horizontal overlap</li>
+                <li>Vertical overlap</li>
+                <li>Fit</li>
+                <li>Zoom factor</li>
+                <li>Zoom to</li>
+                <li>Direction</li>
+                <li>View mode</li>
+                <li>Page gap</li>
+                <li>Progress bar</li>
+                <li>Line spacing</li>
+                <li>Alignment</li>
+                <li>Font size (set)</li>
+                <li>Font size (inc/dec)</li>
+                <li>Word gap</li>
+                <li>Reflow</li>
+                <li>Contrast</li>
+                <li>Dewatermark</li>
+                <li>Render quality</li>
+                <li>Document language</li>
+                <li>Forced OCR</li>
+                <li>Writing direction</li>
+                <li>Auto straighten</li>
+                <li>Document columns</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--END OF QUAD-->
+    </div>
+
+
+    <div class="L2-Sub-heading" id="quickmenu">Quick Menu</div>
+    <div class="standard-text">
+        <span class=ui>Quick Menu</span> is a recent feature of KOReader which allows you to have a quickly accessible personalized menu. You can assign this menu to a gesture and access it with a single swipe. You can see an example menu on the right. You can even have a menu longer than your screen, it is scrollable.
+
+        <p>Basically, any action you can assign a gesture can be added to the <span class=ui>Quick Menu</span>. Its advantages are:</p>
+
+        <ol>
+            <li>You don’t need to memorize lots of gestures for every action.</li>
+            <li>Some infrequent actions may not worth a gesture but it can be too much hassle to find it in the menu system. You can add this kind of rarely used actions to this menu instead.</li>
+            <li>If you are installing KOReader for a relative or friend, you can add their favorite actions to this menu so they don’t even need to go into the menu system while using KOReader.</li>
+        </ol>
+               
+        <p><b>An example Quick Menu:</b></p>
+
+        <img src="pictures/quickmenu_example.png" style="width:500px;">
+
+        
+        <p>There are two methods for creating a <span class=ui>Quick Menu</span>. <b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</b> should be enough for you. If you want show different menus with different gestures you need to use <b>Advanced method</b>.  Another advantage of <b>Advanced method</b> is that, if you want to use another gesture for your menu you can easily move it to another gesture. If you want to use another gesture while using the <b>Easy method</b>, you have to re-create your menu under the new gesture.</p>
+    </div>
+
+
+        <div class="L3-Smaller-heading">Easy method</div>
+        <div class="standard-text">
+            <ol>
+                <li>Go to <span class=ui>Gesture Manager</span> menu via:
+                    <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture Manager</div></li>
+                <li>Decide a gesture for opening your menu and tap on it.</li>
+                <li>Choose the actions you want to see in your menu from the gesture configuration menu. You can select many actions at once of course.</li>
+                <li>After selecting all your actions, you will tell KOReader to treat this gesture as a menu. You achieve this by enabling <span class=ui>Show as Quick Menu</span> item on the second page as you can see <b>in the picture below</b>.</li>
+                <li>You can sort your menu items with the <span class=ui>Sort</span> option just below it.</li>
+            </ol>
+        <p>Now you can launch your menu with the gesture you selected. If you want to change the menu items, you can open the gesture page and add/remove items.</p>
+        </div>
+       
+        <img src="pictures/quickmenu_easy.png" style="width:500px;">
+        
+        <div class="L3-Smaller-heading">Advanced method</div>
+        <div class="standard-text">
+
+            <div class=warning><span class="icon_red"></span> As we said above, if you are not planning to add more than one <span class=ui>Quick Menu</span> you don’t need this section.
+            </div>
+
+        <p><span class=ui>Quick Menu</span> is actually a <span class=ui>Profile</span> which appears on your screen as a menu. So first you have to learn about <span class=ui>Profiles</span>. If you already know how to use <span class=ui>Profiles</span>, you can continue reading, otherwise jump to the <span class=ui>Profiles</span> heading (next section), create a <span class=ui>Profile</span> with some items and come back here.</p>
+        
+        <p>We assume that you already created a <span class=ui>Profile</span> as instructed in the previous paragraph. Now we will turn our <span class=ui>Profile</span> into a <span class=ui>Quick Menu</span>.</p>
+
+        <p>1. Go to your newly created <span class=ui>Profile</span> and enable <span class=ui>Show in action list</span> (shown in the image below). This will make your <span class=ui>Profile</span> visible in the <span class=ui>Gesture Manager</span>. Also enable <span class=ui>Show as Quick Menu</span> (also in the image below) so your profile will be shown as a menu instead of being silently executed.</p>
+        
+        <img src="pictures/quickmenu_advanced.png" style="width:800px;">
+
+        <p>2. Now we need a way to access our menu. Go to the <span class=ui>Gesture Manager</span> and choose a gesture from the list to assign to our menu. Let’s say we want to tap the corner of the screen to show menu. Now tap on <span class=ui>Tap corner</span> then choose <span class=ui>Bottom left</span>. Now tap on <span class=ui>General</span> and go to the second page. You will find your profile as <span class=ui>Profile x</span> where x is the name you gave to this <span class=ui>Profile</span>. Tap on its checkbox to assign your profile to this gesture.</p>
+
+        <p>After all the steps, now you should see your menu when you tap on the bottom left corner. You can edit your menu by going to its <span class=ui>Profile</span> page where you can add or remove items. Also there is a <span class=ui>Sort</span> item there so you can change the order of your menu items.</p>
+
+       <p> As we said, a <span class=ui>Quick Menu</span> is actually a <span class=ui>Profile</span>. Which means you can have more than one menu. You can create another <span class=ui>Profile</span> and follow the same steps to create another menu if you want.</p>
+        </div>
+
+        <div class="L2-Sub-heading" id="profiles">Profiles</div>
+        <div class="standard-text">
+        A profile is basically a collection of actions that can be triggered with a single tap (like a macro).
+        <p>As an example, imagine that when reading some type of books, you always:</p>
+        <ul>
+            <li>Rotate the screen to landscape orientation</li>
+            <li>Increase the font size and contrast and</li>
+            <li>Turn the screen light on</li>
+        </ul>      
+        
+        <p>With the profiles plugin, you can do all these at once with a single action.</p>
+        
+        <div class=warning><span class="icon_red"></span> When you activate another profile, changes made in the first profile <u>will not be reversed</u>. For example, you activate a profile which sets your font size from <u>20</u> to <u>24</u>. Then you activate another profile that adjusts your <u>frontlight</u>. Your font size <u>stays at 24</u> after activating the second profile. Because profiles in KOReader doesn’t have an exit or reverse action.
+        </div>
+
+        <p>To create a profile first be sure that <span class=ui>Profiles</span> plugin is activated. If you don’t see it under:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> →  Profiles</div>
+        
+        <p>then you have to turn it on from:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
+        
+        </div>
+
+        <div class="L3-Smaller-heading">Creating a profile</div>
+
+        <div class="standard-text">
+        In <span class=ui>Profiles</span> menu tap <span class=ui>New</span> and give a descriptive name for your profile. Now you should see your new profile in the menu. Tap on it and you will see the screen on the left side. You can also <span class=ui>Delete, Rename</span> or <span class=ui>Duplicate</span> a profile from this menu. 
+                
+        <img src="pictures/profile_create.png" style="width:800px;">
+
+        <p>When you tap on <span class=ui>Edit actions</span> menu item you will see the menu on the right. This is the same menu as the gesture selection menu and there are actions in many categories. Which means you can perform any <span class=ui>Gesture</span> action using a <span class=ui>Profile</span>.</p>
+
+        <p>You can now select several items from all these categories. The actions you selected here will be performed when you activate this profile.</p>
+        </div>
+        
+        <div class="L3-Smaller-heading">Activating a profile</div>
+
+        <div class="standard-text">
+        There are many ways to activate a profile:
+        <ol>
+            <li>You can activate a profile with a <b>long press</b> on its name from this same <span class=ui>Profiles</span> menu</li>
+            <li>You can activate a profile using a gesture. For this, you have to enable <span class=ui>Show in action list</span> from the profile’s menu. Now you can select it via:
+
+            <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Profile  “Your profile name”</div>
+            </li>
+            <li>You can also activate a profile automatically when KOReader starts if you enable <span class=ui>Autostart</span> in the Profile’s menu. Note that this is only possible when KOReader is starting with the <span class=ui>File browser</span> or <span class=ui>Last file</span>.</li>
+        </ol>       
+        </div>
+        
+        <div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu<span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+      
+
+        <div class="standard-text">
+        In KOReader we have <b>a set of actions/settings</b> and this set can be created in two ways:
+        <ol>
+            <li>As a profile (which is explained as the <span class=ui>Advanced Method</span> and stored in <span class=ui>settings/profiles.lua</span>)</li>
+            <li>As a list of actions assigned to a gesture (which is explained as the <span class=ui>Easy Method</span> and stored in <span class=ui>settings/gestures.lua)</span></li>
+        </ol>
+       
+        <p>This set can also be <b>executed</b> in two different ways:</p>
+        <ol>
+            <li>Applying each action in the (sorted) order when triggered (as a <span class=ui>Profile</span>)</li>
+            <li>Showing it as a <span class=ui>Quick Menu</span></li>
+        </ol>
+        
+        <p>Adding/removing actions of a set and enabling/sorting <span class=ui>Quick Menu</span> are done via the same <span class=ui>actions menu</span>. The only difference is that the actions menu in the Gesture manager has two more items (Pass through), that is why <span class=ui>Show as Quick Menu</span> and <span class=ui>Sort</span> items are on the second page.</p>
+        </div>
+
+
+
+        <div class="L1-Chapter-heading" id="plugins">PLUGINS AND USER PATCHES</div>
+        <div class="L2-Sub-heading" id="plugintypes">Plugin types</div>
+        <div class="standard-text">
+        Plugins are small programs that expand the capabilities of KOReader. You can think of them like browser add-ons. KOReader has 3 categories of plugins:
+        </div>
+        
+        <div class="L3-Smaller-heading">Internal</div>
+        <div class="standard-text">
+        Internal plugins are part of the core program.
+        <ul>
+            <li>They are directly accessible from the KOReader plugins menu.</li>
+            <li>They don’t need installation. You can enable them from the menu.</li>
+            <li>They are checked by our developers so they are considered safe.</li>
+            <li>They are automatically updated when you update KOReader.</li>
+        </ul>
+       
+        <p>You can enable/disable them via:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
+
+        </div>
+
+        <div class="L3-Smaller-heading">Contrib <span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+        <div class="standard-text">
+        This group contains non-official plugins which are not part of the core logic of KOReader.
+        <ul>
+            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
+            <li>They should be updated <b>manually</b>.</li>
+            <li>They are checked by our developers <b>at the time they were added to our repository</b> so they are considered safe.</li>
+        </ul>
+       
+        You can access them from this page: <a href="https://github.com/koreader/contrib">https://github.com/koreader/contrib</a>
+        They can be installed by downloading the plugin’s directory from the page above and copying it under <span class=ui>koreader/plugins</span> folder on your device. But still check the plugin’s page for other possible instructions.
+        </div>
+        
+        <div class="L3-Smaller-heading">External <span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+        <div class="standard-text">
+        These are plugins that are developed independently from the KOReader team.
+        <ul>
+            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
+            <li>They should be updated <b>manually</b>.</li>
+            <li>They are <b>NOT</b> checked by our developers so be aware that there might be risks using them.</li>
+        </ul>
+                
+        <p>Some notable examples of these external plugins:</p>
+        <ul>
+            <li><span class=external>AskGPT:</span> You can ask questions to <span class=external>ChatGPT</span> about parts of your book. You can also use this plugin to simplify, explain, discuss or translate text to other languages. <a href="https://github.com/drewbaumann/AskGPT">https://github.com/drewbaumann/AskGPT</a></li>
+            <li><span class=external>Anki plugin for KOReader:</span> KOReader plugin enabling <span class=external>Anki</span> (an open-source flashcard software) card generations for words looked up in the internal dictionary. <a href="https://github.com/Ajatt-Tools/anki.koplugin">https://github.com/Ajatt-Tools/anki.koplugin</a></li>
+            <li><span class=external>Zotero for KOReader:</span> This addon allows you to browse your <span class=external>Zotero</span> (an open-source reference management software) collections from KOReader. <a href="https://github.com/stelzch/zotero.koplugin">https://github.com/stelzch/zotero.koplugin</a></li>
+        </ul>
+                     
+        <p>Also you can click this link to open a search page on <span class=external>Github</span> to discover more KOReader plugin projects: <a href="https://github.com/search?q=koplugin&type=repositories">https://github.com/search?q=koplugin&type=repositories</a></p>
+
+        </div>
+
+        <div class="L2-Sub-heading" id="pluginslist">List of internal plugins</div>
+        <div class="standard-text">
+        <p>	<b>	Auto frontlight	</b>	 - 	Automatically toggles the frontlight according to ambient light level (Only available on Kindle Voyage and Oasis)	</p>
+        <p>	<b>	Auto warmth and night mode	</b>	 - 	Allows you to adjust frontlight warmth in devices with natural (yellow/orange) light and set Night Mode automatically according to a schedule	</p>
+        <p>	<b>	Auto power save	</b>	 - 	Puts the device into standby, suspend or power off after specified periods of inactivity	</p>
+        <p>	<b>	Autosuspend	</b>	 - 	Suspend device after chosen period of inactivity (available on all e-ink devices except android os)	</p>
+        <p>	<b>	Autoturn	</b>	 - 	Automatically turns the page after a set period of time	</p>
+        <p>	<b>	Background runner	</b>	 - 	Service to other plugins: Allows tasks to run regularly in the background.	</p>
+        <p>	<b>	Battery statistics	</b>	 - 	Collects and displays battery usage statistics of your device	</p>
+        <p>	<b>	Book shortcuts	</b>	 - 	Allows adding a book shortcut to a gesture	</p>
+        <p>	<b>	Calibre	</b>	 - 	You can send documents from your Calibre Library directly to your KOReader devices via WiFi connection.  Check the wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a> 	</p>
+        <p>	<b>	Cover browser	</b>	 - 	Allows cover display modes for file browser and history	</p>
+        <p>	<b>	Cover image	</b>	 - 	Saves the cover image of the current book as a file (available on Android/PocketBook/reMarkable devices)	</p>
+        <p>	<b>	Export highlights	</b>	 - 	Export highlights and notes to local files or to Joplin (a note taking application)	</p>
+        <p>	<b>	Flashcard trainer	</b>	 - 	Show flashcards using spaced repetition (SM2) of highlight from your library	</p>
+        <p>	<b>	Gestures	</b>	 - 	Provide gesture support for KOReader	</p>
+        <p>	<b>	Japanese support	</b>	 - 	Japanese language support for KOReader that extends built-in dictionary and selection system	</p>
+        <p>	<b>	Keep alive	</b>	 - 	Keeps the device awake to prevent automatic WiFi disconnects	</p>
+        <p>	<b>	Move to archive	</b>	 - 	Moves current document to archive folder	</p>
+        <p>	<b>	News Downloader	</b>	 - 	Retrieves RSS and Atom news entries and saves them as HTML files. Check the wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a>	</p>
+        <p>	<b>	OPDS	</b>	 - 	Allows you to download books from online catalogs	</p>
+        <p>	<b>	Perception expander	</b>	 - 	Allows using peripheral vision to read more quickly. Check this YouTube video to see how it works: <a href="https://youtu.be/jeOHqI9SqOI?t=137">How to Triple Your Reading Speed in 20 Minutes (Tim Ferriss)</a>	</p>
+        <p>	<b>	Profiles	</b>	 - 	Allows combining multiple settings to make switchable profiles	</p>
+        <p>	<b>	Progress sync	</b>	 - 	Synchronize your reading progress across different KOReader devices.  Check the wiki for how-to:  <a href="https://github.com/koreader/koreader/wiki/Progress-sync">https://github.com/koreader/koreader/wiki/Progress-sync</a>	</p>
+        <p>	<b>	QR from clipboard	</b>	 - 	Generates a QR code from clipboard content	</p>
+        <p>	<b>	Read timer	</b>	 - 	A countdown timer to display a message after a user defined time	</p>
+        <p>	<b>	Reading statistics	</b>	 - 	Calculates reading sessions statistics and reading speed for use in chapter/book remaining time estimations	</p>
+        <p>	<b>	SSH	</b>	 - 	Allows access to your device over SSH protocol. You can access via FTP applications or even your file manager if it supports. Check the wiki page for how-to:  <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a>	</p>
+        <p>	<b>	System statistics	</b>	 - 	You can see your CPU/RAM/BATTERY info via this plugin under: <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → System statistics</div>	</p>
+        <p>	<b>	Terminal emulator	</b>	 - 	Starts a shell (command prompt) on your device that can run full terminal apps	</p>
+        <p>	<b>	Text editor	</b>	 - 	A basic text editor to create and edit plain text files	</p>
+        <p>	<b>	Time sync	</b>	 - 	Synchronizes the device time with NTP servers	</p>
+        <p>	<b>	Tweak document settings	</b>	 - 	Allows tweaking settings of a document before it is loaded based on external factors	</p>
+        <p>	<b>	Wallabag	</b>	 - 	Downloads the latest articles from a Wallabag server as individual EPUB files.  Check the wiki page for more info: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a>	</p>
+        </div>
+
+        <div class="L2-Sub-heading">User patches <span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+   
+        <div class="standard-text">
+        User patches are small files written in <b>Lua</b> language. They can change the functionality of KOReader without modifying your installation permanently. They can be written by developers, other users or you can write one yourself (if you have the necessary extensive knowledge about the KOReader internals). 
+        
+        <p>You can find a current list of <span class=ui>User patches</span> in the related <b>GitHub</b> wiki page:</p>
+        
+        <p><a href="https://github.com/koreader/koreader/wiki/User-patches">https://github.com/koreader/koreader/wiki/User-patches</a></p>
+        
+        <p>and in the <b>issues</b> list under the <span class=ui>User patch available</span> tag:</p>
+        
+        <p><a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22</a></p>
+        
+        
+        <p><span class="link_to_heading">Basic usage – Adding an already written patch to your KOReader:</span></p>
+        
+        <ol>
+            <li>Create a directory named <span class=ui>patches</span> under <span class=ui>koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
+            <li>Download and put the patch file with <b>.lua</b> extension in this <span class=ui>patches</span> directory</li>
+            <li>Restart KOReader</li>
+        </ol>
+
+        
+        <p><span class="link_to_heading">Patch manager</span></p>
+
+        <p>When you create a patches directory as instructed, a new plugin named <span class=ui>Patch Management</span> becomes available in the plugins menu after restarting KOReader. With this plugin you can see the list and status of your user patches and enable/disable them. You can tap <span class=ui>About patch manager</span> menu item to see more info.</p>
+        
+        <p><span class="link_to_heading">Naming the patch</span></p>
+
+        <p>Execution order of a patch is determined by the first digit of the number in the patch name. For example: <span class=ui>2-TOC-title-patch.lua</span> If there are several patches starting with the same digit, the execution order is the natural order <b>(1<10<11<12<13<...<109<...<10010)</b>. If you are just downloading an already made patch you don’t need to change the file name.</p>
+        <p> Names starting with:</p>
+        
+        <ul>
+            <li><b>0</b> - Executed very early and only once after an update</li>
+            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
+            <li><b>2</b> - Executed after <span class=ui>UIManager</span> is ready on every start of KOReader</li>
+            <li><b>3-7</b> - Reserved</li>
+            <li><b>8</b> - Executed before exit and before settings get saved</li>
+            <li><b>9</b> - Executed right before exit</li>
+        </ul>
+           
+        <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
+    </div>
+
+
+
+        <div class="L1-Chapter-heading" id="preparing">PREPARING AND TRANSFERRING YOUR DOCUMENTS</div>
+        
+        <div class="L2-Sub-heading" id="transferring">Transferring books to your reader</div>
+        <div class="standard-text">
+        KOReader supports <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM and ZIP</b> files. 
+        
+        <p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format. You can use <span class=external>Calibre</span> (<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>) for all kinds of conversion between formats.</p>
+
+        <p>There are many ways to transfer your documents to your device. Note that you may need to restart KOReader to index the transferred documents (or refresh directory if you have Pocketbook/Android).</p>
+
+        <p>In addition to transferring files the same way you would with the built-in reader application, other options are available depending on your device:</p>
+        
+
+        <ol>
+            <li><b>USB mass storage mode within KOReader:</b> This mode is available for KOBO and some CERVANTES devices.</li>
+            <li><b>Cloud storage (<span class=external>Dropbox</span>/FTP/Webdav):</b> To use this function you have to add accounts for a cloud storage server via  menu shown below. Process is explained via <span class=ui>INFO</span> buttons while adding accounts:
+                 
+                <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Cloud storage</div>
+            </li>
+             <li><b>SSH/SFTP access:</b> KOReader can act like an <b>SSH server</b>, which you can access from a computer to transfer files (available on Kobo, Kindle, Cervantes). You can use an SFTP application (like <span class=external>Filezilla</span>) or access via your file manager if your operating system supports. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
+            <li><b>Calibre transfer:</b> With the <span class=external>Calibre plugin</span> you can send documents from your Calibre Library directly to your KOReader devices via a wifi connection. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
+            <li><b>News downloader:</b> With this plugin you can download <b>RSS and Atom</b> news entries as HTML files. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
+            <li><b>Wallabag:</b> With this plugin you can retrieve articles from <span class=external>Wallabag</span>, a server based read-it-later service like Pocket. Check wiki page for more info: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
+        </ol>
+        </div>
+
+
+        <div class="L2-Sub-heading" id="optimizing">Optimizing EPUB/PDF documents for your mobile reader device</div>
+
+        <div class="standard-text">
+        Most widely used applications for converting or optimizing your document for your mobile reading device are <span class=external>Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class=external>K2pdfopt</span> (<b>PDF</b> focused).
+
+        <p><span class=external>Calibre</span> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+        
+        <p><span class=external>K2pdfopt</span> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool. <a href="https://www.willus.com/k2pdfopt/">https://www.willus.com/k2pdfopt/</a></p>
+        
+        <p><span class=external>SingleFile</span> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a single .html file with all resources (images, stylesheets, scripts) embedded. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
+        </div>
+        
+        <div class="L2-Sub-heading" id="zipfiles">ZIP file support</div>
+
+        <div class="standard-text">
+        KOReader can read files stored/compressed in <b>ZIP</b> files. A ZIP file can contain many types of documents like html, txt or images. KOReader can open your ZIP file properly if you give it a hint for the type of file in the ZIP archive. If you give your file only a <b>.zip</b> extension, KOReader will assume that this archive contains images and try to open it like a <b>CBZ</b> file.
+
+        <p><span class=ui>DEFAULT CASE:</span>	yourfilename<b>.zip</b> - Assumed to be a zip file of images (and opened by <span class=ui>MuPDF engine</span>)</p>
+        
+        <p>If your zip file contains one of these types (instead of just images), please name it accordingly:</p>
+
+        <ul>
+            <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
+            <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
+            <li><b>Text log files</b> - yourfilename.<b>log.zip</b></li>
+            <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
+            <li><b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b></li>
+            <li><b>Plain text</b> - yourfilename.<b>txt.zip</b></li>
+        </ul>
+                 
+       <p> If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class=ui>No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class=ui>Open with...</span> to select the correct engine.</p>
+        </div>
+
+        <div class="L2-Sub-heading" id="manga">Optimizing manga for your mobile reader device</div>
+
+        <div class="standard-text">
+        If you like reading manga books on your e-ink device there are some tips that can make your experience better. Preparing your own manga files is the best solution if you're not satisfied with how comics look on your device.
+
+        <p><div class="link_to_heading">File type</div></p>
+        <p>File types like MOBI and EPUB are not suitable for handling primarily image content (e.g., manga/comics).  <b>MOBI</b> support in KOReader is minimal to nonexistent, and <b>EPUB’s</b> text rendering priorities can cause problems when showing full-page images (for further technical details: <a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205</a>).</p>
+
+        <p>Your best option is building a <b>CBZ</b> file which works better in KOReader.  A file with <b>.cbz</b> extension is a zip file (with no compression) that is a collection of images. It saves multiple images, commonly <b>.png</b> or <b>.jpeg</b> files, organized into pages of the comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</b> files but use <b>TAR</b> archive format.</p>
+
+        <p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <span class=external>Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that eink-rendered gradients are smoothly dithered without jagged layers.</p>
+
+        <p><div class="link_to_heading">Resolution</div></p>
+        <p>The best results can be achieved by resizing your images to exactly your e-reader screen size. A screen-specific <b>CBZ</b> which targets the exact screen size of the device, prevents rescaling during reading. KOReader downscales your images to your screen size while reading but this is not recommended because KOReader adds a dithering pass before scaling and this causes loss of quality.</p>
+
+        <p>But if you want to use your hand made <b>CBZ</b> on more than one device or you want to preserve high resolution for future proofing, your best option might be to make the <b>CBZ</b> for your highest resolution device. Or pick an arbitrary "high" resolution,  possibly one that matches the source. <b>300 PPI</b> or better (up to <b>450</b> or even <b>600</b>), unless the source is lower of course. If we assume a screen size of <b>8", 1500×2000</b> is a good target resolution. For bigger images, you should try it on your device and see whether it can deal with it. Especially old Kindles with low memory can struggle with sizes like <b>3000×4000</b> for example. If you're automating the process, it might be worth considering creating both a lower and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI).</p>
+
+        <div class=warning><span class="icon_red"></span> KOReader doesn't parse <u>spine page-progression-direction="rtl"</u> attribute of the books. So it doesn’t change page turning direction even though the file was created with right-to-left reading. Users can switch this via:
+        </div>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Page turns → Invert page turn tap and swipes / buttons</div>
+
+        </div>
+        
+        <div class="L3-Smaller-heading">Advanced preparation of manga</div>
+
+        <div class="standard-text">
+        The following is an example procedure to process one manga file:
+        <ul>
+            <li>Download <span class=external>Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
+            <li>Download your manga from the source of your choosing (i.e. <span class=external>HakuNeko</span>)</li>
+            <li>Unpack the manga file. Now you should have a directory that contains only images (or subdirectories with images, no archives)</li>
+            <li>Process this directory with <span class=external>KCC</span>. Each directory will produce a single <b>CBZ</b> file, so if you want to make several volumes at once, select multiple directories at once</li>
+        </ul>
+      
+        <p>Some useful settings of <span class=external>KCC</span>:</p>
+        <p><b>Spread splitter:</b> This feature detects double pages and allows you to rotate or cut them in two.</p>
+        <p><b>Upscaling:</b> Enlarge images that is smaller than your target resolution.</p>
+        </div>
+        
+        <div class="L3-Smaller-heading">Immersive mode in KOReader</div>
+
+        <div class="standard-text">
+        If you would like to enjoy your manga in a more immersive way, make sure that you selected the exact same resolution as your device’s screen resolution in <b>KCC</b> when creating your <b>CBZ</b> file. Also you can hide the bottom progress bar while reading your manga in KOReader. So you will have an immersive full screen view of your manga without obstructions.
+        </div>
+        
+        
+        <div class="L3-Smaller-heading">Extra step for smooth gradients <span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+
+        <div class="standard-text">
+        After using <span class=external>KCC</span> to create a <b>CBZ</b> file, you can apply additional <b>dithering</b> to the images. This way, eink-rendered gradients will be smoothly dithered without jagged layers. This step will produce fine-tuned manga volumes which look better in KOReader.
+
+        <p>You can use <span class=external>ImageMagick</span> to process your images. <span class=external>ImageMagick</span>, is a powerful open-source software suite for displaying, creating, converting, modifying, and editing raster images. You can download <span class=external>ImageMagick</span> and use it from the command line to process many images at once.</p>
+
+        <ol>
+            <li>Unpack the prepared <b>CBZ</b> file that you created with <span class=external>KCC</span>,</li>
+            <li>Download the following file (<b>dither_pack.zip</b>) which contains two <b>batch files (.BAT)</b> and a <b>GIF</b> color template:
+                <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></li>
+            <li>Extract these three files next to your images that will be processed</li>
+            <li>Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution to your device resolution (in both places in the <b>BAT</b> file).
+               <p> <div class=warning><span class="icon_red"></span> Next step will replace all the images in the directory with the processed ones. So make sure that you have a copy of them in some other directory if you want to keep the originals.</p>
+               </div>
+            </li>
+            <li>Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images.</li>
+            <li>Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to pack all the processed images into a <b>CBZ</b> archive.</li>
+        </ol>
+    
+        </div>
+        
+        <div class="L3-Smaller-heading">Reversing the page turn direction for authentic Japanese manga <span class=warning><span class="icon_red"></span> ADVANCED</span></div>
+
+        <div class="standard-text">
+        You can make KOReader turn pages from <b>Left to Right</b>, so that swipes and tap zones are swapped. To enable this, add the following lines to this file →  <span class=ui>/koreader/settings/directory_defaults.lua</span>
+        <br><br>
+        <span class=ui>
+            ["/storage/emulated/0/Books/manga"] = {<br>
+            ["inverse_reading_order"] = true,<br>
+            ["kopt_zoom_direction"] = 0,<br>
+            },
+        </span>
+
+        <p>where <b>/storage/emulated/0/Books/manga</b> is the absolute path to the directory containing your mangas. After this change, when you open a file from the mentioned directory, your swipes and tap zones will be swapped.</p>
+        </div>
+
+
+
+        
+
+    <div class="L1-Chapter-heading" id="tips">TIPS</div>
+        
+    <div class="standard-text">
+        <span class="link_to_heading">Updating KOReader</span>      
+        <p>KOReader can update itself over Wi-Fi. You can trigger the check via this menu item:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Update → Check for update</div>
+        
+        <span class="link_to_heading">Automatic dimmer</span>
+        <p>KOReader can dim your frontlight to preserve battery if your device is idle for a while. You can turn on and adjust this feature via:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Automatic dimmer</div>
+        
+        <span class="link_to_heading">Line/word count of a page</span>
+        <p>If you want to know how many lines or words are being shown on the current page you can see it at:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
+
+
+        <span class="link_to_heading">Switching between documents quickly</span>
+        <p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class=ui>File Browser</span>. KOReader can open the last document with a gesture (<b>←→← multiswipe</b>). If you define a gesture’s action as <span class=ui>Open previous document</span>, you can switch between two documents quickly similar to <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Open Previous Document</div>
+
+        <p>
+            Also you can use the <span class=ui>History</span> dialog to switch between documents quickly. The history screen can be opened with the
+            <b>→↑</b> multiswipe gesture. You can also define any other gesture for this of course.
+        </p>
+        
+        
+        <span class="link_to_heading">Applying current defaults to an already opened book</span>
+        <p>When you adjust your document defaults like <span class=ui>default line spacing</span> or <span class=ui>default contrast</span>, this new value will only be used for the new documents you open after the change. Your already opened books will look the same. For example, if you change your default <span class=ui>FONT</span>, you will probably adjust <span class=ui>FONT WEIGHT</span> and <span class=ui>LINE SPACING</span> to more suitable values for this new font. Then probably you will want to apply these changes to all your opened books. With this feature you don’t need to change these values manually in all your opened books.</p>
+        <p>You can easily apply these changes to your already opened books by choosing:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Reset document settings to default</div>
+
+        <p>When you click this option, your current book will reset to latest defaults you set. Don’t worry, this will only change the appearance of the book. Your reading position, highlights, notes and bookmarks will be preserved.</p>
+        
+        <span class="link_to_heading">Saving current book settings as defaults</span>
+        <p>When you adjust a book to your liking, for example by changing <span class=ui>line spacing</span>, <span class=ui>font contrast</span> etc. you can save all the changes at once as <span class=ui>defaults</span>. Then you can apply these settings to other books with the <span class=ui>Reset document settings to default</span> option as explained above.</p>
+        <p>You can save your changes as <span class=ui>defaults</span> by choosing:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Save document settings as default</div>
+        
+        <span class="link_to_heading">Avoiding clicking links accidentally</span>
+        <p>If your document has links and you are accidentally clicking them while turning the page or using other gestures, you can turn off <span class=ui>Following links by tapping</span> via this menu item:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Links → Tap to follow links</div>
+
+        <p>After disabling this setting, to follow a link you have to long-tap on it and select <span class=ui>Follow link</span> from the popup menu. If you have the opposite problem and you want to make tapping links easier, you can enable <span class=ui>Allow larger tap area around links</span> from the same menu.</p>
+        
+        <span class="link_to_heading">Optimizing your battery life</span>
+        <p>
+            Li-ion batteries experience more degradation at the extreme ends of their charge levels. To minimize this degradation and extend your battery life, you can limit your minimum discharge level to <b>20%</b> and maximum charge level to <b>80%</b> (as in electric vehicles and some newer phones). Which means you start charging your device when the battery goes down to 20% and unplug when it reaches 80% (or 25%-75% if you are extra cautious).</p>
+            <p>KOReader can warn you by showing an alert when charge level reaches your defined limits:</p>
+        
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device Status Alerts → Battery Level</div>
+        
+        <span class="link_to_heading">Keeping an eye on your memory usage</span>
+        <p>In older Kindle devices some of our users reported crashes due to limited memory. KOReader memory usage can go up if you open many files in one session. Especially PDF’s increase this amount. You can add a memory indicator to your <span class=ui>STATUS BAR</span> and restart KOReader if this value gets high, to avoid crashes or reboots.</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → KOReader memory usage</div>
+
+        <p>Also you can configure KOReader to restart automatically if memory usage reaches a threshold via:</p>
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Device Status Alerts</div>
+        
+        
+        <span class="link_to_heading">Checking your battery consumption details</span>
+        <p>You can see your detailed battery usage statistics via this menu item:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU →  <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More Tools → Battery Statistics</div>
+        
+        <span class="link_to_heading">Checking detailed device statistics</span>
+        <p>You can see your system information like <b>CPU/DISK SPACE/RAM</b> usage via this menu item:</p>
+        
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU →  <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → System statistics</div>
+
+     
+        <p><span class="link_to_heading">Changing your book cover</span></p>
+        <p>You can change your book cover from this menu:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Set cover image</div>
+        
+        
+        <span class="link_to_heading">Reading statistics after midnight</span>
+        <p>In reading statistics you can change the start of day used for calculations. This is useful if you are reading after midnight for example and want your reading session counted as today instead of the next day. This applies only to the <span class=ui>Day timeline view</span> and optionally to the <span class=ui>Calendar view</span>; it does not apply to any of the other statistics reports. You can set this time at:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Reading statistics → Settings → Daily timeline starts at...</div>
+        
+    </div>
+
+
+    <div class="L1-Chapter-heading" id="troubleshooting">TROUBLESHOOTING</div>
+    <div class="standard-text">
+        
+        <span class="link_to_heading">My status bar disappeared</span>
+        <p>Probably you tapped on <span class=ui>STATUS BAR</span> touch zone (check <span class="link_to_heading">USER INTERFACE</span> section to see an overview of touch zones) and hide your status bar. You can bring it back by tapping the same zone. Check <span class="link_to_heading">“How can I configure the status bar ?”</span> section to see details.</p>
+        
+        <span class="link_to_heading">Sometimes my taps are registered as a long tap or double taps</span>
+        <p>This can happen in cases like shaking hands or device touch screen problems. If you have this problem, you can try to increase the <span class=ui>Tap interval</span>. By increasing this interval, you tell KOReader to ignore quick taps at the same location.</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture intervals → Tap interval</div>
+
+        <p>If your two consecutive taps are separated by a distance, this would not apply. So you can still quickly browse pages by tapping quickly alternatively with two fingers.</p>
+        
+        <span class="link_to_heading">KOReader can't write to the SD card</span>
+        <p>In Android devices KOReader can’t write to the external storage due to Android system restrictions. If you want to change your screenshot saving location, be careful to choose your device’s internal storage.</p>
+        
+        <span class="link_to_heading">My PDF/DJVU files are slow</span>
+        <p>If you set your <span class=ui>RENDER QUALITY</span> to <span class=ui>HIGH</span> text will be more pleasing but it can be much slower (several seconds for page turn) than <span class=ui>DEFAULT</span> depending on your document. If your PDF/DJVU files are slow, this is the first setting you should check.</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> BOTTOM MENU → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"> → Render Quality</div>
+
+        <span class="link_to_heading">Ghosting and residue when turning pages</span>
+        <p>Even if KOReader is set to <b>full refresh after every page</b>, you may still see some ghosting/residue after turning pages. This is a limitation of e-ink screen technology and can be observed on the latest generation devices, especially while reading mixed content (text+images) documents. As a workaround, you can refresh one more time manually after turning the page to get rid of these artifacts if they bother you (<span class=ui>short diagonal swipe</span> gesture by default).</p>
+        
+        <span class="link_to_heading">Sleep cover problems</span>
+        <p>Sleep covers generally use a magnet embedded in the cover which enables wake up and sleep events via triggering a sensor in your device. In some cases like misaligned magnets, weak magnets etc. this triggering can be problematic. If you are having problems with waking up your device with your cover, you can disable this feature via this menu:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Ignore all sleep cover events</div>
+        
+        <span class="link_to_heading">Text indentation problems</span>
+        <p>If you get miscentered titles, headings or separators, or unexpected text indentation, try switching the style for your document. <span class=ui>epub.css</span> to <span class=ui>html5.css</span>. This kind of problems happen because some publishers assume their books will only be read on <b>web browser engine based</b> readers, so they don't bother "resetting" the styles.</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> → Style</div>
+
+        - Default <span class=ui>HTML/EPUB (epub.css)</span> is our book-oriented stylesheet, with <b>text-align: justify, text-indent on P</b>.  It is better for unstyled books, and might make styled books more readable.
+        - You can try switching to <span class=ui>HTML5 (html5.css)</span> if your book has indentation problems as mentioned above. This style provides a base stylesheet like web browsers do when rendering: <b>text-align: left, no text-indent on P, spacing between P</b>. But it doesn’t look pretty when publishers hasn’t done any styling.
+        
+
+        <p><span class="link_to_heading">Cleaning your book cover cache database</span></p>
+        <p>KOReader keeps a cache of your book covers to be able to show them quicker. In normal conditions this cache doesn’t get too big. If you remove lots of books or rename directories, you may want to clean up your book cover cache database to reclaim some space. You can do it from this menu:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Settings → Mosaic and detailed list settings → Book info cache management</div>
+
+        <span class="link_to_heading">Clearing file cache</span>
+        <p>When you are reading a <b>PDF/DJVU</b> document, KOReader keeps a cache of the last page you have read. So when you reopen the book, it will be faster. But this cache can grow big if you are using KOReader for a long time and reading many PDF/DJVU documents. These cache files are kept under your KOReader installation directory under the <b>cache folder</b>. To clear this cache and reclaim the space you can go to:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU (in file browser)  → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Developer options → Clear caches</div>
+        
+        <div class=warning><span class="icon_red"></span> Clear this cache <u>only if you really need this space</u>. If you have enough space, clearing the cache will not provide any benefit. Instead, it will degrade the performance because your reader will have to render those pages again.</div>
+        
+        
+        <p><span class="link_to_heading">Backing up your KOReader settings</span></p>
+        <p>In rare cases that you want to backup and restore your KOReader with all your settings, you can backup these folders and files under the KOReader installation directory. Then you can overwrite them after a clean installation to restore your settings:</p>
+        
+        <div class="double-container">
+            <div>
+                <b>Folders:</b>
+        <ul>
+            <li>settings</li>
+            <li>styletweaks</p>
+        </ul>
+            </div>
+
+            <div>
+                <b>Files:</b>
+                <ul>
+                    <li>data/cr3.ini</li>
+                    <li>defaults.persistent.lua</li>
+                    <li>history.lua</li>
+                    <li>settings.reader.lua</li>
+                    <li>Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if they exist)</b></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class=warning><span class="icon_red"></span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the same name as your book. You can backup these folders separately if you wish.</div>
+
+
+        </div>
+
+
+        <div class="L1-Chapter-heading" id="moreinfo">MORE INFO</div>
+
+        <div class="L2-Sub-heading">How to reach us about problems or suggestions</div>
+
+        <div class="standard-text">
+        KOReader uses <span class=external>GitHub</span> as its project base. You can report problems or suggestions on our GitHub page. You just need a GitHub account which is free. Click this link to open our <b>Issues</b> page:
+        <a href="https://github.com/koreader/koreader/issues">https://github.com/koreader/koreader/issues</a>
+        
+        <img src="pictures/github_main.png" style="width:700px;">
+
+        <p>On the <b>Issues</b> page click the <b>New Issue</b> button. But before doing that, we suggest using the search bar to see if there is already an existing issue about the same topic. You can also check other opened issues to have an idea about the process.</p>
+
+        <p>When you click the <b>New Issue</b> button you will be presented with two options:</p>
+        
+        <img src="pictures/github_issue.png" style="width:800px;">
+        
+        <p>Click the appropriate one and follow the instructions on the page to report your problem or suggestion. If you are reporting a bug, <b>verbose debug logs</b> are very helpful to determine the problem. You can enable them via:</p>
+
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU (in file browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Developer options → Enable debug logging + verbose debug logging</div>
+        </div>
+
+
+        <div class="L2-Sub-heading">You can also . . .</div>
+        <div class="standard-text" style="text-align: center;">
+        
+            <img class="img_inline" src="pictures/logo_mobileread.png" style="width:140px;"> 
+            <br> 
+            Find other KOReader users on <span class=external>MobileRead</span> forums
+            <br>    
+            <a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">https://www.mobileread.com/forums/forumdisplay.php?f=276</a>        
+            <hr>
+            <p>
+            <img class="img_inline" src="pictures/logo_gitter.png" style="width:100px;"><br> 
+            Reach us at <span class=external>Gitter</span> chat
+            <br>
+            <a href="https://gitter.im/koreader/koreader">https://gitter.im/koreader/koreader</a>
+            </p>
+            <hr>
+            <p>
+            <img class="img_inline" src="pictures/logo_liberapay.gif" style="width:80px;"><br> 
+            Support the project via <span class=external>Liberapay</span>
+            <br>
+            <a href="https://liberapay.com/KOReader">https://liberapay.com/KOReader</a>
+            </p>
+                      
+        </div>
+
+
+
+
+        <div class="L2-Sub-heading">Keyboard Shortcuts</div>
+
+        The desktop Linux version of KOReader implements keyboard shortcuts for navigating the user interface and reading books.
+        It helps Non-Touch devices with keyboard (Kindle 3, Kindle DX, Android, Android TV) and hopes also to devices with few keys.
+        <div class="double-container">
+        
+            <!--FIRST COLUMN START-->
+        <div>
+            <div class="L3-Smaller-heading">File browser mode</div>
+            <ul>
+                <li>Open top menu - <b>F1</b></li>
+                <li>Navigate to home - <b>Home</b></li>
+                <li>Navigate file list - <b>Up/Down</b></li>
+                <li>Open selected book - <b>Enter</b></li>
+                <li>Show selected book’s context menu - <b>Right</b></li>
+                <li>Exit application - <b>Esc</b></li>                    
+            </ul>
+
+            <div class="L3-Smaller-heading">Reading mode</div>
+            <ul>
+                <li>Open selected page link / Open bottom menu - <b>Enter</b></li>
+                <li>Open top menu - <b>F1</b></li>
+                <li>Back/exit application - <b>Esc</b></li>
+                <li>Show bookmarks - <b>B</b></li>                
+                <li>Show TOC menu - <b>T</b></li>
+            </ul>
+
+
+            <div class="L3-Smaller-heading">Highlighting</div>
+            <ul>
+                <li>Enter highlighting mode - <b>H</b></li>
+                <li>Start/stop highlight selection - <b>Enter</b></li>
+                <li>Move highlight indicator - <b>Left/Right/Up/Down </b></li>
+                <li>Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b></li>
+                <li>Exit highlight mode - <b>Esc</b></li>
+            </ul>
+
+
+            <div class="L3-Smaller-heading">Fonts</div>
+            (<b>Not</b> available for PDF, DJVU and images.)        
+                <ul>
+                    <li>Show font menu - <b>F</b></li>
+                    <li>Increase font size - <b>Shift+Page Up</b></li>
+                    <li>Decrease font size - <b>Shift+Page Down</b></li>
+                </ul>
+    
+            <div class="L3-Smaller-heading">Links</div>
+                <ul>
+                    <li>Select next page link - <b>Tab</b></li>
+                    <li>Select previous page link - <b>Shift+Tab</b></li>
+    
+                </ul>
+    
+            <div class="L3-Smaller-heading">Image viewer</div>
+                <ul>
+                    <li>Zoom in - <b>Page Down</b></li>
+                    <li>Zoom out - <b>Page Up</b></li>
+                </ul>
+    
+
+        <!--FIRST COLUMN END-->
+        </div>
+
+
+        <!--SECOND COLUMN START-->
+        <div>
+
+            <div class="L3-Smaller-heading">Navigating the book</div>
+            <ul>
+                <li>Next/previous page/view - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
+                <li>Go to the beginning of book - <b>1</b></li>
+                <li>Go to 11% of book - <b>2</b></li>
+                <li>Go to 22% of book - <b>3</b></li>
+                <li>Go to 33% of book - <b>4</b></li>
+                <li>Go to 44% of book - <b>5</b></li>
+                <li>Go to 55% of book - <b>6</b></li>
+                <li>Go to 66% of book - <b>7</b></li>
+                <li>Go to 77% of book - <b>8</b></li>
+                <li>Go to 88% of book - <b>9</b></li>
+                <li>Go to the end of book - <b>0</b></li>
+            </ul>
+        
+        <div class="L3-Smaller-heading">In Skim Document dialog</div>
+            <ul>                
+                <li>Go to the beginning of book - <b>Q</b></li>
+                <li>Go to 11% of book - <b>W</b></li>
+                <li>Go to 22% of book - <b>E</b></li>
+                <li>Go to 33% of book - <b>R</b></li>
+                <li>Go to 44% of book - <b>T</b></li>
+                <li>Go to 55% of book - <b>Y</b></li>
+                <li>Go to 66% of book - <b>U</b></li>
+                <li>Go to 77% of book - <b>I</b></li>
+                <li>Go to 88% of book - <b>O</b></li>
+                <li>Go to the end of book - <b>P</b></li>
+            </ul>
+
+        
+        <div class="L3-Smaller-heading">Page zooming</div>
+        (<b>Only</b> available for PDF, DJVU and images.)
+            <ul>
+                <li>Zoom in - <b>Shift + PgUp</b></li>
+                <li>Zoom out - <b>Shift + PgDown</b></li>
+                <li>Zoom to fit page - <b>A</b></li>
+                <li>Zoom to fit page width - <b>S</b></li>
+                <li>Zoom to fit page height - <b>D</b></li>
+                <li>Zoom to fit content - <b>Shift+A</b></li>
+                <li>Zoom to fit content width - <b>Shift+S</b></li>
+                <li>Zoom to fit content height - <b>Shift+D</b></li>
+                <li>Manual zoom mode - <b>Shift+M</b></li>
+            </ul>
+     
+    
+        <!--SECOND COLUMN END-->
+        </div>
+
+    <!--DOUBLE CONTAINER END-->
+    </div>
+
+
+
+    <div class="L3-Smaller-heading"> How can I add a password lock to KOReader?</div>
+    <div class="standard-text">
+       We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:
+
+       <ol>
+        <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your "unlock" gesture by going to:
+            <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → "your selected gesture" → Device → Exit screensaver</div>
+        </li>
+        <li>Enable this option:
+            <div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings → Keep the screensaver on screen after wakeup → Until 'Exit screensaver' gesture</div>
+        </li>
+    
+       </ol>
+    </div> 
+
+        
+        
+
+
+
+<!-- OUTER DIV-->
+</div>
+
+
+<!--
+<a href=""></a>
+<div class="standard-text">
+<span class=ui>
+<div class="menu-breadcrumbs">
+<div class=warning>
+    <span class="icon_red"></span> info
+    <span class="icon_red"></span> warning
+    <span class="icon_red"></span> tip
+
+<span class=external>
+<div class="L1-Chapter-heading">
+<div class="L2-Sub-heading">
+<div class="L3-Smaller-heading">
+<span class="link_to_heading">
+
+    <img src="pictures/" style="width:600px;">
+ <img class="img_inline" src="pictures/" style="width:26px;"> 
+
+<div class="double-container">
+    
+    <div></div>
+    <div></div>
+</div>
+
+<div class="quad-container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+-->
+
+
+</body>
+</html>
+
+
