@@ -2,15 +2,12 @@ name: Manual to EPUB
 on: [pull_request, push]
 jobs:
   convert:
-    runs-on: ubuntu-latest
+    runs-on: ghcr.io/linuxserver/calibre
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Convert ebook
-        uses: jensvog/ebook-convert-action@v1
-        with:
-          in: user_guide/index.html
-          out: koreader_user_guide.epub
+        run: ebook-convert user_guide/index.html koreader_user_guide.epub
       - name: Upload
         uses: actions/upload-artifact@v3
         with:
