@@ -2,7 +2,9 @@ name: Manual to EPUB
 on: [pull_request, push]
 jobs:
   convert:
-    runs-on: ghcr.io/linuxserver/calibre
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/linuxserver/calibre
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
