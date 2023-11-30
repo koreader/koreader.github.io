@@ -1,6 +1,5 @@
-on:
-  pull_request:
-
+name: Manual HTML Preview
+on: [pull_request, push]
 jobs:
   pr:
     runs-on: ubuntu-latest
