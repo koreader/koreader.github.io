@@ -14,6 +14,7 @@ jobs:
       - name: Post comment with manual HTML preview link
         uses: mshick/add-pr-comment@v2
         with:
+          if: always()
           message: |
             **HTML preview for manual: {{ steps.html_preview.outputs.url }}**
           proxy-url: https://add-pr-comment-proxy-94idvmwyie-uc.a.run.app
