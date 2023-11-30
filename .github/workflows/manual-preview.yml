@@ -1,0 +1,24 @@
+name: Manual HTML Preview
+on: [pull_request_target]
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Manual HTML Preview
+        id: html_preview
+        uses: pavi2410/html-preview-action@v2
+        with:
+          html_file: 'user_guide/index.html'
+      - name: Create comment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}'
+            })
