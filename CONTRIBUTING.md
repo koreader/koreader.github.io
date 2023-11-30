@@ -1,0 +1,1 @@
+Welcome! This is the repository for the KOReader website, including the user guide. For the latter, except for really small changes please discuss first in the "User Guide Maintenance" ticket at <https://github.com/koreader/koreader/issues/11147>.
