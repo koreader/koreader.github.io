@@ -15,5 +15,5 @@ jobs:
         uses: mshick/add-pr-comment@v2
         with:
           message: |
-            bloop
+            **HTML preview for manual: {{ steps.html_preview.outputs.url }}**
           proxy-url: https://add-pr-comment-proxy-94idvmwyie-uc.a.run.app
