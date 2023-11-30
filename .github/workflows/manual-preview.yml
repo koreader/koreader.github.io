@@ -11,9 +11,3 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: 'user_guide/index.html'
-      - name: Post comment with manual HTML preview link
-        uses: mshick/add-pr-comment@v2
-        with:
-          message: |
-            **HTML preview for manual: {{ steps.html_preview.outputs.url }}**
-          proxy-url: https://add-pr-comment-proxy-94idvmwyie-uc.a.run.app
