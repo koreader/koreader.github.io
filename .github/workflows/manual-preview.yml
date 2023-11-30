@@ -11,7 +11,13 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: 'user_guide/index.html'
-      - uses: github-actions-up-and-running/pr-comment@v1.0.0
+      - uses: actions/github-script@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          message: ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}'
+            })
