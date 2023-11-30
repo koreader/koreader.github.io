@@ -1,5 +1,5 @@
 name: Manual HTML Preview
-on: [pull_request]
+on: [pull_request_target]
 jobs:
   pr:
     runs-on: ubuntu-latest
