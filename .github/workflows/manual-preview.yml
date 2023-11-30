@@ -17,3 +17,4 @@ jobs:
           message: |
             **HTML preview for manual: {{ steps.html_preview.outputs.url }}**
           proxy-url: https://add-pr-comment-proxy-94idvmwyie-uc.a.run.app
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
