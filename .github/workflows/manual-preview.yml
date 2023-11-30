@@ -1,5 +1,5 @@
 name: Manual HTML Preview
-on: [pull_request]
+on: [pull_request_target]
 jobs:
   pr:
     runs-on: ubuntu-latest
@@ -11,9 +11,13 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
           html_file: 'user_guide/index.html'
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - uses: actions/github-script@v6
         with:
-          message: |
-            ${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}
-          reactions: rocket
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview.outputs.url) }}'
+            })
