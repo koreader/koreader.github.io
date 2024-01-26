@@ -555,7 +555,7 @@ hr {
         <li>화면 색깔 반전</li>
         <li>화면갈무리 찍기</li>
         <li>자동 페이지 넘기기</li>
-        <li><b>독서 진행률</b>과 <b>시간 범위</b>, <b>달력 보기</b> 등의 독서 통계를 살펴보세요.</li>
+        <li><b>독서 진행률</b>과 <b>시간 범위</b>, <b>달력 보기</b> 등의 읽기 통계를 살펴보세요.</li>
         </ul>
         
         <span class="L3-Smaller-heading">컬렉션으로 둘러보기</span>
@@ -731,7 +731,7 @@ hr {
     
     <p>- <b>하단 메뉴</b>에서 옵션의 이름을 길게 누르면 해당 옵션에 대한 설명을 볼 수 있습니다.</p>
     <p>- You can <b>CLOSE</b> full screen dialogs (<span class="ui">History, Table of Contents, Bookmarks, Reading Statistics</span> etc.) by <b>swiping down.</b>
-- <b>아래로 스와이프</b>하여 전체 화면 대화상자(<span class="ui">내력, 차례, 책갈피, 독서 통계 등</span>)를 <b>닫을</b> 수 있습니다.</p>
+- <b>아래로 스와이프</b>하여 전체 화면 대화상자(<span class="ui">내력, 차례, 책갈피, 읽기 통계 등</span>)를 <b>닫을</b> 수 있습니다.</p>
     <p>- 손가락으로 <b>길게 대각선으로 스와이프</b>하여 스크린샷을 찍을 수 있습니다.</p>
 
     <img src="pictures/non_full_screen_dialog.png" style="width:240px;">
@@ -990,10 +990,10 @@ hr {
     </div>
 
     <p><span class="ui">하단 메뉴</span>에서 다른 서식 옵션을 변경하여 텍스트의 모양을 미세 조정할 수도 있습니다.</p>
-    <p>독서 통계는 다음을 통해 확인할 수 있습니다:</p>
+    <p>읽기 통계는 다음을 통해 확인할 수 있습니다:</p>
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 독서 통계</div>
+    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 읽기 통계</div>
 
     
     <div class="L3-Smaller-heading">화면의 배경 조명/전면 조명을 제어하는 방법?</div>
@@ -1086,65 +1086,65 @@ hr {
     <div class="L2-Sub-heading" id="autowarmth">자동 색 온도와 야간 모드</div>
 
     <div class="standard-text">
-    This plugin allows you to adjust frontlight warmth in devices with <b>natural (yellow/orange) light</b> and set <span class="ui">Night Mode</span> (inverted screen colors – <b>white text on black background</b>) automatically according to a schedule. It can control them both or you can choose <span class="ui">only warmth control</span> or <span class="ui">only Night Mode control</span> mode, so you can adjust the other one manually.
-    <p>This plugin comes enabled as default. If it is not in the menu, you can enable it via:</p>
+    이 플러그인을 사용하면, <b>자연광(노랑/주황) 조명</b>을 사용하는 장치의 전면 조명 색 온도를 조정하고 일정에 따라 자동으로 <span class="ui">야간 모드</span>(화면 색깔 반전 - <b>검은색 배경에 흰색 글씨</b>)를 설정할 수 있습니다. 두 가지를 모두 제어하거나, <span class="ui">색 온도 제어 모드만</span>이거나 <span class="ui">야간 모드 제어 모드만</span> 선택할 수 있으므로, 다른 하나는 수동으로 조정할 수 있습니다.
+    <p>이 플러그인은 기본적으로 활성화되어 있습니다. 메뉴에 없는 경우 다음을 통해 활성화할 수 있습니다:</p>
     
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 자동 색온도와 야간 모드</div>
 
-    You can adjust the warmth of your screen frontlight automatically in two different ways:
+    두 가지 방법으로 화면 전면 조명의 색 온도를 자동으로 조절할 수 있습니다:
 
-    <p><span class="ui">FIXED SCHEDULE:</span> In this mode your frontlight warmth changes according to the daily schedule you entered. This mode is <b>STATIC</b>, it doesn’t account for daylight length. The schedule stays the same all around the year.</p>
+    <p><span class="ui">고정된 일정:</span> 이 모드에서는 입력한 일일 일정에 따라 전면 조명의 색 온도가 변경됩니다. 이것은 <b>정적인</b> 모드이며 낮의 길이를 고려하지 않습니다. 이 일정은 일년 내내 동일하게 유지됩니다.</p>
 
-    <p><span class="ui">SUN’S POSITION:</span> This option calculates Sun’s position in your location according to <b>COORDINATES</b> and <b>ALTITUDE</b> information you entered. Frontlight warmth is adjusted gradually according to this calculated Sun position data. This mode is <b>DYNAMIC</b>. As the length of daylight changes around the year, plugin adjusts the schedule accordingly.</p>
+    <p><span class="ui">태양의 위치:</span> 이 옵션은 내가 입력한 <b>좌표</b>와 <b>고도</b> 정보에 따라 내 위치의 태양 위치를 계산합니다. 이 계산된 태양 위치 데이터에 따라 전면 조명의 색 온도가 점진적으로 조정됩니다. 이것은 <b>동적인</b> 모드입니다. 일년 내내 낮의 길이 변화에 따라 플러그인이 일정을 조정합니다.</p>
 
-    <p>First have a look at this image to familiarize yourself with the terms used in the plugin:</p>
+    <p>먼저 이 이미지를 살펴보고 플러그인에서 사용되는 용어를 숙지하세요:</p>
     </div>
     
     <img src="pictures/auto_warmth_explanation.png" style="width:800px;">
 
-    <div class="L3-Smaller-heading">Fixed Schedule Mode</div>
+    <div class="L3-Smaller-heading">고정된 일정 모드</div>
 
     <div class="standard-text">
 <ol>
-    <li>Go to the plugin menu: <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 색 온도와 야간 모드</div></li>
-    <li>Tap Activate menu item and then <span class="ui">ACCORDING TO THE FIXED SCHEDULE</span></li>
-    <li>Go back to previous menu and tap <span class="ui">FIXED SCHEDULE SETTINGS</span> menu item</li>
-    <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+    <li>플러그인 메뉴로 이동합니다: <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 색 온도와 야간 모드</div></li>
+    <li>메뉴 항목 활성화를 탭한 다음 <span class="ui">고정된 일정대로</span>를 탭하세요</li>
+    <li>이전 메뉴로 돌아가서 <span class="ui">고정된 일정 설정</span> 메뉴 항목을 탭하세요</li>
+    <li>여기에서 다양한 항목의 시간을 설정하여 색 온도 변경 일정을 설정하세요. 항목 설명은 위 이미지를 참조하세요.</li>
 </ol>
     </div>
 
     
-    <div class="L3-Smaller-heading">Sun’s Position Mode</div>
+    <div class="L3-Smaller-heading">태양의 위치 모드</div>
 
     <div class="standard-text">
         <ol>
-            <li>Go to the plugin menu:
+            <li>플러그인 메뉴로 이동합니다:
                 <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 색 온도와 야간 모드</div></li>
-            <li>Tap <span class="ui">ACTIVATE</span> menu item and then <span class="ui">ACCORDING TO THE SUN’S POSITION</span></li>
-            <li>Go back to previous menu and tap <span class="ui">LOCATION SETTINGS</span> menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> (optional) correctly and give a <b>name</b> to your location.</li>
-            <li>Go back to previous menu and tap <span class="ui">WARMTH AND NIGHT MODE SETTINGS</span> menu item</li>
-            <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+            <li><span class="ui">활성화</span> 메뉴 항목을 탭한 다음 <span class="ui">태양의 위치에 따라</span>를 누르세요</li>
+            <li>이전 메뉴로 돌아가서 <span class="ui">위치 설정</span> 메뉴 항목을 탭합니다. <b>좌표</b>(필수)와 <b>고도</b>(선택)를 올바르게 설정하고 내 위치의 <b>이름</b>을 지정합니다.</li>
+            <li>이전 메뉴로 돌아가서 <span class="ui">색 온도와 야간 모드 설정</span> 메뉴 항목을 탭하세요</li>
+            <li>여기에서 다양한 항목의 시간을 설정하여 색 온도 변경 일정을 설정하세요. 항목 설명은 위 이미지를 참조하세요.</li>
         </ol>
  
-    <p>You can see your current schedule via <span class="ui">CURRENTLY ACTIVE PARAMETERS</span> menu option.</p>
+    <p><span class="ui">현재 활성화된 매개변수</span> 메뉴 옵션을 통해 현재 일정을 확인할 수 있습니다.</p>
     <img src="pictures/auto_warmth_menu.png" style="width:400px;">
         
     </div>          
     
-    <div class="L3-Smaller-heading">Night Mode</div>
+    <div class="L3-Smaller-heading">야간 모드</div>
 
     <div class="standard-text">
-    While setting the warm light percentages for different intervals, you can also set that interval to <span class="ui">Night Mode</span>, which inverts the screen colors when that interval starts. If your minimum frontlight is still too bright or if you prefer a dark page background, you can activate this feature. To enable this, in the dialog on the right, you can tap <span class="ui">Use night mode</span>.
-    <p>When you do this, warm light percentage will increase to <b>110%</b> indicating that this interval has Night Mode activated. You will see a <b>moon icon</b> in the menu next to this interval. To disable Night Mode you can decrease the percentage to <b>any value under 110</b>.</p>
-    <p>If you want to manage <span class="ui">Night Mode</span> manually (or the reverse) you can change the working mode of this plugin by tapping on the option shown below.</p>
+    다양한 간격으로 색 온도 조명 비율을 설정하는 동안, 해당 간격을 <span class="ui">야간 모드</span>로 설정하여 해당 간격이 시작되면 화면 색상이 반전되도록 할 수도 있습니다. 최소 전면 조명이 여전히 너무 밝거나 어두운 페이지 배경을 선호하는 경우, 이 기능을 활성화할 수 있습니다. 이 기능을 활성화하려면 오른쪽 대화 상자에서 <span class="ui">야간 모드 사용</span>을 탭하면 됩니다.
+    <p>이렇게 하면 색 온도 조명 비율이 <b>110%</b>로 증가하여 이 간격이 야간 모드가 활성화되었음을 나타냅니다. 이 간격 옆의 메뉴에 <b>달 아이콘</b>이 표시됩니다. 야간 모드를 비활성화하려면 이 비율을 <b>110 미만의 값</b>으로 낮추면 됩니다.</p>
+    <p><span class="ui">야간 모드</span>를 수동으로 관리하려면(또는 그 반대) 아래 표시된 옵션을 탭하여 이 플러그인의 작동 모드를 변경할 수 있습니다.</p>
     </div>
 
     <img src="pictures/auto_warmth_night_mode.png" style="width:300px;">
     
-    <div class="L3-Smaller-heading">Frontlight auto on/off</div>
+    <div class="L3-Smaller-heading">전면 조명 자동 켜기/끄기</div>
 
     <div class="standard-text">
-    This feature turns your frontlight on at sunset and turns it off at sunrise according to your <span class="ui">Currently active parameters</span> in this plugin. You can override this change by manually turning your frontlight on/off. On the next sunrise/sunset, <span class="ui">AutoWarmth</span> will toggle it again if it is necessary. You can activate it by selecting <span class="ui">Frontlight off during the day</span> menu item in this plugin.
+    이 기능은 이 플러그인의 <span class="ui">현재 활성화된 매개변수</span>에 따라 일몰 때 전면 조명을 켜고 일출 때 전면 조명을 끕니다. 수동으로 전면 조명을 켜거나 꺼서 이 변경 사항을 재정의할 수 있습니다. 다음 일출/일몰 때 <span class="ui">자동 색온도</span>가 필요한 경우 다시 토글됩니다. 이 플러그인에서 <span class="ui">낮 동안 전면 조명 끄기</span> 메뉴 항목을 선택하여 활성화할 수 있습니다.
     </div>
 
 
@@ -1153,40 +1153,40 @@ hr {
 
     <div class="L2-Sub-heading" id="fonts">글꼴</div>
 
-    <div class="L3-Smaller-heading">How can I add my own fonts ?</div>
+    <div class="L3-Smaller-heading">나만의 글꼴을 추가하는 방법?</div>
     <div class="standard-text">
-    KOReader supports fonts in most widely used TrueType (.ttf) and OpenType formats (.otf). Font files with these extensions can be directly copied to <span class="ui">/koreader/fonts/</span> folder on your device. Check the wiki for more info:
+    KOReader는 가장 널리 사용되는 트루타입(.ttf)과 오픈타입(.otf) 형식의 글꼴을 지원합니다. 이러한 확장자를 가진 글꼴 파일은 내 기기의 <span class="ui">/koreader/fonts/</span> 폴더에 직접 복사할 수 있습니다. 자세한 내용은 위키를 참조하세요:
     <p><a href="https://github.com/koreader/koreader/wiki/Fonts">https://github.com/koreader/koreader/wiki/Fonts</a></p>
     
-    <p>When starting up, KOReader compiles the available fonts from the <b>font metadata/info</b> and classifies them according to family and weights. This means you can add different weights and variants of a font and KOReader will try to use the most suitable one. Since it takes font family information from metadata, font names are not important when copying to your device. Installed fonts will be available after restarting KOReader.</p>
-    <p>You can check the <span class="external">Google Fonts</span> website to get free fonts: <a href="https://fonts.google.com">https://fonts.google.com</a></p>
+    <p>KOReader는 시작할 때 <b>글꼴 메타데이터/정보</b>에서 사용 가능한 글꼴을 컴파일하고 패밀리와 굵기에 따라 글꼴을 분류합니다. 즉, 글꼴의 다양한 굵기와 변형을 추가할 수 있으며, KOReader는 가장 적합한 글꼴을 사용하려고 시도합니다. 메타데이터에서 글꼴 패밀리 정보를 가져오기 때문에 내 기기에 복사할 때 글꼴 이름은 중요하지 않습니다. 설치된 글꼴은 KOReader를 다시 시작한 후에 사용할 수 있습니다.</p>
+    <p><span class="external">Google 글꼴</span> 웹사이트에서 무료 글꼴을 받을 수 있습니다: <a href="https://fonts.google.com">https://fonts.google.com</a></p>
     </div>
 
-    <div class="L3-Smaller-heading">Previewing the fonts on your device</div>
+    <div class="L3-Smaller-heading">내 기기에서 글꼴 미리보기</div>
     <div class="standard-text">
-    <p>KOReader can generate a document with sample text rendered with all the fonts installed on your device. This allows you to quickly compare the look and features of the fonts like ligatures and character sets in non-Latin scripts like Greek, Hebrew or Chinese. You can access this feature via:</p>
+    <p>KOReader는 기기에 설치된 모든 글꼴로 렌더링된 샘플 텍스트가 포함된 문서를 생성할 수 있습니다. 이를 통해 그리스어, 히브리어 또는 중국어와 같은 비 라틴어 스크립트의 합자 및 문자 세트와 같은 글꼴의 모양과 기능을 빠르게 비교할 수 있습니다. 이 기능은 다음을 통해 접근할 수 있습니다:</p>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 설정 → 글꼴 테스트 문서 생성</div>
     </div>
 
-    <div class="L3-Smaller-heading">Monospace font scale</div>
+    <div class="L3-Smaller-heading">고정폭 글꼴 크기</div>
     <div class="standard-text">
     <p>
-        If your book includes parts with <b>Monospace</b> fonts (like in programming books), Monospace font might look disproportional even if they are technically at the same size. This is caused by differing font metrics. If you want to fix this difference, KOReader has an option that allows you to adjust the relative Monospace font size.
+        프로그래밍 책에서처럼 책에 <b>고정폭</b> 글꼴이 있는 부분이 포함되어 있는 경우, 기술적으로 크기가 같더라도 고정폭 글꼴이 불균형하게 보일 수 있습니다. 이는 글꼴 메트릭이 다르기 때문에 발생합니다. 이 차이를 해결하려면 KOReader에 상대적인 고정폭 글꼴 크기를 조정할 수 있는 옵션이 있습니다.
     </p>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 설정 → 고정폭 글꼴 크기 조정</div>
 
-    <p>Here you can increase or decrease the size of your Monospace font by adjusting its scaling as a percentage of the default size.</p>
+    <p>여기에서 기본 크기의 백분율로 배율을 조정하여 고정폭 글꼴의 크기를 늘리거나 줄일 수 있습니다.</p>
     </div>
     
-    <div class="L3-Smaller-heading">Using different fonts in one document</div>
+    <div class="L3-Smaller-heading">한 문서에서 다른 글꼴 사용</div>
     <div class="standard-text">
-    <p>In HTML/CSS based documents like EPUBs, books can specify to use fonts by family instead of a specific font name. These families can be <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For example in a book, normal text can be shown in <b>Sans-serif</b> while dialogues are shown in <b>Serif</b> font. KOReader normally uses your default font for all these families except <b>Monospace</b> and <b>Math</b> (which is determined by the style of the text nodes, for example <b>'font-family: serif'</b>). If you want these families to look distinct, you can assign specific fonts for them here:</p>
+    <p>EPUB과 같은 HTML/CSS 기반 문서에서, 책은 특정 글꼴 이름 대신 글꼴 패밀리 별로 글꼴을 사용하도록 지정할 수 있습니다. 이러한 글꼴 패밀리는 <b>세리프, 산세리프, 고정폭, 필기체, 판타지, 이모티콘, 팡송, 수학식</b> 등이 있습니다. 예를 들어 책에서 일반 텍스트는 <b>산세리프</b>로 표시하고, 대화 상자는 <b>세리프</b>로 표시할 수 있습니다. KOReader는 일반적으로 <b>고정폭</b>과 <b>수학식</b>을 제외한 모든 글꼴 패밀리(텍스트 노드의 스타일에 따라 결정되는 <b>'font-family: serif'</b> 등)에 기본 글꼴을 사용합니다. 이러한 글꼴 패밀리가 뚜렷하게 보이도록 하려면, 여기에서 특정 글꼴을 지정할 수 있습니다:</p>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 패밀리 글꼴</div>
 
-    <p>To change a family font for the current book just tap on the desired font name. If you want to set this for all your books, long-tap to set it as a <span class="ui">Default (★)</span>. If a book abuses this font family feature to the point where your default font is hardly used, you can disable that family font for this book by unchecking the association.</p>
+    <p>현재 책의 패밀리 글꼴을 변경하려면 원하는 글꼴 이름을 탭하면 됩니다. 모든 책에 설정하려면 길게 탭하여 <span class="ui">기본값(★)</span>으로 설정합니다. 책에서 기본 글꼴이 거의 사용되지 않을 정도로 이 글꼴 패밀리 기능을 남용하는 경우, 연결을 해제하여 이 책에 대해 해당 패밀리 글꼴 기능을 비활성화할 수 있습니다.</p>
     </div>
     
     <img src="pictures/font_family.png" style="width:600px;">
@@ -1195,8 +1195,8 @@ hr {
     <div class="L1-Chapter-heading" id="moving">책으로 이동</div>
 
     <div class="standard-text">
-    There are many different ways of moving through your document in KOReader.
-    <p>You can use the <span class="ui">SKIM WIDGET, BOOK MAP or PAGE BROWSER</span> features.</p>
+    KOReader에서 문서를 이동하는 방법에는 여러 가지가 있습니다.
+    <p><span class="ui">훑어보기 위젯이나 책 지도, 페이지 탐색기</span> 기능을 사용할 수 있습니다.</p>
     
     <div class="L2-Sub-heading" id="skimwidget">훑어보기 위젯</div>
 
@@ -1207,27 +1207,27 @@ hr {
 
     </div>
 
-    <div class="L3-Smaller-heading">Chapter Marks</div>    
+    <div class="L3-Smaller-heading">챕터 표시</div>    
     
     <div class="standard-text">
-    KOReader can show chapter boundaries from your documents on the <span class="ui">SKIM WIDGET</span> and <span class="ui">PROGRESS BAR</span>.
+    KOReader는 <span class="ui">훑어보기 위젯</span>과 <span class="ui">진행 표시줄</span>에서 문서의 챕터 경계를 표시할 수 있습니다.
 
     <p><img src="pictures/skim_widget_chapter_marks.png" style="width:400px;"></p>
 
-    <p>If your document has too many heading levels, your chapter marks can look crowded like the example on the left. You can change the depth of visible ToC mark levels via:</p>
+    <p>문서에 제목 단계가 너무 많으면, 왼쪽의 예처럼 챕터 표시가 복잡해 보일 수 있습니다. 다음을 통해 표시되는 차례 표시 단계의 깊이를 변경할 수 있습니다:</p>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 진행 막대</div>
 
     <img src="pictures/skim_widget_chapter_mark_levels.png" style="width:400px;">
 
-    <p>You can also use this reduced ToC for:</p>
+    <p>이 감소된 차례는 다음 용도로도 사용할 수 있습니다:</p>
     <ul>
         <li>장 제목(<span class="ui">상태 표시줄</span>에 표시되는 경우)</li>
-        <li>chapter navigation</li>
-        <li>reading time left estimates</li>
+        <li>챕터 둘러보기</li>
+        <li>남은 독서 예상 시간</li>
     </ul>
-    <p>These options are in the same menu.</p>
-    <p>If your document doesn’t have a Table of Contents, you can enable <span class="ui">ALTERNATIVE TABLE OF CONTENTS</span>. When this setting is enabled, KOReader will build a ToC from document headings (if available) or from individual HTML files in the EPUB. Long-tap the menu item for extra info:   
+    <p>이러한 옵션은 동일한 메뉴에 있습니다.</p>
+    <p>문서에 차례가 없는 경우 <span class="ui">대체 차례</span>를 활성화할 수 있습니다. 이 설정을 활성화하면 KOReader는 문서 제목(사용 가능한 경우)이나 EPUB의 개별 HTML 파일에서 차례를 만듭니다. 추가 정보를 보려면 메뉴 항목을 길게 탭하세요:   
     </p>
     
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 대체 차례</div>
@@ -1236,29 +1236,29 @@ hr {
     <div class="L2-Sub-heading" id="bookmap">책 지도</div>
 
     <div class="standard-text">
-    Book map is a powerful and unique feature of KOReader which can be very useful for getting an overview of a book. For example if you are reading a book non-linearly by skipping some parts to read them later, it would be hard to track your progress. Book Map can show you which parts of the book you have already read, at a glance. 
-    <p>Additionally you can:</p>
+    책 지도는 책의 개요를 파악하는 데 매우 유용한 KOReader의 강력하고 독특한 기능입니다. 예를 들어, 책을 읽다가 일부 부분을 건너뛰고 나중에 읽는 등 비선형적으로 읽는 경우 진행 상황을 추적하기 어려울 수 있습니다. 책 지도를 사용하면 책의 어느 부분을 이미 읽었는지 한 눈에 확인할 수 있습니다. 
+    <p>추가적으로 가능합니다:</p>
     <ul>
-        <li>See how much time you have spent on each page (if <span class="ui">Reading Statistics</span> plugin is enabled)</li>
-        <li>Check which pages have bookmark, highlights and notes</li>
-        <li>Navigate directly to any part of the book like the <span class="ui">SKIM WIDGET</span></li>
+        <li>각 페이지에서 시간을 얼마나 보냈는지 확인하세요(<span class="ui">읽기 통계</span> 플러그인이 활성화된 경우).</li>
+        <li>책갈피, 강조 표시, 메모가 있는 페이지 확인</li>
+        <li><span class="ui">훑어보기 위젯</span>과 같이 책의 원하는 부분으로 바로 이동</li>
     </ul>
 
-    You can access Book Map via menu and you can also assign a gesture for quicker access:
+    메뉴를 통해 책 지도에 접근할 수 있으며, 더 빠르게 접근할 수 있도록 제스처를 지정할 수도 있습니다:
     
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 책 지도</div>
 
     </div>
 
 
-    <div class="L3-Smaller-heading">User Interface And Controls</div>
+    <div class="L3-Smaller-heading">사용자 인터페이스와 제어</div>
     <div class="standard-text">
     When you open the <span class="ui">Book Map</span> first time while reading a book, it will be in <span class="ui">Grid View</span> mode, fitting all chapters on a single screen to give the best initial overview of the book’s content. To get a detailed information about usage, tap the info icon at the upper left corner. You can close the Book Map by clicking <span class="ui">X</span> on the upper right corner or with any multiswipe gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.). <img src="pictures/bookmap.png" style="width:800px;"> You can customize <span class="ui">Book Map</span> by changing these options:
-    <p>- First try swiping <span class="ui">LEFT</span> and <span class="ui">RIGHT</span> along the bottom edge of the screen to change width of columns indicating pages and observe how it changes the scale of map</p>
+    <p>- 먼저 화면 하단 가장자리를 따라 <span class="ui">왼쪽</span>과 <span class="ui">오른쪽</span>을 스와이프하여 페이지를 나타내는 열의 너비를 변경하고 지도의 축척이 어떻게 변하는지 관찰하세요</p>
     
-    <p>- Then try swiping <span class="ui">UP</span> and <span class="ui">DOWN</span> along the left edge of the screen to change chapter title depth and switch to the <span class="ui">Flat View</span>. See examples below.</p>
+    <p>- 그런 다음 화면 왼쪽 모서리를 따라 <span class="ui">위쪽</span>과 <span class="ui">아래쪽</span>으로 스와이프하여 챕터 제목의 깊이를 변경하고 <span class="ui">평면 보기</span>로 전환합니다. 아래 예를 참조하세요.</p>
 
-    <p>In addition to default <span class="ui">Grid View</span> above, here you can see the <span class="ui">Flat View</span> on the left and Grid View without chapter titles on the right. Note the changing left vertical scrollbar between views. If you want to switch back to the default view, you can long-press the info icon at the upper left corner.</p>
+    <p>위의 기본 <span class="ui">격자 보기</span> 외에도, 왼쪽에는 <span class="ui">평면 보기</span>가, 오른쪽에는 챕터 제목이 없는 격자 보기가 표시됩니다. 보기 간에 왼쪽 세로 스크롤 막대가 변경되는 것을 확인할 수 있습니다. 기본 보기로 다시 전환하려면 왼쪽 위 모서리에 있는 정보 아이콘을 길게 누르면 됩니다.</p>
 
     <div class="double-container">
         <div><img src="pictures/bookmap_flat.png" style="width:400px;"></div>
@@ -1269,20 +1269,20 @@ hr {
     </div>
 
 
-    <div class="L3-Smaller-heading">Book map options</div>
+    <div class="L3-Smaller-heading">책 지도 선택 사항</div>
 
     <img src="pictures/bookmap_options.png" style="width:700px;">
     
     <div class="standard-text">
-    When you tap the menu icon on the <b>Book map</b> screen you are presented with the menu above. Menu options are explained below:
+    <b>책 지도</b> 화면에서 메뉴 아이콘을 탭하면 위와 같은 메뉴가 표시됩니다. 메뉴 옵션은 아래에 설명되어 있습니다:
     <ul>
-        <li><span class="ui">About book map:</span> Short explanation of Book map usage and icon descriptions.</li>
-        <li><span class="ui">Available gestures:</span> Gestures you can use to change the settings of Book map instead of using this menu.</li>
+        <li><span class="UI">책 지도 정보:</span> 책 지도 사용법과 아이콘에 대한 간략한 설명입니다.</li>
+        <li><span class="UI">가능한 제스처:</span> 이 메뉴를 사용하는 대신 책 지도의 설정을 변경하는 데 사용할 수 있는 제스처입니다.</li>
         <li><span class="ui">Page browser on tap:</span> If this is checked, when you tap on a page in Book map, <span class="ui">Page browser</span> opens. This shows you an overview of the area you selected. If you disable this option, a tap in Book map directly takes you to that page. But remember, depending on factors like your screen size, touch screen sensitivity, tap accuracy etc. you might end up in adjacent pages.</li>
-        <li><span class="ui">Switch current/initial views:</span> If you customized your Book map view, tapping this switches between the <b>default view</b> and your <b>customized view</b>.</li>
-        <li><span class="ui">Switch grid/flat views:</span> Switch between seperate chapters or continuous chapters views.</li>
-        <li><span class="ui">Chapter levels:</span> Change the depth of chapter/sub chapter levels.</li>
-        <li><span class="ui">Page slot width:</span> Make each page slot wider or narrower.</li>
+        <li><span class="ui">현재/시작 보기 전환: </span> 책 지도 보기를 사용자 지정한 경우, 이 기능을 탭하면 <b>기본 보기</b>와 <b>사용자 지정 보기</b> 간에 전환됩니다.</li>
+        <li><span class="UI">격자/평면 보기 전환:</span> 개별 챕터나 연속 챕터 보기 간에 전환합니다.</li>
+        <li><span class="UI">챕터 단계:</span> 챕터/하위 챕터 단계의 깊이를 변경합니다.</li>
+        <li><span class="UI">페이지 슬롯 너비:</span> 각 페이지 슬롯을 더 넓게 또는 더 좁게 설정합니다.</li>
         <li><span class="ui">10-page markers:</span> As you increase this value, first it will add markers to every <b>10<sup>th</sup> page</b>, then it will make them bigger and eventually it will add markers to every <b>5<sup>th</sup> page</b>.</li>
     </ul>
     </div>
@@ -1304,14 +1304,14 @@ hr {
     <div class="L1-Chapter-heading" id="bookmarks">책갈피와 강조 표시, 메모</div>
 
     <div class="standard-text">
-    KOReader gives you options to interact with your book like you can do with a real book:
-    <p><b>Bookmarks:</b> You can add (and remove) a bookmark by pressing the upper right corner. This is the equivalent of folding the corner of a page on a real book and shows a similar icon when you enable it.</p>
+    KOReader는 실제 책에서 하는 것처럼 책과 상호작용할 수 있는 선택 사항을 제공합니다:
+    <p><b>책갈피:</b> 오른쪽 상단 모서리를 눌러 책갈피를 추가(및 제거)할 수 있습니다. 이는 실제 책에서 페이지의 모서리를 접는 것과 같으며 활성화하면 비슷한 아이콘이 표시됩니다.</p>
     <p><b>Highlights:</b> You can highlight text in 4 different styles. In the image below, you can see a normal paragraph followed by different styles of highlights. <span class="ui">Lighten</span> (with gray background), <span class="ui">Underline, Strikeout</span> and <span class="ui">Invert</span>.</p>
 
 
     <img src="pictures/highlight_styles.png" style="width:600px;">
 
-    <p>You can use all these styles at the same time, like they are different colored highlight markers. Or you can decide your favorite style and set it as default from this menu by long pressing:</p>
+    <p>이 모든 스타일을 서로 다른 색깔의 강조 표시 마커처럼 동시에 사용할 수 있습니다. 또는 이 메뉴를 길게 눌러 좋아하는 스타일을 결정하고 기본값으로 설정할 수도 있습니다:</p>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 강조 표시 스타일</div>
 
@@ -1321,29 +1321,29 @@ hr {
 
 </div>
 
-<div class="L3-Smaller-heading">How to highlight</div>
+<div class="L3-Smaller-heading">강조 표시하는 방법</div>
 
     <div class="standard-text">
-    KOReader has two highlighting modes for different use cases: 
-    <p><span class="ui">Normal mode</span> is similar to selecting a text with your finger on a phone/tablet and more suitable if your highlights are shorter than one page.</p>
-    <p><span class="ui">Select and highlight mode</span> is more suitable for highlighting longer passages which cross page boundaries. It might also work better if you have touch screen sensitivity problems or motor control issues with your hands. Because in this highlight mode you don’t need to drag your finger along the screen.</p>
+    KOReader에는 다양한 사용 사례를 위한 두 가지 강조 표시 모드가 있습니다: 
+    <p><span class="UI">일반 모드</span>는 휴대폰/태블릿에서 손가락으로 내용을 선택하는 것과 유사하며, 강조 표시가 한 페이지보다 짧은 경우에 더 적합합니다.</p>
+    <p><span class="UI">내용 선택과 강조 표시 모드</span>는 페이지 경계를 넘나드는 긴 구절을 강조 표시하는 데 더 적합합니다. 터치 스크린 감도 문제나 손의 운동 제어 문제가 있는 경우에도 이 모드가 더 효과적일 수 있습니다. 이 강조 표시 모드에서는 화면을 따라 손가락을 드래그할 필요가 없기 때문입니다.</p>
     </div>
-<div class="L3-Smaller-heading">Normal mode</div>
+<div class="L3-Smaller-heading">일반 모드</div>
 
 <div class="standard-text">
-This mode is similar to selecting a text with your finger on a phone/tablet.
+이 모드는 휴대폰/태블릿에서 손가락으로 문자를 선택하는 것과 비슷합니다.
 <ol>
-    <li>Long-press on the starting word</li>
-    <li>Move your finger to the end of the passage</li>
-    <li>Release finger</li>
+    <li>시작 단어를 길게 누르세요</li>
+    <li>손가락을 구절 끝으로 이동하세요</li>
+    <li>손가락 떼기</li>
 </ol>
-If you reach page boundaries, KOReader will turn the page for you to continue highlighting <b>(only in EPUB/HTML documents)</b>.
+페이지 경계에 다다르면 KOReader가 페이지를 넘어서<b>(EPUB/HTML 문서에만 해당)</b> 계속 강조 표시를 합니다.
 </div>
 
-<div class="L3-Smaller-heading">Select and highlight mode</div>
+<div class="L3-Smaller-heading">내용 선택과 강조 표시 모드</div>
 
 <div class="standard-text">
-    <div class="warning"><span class="icon_red"></span> If you have dictionary lookup enabled when long pressing a word, you have to drag your finger to initiate this mode.
+    <div class="warning"><span class="icon_red"></span> 단어를 길게 누를 때 사전 검색을 활성화한 경우, 이 모드를 시작하려면 손가락을 드래그해야 합니다.
     </div>
 
 <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 텍스트 길게 누르기 → 한 낱말 선택하여 사전 열기</div>
@@ -1351,10 +1351,10 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
 <img src="pictures/highlight_menu.png" style="width:500px;">
 
     <ol>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the starting word, popup menu will show up.</li>
+    <li>시작 단어를 길게 누르면(또는 위에서 설명한 대로 사전 조회가 활성화된 경우 드래그하면) 팝업 메뉴가 표시됩니다.</li>
     <li>Tap on <span class="ui">Select</span>, now you are in highlighting mode. When you are in this mode, you will see an indicator at the upper left corner of the screen (which you can tap on it to get more information). You can cancel highlighting by tapping on the beginning of highlight again. You can turn pages with taps/swipes and freely navigate the document (TOC, skim etc) in this mode.</li>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the ending word for your highlight, menu will show up again.</li>
-    <li>Tap <span class="ui">Highlight</span> this time to finish highlighting the passage.</li>
+    <li>강조 표시의 끝 단어를 길게 누르면(또는 위에서 설명한 대로 사전 조회가 활성화된 경우 드래그하면) 메뉴가 다시 나타납니다.</li>
+    <li>이번에는 <span class="ui">강조 표시</span>를 탭하여 강조 표시 구절을 끝냅니다.</li>
     </ol>
 
     <div class="warning"><span class="icon_red"></span> There is a <u>faster</u> method for this mode if you don’t need <u>long-press menu items</u> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
@@ -1362,7 +1362,7 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 텍스트 길게 누르기 → 내용 선택과 강조 표시</div>
 
-    <div class="warning"><span class="icon_red"></span> KOReader can highlight a passage in different styles. If you use <span class="ui">Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class="ui">Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options via:
+    <div class="warning"><span class="icon_red"></span> KOReader는 다양한 스타일로 구절을 강조 표시할 수 있습니다. 밝게 옵션을 사용하면 본문 배경이 회색으로 바뀝니다. 전자 잉크의 한계로 인해 화면이 흰색에서 회색으로 바로 바뀔 수 없으므로 강조 표시된 부분이 먼저 검은색으로 변한 다음 회색으로 바뀌어야 합니다. 이 깜박임을 방지하려면 강조 표시 스타일로 반전을 선택하면 됩니다. 이 모드에서는 본문 배경이 검은색이 되므로 깜박임 없이 설정할 수 있습니다. 이러한 강조 표시 옵션은 다음을 통해 조정할 수 있습니다:
     </div>
 
     <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 강조 표시 스타일</div>
@@ -2266,7 +2266,7 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
         <p>	<b> Progress sync </b> - Synchronize your reading progress across different KOReader devices. Check the wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Progress-sync">https://github.com/koreader/koreader/wiki/Progress-sync</a>	</p>
         <p>	<b> QR from clipboard </b> - Generates a QR code from clipboard content	</p>
         <p>	<b> Read timer </b> - A countdown timer to display a message after a user defined time	</p>
-        <p>	<b> Reading statistics </b> - Calculates reading sessions statistics and reading speed for use in chapter/book remaining time estimations	</p>
+        <p>	<b> 읽기 통계 </b> - 챕터/책 남은 시간 예측에 사용할 읽기 세션 통계와 읽기 속도를 계산하세요	</p>
         <p>	<b> SSH </b> - Allows access to your device over SSH protocol. You can access via FTP applications or even your file manager if it supports. Check the wiki page for how-to: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a>	</p>
         <p>	<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this plugin under:</p>
         <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴→ <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 도움말 → 시스템 통계</div>
@@ -2561,10 +2561,10 @@ If you reach page boundaries, KOReader will turn the page for you to continue hi
         <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 책 정보 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 표지 이미지 설정</div>
         
         
-        <span class="link_to_heading">Reading statistics after midnight</span>
-        <p>In reading statistics you can change the start of day used for calculations. This is useful if you are reading after midnight for example and want your reading session counted as today instead of the next day. This applies only to the <span class="ui">Day timeline view</span> and optionally to the <span class="ui">Calendar view</span>; it does not apply to any of the other statistics reports. You can set this time at:</p>
+        <span class="link_to_heading">자정 이후 읽기 통계</span>
+        <p>읽기 통계에서 계산에 사용되는 날짜의 시작을 변경할 수 있습니다. 예를 들어 자정 이후에 책을 읽다가 독서 세션이 다음 날이 아닌 오늘로 계산되기를 원하는 경우에 유용합니다. 이 기능은 <span class="ui">일일 타임라인 보기</span>와 선택적으로 <span class="ui">달력 보기</span>에만 적용되며, 다른 통계 보고서에는 적용되지 않습니다. 이 시간은 다음에서 설정할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 독서 통계 → 설정 → 하루의 타임라인이 시작되는 시간은...</div>
+        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 읽기 통계 → 설정 → 일일 타임라인이 시작되는 시간은...</div>
         
     </div>
 
