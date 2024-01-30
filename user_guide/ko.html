@@ -2282,43 +2282,43 @@ hr {
         <div class="standard-text">
         사용자 패치는 <b>Lua</b> 언어로 작성된 작은 파일입니다. 사용자 패치는 설치를 영구적으로 수정하지 않고도 KOReader의 기능을 변경할 수 있습니다. 개발자나 다른 사용자가 작성할 수도 있고, 사용자가 직접 작성할 수도 있습니다(KOReader 내부에 대한 광범위한 지식이 있는 경우). 
         
-        <p>You can find a current list of <span class="ui">User patches</span> in the related <b>GitHub</b> wiki page:</p>
+        <p><span class="ui">사용자 패치</span>의 최신 목록은 관련 <b>GitHub</b> 위키 페이지에서 확인할 수 있습니다:</p>
         
         <p><a href="https://github.com/koreader/koreader/wiki/User-patches">https://github.com/koreader/koreader/wiki/User-patches</a></p>
         
-        <p>and in the <b>issues</b> list under the <span class="ui">User patch available</span> tag:</p>
+        <p>그리고 <span class="ui">사용자 패치 사용 가능</span> 태그 아래의 <b>이슈 목록</b>에 표시됩니다:</p>
         
         <p><a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22</a></p>
         
         
-        <p><span class="link_to_heading">Basic usage – Adding an already written patch to your KOReader:</span></p>
+        <p><span class="link_to_heading">기본 사용법 - 이미 작성된 패치를 KOReader에 추가합니다:</span></p>
         
         <ol>
-            <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
-            <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
+            <li>내 기기의 <span class="ui">koreader 디렉터리</span> 아래에 <span class="ui"> patches </span>라는 이름의 디렉터리를 만듭니다(안드로이드는 이 폴더가 SD Card 안에 있습니다)</li>
+            <li>이 <span class="ui">patches</span> 디렉터리에 확장자가 <b>.lua</b>인 패치 파일을 다운로드하여 넣습니다</li>
             <li>KOReader 재시작</li>
         </ol>
 
         
-        <p><span class="link_to_heading">Patch manager</span></p>
+        <p><span class="link_to_heading">패치 관리자</span></p>
 
-        <p>When you create a patches directory as instructed, a new plugin named <span class="ui">Patch Management</span> becomes available in the plugins menu after restarting KOReader. With this plugin you can see the list and status of your user patches and enable/disable them. You can tap <span class="ui">About patch manager</span> menu item to see more info.</p>
+        <p>지침에 따라 패치 디렉토리를 생성하면 KOReader를 재시작한 후 플러그인 메뉴에서 <span class="ui">패치 관리</span>라는 이름의 새 플러그인을 사용할 수 있게 됩니다. 이 플러그인을 사용하면 사용자 패치 목록과 상태를 확인하고 패치를 활성화/비활성화할 수 있습니다. <span class="ui">패치 관리자 정보</span> 메뉴 항목을 탭하여 자세한 정보를 확인할 수 있습니다.</p>
         
-        <p><span class="link_to_heading">Naming the patch</span></p>
+        <p><span class="link_to_heading">패치 이름 붙이기</span></p>
 
-        <p>Execution order of a patch is determined by the first digit of the number in the patch name. For example: <span class="ui">2-TOC-title-patch.lua</span> If there are several patches starting with the same digit, the execution order is the natural order <b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>. If you are just downloading an already made patch you don’t need to change the file name.</p>
-        <p> Names starting with:</p>
+        <p>패치의 실행 순서는 패치 이름에 있는 숫자의 첫 번째 숫자에 따라 결정됩니다. 예: <span class="ui">2-TOC-title-patch.lua</span> 같은 숫자로 시작하는 패치가 여러 개 있는 경우, 실행 순서는 자연스러운 순서인 <b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>입니다. 이미 만들어진 패치를 다운로드하는 경우 파일 이름을 변경할 필요가 없습니다.</p>
+        <p> 다음으로 시작하는 이름:</p>
         
         <ul>
-            <li><b>0</b> - Executed very early and only once after an update</li>
-            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
-            <li><b>2</b> - Executed after <span class="ui">UIManager</span> is ready on every start of KOReader</li>
-            <li><b>3-7</b> - Reserved</li>
-            <li><b>8</b> - Executed before exit and before settings get saved</li>
-            <li><b>9</b> - Executed right before exit</li>
+            <li><b>0</b> - 업데이트 후 매우 이른 시간에 한 번만 실행됩니다</li>
+            <li><b>1</b> - KOReader가 시작될 때마다 매우 일찍 실행됩니다(다만 해당되는 경우 0시 이후)</li>
+            <li><b>2</b> - KOReader를 시작할 때마다 <span class="ui">UIManager</span>가 준비된 후 실행됩니다</li>
+            <li><b>3-7</b> - 예비</li>
+            <li><b>8</b> - 끝내기 전과 설정이 저장되기 전에 실행됩니다</li>
+            <li><b>9</b> - 끝내기 직전에 실행됩니다</li>
         </ul>
            
-        <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
+        <p>사용자 패치에 문제가 있는 경우 패치 파일을 제거하여 이전 구성으로 되돌릴 수 있습니다.</p>
     </div>
 
 
@@ -2327,25 +2327,25 @@ hr {
         
         <div class="L2-Sub-heading" id="transferring">독자에게 책 전송하기</div>
         <div class="standard-text">
-        KOReader supports <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM and ZIP</b> files. 
+        KOReader는 <b>PDF와 EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM, ZIP</b> 파일을 지원합니다. 
         
         <p>KOReader는 PDF 문서를 리플로우하여(이 옵션은 PDF와 같은 고정 레이아웃 문서를 읽는 동안 하단 메뉴에서 찾을 수 있음) 전자 리더의 작은 화면에 적합하게 만들 수 있습니다. 하지만 최상의 결과를 얻으려면 문서를 보다 유연한 EPUB 형식으로 변환하는 것이 좋습니다. <span class="external">Calibre</span>(<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>)를 사용하면 모든 종류의 형식 간 변환을 수행할 수 있습니다.</p>
 
-        <p>There are many ways to transfer your documents to your device. Note that you may need to restart KOReader to index the transferred documents (or refresh directory if you have Pocketbook/Android).</p>
+        <p>문서를 내 기기로 전송하는 방법은 여러 가지가 있습니다. 전송된 문서를 색인화하려면 KOReader를 다시 시작해야 할 수도 있습니다(또는 Pocketbook/안드로이드를 사용하는 경우, 디렉터리를 새로 고쳐야 할 수도 있습니다).</p>
 
-        <p>In addition to transferring files the same way you would with the built-in reader application, other options are available depending on your device:</p>
+        <p>내장된 리더 응용 프로그램을 사용하는 것과 동일한 방식으로 파일을 전송하는 것 외에도 기기에 따라 다른 옵션을 사용할 수 있습니다:</p>
         
 
         <ol>
-            <li><b>USB mass storage mode within KOReader:</b> This mode is available for KOBO and some CERVANTES devices.</li>
-            <li><b>Cloud storage (<span class="external">Dropbox</span>/FTP/Webdav):</b> To use this function you have to add accounts for a cloud storage server via menu shown below. Process is explained via <span class="ui">INFO</span> buttons while adding accounts:
+            <li><b>KOReader 안에서 USB 대용량 저장 모드: </b> 이 모드는 KOBO나 일부 CERVANTES 기기에서 사용할 수 있습니다.</li>
+            <li><b>클라우드 저장소(<span class="external">Dropbox</span>/FTP/Webdav):</b> 이 기능을 사용하려면 아래 메뉴를 통해 클라우드 저장소 서버의 계정을 추가해야 합니다. 계정을 추가하는 동안 <span class="ui">정보</span> 버튼을 통해 진행 과정이 설명됩니다:
                  
                 <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 클라우드 저장소</div>
             </li>
-             <li><b>SSH/SFTP access:</b> KOReader can act like an <b>SSH server</b>, which you can access from a computer to transfer files (available on Kobo, Kindle, Cervantes). You can use an SFTP application (like <span class="external">Filezilla</span>) or access via your file manager if your operating system supports. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
-            <li><b>Calibre transfer:</b> With the <span class="external">Calibre plugin</span> you can send documents from your Calibre Library directly to your KOReader devices via a wifi connection. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
-            <li><b>News downloader:</b> With this plugin you can download <b>RSS and Atom</b> news entries as HTML files. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
-            <li><b>Wallabag:</b> With this plugin you can retrieve articles from <span class="external">Wallabag</span>, a server based read-it-later service like Pocket. Check wiki page for more info: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
+             <li><b>SSH/SFTP 접속:</b> KOReader는 컴퓨터에서 접속하여 파일을 전송할 수 있는 <b>SSH 서버</b>처럼 작동할 수 있습니다(코보, 킨들, 세르반테스에서 사용 가능). 운영 체제에서 지원하는 경우 SFTP 애플리케이션(예: <span class="external">Filezilla</span>)를 사용하거나 파일 관리자를 통해 접근할 수 있습니다. 방법은 위키를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
+            <li><b>Calibre 전송:</b> <span class="external">Calibre 플러그인</span>을 사용하면 Wi-Fi 연결을 통해 Calibre 라이브러리에서 KOReader 기기로 직접 문서를 보낼 수 있습니다. 방법은 위키를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
+            <li><b>뉴스 다운로더:</b> 이 플러그인을 사용하면 <b>RSS와 Atom</b> 뉴스 항목을 HTML 파일로 다운로드할 수 있습니다. 방법은 위키를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
+            <li><b>Wallabag:</b> 이 플러그인을 사용하면 Pocket과 같은 서버 기반 나중에 읽기 서비스인 <span class="external">Wallabag</span>에서 문서를 검색할 수 있습니다. 자세한 내용은 위키 페이지를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
         </ol>
         </div>
 
@@ -2353,49 +2353,49 @@ hr {
         <div class="L2-Sub-heading" id="optimizing">모바일 리더 기기에 맞게 EPUB/PDF 문서 최적화하기</div>
 
         <div class="standard-text">
-        Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).
+        모바일 리더 기기에 맞게 문서를 변환하거나 최적화하는 데 가장 널리 사용되는 응용 프로그램은 <span class="external">Calibre</span>(<b>EPUB, Kindle</b> 위주)와 <span class="external">K2pdfopt</span>(<b>PDF</b> 위주)입니다.
 
-        <p><span class="external">Calibre</span> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+        <p><span class="external">Calibre</span>는 다양한 형식으로 문서를 변환할 수 있습니다. 또한 가장 인기 있는 전자책 형식인 EPUB과 Kindle로 전자책을 편집하고 문제를 해결할 수 있는 편집기가 내장되어 있습니다. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
         
-        <p><span class="external">K2pdfopt</span> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool. <a href="https://www.willus.com/k2pdfopt/">https://www.willus.com/k2pdfopt/</a></p>
+        <p><span class="external">K2pdfopt</span>는 모바일 전자책 리더와 스마트폰에 맞게 PDF/DJVU 파일을 최적화합니다. 다단로 구성된 PDF/DJVU 파일에서 잘 작동하며 스캔한 PDF 파일에서도 텍스트를 가변형으로 볼 수 있습니다. 또한 일반적인 PDF 복사/자르기/크기 조정/OCR 조작 도구로도 사용할 수 있습니다. <a href="https://www.willus.com/k2pdfopt/">https://www.willus.com/k2pdfopt/</a></p>
         
-        <p><span class="external">SingleFile</span> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a single .html file with all resources (images, stylesheets, scripts) embedded. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
+        <p><span class="external">SingleFile</span>은 <b>모질라 파이어폭스</b>와 <b>구글 크롬</b>, <b>마이크로소프트 엣지</b>용 브라우저 확장 프로그램입니다. 이 확장 프로그램을 사용하면 웹 페이지를 모든 리소스(이미지, 스타일시트, 스크립트)가 포함된 단일 .html 파일로 저장할 수 있습니다. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
         </div>
         
         <div class="L2-Sub-heading" id="zipfiles">ZIP 파일 지원</div>
 
         <div class="standard-text">
-        KOReader can read files stored/compressed in <b>ZIP</b> files. A ZIP file can contain many types of documents like html, txt or images. KOReader can open your ZIP file properly if you give it a hint for the type of file in the ZIP archive. If you give your file only a <b>.zip</b> extension, KOReader will assume that this archive contains images and try to open it like a <b>CBZ</b> file.
+        KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니다. ZIP 파일에는 html, txt 또는 이미지와 같은 다양한 유형의 문서가 포함될 수 있습니다. ZIP 압축에 있는 파일 유형에 대한 힌트를 제공하면 KOReader가 ZIP 파일을 올바르게 열 수 있습니다. 파일 확장자만 <b>.zip</b>으로 지정하면 KOReader는 이 압축에 이미지가 포함된 것으로 간주하고 <b>CBZ</b> 파일처럼 열려고 시도합니다.
 
-        <p><span class="ui">DEFAULT CASE:</span> yourfilename<b>.zip</b> - Assumed to be a zip file of images (and opened by <span class="ui">MuPDF engine</span>)</p>
+        <p><span class="ui">기본적인 경우:</span> 나의파일이름<b>.zip</b> - 이미지의 zip 파일로 가정합니다(그리고 <span class="ui">MuPDF 엔진에서 엽니다</span>)</p>
         
-        <p>If your zip file contains one of these types (instead of just images), please name it accordingly:</p>
+        <p>zip 파일에 다음 유형 중 하나(단순한 이미지 대신)가 포함된 경우, 거기에 맞는 이름을 지어주세요:</p>
 
         <ul>
-            <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
-            <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
-            <li><b>Text log files</b> - yourfilename.<b>log.zip</b></li>
-            <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
-            <li><b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b></li>
-            <li><b>Plain text</b> - yourfilename.<b>txt.zip</b></li>
+            <li><b>FictionBook</b> - 나의파일이름.<b>fb2.zip</b></li>
+            <li><b>HTML</b> - 나의파일이름.htm.zip / 나의파일이름.<b>html.zip</b></li>
+            <li><b>텍스트 로그 파일</b> - 나의파일이름.<b>log.zip</b></li>
+            <li><b>Markdown</b> - 나의파일이름.<b>md.zip</b></li>
+            <li><b>서식 있는 텍스트 형식</b> - 나의파일이름.<b>rtf.zip</b></li>
+            <li><b>일반 텍스트</b> - 나의파일이름.<b>txt.zip</b></li>
         </ul>
                  
-       <p> If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class="ui">No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class="ui">Open with...</span> to select the correct engine.</p>
+       <p> 문서 이름이 이렇게 지정되지 않은 경우, 잘못된 리더/포맷 엔진이 사용되었을 가능성이 높으며 <span class="ui">이 파일에 대한 리더 엔진 없거나 잘못된 파일</span> 메시지가 표시됩니다. 위에 설명된 대로 이 파일의 이름을 바꾸거나 파일 이름을 길게 누른 다음 <span class="ui">다음으로 열기...</span>를 선택하여 올바른 엔진을 선택할 수 있습니다.</p>
         </div>
 
         <div class="L2-Sub-heading" id="manga">모바일 리더 기기에 맞게 만화 최적화하기</div>
 
         <div class="standard-text">
-        If you like reading manga books on your e-ink device there are some tips that can make your experience better. Preparing your own manga files is the best solution if you're not satisfied with how comics look on your device.
+        전자 잉크 기기로 만화책을 읽는 것을 좋아한다면, 더 나은 경험을 할 수 있는 몇 가지 팁이 있습니다. 만화책이 기기에서 어떻게 보이는지 만족스럽지 않다면, 나만의 만화 파일을 준비하는 것이 가장 좋은 해결책입니다.
 
-        <div class="link_to_heading">File type</div>
-        <p>File types like MOBI and EPUB are not suitable for handling primarily image content (e.g., manga/comics). <b>MOBI</b> support in KOReader is minimal to nonexistent, and <b>EPUB’s</b> text rendering priorities can cause problems when showing full-page images (for further technical details: <a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205</a>).</p>
+        <div class="link_to_heading">파일 유형</div>
+        <p>MOBI와 EPUB과 같은 파일 유형은 주로 이미지 콘텐츠(예: 만화/코믹)를 처리하는 데 적합하지 않습니다. KOReader의 <b>MOBI</b> 지원은 미미하거나 아예 없으며, <b>EPUB</b>의 텍스트 렌더링 우선 순위로 인해 전체 페이지 이미지를 표시할 때 문제가 발생할 수 있습니다(자세한 기술 세부 사항은 여기를 참조하세요): <a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205</a>).</p>
 
-        <p>Your best option is building a <b>CBZ</b> file which works better in KOReader. A file with <b>.cbz</b> extension is a zip file (with no compression) that is a collection of images. It saves multiple images, commonly <b>.png</b> or <b>.jpeg</b> files, organized into pages of the comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</b> files but use <b>TAR</b> archive format.</p>
+        <p>가장 좋은 방법은 KOReader에서 더 잘 작동하는 <b>CBZ</b> 파일을 만드는 것입니다. 확장자가 <b>.cbz</b>인 파일은 압축되지 않은 이미지 모음인 zip 파일입니다. 이 파일은 여러 이미지(일반적으로 <b>.png</b>나 <b>.jpeg</b> 파일)를 코믹 페이지로 구성하여 저장합니다. KOReader는 <b>CBZ</b> 파일과 유사하지만 <b>TAR</b> 압축 형식을 사용하는 <b>CBT</b> 파일도 열 수 있습니다.</p>
 
-        <p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that eink-rendered gradients are smoothly dithered without jagged layers.</p>
+        <p>만화를 <b>CBZ</b>로 변환하는 가장 쉬운 방법은, 다양한 웹사이트에서 만화를 이미지로 가져온 다음 <span class="external">Kindle 코믹 변환기</span>를 사용하여 변환하는 것입니다./span&gt; (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). <b>두 페이지 분할을 가로로 자동 회전하고 디더링을 적용</b>하여 전자잉크에 렌더링된 그라디언트가 들쭉날쭉한 레이어 없이 부드럽게 디더링되도록 하는 등 몇 가지 유용한 설정이 있습니다.</p>
 
-        <div class="link_to_heading">Resolution</div>
+        <div class="link_to_heading">해상도</div>
         <p>전자책 리더 화면 크기에 맞게 이미지 크기를 조정하면 최상의 결과를 얻을 수 있습니다. 기기의 정확한 화면 크기를 대상으로 하는 화면별 <b>CBZ</b>를 사용하면, 읽는 동안 크기가 다시 조정되지 않습니다. KOReader는 읽는 동안 화면 크기에 맞게 이미지 크기를 축소하지만, KOReader가 크기를 조정하기 전에 디더링 패스를 추가하고 이로 인해 품질이 저하되므로 권장하지 않습니다.</p>
 
         <p>하지만 직접 만든 <b>CBZ</b>를 두 개 이상의 장치에서 사용하거나 나중에 보정할 수 있도록 고해상도를 유지하려는 경우, 가장 좋은 방법은 가장 높은 해상도의 장치에 맞게 <b>CBZ</b>를 제작하는 것입니다. 또는 소스와 일치하는 임의의 "높은" 해상도를 선택해도 됩니다. 물론 소스가 더 낮은 해상도가 아니라면 <b>300 PPI<b> 이상(최대 <b>450</b> 또는 <b>600</b>까지)이 좋습니다. 화면 크기가 <b>8인치,  1500×2000</b>이라면 좋은 목표 해상도입니다. 더 큰 이미지의 경우 장치에서 시도해보고 처리할 수 있는지 확인해야 합니다. 특히 메모리가 부족한 구형 킨들은 <b>3000×4000</b>과 같은 크기에서 어려움을 겪을 수 있습니다. 프로세스를 자동화하는 경우 저품질 버전과 고품질 버전(예: <b>200/400</b> 또는 <b>300/600</b> DPI)을 모두 만드는 것도 고려해 볼 수 있습니다.</b></b></p>
@@ -2435,7 +2435,7 @@ hr {
         <div class="standard-text">
         <span class="external">KCC</span>를 사용하여 <b>CBZ</b> 파일을 만든 후, 이미지에 추가 <b>디더링</b>을 적용할 수 있습니다. 이렇게 하면 전자잉크에 렌더링된 그라데이션이 들쭉날쭉한 레이어 없이 매끄럽게 디더링됩니다. 이 단계는 KOReader에서 더 잘 보이는 미세 조정된 만화 볼륨을 생성합니다.
 
-        <p>You can use <span class="external">ImageMagick</span> to process your images. <span class="external">ImageMagick</span>, is a powerful open-source software suite for displaying, creating, converting, modifying, and editing raster images. You can download <span class="external">ImageMagick</span> and use it from the command line to process many images at once.</p>
+        <p><span class="external">ImageMagick</span>을 사용하여 이미지를 처리할 수 있습니다. <span class="external">ImageMagick</span>은 래스터 이미지를 표시, 생성, 변환, 수정 및 편집할 수 있는 강력한 오픈 소스 소프트웨어 제품군입니다. <span class="external">ImageMagick</span>을 다운로드하여 명령줄에서 사용하여 한 번에 많은 이미지를 처리할 수 있습니다.</p>
 
         <ol>
             <li><span class="external">KCC</span>로 생성하여 준비된 <b>CBZ 파일의 압축을 풉니다,</b></li>
