@@ -859,7 +859,7 @@ hr {
     <div class="standard-text">
     <span class="ui">РЕЖИМ ОТОБРАЖЕНИЯ:</span> Этот параметр определяет, как ваш документ отображается в KOReader'е. По умолчанию используется <span class="ui">Веб</span>, и обычно вам не нужно менять этот параметр. Если книга (или сохраненная веб-страница) очень сложна (задана ширина или поля, отрицательные поля, плавающие поля и т. д.), а макет выглядит плохо или выходит за пределы экрана, вы можете попробовать другие режимы отображения.
     
-    <p><span class="ui">ZOOM (dpi):</span> This setting can be thought of as a <b>general zoom factor</b> for the document (except font size). At 96 dpi (which is the default setting), images in the document are rendered at their original dimensions. Basically you will use this setting if you want to <b>make images bigger without making the text bigger</b>.</p>
+    <p><span class="ui">МАСШТАБ (dpi):</span> Этот параметр можно рассматривать как <b>общий коэффициент масштабирования</b> для документа (за исключением размера шрифта). При разрешении 96 dpi (это значение по умолчанию) изображения в документе отображаются с исходными размерами. Обычно вы будете использовать этот параметр, если хотите <b>увеличить изображения без увеличения текста</b>.</p>
     </div>
     
     <hr>
@@ -867,12 +867,12 @@ hr {
     <img src="pictures/bottom_menu_4.png" style="width:500px;">
 
     <div class="standard-text">
-    <span class="ui">WORD SPACING and WORD EXPANSION:</span> These two settings are related and they determine how your text will look when it is justified. When you justify text, space is added between words so that both edges of each line are aligned with both margins. Since word counts of lines are not equal all the time, in justified alignment, text has to be compressed or expanded to fill the line.
-    <p><span class="ui">WORD SPACING:</span> How much the <b>SPACE</b> characters in a line of text can be compressed to fit more words. This setting doesn’t affect words, it only changes the space between them.</p>
+    <span class="ui">ИНТЕРВАЛ СЛОВ и РАСШИРЕНИЕ СЛОВ:</span> Эти два параметра связаны между собой и определяют, как будет выглядеть текст, когда он выровнен по ширине. При выравнивании текста между словами добавляется пространство, чтобы оба края каждой строки были выровнены по обоим полям. Поскольку количество слов в строках не всегда одинаково, при выравнивании по ширине текст необходимо сжимать или расширять, чтобы заполнить строку.
+    <p><span class="ui">ИНТЕРВАЛ СЛОВ:</span> Насколько символы <b>ПРОБЕЛ</b> в строке текста могут быть сжаты, чтобы вместить больше слов. Эта настройка не влияет на слова, а только меняет пространство между ними.</p>
     <p>
-    <span class="ui">WORD EXPANSION:</span> If you have too much white space in a line, how much of that can be distributed into the words by expanding them. This setting affects the appearance of words. If you don’t want your words to expand, set this to <span class="ui">NONE</span>.</p>
+    <span class="ui">РАСШИРЕНИЕ СЛОВА:</span> Если в строке слишком много пробелов, какую часть из них можно распределить по словам, расширив их. Эта настройка влияет на внешний вид слов. Если вы не хотите, чтобы ваши слова расширялись, установите для этого параметра значение <span class="ui">NONE</span>.</p>
     
-    <p>You can experiment with different settings until the text looks pleasing to you, then set them as defaults via their respective dialogs.</p>
+    <p>Вы можете экспериментировать с различными настройками до тех пор, пока текст не будет выглядеть приятным для вас, затем установите их по умолчанию в соответствующих диалоговых окнах.</p>
     </div>
     
     <hr>
@@ -880,24 +880,24 @@ hr {
     <img src="pictures/bottom_menu_5.png" style="width:500px;">
 
     <div class="standard-text">
-    <span class="ui">CONTRAST</span> and <span class="ui">FONT WEIGHT</span> are two options that you can use to make your text bolder (or lighter). You can achieve the same appearance with either of these options but they use different methods to achieve it. Of course you can use them both at the same time. The differences between them can be summarized as: 
+    <span class="ui">КОНТРАСТ</span> и <span class="ui">ВЕС ШРИФТА</span> - это два параметра, которые вы можете использовать, чтобы сделать текст более жирным (или светлым). Вы можете добиться одинакового внешнего вида с помощью любого из этих вариантов, но для этого используются разные методы. Конечно, вы можете использовать их оба одновременно. Различия между ними можно резюмировать следующим образом: 
     <div class="double-container">
         <div>  
             <span class="ui">КОНТРАСТНОСТЬ</span>           
-            <p><b>+</b> Doesn’t change font width, book length stays the same</p>
-            <p><b>+</b> Doesn’t need to re-render document, faster</p>
-            <p><b>-</b> Might look bad on LCD or low DPI screens</p>
+            <p><b>+</b> Ширина шрифта не меняется, длина книги остается прежней.</p>
+            <p><b>+</b> Нет необходимости повторно отображать документ, быстрее</p>
+            <p><b>-</b> Может плохо выглядеть на ЖК-экранах или экранах с низким разрешением.</p>
         </div>
         <div>
             <span class="ui">ТОЛЩИНА ШРИФТА</span>        
-            <p><b>+</b> Will use proper weighted fonts if you have them installed</p>
-            <p><b>+</b> Looks better on LCD or low DPI screens</p>
-            <p><b>-</b> Has to re-render fonts, slower</p>
+            <p><b>+</b> Будет использовать шрифты с правильным весом, если они у вас установлены.</p>
+            <p><b>+</b> Лучше смотрится на ЖК-экранах или экранах с низким разрешением.</p>
+            <p><b>-</b> Приходится перерисовывать шрифты, медленнее</p>
         </div>
     </div>
 
 
-    <p><span class="ui">FONT HINTING</span> adjusts your text for maximum readability according to your screen’s pixel grid. <span class="ui">NATIVE</span> uses font’s internal hinting instructions, <span class="ui">AUTO</span> uses FreeType’s hinting algorithm. <span class="ui">AUTO</span> is a safer choice because font files that you installed may have problematic hinting instructions. Also <span class="ui">AUTO</span> handles <b>CJK</b> text better. You can try different settings to see which one looks better on your device.</p>
+    <p><span class="ui">ПОДСКАЗКА ШРИФТА</span> настраивает текст для максимальной читабельности в соответствии с пиксельной сеткой вашего экрана. <span class="ui">НАТИВНЫЙ</span> использует внутренние инструкции хинтинга шрифта, <span class="ui">АВТОМАТИЧЕСКИЙ</span> использует алгоритм хинтинга FreeType. <span class="ui">АВТОМАТИЧЕСКИЙ</span> - более безопасный выбор, поскольку файлы шрифтов, которые вы установили, могут содержать проблемные инструкции с подсказками. Также <span class="ui">АВТОМАТИЧЕСКИЙ</span> лучше обрабатывает <b>CJK</b> текст. Вы можете попробовать разные настройки, чтобы увидеть, какая из них лучше смотрится на вашем устройстве.</p>
     
     <p><span class="ui">FONT KERNING</span> adjusts the spacing between letters to achieve a visually pleasing result. Default is <span class="ui">BEST</span>, which might be <b>slower</b> when opening files (depending on your device) but <b>has better support for ligatures</b> (see picture below for an example), joined <b>Arabic</b> glyphs and some other scripts. If your device is slow, you can try <span class="ui">GOOD</span> which is faster and may still look correct with western latin-script text.</p>
     </div>
