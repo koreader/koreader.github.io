@@ -3,6 +3,8 @@
 <head>
 <title>KOReader 사용자 안내서</title>
 
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 <!-- ANCHOR CSS -->
 
 <style>
@@ -131,7 +133,6 @@ hr {
     background-color: var(--container-color);
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 1%;
     padding-bottom: 3%;
     box-shadow: 0 0 6px 2px var(--shadow-color);
     transition: background-color 0.5s;
@@ -167,14 +168,7 @@ hr {
     src: url('pictures/SNPro-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-}
-
-/* ICONS FONT */
-@font-face {
-    font-family: 'fontawesome';
-    src: url('pictures/fontawesome-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
 
 /* ALL STANDARD PARAGRAPHS */
@@ -236,24 +230,29 @@ hr {
     text-shadow: 0px 0px 1px var(--orange-color);
 }
 
-/* TIP, NOTE, WARNING BOX ICONS */
-.icon_red {
-    font-family: 'fontawesome', Arial, sans-serif;
-    font-size: 1.5em;
-    color: var(--red-color);
+/* TIP, NOTE, WARNING BOX LABELS */
+.label_red {
+    color: #FFF;
+    text-shadow: 0px 0px 1px #FFF;
+    background-color: var(--red-color);
+    border-radius: 4px;
+    padding: 0.3rem;
 }
 
-.icon_blue {
-    font-family: 'fontawesome', Arial, sans-serif;
-    font-size: 1.5em;
-    color: var(--blue-color);
+.label_blue {
+    color: #FFF;
+    text-shadow: 0px 0px 1px #FFF;
+    background-color: var(--blue-color);
+    border-radius: 4px;
+    padding: 0.3rem;
 }
 
-/* GREEN IS FOR MENU BREADCRUMB ICON ALSO */
-.icon_green {
-    font-family: 'fontawesome', Arial, sans-serif;
-    font-size: 1.5em;
-    color: var(--green-color);
+.label_green {
+    color: #FFF;
+    text-shadow: 0px 0px 1px #FFF;
+    background-color: var(--green-color);
+    border-radius: 4px;
+    padding: 0.3rem;
 }
 
 /* COLORED TEXTS */
@@ -291,12 +290,13 @@ hr {
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     margin-left: 15%;
-    margin-right: 15%;
-    border-left: 6px solid var(--red-color);
+    margin-right: 15%;    
     padding: 1%;
     background-color: var(--box-color);
     text-indent: 0em;
     box-shadow: 0 2px 3px #0000001f, 0 1px 2px #0000003d;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
 }
 
 .info {
@@ -305,12 +305,13 @@ hr {
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     margin-left: 15%;
-    margin-right: 15%;
-    border-left: 6px solid var(--blue-color);
+    margin-right: 15%;    
     padding: 1%;
     background-color: var(--box-color);
     text-indent: 0em;
     box-shadow: 0 2px 3px #0000001f, 0 1px 2px #0000003d;
+    border: 1px solid #d7d7d7;
+    border-radius: 6px;
 }
 
 .tip {
@@ -320,7 +321,6 @@ hr {
     margin-bottom: 1.2rem;
     margin-left: 15%;
     margin-right: 15%;
-    border-left: 6px solid var(--green-color);
     padding: 1%;
     background-color: var(--box-color);
     text-indent: 0em;
@@ -415,7 +415,7 @@ hr {
 
 <body>
 
-    <button onclick="topFunction()" id="myBtn" title="차례로 돌아가기"><span class="icon_red"></span> <b>Table of Contents</b></button>
+    <button onclick="topFunction()" id="myBtn" title="차례로 돌아가기" style="background-color: var(--red-color);"><span class="label_red">⟸ Table of Contents</span></button>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -476,8 +476,10 @@ hr {
 
 <br>
 
-    <div class="standard-text"><img class="img" src="pictures/guide_main_logo.png" style="width:800px; box-shadow: none;">
+    <div class="standard-text"><img class="img" src="pictures/guide_main_logo_cut.webp" style="width:312px; box-shadow: none;">
     </div>
+
+    <div class="L1-Chapter-heading" style="margin-top: 0rem;">코리더 사용 안내서</div>
 
     <div class="standard-text">
     이 안내서는 컬러가 포함된 대형 화면용으로 설계되었으며, 관련 웹사이트에 대한 링크가 포함되어 있으므로 (e-잉크 장치 대신) 컴퓨터나 태블릿에서 이 안내서를 읽는 것이 좋습니다. 브라우저의 검색 기능을 사용하여 특정 주제를 찾을 수 있습니다. 이 사용자 안내서와 관련된 제안이나 질문이 있는 경우 다음 토론 글타래에 글을 쓸 수 있습니다: <a href="https://github.com/koreader/koreader/issues/11147">https://github.com/koreader/koreader/issues/11147</a>
@@ -490,10 +492,10 @@ hr {
     
     <div class="standard-text">
     <p>또한 안내서 곳곳에 정보나 경고를 위한 다양한 상자가 있습니다:</p>
-    <div class="warning"><span class="icon_red"></span> 경고 상자입니다. 각별히 주의해야 할 사항을 설명합니다.</div>
-    <div class="info"><span class="icon_blue"></span> 정보 상자입니다. 맥락에 맞는 정보나 추가 설명을 제공합니다.</div>
-    <div class="tip"><span class="icon_green"></span> 팁 박스입니다. 코리더를 더 편리하게 사용할 수 있는 팁이 담겨 있습니다.</div>
-    <div class="warning"><span class="icon_red"> 고급</span> <b>고급</b> 태그입니다. 주제에서 저를 본다면 절차에 따라 파일 시스템 작업, CSS 지식, 외부 파일 설치 등과 같은 어느 정도의 기술 지식이 필요하다는 뜻입니다.</div>
+    <div class="warning"><span class="label_red">경고</span> 경고 상자입니다. 각별히 주의해야 할 사항을 설명합니다.</div>
+    <div class="info"><span class="label_blue">정보</span> 정보 상자입니다. 상황에 맞는 정보나 추가 설명을 제공합니다.</div>
+    <div class="tip"><span class="label_green">팁</span> 팁 상자입니다. KOReader를 좀더 쉽게 사용할 수 있는 팁을 담았습니다.</div>
+    <div class="warning"><span class="label_red">!!! 고급</span> <b>고급</b> 태그입니다. 어떤 주제에 이 상자를 본다면 절차에 따른 파일 시스템 작업, CSS 지식, 외부 파일 설치 등과 같이 어느 정도의 기술 지식이 필요하다는 뜻입니다.</div>
     </div>
 
 <hr>
@@ -509,7 +511,7 @@ hr {
 
         <br>
 
-        <p><b>안내서 마지막 수정: 2024-03-12</b></p>
+        <p><b>안내서 최근 수정: 2024-03-17</b></p>
     </div>
 
 
@@ -527,38 +529,38 @@ hr {
                         <li><a href="#readingscreen">읽기 화면</a></li>
                         <li><a href="#filebrowser">파일 탐색기</a></li>
                         <li><a href="#uitips">사용자 인터페이스 팁</a></li>
-                        <li><a href="#bottomexplained">하단 메뉴 항목 설명</a></li>
+                        <li><a href="#bottomexplained">하단 메뉴 설명</a></li>
                     </ul>
                 </li>
             
                 <li><a href="#basicreading">기본 읽기 정보</a>
                     <ul>
                         <li><a href="#keyboard">키보드 사용법과 팁</a></li>
-                        <li><a href="#autowarmth">자동 색온도와 야간 모드</a></li>
-                        <li><a href="#fonts">글꼴</a></li>
+                        <li><a href="#autowarmth">Auto Warmth And Night Mode</a></li>
+                        <li><a href="#fonts">Fonts</a></li>
                     </ul>
                 </li>
                 
                 
-                <li><a href="#moving">책으로 이동</a>
+                <li><a href="#moving">MOVING THROUGH YOUR BOOK</a>
                     <ul>
-                        <li><a href="#skimwidget">훑어보기 위젯</a></li>
-                        <li><a href="#bookmap">책 지도</a></li>
-                        <li><a href="#pagebrowser">페이지 탐색기</a></li>
-                        <li><a href="#toctools">차례 도구</a></li>
+                        <li><a href="#skimwidget">Skim Widget</a></li>
+                        <li><a href="#bookmap">Book Map</a></li>
+                        <li><a href="#pagebrowser">Page Browser</a></li>
+                        <li><a href="#toctools">Table of Contents Tools</a></li>
                     </ul>
                 </li>
             
-                <li><a href="#bookmarks">책갈피와 강조 표시, 메모</a>
-                    <ul><li><a href="#exportinghighlights">강조 표시 내보내기</a></li></ul>
+                <li><a href="#bookmarks">BOOKMARKS, HIGHLIGHTING AND NOTES</a>
+                    <ul><li><a href="#exportinghighlights">Exporting your highlights</a></li></ul>
                 </li>
             
-                <li><a href="#pdfs">PDF 읽기</a>
+                <li><a href="#pdfs">READING PDFS</a>
                     <ul>
-                        <li><a href="#readingpdfs">작은 화면에서 큰 PDF 읽기</a></li>
-                        <li><a href="#pdfbottom">PDF 관련 하단 메뉴 항목 설명</a></li>
-                        <li><a href="#ocr">OCR(광학 문자 인식)</a></li>
-                        <li><a href="#panelzoom">패널 줌(만화/코믹)</a></li>
+                        <li><a href="#readingpdfs">Reading large PDFs on a small screen</a></li>
+                        <li><a href="#pdfbottom">Explanations Of Pdf Specific Bottom Menu Items</a></li>
+                        <li><a href="#ocr">OCR (Optical Character Recognition)</a></li>
+                        <li><a href="#panelzoom">Panel Zoom (manga/comic)</a></li>
                     </ul>
                 </li>
                 </ul>
@@ -569,46 +571,46 @@ hr {
         <div>
             <div class="standard-text" style="line-height: 2.3rem;">
             <ul>
-            <li><a href="#preparing">문서 준비와 전송</a>
+            <li><a href="#preparing">PREPARING AND TRANSFERRING YOUR DOCUMENTS</a>
                 <ul>
-                    <li><a href="#transferring">리더로 책 전송하기</a></li>
-                    <li><a href="#optimizing">모바일 리더 기기에 맞게 EPUB/PDF 문서 최적화하기</a></li>
-                    <li><a href="#zipfiles">ZIP 파일 지원</a></li>
-                    <li><a href="#manga">모바일 리더 기기에 맞게 만화 최적화하기</a></li>
+                    <li><a href="#transferring">Transferring books to your reader</a></li>
+                    <li><a href="#optimizing">Optimizing EPUB/PDF documents for your mobile reader device</a></li>
+                    <li><a href="#zipfiles">ZIP file support</a></li>
+                    <li><a href="#manga">Optimizing manga for your mobile reader device</a></li>
                 </ul>
                 </li>
 
-            <li><a href="#gestures">제스처와 키보드 단축키</a>
+            <li><a href="#gestures">GESTURES AND KEYBOARD SHORTCUTS</a>
                 <ul>
-                    <li><a href="#predefinedgestures">미리 정의된 제스처</a></li>
-                    <li><a href="#gesturecategories">제스처 분류</a></li>
-                    <li><a href="#keyboardshortcuts">키보드 단축키</a></li>
+                    <li><a href="#predefinedgestures">Predefined Gestures</a></li>
+                    <li><a href="#gesturecategories">Gesture Categories</a></li>
+                    <li><a href="#keyboardshortcuts">Keyboard Shortcuts</a></li>
                 </ul>
             </li>
     
-                <li><a href="#qmandprofiles">빠른 메뉴와 프로필</a>
+                <li><a href="#qmandprofiles">QUICK MENU AND PROFILES</a>
                 <ul>
-                    <li><a href="#quickmenu">빠른 메뉴</a></li>
+                    <li><a href="#quickmenu">Quick Menu</a></li>
                     <li><a href="#quickmenutips">빠른 메뉴 팁</a></li>
-                    <li><a href="#profiles">프로필</a></li>
+                    <li><a href="#profiles">Profiles</a></li>
                 </ul>
                 </li>
 
-            <li><a href="#plugins">플러그인과 사용자 패치</a>
+            <li><a href="#plugins">PLUGINS AND USER PATCHES</a>
                 <ul>
-                    <li><a href="#plugintypes">플러그인 유형</a></li>
-                    <li><a href="#pluginslist">내부 플러그인 목록</a></li>
+                    <li><a href="#plugintypes">Plugin types</a></li>
+                    <li><a href="#pluginslist">List of internal plugins</a></li>
                     <li><a href="#userpatches">사용자 패치</a></li>
                 </ul>
             </li>
     
  
 
-            <li><a href="#tips">팁</a></li>
+            <li><a href="#tips">TIPS</a></li>
             
-            <li><a href="#troubleshooting">문제 해결</a></li>
+            <li><a href="#troubleshooting">TROUBLESHOOTING</a></li>
             
-            <li><a href="#reachus">문제나 제안에 대해 문의하는 방법</a></li>
+            <li><a href="#reachus">HOW TO REACH US ABOUT PROBLEMS OR SUGGESTIONS</a></li>
             </ul>
             </div>
         </div>
@@ -741,7 +743,7 @@ hr {
     
     <p>이 메뉴를 통해 <span class="ui">상단 메뉴</span>와 <span class="ui">하단 메뉴</span>를 동시에 열도록 <span class="ui">상단 메뉴</span> 영역을 설정할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 메뉴 활성화하기
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Activate Menu
     </div>
     </div>
 
@@ -754,7 +756,7 @@ hr {
 
     <div class="standard-text">KOReader를 처음 실행하면 <span class="ui">파일 탐색기</span>가 표시됩니다. 읽기 화면에서 다음과 같이 액세스할 수 있습니다:
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 →  <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU →  <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"></div>
 
     </div>
 
@@ -763,7 +765,7 @@ hr {
     <div class="standard-text">기본적으로 <span class="ui">파일 탐색기</span>에는 기본 라이브러리 폴더인 <span class="ui">홈</span>이 표시되며, <b>폴더를 길게 탭하여</b> 변경할 수 있습니다. 화면 상단에서 아래로 스와이프하여 <span class="ui">상단 메뉴</span>를 통해 책이 표시되거나 정렬되는 방식 등 다양한 옵션을 변경할 수 있습니다.
     <p>이미지에서 동그라미로 표시된 항목은 아래에서 설명합니다:</p>
     <p><span class="ui">초기화:</span> 이 옵션을 사용하면 다음 대화 상자에서 선택할 수 있는 <b>읽기 진행률, 책갈피, 사용자 지정 표지 이미지</b> 등과 같은 문서의 일부 속성을 초기화할 수 있습니다.</p>
-    <p class="warning"><span class="icon_red"></span> 이 대화 상자를 사용할 때는 매우 주의하고 어떤 항목이 표시되어 있는지 다시 확인하세요. 그렇지 않으면 실수로 모든 항목을 초기화할 수 있습니다.</p>
+    <p class="warning"><span class="label_red">WARNING</span> Be very careful when using this dialog and double check which items are marked, otherwise you can reset everything accidentally.</p>
     <p><span class="ui">다음 프로그램으로 열기:</span> 코리더에는 다양한 파일 유형을 표시하기 위한 다양한 엔진이 있습니다. 경우에 따라 다른 엔진에서 파일을 열어 다른 기능을 사용할 수 있습니다. 바로 아래의 <b>아카이브 파일 보기</b>와 <b>이미지 파일 보기</b> 섹션을 참조하세요.</p>
     <p><span class="ui">표지 무시:</span> 어떤 이유로 이 책의 표지를 사용하지 않으려는 경우(표지가 잘못되었거나 전자 잉크 화면에서 표지가 잘 보이지 않을 수 있음) 이 옵션을 선택할 수 있습니다.</p>
     <p><span class="ui">메타데이터 무시:</span> 책 메타데이터가 올바르지 않으면 이름 필드에 쓸모없는 정보가 표시될 수 있습니다. 메타데이터 대신 파일 이름을 표시하려면 이 옵션을 선택합니다.</p>
@@ -776,8 +778,8 @@ hr {
 
     <div class="standard-text">
     <ol>
-    <li><span class="ui">파일 탐색기</span>에서 파일 이름을 길게 누르기</li>
-    <li><span class="ui">...로 열기</span> 탭하기</li>
+    <li>In <span class="ui">File Browser</span> long-press the file name</li>
+    <li>Tap <span class="ui">Open with…</span></li>
     <li><span class="ui">아카이브 뷰어</span>를 탭합니다</li>
     </ol>
     </div>
@@ -785,8 +787,8 @@ hr {
     <div class="L3-Smaller-heading">이미지 파일 보기</div>
     <div class="standard-text">이미지 파일을 책으로 여는 대신 이미지 뷰어로 열 수 있습니다. 이렇게 열린 파일은 기록에 표시되지 않으며 크기 조정과 회전이 더 잘 지원됩니다.
     <ol>
-    <li><span class="ui">파일 탐색기</span>에서 파일 이름을 길게 누르기</li>
-    <li><span class="ui">...로 열기</span> 탭하기</li>
+    <li>In <span class="ui">File Browser</span> long-press the file name</li>
+    <li>Tap <span class="ui">Open with…</span></li>
     <li><span class="ui">이미지 뷰어</span>를 탭합니다</li>
     </ol>
     </div>
@@ -815,23 +817,23 @@ hr {
 
     <p>이러한 화면의 모양을 변경할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → 화면 표시 모드</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Display mode</div>
 
     <p>이 화면에 표시되는 항목 수를 변경하려면 여기를 참조하세요:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → 설정 → 모자이크 및 상세 목록 설정</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Settings → Mosaic and detailed list settings</div>
 
     <p>이러한 각 대화 상자에 제스처를 지정할 수 있습니다. 예를 들어 책을 읽는 동안에는 제스처를 사용해 <span class="ui">내력</span>이나 <span class="ui">즐겨찾기</span>에 접근하고 파일 탐색기를 거치지 않고 다른 책을 열 수 있습니다.</p>
     <p><span class="ui">내력</span> 화면에서 왼쪽 상단 햄버거 메뉴 버튼의 <b>파일 이름</b>이나 <b>책 메타데이터</b>로 책을 검색할 수 있습니다.</p>
     <p>다음에서 <span class="ui">파일 탐색기</span> 대신 <span class="ui">즐겨찾기</span>나 <span class="ui">내력</span> 화면으로 KOReader를 시작하도록 설정할 수도 있습니다:</p>
     
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴(파일 탐색기에서) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → 다음으로 시작합니다</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Start with</div>
 
     </div>
 
 
-    <div class="L3-Smaller-heading">폴더 바로가기</div>
+    <div class="L3-Smaller-heading">Folder shortcuts</div>
     <div class="standard-text">
     KOReader를 사용하면 즐겨 찾는 폴더를 빠르게 액세스할 수 있는 폴더 바로 가기 메뉴에 추가할 수 있습니다. 예를 들어 라이브러리에 <b>홈&gt;글감&gt;과학&gt;보관함</b> 아래에 <b>보관함</b> 폴더가 있는 경우, 이 <b>보관함</b> 폴더에 폴더 바로가기를 지정하면 책을 읽는 중에도 빠르게 액세스할 수 있습니다.
 
@@ -861,11 +863,11 @@ hr {
     <div class="L2-Sub-heading" id="uitips">사용자 인터페이스 팁</div>
 
     <div class="standard-text">
-    <div class="info"><span class="icon_blue"></span> KOReader의 사용자 인터페이스와 옵션은 여는 파일 유형에 따라 변경될 수 있습니다. 두 가지 범주가 있습니다: <b>고정형 문서</b>(PDF, DJVU, 이미지 파일...)와 <b>가능형 문서</b>(EPUB, HTML, DOCX, RTF, TXT...).
+    <div class="info"><span class="label_blue">INFO</span> KOReader’s user interface and options can change depending on the file type you open. There are two categories: <b>Fixed layout documents</b> (PDF, DJVU, image files...) and <b>Reflowable documents</b> (EPUB, HTML, DOCX, RTF, TXT…).
     </div>
 
     <ul>
-        <li>다음을 통해 인터페이스 언어를 변경할 수 있습니다: <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 언어</div></li>
+        <li>다음을 통해 인터페이스 언어를 변경할 수 있습니다: <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Language</div></li>
 
         <li><b>옵션</b>이나 <b>메뉴 항목</b>(글꼴 굵기, 줄 간격 등)을 길게 누르면 해당 값을 <span class="ui">기본값</span>으로 설정할 수 있습니다. 새 값은 지금부터 열리는 책에만 적용됩니다. 이전에 열어본 책은 해당 설정을 유지합니다. 기본값은 메뉴에서 <span class="ui">별표</span>(★) 또는 아래와 같이 표시기 주위의 <span class="ui">검은색 테두리</span>로 확인할 수 있습니다:
             
@@ -891,14 +893,14 @@ hr {
 
         <li>사용자 인터페이스의 크기를 변경하려면 <span class="ui">DPI</span> 설정이 있습니다:
     
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 화면 DPI</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screen DPI</div>
 
         <p>메뉴에서 값을 선택하거나 <span class="ui">사용자 지정 DPI</span>를 선택하여 미세 조정을 위한 값을 입력할 수 있습니다: <b>더 높은 DPI = 더 큰 인터페이스</b></p>
         <p>하단 표시줄에 <span class="ui">확대/축소(dpi)</span> 설정도 있다는 점에 유의하세요. 이 설정은 문서에만 관련되어 있습니다. 다음 섹션에서 설명을 확인할 수 있습니다.</p>
         </li>
 
         <li>사용자 인터페이스의 검은색 깜박임(고스트 현상을 없애기 위해 자동으로 부분적으로 새로 고침)이 방해가 되는 경우 비활성화할 수 있습니다:
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → E-ink 설정</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → E-ink Settings</div>
         </li>
 
         <li>현재 날짜를 확인하려면 <span class="ui">상단 메뉴</span>에서 시계를 탭하면 됩니다.</li>
@@ -906,13 +908,13 @@ hr {
 
     </div>
 
-    <div class="L3-Smaller-heading">메뉴 검색</div>
+    <div class="L3-Smaller-heading">Menu search</div>
     
     <div class="standard-text">
     코리더에는 많은 기능이 있으므로 메뉴 시스템은 이러한 복잡성을 반영합니다. 메뉴 항목을 빠르게 찾을 수 있는 메뉴 검색 기능이 있습니다. 다음에서 접근할 수 있습니다:
 
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 도움말 → 메뉴 검색</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → Menu search</div>
 
     <p>또한 이 기능을 제스처에 할당하거나 <span class="ui">빠른 메뉴</span>에 추가하여 더 빠르게 접근할 수 있습니다.</p>
     </div>
@@ -921,9 +923,9 @@ hr {
 
     <div class="standard-text">코리더에는 세 가지 유형의 터치 스크롤이 있습니다. 다음에서 접근할 수 있습니다:
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 스크롤</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Scrolling</div>
 
-    <div class="info"><span class="icon_blue"></span> 스크롤을 사용하려면 <span class="ui">하단 메뉴</span>에서 <span class="ui">연속 모드</span>를 활성화해야 합니다.</div>
+    <div class="info"><span class="label_blue">INFO</span> You have to enable <span class="ui">Continuous mode</span> from the <span class="ui">Bottom menu</span> to be able to use scrolling.</div>
 
     <p><b>클래식 스크롤:</b> 이 모드는 휴대폰/태블릿 스크롤과 똑같이 작동합니다.</p>
 
@@ -937,7 +939,7 @@ hr {
         이 유용한 기능은 브라우저의 <b>뒤로 가기</b> 버튼처럼 작동합니다. <span class="ui">훑어보기 위젯, 책갈피 목록, 책 지도</span> 등을 사용하여 책의 다른 부분으로 이동할 때. 코리더는 이전 위치를 기억합니다. 이 기능은 예를 들어 내부 링크나 참조를 따라갈 때 유용합니다. 탭 한 번으로 어디에서 왔는지 돌아갈 수 있습니다. 이 기능은 다음에서 접근할 수 있습니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 이전 위치로 돌아가기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Go back to previous location</div>
 
     <div class="standard-text">
         또한 같은 메뉴에서 앞으로 이동하는 것도 가능합니다. 이 기능은 ← → 다중 스와이프 제스처에 할당되어 있습니다. 원하는 경우 다른 제스처(예: 모서리 탭)에 할당하거나 <span class="ui">빠른 메뉴</span>에 추가할 수 있습니다.
@@ -949,7 +951,7 @@ hr {
         코리더는 일반적으로 이미지가 포함된 페이지에서 전체 새로 고침을 수행합니다(검은색 깜박임으로 확인할 수 있음). 그 이유는 이전 페이지의 잔여물과 고스트 현상을 제거하기 위해서입니다. 하지만 사용 중인 디바이스와 개인 취향에 따라 이 기능이 필요하지 않을 수도 있습니다. 이 자동 새로고침 동작은 여기에서 비활성화할 수 있습니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → 화면 → E-ink 설정 → 최대 새로 고침 빈도 → 이미지가 있는 페이지에서 항상 깜박임</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → Screen → E-ink Settings → Full refresh rate → Always flash on pages with images</div>
 
     <div class="L3-Smaller-heading">부분 렌더링 지원</div>
 
@@ -958,14 +960,14 @@ hr {
 
     <p>이 새로운 기능을 사용하면 EPUB 문서를 읽을 때 현재 챕터만 렌더링하여 텍스트 모양을 훨씬 더 빠르게 조정할 수 있습니다.</p>
 
-    <div class="info"><span class="icon_blue"></span> 이는 EPUB이 여러 조각으로 구성된 경우에만 가능합니다. EPUB 파일은 기본적으로 .html 파일이 포함된 .zip 압축입니다. 일부 책은 단일 .html 파일일 수 있지만 책의 각 장이 별도의 .html 파일인 것처럼 여러 .html 파일로 구성될 수도 있습니다. <b>책이 단일 .html 파일인 경우 부분 렌더링이 작동하지 않는데, 이는 변경할 때마다 KOReader가 여전히 전체 책을 계산해야 하기 때문입니다.</b>
+    <div class="info"><span class="label_blue">INFO</span> This is only possible if your EPUB is composed of multiple fragments. EPUB files are basically .zip archives that contain .html files. Some books can be a single .html file while others may be composed of multiple .html files like each chapter of the book is a separate .html file. <b>If your book is only a single .html file, partial rendering can not work, because for each change KOReader still has to calculate the whole book.</b>
     </div>
     
     <p>또한 이 기능 덕분에 화면 방향을 회전하는 속도가 훨씬 빨라졌습니다. 이 기능은 기본적으로 <b>활성화</b>되어 있습니다. 필요한 경우 책별로(탭하여) 또는 전체적으로(길게 탭하여) 비활성화할 수 있습니다:</p>
     </div>
 
     <div class="standard-text">
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → 문서 → 부분 렌더링 활성화</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:24px;"> → Document → Enable partial renderings</div>
 
     <p>이러한 부분 렌더링이 끝나면 코리더와 책은 성능이 저하된 상태가 됩니다: 페이지를 넘길 수는 있지만 일부 정보 및 기능(예: 바닥글 정보, 차례, 통계 등)이 깨지거나 비활성화될 수 있습니다. 정상적인 작동 상태로 되돌리려면 KOReader가 책의 나머지 부분도 렌더링해야 합니다. 이 작업이 진행되는 동안 화면 왼쪽 상단의 아이콘이 상태를 나타냅니다:</p>
     
@@ -974,16 +976,16 @@ hr {
     <div class="standard-text">
         <ol>
         <li>
-        <img class="img_inline" src="pictures/partial_rendering_1.svg" style="width:50px;"> 문서가 <b>부분적으로</b> 렌더링되었습니다. 페이지 수, 바닥글 정보 등 많은 부분이 <b>정확하지 않습니다</b>. 새 설정이 어떻게 보이는지 확인하고 추가로 조정할 수 있습니다. 이 상태에서 페이지를 넘기고 링크를 이동할 수도 있습니다.
+        <img loading="lazy" class="img_inline" src="pictures/partial_rendering_1.svg" style="width:50px;"> 문서가 <b>부분적으로</b> 렌더링되었습니다. 페이지 수, 바닥글 정보 등 많은 부분이 <b>정확하지 않습니다</b>. 새 설정이 어떻게 보이는지 확인하고 추가로 조정할 수 있습니다. 이 상태에서 페이지를 넘기고 링크를 이동할 수도 있습니다.
         </li>
         <li>
-        <img class="img_inline" src="pictures/partial_rendering_2.svg" style="width:50px;"> 전체 렌더링이 <b>배경</b>에서 이루어지고 있습니다. 여전히 페이지를 넘기고, 링크를 이동하고, 설정을 변경할 수 있습니다.
+        <img loading="lazy" class="img_inline" src="pictures/partial_rendering_2.svg" style="width:50px;"> 전체 렌더링이 <b>배경</b>에서 이루어지고 있습니다. 여전히 페이지를 넘기고, 링크를 이동하고, 설정을 변경할 수 있습니다.
         </li>
         <li>
-        <img class="img_inline" src="pictures/partial_rendering_3.svg" style="width:50px;"> 전체 렌더링이 완료되었지만 아직 적용되지 않은 이유는 KOReader가 책의 나머지 부분을 다시 로드하기 위해 사용자가 <b>유휴 상태</b>(유휴 상태=장치와 상호 작용하지 않음)가 되기를 기다리고 있기 때문입니다. 여전히 페이지를 넘기고, 링크를 이동하고, 설정을 변경할 수 있습니다.
+        <img loading="lazy" class="img_inline" src="pictures/partial_rendering_3.svg" style="width:50px;"> 전체 렌더링이 완료되었지만 아직 적용되지 않은 이유는 KOReader가 책의 나머지 부분을 다시 로드하기 위해 사용자가 <b>유휴 상태</b>(유휴 상태=장치와 상호 작용하지 않음)가 되기를 기다리고 있기 때문입니다. 여전히 페이지를 넘기고, 링크를 이동하고, 설정을 변경할 수 있습니다.
         </li>
         <li>
-        <img class="img_inline" src="pictures/partial_rendering_4.svg" style="width:50px;">잠시 동안 유휴 상태였으므로 이제 KOReader가 전체 문서를 다시 로드하고 있습니다. 이 단계에서는 상호 작용을 방지하기 위해 KOReader가 <b>차단</b>됩니다.
+        <img loading="lazy" class="img_inline" src="pictures/partial_rendering_4.svg" style="width:50px;">잠시 동안 유휴 상태였으므로 이제 KOReader가 전체 문서를 다시 로드하고 있습니다. 이 단계에서는 상호 작용을 방지하기 위해 KOReader가 <b>차단</b>됩니다.
         </li>
         </ol>
     </div>
@@ -992,9 +994,9 @@ hr {
     </div>
 
 
-    <div class="L2-Sub-heading" id="bottomexplained">하단 메뉴 항목 설명</div>
+    <div class="L2-Sub-heading" id="bottomexplained">하단 메뉴 설명</div>
 
-    <div class="tip"><span class="icon_green"></span> 하단 메뉴에서 해당 항목의 이름을 길게 탭하면 해당 항목에 대한 설명을 볼 수 있습니다.
+    <div class="tip"><span class="label_green">TIP</span> You can see an explanation of these items when you long tap on their names in the bottom menu.
     </div>
 
     <img loading="lazy" src="pictures/bottom_menu_3.png" style="width:500px;">
@@ -1003,7 +1005,7 @@ hr {
     <span class="ui">보기 모드:</span> <span class="ui">연속</span> 모드로 변경하면 웹 페이지처럼 문서를 스크롤할 수 있습니다. 이 모드는 전자 잉크가 아닌 화면 유형(LCD, OLED)에 더 적합합니다. 연속 모드에서는 <b>위쪽 및 아래쪽 여백이 사라지므로</b> 화면의 첫 번째 줄과 마지막 줄에서 텍스트가 잘릴 수 있습니다. 이 문제를 해결하려면 <span class="ui">페이지 겹침</span>을 활성화하면 됩니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 페이지 겹침</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Page Overlap</div>
     
     <div class="standard-text">
     <span class="ui">렌더링 모드:</span> 이 옵션은 KOReader에서 문서를 렌더링하는 방식을 결정합니다. 기본값은 <span class="ui">웹</span>이며 일반적으로 이 설정을 변경할 필요가 없습니다. 책(또는 저장된 웹 페이지)이 매우 복잡하여(지정된 너비 또는 여백, 음수 여백, 플로트 등) 레이아웃이 좋지 않거나 화면이 넘쳐 보이는 경우 다른 렌더링 모드를 사용해 볼 수 있습니다.
@@ -1061,13 +1063,13 @@ hr {
     <span class="ui">대체 상태 표시줄</span>은 리플로우 가능한 문서(EPUB, HTML, DOCX, RTF, TXT...)에서만 사용할 수 있는 대체 상태 표시줄을 활성화합니다. 여기에서 활성화한 후 다음을 통해 <span class="ui">대체 상태 표시줄</span>을 구성할 수 있습니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄 → 대체 상태 표시줄</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Alt status bar</div>
     
     <div class="standard-text">
     <span class="ui">임베디드 스타일</span>과 <span class="ui">임베디드 글꼴</span>은 문서 렌더링 시 문서에 임베디드된 발행인의 스타일과 글꼴을 사용할지(또는 무시할지) 결정합니다. 이는 일반적인 켜기/끄기 스위치입니다. 다음을 통해 문서를 보다 세밀하게 조정할 수 있습니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 스타일 조정</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div>
 
     <div class="standard-text">
     <span class="ui">이미지 크기 조정</span>은 문서의 이미지가 렌더링되는 방식을 결정합니다. <span class="ui">최상</span>은 더 보기 좋게 보이지만 속도가 느립니다.
@@ -1086,7 +1088,7 @@ hr {
     원하는 대로 설정을 조정한 후 다음을 통해 프로필을 만들 수 있습니다:
     </div>
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 프로필 → 현재 문서 설정으로 새로 만들기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Profiles → New with current document settings</div>
 
     <div class="standard-text">
     설정으로 프로필을 만든 후에는 이를 다른 책에 적용할 수 있는 다양한 옵션이 있습니다:
@@ -1107,43 +1109,43 @@ hr {
 
     <div class="standard-text">
     <ul>
-    <li><b>글꼴*을 변경할 수 있습니다</b>:<div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴</div></li>
-    <li><b>글꼴을 더 크게 만들기</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"></div></li>
-    <li><b>글꼴을 더 굵게 만들기</b><div class="menu-breadcrumbs"> <span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"></div></li>
-    <li><b>화면의 색상을 반전(검정 배경에 흰 글씨)</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 야간 모드</div></li>
-    <li><b>다른 많은 서식 옵션 변경</b><div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 스타일 조정</div></li>
+    <li><b>글꼴*을 변경할 수 있습니다</b>:<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font</div></li>
+    <li><b>글꼴을 더 크게 만들기</b><div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"></div></li>
+    <li><b>글꼴을 더 굵게 만들기</b><div class="menu-breadcrumbs"> ⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"></div></li>
+    <li><b>화면의 색상을 반전(검정 배경에 흰 글씨)</b><div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Night Mode</div></li>
+    <li><b>다른 많은 서식 옵션 변경</b><div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div></li>
     </ul>
 
 
-    <div class="info"><span class="icon_blue"></span> *글꼴 선택과 스타일 조정은 가변형 문서(EPUB, HTML, DOCX, RTF, TXT...)에서만 사용할 수 있습니다. PDF/DJVU와 같은 고정형 문서는 지원되지 않습니다.
+    <div class="info"><span class="label_blue">INFO</span> *Font selection and style tweaks are available only on reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents like PDF/DJVU are not supported.
     </div>
 
     <p><span class="ui">하단 메뉴</span>에서 다른 서식 옵션을 변경하여 텍스트의 모양을 미세 조정할 수도 있습니다.</p>
     <p>읽기 통계는 다음을 통해 확인할 수 있습니다:</p>
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 읽기 통계</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Reading Statistics</div>
 
     
     <div class="L3-Smaller-heading">화면의 배경 조명/전면 조명을 제어하는 방법?</div>
     <div class="standard-text">
     이 메뉴를 통해 화면 조명을 제어할 수 있습니다. 따뜻한 조명(일반 흰색 LED+주황색 LED)이 있는 경우 이 대화 상자에서 별도로 제어할 수 있습니다. 이 대화 상자에 대한 제스처를 정의할 수도 있습니다:
     </div>
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 전면 조명</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Frontlight</div>
 
     <div class="L3-Smaller-heading">상태 표시줄은 어떻게 구성하나요?</div>
     <div class="standard-text">
     이 메뉴에서 하단 상태 표시줄을 구성할 수 있습니다. <span class="ui">설정</span> 하위 메뉴를 자유롭게 탐색하여 원하는 대로 상태 표시줄을 사용자화 할 수 있습니다.
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar</div>
 
     <p>상태 표시줄에 표시할 수 있는 항목은 여러 가지가 있습니다. 하지만 기본적으로 한 번에 하나만 표시되며 상태 표시줄을 탭해야 항목 간에 전환할 수 있습니다. 모든 항목을 한 번에 표시하려면 이 메뉴 항목을 활성화하세요:</p>
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄 → 설정 → 한 번에 모두 보기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Show all at once</div>
 
     <p>다음과 같이 항목을 정렬할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄 → 설정 → 항목 정렬</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Sort items</div>
 
     <p>제스처를 사용하거나 빠른 메뉴를 통해 상태 표시줄의 표시 여부를 켜고 끌 수 있습니다:</p>
 
@@ -1152,7 +1154,7 @@ hr {
 
     <p>가변형 문서(epub, html, docx, rtf, txt...)에서 사용할 수 있는<span class="ui">대체 상태 표시줄</span>도 있습니다. 이 기능을 사용하려면 다음으로 활성화할 수 있습니다:</p>
  
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 대체 상태 표시줄</div>
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Alt Status Bar</div>
 
     <br>
 
@@ -1161,7 +1163,7 @@ hr {
     <ul>
         <li>먼저 이 메뉴에서 이 옵션을 짧게 눌러 활성화합니다
 
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄 → 사용자 지정 텍스트: 'KOReader'</div>
+            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Custom text: ‘KOReader’</div>
 
         </li>
         <li>그런 다음 다시 길게 누르면 설정이 열립니다. 첫 번째 상자에 <b>공백</b> 문자를 입력하고 두 번째 상자에 반복 횟수를 입력하면 구분 기호의 폭이 결정됩니다.</li>
@@ -1177,11 +1179,11 @@ hr {
     <div class="standard-text">
     이 메뉴를 통해 책 표지나 사용자 지정 이미지를 화면 보호기로 선택할 수 있습니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 화면보호기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver</div>
     
     <p>JPG/PNG 파일을 화면 보호기로 사용할 수 있습니다(적절하게 디더링된 회색조 이미지가 가장 잘 보입니다). 컴퓨터에서 디바이스의 임의 폴더로 파일을 전송합니다. 그리고 이 메뉴에서 이 폴더를 화면 보호기 폴더로 선택합니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 화면보호기 → 설정</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings</div>
 
     <p>
         화면 보호기 이미지에 대한 고급 정보는 이 포럼 게시물을 참조하세요: <a href="https://www.mobileread.com/forums/showpost.php?p=3728291&amp;postcount=17">https://www.mobileread.com/forums/showpost.php?p=3728291&amp;postcount;=17</a>
@@ -1196,10 +1198,10 @@ hr {
     <li>입력 필드 외부를 탭하여 키보드를 닫고, 입력 필드를 탭하여 키보드를 다시 표시합니다</li>
     <li>키를 <b>위로 스와이프<b>하여 해당 문자의 대문자 버전(이미 <b>시프트</b> 모드인 경우 소문자)을 입력합니다</b></b></li>
     <li>키보드의 모양을 변경할 수 있습니다:
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴→ <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 기기 → 키보드 → 키보드 설정</div></li>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard settings</div></li>
     <li>둘 이상의 배열을 선택할 수 있습니다:
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 기기 → 키보드 → 키보드 배열</div></li>
-    <li>키보드의 <img class="img_inline" src="pictures/keyboard_world.png" style="width:26px;"> 아이콘을 탭하여 선택한 배열 중에서 변경할 수 있습니다</li>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard layout</div></li>
+    <li>You can change between your selected layouts by tapping the <img loading="lazy" class="img_inline" src="pictures/keyboard_world.png" style="width:26px;"> icon on the keyboard</li>
 </ul>
     </div>
 
@@ -1215,7 +1217,7 @@ hr {
 
     이 기능이 사용에 방해가 된다면 이 기능을 선택 해제하여 비활성화할 수 있습니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ 기기 → 키보드 → 스와이프하여 추가 문자 입력</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Device → Keyboard → Swipe to input additional characters</div>
 
     또한 텍스트를 더 쉽게 조작할 수 있는 몇 가지 단축키가 있습니다. 이러한 키를 길게 누르면 작업을 수행할 수 있습니다:
     <ul>
@@ -1234,15 +1236,15 @@ hr {
 
 
 
-    <div class="L2-Sub-heading" id="autowarmth">자동 색온도와 야간 모드</div>
+    <div class="L2-Sub-heading" id="autowarmth">Auto Warmth And Night Mode</div>
 
     <div class="standard-text">
     이 플러그인을 사용하면, <b>자연광(노랑/주황) 조명</b>을 사용하는 장치의 전면 조명 색 온도를 조정하고 일정에 따라 자동으로 <span class="ui">야간 모드</span>(화면 색깔 반전 - <b>검은색 배경에 흰색 글씨</b>)를 설정할 수 있습니다. 두 가지를 모두 제어하거나, <span class="ui">색 온도 제어 모드만</span>이거나 <span class="ui">야간 모드 제어 모드만</span> 선택할 수 있으므로, 다른 하나는 수동으로 조정할 수 있습니다.
     <p>이 플러그인은 기본적으로 활성화되어 있습니다. 메뉴에 없는 경우 다음을 통해 활성화할 수 있습니다:</p>
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 자동 색온도와 야간 모드</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Auto Warmth and Night Mode</div>
 
-    <div class="info"><span class="icon_blue"></span> PocketBook 디바이스를 사용 중인데 KOReader에서 전면 조명 또는 보온 슬라이더가 작동하지 않는 경우, PocketBook 리더(디바이스와 함께 제공되는)에서 <b>SmartLight-Auto</b>옵션이 <b>비활성</b>으로 설정되어 있는지 확인하시기 바랍니다.
+    <div class="info"><span class="label_blue">INFO</span> If you have a PocketBook device and frontlight or warmth slider is not working in KOReader, please be sure that in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</b> option is set to <b>Disabled</b>.
     </div>
 
 
@@ -1261,10 +1263,10 @@ hr {
 
     <div class="standard-text">
 <ol>
-    <li>플러그인 메뉴로 이동합니다: <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 색 온도와 야간 모드</div></li>
+    <li>Go to the plugin menu: <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
     <li>메뉴 항목 활성화를 탭한 다음 <span class="ui">고정된 일정대로</span>를 탭하세요</li>
     <li>이전 메뉴로 돌아가서 <span class="ui">고정된 일정 설정</span> 메뉴 항목을 탭하세요</li>
-    <li>여기에서 다양한 항목의 시간을 설정하여 색 온도 전환 일정을 설정하세요. 항목에 대한 설명은 위 이미지를 참조하세요.</li>
+    <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
 </ol>
     </div>
 
@@ -1273,12 +1275,12 @@ hr {
 
     <div class="standard-text">
         <ol>
-            <li>플러그인 메뉴로 이동합니다:
-                <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 색 온도와 야간 모드</div></li>
+            <li>Go to the plugin menu:
+                <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
             <li><span class="ui">활성화</span> 메뉴 항목을 탭한 다음 <span class="ui">태양의 위치에 따라</span>를 누르세요</li>
             <li>이전 메뉴로 돌아가서 <span class="ui">위치 설정</span> 메뉴 항목을 탭합니다. <b>좌표</b>(필수)와 <b>고도</b>(선택)를 올바르게 설정하고 내 위치의 <b>이름</b>을 지정합니다.</li>
             <li>이전 메뉴로 돌아가서 <span class="ui">색 온도와 야간 모드 설정</span> 메뉴 항목을 탭하세요</li>
-            <li>여기에서 다양한 항목의 시간을 설정하여 색 온도 전환 일정을 설정하세요. 항목에 대한 설명은 위 이미지를 참조하세요.</li>
+            <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
         </ol>
  
     <p><span class="ui">현재 활성화된 매개변수</span> 메뉴 옵션을 통해 현재 일정을 확인할 수 있습니다.</p>
@@ -1316,7 +1318,7 @@ hr {
     </div>
 
 
-    <div class="L2-Sub-heading" id="fonts">글꼴</div>
+    <div class="L2-Sub-heading" id="fonts">Fonts</div>
 
     <div class="L3-Smaller-heading">나만의 글꼴을 추가하는 방법?</div>
     <div class="standard-text">
@@ -1347,7 +1349,7 @@ hr {
     <div class="standard-text">
     <p>KOReader는 기기에 설치된 모든 글꼴로 렌더링된 샘플 텍스트가 포함된 문서를 생성할 수 있습니다. 이를 통해 그리스어, 히브리어 또는 중국어와 같은 비 라틴어 스크립트의 합자 및 문자 세트와 같은 글꼴의 모양과 기능을 빠르게 비교할 수 있습니다. 이 기능은 다음을 통해 접근할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 설정 → 글꼴 테스트 문서 생성</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings → Generate font test document</div>
     </div>
 
     <div class="L3-Smaller-heading">고정폭 글꼴 크기</div>
@@ -1356,7 +1358,7 @@ hr {
         프로그래밍 책에서처럼 책에 <b>고정폭</b> 글꼴이 있는 부분이 포함되어 있는 경우, 기술적으로 크기가 같더라도 고정폭 글꼴이 불균형하게 보일 수 있습니다. 이는 글꼴 메트릭이 다르기 때문에 발생합니다. 이 차이를 해결하려면 KOReader에 상대적인 고정폭 글꼴 크기를 조정할 수 있는 옵션이 있습니다.
     </p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 설정 → 고정폭 글꼴 크기 조정</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings → Monospace fonts scaling</div>
 
     <p>여기에서 기본 크기의 백분율로 배율을 조정하여 고정폭 글꼴의 크기를 늘리거나 줄일 수 있습니다.</p>
     </div>
@@ -1365,7 +1367,7 @@ hr {
     <div class="standard-text">
     <p>EPUB과 같은 HTML/CSS 기반 문서에서, 책은 특정 글꼴 이름 대신 글꼴 패밀리 별로 글꼴을 사용하도록 지정할 수 있습니다. 이러한 글꼴 패밀리는 <b>세리프, 산세리프, 고정폭, 필기체, 판타지, 이모티콘, 팡송, 수학식</b> 등이 있습니다. 예를 들어 책에서 일반 텍스트는 <b>산세리프</b>로 표시하고, 대화 상자는 <b>세리프</b>로 표시할 수 있습니다. KOReader는 일반적으로 <b>고정폭</b>과 <b>수학식</b>을 제외한 모든 글꼴 패밀리(텍스트 노드의 스타일에 따라 결정되는 <b>'font-family: serif'</b> 등)에 기본 글꼴을 사용합니다. 이러한 글꼴 패밀리가 뚜렷하게 보이도록 하려면, 여기에서 특정 글꼴을 지정할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 글꼴 → 글꼴 패밀리 글꼴</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font-family fonts</div>
 
     <p>현재 책의 패밀리 글꼴을 변경하려면 원하는 글꼴 이름을 탭하면 됩니다. 모든 책에 설정하려면 길게 탭하여 <span class="ui">기본값(★)</span>으로 설정합니다. 책에서 기본 글꼴이 거의 사용되지 않을 정도로 이 글꼴 패밀리 기능을 남용하는 경우, 연결을 해제하여 이 책에 대해 해당 패밀리 글꼴 기능을 비활성화할 수 있습니다.</p>
     </div>
@@ -1385,16 +1387,16 @@ hr {
     
 <!-- ANCHOR MOVING THROUGH YOUR BOOK -->
 
-    <div class="L1-Chapter-heading" id="moving">책으로 이동</div>
+    <div class="L1-Chapter-heading" id="moving">MOVING THROUGH YOUR BOOK</div>
 
     <div class="standard-text">
     KOReader에서 문서를 이동하는 방법에는 여러 가지가 있습니다.
     <p><span class="ui">훑어보기 위젯이나 책 지도, 페이지 탐색기</span> 기능을 사용할 수 있습니다.</p>
     
-    <div class="L2-Sub-heading" id="skimwidget">훑어보기 위젯</div>
+    <div class="L2-Sub-heading" id="skimwidget">Skim Widget</div>
 
     <p>이 위젯은 <span class="ui">상태 표시줄</span>을 길게 탭하여 열 수도 있습니다:</p>
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 문서 훑어보기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Skim document</div>
     
     <img loading="lazy" src="pictures/skim_widget.png" style="width:650px;">
 
@@ -1409,7 +1411,7 @@ hr {
 
     <p>문서에 제목 수준이 너무 많으면 위의 예처럼 챕터 표시가 복잡해 보일 수 있습니다. 다음을 통해 표시되는 차례 표시 단계의 깊이를 변경할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 진행 막대</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Progress Bars</div>
 
     <img loading="lazy" src="pictures/skim_widget_chapter_mark_levels.png" style="width:400px;">
 
@@ -1423,13 +1425,13 @@ hr {
     <p>문서에 차례가 없는 경우 <span class="ui">대체 차례</span>를 활성화할 수 있습니다. 이 설정을 활성화하면 KOReader는 문서 제목(사용 가능한 경우) 또는 EPUB의 개별 HTML 파일에서 차례를 작성합니다. 추가 정보를 보려면 이 메뉴 항목을 길게 누르십시오:
     </p>
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 대체 차례</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Alternative table of contents</div>
     
     <p>KOReader에서 사용할 수 있는 <b>차례</b> 도구에 대한 자세한 내용은 이 안내서의 관련 섹션에서 확인할 수 있습니다: <a href="#toctools">차례 도구</a></p>
     </div>
 
 
-    <div class="L2-Sub-heading" id="bookmap">책 지도</div>
+    <div class="L2-Sub-heading" id="bookmap">Book Map</div>
 
     <div class="standard-text">
     책 지도는 책의 개요를 파악하는 데 매우 유용한 KOReader의 강력하고 독특한 기능입니다. 예를 들어, 책을 읽다가 일부 부분을 건너뛰고 나중에 읽는 등 비선형적으로 읽는 경우 진행 상황을 추적하기 어려울 수 있습니다. 책 지도를 사용하면 책의 어느 부분을 이미 읽었는지 한 눈에 확인할 수 있습니다.
@@ -1442,7 +1444,7 @@ hr {
 
     메뉴를 통해 책 지도에 접근할 수 있으며, 더 빠르게 접근할 수 있도록 제스처를 지정할 수도 있습니다:
     
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 책 지도</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Book map</div>
 
     </div>
 
@@ -1487,11 +1489,11 @@ hr {
     </ul>
     </div>
     
-    <div class="L2-Sub-heading" id="pagebrowser">페이지 탐색기</div>
+    <div class="L2-Sub-heading" id="pagebrowser">Page Browser</div>
     <div class="standard-text">
     <span class="ui">페이지 탐색기</span>는 페이지의 썸네일을 격자로 표시하여 사진 앨범처럼 페이지 사이를 탐색하는 데 사용할 수 있습니다. <span class="ui">책 지도</span>를 탭하거나 메뉴에서 페이지 탐색기를 열 수 있습니다. 빠른 접근을 위해 제스처를 지정할 수도 있습니다.
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 페이지 탐색기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
 
     <p>화면 <span class="ui">위쪽</span>과 <span class="ui">왼쪽</span>을 따라 스와이프하여 표시되는 페이지 수를 변경할 수 있습니다. 하단의 아이콘은 <span class="ui">책 지도</span>와 동일합니다. 사실 하단은 <span class="ui">책 지도</span>의 직선형 버전입니다.</p>
 
@@ -1505,7 +1507,7 @@ hr {
     책 지도와 페이지 탐색기에는 햄버거 메뉴에서 활성화할 수 있는 다른 음영 체계가 있는 대체 테마가 있습니다. 이 테마는 장 제목에 색상을 번갈아 가며 사용하므로 <span class="ui">책 지도</span>와 <span class="ui">페이지 탐색기</span>에서 장 경계가 더 잘 보입니다. 하지만 이 테마에서 회색을 사용하려면 검은색으로 깜박여야 하므로 일부 사용자에게는 산만할 수 있습니다. 두 가지를 모두 사용해 보고 마음에 드는 것을 사용하세요.
     </div>
 
-    <div class="L2-Sub-heading" id="toctools">차례 도구</div>
+    <div class="L2-Sub-heading" id="toctools">Table of Contents Tools</div>
     <div class="standard-text">
     디지털 책 중 일부는 제대로 된 차례(<b>ToC</b>)가 없을 수 있습니다. 책의 준비 상태에 따라 이러한 차례 문제가 발생할 수 있습니다:
     <ul>
@@ -1524,15 +1526,15 @@ hr {
     <div class="standard-text">
     첫 번째 기능은 <span class="ui">대체 차례</span>에서 찾을 수 있는 기능입니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 대체 차례</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Alternative table of contents</div>
 
-    <div class="info"><span class="icon_blue"></span> EPUB 문서는 기본적으로 하나 이상의 HTML 파일이 포함된 ZIP 파일입니다. 책 전체가 하나의 큰 HTML 파일로 구성될 수도 있고, 개별 챕터가 개별 HTML 파일로 구성될 수도 있습니다(더 나은 구조).</div>
+    <div class="info"><span class="label_blue">INFO</span> An EPUB document is basically a ZIP file containing one or more HTML files. Your book might be one big HTML file for the whole book or it might contain separate chapters as individual HTML files (which is a better structure).</div>
         
     <p><span class="ui">대체 차례</span>는 책의 제목(EPUB의 HTML 파일에 있는 <b>H1</b>부터<b>H6</b> 태그)에서 차례를 만들려고 시도합니다. 책에 제목이 포함되어 있지 않으면 각 파일의 시작 부분을 가리키는 문서 조각(EPUB 책의 개별 HTML 파일)에서 차례를 만들려고 시도합니다.</p>
     
     <p>이 메뉴에서 차례에 포함할(또는 무시할) 제목 단계를 선택할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 스타일 조정 → 기타 → 대체 차례 힌트</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style tweaks → Miscellaneous → Alternative ToC hints</div>
 
     </div>
     
@@ -1543,7 +1545,7 @@ hr {
     <div class="standard-text">
     사용자 지정 차례 기능을 사용하면 책의 선택한 부분으로 자신만의 차례를 만들 수 있습니다. 이 차례에는 하나의 단계만 포함할 수 있으므로 이 기능을 사용하는 동안에는 하위 챕터를 만들 수 없습니다. 나만의 차례를 만들려면 먼저 활성화합니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 사용자 차례</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom table of contents</div>
         
     <p>이 기능을 활성화하면 사용자 인터페이스에 챕터를 선택할 수 있는 새 메뉴 항목이 추가됩니다. 차례에 챕터를 추가할 수 있는 위치는 두 곳입니다:</p>
 
@@ -1553,13 +1555,13 @@ hr {
     </ol>
 
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 페이지 탐색기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
     
     <p>장의 시작 부분으로 사용할 페이지 썸네일을 길게 누르고 팝업 메뉴에서 <span class="ui">차례 챕터 시작</span> 항목을 선택합니다. 장 제목을 입력하라는 대화 상자가 표시됩니다.</p>
     
     <p>차례 생성을 완료하고 이러한 추가 버튼을 보고 싶지 않다면 선택을 취소하여 비활성화할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 사용자 지정 레이아웃 기능 → 편집 모드</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Edit mode</div>
     
     <p>이 차례를 생성해도 책과 함께 제공되는 원본 차례는 변경되지 않습니다. 새 차례를 만들고 싶은 경우 동일한 메뉴에서 <b>사용자 지정 차례</b>를 지울 수 있습니다. 그리고 원래 차례로 돌아가려는 경우 이 기능을 활성화한 것과 동일한 방식으로 완전히 비활성화할 수 있습니다. 사용자 지정 차례를 생성한 후 원래 차례로 되돌리기 위해 이 기능을 비활성화하면 사용자 지정 차례가 삭제되지 않습니다. 원본과 사용자 지정 차례 간에 계속 전환할 수 있습니다.</p>
     
@@ -1581,7 +1583,7 @@ hr {
         <li>제외하려는 섹션의 첫 페이지로 이동</li>
         <li><span class="ui">페이지 탐색기</span>를 엽니다:
 
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 페이지 탐색기</div>
+            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
         </li>
         <li>제외하려는 섹션의 시작 부분이 될 페이지 썸네일을 길게 누르고 팝업 메뉴에서 <span class="ui">여기서 숨겨진 흐름 시작하기</span> 항목을 선택합니다.</li>
         <li>이제 선택 항목에서 시작하는 페이지의 배경이 회색 해치 모양으로 바뀐 것을 볼 수 있습니다.</li>
@@ -1605,11 +1607,11 @@ hr {
     <p><b>숨겨진 섹션 제거와 정리</b></p>
     <p>숨겨진 개별 흐름 섹션은 생성한 것과 같은 방법으로 <span class="ui">페이지 탐색기</span>에서 제거할 수 있습니다. 메뉴 항목을 사용하여 모든 섹션을 한 번에 지울 수도 있습니다:</p>
         
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 사용자 지정 레이아웃 기능 → 표시된 모든 페이지 지우기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Clear all marked pages</div>
 
     <p>페이지에 <span class="ui">숨겨진 흐름 시작</span> 또는 <span class="ui">일반 흐름 다시 시작</span> 태그를 지정하여 숨겨진 흐름을 만들면 이전에 만든 흐름 중 일부가 더 이상 적용되지 않을 수 있습니다. 예를 들어 기존 <span class="ui">숨겨진 흐름 시작</span> 몇 페이지 전에 <span class="ui">숨겨진 흐름 시작</span>을 만들면 기존 흐름은 더 이상 관련되지 않습니다. 이렇게 중복되거나 더 이상 사용되지 않는 태그는 실용적인 목적으로 기억됩니다. 앞의 예에서도 두 번째 숨겨진 흐름을 기존이지만 더 이상 관여하지 않는 시작 숨겨진 흐름보다 먼저 종료하면 이 비활성 숨겨진 흐름이 다시 관여하게 됩니다. 이러한 비활성 마커가 사용자 지정 흐름을 방해하는 경우 또는 숨겨진 플로우를 만들고 결과에 만족하면 모든 비활성 마커를 지울 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → 설정 → 사용자 지정 레이아웃 기능 → 비활성 표시된 페이지 지우기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Clear inactive marked pages</div>
 
 <br>
     <p><b>숨겨진 섹션과 진행률 표시줄</b></p>
@@ -1622,7 +1624,7 @@ hr {
 
 <!-- ANCHOR BOOKMARKS, HIGHLIGHTING AND NOTES -->
 
-    <div class="L1-Chapter-heading" id="bookmarks">책갈피와 강조 표시, 메모</div>
+    <div class="L1-Chapter-heading" id="bookmarks">BOOKMARKS, HIGHLIGHTING AND NOTES</div>
 
     <div class="standard-text">
     KOReader는 실제 책에서 하는 것처럼 책과 상호작용할 수 있는 선택 사항을 제공합니다:
@@ -1636,7 +1638,7 @@ hr {
 
     <p>이 모든 스타일을 서로 다른 색깔의 강조 표시 마커처럼 동시에 사용할 수 있습니다. 또는 이 메뉴를 길게 눌러 좋아하는 스타일을 결정하고 기본값으로 설정할 수도 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 강조 표시 스타일</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
 
     <p><b>메모:</b> 강조 표시에 메모를 추가할 수도 있습니다. 강조 표시를 탭하고 팝업 메뉴에서 <span class="ui">메모 추가</span>를 선택하면 됩니다. 메모가 포함된 강조 표시를 표시하는 <span class="ui">메모 마커</span>를 선택할 수도 있습니다. 세 가지 스타일이 있습니다: <span class="ui">밑줄, 옆줄</span> 그리고 <span class="ui">사이드 마크</span>(아래 그림의 오른쪽에 표시된 연필 아이콘)입니다:</p>
 
@@ -1644,7 +1646,7 @@ hr {
 
     이 기능을 활성화하고 <span class="ui">메모 마커</span> 스타일을 선택하려면 다음으로 이동하세요:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 강조 표시 스타일 → 메모 표시자</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style → Note marker</div>
 
     </div>
 
@@ -1667,17 +1669,17 @@ hr {
     </ol>
     <p>페이지 경계에 도달하면 KOReader가 페이지를 넘겨 <b>(EPUB/HTML 문서에만 해당)</b>가 계속 강조 표시되도록 합니다. 이 기능은 다음에서 비활성화할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 텍스트를 길게 누르기 → 선택 영역이 모서리에 도달하면 자동 스크롤하기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Auto-scroll when selection reaches a corner</div>
 
     </div>
 
     <div class="L3-Smaller-heading">내용 선택과 강조 표시 모드</div>
 
     <div class="standard-text">
-    <div class="info"><span class="icon_blue"></span> 낱말을 길게 누를 때 사전 검색을 활성화한 경우, 이 모드를 시작하려면 손가락을 드래그해야 합니다.
+    <div class="info"><span class="label_blue">INFO</span> If you have dictionary lookup enabled when long pressing a word, you have to drag your finger to initiate this mode.
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 텍스트 길게 누르기 → 한 낱말 선택하여 사전 열기</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Dictionary on single word selection</div>
 
     <img loading="lazy" src="pictures/highlight_menu.png" style="width:500px;">
 
@@ -1690,19 +1692,19 @@ hr {
 
     <p>이 대화 상자는 일반적으로 화면 중앙에 열립니다. 이 대화 상자를 강조 표시 위치에 더 가깝게 열려면 여기에서 가운데 옵션을 제스처 위치(이 메뉴의 두 번째 페이지에 있음)로 변경하면 됩니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ 탭과 제스처 → 텍스트를 길게 누르기 → 강조 표시 대화 상자 위치</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Long-press on text → Highlight dialog position</div>
 
-    <div class="tip"><span class="icon_green"></span> 위에 표시된 메뉴 항목을 길게 누를 필요가 없는 경우 이 모드를 더 빠르게 사용할 수 있는 방법이 있습니다. 팝업 메뉴를 완전히 비활성화하여 단어를 길게 누르면 즉시 선택 및 강조 표시 모드로 들어갈 수 있습니다. 이 방법은 훨씬 빠르며 두 번만 탭하면 어떤 길이의 텍스트도 강조 표시할 수 있습니다. 이 방법을 사용하려면 이 옵션을 활성화하세요:
+    <div class="tip"><span class="label_green">TIP</span> There is a <b>faster</b> method for this mode if you don’t need <b>long-press menu items</b> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 텍스트 길게 누르기 → 내용 선택과 강조 표시</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Select and highlight</div>
 
-    <div class="tip"><span class="icon_green"></span> KOReader는 다양한 스타일로 구절을 강조 표시할 수 있습니다. 밝게 옵션을 사용하면 텍스트 배경이 회색으로 바뀝니다. 전자 잉크의 제한으로 인해 화면이 흰색에서 회색으로 바로 바뀔 수 없으므로 강조 표시된 부분이 먼저 검은색으로 변한 다음 회색으로 바뀌어야 합니다. 이 깜박임을 방지하려면 강조 표시 스타일로 반전을 선택하면 됩니다. 이 모드에서는 텍스트 배경이 검은색이 되므로 깜박임 없이 설정할 수 있습니다. 이러한 강조 표시 옵션은 다음을 통해 조정할 수 있습니다:
+    <div class="tip"><span class="label_green">TIP</span> KOReader can highlight a passage in different styles. If you use <span class="ui">Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class="ui">Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options via:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 강조 표시 스타일</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
 
-    <div class="tip"><span class="icon_green"></span> 같은 텍스트 섹션에 여러 개의 강조 표시와 메모를 추가할 수 있습니다. 강조 표시와 메모가 겹치는 경우 강조 표시를 탭하면 편집할 강조 표시를 선택할 수 있는 메뉴가 표시됩니다.
+    <div class="tip"><span class="label_green">TIP</span> You can add multiple highlights and notes to the same section of text. If they are overlapping, when you tap on a highlight you will be presented with a menu to choose which highlight you want to edit.
     </div>
     </div>
   
@@ -1721,7 +1723,7 @@ hr {
 
     <img loading="lazy" src="pictures/highlight_edit.png" style="width:500px;">
 
-    <div class="info"><span class="icon_blue"></span> 이 조정은 EPUB와 같은 가변형 문서에서만 작동합니다. PDF에서 강조 표시를 늘리거나 줄이려면 PDF 형식의 제한으로 인해 강조 표시를 삭제하고 다시 강조 표시를 지정해야 합니다.</div>
+    <div class="info"><span class="label_blue">INFO</span> This adjustment works only on reflowable documents like EPUBs. If you want to extend or shrink a highlight on PDFs, you have to delete it and highlight again due to the limitations of the PDF format.</div>
 
     <p><b>메모가 추가되어</b> 이미 강조 표시된 텍스트를 누르면 이 팝업 메뉴가 표시됩니다. <span class="ui">강조 표시 편집</span>을 누르면 강조 표시와 포함된 메모를 모두 편집할 수 있는 위 메뉴가 열립니다:</p>
 
@@ -1735,7 +1737,7 @@ hr {
     
     
 
-    <div class="L2-Sub-heading" id="exportinghighlights">강조 표시 내보내기</div>
+    <div class="L2-Sub-heading" id="exportinghighlights">Exporting your highlights</div>
 
     <div class="standard-text">
     책을 완성한 후 보관이나 처리 목적으로 특정 폴더로 이동할 수 있습니다. <span class="ui">보관함 폴더로 이동</span> 플러그인을 활성화하고 플러그인 설정(<span class="ui">보관함 폴더 설정</span>)에서 대상 디렉터리를 지정합니다. 그러면 다음으로 책을 보관함 폴더로 옮길 수 있습니다:
@@ -1763,11 +1765,11 @@ hr {
         
     <p>다음 중에서 원하는 내보내기 형식을 선택할 수 있습니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 강조 표시 내보내기 → 형식과 서비스 선택</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose formats and services</div>
 
     <p>내보내기 위치를 확인할 수 있으며(원하면 바꿀 수도 있습니다):</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 강조 표시 내보내기 → 내보낼 폴더 선택</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose export folder</div>
     
     <p><span class="ui">온라인 서비스:</span> 네트워크를 통해 이러한 서비스로 내보낼 수도 있습니다:</p>
     <ul>
@@ -1812,29 +1814,29 @@ hr {
         <span class="external">Calibre</span>는 컴퓨터에 설치할 수 있는 외부 프로그램입니다. 코리더 동기화 플러그인을 사용하여 강조 표시를 Calibre 데이터베이스로 가져올 수 있습니다. 언급된 플러그인은 Calibre 응용 프로그램 내에서 설치할 수 있습니다. 프로젝트 페이지에서 다운로드와 지침을 확인하세요:
         <p><a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
     
-        <div class="info"><span class="icon_blue"></span> KOReader에서 문서를 열면 문서와 같은 이름의 디렉터리가 문서 옆에 생성됩니다. 이 디렉터리에는 해당 문서와 관련된 모든 강조 표시와 메모, 사용자 옵션(서식 속성 등)이 포함된 .LUA 파일이 포함됩니다. 이 디렉터리는 수동으로 백업/복원할 수 있습니다.
+        <div class="info"><span class="label_blue">INFO</span> When you open a document in KOReader, it creates a directory alongside the document with same name as the document. This directory contains a .LUA file which includes all the highlights, notes and user options (formatting properties etc.) related to that document. You can manually backup/restore these directories.
         </div>
     </div>
 
 
 <!-- ANCHOR READING PDFS -->
 
-    <div class="L1-Chapter-heading" id="pdfs">PDF 읽기</div>
+    <div class="L1-Chapter-heading" id="pdfs">READING PDFS</div>
 
-    <div class="L2-Sub-heading" id="readingpdfs">작은 화면에서 큰 PDF 읽기</div>
+    <div class="L2-Sub-heading" id="readingpdfs">Reading large PDFs on a small screen</div>
     <div class="standard-text">
     KOReader는 작은 화면의 기기에서 더 큰(일반적으로 A4나 레터) 페이지 크기에 최적화된 PDF/DJVU 문서를 읽을 수 있는 다양한 방법을 제공합니다:
     
     <div class="L3-Smaller-heading">1. <span class="ui">가변형</span>을 활성화할 수 있습니다</div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"> → 가변형</div>
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"> → Reflow</div>
    
     <p>가변형은 문서에서 텍스트 부분을 추출하여(사용 가능한 경우) 단일 단으로 표시하려고 시도합니다. 일반적으로 만족스러운 결과를 얻을 수 있습니다. 길게 탭하여 기본값으로 설정할 수도 있습니다.</p>
   
     
     <div class="L3-Smaller-heading">2. <span class="ui">내용 확대/축소</span>를 활성화할 수 있습니다</div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_content.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img loading="lazy" class="img_inline" src="pictures/bottom_fit_content.svg" style="width:26px;"></div>
         
     <img loading="lazy" src="pictures/bottom_pdf_3.png" style="width:600px;">
 
@@ -1845,7 +1847,7 @@ hr {
  
     <p>이렇게 하면 화면이 넓어져 문서가 편하게 읽을 수 있을 만큼 크게 보입니다.</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
 
 
     <div class="L3-Smaller-heading">4. 문서를 전체 크기로 보고 화면을 스크롤하여 다른 부분을 읽을 수 있습니다</div>
@@ -1853,7 +1855,7 @@ hr {
 
     <p>이 기능은 만화책에 특히 유용합니다. 먼저 이 메뉴 항목에서 <span class="ui">다단 모드</span>를 활성화합니다:</p>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:26px;"></div>
 
     <p>그런 다음 같은 메뉴에서 문서에 적합한 흐름 방향을 선택합니다:</p>
     
@@ -1875,7 +1877,7 @@ hr {
     </div>
 
 
-    <div class="L2-Sub-heading" id="pdfbottom">PDF 관련 하단 메뉴 항목 설명</div>
+    <div class="L2-Sub-heading" id="pdfbottom">Explanations Of Pdf Specific Bottom Menu Items</div>
 
     <img loading="lazy" src="pictures/bottom_pdf_6.png" style="width:400px;">
 
@@ -1900,7 +1902,7 @@ hr {
     <p><span class="ui">자동 바로잡기</span> 기능은 비스듬히 스캔된 PDF 페이지와 같이 문제가 있는 문서의 페이지를 똑바로 교정할 수 있습니다. 이 기능은 <b>PDF, DJVU, CBZ/CBT</b> 문서 및 <b>이미지</b> 파일에서 사용할 수 있습니다. 활성화하려면 KOReader가 보정을 시도할 최대 기울기 각도를 선택합니다. 보정이 되지 않으면 더 큰 각도를 선택해야 할 수도 있습니다. 이 기능을 사용하면 여러 요인에 따라 <b>리더 속도가 느려질 수</b> 있습니다.</p>
     </div>
     
-    <div class="L2-Sub-heading" id="ocr">OCR(광학 문자 인식)</div>
+    <div class="L2-Sub-heading" id="ocr">OCR (Optical Character Recognition)</div>
     <div class="standard-text">
     <b>OCR(광학 문자 인식)</b>은 이미지에서 텍스트를 기계가 읽을 수 있는 형식으로 추출하는 과정입니다. KOReader에서는 일반적으로 스캔한 책 페이지에서 PDF 파일로 텍스트를 추출하는 데 사용됩니다. KOReader는 이 작업을 위해 <span class="external">테서랙트 오픈 소스 OCR 엔진</span>을 사용합니다(<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
     
@@ -1910,15 +1912,15 @@ hr {
         <li>새로 설치된 언어를 koreader/defults.lua 구성 파일(사용 언어가 영어나 중국어가 아닌 경우에만 필요)에 추가</li>
     </ol>
     
-    <div class="info"><span class="icon_blue"></span> 필요한 테세랙트 파일을 설치하기 전까지는 OCR 메뉴의 버튼이 <b>작동하지 않습니다</b>. 이 프로세스에 대한 자세한 내용은 관련 위키 페이지에서 확인할 수 있습니다: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
+    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in the related wiki page: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
     </div>
     </div>
 
-    <div class="L2-Sub-heading" id="panelzoom">패널 줌(만화/코믹)</div>
+    <div class="L2-Sub-heading" id="panelzoom">Panel Zoom (manga/comic)</div>
     <div class="standard-text">
     이 기능을 사용하면 작은 화면에서 만화책을 더 쉽게 읽을 수 있습니다. <b>PDF나 DJVU, CBZ, CBT</b> 문서를 읽는 동안 이 기능을 활성화할 수 있습니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 패널 확대/축소(만화/코믹)</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Panel Zoom (manga/comic)</div>
 
     <p>이 옵션을 활성화하면 KOReader가 화면에서 직사각형 패널의 경계를 찾으려고 시도합니다. 패널을 길게 탭하면 KOReader가 해당 패널을 확대합니다. 짐작할 수 있듯이 이 기능은 패널 경계가 깔끔한 만화에서 가장 잘 작동합니다. 절차는 아래에서 확인할 수 있습니다:</p>
     
@@ -1932,9 +1934,9 @@ hr {
 
 <!-- ANCHOR PREPARING AND TRANSFERRING YOUR DOCUMENTS -->
 
-<div class="L1-Chapter-heading" id="preparing">문서 준비와 전송</div>
+<div class="L1-Chapter-heading" id="preparing">PREPARING AND TRANSFERRING YOUR DOCUMENTS</div>
         
-<div class="L2-Sub-heading" id="transferring">리더로 책 전송하기</div>
+<div class="L2-Sub-heading" id="transferring">Transferring books to your reader</div>
 <div class="standard-text">
 KOReader는 <b>PDF와 EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM, ZIP</b> 파일을 지원합니다.
 
@@ -1949,7 +1951,7 @@ KOReader는 <b>PDF와 EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2
     <li><b>KOReader 안에서 USB 대용량 저장 모드: </b> 이 모드는 KOBO나 일부 CERVANTES 기기에서 사용할 수 있습니다.</li>
     <li><b>클라우드 저장소(<span class="external">Dropbox</span>/FTP/Webdav):</b> 이 기능을 사용하려면 아래 메뉴를 통해 클라우드 저장소 서버의 계정을 추가해야 합니다. 계정을 추가하는 동안 <span class="ui">정보</span> 버튼을 통해 진행 과정이 설명됩니다:
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 클라우드 저장소</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Cloud storage</div>
     </li>
 
     <li><b>SSH/SFTP 접속:</b> KOReader는 컴퓨터에서 접속하여 파일을 전송할 수 있는 <b>SSH 서버</b>처럼 작동할 수 있습니다(코보, 킨들, 세르반테스에서 사용 가능). 운영 체제에서 지원하는 경우 SFTP 애플리케이션(예: <span class="external">Filezilla</span>)를 사용하거나 파일 관리자를 통해 접근할 수 있습니다. 방법은 위키를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
@@ -1967,19 +1969,19 @@ KOReader는 <b>PDF와 EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2
 
 <p>여기에서 이 사용자 지정 책 표지를 제거할 수 있습니다:</p>
 
-<div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 책 정보</div>
+<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
 
 <p>책 정보 페이지에서 <span class="ui">표지 이미지</span> 항목을 길게 누른 다음 <span class="ui">사용자 지정 재설정</span>을 선택합니다.</p>
 
 <p>파일 탐색기에서 파일 이름을 길게 누르면 액세스할 수 있는 <span class="ui">재설정</span> 대화 상자를 사용하여 책 표지를 재설정할 수도 있습니다.</p>
 
 <div class="warning">
-<span class="icon_red"></span> 이 <b>재설정</b> 대화 상자를 사용할 때는 매우 주의해야 하며, <b>사용자 지정 표지 이미지</b> 항목만 선택되어 있는지 확인하지 않으면 실수로 책과 관련된 모든 항목이 초기화될 수 있습니다.
+<span class="label_red">WARNING</span> Be very careful when using this <b>Reset</b> dialog and be sure that only <b>Custom cover image</b> item is checked otherwise you can reset everything related to your book accidentally.
 </div>
 
 </div>
 
-<div class="L2-Sub-heading" id="optimizing">모바일 리더 기기에 맞게 EPUB/PDF 문서 최적화하기</div>
+<div class="L2-Sub-heading" id="optimizing">Optimizing EPUB/PDF documents for your mobile reader device</div>
 
 <div class="standard-text">
 모바일 리더 기기에 맞게 문서를 변환하거나 최적화하는 데 가장 널리 사용되는 응용 프로그램은 <span class="external">Calibre</span>(<b>EPUB, Kindle</b> 위주)와 <span class="external">K2pdfopt</span>(<b>PDF</b> 위주)입니다.
@@ -1993,7 +1995,7 @@ KOReader는 <b>PDF와 EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2
 <p><span class="external">SingleFile</span>은 <b>모질라 파이어폭스</b>와 <b>구글 크롬</b>, <b>마이크로소프트 엣지</b>용 브라우저 확장 프로그램입니다. 이 확장 프로그램을 사용하면 웹 페이지를 모든 리소스(이미지, 스타일시트, 스크립트)가 포함된 단일 .html 파일로 저장할 수 있습니다. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
 </div>
 
-<div class="L2-Sub-heading" id="zipfiles">ZIP 파일 지원</div>
+<div class="L2-Sub-heading" id="zipfiles">ZIP file support</div>
 
 <div class="standard-text">
 KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니다. ZIP 파일에는 html, txt 또는 이미지와 같은 다양한 유형의 문서가 포함될 수 있습니다. ZIP 압축에 있는 파일 유형에 대한 힌트를 제공하면 KOReader가 ZIP 파일을 올바르게 열 수 있습니다. 파일 확장자만 <b>.zip</b>으로 지정하면 KOReader는 이 압축에 이미지가 포함된 것으로 간주하고 <b>CBZ</b> 파일처럼 열려고 시도합니다.
@@ -2015,7 +2017,7 @@ KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니
 </div>
 
 
-<div class="L2-Sub-heading" id="manga">모바일 리더 기기에 맞게 만화 최적화하기</div>
+<div class="L2-Sub-heading" id="manga">Optimizing manga for your mobile reader device</div>
 
 <div class="standard-text">
 전자 잉크 기기로 만화책을 읽는 것을 좋아한다면, 더 나은 경험을 할 수 있는 몇 가지 팁이 있습니다. 만화책이 기기에서 어떻게 보이는지 만족스럽지 않다면, 나만의 만화 파일을 준비하는 것이 가장 좋은 해결책입니다.
@@ -2035,10 +2037,10 @@ KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니
 
 <p>하지만 직접 만든 <b>CBZ</b>를 두 개 이상의 장치에서 사용하거나 나중에 보정할 수 있도록 고해상도를 유지하려는 경우, 가장 좋은 방법은 가장 높은 해상도의 장치에 맞게 <b>CBZ</b>를 제작하는 것입니다. 또는 소스와 일치하는 임의의 "높은" 해상도를 선택해도 됩니다. 물론 소스가 더 낮은 해상도가 아니라면 <b>300 PPI</b> 이상(최대 <b>450</b> 또는 <b>600</b>까지)이 좋습니다. 화면 크기가 <b>8인치, 1500×2000</b>이라면 좋은 목표 해상도입니다. 더 큰 이미지의 경우 장치에서 시도해보고 처리할 수 있는지 확인해야 합니다. 특히 메모리가 부족한 구형 킨들은 <b>3000×4000</b>과 같은 크기에서 어려움을 겪을 수 있습니다. 프로세스를 자동화하는 경우 저품질 버전과 고품질 버전(예: <b>200/400</b> 또는 <b>300/600</b> DPI)을 모두 만드는 것도 고려해 볼 수 있습니다.</p>
 
-<div class="info"><span class="icon_blue"></span> KOReader는 책의 <b>spine page-progression-direction="rtl"</b> 속성을 구문 분석하지 않습니다. 따라서 파일이 오른쪽에서 왼쪽으로(rtl) 읽도록 작성되었더라도 페이지 넘김 방향이 변경되지 않습니다. 사용자는 다음을 통해 이를 전환할 수 있습니다:
+<div class="info"><span class="label_blue">INFO</span> KOReader doesn't parse <b>spine page-progression-direction="rtl"</b> attribute of the books. So it doesn’t change page turning direction even though the file was created with right-to-left reading. Users can switch this via:
 </div>
 
-<div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 페이지 넘기기 → 탭과 스와이프/버튼의 페이지 넘기기 반대로</div>
+<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Page turns → Invert page turn tap and swipes / buttons</div>
 
 </div>
 
@@ -2065,7 +2067,7 @@ KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니
 </div>
 
 
-<div class="L3-Smaller-heading">부드러운 그라데이션을 위한 추가 단계 <span class="warning"><span class="icon_red"></span> 고급</span></div>
+<div class="L3-Smaller-heading">Extra step for smooth gradients <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
 
 <div class="standard-text">
 <span class="external">KCC</span>를 사용하여 <b>CBZ</b> 파일을 만든 후, 이미지에 추가 <b>디더링</b>을 적용할 수 있습니다. 이렇게 하면 전자잉크에 렌더링된 그라데이션이 들쭉날쭉한 레이어 없이 매끄럽게 디더링됩니다. 이 단계는 KOReader에서 더 잘 보이는 미세 조정된 만화 볼륨을 생성합니다.
@@ -2077,7 +2079,7 @@ KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니
     <li>두 개의 <b>배치 파일(.BAT)</b>과 GIF 색상 템플릿이 포함된 다음 파일(<b>dither_pack.zip<b>)을 다운로드합니다: <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></b></b></li>
     <li>처리할 이미지 옆에 있는 다음 세 개의 파일을 추출하세요</li>
     <li><b>magick_manga_ditherN_resize.bat</b>를 편집하여 해상도를 기기 해상도로 변경하세요(<b>BAT</b> 파일 위치 모두에서).
-    <p class="warning"><span class="icon_red"></span> 다음 단계에서는 디렉토리에 있는 모든 이미지를 처리된 이미지로 바꿉니다. 따라서 원본을 보관하려면 다른 디렉토리에 사본을 만들어 두어야 합니다.</p>
+    <p class="warning"><span class="label_red">WARNING</span> Next step will replace all the images in the directory with the processed ones. So make sure that you have a copy of them in some other directory if you want to keep the originals.</p>
     </li>
     <li><b>_magick_manga_ditherN_resize.bat</b>를 실행하여 이미지의 크기를 조정하고 디더링하세요.</li>
     <li><b>7-Zip</b>이 설치되어 있다고 가정하고, _batch_archive.bat을 실행하여 처리된 모든 이미지를 CBZ 압축으로 압축하세요.</li>
@@ -2085,7 +2087,7 @@ KOReader는 <b>ZIP</b> 파일로 저장/압축된 파일을 읽을 수 있습니
 
 </div>
 
-<div class="L3-Smaller-heading">정통 일본 만화를 위한 페이지 넘김 방향을 반대로 바꾸기 <span class="warning"><span class="icon_red"></span> 고급</span></div>
+<div class="L3-Smaller-heading">Reversing the page turn direction for authentic Japanese manga <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
 
 <div class="standard-text">
 KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여 스와이프와 탭 영역이 서로 바뀌도록 할 수 있습니다. 이 기능을 사용하려면 이 파일에 다음 줄을 추가하세요 → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
@@ -2115,12 +2117,12 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <!-- ANCHOR GESTURES AND KEYBOARD SHORTCUTS -->
 
-    <div class="L1-Chapter-heading" id="gestures">제스처와 키보드 단축키</div>
+    <div class="L1-Chapter-heading" id="gestures">GESTURES AND KEYBOARD SHORTCUTS</div>
 
     <div class="standard-text">
     KOReader를 제어하는 데 사용할 수 있는 제스처에는 여러 가지 유형이 있습니다. 일부 제스처는 화면에서 사용할 수 있는 위치 및 지원되는 방향과 관련하여 제한이 있습니다. 이러한 제한 사항은 아래에 나와 있습니다.
 
-    <div class="info"><span class="icon_blue"></span> 일부 기기는 한 번의 터치만 지원합니다. 따라서 이러한 기기에서는 여러 손가락 제스처를 <b>사용할 수 없습니다</b>.</div>
+    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch. So multi-finger gestures <b>are not available</b> on them.</div>
 
     </div>
 
@@ -2131,7 +2133,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
         <p class="ui">탭 / 두번 탭</p>
         <p><b>한</b> 손가락으로 한 번 또는 두 번 탭하기</p>
-        <p><b>작업:</b> 화면의 모든 위치에서</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
         </div>
     
         <hr>
@@ -2140,7 +2142,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;">
         <p class="ui">탭하고 길게 누르기</p>
         <p><b>한</b> 손가락으로 한 번 탭하고 길게 누르기</p>
-        <p><b>작업:</b> 네 모서리에서만</p>
+        <p><b>WORKS:</b> Only on four corners</p>
         </div>
             
         <hr>
@@ -2149,7 +2151,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;">
         <p class="ui">두 손가락 탭</p>
         <p><b>두</b> 손가락으로 동시에 한 번 탭하기</p>
-        <p><b>작업:</b> 네 모서리에서만</p>
+        <p><b>WORKS:</b> Only on four corners</p>
         </div>
         
     <hr>
@@ -2158,8 +2160,8 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;">
         <p class="ui">펼치기와 오므리기</p>
         <p>휴대폰, 태블릿 등에서 확대/축소할 때와 동일한 제스처입니다.</p>
-        <p><b>작업:</b> 화면의 모든 위치에서</p>
-        <div class="info"><span class="icon_blue"></span> 이 제스처는 기기에 따라 안정적으로 작동하지 않을 수 있습니다. 이 경우 다른 제스처 유형을 선택하세요.</div>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div>
         </div>
         
     </div>
@@ -2167,7 +2169,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;">
-        <p class="ui">한 손가락 스와이프</p>
+        <p class="ui">ONE FINGER SWIPE</p>
         <p><b>한</b> 손가락으로 스와이프 동작</p>
         <p><b>작동:</b> 화면 가장자리(가로보기와 세로보기) 모서리(대각선)를 제외한 모든 곳 </p>
         </div>
@@ -2178,16 +2180,16 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;">
         <p class="ui">두 손가락 스와이프</p>
         <p><b>두</b> 손가락을 동시에 스와이프하는 동작</p>
-        <p><b>작업:</b> 화면의 모든 위치에서</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;">
-        <p class="ui">다중 스와이프</p>
+        <p class="ui">MULTISWIPE</p>
         <p>손가락을 떼지 않고 두 번 이상 연속으로 스와이프합니다. 예를 들어 문자 <b>U</b>(아래-오른쪽-위로)를 그리는 것과 같습니다</p>
-        <p><b>작업:</b> 화면의 모든 위치에서</p>
+        <p><b>WORKS:</b> Anywhere on the screen</p>
 
         <hr>
         <br><br>
@@ -2199,12 +2201,12 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     </div>
 
     
-    <div class="L2-Sub-heading" id="predefinedgestures">미리 정의된 제스처</div>
+    <div class="L2-Sub-heading" id="predefinedgestures">Predefined Gestures</div>
     <div class="standard-text">
     이 표는 KOReader를 처음 설치할 때 사용할 수 있는 제스처를 보여줍니다. 다음을 통해 기본 설정에 따라 이러한 제스처를 변경할 수 있습니다:
     </div>
 
-    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 제스처 관리자</div>
+    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Gesture Manager</div>
 
 
     <div class="double-container">
@@ -2228,7 +2230,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         </div>
     
     
-        <div class="L3-Smaller-heading">한 손가락 스와이프</div>
+        <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
         <div class="standard-text">
         <ul>
             <li><b>짧은 대각선 스와이프</b> &gt; 전체 화면 새로 고침</li>
@@ -2239,7 +2241,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     </div>
 
     <div>
-        <div class="L3-Smaller-heading">다중 스와이프</div>
+        <div class="L3-Smaller-heading">MULTISWIPE</div>
         <div class="standard-text">
         <ul>
             <li><b>← →</b> - 이전 위치로 돌아가기</li>
@@ -2264,7 +2266,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     </div>
 
 
-    <div class="L2-Sub-heading" id="gesturecategories">제스처 분류</div>
+    <div class="L2-Sub-heading" id="gesturecategories">Gesture Categories</div>
     <div class="standard-text">
         다음은 <span class="ui">제스처 관리자</span> 메뉴를 사용하여 제스처에 할당할 수 있는 모든 동작의 목록입니다. 브라우저의 검색 기능(일반적으로 <b>Ctrl+F</b>)을 사용하여 여기에서 동작을 검색할 수 있습니다. 이러한 동작은 나의 <span class="ui">빠른 메뉴</span>에서도 사용할 수 있습니다. 자세한 내용은 가이드의 관련 섹션을 참조하세요.
     </div>
@@ -2282,11 +2284,11 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>내력</li>
                 <li>내력 검색</li>
                 <li>즐겨찾기</li>
-                <li>파일 탐색기</li>
+                <li>File browser</li>
                 <li>사전 조회</li>
                 <li>위키피디아 조회</li>
                 <li>메뉴 보기</li>
-                <li>메뉴 검색</li>
+                <li>Menu search</li>
                 <li>화면갈무리</li>
                 <li>SSH 서버 토글</li>
                 <li>천문력 보기</li>
@@ -2302,7 +2304,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>화면보호기 끝내기</li>
                 <li>USB 저장 장치 시작</li>
                 <li>일시 중단</li>
-                <li>KOReader 재시작</li>
+                <li>Restart KOReader</li>
                 <li>기기 재시동</li>
                 <li>전원 끄기</li>
                 <li>KOReader 끝내기</li>
@@ -2365,7 +2367,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>글꼴 크기 설정</li>
                 <li>낱말 간격</li>
                 <li>낱말 확장</li>
-                <li>명암</li>
+                <li>Contrast</li>
                 <li>글꼴 두께</li>
                 <li>글꼴 힌팅</li>
                 <li>글꼴 커닝</li>
@@ -2377,7 +2379,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>보기 모드(페이지 연속)</li>
                 <li>렌더링 모드</li>
                 <li>확대</li>
-                <li>줄 간격</li>
+                <li>Line spacing</li>
                 <li>대체 상태 표시줄</li>
                 <li>내장된 스타일</li>
                 <li>내장된 글꼴</li>
@@ -2392,7 +2394,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <!--2. column-->
 
 
-    <div class="L3-Smaller-heading">파일 탐색기</div>
+    <div class="L3-Smaller-heading">File browser</div>
 
     <div class="standard-text">
         <ul>
@@ -2400,10 +2402,10 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
             <li>추가 메뉴 보기</li>
             <li>선택 모드 토글</li>
             <li>콘텐트 새로 고침</li>
-            <li>폴더 바로가기</li>
+            <li>Folder shortcuts</li>
             <li>파일 검색</li>
-            <li>페이지로 이동</li>
-            <li>뒤로</li>
+            <li>Go to page</li>
+            <li>Back</li>
         </ul>
     </div>
 
@@ -2419,14 +2421,14 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>첫 페이지</li>
                 <li>끝 페이지</li>
                 <li>페이지 넘기기</li>
-                <li>페이지로 이동</li>
+                <li>Go to page</li>
                 <li>문서 훑어보기</li>
                 <li>이전 책갈피</li>
                 <li>다음 책갈피</li>
                 <li>첫번째 책갈피</li>
                 <li>마지막 책갈피</li>
                 <li>최근 책갈피</li>
-                <li>뒤로</li>
+                <li>Back</li>
                 <li>이전 위치로 이동</li>
                 <li>다음 위치로 이동</li>
                 <li>가장 가까운 링크 따라가기</li>
@@ -2479,13 +2481,13 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
                 <li>보기 모드</li>
                 <li>페이지 간격</li>
                 <li>진행률 표시줄</li>
-                <li>줄 간격</li>
+                <li>Line spacing</li>
                 <li>정렬</li>
                 <li>글꼴 크기(설정)</li>
                 <li>글꼴 크기(증/감)</li>
                 <li>낱말 간격</li>
                 <li>가변형</li>
-                <li>명암</li>
+                <li>Contrast</li>
                 <li>디워터마크</li>
                 <li>디더링 켜기/끄기</li>
                 <li>렌더링 품질</li>
@@ -2503,7 +2505,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     </div>
 
 
-    <div class="L2-Sub-heading" id="keyboardshortcuts">키보드 단축키</div>
+    <div class="L2-Sub-heading" id="keyboardshortcuts">Keyboard Shortcuts</div>
     <div class="standard-text">
     데스크톱 Linux 버전의 KOReader를 사용하는 경우, 키보드 단축키를 사용하여 사용자 인터페이스를 탐색할 수 있습니다. 키보드 단축키는 <b>킨들 3, 킨들 DX, 안드로이드, 안드로이드 TV</b>와 같이, 키보드가 있는 비-터치 기기에서도 사용할 수 있습니다.
     </div>
@@ -2513,7 +2515,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <div>
         <div class="L3-Smaller-heading">파일 탐색기 모드</div>
         <ul>
-            <li>상단 메뉴 열기 - <b>F1</b></li>
+            <li>Open top menu - <b>F1</b></li>
             <li>홈으로 탐색 - <b>홈</b></li>
             <li>파일 목록 탐색 - <b>위/아래</b></li>
             <li>선택한 책 열기 - <b>엔터</b></li>
@@ -2524,7 +2526,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="L3-Smaller-heading">읽기 모드</div>
         <ul>
             <li>선택한 페이지 링크 열기 / 하단 메뉴 열기 - <b>엔터</b></li>
-            <li>상단 메뉴 열기 - <b>F1</b></li>
+            <li>Open top menu - <b>F1</b></li>
             <li>응용 프로그램 뒤로가기/끝내기 - <b>Esc</b></li>
             <li>책갈피 보기- <b>B</b></li>
             <li>차례 메뉴 보기 - <b>T</b></li>
@@ -2541,7 +2543,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         </ul>
 
 
-        <div class="L3-Smaller-heading">글꼴</div>
+        <div class="L3-Smaller-heading">Fonts</div>
         (PDF와 DJVU, 이미지에는 사용할 수 <b>없음</b>.)
             <ul>
                 <li>글꼴 메뉴 보기 - <b>F</b></li>
@@ -2624,10 +2626,10 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <!-- ANCHOR QUICK MENU AND PROFILES -->
 
-    <div class="L1-Chapter-heading" id="qmandprofiles">빠른 메뉴와 프로필</div>
+    <div class="L1-Chapter-heading" id="qmandprofiles">QUICK MENU AND PROFILES</div>
 
 
-    <div class="L2-Sub-heading" id="quickmenu">빠른 메뉴</div>
+    <div class="L2-Sub-heading" id="quickmenu">Quick Menu</div>
     <div class="standard-text">
         <span class="ui">빠른 메뉴</span>는 빠르게 접근할 수 있는 개인화된 메뉴를 제공하는 KOReader의 최신 기능입니다. 이 메뉴를 제스처에 할당하고 한 번 스와이프하여 접근할 수 있습니다. 오른쪽에서 메뉴 예시를 볼 수 있습니다. 화면보다 긴 메뉴를 만들 수도 있고, 스크롤이 가능합니다.
 
@@ -2652,7 +2654,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="standard-text">
             <ol>
                 <li>다음을 통해 <span class="ui">제스처 관리자</span> 메뉴로 이동합니다:
-                    <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 제스처 관리자</div></li>
+                    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture Manager</div></li>
                 <li>메뉴를 여는 제스처를 결정하고 탭합니다.</li>
                 <li>제스처 구성 메뉴에서 메뉴에 표시할 동작을 선택합니다. 물론 한 번에 여러 동작을 선택할 수도 있습니다.</li>
                 <li>모든 동작을 선택한 후, 이 제스처를 메뉴로 취급하도록 KOReader에 지시합니다. <b>아래 그림에서</b> 볼 수 있듯이 두 번째 페이지에서 <span class="ui">빠른 메뉴로 보기</span> 항목을 활성화하면 됩니다.</li>
@@ -2666,7 +2668,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="L3-Smaller-heading">고급 방법</div>
         <div class="standard-text">
 
-            <div class="info"><span class="icon_blue"></span> 위에서 설명했듯이 <span class="ui">빠른 메뉴</span>를 두 개 이상 추가할 계획이 없다면 이 섹션이 필요하지 않습니다.
+            <div class="info"><span class="label_blue">INFO</span> As we said above, if you are not planning to add more than one <span class="ui">Quick Menu</span> you don’t need this section.
             </div>
 
         <p><span class="ui">빠른 메뉴</span>는 실제로 화면에 메뉴로 표시되는 <span class="ui">프로필</span>입니다. 따라서 먼저 <span class="ui">프로필</span>에 대해 배워야 합니다. <span class="ui">프로필</span> 사용법을 이미 알고 있다면 계속 읽어도 되지만, 그렇지 않다면 <span class="ui">프로필</span> 표제(다음 섹션)로 이동하여 몇 가지 항목으로 <span class="ui">프로필</span>을 만든 다음 여기로 돌아와도 됩니다.</p>
@@ -2703,11 +2705,11 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
         <p><b>제스처 관리자 기반(쉬운 방법)</b> 빠른 메뉴가 있는 경우 다음 메뉴에서 이 옵션을 활성화할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ 탭과 제스처 → 제스처 관리자 → “빠른 메뉴 제스처” → 빠른 메뉴 계속 열어두기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Gesture Manager → “Your Quick Menu gesture” → Keep Quick Menu open</div>
 
         <p>또는 이 메뉴에서 <b>프로필 기반 - (고급 방법)</b> 빠른 메뉴가 있는 경우:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;">→ 프로필 → “빠른 메뉴 프로필” → 작업 편집 → 빠른 메뉴 열어두기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;">→ Profiles → “Your Quick Menu profile” → Edit actions → Keep Quick Menu open</div>
         </div>
 
         <div class="L3-Smaller-heading">제스처 위치에서 빠른 메뉴 열기</div>
@@ -2715,15 +2717,15 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="standard-text">
         일반적으로 빠른 메뉴는 화면 중앙에 열립니다. 한 손으로 e-리더를 사용하는 경우 제스처 위치에 메뉴가 열리도록 설정을 활성화할 수 있습니다. 이렇게 하면 메뉴가 손가락에 더 가깝고 쉽게 접근할 수 있습니다. 이 기능을 사용하려면 이 옵션을 활성화합니다:
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ 탭과 제스처 → 제스처 관리자 → “빠른 메뉴 제스처” → 빠른 메뉴를 제스처 위치에 고정하기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Gesture Manager → “Your Quick Menu gesture” → Anchor Quick Menu to gesture position</div>
 
-        <div class="info"><span class="icon_blue"></span> 이 기능은 제스처 관리자(위의 쉬운 방법)를 통해 만든 빠른 메뉴에서만 사용할 수 있습니다.
+        <div class="info"><span class="label_blue">INFO</span> This is available only in a Quick Menu which is created via Gesture Manager (Easy method above).
         </div>
 
         </div>
 
 
-        <div class="L2-Sub-heading" id="profiles">프로필</div>
+        <div class="L2-Sub-heading" id="profiles">Profiles</div>
         <div class="standard-text">
         프로필은 기본적으로 한 번의 탭으로(매크로처럼) 트리거(실행)할 수 있는 작업의 모음입니다.
         <p>예를 들어, 어떤 유형의 책을 읽을 때 항상 다음과 같은 상황을 상상해 보세요:</p>
@@ -2735,16 +2737,16 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         
         <p>프로필 플러그인을 사용하면, 한 번 작업으로 이 모든 일을 한 번에 수행할 수 있습니다.</p>
         
-        <div class="info"><span class="icon_blue"></span> 다른 프로필을 활성화하면 첫 번째 프로필에서 변경한 내용은 <b>되돌릴 수 없습니다</b>. 예를 들어 글꼴 크기를 <b>20</b>에서 <b>24</b>로 설정하는 프로필을 활성화합니다. 그런 다음 <b>전면 조명</b>을 조정하는 다른 프로필을 활성화합니다. 두 번째 프로필을 활성화한 후에도 글꼴 크기는 <b>24로 유지</b>됩니다. KOReader의 프로필에는 끝내기나 되돌리기 동작이 없기 때문입니다.
+        <div class="info"><span class="label_blue">INFO</span> When you activate another profile, changes made in the first profile <b>will not be reversed</b>. For example, you activate a profile which sets your font size from <b>20</b> to <b>24</b>. Then you activate another profile that adjusts your <b>frontlight</b>. Your font size <b>stays at 24</b> after activating the second profile. Because profiles in KOReader doesn’t have an exit or reverse action.
         </div>
 
         <p>프로필을 만들려면 먼저 <span class="ui">프로필</span> 플러그인이 활성화되어 있는지 확인하세요. 아래에 표시되지 않는 경우:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 프로필</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Profiles</div>
         
         <p>그러면 다음에서 켜야 합니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 플러그인 관리</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
         
         </div>
 
@@ -2768,13 +2770,13 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
             <li>동일한 <span class="UI">프로필</span> 메뉴에서 이름을 <b>길게 눌러</b> 프로필을 활성화할 수 있습니다</li>
             <li>제스처를 사용하여 프로필을 활성화할 수 있습니다. 이를 위해서는 프로필 메뉴에서 <span class="ui">작업 목록에서 보기</span>를 활성화해야 합니다. 이제 다음을 통해 선택할 수 있습니다:
 
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 제스처 관리자 → "어떤 제스처" → 일반 → "내 프로필 이름" 프로필</div>
+            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Profile “Your profile name”</div>
             </li>
             <li>프로필 메뉴에서 <span class="ui">자동 시작</span>을 활성화하면 KOReader가 시작될 때 프로필을 자동으로 활성화할 수도 있습니다. 이 기능은 KOReader가 <span class="ui">파일 탐색기</span>나 <span class="ui">최근 파일</span>로 시작될 때만 가능합니다.</li>
         </ol>
         </div>
         
-        <div class="L3-Smaller-heading">프로필과 빠른 메뉴의 기술적 세부 사항<span class="warning"><span class="icon_red"></span> 고급</span></div>
+        <div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu<span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
     
 
         <div class="standard-text">
@@ -2796,8 +2798,8 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <!-- ANCHOR PLUGINS AND USER PATCHES -->
 
-        <div class="L1-Chapter-heading" id="plugins">플러그인과 사용자 패치</div>
-        <div class="L2-Sub-heading" id="plugintypes">플러그인 유형</div>
+        <div class="L1-Chapter-heading" id="plugins">PLUGINS AND USER PATCHES</div>
+        <div class="L2-Sub-heading" id="plugintypes">Plugin types</div>
         <div class="standard-text">
         플러그인은 KOReader의 기능을 확장하는 작은 프로그램입니다. 브라우저 애드온과 비슷하다고 생각하시면 됩니다. KOReader에는 3가지 범주의 플러그인이 있습니다:
         </div>
@@ -2814,16 +2816,16 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     
         <p>다음에서 활성화/비활성화할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 플러그인 관리</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
 
         </div>
 
-        <div class="L3-Smaller-heading">기여 <span class="warning"><span class="icon_red"></span> 고급</span></div>
+        <div class="L3-Smaller-heading">Contrib <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
         <div class="standard-text">
         이 그룹에는 KOReader의 핵심 로직에 속하지 않는 비공식 플러그인이 포함되어 있습니다.
         <ul>
-            <li>플러그인을 <b>수동으로</b> 설치한 다음 플러그인 메뉴에서 활성화해야 합니다.</li>
-            <li><b>수동으로</b> 업데이트해야 합니다.</li>
+            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
+            <li>They should be updated <b>manually</b>.</li>
             <li>이러한 파일은 저장소에 추가되는 시점에 개발자가 확인하므로 안전한 것으로 간주됩니다.</li>
         </ul>
     
@@ -2832,12 +2834,12 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         </p>
         </div>
         
-        <div class="L3-Smaller-heading">외부의 <span class="warning"><span class="icon_red"></span> 고급</span></div>
+        <div class="L3-Smaller-heading">External <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
         <div class="standard-text">
         KOReader 팀에서 독립적으로 개발한 플러그인입니다.
         <ul>
-            <li>플러그인을 <b>수동으로</b> 설치한 다음 플러그인 메뉴에서 활성화해야 합니다.</li>
-            <li><b>수동으로</b> 업데이트해야 합니다.</li>
+            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
+            <li>They should be updated <b>manually</b>.</li>
             <li>개발자가 확인하지 <b>않았으므로</b> 사용할 때 위험이 따를 수 있다는 점에 유의하세요.</li>
         </ul>
                 
@@ -2852,7 +2854,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
         </div>
 
-        <div class="L2-Sub-heading" id="pluginslist">내부 플러그인 목록</div>
+        <div class="L2-Sub-heading" id="pluginslist">List of internal plugins</div>
         <div class="standard-text">
         <p>	<b> 자동 전면 조명 </b> - 주변 조도에 따라 전면 조명을 자동으로 토글합니다(Kindle Voyage와 Oasis에서만 사용 가능)	</p>
         <p>	<b> 자동 색 온도와 야간 모드 </b> - 자연광(노란색/주황색) 조명이 있는 기기에서 전면 조명 색 온도를 조정하고 일정에 따라 자동으로 야간 모드를 설정할 수 있습니다	</p>
@@ -2881,7 +2883,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <p>	<b> 읽기 통계 </b> - 챕터/책 남은 시간 예측에 사용할 읽기 세션 통계와 읽기 속도를 계산하세요	</p>
         <p>	<b> SSH </b> - SSH 프로토콜을 통해 기기에 접근할 수 있습니다. FTP 응용 프로그램이나 파일 관리자가 지원하는 경우 파일 관리자를 통해서도 접근할 수 있습니다. 방법은 위키 페이지에서 확인하세요: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a>	</p>
         <p>	<b> 시스템 통계 </b> - 아래에서 이 플러그인을 통해 CPU/램/배터리 정보를 확인할 수 있습니다:</p>
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 도움말 → 시스템 통계</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → System statistics</div>
         <p>	<b> 터미널 에뮬레이터 </b> - 내 기기에서 전체 터미널 앱을 실행할 수 있는 셸(명령 프롬프트)을 시작합니다	</p>
         <p>	<b> 텍스트 편집기 </b> - 일반 텍스트 파일을 만들고 편집할 수 있는 기본 텍스트 편집기입니다	</p>
         <p>	<b> 시간 동기화 </b> - 기기의 시간을 NTP 서버와 동기화합니다	</p>
@@ -2889,7 +2891,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <p>	<b> Wallabag </b> - Wallabag 서버에서 최신 기사를 개별 EPUB 파일로 다운로드합니다. 자세한 내용은 위키 페이지를 참조하세요: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a>	</p>
         </div>
 
-        <div class="L2-Sub-heading" id="userpatches">사용자 패치<span class="warning"><span class="icon_red"></span> 고급</span></div>
+        <div class="L2-Sub-heading" id="userpatches">User patches<span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
 
         <div class="standard-text">
         사용자 패치는 <b>Lua</b> 언어로 작성된 작은 파일입니다. 사용자 패치는 설치를 영구적으로 수정하지 않고도 KOReader의 기능을 변경할 수 있습니다. 개발자나 다른 사용자가 작성할 수도 있고, 사용자가 직접 작성할 수도 있습니다(KOReader 내부에 대한 광범위한 지식이 있는 경우).
@@ -2908,7 +2910,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <ol>
             <li>내 기기의 <span class="ui">koreader 디렉터리</span> 아래에 <span class="ui"> patches </span>라는 이름의 디렉터리를 만듭니다(안드로이드는 이 폴더가 SD Card 안에 있습니다)</li>
             <li>이 <span class="ui">patches</span> 디렉터리에 확장자가 <b>.lua</b>인 패치 파일을 다운로드하여 넣습니다</li>
-            <li>KOReader 재시작</li>
+            <li>Restart KOReader</li>
         </ol>
 
         
@@ -2935,23 +2937,23 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <!-- ANCHOR TIPS -->
 
-    <div class="L1-Chapter-heading" id="tips">팁</div>
+    <div class="L1-Chapter-heading" id="tips">TIPS</div>
         
     <div class="standard-text">
         <div class="L3-Smaller-heading">KOReader 업데이트하기</div>
         <p>KOReader는 Wi-Fi를 통해 자체 업데이트할 수 있습니다. 이 메뉴 항목으로 검사를 진행할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 업데이트 → 업데이트 확인</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Update → Check for update</div>
         
         <div class="L3-Smaller-heading">자동 빛조절</div>
         <p>KOReader는 기기를 잠시 사용하지 않을 때 배터리를 절약하기 위해 전면 조명을 어둡게 할 수 있습니다. 이 기능은 다음에서 켜고 조정할 수 있습니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 자동 빛조절</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Automatic dimmer</div>
         
         <div class="L3-Smaller-heading">페이지의 줄/낱말 수</div>
         <p>현재 페이지에 표시되는 줄이나 낱말 수를 알고 싶으면 다음에서 확인할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 책 정보</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
 
 
         <div class="L3-Smaller-heading"> KOReader에 비밀번호 잠금을 추가하는 방법?</div>
@@ -2960,10 +2962,10 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     
         <ol>
             <li>원하는 제스처(사용자 지정 다중 스와이프가 있는 복잡한 제스처 포함)를 선택하고 다음에서 <b>"잠금 해제"</b> 제스처로 설정하세요:
-                <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 제스처 관리자 → "선택한 제스처" → 기기 → 화면보호기 끝냄</div>
+                <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → "your selected gesture" → Device → Exit screensaver</div>
             </li>
             <li>그런 다음 이 옵션을 활성화하세요:
-                <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 화면 → 화면보호기 → 설정 → 깨어난 후에도 화면에 화면보호기 유지하기 → '화면보호기 끝냄' 제스처까지</div>
+                <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings → Keep the screensaver on screen after wakeup → Until 'Exit screensaver' gesture</div>
             </li>
         
         </ol>
@@ -2972,7 +2974,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="L3-Smaller-heading">문서 간에 빠른 전환</div>
         <p>두 문서 사이를 전환해야 하는 경우(예를 들어 두 문서를 비교할 때) <span class="ui">파일 탐색기</span>를 사용하는 것보다 더 빠른 방법이 있습니다. KOReader는 제스처(<b>←→← 다중 스와이프</b>)로 마지막 문서를 열 수 있습니다. 제스처의 동작을 <span class="ui">이전 문서 열기</span>로 정의하면, 데스크톱 컴퓨터의 <b>Alt+Tab</b> 기능처럼 두 문서 사이를 빠르게 전환할 수 있습니다. 이 기능은 아래에서 찾을 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 제스처 관리자 → "아무 제스처" → 일반 → 이전 문서 열기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Open Previous Document</div>
 
         <p>또한 <span class="ui">내력</span> 대화 상자를 사용하여 문서 사이를 빠르게 전환할 수 있습니다. 내력 화면은 <b>→↑</b> 다중 스와이프 제스처로 열 수 있습니다. 물론 여기에 다른 제스처를 정의할 수도 있습니다.</p>
         
@@ -2980,7 +2982,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <p><span class="ui">기본 줄 간격</span>이나 <span class="ui">기본 대비</span>와 같은 문서 기본값을 조정하면, 이 새 값은 변경 후 새로 여는 문서에만 사용됩니다. 이미 열려 있는 책은 동일하게 보입니다. 예를 들어 기본 <span class="ui">글꼴</span>을 변경한 경우, <span class="ui">글꼴 굵기</span>와 <span class="ui">줄 간격</span>을 이 새 글꼴에 더 적합한 값으로 조정할 수 있습니다. 그런 다음 열려 있는 모든 책에 이러한 변경 사항을 적용하고 싶을 것입니다. 이 기능을 사용하면 열려 있는 모든 책에서 이러한 값을 수동으로 변경할 필요가 없습니다.</p>
         <p>이미 열어둔 책에 이러한 변경 사항을 쉽게 적용할 수 있습니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 문서 설정을 기본값으로 재설정</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Reset document settings to default</div>
 
         <p>이 옵션을 탭하면 현재 책이 설정한 최신 기본값으로 재설정됩니다. 책의 모양만 변경되므로 걱정하지 마세요. 읽은 위치, 강조 표시, 메모, 책갈피는 그대로 유지됩니다.</p>
         
@@ -2988,12 +2990,12 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <p><span class="ui">줄 간격</span>, <span class="ui">글꼴 대비</span> 등을 변경하는 것과 같이 원하는 대로 책을 조정할 때 모든 변경 사항을 한 번에 <span class="ui">기본값</span>으로 저장할 수 있습니다. 그런 다음 위에서 설명한 대로 <span class="ui">문서 설정을 기본값으로 재설정</span> 옵션을 사용해 다른 책에 이러한 설정을 적용할 수 있습니다.</p>
         <p>다음을 선택하여 변경 사항을 <span class="ui">기본값</span>으로 저장할 수 있습니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 문서 설정을 기본값으로 저장</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Save document settings as default</div>
         
         <div class="L3-Smaller-heading">실수로 링크를 열지 않기</div>
         <p>문서에 링크가 있는데 페이지를 넘기거나 다른 제스처를 사용하는 동안 실수로 링크를 탭한 경우, 이 메뉴 항목을 통해 <span class="ui">탭하여 링크 따라가기</span> 기능을 끌 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 링크 → 탭하여 링크 열기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Links → Tap to follow links</div>
 
         <p>이 설정을 비활성화한 후에 링크를 따라가려면, 링크를 길게 탭하고 팝업 메뉴에서 <span class="ui">링크 따라가기</span>를 선택해야 합니다. 반대의 문제가 발생하여 링크를 더 쉽게 탭하려면, 같은 메뉴에서 <span class="ui">링크 주위에 더 큰 탭 영역 허용</span>을 활성화하면 됩니다.</p>
         
@@ -3004,46 +3006,46 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
         <p>KOReader는 충전 수준이 정의된 한도에 다다르면 경고를 표시하게 할 수 있습니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 기기 상태 알림 → 배터리 잔량</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device Status Alerts → Battery Level</div>
         
 
         <div class="L3-Smaller-heading">메모리 사용량 지켜보기</div>
         <p>구형 Kindle 기기에서 일부 사용자가 메모리 제한으로 인한 충돌을 보고했습니다. 한 세션에서 많은 파일을 열면 코리더 메모리 사용량이 증가할 수 있습니다. 특히 PDF는 이 양을 증가시킵니다. <span class="ui">상태 표시줄</span>에 메모리 표시자를 추가하고 이 값이 높아지면 KOReader를 다시 시작하여 충돌이나 재시동을 방지할 수 있습니다.</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 상태 표시줄 → KOReader 메모리 사용량</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → KOReader memory usage</div>
 
         <p>또한 다음에서 메모리 사용량이 지정값에 다다르면 자동으로 KOReader가 재시작되게 구성할 수 있습니다:</p>
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 기기 → 기기 상태 알림</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Device Status Alerts</div>
         
         
         <div class="L3-Smaller-heading">배터리 소모 세부정보 확인하기</div>
         <p>이 메뉴 항목에서 자세한 배터리 사용량 통계를 확인할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 배터리 통계</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More Tools → Battery Statistics</div>
         
         <div class="L3-Smaller-heading">자세한 기기 통계 확인하기</div>
         <p>이 메뉴 항목에서 <b>CPU/디스크 공간/램</b> 사용량과 같은 시스템 정보를 확인할 수 있습니다:</p>
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 도움말 → 시스템 통계</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → System statistics</div>
 
     
         <div class="L3-Smaller-heading">책 표지 바꾸기</div>
         <p>이 메뉴에서 책 표지를 바꿀 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 책 정보 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 표지 이미지 설정</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Set cover image</div>
         
         
         <div class="L3-Smaller-heading">자정 이후 읽기 통계</div>
         <p>읽기 통계에서 계산에 사용되는 날짜의 시작을 변경할 수 있습니다. 예를 들어 자정 이후에 책을 읽다가 독서 세션이 다음 날이 아닌 오늘로 계산되기를 원하는 경우에 유용합니다. 이 기능은 <span class="ui">일일 타임라인 보기</span>와 선택적으로 <span class="ui">달력 보기</span>에만 적용되며, 다른 통계 보고서에는 적용되지 않습니다. 이 시간은 다음에서 설정할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 읽기 통계 → 설정 → 일일 타임라인이 시작되는 시간은...</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Reading statistics → Settings → Daily timeline starts at...</div>
         
     </div>
 
 
 <!-- ANCHOR TROUBLESHOOTING -->
 
-    <div class="L1-Chapter-heading" id="troubleshooting">문제 해결</div>
+    <div class="L1-Chapter-heading" id="troubleshooting">TROUBLESHOOTING</div>
     <div class="standard-text">
     
 
@@ -3058,7 +3060,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <li>PDF 파일에는 이미지와 텍스트 상자가 많은 잡지 페이지와 같이 정확한 위치 지정이 필요한 <b>개별 요소가 많이 있을</b> 수 있습니다. 이 경우 KOReader는 이러한 모든 요소를 계산하고 그려야 하므로 시간이 오래 걸릴 수 있습니다.</li>
         <li>페이지 기울기를 조정할 수 있는 <span class="ui">자동 수평 맞춤</span> 기능도 리더의 속도를 저하시킬 수 있습니다.</li>
         <li><span class="ui">가변형</span>이 <b>켜져 </b>있는 상태에서 <span class="ui">렌더링 품질</span>을 <span class="ui">높음</span>으로 설정하면 텍스트가 더 보기 좋게 표시되지만 문서에 따라 <span class="ui">기본값</span>보다 훨씬 느려질 수 있습니다(페이지 전환당 최대 몇 초).
-            <div class="menu-breadcrumbs"><span class="icon_green"> </span> 하단 메뉴 → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"> → 렌더링 품질</div>
+            <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"> → Render Quality</div>
         </li>
     </ul>
 
@@ -3068,7 +3070,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <ul>
         <li>EPUB 파일은 기본적으로 텍스트와 이미지로 구성되며, 이러한 항목이 화면에 표시되는 서식을 결정하는 몇 가지 규칙이 있습니다. 이상적인 조건에서는 이 과정이 매우 간단하기 때문에 일반적으로 KOReader에서 EPUB 파일을 빠르게 처리할 수 있습니다. <b>그러나 일부 EPUB 책에는 많은 서식 규칙이 추가되어 있어 한 문장을 표시하기 위해 KOReader가 많은 계산을 수행해야 합니다.</b> 이로 인해 책을 열고 페이지를 넘기거나 글꼴 무게 또는 줄 간격과 같은 모양 속성을 변경하는 속도가 느려집니다.
 
-        <div class="info"><span class="icon_blue"></span> KOReader는 <b>고정형 EPUB</b>을 지원하지 않습니다. 열리기는 하지만 리플로우 가능한 EPUB로 렌더링되어 보기에 좋지 않거나 가독성이 떨어질 수 있습니다.</div>
+        <div class="info"><span class="label_blue">INFO</span> KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will render as reflowable EPUBs and probably won't look nice or readable.</div>
         </li>
 
         <li>EPUB 파일은 HTML 파일이 포함된 ZIP 아카이브입니다. 일부 책은 단일 HTML 파일일 수도 있고 책의 각 장이 별도의 HTML 파일인 것처럼 여러 개의 HTML 파일로 구성될 수도 있습니다. <b>책이 단일 HTML 파일인 경우 부분 렌더링이 작동하지 않습니다.</b> 따라서 모양이 변경될 때마다 현재 챕터만 계산하는 것이 아니라 전체 책을 계산해야 하므로 챕터가 분할된 책보다 느려집니다.</li>
@@ -3102,7 +3104,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         
         <li>위의 문제 섹션에서 언급한 <b>“표로 둘러싸인 콘텐츠”</b>에 문제가 있는 경우 이 <span class="ui">table, tr, td { display:block; }</span> 책별로 스타일 조정을 추가할 수 있습니다:
         
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 스타일 조정 → 책별로 조정</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style tweaks → Book-specific tweak</div>
         </li>
 
         <li><span class="external">Calibre</span>의 전자책 편집기는 EPUB 파일에 문제가 있는지 확인할 수 있으며 일부 문제를 해결할 수 있는 도구가 있습니다.
@@ -3137,7 +3139,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <div class="L3-Smaller-heading">가끔 나의 탭이 긴 탭이나 두 번 탭으로 등록되는 경우가 있습니다</div>
         <p>이것은 악수나 기기 터치 스크린 문제와 같은 경우에 발생할 수 있습니다. 이 문제가 발생하면 <span class="ui">탭 간격</span>을 늘릴 수 있습니다. 이 간격을 늘리면 KOReader가 같은 위치에서 빠른 탭을 무시하게 됩니다.</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 탭과 제스처 → 제스처 간격 → 탭 간격</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture intervals → Tap interval</div>
 
         <p>두 번 연속으로 탭하는 간격이 일정 거리 이상 떨어져 있으면, 이 기능이 적용되지 않습니다. 따라서 두 손가락을 번갈아 가며 빠르게 탭하여 페이지를 빠르게 탐색할 수 있습니다.</p>
         
@@ -3150,12 +3152,12 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <div class="L3-Smaller-heading">잠자기 덮개 문제</div>
         <p>잠자기 덮개는 일반적으로 덮개에 내장된 자석으로 기기의 센서를 거쳐서 깨우기나 잠자기 이벤트를 활성화합니다. 자석이 잘못 맞춰져 있거나 약한 자석과 같은 경우에는 이 트리거(진행)에 문제를 일으킬 수 있습니다. 덮개로 기기를 깨우는 데 문제가 있는 경우, 이 메뉴에서 이 기능을 비활성화할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 기기 → 모든 잠자기 덮개 이벤트 무시</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Ignore all sleep cover events</div>
         
     <div class="L3-Smaller-heading">본문 들여쓰기 문제</div>
         <p>제목, 표제나 구분 기호 또는 예상치 못한 본문 들여쓰기가 발생하면, 문서의 스타일을 <span class="ui">epub.css</span>에서 <span class="ui">html5.css</span>로 전환해 보세요. 일부 출판사는 <b>웹 브라우저 엔진 기반</b> 리더에서만 책을 읽을 것이라고 가정하고 스타일을 "재설정"하지 않기 때문에 이런 종류의 문제가 발생합니다.</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> → 스타일</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> → Style</div>
 
 
         <ul>
@@ -3168,15 +3170,15 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
     <div class="L3-Smaller-heading">책 표지 캐시 데이터베이스 정리하기</div>
         <p>KOReader는 책 표지를 더 빠르게 표시할 수 있도록 책 표지의 캐시를 보관합니다. 정상적인 상태에서는 이 캐시가 너무 커지지 않습니다. 많은 책을 제거하거나 디렉토리의 이름을 변경하는 경우, 책 표지 캐시 데이터베이스를 정리하여 공간을 확보할 수 있습니다. 이 메뉴에서 정리할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → 설정 → 모자이크와 상세 목록 설정 → 책 정보 캐시 관리</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Settings → Mosaic and detailed list settings → Book info cache management</div>
 
 
     <div class="L3-Smaller-heading">파일 캐시 지우기</div>
         <p><b>PDF/DJVU</b> 문서를 읽을 때, KOReader는 마지막으로 읽은 페이지의 캐시를 유지합니다. 따라서 책을 다시 열면 더 빠르게 읽을 수 있습니다. 그러나 오랫동안 KOReader를 사용하면서 많은 PDF/DJVU 문서를 읽으면 이 캐시가 커질 수 있습니다. 이러한 캐시 파일은 KOReader 설치 디렉토리의 <b>캐시 폴더</b> 아래에 보관됩니다. 이 캐시를 지우고 공간을 확보하려면 해당 폴더로 이동하세요:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 (파일 탐색기에서) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 추가 도구 → 개발자 옵션 → 캐시 지우기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU (in file browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Developer options → Clear caches</div>
         
-        <div class="warning"><span class="icon_red"></span> <b>이 공간이 꼭 필요한 경우에만</b> 이 캐시를 지우세요. 공간이 충분한 경우 캐시를 지워도 아무런 이점이 없습니다. 대신 리더가 해당 페이지를 다시 렌더링해야 하므로 성능이 저하될 수 있습니다.</div>
+        <div class="warning"><span class="label_red">WARNING</span> Clear this cache <b>only if you really need this space</b>. If you have enough space, clearing the cache will not provide any benefit. Instead, it will degrade the performance because your reader will have to render those pages again.</div>
         
         
     <div class="L3-Smaller-heading">KOReader 설정 백업하기</div>
@@ -3203,7 +3205,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
             </div>
         </div>
         
-        <div class="info"><span class="icon_blue"></span> 개별 책 설정과 강조 표시는 책과 같은 디렉터리에 <b>책과 같은 이름</b>의 폴더에 보관됩니다. 원하는 경우 이 폴더를 별도로 백업할 수 있습니다.</div>
+        <div class="info"><span class="label_blue">INFO</span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the <b>same name as your book</b>. You can backup these folders separately if you wish.</div>
 
 
         </div>
@@ -3211,7 +3213,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <!-- ANCHOR HOW TO REACH US ABOUT PROBLEMS OR SUGGESTIONS -->
 
-    <div class="L1-Chapter-heading" id="reachus">문제나 제안에 대해 문의하는 방법</div>
+    <div class="L1-Chapter-heading" id="reachus">HOW TO REACH US ABOUT PROBLEMS OR SUGGESTIONS</div>
 
         <div class="standard-text">
         KOReader는 <span class="external">GitHub</span>를 프로젝트 기반으로 사용합니다. 문제나 제안 사항은 GitHub 페이지에서 보고할 수 있습니다. 무료 GitHub 계정만 있으면 됩니다. <b>이슈</b> 페이지를 열려면 이 링크를 클릭하세요: <a href="https://github.com/koreader/koreader/issues">https://github.com/koreader/koreader/issues</a>
@@ -3228,7 +3230,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         
         <p>버그를 신고하는 경우 <b>자세한 디버그 로그</b>는 문제를 파악하는 데 매우 유용합니다. 다음을 통해 활성화할 수 있습니다:</p>
 
-        <div class="menu-breadcrumbs"><span class="icon_green"> </span> 상단 메뉴 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 도움말 → 버그 신고 → 상세 로그 사용 설정하기</div>
+        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → Report a bug → Enable verbose logging</div>
 
         <p>보고를 위한 동일한 대화 상자에서 KOReader의 버전 번호와 기기 유형을 찾을 수도 있습니다.</p>
 
@@ -3238,16 +3240,16 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
         <div class="L2-Sub-heading">또한 다음을 수행할 수 있습니다. . . .</div>
         <div class="standard-text" style="text-align: center;">
         
-            <img class="img_inline" src="pictures/logo_mobileread.png" style="width:140px;">
+            <img loading="lazy" class="img_inline" src="pictures/logo_mobileread.png" style="width:140px;">
             <p><span class="external">모바일리더 포럼</span>에서 다른 KOReader 사용자를 찾아보세요: <a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">https://www.mobileread.com/forums/forumdisplay.php?f=276</a></p>
 
 <hr>
 
-            <img class="img_inline" src="pictures/logo_gitter.png" style="width:100px;">
+            <img loading="lazy" class="img_inline" src="pictures/logo_gitter.png" style="width:100px;">
             <p><span class="external">Gitter</span> 채팅으로 문의하세요: <a href="https://gitter.im/koreader/koreader">https://gitter.im/koreader/koreader</a></p>
 <hr>
 
-            <img class="img_inline" src="pictures/logo_liberapay.gif" style="width:80px;">
+            <img loading="lazy" class="img_inline" src="pictures/logo_liberapay.gif" style="width:80px;">
             <p><span class="external">Liberapay</span>를 통해 프로젝트를 후원해 주세요: <a href="https://liberapay.com/KOReader">https://liberapay.com/KOReader</a></p>
         
         </div>
@@ -3267,7 +3269,7 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 
 <div class="standard-text">
 
-<div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> →  →  →  →  →</div>
+<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> →  →  →  →  →</div>
 
 <img loading="lazy" src="pictures/" style="width:600px;">
 <img class="img_inline" src="pictures/" style="width:26px;">
@@ -3278,9 +3280,9 @@ KOReader가 페이지를 <b>왼쪽에서 오른쪽</b>으로 넘기도록 하여
 <a href=""></a>
 
 <div class=warning>
-    <span class="icon_red"></span> info
-    <span class="icon_red"></span> warning
-    <span class="icon_red"></span> tip
+    <span class="label_red">WARNING</span> warning
+    <span class="label_green">TIP</span> info
+    <span class="label_blue">INFO</span> tip
 
 <div class="double-container">
     <div></div>
