@@ -1021,9 +1021,9 @@ hr {
     <span class="ui">РАЗМАК ИЗМЕЂУ РЕЧИ и ЕКСПАНЗИЈА РЕЧИ:</span> ова два подешавања су у вези једно са другим и она одређују како ће ваш текст да изгледа када се обострано поравна. Када укључите обострано поравнање текста, између речи се додаје размак тако да се обе ивице сваке линије поравнају са левом и десном маргином. Пошто број речи у линијама није исти све време, при обостраном поравнању је потребно да се текст сабије или развуче тако да се испуни простор линије.
     <p><span class="ui">РАЗМАК ИЗМЕЂУ РЕЧИ:</span> колико карактери <b>РАЗМАКА</b> у линији могу да се сабију тако да стане више речи. Ово подешавање не утиче на речи, оно мења само размак између њих.</p>
     <p>
-    <span class="ui">WORD EXPANSION:</span> If you have too much white space in a line, how much of that can be distributed into the words by expanding them. This setting affects the appearance of words. If you don’t want your words to expand, set this to <span class="ui">NONE</span>.</p>
+    <span class="ui">ЕКСПАНЗИЈА РЕЧИ:</span> ако у линији имате превише празног простора, колики део може да се распореди у речи тако што се рашире. Ово подешавање утиче на изгед речи. Ако не желите ширење речи, поставите ову опцију на <span class="ui">НИШТА</span>.</p>
     
-    <p>You can experiment with different settings until the text looks pleasing to you, then set them as defaults via their respective dialogs.</p>
+    <p>Можете да експериментишете са различитим подешавањима све док вам текст не изгледа лепо, па да их затим у њиховим одговарајућим дијалозима поставите као подразумевана.</p>
     </div>
     
     <hr>
@@ -1031,26 +1031,26 @@ hr {
     <img loading="lazy" src="pictures/bottom_menu_5.png" style="width:500px;">
 
     <div class="standard-text">
-    <span class="ui">CONTRAST</span> and <span class="ui">FONT WEIGHT</span> are two options that you can use to make your text bolder (or lighter). You can achieve the same appearance with either of these options but they use different methods to achieve it. Of course you can use them both at the same time. The differences between them can be summarized as:
+    <span class="ui">КОНТРАСТ</span> и <span class="ui">ТЕЖИНА ФОНТА</span> су две опције које можете употребити да текст учините дебљим (или тањим). Исти изглед можете да добијете било којом од ове две опције, али оне користе различите методе за постизање резултата. Можете, наравно, обе да употребите истовремено. Разлике између њих се своде на:
     <div class="double-container">
         <div>
-            <span class="ui">CONTRAST</span>
-            <p><b>+</b> Doesn’t change font width, book length stays the same</p>
-            <p><b>+</b> Doesn’t need to re-render document, faster</p>
-            <p><b>-</b> Might look bad on LCD or low DPI screens</p>
+            <span class="ui">КОНТРАСТ</span>
+            <p><b>+</b> Не мења ширину фонта, дужина књиге остаје иста</p>
+            <p><b>+</b> Нема потребе да се документ поново исцрта, брже је</p>
+            <p><b>-</b> Може лоше да изгледа на LCD или на екранима са малом DPI</p>
         </div>
         <div>
-            <span class="ui">FONT WEIGHT</span>
-            <p><b>+</b> Will use proper weighted fonts if you have them installed</p>
-            <p><b>+</b> Looks better on LCD or low DPI screens</p>
-            <p><b>-</b> Has to re-render fonts, slower</p>
+            <span class="ui">ТЕЖИНА ФОНТА</span>
+            <p><b>+</b> Ако су инсталирани, употребиће се фонтови одговарајуће тежине</p>
+            <p><b>+</b> Боље изгледа на LCD или на екранима са малом DPI</p>
+            <p><b>-</b> Потребно је да се фонтови поново исцртају, спорије је</p>
         </div>
     </div>
 
 
-    <p><span class="ui">FONT HINTING</span> adjusts your text for maximum readability according to your screen’s pixel grid. <span class="ui">NATIVE</span> uses font’s internal hinting instructions, <span class="ui">AUTO</span> uses FreeType’s hinting algorithm. <span class="ui">AUTO</span> is a safer choice because font files that you installed may have problematic hinting instructions. Also <span class="ui">AUTO</span> handles <b>CJK</b> text better. You can try different settings to see which one looks better on your device.</p>
+    <p><span class="ui">ХИНТОВАЊЕ ФОНТА</span> подешава текст тако да се добије најбоља читљивост на мрежи пиксела вашег екрана. <span class="ui">УГРАЂЕНО У ФОНТ</span> користи интерне инструкције за хинтовање у фонту, <span class="ui">АУТОМАТСКО</span> користи алгоритам за хинтовање библиотеке FreeType. <span class="ui">АУТОМАТСКО</span> је сигурнији избор јер инсталирани фајлови фонта могу да имају проблематичне инструкције за хинтовање. Исто тако, <span class="ui">АУТОМАТСКО</span> боље обрађује <b>CJK</b> (кинески, јапански, корејски) текст. Пробајте различита подешавања да видите које боље изгледа на вашем уређају.</p>
     
-    <p><span class="ui">FONT KERNING</span> adjusts the spacing between letters to achieve a visually pleasing result. Default is <span class="ui">BEST</span>, which might be <b>slower</b> when opening files (depending on your device) but <b>has better support for ligatures</b> (see picture below for an example), joined <b>Arabic</b> glyphs and some other scripts. If your device is slow, you can try <span class="ui">GOOD</span> which is faster and may still look correct with western latin-script text.</p>
+    <p><span class="ui">КЕРНИНГ ФОНТА</span> подешава размак између слова, тако да се добије визуелно лепши резултат. Подразумевана вредност је <span class="ui">НАЈБОЉИ</span>, и то може да буде <b>спорије</b> када се отварају фајлови (у зависности од вашег уређаја) али <b>има бољу подршку за лигатуре</b> (за пример, погледајте слику испод), спојене <b>арапске</b> словне ликове и нека остала писма. Ако је ваш уређај спор, покушајте <span class="ui">ДОБАР</span> јер ради брже, а још увек може коректно да изгледа у случају текстова писаних западним латиницама.</p>
     </div>
     
     <img loading="lazy" src="pictures/kerning_ligatures.png" style="width:300px;">
@@ -1060,133 +1060,133 @@ hr {
     <img loading="lazy" src="pictures/bottom_menu_6.png" style="width:500px;">
 
     <div class="standard-text">
-    <span class="ui">ALT STATUS BAR</span> enables an alternative status bar which is available only in reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). After enabling it here, you can configure <span class="ui">ALT STATUS BAR</span> via:
+    <span class="ui">АЛТЕРНАТИВНА СТАТУСНА ЛИНИЈА</span> укључује алтернативну статусну линију која је доступна само за типове докумената који могу да се пресложе (EPUB, HTML, DOCX, RTF, TXT…). Када се овде укључи, <span class="ui">АЛТЕРНАТИВНУ СТАТУСНУ ЛИНИЈУ</span> можете да подесите из:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Alt status bar</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Статусна линија → Алтернативна статусна линија</div>
     
     <div class="standard-text">
-    <span class="ui">EMBEDDED STYLE</span> and <span class="ui">EMBEDDED FONTS</span> determine if publisher’s styles and fonts embedded in the document will be used (or ignored) to render the document. These are general on/off switches. You can achieve more fine tuned tweaks for your document via:
+    <span class="ui">УГРАЂЕНИ СТИЛ</span> и <span class="ui">УГРАЂЕНИ ФОНТОВИ</span> одређују да ли ће се користити (или игнорисати) стилови издавача и фонтови уграђени у документ. Ово су општи прекидачи укључено/искључено. Финија дотеривања докумената можете да извршите из:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Дотеривања стила</div>
 
     <div class="standard-text">
-    <span class="ui">IMAGE SCALING</span> determines how images in your document are rendered. <span class="ui">BEST</span> looks more pleasing but it is slower.
+    <span class="ui">СКАЛИРАЊЕ СЛИКЕ</span> одређује како се исцртавају слике у документу. <span class="ui">НАЈБОЉЕ</span> исгледа лепше, али је спорије.
     </div>
 
 
 
-    <div class="L3-Smaller-heading">Saving your text appearance settings for later use</div>
+    <div class="L3-Smaller-heading">Чување изгледа текста за касније коришћење</div>
     <div class="standard-text">
-    This powerful feature allows you to save all the <span class="ui">BOTTOM MENU</span> settings + font type as a <b>profile</b>. This means you can have different group of settings for different conditions or book types which you can apply at once instead of changing the settings manually every time. For example you can create a:
+    Ова моћна функционалност вам омогућава да сачувате сва подешавања у <span class="ui">МЕИЈУ НА ДНУ</span> + тип фонта као <b>профил</b>. Ово значи да можете имати посебну групу подешавања за различите услове или типове књига коју можете одједном да примените, а не да подешавања сваки пут ручно постављате. На пример, можете да креирате:
     <ul>
-        <li><b>Double column</b> profile with <span class="ui">two columns</span> of small sized text, <span class="ui">landscape orientation</span> and minimum <span class="ui">margins</span></li>
-        <li><b>Night reading</b> profile with <span class="ui">bigger sans serif font</span> and higher <span class="ui">contrast</span> for more visible text under low light</li>
-        <li><b>Disabled styles</b> profile with <span class="ui">embedded style</span> and <span class="ui">embedded fonts</span> disabled for badly structured books</li>
+        <li>Профил <b>Две колоне</b> са <span class="ui">две колоне</span> текста мале величине, <span class="ui">положену оријентацију</span> и минималне <span class="ui">маргине</span></li>
+        <li>Профил <b>Ноћно читање</b> са <span class="ui">већим линеарним фонтом</span> и већим <span class="ui">контрастом</span> чиме се добија читљивији текст у условима слабог светла</li>
+        <li>Профил <b>Искључени стилови</b> са искљученим <span class="ui">уграђени стил</span> и <span class="ui">уграђени фонтови</span> у случају лоше структурираних књига</li>
     </ul>
-    After adjusting your settings to your liking, you can create a profile from them via:
+    Када поставите подешавања по жељи, профил заснован на њима можете да креирате из:
     </div>
     
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Profiles → New with current document settings</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Профили → Нови са текућим подешавањима документа</div>
 
     <div class="standard-text">
-    After creating a profile with your settings, you have many options for applying it to another book:
+    Када креирате профил са својим подешавањима, имате многе опције за примењивање профила на другу књигу:
         <ul>
-        <li>You can apply the profile from the <span class="ui">Profiles menu</span></li>
-        <li>You can assign a gesture to it</li>
-        <li>You can show it in your <span class="ui">Quick Menu</span></li>
+        <li>Профил можете да примените из <span class="ui">менија Профили</span></li>
+        <li>Можете да му доделите гестикулацију</li>
+        <li>Можете да га прикажете у <span class="ui">Брзом менију</span></li>
         </ul>
 
-    <p>Please see the <a href="#gestures">GESTURES, QUICK MENU AND PROFILES</a> chapter for more information.</p>
+    <p>За више информација, молимо вас да погледате поглавље <a href="#gestures">ГЕСТИКУЛАЦИЈЕ, БРЗИ МЕНИ И ПРОФИЛИ</a>.</p>
     </div>
 
 
 <!-- ANCHOR BASIC READING INFO -->
 
     <div class="L1-Chapter-heading" id="basicreading">ИНФО О ОСНОВНОМ ЧИТАЊУ</div>
-    <div class="L3-Smaller-heading">How can I personalize my text ?</div>
+    <div class="L3-Smaller-heading">Како могу да персонализујем текст?</div>
 
     <div class="standard-text">
     <ul>
-    <li><b>You can change the font*</b>:<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font</div></li>
-    <li><b>Make the font bigger</b><div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"></div></li>
-    <li><b>Make the font bolder</b><div class="menu-breadcrumbs"> ⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"></div></li>
-    <li><b>Invert the colors on screen (white on black)</b><div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Night Mode</div></li>
-    <li><b>Change many other formatting options</b><div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style Tweaks</div></li>
+    <li><b>Можете да промените фонт*</b>:<div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Фонт</div></li>
+    <li><b>Повећате величину фонта</b><div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"></div></li>
+    <li><b>Подебљате фонт</b><div class="menu-breadcrumbs"> ⇓ МЕНИ НА ДНУ → <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:26px;"></div></li>
+    <li><b>Инвертујете боје на екрану (бело на црном)</b><div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Ноћни режим</div></li>
+    <li><b>Измените многе друге опције форматирања</b><div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Дотеривања стила</div></li>
     </ul>
 
 
-    <div class="info"><span class="label_blue">INFO</span> *Font selection and style tweaks are available only on reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents like PDF/DJVU are not supported.
+    <div class="info"><span class="label_blue">ИНФО</span> *Избор фонта и дотеривања стила су могући само за документе који могу да се пресложе (EPUB, HTML, DOCX, RTF, TXT…). Документи фиксног распореда, као што су PDF/DJVU то не подржавају.
     </div>
 
-    <p>You can also change other formatting options from the <span class="ui">BOTTOM MENU</span> to fine tune the appearance of your text.</p>
-    <p>You can see your reading statistics via:</p>
+    <p>Остале опције форматирања такође можете да измените и из <span class="ui">МЕНИЈА НА ДНУ</span> и тако фино подесите изглед текста.</p>
+    <p>Статистику о читању можете да видите из:</p>
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Reading Statistics</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Статистика читања</div>
 
     
-    <div class="L3-Smaller-heading">How can I control the backlight / frontlight of my screen ?</div>
+    <div class="L3-Smaller-heading">Како могу да контролишем позадинско / предње светло екрана?</div>
     <div class="standard-text">
-    You can control your screen light via this menu. If you have warm lighting (normal white LEDs+orange ones) you can control them separately from this dialog. You can also define a gesture for this dialog:
+    Осветљење екрана можете да контролишете из овог менија. Ако имате топло осветљење (обичне беле LED диоде + наранџасте), можете одвојено да их контролишете из овог дијалога. За овај дијалог можете да дефинишете и гестикулацију:
     </div>
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Frontlight</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Предње светло</div>
 
-    <div class="L3-Smaller-heading">How can I configure the status bar ?</div>
+    <div class="L3-Smaller-heading">Како могу да конфигуришем статусну линију?</div>
     <div class="standard-text">
-    You can configure bottom status bar from this menu. Feel free to explore the <span class="ui">SETTINGS</span> sub-menu to customize your status bar as you like.
+    Статусну линију можете да подесите из овог менија. Слободно истражите подмени<span class="ui">ПОДЕШАВАЊА</span> и прилагодите статусну линију по вашој жељи.
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Статусна линија</div>
 
-    <p>There are many items you can show on the status bar. But by default, only one is shown at a time and you have to tap on the status bar to cycle between them. If you want to show all items at once, enable this menu item:</p>
+    <p>Постоји много ставки које могу да се прикажу на статусној линији. Али, подразумевано се приказује само једна и морате да тапнете на статусну линију да бисте кружили по осталима. Ако желите да се све ставке приказују истовремено, укључите следећу ставку менија:</p>
     
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Show all at once</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Статусна линија → Подешавања → Прикажи све одједном</div>
 
-    <p>You can sort the items via:</p>
+    <p>Ставке можете да сортирате из:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Settings → Sort items</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Статусна линија → Подешавања → Сортирај ставке</div>
 
-    <p>You can toggle the visibility of the status bar with a gesture or via Quick Menu:</p>
+    <p>Видљивост статусне линије можете да уљкучите/искључите гестикулацијом или из Брзог менија:</p>
 
-    <div class="menu-breadcrumbs">Gesture selection menu → Reader → Toggle status bar</div>
+    <div class="menu-breadcrumbs">Мени за избор гестикулације → Читач → Укљ./Искљ. статусну линију</div>
 
 
-    <p>There is also an <span class="ui">ALT STATUS BAR</span> which is available in reflowable documents (epub, html, docx, rtf, txt…). If you prefer to use this, you can enable via:</p>
+    <p>Постоји и <span class="ui">АЛТЕРНАТИВНА СТАТУСНА ЛИНИЈА</span> која је доступна за документе који могу да се пресложе (epub, html, docx, rtf, txt…). Ако желите да је користите, можете да је укључите из:</p>
  
-    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Alt Status Bar</div>
+    <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Алтернативна статусна линија</div>
 
     <br>
 
-    <p><b>Using "Custom Text" item for status bar alignment</b></p>
-    <p>There is a special status bar item named <span class="ui">Custom text</span>. This item can show your chosen text in the status bar. You can use this feature to create a separator between the status bar items.</p>
+    <p><b>Употреба ставке „Произвољни текст” за поравнање статусне линије</b></p>
+    <p>Постоји специјална ставка статусне линије под називом <span class="ui">Произвољни текст</span>. Ова ставка у статусној линији може да прикаже произвољни текст. Ову функцију можете да употребите за креирање граничника између ставки статусне линије.</p>
     <ul>
-        <li>First enable this option with a short press on it from this menu
+        <li>Најпре је укључите кратким притиском на следеће
 
-            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Status Bar → Custom text: ‘KOReader’</div>
+            <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Статусна линија → Произвољни текст: ’KOReader’</div>
 
         </li>
-        <li>Then long-press on it again to open its settings. Enter a <b>"space"</b> character in the first box and enter the number of repetitions in the second box, which will determine how wide your separator will be.</li>
+        <li>Затим поново извршите дуги притисак на њу да се отворе подешавања. Унесите карактер <b>„размак”</b> у прво поље, па затим унесите број понављања у друго поље, чиме се одређује ширина граничника.</li>
     </ul>
     
-    <p>You can choose another character as a separator. You can also move this item like other status bar items to change its order.</p>
+    <p>Као граничник можете да изаберете и неки други карактер. Ову ставку можете да премештате као и остале ставке, и да тако промените њен редослед.</p>
 
     </div>
 
 
 
-    <div class="L3-Smaller-heading">How can I change the screen displayed while sleeping ?</div>
+    <div class="L3-Smaller-heading">Како могу да променим екран који се приказује када уређај спава?</div>
     <div class="standard-text">
-    You can choose a book cover or a custom image as screensaver via this menu:
+    Из следећег менија, као чувар екрана можете да изаберете омот књиге или произвољну слику:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Екран → Чувар екрана</div>
     
-    <p>You can use JPG/PNG files as screensaver (properly dithered grayscale images look best). Transfer the files from your computer into any folder on your device. And choose this folder as your screensaver folder via this menu:</p>
+    <p>Као чувар екрана можете да користите JPG/PNG фајлове (најбоље изгледају исправно дитероване слике у тоновима сиве). Пренесите фајлове са компјутера у било који фолдер на уређају. Па из следећег менија изаберите тај фолдер као фолдер чувара екрана:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Screensaver → Settings</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Екран → Чувар екрана → Подешавања</div>
 
     <p>
-        Please refer to this forum post for advanced information about screensaver images: <a href="https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17">https://www.mobileread.com/forums/showpost.php?p=3728291&postcount;=17</a>
+        Молимо вас да погледате следећи пост на форуму у вези са напредним информацијама везаним за слике чувара екрана: <a href="https://www.mobileread.com/forums/showpost.php?p=3728291&amp;postcount=17">https://www.mobileread.com/forums/showpost.php?p=3728291&amp;postcount;=17</a>
     </p>
     </div>
 
@@ -1195,42 +1195,42 @@ hr {
     <div class="L2-Sub-heading" id="keyboard">Употреба тастатуре и савети</div>
     <div class="standard-text">
 <ul>
-    <li>Tap outside the input field to close the keyboard, tap the input field to show the keyboard again</li>
-    <li><b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase if you are already in <b>shift</b> mode)</li>
-    <li>You can change the appearance of the keyboard:
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard settings</div></li>
-    <li>You can select more than one layout:
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Keyboard → Keyboard layout</div></li>
-    <li>You can change between your selected layouts by tapping the <img loading="lazy" class="img_inline" src="pictures/keyboard_world.png" style="width:26px;"> icon on the keyboard</li>
+    <li>Тап ван поља за унос затвара тастатуру, тап у поље за унос поново приказује тастатуру</li>
+    <li><b>Превуците навише</b> тастере да унесете то велико слово (или мало ако се већ налазите у <b>шифт</b> режиму)</li>
+    <li>Можете да измените изглед тастатуре:
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Уређај → Тастатура → Подешавања изгледа тастатуре</div></li>
+    <li>Можете да изаберете више од једног распореда:
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Уређај → Тастатура → Распореди тастатуре</div></li>
+    <li>По изабраним распоредима се крећете тако што тапнете на <img loading="lazy" class="img_inline" src="pictures/keyboard_world.png" style="width:26px;"> икону у тастатури</li>
 </ul>
     </div>
 
-    <div class="L3-Smaller-heading">Entering extra characters</div>
+    <div class="L3-Smaller-heading">Унос додатних карактера</div>
 
-    <div class="standard-text">Koreader keyboard allows entering extra characters when you tap and hold a key. Most frequently used extra characters are shown below. You can tap and hold the key in the <b>gray box</b> to get the surrounding characters:
+    <div class="standard-text">Koreader тастатура омогућава унос додатних карактера када тапнете и задржите тастер. Испод су приказани додатни карактери који се најчешће користе. Да бисте добили суседне карактере можете да тапнете и задржите такстер у <b>сивом пољу</b>:
 
     <img loading="lazy" src="pictures/keyboard.png" style="width:800px;">
 
-    <p>In addition to the long-press popup, you can also enter these extra characters by swiping on a key. In the example below, you can swipe up on the <b>a</b> key to enter an <b>uppercase A</b> or swipe other directions to enter the characters shown. Note that the example shown includes the full popup for demonstration. You don’t need to open this popup, you can directly swipe on the keys. Once you get used to the locations of the extra characters, you can enter them much quicker this way.</p>
+    <p>Уз искачући прозор који се добија дугим притиском, ове додатне карактере можете да унесете и превлачењем по тастеру. У примеру испод, можете да превучете навише тастер <b>a</b> када желите да унесете <b>велико А</b>, или да превучете у било ком другом смеру да унесете приказане карактере. Запазите да доњи пример приказује комплетан искачући прозор само да би било јасније објашњење. Нема потребе да отварате овај прозор, можете директно да превлачите по тастерима. Једном када се навикнете на локације додатних карактера, на овај начин ћете бити у стању да их уносите много брже.</p>
 
     <img loading="lazy" src="pictures/keyboard_swipe.png" style="width:400px;">
 
-    If this feature interferes with your usage, you can disable it by unchecking:
+    Ако ова функција прави сметње у начину на који користите програм, можете да је искључите тако што уклоните штиклирање са:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Device → Keyboard → Swipe to input additional characters</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Уређај → Тастатура → Превуците да унесете додатне карактере</div>
 
-    Additionally there are some shortcuts for easier text manipulation. You can tap and hold these keys for the actions:
+    Такође постоје још неке пречице које олакшавају манипулацију текста. Следеће тастере можете да тапнете и задржите и извршите следеће акције:
     <ul>
-        <li><b>Backspace</b> - Deletes all characters from the cursor to the beginning of the line</li>
-        <li><b>Left Arrow</b> - Moves the cursor to the beginning of the line</li>
-        <li><b>Right Arrow</b> - Moves the cursor to the end of the line</li>
+        <li><b>Брисање уназад</b> - брише све карактере од курсора до почетка линије</li>
+        <li><b>Лева стрелица</b> - помера курсор на почетак линије</li>
+        <li><b>Десна стрелица</b> - помера курсора на крај линије</li>
     </ul>
 	
 	
-	<p>For more information you can check the related wiki page:</p>
+	<p>За више информација погледајте одговарајућу вики страницу:</p>
     <p><a href="https://github.com/koreader/koreader/wiki/Virtual-keyboard">https://github.com/koreader/koreader/wiki/Virtual-keyboard</a></p>
 
-    <p>KOReader also integrates the Chinese stroke keyboard for inputting simplified and traditional Chinese characters. You can find more info about it in our wiki:</p>
+    <p>KOReader се такође интегрише са кинеском тастатуром потеза којим се уносе упрошћени и традиционални кинески карактери. Више информација о томе можете да пронађете у нашем викију:</p>
     <p><a href="https://github.com/koreader/koreader/wiki/Chinese-keyboard">https://github.com/koreader/koreader/wiki/Chinese-keyboard</a></p>
     </div>
 
@@ -1239,149 +1239,149 @@ hr {
     <div class="L2-Sub-heading" id="autowarmth">Ауто топлина и ноћни режим</div>
 
     <div class="standard-text">
-    This plugin allows you to adjust frontlight warmth in devices with <b>natural (yellow/orange) light</b> and set <span class="ui">Night Mode</span> (inverted screen colors – <b>white text on black background</b>) automatically according to a schedule. It can control them both or you can choose <span class="ui">only warmth control</span> or <span class="ui">only Night Mode control</span> mode, so you can adjust the other one manually.
-    <p>This plugin comes enabled as default. If it is not in the menu, you can enable it via:</p>
+    Овај додатак вам омогућава да подесите топлину предњег светла на уређајима са <b>природним (жутим/наранџастим) светлом</b> и да подесите <span class="ui">Ноћни режим</span> (инвертоване боје на екрану – <b>бели текст на црној позадини</b>) аутоматски, сагласно са распоредом. Може обе да их контролише, или можете да изаберете режим<span class="ui">само контролу топлине</span> или <span class="ui">само контролу Ноћног режима</span>, па да ону другу контролишете ручно.
+    <p>Овај додатак се испоручује подразумевано укључен. Ако није у менију, можете да га укључите из:</p>
     
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Auto Warmth and Night Mode</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Још алата → Аутоматска топлина и ноћни режим</div>
 
-    <div class="info"><span class="label_blue">INFO</span> If you have a PocketBook device and frontlight or warmth slider is not working in KOReader, please be sure that in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</b> option is set to <b>Disabled</b>.
+    <div class="info"><span class="label_blue">ИНФО</span> Ако имате PocketBook уређај и клизач за предње светло или топлину не функционише у програму KOReader, проверите да ли је опција PocketBook читача (који долази уз уређај) <b>SmartLight-Auto</b> постављена на <b>Disabled</b>.
     </div>
 
 
-    <p>You can adjust the warmth of your screen frontlight automatically in two different ways:</p>
+    <p>Топлину предњег светла екрана можете аутоматски да подесите на два различита начина:</p>
 
-    <p><span class="ui">FIXED SCHEDULE:</span> In this mode your frontlight warmth changes according to the daily schedule you entered. This mode is <b>STATIC</b>, it doesn’t account for daylight length. The schedule stays the same all around the year.</p>
+    <p><span class="ui">ФИКСНИ РАСПОРЕД:</span> у овом режиму се топлина предњег светла мења према дневном распореду који унесете. Овај режим је <b>СТАТИЧКИ</b>, не узима у обзир дужину обданице. Распоред остаје исти током целе године.</p>
 
-    <p><span class="ui">SUN’S POSITION:</span> This option calculates Sun’s position in your location according to <b>COORDINATES</b> and <b>ALTITUDE</b> information you entered. Frontlight warmth is adjusted gradually according to this calculated Sun position data. This mode is <b>DYNAMIC</b>. As the length of daylight changes around the year, plugin adjusts the schedule accordingly.</p>
+    <p><span class="ui">ПОЗИЦИЈА СУНЦА:</span> ова опција израчунава позицију Сунца на вашој локацији сагласно са информацијама о <b>КООРДИНАТАМА</b> и <b>НАДМОРСКОЈ ВИСИНИ</b> које унесете. Топлина предњег светла се постепено мења у сагласности са овим израчунатим подацима о положају Сунца. Овај режим је <b>ДИНАМИЧАН</b>. Пошто се дужина обданице мења током године, додатак аутоматски коригује распоред сагласно са дужином обданице.</p>
 
-    <p>First have a look at this image to familiarize yourself with the terms used in the plugin:</p>
+    <p>Најпре погледајте следећу слику да се упознате са појмовима који се користе у додатку:</p>
     </div>
     
     <img loading="lazy" src="pictures/auto_warmth_explanation.png" style="width:800px;">
 
-    <div class="L3-Smaller-heading">Fixed Schedule Mode</div>
+    <div class="L3-Smaller-heading">Режим фиксног распореда</div>
 
     <div class="standard-text">
 <ol>
-    <li>Go to the plugin menu: <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
-    <li>Tap Activate menu item and then <span class="ui">ACCORDING TO THE FIXED SCHEDULE</span></li>
-    <li>Go back to previous menu and tap <span class="ui">FIXED SCHEDULE SETTINGS</span> menu item</li>
-    <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+    <li>Идите на мени додатка: <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Екран → Аутоматска топлина и ноћни режим</div></li>
+    <li>Тапните на ставку менија Активирај па затим <span class="ui">САГЛАСНО СА ФИКСНИМ РАСПОРЕДОМ</span></li>
+    <li>Вратите се назад на претходни мени и тапните на ставку менија <span class="ui">ПОДЕШАВАЊА ФИКСНОГ РАСПОРЕДА</span></li>
+    <li>Поставите свој распоред времена преласка уносом времена у разне ставке приказане овде. За објашњење ставки, погледајте горњу слику.</li>
 </ol>
     </div>
 
     
-    <div class="L3-Smaller-heading">Sun’s Position Mode</div>
+    <div class="L3-Smaller-heading">Режим позиције Сунца</div>
 
     <div class="standard-text">
         <ol>
-            <li>Go to the plugin menu:
-                <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Screen → Auto Warmth and Night Mode</div></li>
-            <li>Tap <span class="ui">ACTIVATE</span> menu item and then <span class="ui">ACCORDING TO THE SUN’S POSITION</span></li>
-            <li>Go back to previous menu and tap <span class="ui">LOCATION SETTINGS</span> menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> (optional) correctly and give a <b>name</b> to your location.</li>
-            <li>Go back to previous menu and tap <span class="ui">WARMTH AND NIGHT MODE SETTINGS</span> menu item</li>
-            <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+            <li>Идите на мени додатка:
+                <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Екран → Аутоматска топлина и ноћни режим</div></li>
+            <li>Тапните на ставку менија <span class="ui">АКТИВИРАЈ</span> па затим <span class="ui">САГЛАСНО СА ПОЗИЦИЈОМ СУНЦА</span></li>
+            <li>Вратите се на претходни мени и тапните на ставку <span class="ui">ПОДЕШАВАЊА ЛОКАЦИЈЕ</span>. Поставите исправно <b>координате</b> локације (обавезно) и <b>надморску висину</b> (није обавезно) и наведите <b>име</b> своје локације.</li>
+            <li>Вратите се на претходни мени и тапните ставку <span class="ui">ПОДЕШАВАЊА ТОПЛИНЕ И НОЋНОГ РЕЖИМА</span></li>
+            <li>Поставите свој распоред времена преласка уносом времена у разне ставке приказане овде. За објашњење ставки, погледајте горњу слику.</li>
         </ol>
  
-    <p>You can see your current schedule via <span class="ui">CURRENTLY ACTIVE PARAMETERS</span> menu option.</p>
+    <p>Тренутни распоред можете да видите из опције менија <span class="ui">ТРЕНУТНО АКТИВНИ ПАРАМЕТРИ</span>.</p>
     <img loading="lazy" src="pictures/auto_warmth_menu.png" style="width:400px;">
         
     </div>
     
-    <div class="L3-Smaller-heading">Night Mode</div>
+    <div class="L3-Smaller-heading">Ноћни режим</div>
 
     <div class="standard-text">
-    While setting the warm light percentages for different intervals, you can also set that interval to <span class="ui">Night Mode</span>, which inverts the screen colors when that interval starts. If your minimum frontlight is still too bright or if you prefer a dark page background, you can activate this feature. To enable this, in the dialog below, tap the <span class="ui">Night mode</span> checkbox and tap <span class="ui">Set</span>.
-    <p>When you do this, a <b>moon icon</b> will appear in the menu next to this interval. To disable night mode, just disable the <span class="ui">Night mode</span> checkbox in that interval.</p>
+    Док постављате проценат топлог светла за различите интервале, за тај интервал такође можете да укључите и <span class="ui">Ноћни режим</span>, чиме се инвертују боје на екрану када почне тај интервал. Ако је минимално предње светло још увек превише јако, или ако вам више одговара тамна позадина странице, активирајте ову функцију. Да бисте то урадили, тапните на поље за штиклирање <span class="ui">Ноћни режим</span> и тапните <span class="ui">Постави</span>.
+    <p>Када то урадите, у менију ће се поред овог интервала појавити <b>икона месеца</b>. Ако желите да искључите ноћни режим, једноставно уклоните ознаку штиклирања <span class="ui">Ноћни режим</span> у том интервалу.</p>
     </div>
 
     <img loading="lazy" src="pictures/night_mode_checkbox.png" style="width:300px;">
     
-    <div class="L3-Smaller-heading">Frontlight auto on/off</div>
+    <div class="L3-Smaller-heading">Аутоматско укљ./искљ. предњег светла</div>
 
     <div class="standard-text">
-    This feature turns your frontlight on at sunset and turns it off at sunrise according to your <span class="ui">Currently active parameters</span> in this plugin. You can override this change by manually turning your frontlight on/off. On the next sunrise/sunset, <span class="ui">AutoWarmth</span> will toggle it again if it is necessary. You can activate it by selecting <span class="ui">Frontlight off during the day</span> menu item in this plugin.
+    Ова функција укључује предње светло приликом заласка сунца и искључује га приликом изласка сунца сагласно са <span class="ui">Тренутно активним параметрима</span> у додатку. Ово можете да преиначите тако што ручно укључите/искључите предње светло. Приликом наредног изласка/заласка сунца, <span class="ui">AutoWarmth</span> ће поново изменити стање ако је то потребно. Можете да га активирате тако што у менију овог додатка изаберете ставку <span class="ui">ПРедње светло је искључено током дана</span>.
     </div>
 
-    <div class="L3-Smaller-heading">Faster warmth change tip</div>
+    <div class="L3-Smaller-heading">Савет за бржу промену топлине</div>
 
     <div class="standard-text">
-    If you want your frontlight warmth to change quickly instead of a more gradual change:
+    Ако желите да се уместо постепене измене топлина мења брзо:
     <ol>
-        <li>Set the mode to <b>Fixed schedule</b> following the instructions above</li>
-        <li>And adjust the settings similar to the image below:</li>
+        <li>Поставите режим на <b>Фиксни распоред</b> следећи инструкције изнад</li>
+        <li>Па поставите подешавања слично као на слици испод:</li>
     </ol>
 
     <img loading="lazy" src="pictures/night_mode_fast_change.png" style="width:400px;">
 
-    <p>As you can see in these settings above, there is only a one minute difference between day-night transition. So the screen warmth goes from <b>0 to 100 (or reverse) in only one minute</b>. You can increase this time separation to make the transition duration longer.</p>
+    <p>Као што можете видети у горњим подешавањима, разлика у времену преласка између дана и ноћи је само један минут. Тако да топлина екрана иде од <b>0 до 100 (или обратно) за време од само једног минута</b>. Ово време раздвајања преласка можете да повећате и тако продужите транзицију.</p>
     </div>
 
 
     <div class="L2-Sub-heading" id="fonts">Фонтови</div>
 
-    <div class="L3-Smaller-heading">How can I add my own fonts ?</div>
+    <div class="L3-Smaller-heading">Како да додам своје фонтове?</div>
     <div class="standard-text">
-    KOReader supports fonts in most widely used TrueType (.ttf) and OpenType formats (.otf). Font files with these extensions can be directly copied to <span class="ui">/koreader/fonts/</span> folder on your device. Check the wiki for more info:
+    KOReader подржава фонтове у највише коришћеним TrueType (.ttf) и OpenType форматима (.otf). Фонт фајлови са овим екстензијама могу директно да се копирају у <span class="ui">/koreader/fonts/</span> фолдер на уређају. За више информација, погледајте вики:
     <p><a href="https://github.com/koreader/koreader/wiki/Fonts">https://github.com/koreader/koreader/wiki/Fonts</a></p>
     
-    <p>When starting up, KOReader compiles the available fonts from the <b>font metadata/info</b> and classifies them according to family and weights. This means you can add different weights and variants of a font and KOReader will try to use the most suitable one. Since it takes font family information from metadata, font names are not important when copying to your device. Installed fonts will be available after restarting KOReader.</p>
+    <p>Када се покреће, KOReader сакупља доступне фонтове из <b>метаподатака/информација у фонту</b> и класификује их по фамилијама и тежинама. Ово значи да можете додати различите тежине и варијанте фонта и KOReader ће покушати да употреби најпогоднији. Пошто информације о фамилији фонта узима из метаподатака, имена фонтова нису важна када их копирате на уређај. Инсталирани фонтови постају доступни након поновног покретања програма KOReader.</p>
 
-    <p>Here are some example fonts that look good on an e-ink screen. You can find more of them on the <span class="external">Google Fonts</span> website:</p>
-    <p><b>Serif:</b></p>
+    <p>Ево примера неких фонтова који добро изгледају на e-ink екрану. Још њих можете да пронађете на <span class="external">Google Fonts</span> веб сајту:</p>
+    <p><b>Серифни:</b></p>
     <ul>
         <li>Spectral - <a href="https://fonts.google.com/specimen/Spectral">https://fonts.google.com/specimen/Spectral</a></li>
         <li>Vollkorn - <a href="https://fonts.google.com/specimen/Vollkorn">https://fonts.google.com/specimen/Vollkorn</a></li>
     </ul>
         
-    <p><b>Sans Serif:</b></p>
+    <p><b>Линеарни:</b></p>
     <ul>
         <li>Wix Madefor Text - <a href="https://fonts.google.com/specimen/Wix+Madefor+Text">https://fonts.google.com/specimen/Wix+Madefor+Text</a></li>
         <li>Varela Round - <a href="https://fonts.google.com/specimen/Varela+Round">https://fonts.google.com/specimen/Varela+Round</a></li>
     </ul>
 
-    <p><b>Monospace:</b></p>
-    <p>If you are planning to use your own monospace font, probably you already have a favorite one, so we are not offering any examples here. But you can find and compare many monospace fonts at this page: <a href="https://www.programmingfonts.org/">https://www.programmingfonts.org/</a></p>
+    <p><b>Фиксне ширине:</b></p>
+    <p>Ако планирате да користите сопствени фонт фиксне ширине, вероватно већ имате неки омиљени, па тако да овде не нудимо ниједан пример. Али на следећој страници можете да пронађете и упоредите многе фонтове фиксне ширине: <a href="https://www.programmingfonts.org/">https://www.programmingfonts.org/</a></p>
 
     </div>
 
-    <div class="L3-Smaller-heading">Previewing the fonts on your device</div>
+    <div class="L3-Smaller-heading">Пробни приказ фонтова на уређају</div>
     <div class="standard-text">
-    <p>KOReader can generate a document with sample text rendered with all the fonts installed on your device. This allows you to quickly compare the look and features of the fonts like ligatures and character sets in non-Latin scripts like Greek, Hebrew or Chinese. You can access this feature via:</p>
+    <p>KOReader може да генерише документ са текстом за пример који се исписује користећи све фонтове инсталиране на уређају. Ово вам омогућава да брзо упоредите изглед и могућности фонта као што су лигатуре и скупови карактера у писмима различитим од латинице, као што су грчки, хебрејски или кинески. Овој функцији се приступа из:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings → Generate font test document</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Фонт → Подешавања фонта → Генериши документ за тестирање фонта</div>
     </div>
 
-    <div class="L3-Smaller-heading">Monospace font scale</div>
+    <div class="L3-Smaller-heading">Скалирање фонта фиксне ширине</div>
     <div class="standard-text">
     <p>
-        If your book includes parts with <b>Monospace</b> fonts (like in programming books), Monospace font might look disproportional even if they are technically at the same size. This is caused by differing font metrics. If you want to fix this difference, KOReader has an option that allows you to adjust the relative Monospace font size.
+        Ако књига коју читате садржи делове написане у фонтовима <b>фиксне ширине</b> (као што су то књиге о програмирању), фонт фиксне ширине може да изгледа ван пропорције иако је технички исте величине. Разлог за то је различита метрика фонта. Ако желите да поправите ову разлику, KOReader има опцију која вам омогућава да подесите релативну величину фонта фиксне ширине.
     </p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font settings → Monospace fonts scaling</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Фонт → Подешавања фонта → Скалирање фонтова фиксне ширине</div>
 
-    <p>Here you can increase or decrease the size of your Monospace font by adjusting its scaling as a percentage of the default size.</p>
+    <p>Овде можете да повећате или смањите величину свог фонта фиксне ширине тако што поставите скалирање као проценат подразумеване величине.</p>
     </div>
     
-    <div class="L3-Smaller-heading">Using different fonts in one document</div>
+    <div class="L3-Smaller-heading">Употреба различитих фонтова у једном документу</div>
     <div class="standard-text">
-    <p>In HTML/CSS based documents like EPUBs, books can specify to use fonts by family instead of a specific font name. These families can be <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For example in a book, normal text can be shown in <b>Sans-serif</b> while dialogues are shown in <b>Serif</b> font. KOReader normally uses your default font for all these families except <b>Monospace</b> and <b>Math</b> (which is determined by the style of the text nodes, for example <b>'font-family: serif'</b>). If you want these families to look distinct, you can assign specific fonts for them here:</p>
+    <p>У документима који се заснивају на HTML/CSS, као што су EPUB документи, уместо одређеног имена фонта, књиге могу да наведу употребу фамилије фонтова. Ове фамилије могу да буду <b>Серифни, Линеарни, Фиксне ширине, Курзивни, Фантазија, Емођи, Fang Song и Математички</b>. На пример, у некој књизи обични текст може да буде приказан у <b>Линеарном</b> писму, док се дијалози приказују <b>Серифним</b> фонтом. KOReader обично користи ваш подразумевани фонт за све ове фамилији, осим у случају <b>Фиксне ширине</b> и <b>Математички</b> (што се одређује стилом текст чворова, на пример <b>'font-family: serif'</b>). Ако желите да ове фамилије имају особен изглед, овде можете да им доделите одређене фонтове:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Font → Font-family fonts</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Фонт → Font-family фонтови</div>
 
-    <p>To change a family font for the current book just tap on the desired font name. If you want to set this for all your books, long-tap to set it as a <span class="ui">Default (★)</span>. If a book abuses this font family feature to the point where your default font is hardly used, you can disable that family font for this book by unchecking the association.</p>
+    <p>Да бисте променили фонт фамилије за текућу књигу, једноставно тапните на жељено име фонта. Ако тај фонт желите да поставите за све књиге, извршите дугачки тап да га поставите као <span class="ui">Подразумевани (★)</span>. Ако књига злоупотребљава ову функционалност фамилије фонтова до те мере да се ваш подразумевани фонт скоро уопште не користи, можете да искључите ту фамилију фонтова за ову књигу тако што уклоните штиклирање са придруживања.</p>
     </div>
     
     <img loading="lazy" src="pictures/font_family.png" style="width:600px;">
 
 
-    <div class="L3-Smaller-heading">Changing font quickly</div>
+    <div class="L3-Smaller-heading">Брза измена фонта</div>
     <div class="standard-text">
-    If you are switching between fonts frequently (i.e. <b>monospace</b> for programming books and <b>serif</b> for novels) there is a workaround which makes this easier than going into the menu each time. You can create profiles for your fonts and all font related settings like <span class="ui">line spacing, contrast, bold</span> etc. and add these profiles to a <span class="ui">Quick Menu</span>. So with a single gesture you can open your font selection menu and change the font like shown in the image below:
+    Ако често мењате фонтове (нпр. <b>фиксне ширине</b> за књиге из програмирања и<b>серифне</b> за романе) постоји заобилазно решење које спречава потребу да сваки пут одлазите у мени. Можете да креирате профиле за своје фонтове, као и за сва подешавања у вези са фонтовима као што су <span class="ui">проред, контраст, подебљање</span> итд. па да те профиле додате у <span class="ui">Брзи мени</span>. Тако да са једном гестикулацијом можете да отворите мени за избор фонта и да промените фонт као што је то приказано на слици испод:
 
     <img loading="lazy" src="pictures/quickmenu_font_selection.png" style="width:350px;">
 
-    <p>Check the <a href="#qmandprofiles">QUICK MENU AND PROFILES</a> section of this guide to learn how to do this.</p>
+    <p>Погледајте одељак <a href="#qmandprofiles">БРЗИ МЕНИ И ПРОФИЛИ</a> овог упутства да научите како се то ради.</p>
     </div>
 
     
@@ -1390,77 +1390,77 @@ hr {
     <div class="L1-Chapter-heading" id="moving">КРЕТАЊЕ КРОЗ КЊИГУ</div>
 
     <div class="standard-text">
-    There are many different ways of moving through your document in KOReader.
-    <p>You can use the <span class="ui">SKIM WIDGET, BOOK MAP or PAGE BROWSER</span> features.</p>
+    У програму KOReader постоји много различитих начина за кретање кроз документ.
+    <p>Можете да користите функционалности <span class="ui">ВИЏЕТ ЗА ПРЕЛЕТАЊЕ, МАПА КЊИГЕ или ПРЕГЛЕДАЧ СТРАНИЦА</span>.</p>
     
     <div class="L2-Sub-heading" id="skimwidget">Виџет прелета</div>
 
-    <p>You can also open this widget with a long-tap on the <span class="ui">Status Bar</span> in addition to:</p>
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Skim document</div>
+    <p>Овај виџет такође можете да отворите и дугим тапом на <span class="ui">Статусну линију</span> као и из:</p>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Прелети по документу</div>
     
     <img loading="lazy" src="pictures/skim_widget.png" style="width:650px;">
 
     </div>
 
-    <div class="L3-Smaller-heading">Chapter Marks</div>
+    <div class="L3-Smaller-heading">Ознаке поглавља</div>
     
     <div class="standard-text">
-    KOReader can show chapter boundaries from your documents on the <span class="ui">SKIM WIDGET</span> and <span class="ui">PROGRESS BAR</span>.
+    KOReader може да прикаже границе поглавља документа у <span class="ui">ВИЏЕТУ ЗА ПРЕЛЕТАЊЕ</span> и у <span class="ui">ТРАЦИ НАПРЕТКА</span>.
 
     <p><img loading="lazy" src="pictures/skim_widget_chapter_marks.png" style="width:400px;"></p>
 
-    <p>If your document has too many heading levels, your chapter marks can look crowded like the example above. You can change the depth of visible ToC mark levels via:</p>
+    <p>Ако документ има много нивоа наслова, ознаке поглавља могу да буду збијене, као у примеру испод. Дубину видљивих нивоа ознака садржаја можете да измените из:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Progress Bars</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Траке напретка</div>
 
     <img loading="lazy" src="pictures/skim_widget_chapter_mark_levels.png" style="width:400px;">
 
-    <p>You can also use this reduced ToC for:</p>
+    <p>Овај редуковани садржај можете да користите и за:</p>
     <ul>
-        <li>chapter titles (if it is shown on <span class="ui">Status Bar</span>)</li>
-        <li>chapter navigation</li>
-        <li>reading time left estimates</li>
+        <li>наслове поглавља (ако су приказани на <span class="ui">Статусној линији</span>)</li>
+        <li>кретање по поглављима</li>
+        <li>процене времена до краја читања</li>
     </ul>
-    <p>These options are in the same menu.</p>
-    <p>If your document doesn’t have a Table of Contents, you can enable <span class="ui">ALTERNATIVE TABLE OF CONTENTS</span>. When this setting is enabled, KOReader will build a ToC from document headings (if available) or from individual HTML files in the EPUB. Long press on this menu item for extra info:
+    <p>Ове опције се налазе у истом менију.</p>
+    <p>Ако документ нема садржај, можете да укључите <span class="ui">АЛТЕРНАТИВНИ САДРЖАЈ</span>. Када укључите ово подешавање, KOReader ће да изгради садржај из наслова у документу (ако су доступни) или од појединих HTML фајлова у EPUB. Да бисте видели додатне информације, извршите дуги притисак на ову ставку менија:
     </p>
     
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Alternative table of contents</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Алтернативни садржај</div>
     
-    <p>You can find more info about the <b>table of contents</b> tools available in KOReader in this relevant section of the guide: <a href="#toctools">TABLE OF CONTENTS TOOLS</a></p>
+    <p>Више информација о алатима за <b>садржај</b> који су доступни у програму KOReader можете да пронађете у одговарајућем одељку овог упутства: <a href="#toctools">АЛАТИ ЗА САДРЖАЈ</a></p>
     </div>
 
 
     <div class="L2-Sub-heading" id="bookmap">Мапа књиге</div>
 
     <div class="standard-text">
-    Book map is a powerful and unique feature of KOReader which can be very useful for getting an overview of a book. For example if you are reading a book non-linearly by skipping some parts to read them later, it would be hard to track your progress. Book Map can show you which parts of the book you have already read, at a glance.
-    <p>Additionally you can:</p>
+    Мапа књиге је моћна и јединствена функционалност програма KOReader која може да буде врло корисна за добијање прегледа књиге. На пример, ако читате књигу тако да не следите линеарни ток страница већ прескачете неке делове да бисте их читали касније, било би тешко пратити ваш напредак читања. Мапа књиге на први поглед може да прикаже које делове књиге сте већ прочитали.
+    <p>Уз то, можете и да:</p>
     <ul>
-        <li>See how much time you have spent on each page (if <span class="ui">Reading Statistics</span> plugin is enabled)</li>
-        <li>Check which pages have bookmark, highlights and notes</li>
-        <li>Navigate directly to any part of the book like the <span class="ui">SKIM WIDGET</span></li>
+        <li>Видите колико времена сте провели на свакој страници (ако је укључен додатак <span class="ui">Статистика читања</span>)</li>
+        <li>Погледате које странице имају маркер, истицања и напомене</li>
+        <li>Скочите директно на било који део књиге, исто као и <span class="ui">ВИЏЕТОМ ЗА ПРЕЛЕТАЊЕ</span></li>
     </ul>
 
-    You can access Book Map via menu and you can also assign a gesture for quicker access:
+    Мапи књиге можете да приступите из менија, а можете и да јој придружите гестикулацију за још бржи приступ:
     
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Book map</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Мапа књиге</div>
 
     </div>
 
 
-    <div class="L3-Smaller-heading">User Interface And Controls</div>
+    <div class="L3-Smaller-heading">Корисничи интерфејс и контроле</div>
     <div class="standard-text">
-    When you open the <span class="ui">Book Map</span> first time while reading a book, it will be in <span class="ui">Grid View</span> mode, fitting all chapters on a single screen to give the best initial overview of the book’s content. To get a detailed information about usage, tap the info icon at the upper left corner. You can close the Book Map by tapping <span class="ui">X</span> on the upper right corner or with any multiswipe gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.).
+    Када читате књигу и по први пут отворите <span class="ui">Мапу књиге</span>, она ће се приказати у режиму <span class="ui">Приказ мреже</span> , тако да сва поглавља стану на један екран, чиме добијате најбољи почетни преглед садржаја књиге. Ако желите да видите детаљне информације у вези са употребом, тапните на инфо икону у горњем левом углу. Мапу књиге можете да затворите тако што тапнете на <span class="ui">X</span> у горњем десном углу или било којом гестикулацијом мултипревлачења (<b>ГОРЕ-ДОЛЕ, ЛЕВО-ДЕСНО</b> итд.).
     
     <img loading="lazy" src="pictures/bookmap.png" style="width:800px;">
     
-    <p>You can customize <span class="ui">Book Map</span> by changing these options:</p>
-    <p>- First try swiping <span class="ui">LEFT</span> and <span class="ui">RIGHT</span> along the bottom edge of the screen to change width of columns indicating pages and observe how it changes the scale of map</p>
+    <p><span class="ui">Мапу књиге</span> можете да прилагодите следећим опцијама:</p>
+    <p>- Најпре пробајте да превлачите <span class="ui">ЛЕВО</span> и <span class="ui">ДЕСНО</span> уз доњу ивицу екрана да промените ширину колона које приказују странице и посматрајте како то мења скалирање мапе</p>
     
-    <p>- Then try swiping <span class="ui">UP</span> and <span class="ui">DOWN</span> along the left edge of the screen to change chapter title depth and switch to the <span class="ui">Flat View</span>. See examples below.</p>
+    <p>- Затим пробајте да превлачите <span class="ui">НАВИШЕ</span> и <span class="ui">НАНИЖЕ</span> уз леву ивицу екрана да измените дубину наслова поглавља и да пређете на <span class="ui">Равни приказ</span>. Погледајте примере испод.</p>
 
-    <p>In addition to default <span class="ui">Grid View</span> above, here you can see the <span class="ui">Flat View</span> on the left and Grid View without chapter titles on the right. Note the changing left vertical scrollbar between views. If you want to switch back to the default view, you can long-press the info icon at the upper left corner.</p>
+    <p>Уз подразумевани <span class="ui">Приказ мреже</span> описан изнад, овде на левој страни можете да видите <span class="ui">Равни приказ</span> и Приказ мреже без наслова поглавља на десној страни. Запазите вертикалну скрол линију која се мења у погледима. Ако желите да се вратите назад на подразумевани поглед, можете да извршите дуги притисак на инфо икону у горњем левом углу.</p>
 
     <div class="double-container">
         <div><img loading="lazy" src="pictures/bookmap_flat.png" style="width:400px;"></div>
@@ -1471,105 +1471,105 @@ hr {
     </div>
 
 
-    <div class="L3-Smaller-heading">Book map options</div>
+    <div class="L3-Smaller-heading">Опције Мапе књиге</div>
 
     <img loading="lazy" src="pictures/bookmap_options.png" style="width:700px;">
     
     <div class="standard-text">
-    When you tap the menu icon on the <b>Book map</b> screen you are presented with the menu above. Menu options are explained below:
+    Када тапнете на икону менија у екрану <b>Мапе књиге</b> приказаће вам се мени са горње слике. Испод су објашњене опције менија:
     <ul>
-        <li><span class="ui">About book map:</span> Short explanation of Book map usage and icon descriptions.</li>
-        <li><span class="ui">Available gestures:</span> Gestures you can use to change the settings of Book map instead of using this menu.</li>
-        <li><span class="ui">Page browser on tap:</span> If this is checked, when you tap on a page in Book map, <span class="ui">Page browser</span> opens. This shows you an overview of the area you selected. If you disable this option, a tap in Book map directly takes you to that page. But remember, depending on factors like your screen size, touch screen sensitivity, tap accuracy etc. you might end up in adjacent pages.</li>
-        <li><span class="ui">Switch current/initial views:</span> If you customized your Book map view, tapping this switches between the <b>default view</b> and your <b>customized view</b>.</li>
-        <li><span class="ui">Switch grid/flat views:</span> Switch between separate chapters or continuous chapters views.</li>
-        <li><span class="ui">Chapter levels:</span> Change the depth of chapter/sub chapter levels.</li>
-        <li><span class="ui">Page slot width:</span> Make each page slot wider or narrower.</li>
-        <li><span class="ui">10-page markers:</span> As you increase this value, first it will add markers to every <b>10<sup>th</sup> page</b>, then it will make them bigger and eventually it will add markers to every <b>5<sup>th</sup> page</b>.</li>
+        <li><span class="ui">О мапи књиге:</span> кратко објашњење о начину на који се користи Мапа књиге, као и опис икона.</li>
+        <li><span class="ui">Доступне гестикулације:</span> уместо да користите овај мени, подешавања Мапе књиге можете да измените гестикулацијама.</li>
+        <li><span class="ui">Прегледач страница када се тапне:</span> ако је ово штиклирано, тапом на Мапу књиге се отвара <span class="ui">Прегледач страница</span>. Ово приказује преглед области коју сте изабрали. Ако искључите ову опцију, тап на Мапу књиге вас води директно на ту страницу. Али упамтите, у зависности од фактора као што су величина екрана, осетљивост екрана осетљивог на додир, прецизности тапа итд. може се десити да се нађете на суседним страницама.</li>
+        <li><span class="ui">Пребацуј текући/почетни поглед:</span> ако сте прилагодили поглед Мапе књиге, тап на ово врши прелаз између <b>подразумеваног погледа</b> и вашег <b>прилагођеног погледа</b>.</li>
+        <li><span class="ui">Пребацуј поглед мреже/равни:</span> пребацује између погледа одвојених поглавља и погледа непрекидних поглавља.</li>
+        <li><span class="ui">Нивои поглавља:</span> мења дубину нивоа поглавља/подпоглавља.</li>
+        <li><span class="ui">Ширина места за страницу:</span> проширује или сужава свако место за страницу.</li>
+        <li><span class="ui">Маркери сваке 10. странице:</span> како увећавате ову вредност, прво ће се додати маркери на сваку <b>десету страницу</b>, затим ће их повећавати, па ће коначно додати маркери на сваку <b>пету страницу</b>.</li>
     </ul>
     </div>
     
     <div class="L2-Sub-heading" id="pagebrowser">Прегледач страница</div>
     <div class="standard-text">
-    Page Browser can be used to navigate between pages like in a photo album by showing thumbnails of the pages as a grid. You can open <span class="ui">Page Browser</span> by tapping on the <span class="ui">Book Map</span> or from the menu. You can also assign a gesture for quick access.
+    Прегледач страница може да се употреби за кретање по страницама на сличан начин као по фото албуму, приказивањем сличица страница у мрежи. <span class="ui">Прегледач страница</span> можете да отворите тапом на<span class="ui">Мапу књиге</span> или из менија . Можете да доделите и гестикулацију, за брзи приступ.
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Прегледач страница</div>
 
-    <p>You can change the number of pages shown by swiping along the <span class="ui">TOP</span> and <span class="ui">LEFT</span> sides of screen. Icons on the bottom are the same as <span class="ui">Book Map</span>. Actually the bottom part is a linear version of the <span class="ui">Book Map</span>.</p>
+    <p>Број страница које се приказују можете да измените превлачењем по <span class="ui">ГОРЊОЈ</span> и <span class="ui">ЛЕВОЈ</span> ивици екрана. Иконе на дну су исте као и у <span class="ui">Мапи књигеBook </span>. Уствари, доњи део је линеарна верзија <span class="ui">Мапе књиге</span>.</p>
 
     <img loading="lazy" src="pictures/page_browser.png" style="width:650px;">
 
     </div>
     
-    <div class="L3-Smaller-heading">Alternative theme for Book map and Page Browser</div>
+    <div class="L3-Smaller-heading">Алтернативна тема за Мапу књиге и Прегледач страница</div>
     
     <div class="standard-text">
-    Book map and page browser has an <b>Alternative theme</b> with a different shading scheme which you can activate from their hamburger menus. This theme uses alternating colors for the chapter headings so chapter boundaries is more visible in the <span class="ui">Book map</span> and <span class="ui">Page browser</span>. But the usage of gray color in this theme requires flashing to black so it might be distracting for some users. You can try both and use the one you like.
+    Мапа књиге и прегледач страница имају <b>Алтернативну тему</b> у којој се користи другачија схема сенчења и коју можете да активирате из њихових хамбургер менија. Ова тема користи наизменичне боје за наслове поглавља, тако да су границе поглавља лакше видљиве у <span class="ui">Мапи књиге</span> и <span class="ui">Прегледачу страница</span>. Али употреба сиве боје у овој теми захтева бљескање на црну, тако да то може сметати неким корисницима. Можете да пробате обе, па да користите ону која вам се више свиђа.
     </div>
 
     <div class="L2-Sub-heading" id="toctools">Алати садржаја</div>
     <div class="standard-text">
-    Some of the digital books you come across might not have a proper table of contents (<b>ToC</b>). Depending on the preparation of the book, you can experience these ToC problems:
+    Неке дигиталне књиге на које наиђете могу да имају прописни садржај. У зависности од начина на који је књига припремљена, можете да наиђете на следеће проблеме са садржајем:
     <ul>
-        <li>No ToC in the book, so you can’t jump between the chapters or see the remaining reading times</li>
-        <li>There is a ToC but it is not very useful because it has wrong or missing chapter titles</li>
+        <li>У књизи не постоји садржај, тако да не можете да скачете по поглављима или да видите колико још времена имате да читате до краја</li>
+        <li>Садржај постоји, али није од користи јер садржи погрешне наслове поглавља, или неки недостају</li>
     </ul>
     
-    <p> KOReader has some features that you can use when reading books with a problematic table of contents section.</p>
+    <p> KOReader има неке функционалности које можете да употребите када читате књиге са проблематичним одељком садржаја.</p>
     
-    <p>Note that <span class="ui">Alternative table of contents</span> is not available on <b>fixed layout documents</b> like PDF, DJVU etc. because it requires HTML tags to create a ToC. <span class="ui">Custom table of contents</span> and <span class="ui">Custom hidden flows</span> features are available on all file types.</p>
+    <p>Запазите да <span class="ui">Алтернативни садржај</span> није доступан за <b>документе фиксног распореда</b> као што су PDF, DJVU итд. јер су за креирање садржаја неопходне HTML ознаке. Функције <span class="ui">Произвољни садржај</span> и <span class="ui">Произвољни скривени токови</span> су доступне за све типове фајлова.</p>
 
     </div>
 
-    <div class="L3-Smaller-heading">Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS</div>
+    <div class="L3-Smaller-heading">Аутоматско креирање садржаја: АЛТЕРНАТИВНИ САДРЖАЈ</div>
 
     <div class="standard-text">
-    First feature is the <span class="ui">Alternative table of contents</span> which you can find in:
+    Прва функционалност је <span class="ui">Алтернативни садржај</span> који можете да пронађете у:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Alternative table of contents</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Алтернативни садржај</div>
 
-    <div class="info"><span class="label_blue">INFO</span> An EPUB document is basically a ZIP file containing one or more HTML files. Your book might be one big HTML file for the whole book or it might contain separate chapters as individual HTML files (which is a better structure).</div>
+    <div class="info"><span class="label_blue">ИНФО</span> EPUB документ је у суштини ZIP фајл који садржи један или више HTML фајлова. Књига коју читате може да се састоји из једног великог HTML фајла, или може да има поглавља смештена у појединачне HTML фајлове (што је боља структура).</div>
         
-    <p><span class="ui">Alternative table of contents</span> tries to create a ToC from the headings in your book (<b>H1</b> to <b>H6</b> tags in the HTML files in your EPUB). If your book doesn’t contain any headings, it will try to build a ToC from the document fragments (individual HTML files in your EPUB book) which will point to the beginning of each file.</p>
+    <p><span class="ui">Алтернативни садржај</span> покушава да креира садржај из наслова у књизи (ознаке <b>H1</b> до <b>H6</b> у HTML фајловима из EPUB књиге). Ако књига не садржи ниједан наслов, покушаће да изгради садржај из фрагмената документа (појединачни HTML фајлови у EPUB књизи) који ће да показују на почетак сваког фајла.</p>
     
-    <p>You can choose which heading levels to include (or ignore) in your ToC from this menu:</p>
+    <p>У следећем менију можете да изаберете који нивои наслова улазе (или се игноришу) у садржај:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style tweaks → Miscellaneous → Alternative ToC hints</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Дотеривања стила → Разно → Назнаке алтернативног садржаја</div>
 
     </div>
     
 
 
-    <div class="L3-Smaller-heading">Manually creating a table of contents: CUSTOM TABLE OF CONTENTS</div>
+    <div class="L3-Smaller-heading">Ручно креирање садржаја: ПРОИЗВОЉНИ САДРЖАЈ</div>
 
     <div class="standard-text">
-    Custom table of contents feature allows you to create your own ToC from the selected parts of your book. This ToC can contain only one level so you can’t have sub-chapters while using this feature. To create your own ToC, first enable:
+    Функција Произвољни садржај вам омогућава да креирате сопствени садржај из одабраних делова књиге. Тај садржај се састоји само из једног нивоа, тако да када користите ову функцију, не можете имати потпоглавља. Да бисте креирали сопствени садржај, најпре укључите:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom table of contents</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Произвољни садржај</div>
         
-    <p>Once you enable this feature, new menu items will be added to the user interface which allows you to select your chapters. You can add a chapter to your ToC from two places:</p>
+    <p>Када укључите ову функцију, у корисничком интерфејсу ће се појавити нове ставке менија које вам омогућавају да изаберете поглавља. Поглавље можете да додате у садржај са два места:</p>
 
     <ol>
-        <li><b>From a highlight:</b> While reading a book, select a text like you are highlighting it or long press on a word. In the popup menu you will see the <span class="ui">Start TOC chapter</span> item. When you press on it, you will see a dialog asking you to enter your chapter title. The text you selected will be already entered in the dialog. Edit your title if necessary and press create.</li>
-        <li><b>From the Page browser:</b> Open the Page browser via</li>
+        <li><b>Из истицања:</b> док читате књигу, изаберите текст као да га истичете или урадите дуги притисак на реч. У искачућем менију ћете видети ставку <span class="ui">Почетак поглавља садржаја</span>. Када је изаберете, приказаће вам се дијалог који од вас тражи да унесете наслов поглавља. У дијалог ће већ бити унесен текст који сте изабрали. Ако је потребно, уредите наслов и притисните направи.</li>
+        <li><b>Из Прегледача страница:</b> отворите Прегледач страница из</li>
     </ol>
 
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Прегледач страница</div>
     
-    <p>Long press on the page thumbnail that you want to be the beginning of your chapter and select <span class="ui">Start TOC chapter</span> item from the popup menu. You will see a dialog asking you to enter your chapter title.</p>
+    <p>Извршите дуги притисак на сличицу странице која желите да буде почетак поглавља и изаберите из искачућег менија ставку <span class="ui">Почетак поглавља садржаја</span>. Приказаће вам се дијалог који од вас тражи да унесете наслов поглавља.</p>
     
-    <p>When you are done creating your ToC and don’t want to see these extra buttons, you can disable them by unchecking:</p>
+    <p>Када завршите са креирањем садржаја и не желите да видите ове додатне дугмиће, можете да их искључите тако што уклоните штиклирање са ставке:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Edit mode</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Произвољне могућности распореда → Режим уређивања</div>
     
-    <p>Creating this ToC will not alter your original ToC which comes with your book. You can clear your <b>Custom table of contents</b> from this same menu (in case you want to create a new one). And you can disable this feature completely in the same way you enabled it, if you want to return to the original ToC. Note that if you disable this feature after creating a custom ToC to return to the original one, your custom ToC will not be deleted. You can still switch between the original and your custom ToC.</p>
+    <p>Креирање садржаја неће да измени оригинални који долази уз књигу. Ваш <b>Произвољни садржај</b> можете да обришете из истог менија (у случају да желите креирати нови). А можете и комплетно да искључите функцију, на исти начин на који сте је и укључили, у случају да желите повратак оригиналног садржаја. Запазите да ако након креирања произвољног садржаја искључите ову могућност, он се неће обрисати. Још увек можете да се пребацујете између оригиналног и вашег произвољног садржаја.</p>
     
     </div>
 
 
 
-    <div class="L3-Smaller-heading">Excluding sections of your book: CUSTOM HIDDEN FLOWS</div>
+    <div class="L3-Smaller-heading">Изузимање одељака из књиге: ПРОИЗВОЉНИ СКРИВЕНИ ТОКОВИ</div>
 
     <div class="standard-text">
     Some books or documents might contain long footnotes or bibliography sections. Like a scientific book which is 250 pages long but last 50 pages are Appendices, Index and References. Normally these pages are included in the progress bar and reading time calculations since they are part of the book. But generally these sections exist as a reference and they are not read completely so you might want to exclude them to make your remaining page count and time estimates more accurate. Or maybe you have an anthology book which contain some stories you have already read. <span class="ui">Custom hidden flows</span> feature of KOReader allows you to exclude these kind of parts of your book.
@@ -1583,7 +1583,7 @@ hr {
         <li>Go to the first page of the section you want to exclude</li>
         <li>Open the <span class="ui">Page browser</span> via:
 
-            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Page browser</div>
+            <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Прегледач страница</div>
         </li>
         <li>Long press on the page thumbnail that you want to be the beginning of your excluded section and select <span class="ui">Start hidden flow here</span> item from the popup menu.</li>
         <li>You will see that the pages starting from your selection now have a gray hatched background.</li>
@@ -1847,7 +1847,7 @@ hr {
  
     <p>This will make your screen wider so your document may look big enough to read comfortably.</p>
 
-    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ → <img loading="lazy" class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
 
 
     <div class="L3-Smaller-heading">4. You can see your document at full size and scroll the screen to read different parts</div>
