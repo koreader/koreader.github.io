@@ -494,7 +494,7 @@ hr {
     <p>Кроз упутство користимо и различита поља којима вас информишемо или упозоравамо:</p>
     <div class="warning"><span class="label_red">УПОЗОРЕЊЕ</span> Ја сам поље упозорења. Објашњавам ствари када је потребно да будете посебно опрезни.</div>
     <div class="info"><span class="label_blue">ИНФО</span> Ја сам инфо поље. Дајем контекстуалну информацију или додатна објашњења.</div>
-    <div class="tip"><span class="label_green">ТИП</span> Ја сам тип поље. Садржим савете који вам олакшавају употребу програма KOReader.</div>
+    <div class="tip"><span class="label_green">САВЕТ</span> Ја сам поље савета. Приказујем савете који вам олакшавају употребу програма KOReader.</div>
     <div class="warning"><span class="label_red">!!! НАПРЕДНО</span> Ја сам ознака <b>НАПРЕДНО</b>. Ако ме видите у теми, то значи да је, у зависности од процедуре, потребно да поседујете одређени степен техничког знања, као што је рад са фајл системом, познавање CSS, инсталација спољних фајлова итд.</div>
     </div>
 
@@ -1561,7 +1561,7 @@ hr {
     
     <p>Када завршите са креирањем садржаја и не желите да видите ове додатне дугмиће, можете да их искључите тако што уклоните штиклирање са ставке:</p>
 
-    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Произвољне могућности распореда → Режим уређивања</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Могућности произвољног распореда → Режим уређивања</div>
     
     <p>Креирање садржаја неће да измени оригинални који долази уз књигу. Ваш <b>Произвољни садржај</b> можете да обришете из истог менија (у случају да желите креирати нови). А можете и комплетно да искључите функцију, на исти начин на који сте је и укључили, у случају да желите повратак оригиналног садржаја. Запазите да ако након креирања произвољног садржаја искључите ову могућност, он се неће обрисати. Још увек можете да се пребацујете између оригиналног и вашег произвољног садржаја.</p>
     
@@ -1572,51 +1572,51 @@ hr {
     <div class="L3-Smaller-heading">Изузимање одељака из књиге: ПРОИЗВОЉНИ СКРИВЕНИ ТОКОВИ</div>
 
     <div class="standard-text">
-    Some books or documents might contain long footnotes or bibliography sections. Like a scientific book which is 250 pages long but last 50 pages are Appendices, Index and References. Normally these pages are included in the progress bar and reading time calculations since they are part of the book. But generally these sections exist as a reference and they are not read completely so you might want to exclude them to make your remaining page count and time estimates more accurate. Or maybe you have an anthology book which contain some stories you have already read. <span class="ui">Custom hidden flows</span> feature of KOReader allows you to exclude these kind of parts of your book.
-    <p>Have a look at the image for an overview of the process. Steps will be explained after the image:</p>
+    Неке књиге или документи могу да садрже дугачке одељке фуснота или библиографије. Као нека научна књига дужине 250 страница чијих је 50 последњих страница Додаци, Индекс и Референце. У општем случају, ове странице су део траке напретка и улазе у обзир приликом израчунавања времена читања јер су део књиге. Али ови одељци углавном служе као референца и не читају се у потпуности, тако да има смисла да се изузму како би број преосталих страница и процена преосталог времена читања до краја били тачнији. Или можда имате неку књигу антологије која садржи и приче које сте већ прочитали. Функција <span class="ui">Произвољни скривени токови</span> програма KOReader вам омогућава да изузмете овакве делове књиге.
+    <p>Погледајте слику да стекнете општи преглед процеса. Кораци ће бити објашњени након слике:</p>
 
     <img loading="lazy" src="pictures/custom_hidden_flow_howto.png" style="width:850px; box-shadow: none;">
 
 <br>
-    <p><b>How to exclude a section by creating a hidden flow</b></p>
+    <p><b>Како се изузима одељак креирањем скривеног тока</b></p>
     <ol>
-        <li>Go to the first page of the section you want to exclude</li>
-        <li>Open the <span class="ui">Page browser</span> via:
+        <li>Идите на прву страницу одељка који желите да изузмете</li>
+        <li>Отворите <span class="ui">Прегледач страница</span> из:
 
             <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Прегледач страница</div>
         </li>
-        <li>Long press on the page thumbnail that you want to be the beginning of your excluded section and select <span class="ui">Start hidden flow here</span> item from the popup menu.</li>
-        <li>You will see that the pages starting from your selection now have a gray hatched background.</li>
-        <li>Now go to the last page of your excluded section. You can navigate there from the <span class="ui">Page browser</span> or using other ways like <span class="ui">Book map, Skim widget</span> etc.</li>
-        <li>Once you are at the last page of your excluded section, open the <span class="ui">Page browser</span> again (if you are not already in it).</li>
-        <li>Find the last page of your hidden section and long press on the <b>next page</b>. Choose <span class="ui">Restart regular flow here</span> from the popup menu. You will see that the background of the remaining pages will return to normal color, indicating the end of hidden flow and the beginning of regular flow.</li>
+        <li>Извршите дуги притисак на сличицу странице која представља почетак одељка који се изузима и у искачућем менију изаберите ставку <span class="ui">Почни скривени ток овде</span>.</li>
+        <li>Видећете да странице почевши од оне коју сте изабрали имају сиво шрафирану позадину.</li>
+        <li>Сада идите на последњу страницу одељка који желите да се изузме. Тамо можете да одете из <span class="ui">Прегледача страница</span>, или коришћењем осталих начина као што су <span class="ui">Мапа књиге, Виџет прелетања</span> итд.</li>
+        <li>Једном кад се нађете на последњој страници одељка који се изузима, поново отворите <span class="ui">Прегледач страница</span> (ако се већ не налазите у њему).</li>
+        <li>Пронађите последњу страницу вашег скривеног одељка и извршите дуги притисак на <b>наредну страницу</b>. Изаберите из искачућег менија ставку <span class="ui">Поново покрени обични ток овде</span>. Видећете да се позадина остатка страница враћа на нормалну боју, што означава крај скривеног и почетак обичног тока.</li>
     </ol>
 <br>
-    <p><b>Working with the hidden sections</b></p>
-    <p>When you create a hidden flow section as described above, KOReader’s behavior will be similar to the situation as if you removed a section of a paper book by cutting it out:</p>
+    <p><b>Рад са скривеним одељцима</b></p>
+    <p>Када креирате скривени ток на начин који је описан изнад, понашање програма KOReader ће бити слично као у ситуацији када из папирне књиге уклоните одељак тако што одсечете одговарајуће странице:</p>
     <ul>
-        <li>These hidden flow sections will be skipped when turning pages. For example assume that you created a hidden flow for <b>Chapter 10</b>. Now you are on the last page of <b>Chapter 9</b>. When you turn the page, you will see <b>Chapter 11</b>.</li>
-        <li>Page numbering will continue as if these hidden flow sections <b>do not exist</b>.</li>
-        <li>These hidden sections will not be shown in your <span class="ui">Progress bar</span> (but read the explanation below) and will not be considered in <b>time to read</b> calculations. But they will still be visible in the <span class="ui">Skim widget</span>.</li>
-        <li>Following direct links to the pages included in these hidden flow sections will still work. Also you can still reach these sections from the <span class="ui">Table of contents, Book map, Page browser, Skim widget</span>.</li>
+        <li>Ови одељци скривеног тока ће се прескакати приликом окретања страница. На пример, претпоставимо да сте креирали скривени ток за <b>Поглавље 10</b>. Сада се налазите на последњој страници <b>Поглавља 9</b>. Када окренете страницу, видећете <b>Поглавље 11</b>.</li>
+        <li>Нумерација страница ће се наставити као да ови одељци скривеног тока <b>не постоје</b>.</li>
+        <li>Ови одељци скривеног тока се неће приказивати у <span class="ui">Траци напретка</span> (али прочитајте објашњење испод) и неће се узимати у обзир при израчунавању <b>времена до краја читања</b>. Али ће још увек моћи да се виде у <span class="ui">Виџету за прелетање</span>.</li>
+        <li>Још увек ће да функционишу директни линкови на странице које су део ових одељака скривеног тока. Такође, још увек можете да дођете до ових одељака из <span class="ui">Садржаја, Мапе књиге, Прегледача страница, Виџета за прелетање</span>.</li>
     </ul>
     
-    <p>As we said above, your hidden flows will be excluded from your <span class="ui">Progress bar</span>. But if you jump to one of your hidden sections using any of the methods mentioned above, your Progress bar temporarily becomes this hidden section’s progress bar. You can imagine this as the progress bar is zooming into that hidden flow section. If you exit out of this hidden section by turning the page at the end of it, or using other navigation tools, your Progress bar will go back to showing the whole book again (with your custom hidden flows again not visible).</p>
+    <p>Као што смо рекли изнад, скривени токови ће се изузети из <span class="ui">Траке напретка</span>. Али ако скочите на један од скривених одељака користећи било који од горе наведених метода, ваша Трака напретка привремено постаје линија напретка тог скривеног одељка. Ово можете да замислите као да се трака напретка зумира у тај одељак скривеног тока. Ако изађете из овог одељка скривеног тока окретањем странице на његовом крају, или ако употребите остале алате за кретање по књизи, ваша Трака напретка се поново враћа на приказ комплетне књиге (који поново не приказује скривене токове).</p>
     
 <br>
-    <p><b>Removing and cleaning up hidden sections</b></p>
-    <p>You can remove individual hidden flow sections from the <span class="ui">Page browser</span> in the same way you created them. You can also clear all of them at once with the menu item:</p>
+    <p><b>Уклањање и брисање скривених одељака</b></p>
+    <p>Појединачне одељке скривених токова можете да уклоните из <span class="ui">Прегледача страница</span> на исти начин на који сте их и креирали. Такође можете и да их обришете све одједном ако употребите следећу ставку менија:</p>
         
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Clear all marked pages</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Могућности произвољног распореда → Обриши све означене странице</div>
 
-    <p>As you work on creating hidden flows by tagging pages as <span class="ui">Start hidden flow</span> or <span class="ui">Restart regular flow</span>, some of the previously made ones may stop having an effect. For example in the case that you make <span class="ui">Start hidden flow</span> a few pages before an existing <span class="ui">Start hidden flow</span>, that existing one is no longer involved. This overlapping or obsolete tags are remembered for practical purposes. Again in the previous example, if you end that second hidden flow before the existing-but-no-longer-involved Start hidden flow, this deactive one will be involved again. You can clear all these inactive markers if they interfere with your custom flows, or once you finish making your hidden flows and happy with the results:</p>
+    <p>Док радите на креирању скривених токова означавањем страница као <span class="ui">Почни скривени ток</span> или <span class="ui">Поново покрени обични ток</span>, неке од раније означених можда више неће имати ефекта. На пример, у случају да сте направили <span class="ui">Почни скривени ток</span> неколико страница пре постојећег <span class="ui">Почни скривени ток</span>, тај постојећи више нема ефекта. Ово преклапање или застареле ознаке се памте из практичних разлога. Ако опет у претходном примеру тај одељак завршите пре постојећег-који-више-нема-ефекта Почни скривени ток, тај неактивни ће се поново активирати. Ако ометају ваше произвољне токове, можете да обришете све ове неактивне маркере, или када завршите са креирањем скривених токова и задовољни сте резултатом, урадите:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Settings → Custom layout features → Clear inactive marked pages</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Подешавања → Могућности произвољног распореда → Обриши неактивне означене странице</div>
 
 <br>
-    <p><b>Hidden sections and progress bar</b></p>
+    <p><b>Скривени одељци и трака напретка</b></p>
     <p>
-    As we said above, your hidden flows will be excluded from your Progress bar. But if you jump to one of your hidden sections using any of the methods mentioned above, your Progress bar temporarily becomes this hidden section’s progress bar. You can imagine this like the progress bar is zooming into that hidden flow section. If you exit out of this hidden section by turning the page at the end of it, or using other navigation tools, your Progress bar will go back to showing the whole book again (with your custom hidden flows again not visible).
+    Као што смо већ рекли, скривени токови ће се изузети из Траке напретка. Али ако скочите на један од постојећих скривених одељака употребом било којих од метода који су раније наведени, Трака напретка привремено постаје трака напретка тог скривеног одељка. Ово можете да замислите као да се трака напретка зумира у тај одељак скривеног тока. Ако изађете ван скривеног одељка окретањем странице на крају тог тока, или употребом било ког алата за кретање по књизи, Трака напретка се поново враћа назад на приказ комплетне књиге (који опет не приказује произвољне скривене токове).
     </p>
 
     </div>
@@ -1627,109 +1627,109 @@ hr {
     <div class="L1-Chapter-heading" id="bookmarks">МАРКЕРИ, ИСТИЦАЊЕ И НАПОМЕНЕ</div>
 
     <div class="standard-text">
-    KOReader gives you options to interact with your book like you can do with a real book:
+    KOReader вам нуди опције за интеракцију са књигом које су исте као оне које имате са физичком књигом:
     
-    <p><b>Bookmarks:</b> You can add (and remove) a bookmark by pressing the upper right corner. This is the equivalent of folding the corner of a page on a real book and shows a similar icon when you enable it.</p>
+    <p><b>Маркери:</b> можете да додате (и уклоните) маркер тако што притиснете горњи десни угао. Ово је исто као да савијете угао странице физичке књиге и приказује сличну икону када га укључите.</p>
 
-    <p><b>Highlights:</b> You can highlight text in 4 different styles. In the image below, you can see a normal paragraph followed by different styles of highlights. <span class="ui">Lighten</span> (with gray background), <span class="ui">Underline, Strikeout</span> and <span class="ui">Invert</span>.</p>
+    <p><b>Истицања:</b> текст можете да истакнете једним од четири различита стила. На слици испод можете видети обичан пасус након којег следи четири различита стила истицања. <span class="ui">Посветли</span> (са сивом позадином), <span class="ui">Подвуци, Прецртано</span> и <span class="ui">Инвертуј</span>.</p>
 
 
     <img loading="lazy" src="pictures/highlight_styles.png" style="width:600px;">
 
-    <p>You can use all these styles at the same time, like they are different colored highlight markers. Or you can decide your favorite style and set it as default from this menu by long pressing:</p>
+    <p>Све ове стилове можете да користите истовремено, као да су маркери различите боје. Или можете да се одлучите за омиљени стил, па да га у овом менију поставите као подразумевани тако што урадите дуги притисак на:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Стил истицања</div>
 
-    <p><b>Notes:</b> You can also add notes to your highlights. Just tap on a highlight and choose <span class="ui">Add note</span> from the popup menu. You can also choose a <span class="ui">Note marker</span> that shows which highlights contain a note. There are three styles: <span class="ui">Underline, Side line</span> and <span class="ui">Side mark</span> (which is the pencil icon shown on the right side of the picture below):</p>
+    <p><b>Напомене:</b> вашим истицањима можете и да додате белешке. Једноставно тапните на истицање и из искачућег менија изаберите ставку <span class="ui">Додај белешку</span>. Такође можете и да изаберете <span class="ui">Маркер белешке</span> који приказује која истицања садрже белешку. Постоји три стила: <span class="ui">Подвучено, Линија са стране</span> и <span class="ui">Ознака са стране</span> (што је икона оловке приказана на десној страни слике испод):</p>
 
     <img loading="lazy" src="pictures/note_marker.png" style="width:600px;">
 
-    To enable this feature and choose a <span class="ui">Note marker</span> style, go to:
+    Ако желите да укључите ову функцију и изаберете стил за <span class="ui">Маркер белешке</span>, идите на:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style → Note marker</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Стил истицања → Маркер белешке</div>
 
     </div>
 
-    <div class="L3-Smaller-heading">How to highlight</div>
+    <div class="L3-Smaller-heading">Како се истиче</div>
 
     <div class="standard-text">
-    KOReader has two highlighting modes for different use cases:
-    <p><span class="ui">Normal mode</span> is similar to selecting a text with your finger on a phone/tablet and more suitable if your highlights are shorter than one page.</p>
-    <p><span class="ui">Select and highlight mode</span> is more suitable for highlighting longer passages which cross page boundaries. It might also work better if you have touch screen sensitivity problems or motor control issues with your hands. Because in this highlight mode you don’t need to drag your finger along the screen.</p>
+    KOReader поседује два режима истицања који се користе у различитим ситуацијама:
+    <p><span class="ui">Нормални режим</span> је сличан избору текста прстом на телефону/таблету и погоднији је истицања која су краћа од једне странице.</p>
+    <p><span class="ui">Режим Изабери и истакни</span> је више прилагођен истицању дужих пасажа који се простиру на више страница. Такође може боље функционисати ако имате проблема са осетљивошћу екрана или са контролом моторике својих руку. Јер у овом режиму истицања нема потребе да превлачите прстом по екрану.</p>
     </div>
 
-    <div class="L3-Smaller-heading">Normal mode</div>
+    <div class="L3-Smaller-heading">Нормални режим</div>
 
     <div class="standard-text">
-    This mode is similar to selecting a text with your finger on a phone/tablet.
+    Овај режим је сличан начину на који се прстом бира текст на телефону/таблету.
     <ol>
-        <li>Long-press on the starting word</li>
-        <li>Move your finger to the end of the passage</li>
-        <li>Release finger</li>
+        <li>Дуги притисак на почетну реч</li>
+        <li>Померите прст на крај пасажа</li>
+        <li>Подигните прст са екрана</li>
     </ol>
-    <p>When you reach page boundaries, KOReader will turn the page for you to continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable this feature from:</p>
+    <p>Када наиђете на границу између две странице, KOReader ће окренути страницу да би могли да наставите истицање <b>(само у EPUB/HTML документма)</b>. Ову функцију можете да искључите из:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Auto-scroll when selection reaches a corner</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Дуги притисак на текст → Ауто скролуј када избор достигне угао</div>
 
     </div>
 
-    <div class="L3-Smaller-heading">Select and highlight mode</div>
+    <div class="L3-Smaller-heading">Режим Изабери и истакни</div>
 
     <div class="standard-text">
-    <div class="info"><span class="label_blue">INFO</span> If you have dictionary lookup enabled when long pressing a word, you have to drag your finger to initiate this mode.
+    <div class="info"><span class="label_blue">ИНФО</span> Ако вам је укључена претрага речника када извршите дуги притисак на реч, мораћете да превучете прстом када желите да активирате овај режим.
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Dictionary on single word selection</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Дуги притисак на текст → Речник приликом избора једне речи</div>
 
     <img loading="lazy" src="pictures/highlight_menu.png" style="width:500px;">
 
     <ol>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the starting word, popup menu will show up.</li>
-    <li>Tap on <span class="ui">Select</span>, now you are in highlighting mode. When you are in this mode, you will see an indicator at the upper left corner of the screen (which you can tap on it to get more information). You can cancel highlighting by tapping on the beginning of highlight again. You can turn pages with taps/swipes and freely navigate the document (TOC, skim etc) in this mode.</li>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the ending word for your highlight, menu will show up again.</li>
-    <li>Tap <span class="ui">Highlight</span> this time to finish highlighting the passage.</li>
+    <li>Дуги притисак (или превлачење ако је укључена претрага речника, као што је описано изнад) на почетну реч, појавиће се искачући мени.</li>
+    <li>Тапните на <span class="ui">Избор</span>, сада се налазите у режиму истицања. Док се налазите у овом режиму, у горњем левом углу екрана ћете видети индикатор (који можете да тапнете и добијете додатне информације). Истицање можете да откажете тапом на почетак истицања. У овом режиму можете да окрећете странице таповима/превлачењима и да се слободно крећете кроз документ (садржај, прелетање итд.).</li>
+    <li>Дуги притисак (или превлачење ако је укључена претрага речника, као што је описано изнад) на завршну реч истицања, поново ће да се појави мени.</li>
+    <li>Овај пут тапните на <span class="ui">Истицање</span> и завршите истицање пасажа.</li>
     </ol>
 
-    <p>This dialog normally opens at the center of the screen. If you want this dialog to open closer to your highlight location, you can change the center option here to gesture position (located on the second page of this menu):</p>
+    <p>Овај дијалог се у општем случају појављује на центру екрана. Ако желите да се отвори ближе локацији вашег истицања, овде можете да промените опцију центрирано на позиција гестикулације (која се налази на другој страници овог менија):</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Long-press on text → Highlight dialog position</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Тапови и гестикулације → Дуги притисак на текст → Позиција дијалога истицања</div>
 
-    <div class="tip"><span class="label_green">TIP</span> There is a <b>faster</b> method for this mode if you don’t need <b>long-press menu items</b> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
+    <div class="tip"><span class="label_green">САВЕТ</span> Постоји и <b>бржи</b> метод за овај режим у случају да вам нису потребне <b>ставке менија дугог притиска</b> приказане изнад. Искачући мени можете потпуно да искључите, па када извршите дуги притисак на реч, одмах улазите у режим <span class="ui">Избор и истицање</span>. Ова метода је много бржа и можете да истакнете текст било које дужине користећи само два тапа. Да бисте користили ову методу, укључите следећу опцију:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Long-press on text → Select and highlight</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Дуги притисак на текст → Изабери и истакни</div>
 
-    <div class="tip"><span class="label_green">TIP</span> KOReader can highlight a passage in different styles. If you use <span class="ui">Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class="ui">Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options via:
+    <div class="tip"><span class="label_green">САВЕТ</span> KOReader може да истакне пасаж користећи различите стилове. Ако користите опцију <span class="ui">Посветли</span>, позадина текста ће бити сива. Услед ограничења e-ink екрана, они не могу директно да промене боју са беле на сиву, тако да истакнути део најпре постане црн, па онда пређе у сиво. Ако желите да спречите ово трептање, можете да изаберете <span class="ui">Инвертуј</span> као стил истицања. У овом режиму ће позадина текста да буде црна, тако да ће боја моћи да се постави без бљескања. Ове опције истицања можете да подесите из:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Highlight style</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Стил истицања</div>
 
-    <div class="tip"><span class="label_green">TIP</span> You can add multiple highlights and notes to the same section of text. If they are overlapping, when you tap on a highlight you will be presented with a menu to choose which highlight you want to edit.
+    <div class="tip"><span class="label_green">САВЕТ</span> Једном те истом тексту можете да доделите више истицања и белешки. Ако се преклапају, када тапнете на истицање приказаће вам се мени у којем можете да изаберете истицање које желите да уређујете.
     </div>
     </div>
   
-    <div class="L3-Smaller-heading">Selecting punctuation</div>
+    <div class="L3-Smaller-heading">Избор интерпункције</div>
 
     <div class="standard-text">
-    When you are highlighting, KOReader tries to include the related punctuation marks around your selection. For example if you highlight from the first word to the last word of a sentence, KOReader will automatically include the punctuation marks at the both ends of the sentence to your highlight.
+    Када вршите истицање, KOReader покушава да у истицање укључи везане знакове интерпункције око текста који изаберете. На пример, ако истичете од прве до последње речи реченице, KOReader ће у истицање аутоматски да укључи знаке интерпункције са оба краја реченице.
     
-    <p>But if you start highlighting from the middle of a sentence, period at the end <b>will not be included</b> because KOReader assumes that you want to make a partial highlight. So if you want the punctuation marks to be added to your highlight, be sure that you select the <b>whole sentence</b>. Also you can add these marks later by long pressing the <span class="ui">Highlight edit</span> buttons.</p>
+    <p>Али ако истицање започнете из средине реченице, тачка на крају се <b>неће укључити у истицање</b> јер KOReader претпоставља да желите да извршите делимично истицање. Тако да ако желите да знаци интерпункције буду придодати тексту који истичете, постарајте се да изаберете <b>целу реченицу</b>. Ове знаке можете и касније да додате дугим притиском на дугмиће за <span class="ui">Уређивање истицања</span>.</p>
     </div>
 
-    <div class="L3-Smaller-heading">Editing a highlight</div>
+    <div class="L3-Smaller-heading">Уређивање истицања</div>
 
     <div class="standard-text">
-    <p>When you tap on an already highlighted text <b>(without a note)</b>, you will see this popup menu. <span class="ui">Delete</span> and <span class="ui">Add note</span> items are clear. Bottom row menu items are used to extend or shrink the highlight.</p>
+    <p>Када тапнете на текст који је већ истакнут <b>(али је без белешке)</b>, појавиће се следећи искачући мени. Ставке <span class="ui">Обриши</span> и <span class="ui">Додај белешку</span> су јасне. Доњи ред ставки менија се користи за проширивање или сажимање истицања.</p>
 
     <img loading="lazy" src="pictures/highlight_edit.png" style="width:500px;">
 
-    <div class="info"><span class="label_blue">INFO</span> This adjustment works only on reflowable documents like EPUBs. If you want to extend or shrink a highlight on PDFs, you have to delete it and highlight again due to the limitations of the PDF format.</div>
+    <div class="info"><span class="label_blue">ИНФО</span> Ово подешавање функционише само за документе који могу да се пресложе, као што су EPUB документи. Ако желите да проширите или сажмете истицање у PDF документима, услед ограничења PDF формата, морате најпре да их обришете па затим поново да истакнете.</div>
 
-    <p>When you tap on an already highlighted text <b>with a note added</b>, you will see this popup menu. Tap on <span class="ui">Edit highlight</span> to open the menu above where you can edit both the highlight and the contained note:</p>
+    <p>Када тапнете на текст који је већ истакнут <b>са додатом белешком</b>, приказаће вам се следећи искачући мени. Тапните на <span class="ui">Уреди истицање</span> и отвориће вам се горњи мени у којем можете да уредите и истицање и напомену везану за њега:</p>
 
     <img loading="lazy" src="pictures/note_edit.png" style="width:300px;">
 
-    <p>On your <span class="ui">Bookmarks</span> page you can filter the view to see only one type of bookmark by pressing the menu icon ( <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> ) You can also filter by highlight style:</p>
+    <p>На страници <span class="ui">Маркери</span> можете да филтрирате приказ тако да видите само један тип маркера тако што притиснете икону менија ( <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> ) Такође можете и да филтрирате по стилу истицања:</p>
 
     <img loading="lazy" src="pictures/bookmark_filter.png" style="width:800px;">
 
@@ -1740,81 +1740,81 @@ hr {
     <div class="L2-Sub-heading" id="exportinghighlights">Извоз ваших истицања</div>
 
     <div class="standard-text">
-    After finishing a book, you can move it to a specific folder for archiving or processing purposes. Enable <span class="ui">Move to archive</span> plugin and set your target directory in the plugin’s settings (<span class="ui">Set archive folder</span>). After this, you can move a book to your archive folder using:
+    Након што завршите књигу, можете да је преместите у посебан фолдер који служи архивирање или обраду. Укључите додатак <span class="ui">Премести у архиву</span> и у његовим подешавањима поставите циљни директоријум (<span class="ui">Постави директоријум архиве</span>). Након тога књигу можете да преместите у фолдер архиве:
     <ul>
-        <li><span class="ui">Move to archive</span> plugin menu</li>
-        <li>With a gesture or</li>
-        <li>With a <span class="ui">Quick Menu</span> entry</li>
+        <li>Менијем додатка <span class="ui">Премести у архиву</span></li>
+        <li>Гестикулацијом или</li>
+        <li>Ставком <span class="ui">Брзог менија</span></li>
     </ul>
-    KOReader provides different ways of exporting your highlights and notes from your reader device:
+    KOReader обезбеђује различите начине за извоз ваших истицања и белешки са уређаја за читање:
     </div>
     
-    <div class="L3-Smaller-heading">1. Export Highlights plugin</div>
+    <div class="L3-Smaller-heading">1. Додатак Извези истицања</div>
     
     <div class="standard-text">
-    This versatile plugin can export your highlights to <b>local files</b> or <b>online services</b>.
+    Овај свестрани додатак може да извезе ваша истицања у <b>локалне фајлове</b> или на <b>мрежне сервисе</b>.
 
-    <p><span class="ui">Local export:</span> You can export your highlights to your device in these file formats:</p>
+    <p><span class="ui">Локални извоз:</span> истицања можете да извезете на уређај у следећим фајл форматима:</p>
     <ul>
-        <li>Text (.txt)</li>
+        <li>Текст (.txt)</li>
         <li>HTML (.html)</li>
         <li>Markdown (.md)</li>
         <li>Kindle Clippings (.txt)</li>
         <li>JSON (.json)</li>
     </ul>
         
-    <p>You can choose your preferred export formats from:</p>
+    <p>Жељене формате извоза можете да изаберете из:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose formats and services</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Извези истицања → Избор формата и сервиса</div>
 
-    <p>You can see the export location (and also change it if you want):</p>
+    <p>Можете да видите (а такође и да измените ако то желите) локацију за извоз:</p>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Export Highlights → Choose export folder</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Извези истицања → Избор директоријума за извоз</div>
     
-    <p><span class="ui">Online services:</span> You can also export to these services over the network:</p>
+    <p><span class="ui">Мрежни сервиси:</span> такође можете и да извезете у следеће сервисе на мрежи:</p>
     <ul>
-        <li><span class="external">Joplin</span> (a note taking application) - <a href="https://joplinapp.org/">https://joplinapp.org/</a></li>
-        <li><span class="external">Readwise</span> (an online bookmarks/highlights application) - <a href="https://readwise.io/">https://readwise.io/</a> </li>
-        <li><span class="external">Memos</span> (a self-hosted open source memo hub) - <a href="https://github.com/usememos/memos">https://github.com/usememos/memos</a></li>
+        <li><span class="external">Joplin</span> (апликација за хватање белешки) - <a href="https://joplinapp.org/">https://joplinapp.org/</a></li>
+        <li><span class="external">Readwise</span> (мрежна апликација за маркере/истицања) - <a href="https://readwise.io/">https://readwise.io/</a> </li>
+        <li><span class="external">Memos</span> (мемо хаб отвореног кода који ви хостујете) - <a href="https://github.com/usememos/memos">https://github.com/usememos/memos</a></li>
         <li>
-            <span class="external">Flomo</span> (an online note taking service) - <a href="https://flomoapp.com">https://flomoapp.com</a>
+            <span class="external">Flomo</span> (мрежни сервис за хватање белешки) - <a href="https://flomoapp.com">https://flomoapp.com</a>
         </li>
         <li>
-            <span class="external">XMNote</span> (an Android bookmark organizer in Chinese language) - <a href="https://www.xmnote.com/">https://www.xmnote.com/</a>
+            <span class="external">XMNote</span> (Android организатор маркера на кинеском језику) - <a href="https://www.xmnote.com/">https://www.xmnote.com/</a>
         </li>
 
 
     </ul>
         
     
-    <p>You can find detailed setup instructions for these services on our related wiki page: <a href="https://github.com/koreader/koreader/wiki/Highlight-export">https://github.com/koreader/koreader/wiki/Highlight-export</a></p>
+    <p>Детаљна упутства за подешавање ових сервиса можете да пронађете на нашој одговарајућој вики страници: <a href="https://github.com/koreader/koreader/wiki/Highlight-export">https://github.com/koreader/koreader/wiki/Highlight-export</a></p>
     
 <br>
 
-    <p>After selecting your formats, you can export the notes for the <b>current book</b> or <b>all the books in your library</b> from the same plugin menu.</p>
-    <p>If you want to export only some of the books in your library, you can do this from the <span class="ui">File Browser</span>:</p>
+    <p>Када изаберете формате, из истог менија додатка можете да извезете белешке за <b>текућу књигу</b> или за <b>све књиге у библиотеци</b>.</p>
+    <p>Ако желите да извршите извоз само за неке књиге из библиотеке, то можете да урадите из <span class="ui">Прегледача фајлова</span>:</p>
     <ol>
-        <li>Select multiple books in the <span class="ui">File Browser</span></li>
-        <li>Tap on the menu button (shown as a check mark) at the top right corner</li>
-        <li>Select <span class="ui">Export highlights</span> from the menu shown</li>
+        <li>У <span class="ui">Прегледачу фајлова</span> изаберите неколико књига</li>
+        <li>Тапните на мени дугме (приказано као знак за штиклирање) у горњем десном углу</li>
+        <li>Из менија који се прикаже, изаберите <span class="ui">Извези истицања</span></li>
     </ol>
 
     </div>
     
-    <div class="L3-Smaller-heading">2. Using KoHighlights</div>
+    <div class="L3-Smaller-heading">2. Употребом KoHighlights</div>
 
     <div class="standard-text">
-        <span class="external">KoHighlights</span> is an external program that you can install on your computer. It can access your book notes and highlights when you plug your reader to your computer. Check the project page for download and instructions:
+        <span class="external">KoHighlights</span> је спољни програм који можете да инсталирате на свој компјутер. Када читач повежете на компјутер, он може да приступи белешкама и истицањима књиге. За више информација и преузимање, погледајте страницу пројекта:
         <p><a href="https://github.com/noembryo/KoHighlights">https://github.com/noembryo/KoHighlights</a></p>
     </div>
 
-    <div class="L3-Smaller-heading">3. Using Calibre</div>
+    <div class="L3-Smaller-heading">3. Употребом програма Calibre</div>
 
     <div class="standard-text">
-        <span class="external">Calibre</span> is an external program that you can install on your computer. You can import highlights into your <span class="external">Calibre</span> database with its <span class="external">KOReader Sync</span> plugin. You can install the mentioned plugin within the <span class="external">Calibre</span> application. Check the project page for download and instructions:
+        <span class="external">Calibre</span> је спољни програм који можете да инсталирате на свој компјутер. У базу података програма <span class="external">Calibre</span> можете да увезете истицања користећи његов <span class="external">KOReader Sync</span> додатак. Можете да га инсталирате из самог програма <span class="external">Calibre</span>. За више информација и преузимање, погледајте страницу пројекта:
         <p><a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
     
-        <div class="info"><span class="label_blue">INFO</span> When you open a document in KOReader, it creates a directory alongside the document with same name as the document. This directory contains a .LUA file which includes all the highlights, notes and user options (formatting properties etc.) related to that document. You can manually backup/restore these directories.
+        <div class="info"><span class="label_blue">ИНФО</span> Када у програму KOReader отворите документ, он уз њега креира директоријум са истим именом као и документ. Овај директоријум садржи .LUA фајл у коме се налазе сва истицања, белешке и корисничке опције (особине форматирања итд.) везане за тај документ. Можете ручно да направите резервне копије ових директоријума и да их опоравите.
         </div>
     </div>
 
@@ -1825,55 +1825,55 @@ hr {
 
     <div class="L2-Sub-heading" id="readingpdfs">Читање великих PDF докумената на малом екрану</div>
     <div class="standard-text">
-    KOReader provides you many ways to read a PDF/DJVU document which is optimized for bigger (generally it is A4 or Letter) page sizes on your smaller screen device:
+    KOReader омогућава разне начине за читање PDF/DJVU документа оптимизованих за веће (у општем случају A4 или Letter) формате странице на вашем уређају који поседује мали екран:
     
-    <div class="L3-Smaller-heading">1. You can enable <span class="ui">REFLOW</span></div>
+    <div class="L3-Smaller-heading">1. Можете да укључите <span class="ui">ПРЕСЛОЖИ</span></div>
 
-    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"> → Reflow</div>
+    <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ → <img class="img_inline" src="pictures/bottom_font.svg" style="width:26px;"> → Преслагање</div>
    
-    <p>Reflow tries to extract the text portion from your document (if it is available) and format it as a single column. Results are generally satisfactory. You can also set this as <b>DEFAULT</b> by tapping and holding on it.</p>
+    <p>Преслагање покушава да издвоји текстуални део документа (ако је доступан) и да га форматира у једну колону. Резултат је углавном задовољавајући. Ово такође можете да подесите и као <b>ПОДРАЗУМЕВАНО</b> тако што тапнете и задржите.</p>
   
     
-    <div class="L3-Smaller-heading">2. You can enable <span class="ui">ZOOM TO CONTENT</span></div>
+    <div class="L3-Smaller-heading">2. Можете да укључите <span class="ui">ЗУМИРАЈ НА САДРЖАЈ</span></div>
 
-    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img loading="lazy" class="img_inline" src="pictures/bottom_fit_content.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ→ <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img loading="lazy" class="img_inline" src="pictures/bottom_fit_content.svg" style="width:26px;"></div>
         
     <img loading="lazy" src="pictures/bottom_pdf_3.png" style="width:600px;">
 
  
-    <p>With this option KOReader tries to crop margins from your document so text may look bigger on your screen. You can set <span class="ui">FIT</span> to <span class="ui">WIDTH</span> in the same menu which will try to fit only page width instead of whole page, so your text will look bigger.</p>
+    <p>Овом опцијом KOReader покушава да опсече маргине документа тако да текст на екрану може изгледати већи. У истом менију можете да поставите и <span class="ui">УКЛОПИ</span> <span class="ui">ШИРИНУ</span> чиме се уместо целе, покушава уклапање само ширине странице, тако да ће текст изгледати већи.</p>
 
-    <div class="L3-Smaller-heading">3. You can try to use your device in <span class="ui">LANDSCAPE</span> orientation</div>
+    <div class="L3-Smaller-heading">3. Можете пробати да уређај користите у <span class="ui">ПОЛОЖЕНОЈ</span> оријентацији</div>
  
-    <p>This will make your screen wider so your document may look big enough to read comfortably.</p>
+    <p>На овај начин је екран шири, па документ може изгледати довољно велики за удобно читање.</p>
 
     <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ → <img loading="lazy" class="img_inline" src="pictures/bottom_orientation.svg" style="width:26px;"></div>
 
 
-    <div class="L3-Smaller-heading">4. You can see your document at full size and scroll the screen to read different parts</div>
+    <div class="L3-Smaller-heading">4. Документ можете да прикажете у пуној величини, па да скролујете екран и читате различите делове</div>
     
 
-    <p>This is especially helpful with comic books. First enable <span class="ui">COLUMN MODE</span> from this menu item:</p>
+    <p>Ово је посебно корисно за стрипове. Најпре у овом менију укључите <span class="ui">РЕЖИМ КОЛОНА</span>:</p>
 
-    <div class="menu-breadcrumbs">⇓ BOTTOM MENU → <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:26px;"></div>
+    <div class="menu-breadcrumbs">⇓ МЕНИ НА ДНУ→ <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:26px;"> → <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:26px;"></div>
 
-    <p>Then select an appropriate flow direction for your document from the same menu:</p>
+    <p>Затим у истом менију изаберите одговарајући смер тока:</p>
     
     <img loading="lazy" src="pictures/pdf_flow_types.png" style="width:400px;">
     
 
     <ul>
-        <li>For example if you are reading an article which has two columns, you will scroll down until the end of page reading left column then go to right upper side to continue reading right column:
+        <li>На пример, ако читате чланак који је сложен у две колоне, скроловаћете наниже све до краја странице читајући леву колону, па ћете затим да наставите читање десне колоне од горњег десног угла странице:
         <img loading="lazy" src="pictures/flow_pattern_DRD.svg" style="width:50px;"></li>
 
-        <li>Or if you are reading a comic book, you will want to go <b>“right → down left → right”</b> in a zigzag pattern:
+        <li>Или, ако читате стрип, одговараће вам да се крећете <b>„десно → доле лево → десно”</b> по цик-цак линији:
         <img loading="lazy" src="pictures/flow_pattern_RDR.svg" style="width:50px;"></li>
 
-        <li>For a Japanese comic book (right-to-left panel order) this might be the reverse:
+        <li>У случају јапанских стрипова (редослед панела с десна у лево) ово може бити обрнуто:
     <img loading="lazy" src="pictures/flow_pattern_LDL.svg" style="width:50px;"></li>
     </ul>
 
-    <p>In this mode you can also adjust <span class="ui">Horizontal/Vertical Overlap</span> and <span class="ui">Number of Columns</span> from the same menu to fit the text on your screen better. Feel free to experiment with these settings.</p>
+    <p>У овом режиму такође у истом менију можете да подесите и <span class="ui">Хоризонтално/Вертикално преклапање</span> и <span class="ui">Колоне</span> како би се текст још боље уклапао на екран. Слободно експериментишите са овим подешавањима.</p>
     </div>
 
 
@@ -1882,51 +1882,51 @@ hr {
     <img loading="lazy" src="pictures/bottom_pdf_6.png" style="width:400px;">
 
     <div class="standard-text">
-    <p><span class="ui">CONTRAST</span> This setting adjusts black levels in your document. Be aware that same contrast value applies to both text and images in your document. If you set it very high, your images may become too dark to be readable.</p>
-    <p><span class="ui">DEWATERMARK</span> Removes watermarks from the rendered document. It can also be used to remove gray backgrounds. This feature can convert a grayscale or color document to black & white to produce more contrast for easier reading.</p>
-    <p><span class="ui">RENDER QUALITY</span> <b>(REFLOW MODE)</b> Sets the quality of text and image extraction processing and output. <span class="ui">HIGH</span> is more pleasing but it can be much slower (several seconds for page turn) than <span class="ui">DEFAULT</span> depending on your document. If your PDF/DJVU files are slow, this is the first setting you should check.</p>
+    <p><span class="ui">КОНТРАСТ</span> Ово подешавање утиче на нивое црне у документу. Имајте на уму да се иста вредност контраста примењује и на текст и на слике. Ако је поставите на сувише велику вредност, слике могу постати превише тамне и нећете моћи да их прочитате.</p>
+    <p><span class="ui">УКЛАЊАЊЕ ВОДЕНОГ ЖИГА</span> Уклања водени жиг из исцртаног документа. Такође може да се употреби за уклањање сивих позадина. Ова функција може да конвертује документ који користи нијансе сиве или боје у црно-бели формат чиме се добија бољи контраст и олакшава читање.</p>
+    <p><span class="ui">КВАЛИТЕТ ИСЦРТАВАЊА</span> <b>(РЕЖИМ ПРЕСЛАГАЊА)</b> Поставља квалитет процеса издвајања текста и слика, као и квалитет излаза. <span class="ui">ВИСОКИ</span> је визуелно лепши, али у зависности од документа, може да буде много спорији (неколико секунди за окретање странице) у односу на <span class="ui">ПОДРАЗУМЕВАНО</span>. Ако су вам PDF/DJVU фајлови спори, ово је прво подешавање које би требало да проверите.</p>
         
     <hr>
         
     <img loading="lazy" src="pictures/bottom_pdf_7.png" style="width:400px;">
     
-    <p><span class="ui">DOCUMENT LANGUAGE</span> Sets the language to be used by the OCR engine.</p>
-    <p><span class="ui">FORCED OCR</span> Force the use of OCR even if the document has a text layer</p>
-    <p><span class="ui">WRITING DIRECTION</span> <b>(REFLOW MODE)</b> Text direction of original document. Set to RTL for languages like Arabic and Hebrew.</p>
-    <p><span class="ui">DOCUMENT COLUMNS</span> <b>(REFLOW MODE)</b> Number of text columns in the original document.</p>
+    <p><span class="ui">ЈЕЗИК ДОКУМЕНТА</span> Поставља језик који треба да користи OCR механизам.</p>
+    <p><span class="ui">ФОРСИРАНИ OCR</span> Форсира се употреба OCR чак и ако документ поседује текст слој</p>
+    <p><span class="ui">СМЕР ПИСАЊА</span> <b>(РЕЖИМ ПРЕСЛАГАЊА)</b> Смер текста оригиналног документа. Поставите на RTL (десно у лево) за језике као што су арапски и хебрејски.</p>
+    <p><span class="ui">КОЛОНЕ ДОКУМЕНТА</span> <b>(РЕЖИМ ПРЕСЛАГАЊА)</b> Број текст колона у оригиналном документу.</p>
         
     <hr>
 
     <img loading="lazy" src="pictures/bottom_pdf_2.png" style="width:400px;">
 
-    <p><span class="ui">AUTO STRAIGHTEN</span> feature can straighten the pages of a problematic document, for example pages of a PDF which are scanned with an angle. It is available in <b>PDF, DJVU, CBZ/CBT</b> documents and <b>image</b> files. To enable, choose the maximum tilt angle which KOReader will try to correct. If it doesn’t correct you might have to choose a bigger angle. Note that this feature <b>might slow down your reader</b> depending on several factors.</p>
+    <p>Функција <span class="ui">АУТОМАТСКО ИСПРАВЉАЊЕ</span> може да исправи странице проблематичних докумената, на пример, странице PDF документа који је скениран под углом. Доступна је за <b>PDF, DJVU, CBZ/CBT</b> документе и за фајлове <b>слика</b>. Да бисте је укључили, изаберите максимални угао нагнутости који ће KOReader покушати да коригује. Ако не успе, мораћете пробати да изаберете већи угао. Имајте на уму да би у зависности од више фактора, ова функција <b>могла да успори читач</b>.</p>
     </div>
     
     <div class="L2-Sub-heading" id="ocr">OCR (оптичко препознавање карактера)</div>
     <div class="standard-text">
-    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images into machine readable format. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <span class="external">Tesseract Open Source OCR Engine</span> for this task (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
+    <b>OCR (Оптичко препознавање карактера)</b> је процес издвајања текста из слика у формат који могу да прочитају машине. У контексту програма KOReader, оно се у општем случају користи за издвајање текста из скенираних страница књиге у PDF фајловима. KOReader се за обављање овог задатка ослања на <span class="external">Tesseract Open Source OCR Engine</span> (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
     
-    <p>In order to use this feature you need to:</p>
+    <p>Да бисте користили ову функцију, потребно је да:</p>
     <ol>
-        <li>Install <span class="external">Tesseract</span> language data to your KOReader</li>
-        <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
+        <li>Инсталирате <span class="external">Tesseract</span> податке о језику у свој KOReader</li>
+        <li>Додате ново инсталиране језике у koreader/defaults.lua конфигурациони фајл (неопходно је у случају да је ваш језик није енглески или кинески)</li>
     </ol>
     
-    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in the related wiki page: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
+    <div class="info"><span class="label_blue">ИНФО</span> Дугмићи у OCR менију <b>неће функционисати</b> све док не инсталирате неопходне Tesseract фајлове. Детаље овог процеса можете да пронађете на одговарајућој вики страници: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
     </div>
     </div>
 
     <div class="L2-Sub-heading" id="panelzoom">Панел зум (манга/стрип)</div>
     <div class="standard-text">
-    This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:
+    Ова функција олакшава читање стрипова на мањим екранима. Можете да је укључите док читате <b>PDF, DJVU, CBZ или CBT</b> документ из:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Panel Zoom (manga/comic)</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Зумирање табле (манга/стрип)</div>
 
-    <p>When this option is enabled, KOReader tries to find the boundaries of rectangular panels on the screen. If you long-tap on a panel, KOReader zooms in to that panel. As you can guess, this feature works best with comics that has clean panel boundaries. Procedure can be seen below:</p>
+    <p>Када је ова опција укључена, KOReader покушава да пронађе границе правоугаоних табли на екрану. Ако извршите дуги тап на таблу, KOReader се зумира на ту таблу. Као што можете да претпоставите, ова функција најбоље ради са стриповима који имају јасне границе табли. Процедура може да се види испод:</p>
     
     <img loading="lazy" src="pictures/panel_zoom.png" style="width:600px;">
     
-    <p>If you want to use this feature with other file types like EPUB, FB2, HTML or image files, you should open the file with a different engine: In the <span class="ui">File Browser</span> long-tap on the file name, tap <span class="ui">Open with…</span> and select <span class="ui">MuPDF</span>.</p>
+    <p>Ако ову функцију желите да користите и са осталим типовима фајлова као што су EPUB, FB2, HTML или фајлови слика, потребно је да фајл отворите другим механизмом: у <span class="ui">Прегледачу фајлова</span> извршите дуги тап на име фајла, тапните на <span class="ui">Отвори помоћу…</span> и изаберите <span class="ui">MuPDF</span>.</p>
     </div>
 
 
@@ -1938,45 +1938,45 @@ hr {
         
 <div class="L2-Sub-heading" id="transferring">Пренос књига на читач</div>
 <div class="standard-text">
-KOReader supports <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM and ZIP</b> files.
+KOReader подржава <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM и ZIP</b> фајлове.
 
-<p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format. You can use <span class="external">Calibre</span> (<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>) for all kinds of conversion between formats.</p>
+<p>KOReader може да пресложи PDF документе (ова опција може да се пронађе у менију на дну док читате документ фиксног распореда, као што је PDF) чиме постају погодни заприказ на малим екранима e-читача. Али ако желите најбоље резултате, било би боље да документе конвертујете у флексибилнији EPUB формат. За све врсте конверзија између формата можете да употребите програм <span class="external">Calibre</span> (<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>).</p>
 
-<p>There are many ways to transfer your documents to your device. Note that you may need to restart KOReader to index the transferred documents (or refresh directory if you have Pocketbook/Android).</p>
+<p>Постоји много начина да пренесете документе на уређај. Имајте на уму да ћете морати поново да покренете програм KOReader како би индексирао пренесене документе (или да освежите директоријум ако имате Pocketbook/Android).</p>
 
-<p>In addition to transferring files the same way you would with the built-in reader application, other options are available depending on your device:</p>
+<p>Уз пренос фајлова на исти начин на који то радите апликацијом за читање уграђеном у читач, у зависности од уређаја, постоје и друге опције:</p>
 
 
 <ol>
-    <li><b>USB mass storage mode within KOReader:</b> This mode is available for KOBO and some CERVANTES devices.</li>
-    <li><b>Cloud storage (<span class="external">Dropbox</span>/FTP/Webdav):</b> To use this function you have to add accounts for a cloud storage server via menu shown below. Process is explained via <span class="ui">INFO</span> buttons while adding accounts:
+    <li><b>Режим USB масовног складишта унутар програма KOReader:</b> овај режим је доступан за KOBO и неке CERVANTES уређаје.</li>
+    <li><b>Складиште у облаку (<span class="external">Dropbox</span>/FTP/Webdav):</b> да бисте користили ову функцију, морате да у менију приказаном испод додате налоге за сервер складишта у облаку. Процес је објашњен у <span class="ui">ИНФО</span> дугмадима током додавања налога:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Cloud storage</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ (у Прегледачу фајлова) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Складиште у облаку</div>
     </li>
 
-    <li><b>SSH/SFTP access:</b> KOReader can act like an <b>SSH server</b>, which you can access from a computer to transfer files (available on Kobo, Kindle, Cervantes). You can use an SFTP application (like <span class="external">Filezilla</span>) or access via your file manager if your operating system supports. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
-    <li><b>Calibre transfer:</b> With the <span class="external">Calibre plugin</span> you can send documents from your Calibre Library directly to your KOReader devices via a wifi connection. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
-    <li><b>News downloader:</b> With this plugin you can download <b>RSS and Atom</b> news entries as HTML files. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
-    <li><b>Wallabag:</b> With this plugin you can retrieve articles from <span class="external">Wallabag</span>, a server based read-it-later service like Pocket. Check wiki page for more info: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
+    <li><b>SSH/SFTP приступ:</b> KOReader може да се понаша као <b>SSH сервер</b>, па можете са компјутера да му приступите и да преносите фајлове (доступно на Kobo, Kindle, Cervantes). Можете да употребите SFTP апликацију (као што је <span class="external">Filezilla</span>), или у случају да оперативни систем који користите то подржава, приступите из менаџера фајлова. На викију се налази упутство како то да урадите: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
+    <li><b>Calibre трансфер:</b> уз помоћ <span class="external">Calibre додатка</span> можете да шаљете документе из Calibre Библиотеке директно на KOReader уређаје преко wifi мреже. На викију се налази упутсво како се то ради: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
+    <li><b>Преузимач вести:</b> овим додатком можете да преузмете <b>RSS и Atom</b> ставке вести као HTML фајлове. На викију се налази упутство како се то ради: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
+    <li><b>Wallabag:</b> овим додатком можете да преузмете чланке са <span class="external">Wallabag</span>, сервиса за накнадно читање базираног на серверу који личи на Pocket. За више информација, погледајте вики страницу: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
 </ol>
 </div>
 
-<div class="L3-Smaller-heading">Custom book cover using a screenshot</div>
+<div class="L3-Smaller-heading">Призвољни омот књиге коришћењем слике екрана</div>
 <div class="standard-text">
-Some books don’t come with proper book covers. Or they may have their cover on the second page so it doesn’t show up properly. Or maybe the cover is not suitable for e-ink (too light or dark). Or you prefer to set some image from the book as cover.
+Неке књиге немају праве омоте. Или можда имају омот на другој страници, па се онда не приказује како треба. Или омот можда није погодан за e-ink екране (сувише је светао или таман). Или вам се као омот више свиђа нека слика из књиге.
 
-<p>In situations like this you can quickly take a screenshot and set it as the current book’s cover. Screenshot gesture is a <b>long diagonal swipe</b> by default. Also <b>touching opposing diagonal corners</b> will take a screenshot. You can use this second shortcut when viewing an image. After taking your screenshot you can select <span class="ui">Set as book cover</span> from the dialog.</p>
+<p>У таквим ситуацијама брзо можете да направите снимак екрана и да га поставите као омот књиге. Подразумевана гестикулација за снимак екрана је <b>дугачко дијагонално превлачење</b>. Снимак екрана ће такође да направи и <b>додиривање супротних дијагоналних углова</b>. Ову другу пречицу можете да употребите када се приказује слика. Када направите снимак екрана из дијалога можете да изаберете <span class="ui">Постави као омот књиге</span>.</p>
 
-<p>You can remove this custom book cover here:</p>
+<p>Овде можете да уклоните овај произвољни омот књиге:</p>
 
-<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
+<div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Информације о књизи</div>
 
-<p>On the book information page, long-press on the <span class="ui">Cover image</span> item and then select <span class="ui">Reset custom</span>.</p>
+<p>На страници информација о књизи извршите дуги притисак на ставку <span class="ui">Слика корица</span> па изаберите <span class="ui">Ресетуј произвољно</span>.</p>
 
 <p>You can also reset the book cover with the <span class="ui">Reset</span> dialog, which you can access by long-pressing the filename in the <span class="ui">File Browser</span>.</p>
 
 <div class="warning">
-<span class="label_red">WARNING</span> Be very careful when using this <b>Reset</b> dialog and be sure that only <b>Custom cover image</b> item is checked otherwise you can reset everything related to your book accidentally.
+<span class="label_red">УПОЗОРЕЊЕ</span> Будите врло пажљиви када користите овај <b>Ресет</b> дијалог и будите сигурни да је штиклирана само ставка <b>Произвољна слика корица</b>, јер у супротном нехотично можете да ресетујете све у вези са том књигом.
 </div>
 
 </div>
@@ -1984,74 +1984,74 @@ Some books don’t come with proper book covers. Or they may have their cover on
 <div class="L2-Sub-heading" id="optimizing">Оптимизовање EPUB/PDF докумената за мобилни читач</div>
 
 <div class="standard-text">
-Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).
+Најчешће коришћене апликације за конвертовање и оптимизацију докумената за преносни уређај за читање су <span class="external">Calibre</span> (фокусирана на <b>EPUB, Kindle</b>) и <span class="external">K2pdfopt</span> (фокусирана на <b>PDF</b>).
 
-<p><span class="external">Calibre</span> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+<p><span class="external">Calibre</span> може да конвертује документе између разних формата. Он такође има и уграђени едитор који вам омогућава да уређујете e-књиге (и исправите проблеме) у најпопуларнијим форматима e-књига, EPUB и Kindle. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
 
-<p><span class="external">K2pdfopt</span> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool. <a href="https://www.willus.com/k2pdfopt/">https://www.willus.com/k2pdfopt/</a></p>
+<p><span class="external">K2pdfopt</span> оптимизује PDF/DJVU фајлове за мобилне e-читаче и смартфоне. Фино ради у случају PDF/DJVU фајлова сложених у више колона и може да пресложи текст чак и на скенираним PDF фајловима. Такође може да се користи и као општи алат за манипулацију PDF докумената који нуди копирање/опсецање/измену величине/OCR-овање. <a href="https://www.willus.com/k2pdfopt/">https://www.willus.com/k2pdfopt/</a></p>
 
-<p><span class="external">OCRmyPDF</span> is a command line application which can add an OCR text layer to scanned PDF files (containing only images without text), allowing them to be searched or copy-pasted. It can especially be useful for reading old scanned books. It can also optimize the images for a smaller file size. <a href="https://github.com/ocrmypdf/OCRmyPDF">https://github.com/ocrmypdf/OCRmyPDF</a></p>
+<p><span class="external">OCRmyPDF</span> је апликација из командне линије која скенираним PDF фајловима (који садрже само слике без текста) може да дода OCR текст слој, тако да могу да се претражују или да се текст из њих копира и налепљује. Може бити посебно корисна за читање старих скенираних књига. Такође може да оптимизује слике смањивањем величине. <a href="https://github.com/ocrmypdf/OCRmyPDF">https://github.com/ocrmypdf/OCRmyPDF</a></p>
 
-<p><span class="external">SingleFile</span> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a single .html file with all resources (images, stylesheets, scripts) embedded. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
+<p><span class="external">SingleFile</span> је екстензија прегледача за <b>Mozilla Firefox, Google Chrome</b> и <b>Microsoft Edge</b>. Ова екстензија омогућава чување веб страница као један  .html у који су уграђени сви ресурси (слике, листе стилова, скрипте). <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
 </div>
 
 <div class="L2-Sub-heading" id="zipfiles">Подршка за ZIP фајл</div>
 
 <div class="standard-text">
-KOReader can read files stored/compressed in <b>ZIP</b> files. A ZIP file can contain many types of documents like html, txt or images. KOReader can open your ZIP file properly if you give it a hint for the type of file in the ZIP archive. If you give your file only a <b>.zip</b> extension, KOReader will assume that this archive contains images and try to open it like a <b>CBZ</b> file.
+KOReader може да чита фајлове смештене/компресоване у <b>ZIP</b> фајлове. ZIP фајл може да садржи разне типове докумената као што су html, txt или слике. KOReader може правилно да отвори ZIP фајл ако му у називу ZIP архиве дате наговештај о типу фајлова који се налазе у архиви. Ако фајлу дате само <b>.zip</b> екстензију, KOReader ће претпоставити да та архива садржи слике и покушаће да је отвори као <b>CBZ</b> фајл.
 
-<p><span class="ui">DEFAULT CASE:</span> yourfilename<b>.zip</b> - Assumed to be a zip file of images (and opened by <span class="ui">MuPDF engine</span>)</p>
+<p><span class="ui">ПОДРАЗУМЕВАНИ СЛУЧАЈ:</span> имефајла<b>.zip</b> - претпоставља се да је у питању zip фајл слика (и отвара се <span class="ui">MuPDF механизмом</span>)</p>
 
-<p>If your zip file contains one of these types (instead of just images), please name it accordingly:</p>
+<p>Ако zip фајл садржи један од следећих типова (а не само слике), молимо вас да га назовете на одговарајући начин:</p>
 
 <ul>
-    <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
-    <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
-    <li><b>Text log files</b> - yourfilename.<b>log.zip</b></li>
-    <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
-    <li><b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b></li>
-    <li><b>Plain text</b> - yourfilename.<b>txt.zip</b></li>
+    <li><b>FictionBook</b> - имефајла.<b>fb2.zip</b></li>
+    <li><b>HTML</b> - имефајла.htm.zip / имефајла.<b>html.zip</b></li>
+    <li><b>Text log files</b> - имефајла.<b>log.zip</b></li>
+    <li><b>Markdown</b> - имефајла.<b>md.zip</b></li>
+    <li><b>Rich Text Format</b> - имефајла.<b>rtf.zip</b></li>
+    <li><b>Plain text</b> - имефајла.<b>txt.zip</b></li>
 </ul>
 
-<p>If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class="ui">No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class="ui">Open with...</span> to select the correct engine.</p>
+<p>У случају да фајлови немају оваква имена, највероватније ће се употребити погрешан механизам читача/формата и појавиће се порука <span class="ui">За овај фајл не постоји механизам читања или фајл није исправан</span>. Можете да промените име фајла на начин који је описан изнад или да извршите дуги притисак на име фајла и изаберете <span class="ui">Отвори помоћу...</span> да изаберете исправни механизам.</p>
 </div>
 
 
 <div class="L2-Sub-heading" id="manga">Оптимизовање манга за мобилни читач</div>
 
 <div class="standard-text">
-If you like reading manga books on your e-ink device there are some tips that can make your experience better. Preparing your own manga files is the best solution if you're not satisfied with how comics look on your device.
+Ако на e-ink уређају читате манга књиге постоје неки савети којима можете да унапредите искуство читања. Ако нисте задовољни како стрипови изгледају на уређају који користите, најбоље решење је да сами припремите манга фајлове.
 
-<div class="L3-Smaller-heading">File type</div>
-<p>File types like MOBI and EPUB are not suitable for handling primarily image content (e.g., manga/comics). <b>MOBI</b> support in KOReader is minimal to nonexistent, and <b>EPUB’s</b> text rendering priorities can cause problems when showing full-page images. For further technical details:</p>
+<div class="L3-Smaller-heading">Тип фајла</div>
+<p>Типови фајлова као што су MOBI и EPUB нису погодни за обраду садржаја који су претежно слике (нпр., манга/стрипови). Подршка за <b>MOBI</b> у програму KOReader је минимална до никаква, а <b>EPUB</b> приоритети у исцртавању текста могу да буду извор проблема када се приказују слике на целом екрану. За више техничких детања:</p>
 
 <p><a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205</a>).
 </p>
 
-<p>Your best option is building a <b>CBZ</b> file which works better in KOReader. A file with <b>.cbz</b> extension is a zip file (with no compression) that is a collection of images. It saves multiple images, commonly <b>.png</b> or <b>.jpeg</b> files, organized into pages of the comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</b> files but use <b>TAR</b> archive format.</p>
+<p>Најбоља опција је да изградите <b>CBZ</b> фајл који много боље функционише у програму KOReader. Фајл са <b>.cbz</b> екстензијом је zip фајл (без компресије) који представља колекцију слика, најчешће <b>.png</b> или <b>.jpeg</b> фајлова, организованих у странице стрипа. KOReader такође може да отвори и <b>CBT</b> фајлове који су слични са <b>CBZ</b> фајловима али користе формат <b>TAR</b> архиве.</p>
 
-<p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that eink-rendered gradients are smoothly dithered without jagged layers.</p>
+<p>Најједноставнији начин да конвертујете мангу у <b>CBZ</b> је да са разних веб сајтова преузмете мангу као слике, па да их затим конвертујете програмом <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). Постоје нека корисна подешавања као што су <b>ауто ротирање подела од две странице на положену оријентацију и примена дитеринга</b> тако да су градијенти исцртани на e-ink екрану глатко дитеровани, без појаве назубљених слојева.</p>
 
-<div class="L3-Smaller-heading">Resolution</div>
-<p>The best results can be achieved by resizing your images to exactly your e-reader screen size. A screen-specific <b>CBZ</b> which targets the exact screen size of the device, prevents rescaling during reading. KOReader downscales your images to your screen size while reading but this is not recommended because KOReader adds a dithering pass before scaling and this causes loss of quality.</p>
+<div class="L3-Smaller-heading">Резолуција</div>
+<p>Најбољи резултати се добијају ако промените величину слика на тачну величину екрана e-читача. <b>CBZ</b> специфичан за екран који циља на тачну величину екрана уређаја спречава скалирање током читања. KOReader током читања може да смањује слике на величину екрана, али се то не препоручује, јер KOReader пре скалирања додаје корак дитеровања, а тиме се губи квалитет.</p>
 
-<p>But if you want to use your hand made <b>CBZ</b> on more than one device or you want to preserve high resolution for future proofing, your best option might be to make the <b>CBZ</b> for your highest resolution device. Or pick an arbitrary "high" resolution, possibly one that matches the source. <b>300 PPI</b> or better (up to <b>450</b> or even <b>600</b>), unless the source is lower of course. If we assume a screen size of <b>8", 1500×2000</b> is a good target resolution. For bigger images, you should try it on your device and see whether it can deal with it. Especially old Kindles with low memory can struggle with sizes like <b>3000×4000</b> for example. If you're automating the process, it might be worth considering creating both a lower and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI).</p>
+<p>Али ако желите да свој ручно направљени <b>CBZ</b> користите на више уређаја, или ако желите да очувате високу резолуцију за накнадне поправке, најбоља опција би била да <b>CBZ</b> направите тако да одговара уређају са највишом резолуцијом. Или да изаберете произвољну „високу” резолуцију, по могућству ону која одговара оригиналима. <b>300 PPI</b> или боље (до <b>450</b> или чак <b>600</b>), осим наравно, ако је извор ниже резолуције. Ако претпоставимо екран величине <b>8", 1500×2000</b> је добра циљна резолуција. У случају већих слика, требало би да их пробате на уређају и видите може ли да се носи са њима. На пример, доста стари Kindle уређаји са мало меморије могу да имају проблема са величинама као што су <b>3000×4000</b>. Ако аутоматизујете процес, може бити корисно да размотрите истовремено креирање верзија нижег и вишег квалитета (нпр. <b>200/400</b> или <b>300/600</b> DPI).</p>
 
-<div class="info"><span class="label_blue">INFO</span> KOReader doesn't parse <b>spine page-progression-direction="rtl"</b> attribute of the books. So it doesn’t change page turning direction even though the file was created with right-to-left reading. Users can switch this via:
+<div class="info"><span class="label_blue">ИНФО</span> KOReader не парсира <b>spine page-progression-direction="rtl"</b> атрибут књига. Тако да не мења смер окретања страница чак и када је фајл креиран за читање с десна у лево. Корисници то могу да укључе у следећем менију:
 </div>
 
-<div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Page turns → Invert page turn tap and swipes / buttons</div>
+<div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Окретање странице → Обрни тапове и превлачења за окретање страница</div>
 
 </div>
 
-<div class="L3-Smaller-heading">Advanced preparation of manga</div>
+<div class="L3-Smaller-heading">Напредна припрема манги</div>
 
 <div class="standard-text">
-The following is an example procedure to process one manga file:
+Следи пример процедуре за обраду једног манга фајла:
 <ul>
-    <li>Download <span class="external">Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
-    <li>Download your manga from the source of your choosing (i.e. <span class="external">HakuNeko</span>)</li>
-    <li>Unpack the manga file. Now you should have a directory that contains only images (or subdirectories with images, no archives)</li>
+    <li>Преузмите <span class="external">Kindle Comic Converter (KCC)</span> са адресе <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
+    <li>Преузмите мангу из извора који желите да користите (нпр. <span class="external">HakuNeko</span>)</li>
+    <li>Распакујте манга фајл. Сада би требало да имате директоријум који садржи само слике (или поддиректоријуме са сликама, без архива)</li>
     <li>Process this directory with <span class="external">KCC</span>. Each directory will produce a single <b>CBZ</b> file, so if you want to make several volumes at once, select multiple directories at once</li>
 </ul>
 
@@ -2953,7 +2953,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
         <div class="L3-Smaller-heading">Line/word count of a page</div>
         <p>If you want to know how many lines or words are being shown on the current page you can see it at:</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Book information</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Информације о књизи</div>
 
 
         <div class="L3-Smaller-heading"> How can I add a password lock to KOReader?</div>
