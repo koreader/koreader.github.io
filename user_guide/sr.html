@@ -1973,7 +1973,7 @@ KOReader подржава <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, T
 
 <p>На страници информација о књизи извршите дуги притисак на ставку <span class="ui">Слика корица</span> па изаберите <span class="ui">Ресетуј произвољно</span>.</p>
 
-<p>You can also reset the book cover with the <span class="ui">Reset</span> dialog, which you can access by long-pressing the filename in the <span class="ui">File Browser</span>.</p>
+<p>Омот књиге такође можете да ресетујете дијалогом <span class="ui">Ресетуј</span>, којем приступате дугим притиском на име фајла у <span class="ui">Прегледачу фајлова</span>.</p>
 
 <div class="warning">
 <span class="label_red">УПОЗОРЕЊЕ</span> Будите врло пажљиви када користите овај <b>Ресет</b> дијалог и будите сигурни да је штиклирана само ставка <b>Произвољна слика корица</b>, јер у супротном нехотично можете да ресетујете све у вези са том књигом.
@@ -1992,7 +1992,7 @@ KOReader подржава <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, T
 
 <p><span class="external">OCRmyPDF</span> је апликација из командне линије која скенираним PDF фајловима (који садрже само слике без текста) може да дода OCR текст слој, тако да могу да се претражују или да се текст из њих копира и налепљује. Може бити посебно корисна за читање старих скенираних књига. Такође може да оптимизује слике смањивањем величине. <a href="https://github.com/ocrmypdf/OCRmyPDF">https://github.com/ocrmypdf/OCRmyPDF</a></p>
 
-<p><span class="external">SingleFile</span> је екстензија прегледача за <b>Mozilla Firefox, Google Chrome</b> и <b>Microsoft Edge</b>. Ова екстензија омогућава чување веб страница као један  .html у који су уграђени сви ресурси (слике, листе стилова, скрипте). <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
+<p><span class="external">SingleFile</span> је екстензија прегледача за <b>Mozilla Firefox, Google Chrome</b> и <b>Microsoft Edge</b>. Ова екстензија омогућава чување веб страница као један .html у који су уграђени сви ресурси (слике, листе стилова, скрипте). <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
 </div>
 
 <div class="L2-Sub-heading" id="zipfiles">Подршка за ZIP фајл</div>
@@ -2052,64 +2052,64 @@ KOReader може да чита фајлове смештене/компресо
     <li>Преузмите <span class="external">Kindle Comic Converter (KCC)</span> са адресе <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
     <li>Преузмите мангу из извора који желите да користите (нпр. <span class="external">HakuNeko</span>)</li>
     <li>Распакујте манга фајл. Сада би требало да имате директоријум који садржи само слике (или поддиректоријуме са сликама, без архива)</li>
-    <li>Process this directory with <span class="external">KCC</span>. Each directory will produce a single <b>CBZ</b> file, so if you want to make several volumes at once, select multiple directories at once</li>
+    <li>Обрадите овај директоријум са <span class="external">KCC</span>. Сваки директоријум ће да креира један <b>CBZ</b> фајл, тако да ако желите одједном да направите неколико томова, изаберите више директоријума одједном</li>
 </ul>
 
-<p>Some useful settings of <span class="external">KCC</span>:</p>
-<p><b>Spread splitter:</b> This feature detects double pages and allows you to rotate or cut them in two.</p>
-<p><b>Upscaling:</b> Enlarge images that is smaller than your target resolution.</p>
+<p>Нека корисна подешавања програма <span class="external">KCC</span>:</p>
+<p><b>Spread splitter:</b> ова функција детектује двоструке странице и омогућава вам да их ротирате или да из пресечете на две странице.</p>
+<p><b>Upscaling:</b> повећава слике које су мање од циљне резолуције.</p>
 </div>
 
-<div class="L3-Smaller-heading">Immersive mode in KOReader</div>
+<div class="L3-Smaller-heading">Окружујући режим у програму KOReader</div>
 
 <div class="standard-text">
-If you would like to enjoy your manga in a more immersive way, make sure that you selected the exact same resolution as your device’s screen resolution in <b>KCC</b> when creating your <b>CBZ</b> file. Also you can hide the bottom progress bar while reading your manga in KOReader. So you will have an immersive full screen view of your manga without obstructions.
+Ако у манги желите да уживате на окружујући начин, док креирате <b>CBZ</b> обезбедите да сте у <b>KCC</b> изабрали потпуно исту резолуцију као што је резолуција екрана вашег уређаја. Такође, док читате мангу KOReader можете да сакријете траку напретка на дну. Тако ћете на мангу добити окружујући поглед пуног екрана, без сметњи.
 </div>
 
 
-<div class="L3-Smaller-heading">Extra step for smooth gradients <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+<div class="L3-Smaller-heading">Додатни корак за глатке градијенте <span class="warning"><span class="label_red">!!! НАПРЕДНО</span></span></div>
 
 <div class="standard-text">
-After using <span class="external">KCC</span> to create a <b>CBZ</b> file, you can apply additional <b>dithering</b> to the images. This way, eink-rendered gradients will be smoothly dithered without jagged layers. This step will produce fine-tuned manga volumes which look better in KOReader.
+Када употребите <span class="external">KCC</span> да креирате <b>CBZ</b> фајл, на слике можете да примените додатно <b>дитеровање</b>. На тај начин ће се градијенти на e-ink екрану исцртавати глатко, без назубљених слојева. Овај корак ће креирати фино подешене манга томове који много боље изгледају у програму KOReader.
 
-<p>You can use <span class="external">ImageMagick</span> to process your images. <span class="external">ImageMagick</span>, is a powerful open-source software suite for displaying, creating, converting, modifying, and editing raster images. You can download <span class="external">ImageMagick</span> and use it from the command line to process many images at once.</p>
+<p>За обраду слика можете да употребите <span class="external">ImageMagick</span>. <span class="external">ImageMagick</span> је моћна софтверска свита отвореног кода која служи за приказивање, креирање, конвертовање, измену и уређивање растерских слика. Можете да преузмете <span class="external">ImageMagick</span> и да га из командне линије користите за истовремену обраду великог броја слика.</p>
 
 <ol>
-    <li>Unpack the prepared <b>CBZ</b> file that you created with <span class="external">KCC</span>,</li>
-    <li>Download the following file (<b>dither_pack.zip</b>) which contains two <b>batch files (.BAT)</b> and a <b>GIF</b> color template: <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></li>
-    <li>Extract these three files next to your images that will be processed</li>
-    <li>Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution to your device resolution (in both places in the <b>BAT</b> file).
-    <p class="warning"><span class="label_red">WARNING</span> Next step will replace all the images in the directory with the processed ones. So make sure that you have a copy of them in some other directory if you want to keep the originals.</p>
+    <li>Распакујте припремљени <b>CBZ</b> фајл који сте креирали програмом <span class="external">KCC</span>,</li>
+    <li>Преузмите следећи фајл (<b>dither_pack.zip</b>) који садржи два <b>batch фајла (.BAT)</b> и <b>GIF</b> шаблон у боји: <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></li>
+    <li>Распакујте та три фајла уз слике које треба да се обраде</li>
+    <li>Уредите <b>_magick_manga_ditherN_resize.bat</b> и промените резолуцију тако да одговара резолуцији вашег уређаја (на оба места у <b>BAT</b> фајлу).
+    <p class="warning"><span class="label_red">УПОЗОРЕЊЕ</span> Наредни корак ће заменити све слике у директоријуму обрађеним сликама. Обавезно направите копију у неки други директоријум ако желите да задржите и оригинале.</p>
     </li>
-    <li>Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images.</li>
-    <li>Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to pack all the processed images into a <b>CBZ</b> archive.</li>
+    <li>Покрените <b>_magick_manga_ditherN_resize.bat</b> да измените величину слика и да примените дитер.</li>
+    <li>Под претпоставком да имате инсталиран програм <b>7-Zip</b>, покрените <b>_batch_archive.bat</b> да обрађене слике спакујете у <b>CBZ</b> архиву.</li>
 </ol>
 
 </div>
 
-<div class="L3-Smaller-heading">Reversing the page turn direction for authentic Japanese manga <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+<div class="L3-Smaller-heading">Обртање смера окретања страница за аутентичне јапанске манге <span class="warning"><span class="label_red">!!! НАПРЕДНО</span></span></div>
 
 <div class="standard-text">
-You can make KOReader turn pages from <b>Left to Right</b>, so that swipes and tap zones are swapped. To enable this, add the following lines to this file → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
+Програм KOReader можете да подесите тако да странице окреће са <b>Лева у десно</b>, тако да су превлачења и тап зоне обрнуте. Да бисте ово укључили, додајте следеће линије у овај фајл → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
 
-<p>where <b>/storage/emulated/0/Books/manga</b> is the absolute path to the directory containing your mangas. After this change, when you open a file from the mentioned directory, your swipes and tap zones will be swapped.</p>
+<p>где је <b>/storage/emulated/0/Books/manga</b> апсолутна путања директоријума који садржи манге. Након ове измене, када отворите фајл из поменутог директоријума, превлачења и тап зоне ће бити обрнути.</p>
 </div>
 
 
-<div class="L3-Smaller-heading">Tip when reading serialized books like manga</div>
+<div class="L3-Smaller-heading">Савет за читање серијализованих књига као што су манге</div>
 <div class="standard-text">
-When you reach the last page of a book, KOReader shows you a dialog. In this dialog there is an <span class="ui">Open next file</span> action which will open the next file in the same directory as the current book. So you can put your series in separate directories and read them one after another without going back to the <span class="ui">File Browser</span>.
+Када дођете до последње странице књиге, KOReader вам приказује дијалог. У њему се налази акција <span class="ui">Отвори наредни фајл</span> која ће да отвори наредни фајл у истом директоријуму у којем се налази и текућа књига. Тако да серије можете да поставите у посебне директоријуме и да епизоде читате једну за другом, без потребе да одлазите назад у <span class="ui">Прегледач фајлова</span>.
 
 <img loading="lazy" src="pictures/open_next_file.png" style="width:450px;">
 
-<p> When opening this next file, KOReader skips the files that you have marked as <b>finished</b>. This feature is useful for example when you have a folder of manga files and you have already read some of them. You can mark a file as finished from the end of book dialog shown above. Also you can mark it from the <span class="ui">File Browser</span> by long-pressing on the file. After copying them to your device, you can: </p>
+<p> Када отвара овај наредни фајл, KOReader прескаче фајлове које сте означили као <b>завршене</b>. Ова функција је корисна на пример, када имате фолдер манга фајлова и неке од њих сте већ прочитали. Фајл можете да означите као прочитан на крају дијалога приказаног изнад. Такође можете да га означите из <span class="ui">Прегледача фајлова</span> тако што извршите дуги притисак на фајл. Након копирања фајлова на уређај можете да: </p>
 
 <ul>
-<li>Open the <span class="ui">File Browser</span> in KOReader</li>
-<li>Long press on the ones you already finished and tap <span class="ui">Mark as finished</span></li>
+<li>Отворите <span class="ui">Прегледач фајлова</span> у програму KOReader</li>
+<li>Извршите дуги притисак на оне које сте већ прочитали и тапнете на <span class="ui">Означи као прочитану</span></li>
 </ul>
 
-<p>Now you can read all the files by just tapping <span class="ui">Open next file</span> at the end of the book. KOReader will skip the ones you have already read.</p>
+<p>Сада све фајлове можете да читате тако што на крају књиге тапнете на <span class="ui">Отвори наредни фајл</span>. KOReader ће да прескочи оне које сте већ прочитали.</p>
 
 </div>
 
@@ -2120,9 +2120,9 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     <div class="L1-Chapter-heading" id="gestures">ГЕСТИКУЛАЦИЈЕ И ПРЕЧИЦЕ НА ТАСТАТУРИ</div>
 
     <div class="standard-text">
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.
+    Постоји много врста гестикулација којим можете да контролишете програм KOReader. Неке гестикулације имају ограничења која се тичу места на екрану на којем могу да се користе, као и смерова које подржавају. Ова ограничења су наведена испод.
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch. So multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">ИНФО</span> Неки уређаји подржавају само један додир. Тако да на њима <b>не можете да користите</b> гестикулације са више прстију.</div>
 
     </div>
 
@@ -2131,37 +2131,37 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
-        <p class="ui">TAP / DOUBLE TAP</p>
-        <p>Single or double tap with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">ТАП / ДВОСТРУКИ ТАП</p>
+        <p>Један или двоструки тап <b>ЈЕДНИМ</b> прстом</p>
+        <p><b>РАДИ:</b> било где на екрану</p>
         </div>
     
         <hr>
         
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;">
-        <p class="ui">TAP AND HOLD</p>
-        <p>Single tap and hold with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+        <p class="ui">ТАП И ЗАДРЖАВАЊЕ</p>
+        <p>Један тап и задржавање <b>ЈЕДНИМ</b> прстом</p>
+        <p><b>РАДИ:</b> само у четири угла</p>
         </div>
             
         <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;">
-        <p class="ui">TWO FINGER TAP</p>
-        <p>Single tap with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+        <p class="ui">ТАП СА ДВА ПРСТА</p>
+        <p>Један тап са <b>ДВА</b> прста истовремено</p>
+        <p><b>РАДИ:</b> само у четири угла</p>
         </div>
         
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;">
-        <p class="ui">SPREAD AND PINCH</p>
-        <p>Same gesture as zooming in and out on a mobile phone, tablet etc.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div>
+        <p class="ui">ШИРЕЊЕ И ШТИПАЊЕ</p>
+        <p>Иста гестикулација као увећање и умањење на мобилном телефону, таблету итд.</p>
+        <p><b>РАДИ:</b> било где на екрану</p>
+        <div class="info"><span class="label_blue">ИНФО</span> У зависности од уређаја који користите, ова гестикулација може радити мање поуздано. У том случају, молимо вас да употребите неку други тип гестикулације.</div>
         </div>
         
     </div>
@@ -2169,31 +2169,31 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;">
-        <p class="ui">ONE FINGER SWIPE</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p>
+        <p class="ui">ПРЕВЛАЧЕЊЕ ЈЕДНИМ ПРСТОМ</p>
+        <p>Покрет превлачења <b>ЈЕДНИМ</b> прстом</p>
+        <p><b>РАДИ:</b> на ивицама екрана (ХОРИЗОНТАЛНИМ и ВЕРТИКАЛНИМa) било где осим ивица (ДИЈАГОНАЛНО) </p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;">
-        <p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">ПРЕВЛАЧЕЊЕ СА ДВА ПРСТА</p>
+        <p>Покрет превлачења са <b>ДВА</b> прста истовремено</p>
+        <p><b>РАДИ:</b> било где на екрану</p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;">
-        <p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">МУЛТИПРЕВЛАЧЕЊЕ</p>
+        <p>Више од једног превлачења изведених једно за другим без подизања прста са екрана. На пример, као да се исписује слово <b>U</b> (ДОЛЕ-ДЕСНО-ГОРЕ)</p>
+        <p><b>РАДИ:</b> било где на екрану</p>
 
         <hr>
         <br><br>
-        <p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
+        <p>Иконе израдио <b>Econceptive</b> из <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
         </div>
         
 
@@ -2203,62 +2203,62 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     
     <div class="L2-Sub-heading" id="predefinedgestures">Предефинисане гестикулације</div>
     <div class="standard-text">
-    This table shows the gestures available when you install KOReader for the first time. You can change these gestures according to your preferences via:
+    Ова табела приказује гестикулације које су доступне одмах након инсталације програма KOReader. Можете да их промените према својим жељама из:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Gesture Manager</div>
+    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Управљач гестикулацијама</div>
 
 
     <div class="double-container">
     <div>
     
-        <div class="L3-Smaller-heading">TAP CORNER</div>
+        <div class="L3-Smaller-heading">ТАП НА УГАО</div>
         <div class="standard-text">
             <ul>
-                <li><b>Top Left Corner</b> > Toggle page flipping</li>
-                <li><b>Top Right Corner</b> > Toggle bookmark</li>
-                <li><b>Opposing diagonal corners at the same time</b> > Take screenshot</li>
+                <li><b>Горњи леви угао</b> &gt; Укљ./искљ. окретања странице</li>
+                <li><b>Горњи десни угао</b> &gt; Укљ./искљ. маркера</li>
+                <li><b>Супротни дијагонални углови, истовремено</b> &gt; Прављење снимка екрана</li>
             </ul>
         </div>
     
-        <div class="L3-Smaller-heading">DOUBLE TAP</div>
+        <div class="L3-Smaller-heading">ДВОСТРУКИ ТАП</div>
         <div class="standard-text">
         <ul>
-            <li><b>Left Side</b> > Go -10 pages</li>
-            <li><b>Right Side</b> > Go +10 pages</li>
+            <li><b>Лева страна</b> &gt; Иди -10 страница</li>
+            <li><b>Десна страна</b> &gt; Иди +10 страница</li>
         </ul>
         </div>
     
     
-        <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
+        <div class="L3-Smaller-heading">ПРЕВЛАЧЕЊЕ ЈЕДНИМ ПРСТОМ</div>
         <div class="standard-text">
         <ul>
-            <li><b>Short diagonal swipe</b> > Full screen refresh</li>
-            <li><b>Long diagonal swipe</b> > Take screenshot</li>
+            <li><b>Кратко дијагонално превлачење</b> &gt; Освежавање целог екрана</li>
+            <li><b>Дугачко дијагонално превлачење</b> &gt; Креирање снимка екрана</li>
         </ul>
         </div>
 
     </div>
 
     <div>
-        <div class="L3-Smaller-heading">MULTISWIPE</div>
+        <div class="L3-Smaller-heading">МУЛТИПРЕВЛАЧЕЊЕ</div>
         <div class="standard-text">
         <ul>
-            <li><b>← →</b> - Back to previous location</li>
-            <li><b>→ ←</b> - Go to latest bookmark</li>
-            <li><b>↓ ↑</b> - Skim document</li>
-            <li><b>↑ ←</b> - Bookmarks</li>
-            <li><b>↑ →</b> - Table of contents</li>
-            <li><b>↓ ←</b> - Show frontlight dialog</li>
-            <li><b>↓ →</b> - Toggle reflow</li>
-            <li><b>→ ↑</b> - History</li>
-            <li><b>← ↑</b> - Book status</li>
-            <li><b>→ ↓</b> - Go to page</li>
-            <li><b>← ↓</b> - Back</li>
-            <li><b>↑ ↓ ↑</b> - Previous chapter</li>
-            <li><b>↓ ↑ ↓</b> - Next chapter</li>
-            <li><b>← → ←</b> - Open previous document</li>
-            <li><b>→ ← →</b> - Favorites</li>
+            <li><b>← →</b> - Назад на претходну локацију</li>
+            <li><b>→ ←</b> - Скок на последњи маркер</li>
+            <li><b>↓ ↑</b> - Прелетање документа</li>
+            <li><b>↑ ←</b> - Маркери</li>
+            <li><b>↑ →</b> - Садржај</li>
+            <li><b>↓ ←</b> - Приказ дијалога за предње светло</li>
+            <li><b>↓ →</b> - Укљ./искљ. преслагања</li>
+            <li><b>→ ↑</b> - Историја</li>
+            <li><b>← ↑</b> - Статус књиге</li>
+            <li><b>→ ↓</b> - Скок на страницу</li>
+            <li><b>← ↓</b> - Назад</li>
+            <li><b>↑ ↓ ↑</b> - Претходно поглавље</li>
+            <li><b>↓ ↑ ↓</b> - Наредно поглавље</li>
+            <li><b>← → ←</b> - Отварање претходног документа</li>
+            <li><b>→ ← →</b> - Омиљено</li>
         </ul>
         </div>
     </div>
@@ -2268,123 +2268,123 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
     <div class="L2-Sub-heading" id="gesturecategories">Категорије гестикулација</div>
     <div class="standard-text">
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.
+        Ово је листа свих акција које можете да доделите гестикулацијама употребом менија <span class="ui">Управљач гестикулацијама</span>. За претрагу акција овде можете да употребите функцију претраге интернет прегледача (углавном је то <b>Ctrl+F</b>). Ове акције такође могу да се употребе и у <span class="ui">Брзом менију</span>. За више информација, молимо вас да погледате одговарајући одељак упутства.
     </div>
 
     <div class="double-container">
         
     <div>
     <!--1. column-->
-        <div class="L3-Smaller-heading">General</div>
+        <div class="L3-Smaller-heading">Опште</div>
 
         <div class="standard-text">
             <ul>
-                <li>Reading progress</li>
-                <li>Open previous document</li>
-                <li>History</li>
-                <li>History search</li>
-                <li>Favorites</li>
-                <li>File browser</li>
-                <li>Dictionary lookup</li>
-                <li>Wikipedia lookup</li>
-                <li>Show menu</li>
+                <li>Напредак читања</li>
+                <li>Отвори претходни документ</li>
+                <li>Историја</li>
+                <li>Претрага историје</li>
+                <li>Омиљено</li>
+                <li>Прегледач фајлова</li>
+                <li>Претрага речника</li>
+                <li>Упит Википедије</li>
+                <li>Прикажи мени</li>
                 <li>Претрага менија</li>
-                <li>Screenshot</li>
-                <li>Toggle SSH server</li>
-                <li>Show ephemeris</li>
-                <li>Statistics calendar view</li>
-                <li>Statistics today’s timeline</li>
-                <li>Synchronize book statistics</li>
+                <li>Снимак екрана</li>
+                <li>Укљ./Искљ. SSH сервер</li>
+                <li>Прикажи ефемериде</li>
+                <li>Календарски приказ статистике</li>
+                <li>Данашња временска линија статистике</li>
+                <li>Синхронизација статистике књиге</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Device</div>
+        <div class="L3-Smaller-heading">Уређај</div>
         <div class="standard-text">
             <ul>
-                <li>Exit screensaver</li>
-                <li>Start USB storage</li>
-                <li>Suspend</li>
-                <li>Restart KOReader</li>
-                <li>Reboot the device</li>
-                <li>Power off</li>
-                <li>Exit KOReader</li>
-                <li>Toggle hold corners</li>
-                <li>Enable touch input</li>
-                <li>Disable touch input</li>
-                <li>Toggle touch input</li>
-                <li>Invert page turn buttons</li>
-                <li>Toggle key repeat</li>
-                <li>Toggle accelerometer</li>
-                <li>Rotation</li>
-                <li>Toggle orientation</li>
-                <li>Invert rotation</li>
-                <li>Rotate by 90 CW</li>
-                <li>Rotate by 90 CCW</li>
-                <li>Turn on Wi-Fi</li>
-                <li>Turn off Wi-Fi</li>
-                <li>Toggle Wi-Fi</li>
-                <li>Show network info</li>
-                <li>Battery statistics</li>
-                <li>System statistics</li>
+                <li>Напуштање чувара екрана</li>
+                <li>Покрени USB складиште</li>
+                <li>Суспендуј</li>
+                <li>Поново покрени KOReader</li>
+                <li>Поново покрени уређај</li>
+                <li>Искључи</li>
+                <li>Напусти KOReader</li>
+                <li>Укљ./Искљ. задржавање углова</li>
+                <li>Укључи унос додиром</li>
+                <li>Искључи унос додиром</li>
+                <li>Укљ./Искљ. унос додиром</li>
+                <li>Обрни дугмад за окретање странице</li>
+                <li>Укљ./Искљ. понављање тастера</li>
+                <li>Укљ./Искљ. акцелерометар</li>
+                <li>Ротација</li>
+                <li>Укљ./Искљ. оријентацију</li>
+                <li>Обрни ротацију</li>
+                <li>Ротирај за 90° у десно</li>
+                <li>Ротирај за 90° у лево</li>
+                <li>Укључи Wi-Fi</li>
+                <li>Искључи Wi-Fi</li>
+                <li>Укљ./Искљ. Wi-Fi</li>
+                <li>Прикажи информације о мрежи</li>
+                <li>Статистика батерије</li>
+                <li>Статистика система</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Screen and lights</div>
+        <div class="L3-Smaller-heading">Екран и светла</div>
         <div class="standard-text">
             <ul>
-                <li>Show frontlight dialog</li>
-                <li>Toggle frontlight</li>
-                <li>Set frontlight brightness</li>
-                <li>Increase frontlight brightness</li>
-                <li>Decrease frontlight brightness</li>
-                <li>Set frontlight warmth</li>
-                <li>Increase frontlight warmth</li>
-                <li>Decrease frontlight warmth</li>
-                <li>Toggle night mode</li>
-                <li>Set night mode</li>
-                <li>Full screen refresh</li>
-                <li>Full refresh rate (always)</li>
-                <li>Full refresh rate (not in night mode)</li>
-                <li>Full refresh rate (in night mode)</li>
-                <li>Always flash on chapter boundaries</li>
-                <li>Toggle flashing on chapter boundaries</li>
-                <li>Never flash on chapter's 2nd page</li>
-                <li>Toggle flashing on chapter's 2nd page</li>
-                <li>Always flash on pages with images</li>
-                <li>Toggle flashing on pages with images</li>
-                <li>Auto warmth off</li>
-                <li>Auto warmth cycle through modes</li>
+                <li>Прикажи дијалог предњег светла</li>
+                <li>Укљ./Искљ. предње светло</li>
+                <li>Постави осветљај предњег светла</li>
+                <li>Повећај осветљај предњег светла</li>
+                <li>Смањи осветљај предњег светла</li>
+                <li>Постави топлину предњег светла</li>
+                <li>Повећај топлину предњег светла</li>
+                <li>Смањи топлину предњег светла</li>
+                <li>Укљ./Искљ. ноћни режим</li>
+                <li>Постави ноћни режим</li>
+                <li>Освежавање целог екрана</li>
+                <li>Пуна учесталост освежавања (увек)</li>
+                <li>Пуна учесталост освежавања (ван ноћног режима)</li>
+                <li>Пуна учесталост освежавања (у ноћном режиму)</li>
+                <li>Увек трепни на границама поглавља</li>
+                <li>Укљ./Искљ. трептање на границама поглавља</li>
+                <li>Никад не трепћи на другој страници поглавља</li>
+                <li>Укљ./Искљ. трептање на другој страници поглавља</li>
+                <li>Увек трепћи на страницама са сликама</li>
+                <li>Укљ./Искљ. трептање на страницама са сликама</li>
+                <li>Искључи аутоматску топлину</li>
+                <li>Аутоматска топлина кружи по режимима</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">Документи који могу да се преслажу</div>
 
         <div class="standard-text">
             <ul>
-                <li>Set font</li>
-                <li>Increase font size</li>
-                <li>Decrease font size</li>
-                <li>Set font size</li>
-                <li>Word spacing</li>
-                <li>Word expansion</li>
-                <li>Contrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
-                <li>Zoom</li>
-                <li>Line spacing</li>
-                <li>Alt status bar</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Постави фонт</li>
+                <li>Увећај величину фонта</li>
+                <li>Смањи величину фонта</li>
+                <li>Постави величину фонта</li>
+                <li>Размак између речи</li>
+                <li>Експанзија речи</li>
+                <li>Контраст</li>
+                <li>Тежина фонта</li>
+                <li>Хинтовање фонта</li>
+                <li>Кернинг фонта</li>
+                <li>Две колоне</li>
+                <li>Л/Д маргине</li>
+                <li>Синхронизуј Г/До маргине</li>
+                <li>Горња маргина</li>
+                <li>Доња маргина</li>
+                <li>Режим погледа (непрекидне странице)</li>
+                <li>Режим исцртавања</li>
+                <li>Зумирање</li>
+                <li>Проред</li>
+                <li>Алтернативна статусна линија</li>
+                <li>Уграђени стил</li>
+                <li>Уграђени фонтови</li>
+                <li>Скалирање слике</li>
+                <li>Инверзија слика</li>
             </ul>
         </div>
         
@@ -2394,108 +2394,108 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     <!--2. column-->
 
 
-    <div class="L3-Smaller-heading">File browser</div>
+    <div class="L3-Smaller-heading">Прегледач фајлова</div>
 
     <div class="standard-text">
         <ul>
-            <li>Folder up</li>
-            <li>Show plus menu</li>
-            <li>Toggle select mode</li>
-            <li>Refresh content</li>
+            <li>Директоријум навише</li>
+            <li>Прикажи плус мени</li>
+            <li>Укљ./Искљ. режим избора</li>
+            <li>Освежи садржај</li>
             <li>Пречице директоријума</li>
-            <li>File search</li>
-            <li>Go to page</li>
-            <li>Back</li>
+            <li>Претрага фајлова</li>
+            <li>Иди на страну</li>
+            <li>Назад</li>
         </ul>
     </div>
 
-        <div class="L3-Smaller-heading">Reader</div>
+        <div class="L3-Smaller-heading">Читач</div>
         
         <div class="standard-text">
             <ul>
-                <li>Open next document in folder</li>
-                <li>Show bottom menu</li>
-                <li>Toggle status bar</li>
-                <li>Previous chapter</li>
-                <li>Next chapter</li>
-                <li>First page</li>
-                <li>Last page</li>
-                <li>Turn pages</li>
-                <li>Go to page</li>
-                <li>Skim document</li>
-                <li>Previous bookmark</li>
-                <li>Next bookmark</li>
-                <li>First bookmark</li>
-                <li>Last bookmark</li>
-                <li>Latest bookmark</li>
-                <li>Back</li>
-                <li>Back to previous location</li>
-                <li>Forward to next location</li>
-                <li>Follow nearest link</li>
-                <li>Follow nearest internal link</li>
-                <li>Add current location to history</li>
-                <li>Clear location history</li>
-                <li>Fulltext search</li>
-                <li>Table of contents</li>
-                <li>Book map</li>
-                <li>Book map (overview)</li>
-                <li>Page browser</li>
-                <li>Bookmarks</li>
-                <li>Bookmark search</li>
-                <li>Toggle bookmark</li>
-                <li>Book status</li>
-                <li>Book information</li>
-                <li>Book description</li>
-                <li>Book cover</li>
-                <li>Translate current page</li>
-                <li>Toggle page turn direction</li>
-                <li>Toggle custom TOC</li>
-                <li>Toggle custom hidden flows</li>
-                <li>Set highlight action</li>
-                <li>Cycle highlight action</li>
-                <li>Cycle highlight style</li>
-                <li>Save book metadata</li>
-                <li>Move current book to archive</li>
-                <li>Book statistics</li>
+                <li>Отвори наредни документ у директоријуму</li>
+                <li>Прикажи мени на дну</li>
+                <li>Укљ./Искљ. статусну линију</li>
+                <li>Претходно поглавље</li>
+                <li>Наредно поглавље</li>
+                <li>Прва страница</li>
+                <li>Последња страница</li>
+                <li>Окрећи странице</li>
+                <li>Иди на страну</li>
+                <li>Прелети по документу</li>
+                <li>Претходни маркер</li>
+                <li>Наредни маркер</li>
+                <li>Први маркер</li>
+                <li>Последњи маркер</li>
+                <li>Најновији маркер</li>
+                <li>Назад</li>
+                <li>Натраг на претходно место</li>
+                <li>Напред на наредно место</li>
+                <li>Прати најближи линк</li>
+                <li>Прати најближи унутрашњи линк</li>
+                <li>Додај текуће место на историју локација</li>
+                <li>Обриши историју локација</li>
+                <li>Претраживање комплетног текста</li>
+                <li>Садржај</li>
+                <li>Мапа књиге</li>
+                <li>Мапа књиге (преглед)</li>
+                <li>Прегледач страница</li>
+                <li>Маркери</li>
+                <li>Претрага маркера</li>
+                <li>Укљ./Искљ. маркер</li>
+                <li>Статус књиге</li>
+                <li>Информације о књизи</li>
+                <li>Опис књиге</li>
+                <li>Корице књиге</li>
+                <li>Преведи текућу страну</li>
+                <li>Мењај смер окретања страница</li>
+                <li>Укљ./Искљ. произвољни садржај</li>
+                <li>Укљ./Искљ. произвољних скривених токова</li>
+                <li>Постави акцију истицања</li>
+                <li>Кружи по акцијама истицања</li>
+                <li>Кружи по стиловима истицања</li>
+                <li>Сачувај метаподатке књиге</li>
+                <li>Премести текућу књигу у архиву</li>
+                <li>Статистика књиге</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Документи фиксног распореда</div>
 
         <div class="standard-text">
             <ul>
-                <li>Toggle page flipping</li>
-                <li>Toggle bookmark flipping</li>
-                <li>Toggle reflow</li>
-                <li>Zoom mode</li>
-                <li>Change zoom factor</li>
-                <li>Toggle panel zoom</li>
-                <li>Page crop</li>
-                <li>Margin</li>
-                <li>Horizontal overlap</li>
-                <li>Vertical overlap</li>
-                <li>Fit</li>
-                <li>Zoom factor</li>
-                <li>Zoom to</li>
-                <li>Direction</li>
-                <li>View mode</li>
-                <li>Page gap</li>
-                <li>Progress bar</li>
-                <li>Line spacing</li>
-                <li>Alignment</li>
-                <li>Font size (set)</li>
-                <li>Font size (inc/dec)</li>
-                <li>Word gap</li>
-                <li>Reflow</li>
-                <li>Contrast</li>
-                <li>Dewatermark</li>
-                <li>Dithering on-off</li>
-                <li>Render quality</li>
-                <li>Document language</li>
-                <li>Forced OCR</li>
-                <li>Writing direction</li>
-                <li>Auto straighten</li>
-                <li>Document columns</li>
+                <li>Укљ./Искљ. окретање страница</li>
+                <li>Укљ./Искљ. окретање маркера</li>
+                <li>Укљ./Искљ. преслагање текста</li>
+                <li>Режим зумирања</li>
+                <li>Промени фактор зумирања</li>
+                <li>Укљ./Искљ. зумирање табле</li>
+                <li>Опсецање странице</li>
+                <li>Маргина</li>
+                <li>Хоризонтално преклапање</li>
+                <li>Вертикално преклапање</li>
+                <li>Уклопи</li>
+                <li>Зум фактор</li>
+                <li>Зумирај на</li>
+                <li>Смер</li>
+                <li>Режим погледа</li>
+                <li>Размак између страница</li>
+                <li>Трака напретка</li>
+                <li>Проред</li>
+                <li>Поравнање</li>
+                <li>Величина фонта (постављање)</li>
+                <li>Величина фонта (повећање/умањење)</li>
+                <li>Размак између речи</li>
+                <li>Преслагање</li>
+                <li>Контраст</li>
+                <li>Уклањање воденог жига</li>
+                <li>Дитеринг укљ.-искљ.</li>
+                <li>Квалитет исцртавања</li>
+                <li>Језик документа</li>
+                <li>Форсирани OCR</li>
+                <li>Смер писања</li>
+                <li>Аутоматско исправљање</li>
+                <li>Колоне документа</li>
             </ul>
         </div>
 
@@ -2507,61 +2507,61 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
     <div class="L2-Sub-heading" id="keyboardshortcuts">Пречице на тастатури</div>
     <div class="standard-text">
-    If you are using the desktop Linux version of KOReader, you can use keyboard shortcuts for navigating the user interface. These can also be used with non-touch devices which has a keyboard, like <b>Kindle 3, Kindle DX, Android and Android TV</b>.
+    Ако користите десктоп Linux верзију програма KOReader, за кретање по корисничком интерфејсу можете да употребите пречице на тастатури. Оне такође могу да се користе и на уређајима који немају екране осетљиве на додир, већ имају тастатуру, као што су <b>Kindle 3, Kindle DX, Android и Android TV</b>.
     </div>
     <div class="double-container">
     
         <!--FIRST COLUMN START-->
     <div>
-        <div class="L3-Smaller-heading">File browser mode</div>
+        <div class="L3-Smaller-heading">Режим Прегледача фајлова</div>
         <ul>
-            <li>Open top menu - <b>F1</b></li>
-            <li>Navigate to home - <b>Home</b></li>
-            <li>Navigate file list - <b>Up/Down</b></li>
-            <li>Open selected book - <b>Enter</b></li>
-            <li>Show selected book’s context menu - <b>Right</b></li>
-            <li>Exit application - <b>Esc</b></li>
+            <li>Отвори горњи мени - <b>F1</b></li>
+            <li>Иди на почетни директоријум - <b>Home</b></li>
+            <li>Кретање по листи фајлова - <b>Up/Down</b></li>
+            <li>Отвори изабрану књигу - <b>Enter</b></li>
+            <li>Прикажи контекстни мени изабране књиге - <b>Right</b></li>
+            <li>Напусти апликацију - <b>Esc</b></li>
         </ul>
 
-        <div class="L3-Smaller-heading">Reading mode</div>
+        <div class="L3-Smaller-heading">Режим читања</div>
         <ul>
-            <li>Open selected page link / Open bottom menu - <b>Enter</b></li>
-            <li>Open top menu - <b>F1</b></li>
-            <li>Back/exit application - <b>Esc</b></li>
-            <li>Show bookmarks - <b>B</b></li>
-            <li>Show TOC menu - <b>T</b></li>
+            <li>Отвори изабрани линк на страницу / Отвори мени на дну - <b>Enter</b></li>
+            <li>Отвори горњи мени - <b>F1</b></li>
+            <li>Назад/напусти апликацију - <b>Esc</b></li>
+            <li>Прикажи маркере - <b>B</b></li>
+            <li>Прикажи мени садржаја - <b>T</b></li>
         </ul>
 
 
-        <div class="L3-Smaller-heading">Highlighting</div>
+        <div class="L3-Smaller-heading">Истицање</div>
         <ul>
-            <li>Enter highlighting mode - <b>H</b></li>
-            <li>Start/stop highlight selection - <b>Enter</b></li>
-            <li>Move highlight indicator - <b>Left/Right/Up/Down </b></li>
-            <li>Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b></li>
-            <li>Exit highlight mode - <b>Esc</b></li>
+            <li>Уђи у режим истицања - <b>H</b></li>
+            <li>Почни/заврши избор за истицање - <b>Enter</b></li>
+            <li>Помери индикатор истицања - <b>Left/Right/Up/Down </b></li>
+            <li>Померај индикатор истицања брже - <b>Shift+Left/Right/Up/Down </b></li>
+            <li>Напусти режим истицања - <b>Esc</b></li>
         </ul>
 
 
         <div class="L3-Smaller-heading">Фонтови</div>
-        (<b>Not</b> available for PDF, DJVU and images.)
+        (<b>Није</b> доступно за PDF, DJVU и слике.)
             <ul>
-                <li>Show font menu - <b>F</b></li>
-                <li>Increase font size - <b>Shift+Page Up</b></li>
-                <li>Decrease font size - <b>Shift+Page Down</b></li>
+                <li>Прикажи фонт мени - <b>F</b></li>
+                <li>Повећај величину фонта - <b>Shift+Page Up</b></li>
+                <li>Умањи величину фонта - <b>Shift+Page Down</b></li>
             </ul>
 
-        <div class="L3-Smaller-heading">Links</div>
+        <div class="L3-Smaller-heading">Линкови</div>
             <ul>
-                <li>Select next page link - <b>Tab</b></li>
-                <li>Select previous page link - <b>Shift+Tab</b></li>
+                <li>Изабери линк на наредну страницу - <b>Tab</b></li>
+                <li>Изабери линк на претходну страницу - <b>Shift+Tab</b></li>
 
             </ul>
 
-        <div class="L3-Smaller-heading">Image viewer</div>
+        <div class="L3-Smaller-heading">Приказивач слика</div>
             <ul>
-                <li>Zoom in - <b>Page Down</b></li>
-                <li>Zoom out - <b>Page Up</b></li>
+                <li>Увећај приказ - <b>Page Down</b></li>
+                <li>Умањи приказ - <b>Page Up</b></li>
             </ul>
 
 
@@ -2572,48 +2572,48 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     <!--SECOND COLUMN START-->
     <div>
 
-        <div class="L3-Smaller-heading">Navigating the book</div>
+        <div class="L3-Smaller-heading">Кретање кроз књигу</div>
         <ul>
-            <li>Next/previous page/view - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
-            <li>Go to the beginning of book - <b>1</b></li>
-            <li>Go to 11% of book - <b>2</b></li>
-            <li>Go to 22% of book - <b>3</b></li>
-            <li>Go to 33% of book - <b>4</b></li>
-            <li>Go to 44% of book - <b>5</b></li>
-            <li>Go to 55% of book - <b>6</b></li>
-            <li>Go to 66% of book - <b>7</b></li>
-            <li>Go to 77% of book - <b>8</b></li>
-            <li>Go to 88% of book - <b>9</b></li>
-            <li>Go to the end of book - <b>0</b></li>
+            <li>Наредни/претходни поглед/страница - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
+            <li>Скок на почетак књиге - <b>1</b></li>
+            <li>Скок на 11% књиге - <b>2</b></li>
+            <li>Скок на 22% књиге - <b>3</b></li>
+            <li>Скок на 33% књиге - <b>4</b></li>
+            <li>Скок на 44% књиге - <b>5</b></li>
+            <li>Скок на 55% књиге - <b>6</b></li>
+            <li>Скок на 66% књиге - <b>7</b></li>
+            <li>Скок на 77% књиге - <b>8</b></li>
+            <li>Скок на 88% књиге - <b>9</b></li>
+            <li>Скок на крај књиге - <b>0</b></li>
         </ul>
     
-    <div class="L3-Smaller-heading">In Skim Document dialog</div>
+    <div class="L3-Smaller-heading">У дијалогу Прелетање по документу</div>
         <ul>
-            <li>Go to the beginning of book - <b>Q</b></li>
-            <li>Go to 11% of book - <b>W</b></li>
-            <li>Go to 22% of book - <b>E</b></li>
-            <li>Go to 33% of book - <b>R</b></li>
-            <li>Go to 44% of book - <b>T</b></li>
-            <li>Go to 55% of book - <b>Y</b></li>
-            <li>Go to 66% of book - <b>U</b></li>
-            <li>Go to 77% of book - <b>I</b></li>
-            <li>Go to 88% of book - <b>O</b></li>
-            <li>Go to the end of book - <b>P</b></li>
+            <li>Скок на почетак књиге - <b>Q</b></li>
+            <li>Скок на 11% књиге - <b>W</b></li>
+            <li>Скок на 22% књиге - <b>E</b></li>
+            <li>Скок на 33% књиге - <b>R</b></li>
+            <li>Скок на 44% књиге - <b>T</b></li>
+            <li>Скок на 55% књиге - <b>Y</b></li>
+            <li>Скок на 66% књиге - <b>U</b></li>
+            <li>Скок на 77% књиге - <b>I</b></li>
+            <li>Скок на 88% књиге - <b>O</b></li>
+            <li>Скок на крај књиге - <b>P</b></li>
         </ul>
 
     
-    <div class="L3-Smaller-heading">Page zooming</div>
-    (<b>Only</b> available for PDF, DJVU and images.)
+    <div class="L3-Smaller-heading">Зумирање странице</div>
+    (Доступно <b>само</b> за PDF, DJVU и слике.)
         <ul>
-            <li>Zoom in - <b>Shift + PgUp</b></li>
-            <li>Zoom out - <b>Shift + PgDown</b></li>
-            <li>Zoom to fit page - <b>A</b></li>
-            <li>Zoom to fit page width - <b>S</b></li>
-            <li>Zoom to fit page height - <b>D</b></li>
-            <li>Zoom to fit content - <b>Shift+A</b></li>
-            <li>Zoom to fit content width - <b>Shift+S</b></li>
-            <li>Zoom to fit content height - <b>Shift+D</b></li>
-            <li>Manual zoom mode - <b>Shift+M</b></li>
+            <li>Увећање приказа - <b>Shift + PgUp</b></li>
+            <li>Умањење приказа - <b>Shift + PgDown</b></li>
+            <li>Уклопљени приказ странице - <b>A</b></li>
+            <li>Уклопљени приказ ширине странице - <b>S</b></li>
+            <li>Уклопљени приказ висине странице - <b>D</b></li>
+            <li>Уклопљени приказ садржаја странице - <b>Shift+A</b></li>
+            <li>Приказ ширине садржаја - <b>Shift+S</b></li>
+            <li>Приказ висине садржаја - <b>Shift+D</b></li>
+            <li>Режим ручног зумирања - <b>Shift+M</b></li>
         </ul>
  
 
@@ -2631,95 +2631,95 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
     <div class="L2-Sub-heading" id="quickmenu">Брзи мени</div>
     <div class="standard-text">
-        <span class="ui">Quick Menu</span> is a recent feature of KOReader which allows you to have a quickly accessible personalized menu. You can assign this menu to a gesture and access it with a single swipe. You can see an example menu on the right. You can even have a menu longer than your screen, it is scrollable.
+        <span class="ui">Брзи мени</span> је новија функција програма KOReader која вам омогућава да брзо приступите персонализованом менију. Овај мени можете да доделите гестикулацији и можете да му приступите једним превлачењем. Пример менија можете да видите на десној страни. Мени чак може да буде и дужи од величине екрана, може да се скролује.
 
-        <p>Basically, any action you can assign a gesture can be added to the <span class="ui">Quick Menu</span>. Its advantages are:</p>
+        <p>У суштини, било која акција која може да се додели гестикулацији може да се дода и у <span class="ui">Брзи мени</span>. Његове предности су следеће:</p>
 
         <ol>
-            <li>You don’t need to memorize lots of gestures for every action.</li>
-            <li>Some infrequent actions may not worth a gesture but it can be too much hassle to find it in the menu system. You can add this kind of rarely used actions to this menu instead.</li>
-            <li>If you are installing KOReader for a relative or friend, you can add their favorite actions to this menu so they don’t even need to go into the menu system while using KOReader.</li>
+            <li>Нема потребе да памтите много гестикулација за сваку акцију.</li>
+            <li>Неке акције које се ретко извршавају не заслужују да им се додели гестикулација, али је потребно доста кретања да се пронађу у систему менија. Уместо тога, овакву врсту ређе коришћених акција можете да додате у овај мени.</li>
+            <li>Ако KOReader инсталирате рођаку или пријатељу, њихове омиљене акције можете да додате у овај мени, па они уопште не морају да одлазе у систем менија док користе KOReader.</li>
         </ol>
         
-        <p><b>An example Quick Menu:</b></p>
+        <p><b>Пример Брзог менија:</b></p>
 
         <img loading="lazy" src="pictures/quickmenu_example.png" style="width:500px;">
 
         
-        <p>There are two methods for creating a <span class="ui">Quick Menu</span>. <b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</b> should be enough for you. If you want show different menus with different gestures you need to use <b>Advanced method</b>. Another advantage of <b>Advanced method</b> is that, if you want to use another gesture for your menu you can easily move it to another gesture. If you want to use another gesture while using the <b>Easy method</b>, you have to re-create your menu under the new gesture.</p>
+        <p>Постоје две методе за креирање <span class="ui">Брзог менија</span>. <b>Једноставна</b> и <b>Напредна</b>. Ако вам је потребан само један мени, биће вам довољна <b>Једноставна метода</b>. Ако желите да различите гестикулације прикажу другачије меније мораћете да употребите <b>Напредну методу</b>. Још једна предност <b>Напредне методе</b> је у томе што, ако желите да за мени употребите неку другу гестикулацију, једноставно можете да га доделите другој гестикулацији. Ако желите да употребите другу гестикулацију док користите <b>Једноставну методу</b>, мораћете поново да креирате мени под новом гестикулацијом.</p>
     </div>
 
 
-        <div class="L3-Smaller-heading">Easy method</div>
+        <div class="L3-Smaller-heading">Једноставна метода</div>
         <div class="standard-text">
             <ol>
-                <li>Go to <span class="ui">Gesture Manager</span> menu via:
-                    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture Manager</div></li>
-                <li>Decide a gesture for opening your menu and tap on it.</li>
-                <li>Choose the actions you want to see in your menu from the gesture configuration menu. You can select many actions at once of course.</li>
-                <li>After selecting all your actions, you will tell KOReader to treat this gesture as a menu. You achieve this by enabling <span class="ui">Show as Quick Menu</span> item on the second page as you can see <b>in the picture below</b>.</li>
-                <li>You can sort your menu items with the <span class="ui">Sort</span> option just below it.</li>
+                <li>Идите на мени<span class="ui">Управљач гестикулацијама</span> из:
+                    <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Управљач гестикулацијама</div></li>
+                <li>Одлучите коју гестикулацију желите да користите за отварање Брзог менија и тапните на њу.</li>
+                <li>У менију конфигурације гестикулације изаберите акције које желите да видите у Брзом менију. Наравно, можете да изаберете више акција одједном.</li>
+                <li>Када изаберете све акције, наложићете програму KOReader да ову гестикулацију третира као мени. То постижете укључивањем ставке <span class="ui">Прикажи као Брзи мени</span> на другој страници, као што можете да видите <b>на слици испод</b>.</li>
+                <li>Ставке менија можете да сортирате опцијом <span class="ui">Сортирај</span> одмах испод ње.</li>
             </ol>
-        <p>Now you can launch your menu with the gesture you selected. If you want to change the menu items, you can open the gesture page and add/remove items.</p>
+        <p>Сада свој мени можете отворите изабраном гестикулацијом. Ако желите да измените ставке менија, можете да отворите страницу гестикулације и да додате/уклоните ставке.</p>
         </div>
     
         <img loading="lazy" src="pictures/quickmenu_easy.png" style="width:500px;">
         
-        <div class="L3-Smaller-heading">Advanced method</div>
+        <div class="L3-Smaller-heading">Напредна метода</div>
         <div class="standard-text">
 
-            <div class="info"><span class="label_blue">INFO</span> As we said above, if you are not planning to add more than one <span class="ui">Quick Menu</span> you don’t need this section.
+            <div class="info"><span class="label_blue">ИНФО</span> Као што смо већ рекли, ако не планирате да направите више од једног <span class="ui">Брзог менија</span> нема потребе да читате овај одељак.
             </div>
 
-        <p><span class="ui">Quick Menu</span> is actually a <span class="ui">Profile</span> which appears on your screen as a menu. So first you have to learn about <span class="ui">Profiles</span>. If you already know how to use <span class="ui">Profiles</span>, you can continue reading, otherwise jump to the <span class="ui">Profiles</span> heading (next section), create a <span class="ui">Profile</span> with some items and come back here.</p>
+        <p><span class="ui">Брзи мени</span> је у суштини <span class="ui">Профил</span> који се на екрану појављује као мени. Тако да најпре морате да научите нешто о <span class="ui">Профилима</span>. Ако већ знате како да користите <span class="ui">Профиле</span>, наставите да читате, у супротном прескочите на наслов <span class="ui">Профили</span> (наредни одељак), креирајте <span class="ui">Профил</span> са неким ставкама, па се вратите овде.</p>
         
-        <p>We assume that you already created a <span class="ui">Profile</span> as instructed in the previous paragraph. Now we will turn our <span class="ui">Profile</span> into a <span class="ui">Quick Menu</span>.</p>
+        <p>Претпоставља се да сте већ креирали <span class="ui">Профил</span> као што је речено у претходном пасусу. Сада ћемо наш <span class="ui">Профил</span> да претворимо у <span class="ui">Брзи мени</span>.</p>
 
-        <p>1. Go to your newly created <span class="ui">Profile</span> and enable <span class="ui">Show in action list</span> (shown in the image below). This will make your <span class="ui">Profile</span> visible in the <span class="ui">Gesture Manager</span>. Also enable <span class="ui">Show as Quick Menu</span> (also in the image below) so your profile will be shown as a menu instead of being silently executed.</p>
+        <p>1. Идите у свој нови <span class="ui">Профил</span> и укључите <span class="ui">Прикажи у листи акција</span> (приказано на слици испод). На овај начин ће се ваш <span class="ui">Профил</span> видети у <span class="ui">Управљачу гестикулацијама</span>. Такође укључите <span class="ui">Прикажи као Брзи мени</span> (такође на слици испод) тако да се ваш профил прикаже као мени, а не да се изврши без било каквих порука.</p>
         
         <img loading="lazy" src="pictures/quickmenu_advanced.png" style="width:800px;">
 
-        <p>2. Now we need a way to access our menu. Go to the <span class="ui">Gesture Manager</span> and choose a gesture from the list to assign to our menu. Let’s say we want to tap the corner of the screen to show menu. Now tap on <span class="ui">Tap corner</span> then choose <span class="ui">Bottom left</span>. Now tap on <span class="ui">General</span> and go to the second page. You will find your profile as <span class="ui">Profile x</span> where x is the name you gave to this <span class="ui">Profile</span>. Tap on its checkbox to assign your profile to this gesture.</p>
+        <p>2. Сада нам је потребан начин за приступ том менију. Идите у <span class="ui">Управљач гестикулацијама</span> и изаберите из листе гестикулацију која ће се доделити менију. Рецимо да хоћемо да тап на угао екрана прикаже мени. Сада тапните на <span class="ui">Тап на угао</span> па изаберите <span class="ui">Доле лево</span>. Затим тапните на <span class="ui">Опште</span> и пређите на другу страницу. Свој профил ћете пронаћи као <span class="ui">Профил x</span> где је x име које сте дали овом <span class="ui">Профилу</span>. Тапните на његовo поље за потврду да овај профил доделите гестикулацији.</p>
 
-        <p>After all the steps, now you should see your menu when you tap on the bottom left corner. You can edit your menu by going to its <span class="ui">Profile</span> page where you can add or remove items. Also there is a <span class="ui">Sort</span> item there so you can change the order of your menu items.</p>
+        <p>Након свих ових корака, требало би да видите свој мени када тапнете на доњи леви угао. Мени можете да уредите тако што одете на његову страницу <span class="ui">Профила</span> и тамо додате или уклоните ставке. Такође постоји и ставка <span class="ui">Сорирај по</span> где можете да измените редослед ставки у свом менију.</p>
 
-        <p> As we said, a <span class="ui">Quick Menu</span> is actually a <span class="ui">Profile</span>. Which means you can have more than one menu. You can create another <span class="ui">Profile</span> and follow the same steps to create another menu if you want.</p>
+        <p> Као што смо рекли, <span class="ui">Брзи мени</span> је у суштини <span class="ui">Профил</span>. То значи да постоји могућност да имате више менија. Ако желите, можете да креирате још један <span class="ui">Профил</span> и да пратите исте кораке да креирате још један мени.</p>
         </div>
 
-        <div class="L2-Sub-heading" id="quickmenutips">Quick menu tips</div>
+        <div class="L2-Sub-heading" id="quickmenutips">Савети за Брзи мени</div>
 
-        <div class="L3-Smaller-heading">Keeping the menu open after use</div>
+        <div class="L3-Smaller-heading">Остављање менија отвореног након употребе</div>
     
         <div class="standard-text">
-        Normally after selecting an item in your Quick Menu, menu disappears from the screen. Sometimes you might want to keep the menu open after selecting an item. This allows you to adjust settings like these examples:
+        Обично када изаберете ставку у Брзом менију, он нестаје са екрана. Понекад желите да мени остане отворен након избора ставке. На тај начин можете да измените подешавања као у следећим примерима:
         
         <ul>
             <li>
-            <b>Incremental changes</b>, like brightness increase/decrease, bigger/smaller font size, previous/next pages or chapters, etc.
+            <b>Инкременталне измене</b>, као што је повећање/смањивање осветљаја, већа/мања величина фонта, претходне/наредне странице или поглавља, итд.
             </li>
 
             <li>
-            <b>Group of options that you activate in succession</b> (but not simultaneously), like <b>turning on wifi</b> and after that <b>starting the SSH server</b>
+            <b>Група опција коју активирате једну за другом</b> (али не истовремено), као што је <b>укључивање wifi</b> па затим <b>покретање SSH сервера</b>
             </li>
         </ul>
 
-        <p>You can enable this option from the following menu if you have a <b>Gesture Manager based (Easy method)</b> Quick Menu:</p>
+        <p>Ову опцију можете да укључите из следећег менија ако сте Брзи мени направили користећи <b>Управљач гестикулацијама (једноставну методу)</b>:</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Gesture Manager → “Your Quick Menu gesture” → Keep Quick Menu open</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Тапови и гестикулације → Управљач гестикулацијама → „Гестикулација вашег Брзог менија” → Држи Брзи мени отворен</div>
 
-        <p>Or from this menu, if you have a <b>Profiles based – (Advanced method)</b> Quick Menu:</p>
+        <p>Или из следећег менија, ако сте Брзи мени изградили из <b>Профила – (напредна метода)</b>:</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;">→ Profiles → “Your Quick Menu profile” → Edit actions → Keep Quick Menu open</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;">→ Профили → „Профил вашег Брзог менија” → Уреди акције → Држи Брзи мени отворен</div>
         </div>
 
-        <div class="L3-Smaller-heading">Opening Quick Menu at the gesture position</div>
+        <div class="L3-Smaller-heading">Отварање Брзог менија на позицији гестикулације</div>
     
         <div class="standard-text">
-        Normally Quick Menu opens centered at the middle of the screen. If you are using your e-reader with one hand you can activate a setting which will open your menu at the gesture position. This way, menu will be closer to your finger and easier to access. To use this feature enable this option:
+        Обично се Брзи мени отвара центриран на средини екрана. Ако е-читач користите једном руком, можете да активирате подешавање које ће мени отворити на позицији гестикулације. На овај начин ће се мени појавити ближе вашем прсту и лакше ћете му приступити. Да бисте користили ову функцију, укључите следећу опцију:
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Taps and Gestures → Gesture Manager → “Your Quick Menu gesture” → Anchor Quick Menu to gesture position</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;">→ Тапови и гестикулације → Управљач гестикулацијама → „Гестикулација вашег Брзог менија” → Усидри позицију Брзог менија на позицију гестикулације</div>
 
-        <div class="info"><span class="label_blue">INFO</span> This is available only in a Quick Menu which is created via Gesture Manager (Easy method above).
+        <div class="info"><span class="label_blue">ИНФО</span> Ово је доступно само за Брзи мени који је креиран употребом Управљача гестикулацијама (једноставна метода изнад).
         </div>
 
         </div>
@@ -2727,72 +2727,72 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
         <div class="L2-Sub-heading" id="profiles">Профили</div>
         <div class="standard-text">
-        A profile is basically a collection of actions that can be triggered with a single tap (like a macro).
-        <p>As an example, imagine that when reading some type of books, you always:</p>
+        Профил је у суштини колекција акција која може да се покрене једним јединим тапом (као макро).
+        <p>Као пример, замислите да када читате неку врсту књига, увек:</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
-            <li>Increase the font size and contrast and</li>
-            <li>Turn the screen light on</li>
+            <li>Ротирате екран у положену оријентацију</li>
+            <li>Повећавате величину фонта и контраст и</li>
+            <li>Укључујете светло екрана</li>
         </ul>
         
-        <p>With the profiles plugin, you can do all these at once with a single action.</p>
+        <p>Уз помоћ додатка профила, све ово можете да извршите одједном, користећи једну акцију.</p>
         
-        <div class="info"><span class="label_blue">INFO</span> When you activate another profile, changes made in the first profile <b>will not be reversed</b>. For example, you activate a profile which sets your font size from <b>20</b> to <b>24</b>. Then you activate another profile that adjusts your <b>frontlight</b>. Your font size <b>stays at 24</b> after activating the second profile. Because profiles in KOReader doesn’t have an exit or reverse action.
+        <div class="info"><span class="label_blue">ИНФО</span> Када активирате други профил, измене које сте направили првим профилом <b>не поништавају</b>. На пример, активирате профил који поставља величину фонта са <b>20</b> на <b>24</b>. Па затим активирате неки други профил који подешава <b>предње светло</b>. Величина фонта <b>остаје на 24</b> и након активирања другог профила. Разлог за то је што профили у програму KOReader немају акцију приликом напуштања профила или акцију враћања вредности које промени профил на претходно стање.
         </div>
 
-        <p>To create a profile first be sure that <span class="ui">Profiles</span> plugin is activated. If you don’t see it under:</p>
+        <p>Ако желите да креирате профил, најпре проверите да ли је активиран додатак <span class="ui">Профили</span>. Ако га не видите у:</p>
         
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Profiles</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Профили</div>
         
-        <p>then you have to turn it on from:</p>
+        <p>онда ћете морати да га активирате у:</p>
         
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Још алата → Управљање додацима</div>
         
         </div>
 
-        <div class="L3-Smaller-heading">Creating a profile</div>
+        <div class="L3-Smaller-heading">Креирање профила</div>
 
         <div class="standard-text">
-        In <span class="ui">Profiles</span> menu tap <span class="ui">New</span> and give a descriptive name for your profile. Now you should see your new profile in the menu. Tap on it and you will see the screen on the left side. You can also <span class="ui">Delete, Rename</span> or <span class="ui">Duplicate</span> a profile from this menu.
+        У менију <span class="ui">Профили</span> тапните на <span class="ui">Нови</span> и дајте неко описно име профилу. Сада би у менију требало да видите ваш нови профил. Тапните на њега и видећете екран приказан на левој страни. Из овог менија такође можете да <span class="ui">Обришете, Промените име</span> или <span class="ui">Дуплирате</span> профил.
                 
         <img loading="lazy" src="pictures/profile_create.png" style="width:800px;">
 
-        <p>When you tap on <span class="ui">Edit actions</span> menu item you will see the menu on the right. This is the same menu as the gesture selection menu and there are actions in many categories. Which means you can perform any <span class="ui">Gesture</span> action using a <span class="ui">Profile</span>.</p>
+        <p>Када тапнете на ставку менија <span class="ui">Уреди акције</span> приказаће се мени са десне стране. Ово је исти мени као онај за избор гестикулације и ту постоје акције груписане у многе категорије. То значи да можете да извршите било коју акцију <span class="ui">Гестикулације</span> користећи <span class="ui">Профил</span>.</p>
 
-        <p>You can now select several items from all these categories. The actions you selected here will be performed when you activate this profile.</p>
+        <p>Из свих ових категорија можете да изаберете више ставки. Када изаберете профил, извршиће се све те акције.</p>
         </div>
         
-        <div class="L3-Smaller-heading">Activating a profile</div>
+        <div class="L3-Smaller-heading">Активирање профила</div>
 
         <div class="standard-text">
-        There are many ways to activate a profile:
+        Постоји више начина на које можете да активирате профил:
         <ol>
-            <li>You can activate a profile with a <b>long press</b> on its name from this same <span class="ui">Profiles</span> menu</li>
-            <li>You can activate a profile using a gesture. For this, you have to enable <span class="ui">Show in action list</span> from the profile’s menu. Now you can select it via:
+            <li>Профил можете да активирате <b>дугим притиском</b> на његово име из истог <span class="ui">Профили</span> менија</li>
+            <li>Профил можете да активирате гестикулацијом. Да бисте то урадили, из менија профила морате да укључите <span class="ui">Прикажи у листи акција</span>. Сада можете да је изаберете из:
 
-            <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Profile “Your profile name”</div>
+            <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Тапови и гестикулације → Управљач гестикулацијама → „БИЛО КОЈА ГЕСТИКУЛАЦИЈА” → Опште → Профил „Име вашег профила”</div>
             </li>
-            <li>You can also activate a profile automatically when KOReader starts if you enable <span class="ui">Autostart</span> in the Profile’s menu. Note that this is only possible when KOReader is starting with the <span class="ui">File browser</span> or <span class="ui">Last file</span>.</li>
+            <li>Профил такође можете и аутоматски да активирате када се KOReader покрене ако укључите <span class="ui">Аутостарт</span> у менију профила. Запазите да је ово могуће само када се KOReader са <span class="ui">Прегледач фајлова</span> или <span class="ui">Последњи фајл</span>.</li>
         </ol>
         </div>
         
-        <div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu<span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+        <div class="L3-Smaller-heading">Технички детаљи у вези са Профилима и Брзим менијем <span class="warning"><span class="label_red">!!! НАПРЕДНО</span></span></div>
     
 
         <div class="standard-text">
-        In KOReader we have <b>a set of actions/settings</b> and this set can be created in two ways:
+        У програму KOReader имамо <b>скуп акција/подешавања</b> и тај скуп може да се креира на два начина:
         <ol>
-            <li>As a profile (which is explained as the <span class="ui">Advanced Method</span> and stored in <span class="ui">settings/profiles.lua</span>)</li>
-            <li>As a list of actions assigned to a gesture (which is explained as the <span class="ui">Easy Method</span> and stored in <span class="ui">settings/gestures.lua)</span></li>
+            <li>Као профил (што је објашњено као <span class="ui">Напредна метода</span> и чува се у <span class="ui">settings/profiles.lua</span>)</li>
+            <li>Као листа акција придружена гестикулацији (што је објашњено као <span class="ui">Једноставна метода </span> и чува се у <span class="ui">settings/gestures.lua)</span></li>
         </ol>
     
-        <p>This set can also be <b>executed</b> in two different ways:</p>
+        <p>Овај скуп такође може да се <b>изврши</b> на два различита начина:</p>
         <ol>
-            <li>Applying each action in the (sorted) order when triggered (as a <span class="ui">Profile</span>)</li>
-            <li>Showing it as a <span class="ui">Quick Menu</span></li>
+            <li>Примењивањем сваке акције по (уређеном) редоследу онда када се окине (као <span class="ui">Профил</span>)</li>
+            <li>Тако што се прикаже као <span class="ui">Брзи мени</span></li>
         </ol>
         
-        <p>Adding/removing actions of a set and enabling/sorting <span class="ui">Quick Menu</span> are done via the same <span class="ui">actions menu</span>. The only difference is that the actions menu in the Gesture manager has two more items (Pass through), that is why <span class="ui">Show as Quick Menu</span> and <span class="ui">Sort</span> items are on the second page.</p>
+        <p>Додавање/уклањање акција и укључивање/сортирање <span class="ui">Брзог менија</span> се раде из истог <span class="ui">менија акција</span>. Једина разлика је што мени акција у Управљачу гестикулацијама има две ставке више (Прођи), па је то разлог што се ставке <span class="ui">Прикажи као Брзи мени</span> и <span class="ui">Сортирај по</span> налазе на другој страници.</p>
         </div>
 
 
@@ -2801,78 +2801,78 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
         <div class="L1-Chapter-heading" id="plugins">ДОДАЦИ И КОРИСНИЧКЕ ЗАКРПЕ</div>
         <div class="L2-Sub-heading" id="plugintypes">Типови додатака</div>
         <div class="standard-text">
-        Plugins are small programs that expand the capabilities of KOReader. You can think of them like browser add-ons. KOReader has 3 categories of plugins:
+        Додаци су мали програми који проширују могућности програма KOReader. Можете да их посматрате као додатке интернет прегледача. KOReader поседује три категорије додатака:
         </div>
         
-        <div class="L3-Smaller-heading">Internal</div>
+        <div class="L3-Smaller-heading">Интерни</div>
         <div class="standard-text">
-        Internal plugins are part of the core program.
+        Интерни додаци су део језгра програма.
         <ul>
-            <li>They are directly accessible from the KOReader plugins menu.</li>
-            <li>They don’t need installation. You can enable them from the menu.</li>
-            <li>They are checked by our developers so they are considered safe.</li>
-            <li>They are automatically updated when you update KOReader.</li>
+            <li>Њима се директно приступа из KOReader менија додатака.</li>
+            <li>Нема потребе да се инсталирају. Можете да их укључите из истог менија.</li>
+            <li>Њих проверавају наши програмери, тако да се сматрају безбедним.</li>
+            <li>Они се аутоматски ажурирају када ажурирате програм KOReader.</li>
         </ul>
     
-        <p>You can enable/disable them via:</p>
+        <p>Можете да их укључите/искључите из:</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Plugin management</div>
+        <div class="menu-breadcrumbs">⇑ ГОРЊИ МЕНИ → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Још алата → Управљање додацима</div>
 
         </div>
 
-        <div class="L3-Smaller-heading">Contrib <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+        <div class="L3-Smaller-heading">Допринесени <span class="warning"><span class="label_red">!!! НАПРЕДНО</span></span></div>
         <div class="standard-text">
-        This group contains non-official plugins which are not part of the core logic of KOReader.
+        Ова група садрже незваничне додатке који нису део основне логике програма KOReader.
         <ul>
-            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
-            <li>They should be updated <b>manually</b>.</li>
-            <li>They are checked by our developers <b>at the time they were added to our repository</b> so they are considered safe.</li>
+            <li>Они морају да се инсталирају <b>ручно</b> па да се активирају из менија додатака.</li>
+            <li>Требало би <b>ручно</b> да се ажурирају.</li>
+            <li>Наши програмери их проверавају <b>онда када се додају у наш репозиторијум</b> тако да се сматра да су безбедни.</li>
         </ul>
     
         <p>
-            You can access them from this page: <a href="https://github.com/koreader/contrib">https://github.com/koreader/contrib</a> They can be installed by downloading the plugin’s directory from the page above and copying it under <span class="ui">koreader/plugins</span> folder on your device. But still check the plugin’s page for other possible instructions.
+            Можете да им приступите са ове странице: <a href="https://github.com/koreader/contrib">https://github.com/koreader/contrib</a> Могу да се инсталирају тако што преузмете директоријум додатка са наведене странице и копирате га у <span class="ui">koreader/plugins</span> фолдер на уређају. Али ипак проверите страницу додатка у случају да постоје додатна упутства.
         </p>
         </div>
         
-        <div class="L3-Smaller-heading">External <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+        <div class="L3-Smaller-heading">Спољни <span class="warning"><span class="label_red">!!! НАПРЕДНО</span></span></div>
         <div class="standard-text">
-        These are plugins that are developed independently from the KOReader team.
+        Ови додаци се развијају независно од KOReader тима.
         <ul>
-            <li>They have to be installed <b>manually</b> and then activated from the plugins menu.</li>
-            <li>They should be updated <b>manually</b>.</li>
-            <li>They are <b>NOT</b> checked by our developers so be aware that there might be risks using them.</li>
+            <li>Они морају да се инсталирају <b>ручно</b> па да се активирају из менија додатака.</li>
+            <li>Требало би <b>ручно</b> да се ажурирају.</li>
+            <li>Наши програмери их <b>НЕ</b> проверавају, па имајте на уму да може постојати ризик приликом њихове употребе.</li>
         </ul>
                 
-        <p>Some notable examples of these external plugins:</p>
+        <p>Неки истакнути примери ових спољних додатака:</p>
         <ul>
-            <li><span class="external">AskGPT:</span> You can ask questions to <span class="external">ChatGPT</span> about parts of your book. You can also use this plugin to simplify, explain, discuss or translate text to other languages. <a href="https://github.com/drewbaumann/AskGPT">https://github.com/drewbaumann/AskGPT</a></li>
-            <li><span class="external">Anki plugin for KOReader:</span> KOReader plugin enabling <span class="external">Anki</span> (an open-source flashcard software) card generations for words looked up in the internal dictionary. <a href="https://github.com/Ajatt-Tools/anki.koplugin">https://github.com/Ajatt-Tools/anki.koplugin</a></li>
-            <li><span class="external">Zotero for KOReader:</span> This addon allows you to browse your <span class="external">Zotero</span> (an open-source reference management software) collections from KOReader. <a href="https://github.com/stelzch/zotero.koplugin">https://github.com/stelzch/zotero.koplugin</a></li>
+            <li><span class="external">AskGPT:</span> можете да питате <span class="external">ChatGPT</span> у вези са деловима књиге коју читате. Овај додатак можете да употребите за поједностављивање, објашњавање, дискусију или превод текста на друге језике. <a href="https://github.com/drewbaumann/AskGPT">https://github.com/drewbaumann/AskGPT</a></li>
+            <li><span class="external">Anki додатак за KOReader:</span> KOReader додатак који омогућава <span class="external">Anki</span> (софтвер картица за памћење отвореног кода) генерисање картица за речи које су претраживане у интерном речнику. <a href="https://github.com/Ajatt-Tools/anki.koplugin">https://github.com/Ajatt-Tools/anki.koplugin</a></li>
+            <li><span class="external">Zotero за KOReader:</span> овај додатак вам омогућава да прегледате своју <span class="external">Zotero</span> (софтвер за управљање референцама отвореног кода) колекцијама из програма KOReader. <a href="https://github.com/stelzch/zotero.koplugin">https://github.com/stelzch/zotero.koplugin</a></li>
         </ul>
     
-        <p>Also you can click this link to open a search page on <span class="external">Github</span> to discover more KOReader plugin projects: <a href="https://github.com/search?q=koplugin&type=repositories">https://github.com/search?q=koplugin&type;=repositories</a></p>
+        <p>Такође можете да кликнете на следећи линк да се отвори страница претраге на сервису <span class="external">Github</span> којом можете да откријете још пројеката KOReader додатака: <a href="https://github.com/search?q=koplugin&amp;type=repositories">https://github.com/search?q=koplugin&amp;type;=repositories</a></p>
 
         </div>
 
         <div class="L2-Sub-heading" id="pluginslist">Листа интерних додатака</div>
         <div class="standard-text">
-        <p>	<b> Auto frontlight </b> - Automatically toggles the frontlight according to ambient light level (Only available on Kindle Voyage and Oasis)	</p>
-        <p>	<b> Auto warmth and night mode </b> - Allows you to adjust frontlight warmth in devices with natural (yellow/orange) light and set Night Mode automatically according to a schedule	</p>
-        <p>	<b> Auto power save </b> - Puts the device into standby, suspend or power off after specified periods of inactivity	</p>
-        <p>	<b> Autosuspend </b> - Suspend device after chosen period of inactivity (available on all e-ink devices except android os)	</p>
-        <p>	<b> Autoturn </b> - Automatically turns the page after a set period of time	</p>
-        <p>	<b> Background runner </b> - Service to other plugins: Allows tasks to run regularly in the background.	</p>
-        <p>	<b> Battery statistics </b> - Collects and displays battery usage statistics of your device	</p>
-        <p>	<b> Book shortcuts </b> - Allows adding a book shortcut to a gesture	</p>
-        <p>	<b> Calibre </b> - You can send documents from your Calibre Library directly to your KOReader devices via WiFi connection. Check the wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a> 	</p>
-        <p>	<b> Cover browser </b> - Allows cover display modes for file browser and history	</p>
-        <p>	<b> Cover image </b> - Saves the cover image of the current book as a file (available on Android/PocketBook/reMarkable devices)	</p>
-        <p>	<b> Export highlights </b> - Export highlights and notes to local files or to Joplin (a note taking application)	</p>
-        <p>	<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) of highlight from your library	</p>
-        <p>	<b> Gestures </b> - Provide gesture support for KOReader	</p>
-        <p>	<b> Japanese support </b> - Japanese language support for KOReader that extends built-in dictionary and selection system	</p>
-        <p>	<b> Keep alive </b> - Keeps the device awake to prevent automatic WiFi disconnects	</p>
-        <p>	<b> Move to archive </b> - Moves current document to archive folder	</p>
+        <p>	<b> Аутоматско предње светло </b> - Аутоматски укључује/искључује предње светло у зависности од количине амбијенталног светла (доступно само на Kindle Voyage и Oasis)	</p>
+        <p>	<b> Аутоматска топлина и ноћни режим </b> - Омогућава да се подеси топлина предњег светла на уређајима са природним (жутим/наранџастим) светлом и да се аутоматски према распореду укључује Ноћни режим	</p>
+        <p>	<b> Аутоматско чување енергије </b> - Поставља уређај у режим спавања, суспензије или га искључује, након задатих периода неактивности	</p>
+        <p>	<b> Аутосуспензија</b> - Суспендује уређај након изабраног периода неактивности (доступно на свим e-ink уређаја осим на андроид оперативном систему)	</p>
+        <p>	<b> Аутоматско окретање </b> - Аутоматски окреће страницу након постављеног временског периода	</p>
+        <p>	<b> Покретач у позадини </b> - Сервис за остале додатке: омогућава да се задаци редовно покрећу у позадини.	</p>
+        <p>	<b> Статистика батерије </b> - Сакупља и приказује статистику употребе батерије на уређају	</p>
+        <p>	<b> Пречице књиге </b> - Омогућава да се пречица књиге додели гестикулацији	</p>
+        <p>	<b> Calibre </b> - Документе из своје Calibre Библиотеке можете да шаљете директно на KOReader уређаје преко WiFi мреже. За објашњење употребе погледајте вики: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a> 	</p>
+        <p>	<b> Прегледач корица </b> - Омогућава режиме приказа корица за прегледач фајлова и историју	</p>
+        <p>	<b> Слика корица </b> - Чува слику омота текуће књиге у фајл (доступно на Android/PocketBook/reMarkable уређајима)	</p>
+        <p>	<b> Извези истицања </b> - Извози истицања и белешке у локалне фајлове или на Joplin (апликацију за узимање белешки)	</p>
+        <p>	<b> Flashcard trainer </b> - Приказује картице користећи размакнуто понављање (SM2) или истицање из ваше библиотеке	</p>
+        <p>	<b> Гестикулације </b> - Омогућава подршку за гестикулације у програму KOReader	</p>
+        <p>	<b> Подршка за јапански језик </b> - KOReader подршка за јапански језик која проширује систем уграђеног речника и избора	</p>
+        <p>	<b> Одржавај будност </b> - Одржава уређај будним да би се спречило аутоматско прекидање везе са WiFi мрежом	</p>
+        <p>	<b> Премести у архиву </b> - Премешта текући документ у фолдер архиве	</p>
         <p>	<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves them as HTML files. Check the wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a>	</p>
         <p>	<b> OPDS </b> - Allows you to download books from online catalogs	</p>
         <p>	<b> Perception expander </b> - Allows using peripheral vision to read more quickly. Check this YouTube video to see how it works: <a href="https://youtu.be/jeOHqI9SqOI?t=137">How to Triple Your Reading Speed in 20 Minutes (Tim Ferriss)</a>	</p>
@@ -2910,7 +2910,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
         <ol>
             <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
             <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
-            <li>Restart KOReader</li>
+            <li>Поново покрени KOReader</li>
         </ol>
 
         
