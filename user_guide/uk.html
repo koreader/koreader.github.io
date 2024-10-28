@@ -582,7 +582,7 @@ hr {
 
             <li><a href="#gestures">ЖЕСТИ ТА СПОЛУЧЕННЯ КЛАВІШ</a>
                 <ul>
-                    <li><a href="#predefinedgestures">Попередньо задані жести</a></li>
+                    <li><a href="#predefinedgestures">Наперед визначені жести</a></li>
                     <li><a href="#gesturecategories">Категорії жестів</a></li>
                     <li><a href="#keyboardshortcuts">Клавіатурні скорочення</a></li>
                 </ul>
@@ -942,7 +942,7 @@ hr {
     <div class="menu-breadcrumbs">⇑ ВЕРХНЄ МЕНЮ → <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> → Повернутись до попереднього розташування</div>
 
     <div class="standard-text">
-        Також можна перейти вперед з того ж меню. Ця функція закріплена за жестом ← → мультисвайп. За бажанням, можна призначити її іншому жесту (наприклад, постукуванню в кутку екрану) або додати її до свого <span class="ui">швидкого меню</span>.
+        Також можна перейти вперед з того ж меню. Ця функція закріплена за мультижестом ← → . За бажанням, можна призначити її іншому жесту (наприклад, постукуванню в кутку екрану) або додати її до свого <span class="ui">швидкого меню</span>.
     </div>
 
     <div class="L3-Smaller-heading">Заборонити оновлення на сторінках з зображеннями</div>
@@ -2049,40 +2049,40 @@ KOReader може читати файли всередині <b>ZIP</b>-файл
 <div class="standard-text">
 Нижче наведено приклад процесу підготовки одного файлу манґи:
 <ul>
-    <li>Download <span class="external">Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
-    <li>Download your manga from the source of your choosing (i.e. <span class="external">HakuNeko</span>)</li>
-    <li>Unpack the manga file. Now you should have a directory that contains only images (or subdirectories with images, no archives)</li>
-    <li>Process this directory with <span class="external">KCC</span>. Each directory will produce a single <b>CBZ</b> file, so if you want to make several volumes at once, select multiple directories at once</li>
+    <li>Завантажте <span class="external">Kindle Comic Converter (KCC)</span> з <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
+    <li>Завантажте вашу манґу звідкись (наприклад, <span class="external">HakuNeko</span>)</li>
+    <li>Розпакуйте файл манґи. Тепер у вас є тека, яка містить лише зображення (або підтеки з зображеннями, а не архівами)</li>
+    <li>Опрацюйте цю теку за допомогою <span class="external">KCC</span>. З кожної теки вийде один файл <b>CBZ</b>, тому якщо бажаєте створити файл, який містить декілька частин, оберіть декілька тек водночас</li>
 </ul>
 
-<p>Some useful settings of <span class="external">KCC</span>:</p>
-<p><b>Spread splitter:</b> This feature detects double pages and allows you to rotate or cut them in two.</p>
-<p><b>Upscaling:</b> Enlarge images that is smaller than your target resolution.</p>
+<p>Деякі корисні налаштування <span class="external">KCC</span>:</p>
+<p><b>Розділювач ширини (Spread splitter):</b> ця функція виявляє розвороти сторінок і дозволяє повернути їх або розділити на дві сторінки.</p>
+<p><b>Збільшення масштабу (Upscaling):</b> збільшує зображення, які мають менші розміри, ніж роздільна здатність екрану, на якому плануєте їх переглядати.</p>
 </div>
 
-<div class="L3-Smaller-heading">Immersive mode in KOReader</div>
+<div class="L3-Smaller-heading">Режим занурення у KOReader</div>
 
 <div class="standard-text">
-If you would like to enjoy your manga in a more immersive way, make sure that you selected the exact same resolution as your device’s screen resolution in <b>KCC</b> when creating your <b>CBZ</b> file. Also you can hide the bottom progress bar while reading your manga in KOReader. So you will have an immersive full screen view of your manga without obstructions.
+Якщо бажаєте просто зануритися у читання манґи, при створенні свого файлу <b>CBZ</b> за допомогою <b>KCC</b> переконайтеся, що ви вибрали саме ту роздільну здатність, яку має екран вашого пристрою для читання. Під час читання манґи у KOReader також можна приховати панель поступу внизу екрану. То ж повністю весь екран, без будь-яких завад, буде відображати лише вашу манґу.
 </div>
 
 
-<div class="L3-Smaller-heading">Extra step for smooth gradients <span class="warning"><span class="label_red">!!! ADVANCED</span></span></div>
+<div class="L3-Smaller-heading">Додатковий спосіб досягнення плавності градієнтів <span class="warning"><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></span></div>
 
 <div class="standard-text">
-After using <span class="external">KCC</span> to create a <b>CBZ</b> file, you can apply additional <b>dithering</b> to the images. This way, eink-rendered gradients will be smoothly dithered without jagged layers. This step will produce fine-tuned manga volumes which look better in KOReader.
+Після створення файлу <b>CBZ</b> за допомогою <span class="external">KCC</span> додатково можна <b>розмити (dithering)</b> зображення. В цьому випадку візуалізовані е-чорнилами градієнти будуть плавно вирівняні без розмиті без зубчастих шарів. Цей крок дозволить створити тонко підігнані частини манґи, які краще виглядатимуть у KOReader.
 
-<p>You can use <span class="external">ImageMagick</span> to process your images. <span class="external">ImageMagick</span>, is a powerful open-source software suite for displaying, creating, converting, modifying, and editing raster images. You can download <span class="external">ImageMagick</span> and use it from the command line to process many images at once.</p>
+<p>Для обробки зображень можна скористатися <span class="external">ImageMagick</span>. Програма <span class="external">ImageMagick</span> є потужним програмним забезпеченням з відкритим вихідним кодом для відображення, створення, перетворення, зміни та редагування растрових зображень. В <span class="external">ImageMagick</span> можна працювати через командний рядок, щоб обробляти багато зображень водночас.</p>
 
 <ol>
-    <li>Unpack the prepared <b>CBZ</b> file that you created with <span class="external">KCC</span>,</li>
-    <li>Download the following file (<b>dither_pack.zip</b>) which contains two <b>batch files (.BAT)</b> and a <b>GIF</b> color template: <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></li>
-    <li>Extract these three files next to your images that will be processed</li>
-    <li>Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution to your device resolution (in both places in the <b>BAT</b> file).
-    <p class="warning"><span class="label_red">WARNING</span> Next step will replace all the images in the directory with the processed ones. So make sure that you have a copy of them in some other directory if you want to keep the originals.</p>
+    <li>Розпакуйте підготований файл <b>CBZ</b>, який ви створили за допомогою <span class="external">KCC</span>,</li>
+    <li>Завантажте файл <b>dither_pack.zip</b>, який містить два <b>командні файли (.bat)</b> та кольоровий шаблон <b>GIF</b>: <a href="https://disk.yandex.com/d/glEebjmPYYp7og">https://disk.yandex.com/d/glEebjmPYYp7og</a></li>
+    <li>Розпакуйте ці три файли в одній теці з зображеннями, які будете обробляти</li>
+    <li>Відредагуйте <b>_magick_manga_ditherN_resize.bat</b> та змініть роздільну здатність на ту, яку має ваш пристрій (в обох місцях файлу <b>BAT</b>).
+    <p class="warning"><span class="label_red">ПОПЕРЕДЖЕННЯ</span> Виконання наступного кроку замінить усі зображення у теці, в якій знаходяться зображення для обробки. Тож якщо бажаєте зберегти оригінали, переконайтеся, що зберегли копії цих оригіналів у іншій теці.</p>
     </li>
-    <li>Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images.</li>
-    <li>Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to pack all the processed images into a <b>CBZ</b> archive.</li>
+    <li>Запустіть <b>_magick_manga_ditherN_resize.bat</b>, щоб змінити і розмити зображення.</li>
+    <li>Припускаємо, що ви маєте встановлений <b>7-Zip</b>, тож виконайте <b>_batch_archive.bat</b>, щоб запакувати усі оброблені зображення у архів <b>CBZ</b>.</li>
 </ol>
 
 </div>
@@ -2090,26 +2090,26 @@ After using <span class="external">KCC</span> to create a <b>CBZ</b> file, you c
 <div class="L3-Smaller-heading">Зміна напрямку гортання сторінок для автентичної японської манґи <span class="warning"><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></span></div>
 
 <div class="standard-text">
-You can make KOReader turn pages from <b>Left to Right</b>, so that swipes and tap zones are swapped. To enable this, add the following lines to this file → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
+Можна зробити так, щоб KOReader гортав сторінки <b>зліва направо</b>, щоб жести проведення і ділянки дотику мінялися місцями. Щоб увімкнути це, додайте нижчевказаний текст до цього файлу → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
 
-<p>where <b>/storage/emulated/0/Books/manga</b> is the absolute path to the directory containing your mangas. After this change, when you open a file from the mentioned directory, your swipes and tap zones will be swapped.</p>
+<p>де <b>/storage/emulated/0/Books/manga</b> є абсолютним шляхом до теки, яка містить зображення. Після цієї зміни, коли ви відкриєте зображення зі згаданої теки, ваші жести проведення і ділянки дотику поміняються місцями.</p>
 </div>
 
 
-<div class="L3-Smaller-heading">Tip when reading serialized books like manga</div>
+<div class="L3-Smaller-heading">Порада для читання книг у серіях, як манґа</div>
 <div class="standard-text">
-When you reach the last page of a book, KOReader shows you a dialog. In this dialog there is an <span class="ui">Open next file</span> action which will open the next file in the same directory as the current book. So you can put your series in separate directories and read them one after another without going back to the <span class="ui">File Browser</span>.
+Коли ви дочитаєте до останньої сторінки книги, KOReader покаже діалог. У цьому діалозі є кнопка <span class="ui">Відкрити наступний файл</span>, натиснення на яку відкриє наступний файл з тієї ж теки, де знаходиться поточна книга. Тож ви можете розкласти серії книг у різні теки і читати їх одна за іншою без необхідності виходити до <span class="ui">Оглядача файлів</span>.
 
 <img loading="lazy" src="pictures/open_next_file.png" style="width:450px;">
 
-<p> When opening this next file, KOReader skips the files that you have marked as <b>finished</b>. This feature is useful for example when you have a folder of manga files and you have already read some of them. You can mark a file as finished from the end of book dialog shown above. Also you can mark it from the <span class="ui">File Browser</span> by long-pressing on the file. After copying them to your device, you can: </p>
+<p> Під час відкриття наступного файлу KOReader буде пропускати файли, які позначені вами як <b>прочитані</b>. Ця функція корисна, якщо у теці з файлами манґи знаходяться книги, які ви вже прочитали. Позначати файли як прочитані можна у діалозі кінця книги, який показано вище. Також їх можна позначати у <span class="ui">Оглядачі файлів</span> довгим дотиком до файлу. Після копіювання їх на пристрій можна: </p>
 
 <ul>
-<li>Open the <span class="ui">File Browser</span> in KOReader</li>
-<li>Long press on the ones you already finished and tap <span class="ui">Mark as finished</span></li>
+<li>Відкрити <span class="ui">Оглядач файлів</span> у KOReader</li>
+<li>Довго торкнутися до раніше прочитаної книги і обрати <span class="ui">Позначити прочитаною</span></li>
 </ul>
 
-<p>Now you can read all the files by just tapping <span class="ui">Open next file</span> at the end of the book. KOReader will skip the ones you have already read.</p>
+<p>Після цього можна відкривати усі непрочитані книги просто натискаючи <span class="ui">Відкрити наступний файл</span> в кінці поточної книги. KOReader пропустить ті, які вже були прочитані раніше.</p>
 
 </div>
 
@@ -2120,9 +2120,9 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     <div class="L1-Chapter-heading" id="gestures">ЖЕСТИ ТА СПОЛУЧЕННЯ КЛАВІШ</div>
 
     <div class="standard-text">
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.
+    Керувати KOReader можна багатьма типами жестів. Деякі жести мають обмеження щодо того, в якій частині екрану вони можуть бути виконані та які напрямки проведення підтримуються. Ці обмеження описані нижче.
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch. So multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">ІНФОРМАЦІЯ</span> Деякі пристрої підтримують тільки один дотик, тому жести кількома пальцями (мультижести) на них <b>недоступні</b>.</div>
 
     </div>
 
@@ -2131,37 +2131,37 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
-        <p class="ui">TAP / DOUBLE TAP</p>
-        <p>Single or double tap with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">ДОТИК / ПОДВІЙНИЙ ДОТИК</p>
+        <p>Один або два дотики <b>ОДНИМ</b> пальцем</p>
+        <p><b>ПРАЦЮЄ:</b> будь-де на екрані</p>
         </div>
     
         <hr>
         
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;">
-        <p class="ui">TAP AND HOLD</p>
-        <p>Single tap and hold with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+        <p class="ui">ДОВГИЙ ДОТИК (ТОРКНУТИСЯ І УТРИМУВАТИ)</p>
+        <p>Один дотик і утримання <b>ОДНИМ</b> пальцем</p>
+        <p><b>ПРАЦЮЄ:</b> тільки в кутах екрану</p>
         </div>
             
         <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;">
-        <p class="ui">TWO FINGER TAP</p>
-        <p>Single tap with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+        <p class="ui">ДОТИК ДВОМА ПАЛЬЦЯМИ</p>
+        <p>Один дотик <b>ДВОМА</b> пальцями водночас</p>
+        <p><b>ПРАЦЮЄ:</b> тільки в кутах екрану</p>
         </div>
         
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;">
-        <p class="ui">SPREAD AND PINCH</p>
-        <p>Same gesture as zooming in and out on a mobile phone, tablet etc.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div>
+        <p class="ui">РОЗВЕДЕННЯ І СТЯГУВАННЯ</p>
+        <p>Той самий жест, що й збільшення і зменшення масштабу на телефонах, планшетах та ін.</p>
+        <p><b>ПРАЦЮЄ:</b> будь-де на екрані</p>
+        <div class="info"><span class="label_blue">ІНФОРМАЦІЯ</span> На деяких пристроях цей жест може працювати ненадійно. Якщо таке трапилося, оберіть інший тип жесту.</div>
         </div>
         
     </div>
@@ -2169,31 +2169,31 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;">
-        <p class="ui">СВАЙП ОДНИМ ПАЛЬЦЕМ</p>
-        <p>Свайповий рух <b>ОДНИМ</b> пальцем</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p>
+        <p class="ui">ПРОВЕДЕННЯ ОДНИМ ПАЛЬЦЕМ</p>
+        <p>Проведення <b>ОДНИМ</b> пальцем</p>
+        <p><b>ПРАЦЮЄ:</b> в кутах екрану (ГОРИЗОНТАЛЬНО та ВЕРТИКАЛЬНО) та будь-де, крім кутів (ПО ДІАГОНАЛІ) </p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;">
-        <p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">ПРОВЕДЕННЯ ДВОМА ПАЛЬЦЯМИ</p>
+        <p>Проведення по екрану <b>ДВОМА</b> пальцями водночас</p>
+        <p><b>ПРАЦЮЄ:</b> будь-де на екрані</p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;">
-        <p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+        <p class="ui">МУЛЬТИЖЕСТ</p>
+        <p>Це проведення зі зміною напрямку руху пальця по екрану. Наприклад, наче малювання літери <b>U</b> (ВНИЗ-ПРАВОРУЧ-ВГОРУ)</p>
+        <p><b>ПРАЦЮЄ:</b> будь-де на екрані</p>
 
         <hr>
         <br><br>
-        <p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
+        <p>Ілюстрації створив <b>Econceptive</b> з <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
         </div>
         
 
@@ -2201,27 +2201,27 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     </div>
 
     
-    <div class="L2-Sub-heading" id="predefinedgestures">Попередньо задані жести</div>
+    <div class="L2-Sub-heading" id="predefinedgestures">Наперед визначені жести</div>
     <div class="standard-text">
-    This table shows the gestures available when you install KOReader for the first time. You can change these gestures according to your preferences via:
+    Ця таблиця показує жести, які можна використовувати у щойно встановленому KOReader. Жести можна змінити відповідно до своїх вподобань тут:
     </div>
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Gesture Manager</div>
+    <div class="menu-breadcrumbs">⇑ ВЕРХНЄ МЕНЮ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Менеджер жестів</div>
 
 
     <div class="double-container">
     <div>
     
-        <div class="L3-Smaller-heading">TAP CORNER</div>
+        <div class="L3-Smaller-heading">ДОТИК В КУТІ</div>
         <div class="standard-text">
             <ul>
-                <li><b>Top Left Corner</b> > Toggle page flipping</li>
-                <li><b>Top Right Corner</b> > Toggle bookmark</li>
-                <li><b>Opposing diagonal corners at the same time</b> > Take screenshot</li>
+                <li><b>Верхній лівий кут</b> &gt; Перемкнути гортання сторінок</li>
+                <li><b>Верхній правий кут</b> &gt; Додати/зняти закладку</li>
+                <li><b>Діагонально протилежні кути водночас</b> &gt; Зробити знімок екрану</li>
             </ul>
         </div>
     
-        <div class="L3-Smaller-heading">DOUBLE TAP</div>
+        <div class="L3-Smaller-heading">ПОДВІЙНИЙ ДОТИК</div>
         <div class="standard-text">
         <ul>
             <li><b>Left Side</b> > Go -10 pages</li>
@@ -2230,7 +2230,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
         </div>
     
     
-        <div class="L3-Smaller-heading">СВАЙП ОДНИМ ПАЛЬЦЕМ</div>
+        <div class="L3-Smaller-heading">ПРОВЕДЕННЯ ОДНИМ ПАЛЬЦЕМ</div>
         <div class="standard-text">
         <ul>
             <li><b>Short diagonal swipe</b> > Full screen refresh</li>
@@ -2241,7 +2241,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
     </div>
 
     <div>
-        <div class="L3-Smaller-heading">MULTISWIPE</div>
+        <div class="L3-Smaller-heading">МУЛЬТИЖЕСТ</div>
         <div class="standard-text">
         <ul>
             <li><b>← →</b> - Back to previous location</li>
@@ -2442,7 +2442,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
                 <li>Оглядач сторінки</li>
                 <li>Закладки</li>
                 <li>Пошук закладки</li>
-                <li>Перемкнути закладку</li>
+                <li>Додати/зняти закладку</li>
                 <li>Стан книги</li>
                 <li>Відомості про книгу</li>
                 <li>Опис книги</li>
@@ -2465,7 +2465,7 @@ When you reach the last page of a book, KOReader shows you a dialog. In this dia
         <div class="standard-text">
             <ul>
                 <li>Toggle page flipping</li>
-                <li>Toggle bookmark flipping</li>
+                <li>Перемкнути гортання закладок</li>
                 <li>Toggle reflow</li>
                 <li>Режим масштабування</li>
                 <li>Change zoom factor</li>
