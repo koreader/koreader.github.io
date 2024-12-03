@@ -1904,29 +1904,29 @@ hr {
     
     <div class="L2-Sub-heading" id="ocr">OCR (光学字符识别)</div>
     <div class="standard-text">
-    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images into machine readable format. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <span class="external">Tesseract Open Source OCR Engine</span> for this task (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
+    <b>OCR (光学字符识别)</b> 是将图像中的文本提取为机器可读格式的过程。在KOReader上下文中，它通常用于从PDF文件中的扫描书籍页面提取文本。 KOReader依靠T<span class="external">Tesseract开源OCR引擎</span>来完成这项任务 (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).
     
-    <p>In order to use this feature you need to:</p>
+    <p>为了使用此功能，您需要:</p>
     <ol>
-        <li>Install <span class="external">Tesseract</span> language data to your KOReader</li>
-        <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
+        <li>安装<span class="external">Tesseract</span> 语言数据到 KOReader</li>
+        <li>将新安装的语言添加到 koreader/defaults.lua 配置文件中(仅当您的语言不是英语或中文时才需要)</li>
     </ol>
     
-    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in the related wiki page: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
+    <div class="info"><span class="label_blue">信息</span> OCR菜单上的按钮将<b>不起作用</b>，直到您安装了必要的Tesseract文件。此过程的详细信息可以在相关的 Wiki 页面中阅读: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
     </div>
     </div>
 
     <div class="L2-Sub-heading" id="panelzoom">面板缩放 (manga/comic)</div>
     <div class="standard-text">
-    This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:
+    这个功能使得在较小的屏幕上阅读漫画书更加容易。您可以在阅读<b>PDF、DJVU、CBZ或CBT</b>文档时通过以下方式启用它:
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Panel Zoom (manga/comic)</div>
+    <div class="menu-breadcrumbs">⇑ 顶部菜单 → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 面板缩放(漫画)</div>
 
-    <p>When this option is enabled, KOReader tries to find the boundaries of rectangular panels on the screen. If you long-tap on a panel, KOReader zooms in to that panel. As you can guess, this feature works best with comics that has clean panel boundaries. Procedure can be seen below:</p>
+    <p>启用此选项时，KOReader会尝试在屏幕上查找矩形面板的边界。如果你长按一个面板，KOReader会放大这个面板。正如你所猜测的，这个特性最适合具有清晰面板边界的漫画。步骤如下所示:</p>
     
     <img loading="lazy" src="pictures/panel_zoom.png" style="width:600px;">
     
-    <p>If you want to use this feature with other file types like EPUB, FB2, HTML or image files, you should open the file with a different engine: In the <span class="ui">File Browser</span> long-tap on the file name, tap <span class="ui">Open with…</span> and select <span class="ui">MuPDF</span>.</p>
+    <p>如果您想将此功能用于其他文件类型，如EPUB、FB2、HTML或图像文件，您应该使用不同的引擎打开文件：在 <span class="ui">文件浏览器</span>中长按文件名， 点击<span class="ui">打开方式…</span>并选择 <span class="ui">MuPDF</span>.</p>
     </div>
 
 
@@ -1938,23 +1938,23 @@ hr {
         
 <div class="L2-Sub-heading" id="transferring">将图书传输到阅读器</div>
 <div class="standard-text">
-KOReader supports <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM and ZIP</b> files.
+KOReader 支持<b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM and ZIP</b>文件。
 
-<p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format. You can use <span class="external">Calibre</span> (<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>) for all kinds of conversion between formats.</p>
+<p>KOReader 可以重排 PDF 文档 (阅读固定布局文档（如PDF）时，可以在底部菜单中找到此选项) 使其适用于电子阅读器的小屏幕。但为了获得最佳结果，您可能希望将文档转换为更灵活的EPUB格式。你可以使用 <span class="external">Calibre</span> (<a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>) 用于各种格式之间的转换。</p>
 
-<p>There are many ways to transfer your documents to your device. Note that you may need to restart KOReader to index the transferred documents (or refresh directory if you have Pocketbook/Android).</p>
+<p>有许多方法可以将文档传输到设备。请注意，您可能需要重新启动KOReader来索引传输的文档（如果您是Pocketbook/Android，则需要刷新目录）。</p>
 
-<p>In addition to transferring files the same way you would with the built-in reader application, other options are available depending on your device:</p>
+<p>除了像使用内置阅读器应用程序一样传输文件之外，根据您的设备，还可以使用其他选项：</p>
 
 
 <ol>
-    <li><b>USB mass storage mode within KOReader:</b> This mode is available for KOBO and some CERVANTES devices.</li>
-    <li><b>Cloud storage (<span class="external">Dropbox</span>/FTP/Webdav):</b> To use this function you have to add accounts for a cloud storage server via menu shown below. Process is explained via <span class="ui">INFO</span> buttons while adding accounts:
+    <li><b>KOReader 中的 USB 大容量存储模式：</b> 此模式适用于 KOBO 和某些 CERVANTES 设备。</li>
+    <li><b>云端存储 (<span class="external">Dropbox</span>/FTP/Webdav):</b> 要使用此功能，您必须通过如下所示的菜单添加云存储服务帐户。通过<span class="ui">信息</span> 按钮对添加账户流程进行说明：
 
-    <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Cloud storage</div>
+    <div class="menu-breadcrumbs">⇑ 顶部菜单 (文件浏览器) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 云端存储</div>
     </li>
 
-    <li><b>SSH/SFTP access:</b> KOReader can act like an <b>SSH server</b>, which you can access from a computer to transfer files (available on Kobo, Kindle, Cervantes). You can use an SFTP application (like <span class="external">Filezilla</span>) or access via your file manager if your operating system supports. Check wiki for how-to: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
+    <li><b>SSH/SFTP 访问:</b> KOReader 可以像 <b>SSH 服务器</b>一样，您可以从计算机访问它以传输文件（可在 Kobo、Kindle、Cervantes 上使用）。你可以使用 SFTP 程序（如 <span class="external">Filezilla</span>) 或者如果您的操作系统支持，则通过文件管理器访问。查看 Wiki 以获取操作方法： <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a></li>
     <li><b>Calibre 传输:</b> 使用 <span class="external">Calibre 插件</span> 您可以通过 WiFi 连接将 Calibre 库中的文档直接发送到 KOReader 设备。 查看 wiki 以获取操作方法: <a href="https://github.com/koreader/koreader/wiki/Calibre-wireless-connection">https://github.com/koreader/koreader/wiki/Calibre-wireless-connection</a></li>
     <li><b>新闻下载器:</b> 使用这个插件可以下载<b>RSS 和 Atom</b> 新闻为 HTML 文件。 查看 WiKi以获取操作方法: <a href="https://github.com/koreader/koreader/wiki/News-downloader">https://github.com/koreader/koreader/wiki/News-downloader</a></li>
     <li><b>Wallabag:</b>使用此插件，您可以从<span class="external">Wallabag</span>中检索文章，这是一种基于服务器的稍后阅读服务，如 Pocket。查看 wiki 页面了解更多信息: <a href="https://github.com/koreader/koreader/wiki/Wallabag">https://github.com/koreader/koreader/wiki/Wallabag</a></li>
@@ -2193,7 +2193,7 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
 
         <hr>
         <br><br>
-        <p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
+        <p><b>Econceptive</b>图标来自 <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
         </div>
         
 
@@ -2268,63 +2268,63 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
 
     <div class="L2-Sub-heading" id="gesturecategories">手势类别</div>
     <div class="standard-text">
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.
+        这是您可以使用 <span class="ui">手势管理</span>菜单分配给手势的每个操作的列表。您可以使用浏览器的搜索功能（通常为 <b>Ctrl+F</b>）在此处搜索操作。这些操作也可以在您自己的<span class="ui">快速菜单</span>中使用。请查看指南中的相关部分以获取更多信息。
     </div>
 
     <div class="double-container">
         
     <div>
     <!--1. column-->
-        <div class="L3-Smaller-heading">General</div>
+        <div class="L3-Smaller-heading">常规</div>
 
         <div class="standard-text">
             <ul>
                 <li>阅读进度</li>
-                <li>Open previous document</li>
-                <li>History</li>
-                <li>History search</li>
+                <li>打开前一个文档</li>
+                <li>历史</li>
+                <li>历史搜索</li>
                 <li>收藏</li>
-                <li>File browser</li>
-                <li>Dictionary lookup</li>
-                <li>Wikipedia lookup</li>
-                <li>Show menu</li>
+                <li>文件浏览器</li>
+                <li>词典查找</li>
+                <li>查询维基百科</li>
+                <li>显示菜单</li>
                 <li>菜单搜索</li>
-                <li>Screenshot</li>
-                <li>Toggle SSH server</li>
-                <li>Show ephemeris</li>
-                <li>Statistics calendar view</li>
-                <li>Statistics today’s timeline</li>
+                <li>屏幕截图</li>
+                <li>开/关 SSH 服务器</li>
+                <li>显示星历</li>
+                <li>统计日历视图</li>
+                <li>统计今天的时间表</li>
                 <li>同步书籍统计</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Device</div>
+        <div class="L3-Smaller-heading">设备</div>
         <div class="standard-text">
             <ul>
-                <li>Exit screensaver</li>
-                <li>Start USB storage</li>
-                <li>Suspend</li>
-                <li>Restart KOReader</li>
-                <li>Reboot the device</li>
-                <li>Power off</li>
-                <li>Exit KOReader</li>
-                <li>Toggle hold corners</li>
-                <li>Enable touch input</li>
-                <li>Disable touch input</li>
-                <li>Toggle touch input</li>
-                <li>Invert page turn buttons</li>
-                <li>Toggle key repeat</li>
-                <li>Toggle accelerometer</li>
-                <li>Rotation</li>
-                <li>Toggle orientation</li>
-                <li>Invert rotation</li>
-                <li>Rotate by 90 CW</li>
-                <li>Rotate by 90 CCW</li>
-                <li>Turn on Wi-Fi</li>
-                <li>Turn off Wi-Fi</li>
-                <li>Toggle Wi-Fi</li>
-                <li>Show network info</li>
-                <li>Battery statistics</li>
+                <li>退出屏保</li>
+                <li>启动 USB 存储设备</li>
+                <li>休眠</li>
+                <li>重启 KOReader</li>
+                <li>重启设备</li>
+                <li>关机</li>
+                <li>退出 KOReader</li>
+                <li>开关边角长按</li>
+                <li>启用触摸输入</li>
+                <li>禁用触摸输入</li>
+                <li>切换触摸输入</li>
+                <li>反转翻页按钮</li>
+                <li>开关重复按键</li>
+                <li>开关重力感应器</li>
+                <li>旋转</li>
+                <li>切换屏幕方向</li>
+                <li>颠倒旋转</li>
+                <li>顺时针旋转90度</li>
+                <li>逆时针旋转90</li>
+                <li>打开 Wi-Fi</li>
+                <li>关闭 Wi-Fi</li>
+                <li>开关 Wi-Fi</li>
+                <li>显示网络信息</li>
+                <li>电量统计</li>
                 <li>系统统计</li>
             </ul>
         </div>
@@ -2332,59 +2332,59 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
         <div class="L3-Smaller-heading">屏幕和灯光</div>
         <div class="standard-text">
             <ul>
-                <li>Show frontlight dialog</li>
-                <li>Toggle frontlight</li>
-                <li>Set frontlight brightness</li>
-                <li>Increase frontlight brightness</li>
-                <li>Decrease frontlight brightness</li>
-                <li>Set frontlight warmth</li>
-                <li>Increase frontlight warmth</li>
-                <li>Decrease frontlight warmth</li>
-                <li>Toggle night mode</li>
+                <li>显示前光弹窗</li>
+                <li>切换前光</li>
+                <li>设置前光亮度</li>
+                <li>增加前光亮度</li>
+                <li>减弱前光亮度</li>
+                <li>设置前光色温</li>
+                <li>增加前光色温</li>
+                <li>减弱前光色温</li>
+                <li>切换夜间模式</li>
                 <li>设置夜间模式</li>
-                <li>Full screen refresh</li>
-                <li>Full refresh rate (always)</li>
-                <li>Full refresh rate (not in night mode)</li>
-                <li>Full refresh rate (in night mode)</li>
-                <li>Always flash on chapter boundaries</li>
-                <li>Toggle flashing on chapter boundaries</li>
-                <li>Never flash on chapter's 2nd page</li>
-                <li>Toggle flashing on chapter's 2nd page</li>
-                <li>Always flash on pages with images</li>
-                <li>Toggle flashing on pages with images</li>
+                <li>完全刷新</li>
+                <li>完全刷新频率（始终）</li>
+                <li>完全刷新频率 （夜间模式下无效）</li>
+                <li>完全刷新频率 （夜间模式下）</li>
+                <li>始终在新章节上刷新</li>
+                <li>打开/关闭在新章节上刷新</li>
+                <li>永不在章节的第二页刷新</li>
+                <li>打开/关闭在章节的第二页刷新</li>
+                <li>始终在带有图像的页面上刷新</li>
+                <li>打开/关闭在带有图像的页面上刷新</li>
                 <li>自动色温关闭</li>
-                <li>Auto warmth cycle through modes</li>
+                <li>基于不同模式的自动色温周期</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">可重排文档</div>
 
         <div class="standard-text">
             <ul>
-                <li>Set font</li>
+                <li>设置字体</li>
                 <li>增大字体大小</li>
                 <li>减小字体大小</li>
-                <li>Set font size</li>
-                <li>Word spacing</li>
+                <li>设置字号</li>
+                <li>字间距</li>
                 <li>字母间隙</li>
-                <li>Contrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
-                <li>Zoom</li>
-                <li>Line spacing</li>
-                <li>Alt status bar</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>对比度</li>
+                <li>字重</li>
+                <li>字体微调</li>
+                <li>字距微调</li>
+                <li>两栏</li>
+                <li>左右边距</li>
+                <li>同步顶/底边距</li>
+                <li>顶部边距</li>
+                <li>底部边距</li>
+                <li>阅读模式（连续页面）</li>
+                <li>渲染模式</li>
+                <li>缩放</li>
+                <li>行间距</li>
+                <li>备选状态栏</li>
+                <li>内嵌样式</li>
+                <li>内置字体</li>
+                <li>图像缩放</li>
+                <li>图像反色</li>
             </ul>
         </div>
         
@@ -2394,67 +2394,67 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
     <!--2. column-->
 
 
-    <div class="L3-Smaller-heading">File browser</div>
+    <div class="L3-Smaller-heading">文件浏览器</div>
 
     <div class="standard-text">
         <ul>
-            <li>Folder up</li>
-            <li>Show plus menu</li>
-            <li>Toggle select mode</li>
+            <li>父文件夹</li>
+            <li>显示附加菜单</li>
+            <li>切换选择模式</li>
             <li>刷新内容</li>
             <li>文件夹快捷方式</li>
-            <li>File search</li>
-            <li>Go to page</li>
-            <li>Back</li>
+            <li>文件搜索</li>
+            <li>前往页码</li>
+            <li>返回</li>
         </ul>
     </div>
 
-        <div class="L3-Smaller-heading">Reader</div>
+        <div class="L3-Smaller-heading">阅读器</div>
         
         <div class="standard-text">
             <ul>
-                <li>Open next document in folder</li>
-                <li>Show bottom menu</li>
-                <li>Toggle status bar</li>
-                <li>Previous chapter</li>
-                <li>Next chapter</li>
+                <li>打开文件夹中的下一个文档</li>
+                <li>显示底部菜单</li>
+                <li>显示/隐藏状态栏</li>
+                <li>上一章</li>
+                <li>下一章</li>
                 <li>首页</li>
                 <li>尾页</li>
-                <li>Turn pages</li>
-                <li>Go to page</li>
-                <li>Skim document</li>
-                <li>Previous bookmark</li>
-                <li>Next bookmark</li>
-                <li>First bookmark</li>
-                <li>Last bookmark</li>
-                <li>Latest bookmark</li>
-                <li>Back</li>
+                <li>翻页</li>
+                <li>前往页码</li>
+                <li>浏览文档</li>
+                <li>上一处书签</li>
+                <li>下一处书签</li>
+                <li>第一个书签</li>
+                <li>最后一个书签</li>
+                <li>最新书签</li>
+                <li>返回</li>
                 <li>转到上个位置</li>
                 <li>转到下个位置</li>
-                <li>Follow nearest link</li>
-                <li>Follow nearest internal link</li>
-                <li>Add current location to history</li>
-                <li>Clear location history</li>
-                <li>Fulltext search</li>
-                <li>Table of contents</li>
-                <li>Book map</li>
-                <li>Book map (overview)</li>
+                <li>跳转到最近的链接</li>
+                <li>跳转到最近的内链</li>
+                <li>将当前位置添加到历史记录中</li>
+                <li>清除位置历史记录</li>
+                <li>全文搜索</li>
+                <li>目录</li>
+                <li>书籍地图</li>
+                <li>书籍地图（预览）</li>
                 <li>页面浏览</li>
-                <li>Bookmarks</li>
-                <li>Bookmark search</li>
+                <li>书签</li>
+                <li>书签搜索</li>
                 <li>切换书签</li>
-                <li>Book status</li>
-                <li>Book information</li>
-                <li>Book description</li>
-                <li>Book cover</li>
+                <li>书籍状态</li>
+                <li>书籍信息</li>
+                <li>书籍描述</li>
+                <li>书籍封面</li>
                 <li>翻译本页</li>
                 <li>切换翻页方向</li>
                 <li>切换自定义目录</li>
                 <li>切换自定义隐藏流</li>
                 <li>设置标注动作</li>
                 <li>循环标注动作</li>
-                <li>Cycle highlight style</li>
-                <li>Save book metadata</li>
+                <li>循环标注样式</li>
+                <li>保存书籍元数据</li>
                 <li>将当前图书归档</li>
                 <li>书籍统计</li>
             </ul>
@@ -2481,13 +2481,13 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
                 <li>显示模式</li>
                 <li>页面切边</li>
                 <li>进度条</li>
-                <li>Line spacing</li>
+                <li>行间距</li>
                 <li>对齐方式</li>
                 <li>字体大小 (set)</li>
                 <li>字体大小 (inc/dec)</li>
                 <li>字符间距</li>
                 <li>页面重排</li>
-                <li>Contrast</li>
+                <li>对比度</li>
                 <li>去水印</li>
                 <li>抖动开关</li>
                 <li>渲染质量</li>
@@ -2910,7 +2910,7 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
         <ol>
             <li>在设备上的<span class="ui">koreader目录</span>下创建名为<span class="ui">patches</span>的目录（在 Android 系统中，该文件夹位于 SD 卡上）。</li>
             <li>下载补丁文件，并将扩展名为<b>.lua</b>的补丁文件放在此patches目录中</li>
-            <li>Restart KOReader</li>
+            <li>重启 KOReader</li>
         </ol>
 
         
@@ -3073,128 +3073,128 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
         <div class="info"><span class="label_blue">信息</span> KOReader d不支持t <b>固定布局 EPUB</b>。 它们会打开，但会呈现为可排版的EPUB，可能看起来不美观或不可读。</div>
         </li>
 
-        <li>EPUB files are ZIP archives that contain HTML files. Some books can be a single HTML file while others may be composed of multiple HTML files like each chapter of the book is a separate HTML file. <b>If your book is only a single HTML file, partial rendering can not work.</b> So appearance changes will be slower than the divided chapter books, because for each change, KOReader still has to calculate the whole book instead of only the current chapter.</li>
+        <li>EPUB文件是包含HTML文件的ZIP归档文件。有些书可以是一个单独的HTML文件，而另一些书可能由多个HTML文件组成，比如书的每一章都是一个单独的HTML文件。<b>如果你的书只是一个HTML文件，部分呈现是不能工作的。</b>所以外观的变化将比分割章节的书慢，因为对于每次变化，KOReader仍然需要计算整本书，而不是只计算当前章节。</li>
 
-        <li>Another rare case of slowness is when the content is wrapped in a <b>HTML table tag</b>. KOReader has to render/draw each cell on each page turn, so if a cell (containing many paragraphs) spans 50 pages, this will make page turning quite slow. See below for the solution.</li>
+        <li>另一种罕见的慢速情况是当内容被包装在<b>HTML表标签</b>中。KOReader必须在每次翻页时渲染/绘制每个单元格，所以如果一个单元格（包含许多段落）跨越50页，这将使翻页相当慢。请参阅下面的解决方案。</li>
     </ul>
 
 
-    <p><b>If everything is slow:</b></p>
+    <p><b>如果一切都很慢：</b></p>
 
-    <p>Reasons mentioned above is generally valid if only some of your books are slow. If all of your books are slow, your problem might be device related:</p>
+    <p>如果你的书只有一些是慢的，上面提到的原因通常是有效的。如果你所有的书都很慢，你的问题可能与设备有关：</p>
 
     <ul>
-        <li>Very slow CPU or low RAM.</li>
-        <li>Your flash memory (where your books reside) might be degrading, which is generally due to the old age of the device.</li>
-        <li>You are running out of storage space.</li>
-        <li>If you are using an Android based device, your Android OS might be interfering with the operation of KOReader or some background processes might be using your system resources.</li>
+        <li>非常慢的CPU或低内存。</li>
+        <li>你的闪存（存放你的书的地方）性能可能会下降，这通常是由于设备的老化。</li>
+        <li>存储空间即将用完。</li>
+        <li>如果您使用的是基于Android的设备，您的Android操作系统可能会干扰KOReader的操作，或者某些后台进程可能会占用您的系统资源。</li>
     </ul>
 
     
-    <p><b>SOLUTIONS:</b></p>
+    <p><b>解决方案:</b></p>
     
-    <p>Unfortunately, for bad PDF files there are not many solutions. Generally best solution with problematic PDFs and EPUBs is trying to find a better version of it. Or if another file type is available for download, like EPUB instead of PDF (or reverse) you can try that format.</p>
+    <p>不幸的是，对于糟糕的PDF文件，没有太好的解决方案。一般来说，有问题的 PDF 和 EPUB 的最佳解决方案是试图找到一个更好的版本。或者，如果有其他文件类型可供下载，比如 EPUB 而不是 PDF（或相反），您可以尝试这种格式。</p>
 
-    <p>Following solutions are for EPUB files and they might require advanced knowledge:</p>
+    <p>以下解决方案适用于EPUB文件，可能需要高级知识：</p>
 
     <ul>
-        <li>You can set <span class="ui">Embedded Styles</span> to <b>OFF</b> in the bottom menu to see if ignoring all the document stylesheets makes it faster (of course, you'll probably lose any nice formatting, but you'll know what is the culprit).</li>
+        <li>您可以在底部菜单中将<span class="ui">内嵌样式</span>设置为<b>关</b>，以查看忽略所有文档样式表是否会使其更快（当然，您可能会丢失任何漂亮的格式，但您会知道罪魁祸首是什么）。</li>
         
-        <li>If you have HTML and CSS knowledge, you can inspect the HTML and the CSS files directly from KOReader and judge their quality or unnecessary complexity by yourself. To do this, you can long-press on some text and choose <span class="ui">View HTML</span> in the popup menu.</li>
+        <li>如果您有HTML和CSS知识，您可以直接从KOReader查看HTML和CSS文件，并自行判断其质量或不必要的复杂性。为此，您可以长按某些文本并在弹出菜单中选择<span class="ui">查看 HTML</span>。</li>
         
-        <li>If you have the <b>"content wrapped in a table"</b> problem as mentioned above in the problems section, you can add this <span class="ui">table, tr, td { display:block; }</span> book-specific style tweak to:
+        <li>如果你有上面问题部分提到的<b>“内容封装在表格中”</b> 的问题，你可以添加这个表格， <span class="ui">table, tr, td { display:block; }</span>将书籍特有的样式调整为：
         
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Style tweaks → Book-specific tweak</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单→ <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → 样式调整 → 书籍特定调整</div>
         </li>
 
-        <li><span class="external">Calibre</span>’s e-book editor can check EPUB files for problems and has tools to fix some of the problems.
-        <p>You can download <span class="external">Calibre</span> from here: <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+        <li><span class="external">Calibre</span>是电子书编辑器，它可以检查EPUB文件的问题，并有工具来解决一些问题。
+        <p>你可以从这: <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a>下载 <span class="external">Calibre</span></p>
 
-        <p>You can see the instructions for the <b>Check book tool</b> of <span class="external">Calibre</span> here: <a href="https://manual.calibre-ebook.com/edit.html#checking-the-book">https://manual.calibre-ebook.com/edit.html#checking-the-book</a> </p></li>
+        <p>您可以在此处查看<span class="external">Calibre</span>的<b>书籍检查工具</b> 的说明：<a href="https://manual.calibre-ebook.com/edit.html#checking-the-book">https://manual.calibre-ebook.com/edit.html#checking-the-book</a> </p></li>
         
-        <li><span class="external">EPUBCheck</span> application can check the validity of the EPUB files and detect many types of errors. You can read an example issue, where the problem is detected with <span class="external">EPUBCheck</span> <a href="https://github.com/koreader/koreader/issues/11268">https://github.com/koreader/koreader/issues/11268</a>
+        <li><span class="external">EPUBCheck</span>应用程序可以检查EPUB文件的有效性，并检测多种类型的错误。您可以阅读使用<span class="external">EPUBCheck</span> 检测到问题的示例问题 <a href="https://github.com/koreader/koreader/issues/11268">https://github.com/koreader/koreader/issues/11268</a>
 
-        <p>You can download the <b>command line version</b> from here: <a href="https://github.com/w3c/epubcheck">https://github.com/w3c/epubcheck</a></p>
+        <p>您可以从以下位置下载<b>命令行</b> 版本：<a href="https://github.com/w3c/epubcheck">https://github.com/w3c/epubcheck</a></p>
 
-        <p>Or download a <b>graphical user interface version</b> from here: <a href="https://github.com/w3c/epubcheck/wiki/GUI">https://github.com/w3c/epubcheck/wiki/GUI</a></p></li>
+        <p>或者从这儿下载 <b>图形化版本</b> :<a href="https://github.com/w3c/epubcheck/wiki/GUI">https://github.com/w3c/epubcheck/wiki/GUI</a></p></li>
     </ul>
 
 
     <p><b>Opening an issue:</b></p>
-    <p>If you are opening an issue about this problem, it is important for us to inspect the problematic file. You can share the file directly by dragging and dropping it on your GitHub message after compressing it as a ZIP file. If your book is an EPUB and you don’t want to share the file due to copyright or privacy issues, there is a plugin for <span class="external">Calibre</span> named <span class="external">ScrambleEbook</span> which you can access the download and instructions from this page:</p>
+    <p>如果您正在打开一个关于此问题的问题，检查有问题的文件对我们来说很重要。您可以在将文件压缩为ZIP文件后，通过将其拖放到GitHub消息上来直接共享该文件。如果你的书是一个EPUB，而你由于版权或隐私问题不想分享文件，有一个名为<span class="external">ScrambleEbook</span>的<span class="external">Calibre</span>插件，你可以从这个页面获得下载和说明:</p>
     <a href="https://www.mobileread.com/forums/showthread.php?t=267998">https://www.mobileread.com/forums/showthread.php?t=267998</a>
     
-    <p>This plugin will read an un-DRM'd ebook file (EPUB/KEPUB/AZW3) and create a copy of the book with <b>its text replaced with random characters</b>. You can share this scrambled version with us in your issue thread. <b>Text of the book will not be readable and there won’t be any copyright violation</b> but we can still use this file for diagnostic purposes.</p>
+    <p>这个插件将读取一个未受DRM保护的电子书文件(EPUB/KEPUB/AZW3)并创建一个用随机字符替换文本的副本。您可以在您的问题主题中与我们分享这个混乱的版本。<b>这本书的文本将不可读，也不会有任何版权侵犯</b>，但我们仍然可以使用此文件进行诊断。</p>
     
-    <p>Here you can see this procedure in a real issue involving a very problematic EPUB file as an example:</p>
+    <p>在这里，您可以在一个实际问题中看到此过程，该问题涉及一个非常有问题的EPUB文件作为示例:</p>
 
     <a href="https://github.com/koreader/koreader/issues/11465">https://github.com/koreader/koreader/issues/11465</a>
 
 
 
     
-    <div class="L3-Smaller-heading">My status bar disappeared</div>
-        <p>Probably you tapped on the <span class="ui">STATUS BAR</span> touch zone at the bottom of the screen. You can bring it back by tapping the same zone.</p>
+    <div class="L3-Smaller-heading">我的状态栏消失了</div>
+        <p>可能你点击了屏幕底部的<span class="ui">状态栏</span>触摸区。你可以通过点击同一个区域来恢复它。</p>
         
-    <div class="L3-Smaller-heading">Sometimes my taps are registered as a long tap or double taps</div>
-        <p>This can happen in cases like shaking hands or device touch screen problems. If you have this problem, you can try to increase the <span class="ui">Tap interval</span>. By increasing this interval, you tell KOReader to ignore quick taps at the same location.</p>
+    <div class="L3-Smaller-heading">有时，我的点击会被记录为长点击或双击</div>
+        <p>这可能发生在握手或设备触摸屏问题等情况下。如果遇到这个问题，可以尝试增加<span class="ui">触摸间隔</span>。通过增加此间隔，您可以告诉KOReader忽略同一位置的快速点击。</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Gesture intervals → Tap interval</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 触摸和手势 → 触摸间隔</div>
 
-        <p>If your two consecutive taps are separated by a distance, this would not apply. So you can still quickly browse pages by tapping quickly alternatively with two fingers.</p>
+        <p>如果您的两次连续点击相隔一段距离，则不适用。因此，您仍然可以通过用两个手指交替快速点击来快速浏览页面。</p>
         
-    <div class="L3-Smaller-heading">KOReader can't write to the SD card</div>
-        <p>In Android devices KOReader can’t write to the external storage due to Android system restrictions. If you want to change your screenshot saving location, be careful to choose your device’s internal storage.</p>
+    <div class="L3-Smaller-heading">KOReader 无法写入SD卡</div>
+        <p>在Android设备中，由于Android系统的限制，KOReader无法写入外部存储。如果您想更改您的截图保存位置，请小心选择您的设备的内部存储。</p>
         
-    <div class="L3-Smaller-heading">Ghosting and residue when turning pages</div>
-        <p>Even if KOReader is set to <b>full refresh after every page</b>, you may still see some ghosting/residue after turning pages. This is a limitation of e-ink screen technology and can be observed on the latest generation devices, especially while reading mixed content (text+images) documents. As a workaround, you can refresh one more time manually after turning the page to get rid of these artifacts if they bother you (<span class="ui">short diagonal swipe</span> gesture by default).</p>
+    <div class="L3-Smaller-heading">翻页时出现重影和残留</div>
+        <p>即使KOReader设置为<b>每页后全刷新</b>，翻页后仍可能会看到一些重影/残留。这是电子墨水屏幕技术的一个局限性，可以在最新一代的设备上观察到，尤其是在阅读混合内容(文本+图像)文档时。作为一种解决方法，如果这些伪像妨碍了您默认的(<span class="ui">短对角线滑动</span> 手势，您可以在翻页后手动刷新一次以消除这些伪像)。</p>
         
-    <div class="L3-Smaller-heading">Sleep cover problems</div>
-        <p>Sleep covers generally use a magnet embedded in the cover which enables wake up and sleep events via triggering a sensor in your device. In some cases like misaligned magnets, weak magnets etc. this triggering can be problematic. If you are having problems with waking up your device with your cover, you can disable this feature via this menu:</p>
+    <div class="L3-Smaller-heading">合盖休眠问题</div>
+        <p>合盖休眠通常使用嵌入在盖子中的磁铁，通过触发设备中的传感器来实现唤醒和睡眠事件。在某些情况下，如磁铁错位、磁铁较弱等，这种触发可能会出现问题。如果您在使用保护盖唤醒设备时遇到问题，可以通过此菜单禁用此功能：</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Device → Ignore all sleep cover events</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → 设备 → 忽略所有合盖事件</div>
         
-    <div class="L3-Smaller-heading">Text indentation problems</div>
-        <p>If you get miscentered titles, headings or separators, or unexpected text indentation, try switching the style for your document. <span class="ui">epub.css</span> to <span class="ui">html5.css</span>. This kind of problems happen because some publishers assume their books will only be read on <b>web browser engine based</b> readers, so they don't bother "resetting" the styles.</p>
+    <div class="L3-Smaller-heading">文本缩进问题</div>
+        <p>如果出现标题、标题或分隔符错位，或文本缩进出乎意料的情况，请尝试切换文档的样式。<span class="ui">epub.css</span> 到 <span class="ui">html5.css</span>. 之所以会出现这类问题，是因为一些出版商认为他们的图书只能在基于<b>网络浏览器引擎</b>的阅读器上阅读，因此他们懒得 “重新设置 ”样式。</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> → Style</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 → <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> → 样式</div>
 
 
         <ul>
-            <li>Default <span class="ui">HTML/EPUB (epub.css)</span> is our book-oriented stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better for unstyled books, and might make styled books more readable.</li>
+            <li>默认的<span class="ui">HTML/EPUB (epub.css)</span>是我们面向图书的样式表，文本对齐方式为 <b>text-align: justify, text-indent on P</b>. 它更适合无风格的书籍，也可能让有风格的书籍更易读。</li>
 
-            <li>You can try switching to <span class="ui">HTML5 (html5.css)</span> if your book has indentation problems as mentioned above. This style provides a base stylesheet like web browsers do when rendering: <b>text-align: left, no text-indent on P, spacing between P</b>. But it doesn’t look pretty when publishers hasn’t done any styling.</li>
+            <li>如果您的书存在上述缩进问题，则可以尝试切换到HTML5（HTML5.css）。这种样式提供了一个基本样式表，就像 WEB 浏览器在呈现时所做的那样：<b>文本对齐：左，P上没有文本缩进，P之间的间距</b>。但当出版商没有做任何造型时，它看起来并不漂亮。</li>
         </ul>
             
 
-    <div class="L3-Smaller-heading">Cleaning your book cover cache database</div>
-        <p>KOReader keeps a cache of your book covers to be able to show them quicker. In normal conditions this cache doesn’t get too big. If you remove lots of books or rename directories, you may want to clean up your book cover cache database to reclaim some space. You can do it from this menu:</p>
+    <div class="L3-Smaller-heading">正在清理书本封面缓存数据库</div>
+        <p>KOReader会缓存您的书籍封面，以便更快地显示它们。在正常情况下，该缓存不会变得太大。如果删除大量书籍或重命名目录，则可能需要清理书籍封面缓存数据库以回收一些空间。您可以从此菜单中执行此操作：</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU (in File Browser) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → Settings → Mosaic and detailed list settings → Book info cache management</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 (文件浏览器) → <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> → 设置 → 平铺和详细列表设置 → 书籍信息缓存管理</div>
 
 
-    <div class="L3-Smaller-heading">Clearing file cache</div>
-        <p>When you are reading a <b>PDF/DJVU</b> document, KOReader keeps a cache of the last page you have read. So when you reopen the book, it will be faster. But this cache can grow big if you are using KOReader for a long time and reading many PDF/DJVU documents. These cache files are kept under your KOReader installation directory under the <b>cache folder</b>. To clear this cache and reclaim the space you can go to:</p>
+    <div class="L3-Smaller-heading">清除文件缓存</div>
+        <p>当您阅读<b>PDF/DJVU</b>文档时，KOReader会保存您阅读的最后一页的缓存。因此，当你重新打开这本书时，它会更快。但如果您长时间使用KOReader并阅读许多PDF/DJVU文档，则该缓存可能会变得很大。这些缓存文件保存在KOReader安装目录下的<b>缓存文件夹</b>下。要清除此缓存并回收空间，请转到：</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU (in file browser) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → More tools → Developer options → Clear caches</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 (文件浏览器) → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → 更多工具 → 开发者选项 → 清理缓存</div>
         
-        <div class="warning"><span class="label_red">WARNING</span> Clear this cache <b>only if you really need this space</b>. If you have enough space, clearing the cache will not provide any benefit. Instead, it will degrade the performance because your reader will have to render those pages again.</div>
+        <div class="warning"><span class="label_red">警告</span> <b>仅当你确实需要此空间时</b>才需要清理此缓存。 如果有足够的空间，则清除缓存不会带来任何好处。相反，它将降低性能，因为您的阅读器将不得不再次渲染这些页面。</div>
         
         
-    <div class="L3-Smaller-heading">Backing up your KOReader settings</div>
-        <p>In rare cases that you want to backup and restore your KOReader with all your settings, you can backup these folders and files under the KOReader installation directory. Then you can overwrite them after a clean installation to restore your settings:</p>
+    <div class="L3-Smaller-heading">备份 KOReader 设置</div>
+        <p>在极少数情况下，如果您想备份和恢复 KOReader 的所有设置，您可以备份 KOReader 安装目录下的这些文件夹和文件。然后，您就可以在重新安装后覆盖它们，恢复您的设置：</p>
         
         <div class="double-container">
             <div>
-                <b>Folders:</b>
+                <b>文件夹:</b>
         <ul>
-            <li>settings</li>
-            <li>styletweaks</li>
+            <li>设置</li>
+            <li>样式调整</li>
         </ul>
             </div>
 
             <div>
-                <b>Files:</b>
+                <b>文件:</b>
                 <ul>
                     <li>data/cr3.ini</li>
                     <li>defaults.persistent.lua</li>
@@ -3205,7 +3205,7 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
             </div>
         </div>
         
-        <div class="info"><span class="label_blue">INFO</span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the <b>same name as your book</b>. You can backup these folders separately if you wish.</div>
+        <div class="info"><span class="label_blue">信息</span> 您的个人书籍设置和标注内容与您的书籍保存在同一目录下的<b>与书籍同名的文件夹</b>中。如果愿意，您可以单独备份这些文件夹。</div>
 
 
         </div>
@@ -3216,37 +3216,37 @@ KOReader 可以读取以 <b>ZIP</b> 文件形式存储/压缩的文件。ZIP 文
     <div class="L1-Chapter-heading" id="reachus">如何联系我们反馈问题或建议</div>
 
         <div class="standard-text">
-        KOReader uses <span class="external">GitHub</span> as its project base. You can report problems or suggestions on our GitHub page. You just need a GitHub account which is free. Click this link to open our <b>Issues</b> page: <a href="https://github.com/koreader/koreader/issues">https://github.com/koreader/koreader/issues</a>
+        KOReader 使用<span class="external">GitHub</span> 为项目库。 您可以在我们的 GitHub 页面上报告问题或建议。您只需要一个免费的 GitHub 账户。点击此链接打开我们的 <b>Issues</b>页面: <a href="https://github.com/koreader/koreader/issues">https://github.com/koreader/koreader/issues</a>
         
         <img loading="lazy" src="pictures/github_main.jpg" style="width:850px;">
 
-        <p>On the <b>Issues</b> page click the <b>New Issue</b> button. But before doing that, we suggest using the search bar to see if there is already an existing issue about the same topic. You can also check other opened issues to have an idea about the process.</p>
+        <p>在 <b>Issues</b> 页面点击<b>New Issue</b> 按钮。 但在此之前，我们建议使用搜索栏查看是否已有关于同一主题的问题。您还可以查看其他已打开的问题，了解相关流程。</p>
 
-        <p>When you click the <b>New Issue</b> button you will be presented with two options:</p>
+        <p>单击 <b>New Issue</b> 按钮后，您将看到两个选项：</p>
         
         <img loading="lazy" src="pictures/github_issue.png" style="width:650px;">
         
-        <p>Click the appropriate one and follow the instructions on the page to report your problem or suggestion.</p>
+        <p>单击相应的选项，然后按照页面上的说明报告您的问题或建议。</p>
         
-        <p>If you are reporting a bug, <b>verbose debug logs</b> are very helpful to determine the problem. You can enable them via:</p>
+        <p>如果您要报告一个错误，<b>详细调试日志</b>对确定问题非常有帮助。您可以通过以下方式启用它们：</p>
 
-        <div class="menu-breadcrumbs">⇑ TOP MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Help → Report a bug → Enable verbose logging</div>
+        <div class="menu-breadcrumbs">⇑ 顶部菜单 → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → 帮助 → 报告 Bug → 启用详细日志记录</div>
 
-        <p>You can also find the version number of your KOReader and your device type from the same dialog for reporting.</p>
+        <p>您还可以在同一对话框中找到 KOReader 的版本号和设备类型，以便进行报告。</p>
 
-        <p>If you have a suggestion or question related to this <b>User Guide</b> you can write to the discussion thread: <a href="https://github.com/koreader/koreader/issues/11147">https://github.com/koreader/koreader/issues/11147</a></p>
+        <p>如果您有与本 <b>用户指南</b> 相关的建议或问题，可以写信给讨论主题： <a href="https://github.com/koreader/koreader/issues/11147">https://github.com/koreader/koreader/issues/11147</a></p>
         </div>
 
-        <div class="L2-Sub-heading">You can also . . .</div>
+        <div class="L2-Sub-heading">您还可以 . . .</div>
         <div class="standard-text" style="text-align: center;">
         
             <img loading="lazy" class="img_inline" src="pictures/logo_mobileread.png" style="width:140px;">
-            <p>Find other KOReader users on <span class="external">MobileRead forums:</span> <a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">https://www.mobileread.com/forums/forumdisplay.php?f=276</a></p>
+            <p><span class="external">MobileRead 论坛</span>上找到其他 KOReader 用户 ：<a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">https://www.mobileread.com/forums/forumdisplay.php?f=276</a></p>
 
 <hr>
 
             <img loading="lazy" class="img_inline" src="pictures/logo_gitter.png" style="width:100px;">
-            <p>Reach us at <span class="external">Gitter</span> chat: <a href="https://gitter.im/koreader/koreader">https://gitter.im/koreader/koreader</a></p>
+            <p>联系我们 <span class="external">Gitter</span> chat: <a href="https://gitter.im/koreader/koreader">https://gitter.im/koreader/koreader</a></p>
 <hr>
 
             <img loading="lazy" class="img_inline" src="pictures/logo_liberapay.gif" style="width:80px;">
