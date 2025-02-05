@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KOReader User Guide</title>
+
+<!-- ANCHOR CSS -->
+
+<style>
+
+    /* LIGHT THEME COLORS */
+    :root {
+        --bg-color: #fdfdfd;
+        --container-color: #FFFAF5;
+        --text-color: #393232;
+        --shadow-color: #0000004f;
+        --bold-color: #2B2A27;
+        --bold-shadow-color: #584d4d;
+    
+        --red-color: #FA5750;
+        --green-color: #75B938;
+        --blue-color: #4695f7;
+        --orange-color: #ea953a;
+        --link-color: #009788;
+        --external-color: #dd0f90;
+        --box-color: #fdfdfd;
+    }
+    
+    /* DARK THEME COLORS */
+    body.dark {
+        --bg-color: #1e1c19;
+        --container-color: #2B2A27;
+        --text-color: #EBDAAD;
+        --shadow-color: #d3af86;
+        --bold-color: #ece3cc;
+        --bold-shadow-color: #ece3cc;
+    
+        --red-color: #ff615b;
+        --green-color: #BCD42A;
+        --blue-color: #05C5FC;
+        --orange-color: #ff8a46;
+        --link-color: #56d8c9;
+        --external-color: #ff61c5;
+        --box-color: #1e1c19;
+    }
+    
+    html{
+        font-size: 1.1em;
+    }
+    
+    body {
+        font-family: 'snpro', Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.5s;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--link-color);
+        text-shadow: 0px 0px 1px var(--link-color);
+        border-bottom: solid 1px var(--link-color);
+    }
+    a:hover {
+        color: var(--red-color);
+        text-shadow: 0px 0px 1px var(--red-color);
+        border-bottom: solid 1px var(--red-color);
+    }
+    
+    b {
+        color: var(--bold-color);
+        text-shadow: 0px 0px 1px var(--bold-shadow-color);
+    }
+    
+    p {
+        line-height: 180%;
+        color: var(--text-color);
+        text-align: justify;
+        text-indent: 1.6rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    ul {
+        list-style-type: disc;
+        margin-top: 0.2rem; margin-bottom: 1.4rem; margin-left: 0.8rem;
+    }
+    
+    ol {
+        margin-top: 0.2rem; margin-bottom: 1.4rem; margin-left: 0.8rem;
+    }
+    
+    li {
+        text-indent: 0rem;
+        line-height: 180%;
+        color: var(--text-color);
+        text-align: justify;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    li::marker {
+        color: var(--text-color);
+        font-weight: bold;
+    }
+    
+    /* IMAGES FOR ALL THE GUIDE PICTURES */
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 0.35);
+        max-width: 100%;
+        border-radius: 8px;
+        background: #fffaf5;
+    }
+    
+    /* IMAGES USED IN THE TEXT LIKE WARNING ICONS*/
+    .img_inline {
+        display: inline;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+        background: #fffaf5;
+    }
+    
+    hr {
+        border-top: 1px solid var(--orange-color);
+        border-bottom: 3px solid var(--container-color);
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    /* MAIN OUTER DIV */
+    .outer-container {
+        max-width: 80ch;
+    margin: 0 auto;
+    background-color: var(--container-color);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0 0 6px 2px var(--shadow-color);
+    transition: background-color 0.5s;
+    }
+    
+    /* TWO COLUMN DIV - USED INSIDE OUTER*/
+    .double-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    /* FOUR COLUMN DIV - USED INSIDE OUTER*/
+    .quad-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 2%;
+    }
+    
+    /* FIVE COLUMN DIV - USED INSIDE OUTER*/
+    .penta-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 10px;
+        margin-top: 2%;
+    }
+    
+    
+    /* STANDARD FONT */
+    @font-face {
+        font-family: 'snpro';
+        src: url('pictures/SNPro-Regular.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    /* ALL STANDARD PARAGRAPHS */
+    .standard-text {
+        line-height: 180%;
+        color: var(--text-color);
+        text-align: justify;
+        text-indent: 1.6rem;
+        margin-top: 0.4rem;
+    }
+    
+    /* SMALLER TEXT FOR MULTI COLUMN ELEMENTS */
+    .table-text {
+        font-size: 0.9rem;
+        line-height: 160%;
+        color: var(--text-color);
+        text-align: left;
+        text-indent: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /* MAIN CHAPTER HEADINGS - CENTERED */
+    .L1-Chapter-heading {
+        font-weight: bold;
+        font-size:2rem;
+        line-height: 3rem;
+        text-align: center;
+        color: var(--orange-color);
+        background-image: var(--container-color);
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        /*text-shadow: 0px 0px 2px var(--orange-color);*/
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        box-shadow:  0px 3px 3px -1px  var(--shadow-color) inset;
+        border: 1px solid var(--bg-color);
+
+        border-radius: 12px;
+        break-before: page;
+    }
+    
+    
+    /* CHAPTER SUB HEADINGS - CENTERED */
+    .L2-Sub-heading {
+        font-weight: bold;
+        font-size: 1.7rem;
+        text-align: center;
+        line-height: 2.4rem;
+        margin-top: 2.4rem;
+        color: var(--orange-color);
+        text-decoration: underline;
+        /*text-shadow: 0px 0px 1px var(--orange-color);*/
+    }
+    
+    /* CHAPTER SMALL HEADINGS - LEFT ALIGNED */
+    .L3-Smaller-heading {
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: var(--orange-color);
+        margin-top: 2rem;
+        text-indent: 1.6rem;
+        text-decoration: underline;
+        /*text-shadow: 0px 0px 1px var(--orange-color);*/
+    }
+    
+    /* TIP, NOTE, WARNING BOX LABELS */
+    .label_red {
+        color: #FFF;
+        text-shadow: 0px 0px 1px #FFF;
+        background-color: var(--red-color);
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+    
+    .label_blue {
+        color: #FFF;
+        text-shadow: 0px 0px 1px #FFF;
+        background-color: var(--blue-color);
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+    
+    .label_green {
+        color: #FFF;
+        text-shadow: 0px 0px 1px #FFF;
+        background-color: var(--green-color);
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+    
+    .label_orange {
+        color: #FFF;
+        text-shadow: 0px 0px 1px #FFF;
+        background-color: var(--orange-color);
+        border-radius: 4px;
+        padding: 0.3rem;
+    }
+
+    /* COLORED TEXTS */
+    
+    /* USER INTERFACE ELEMENTS OF KOREADER - BLUE */
+    .ui {
+        font-weight: bold;
+        color: var(--blue-color);
+        text-shadow: 0px 0px 1px var(--blue-color);
+    }
+    
+    /* EXTERNAL LINKS AND SERVICES - PURPLE */
+    .external {
+        font-weight: bold;
+        color: var(--external-color);
+        text-shadow: 0px 0px 1px var(--external-color);
+    }
+    
+    /* MENU PATHS OF ACTIONS - GREEN */
+    .menu-breadcrumbs {
+        font-weight: bold;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        color: var(--green-color);
+        text-shadow: 0px 0px 1px var(--green-color);
+        text-align: center;
+        margin-top: 0.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* TIP, NOTE, WARNING BOXES */
+    .warning {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 15%;
+        margin-right: 15%;    
+        padding: 1% 1.8% 1% 1.8%;
+        background-color: var(--box-color);
+        text-indent: 0em;
+        box-shadow: 0 0px 5px 0px var(--red-color);
+        border: 0px solid var(--red-color);
+        border-radius: 4px;
+    }
+    
+    .info {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 15%;
+        margin-right: 15%;    
+        padding: 1% 1.8% 1% 1.8%;
+        background-color: var(--box-color);
+        text-indent: 0em;
+        box-shadow: 0 0px 5px 0px var(--blue-color);
+        border: 0px solid var(--blue-color);
+        border-radius: 6px;
+    }
+    
+    .tip {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 1% 1.8% 1% 1.8%;
+        background-color: var(--box-color);
+        text-indent: 0em;
+        box-shadow: 0 0px 5px 0px var(--green-color);
+        border: 0px solid var(--green-color);
+        border-radius: 6px;
+    }
+    
+    /* GO TO THE ToC BUTTON */
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed;
+        top: 2%;
+        left: 70%;
+        z-index: 99;
+        border: none;
+        outline: none;
+    
+        color: var(--orange-color);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 1rem;
+        background-color: var(--box-color);
+        text-shadow: 0px 0px 1px #FA5750;
+        text-indent: 0em;
+        box-shadow: 0 2px 3px var(--orange-color), 0 1px 2px #0000003d;
+    }
+    
+    #myBtn:hover {
+        background-color: var(--red-color);
+    }
+    
+    
+    /* DARK MODE SWITCH */
+    .switch {
+        position: fixed;
+        top: 2%;
+        left: 90%;
+        display: inline-block;
+        width: 64px;
+        height: 32px;
+    }
+    
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .switch input:checked + .slider {
+        background-color: var(--box-color);
+    }
+    
+    .switch input:checked + .slider:before {
+        transform: translateX(30px);
+        background-color: transparent;
+        border-radius: 50%;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        box-shadow: inset -7px -3px 0 #fbf9ac;
+    }
+    
+    .switch .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--box-color);
+        transition: 0.4s;
+        border-radius: 16px;
+        box-shadow:  0px 4px 6px -2px var(--orange-color) inset;
+    }
+    
+    .switch .slider:before {
+        position: absolute;
+        content: "";
+        height: 24px;
+        width: 24px;
+        left: 4px;
+        bottom: 4px;
+        transition: 0.4s;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 16px;
+        box-shadow: inset -7px -3px 0 #4e7995;
+    }
+    
+ .mark {
+    background: linear-gradient(-80deg, #a6ff0018, #8fff39bc 90%, #bbff002a);
+	border-radius: 0.4em 1em 0.6em;
+	padding: 2px 6px;
+	margin: -3px -6px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.highlight {
+    background-image: url('highlight8.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 6px;
+    font-weight: bolder;
+    color: #322814;
+    text-shadow: 0px 0px 1px var(--bold-shadow-color);
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<!--
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const themeSwitcher = document.getElementById('theme-switcher');
+    
+    // Load saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark');
+            themeSwitcher.checked = true;
+        }
+    
+    // Detect OS preference if no saved preference
+        else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.body.classList.add('dark');
+            themeSwitcher.checked = true;
+        }
+    
+    // Handle toggle switch
+        themeSwitcher.addEventListener('change', function() {
+            document.body.classList.toggle('dark');
+            localStorage.setItem('theme', this.checked ? 'dark' : 'light');
+        });
+    });
+    </script>
+-->
+
+<div class="outer-container">
+
+    <!--
+    <label class="switch">
+        <input type="checkbox" id="theme-switcher">
+        <span class="slider round"></span>
+    </label>
+-->
+<br>
+<br>
+
+
+<div class="L2-Sub-heading">Guide 25.02 Update Check</div>
+<br>
+<br>
+<span class="highlight">Hello dev friends! My questions and notes for you look like this in the document.</span>
+<br>
+<br>
+
+<span class="highlight">You can click on your name below to directly go to your section. Dev order is: "shortest >>> longest section".</span>
+
+
+    <ul>
+        <li><a href="#mergen3107">mergen3107</a></li>
+        <li><a href="#ryanwwest">ryanwwest</a></li>
+        <li><a href="#commodore64user">Commodore64User</a></li>
+        <li><a href="#poirez">poire-z</a></li>
+        <li><a href="#hius07">hius07</a></li>
+        <li><a href="#frenzie">Frenzie</a></li>
+
+
+    </ul>
+
+    <!-- ANCHOR @mergen3107 -->
+
+    <div class="L1-Chapter-heading"  id="mergen3107">@ mergen3107</div>
+
+    <div class="L3-Smaller-heading">Nightly versions</div>
+    <p>KOReader has two different versions:</p>
+        <ul>
+            <li><span class="label_green">STABLE</span> This version is the main one that you can find on the <b>Releases</b> page of the project GitHub. It is named like this: <b>"KOReader 2024.11"</b> which means this specific version is released on <b>November 2024</b>. This is generally a <b>monthly</b> release, but sometimes can take longer.</li>
+            <li><span class="label_red">NIGHTLY</span><b></b> These versions are the <b>daily</b> compiled versions of KOReader with optimizations and fixes continuously added. Nightly releases are intended for a narrow group of testers and developers, so they might be less stable.</li>
+        </ul>
+
+    <p>Normally if you are an average user, <b>stable</b> version is the one you should use. But in some specific cases you might need to use a <b>nightly</b> version:</p>
+    <ul>
+        <li>There is a bug or problem specific to your device that is fixed already but not released yet. And you don't want to wait for the <b>stable</b> version to have this fix.</li>
+        <li>There is a feature which you were using but removed from the stable release. You don't want to lose this feature so you will stay on the latest <b>nightly</b> version that still has this feature.</li>
+    </ul>
+
+    <p>This section was just a general introduction to the topic. For detailed information and asking for help about nightly versions, you can visit the discussion page: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: How to track latest nightly builds</a></p>
+
+    <div class=tip><p style="text-indent: 0rem;"><span class="label_green">TIP</span> If you are using KOReader on an Android device, you can use the "Work Profile" feature of the Android OS to test the Nightly versions without affecting your main KOReader installation. Open source applications like "Shelter" and "Island" can help you with this.</p></div>
+
+
+    <!-- ANCHOR ryanwwest -->
+
+    <div class="L1-Chapter-heading"  id="ryanwwest">@ ryanwwest</div>
+
+    <div class="L2-Sub-heading">Library organization and individual book settings</div>
+
+
+    <p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+    <ul>
+        <li>Visual settings for the book</li>
+        <li>Book reading progress</li>
+        <li>Highlights, bookmarks and notes</li>
+    </ul>
+    
+    <p>In a recent change, we added new ways of storing this metadata to solve certain problems. Currently there are three different methods to store the metadata and each method has its own benefits/negatives. You can read the details to decide which one suits better to your preferences and workflow:</p>
+
+
+    <span class="highlight">I am open to suggestions if you have better names for these headings >>></span>
+    <div class="L3-Smaller-heading">1. Individual metadata folders next to the books</div>
+
+    <p>This is the <b>DEFAULT</b> method we mentioned just above. For example when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class=ui>Alice in Wonderland.sdr</span> will be created in the same directory which contains the files for your settings for this book.</p>
+
+    <p><b><span class="label_green">Benefits</span></b></p>
+        <ul>
+            <li>You can manually backup and restore the settings for each book</li>
+            <li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books</li>
+            <li>You can rename the parent directories where your book resides</li>
+        </ul>
+
+    <p><b><span class="label_red">Negatives</span></b></p>
+        <ul>
+            <li>These <b>.sdr</b> folders will be visible when you browse your library directories with another file browser or from your computer, which may clutter your view.</li>
+        </ul>
+
+
+
+
+    <div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+
+    <p>This method is same as the default one. The difference is, in this method, all <b>.sdr</b> folders will be under a single directory which is under the KOReader main directory structure, instead of your library directory.</p>
+
+
+        <p><b><span class="label_green">Benefits</span></b></p>
+        <ul>
+            <li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+        </ul>
+
+        <p><b><span class="label_red">Negatives</span></b></p>
+        <ul>
+            <li>If you reorganize your library by moving/renaming directories or books, you may lose metadata for your books.</li>
+            <li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+        </ul>
+
+
+        <div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+
+        <p>This method is similar to the previous one as the <b>.sdr</b> folders will be under an internal directory. But this method is developed to address the shortcomings of the previous method. Because, normally if you rename a book, its <b>.sdr</b> folder name will no longer match and your metadata for that book will be lost. <span class="highlight">This happens after renaming a file outside of KOReader I guess, if they rename in KOReader File Browser .sdr is renamed automatically?</p></span>
+        
+        <p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This means, basically a unique ID will be calculated based on the book's size and this ID will be used for naming its <b>.sdr</b> folder. Even if the book name changes or you duplicate a book, KOReader will still recognize this book and find its metadata.</p>
+            
+
+        <p><b><span class="label_green">Benefits</span></b></p>
+            <ul>
+                <li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+                <li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+            </ul>
+    
+            <p><b><span class="label_red">Negatives</span></b></p>
+            <ul>
+                <li>Any file modifications such as writing highlights into PDFs or downloading from <b>Calibre</b> may change the file so its MD5 ID will change. In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+                <li>Calculating file ID's may slow down <span class=ui>File browser</span> navigation.</li>
+            </ul>
+
+
+
+
+
+    <!-- ANCHOR Commodore64User -->
+
+    <div class="L1-Chapter-heading" id="commodore64user">@ Commodore64User</div>
+
+    <span class="highlight">This section is messy because I pieced it together from PRs and I don't have access to these devices to test it myself (I have never seen one even). So it might need more fixing.</span>
+
+        
+    <div class="L2-Sub-heading">Kindle specific shortcuts</div>
+        
+    <span class="highlight">I think it is a good idea to specifically name the devices using the shortcuts before these subsections but I don't which is which.</span>
+
+
+    <div class="L3-Smaller-heading">Touch screen kindle shortcuts</div>
+
+    <p>Menu: Menu button opens all menus in KOReader, including the main TOP MENU. For example when using the <span class=ui>Dictionary</span> dialog, it opens the hamburger menu.</p>
+
+    <p><b>D-pad:</b></p>
+    <ul>
+        <li>Up / Down: Content selection (used for dict lookup, highlights and more)</li>
+        <li>Left / Right: Previous chapter / Next chapter</li>
+    </ul>
+
+    <p>Left and right arrow buttons can also be used for page turning if you set it from:</p>
+        
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigation / Physical Buttons / Use left and right***</div>
+
+    <br>
+
+    <p><b>Shortcuts using the <span class=ui>Keyboard Button</span> as modifier</b></p>
+    <ul>
+        <li><b>Keyboard Button (or Shift) + Up:</b> Table of contents</li>
+        <li><b>Keyboard Button (or Shift) + Down:</b> Book map</li>
+        <li><b>Keyboard Button (or Shift) + Left:</b> Bookmarks</li>
+        <li><b>Keyboard Button (or Shift) + Right:</b> Bookmark current page</li>
+        <li><b>Keyboard Button (or Shift) + Center Select:</b> Save current location to history</li>
+        <li><b>Keyboard Button + Back:</b> Open previous document (Also works in <span class="ui">File browser</span>)</li>
+        <li><b>Keyboard Button + Home:</b> Toggle wifi on/off (Also works in <span class="ui">File browser</span>)</li>
+        <li><b>Keyboard Button (or Shift) + LeftPgBack / LeftPgFwd:</b> Previous/next page link (useful for footnotes)</li>
+    </ul>
+
+<br>
+
+    <p><b>During content selection</b></p>
+    <ul>
+        <li><b>Up / Down / Left / Right:</b> Moves the selection tool</li>
+        <li><b>Center Select:</b> Select</li>
+        <li><b>Keyboard Button (or Shift) + Up:</b> Move UP by 20% of screen height</li>
+        <li><b>Keyboard Button (or Shift) + Down:</b> Move DOWN by 20% of screen height</li>
+        <li><b>Keyboard Button (or Shift) + Left:</b> Move LEFT by 20% of screen height</li>
+        <li><b>Keyboard Button (or Shift) + Right:</b> Move RIGHT by 20% of screen height</li>
+    </ul>
+
+<br>
+
+    <p><b>Taking a screenshot</b></p>
+    <ul>
+        <li><b>Keyboard Button + Menu:</b> Only on <b>Kindle 4</b></li>
+        <li><b>Alt + Shift + G: </b> All other non-touch kindles</li>
+    </ul>
+
+<br>
+    
+    <p><b>While using the virtual keyboard</b></p>
+
+    Note: the virtual keyboard can now be hidden on hasKeyboard or K4 by going to (MENU > cog > Device > Keyboard > show virtual keyboard)
+
+    <ul>
+        <li><b>Keyboard Button (or Shift) + Home:</b> Toggle virtual keyboard</li>
+        <li><b>Keyboard Button (or Shift) + Back:</b> On <b>Kindle 4</b> works as Backspace. On other Kindles, deletes the whole line.</li>
+        <li><b>Keyboard Button (or Shift) + Up:</b> Move UP one line</li>
+        <li><b>Keyboard Button (or Shift) + Up:</b> Move UP one line</li>
+        <li><b>Keyboard Button (or Shift) + Down:</b> Move DOWN one line</li>
+        <li><b>Keyboard Button (or Shift) + Left:</b> Move one character LEFT</li>
+        <li><b>Keyboard Button (or Shift) + Right:</b> Move one character RIGHT</li>
+        <li><b>Sym + Alphabet keys:</b> Extra characters and numbers (Kindle only)</li>
+    </ul>
+
+
+    <br>
+
+    <p><b>Search related</b></p>
+    <p>These shortcuts work also in <span class=ui>File browser</span> except the first one.</p>
+
+    <ul>
+        <li><b>Alt (or Ctrl) + S:</b> Open the full text search dialog (Works only in reader screen)</li>
+        <li><b>Alt (or Ctrl) + D:</b> Dictionary lookup</li>
+        <li><b>Alt (or Ctrl) + W:</b> Wikipedia search</li>
+        <li><b>Alt (or Ctrl) + F:</b> File search</li>
+    </ul>
+
+
+    <br>
+    
+    <p><b>While using the Dictionary dialog</b></p>
+    <ul>
+        <li><b>Keyboard Button (or Shift) + Left:</b> Previous result</li>
+        <li><b>Keyboard Button (or Shift) + Right:</b> Next result</li>
+    </ul>
+
+
+    <div class="L3-Smaller-heading">Non-Touch kindle shortcuts</div>
+
+    <p><b>Shortcuts using the <span class=ui>Shift Button</span> as modifier</b></p>
+    <ul>
+        <li><b>Shift + Up:</b> Table of contents</li>
+        <li><b>Shift + Down:</b> Book map</li>
+        <li><b>Shift + Left:</b> Bookmarks</li>
+        <li><b>Shift + Right:</b> Bookmark current page</li>
+        <li><b>Shift + Center Select:</b> Save current location to history</li>
+        <li><b>Shift + LeftPgBack / LeftPgFwd:</b> Previous/next page link (useful for footnotes)</li>
+    </ul>
+
+
+
+    <!-- ANCHOR poire-z -->
+    
+    <div class="L1-Chapter-heading"  id="poirez">@ poire-z</div>
+
+
+
+<div class="L2-Sub-heading">Controlling your reader from another device</div>
+
+<p><span class="label_red">!!! ADVANCED</span></p>
+
+
+    <p><span class="ui">KOReader HTTP Inspector</span> plugin allows you to control your device from another device over wifi. It works by running a simple HTTP server on your device which serves a page containing KOReader controls. You can access this page over your network and control your reader device. But be aware of these points when using this plugin:</p>
+
+    <ul>
+        <li>This is an experimental plugin so <b>use this at your own risk</b></li>
+        <li>This plugin is enabled by default, but the server is <b>NOT</b> started by default. You can start it manually or set it to <b>auto start</b>.</li>
+        <li>You should run this plugin <b>only on trusted networks</b>, as it is highly insecure (no HTTPS, no access restriction, no authentication)</li>
+    </ul>
+
+<p>You can read an example use case for this plugin on the MobileRead forum: <a href="https://www.mobileread.com/forums/showthread.php?t=359837">https://www.mobileread.com/forums/showthread.php?t=359837</a></p>
+
+
+<hr>
+
+
+    <div class="L2-Sub-heading">Style tweaks</div>
+
+    <p>Style tweaks feature of KOReader allows you to modify how your book is rendered by KOReader. If you know CSS, you can jump to the <b>examples</b> heading, otherwise continue reading for a basic introduction. We won't go through a full CSS course here. We just want to show you the basics so when you see a style tweak, you will at least have a rough idea what it does.</p>
+    
+    <div class="L3-Smaller-heading">What is a style tweak?</div>
+    <p>We can describe an EPUB document as a HTML file + some CSS rules. These CSS rules determine how different parts of the book (headings, bold text, quotes etc.) will be shown on a reader app. When you add <span class="ui">style tweaks</span> to KOReader, you override the rules written by the publisher that is embedded in your book.</p>
+    
+    <p>Let's see this on an example <span class="ui">style tweak</span>:</p>
+
+    <p><b><span class="menu-breadcrumbs">img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p>In plain language this rule says: <b>"Ignore their original size and make all the images in this book 10 pixels wide and 10 pixels high."</b> So if you add this style tweak to KOReader, all the images in your book will be shown tiny.</p>
+
+    <p>Now lets explain this tweak item by item:</p>
+
+    <ul>
+        <li><span class=ui>img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
+        <li><span class=ui>{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class=ui>width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
+        <li><span class=ui>height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>height</b> declaration applied to these images.</li></li>
+    </ul>
+
+    <p>In summary, this CSS rule is designed to set a <b>fixed width and height of 10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their original style</b>.</p>
+    
+
+
+    <div class="L3-Smaller-heading">Some useful examples of style tweaks</div>
+    
+    <p>These are some useful style tweaks that you can use directly or modify according to your liking. Next heading explains how to use them in KOReader.</p>
+        
+        <ul>
+            <li><b>Add a separator line above each heading in a book:</b>
+                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            </li>
+
+            <li><b>Add some margin above the headings:</b>
+                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+
+            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            </li>
+
+            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+
+            <li><b>Disable all images in an EPUB:</b>
+                <p>img { display: none !important; }</p>
+            </li>
+
+            <li>
+                <b>Make images very small instead of disabling them:</b>
+                <p>img { width: 10px !important; height: 10px !important }</p>
+            </li>
+
+            <li>
+                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <p>
+                        pre,code {
+                            font-size: 0.6em !important;
+                            line-height: 1.8em !important;
+                            background-color: #eee !important;
+                            margin: 1em 0 !important;
+                            padding: 1em 0 !important;
+                            }
+                </p>
+            </li>
+        </ul>
+
+        <p><span class="highlight">We can add more like these short and useful ones if you have more in mind poire-z</span></p>
+
+
+
+    <div class="L2-Sub-heading">How to add style tweaks</div>
+
+    <p>Ok, now we have seen what <span class="ui">style tweaks</span> are. But how we can use them? There are two types of <span class="ui">style tweaks</span> in KOReader:</p>
+
+    <div class="L3-Smaller-heading">Book-specific tweaks</div>
+        <p>As you can guess from its name, this type of tweaks are only active for the book which you created them in. To create tweaks for a book, use the integrated editor which you can find here:</p>
+
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / Book-specific tweak</div>
+
+        <div class=tip><p style="text-indent: 0rem;"><span class="label_green">TIP</span> In the editor we have a <span class=ui>CSS</span> menu on the bottom toolbar. This menu contains many useful CSS syntax and properties. When you open this menu please first read the <span class=ui>Long-press for info</span> help. Also you can long-press on CSS items in this menu to see a description.</p></div>
+
+
+    <div class="L3-Smaller-heading">User style tweaks</div>
+
+        <p>These group of tweaks are different from the previous ones in the way they are created. Also unlike the previous type, they are not limited to a single book. They can be applied globally to all of your books.</p>
+
+        <p>Procedure is roughly like this, which we will explain in detail:</p>
+
+        <ol>
+            <li>Create your user tweak file</li>
+            <li>Transfer it to your device</li>
+            <li>Enable your tweak from the menu</li>
+        </ol>
+
+        <br>
+        <p><b>1. Creating the user tweak file:</b></p>
+        <p>A <span class=ui>user style tweak</span> is actually a normal text file with a <b>.css</b> extension. You can create this file:</p>
+
+        <ul>
+            <li>On your computer</li>
+            <li>On your device if it has a text editor (like Android OS based devices)</li>
+            <li>In KOReader's integrated text editor which you can find in plugins</li>
+        </ul>
+
+        <p>You can copy / paste the examples we mentioned above to your file.</p>
+
+        <br>
+
+        <p><b>2. Transferring the file to your device:</b></p>
+        <p>After creating the file(s) which contain your CSS rules, save or transfer them to the <span class=ui>styletweaks</span> folder under your KOReader installation. Give the files descriptive names because filename will be the title of the tweak in the KOReader menu system. You can use underscores "<b>_</b>" in your filenames, they will be treated as spaces in the menu. <b>You need to restart KOReader after transferring your files so it can load them.</b></p>
+
+        <br>
+
+        <p><b>2. Enabling the tweak:</b></p>
+        <p>After the restart, open a book and go to this menu:</p>
+
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / User style tweaks</div>
+            
+        <p>Now you should see your tweak in the list with a checkbox next to it. To apply your tweak to the <b>current book only</b>, tick the checkbox. If you want this tweak to be enabled for <b>all the books</b>, long-press on its name. A dialog will appear. Tap the menu item <span class=ui>Use on all books</span>. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps. See below for an example:</p>
+
+        <img loading="lazy" src="pictures/user_styletweaks_activation.png" style="width:400px;">
+
+        <p>In the image above, I have 3 style tweak files in the <span class=ui>styletweaks</span> folder under my KOReader installation. First one is disabled because checkbox is empty. Second one is enabled for this book only since checkbox is marked but there is no star. Third one is enabled for all the books <b>(★)</b>.</p>
+
+        <p>You might notice that there is also a <span class=ui>right triangle icon</span> next to the first tweak. This means that this tweak can be activated using gestures. This will explained in the next heading.</p>
+
+        <div class="L3-Smaller-heading">How to use tweaks efficiently</div>
+
+        <p>When creating your <span class=ui>user style tweaks</span> you can make multiple tweak files, each modifying some part of the book like in the example image above. You can have one file for the <b>headings</b>, others to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows you to enable tweaks depending on your document.</p>
+
+        <p>As we said above, you can toggle <span class=ui>user style tweaks</span> from this menu location:</p>
+
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / User style tweaks</div>
+
+    <br>
+
+        <p>Also we have easier ways to toggle your style tweaks than going to the menu every time.</p>
+        
+        <p><b>1. You can assign a gesture to a tweak</b></p>
+        <p>To do this, first we have to add our <span class=ui>user style tweak</span> to the list of gesture actions:</p>
+           
+            <ul>
+                <li>Go to the <span class=ui>user style tweaks</span> menu and long-press on your style tweak</li>
+                <li>In the dialog press the button <span class=ui>Show in action list</span></li>
+                <li>A <span class=ui>right triangle icon</span> will appear next to your style tweak in the menu</li>
+            </ul>
+
+            <p>You can see it in the example image above, next to the <b>Adjust margins</b> style tweak. Now this style tweak is added to the actions list. You can find it under <span class=ui>Gesture Manager > Reflowable documents</span> category. It will be at the end of the list.</p>
+
+<br>
+
+        <p><b>2. You can add a tweak to your Quick Menu</b></p>
+
+        <p>To add a tweak to your <span class=ui>Quick Menu</span>, first it has to be added to the actions list as described in the heading above. Then you can follow the instructions under the <a href="#quickmenu">Quick Menu</a> section of this guide. </p>
+
+        <p>You can even combine both methods and create a special <span class=ui>Quick Menu</span> for your style tweaks and then assign it to a gesture. This way, with a simple gesture you can access all your style tweaks and activate them as needed.</p>
+
+
+    <div class="L3-Smaller-heading">Finding elements for modifying</div>
+
+    <p>Note that in some books, titles might not be in <b>&lt;H1&gt; or &lt;H2&gt;</b> elements, but in something like <b>&lt;p class="tit123"&gt;</b>. You can find which selectors are used for a part of text by checking the source. To achieve this, select the text around the element which you are interested in, and choose <span class=ui>View HTML</span> from the dialog. In the example above, your style tweak would look like this:</p>
+
+    <p><b>P.tit123 { border-top: 2px solid black; }</b></p>
+
+    <p>instead of this:</p>
+    
+    <p><b>H1 { border-top: 2px solid black; }</b></p>
+
+
+    <!-- ANCHOR hius07 -->
+
+    <div class="L1-Chapter-heading" id="hius07">@ hius07</div>
+
+
+    <div class="L2-Sub-heading" id="skimwidget">Skim Widget</div>
+
+    <p><span class=ui>Skim Widget</span> is a very functional navigation tool. You can use it to:
+        <ul>
+            <li>Jump to any part of your book by directly tapping on the <span class=ui>progress bar</span> or entering the page number</li>
+            <li>Navigate between chapters</li>
+            <li>Navigate between bookmarks</li>
+        </ul>
+        
+    </p>
+
+    <p>
+            <b>How to open:</b>
+            <ul>
+                <li>with a long-tap on the <span class=ui>Status Bar</span> area at the bottom of your screen</li>
+                <li>From this menu: <div class="menu-breadcrumbs"> TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Skim document</div></li>
+                <li>You can assign a gesture to it</li>
+                <li>You can add it to your <span class=ui>Quick Menu</span></li>
+            </ul>
+        
+    </p>
+
+    <div class="L2-Sub-heading" id="skimwidget">Using the Skim Widget</div>
+
+    <p>First let's have a quick look at the diagram below. You will see that we have two different <span class=ui>Skim Widget</span>s. They have the same functions, only their size is different:</p>
+
+
+    <p><b>FULL-SIZE SKIM WIDGET:</b> This is the default <span class=ui>skim widget</span> you will see when you install KOReader. It is bigger than the <span class=ui>compact skim widget</span> so buttons are more comfortable to press. This widget opens at the <b>center of the screen</b>.</p>
+
+    <p><b>COMPACT SKIM WIDGET:</b> This is the slimmer version of the default <span class=ui>skim widget</span>. It can be more useful if you are making highlights for example. Since this widget is smaller and opens at the <b>top or bottom of the screen</b>, it doesn't obstruct the page as much as the default widget.</p>
+
+        <p>If you want to use the <span class=ui>compact skim widget</span>, you can do this by choosing <span class=ui>Top</span> or <span class=ui>Bottom</span> from this menu:</p>
+
+        <div class="menu-breadcrumbs"> TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigation / Skim dialog position:</div>
+
+        <div class=tip><p style="text-indent: 0rem;"><span class="label_green">TIP</span> Both skim widgets are movable. You can move them by pressing on an empty area of the widget and dragging. Also you can make these dialogs semi-transparent by long-pressing on an empty area on the widget.</p></div>
+
+    <p>Now back to the diagram. You can see that on some buttons, there are two descriptions in different colors:<b> blue and orange</b>. It means that this button has two functions: a <b>normal press</b> action and a <b>long-press</b> action. If you press normally, it will perform the <span class="label_blue">BLUE</span> function. If you press longer, it will perform the <span class="label_orange">ORANGE</span> function.</p>
+
+    <img loading="lazy" src="pictures/skim_widget_both.png" style="width:800px;">
+
+    <p><b>Explanations of the numbered items (long-press action in bold):</b></p>
+
+    <ol>
+        <li>Jump to the beginning of the previous chapter / <b>Jump to the first page of the book</b></li>
+        <li>Jump to the previous bookmark / <b>Jump to the first bookmark in the book</b></li>
+        <li>Bookmark current page / <b>Open bookmarks dialog</b></li>
+        <li>Jump to the next bookmark / <b>Jump to the last bookmark in the book</b></li>
+        <li>Jump to the beginning of the next chapter / <b>Jump to the last page of the book</b></li>
+        <li>Jump backward (-) or forward (+) this many pages</li>
+        <li>This number shows the current page number. If you tap on it, a dialog opens which allows you to enter a page number or percentage to jump directly. <b>If you long-press, it takes you back to the page where you opened the <span class=ui>skim widget</span>.</b> This is useful for example if you want to check some other part of the book quickly and return to your reading where you left.</li>
+        <li>This is the <span class=ui>progress bar</span>. Thin lines are the chapter marks which shows the beginning of the chapters. You can tap on this <span class=ui>progress bar</span> to jump to that part of the book. Little arrows are <span class=ui>session start arrows</span> which marks the place where you started reading this book in the current session. This arrows reset when you switch between books.</li>
+        <li>This button in the  works same as the long-press function of the item <b>number 7</b>. It takes you back to the page where you opened the <span class=ui>skim widget</span>. This is useful for example if you want to check some other part of the book quickly and return to your reading where you left.</li>
+    </ol>
+
+    <hr>
+
+    <div class="L2-Sub-heading">Collections</div>
+    <p>KOReader has a <span class=ui>Collections</span> feature which can help you with arranging your library more efficiently. Basically, collections are user created lists of your books. For example you can create two collections named <b>Fiction</b> and <b>Non-Fiction</b> to arrange your books accordingly. Of course you can also use folders to do this but collections give you more flexibility.</p>
+    <p>Some advantages of collections compared to the folder based organization:</p>
+    <ul>
+        <li>Adding a book to a collection doesn't move the book file. So your books can be located in different folders but they can appear in the same collection.</li>
+        <li>One book can be in many collections, which is not possible with folders. For example you can have a <b>Science Fiction</b> collection and <b>War Fiction</b> collection. A book can be added to both of these collections at the same time.</li>
+        <li><span class="highlight">Are there other advantages that you can think hius07 ?</span></li>
+    </ul>
+
+<br>
+
+    <p>You can create collections to mirror any kind of categorization. Some example ideas:</p>
+    <ul>
+        <li><b>Genres:</b> Fiction, non-fiction, memoir...</li>
+        <li><b>Book status:</b> Currently reading, want to read, next, did not finish...</li>
+        <li><b>Series:</b> Lord of the Rings, Harry Potter...</li>
+        <li><b>Document type:</b> Books, scientific articles, web articles...</li>
+    </ul>
+
+    <div class="L3-Smaller-heading">Creating and modifying collections</div>
+    <p>You can create collections from the <span class=ui>Collections</span> dialog located here:</p>
+
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collections</div>
+
+        <p>You can access this dialog from the reader view or from the <span class=ui>File Browser</span>. When you open this menu, it will show you a list of your collections. By default you will see <span class=ui>Favorites</span> there as a collection item which includes the books you have already added to your <span class=ui>Favorites</span> list.</p>
+
+        <ul>
+            <li><b>Adding a new collection:</b> Use the hamburger menu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> located at the top left corner of this screen > <span class=ui>New collection</span></li>
+            <li><b>Removing a collection:</b> Long tap on the collection name > <span class=ui>Remove collection</span></li>
+            <li><b>Renaming a collection:</b> Long tap on the collection name > <span class=ui>Rename collection</span></li>
+            <li><b>Changing the order of your collections:</b> Use the hamburger menu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> located at the top left corner of this screen > <span class=ui>Arrange collection</span></li>
+        </ul>
+
+        <div class="L3-Smaller-heading">Adding and removing documents to the collections</div>
+        <p>You can <b>add</b> a document to your collections from the <span class=ui>File browser</span> or <span class=ui>History</span> screen. Long press on the book and choose <span class=ui>Add to collection</span>. Then you can choose which collection(s) you want to add this book to.</p>
+        <p>You can <b>remove</b> a document from collections from the <span class=ui>File browser</span>, <span class=ui>History</span> screen or the <span class=ui>Collections</span> screen. In the <span class=ui>File browser</span> and <span class=ui>History</span> screens, long press on the book and choose <span class=ui>Add to collection</span>. You will see a checkmark next to the collections that you added this book to. Uncheck the ones by tapping on it to remove the book from that collection. In the <span class=ui>Collections</span> screen you can long press on the book and choose <span class=ui>Remove from collection</span>.</p>
+
+    <span class="highlight">I guess this is all, anything missing here?</span>
+
+    <hr>
+
+    <div class="L2-Sub-heading">Indicator icons</div>
+
+    <p>KOReader has some indicators to inform you about certain ongoing processes and states. You will see them at the top left corner of your screen during certain operations.</p>
+
+    <br>
+    <p><span class="highlight">This "Partial rendering icons" heading doesn't need checking since it is copied from an already existing section, please skip to next heading >>> <b>HIGHLIGHTING ICON</b></span></p>
+
+    <table align="center" style="padding: 1rem;">
+        <tr>
+            <td style="vertical-align: top;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_1.svg" style="width:60px;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_2.svg" style="width:60px;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_3.svg" style="width:60px;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_4.svg" style="width:60px;"></td>
+            <td><p style="text-indent: 0rem;"><span class="label_orange">Partial rendering icons</span> This group of icons belong to the partial rendering procedure and probably you will see these icons more frequently than the others. You see these icons when you change the settings on the bottom menu. This feature, allows you to preview the text appearance adjustments much quicker by only rendering the current chapter instead of the whole book. But after confirming your changes whole book has to be re-rendered so this is a multi-step procedure. These icons shows the stage of rendering as explained below:</p></td>
+        </tr>
+    </table>
+
+
+
+    <table align="center" style="border-collapse: collapse; width: 85%;">
+        <tr style="border-bottom: 1px solid #ff8a46 !important; ">
+            <td style="vertical-align: top; padding: 1rem;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_1.svg" style="width:150px;"></td>
+            <td><p>Document is <b>partially</b> rendered. Page count, footer info and many things are <b>innacurate</b>. You can see how the new settings look and adjust further. You can also turn pages, jump links in this state.</p></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ff8a46 !important; ">
+            <td style="vertical-align: top; padding: 1rem;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_2.svg" style="width:150px;"></td>
+            <td><p>A full rendering is happening in the <b>background</b>. You can still turn pages, jump links, change settings.</p></td>
+        </tr>
+        <tr style="border-bottom: 1px solid #ff8a46 !important; ">
+            <td style="vertical-align: top; padding: 1rem;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_3.svg" style="width:150px;"></td>
+            <td><p>Full rendering is done, but <b>not yet applied</b> because KOReader is waiting for you to be <b>idle</b> to reload the rest of the book (idle=not interacting with the device). You can still turn pages, jump links, change settings.</p></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; padding: 1rem;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_4.svg" style="width:150px;">
+            </td>
+            <td><p>You've been idle for a while so KOReader is now reloading the whole document. At this step KOReader is <b>blocked</b> to prevent interaction.</p></td>
+        </tr>
+    </table>
+
+<br>
+
+    <table align="center" style="padding: 1rem;">
+        <tr>
+        <td style="vertical-align: top;"><img loading="lazy" class="img_inline" src="pictures/texture-box.svg" style="width:270px;"></td>
+        <td><p style="text-indent: 0rem;"><span class="label_orange">Highlighting icon</span> This icon shows up when you are in the <span class=ui>Select and highlight mode</span>. KOReader has an additional highlight mode which allows you to start a highlight and turn pages to make long highlights which can span multiple pages. You can read about this in the <a href="#bookmarks">BOOKMARKS, HIGHLIGHTING AND NOTES</a> section of this guide. When you start a highlight in this mode, this icon is shown at the corner to remind you that you are still in the highlighting mode. It disappears when you finish your highlight by <b>selecting the end of the passage</b> or when you <b>cancel the highlight</b> (by tapping again on the beginning of your highlight).</p></td>
+        </tr>
+    </table>
+
+    <table align="center" style="padding: 1rem;">
+        <tr>
+        <td style="vertical-align: top;"><img loading="lazy" class="img_inline" src="pictures/appbar.pokeball.svg" style="width:160px;"></td>
+        <td><p style="text-indent: 0rem;"><span class="label_orange">Pokemon ball icon</span> This icon shows up when you press for a long time on a word (intentionally or accidentally). KOReader has a normal <b>long press</b> menu. And an additional <b>very long press</b> menu when you hold your finger longer than <span class="highlight">How many seconds? Looks like 3</span> seconds. This icon means that you activated this very long press menu.</p></td>
+        </tr>
+    </table>
+
+
+<hr>
+
+<div class="L3-Smaller-heading">Editing the text of a highlight</div>
+
+    <p>In addition to adding a note, KOReader also allows you to edit the highlighted text itself that is shown in your <span class=ui>Bookmarks list</span>. In some situations this might be more useful than adding a note to a highlight. For example imagine that you are reviewing a text. You want to highlight a sentence which contains many dates and one of the dates is wrong. When you want add a note to point to this mistake, you need to specify in your note, which one is wrong. But if you edit the text of a highlight, you can directly write <b>"(this date needs to be checked)"</b> next to the problematic date.</p>
+    
+    <p>Note that this editing <b>doesn't change</b> the book content or the highlighted passage on the page. You will still see the same highlighted sentence in the reader. Your edit will be visible in the <span class=ui>Bookmarks list</span>. And when you export your highlights later, edited text will be the one that is exported.</p>
+    
+    <p>To edit a highlight text:</p>
+
+    <ol>
+        <li>First go to the <span class=ui>Bookmarks list</span> via menu or gesture</li>
+        <li>Long press on the highlight you want to edit</li>
+        <li>Press <span class=ui>Edit text</span> in the menu</li>
+        <li>Change the text in the dialog and press the <span class=ui>Save</span> button</li>
+    </ol>
+
+    <p>If you want to <b>revert</b> an edited text to the original highlight, follow the steps above and at the step <b>3</b>, instead of <span class=ui>Edit text</span>, press the <span class=ui>Reset text</span> button.</p>
+
+
+    <hr>
+<div class="L3-Smaller-heading">Colorful highlights</div>
+
+    <p>If you have a device with a color screen, you can create highlights in different colors:</p>
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Highlights / Highlight color</div>
+
+    <img loading="lazy" src="pictures/highlight_colors.png" style="width:300px;">
+
+    <p><b>Some tips:</b></p>
+
+    <ul>
+        <li>You can change the color of an existing highlight by tapping on it and choosing <span class=ui>Color</span> from the popup menu.</li>
+        <li>You can combine color with highlight styles like <b>Underline</b> and <b>Strikethrough</b> to create a powerful highlighting system. For example you can use a <span style="text-decoration: line-through; font-weight: bold; color: red;">red strikethrough</span> style for removals or <span style="text-decoration: underline; font-weight: bold; color: purple;">purple underline</span> style for important points etc.</li>
+    </ul>
+
+    <p><b>Setting the defaults:</b></p>
+
+    <img loading="lazy" src="pictures/highlight_defaults.png" style="width:400px;">
+
+    <ol>
+        <li>In the highlights menu you can long-press on a highlight type to set it as default (★)</li>
+        <li><b>After selecting a color</b>, you can long-press on the color name in this menu to set that color as default (★)</li>
+        <li>You can press the <span class=ui>Apply current style and color to all highlights</span> option to make all the highlights in the current book same. <b>Be careful, there is no undo!</b></li>
+    </ol>
+
+
+    <hr>
+
+    <div class="L3-Smaller-heading">Changing how the added notes are shown in the Bookmarks List</div>
+    <p>Normally when you open the Bookmarks list, only the content of your highlights are shown. If you added a note to a highlight, you will only see a pencil icon in the Bookmarks list. You can long-press on an item in this list to show (and edit) the added note. If you want to see the note text too in your <span class=ui>Bookmarks list</span> you can set it from here:</p>
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Settings / Bookmarks / Show in items</div>
+
+    <p>You can choose to show:</p>
+    <ul>
+        <li><b>Only</b> highlight text (default behavior)</li>
+        <li><b>Both</b> highlight text and the note</li>
+        <li><b>Note if there is one</b>, otherwise highlight text</li>
+    </ul>
+    
+    <hr>
+
+<div class="L3-Smaller-heading" id="backup">Back up your KOReader settings</div>
+        <p>In rare cases that you want to backup and restore your KOReader with all your settings, you can backup these folders and files under the KOReader installation directory. Then you can overwrite them after a clean installation to restore your settings:</p>
+        
+        <div class="double-container">
+            <div>
+                <b>Folders:</b>
+        <ul>
+            <li>settings</li>
+            <li>styletweaks</li>
+        </ul>
+            </div>
+
+            <div>
+                <b>Files:</b>
+                <ul>
+                    <li>data/cr3.ini</li>
+                    <li>defaults.persistent.lua</li>
+                    <li>history.lua</li>
+                    <li>settings.reader.lua</li>
+                    <li>settings/profiles.lua <span class="highlight">Newly added</span></li>
+                    <li>Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if they exist)</b></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <p>To the profiles section:</p>
+        <div class=info><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> You can backup and transfer your profiles to another device. Please see <a href="#backup">Back up your KOReader settings</a> section.</p></div>
+
+        <hr>
+
+    <div class="L3-Smaller-heading">- Chapter progress bar</div>
+    <p>Progress bar normally shows your whole book. But it can also show your progress in the current chapter. You can assign a gesture to switch between these two progress bars.</p>
+    ***add menu path if exists
+
+    <hr>
+
+    <div class="L3-Smaller-heading">Bulk file operations</div>
+
+    <p><span class=ui>File browser</span> allows you to perform some operations (like copying, moving, deleting, exporting highlights) on many files at the same time. For this  procedure, first you have to select the files. Currently there are three different ways of selecting files for bulk operations in the <span class=ui>file browser</span>:</p>
+        
+    <p><b>- In the first method</b>, long press on a file name and choose <span class=ui>Select</span> from the popup dialog. This will activate the <span class=ui>Selection mode</span>. Now you can tap on other files to add them to the selection. When you finish selecting your files, tap on the <span class=ui>checkmark icon</span> at the <b>top right corner</b> of your screen. You can choose what to do with these files from the dialog. Or exit the selection mode from the same dialog.</p>
+
+    <p><b>- In the second method</b>, press the <span class=ui>+ (plus) icon</span> at the <b>top right corner</b> and choose <span class=ui>Select files</span> from the dialog. This will activate the <span class=ui>Selection mode</span> and rest is the same as the first method above.</p>
+
+    <p><b>- In the third method</b>, you can choose your files based on a <span class=ui> File search</span>. This is useful if you need to perform an operation on many files distributed in different folders. For example you want to move all files in your collection authored by Tolkien, to a new folder. Steps for this action will be:</p>
+    
+    <ol>
+        <li>From the <span class=ui>Top menu</span> press on the <span class=ui>Search tab</span> (with the magnifier icon) and choose <span class=ui>File search</span>.</li>
+        <li>Check <span class=ui>Include subfolders</span> option if you want to search inside the folders too. You can check <span class=ui>Also search in book metadata</span> if you want KOReader to look in book's metadata. Otherwise KOReader will only look at the file names for the word you entered.</li>
+        <li>You can start the search from your library <span class=ui>Home folder</span> or your <span class=ui>Current folder</span> by pressing on the respective button.</li>
+        <li>After search is finished, you will see a file list (if your search term is found of course). Now you can tap on the <span class=ui>Hamburger icon</span> at the <b>top left corner</b> of the screen to enter the <span class=ui>Selection mode</span>.</li>
+        <li> Tap on all the files you want to perform operations on and tap on the <span class=ui>Checkmark icon</span> at the <b>top left corner</b> of your screen. You will see a dialog which contains <span class=ui>Select in file browser</span>. Select this option. </li>
+        <li>Now you will be back at the <span class=ui>File browser</span> and the files you selected in the <span class=ui>Search dialog</span> will also be selected here.</li>
+        <li>Tap on the <span class=ui>Checkmark icon</span> at the <b>top right corner</b> of your screen. Now you can choose what to do with these files from the dialog.</li>
+    </ol>
+
+
+    <!-- ANCHOR Frenzie -->
+
+    <div class="L1-Chapter-heading" id="frenzie">@ Frenzie</div>
+
+
+
+
+    <table align="center" style="border-collapse: collapse;">
+        <tr><td colspan="2" style="padding: 1rem;"><p>You are currently reading the <b>English</b> version of the <b>KOReader User Guide</b>. We also have other languages which are translated by volunteers. We have many translations in progress but only languages which are translated <b>above 50%</b> are included in the list below for usability reasons.</p>
+            
+        <p>To see all the languages currently being translated and contribute to the translation efforts of the user guide, please visit the <a href="https://hosted.weblate.org/projects/koreader/user-guide/">Weblate translation page</a> of our project.</p>
+        </td></tr>
+
+        <tr><td><p><span class="label_blue">More than 80% translated</span></p></td><td><p><span class="label_orange">50% to 80% translated</span></p></td></tr>
+        
+        <tr>
+            <td style="width: 50%; vertical-align: top;">
+            <ul style="margin-left: 0rem;">
+                <li><a href="https://koreader.rocks/user_guide/zh_Hans.html">🇨🇳 Chinese (Simplified Han script)</a></li>
+                <li><a href="https://koreader.rocks/user_guide/ko.html">🇰🇷 Korean</a></li>
+                <li><a href="https://koreader.rocks/user_guide/sr.html">🇷🇸 Serbian</a></li>
+                <li><a href="https://koreader.rocks/user_guide/ta.html">🇮🇳 Tamil</a></li>
+                <li><a href="https://koreader.rocks/user_guide/uk.html">🇺🇦 Ukrainian</a></li>
+            </ul>
+            </td>
+            <td style="width: 50%; vertical-align: top;">
+            <ul style="margin-left: 0rem; vertical-align: top;">
+                <li><a href="https://koreader.rocks/user_guide/es.html">🇪🇸 Spanish</a></li>
+            </ul>
+            </td>
+        </tr>
+    </table>
+
+<hr>
+
+    <div class="L2-Sub-heading">Reader user interface</div>
+
+
+
+    <img loading="lazy" src="pictures/main_ui.png" style="width:500px;">
+
+    <span class="highlight">Please ignore the *** parts in this list. They will be internal links.</span>
+
+    <p>Image above shows the elements you can see on your reader screen when reading a book:</p>
+    <ol>
+        <li><b>Indicator icons:</b> These icons inform you about certain ongoing processes and states. You will see them at the top left corner of your screen during certain operations. Normally they are smaller but here we show them bigger for clarity. Click here to go to the section: ***</li>
+        <li><b>Status bar:</b>This is a highly configurable area where you can see various information about your book and KOReader. Click here to go to the section: ***</li>
+        <li><b>Alternate Status bar:</b> In addition to the default <span class="ui">Status bar</span>, we have an <span class="ui">Alt status bar</span> which appears at the top of the page if you enable it. Click here for details:***</li>
+        <li><b>Reference page number:</b> If the publisher of your book included the page numbers from the paper printed version of the book, you will see them like this. Click here for more info: ***</li>
+        <li><b>Highlight types:</b> You can see the different highlight types here. Also you can make colored highlights if your device has a suitable screen. Click here to go to the section: ***  </li>
+        <li><b>Note marker:</b> Note marker icon shows up when you add a note to a highlight. We have different types of note markers. Click here for more info:***</li>
+    </ol>
+
+<hr>
+
+    <span class="highlight">I asked benoit-pierre to check this section but he didn't say anything so it is on your plate Frenzie :)</span>
+    <div class="L2-Sub-heading">Saving highlights into PDF</div>
+    <p>For saving your highlights, you can use the <span class=ui>Export highlights</span> feature of KOReader which is explained in the previous section.</p>
+    <p>If you are making your highlights on a PDF document, KOReader can also save them directly to the PDF file. This can be useful in certain situations because with this method, your highlights become a part of the PDF file. This means you can see them on other applications or platforms without installing KOReader. For example if you are sending a file with highlights to another user, they don't have to install KOReader to see your highlights. You can just send the PDF file with your highlights saved into it and they can open and see them with a <b>compatible</b> PDF reader.</p>
+    
+    <div class=warning><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> If you are using the <span class=ui>Progress Sync</span> plugin, saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class=ui>Progress Sync</span> plugin's settings, change the <span class=ui>Document matching method</span> to <span class=ui>Filename</span> instead of the default <span class=ui>Binary</span> matching:
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Progress sync / Document matching method</div>
+    </p></div>
+
+    <p><b>Which PDF readers can show these highlights?</b></p>
+    <p>PDF readers generally depend on some standard libraries to render PDF files. Two of the most known PDF libraries are <b>MuPDF</b> and <b>Poppler</b> libraries. KOReader uses the <b>MuPDF</b> library, so the highlights written to PDFs in KOReader are not visible on PDF readers which uses the <b>Poppler</b> library. You can find a compatibility list below. ✅ means you can see your KOReader highlights in this application, ❌ means you can't see them. And ⚠️ means the application needs some plugin to show them. List is ordered alphabetically within categories.</p>
+        
+            <div class=warning><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> This list is not complete and might not be up to date. So we suggest you to test the compatibility yourself. Simply make a highlight in KOReader, write it into the PDF file and try opening the file on your intended reader to check if the highlight is visible.</p></div>
+
+        <ul>
+            <li>✅ Chrome Browser (All platforms)</li>
+            <li>✅ Deepin Reader (Linux)</li>
+            <li>✅ Firefox Browser (All platforms)</li>
+            <li>✅ Ghostscript (All platforms)</li>
+            <li>✅ MuPDF (Windows/Android)</li>
+            <li>⚠️ Zathura (if MuPDF plugin is enabled)</li>
+            <li>❌ Adobe Acrobat Reader</span></li>
+            <li>❌ Evince (Linux)</span></li>
+            <li>❌ Foxit Reader</span></li>
+            <li>❌ LibreOffice Draw (as editor)</li>
+            <li>❌ Moon Reader (Android)</li>
+            <li>❌ Okular (Linux)</li>
+            <li>❌ SumatraPDF (Windows)</li>
+            <li>❌ Xpdf (Linux)</li>
+            <li>❌ Xreader (Linux)</li>
+        </ul>
+
+        <div class="L3-Smaller-heading">Important information about saving PDF highlights</div>
+        <p>Since making highlights for later usage can involve significant effort, if you are planning to use this feature, you should understand how it works in order to avoid frustrating situations.</p>
+
+        <p><b>QUICK SUMMARY:</b> If you want to be able to delete or export your PDF highlights later, you have to copy the <span class=ui>.sdr folder</span> associated with your book when you backup or copy your book to other devices. Without this folder, KOReader can still show the saved highlights but it can't know where they are in the file, so it can't modify them. Please continue reading for more information about this.</p>
+
+        <br>
+
+        <p><b>How normal highlights work in KOReader</b></p>
+
+        <p>When you make a highlight in KOReader, whether the document is an EPUB or PDF, this highlight is written into a settings file. For example if you are reading <b>Alice in Wonderland.epub</b> you will have a folder named <span class=ui>Alice in Wonderland.sdr</span> in the same folder as your book. Your highlights will be kept in a file under this <span class=ui>.sdr folder</span>. Which means, if you delete this <span class=ui>.sdr folder</span> which is associated with your book, you will lose your highlights.</p>
+            
+        <br>
+
+        <p><b>How PDF highlights work in KOReader</b></p>
+        <p>PDF highlights feature works a bit different than the description above. As we mentioned before, when you save your PDF highlights, they will be directly written into the PDF file, which means they become a part of the file itself. That's why you can send this PDF to another user and they can see the highlights with a compatible PDF reader. They won't need your <span class=ui>.sdr folder</span> which contains a record of your highlights because now the highlights are embedded directly into the PDF file.</p>
+
+        <p>Let's explain the problem which can arise when you are using this feature, on an example. Imagine that you are reading a PDF book on your <b>e-reader</b> with KOReader:</p>
+
+        <ol>
+            <li>You are making highlights and <span class=ui>Save highlights to PDF</span> option is enabled, so as you make these highlights, KOReader saves them to your PDF file.</li>
+            <li>You want to continue reading the book on your <b>phone</b> with KOReader, so you copy this PDF file from your <b>e-reader</b> to your <b>phone</b> (but you didn't copy the <span class=ui>.sdr folder</span>, only the PDF file).</li>
+            <li>When you open the book on your <b>phone</b> with KOReader, you will see that your highlights are still there.</li>
+        </ol>
+
+        <p>Now the situation on both of your devices looks identical. Both your <b>e-reader</b> and <b>phone</b> KOReader shows the PDF file with the same highlights. But it only <b>looks</b> identical, actually there is a big difference.</p>
+
+        <p>KOReader on your <b>e-reader</b> has the knowledge of which highlights in this PDF file are made by KOReader because it has the <span class=ui>.sdr folder</span>. But KOReader on your phone doesn't have this knowledge. It only has the PDF file.</p>
+
+        <p>Difference arises when you try to delete the pdf highlights or export them. Your <b>e-reader</b> can both delete these PDF highlights and export them. But your <b>phone</b> KOReader can't, because as we said, it doesn't have the <span class=ui>.sdr folder</span> of your book so the highlights in the book look like a part of the original book from its point of view.</p>
+
+        <p>So in short, if you want to be able to delete or export your PDF highlights later, you have to copy the <span class=ui>.sdr folder</span> associated with your book when you backup or copy your book to other devices.</p>
+
+        <div class="L2-Sub-heading">To troubleshooting section >>></div> 
+
+
+        <div class="L3-Smaller-heading">My Progress Sync doesn't synchronize my progress</div>
+        <p> This might be caused by the <span class=ui>Write highlights into PDF</span> feature of KOReader if you enabled it. Saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class=ui>Progress Sync</span> plugin's settings, change the <span class=ui>Document matching method</span> to <span class=ui>Filename</span> instead of the default <span class=ui>Binary</span> matching:</p>
+            <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Progress sync / Document matching method</div>
+
+
+
+<hr>
+
+<div class="L3-Smaller-heading">Markdown documents</div> 
+<span class="highlight">Will CONVERT option be still available?</span>
+<p>KOReader provides two options for reading Markdown documents.</p>
+<ol>
+    <li>You can open the document directly like a book by tapping on it. This mode doesn't provide formatting. So your .md file will look like as it is opened in a text editor.</li>
+    <li>You can convert your Markdown document to HTML. This action will render a HTML file from your Markdown document with the correct formatting and a <b>Table of Contents</b> created from the headings.</li>
+</ol>
+
+<p>To convert a <b>.md</b> file, long press on it in the <span class=ui>File Browser</span> and tap <span class=ui>Convert</span> from the popup menu. A new file with the same name but HTML extension will be created in the same directory. Be aware that conversion might take a while depending on your Markdown file and device speed.</p>
+
+
+<hr>
+
+    <span class="highlight">This warning might need expanding/correcting:</span>
+    <div class=warning><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> Be careful if you want to use the SSH feature without a password. Because this allows access to your device. If you are using a local wifi and turn on your device wifi for a short time, this risk is negligible.</p></div>
+
+
+    <hr>
+
+    <div class=tip><p style="text-indent: 0rem;"><span class="label_green">TIP</span> If you want to open a random page of a book, we have a <b>Jump to a random page</b> action which you can assign to any gesture. It is in the <b>Reader</b> category of the <span class="ui">Gesture Manager</span>.</p></div>
+
+
+    <hr>
+
+    <div class=tip><p style="text-indent: 0rem;"><span class="label_green">TIP</span> Comic books generally need more frequent page refreshes than text content. In KOReader you can assign gestures to switch between refresh rates. For example you can set "swipe up left edge" for "every page" refresh for comics and set "swipe down left edge" for "every x page" refresh for text only books. Action is under:
+        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Taps and Gestures / Gesture manager / Screen and lights section / Full screen refresh rate</div></p></div>
+
+
+    <hr>
+
+
+    <p>To shortcuts >>></p>
+    <li>Take screenshot - <b>Alt+Shift+G</b></li>
+
+<br>
+
+    <p>To user interface >>></p>
+    <p>You can take a screenshot by making a <b>long diagonal swipe</b> with your finger. Also <b>touching opposing diagonal corners</b> will take a screenshot. You can use this second shortcut for example when viewing an image. If you are using a device with a keyboard, you can also take a screenshot with the Alt+Shift+G shortcut.</p>
+
+    <hr>
+
+    <p>To plugins >>></p>
+
+    <li><span class=external>Syncthing for KOReader:</span> This addon allows you to run <span class=external>Syncthing</span> peer-to-peer file synchronization program on KOReader (tested only on Kobo devices but might work on other devices according to the author). This makes it possible to sync files between your e-reader and computer/phone automatically. <a href="https://github.com/jasonchoimtt/koreader-syncthing">https://github.com/jasonchoimtt/koreader-syncthing</a></li>
+
+    <hr>
+
+    <div class="L2-Sub-heading">Status bar</div>
+    <p>KOReader have two status bars, a <span class="ui">Bottom status bar</span> which is enabled by default. And we have an <span class="ui">Alt status bar</span> which appears at the top of the page if you enable it. This <span class="ui">Alt status bar</span> is available only in reflowable documents (epub, html, docx, rtf, txt…).</p>
+    
+    <p><span class="ui">Bottom status bar</span> is the newer one which is actively maintained. <span class="ui">Alt status bar</span> is a remnant from earlier versions of KOReader so we are not adding new features to it. But you can still enable this <span class="ui">Alt status bar</span> if you find it useful. You can enable it from:</p>
+ 
+    <div class="menu-breadcrumbs">⇓ BOTTOM MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Alt Status Bar</div>
+
+    <p>You can configure the <span class="ui">Alt status bar</span> from this menu:</p>
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar / Alt status bar</div>
+
+    <p>Instructions in the rest of this section are for the <span class="ui">Bottom status bar</span>.</p>
+    
+    <div class="L3-Smaller-heading">Configuring the status bar</div>
+    <p>
+    You can configure the bottom status bar from this menu. Feel free to explore the <span class=ui>SETTINGS</span> sub-menu to customize your status bar as you like.
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar</div>
+
+    <br>
+
+    <p>There are many items you can show on the status bar. But by default, only one is shown at a time and you have to tap on the status bar to cycle between them. If you want to show all items at once, enable it from here:</p>
+    
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar / Settings / Show all at once</div>
+
+<br>
+
+    <p>If you enabled the option above, you can't hide the status bar by tapping on it. If you want to hide it, you should assign a gesture here for toggling the status bar:</p>
+
+    <div class="menu-breadcrumbs">Gesture selection menu / Reader / Toggle status bar</div>
+
+    <p><b>Sorting the status bar items</b></p>
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar / Settings / Sort items</div>
+
+   
+
+
+
+
+    <br>
+    <div class="L3-Smaller-heading">Using "Custom Text" item for status bar alignment</div>
+    <p>There is a special status bar item named <span class=ui>Custom text</span>. This item can show your chosen text in the status bar. You can also use this feature to create a separator between the status bar items as you can see in the example below:</p>
+
+    <img loading="lazy" src="pictures/statusbar_customtext.png" style="width:800px;">
+
+    <ul>
+        <li>First enable this option with a short press on it from this menu
+
+            <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar / Custom text: ‘KOReader’</div>
+
+        </li>
+        <li>Then long-press on it again to open its settings. Enter a <b>"space"</b> character in the first box and enter the number of repetitions in the second box, which will determine how wide your separator will be.</li>
+    </ul>
+    
+    <p>You can choose another character as a separator. You can also move this item like other status bar items to change its order to adjust your groups.</p>
+
+    <hr>
+
+    <div class="L3-Smaller-heading">Chapter progress bar</div>
+    <p><span class="ui">Progress bar</span> in the <span class="ui">status bar</span> normally shows your progress for the whole book. But it can also show your progress for the <b>current chapter</b> instead. This can be useful for example, if a book has lots of short chapters. In this case it might be hard to see your progress in the current chapter so <span class="ui">chapter status bar</span> can be more informative here. You can enable the feature from this menu: </p>
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Status Bar / Progress Bar / Show chapter-progress bar instead</div>
+
+    <p>Also you can assign a gesture to switch between normal and chapter progress bars. You can find this action under:</p>
+
+    <div class="menu-breadcrumbs">Gesture selection menu / Reader / Toggle chapter progress bar</div>
+
+
+    <div class="L3-Smaller-heading">Page numbering and reference page numbers</div>
+    <p>Document types like <b>epub, mobi, html</b> naturally don't have fixed page numbers because they are reflowable documents. Which means, these documents can be adjusted according to the screen size and orientation of the device (unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed page size).</p>
+    
+    <p>If you increase the font size of a reflowable document, your page count will increase too, because now less text will fit on a single page. This sometimes causes a problem because a highlight which you made on <b>page 38</b> might be on <b>page 42</b> after the font adjustment.</p>
+
+    <p>KOReader supports <b>Reference page numbers</b> feature which allows publishers to embed page numbers from printed books directly to the e-book version. When you enable this feature, KOReader doesn't calculate the page numbers itself. Instead, it shows you the <b>embedded page numbers</b> from the publisher. This means, the page number you see in your <span class=ui>Status bar</span> matches the print version of the book. </p>
+
+    <p>Benefits of reference page numbers:</p>
+    <ul>
+        <li>Reference page numbers enable accurate citations by matching the page numbers found in the printed versions.</li>
+        <li>Reference page numbers can aid in navigation, especially for readers who are familiar with the print version of a book. It can help you find specific passages or quotes more easily in the digital version.</li>
+        <li>Since digital books can be read on various devices and platforms, each with its own font size and display settings, shown page numbers can vary significantly. Reference page numbers provide a consistent point of reference when reading the same book on different devices like e-reader and phone at the same time.</li>
+    </ul>
+
+    <span class="highlight">Is this enabled by default?</span>
+    You can enable this feature from:
+
+    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Reference pages / Use reference page numbers</div>
+
+    <p>If you also check the <span class=ui>Show reference page labels in margin</span> option from the same menu, this page numbers will be shown next to the text in a small font.</p>
+
+    <p>Please note that this menu appears only if there are embedded <b>Reference page numbers</b> in your book.</p>
+
+    <br>
+
+    <p>To troubleshooting section >>></p>
+    <div class="L3-Smaller-heading">I see small numbers on the side when reading a book</div>
+    <p>Those small numbers are called <b>Reference Page Numbers</b>. In short, they are the real page numbers from the printed version of your book. For more information please click here *** to go to the relevant section.</p>
+
+    <hr>
+
+    <p>To UI tips section >>></p>
+    <p><b>Creating new folders - </b>In situations when you need to choose a location (cloud storage, move to archive plugin, exporter plugin), KOReader presents you a screen that looks like our <span class=ui>File Browser</span>. If you want to create a new folder while choosing:
+        <ol>
+            <li>First navigate to the folder from the <span class=ui>Folder chooser screen</span></li>
+            <li>Then <b>long-press</b> the <span class=ui>Home icon</span> shown at the upper-left corner of this screen</li>
+        </ol>
+    </p>
+
+
+
+
+<hr>
+
+<span class="highlight"> THIS HEADING IS WAITING FOR THE "AUTO OCR LANGUAGE RECOGNITION" PR FRENZIE - PLEASE UPDATE ME / SKIP IT FOR NOW SINCE IT IS NOT COMPLETE</span>
+
+
+<div class="L2-Sub-heading" id="ocr">OCR (Optical Character Recognition)</div>
+
+   <p><b>OCR (Optical Character Recognition)</b> is the process of extracting text from images into machine readable format. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <span class=external>Tesseract Open Source OCR Engine</span> for this task (<a href="https://github.com/tesseract-ocr/tessdoc">https://github.com/tesseract-ocr/tessdoc</a>).</p>
+    
+    <p>In order to use this feature you need to:</p>
+    <ol>
+        <li><b>Install <span class=external>Tesseract</span> language data to your KOReader:</b>
+        <p>Download the data file for your desired OCR language from this GitHub repository -> <a href="https://github.com/tesseract-ocr/tessdata_fast">https://github.com/tesseract-ocr/tessdata_fast</a> These data files have the 3 letter country code as name with a <b>.traineddata</b> extension. For example Spanish language OCR data file is named as <b>spa.traineddata</b>.</p>
+        
+        <p>After downloading, copy this language data file to the <span class=ui>koreader/data/tessdata</span> folder on your device.</p></li>
+        <li><b>Add this language to the <span class=ui>koreader/defaults.lua</span> configuration file:</b>
+        <p>(if your OCR language is <b>English</b> or <b>Chinese</b> this is not necessary)</p>
+        <p></p>
+    </li>
+    </ol>
+    
+    <div class=info><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in the related wiki page: <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages</a>
+    </div>
+
+
+
+<hr>
+
+<div class="L3-Smaller-heading">Sleep cover problems</div>
+<p>Sleep covers generally use a magnet embedded in the cover which enables wake up and sleep events via triggering a sensor in your device. This sensor can sometimes be mentioned as a <b>Hall sensor</b> or <b>Hall effect sensor</b>. In some cases like misaligned or weak magnets, this triggering can be problematic. If you are having problems with waking up your device with your cover, you can disable this feature via this menu:</p>
+
+<div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Device / Ignore all sleep cover events</div>
+
+
+
+<!-- OUTER DIV-->
+</div>
+
+
+<!-- ANCHOR TEMPLATES -->
+
+<!--
+<div class="L1-Chapter-heading">
+<div class="L2-Sub-heading">
+<div class="L3-Smaller-heading">
+
+<div class="standard-text">
+
+<div class="menu-breadcrumbs"><span class="icon_green"> </span> TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> /  /  /  /  /</div>
+
+
+<img loading="lazy" src="pictures/" style="width:600px;">
+<img loading="lazy" class="img_inline" src="pictures/" style="width:26px;">
+
+<span class=ui>
+<span class=external>
+
+<a href=""></a>
+
+<div class=warning>
+    <span class="icon_red"></span> info
+    <span class="icon_red"></span> warning
+    <span class="icon_red"></span> tip
+
+<div class="double-container">
+    <div></div>
+    <div></div>
+</div>
+
+ANCHOR - Used to indicate a section in the file
+TODO - An item that is awaiting completion
+FIXME - An item that requires a bugfix
+REVIEW - An item that requires additional review
+NOTE - An important note for a specific code section
+-->
+
+</body>
+</html>
