@@ -8,12 +8,12 @@ jobs:
     steps:
       - name: Manual HTML Preview English
         id: html_preview_en
-        uses: pavi2410/html-preview-action@v2
+        uses: pavi2410/html-preview-action@v4
         with:
           html_file: 'user_guide/en.html'
       - name: Manual HTML Preview Persian (RTL)
         id: html_preview_fa
-        uses: pavi2410/html-preview-action@v2
+        uses: pavi2410/html-preview-action@v4
         with:
           html_file: 'user_guide/fa.html'
       - name: Create comment
