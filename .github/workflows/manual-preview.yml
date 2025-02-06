@@ -8,12 +8,12 @@ jobs:
     steps:
       - name: Manual HTML Preview English
         id: html_preview_en
-        uses: pavi2410/html-preview-action@v2
+        uses: pavi2410/html-preview-action@v4
         with:
           html_file: 'user_guide/en.html'
       - name: Manual HTML Preview Persian (RTL)
         id: html_preview_fa
-        uses: pavi2410/html-preview-action@v2
+        uses: pavi2410/html-preview-action@v4
         with:
           html_file: 'user_guide/fa.html'
       - name: Create comment
@@ -25,5 +25,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '${{ format('[Click here to preview HTML page in browser]({0}), [RTL]({1})', steps.html_preview_en.outputs.url), steps.html_preview_fa.outputs.url) }}'
+              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview_en.outputs.url) }}, ${{ format('[RTL]({0})' steps.html_preview_fa.outputs.url) }}'
             })
