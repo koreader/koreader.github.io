@@ -1992,50 +1992,50 @@ Najpoužívanejšie aplikácie na konverziu alebo optimalizáciu dokumentu pre v
 
 <p><span class="external">OCRmyPDF</span> je aplikácia príkazového riadka, ktorá dokáže pridať textovú vrstvu OCR do naskenovaných súborov PDF (obsahujúcich iba obrázky bez textu), čo umožňuje ich vyhľadávanie alebo kopírovanie. Môže byť užitočný najmä pri čítaní starých naskenovaných kníh. Môže tiež optimalizovať obrázky pre menšiu veľkosť súboru. <a href="https://github.com/ocrmypdf/OCRmyPDF">https://github.com/ocrmypdf/OCRmyPDF</a></p>
 
-<p><span class="external">SingleFile</span> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a single .html file with all resources (images, stylesheets, scripts) embedded. <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
+<p><span class="external">SingleFile</span> je rozšírenie prehliadača pre <b>Mozilla Firefox, Google Chrome</b> a <b>Microsoft Edge</b>. Toto rozšírenie umožňuje uložiť webovú stránku ako jeden súbor .html so všetkými vloženými zdrojmi (obrázky, šablóny so štýlmi, skripty). <a href="https://github.com/gildas-lormeau/SingleFile#install">https://github.com/gildas-lormeau/SingleFile#install</a></p>
 </div>
 
 <div class="L2-Sub-heading" id="zipfiles">Podpora súborov ZIP</div>
 
 <div class="standard-text">
-KOReader can read files stored/compressed in <b>ZIP</b> files. A ZIP file can contain many types of documents like html, txt or images. KOReader can open your ZIP file properly if you give it a hint for the type of file in the ZIP archive. If you give your file only a <b>.zip</b> extension, KOReader will assume that this archive contains images and try to open it like a <b>CBZ</b> file.
+KOReader dokáže čítať súbory uložené/komprimované v súboroch <b>ZIP</b>. Súbor ZIP môže obsahovať mnoho typov dokumentov, ako sú html, txt alebo obrázky. KOReader môže správne otvoriť váš súbor ZIP, ak mu "napoviete" aký typ súboru je v archíve ZIP. Ak svojmu súboru dáte iba príponu <b>.zip</b>, KOReader bude predpokladať, že tento archív obsahuje obrázky a pokúsi sa ho otvoriť ako súbor <b>CBZ</b>.
 
-<p><span class="ui">DEFAULT CASE:</span> yourfilename<b>.zip</b> - Assumed to be a zip file of images (and opened by <span class="ui">MuPDF engine</span>)</p>
+<p><span class="ui">PREDVOLENÝ STAV:</span> názovVášhoSúboru<b>.zip</b> – predpokladá sa, že ide o súbor zip s obrázkami (a otvorený <span class="ui">modulom MuPDF</span>)</p>
 
-<p>If your zip file contains one of these types (instead of just images), please name it accordingly:</p>
+<p>Ak váš súbor zip obsahuje jeden z týchto typov (namiesto obrázkov), pomenujte ho podľa toho:</p>
 
 <ul>
-    <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
-    <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
-    <li><b>Text log files</b> - yourfilename.<b>log.zip</b></li>
-    <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
-    <li><b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b></li>
-    <li><b>Plain text</b> - yourfilename.<b>txt.zip</b></li>
+    <li><b>FictionBook</b> – názovVášhoSúboru.<b>fb2.zip</b></li>
+    <li><b>HTML</b> – názovVášhoSúboru.htm.zip / názovVášhoSúboru.<b>html.zip</b></li>
+    <li><b>Textové protokolové súbory</b> – názovVášhoSúboru.<b>log.zip</b></li>
+    <li><b>Markdown</b> – názovVášhoSúboru.<b>md.zip</b></li>
+    <li><b>Formát RTF</b> – názovVášhoSúboru.<b>rtf.zip</b></li>
+    <li><b>Obyčajný text</b> – názovVášhoSúboru.<b>txt.zip</b></li>
 </ul>
 
-<p>If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class="ui">No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class="ui">Open with...</span> to select the correct engine.</p>
+<p>Ak nie sú dokumenty takto pomenované, pravdepodobne sa použije nesprávny nástroj na čítanie/formátovanie a zobrazí sa hlásenie <span class="ui">Žiadny nástroj na čítanie tohto súboru alebo neplatný súbor</span>. Tento súbor môžete premenovať, ako je vysvetlené vyššie, alebo dlho stlačte názov súboru a potom vyberte možnosť <span class="ui">Otvoriť pomocou...</span>, aby ste vybrali správny nástroj.</p>
 </div>
 
 
 <div class="L2-Sub-heading" id="manga">Prispôsobenie komiksu manga pre vašu čítačku</div>
 
 <div class="standard-text">
-If you like reading manga books on your e-ink device there are some tips that can make your experience better. Preparing your own manga files is the best solution if you're not satisfied with how comics look on your device.
+Ak radi čítate knihy manga na svojom e-ink (elektronický atrament) zariadení, existuje niekoľko tipov, ktoré vám môžu zlepšiť zážitok. Príprava vlastných manga súborov je najlepším riešením, ak nie ste spokojní s tým, ako komiksy vyzerajú na vašom zariadení.
 
-<div class="L3-Smaller-heading">File type</div>
+<div class="L3-Smaller-heading">Typ súboru</div>
 <p>Typy súborov ako MOBI a EPUB nie sú primárneho vhodné na spracovanie obrazového obsahu (napr. manga/komiksy). Podpora <b>MOBI</b> v KOReader je minimálna až žiadna a priority vykresľovania textu <b>EPUB</b> môžu spôsobovať problémy pri zobrazovaní celostránkových obrázkov. Ďalšie technické podrobnosti:</p>
 
 <p><a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205</a>).
 </p>
 
-<p>Your best option is building a <b>CBZ</b> file which works better in KOReader. A file with <b>.cbz</b> extension is a zip file (with no compression) that is a collection of images. It saves multiple images, commonly <b>.png</b> or <b>.jpeg</b> files, organized into pages of the comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</b> files but use <b>TAR</b> archive format.</p>
+<p>Najlepšou možnosťou je vytvoriť súbor <b>CBZ</b>, ktorý funguje lepšie v KOReaderi. Súbor s príponou <b>.cbz</b> je súbor zip (bez kompresie), ktorý je zbierkou obrázkov. Ukladá viacero obrázkov, zvyčajne súbory <b>.png</b> alebo <b>.jpeg</b>, usporiadané do strán komiksu. KOReader môže tiež otvárať súbory <b>CBT</b>, ktoré sú podobné súborom <b>CBZ</b>, ale používajú archívny formát <b>TAR</b>.</p>
 
-<p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that eink-rendered gradients are smoothly dithered without jagged layers.</p>
+<p>Najjednoduchší spôsob, ako previesť mangu na <b>CBZ</b>, je získať mangu ako obrázky z rôznych webových stránok, potom ich skonvertovať pomocou <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). Existuje niekoľko užitočných nastavení, ako je <b>automatické otáčanie rozdelenia dvoch strán na šírku a použitie rozkladu</b>, aby sa prechody vykreslené displejom e-ink plynulo rozložili bez zubatých vrstiev.</p>
 
-<div class="L3-Smaller-heading">Resolution</div>
-<p>The best results can be achieved by resizing your images to exactly your e-reader screen size. A screen-specific <b>CBZ</b> which targets the exact screen size of the device, prevents rescaling during reading. KOReader downscales your images to your screen size while reading but this is not recommended because KOReader adds a dithering pass before scaling and this causes loss of quality.</p>
+<div class="L3-Smaller-heading">Rozlíšenie</div>
+<p>Najlepšie výsledky možno dosiahnuť zmenou veľkosti obrázkov presne na veľkosť obrazovky vašej elektronickej čítačky. Formát <b>CBZ</b> je špecifický pre obrazovku, ktorý sa zameriava na presnú veľkosť obrazovky zariadenia, zabraňuje zmene mierky počas čítania. KOReader zmenšuje vaše obrázky na veľkosť obrazovky počas čítania, ale to sa neodporúča, pretože KOReader pridáva pred zmenou mierky prechod rozkladu, čo spôsobuje stratu kvality.</p>
 
-<p>But if you want to use your hand made <b>CBZ</b> on more than one device or you want to preserve high resolution for future proofing, your best option might be to make the <b>CBZ</b> for your highest resolution device. Or pick an arbitrary "high" resolution, possibly one that matches the source. <b>300 PPI</b> or better (up to <b>450</b> or even <b>600</b>), unless the source is lower of course. If we assume a screen size of <b>8", 1500×2000</b> is a good target resolution. For bigger images, you should try it on your device and see whether it can deal with it. Especially old Kindles with low memory can struggle with sizes like <b>3000×4000</b> for example. If you're automating the process, it might be worth considering creating both a lower and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI).</p>
+<p>Ak však chcete použiť svoj ručne vyrobený súbor <b>CBZ</b> na viac ako jednom zariadení alebo chcete zachovať vysoké rozlíšenie pre budúce korektúry, najlepšou možnosťou môže byť vytvoriť <b>CBZ</b> pre vaše zariadenie s najvyšším rozlíšením. Alebo si vyberte ľubovoľné „vysoké“ rozlíšenie, prípadne také, ktoré zodpovedá zdroju. <b>300 PPI</b> alebo lepšie (až <b>450</b> alebo dokonca <b>600</b>), pokiaľ samozrejme nie je zdroj nižší. Ak predpokladáme veľkosť obrazovky <b>8", 1500×2000</b> je dobré cieľové rozlíšenie. Pre väčšie obrázky by ste to mali vyskúšať na svojom zariadení a zistiť, či si s tým dokáže poradiť. Najmä staré Kindle s nízkou pamäťou môžu mať potiaže s veľkosťami ako napríklad <b>3000×4000</b>. Ak si tento proces zautomatizujete, možno by stálo za zváženie vytvorenie verzie nižšej aj vyššej kvality (napr. s rozlíšením <b>200/400</b> alebo <b>300/600</b> DPI).</p>
 
 <div class="info"><span class="label_blue">INFORMÁCIA</span> KOReader neanalyzuje atribút <b>spine page-progression-direction="rtl"</b> kníh. Takže nemení smer otáčania stránky, aj keď bol súbor vytvorený čítaním sprava doľava. Používatelia to môžu zmeniť pomocou:
 </div>
@@ -2044,14 +2044,14 @@ If you like reading manga books on your e-ink device there are some tips that ca
 
 </div>
 
-<div class="L3-Smaller-heading">Advanced preparation of manga</div>
+<div class="L3-Smaller-heading">Pokročilá príprava mangy</div>
 
 <div class="standard-text">
-The following is an example procedure to process one manga file:
+Nasleduje príklad postupu na spracovanie jedného súboru manga:
 <ul>
-    <li>Download <span class="external">Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
-    <li>Download your manga from the source of your choosing (i.e. <span class="external">HakuNeko</span>)</li>
-    <li>Unpack the manga file. Now you should have a directory that contains only images (or subdirectories with images, no archives)</li>
+    <li>Stiahnite si <span class="external">Kindle Comic Converter (KCC)</span> z <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
+    <li>Stiahnite si mangu zo zdroja, ktorý si vyberiete (t. j. <span class="external">HakuNeko</span>)</li>
+    <li>Rozbaľte manga súbor. Teraz by ste mali mať adresár, ktorý obsahuje iba obrázky (alebo podadresáre s obrázkami, žiadne archívy)</li>
     <li>Process this directory with <span class="external">KCC</span>. Each directory will produce a single <b>CBZ</b> file, so if you want to make several volumes at once, select multiple directories at once</li>
 </ul>
 
