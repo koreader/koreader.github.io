@@ -2081,8 +2081,8 @@ Po použití <span class="external">KCC</span> na vytvorenie súboru <b>CBZ</b> 
     <li>Upravte súbor <b>_magick_manga_ditherN_resize.bat</b> a zmeňte rozlíšenie na rozlíšenie vášho zariadenia (na oboch miestach v súbore <b>BAT</b>).
     <p class="warning"><span class="label_red">UPOZORNENIE</span> Ďalší krok nahradí všetky obrázky v adresári spracovanými. Ak si chcete ponechať originály, uistite sa, že ich kópiu máte v inom adresári.</p>
     </li>
-    <li>Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images.</li>
-    <li>Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to pack all the processed images into a <b>CBZ</b> archive.</li>
+    <li>Spustite <b>_magick_manga_ditherN_resize.bat</b> na zmenu veľkosti a tieňovania obrázkov.</li>
+    <li>Za predpokladu, že máte nainštalovaný <b>7-Zip</b>, spustite <b>_batch_archive.bat</b> na zabalenie všetkých spracovaných obrázkov do archívu <b>CBZ</b>.</li>
 </ol>
 
 </div>
@@ -2090,9 +2090,9 @@ Po použití <span class="external">KCC</span> na vytvorenie súboru <b>CBZ</b> 
 <div class="L3-Smaller-heading">Obrátením smeru otočenia stránky získate autentickú japonskú mangu <span class="warning"><span class="label_red">!!! POKROČILÉ</span></span></div>
 
 <div class="standard-text">
-You can make KOReader turn pages from <b>Left to Right</b>, so that swipes and tap zones are swapped. To enable this, add the following lines to this file → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
+Môžete prinútiť KOReader otáčať stránky z <b>zľava doprava</b>, takže zóny potiahnutia a ťuknutia sa vymenia. Ak to chcete povoliť, pridajte do tohto súboru nasledujúce riadky → <span class="ui">/koreader/settings/directory_defaults.lua</span> <br><br> <span class="ui"> ["/storage/emulated/0/Books/manga"] = {<br> ["inverse_reading_order"] = true,<br> ["kopt_zoom_direction"] = 0,<br> }, </span>
 
-<p>where <b>/storage/emulated/0/Books/manga</b> is the absolute path to the directory containing your mangas. After this change, when you open a file from the mentioned directory, your swipes and tap zones will be swapped.</p>
+<p>kde <b>/storage/emulated/0/Books/manga</b> je absolútna cesta k adresáru obsahujúcemu vaše mangy. Po tejto zmene, keď otvoríte súbor zo spomínaného adresára, dôjde k zámene zón potiahnutia a ťuknutia.</p>
 </div>
 
 
@@ -2120,7 +2120,7 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
     <div class="L1-Chapter-heading" id="gestures">GESTÁ A KLÁVESOVÉ SKRATKY</div>
 
     <div class="standard-text">
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.
+    Existuje mnoho typov gest, ktoré môžete použiť na ovládanie KOReadera. Niektoré gestá majú obmedzenia týkajúce sa toho, kde na obrazovke ich možno použiť a ktoré smery sú podporované. Tieto obmedzenia sú uvedené nižšie.
 
     <div class="info"><span class="label_blue">INFORMÁCIA</span> Niektoré zariadenia podporujú iba jeden dotyk. Gestá viacerými prstami teda pre ne <b>nie sú dostupné</b>.</div>
 
@@ -2131,8 +2131,8 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
-        <p class="ui">TAP / DOUBLE TAP</p>
-        <p>Single or double tap with <b>ONE</b> finger</p>
+        <p class="ui">ŤUKNUTIE / DVOJITÉ ŤUKNUTIE</p>
+        <p>Jedno alebo dvojité ťuknutie <b>JEDNÝM</b> prstom</p>
         <p><b>FUNGUJE:</b> kdekoľvek na obrazovke</p>
         </div>
     
@@ -2140,8 +2140,8 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;">
-        <p class="ui">TAP AND HOLD</p>
-        <p>Single tap and hold with <b>ONE</b> finger</p>
+        <p class="ui">ŤUKNÚŤ A PODRŽAŤ</p>
+        <p>Jediným ťuknutím a podržaním <b>JEDNÝM</b> prstom</p>
         <p><b>FUNGUJE:</b> Iba v štyroch rohoch</p>
         </div>
             
@@ -2149,8 +2149,8 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;">
-        <p class="ui">TWO FINGER TAP</p>
-        <p>Single tap with <b>TWO</b> fingers at the same time</p>
+        <p class="ui">ŤUKNUTIE DVOCH PRSTOV</p>
+        <p>Jediné ťuknutie <b>DVOCH</b> prstov súčasne</p>
         <p><b>FUNGUJE:</b> Iba v štyroch rohoch</p>
         </div>
         
@@ -2158,8 +2158,8 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;">
-        <p class="ui">SPREAD AND PINCH</p>
-        <p>Same gesture as zooming in and out on a mobile phone, tablet etc.</p>
+        <p class="ui">ROZTIAHNUŤ A ZÚŽIŤ</p>
+        <p>Rovnaké gesto ako približovanie a odďaľovanie na mobilnom telefóne, tablete atď.</p>
         <p><b>FUNGUJE:</b> kdekoľvek na obrazovke</p>
         <div class="info"><span class="label_blue">INFORMÁCIA</span> Toto gesto môže v závislosti od vášho zariadenia fungovať menej spoľahlivo. Ak je to tak, vyberte iný typ gesta.</div>
         </div>
@@ -2170,16 +2170,16 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;">
         <p class="ui">POTIAHNUTIE JEDNÝM PRSTOM</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p>
+        <p>Pohyb potiahnutím <b>JEDNÝM</b> prstom</p>
+        <p><b>FUNGUJE:</b> Okraje obrazovky (HORIZONTÁLNE a VERTIKÁLNE) kdekoľvek okrem okrajov (DIAGONÁLNE) </p>
         </div>
 
     <hr>
 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;">
-        <p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
+        <p class="ui">POTIAHNUTIE DVOCH PRSTOV</p>
+        <p>Pohyb potiahnutím <b>DVOCH</b> prstov súčasne</p>
         <p><b>FUNGUJE:</b> kdekoľvek na obrazovke</p>
         </div>
 
@@ -2188,12 +2188,12 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         <div class="standard-text">
         <img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;">
         <p class="ui">VIAC-PRSTOVÉ POTIAHNUTIE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
+        <p>Viac ako jedno potiahnutie po sebe bez zdvihnutia prsta. Napríklad ako kreslenie písmena <b>U</b> (DOLE-VPRAVO-HORE)</p>
         <p><b>FUNGUJE:</b> kdekoľvek na obrazovke</p>
 
         <hr>
         <br><br>
-        <p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p>
+        <p>Ikony od <b>Econceptive</b> z <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Projektu Noun</a></p>
         </div>
         
 
@@ -2203,7 +2203,7 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
     
     <div class="L2-Sub-heading" id="predefinedgestures">Prednastavené gestá</div>
     <div class="standard-text">
-    This table shows the gestures available when you install KOReader for the first time. You can change these gestures according to your preferences via:
+    Táto tabuľka zobrazuje gestá dostupné pri prvej inštalácii KOReadera. Tieto gestá môžete zmeniť podľa svojich preferencií prostredníctvom:
     </div>
 
     <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Správca gest</div>
@@ -2212,20 +2212,20 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
     <div class="double-container">
     <div>
     
-        <div class="L3-Smaller-heading">TAP CORNER</div>
+        <div class="L3-Smaller-heading">ŤUKNUTIE NA ROH</div>
         <div class="standard-text">
             <ul>
-                <li><b>Top Left Corner</b> > Toggle page flipping</li>
-                <li><b>Top Right Corner</b> > Toggle bookmark</li>
+                <li><b>Ľavý horný roh</b> &gt; Prepínať smer listovania strán</li>
+                <li><b>Pravý horný roh</b> &gt; Prepínať záložku</li>
                 <li><b>Súčasne protiľahlé diagonálne rohy</b> &gt; Urobiť snímku obrazovky</li>
             </ul>
         </div>
     
-        <div class="L3-Smaller-heading">DOUBLE TAP</div>
+        <div class="L3-Smaller-heading">DVOJITÉ ŤUKNUTIE</div>
         <div class="standard-text">
         <ul>
-            <li><b>Left Side</b> > Go -10 pages</li>
-            <li><b>Right Side</b> > Go +10 pages</li>
+            <li><b>Ľavá strana</b> &gt; Prejsť o -10 strán</li>
+            <li><b>Pravá strana</b> &gt; Prejsť o +10 strán</li>
         </ul>
         </div>
     
@@ -2233,8 +2233,8 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         <div class="L3-Smaller-heading">POTIAHNUTIE JEDNÝM PRSTOM</div>
         <div class="standard-text">
         <ul>
-            <li><b>Short diagonal swipe</b> > Full screen refresh</li>
-            <li><b>Long diagonal swipe</b> > Take screenshot</li>
+            <li><b>Krátke potiahnutie po uhlopriečke</b> &gt; Prekresliť celú obrazovku</li>
+            <li><b>Dlhé potiahnutie po uhlopriečke</b> &gt; Urobiť snímku obrazovky</li>
         </ul>
         </div>
 
@@ -2244,21 +2244,21 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         <div class="L3-Smaller-heading">VIAC-PRSTOVÉ POTIAHNUTIE</div>
         <div class="standard-text">
         <ul>
-            <li><b>← →</b> - Back to previous location</li>
-            <li><b>→ ←</b> - Go to latest bookmark</li>
-            <li><b>↓ ↑</b> - Skim document</li>
-            <li><b>↑ ←</b> - Bookmarks</li>
-            <li><b>↑ →</b> - Table of contents</li>
-            <li><b>↓ ←</b> - Show frontlight dialog</li>
-            <li><b>↓ →</b> - Toggle reflow</li>
-            <li><b>→ ↑</b> - History</li>
-            <li><b>← ↑</b> - Book status</li>
-            <li><b>→ ↓</b> - Go to page</li>
-            <li><b>← ↓</b> - Back</li>
-            <li><b>↑ ↓ ↑</b> - Previous chapter</li>
-            <li><b>↓ ↑ ↓</b> - Next chapter</li>
-            <li><b>← → ←</b> - Open previous document</li>
-            <li><b>→ ← →</b> - Favorites</li>
+            <li><b>← →</b> - Vrátiť sa späť na predchádzajúce miesto</li>
+            <li><b>→ ←</b> – Prejsť na poslednú záložku</li>
+            <li><b>↓ ↑</b> – Prebehnúť dokument</li>
+            <li><b>↑ ←</b> - Záložky</li>
+            <li><b>↑ →</b> - Tabuľka s obsahom knihy</li>
+            <li><b>↓ ←</b> - Zobraziť dialógové okno pre nasvietenie/podsvietenie displeja</li>
+            <li><b>↓ →</b> - Vypnúť/zapnúť preformátovanie</li>
+            <li><b>→ ↑</b> - História</li>
+            <li><b>← ↑</b> - Stav knihy</li>
+            <li><b>→ ↓</b> - Isť na stranu</li>
+            <li><b>← ↓</b> - Späť</li>
+            <li><b>↑ ↓ ↑</b> - Predchádzajúca kapitola</li>
+            <li><b>↓ ↑ ↓</b> - Ďalšia kapitola</li>
+            <li><b>← → ←</b> - Otvoriť predchádzajúci dokument</li>
+            <li><b>→ ← →</b> - Obľúbené</li>
         </ul>
         </div>
     </div>
@@ -2268,68 +2268,68 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
     <div class="L2-Sub-heading" id="gesturecategories">Kategórie pre gestá</div>
     <div class="standard-text">
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.
+        Toto je zoznam všetkých akcií, ktoré môžete priradiť gestu pomocou ponuky <span class="ui">Správca gest</span>. Na vyhľadanie akcie tu môžete použiť funkciu vyhľadávania vášho prehliadača (zvyčajne <b>Ctrl+F</b>). Tieto akcie môžete použiť aj vo svojom vlastnom <span class="ui">Rýchlom menu</span>. Ďalšie informácie nájdete v príslušnej časti príručky.
     </div>
 
     <div class="double-container">
         
     <div>
     <!--1. column-->
-        <div class="L3-Smaller-heading">General</div>
+        <div class="L3-Smaller-heading">Všeobecné</div>
 
         <div class="standard-text">
             <ul>
-                <li>Reading progress</li>
-                <li>Open previous document</li>
+                <li>Priebeh čítania</li>
+                <li>Otvoriť predchádzajúci dokument</li>
                 <li>História</li>
                 <li>Prehľadávať históriu</li>
                 <li>Obľúbené</li>
                 <li>Prehliadač súborov</li>
-                <li>Dictionary lookup</li>
-                <li>Wikipedia lookup</li>
-                <li>Show menu</li>
+                <li>Hľadať v slovníku</li>
+                <li>Vyhľadávanie na Wikipédii</li>
+                <li>Zobraziť menu</li>
                 <li>Prehľadávať menu</li>
-                <li>Screenshot</li>
+                <li>Snímka obrazovky</li>
                 <li>Prepínanie servera SSH</li>
-                <li>Show ephemeris</li>
-                <li>Statistics calendar view</li>
-                <li>Statistics today’s timeline</li>
-                <li>Synchronize book statistics</li>
+                <li>Zobraziť efemeridy (tabuľku zobrazujúcu polohy slnka)</li>
+                <li>Zobrazenie kalendára štatistík</li>
+                <li>Časová os dnešných štatistík</li>
+                <li>Synchronizovať štatistiky knihy</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Device</div>
+        <div class="L3-Smaller-heading">Zariadenie</div>
         <div class="standard-text">
             <ul>
-                <li>Exit screensaver</li>
+                <li>Ukončiť šetrič obrazovky</li>
                 <li>Spustite úložisko USB</li>
                 <li>Pozastaviť</li>
                 <li>Reštartovať KOReader</li>
                 <li>Reštartovať zariadenie</li>
                 <li>Vypnúť zariadenie</li>
-                <li>Exit KOReader</li>
-                <li>Toggle hold corners</li>
+                <li>Ukončiť KOReader</li>
+                <li>Prepínať pridržanie v rohoch</li>
                 <li>Povoliť dotykový vstup</li>
                 <li>Zakázať dotykový vstup</li>
-                <li>Toggle touch input</li>
-                <li>Invert page turn buttons</li>
+                <li>Prepínať dotykový vstup</li>
+                <li>Stranovo zameniť tlačidlá otáčania stránok</li>
                 <li>Prepnúť na automatické opakovanie stlačeného tlačidla</li>
                 <li>Prepínať akcelerometer</li>
-                <li>Rotation</li>
-                <li>Toggle orientation</li>
-                <li>Invert rotation</li>
-                <li>Rotate by 90 CW</li>
-                <li>Rotate by 90 CCW</li>
+                <li>Otočenie</li>
+                <li>Prepínať orientáciu</li>
+                <li>Invertovať otočenie</li>
+                <li>Otočenie o 90° v smere hodinových ručičiek</li>
+                <li>Otočiť o 90° proti smeru hodinových ručičiek</li>
                 <li>Zapnúť Wi-Fi</li>
                 <li>Vypnúť Wi-Fi</li>
                 <li>Zapnúť/vypnúť Wi-Fi</li>
-                <li>Show network info</li>
+                <li>Zobraziť informácie o sieti</li>
                 <li>Štatistika batérie</li>
-                <li>System statistics</li>
+                <li>Štatistiky systému</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Screen and lights</div>
+        <div class="L3-Smaller-heading">Obrazovka a svetlá</div>
         <div class="standard-text">
             <ul>
                 <li>Zobraziť dialógové okno pre nasvietenie/podsvietenie displeja</li>
@@ -2340,9 +2340,9 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
                 <li>Nastaviť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Zvýšiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Znížiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
-                <li>Toggle night mode</li>
-                <li>Set night mode</li>
-                <li>Full screen refresh</li>
+                <li>Prepínať nočný režim</li>
+                <li>Nastaviť nočný režim</li>
+                <li>Prekresliť celú obrazovku</li>
                 <li>Úplná obnova displeja (vždy)</li>
                 <li>Úplná obnova displeja (nie v nočnom režime)</li>
                 <li>Úplná obnova displeja (v nočnom režime)</li>
@@ -2352,39 +2352,39 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
                 <li>Prepínať prebliknutie na 2. strane kapitoly</li>
                 <li>Vždy prebliknúť na stránkach s obrázkami</li>
                 <li>Prepínať prebliknutie na stránkach s obrázkami</li>
-                <li>Auto warmth off</li>
-                <li>Auto warmth cycle through modes</li>
+                <li>Automatická farebná teplota vypnutá</li>
+                <li>Automatické prechádzanie režimov farebnej teploty</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">Preformátovateľné dokumenty</div>
 
         <div class="standard-text">
             <ul>
-                <li>Set font</li>
-                <li>Increase font size</li>
-                <li>Decrease font size</li>
-                <li>Set font size</li>
-                <li>Word spacing</li>
-                <li>Word expansion</li>
+                <li>Nastaviť písmo</li>
+                <li>Zväčšiť veľkosť písma</li>
+                <li>Zmenšiť veľkosť písma</li>
+                <li>Nastaviť veľkosť písma</li>
+                <li>Medzery medzi slovami</li>
+                <li>Rozšírenie slov</li>
                 <li>Kontrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
-                <li>Zoom</li>
+                <li>Šírka písma</li>
+                <li>Kvalita zobrazenia písma</li>
+                <li>Vylepšenie písma</li>
+                <li>Dva stĺpce</li>
+                <li>Ľavý / pravý okraj</li>
+                <li>Zjednotiť vrchný / spodný okraj</li>
+                <li>Vrchný okraj</li>
+                <li>Spodný okraj</li>
+                <li>Režim zobrazenia (stránka priebežne)</li>
+                <li>Režim vykreslenia</li>
+                <li>Priblíženie</li>
                 <li>Riadkovanie</li>
-                <li>Alt status bar</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Alternatívny stavový riadok</li>
+                <li>Vložený štýl</li>
+                <li>Vložené písma</li>
+                <li>Zmena mierky obrázkov</li>
+                <li>Invertovať obrázky</li>
             </ul>
         </div>
         
@@ -2398,104 +2398,104 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
     <div class="standard-text">
         <ul>
-            <li>Folder up</li>
-            <li>Show plus menu</li>
-            <li>Toggle select mode</li>
-            <li>Refresh content</li>
+            <li>O priečinok nahor</li>
+            <li>Zobraziť plus menu</li>
+            <li>Prepínať režim výberu</li>
+            <li>Obnoviť obsah</li>
             <li>Odkazy na priečinky</li>
-            <li>File search</li>
+            <li>Vyhľadávanie súborov</li>
             <li>Isť na stranu</li>
             <li>Predchádzajúci</li>
         </ul>
     </div>
 
-        <div class="L3-Smaller-heading">Reader</div>
+        <div class="L3-Smaller-heading">Čítačka</div>
         
         <div class="standard-text">
             <ul>
-                <li>Open next document in folder</li>
-                <li>Show bottom menu</li>
-                <li>Toggle status bar</li>
-                <li>Previous chapter</li>
-                <li>Next chapter</li>
-                <li>First page</li>
-                <li>Last page</li>
-                <li>Turn pages</li>
+                <li>Otvoriť ďalší dokument v priečinku</li>
+                <li>Zobraziť spodné menu</li>
+                <li>Prepínať stavový riadok</li>
+                <li>Predchádzajúca kapitola</li>
+                <li>Nasledujúca kapitola</li>
+                <li>Prvá strana</li>
+                <li>Posledná strana</li>
+                <li>Otáčanie stránok</li>
                 <li>Isť na stranu</li>
-                <li>Skim document</li>
-                <li>Previous bookmark</li>
-                <li>Next bookmark</li>
+                <li>Prebehnúť dokument</li>
+                <li>Predchádzajúca záložka</li>
+                <li>Ďalšia záložka</li>
                 <li>Prvá záložka</li>
                 <li>Posledná záložka</li>
                 <li>Najnovšia záložka</li>
                 <li>Predchádzajúci</li>
-                <li>Back to previous location</li>
-                <li>Forward to next location</li>
-                <li>Follow nearest link</li>
-                <li>Follow nearest internal link</li>
-                <li>Add current location to history</li>
-                <li>Clear location history</li>
-                <li>Fulltext search</li>
-                <li>Table of contents</li>
-                <li>Book map</li>
-                <li>Book map (overview)</li>
-                <li>Page browser</li>
-                <li>Bookmarks</li>
-                <li>Bookmark search</li>
-                <li>Toggle bookmark</li>
-                <li>Book status</li>
-                <li>Book information</li>
-                <li>Book description</li>
-                <li>Book cover</li>
-                <li>Translate current page</li>
-                <li>Toggle page turn direction</li>
+                <li>Späť na predchádzajúce miesto</li>
+                <li>Prejsť na nasledujúce miesto</li>
+                <li>Nasledovať najbližší odkaz</li>
+                <li>Nasledovať najbližší interný odkaz</li>
+                <li>Pridať aktuálne miesto do histórie</li>
+                <li>Vymazať históriu umiestení</li>
+                <li>Hľadanie textu</li>
+                <li>Tabuľka s obsahom knihy</li>
+                <li>Knižná mapa</li>
+                <li>Knižná mapa (prehľad)</li>
+                <li>Prehliadač stránok</li>
+                <li>Záložky</li>
+                <li>Prehľadávanie záložiek</li>
+                <li>Prepínať záložku</li>
+                <li>Stav knihy</li>
+                <li>Informácie o knihe</li>
+                <li>Popis knihy</li>
+                <li>Obal knihy</li>
+                <li>Preložiť aktuálnu stránku</li>
+                <li>Prepínať smer otáčania stránky</li>
                 <li>Prepínať vlastnú tabuľku obsahu knihy</li>
                 <li>Prepínať vlastné skrytie časti obsahu knihy</li>
-                <li>Set highlight action</li>
-                <li>Cycle highlight action</li>
-                <li>Cycle highlight style</li>
-                <li>Save book metadata</li>
-                <li>Move current book to archive</li>
-                <li>Book statistics</li>
+                <li>Nastaviť zvýraznenie</li>
+                <li>Opakovať akciu pre zvýraznenie</li>
+                <li>Opakovať štýl zvýraznenia</li>
+                <li>Uložiť metadáta knihy</li>
+                <li>Presunúť aktuálnu knihu do archívu</li>
+                <li>Štatistiky knihy</li>
             </ul>
         </div>
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Dokumenty s pevným rozložením</div>
 
         <div class="standard-text">
             <ul>
-                <li>Toggle page flipping</li>
-                <li>Toggle bookmark flipping</li>
-                <li>Toggle reflow</li>
-                <li>Zoom mode</li>
-                <li>Change zoom factor</li>
-                <li>Toggle panel zoom</li>
-                <li>Page crop</li>
-                <li>Margin</li>
-                <li>Horizontal overlap</li>
-                <li>Vertical overlap</li>
-                <li>Fit</li>
-                <li>Zoom factor</li>
-                <li>Zoom to</li>
-                <li>Direction</li>
-                <li>View mode</li>
-                <li>Page gap</li>
-                <li>Progress bar</li>
+                <li>Prepínať smer listovania strán</li>
+                <li>Prepínať smer listovania v záložkách</li>
+                <li>Vypnúť/zapnúť preformátovanie</li>
+                <li>Režim priblíženia</li>
+                <li>Zmeniť faktor priblíženia</li>
+                <li>Vypnúť/zapnúť panelové priblíženie</li>
+                <li>Orezanie strany</li>
+                <li>Okraj</li>
+                <li>Horizontálne prekrytie</li>
+                <li>Vertikálne prekrytie</li>
+                <li>Prispôsobiť</li>
+                <li>Faktor priblíženia</li>
+                <li>Priblížiť na</li>
+                <li>Smer</li>
+                <li>Režim zobrazenia</li>
+                <li>Medzera medzi stranami</li>
+                <li>Lišta s indikáciou priebehu</li>
                 <li>Riadkovanie</li>
-                <li>Alignment</li>
-                <li>Font size (set)</li>
-                <li>Font size (inc/dec)</li>
-                <li>Word gap</li>
-                <li>Reflow</li>
+                <li>Zarovnanie</li>
+                <li>Veľkosť písma (nastavenie)</li>
+                <li>Veľkosť písma (zväčšiť/zmenšiť)</li>
+                <li>Medzery medzi slovami</li>
+                <li>Preformátovať</li>
                 <li>Kontrast</li>
-                <li>Dewatermark</li>
+                <li>Odstrániť vodoznak</li>
                 <li>Tieňovanie zapnúť-vypnúť</li>
-                <li>Render quality</li>
-                <li>Document language</li>
-                <li>Forced OCR</li>
-                <li>Writing direction</li>
-                <li>Auto straighten</li>
-                <li>Document columns</li>
+                <li>Kvalita vykresľovania</li>
+                <li>Jazyk dokumentu</li>
+                <li>Vynútené OCR</li>
+                <li>Smer písania</li>
+                <li>Automatické vyrovnanie</li>
+                <li>Stĺpce dokumentu</li>
             </ul>
         </div>
 
@@ -2507,61 +2507,61 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
     <div class="L2-Sub-heading" id="keyboardshortcuts">Klávesové skratky</div>
     <div class="standard-text">
-    If you are using the desktop Linux version of KOReader, you can use keyboard shortcuts for navigating the user interface. These can also be used with non-touch devices which has a keyboard, like <b>Kindle 3, Kindle DX, Android and Android TV</b>.
+    Ak používate desktopovú verziu KOReader pre Linux, môžete použiť klávesové skratky na navigáciu v používateľskom rozhraní. Možno ich použiť aj s nedotykovými zariadeniami s klávesnicou, ako sú <b>Kindle 3, Kindle DX, Android a Android TV</b>.
     </div>
     <div class="double-container">
     
         <!--FIRST COLUMN START-->
     <div>
-        <div class="L3-Smaller-heading">File browser mode</div>
+        <div class="L3-Smaller-heading">Režim prehliadača súborov</div>
         <ul>
             <li>Otvoriť vrchné menu - <b>F1</b></li>
-            <li>Navigate to home - <b>Home</b></li>
-            <li>Navigate file list - <b>Up/Down</b></li>
-            <li>Open selected book - <b>Enter</b></li>
-            <li>Show selected book’s context menu - <b>Right</b></li>
-            <li>Exit application - <b>Esc</b></li>
+            <li>Navigovať do domovského priečinku - <b>Home</b></li>
+            <li>Pohyb v zozname súborov - <b>Hore/Dole</b></li>
+            <li>Otvoriť vybranú knihu - <b>Enter</b></li>
+            <li>Zobraziť kontextovú ponuku vybranej knihy - <b>Vpravo</b></li>
+            <li>Ukončiť aplikáciu - <b>Esc</b></li>
         </ul>
 
-        <div class="L3-Smaller-heading">Reading mode</div>
+        <div class="L3-Smaller-heading">Režim čítania</div>
         <ul>
-            <li>Open selected page link / Open bottom menu - <b>Enter</b></li>
+            <li>Otvoriť vybraný odkaz na stránky / Otvoriť spodnú menu - <b>Enter</b></li>
             <li>Otvoriť vrchné menu - <b>F1</b></li>
-            <li>Back/exit application - <b>Esc</b></li>
-            <li>Show bookmarks - <b>B</b></li>
-            <li>Show TOC menu - <b>T</b></li>
+            <li>Späť/ukončiť aplikáciu - <b>Esc</b></li>
+            <li>Zobraziť záložky - <b>B</b></li>
+            <li>Zobraziť menu tabuľky s obsahom knihy - <b>T</b></li>
         </ul>
 
 
-        <div class="L3-Smaller-heading">Highlighting</div>
+        <div class="L3-Smaller-heading">Zvýrazňovanie</div>
         <ul>
-            <li>Enter highlighting mode - <b>H</b></li>
-            <li>Start/stop highlight selection - <b>Enter</b></li>
-            <li>Move highlight indicator - <b>Left/Right/Up/Down </b></li>
-            <li>Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b></li>
-            <li>Exit highlight mode - <b>Esc</b></li>
+            <li>Zadať režim zvýraznenia - <b>H</b></li>
+            <li>Začať/ukončiť výber zvýraznenia - <b>Enter</b></li>
+            <li>Presúvanie ukazovateľa zvýraznenia - <b>Doľava/Doprava/Hore/Dole</b></li>
+            <li>Rýchlejšie presúvanie ukazovateľa zvýraznenia - <b>Shift+vľavo/vpravo/nahor/nadol</b></li>
+            <li>Ukončiť režim zvýraznenia - <b>Esc</b></li>
         </ul>
 
 
         <div class="L3-Smaller-heading">Písmo</div>
-        (<b>Not</b> available for PDF, DJVU and images.)
+        (<b>Nie je</b> dostupné pre PDF, DJVU a obrázky.)
             <ul>
-                <li>Show font menu - <b>F</b></li>
-                <li>Increase font size - <b>Shift+Page Up</b></li>
-                <li>Decrease font size - <b>Shift+Page Down</b></li>
+                <li>Zobraziť menu pre písmo - <b>F</b></li>
+                <li>Zväčšiť veľkosť písma - <b>Shift+Page Up</b></li>
+                <li>Zmenšiť veľkosť písma - <b>Shift+Page Down</b></li>
             </ul>
 
-        <div class="L3-Smaller-heading">Links</div>
+        <div class="L3-Smaller-heading">Odkazy</div>
             <ul>
-                <li>Select next page link - <b>Tab</b></li>
-                <li>Select previous page link - <b>Shift+Tab</b></li>
+                <li>Vybrať nasledujúci odkaz na stránku - <b>Tab</b></li>
+                <li>Vybrať predošlý odkaz na stránku - <b>Shift+Tab</b></li>
 
             </ul>
 
-        <div class="L3-Smaller-heading">Image viewer</div>
+        <div class="L3-Smaller-heading">Prehliadač obrázkov</div>
             <ul>
-                <li>Zoom in - <b>Page Down</b></li>
-                <li>Zoom out - <b>Page Up</b></li>
+                <li>Priblížiť - <b>Page Down</b></li>
+                <li>Oddialiť - <b>Page Up</b></li>
             </ul>
 
 
@@ -2572,7 +2572,7 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
     <!--SECOND COLUMN START-->
     <div>
 
-        <div class="L3-Smaller-heading">Navigating the book</div>
+        <div class="L3-Smaller-heading">Navigácia v knihe</div>
         <ul>
             <li>Next/previous page/view - <b>Left-Right / Up-Down / Page Up-Page Down</b></li>
             <li>Go to the beginning of book - <b>1</b></li>
