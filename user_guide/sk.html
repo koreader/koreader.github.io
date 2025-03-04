@@ -2905,34 +2905,34 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
         <p><a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22</a></p>
         
         
-        <div class="L3-Smaller-heading">Basic usage – Adding an already written patch to your KOReader:</div>
+        <div class="L3-Smaller-heading">Základné použitie – Pridanie už napísanej záplaty do vášho KOReader:</div>
         
         <ol>
-            <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
-            <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
+            <li>Vytvorte na svojom zariadení adresár s názvom <span class="ui">patches</span> v <span class="ui">adresári koreader</span> (v systéme Android sa tento priečinok nachádza na SD karte)</li>
+            <li>Stiahnite si a vložte súbor záplaty s príponou <b>.lua</b> do adresára <span class="ui">patches</span></li>
             <li>Reštartovať KOReader</li>
         </ol>
 
         
-        <div class="L3-Smaller-heading">Patch manager</div>
+        <div class="L3-Smaller-heading">Správca programových záplat</div>
 
-        <p>When you create a patches directory as instructed, a new plugin named <span class="ui">Patch Management</span> becomes available in the plugins menu after restarting KOReader. With this plugin you can see the list and status of your user patches and enable/disable them. You can tap <span class="ui">About patch manager</span> menu item to see more info.</p>
+        <p>Keď vytvoríte adresár "patches" podľa pokynov, po reštartovaní KOReader sa v ponuke doplnkov sprístupní nový doplnok s názvom <span class="ui">Správa programových záplat</span>. Pomocou tohto doplnku môžete vidieť zoznam a stav vašich používateľských záplat a povoliť/zakázať ich. Ďalšie informácie zobrazíte ťuknutím na položku ponuky <span class="ui">O programových záplatách</span>.</p>
         
-        <div class="L3-Smaller-heading">Naming the patch</div>
+        <div class="L3-Smaller-heading">Pomenovanie programovej záplaty</div>
 
-        <p>Execution order of a patch is determined by the first digit of the number in the patch name. For example: <span class="ui">2-TOC-title-patch.lua</span> If there are several patches starting with the same digit, the execution order is the natural order <b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>. If you are just downloading an already made patch you don’t need to change the file name.</p>
-        <p> Names starting with:</p>
+        <p>Poradie vykonania záplaty je určené prvou číslicou čísla v názve záplaty. Napríklad: <span class="ui">2-TOC-title-patch.lua</span> Ak existuje niekoľko záplat začínajúcich rovnakou číslicou, poradie vykonávania je prirodzené poradie <b>(1&lt;10&lt;11&lt;12&lt;13&lt;109&lt;...&lt;10010)</b>. Ak len sťahujete už vytvorenú záplatu, nemusíte meniť názov súboru.</p>
+        <p> Názvy začínajúce na:</p>
         
         <ul>
-            <li><b>0</b> - Executed very early and only once after an update</li>
-            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
-            <li><b>2</b> - Executed after <span class="ui">UIManager</span> is ready on every start of KOReader</li>
-            <li><b>3-7</b> - Reserved</li>
-            <li><b>8</b> - Executed before exit and before settings get saved</li>
-            <li><b>9</b> - Executed right before exit</li>
+            <li><b>0</b> - Spúšťané veľmi skoro a iba raz po aktualizácii</li>
+            <li><b>1</b> - Spúšťané veľmi skoro pri každom spustení KOReadera (ale po 0, ak je to možné)</li>
+            <li><b>2</b> - Spustí sa po tom, ako bude nástroj <span class="ui">UIManager</span> pripravený pri každom spustení KOReader</li>
+            <li><b>3-7</b> - Rezervované</li>
+            <li><b>8</b> - Spúšťané pred ukončením a pred uložením nastavení</li>
+            <li><b>9</b> - Spúšťané tesne pred ukončením programu</li>
         </ul>
         
-        <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
+        <p>Ak máte problém s užívateľskou programovou záplatou, môžete sa vrátiť k predchádzajúcej konfigurácii odstránením súboru záplaty.</p>
     </div>
 
 <!-- ANCHOR TIPS -->
@@ -2940,55 +2940,55 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
     <div class="L1-Chapter-heading" id="tips">TIPY</div>
         
     <div class="standard-text">
-        <div class="L3-Smaller-heading">Updating KOReader</div>
-        <p>KOReader can update itself over Wi-Fi. You can trigger the check via this menu item:</p>
+        <div class="L3-Smaller-heading">Aktualizácia KOReadera</div>
+        <p>KOReader sa dokáže aktualizovať cez WiFi. Kontrolu môžete spustiť cez túto položku ponuky:</p>
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Aktualizovať → Skontrolovať aktualizáciu</div>
         
-        <div class="L3-Smaller-heading">Automatic dimmer</div>
-        <p>KOReader can dim your frontlight to preserve battery if your device is idle for a while. You can turn on and adjust this feature via:</p>
+        <div class="L3-Smaller-heading">Automatický stmievač</div>
+        <p>KOReader môže stlmiť vaše nasvietenie/podsvietenie displeja, aby šetril batériu, ak je vaše zariadenie chvíľu nečinné. Túto funkciu môžete zapnúť a upraviť pomocou:</p>
         
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Obrazovka → Automatický stmievač</div>
         
-        <div class="L3-Smaller-heading">Line/word count of a page</div>
-        <p>If you want to know how many lines or words are being shown on the current page you can see it at:</p>
+        <div class="L3-Smaller-heading">Počet riadkov/slov na stránke</div>
+        <p>Ak chcete vedieť, koľko riadkov alebo slov sa zobrazuje na aktuálnej stránke, môžete si to pozrieť na:</p>
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> → Informácie o knihe</div>
 
 
-        <div class="L3-Smaller-heading"> How can I add a password lock to KOReader?</div>
+        <div class="L3-Smaller-heading"> Ako môžem pridať ochranu heslom do KOReadera?</div>
         <div class="standard-text">
-        We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:
+        V KOReaderi na to nemáme priamu voľbu. Existuje však riešenie na dosiahnutie tohto druhu funkčnosti uzamknutej obrazovky. Môžete nastaviť KOReader tak, aby ponechal šetrič obrazovky na obrazovke, kým nezadáte zvolené gesto. Aby ste to dosiahli:
     
         <ol>
-            <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your <b>"unlock"</b> gesture by going to:
+            <li>Vyberte si ľubovoľné gesto (vrátane zložitých s vlastným viacnásobným potiahnutím) a urobte z neho gesto <b>odomknutia</b> tak, že prejdete na:
                 <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Ťuknutia a gestá → Správca gest → „vaše vybrané gesto“ → Zariadenie → Ukončiť šetrič obrazovky</div>
             </li>
-            <li>And then enable this option:
+            <li>A potom povoľte túto možnosť:
                 <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Obrazovka → Šetrič obrazovky → Nastavenia → Ponechať šetrič obrazovky na obrazovke po prebudení → Do gesta „Ukončiť šetrič obrazovky“</div>
             </li>
         
         </ol>
         </div>
 
-        <div class="L3-Smaller-heading">Switching between documents quickly</div>
-        <p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class="ui">File Browser</span>. KOReader can open the last document with a gesture (<b>←→← multiswipe</b>). If you define a gesture’s action as <span class="ui">Open previous document</span>, you can switch between two documents quickly similar to <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
+        <div class="L3-Smaller-heading">Rýchle prepínanie medzi dokumentmi</div>
+        <p>Ak potrebujete prepínať medzi dvoma dokumentmi (napríklad pri ich porovnávaní), existuje rýchlejší spôsob, ako to urobiť cez <span class="ui">Prehliadač súborov</span>. KOReader dokáže otvoriť posledný dokument gestom (<b>←→← viacnásobným prejdením prstom</b>). Ak definujete akciu gesta ako <span class="ui">Otvoriť predchádzajúci dokument</span>, môžete rýchlo prepínať medzi dvoma dokumentmi podobne ako funkcia <b>Alt+Tab</b> na stolných počítačoch. Túto funkciu nájdete pod:</p>
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Ťuknutia a gestá → Správca gest → „AKÉKOĽVEK GESTO“ → Všeobecné → Otvoriť predchádzajúci dokument</div>
 
-        <p>Also you can use the <span class="ui">History</span> dialog to switch between documents quickly. The history screen can be opened with the <b>→↑</b> multiswipe gesture. You can also define any other gesture for this of course.</p>
+        <p>Na rýchle prepínanie medzi dokumentmi môžete použiť aj dialógové okno <span class="ui">História</span>. Obrazovku histórie je možné otvoriť gestom viacnásobného potiahnutia <b>→↑</b> . Na to môžete samozrejme definovať aj akékoľvek iné gesto.</p>
         
-        <div class="L3-Smaller-heading">Applying current defaults to an already opened book</div>
-        <p>When you adjust your document defaults like <span class="ui">default line spacing</span> or <span class="ui">default contrast</span>, this new value will only be used for the new documents you open after the change. Your already opened books will look the same. For example, if you change your default <span class="ui">FONT</span>, you will probably adjust <span class="ui">FONT WEIGHT</span> and <span class="ui">LINE SPACING</span> to more suitable values for this new font. Then probably you will want to apply these changes to all your opened books. With this feature you don’t need to change these values manually in all your opened books.</p>
-        <p>You can easily apply these changes to your already opened books by choosing:</p>
+        <div class="L3-Smaller-heading">Použitie aktuálnych predvolených nastavení na už otvorenú knihu</div>
+        <p>Keď upravíte predvolené nastavenia dokumentu, ako je <span class="ui">predvolené riadkovanie</span> alebo <span class="ui">predvolený kontrast</span>, táto nová hodnota sa použije iba pre nové dokumenty, ktoré otvoríte po zmene. Vaše už otvorené knihy budú vyzerať rovnako. Ak napríklad zmeníte predvolené <span class="ui">PÍSMO</span>, pravdepodobne upravíte <span class="ui">ŠÍRKU PÍSMA</span> a <span class="ui">RIADKOVANIE</span> na vhodnejšie hodnoty pre toto nové písmo. Potom pravdepodobne budete chcieť použiť tieto zmeny na všetky svoje otvorené knihy. Vďaka tejto funkcii nemusíte tieto hodnoty ručne meniť vo všetkých otvorených knihách.</p>
+        <p>Tieto zmeny môžete jednoducho použiť na už otvorené knihy výberom:</p>
         
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Obnoviť na predvolené nastavenia dokumentu</div>
 
         <p>Keď ťuknete na túto možnosť, vaša aktuálna kniha sa obnoví na posledné predvolené hodnoty, ktoré ste nastavili. Nebojte sa, zmení to iba vzhľad knihy. Vaša poloha pri čítaní, zvýraznenia, poznámky a záložky zostanú zachované.</p>
         
-        <div class="L3-Smaller-heading">Saving current book settings as defaults</div>
-        <p>When you adjust a book to your liking, for example by changing <span class="ui">line spacing</span>, <span class="ui">font contrast</span> etc. you can save all the changes at once as <span class="ui">defaults</span>. Then you can apply these settings to other books with the <span class="ui">Reset document settings to default</span> option as explained above.</p>
-        <p>You can save your changes as <span class="ui">defaults</span> by choosing:</p>
+        <div class="L3-Smaller-heading">Ukladanie aktuálnych nastavení knihy ako predvolené</div>
+        <p>Keď si knihu upravíte podľa svojich predstáv, napríklad zmenou <span class="ui">riadkovania</span>, <span class="ui">kontrastu písma</span> atď., môžete všetky zmeny naraz uložiť ako <span class="ui">predvolené</span>. Potom môžete tieto nastavenia použiť na iné knihy pomocou možnosti <span class="ui">Obnoviť predvolené nastavenia dokumentu</span>, ako je vysvetlené vyššie.</p>
+        <p>Zmeny môžete uložiť ako <span class="ui">predvolené</span> výberom:</p>
         
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> → Uložiť nastavenia dokumentu ako predvolené</div>
         
@@ -2997,29 +2997,29 @@ Keď sa dostanete na poslednú stranu knihy, KOReader vám zobrazí dialógové 
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Ťuknutia a gestá → Odkazy → Ťuknutím nasledovať odkazy</div>
 
-        <p>After disabling this setting, to follow a link you have to long-tap on it and select <span class="ui">Follow link</span> from the popup menu. If you have the opposite problem and you want to make tapping links easier, you can enable <span class="ui">Allow larger tap area around links</span> from the same menu.</p>
+        <p>Ak chcete po vypnutí tohto nastavenia nasledovať odkaz, musíte na ňom dlho podržať prst a z kontextovej ponuky vybrať možnosť <span class="ui">Sledovať odkaz</span>. Ak máte opačný problém a chcete si zjednodušiť ťuknutie na odkazy, môžete v tej istej ponuke povoliť možnosť <span class="ui">Povoliť väčšiu oblasť ťuknutia okolo odkazov</span>.</p>
         
 
-        <div class="L3-Smaller-heading">Optimizing your battery life</div>
+        <div class="L3-Smaller-heading">Optimalizácia životnosti batérie</div>
 
-        <p>Li-ion batteries experience more degradation at the extreme ends of their charge levels. To minimize this degradation and extend your battery life, you can limit your minimum discharge level to <b>20%</b> and maximum charge level to <b>80%</b> (as in electric vehicles and some newer phones). Which means you start charging your device when the battery goes down to 20% and unplug when it reaches 80% (or 25%-75% if you are extra cautious).</p>
+        <p>Li-ion batérie trpia väčšou degradáciou pri extrémnych úrovniach ich nabitia. Ak chcete minimalizovať túto degradáciu a predĺžiť životnosť batérie, môžete obmedziť minimálnu úroveň vybitia na <b>20 %</b> a maximálnu úroveň nabitia na <b>80 %</b> (ako v elektrických vozidlách a niektorých novších telefónoch). To znamená, že zariadenie začnete nabíjať, keď batéria klesne na 20 % a odpojíte ho, keď dosiahne 80 % (alebo 25 % – 75 %, ak ste mimoriadne opatrní).</p>
 
-        <p>KOReader can warn you by showing an alert when charge level reaches your defined limits:</p>
+        <p>KOReader vás môže varovať zobrazením upozornenia, keď úroveň nabitia dosiahne vaše definované limity:</p>
         
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Upozornenia stavu zariadenia → Úroveň nabitia batérie</div>
         
 
-        <div class="L3-Smaller-heading">Keeping an eye on your memory usage</div>
-        <p>In older Kindle devices some of our users reported crashes due to limited memory. KOReader memory usage can go up if you open many files in one session. Especially PDF’s increase this amount. You can add a memory indicator to your <span class="ui">STATUS BAR</span> and restart KOReader if this value gets high, to avoid crashes or reboots.</p>
+        <div class="L3-Smaller-heading">Sledovanie využitia pamäte</div>
+        <p>V starších zariadeniach Kindle niektorí naši používatelia hlásili zlyhania z dôvodu obmedzenej pamäte. Využitie pamäte KOReadera sa môže zvýšiť, ak otvoríte veľa súborov v jednej relácii. Toto množstvo zvyšujú najmä súbory PDF. Do <span class="ui">STAVOVÉHO RIADKU</span> môžete pridať indikátor využitia pamäte a ak sa táto hodnota zvýši, reštartujte KOReader, aby ste predišli zlyhaniam alebo reštartom.</p>
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Stavový riadok → Využitie pamäte KOReadera</div>
 
-        <p>Also you can configure KOReader to restart automatically if memory usage reaches a threshold via:</p>
+        <p>Môžete tiež nakonfigurovať KOReader tak, aby sa automaticky reštartoval, ak využitie pamäte dosiahne prahovú hodnotu prostredníctvom:</p>
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Zariadenie → Upozornenia stavu zariadenia</div>
         
         
-        <div class="L3-Smaller-heading">Checking your battery consumption details</div>
-        <p>You can see your detailed battery usage statistics via this menu item:</p>
+        <div class="L3-Smaller-heading">Kontrola podrobností o spotrebe batérie</div>
+        <p>Prostredníctvom tejto položky ponuky si môžete pozrieť podrobné štatistiky spotreby batérie:</p>
 
         <div class="menu-breadcrumbs">⇑ VRCHNÉ MENU → <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> → Ďalšie nástroje → Štatistiky batérie</div>
         
