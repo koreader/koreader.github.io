@@ -803,7 +803,7 @@ line-height: 2rem;
 
 <div class="outer-container">
     
-    <label class="switch">
+    <label class="switch" aria-hidden="true">
         <input type="checkbox" id="theme-switcher">
         <span class="slider round"></span>
     </label>
@@ -942,7 +942,7 @@ line-height: 2rem;
             <ul>
                 <li><a href="#L2-readingscreen">Reading Screen</a></li>
                 <li><a href="#L2-indicators">Indicator icons <span class="microns"></span></a></li>
-                <li><a href="#L2-statusbar">Status bar</a></li>
+                <li><a href="#L2-statusbar">Barra de estado</a></li>
                 <li><a href="#L2-topexplained">Top Menu Items</a></li>
                 <li><a href="#L2-bottomexplained">Bottom Menu Items</a></li>
                 <li><a href="#L2-uitips">User Interface Tips <span class="microns"></span></a></li>
@@ -1023,7 +1023,7 @@ line-height: 2rem;
         <ul>
             <li><a href="#L2-quickmenu">Quick Menu</a></li>
             <li><a href="#L2-quickmenutips">Consejos rápidos sobre el Menú</a></li>
-            <li><a href="#L2-profiles">Profiles</a></li>
+            <li><a href="#L2-profiles">Perfiles</a></li>
             <li><a href="#L2-profileautoexec">Profile auto-execution <span class="microns"></span></a></li>
         </ul>
         </li>
@@ -1596,7 +1596,7 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-statusbar">Status bar</div>
+<div class="L2-Sub-heading" id="L2-statusbar">Barra de estado</div>
 
     <p>KOReader have two status bars, a <span class="ui">Bottom status bar</span> which is enabled by default. And we have an <span class="ui">Alt status bar</span> which appears at the top of the page if you enable it. This <span class="ui">Alt status bar</span> is available only in reflowable documents (epub, html, docx, rtf, txt…).</p>
     
@@ -2322,7 +2322,7 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-styletweaks">Style tweaks</div>
+<div class="L2-Sub-heading" id="L2-styletweaks">Ajustes de estilo</div>
 
     <p><span class="label_red">!!! ADVANCED</span></p>
 
@@ -3000,7 +3000,7 @@ line-height: 2rem;
     <p>
     <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a> for this task.</p>
     
-    <p>Para utilizar esta función es necesario:</p>
+    <p>To use this feature you need to:</p>
     <ol>
         <li>Instalar datos lingüísticos de <span class="external">Tesseract</span> en KOReader</li>
         <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
@@ -3216,7 +3216,7 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Folder shortcuts</div>
+<div class="L3-Smaller-heading">Atajos a carpetas</div>
 
     <p>KOReader le permite añadir sus carpetas favoritas a un menú de atajos de rápido acceso. Por ejemplo, si tiene en su biblioteca una carpeta <b>Archivados</b> organizada en una jerarquía <b>Inicio &gt; Artículos &gt; Científicos &gt; Archivados</b>, puede asignar un atajo a esta carpeta <b>Archivados</b> y acceder a ella rápidamente incluso si está leyendo un libro.</p>
 
@@ -3327,7 +3327,7 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-collections">Collections</div>
+<div class="L2-Sub-heading" id="L2-collections">Colecciones</div>
 
     <p>KOReader's <span class="ui">Collections</span> feature can help you with arranging your library more efficiently. As a very simple definition, collections are user created lists of your books. For example you can create two collections named <b>Fiction</b> and <b>Non-Fiction</b> to arrange your books accordingly. Of course you can also use folders to do this but using collections gives you more flexibility.</p>
     <p>Some advantages of collections compared to the folder based organization:</p>
@@ -3763,43 +3763,43 @@ line-height: 2rem;
         <div class="L3-Smaller-heading">Generales</div>
 
             <ol>
-                <li>File browser</li>
+                <li>Explorador de archivos</li>
                 <li>Abrir el documento anterior</li>
                 <li>Historial</li>
                 <li>Búsqueda en el historial</li>
                 <li>Favoritos</li>
-                <li>Collections</li>
-                <li>Collections search</li>
-                <li>Dictionary lookup</li>
-                <li>Wikipedia lookup</li>
+                <li>Colecciones</li>
+                <li>Búsqueda en colecciones</li>
+                <li>Consultar en diccionario</li>
+                <li>Consultar en Wikipedia</li>
                 <li>Mostrar el menú</li>
-                <li>Menu search</li>
-                <li>Open next file in last book folder</li>
-                <li>Open previous file in last book folder</li>
-                <li>Notebook file</li>
+                <li>Buscar en el menú</li>
+                <li>Abrir el siguiente archivo de la última carpeta</li>
+                <li>Abrir el anterior archivo de la última carpeta</li>
+                <li>Archivo de notas</li>
                 <li>Captura de pantalla</li>
                 <li>Mostrar efemérides</li>
-                <li>Calibre metadata search</li>
-                <li>Browse all calibre tags</li>
-                <li>Browse all calibre series</li>
-                <li>Browse all calibre authors</li>
-                <li>Browse all calibre titles</li>
-                <li>Calibre wireless connect</li>
-                <li>Calibre wireless disconnect</li>
-                <li>Reading statistics: toggle</li>
-                <li>Reading statistics: show progress</li>
-                <li>Reading statistics: show time range</li>
-                <li>Reading statistics: show calendar view</li>
-                <li>Reading statistics: show today's timeline</li>
-                <li>Reading statistics: synchronize</li>
-                <li>Text editor: open last file</li>
-                <li>Open vocabulary builder</li>
-                <li>Wallabag retrieval</li>
-                <li>Wallabag queue upload</li>
-                <li>Wallabag statuses upload</li>
+                <li>Búsqueda de metadatos de Calibre</li>
+                <li>Explorar todas las etiquetas de calibre</li>
+                <li>Explorar todas las series de calibre</li>
+                <li>Explorar todos los autores de calibre</li>
+                <li>Explorar todos los títulos de calibre</li>
+                <li>Conexión inalámbrica a Calibre</li>
+                <li>Desconexión inalámbrica Calibre</li>
+                <li>Estadísticas de lectura: conmutar</li>
+                <li>Estadísticas de lectura: ver progreso</li>
+                <li>Estadísticas de lectura: ver período de tiempo</li>
+                <li>Estadísticas de lectura: vista de calendario</li>
+                <li>Estadísticas de lectura: mostrar cronograma de hoy</li>
+                <li>Estadísticas de lectura: sincronizar</li>
+                <li>Editor de texto: abrir el último documento</li>
+                <li>Abrir el Desarrollador de vocabulario</li>
+                <li>Recuperación de Wallabag</li>
+                <li>Subir cola Wallabag</li>
+                <li>Subir estados Wallabag</li>
                 
                 <li>Progreso de la lectura</li>
-                <li>Toggle SSH server</li>
+                <li>Conmutar servidor SSH</li>
                 <li>Ver calendario de estadísticas</li>
                 <li>Statistics today’s timeline</li>
                 <li>Sincronizar estadísticas de libros</li>
@@ -3809,24 +3809,24 @@ line-height: 2rem;
         <div class="L3-Smaller-heading">Dispositivo</div>
 
             <ol>
-                <li>Exit sleep screen</li>
-                <li>Restart KOReader</li>
+                <li>Salir de la pantalla de reposo</li>
+                <li>Reiniciar KOReader</li>
                 <li>Salir de KOReader</li>
-                <li>Toggle long-press on corners</li>
+                <li>Conmutar pulsación prolongada en esquinas</li>
                 <li>Activar entrada táctil</li>
                 <li>Desactivar entrada táctil</li>
-                <li>Toggle touch input</li>
+                <li>Conmutar entrada táctil</li>
                 <li>Invert page turn buttons</li>
                 <li>Giro</li>
-                <li>Toggle orientation</li>
+                <li>Conmutar orientación</li>
                 <li>Invertir giro</li>
                 <li>Rotar 90º en el sentido horario</li>
                 <li>Rotar 90º en sentido antihorario</li>
-                <li>Toggle Fullscreen</li>
+                <li>Conmutar pantalla completa</li>
                 <li>Mostrar información de la red</li>
                 <li>Estadísticas batería</li>
                 <li>Estadísticas del sistema</li>
-                <li>Terminal emulator</li>
+                <li>Emulador de terminal</li>
                 
 
                 <li>Iniciar almacenamiento USB</li>
@@ -3845,44 +3845,44 @@ line-height: 2rem;
         <div class="L3-Smaller-heading">Pantalla e iluminación</div>
 
             <ol>
-                <li>Show frontlight dialog</li>
+                <li>Mostrar el diálogo Iluminación</li>
                 <li>Conmutar iluminación</li>
-                <li>Set frontlight brightness</li>
-                <li>Increase frontlight brightness</li>
-                <li>Decrease frontlight brightness</li>
-                <li>Set frontlight warmth</li>
-                <li>Increase frontlight warmth</li>
-                <li>Decrease frontlight warmth</li>
+                <li>Ajustar el brillo de la pantalla</li>
+                <li>Aumentar el brillo de la pantalla</li>
+                <li>Reducir el brillo de la pantalla</li>
+                <li>Ajustar la temperatura de color de la pantalla</li>
+                <li>Aumentar la temperatura de color de la pantalla</li>
+                <li>Reducir la temperatura de color de la pantalla</li>
                 <li>Conmutar modo nocturno</li>
                 <li>Configurar modo nocturno</li>
                 <li>Actualización de pantalla completa</li>
                 <li>Tasa de actualización completa (siempre)</li>
                 <li>Tasa de actualización completa (en modo diurno)</li>
                 <li>Tasa de actualización completa (en modo nocturno)</li>
-                <li>Always flash on chapter boundaries</li>
-                <li>Toggle flashing on chapter boundaries</li>
-                <li>Never flash on chapter's 2nd page</li>
-                <li>Toggle flashing on chapter's 2nd page</li>
+                <li>Parpadear siempre en los límites de los capítulos</li>
+                <li>Conmutar parpadeo en los límites de los capítulos</li>
+                <li>No parpadear nunca en la segunda página de un capítulo</li>
+                <li>Conmutar parpadeo en la segunda página de un capítulo</li>
                 <li>Parpadear siempre en las páginas con imágenes</li>
-                <li>Toggle flashing on pages with images</li>
+                <li>Conmutar parpadeo en páginas con imágenes</li>
                 <li>Temperatura de color automática desactivada</li>
-                <li>Auto warmth use sun position</li>
-                <li>Auto warmth use schedule</li>
-                <li>Auto warmth use closer midnight</li>
-                <li>Auto warmth use closer noon</li>
-                <li>Auto warmth cycle through modes </li>
+                <li>Usar la posición del sol para temperatura de color automática</li>
+                <li>Horario de uso de temperatura de color automática</li>
+                <li>Utilice la temperatura de color automática cuando se acerque la medianoche</li>
+                <li>Utilice la temperatura de color automática cuando se acerque el mediodía</li>
+                <li>Ciclo de temperaturas de color automáticas mediante modos </li>
             </ol>
 
 
         <div class="L3-Smaller-heading">Documentos ajustables</div>
             <ol>
-                <li>Font face</li>
+                <li>Tipo de letra</li>
                 <li>Aumentar tamaño de letra</li>
                 <li>Reducir tamaño de letra</li>
-                <li>Font size</li>
-                <li>Word spacing</li>
+                <li>Tamaño de fuente</li>
+                <li>Espaciado de palabras</li>
                 <li>Expansión de palabras</li>
-                <li>Contrast</li>
+                <li>Contraste</li>
                 <li>Peso de fuente</li>
                 <li>Font hinting</li>
                 <li>Font kerning</li>
@@ -3903,23 +3903,23 @@ line-height: 2rem;
             </ol>
 
         
-    <div class="L3-Smaller-heading">File browser</div>
+    <div class="L3-Smaller-heading">Explorador de archivos</div>
         <ol>
-            <li>Set display mode</li>
-            <li>Sort by</li>
-            <li>Reverse sorting</li>
-            <li>Folders and files mixed</li>
-            <li>Show plus menu</li>
+            <li>Establecer el modo de visualización</li>
+            <li>Ordenar por</li>
+            <li>Invertir orden</li>
+            <li>Mezclar carpetas y archivos</li>
+            <li>Mostrar menú adicional</li>
             <li>Conmutar modo de selección</li>
             <li>Actualizar contenido</li>
-            <li>Folder shortcuts</li>
+            <li>Atajos a carpetas</li>
             <li>Búsqueda de archivos</li>
-            <li>Last file search results</li>
+            <li>Resultados de la última búsqueda de archivos</li>
             <li>Carpeta superior</li>
-            <li>Go to page</li>
-            <li>Back</li>
-            <li>Export all notes in all books in history</li>
-            <li>OPDS catalog</li>
+            <li>Ir a la pagina</li>
+            <li>Volver</li>
+            <li>Exportar todas las notas de todos los libros del historial</li>
+            <li>Catálogo OPDS</li>
         </ol>
 
 
@@ -3927,56 +3927,56 @@ line-height: 2rem;
             <ol>
                 <li>Mostrar menú inferior</li>
                 <li>Conmutar barra de estado</li>
-                <li>Toggle chapter progress bar</li>
+                <li>Conmutar barra de progreso del capítulo</li>
                 <li>Capítulo anterior</li>
                 <li>Capítulo siguiente</li>
                 <li>Primera página</li>
                 <li>Última página</li>
-                <li>Random page</li>
+                <li>Páginas aleatorias</li>
                 <li>Pasar páginas</li>
-                <li>Go to page</li>
+                <li>Ir a la pagina</li>
                 <li>Ojear documento</li>
                 <li>Marcador anterior</li>
                 <li>Marcador siguiente</li>
                 <li>Primer marcador</li>
                 <li>Último marcador</li>
                 <li>Marcador más reciente</li>
-                <li>Back</li>
+                <li>Volver</li>
                 <li>A posición anterior</li>
                 <li>A posición siguiente</li>
                 <li>Seguir el enlace más cercano</li>
                 <li>Seguir el enlace interno más cercano</li>
                 <li>Añadir posición actual al historial</li>
                 <li>Vaciar historial de posiciones</li>
-                <li>Fulltext search</li>
-                <li>Last fulltext search results</li>
-                <li>Table of contents</li>
-                <li>Book map</li>
-                <li>Book map (overview)</li>
+                <li>Buscar texto completo</li>
+                <li>Repetir la última búsqueda de texto completo</li>
+                <li>Índice</li>
+                <li>Mapa del libro</li>
+                <li>Mapa del libro (visión general)</li>
                 <li>Navegador de páginas</li>
-                <li>Bookmarks</li>
+                <li>Marcadores</li>
                 <li>Buscar en marcadores</li>
-                <li>Toggle bookmark</li>
+                <li>Conmutar marcadores</li>
                 <li>Estado del libro</li>
                 <li>Información del libro</li>
                 <li>Descripción del libro</li>
                 <li>Cubierta del libro</li>
                 <li>Traducir página actual</li>
-                <li>Invert page turn taps and swipes</li>
+                <li>Invertir las pulsaciones y gestos de cambio de página</li>
                 <li>Conmutar dirección de cambio de página</li>
                 <li>Conmutar índice personalizado</li>
                 <li>Conmutar flujos ocultos personalizados</li>
-                <li>Set highlight action</li>
+                <li>Configurar la acción de subrayado</li>
                 <li>Cambiar la acción de subrayado</li>
-                <li>Cycle highlight style</li>
+                <li>Cambiar el estilo de subrayado</li>
                 <li>Guardar metadatos del libro</li>
-                <li>Export annotations</li>
-                <li>Export all notes in current book</li>
-                <li>Export all notes in all books in history</li>
+                <li>Exportar anotaciones</li>
+                <li>Exportar todas las notas del libro</li>
+                <li>Exportar todas las notas de todos los libros del historial</li>
                 <li>Mover libro actual al archivo</li>
-                <li>Reading statistics: current book</li>
-                <li>Push progress from this device</li>
-                <li>Pull progress from other devices</li>
+                <li>Estadísticas de lectura: libro actual</li>
+                <li>Exportar posición de lectura de este dispositivo</li>
+                <li>Importar posición de lectura de otros dispositivos</li>
             </ol>
 
 
@@ -3994,18 +3994,18 @@ line-height: 2rem;
                 <li>Solapamiento vertical</li>
                 <li>Adaptar</li>
                 <li>Zum a</li>
-                <li>Number of columns/rows to split page</li>
+                <li>Número de columnas o filas en las que dividir la página</li>
                 <li>Factor de ampliación</li>
                 <li>Dirección</li>
                 <li>Modo de vista</li>
                 <li>Page gap</li>
                 <li>Line spacing</li>
                 <li>Alineación</li>
-                <li>Font size</li>
-                <li>Change font size</li>
+                <li>Tamaño de fuente</li>
+                <li>Cambia tamaño de la fuente</li>
                 <li>Word gap</li>
-                <li>Reflow</li>
-                <li>Contrast</li>
+                <li>Redistribución de texto</li>
+                <li>Contraste</li>
                 <li>Eliminar marca de agua</li>
                 <li>Calidad de representación</li>
                 <li>Idioma del documento</li>
@@ -4059,7 +4059,7 @@ line-height: 2rem;
         </tr>
         <tr>
             <td>Navigate to home</td>
-            <td><b>Home</b></td>
+            <td><b>Inicio</b></td>
         </tr>
         <tr>
             <td>Move in file list</td>
@@ -4090,23 +4090,23 @@ line-height: 2rem;
             <td><b>Esc</b></td>
         </tr>
         <tr>
-            <td>Bookmarks</td>
+            <td>Marcadores</td>
             <td><b>Shift + Left</b></td>
         </tr>
         <tr>
-            <td>Toggle bookmark</td>
+            <td>Conmutar marcadores</td>
             <td><b>Shift + Right</b></td>
         </tr>
         <tr>
-            <td>Dictionary lookup</td>
+            <td>Consultar en diccionario</td>
             <td><b>Ctrl + D (Alt + D on Kindles)</b></td>
         </tr>
         <tr>
-            <td>Wikipedia lookup</td>
+            <td>Consultar en Wikipedia</td>
             <td><b>Ctrl + W</b></td>
         </tr>
         <tr>
-            <td>Fulltext search</td>
+            <td>Buscar texto completo</td>
             <td><b>Ctrl + S</b></td>
         </tr>
         <tr>
@@ -4174,11 +4174,11 @@ line-height: 2rem;
             <td><b>Left-Right / Up-Down<br>Page Up-Page Down</b></td>
         </tr>
         <tr>
-            <td>Table of contents</td>
+            <td>Índice</td>
             <td><b>Shift + Up</b></td>
         </tr>
         <tr>
-            <td>Book map</td>
+            <td>Mapa del libro</td>
             <td><b>Shift + Down</b></td>
         </tr>
         <tr>
@@ -4397,7 +4397,7 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-profiles">Profiles</div>
+<div class="L2-Sub-heading" id="L2-profiles">Perfiles</div>
         <p>
         A profile is basically a collection of actions that can be triggered with a single gesture (like a macro).</p>
 
@@ -4697,7 +4697,7 @@ line-height: 2rem;
         <ol>
             <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
             <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
-            <li>Restart KOReader</li>
+            <li>Reiniciar KOReader</li>
         </ol>
 
         
