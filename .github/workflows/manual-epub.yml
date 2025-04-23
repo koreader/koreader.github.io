@@ -16,7 +16,7 @@ jobs:
 
       - name: Convert HTML to XHTML with Tidy
         run: |
-          tidy -asxhtml -utf8 -o user_guide/index.xhtml user_guide/index.html 2>tidy_errors.txt
+          tidy -asxhtml -utf8 -o user_guide/index.xhtml user_guide/index.html
 
       - name: Convert ebook
         run: ebook-convert user_guide/index.xhtml koreader_user_guide.epub
