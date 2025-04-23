@@ -15,7 +15,8 @@ jobs:
           apt-get install -y tidy
 
       - name: Convert HTML to XHTML with Tidy
-        run: tidy -asxhtml -utf8 -o user_guide/index.xhtml user_guide/index.html
+        # Tidy returns 0 when all's well, 1 when there are warnings and 2 when there are errors.
+        run: tidy -asxhtml -utf8 -o user_guide/index.xhtml user_guide/index.html || [ $? -eq 0 -o $? -eq 1 ]
 
       - name: Convert ebook
         run: ebook-convert user_guide/index.xhtml koreader_user_guide.epub
