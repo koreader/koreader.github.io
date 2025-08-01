@@ -1,0 +1,75 @@
+name: Update translations (POT/PO/HTML)
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'user_guide/en.html'
+      - 'i18n/**/*.po'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git identity
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Install translate-toolkit and gettext
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y translate-toolkit gettext
+
+      - name: Create translations directory if it doesn't exist
+        run: mkdir -p i18n/po
+
+      - name: Extract translatable strings from HTML
+        run: |
+          # Extract translations from HTML source file using html2po
+          html2po -i user_guide/en.html -o i18n/user_guide.pot
+
+          # Check if user_guide.pot exists
+          if [ ! -f i18n/user_guide.pot ]; then
+            echo "Error: Failed to create POT file"
+            exit 1
+          fi
+
+      - name: Update or create language PO files
+        run: |
+          # Find all existing PO files and update them with msgmerge
+          for po_file in i18n/po/*.po; do
+            echo "Updating $po_file"
+            msgmerge --update --backup=off "$po_file" i18n/user_guide.pot
+          done
+
+      - name: Generate translated HTML files
+        run: |
+          # Process each PO file and generate translated HTML
+          for po_file in i18n/po/*.po; do
+            # Extract language code from filename
+            lang=$(basename "$po_file" .po)
+            html_file="user_guide/$lang.html"
+
+            echo "Generating HTML for $lang"
+            po2html -t user_guide/en.html -i "$po_file" -o "$html_file"
+          done
+
+      - name: Commit changes back to repository
+        run: |
+          git add i18n/user_guide.pot i18n/po/*.po user_guide/*.html
+
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No translation changes to commit"
+          else
+            git commit -m "Update translations with html2po/po2html [automated]"
+            git push
+          fi
