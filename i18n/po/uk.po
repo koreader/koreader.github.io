@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-03 14:13+0000\n"
+"PO-Revision-Date: 2025-08-04 15:01+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
 "user-guide/uk/>\n"
@@ -51,7 +51,7 @@ msgstr "Перекладено понад 80%"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:826-9
 msgid "🇨🇳 Chinese (Simplified Han script)"
-msgstr "🇨🇳 китайська (спрощене письмо Хан)"
+msgstr "🇨🇳 китайська (спрощена)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:827-9
 msgid "🇰🇷 Korean"
@@ -691,9 +691,9 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
-"Змінюйте шрифти (включаючи власні), розмір шрифту, контраст, жирність, нахил "
-"кернінг, відстані між словами, розтягнення слів, вирівнювання тексту, "
-"проміжки між рядками, розташування стовпців, полів... <a href="
+"Зміна шрифтів (включаючи власні), розміру шрифту, контрасту, жирності, "
+"нахилу, кернінгу, відстані між словами, розтягнення слів, вирівнювання "
+"тексту, проміжків між рядками, розташування стовпців, полів... <a href="
 "\"#L1-customizingappearance\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1083-9
@@ -711,7 +711,7 @@ msgid ""
 "Invert screen colors for <span class=\"ui\">night mode</span> manually or "
 "automatically <a href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 msgstr ""
-"Інвертуйте кольори в <span class=\"ui\">нічному режимі</span> вручну або "
+"Інвертувати кольори в <span class=\"ui\">нічному режимі</span> вручну або "
 "автоматично <a href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1087-9
@@ -719,12 +719,12 @@ msgid ""
 "Adjust your frontlight color warmth automatically <a href=\"#L2-autowarmth\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"Автоматично пристосовуйте теплоту (температуру) підсвічування екрану <a href="
-"\"#L2-autowarmth\" class=\"internalink\"></a>"
+"Автоматично пристосовувати теплоту (температуру) підсвічування екрану <a "
+"href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1090-1
 msgid "Take notes and make highlights while reading"
-msgstr "Робити нотатки і виділяти текст в процесі читання"
+msgstr "Нотатки і виділення тексту в процесі читання"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1092-9
 msgid ""
@@ -743,28 +743,33 @@ msgstr ""
 "\"#L2-howtohighlight\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1096-9
-#, fuzzy
 msgid ""
 "Add notes using a customizable keyboard including diacritic modifiers <a "
 "href=\"#L2-keyboard\" class=\"internalink\"></a>"
-msgstr "Перегортайте сторінки автоматично"
+msgstr ""
+"Додавання нотаток за допомогою налаштовуваної клавіатури, включно з "
+"діактричними модифікаторами <a href=\"#L2-keyboard\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1098-9
 msgid ""
 "Take screenshots <a href=\"#L2-predefinedgestures\" class=\"internalink\"></"
 "a>"
 msgstr ""
+"Створення знімків екрану <a href=\"#L2-predefinedgestures\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1100-9
 msgid ""
 "Track your reading statistics including <b>reading progress</b>, <b>time "
 "range</b> and <b>calendar views</b>"
 msgstr ""
+"Відстеження статистики читання, зокрема <b>поступу читання</b>, "
+"<b>витраченого часу</b> та <b>у вигляді календаря</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1103-1
-#, fuzzy
 msgid "Export your notes and highlights flexibly"
-msgstr "1. Модуль експорту виділеного"
+msgstr "Експорт нотаток і виділеного"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1105-9
 msgid ""
@@ -772,6 +777,9 @@ msgid ""
 "JSON or Kindle clippings format <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Гнучкий експорт нотаток та виділеного на пристрій у форматі простого тексту, "
+"розмітки markdown, HTML, JSON або вирізок Kindle <a href="
+"\"#L2-exportinghighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1107-9
 msgid ""
@@ -781,24 +789,33 @@ msgid ""
 "class=\"external\">XMNote</span> <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Синхронізація з онлайн сервісами на зразок <span class=\"external\">Joplin</"
+"span>, <span class=\"external\">Readwise</span>, <span class=\"external\""
+">Memos</span>, <span class=\"external\">Flomo</span> та <span class="
+"\"external\">XMNote</span> <a href=\"#L2-exportinghighlights\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1110-1
 msgid "Arrange and browse your library easily"
-msgstr ""
+msgstr "Впорядкування та огляд вашої бібліотеки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1112-9
-#, fuzzy
 msgid ""
 "Powerful <b>File Browser</b> where you can copy, move, rename, create, "
 "delete files and folders and perform bulk operations <a href=\"#L2-"
 "filebrowser\" class=\"internalink\"></a>"
-msgstr "<b>Історія</b>, яка показує останні переглянуті книги"
+msgstr ""
+"Потужний <b>Оглядач файлів</b>, у якому можна копіювати, переміщати, "
+"перейменовувати, створювати й видаляти файли та теки, а також виконувати "
+"пакетні операції <a href=\"#L2-filebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1114-9
 msgid ""
 "See your library as you like with many detailed and mosaic views <a "
 "href=\"#L2-filebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"Переглядати свою бібліотеку як вам подобається у деталізованому чи "
+"мозаїчному вигляді <a href=\"#L2-filebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1116-9
 msgid ""
@@ -806,38 +823,50 @@ msgid ""
 "or create your own <span class=\"ui\">Collections</span> with sorting and "
 "filtering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 msgstr ""
+"Додавати свої книги до <span class=\"ui\">обраних</span> для швидкого "
+"доступу чи створення власних <span class=\"ui\">добірок</span> з "
+"впорядкуванням і фільтруванням <a href=\"#L2-collections\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1119-1
 msgid "Fly through your book with powerful tools"
-msgstr ""
+msgstr "Переміщення всередині книги за допомогою потужних інструментів"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1121-9
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Skim widget</span> to quickly jump between pages, "
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
-"<b>Огляд закладок</b> для легкої навігації між виділеними вами уривками"
+"<span class=\"ui\">Віджет проглядання</span> для швидкого переходу між "
+"сторінками, розділами, закладками <a href=\"#L2-skimwidget\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1123-9
-#, fuzzy
 msgid ""
 "Unique <span class=\"ui\">Book map</span> to see a bird’s eye map of your "
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
-msgstr "Створюйте зміст автоматично або вручну"
+msgstr ""
+"Унікальна <span class=\"ui\">Мапа книги</span> для погляду на книгу наче з "
+"висоти пташиного польоту, включно з вашими нотатками та виділеним <a href="
+"\"#L2-bookmap\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1125-9
 msgid ""
 "<span class=\"ui\">Page browser</span> to move through pages like a film "
 "reel <a href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">Оглядач сторінок</span> для переміщення між сторінками "
+"немов між кадрами кіноплівки <a href=\"#L2-pagebrowser\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1127-9
 msgid ""
 "<span class=\"ui\">Bookmarks browser</span> to browse your highlights and "
 "notes easily <a href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">Оглядач закладок</span> для зручного проглядання вашого "
+"виділеного і нотаток <a href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1129-9
 msgid ""
@@ -845,6 +874,9 @@ msgid ""
 "don't like the one that comes with your book <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Створення альтернативного змісту книги автоматично або власноруч, якщо вас "
+"не влаштовує зміст, який вже наявний у книзі <a href=\"#L2-toctools\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1131-9
 msgid ""
@@ -852,10 +884,13 @@ msgid ""
 "References</b> etc. for more accurate page counts <a href=\"#L2-"
 "hiddenflows\" class=\"internalink\"></a>"
 msgstr ""
+"Приховування і виключення певних частин книги (наприклад, <b>додаток, зміст, "
+"бібліографічні посилання</b> тощо) для точнішого підрахунку сторінок під час "
+"читання <a href=\"#L2-hiddenflows\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1134-1
 msgid "Control KOReader like a virtuoso"
-msgstr ""
+msgstr "Керування KOReader'ом"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1136-9
 msgid ""
@@ -863,6 +898,9 @@ msgid ""
 "aspect of KOReader with a tap or swipe <a href=\"#L2-gesturecategories\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"<b>Система керування жестами</b> з 200+ дій, якими можна контролювати кожну "
+"дрібницю в KOReader за допомогою дотику чи проведення пальцем <a href="
+"\"#L2-gesturecategories\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1138-9
 msgid ""
@@ -870,6 +908,9 @@ msgid ""
 "keyboard shortcuts to these actions <a href=\"#L2-keyboardshortcuts\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"За наявності клавіатури (вбудованої в пристрій, провідної або Bluetooth) "
+"можна також призначити сполучення клавіш на виконання цих дій <a href="
+"\"#L2-keyboardshortcuts\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1140-9
 msgid ""
@@ -877,36 +918,45 @@ msgid ""
 "class=\"ui\">Quick Menu</span> and access them with a tap or swipe <a "
 "href=\"#L2-quickmenu\" class=\"internalink\"></a>"
 msgstr ""
+"Або створювати власні меню за допомогою функції <span class=\"ui\">Швидке "
+"меню</span> та відкривати його дотиком або проведенням пальця по екрану <a "
+"href=\"#L2-quickmenu\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1142-9
 msgid ""
 "Create <b>Profiles</b> to control every aspect of KOReader and automate "
 "actions <a href=\"#L2-profiles\" class=\"internalink\"></a>"
 msgstr ""
+"Створення <b>Профілів</b> для контролю кожної дрібниці в KOReader і "
+"автоматизації дій <a href=\"#L2-profiles\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1145-1
 msgid "Search, Lookup and Translation tools"
-msgstr ""
+msgstr "Інструменти пошуку, огляду і перекладу"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1147-9
 msgid ""
 "Search the document by selecting or entering text (including <b>regular "
 "expressions</b>)"
-msgstr "Перекладіть одразу цілу сторінку на понад 130 мов"
+msgstr ""
+"Пошук в документі, виділяючи або вписуючи текст (включно з <b>регулярними "
+"виразами</b>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1148-9
 msgid "Search in your bookmarks, highlights and notes"
-msgstr ""
+msgstr "Пошук у закладках, виділеному та нотатках"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1149-9
 msgid ""
 "Lookup text in <span class=\"external\">Wikipedia</span> or in installed "
 "dictionaries and translate it by a long-tap"
 msgstr ""
+"Пошук тексту у <span class=\"external\">Вікіпедії</span> або у встановлених "
+"словниках і переклад його затисканням"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1150-9
 msgid "Translate whole page at once between more than 130 languages"
-msgstr ""
+msgstr "Переклад одразу цілої сторінки на понад 130 мов"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1151-9
 msgid ""
@@ -914,19 +964,21 @@ msgid ""
 "class=\"external\">ChatGPT</span> (after installing the plugin) <a "
 "href=\"#L2-plugintypes\" class=\"internalink\"></a>"
 msgstr ""
+"Потужна система модулів, яка дозволяє навіть обговорити текст з <span class="
+"\"external\">ChatGPT</span> (після встановлення модуля) <a href="
+"\"#L2-plugintypes\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1154-1
-#, fuzzy
 msgid "KOReader can control your device"
-msgstr ""
-"Зменшуйте яскравість або вимикайте <b>підсвічування екрана</b> через "
-"вказаний проміжок часу"
+msgstr "KOReader може контролювати ваш пристрій"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1156-9
 msgid ""
 "KOReader can update itself <a href=\"#L2-devicetips\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"KOReader може самостійно оновлюватися <a href=\"#L2-devicetips\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1157-9
 msgid "Dim or turn off your <b>screen light</b> after a set interval"
@@ -1056,13 +1108,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1205-1
 msgctxt "user_guide/en.html+html.body.div.div:1205-1"
 msgid "BASIC USAGE INFORMATION"
-msgstr ""
+msgstr "ОСНОВНА ІНФОРМАЦІЯ ПРО ВИКОРИСТАННЯ"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1209-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1209-1"
 msgid "Transferring books to your reader"
-msgstr "Оптимізація манґи для читання на мобільному пристрої"
+msgstr "Передавання книг на пристрій"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1211-5
 msgid ""
@@ -1070,6 +1121,9 @@ msgid ""
 "XPS, FB2, PDB, CHM and MD</b> files. It can also open <b>ZIP</b> archives "
 "and show image files."
 msgstr ""
+"KOReader підтримує файли в форматах <b>PDF, DJVU, EPUB, FB2, MOBI, CBZ, CBT, "
+"DOCX, RTF, HTML, TXT, XPS, PDB, CHM та MD</b>. Він також відкриває архіви "
+"<b>ZIP</b> та показує файли зображень."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1213-5
 msgid ""
@@ -1077,18 +1131,25 @@ msgid ""
 "may need to restart KOReader to index the transferred documents (or refresh "
 "directory if you have Pocketbook/Android)."
 msgstr ""
+"Існує багато способів передати файли на пристрій. Майте на увазі, що для "
+"індексування нещодавно доданих документів може знадобитися перезапуск "
+"KOReader (або оновлення вмісту теки на пристроях PocketBook та Android)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1215-5
 msgid ""
 "In addition to transferring files the same way you would with the built-in "
 "reader application, other options are available depending on your device:"
 msgstr ""
+"На додачу до передачі файлів за допомогою вбудованої програми для читання, "
+"доступні інші способи, які залежать від пристрою, а саме:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1218-9
 msgid ""
 "<b>USB mass storage mode within KOReader:</b> This mode is available for "
 "KOBO and some CERVANTES devices."
 msgstr ""
+"<b>Режим USB-накопичувача у KOReader:</b> цей режим доступний для пристроїв "
+"Kobo і деяких пристроїв Cervantes."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1220-9
 msgid ""
@@ -1097,16 +1158,19 @@ msgid ""
 "menu shown below. Process is explained via <span class=\"ui\">info</span> "
 "buttons in the menu while adding accounts:"
 msgstr ""
+"<b>Хмарне сховище (<span class=\"external\">Dropbox</span>/FTP/Webdav):</b> "
+"щоб скористатися цією функцією потрібно додати обліковий запис на сервері "
+"хмарного сховища через меню, вказане нижче. Пояснення щодо процесу можна "
+"побачити натиснувши кнопку <span class=\"ui\">Інформація</span> під час "
+"додавання облікового запису:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1222-9
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / Cloud storage"
 msgstr ""
-"⇑ ВЕРХНЄ МЕНЮ (у Оглядачі файлів) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Налаштування → Параметри "
-"мозаїчного та детального списків"
+"ВЕРХНЄ МЕНЮ (у Оглядачі файлів) / <img class=\"img_inline\" src="
+"\"pictures/top_tools.svg\" style=\"width:22px;\"> / Хмарне сховище"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1225-9
 msgid ""
@@ -2886,8 +2950,13 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
-"⇑ ВЕРХНЄ МЕНЮ → <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:26px;\"> → Повернутись до попереднього місця"
+"Ця корисна функція працює аналогічно кнопці «<b>Назад</b>» у вебоглядачі. "
+"Коли ви перескакуєте до якоїсь іншої частини книги використовуючи <span "
+"class=\"ui\">віджет проглядання, список закладок, мапу книги</span> тощо. "
+"KOReader запам'ятовує попереднє розташування. Це дуже корисно коли ви, "
+"наприклад, перейшли за внутрішнім чи зовнішнім посиланням. Одним дотиком ви "
+"можете повернутися туди, звідки прийшли. Доступ до цієї функції можна "
+"отримати з:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1871-5
 #, fuzzy
@@ -5719,13 +5788,12 @@ msgstr ""
 "class=\"ui\">РЕЖИМ СТОВПЦІВ</span> у цьому пункті меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2868-5
-#, fuzzy
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
 msgstr ""
-"⇓ НИЖНЄ МЕНЮ → <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:26px;\"> →"
+"<b>3. Можна спробувати користуватися пристроєм у </b><span class=\"ui\""
+">альбомній орієнтації</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
 msgid ""
@@ -8863,7 +8931,7 @@ msgstr "Мапа книги (огляд)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3943-17
 msgid "Next chapter"
-msgstr "Оглядач сторінок"
+msgstr "Наступний розділ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-17
 msgid "First page"
@@ -9291,15 +9359,12 @@ msgid "F1"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4072-13
-#, fuzzy
 msgid "Navigate to home"
-msgstr ""
-"Перемістити індикатор виділення швидше - <b>Shift+Вліво/Вправо/Вгору/Вниз</b>"
+msgstr "Перейти до домівки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
-#, fuzzy
 msgid "Home"
-msgstr "Додому"
+msgstr "Home"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4076-13
 msgid "Move in file list"
