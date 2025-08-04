@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-04 15:01+0000\n"
+"PO-Revision-Date: 2025-08-05 16:02+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
 "user-guide/sk/>\n"
@@ -2176,6 +2176,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Čísla referenčných strán:</b> Ak vydavateľ vašej knihy zahrnul čísla "
+"strán z tlačenej verzie knihy, uvidíte ich takto. Kliknite sem pre viac "
+"informácií: <a href=\"#L3-referencepages\">Číslovanie stránok a čísla "
+"referenčných stránok</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1493-9
 msgid ""
@@ -2184,6 +2188,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Typy zvýraznení:</b> Rôzne typy zvýraznení si môžete pozrieť tu. Ak má "
+"vaše zariadenie vhodnú obrazovku, môžete tiež vytvoriť farebné zvýraznenia. "
+"Kliknite sem a prejdete do sekcie: <a href=\"#L1-bookmarks\">Záložky, "
+"zvýraznenie a poznámky</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2191,10 +2199,14 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Značka poznámky:</b> Ikona značky poznámky sa zobrazí, keď pridáte "
+"poznámku k zvýrazneniu. Máme rôzne typy značiek poznámok. Kliknite sem pre "
+"viac informácií: <a href=\"#L1-bookmarks\">Záložky, zvýraznenie a "
+"poznámky</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1498-1
 msgid "Indicator icons"
-msgstr ""
+msgstr "Ikony indikátorov"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1500-5
 msgid ""
@@ -2202,6 +2214,9 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"KOReader má niekoľko indikátorov, ktoré vás informujú o určitých "
+"prebiehajúcich procesoch a stavoch, ako môžete vidieť na obrázku vyššie. "
+"Uvidíte ich v ľavom hornom rohu obrazovky počas určitých operácií."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1506-17
 msgid ""
@@ -2210,6 +2225,10 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Ikony čiastočného vykresľovania</span> Táto "
+"skupina ikon patrí do postupu čiastočného vykresľovania a pravdepodobne sa s "
+"nimi budete stretávať častejšie ako s ostatnými. Tieto ikony uvidíte, keď "
+"zmeníte nastavenia v <span class=\"ui\">spodnom menu</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1508-13
 msgid ""
@@ -2219,16 +2238,19 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Táto funkcia vám umožňuje oveľa rýchlejšie zobraziť ukážku úprav vzhľadu "
+"textu tým, že sa zobrazí iba aktuálna kapitola namiesto celej knihy. Vďaka "
+"tejto funkcii je teraz oveľa rýchlejšie aj otáčanie orientácie obrazovky. "
+"Táto funkcia je predvolene <b>POVOLENÁ</b>. V prípade potreby ju možno "
+"zakázať pre jednotlivé knihy (ťuknutím) alebo globálne (dlhým podržaním) na:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1510-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
 msgstr ""
-"⇑ VRCHNÉ MENU (v prehliadači súborov) → <img class=\"img_inline\" "
-"src=\"pictures/top_tools.svg\" style=\"width:26px;\"> → Ďalšie nástroje → "
-"Možnosti vývojára → Vymazať vyrovnávaciu pamäť"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Dokument / Povoliť čiastočné vykresľovanie"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1512-13
 msgid ""
@@ -2236,6 +2258,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Po potvrdení zmien je potrebné celú knihu znova vykresliť, takže ide o viac-"
+"krokový postup. Tieto ikony zobrazujú fázu vykresľovania, ako je vysvetlené "
+"nižšie:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1522-17
 msgid ""
@@ -2243,12 +2268,18 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"V tejto fáze je dokument <b>čiastočne</b> vykreslený. Počet strán, "
+"informácie o päte a mnohé iné sú <b>nepresné</b>. Môžete vidieť, ako "
+"vyzerajú nové nastavenia, a môžete ich ďalej upravovať. V tomto stave môžete "
+"tiež otáčať stránky, preskakovať odkazy."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1526-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Na <b>pozadí</b> prebieha úplné vykreslenie. Stále môžete otáčať stránky, "
+"preskakovať odkazy, meniť nastavenia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1530-17
 msgid ""
@@ -2257,12 +2288,18 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"Úplné vykreslenie je hotové, ale <b>zatiaľ sa nepoužije</b>, pretože "
+"KOReader čaká, kým budete <b>nečinný</b>, aby ste mohli znova načítať zvyšok "
+"knihy (nečinný = bez interakcie so zariadením). Stále môžete otáčať stránky, "
+"preskakovať odkazy, meniť nastavenia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Boli ste chvíľu nečinní, takže KOReader teraz znova načítava celý dokument. "
+"V tomto kroku je KOReader <b>zablokovaný</b>, aby sa zabránilo interakcii."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1539-5
 msgid ""
@@ -2274,6 +2311,13 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">INFORMÁCIA</span> Toto je možné len vtedy, ak sa "
+"váš súbor EPUB skladá z viacerých častí. Súbory EPUB sú v podstate archívy "
+".zip, ktoré obsahujú súbory .html. Niektoré knihy môžu byť jedným súborom "
+".html, zatiaľ čo iné môžu byť zložené z viacerých súborov .html, napríklad "
+"každá kapitola knihy je samostatný súbor .html. <b>Ak je vaša kniha iba "
+"jedným súborom .html, čiastočné vykreslenie nemôže fungovať, pretože pri "
+"každej zmene musí KOReader vypočítať celú knihu.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1547-13
 msgid ""
@@ -2289,6 +2333,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Ikona zvýrazňovania</span> Táto ikona sa "
+"zobrazí, keď ste v <span class=\"ui\">režime výberu a zvýrazňovania</span>. "
+"KOReader má dodatočný režim zvýrazňovania, ktorý vám umožňuje spustiť "
+"zvýrazňovanie a otáčať stránky, aby ste vytvorili dlhé zvýraznenia, ktoré "
+"môžu zahŕňať viacero strán. O tom si môžete prečítať v časti <a href="
+"\"#bookmarks\">ZÁLOŽKY, ZVYRAZŇOVANIE A POZNÁMKY</a> v tejto príručke. Keď v "
+"tomto režime spustíte zvýrazňovanie, v rohu sa zobrazí táto ikona, ktorá vám "
+"pripomenie, že ste stále v režime zvýrazňovania. Zmizne, keď dokončíte "
+"zvýraznenie <b>výberom konca pasáže</b> alebo keď <b>zrušíte zvýraznenie</b> "
+"(opätovným ťuknutím na začiatok zvýraznenia alebo na túto <span class=\"ui\""
+">ikonu zvýraznenia</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1554-13
 msgid ""
@@ -2298,22 +2353,31 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Ikona Pokémonovej lopty</span> Táto ikona sa "
+"zobrazí, keď dlho stlačíte slovo (úmyselne alebo náhodne). KOReader má "
+"normálne menu s <b>dlhým stlačením</b>. A ďalšie menu s veľmi dlhým "
+"stlačením, keď podržíte prst dlhšie ako 3 sekundy. Táto ikona znamená, že "
+"ste toto menu s veľmi dlhým stlačením aktivovali."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1561-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Ikona režimu prevrátenia</span> Táto ikona sa "
+"zobrazí po ťuknutí na ľavý horný roh, ak:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1563-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Čítate PDF dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1564-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"A nachádzate sa v priblíženom zobrazení inom ako 100 % (stĺpcové, riadkové "
+"alebo manuálne) alebo v <span class=\"ui\">režime preformátovania</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
@@ -2321,10 +2385,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"V tomto režime sa dočasne zobrazí celá stránka bez orezania, upravená tak, "
+"aby sa zmestila na obrazovku. V tomto režime môžete stránky otáčať. Ak "
+"chcete tento režim ukončiť, ťuknite na túto ikonu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1574-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Číslovanie strán a čísla referenčných strán"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1576-5
 msgid ""
@@ -2334,6 +2401,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"Typy dokumentov ako <b>epub, mobi, html</b> prirodzene nemajú pevné čísla "
+"strán, pretože ide o dokumenty s možnosťou preformátovania strán. To "
+"znamená, že tieto dokumenty je možné upraviť podľa veľkosti obrazovky a "
+"orientácie zariadenia (na rozdiel napríklad od súborov <b>pdf</b> alebo "
+"<b>djvu</b>, ktoré majú pevnú veľkosť stránky)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1578-5
 msgid ""
@@ -2342,6 +2414,10 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Ak zväčšíte veľkosť písma v dokumente s možnosťou preformátovania, zvýši sa "
+"aj počet strán, pretože sa teraz na jednu stranu zmestí menej textu. Toto "
+"niekedy spôsobuje problém, pretože zvýraznenie, ktoré ste urobili na "
+"<b>strane 38</b>, sa môže po úprave písma nachádzať na <b>strane 42</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1580-5
 msgid ""
@@ -2352,16 +2428,24 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"KOReader podporuje funkciu <b>Referenčné čísla strán</b>, ktorá umožňuje "
+"vydavateľom vkladať čísla strán z tlačených kníh priamo do elektronickej "
+"verzie knihy. Keď túto funkciu povolíte, KOReader sám nevypočíta čísla "
+"strán. Namiesto toho vám zobrazí <b>vložené čísla strán</b> od vydavateľa. "
+"To znamená, že číslo strany, ktoré vidíte v <span class=\"ui\">stavovom "
+"riadku</span>, sa zhoduje s tlačenou verziou knihy."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1582-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Výhody číslovania referenčných stránok:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1584-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"Čísla referenčných strán umožňujú presné citácie tým, že sa zhodujú s "
+"číslami strán v tlačených verziách."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1585-9
 msgid ""
@@ -2369,6 +2453,9 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"Čísla referenčných strán môžu pomôcť pri navigácii, najmä čitateľom, ktorí "
+"poznajú tlačenú verziu knihy. V digitálnej verzii vám môžu pomôcť ľahšie "
+"nájsť konkrétne pasáže alebo citáty."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1586-9
 msgid ""
@@ -2378,24 +2465,24 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"Keďže digitálne knihy je možné čítať na rôznych zariadeniach a platformách, "
+"pričom každá má vlastnú veľkosť písma a nastavenia zobrazenia, zobrazené "
+"čísla strán sa môžu výrazne líšiť. Čísla referenčných strán poskytujú "
+"konzistentný referenčný bod pri čítaní tej istej knihy súčasne na rôznych "
+"zariadeniach, ako je elektronická čítačka a telefón."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1589-5
-#, fuzzy
 msgid "You can enable this feature from:"
-msgstr ""
-"Viac informácií o nástrojoch pre <b>tabuľku s obsahom knihy</b> dostupných v "
-"KOReader nájdete v tejto relevantnej časti príručky: <a "
-"href=\"#toctools\">NÁSTROJE PRE TABUĽKU S OBSAHOM KNIHY</a>"
+msgstr "Túto funkciu môžete povoliť z:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1591-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
-"Z tejto ponuky môžete nakonfigurovať spodný stavový riadok. Neváhajte a "
-"preskúmajte podponuku <span class=\"ui\">NASTAVENIA</span> na prispôsobenie "
-"stavového riadku, ako chcete."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Referenčné stránky / Použiť čísla referenčných "
+"stránok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1593-5
 msgid ""
@@ -2403,18 +2490,22 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Ak v tej istej ponuke začiarknete aj možnosť <span class=\"ui\">Zobraziť "
+"popisky referenčných stránok na okraji</span>, čísla týchto strán sa "
+"zobrazia vedľa textu malým písmom."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1595-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Upozorňujeme, že táto ponuka sa zobrazí iba v prípade, že vaša kniha "
+"obsahuje vložené <b>čísla referenčných strán</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1599-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1599-1"
 msgid "Status bar"
-msgstr "Knižná mapa"
+msgstr "Stavový riadok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1601-5
 msgid ""
@@ -2424,6 +2515,12 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"KOReader má dva stavové riadky, <span class=\"ui\">dolný stavový riadok</"
+"span>, ktorý je predvolene povolený. A máme <span class=\"ui\">alternatívny "
+"stavový riadok</span>, ktorý sa zobrazí v hornej časti stránky, ak ho "
+"povolíte. Tento <span class=\"ui\">Alternatívny stavový riadok</span> je k "
+"dispozícii iba v dokumentoch s možnosťou preformátovania (epub, html, docx, "
+"rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2433,48 +2530,48 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"<span class=\"ui\">Spodný stavový riadok</span> je novší, ktorý sa aktívne "
+"udržiava. <span class=\"ui\">Alternatívny stavový riadok</span> je "
+"pozostatok z predchádzajúcich verzií KOReaderu, takže doňho nepridávame nové "
+"funkcie. Tento <span class=\"ui\">alternatívny stavový riadok</span> však "
+"stále môžete povoliť, ak ho považujete za užitočný. Môžete ho povoliť z:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"SPODNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Alternatívny stavový riadok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1607-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"<span class=\"ui\">Alternatívny stavový riadok</span> môžete nakonfigurovať "
+"z tejto ponuky:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Stavový riadok / Alternatívny stavový riadok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Pokyny v zvyšku tejto časti sa týkajú <span class=\"ui\">Spodného stavového "
+"riadku</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
-#, fuzzy
 msgid "Configuring the status bar"
-msgstr "Knižná mapa"
+msgstr "Konfigurácia stavového riadka"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1615-2
 msgid ""
@@ -2482,18 +2579,17 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Z tejto ponuky môžete nakonfigurovať spodný stavový riadok. Neváhajte a "
+"preskúmajte podponuku <span class=\"ui\">NASTAVENIA</span> na prispôsobenie "
+"stavového riadku, ako chcete."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Stavový riadok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1621-5
 msgid ""
@@ -2501,17 +2597,19 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"V stavovom riadku môžete zobraziť mnoho položiek. Predvolene sa však "
+"zobrazuje iba jedna a medzi nimi musíte prepínať ťuknutím na stavový riadok. "
+"Ak chcete zobraziť všetky položky naraz, povolíte to tu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
-"⇑ VRCHNÉ MENU (v prehliadači súborov) → <img class=\"img_inline\" "
-"src=\"pictures/top_tools.svg\" style=\"width:26px;\"> → Ďalšie nástroje → "
-"Možnosti vývojára → Vymazať vyrovnávaciu pamäť"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Stavový riadok / Konfigurácia položiek / Zobraziť všetky "
+"vybraté položky naraz"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1627-5
 msgid ""
@@ -2519,41 +2617,43 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Ak ste povolili vyššie uvedenú možnosť, stavový riadok nemôžete skryť "
+"ťuknutím naň. Ak ho chcete skryť, mali by ste si sem priradiť gesto na "
+"prepínanie stavového riadka:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1629-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Ponuka výberu gest / Režim čítania / Prepínanie stavovej lišty"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1631-5
-#, fuzzy
 msgid "Sorting the status bar items:"
-msgstr "Knižná mapa"
+msgstr "Zoradenie položiek stavového riadka:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1633-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Stavový riadok / Konfigurácia položiek / Usporiadanie "
+"položiek v stavovom riadku"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1637-1
 msgid "Using \"Custom Text\" item for status bar alignment"
-msgstr ""
+msgstr "Použitie položky \"Vlastný text\" na zarovnanie stavovej lišty"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
-#, fuzzy
 msgid ""
 "There is a special status bar item named <span class=\"ui\">Custom text</"
 "span>. This item can show your chosen text in the status bar. You can also "
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
-"Ako oddeľovač si môžete vybrať iný znak. Môžete tiež presunúť túto položku "
-"ako ostatné položky v stavovom riadku a zmeniť jej poradie."
+"V stavovom riadku je špeciálna položka s názvom <span class=\"ui\">Vlastný "
+"text</span>. Táto položka dokáže zobraziť vami zvolený text v stavovom "
+"riadku. Túto funkciu môžete použiť aj na vytvorenie oddeľovača medzi "
+"položkami stavového riadka, ako vidíte v príklade nižšie:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
