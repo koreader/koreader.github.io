@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
 "PO-Revision-Date: 2025-08-04 15:01+0000\n"
-"Last-Translator: Alex Cao <alex.caoys@gmail.com>\n"
+"Last-Translator: hiro Kanhlp <hoklp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -198,9 +198,9 @@ msgid ""
 "technical knowledge like working with a file system, CSS knowledge, "
 "installation of external files etc. depending on the procedure."
 msgstr ""
-"<span class=\"label_red\">!!!专业操作</span> 这是一个 <b>专业操作</b>注释栏。"
-"如果你在某项话题下看到本栏，意味着该话题要求你有一定程度的技术技能，如操作文"
-"件系统、CSS相关知识、导入外部文档等，具体依情况而变。"
+"<span class=\"label_red\">！！专业操作！！</span> 这是一个 "
+"<b>专业操作</b>注释栏。如果你在某项话题下看到本栏，意味着该话题要求你有一定程"
+"度的技术技能，如操作文件系统、CSS相关知识、导入外部文档等，具体依情况而变。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:900-2
 msgid ""
@@ -242,8 +242,8 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Newly added or updated sections since "
 "the last guide release are marked with a <span class=\"microns\"></span>"
 msgstr ""
-"<span class=\"label_blue\">信息</span>新添加或变更过的章节将以 <span "
-"class=\"microns\"></span>标注"
+"<span class=\"label_blue\">说明</span> 新添加或变更过的章节将以 <span class="
+"\"microns\"></span>标注"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:929-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:929-9"
@@ -253,7 +253,7 @@ msgstr "KOReader能做什么？"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:931-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:931-9"
 msgid "BASIC USAGE INFORMATION"
-msgstr "基础上手说明"
+msgstr "基础用法说明"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:933-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:933-5"
@@ -664,6 +664,9 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
+"更换字体（包括用户自有的字体），调整字号、对比度、亮度、字偶间距、词间距、字"
+"间距、文本对齐方式、行间距、分栏版式、页边距等等<a href="
+"\"#L1-customizingappearance\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1083-9
 msgid ""
@@ -671,6 +674,9 @@ msgid ""
 "your own ones to change how your books are rendered precisely <a href=\"#L2-"
 "styletweaks\" class=\"internalink\"></a>"
 msgstr ""
+"使用功能强大的内置<span class=\"ui\">样式微调</span>工具或自行编写样式，"
+"实现对书籍渲染样式的精确控制<a href=\"#L2-styletweaks\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1085-9
 msgid ""
@@ -710,19 +716,20 @@ msgstr ""
 msgid ""
 "Add notes using a customizable keyboard including diacritic modifiers <a "
 "href=\"#L2-keyboard\" class=\"internalink\"></a>"
-msgstr ""
+msgstr "使用可自定义的带注音符号键盘撰写笔记<a href=\"#L2-keyboard\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1098-9
 msgid ""
 "Take screenshots <a href=\"#L2-predefinedgestures\" class=\"internalink\"></"
 "a>"
-msgstr ""
+msgstr "截取屏幕快照<a href=\"#L2-predefinedgestures\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1100-9
 msgid ""
 "Track your reading statistics including <b>reading progress</b>, <b>time "
 "range</b> and <b>calendar views</b>"
-msgstr ""
+msgstr "掌握包含<b>阅读进度</b>、<b>时间跨度</b>与<b>日历视图</b>的阅读统计数据"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1103-1
 msgid "Export your notes and highlights flexibly"
@@ -734,6 +741,8 @@ msgid ""
 "JSON or Kindle clippings format <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"将笔记和标注以文本、markdown、HTML、JSON或Kindle剪贴本格式导出<a href="
+"\"#L2-exportinghighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1107-9
 msgid ""
@@ -743,6 +752,10 @@ msgid ""
 "class=\"external\">XMNote</span> <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"与<span class=\"external\">Joplin</span>, <span class=\"external\">Readwise</"
+"span>, <span class=\"external\">Memos</span>, <span class=\"external\""
+">Flomo</span> and <span class=\"external\">XMNote</span>等在线服务同步<a "
+"href=\"#L2-exportinghighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1110-1
 msgid "Arrange and browse your library easily"
@@ -762,7 +775,8 @@ msgstr ""
 msgid ""
 "See your library as you like with many detailed and mosaic views <a "
 "href=\"#L2-filebrowser\" class=\"internalink\"></a>"
-msgstr ""
+msgstr "以多种视图查阅个人藏书库<a href=\"#L2-filebrowser\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1116-9
 msgid ""
@@ -792,18 +806,25 @@ msgid ""
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"借助独特的<span class=\"ui\">书籍地图</span>功能，"
+"鸟瞰书籍全貌和自己的笔记与标注<a href=\"#L2-bookmap\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1125-9
 msgid ""
 "<span class=\"ui\">Page browser</span> to move through pages like a film "
 "reel <a href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"借助<span class=\"ui\">书页概览</span>工具，像检阅胶卷一样快速略览页面<a "
+"href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1127-9
 msgid ""
 "<span class=\"ui\">Bookmarks browser</span> to browse your highlights and "
 "notes easily <a href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">书签浏览器</span>让浏览标注与笔记易如反掌<a href="
+"\"#L1-bookmarks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1129-9
 msgid ""
@@ -811,6 +832,8 @@ msgid ""
 "don't like the one that comes with your book <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"如果不满意书籍自带目录，可自动或手工创建替代性目录<a href=\"#L2-toctools\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1131-9
 msgid ""
@@ -818,10 +841,12 @@ msgid ""
 "References</b> etc. for more accurate page counts <a href=\"#L2-"
 "hiddenflows\" class=\"internalink\"></a>"
 msgstr ""
+"隐藏或排除如<b>附录、索引和备注</b>等小节，实现更精准的内文页码计数<a href="
+"\"#L2-hiddenflows\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1134-1
 msgid "Control KOReader like a virtuoso"
-msgstr ""
+msgstr "玩转KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1136-9
 msgid ""
@@ -829,6 +854,9 @@ msgid ""
 "aspect of KOReader with a tap or swipe <a href=\"#L2-gesturecategories\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"拥有两百多种操作的强大<b>手势交互系统</b>，"
+"只需点按或滑动即可操作KOReader于股掌中<a href=\"#L2-gesturecategories\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1138-9
 msgid ""
@@ -836,6 +864,9 @@ msgid ""
 "keyboard shortcuts to these actions <a href=\"#L2-keyboardshortcuts\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"支持实体键盘（无论阅读设备集成还是通过有线或蓝牙连接的外设），"
+"可将键盘快捷键与特定操作绑定<a href=\"#L2-keyboardshortcuts\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1140-9
 msgid ""
@@ -843,36 +874,41 @@ msgid ""
 "class=\"ui\">Quick Menu</span> and access them with a tap or swipe <a "
 "href=\"#L2-quickmenu\" class=\"internalink\"></a>"
 msgstr ""
+"或使用<span class=\"ui\">快捷菜单</span>功能将常用操作编成定制菜单，"
+"通过点按或滑动快速触发<a href=\"#L2-quickmenu\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1142-9
 msgid ""
 "Create <b>Profiles</b> to control every aspect of KOReader and automate "
 "actions <a href=\"#L2-profiles\" class=\"internalink\"></a>"
 msgstr ""
+"编写<b>配置文档</b>实现对KOReader的全方位掌控及各类自动化操作<a href="
+"\"#L2-profiles\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1145-1
 msgid "Search, Lookup and Translation tools"
-msgstr ""
+msgstr "搜索、查阅和翻译工具"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1147-9
 msgid ""
 "Search the document by selecting or entering text (including <b>regular "
 "expressions</b>)"
-msgstr ""
+msgstr "通过选中文本或手动输入来检索书籍（支持<b>正则表达式</b>）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1148-9
 msgid "Search in your bookmarks, highlights and notes"
-msgstr ""
+msgstr "在书签、标记及笔记中检索"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1149-9
 msgid ""
 "Lookup text in <span class=\"external\">Wikipedia</span> or in installed "
 "dictionaries and translate it by a long-tap"
-msgstr ""
+msgstr "长按文本快速翻译，或查阅<span class=\"external\""
+">维基百科</span>及已安装的词典"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1150-9
 msgid "Translate whole page at once between more than 130 languages"
-msgstr ""
+msgstr "一键将整页内容译为多达130种语言"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1151-9
 msgid ""
@@ -880,38 +916,45 @@ msgid ""
 "class=\"external\">ChatGPT</span> (after installing the plugin) <a "
 "href=\"#L2-plugintypes\" class=\"internalink\"></a>"
 msgstr ""
+"借助强大的插件系统，用户甚至可以与<span class=\"external\""
+">ChatGPT</span>讨论书本内容（须安装特定插件）<a href=\"#L2-plugintypes\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1154-1
 msgid "KOReader can control your device"
-msgstr ""
+msgstr "KOReader可以帮用户掌控设备"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1156-9
 msgid ""
 "KOReader can update itself <a href=\"#L2-devicetips\" "
 "class=\"internalink\"></a>"
-msgstr ""
+msgstr "KOReader可自动更新<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1157-9
 msgid "Dim or turn off your <b>screen light</b> after a set interval"
-msgstr ""
+msgstr "在设定的时间间隔后调暗或关闭<b>屏幕亮度</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1158-9
 msgid ""
 "Set your page refresh intervals for different reading conditions <a "
 "href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 msgstr ""
+"为不同的阅读场景设置独立的页面刷新频率<a href=\"#L2-mangarefresh\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1159-9
 msgid ""
 "Set your own <b>screensaver</b> from many options like random images, book "
 "cover, reading, progress etc."
-msgstr ""
+msgstr "用随机图片、书籍封面、阅读进度等多种选择设置<b>待机画面</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1160-9
 msgid ""
 "Set battery <b>charge limit alarms</b> to prevent deep discharge/over charge "
 "<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"设置电量<b>充电提醒</b>，避免电池过充或过放<a href=\"#L2-devicetips\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1161-9
 msgid ""
@@ -919,25 +962,29 @@ msgid ""
 "optionally restart KOReader upon reaching this limit <a href=\"#L2-"
 "devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"设置内存用量提醒或在到达限制时选择性重启KOReader程序（这对于内存较小的设备十"
+"分有用）<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1165-1
 msgid "PDF documents are easier to read on e-ink with KOReader"
-msgstr ""
+msgstr "KOReader让PDF文档在电子墨水屏上阅读体验更佳"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1167-9
 msgid "Crop margins automatically or manually"
-msgstr ""
+msgstr "自动或手动裁剪页边空白"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1169-9
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
-msgstr ""
+msgstr "对文档进行<b>页面重排</b>以便在小尺寸屏幕上更方便地阅读及提取文段"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1171-9
 msgid ""
 "Apply <b>OCR</b> to documents without text layers, like scanned old books <a "
 "href=\"#L2-ocr\" class=\"internalink\"></a>"
 msgstr ""
+"对不包含文本层的PDF文档（如旧书扫描版）进行<b>OCR</b><a href=\"#L2-ocr\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1173-9
 msgid ""
@@ -945,68 +992,81 @@ msgid ""
 "documents</b> like scientific articles easily <a href=\"#L2-readingpdfs\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"多种页面缩放方式及换页方向，让阅读科学文献等<b>文本分栏的文档</b>更容易<a "
+"href=\"#L2-readingpdfs\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1175-9
 msgid ""
 "Auto straighten tilted documents, like scanned old books <a href=\"#L2-"
 "pdfbottom\" class=\"internalink\"></a>"
-msgstr ""
+msgstr "自动校正文档倾斜（比如旧书扫描版）<a href=\"#L2-pdfbottom\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1177-9
 msgid ""
 "Save your highlights directly into PDFs which allows you to see them without "
 "KOReader <a href=\"#L2-pdfhighlights\" class=\"internalink\"></a>"
 msgstr ""
+"将标记内容导出为PDF文件，以便在KOReader以外的环境中浏览<a href="
+"\"#L2-pdfhighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1179-9
 msgid ""
 "Special <b>Panel zoom</b> feature for reading mangas <a href=\"#L2-"
 "panelzoom\" class=\"internalink\"></a>"
 msgstr ""
+"针对漫画阅读的<b>分格缩放</b>功能<a href=\"#L2-panelzoom\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1181-9
 msgid ""
 "Adjustable screen refresh settings for perfectly balancing between ghosting "
 "and speed <a href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 msgstr ""
+"可调整的页面刷新参数，实现残影与翻页速度的完美平衡<a href="
+"\"#L2-mangarefresh\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1184-1
 msgid "Advanced features for power users"
-msgstr ""
+msgstr "面向专业用户的高级功能"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1186-9
 msgid ""
 "Add your own <b>CSS style tweaks</b> for books <a href=\"#L2-styletweaks\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"自行为书籍编写<b>CSS样式微调</b><a href=\"#L2-styletweaks\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1188-9
 msgid ""
 "<b>User patches</b> system which allows you to change the core behaviors of "
 "KOReader <a href=\"#L2-userpatches\" class=\"internalink\"></a>"
 msgstr ""
+"<b>用户补丁</b>系统允许用户改变KOReader的关键运行方式<a href="
+"\"#L2-userpatches\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1190-9
 msgid ""
 "Create a <b>QR code</b> from your clipboard to share text and links to other "
 "devices"
-msgstr ""
+msgstr "在剪贴板中生成<b>二维码</b>以向其它设备分享文本和链接"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1192-9
 msgid "View HTML source of an EPUB document"
-msgstr ""
+msgstr "查看epub文档的HTML源代码"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1194-9
 msgid "Create and edit text files on your device"
-msgstr ""
+msgstr "在阅读设备上创建及编辑文本文件"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1196-9
 msgid "Open a terminal emulator and run commands on your device"
-msgstr ""
+msgstr "打开终端模拟器并在阅读设备上执行命令行"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1198-9
 msgid "See your CPU, memory and battery usage stats"
-msgstr ""
+msgstr "查看CPU、内存和电池的使用数据"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1205-1
 msgctxt "user_guide/en.html+html.body.div.div:1205-1"
@@ -1024,6 +1084,8 @@ msgid ""
 "XPS, FB2, PDB, CHM and MD</b> files. It can also open <b>ZIP</b> archives "
 "and show image files."
 msgstr ""
+"KOReader支持<b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, "
+"FB2, PDB, CHM and MD</b>格式，还可打开<b>ZIP</b>压缩档并显示图像文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1213-5
 msgid ""
@@ -1031,18 +1093,20 @@ msgid ""
 "may need to restart KOReader to index the transferred documents (or refresh "
 "directory if you have Pocketbook/Android)."
 msgstr ""
+"有许多方法可以将书籍传输到阅读设备。请注意，KOReader可能需要重启（如果是在"
+"Pocketbook/Android上则是刷新目录）以完成对新传输文件的索引。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1215-5
 msgid ""
 "In addition to transferring files the same way you would with the built-in "
 "reader application, other options are available depending on your device:"
-msgstr ""
+msgstr "根据设备型号不同，KOReader还支持通过阅读设备内置的导入方式传输文件："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1218-9
 msgid ""
 "<b>USB mass storage mode within KOReader:</b> This mode is available for "
 "KOBO and some CERVANTES devices."
-msgstr ""
+msgstr "<b>KOReader内置的U盘存储模式</b>：KOBO及部分CERVANTES型号支持该功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1220-9
 msgid ""
@@ -1051,12 +1115,18 @@ msgid ""
 "menu shown below. Process is explained via <span class=\"ui\">info</span> "
 "buttons in the menu while adding accounts:"
 msgstr ""
+"<b>云存储（<span class=\"external\">Dropbox</span>/FTP/"
+"Webdav）</b>：使用该功能前，须通过下方展示的菜单项登录云服务账号。"
+"详细操作步骤可在添加账号时点击菜单中的<span class=\"ui\""
+">说明</span>按钮查看："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1222-9
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / Cloud storage"
 msgstr ""
+"（文件浏览器中的）顶部菜单 / <img class=\"img_inline\" src="
+"\"pictures/top_tools.svg\" style=\"width:22px;\"> / 云存储"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1225-9
 msgid ""
@@ -1067,6 +1137,12 @@ msgid ""
 "operating system supports. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/SSH\">wiki</a> for how-to and also see the warning box below."
 msgstr ""
+"<b>SSH/"
+"SFTP访问</b>：KOReader可作为<b>SSH服务器</b>，以便使用电脑传输文档（该功能支"
+"持Kobo、Kindle、Cervantes的阅读器）请使用SFTP软件（如<span class=\"external\""
+">Filezilla</span>）或文件管理器（部分操作系统内置）请查阅<a href="
+"\"https://github.com/koreader/koreader/wiki/SSH\""
+">wiki</a>页了解具体操作流程；另请注意下方的警告注释栏内容。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1227-9
 msgid ""
@@ -1075,6 +1151,10 @@ msgid ""
 "KOReader devices via a wifi connection. Check our <a href=\"https://github."
 "com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
+"<b>Calibre传输</b>：借助<span class=\"external\""
+">Calibre插件</span>，可通过wifi直接从Calibre藏书库发送书籍到KOReader中。"
+"请查阅<a href=\"https://github.com/koreader/koreader/wiki/calibre\""
+">wiki</a>页了解操作方法。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1229-9
 msgid ""
@@ -1082,6 +1162,9 @@ msgid ""
 "b> news entries as HTML files. Check <a href=\"https://github.com/koreader/"
 "koreader/wiki/News-downloader\">wiki</a> for how-to."
 msgstr ""
+"<b>新闻下载器</b>：该插件可以HTML格式下载<b>RSS及Atom订阅源</b>提供的文章。"
+"请查阅<a href=\"https://github.com/koreader/koreader/wiki/News-downloader\""
+">wiki</a>页了解操作方法。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1231-9
 msgid ""
@@ -1090,6 +1173,10 @@ msgid ""
 "like Pocket. Check <a href=\"https://github.com/koreader/koreader/wiki/"
 "Wallabag\">wiki</a> page for more info."
 msgstr ""
+"<b>Wallabag</b>：此插件可以从<span class=\"external\""
+">Wallabag</span>中拉取文章，这是一款自托管的类Pocket稍后阅读软件。请查阅<a "
+"href=\"https://github.com/koreader/koreader/wiki/Wallabag\""
+">wiki</a>页了解更多信息。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1234-24
 msgid ""
@@ -1098,51 +1185,62 @@ msgid ""
 "device. But if you are using a local wifi and turn on your device wifi for a "
 "short time, this risk is negligible."
 msgstr ""
+"<span class=\"label_red\">警告</span> "
+"在不设置密码的情况下使用SSH功能应当额外谨慎，因为这将使阅读设备可被公开访问。"
+"不过如果只是临时开启设备wifi、且接入的是家庭wifi网络，这一风险是可以忽略的。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1238-1
 msgid "Accessing your books"
-msgstr ""
+msgstr "打开书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1240-5
 msgid "Following methods are available for accessing your books:"
-msgstr ""
+msgstr "可以从下列途径打开导入的书籍："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1242-5
 msgid ""
 "<span class=\"ui\">File Browser</span> - Dedicated section is here: <a "
 "href=\"#L2-filebrowser\">File Browser usage</a>"
 msgstr ""
+"<span class=\"ui\">文件管理器</span> ——可点击<a href=\"#L2-filebrowser\""
+">文件管理器用法</a>查看详细操作方式"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1243-5
 msgid ""
 "<span class=\"ui\">Favorites</span> - A list which you can add your books by "
 "long pressing on them in the <span class=\"ui\">File Browser</span>"
 msgstr ""
+"<span class=\"ui\">收藏夹</span>——由用户选定书目组成的列表，可在<span class="
+"\"ui\">文件管理器</span>中长按书籍添加"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1244-5
 msgid "<span class=\"ui\">History</span> - List of books you opened"
-msgstr ""
+msgstr "<span class=\"ui\">阅读历史</span>——曾经打开过的书目"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1245-5
 msgid ""
 "<span class=\"ui\">Collections</span> - Personalized book lists you created. "
 "Dedicated section is here: <a href=\"#L2-collections\">Collections</a>"
 msgstr ""
+"<span class=\"ui\">自定义书单</span>——由用户自行创建的书籍列表。请点击<a "
+"href=\"#L2-collections\">自定义书单</a>详细了解"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1248-5
 msgid "You can change how these screens look from:"
-msgstr ""
+msgstr "若要改变书目陈列方式，请按照如下路径操作："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1250-5
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Display mode"
 msgstr ""
+"（文件管理器中的）顶部菜单 / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / 书籍陈列方式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1252-5
 msgid ""
 "If you want to change how many items are visible on these screens, look here:"
-msgstr ""
+msgstr "若要改变书目陈列密度，请按照如下路径操作："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1254-5
 msgid ""
@@ -1150,6 +1248,8 @@ msgid ""
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings"
 msgstr ""
+"（文件管理器中的）顶部菜单 / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / 设置 / 陈列参数设置"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1256-5
 msgid ""
@@ -1158,6 +1258,10 @@ msgid ""
 "class=\"ui\">Favorites</span> with a gesture and open another book without "
 "going through the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"每个对话框可指定专属呼出手势。例如，在阅读过程中可使用手势交互唤出<span "
+"class=\"ui\">阅读历史</span>或者<span class=\"ui\""
+">收藏夹</span>窗口来打开另一本书，无需打开<span class=\"ui\">File "
+"Browser</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1257-5
 msgid ""
@@ -1165,6 +1269,9 @@ msgid ""
 "<b>filename</b> or <b>book metadata</b> from the upper left hamburger menu "
 "button."
 msgstr ""
+"在<span class=\"ui\""
+">阅读历史</span>界面点击左上角的汉堡状菜单键，可以按照<b>文件名</b>或<b>书籍"
+"元数据</b>检索书籍。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1258-5
 msgid ""
@@ -1172,17 +1279,22 @@ msgid ""
 "or <span class=\"ui\">History</span> screen instead of <span "
 "class=\"ui\">File Browser</span> via:"
 msgstr ""
+"还可将<span class=\"ui\">收藏夹</span>或者<span class=\"ui\""
+">阅读历史</span>窗口设置为KOReader首屏，代替默认的<span class=\"ui\""
+">文件管理器</span>。请按如下路径操作："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1261-5
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Start with"
 msgstr ""
+"（文件管理器中的）顶部菜单 / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / 启动后首屏显示"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1267-1
 msgctxt "user_guide/en.html+html.body.div.div:1267-1"
 msgid "Tap zones"
-msgstr ""
+msgstr "点按区域"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1271-5
 msgid ""
@@ -1194,6 +1306,11 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
+"下方的图像展示了KOReader的默认点按区域功能划分；"
+"请点击屏幕上的对应区域呼出<span class=\"ui\">顶部菜单</span>或者<span class="
+"\"ui\">底部菜单</span>。<span class=\"ui\""
+">顶部菜单</span>也可通过从屏幕上端下滑来呼出。在非触摸屏阅读设备上（如Kindle "
+"4），<span class=\"ui\">底部菜单</span>可通过按动<b>确认键</b>呼出。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1273-5
 msgid ""
@@ -1204,6 +1321,11 @@ msgid ""
 "<b>most recently used menu tab</b>. And last area opens the <b>last menu "
 "tab</b>."
 msgstr ""
+"<span class=\"label_green\">提示</span> 如上图所示，<span class=\"ui\""
+">顶部菜单</span>触发区域被划为三部分。当从最左边区域下滑时，将直接显示<span "
+"class=\"ui\">顶部菜单</span>的<b>第一页</b>； "
+"从最右边区域下滑时，将直接显示<b>最后一页</b>；当从中间区域下滑时，将直接显示"
+"<b>上次使用过的顶部菜单页</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1275-5
 msgid ""
@@ -1212,25 +1334,32 @@ msgid ""
 "span> and <span class=\"ui\">bottom menu</span> at the same time via this "
 "menu:"
 msgstr ""
+"若要在点击<span class=\"ui\">顶部菜单</span>区域时同时呼出<span class=\"ui\""
+">顶部菜单</span>及<span class=\"ui\""
+">底部菜单</span>，请按照下方所示菜单项设置："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1277-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Activate Menu"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 点按与手势交互 / 呼出菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1280-5
 msgid ""
 "<span class=\"ui\">Corner tap zones</span> can be used for many different "
 "type of gestures including <b>TAP, DOUBLE TAP, TWO FINGER TAP</b> and <b>TAP "
 "and HOLD</b>."
-msgstr ""
+msgstr "<span class=\"ui\""
+">四角触控区</span>可用于多种手势交互，如<b>点按、双击、双指点按</b>以及<b>长"
+"按</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1282-5
 msgid ""
 "<b>PREVIOUS PAGE</b> and <b>NEXT PAGE</b> zones can also be used for "
 "<b>DOUBLE TAP</b> gestures at the same time."
-msgstr ""
+msgstr "另外，<b>前一页</b>和<b>后一页</b>触控区还支持<b>双击</b>交互。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1284-5
 msgid ""
@@ -1239,51 +1368,58 @@ msgid ""
 "all items are visible, tapping will show and hide the <span "
 "class=\"ui\">status bar</span>."
 msgstr ""
+"在<span class=\"ui\">状态栏</span>触控区点按时，如果设置<span class=\"ui\""
+">状态栏</span>仅展示一项图示，则将循环切换各图示；如果设置展示多项图示，"
+"则点按将使<span class=\"ui\">状态栏</span>显示或隐藏。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1288-5
 msgctxt "user_guide/en.html+html.body.div.div:1288-5"
 msgid "Changing text appearance"
-msgstr ""
+msgstr "变更文本样式"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1291-5
 msgid "<b>Changing the font*</b>:"
-msgstr ""
+msgstr "<b>替换字体*</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1291-35
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 字体"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1292-5
 msgid "Make the font bigger"
-msgstr ""
+msgstr "放大文字"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1292-36
 msgctxt ""
 "user_guide/en.html+html.body.div.ul.li.div:1292-36user_guide/en.html+html."
 "body.div.ul.li.div:1292-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "底部菜单 /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1293-5
 msgid "Make the font bolder"
-msgstr ""
+msgstr "加粗文字"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1293-36
 msgctxt "user_guide/en.html+html.body.div.ul.li.div:1293-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "底部菜单 /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1294-5
 msgid "Invert the colors on screen (white on black)"
-msgstr ""
+msgstr "反转屏幕颜色（显示为黑底白字）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1294-60
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Night Mode"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 夜间模式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1297-5
 msgid ""
@@ -1293,6 +1429,10 @@ msgid ""
 "section dedicated to <a href=\"#L1-customizingappearance\">CUSTOMIZING TEXT "
 "APPEARANCE</a>"
 msgstr ""
+"通过<span class=\"ui\""
+">底部菜单</span>中的其它格式选项可对文字样式进行精细调整。以上说明仅仅是部分"
+"快速上手指南。详细说明请点击<a href=\"#L1-customizingappearance\""
+">自定义文本样式</a>跳转至对应章节阅读"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1299-5
 msgid ""
@@ -1300,10 +1440,13 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
+"<span class=\"label_blue\">说明</span> "
+"*字体替换及样式调整仅对非固定版式的文档生效（如EPUB、HTML、DOCX、RTF、TXT）；"
+"不支持PDF和DJVU等固定版式文档。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1304-1
 msgid "Controlling the backlight / frontlight"
-msgstr ""
+msgstr "控制背光或前光"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1306-5
 msgid ""
