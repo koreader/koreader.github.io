@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 18:21+0000\n"
-"PO-Revision-Date: 2025-08-03 14:13+0000\n"
+"PO-Revision-Date: 2025-08-06 06:50+0000\n"
 "Last-Translator: Frans de Jonge <fransdejonge@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/koreader/"
 "user-guide/nl/>\n"
@@ -355,7 +355,6 @@ msgid "Book Map"
 msgstr "Boekkaart"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:957-17
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.ul.li.ul.li:957-17user_guide/en."
 "html+html.body.div.div.ul.li.ul.li:957-17"
@@ -1351,7 +1350,6 @@ msgid "Tap zones"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1271-5
-#, fuzzy
 msgid ""
 "In the image above, you can see the positions of the default tap zones of "
 "KOReader. To show the <span class=\"ui\">top menu</span> or <span "
@@ -1361,10 +1359,13 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
-"Je kunt ook naar beneden vegen in de bovenste zone om het <span "
-"class=\"ui\">hoofdmenu</span> te tonen. Op niet-touch apparaten zoals "
-"Kindle 4 kun je het <span class=\"ui\">ondermenu</span> openen door de knop "
-"in te drukken die overeenkomt met de <b>ENTER/OK</b> actie."
+"In de afbeelding hierboven zie je de posities van de standaard tikzones van "
+"KOReader. Om het <span class=\"ui\">bovenste menu</span> of <span class="
+"\"ui\">onderste menu</span> weer te geven, kun je op de aangegeven zones "
+"tikken. Je kunt ook naar beneden vegen in de bovenste zone om het <span "
+"class=\"ui\">hoofdmenu</span> te tonen. Op niet-touch apparaten zoals Kindle "
+"4 kun je het <span class=\"ui\">ondermenu</span> openen door de knop in te "
+"drukken die overeenkomt met de <b>ENTER/OK</b> actie."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1273-5
 msgid ""
@@ -2112,12 +2113,19 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"In dit stadium wordt het document <b>gedeeltelijk</b> weergegeven. Het "
+"aantal pagina's, de voettekstinformatie en veel andere zaken zijn "
+"<b>onjuist</b>. Je kunt zien hoe de nieuwe instellingen eruitzien en deze "
+"verder aanpassen. In deze toestand kun je ook pagina's omslaan en links "
+"volgen."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1526-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Een volledige weergave wordt <b>op de achtergrond</b> uitgevoerd. Je kunt "
+"nog steeds pagina's omslaan, links volgen en instellingen wijzigen."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1530-17
 msgid ""
@@ -2126,6 +2134,10 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"De volledige weergave is voltooid, <b>maar nog niet toegepast</b>, omdat "
+"KOReader wacht tot je <b>inactief</b> bent om de rest van het boek opnieuw "
+"te laden (inactief = geen interactie met het apparaat). Je kunt nog steeds "
+"pagina's omslaan, links volgen en instellingen wijzigen."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
@@ -2167,6 +2179,11 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Pokémon bal-pictogram</span> Dit pictogram "
+"verschijnt wanneer je lang op een woord drukt (opzettelijk of per ongeluk). "
+"KOReader heeft een normaal <b>lang drukken</b> menu. En een extra <b>heel "
+"lang drukken</b> menu wanneer je je vinger langer dan 3 seconden vasthoudt. "
+"Dit pictogam betekent dat je dit heel lang drukken menu hebt geactiveerd."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1561-13
 msgid ""
@@ -2467,6 +2484,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"<span class=\"ui\">Voortgangsbalk</span> in de <span class=\"ui\""
+">statusbalk</span> toont normaal gesproken je voortgang voor het hele boek. "
+"Maar het kan ook je voortgang voor het <b>huidige hoofdstuk</b> tonen. Dit "
+"kan bijvoorbeeld nuttig zijn als een boek veel korte hoofdstukken heeft. In "
+"dit geval kan het moeilijk zijn om je voortgang in het huidige hoofdstuk te "
+"zien, dus een <span class=\"ui\">hoofdstukstatusbalk</span> kan hier "
+"nuttiger zijn. Je kunt deze functie inschakelen via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1657-5
 #, fuzzy
@@ -2546,6 +2570,10 @@ msgid ""
 "books like <b>history, favorites, collections</b>. Also <b>book information</"
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
+"<span class=\"ui\">HOOFDMENU:</span> Dit menu bevat hulpmiddelen voor "
+"toegang tot je boeken, zoals <b>geschiedenis, favorieten, collecties</b>. "
+"Ook <b>boekinformatie</b>, <b>updaten</b> en <b>afsluiten</b> vind je in dit "
+"menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1693-1
 msgctxt "user_guide/en.html+html.body.div.div:1693-1"
@@ -3110,10 +3138,9 @@ msgid "Skim Widget"
 msgstr "Table of Contents Tools"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1900-3
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:1900-3"
 msgid "Book Map"
-msgstr "Toggle bookmark flipping"
+msgstr "Boekkaart"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1901-3
 #, fuzzy
@@ -3279,6 +3306,8 @@ msgid ""
 "Jump to the beginning of the next chapter / <b>Jump to the last page of the "
 "book</b>"
 msgstr ""
+"Ga naar het begin van het volgende hoofdstuk / <b>Ga naar de laatste pagina "
+"van het boek</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1956-9
 msgid "Jump backward (-) or forward (+) this many pages"
@@ -4001,12 +4030,17 @@ msgid ""
 "from the <span class=\"ui\">Page browser</span> or using other ways like "
 "<span class=\"ui\">Book map, Skim widget</span> etc."
 msgstr ""
+"Ga nu naar de laatste pagina van het gedeelte dat je hebt uitgesloten. Je "
+"kunt daar naartoe gaan via de <span class=\"ui\">Paginabrowser</span> of via "
+"andere manieren, zoals <span class=\"ui\">Boekkaart, Skim-widget</span> enz."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2166-9
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
 msgstr ""
+"Zodra je op de laatste pagina van het uitgesloten gedeelte bent, open je de "
+"<span class=\"ui\">Paginabrowser</span> opnieuw (als je daar nog niet bent)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2167-9
 msgid ""
@@ -4016,6 +4050,11 @@ msgid ""
 "return to normal color, indicating the end of hidden flow and the beginning "
 "of regular flow."
 msgstr ""
+"Ga naar de laatste pagina van je verborgen gedeelte en houd de <b>volgende "
+"pagina</b> lang ingedrukt. Kies <span class=\"ui\">Reguliere stroom hier "
+"hervatten</span> uit het pop-upmenu. Je zult zien dat de achtergrond van de "
+"resterende pagina's weer een normale kleur krijgt, wat het einde van de "
+"verborgen stroom en het begin van de reguliere stroom aangeeft."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2172-5
 #, fuzzy
@@ -4039,6 +4078,10 @@ msgid ""
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
 msgstr ""
+"Deze verborgen stroom-secties worden overgeslagen bij het omslaan van "
+"pagina's. Stel bijvoorbeeld dat je een verborgen stroom hebt gemaakt voor "
+"<b>hoofdstuk 10</b>. Nu ben je op de laatste pagina van <b>hoofdstuk 9</b>. "
+"Wanneer je de pagina omslaat, zie je <b>hoofdstuk 11</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2178-9
 msgid ""
@@ -4311,7 +4354,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2256-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Je kunt het weergeven in je <span class=\"ui\">Snelmenu</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2259-5
 msgid ""
@@ -6464,6 +6507,12 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Wanneer je de laatste pagina van een boek bereikt, toont KOReader een "
+"dialoogvenster. In dit dialoogvenster is er een actie <span class=\"ui\""
+">Volgend bestand openen</span> waarmee je het volgende bestand in dezelfde "
+"map als het huidige boek kunt openen. Zo kun je je series in aparte mappen "
+"plaatsen en ze achter elkaar lezen zonder terug te gaan naar de <span class="
+"\"ui\">Bestandsverkenner</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3062-5
 msgid ""
@@ -6739,6 +6788,9 @@ msgid ""
 "You can make KOReader turn pages from <b>Left to Right</b>, so that swipes "
 "and tap zones are swapped. To enable this, add the following lines:"
 msgstr ""
+"Je kunt KOReader instellen om pagina's van <b>links naar rechts</b> om te "
+"slaan, zodat de veeg- en tikzones worden omgewisseld. Om dit in te "
+"schakelen, voeg je de volgende regels toe:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3155-5
 msgid ""
@@ -7359,6 +7411,11 @@ msgid ""
 "books you have already added to your <span class=\"ui\">Favorites</span> "
 "list."
 msgstr ""
+"Je kunt dit dialoogvenster openen vanuit de leesweergave of vanuit de <span "
+"class=\"ui\">Bestandsbeheerder</span>. Wanneer je dit menu opent, krijg je "
+"een lijst van je collecties te zien. Standaard zie je daar de <span class="
+"\"ui\">Favorieten</span> staan als een collectie-item, dat de boeken bevat "
+"die je al aan je <span class=\"ui\">Favorieten</span>-lijst hebt toegevoegd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3368-3
 msgid ""
@@ -8370,7 +8427,7 @@ msgstr "<b>↑ ↓ ↑</b> - Previous chapter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3738-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr "<b>↓ ↑ ↓</b> - Next chapter"
+msgstr "<b>Lange diagonale veegbeweging</b> > Schermafdruk maken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3742-5
 msgid "MULTISWIPES"
@@ -8428,7 +8485,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Volgende hoofdstuk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid ""
@@ -8437,7 +8494,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Favorieten"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3764-1
 msgctxt "user_guide/en.html+html.body.div.div:3764-1"
@@ -8484,11 +8541,11 @@ msgstr "Slapen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3780-17
 msgid "History search"
-msgstr "KOReader herstarten"
+msgstr "Geschiedenis doorzoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3781-17
 msgid "Favorites"
-msgstr "Apparaat herstarten"
+msgstr "Favorieten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3782-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3782-17"
@@ -8511,24 +8568,21 @@ msgstr "Zoek in Wikipedia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3786-17
 msgid "Show menu"
-msgstr "Aanraakinvoer inschakelen"
+msgstr "Menu weergeven"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3787-17
 msgid "Menu search"
 msgstr "Menu zoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3788-17
-#, fuzzy
 msgid "Open next file in last book folder"
 msgstr "Open het volgende bestand in de map van het laatste boek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3789-17
-#, fuzzy
 msgid "Open previous file in last book folder"
 msgstr "Open het vorige bestand in de map van het laatste boek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3790-17
-#, fuzzy
 msgid "Notebook file"
 msgstr "Kladblokbestand"
 
@@ -8541,37 +8595,30 @@ msgid "Show ephemeris"
 msgstr "Toetsherhaling schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
-#, fuzzy
 msgid "Calibre metadata search"
 msgstr "Calibre-metadata doorzoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3794-17
-#, fuzzy
 msgid "Browse all calibre tags"
 msgstr "Blader door calibretags"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
-#, fuzzy
 msgid "Browse all calibre series"
 msgstr "Blader door alle calibreseries"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3796-17
-#, fuzzy
 msgid "Browse all calibre authors"
 msgstr "Blader door calibre-auteurs"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3797-17
-#, fuzzy
 msgid "Browse all calibre titles"
 msgstr "Blader door alle calibretitels"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3798-17
-#, fuzzy
 msgid "Calibre wireless connect"
 msgstr "Draadloze calibreverbinding"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3799-17
-#, fuzzy
 msgid "Calibre wireless disconnect"
 msgstr "Draadloze calibreverbinding verbreken"
 
@@ -8603,17 +8650,14 @@ msgid "Reading statistics: synchronize"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
-#, fuzzy
 msgid "Text editor: open last file"
 msgstr "Tekstbewerker: laatste bestand openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
-#, fuzzy
 msgid "Open vocabulary builder"
 msgstr "Woordenschatbouwer openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
-#, fuzzy
 msgid "Wallabag retrieval"
 msgstr "Wallabag ophalen"
 
@@ -8646,33 +8690,27 @@ msgid "Synchronize book statistics"
 msgstr "Draairichting schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3820-9
-#, fuzzy
 msgid "Device"
 msgstr "Apparaat"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3823-17
-#, fuzzy
 msgid "Exit sleep screen"
 msgstr "Slaapscherm verlaten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3824-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3824-17"
 msgid "Restart KOReader"
 msgstr "KOReader herstarten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3825-17
-#, fuzzy
 msgid "Exit KOReader"
 msgstr "KOReader afsluiten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3826-17
-#, fuzzy
 msgid "Toggle long-press on corners"
 msgstr "Hoeken ingedrukt houden schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3827-17
-#, fuzzy
 msgid "Enable touch input"
 msgstr "Aanraakinvoer inschakelen"
 
@@ -8709,7 +8747,6 @@ msgid "Rotate by 90 CCW"
 msgstr "Nachtmodus instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
-#, fuzzy
 msgid "Toggle Fullscreen"
 msgstr "Volledig scherm schakelen"
 
@@ -8726,7 +8763,6 @@ msgid "System statistics"
 msgstr "Toggle flashing on chapter boundaries"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
-#, fuzzy
 msgid "Terminal emulator"
 msgstr "Terminalemulator"
 
@@ -8739,12 +8775,10 @@ msgid "Suspend"
 msgstr "Systeemstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
-#, fuzzy
 msgid "Reboot the device"
 msgstr "Apparaat herstarten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3846-17
-#, fuzzy
 msgid "Power off"
 msgstr "Uitschakelen"
 
@@ -8769,42 +8803,34 @@ msgid "Toggle Wi-Fi"
 msgstr "Full refresh rate (not in night mode)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3856-9
-#, fuzzy
 msgid "Screen and lights"
 msgstr "Scherm en verlichting"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3859-17
-#, fuzzy
 msgid "Show frontlight dialog"
-msgstr "Lightdialoog tonen"
+msgstr "Lichtdialoog tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3860-17
-#, fuzzy
 msgid "Toggle frontlight"
-msgstr "Light aan/uit"
+msgstr "Licht aan/uit"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3861-17
-#, fuzzy
 msgid "Set frontlight brightness"
 msgstr "Lichthelderheid instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3862-17
-#, fuzzy
 msgid "Increase frontlight brightness"
 msgstr "Lichthelderheid verhogen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3863-17
-#, fuzzy
 msgid "Decrease frontlight brightness"
 msgstr "Lichthelderheid verminderen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3864-17
-#, fuzzy
 msgid "Set frontlight warmth"
 msgstr "Lichtwarmte instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3865-17
-#, fuzzy
 msgid "Increase frontlight warmth"
 msgstr "Lichtwarmte verhogen"
 
@@ -8865,22 +8891,18 @@ msgid "Auto warmth off"
 msgstr "Top margin"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3880-17
-#, fuzzy
 msgid "Auto warmth use sun position"
 msgstr "Automatische warmte gebruikt zonpositie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3881-17
-#, fuzzy
 msgid "Auto warmth use schedule"
 msgstr "Automatische warmte gebruikt schema"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3882-17
-#, fuzzy
 msgid "Auto warmth use closer midnight"
 msgstr "Automatische warmte dichter bij middernacht"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3883-17
-#, fuzzy
 msgid "Auto warmth use closer noon"
 msgstr "Automatische warmte dichter bij de middag"
 
@@ -8893,7 +8915,6 @@ msgid "Reflowable documents"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
-#, fuzzy
 msgid "Font face"
 msgstr "Lettertype"
 
@@ -8902,28 +8923,23 @@ msgid "Increase font size"
 msgstr "Invert images"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3892-17
-#, fuzzy
 msgid "Decrease font size"
 msgstr "Lettertypegrootte verminderen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3893-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3893-17"
 msgid "Font size"
 msgstr "Lettergrootte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3894-17
-#, fuzzy
 msgid "Word spacing"
-msgstr "Woordafstand"
+msgstr "Woordspatiëring"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3895-17
-#, fuzzy
 msgid "Word expansion"
 msgstr "Woorduitbreiding"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3896-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3896-17"
 msgid "Contrast"
 msgstr "Contrast"
@@ -8969,7 +8985,6 @@ msgid "Render mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
-#, fuzzy
 msgid "Zoom"
 msgstr "Zoomen"
 
@@ -8979,7 +8994,6 @@ msgid "Line spacing"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
-#, fuzzy
 msgid "Alt status bar"
 msgstr "Alt statusbalk"
 
@@ -9000,92 +9014,75 @@ msgid "Invert images"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3917-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3917-5"
 msgid "File browser"
 msgstr "Bestandsverkenner"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3919-13
-#, fuzzy
 msgid "Set display mode"
 msgstr "Weergavemodus instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3920-13
-#, fuzzy
 msgid "Sort by"
 msgstr "Sorteren op"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3921-13
-#, fuzzy
 msgid "Reverse sorting"
 msgstr "Omgekeerd sorteren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3922-13
-#, fuzzy
 msgid "Folders and files mixed"
 msgstr "Mappen en bestanden gemengd"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3923-13
-#, fuzzy
 msgid "Show plus menu"
 msgstr "Plusmenu tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3924-13
-#, fuzzy
 msgid "Toggle select mode"
 msgstr "Selectiemodus schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-13
-#, fuzzy
 msgid "Refresh content"
 msgstr "Inhoud verversen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3926-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3926-13"
 msgid "Folder shortcuts"
 msgstr "Mapsnelkoppelingen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3927-13
-#, fuzzy
 msgid "File search"
 msgstr "Bestand zoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-13
-#, fuzzy
 msgid "Last file search results"
 msgstr "Laatste bestandszoekresultaten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3929-13
-#, fuzzy
 msgid "Folder up"
 msgstr "Map omhoog"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3930-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3930-13"
 msgid "Go to page"
 msgstr "Ga naar pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3931-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3931-13"
 msgid "Back"
 msgstr "Terug"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3932-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3932-13"
 msgid "Export all notes in all books in history"
 msgstr "Exporteer alle aantekeningen in alle boeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3933-13
-#, fuzzy
 msgid "OPDS catalog"
 msgstr "OPDS-catalogus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3937-9
-#, fuzzy
 msgid "Reader"
 msgstr "Lezer"
 
@@ -9095,10 +9092,9 @@ msgstr "Table of contents"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3940-17
 msgid "Toggle status bar"
-msgstr "Boekkaart"
+msgstr "Statusbalk schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3941-17
-#, fuzzy
 msgid "Toggle chapter progress bar"
 msgstr "Hoofdstukvoortgangsbalk schakelen"
 
@@ -9108,7 +9104,7 @@ msgstr "Book map (overview)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3943-17
 msgid "Next chapter"
-msgstr "Paginabrowser"
+msgstr "Volgende hoofdstuk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-17
 msgid "First page"
@@ -9116,19 +9112,17 @@ msgstr "Bookmarks"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3945-17
 msgid "Last page"
-msgstr "Bladwijzers doorzoeken"
+msgstr "Laatste pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3946-17
-#, fuzzy
 msgid "Random page"
 msgstr "Willekeurige pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-17
 msgid "Turn pages"
-msgstr "Bladwijzer schakelen"
+msgstr "Pagina's omslaan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3948-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3948-17"
 msgid "Go to page"
 msgstr "Ga naar pagina"
@@ -9158,7 +9152,6 @@ msgid "Latest bookmark"
 msgstr "Toggle custom TOC"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3955-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3955-17"
 msgid "Back"
 msgstr "Terug"
@@ -9173,7 +9166,7 @@ msgstr "Markeeractie rondschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Follow nearest link"
-msgstr "Cycle highlight style"
+msgstr "Dichtstbijzijnde link volgen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 msgid "Follow nearest internal link"
@@ -9181,58 +9174,49 @@ msgstr "Save book metadata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
 msgid "Add current location to history"
-msgstr "Move current book to archive"
+msgstr "Huidige locatie aan locatiegeschiedenis toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
 msgid "Clear location history"
 msgstr "Book statistics"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3962-17"
 msgid "Fulltext search"
 msgstr "Volledige tekst doorzoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3963-17
-#, fuzzy
 msgid "Last fulltext search results"
 msgstr "Laatste volledige-tekst-zoekresultaten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3964-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3964-17"
 msgid "Table of contents"
 msgstr "Inhoudsopgave"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3965-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3965-17"
 msgid "Book map"
 msgstr "Boekkaart"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3966-17
-#, fuzzy
 msgid "Book map (overview)"
 msgstr "Boekkaart (overzicht)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3967-17
-#, fuzzy
 msgid "Page browser"
 msgstr "Paginabrowser"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3968-17"
 msgid "Bookmarks"
 msgstr "Bladwijzers"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3969-17
-#, fuzzy
 msgid "Bookmark search"
 msgstr "Bladwijzers doorzoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3970-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3970-17"
 msgid "Toggle bookmark"
 msgstr "Bladwijzer schakelen"
@@ -9258,7 +9242,6 @@ msgid "Translate current page"
 msgstr "Toggle panel zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
-#, fuzzy
 msgid "Invert page turn taps and swipes"
 msgstr "Pagina-omslag tikken en vegen omdraaien"
 
@@ -9284,43 +9267,38 @@ msgstr "Fit"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3982-17
 msgid "Cycle highlight style"
-msgstr "Zoomfactor"
+msgstr "Markeerstijl rondschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3983-17
 msgid "Save book metadata"
 msgstr "Zoom to"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
-#, fuzzy
 msgid "Export annotations"
 msgstr "Aantekeningen exporteren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3985-17
-#, fuzzy
 msgid "Export all notes in current book"
 msgstr "Exporteer alle aantekeningen in dit boek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3986-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3986-17"
 msgid "Export all notes in all books in history"
-msgstr "Exporteer alle aantekeningen in alle boeken"
+msgstr "Exporteer alle aantekeningen in geschiedenis"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
 msgid "Move current book to archive"
-msgstr "Richting"
+msgstr "Huidig boek naar archief verplaatsen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 msgid "Reading statistics: current book"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
-#, fuzzy
 msgid "Push progress from this device"
 msgstr "Voortgang van dit apparaat doorgeven"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3990-17
-#, fuzzy
 msgid "Pull progress from other devices"
 msgstr "Voortgang van andere apparaten halen"
 
@@ -9369,28 +9347,23 @@ msgid "Vertical overlap"
 msgstr "Document columns"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
-#, fuzzy
 msgid "Fit"
 msgstr "Passen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
-#, fuzzy
 msgid "Zoom to"
 msgstr "Zoomen naar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
-#, fuzzy
 msgid "Number of columns/rows to split page"
 msgstr ""
 "Stel het aantal kolommen of rijen in waarin de pagina moet worden opgesplitst"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4009-17
-#, fuzzy
 msgid "Zoom factor"
 msgstr "Zoomfactor"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4010-17
-#, fuzzy
 msgid "Direction"
 msgstr "Richting"
 
@@ -9408,18 +9381,15 @@ msgid "Line spacing"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
-#, fuzzy
 msgid "Alignment"
 msgstr "Uitlijning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4015-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4015-17"
 msgid "Font size"
 msgstr "Lettergrootte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4016-17
-#, fuzzy
 msgid "Change font size"
 msgstr "Lettergrootte wijzigen"
 
@@ -9428,18 +9398,15 @@ msgid "Word gap"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
-#, fuzzy
 msgid "Reflow"
 msgstr "Tekstherschikking"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4019-17"
 msgid "Contrast"
 msgstr "Contrast"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
-#, fuzzy
 msgid "Dewatermark"
 msgstr "Watermerk weghalen"
 
@@ -9452,7 +9419,6 @@ msgid "Document language"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
-#, fuzzy
 msgid "Forced OCR"
 msgstr "Gedwongen OCR"
 
@@ -9560,7 +9526,6 @@ msgid "Navigate to home"
 msgstr "Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
-#, fuzzy
 msgid "Home"
 msgstr "Thuis"
 
@@ -9589,7 +9554,6 @@ msgid "Exit application"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.table.tr.td:4085-13user_guide/en."
 "html+html.body.div.div.table.tr.td:4085-13"
@@ -9627,13 +9591,11 @@ msgid "Back/exit application"
 msgstr "Set highlight action"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4101-13"
 msgid "Esc"
 msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4104-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4104-13"
 msgid "Bookmarks"
 msgstr "Bladwijzers"
@@ -9643,7 +9605,6 @@ msgid "Shift + Left"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4108-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4108-13"
 msgid "Toggle bookmark"
 msgstr "Bladwijzer schakelen"
@@ -9653,7 +9614,6 @@ msgid "Shift + Right"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4112-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4112-13"
 msgid "Dictionary lookup"
 msgstr "Zoek in woordenboek"
@@ -9663,7 +9623,6 @@ msgid "Ctrl + D (Alt + D on Kindles)"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4116-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4116-13"
 msgid "Wikipedia lookup"
 msgstr "Zoek in Wikipedia"
@@ -9673,7 +9632,6 @@ msgid "Ctrl + W"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4120-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4120-13"
 msgid "Fulltext search"
 msgstr "Volledige tekst doorzoeken"
@@ -9691,7 +9649,6 @@ msgid "Ctrl + F"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4129-17
-#, fuzzy
 msgid "Links"
 msgstr "Links"
 
@@ -9791,7 +9748,6 @@ msgid "Exit highlighting mode"
 msgstr "Vertical overlap"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4177-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4177-13"
 msgid "Esc"
 msgstr "Esc"
@@ -9811,7 +9767,6 @@ msgid "Left-Right / Up-Down<br>Page Up-Page Down"
 msgstr "Go to 77% of book - <b>I</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4188-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4188-13"
 msgid "Table of contents"
 msgstr "Inhoudsopgave"
@@ -9821,7 +9776,6 @@ msgid "Shift + Up"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4192-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4192-13"
 msgid "Book map"
 msgstr "Boekkaart"
@@ -10251,6 +10205,15 @@ msgid ""
 "class=\"ui\">Profile</span>. Tap on its checkbox to assign your profile to "
 "this gesture."
 msgstr ""
+"<b>2.</b> Om je menu te openen, moet je er een gebaar aan toewijzen. Ga naar "
+"de <span class=\"ui\">Gebaarbeheerder</span> en kies een gebaar uit de "
+"lijst. Stel dat je op de hoek van het scherm wilt tikken om het menu te "
+"tonen. Tik dan op <span class=\"ui\">Hoek tikken</span> en kies vervolgens "
+"<span class=\"ui\">Linksonder</span>. Tik nu op <span class=\"ui\">Algemeen</"
+"span> en ga naar de tweede pagina. Je vindt je profiel als <span class=\"ui\""
+">Profiel x</span>, waarbij x de naam is die je aan dit <span class=\"ui\""
+">Profiel</span> hebt gegeven. Vink het selectievakje aan om je profiel aan "
+"dit gebaar toe te wijzen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4369-9
 msgid ""
@@ -10291,6 +10254,9 @@ msgid ""
 "<b>Incremental changes</b>, like brightness increase/decrease, bigger/"
 "smaller font size, previous/next pages or chapters, etc."
 msgstr ""
+"<b>Stapsgewijze wijzigingen</b>, zoals het verhogen/verlagen van de "
+"helderheid, het vergroten/verkleinen van de lettergrootte, vorige/volgende "
+"pagina's of hoofdstukken, enz."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4386-13
 msgid ""
@@ -10365,7 +10331,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4411-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4411-1"
 msgid "Profiles"
 msgstr "Profielen"
@@ -11364,7 +11329,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4711-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:4711-13"
 msgid "Restart KOReader"
 msgstr "KOReader herstarten"
@@ -12372,7 +12336,6 @@ msgid "Sleep cover problems"
 msgstr "Clearing file cache"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
-#, fuzzy
 msgid ""
 "Sleep covers generally use a magnet embedded in the cover which enables wake "
 "up and sleep events via triggering a sensor in your device. This sensor can "
@@ -12381,12 +12344,13 @@ msgid ""
 "problematic. If you are having problems with your device waking up because "
 "of your cover, you can disable this feature via this menu:"
 msgstr ""
-"When you are reading a <b>PDF/DJVU</b> document, KOReader keeps a cache of "
-"the last page you have read. So when you reopen the book, it will be faster. "
-"But this cache can grow big if you are using KOReader for a long time and "
-"reading many PDF/DJVU documents. These cache files are kept under your "
-"KOReader installation directory under the <b>cache folder</b>. To clear this "
-"cache and reclaim the space you can go to:"
+"Slaaphoesjes gebruiken over het algemeen een magneet die in de hoes is "
+"ingebouwd. Deze magneet activeert een sensor in het apparaat, waardoor het "
+"in de slaapstand gaat of wordt gewekt. Deze sensor wordt soms een <b>Hall-"
+"sensor</b> of <b>Hall-effectsensor</b> genoemd. In sommige gevallen, zoals "
+"bij verkeerd uitgelijnde of zwakke magneten, kan deze activering "
+"problematisch zijn. Als je problemen hebt met het ontwaken van je apparaat "
+"door je hoesje, kun je deze functie uitschakelen via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5044-9
 #, fuzzy
@@ -12476,6 +12440,12 @@ msgid ""
 "KOReader installation directory under the <b>cache folder</b>. To clear this "
 "cache and reclaim the space you can go to:"
 msgstr ""
+"Wanneer je een <b>PDF/DJVU-document</b> leest, bewaart KOReader een cache "
+"van de laatst gelezen pagina. Hierdoor zal het boek vanaf de tweede keer "
+"sneller openen. Maar deze cache kan groot worden als je KOReader lange tijd "
+"gebruikt en veel PDF/DJVU-documenten leest. Deze cachebestanden worden "
+"bewaard in je KOReader-installatiemap, in de <b>cachemap</b>. Om deze cache "
+"te wissen en de ruimte terug te winnen, kun je naar:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5081-5
 #, fuzzy
