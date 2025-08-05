@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-04 15:01+0000\n"
+"PO-Revision-Date: 2025-08-05 16:02+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
 "user-guide/uk/>\n"
@@ -127,7 +127,7 @@ msgid ""
 "com/koreader/koreader/issues/11147\">GitHub discussion thread</a>."
 msgstr ""
 "Щоб швидко знайти певну тему чи ключове слова, можна скористатися функцією "
-"пошуку на сторінці вебоглядача (зазвичай клавіші <b>Ctrl + F</b>). Якщо ви "
+"пошуку на сторінці вебоглядача (зазвичай клавіші <b>Ctrl+F</b>). Якщо ви "
 "маєте запитання чи пропозиції щодо цього посібника, їх можна написати у цій "
 "<a href=\"https://github.com/koreader/koreader/issues/11147\">темі "
 "обговорення на GitHub</a> (англійською мовою)."
@@ -182,10 +182,8 @@ msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
-"<span class=\"label_red\">!!! ДЛЯ ДОСВІДЧЕНИХ</span> Я позначений як <b>ДЛЯ "
-"ДОСВІДЧЕНИХ</b> користувачів. Якщо ви бачите мене в темі - це означає, що "
-"вам потрібно мати певний рівень технічних знань, як от робота з файловою "
-"системою, знання CSS, встановлення зовнішніх файлів тощо, залежно від дії."
+"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Я – блок з попередженнями. Я "
+"пояснюю, коли потрібно бути особливо обережним."
 
 #: user_guide/en.html%2Bhtml.body.div.div:892-5
 msgid ""
@@ -983,26 +981,33 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1157-9
 msgid "Dim or turn off your <b>screen light</b> after a set interval"
 msgstr ""
-"Встановіть <b>сповіщення щодо обмеження рівнів заряду акумулятора</b>, щоб "
-"запобігти глибокому розрядженню чи надмірному зарядженню акумулятора"
+"Зменшувати яскравість або вимикати <b>підсвічування екрану</b> через "
+"вказаний проміжок часу"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1158-9
 msgid ""
 "Set your page refresh intervals for different reading conditions <a "
 "href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 msgstr ""
+"Встановлювати частоту оновлення сторінки для різних умов читання <a href="
+"\"#L2-mangarefresh\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1159-9
 msgid ""
 "Set your own <b>screensaver</b> from many options like random images, book "
 "cover, reading, progress etc."
 msgstr ""
+"Обирати власну <b>заставку</b> з безлічі варіантів, наприклад, випадкові "
+"зображення, обкладинка книги, читання, поступ читання і т.ін."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1160-9
 msgid ""
 "Set battery <b>charge limit alarms</b> to prevent deep discharge/over charge "
 "<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"Встановлювати <b>сповіщення при досягненні рівня заряду</b> батареї, щоб "
+"запобігти глибокому розряду чи перезаряду батареї <a href=\"#L2-devicetips\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1161-9
 msgid ""
@@ -1010,27 +1015,33 @@ msgid ""
 "optionally restart KOReader upon reaching this limit <a href=\"#L2-"
 "devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"Встановлювати сповіщення про рівень використання пам'яті (корисно для "
+"пристроїв з малим обсягом пам'яті) та, за бажанням, перезапуск KOReader при "
+"досягненні цієї межі <a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1165-1
 msgid "PDF documents are easier to read on e-ink with KOReader"
-msgstr ""
+msgstr "Файли PDF на екранах з е-чорнилами легше читати з KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1167-9
 msgid "Crop margins automatically or manually"
-msgstr ""
-"Використовуйте різні типи масштабування та напрямки перегляду сторінок, щоб "
-"легко читати <b>документи з кількома стовпцями тексту на сторінці</b>"
+msgstr "Обрізання полів автоматично або вручну"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1169-9
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
-msgstr "Автоматично випрямляйте нахилені сторінки документів"
+msgstr ""
+"<b>Переформування</b> документів, щоб витягнути текст для зручності читання "
+"на малому екрані"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1171-9
 msgid ""
 "Apply <b>OCR</b> to documents without text layers, like scanned old books <a "
 "href=\"#L2-ocr\" class=\"internalink\"></a>"
 msgstr ""
+"Виконувати <b>оптичне розпізнавання тексту (OCR)</b> в документах без "
+"текстового шару, як у старих книжках <a href=\"#L2-ocr\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1173-9
 msgid ""
@@ -1068,11 +1079,12 @@ msgid "Advanced features for power users"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1186-9
-#, fuzzy
 msgid ""
 "Add your own <b>CSS style tweaks</b> for books <a href=\"#L2-styletweaks\" "
 "class=\"internalink\"></a>"
-msgstr "Створюйте та редагуйте текстові файли на своєму пристрої"
+msgstr ""
+"Додавати власні <b>підлаштування стилів CSS</b> для книг <a href="
+"\"#L2-styletweaks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1188-9
 msgid ""
@@ -1183,17 +1195,17 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1227-9
-#, fuzzy
 msgid ""
 "<b>Calibre transfer:</b> With the <span class=\"external\">Calibre plugin</"
 "span> you can send documents from your Calibre Library directly to your "
 "KOReader devices via a wifi connection. Check our <a href=\"https://github."
 "com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
-"<b> Wallabag </b> - завантажує останні статті з сервера Wallabag як окремі "
-"файли EPUB. Докладніше читайте на вікісторінці: <a href=\"https://github.com/"
-"koreader/koreader/wiki/Wallabag\">https://github.com/koreader/koreader/wiki/"
-"Wallabag</a>"
+"<b>Передавання через Calibre:</b> За допомогою <span class=\"external\""
+">модуля Calibre</span> можна надсилати документи з бібліотеки Calibre "
+"безпосередньо на пристрій з KOReader через з'єднання Wi-Fi. Про те як – "
+"читайте <a href=\"https://github.com/koreader/koreader/wiki/calibre\">у "
+"вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1229-9
 msgid ""
@@ -2341,15 +2353,16 @@ msgid "Using \"Custom Text\" item for status bar alignment"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
-#, fuzzy
 msgid ""
 "There is a special status bar item named <span class=\"ui\">Custom text</"
 "span>. This item can show your chosen text in the status bar. You can also "
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
-"Як розділювач можна обрати інший символ. Розташування цього елемента, як і "
-"інших, на панелі стану можна змінювати."
+"Існує спеціальний елемент панелі стану, який називається «<span class=\"ui\""
+">власний текст</span>». Цей елемент може показувати у панелі стану вказаний "
+"вами текст. Цю функцію також можна використати, щоб створити розділювач між "
+"елементами панелі стану, як це показано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
@@ -2480,18 +2493,12 @@ msgid "Bottom Menu Items"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1695-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> If you long tap on their names, you "
 "can see an explanation of these items"
 msgstr ""
-"<span class=\"ui\">РЕЖИМ ПЕРЕГЛЯДУ:</span> Якщо ви перейдете в режим <span "
-"class=\"ui\">БЕЗПЕРЕРВНОГО</span> перегляду, тоді зможете переглядати "
-"документ як вебсторінку. Цей режим більше пасує для екранів без е-чорнил "
-"(LCD, OLED). В безперервному режимі <b>ви втрачаєте ВЕРХНЄ і НИЖНЄ ПОЛЯ</b>, "
-"тому текст у першому і останньому рядку екрана може бути обрізаним. Щоб "
-"усунути цю проблему, можна увімкнути <span class=\"ui\">НАКЛАДЕННЯ СТОРІНКИ</"
-"span>:"
+"<span class=\"label_green\">ПОРАДА</span> Якщо затиснути їхні назви, можна "
+"побачити пояснення щодо цих елементів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1700-5
 msgid ""
@@ -2727,15 +2734,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1790-13
-#, fuzzy
 msgid ""
 "On the <span class=\"ui\">bottom menu</span> if you tap and hold an option’s "
 "name, you can see its explanation."
 msgstr ""
-"Знімок екрану можна <b>довго протягнувши пальцем по діагоналі екрану</b>. "
-"Знімок екрану також буде зроблений якщо <b>одночасно торкнутися пальцями в "
-"двох протилежних кутах екрану по діагоналі</b>. Другий спосіб зручний, "
-"наприклад, під час перегляду зображення."
+"У <span class=\"ui\">нижньому меню</span>, якщо затиснути назву функції, "
+"можна побачити пояснення щодо неї."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1794-13
 msgid "You can change the interface language via:"
@@ -2863,8 +2867,9 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
-"Розмір інтерфейсу користувача можна змінити за допомогою параметра <span "
-"class=\"ui\">DPI екрану</span>, який знаходиться тут:"
+"KOReader підтримує <b>пошук у словнику</b> в EPUB і сканованих документах "
+"PDF/DJVU. Щоб побачити словникове визначення або переклад, просто затисніть "
+"потрібне слово."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1842-9
 msgid ""
@@ -2909,14 +2914,8 @@ msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
-"<b>Прокручування при відпусканні:</b> Цей тип прокручування найкраще "
-"підходить для екранів з е-чорнилами, бо, на відміну від інших режимів "
-"прокручування, цей режим не оновлює сторінку постійно під час прокручування. "
-"Він працює як <span class=\"ui\">класичне прокручування</span>, але проміжні "
-"етапи не показуються, тому спершу ви прокручуєте пальцем, а щойно його "
-"заберете, сторінка на екрані перескочить до місця, до якого ви прокрутили. "
-"Це особливо корисно <b>для переміщення і налаштування вигляду</b>, якщо "
-"книга містить зображення або таблиці і ви бажаєте бачити їх усі."
+"<b>Класичне прокручування:</b> Цей режим працює так само, як прокручування "
+"на телефоні/планшеті."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1860-9
 msgid ""
@@ -2969,13 +2968,16 @@ msgstr ""
 "свій смак."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1873-5
-#, fuzzy
 msgid ""
 "Also you can go forward too, from the same menu. This feature is assigned to "
 "<span style=\"font-family: microns;\"></span> multiswipe gesture. You can "
 "assign this to another gesture if you want (like tapping a corner) or add it "
 "to your <span class=\"ui\">Quick Menu</span>."
-msgstr "Заборонити оновлення на сторінках з зображеннями"
+msgstr ""
+"З того ж меню також можна перейти вперед. Ця функція призначена для "
+"мультижесту <span style=\"font-family: microns;\"></span>. За бажанням, цю "
+"дію можна призначити на інший жест (наприклад, на дотик в куті) або додати "
+"до <span class=\"ui\">Швидкого меню</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1877-1
 #, fuzzy
@@ -3115,9 +3117,8 @@ msgid "You can assign a gesture to it"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1919-17
-#, fuzzy
 msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
-msgstr "Текстовий (.txt)"
+msgstr "Це можна додати до <span class=\"ui\">Швидкого меню</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1924-1
 #, fuzzy
@@ -4162,7 +4163,10 @@ msgid ""
 "<b>Disabled styles</b> profile with <span class=\"ui\">embedded style</span> "
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
 "books"
-msgstr "Застосувати профіль з <span class=\"ui\">Меню профілів</span>"
+msgstr ""
+"Профіль «<b>Без стилів</b>», в якому не будуть використовуватися <span class="
+"\"ui\">вбудований стиль</span> та <span class=\"ui\">вбудовані шрифти</"
+"span>, що зручно для погано структурованих книг"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2248-5
 msgid ""
@@ -5155,9 +5159,11 @@ msgid ""
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
 msgstr ""
-"Коли палець досягне закінчення сторінки, KOReader перегорне сторінку, щоб ви "
-"могли продовжити виділення тексту <b>(лише у документах EPUB/HTML)</b>. Цю "
-"функцію можна вимкнути тут:"
+"<span class=\"ui\">Режим вибору і виділення</span> більше підходить для "
+"виділення великих уривків, розміщених на двох і більше сторінках. Він також "
+"може краще працювати якщо є проблеми з чутливістю сенсорного екрану або "
+"моторикою рук користувача, оскільки в цьому режимі виділення немає потреби "
+"протягувати пальцем по екрану."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2628-5
 msgid ""
@@ -5307,10 +5313,12 @@ msgid ""
 "you can add these marks later by long pressing the <span "
 "class=\"ui\">Highlight edit</span> buttons."
 msgstr ""
-"Якщо затиснути виділений текст <b>з доданою нотаткою</b>, відкриється це "
-"контекстне меню. Торкніться <span class=\"ui\">Змінити виділений текст</"
-"span>, щоб відкрити вищезгадане меню, за допомогою якого можна змінити й "
-"виділення, і нотатку:"
+"Однак, якщо почати виділення посеред речення, крапка в кінці речення <b>не "
+"буде включена до виділення</b>, оскільки KOReader вважатиме, що ви бажаєте "
+"зробити часткове виділення. Тож якщо бажаєте, щоб розділові знаки були "
+"включені до виділення, переконайтеся, що вибираєте <b>ціле речення</b>. "
+"Розділові знаки можна додатки згодом, затиснувши кнопку <span class=\"ui\""
+">Змінити виділений текст</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2676-1
 #, fuzzy
@@ -5406,9 +5414,8 @@ msgid "Long press on the highlight you want to edit"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2713-9
-#, fuzzy
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr "Текстовий (.txt)"
+msgstr "Натисніть <span class=\"ui\">Редагувати текст</span> у меню"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2714-9
 msgid ""
@@ -5484,10 +5491,9 @@ msgstr ""
 "кількість необхідних параметрів. Наприклад, можна створити:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2739-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2739-1"
 msgid "Exporting highlights"
-msgstr "1. Модуль експорту виділеного"
+msgstr "Експортування виділеного"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2741-5
 msgid ""
@@ -5497,8 +5503,11 @@ msgid ""
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
 msgstr ""
-"Цей універсальний модуль може експортувати виділені вами уривки тексту до "
-"<b>локального файлу</b> або <b>онлайн-сервісів</b>."
+"Після завершення читання книги, її можна перемістити до певної теки з метою "
+"архівування або обробки. Увімкнуть модуль <span class=\"ui\">Перемістити до "
+"архіву</span> і у налаштуваннях модуля вкажіть теку, яка буде вважатися "
+"архівною (<span class=\"ui\">Вказати теку архіву</span>). Після цього можна "
+"буде переміщувати книгу до теки архіву використавши:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2745-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
@@ -5506,21 +5515,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Жестом або"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr "Текстовий (.txt)"
+msgstr "Через пункт <span class=\"ui\">Швидкого меню</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2750-5
 msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
 msgstr ""
+"KOReader забезпечує різні способи експортування виділеного вами і нотаток з "
+"пристрою читання, а саме:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2753-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Модуль експорту виділеного"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2755-5
 msgid ""
@@ -10288,7 +10299,9 @@ msgstr ""
 msgid ""
 "You can activate a profile with a <b>long press</b> on its name from this "
 "same <span class=\"ui\">Profiles</span> menu"
-msgstr "Відображенням його як <span class=\"ui\">Швидкого меню</span>"
+msgstr ""
+"Профіль можна активувати <b>затиснувши</b> його назву у цьому ж меню <span "
+"class=\"ui\">Профілі</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4455-13
 msgid ""
@@ -10336,9 +10349,8 @@ msgid "Sub-conditions"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4472-5
-#, fuzzy
 msgid "On KOReader start"
-msgstr "Посібник користувача KOReader"
+msgstr "При запуску KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4472-48
 msgid ""
@@ -10366,9 +10378,8 @@ msgid "-"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4478-5
-#, fuzzy
 msgid "On rotation"
-msgstr "Зменшити температуру підсвічування"
+msgstr "При повороті"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4478-43
 msgid "Run this profile when screen rotates to the selected rotation(s)."
@@ -10382,22 +10393,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4481-5
 msgid "<span class=\"ui\">Left 90°</span> (landscape)"
-msgstr ""
+msgstr "<span class=\"ui\">Ліворуч 90°</span> (альбомна)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4482-5
-#, fuzzy
 msgid "<span class=\"ui\">0°</span> (normal)"
-msgstr "Текстовий (.txt)"
+msgstr "<span class=\"ui\">0°</span> (звичайна)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4483-5
-#, fuzzy
 msgid "<span class=\"ui\">Right 90°</span> (landscape)"
-msgstr "Текстовий (.txt)"
+msgstr "<span class=\"ui\">Праворуч 90°</span> (альбомна)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4484-5
-#, fuzzy
 msgid "<span class=\"ui\">180°</span> (upside down)"
-msgstr "Текстовий (.txt)"
+msgstr "<span class=\"ui\">180°</span> (догори дриґом)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4489-5
 msgid "On showing folder"
@@ -11355,16 +11363,16 @@ msgstr ""
 "uk</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4770-5
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> Be very careful when using this "
 "<span class=\"ui\">Reset</span> dialog and be sure that only <span "
 "class=\"ui\">Custom cover image</span> item is checked otherwise you can "
 "reset everything related to your book accidentally."
 msgstr ""
-"<span class=\"ui\">ІГНОРУВАТИ МЕТАДАНІ:</span> Оберіть цей варіант, щоб "
-"замість метаданих відображалося ім'я файлу. Це корисно коли метадані книги "
-"некоректні, а в полі назви міститься безкорисна інформація."
+"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Будьте дуже обережні "
+"використовуючи діалог «<b>Скинути</b>» і переконайтеся, що позначений лише "
+"пункт <b>Власна обкладинка</b>, інакше можете скинути все пов'язане з цією "
+"книгою."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4774-1
 msgid "Avoiding opening links accidentally"
