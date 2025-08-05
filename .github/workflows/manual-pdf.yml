@@ -1,0 +1,22 @@
+name: Manual to PDF
+on: [pull_request, push]
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y weasyprint
+
+      - name: Convert HTML to PDF
+        run: weasyprint user_guide/index.html koreader_user_guide.pdf
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: KOReader Manual PDF
+          path: koreader_user_guide.pdf
