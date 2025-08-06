@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-05 16:02+0000\n"
-"Last-Translator: Boyuan Xu <xbywhiteboat@gmail.com>\n"
+"PO-Revision-Date: 2025-08-06 06:50+0000\n"
+"Last-Translator: hiro Kanhlp <hoklp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -2009,8 +2009,8 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
-"<b>补充状态栏</b>：除了界面底部的默认<span class=\"ui\">状态栏</span>，"
-"屏幕顶部还提供<span class=\"ui\">备用状态栏</span>可自行启用。请前往<a href="
+"<b>副状态栏</b>：除了界面底部的默认<span class=\"ui\">状态栏</span>，"
+"屏幕顶部还提供<span class=\"ui\">副状态栏</span>可自行启用。请前往<a href="
 "\"#L2-statusbar\">状态栏</a>章节了解详情："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1492-9
@@ -2319,9 +2319,9 @@ msgid ""
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
 "KOReader有两块状态栏，一条是默认启用的<span class=\"ui\">底部状态栏</span>；"
-"另一条是<span class=\"ui\">补充状态栏</span>，启用后将出现在页面顶部。<span "
+"另一条是<span class=\"ui\">副状态栏</span>，启用后将出现在页面顶部。<span "
 "class=\"ui\""
-">补充状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。"
+">副状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2333,8 +2333,8 @@ msgid ""
 msgstr ""
 "<span class=\"ui\">底部状态栏</span>是新加的，正在持续维护中。<span class="
 "\"ui\""
-">补充状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，"
-"可通过下列路径启用<span class=\"ui\">补充状态栏</span>："
+">副状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，"
+"可通过下列路径启用<span class=\"ui\">副状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
 msgid ""
@@ -2348,7 +2348,7 @@ msgstr ""
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
-msgstr "<span class=\"ui\">补充状态栏</span>可通过如下菜单进行配置："
+msgstr "<span class=\"ui\">副状态栏</span>可通过如下菜单进行配置："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
@@ -2357,7 +2357,7 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / 状态栏 / 补充状态栏"
+"\"width:22px;\"> / 状态栏 / 副状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
@@ -2601,12 +2601,19 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">阅读模式</span>：切换到<span class=\"ui\""
+">页面连续</span>模式，可以像浏览网页一样滑动阅读书籍。该模式更适合配备非电子"
+"墨水屏（LCD、OLED）的阅读设备。在页面连续下，<b>页面的顶部和底部页边空白将被"
+"裁切</b>，因此首行和末行文本可能会被裁掉。启用<span class=\"ui\""
+">页面重叠</span>可以避免这一问题："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1702-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Page Overlap"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 页面重叠"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1704-5
 msgid ""
@@ -2617,6 +2624,11 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">渲染模式</span>：该选项决定KOReader如何呈现页面。"
+"默认设置为<span class=\"ui\""
+">WEB</span>且通常无需改变。当某本书籍（或缓存的网页）使用了复杂排版（指定了页"
+"面宽度或页边距，使用了负边距或浮动元素等），版式出现错乱或内容溢出屏幕时可尝"
+"试其它渲染模式。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1706-5
 msgid ""
@@ -2626,6 +2638,11 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\""
+">dpi缩放</span>：该选项可视为文档<b>全局缩放比例</b>（不会影响字号）。"
+"在默认设置96 "
+"dpi下，书籍中的图像将以原始尺寸呈现。简单来说该选项可以在<b>放大图片的同时保"
+"持文字大小不变</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1712-5
 msgid ""
@@ -2636,6 +2653,10 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"<span class=\"ui\">词间距与字间距</span> "
+"两项设定是彼此关联的，它们共同决定文字在两端对齐下的样式。文本两端对齐时单词"
+"之间的间距会被拉大，以便每行文字的左右边缘都能与页面边缘对齐。由于每行中的字"
+"数不是相同的，两端对齐会使挤压或拉伸文字来填充满一行。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1714-5
 msgid ""
@@ -2643,6 +2664,9 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\""
+">词间距</span>：为容纳更多文字，一行文字中的<b>空白</b>允许被压缩的程度。该选"
+"项不会影响单词，只会改变单词间的间隔。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1716-5
 msgid ""
@@ -2651,12 +2675,17 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\""
+">字间距</span>：当一行文字中有太多空白时，将这些空白分拆到字母之间而使单词被"
+"拉伸的程度。 该选项将影响单词的样式。若不希望单词被拉伸，"
+"请将该选项设置为<span class=\"ui\">无</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1718-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
-msgstr ""
+msgstr "请自行探索各种选项组合，让文本呈现自己喜欢的样式，然后在各选项对框中将所选设"
+"置保存为默认值。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1725-5
 msgid ""
@@ -2666,42 +2695,45 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">对比度</span>和<span class=\"ui\""
+">字重</span>影响文字笔画浓淡。这两个选项都可以让文本呈现某种样式，但它们的技"
+"术原理不同。当然，这两项可以同时生效。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1727-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "两个选项间的区别可以这样概括："
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1730-9
 msgid "CONTRAST"
-msgstr ""
+msgstr "对比度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1732-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
-msgstr ""
+msgstr "<b>优势</b> 不改变字体宽度，不影响书籍总页数"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1733-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>优势</b> 无需对书籍进行重渲染，调整速度快"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1734-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>劣势</b> 在LCD或低dpi屏幕上可能影响观感"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1736-9
 msgid "FONT WEIGHT"
-msgstr ""
+msgstr "字重"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
-msgstr ""
+msgstr "<b>优势</b> 如果安装的字体支持多重字重，将正确调用字重值"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1739-13
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>优势</b> 在LCD和低dpi屏幕上观感更佳"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1740-13
 msgid "<b>-</b> Has to re-render fonts, slower"
-msgstr ""
+msgstr "<b>劣势</b> 需要重新渲染字体，调整速度慢"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1745-5
 msgid ""
@@ -2714,6 +2746,14 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\""
+">字体微调</span>是根据设备屏幕像素阵列调整文字以实现最佳可读性的功能。<span "
+"class=\"ui\">原生</span>选项将使用字体内置的微调规则；<span class=\"ui\""
+">自动</span>选项使用FreeType的微调算法。自行安装的字体文件包含的微调规则可能"
+"有问题，因此<span class=\"ui\">自动</span>是更稳妥的选择。另外，<span class="
+"\"ui\""
+">自动</span>选项在处理<b>CJK</b>字符（东亚文字）时表现更好。请自行探索当前设"
+"备适合的选项。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1747-5
 msgid ""
@@ -2725,6 +2765,13 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"<span class=\"ui\""
+">字偶间距</span>是调节特定字母组合之间的间距以提升视觉效果的功能。"
+"默认的<span class=\"ui\""
+">最佳</span>选项可能会<b>拖慢</b>书籍打开速度（受阅读设备性能影响），但对<b>"
+"对合字（如下图所示）</b>、<b>连笔阿拉伯字形</b>及某些书体的支持更好。"
+"若阅读设备性能较差可将改为<span class=\"ui\""
+">良</span>选项，在保证拉丁字母书体正确显示的前提下提升设备响应速度。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1756-5
 msgid ""
@@ -2733,6 +2780,10 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
+"<span class=\"ui\""
+">副状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版格式的文档启用一块副"
+"状态栏。启用该功能后，可通过下列路径详细配置<span class=\"ui\""
+">副状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1758-5
 msgctxt "user_guide/en.html+html.body.div.div:1758-5"
@@ -2740,6 +2791,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 副状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1760-5
 msgid ""
@@ -2749,12 +2802,17 @@ msgid ""
 "on/off switches. You can achieve more fine tuned tweaks for your document "
 "via:"
 msgstr ""
+"<span class=\"ui\">内嵌样式</span>及<span class=\"ui\""
+">内嵌字体</span>决定KOReader是否使用出版方在书籍中内置的排版样式和字体来渲染"
+"页面。这些选项通常是开关形式，可通过下列路径更精细地调整页面表现："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1762-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style Tweaks"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1764-5
 msgid ""
@@ -2762,24 +2820,27 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
+"<span class=\"ui\">图像缩放</span>决定书籍中的插图如何呈现。<span class="
+"\"ui\">最佳</span>选项可获得更好的观感，但会拖慢阅读设备。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1773-1
 msgid "User Interface Tips"
-msgstr ""
+msgstr "用户界面提示"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1775-5
 msgid ""
 "KOReader’s user interface and options can change depending on the file type "
 "you open. There are two main categories of documents:"
-msgstr ""
+msgstr "根据打开的文件格式不同，KOReader的用户界面及设置选项可能会有所差异。KOReader"
+"支持的文件格式大致可分为两类："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1777-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr ""
+msgstr "<b>固定版面文档</b> PDF、djvu、图像文件等"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1778-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr ""
+msgstr "<b>支持重排版的文档</b> epub、html、docx、rtf、txt等。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1781-5
 msgid ""
@@ -2788,34 +2849,42 @@ msgid ""
 "items quickly. If you remember the name of a menu item but don't remember "
 "where it is, you can use this feature:"
 msgstr ""
+"KOReader包含众多功能，因此拥有复杂的菜单系统，可使用<span class=\"ui\""
+">菜单检索</span>功能快速寻找特定设置项。若用户对某项设置的名称有印象却不知道"
+"如何找到它，可借助该功能检索："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1783-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Menu search"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / 帮助 / 菜单检索"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1785-5
 msgid ""
 "Also you can assign this feature to a gesture or add it to your <a "
 "href=\"#L2-quickmenu\">Quick Menu</a> for faster access."
-msgstr ""
+msgstr "此外，可为该功能指定唤出手势，或将其添加到<a href=\"#L2-quickmenu\""
+">快捷菜单</a>以方便使用。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1790-13
 msgid ""
 "On the <span class=\"ui\">bottom menu</span> if you tap and hold an option’s "
 "name, you can see its explanation."
-msgstr ""
+msgstr "点击<span class=\"ui\">底部菜单</span>中的选项标题可以查看其功能介绍。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1794-13
 msgid "You can change the interface language via:"
-msgstr ""
+msgstr "用户界面的语言可通过下列路径更改："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.div:1794-59
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Language"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 界面语言"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1800-13
 msgid ""
@@ -8423,7 +8492,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Alt status bar"
-msgstr "备选状态栏"
+msgstr "副状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3910-17
 msgid "Embedded style"
