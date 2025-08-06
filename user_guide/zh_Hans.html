@@ -1488,7 +1488,7 @@ line-height: 2rem;
     <ol>
         <li><b>指示性图标</b>：这些图标说明某些状态及当前进程，将在特定阶段出现在屏幕左上角。实际显示中这类图标的尺寸会更小，此处仅放大以供识别。接下来的章节介绍了各图标对应的功能细节：<a href="#L2-indicators">指示性图标</a></li>
         <li><b>状态栏</b>：该区域显示诸多与当前阅读书籍及KOreader相关的信息，可灵活自定义。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情：</li>
-        <li><b>补充状态栏</b>：除了界面底部的默认<span class="ui">状态栏</span>，屏幕顶部还提供<span class="ui">备用状态栏</span>可自行启用。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情：</li>
+        <li><b>副状态栏</b>：除了界面底部的默认<span class="ui">状态栏</span>，屏幕顶部还提供<span class="ui">副状态栏</span>可自行启用。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情：</li>
         <li><b>页码参考</b>：如果书籍出版方提供了纸版书的页码，它们将在此处显示。请前往<a href="#L3-referencepages">页数计数及页码参考</a>章节了解详情：</li>
         <li><b>标注样式</b>：KOreader提供如图所示的多种标注样式。若阅读设备配有彩色屏幕，用户还可使用彩色标注。点击<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情：</li>
         <li><b>笔记标志</b>：该标志出现在添加了笔记的标注旁。KOReader提供多种样式的笔记标志。前往<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情：</li>
@@ -1598,15 +1598,15 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-statusbar">状态栏</div>
 
-    <p>KOReader有两块状态栏，一条是默认启用的<span class="ui">底部状态栏</span>；另一条是<span class="ui">补充状态栏</span>，启用后将出现在页面顶部。<span class="ui">补充状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。</p>
+    <p>KOReader有两块状态栏，一条是默认启用的<span class="ui">底部状态栏</span>；另一条是<span class="ui">副状态栏</span>，启用后将出现在页面顶部。<span class="ui">副状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。</p>
     
-    <p><span class="ui">底部状态栏</span>是新加的，正在持续维护中。<span class="ui">补充状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，可通过下列路径启用<span class="ui">补充状态栏</span>：</p>
+    <p><span class="ui">底部状态栏</span>是新加的，正在持续维护中。<span class="ui">副状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，可通过下列路径启用<span class="ui">副状态栏</span>：</p>
  
     <div class="menu-breadcrumbs">底部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 补充状态栏</div>
 
-    <p><span class="ui">补充状态栏</span>可通过如下菜单进行配置：</p>
+    <p><span class="ui">副状态栏</span>可通过如下菜单进行配置：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 补充状态栏</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 副状态栏</div>
 
     <p>本节接下来的说明将围绕<span class="ui">底部状态栏</span>。</p>
     
@@ -1697,54 +1697,54 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_menu_3.png" style="width:60%;">
 
-    <p><span class="ui">View mode:</span> If you change to <span class="ui">continuous</span> mode you can scroll the document like a web page. This mode is more suitable for non e-ink screen types (LCD, OLED). In continuous mode <b>you lose top and bottom margins</b> so text may be cut on the first and last line of screen. To solve this problem you can enable <span class="ui">Page overlap</span>:</p>
+    <p><span class="ui">阅读模式</span>：切换到<span class="ui">页面连续</span>模式，可以像浏览网页一样滑动阅读书籍。该模式更适合配备非电子墨水屏（LCD、OLED）的阅读设备。在页面连续下，<b>页面的顶部和底部页边空白将被裁切</b>，因此首行和末行文本可能会被裁掉。启用<span class="ui">页面重叠</span>可以避免这一问题：</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Page Overlap</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 页面重叠</div>
     
-    <p><span class="ui">Render mode:</span> This option determines how your document is rendered by KOReader. Default is <span class="ui">WEB</span> and generally you don’t need to change this setting. When a book (or saved web page) is very complicated (specified widths or margins, negative margins, floats etc.) and layout looks bad or overflow the screen, you can try other rendering modes.</p>
+    <p><span class="ui">渲染模式</span>：该选项决定KOReader如何呈现页面。默认设置为<span class="ui">WEB</span>且通常无需改变。当某本书籍（或缓存的网页）使用了复杂排版（指定了页面宽度或页边距，使用了负边距或浮动元素等），版式出现错乱或内容溢出屏幕时可尝试其它渲染模式。</p>
     
-    <p><span class="ui">Zoom (dpi):</span> This setting can be thought of as a <b>general zoom factor</b> for the document (except font size). At 96 dpi (which is the default setting), images in the document are rendered at their original dimensions. Basically you will use this setting if you want to <b>make images bigger without making the text bigger</b>.</p>
+    <p><span class="ui">dpi缩放</span>：该选项可视为文档<b>全局缩放比例</b>（不会影响字号）。在默认设置96 dpi下，书籍中的图像将以原始尺寸呈现。简单来说该选项可以在<b>放大图片的同时保持文字大小不变</b>。</p>
     
     <hr>
     
     <img loading="lazy" src="pictures/bottom_menu_4.png" style="width:60%;">
 
-    <p><span class="ui">Word spacing and Word expansion</span> settings are related and they determine how your text will look when it is justified. When you justify text, space is added between words so that both edges of each line are aligned with both margins. Since word counts of lines are not equal all the time, in justified alignment, text has to be compressed or expanded to fill the line.</p>
+    <p><span class="ui">词间距与字间距</span> 两项设定是彼此关联的，它们共同决定文字在两端对齐下的样式。文本两端对齐时单词之间的间距会被拉大，以便每行文字的左右边缘都能与页面边缘对齐。由于每行中的字数不是相同的，两端对齐会使挤压或拉伸文字来填充满一行。</p>
 
-    <p><span class="ui">Word spacing:</span> How much the <b>space</b> characters in a line of text can be compressed to fit more words. This setting doesn’t affect words, it only changes the space between them.</p>
+    <p><span class="ui">词间距</span>：为容纳更多文字，一行文字中的<b>空白</b>允许被压缩的程度。该选项不会影响单词，只会改变单词间的间隔。</p>
     
-    <p><span class="ui">Word expansion:</span> If you have too much white space in a line, how much of that can be distributed into the words by expanding them. This setting affects the appearance of words. If you don’t want your words to expand, set this to <span class="ui">none</span>.</p>
+    <p><span class="ui">字间距</span>：当一行文字中有太多空白时，将这些空白分拆到字母之间而使单词被拉伸的程度。 该选项将影响单词的样式。若不希望单词被拉伸，请将该选项设置为<span class="ui">无</span>。</p>
     
-    <p>You can experiment with different settings until the text looks pleasing to you, then set them as defaults via their respective dialogs.</p>
+    <p>请自行探索各种选项组合，让文本呈现自己喜欢的样式，然后在各选项对框中将所选设置保存为默认值。</p>
 
     
     <hr>
     
     <img loading="lazy" src="pictures/bottom_menu_5.png" style="width:60%;">
 
-    <p><span class="ui">Contrast</span> and <span class="ui">Font weight</span> are two options that you can use to make your text bolder (or lighter). You can achieve the same appearance with either of these options but they use different methods to achieve it. Of course you can use them both at the same time.</p>
+    <p><span class="ui">对比度</span>和<span class="ui">字重</span>影响文字笔画浓淡。这两个选项都可以让文本呈现某种样式，但它们的技术原理不同。当然，这两项可以同时生效。</p>
 
-    <p>The differences between them can be summarized as:</p>
+    <p>两个选项间的区别可以这样概括：</p>
 
     <div class="double-container">
         <div>
-            <span class="ui">CONTRAST</span>
-            <p><b>+</b> Doesn’t change font width, book length stays the same</p>
-            <p><b>+</b> Doesn’t need to re-render document, faster</p>
-            <p><b>-</b> Might look bad on LCD or low DPI screens</p>
+            <span class="ui">对比度</span>
+            <p><b>优势</b> 不改变字体宽度，不影响书籍总页数</p>
+            <p><b>优势</b> 无需对书籍进行重渲染，调整速度快</p>
+            <p><b>劣势</b> 在LCD或低dpi屏幕上可能影响观感</p>
         </div>
         <div>
-            <span class="ui">FONT WEIGHT</span>
-            <p><b>+</b> Will use proper weighted fonts if you have them installed</p>
-            <p><b>+</b> Looks better on LCD or low DPI screens</p>
-            <p><b>-</b> Has to re-render fonts, slower</p>
+            <span class="ui">字重</span>
+            <p><b>优势</b> 如果安装的字体支持多重字重，将正确调用字重值</p>
+            <p><b>优势</b> 在LCD和低dpi屏幕上观感更佳</p>
+            <p><b>劣势</b> 需要重新渲染字体，调整速度慢</p>
         </div>
     </div>
 
 
-    <p><span class="ui">Font hinting</span> adjusts your text for maximum readability according to your screen’s pixel grid. <span class="ui">native</span> uses font’s internal hinting instructions, <span class="ui">auto</span> uses FreeType’s hinting algorithm. <span class="ui">auto</span> is a safer choice because font files that you installed may have problematic hinting instructions. Also <span class="ui">auto</span> handles <b>CJK</b> text better. You can try different settings to see which one looks better on your device.</p>
+    <p><span class="ui">字体微调</span>是根据设备屏幕像素阵列调整文字以实现最佳可读性的功能。<span class="ui">原生</span>选项将使用字体内置的微调规则；<span class="ui">自动</span>选项使用FreeType的微调算法。自行安装的字体文件包含的微调规则可能有问题，因此<span class="ui">自动</span>是更稳妥的选择。另外，<span class="ui">自动</span>选项在处理<b>CJK</b>字符（东亚文字）时表现更好。请自行探索当前设备适合的选项。</p>
     
-    <p><span class="ui">Font kerning</span> adjusts the spacing between letters to achieve a visually pleasing result. Default is <span class="ui">best</span> option, which might be <b>slower</b> when opening files (depending on your device) but <b>has better support for ligatures</b> (see picture below for an example), joined <b>Arabic</b> glyphs and some other scripts. If your device is slow, you can try <span class="ui">good</span> which is faster and may still look correct with western latin-script text.</p>
+    <p><span class="ui">字偶间距</span>是调节特定字母组合之间的间距以提升视觉效果的功能。默认的<span class="ui">最佳</span>选项可能会<b>拖慢</b>书籍打开速度（受阅读设备性能影响），但对<b>对合字（如下图所示）</b>、<b>连笔阿拉伯字形</b>及某些书体的支持更好。若阅读设备性能较差可将改为<span class="ui">良</span>选项，在保证拉丁字母书体正确显示的前提下提升设备响应速度。</p>
 
     
     <img loading="lazy" src="pictures/kerning_ligatures.png" style="width:40%;">
@@ -1753,15 +1753,15 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_menu_6.png" style="width:60%;">
 
-    <p><span class="ui">Alt status bar</span> enables an alternative status bar which is available only in reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). After enabling it here, you can configure <span class="ui">alt status bar</span> via:</p>
+    <p><span class="ui">副状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版格式的文档启用一块副状态栏。启用该功能后，可通过下列路径详细配置<span class="ui">副状态栏</span>：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 补充状态栏</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 副状态栏</div>
     
-    <p><span class="ui">Embedded style</span> and <span class="ui">embedded fonts</span> determine if publisher’s styles and fonts embedded in the document will be used (or ignored) to render the document. These are general on/off switches. You can achieve more fine tuned tweaks for your document via:</p>
+    <p><span class="ui">内嵌样式</span>及<span class="ui">内嵌字体</span>决定KOReader是否使用出版方在书籍中内置的排版样式和字体来渲染页面。这些选项通常是开关形式，可通过下列路径更精细地调整页面表现：</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Style Tweaks</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调</div>
 
-    <p><span class="ui">Image scaling</span> determines how images in your document are rendered. <span class="ui">Best</span> looks more pleasing but it is slower.</p>
+    <p><span class="ui">图像缩放</span>决定书籍中的插图如何呈现。<span class="ui">最佳</span>选项可获得更好的观感，但会拖慢阅读设备。</p>
 
 
 
@@ -1770,28 +1770,28 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-uitips">User Interface Tips</div>
+<div class="L2-Sub-heading" id="L2-uitips">用户界面提示</div>
 
-    <p>KOReader’s user interface and options can change depending on the file type you open. There are two main categories of documents:</p>
+    <p>根据打开的文件格式不同，KOReader的用户界面及设置选项可能会有所差异。KOReader支持的文件格式大致可分为两类：</p>
 		<ol>
-			<li><b>Fixed layout documents</b> (pdf, djvu, image files...)</li>
-			<li><b>Reflowable documents</b> (epub, html, docx, rtf, txt…).</li>
+			<li><b>固定版面文档</b> PDF、djvu、图像文件等</li>
+			<li><b>支持重排版的文档</b> epub、html、docx、rtf、txt等。</li>
 		</ol>
 
-    <p>KOReader has lots of features so its menu system reflects this complexity. We have a <span class="ui">Menu Search</span> feature for finding menu items quickly. If you remember the name of a menu item but don't remember where it is, you can use this feature:</p>
+    <p>KOReader包含众多功能，因此拥有复杂的菜单系统，可使用<span class="ui">菜单检索</span>功能快速寻找特定设置项。若用户对某项设置的名称有印象却不知道如何找到它，可借助该功能检索：</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Help / Menu search</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 帮助 / 菜单检索</div>
 
-    <p>Also you can assign this feature to a gesture or add it to your <a href="#L2-quickmenu">Quick Menu</a> for faster access.</p>
+    <p>此外，可为该功能指定唤出手势，或将其添加到<a href="#L2-quickmenu">快捷菜单</a>以方便使用。</p>
 
 	<table class="grid-table" style="width: 80%;  margin-left: auto; margin-right: auto;">
     
     <tr>
-        <td><p>On the <span class="ui">bottom menu</span> if you tap and hold an option’s name, you can see its explanation.</p></td>
+        <td><p>点击<span class="ui">底部菜单</span>中的选项标题可以查看其功能介绍。</p></td>
     </tr>
     <tr>
         <td>
-            <p>You can change the interface language via: <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Language</div></p>
+            <p>用户界面的语言可通过下列路径更改： <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 界面语言</div></p>
         </td>
     </tr>
 
@@ -3895,7 +3895,7 @@ line-height: 2rem;
                 <li>Render mode</li>
                 <li>缩放</li>
                 <li>Line spacing</li>
-                <li>备选状态栏</li>
+                <li>副状态栏</li>
                 <li>Embedded style</li>
                 <li>Embedded fonts</li>
                 <li>Image scaling</li>
