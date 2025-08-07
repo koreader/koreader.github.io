@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-07 08:02+0000\n"
-"Last-Translator: Boyuan Xu <xbywhiteboat@gmail.com>\n"
+"PO-Revision-Date: 2025-08-08 09:01+0000\n"
+"Last-Translator: cyanjiang <cyanjiang@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -20,7 +20,7 @@ msgstr "英语"
 
 #: user_guide/en.html%2Bhtml.head.title:8-1
 msgid "KOReader User Guide"
-msgstr "KOReader用户指南"
+msgstr "KOReader 用户指南"
 
 #: user_guide/en.html%2Bhtml.body.button[title]:750-5
 msgid "Jump to Next Heading"
@@ -2890,13 +2890,15 @@ msgstr ""
 msgid ""
 "If you want to change the size of user interface, there is a <span "
 "class=\"ui\">DPI</span> setting for that:"
-msgstr ""
+msgstr "如果你想改变用户界面的大小，有一个<span class=\"ui\">DPI</span>设置："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1802-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screen DPI"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 屏幕 / 屏幕 DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1804-13
 msgid ""
@@ -2906,6 +2908,10 @@ msgid ""
 "span> setting in the bottom bar. That one is related to the documents only. "
 "You can find the explanation in the next section."
 msgstr ""
+"您可以从菜单中选择一个值，或选择<span class=\"ui\">自定义 DPI</span> "
+"后输入一个值进行微调：<b>更高的 DPI = 更大的界面</b>。请注意，"
+"底部栏中还有一个<span class=\"ui\""
+">缩放（DPI）</span>设置。该设置仅与文档相关。您可以在下一节中找到相关说明。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1808-13
 msgid ""
@@ -2916,6 +2922,11 @@ msgid ""
 "<span class=\"ui\">star</span> (★) in the menu or as a <span "
 "class=\"ui\">black border</span> around the indicators as seen below:"
 msgstr ""
+"如果您长按<b>选项</b>或<b>菜单项</b>（如字体粗细、行间距等），"
+"则可以将它的值设置为<span class=\"ui\""
+">默认</span>。新值将仅应用于从现在开始打开的书籍。之前打开的书籍将保持其原有"
+"设置。您可以通过菜单中的<span class=\"ui\">星号</span>（★）"
+"或指示器周围的<span class=\"ui\">黑色边框</span>来识别默认值，如下所示："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1815-13
 msgid ""
@@ -2924,6 +2935,9 @@ msgid ""
 "<span class=\"ui\">Bookmarks</span> window. You can use any multi swipe "
 "gesture to close this one)"
 msgstr ""
+"您可以通过<b>向下滑动</b>来<b>关闭</b>全屏对话框（如<span class=\"ui\""
+">历史记录、目录、阅读统计</span>等）。（<span class=\"ui\""
+">书签</span>窗口除外。您可以使用任何多滑手势来关闭这个窗口）"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1818-13
 msgid ""
@@ -2934,6 +2948,10 @@ msgid ""
 "take a screenshot with the <span class=\"ui\">Alt + Shift + G</span> "
 "shortcut."
 msgstr ""
+"您可以用手指进行<b>长对角线滑动</b>来截取<span class=\"ui\""
+">屏幕截图</span>。此外，<b>同时触摸对角线上的两个对角</b>也可以截取屏幕截图。"
+"例如，在查看图像时，您可以使用第二种手势。此外，如果您的设备有键盘，"
+"您可以使用<span class=\"ui\">Alt + Shift + G</span>快捷键来截取屏幕截图。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1821-13
 msgid ""
@@ -2941,32 +2959,37 @@ msgid ""
 "page</b> action which you can assign to any gesture. It is in the <b>Reader</"
 "b> category of the <span class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"如果你想随机打开一本书的某一页，我们提供了一个<b>跳转到随机页</b>的操作，你可"
+"以将其分配给任何手势。该操作位于<b>阅读器</b>的<span class=\"ui\""
+">手势管理器</span>的类别中。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1825-9
 msgid ""
 "In dialogs containing adjustment arrow buttons like the one above, you can "
 "<b>tap and hold</b> on arrow buttons to change the value in bigger "
 "increments."
-msgstr ""
+msgstr "在包含如上图所示的调整箭头按钮的对话框中，您可以<b>点击并按住</b>箭头按钮，以"
+"更大的幅度更改值。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-9
 msgid ""
 "You can <b>close</b> this type of dialog (non-full screen) by tapping "
 "outside of its window."
-msgstr ""
+msgstr "您可以通过点击此类对话框（非全屏）窗口之外的位置来<b>关闭</b>它。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1827-9
 msgid ""
 "You can <b>move</b> this type of dialog by holding its window title and "
 "dragging."
-msgstr ""
+msgstr "你可以通过按住其窗口标题并拖动来<b>移动</b>此类对话框。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1828-9
 msgid ""
 "You can make this type of dialog <b>semi-transparent</b> by tapping and "
 "holding the <b>window title</b> (when you want to see the text under it "
 "while adjusting a value)."
-msgstr ""
+msgstr "您可以通过点击并按住<b>窗口标题</b>（当您想在调整值的同时查看其下方的文本时）"
+"，使此类对话框<b>半透明</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1832-13
 msgid ""
@@ -2975,18 +2998,21 @@ msgid ""
 "presents you a screen that looks like our <span class=\"ui\">File Browser</"
 "span>. If you want to create a new folder while choosing:"
 msgstr ""
+"<b>创建新文件夹 - </b>在需要选择位置（云存储、移动到存档插件、导出插件）时，"
+"KOReader 会显示一个类似我们的<span class=\"ui\""
+">文件浏览器</span>的界面。如果您想在选择时创建新文件夹："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1834-17
 msgid ""
 "First navigate to the folder from the <span class=\"ui\">Folder chooser "
 "screen</span>"
-msgstr ""
+msgstr "首先，从<span class=\"ui\">文件夹选择器界面</span>导航到该文件夹"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1835-17
 msgid ""
 "Then <b>long-press</b> the <span class=\"ui\">Home icon</span> shown at the "
 "upper-left corner of this screen"
-msgstr ""
+msgstr "然后长按此屏幕左上角显示的<span class=\"ui\">主界面图标</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1841-13
 msgid ""
@@ -2994,32 +3020,38 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
+"KOReader 支持在 EPUB 和扫描的 PDF/DJVU "
+"文档中进行<b>词典查询</b>。要查看词典定义或翻译，只需点击并长按一个单词即可。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1842-9
 msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
-msgstr ""
+msgstr "长按一个单词会弹出一个对话框，您可以在其中搜索文档中的所选内容以查找更多出现"
+"的地方，或者在维基百科上查找。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1845-13
 msgid ""
 "If you want to check the current date you can tap on the clock in the <span "
 "class=\"ui\">TOP MENU</span>."
-msgstr ""
+msgstr "如果你想查看当前日期，可以点击<span class=\"ui\""
+">顶部菜单</span>中的时钟图标。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1849-1
 msgid "Scrolling types"
-msgstr ""
+msgstr "滚动类型"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1851-5
 msgid "KOReader has three types of touch scrolling. You can access this from:"
-msgstr ""
+msgstr "KOReader有三种触摸滚动方式。您可以通过以下方式进入："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1853-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Scrolling"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 触控与手势 / 滚动"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1855-5
 msgid ""
@@ -3034,7 +3066,7 @@ msgstr ""
 msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
-msgstr ""
+msgstr "<b>经典滚动：</b>此模式的工作原理与您的手机/平板电脑滚动完全相同。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1860-9
 msgid ""
@@ -3043,6 +3075,9 @@ msgid ""
 "without lifting your finger. Scrolling amount is proportional to the "
 "distance you move your finger after you initiated scrolling."
 msgstr ""
+"<b>加速滚动：</b>此模式允许您比<span class=\"ui\""
+">经典滚动</span>更快地滚动。您还可以在不抬起手指的情况下滚动几页。滚动量与开"
+"始滚动后移动手指的距离成正比。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1862-9
 msgid ""
@@ -3054,6 +3089,11 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>释放时滚动：</b>这种滚动类型更适合电子墨水屏幕。因为与其他滚动类型不同，此"
+"模式在滚动时不会连续刷新页面。它的工作原理类似于<span class=\"ui\""
+">经典滚动</span>，但没有显示中间步骤。所以，当你用手指滚动然后松开时，页面会"
+"跳到那个位置。如果您的书中包含图片或表格，并且您想查看所有内容，这对于重新定"
+"位和调整视图特别有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
 msgid "Go back to previous location"
@@ -3068,12 +3108,18 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
+"这个有用的功能类似于浏览器中的<b>后退</b>按钮。当您使用<span class=\"ui\""
+">Skim小部件、书签列表、图书地图</span>等跳转到图书的其他部分时。KOReader会记"
+"住您之前的位置。例如，如果您遵循内部链接或参考，这很有用。只需轻轻一点，你就"
+"可以回到你原来的地方。您可以从以下位置访问此功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1871-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go back to previous location"
 msgstr ""
+"顶部菜单 / <img class=“img_inline”src=“pictures/"
+"TOP_bookmark.svg”style=“width:22px；”> / 返回上一位置"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1873-5
 msgid ""
@@ -3082,10 +3128,13 @@ msgid ""
 "assign this to another gesture if you want (like tapping a corner) or add it "
 "to your <span class=\"ui\">Quick Menu</span>."
 msgstr ""
+"你也可以从同一菜单继续前进。此功能指定给<span style=\"font-family: microns;"
+"\"></span>多重手势。如果需要，您可以将其分配给另一个手势（如点击角落），或"
+"将其添加到您的<span class=\"ui\">快速菜单</span>中。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1877-1
 msgid "Prevent flashing on pages with images and in the menu"
-msgstr ""
+msgstr "防止图像页面和菜单刷新"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1879-5
 msgid ""
@@ -3095,6 +3144,9 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
+"KOReader通常会对包含图像的页面进行完全刷新（您可以看到黑色闪烁）。原因是去除"
+"上一页的残留物和重影。但根据您的设备和个人喜好，这可能不是必需的。您可以在此"
+"处禁用此自动刷新行为："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1881-5
 msgid ""
@@ -3102,29 +3154,33 @@ msgid ""
 "style=\"width:24px;\"> / Screen / E-ink Settings / Full refresh rate / "
 "Always flash on pages with images"
 msgstr ""
+"顶部菜单/<img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / 屏幕 / 电子墨水设置 / 全刷频率 / 始终刷新图像"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1883-5
 msgid ""
 "Also you can disable black flashing of user interface from here if it "
 "disturbs you:"
-msgstr ""
+msgstr "如果用户界面出现黑色闪烁，您也可以从这里禁用："
 
 #: user_guide/en.html%2Bhtml.body.div.p.div:1885-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / E-ink Settings"
 msgstr ""
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 屏幕 / 电子墨水设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1894-1
 msgctxt "user_guide/en.html+html.body.div.div:1894-1"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "翻阅书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1896-5
 msgid ""
 "There are different ways of moving through your document in KOReader with "
 "their own strengths. You can use the:"
-msgstr ""
+msgstr "在 KOReader 中浏览文档有不同的方法，各有优缺点。您可以使用："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1899-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1899-3"
@@ -3134,7 +3190,7 @@ msgstr "跳读工具"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1900-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1900-3"
 msgid "Book Map"
-msgstr ""
+msgstr "书籍地图"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1901-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1901-3"
@@ -3161,11 +3217,11 @@ msgstr "通过直接点按<span class=\"ui\""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1909-13
 msgid "Navigate between chapters"
-msgstr ""
+msgstr "章节导航"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1910-13
 msgid "Navigate between bookmarks"
-msgstr ""
+msgstr "书签导航"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1914-5
 msgid "How to open the Skim Widget:"
@@ -3175,11 +3231,11 @@ msgstr "呼出跳读工具的方法："
 msgid ""
 "With a long-tap on the <span class=\"ui\">Status Bar</span> area at the "
 "bottom of your screen"
-msgstr ""
+msgstr "长按屏幕底部的<span class=\"ui\">状态栏</span>区域"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1917-17
 msgid "From this menu:"
-msgstr ""
+msgstr "从这个菜单："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1917-37
 msgid ""
@@ -3192,11 +3248,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1918-17
 msgctxt "user_guide/en.html+html.body.div.ul.li:1918-17"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "您可以为其指定一个手势"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1919-17
 msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "您可以将其添加到<span class=\"ui\">快速菜单中</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1924-1
 msgid "Using the Skim Widget"
@@ -3280,7 +3336,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1948-5
 msgid "Explanations of the numbered items (long-press action in bold):"
-msgstr ""
+msgstr "编号项目的说明（粗体长按动作）："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1951-9
 msgid ""
