@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-07 08:01+0000\n"
+"PO-Revision-Date: 2025-08-09 07:19+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
 "user-guide/sk/>\n"
@@ -4850,6 +4850,9 @@ msgid ""
 "small sized text, <span class=\"ui\">landscape orientation</span> and "
 "minimum <span class=\"ui\">margins</span>"
 msgstr ""
+"Profil <b>Dvojitý stĺpec</b> s <span class=\"ui\">dvoma stĺpcami</span> "
+"textu malej veľkosti, <span class=\"ui\">orientáciu na šírku</span> a "
+"minimálne <span class=\"ui\">okraje</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2244-9
 msgid ""
@@ -4857,6 +4860,9 @@ msgid ""
 "span> and higher <span class=\"ui\">contrast</span> for more visible text "
 "under low light"
 msgstr ""
+"Profil <b>Nočné čítanie</b> s <span class=\"ui\">väčším bezpätkovým písmom</"
+"span> a vyšším <span class=\"ui\">kontrastom</span> pre viditeľnejší text "
+"pri slabom osvetlení"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
 msgid ""
@@ -4870,47 +4876,51 @@ msgid ""
 "After adjusting your settings to your liking, you can create a profile from "
 "them via:"
 msgstr ""
+"Po úprave nastavení podľa svojich predstáv si z nich môžete vytvoriť profil "
+"prostredníctvom:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2250-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles / New with current document settings"
 msgstr ""
-"⇑ VRCHNÉ MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Upozornenia stavu zariadenia → Úroveň nabitia "
-"batérie"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / Profily / Nové s aktuálnymi nastaveniami dokumentu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2252-5
 msgid ""
 "After creating a profile with your settings, you have many options for "
 "applying it to another book:"
 msgstr ""
+"Po vytvorení profilu s vašimi nastaveniami máte veľa možností, ako ho použiť "
+"na inú knihu:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2254-9
 msgid ""
 "You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
-msgstr ""
+msgstr "Profil si môžete vybrať v <span class=\"ui\">Ponuke Profily</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2255-9
 msgctxt "user_guide/en.html+html.body.div.ul.li:2255-9"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Môžete mu priradiť gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2256-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Môžete ho zobraziť vo svojom <span class=\"ui\">Rýchlom menu</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2259-5
 msgid ""
 "Click here to go to the <a href=\"#L1-qmandprofiles\">QUICK MENU AND "
 "PROFILES</a> section of the guide."
 msgstr ""
+"Kliknite sem a prejdete v príručke do sekcie <a href=\"#L1-qmandprofiles\""
+">RÝCHLE MENU A PROFILY</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2261-1
 msgctxt "user_guide/en.html+html.body.div.div:2261-1"
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Používanie vlastného písma"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2263-5
 msgid ""
@@ -4920,6 +4930,11 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/wiki/Fonts\">our wiki</a> for "
 "more info."
 msgstr ""
+"KOReader podporuje písma vo väčšine bežne používaných formátov TrueType "
+"(.ttf) a OpenType (.otf). Súbory písiem s týmito príponami je možné priamo "
+"skopírovať do priečinka <span class=\"ui\">/koreader/fonts/</span> vo vašom "
+"zariadení. Viac informácií nájdete na <a href="
+"\"https://github.com/koreader/koreader/wiki/Fonts\">našej wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2265-5
 msgid ""
@@ -4930,6 +4945,12 @@ msgid ""
 "from metadata, font names are not important when copying to your device. "
 "Installed fonts will be available after restarting KOReader.</b>"
 msgstr ""
+"Pri spustení KOReader skompiluje dostupné písma z <b>font metadata/info</b> "
+"a klasifikuje ich podľa rodiny a váhy. To znamená, že môžete pridať rôzne "
+"váhy a varianty písma a KOReader sa pokúsi použiť ten najvhodnejší. <b>Keďže "
+"informácie o rodine písiem preberá z metadát, názvy písem nie sú pri "
+"kopírovaní do zariadenia dôležité. Nainštalované písma budú dostupné po "
+"reštarte KOReader.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2267-5
 msgid ""
@@ -4937,42 +4958,45 @@ msgid ""
 "more of them on the <a href=\"https://fonts.google.com\">Google Fonts</a> "
 "website:"
 msgstr ""
+"Tu je niekoľko príkladov písma, ktoré vyzerajú dobre na obrazovke s "
+"elektronickým atramentom. Viac z nich nájdete na webovej stránke <a href="
+"\"https://fonts.google.com\">písma Google</a>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2268-5
 msgid "Serif:"
-msgstr ""
+msgstr "Serif(pätkové):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2270-9
 msgid "Spectral"
-msgstr ""
+msgstr "Spektrálne"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2271-9
 msgid "Vollkorn"
-msgstr ""
+msgstr "Vollkorn"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2272-9
 msgid "EB Garamond"
-msgstr ""
+msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2275-5
 msgid "Sans Serif:"
-msgstr ""
+msgstr "Sans Serif (bezpätkové):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2277-9
 msgid "Varela Round"
-msgstr ""
+msgstr "Varela Round"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2278-9
 msgid "Wix Madefor Text"
-msgstr ""
+msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2279-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (písmo používateľskej príručky, ktoré práve čítate)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2282-5
 msgid "Monospace:"
-msgstr ""
+msgstr "Monospace (neproporcionálne):"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2283-5
 msgid ""
@@ -4981,6 +5005,10 @@ msgid ""
 "find and compare many monospace fonts at <a href=\"https://www."
 "programmingfonts.org/\">programmingfonts.org</a>"
 msgstr ""
+"Ak plánujete použiť vlastné písmo s monospace, pravdepodobne už máte nejaké "
+"obľúbené, takže tu neuvádzame žiadne príklady. Mnoho písiem monospace "
+"nájdete a môžete porovnať na stránke <a href="
+"\"https://www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2285-2
 msgid ""
@@ -4990,23 +5018,26 @@ msgid ""
 "ligatures and character sets in non-Latin scripts like Greek, Hebrew or "
 "Chinese. You can access this feature via:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> KOReader dokáže vygenerovať dokument "
+"so vzorovým textom vykresleným so všetkými fontmi nainštalovanými vo vašom "
+"zariadení. To vám umožňuje rýchlo porovnať vzhľad a funkcie písiem, ako sú "
+"ligatúry a znakové sady v písmach, ktoré nie sú latinkou, ako je gréčtina, "
+"hebrejčina alebo čínština. K tejto funkcii máte prístup prostredníctvom:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2287-3
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Generate font test document"
 msgstr ""
-"⇑ VRCHNÉ MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Upozornenia stavu zariadenia → Úroveň nabitia "
-"batérie"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Písmo / Nastavenia písma / Vygenerovať testovací "
+"dokument s písmom"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2292-1
 msgid "Monospace font scale"
 msgstr "Používanie rôznych typov písma v jednom dokumente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2294-5
-#, fuzzy
 msgid ""
 "If your book includes parts with <b>Monospace</b> fonts (like in programming "
 "books), Monospace text might look disproportional even if it is technically "
@@ -5014,32 +5045,27 @@ msgid ""
 "metrics. KOReader has an option that allows you to adjust the relative "
 "Monospace font size to fix this difference:"
 msgstr ""
-"V dokumentoch založených na HTML/CSS, ako sú napríklad súbory EPUB, môžu "
-"knihy určiť použitie písma podľa rodiny namiesto konkrétneho názvu písma. "
-"Tieto rodiny môžu byť <b>pätkové, bezpätkové, neproporciálne, kurzíva, "
-"fantázia, emotikony, Fang Song a matematické (Math)</b>. Napríklad v knihe "
-"môže byť normálny text zobrazený <b>bezpätkovým</b>, zatiaľ čo dialógy sú "
-"zobrazené <b>pätkovým</b> písmom. KOReader normálne používa vaše predvolené "
-"písmo pre všetky tieto rodiny okrem <b>Monospace</b> a <b>Math</b> (ktoré je "
-"určené štýlom textových uzlov, napríklad <b>'font-family: serif'</b>).Ak "
-"chcete, aby tieto rodiny vyzerali odlišne, môžete im tu priradiť konkrétne "
-"písma:"
+"Ak vaša kniha obsahuje časti s písmom <b>Monospace</b> (ako napríklad v "
+"knihách o programovaní), text s monospace môže vyzerať neproporcionálne, aj "
+"keď má technicky rovnakú veľkosť ako zvyšok knihy. Je to spôsobené "
+"rozdielnymi metrikami písma. KOReader má možnosť, ktorá vám umožňuje upraviť "
+"relatívnu veľkosť písma Monospace, aby sa tento rozdiel vyriešil:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2296-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgstr ""
-"⇑ VRCHNÉ MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Upozornenia stavu zariadenia → Úroveň nabitia "
-"batérie"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Písmo / Nastavenia písma / Mierka písma Monospace"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2298-5
 msgid ""
 "Here you can increase or decrease the size of your Monospace font by "
 "adjusting its scaling as a percentage of the default size."
 msgstr ""
+"Tu môžete zväčšiť alebo zmenšiť veľkosť neproporcionálneho písma Monospace "
+"úpravou jeho mierky v percentách predvolenej veľkosti."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2302-1
 msgid "Using different fonts in one document"
@@ -5057,21 +5083,26 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
+"V dokumentoch založených na HTML/CSS, ako sú napríklad súbory EPUB, môžu "
+"knihy určiť použitie písma podľa rodiny namiesto konkrétneho názvu písma. "
+"Tieto rodiny môžu byť <b>pätkové, bezpätkové, neproporciálne, kurzíva, "
+"fantázia, emotikony, Fang Song a matematické (Math)</b>. Napríklad v knihe "
+"môže byť normálny text zobrazený <b>bezpätkovým</b>, zatiaľ čo dialógy sú "
+"zobrazené <b>pätkovým</b> písmom. KOReader normálne používa vaše predvolené "
+"písmo pre všetky tieto rodiny okrem <b>Monospace</b> a <b>Math</b> (ktoré je "
+"určené štýlom textových uzlov, napríklad <b>'font-family: serif'</b>).Ak "
+"chcete, aby tieto rodiny vyzerali odlišne, môžete im tu priradiť konkrétne "
+"písma:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2306-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Písmo / Písma z rodiny písiem"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2308-5
-#, fuzzy
 msgid ""
 "To change a family font for the current book just tap on the desired font "
 "name. If you want to set this for all your books, long-tap to set it as a "
@@ -5079,8 +5110,12 @@ msgid ""
 "where your default font is hardly used, you can disable that family font for "
 "this book by unchecking the association."
 msgstr ""
-"Pozrite si časť <a href=\"#qmandprofiles\">RÝCHLE MENU A PROFILY</a> tejto "
-"príručky, kde sa dozviete, ako to urobiť."
+"Ak chcete zmeniť rodinné písmo pre aktuálnu knihu, stačí ťuknúť na "
+"požadovaný názov písma. Ak ho chcete nastaviť pre všetky knihy, dlhým "
+"ťuknutím ho nastavíte ako <b>predvolené (★)</b>. Ak kniha zneužíva túto "
+"funkciu rodiny písiem do takej miery, že sa vaše predvolené písmo takmer "
+"nepoužíva, môžete toto rodinné písmo pre túto knihu zakázať zrušením "
+"začiarknutia priradenia."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2314-1
 msgid "Changing font quickly"
@@ -5097,16 +5132,25 @@ msgid ""
 "open your font selection menu and change the font like shown in the image "
 "below:"
 msgstr ""
+"Ak často prepínate medzi písmami (t. j. <b>monospace</b> pre programovanie "
+"kníh a <b>serif</b> pre romány), existuje riešenie, ktoré to zjednoduší, než "
+"zakaždým prejsť do ponuky. Môžete si vytvoriť profily pre svoje písma a "
+"všetky nastavenia súvisiace s písmom, napr. <span class=\"ui\">riadkovanie, "
+"kontrast, tučné písmo</span> atď. a pridať tieto profily do <span class="
+"\"ui\">Rýchleho menu</span>. Takže jediným gestom môžete otvoriť ponuku "
+"výberu písma a zmeniť písmo, ako je znázornené na obrázku nižšie:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2320-5
 msgid ""
 "Check the <a href=\"#qmandprofiles\">QUICK MENU AND PROFILES</a> section of "
 "this guide to learn how to do this."
 msgstr ""
+"Pozrite si časť <a href=\"#qmandprofiles\">RÝCHLE MENU A PROFILY</a> tejto "
+"príručky, kde sa dozviete, ako to urobiť."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2325-1
 msgid "Style tweaks"
-msgstr ""
+msgstr "Doladenie štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2327-5
 msgctxt ""
@@ -5116,7 +5160,7 @@ msgctxt ""
 "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
 "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! POKROČILÉ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2329-5
 msgid ""
@@ -5125,10 +5169,14 @@ msgid ""
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
 msgstr ""
+"Funkcia vylepšenie štýlu v KOReaderi vám umožňuje upraviť spôsob, akým "
+"KOReader vykresľuje vašu knihu. Nebudeme tu prechádzať celým kurzom CSS. "
+"Chceme vám ukázať len základy, aby ste pri zmene štýlu mali aspoň približnú "
+"predstavu o tom, čo robí."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2331-5
 msgid "What is a style tweak?"
-msgstr ""
+msgstr "Čo je to vylepšenie štýlu?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2332-5
 msgid ""
@@ -5139,15 +5187,22 @@ msgid ""
 "rendered by adding new rules and/or overriding the rules written by the "
 "publisher that is embedded in your book."
 msgstr ""
+"Dokument EPUB môžeme opísať ako <b>súbor HTML + niekoľko pravidiel CSS</b>. "
+"Tieto pravidlá CSS určujú, ako sa rôzne časti knihy (nadpisy, tučný text, "
+"citáty atď.) zobrazia v aplikácii na čítanie. Pomocou <span class=\"ui\""
+">vylepšenia štýlu</span> môžete zmeniť spôsob vykresľovania vašej knihy "
+"pridaním nových pravidiel a/alebo prepísaním pravidiel napísaných "
+"vydavateľom, ktoré sú súčasťou vašej knihy."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
 msgstr ""
+"Pozrime sa na to na príklade <span class=\"ui\">vylepšenia štýlu</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2336-5
 msgctxt "user_guide/en.html+html.body.div.p:2336-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2337-5
 msgid ""
@@ -5156,16 +5211,22 @@ msgid ""
 "you add this style tweak to KOReader, all the images in your book will be "
 "shown tiny."
 msgstr ""
+"Jednoducho povedané, toto pravidlo hovorí: <b>„Ignorujte ich pôvodnú veľkosť "
+"a všetky obrázky v tejto knihe nastavte na šírku 10 pixelov a výšku 10 "
+"pixelov.“</b> Takže ak do KOReaderu pridáte toto vylepšenie štýlu, všetky "
+"obrázky vo vašej knihe sa zobrazia malé."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Now lets explain this tweak item by item:"
-msgstr ""
+msgstr "Teraz si vysvetlime toto vylepšenie položku po položke:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2342-9
 msgid ""
 "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
 "<b>img</b> (image) elements in the book."
 msgstr ""
+"<span class=\"ui\">img</span> – Toto je CSS selektor, ktorý je zameraný na "
+"všetky prvky <b>img</b> (obrázok) v knihe."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2343-9
 msgid ""
@@ -5173,6 +5234,9 @@ msgid ""
 "span> - This is the declaration block. It contains the styles which will be "
 "applied to the selected <b>img</b> elements."
 msgstr ""
+"<span class=\"ui\">{ width: 10px !important; height: 10px !important; </"
+"span> - Toto je deklaračný blok. Obsahuje štýly, ktoré sa použijú na vybrané "
+"prvky <b>img</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2344-9
 msgid ""
@@ -5182,6 +5246,11 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> - Táto prvá časť nastaví "
+"šírku cieľových prvkov <b>img</b> na 10 pixelov. Deklarácia <b>!important</"
+"b> je prepínač, ktorý zabezpečuje, že vaša hodnota šírky má prednosť pred "
+"akoukoľvek inou existujúcou deklaráciou <b>šírky</b> použitou na tieto "
+"obrázky."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2345-9
 msgid ""
@@ -5191,6 +5260,11 @@ msgid ""
 "width value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"<span class=\"ui\">height: 10px !important;</span> - Táto časť nastaví výšku "
+"cieľových prvkov <b>img</b> na 10 pixelov. Deklarácia <b>!important</b> je "
+"opäť prepínač, ktorý zabezpečuje, že vaša hodnota výšky má prednosť pred "
+"akoukoľvek inou existujúcou deklaráciou <b>výšky</b> použitou na tieto "
+"obrázky."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2348-5
 msgid ""
@@ -5198,69 +5272,73 @@ msgid ""
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
 msgstr ""
+"Stručne povedané, toto pravidlo CSS je navrhnuté tak, aby nastavilo <b>pevnú "
+"šírku a výšku 10 pixelov</b> pre všetky prvky <b>img</b> vo vašej knihe, "
+"<b>ignorujúc ich pôvodný štýl</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2352-5
-#, fuzzy
 msgid "Some useful examples of style tweaks"
-msgstr ""
-"<b> Exportovať zvýraznenia </b> – Export zvýraznení a poznámok do miestnych "
-"súborov alebo do Joplin (aplikácia na písanie poznámok)"
+msgstr "Niekoľko užitočných príkladov vylepšení štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
 msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
 msgstr ""
+"Toto je niekoľko užitočných vylepšení štýlu, ktoré môžete použiť priamo "
+"alebo upraviť podľa svojich predstáv. Nasledujúci nadpis vysvetľuje, ako ich "
+"používať v KOReaderi."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2357-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Pridať oddeľovaciu čiaru nad každý nadpis v knihe:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2358-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Pridať nejaký okraj nad nadpisy:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2362-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2364-13
 msgid "Or if the book have too much margin above the headings, remove them:"
-msgstr ""
+msgstr "Alebo ak má kniha príliš veľký okraj nad nadpismi, odstrániť ich:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2365-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2368-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
-msgstr ""
+msgstr "Pre lepšiu čitateľnosť textu pridať medzi odseky malú medzeru:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2369-17
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2371-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Zakázať všetky obrázky v súbore EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2372-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Namiesto zakázania zmeniť obrázky na veľmi malé:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2377-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid ""
@@ -5268,6 +5346,10 @@ msgid ""
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgstr ""
+"Zlepšiť prehľadnosť a čitateľnosť sekcií blokov kódu v knihách o informatike "
+"(<a href="
+"\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\""
+">Tu si môžete pozrieť príklad</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgid ""
@@ -5275,10 +5357,13 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2396-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Ako pridať vylepšenie štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2398-5
 msgid ""
@@ -5286,15 +5371,20 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
+"Dobre, teraz sme videli, čo sú to <span class=\"ui\">vylepšenia štýlu</"
+"span>. Ale ako ich môžeme použiť? V KOReaderi existujú tri typy <span class="
+"\"ui\">vylepšení štýlu</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2402-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Vstavané vylepšenie štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2404-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
 msgstr ""
+"Tento nadpis je nový, rovnako ako snímky obrazovky vyššie a nižšie. Chcete "
+"niečo pridať?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2407-1
 msgid ""
@@ -5302,18 +5392,16 @@ msgid ""
 "just enable them from the menu to use them. You don't need to write any CSS "
 "code:"
 msgstr ""
+"Tieto vylepšenia sú súčasťou KOReaderu. Sú najjednoduchšie na používanie, "
+"pretože ich stačí povoliť z ponuky. Nemusíte písať žiadny CSS kód:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2409-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Vylepšenia štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2411-5
 msgid ""
@@ -5322,10 +5410,14 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
+"Sú dostupné v mnohých kategóriách. Ak chcete použiť úpravu iba na "
+"<b>aktuálnu knihu</b>, zaškrtnite políčko. Ak chcete získať viac informácií "
+"o tejto úprave alebo ju povoliť pre <b>všetky knihy</b>, dlho stlačte jej "
+"názov. Zobrazí sa dialógové okno:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2416-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "V tejto oblasti sa zobrazuje názov a popis vylepšenia"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2417-13
 msgid ""
@@ -5334,6 +5426,10 @@ msgid ""
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
 msgstr ""
+"Toto pole zobrazuje kód CSS vylepšenia. Ťuknutím na túto oblasť môžete kód "
+"skopírovať do schránky. Potom môžete tento kód vložiť a upraviť vo svojom "
+"<span class=\"ui\">vylepšení pre konkrétnu knihu</span>, ako je vysvetlené v "
+"nasledujúcom nadpise."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2419-13
 msgid ""
@@ -5342,6 +5438,10 @@ msgid ""
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
 msgstr ""
+"Tlačidlo <span class=\"ui\">Zobraziť v zozname akcií</span> vám umožňuje "
+"prepínať toto vylepšenie gestom alebo ho pridať do <span class=\"ui\""
+">Rýchlej ponuky</span>. Viac informácií nájdete nižšie v nadpise <b>„Ako "
+"efektívne používať vylepšenia“</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid ""
@@ -5350,10 +5450,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"Tlačidlo <span class=\"ui\">Použiť na všetky knihy</span> aktivuje toto "
+"vylepšenie pre všetky vaše knihy. Vedľa jeho názvu v ponuke sa zobrazí "
+"<b>hviezdička (★)</b>, ktorá označuje, že toto vylepšenie bude použité na "
+"všetky knihy. Toto vylepšenie môžete zakázať rovnakými krokmi."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2425-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Vylepšenie špecifické pre knihu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2426-9
 msgid ""
@@ -5365,24 +5469,29 @@ msgid ""
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
 msgstr ""
+"Ako už z názvu vyplýva, tento typ úprav je aktívny iba pre knihu, v ktorej "
+"ste ich vytvorili. Táto funkcia je užitočnejšia na testovanie vašich "
+"vylepšení alebo ak potrebujete niečo upraviť v aktuálnej knihe a viete, že "
+"to v iných knihách nebudete potrebovať. Po vytvorení tohto typu vylepšenia, "
+"ak sa rozhodnete, že ho budete potrebovať aj v iných knihách (t. j. od toho "
+"istého vydavateľa), môžete ho previesť na <span class=\"ui\">užívateľské "
+"vylepšenie štýlu</span>, ktoré vysvetlíme ďalej."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2428-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Ak chcete vytvoriť <span class=\"ui\">vylepšenie špecifické pre knihu</"
+"span>, použite vstavaný editor, ktorý nájdete tu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Vylepšenia štýlu / Vylepšenie špecifické pre knihu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2432-24
 msgid ""
@@ -5392,10 +5501,16 @@ msgid ""
 "the <span class=\"ui\">Long-press for info</span> help. Also you can long-"
 "press on CSS items in this menu to see a description."
 msgstr ""
+"<span class=\"label_green\">TIP</span> V editore máme na spodnom paneli "
+"nástrojov ponuku <span class=\"ui\">CSS</span>. Táto ponuka obsahuje mnoho "
+"užitočných syntaxí a vlastností CSS. Keď otvoríte túto ponuku, najskôr si "
+"prečítajte pomocníka pre <span class=\"ui\">Dlhé stlačenie pre informácie</"
+"span>. Taktiež môžete dlhým stlačením položiek CSS v tejto ponuke zobraziť "
+"popis."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2435-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Užívateľské vylepšenia štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2437-9
 msgid ""
@@ -5403,54 +5518,61 @@ msgid ""
 "are created. Also unlike the previous type, they are not limited to a single "
 "book. They can be applied globally to all of your books."
 msgstr ""
+"Tieto skupiny úprav sa od predchádzajúcich líšia spôsobom, akým sa "
+"vytvárajú. Na rozdiel od predchádzajúceho typu nie sú obmedzené na jednu "
+"knihu. Možno ich použiť globálne na všetky vaše knihy."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2439-9
 msgid "Procedure is roughly like this, which we will explain in detail:"
-msgstr ""
+msgstr "Postup je zhruba takýto, podrobnejšie si ho vysvetlíme:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2442-13
 msgid "Create your user tweak file"
-msgstr ""
+msgstr "Vytvorte si súbor s vylepšeniami používateľa"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2443-13
-#, fuzzy
 msgid "Transfer it to your device"
-msgstr "Prispôsobenie komiksu manga pre vašu čítačku"
+msgstr "Preneste ho do svojho zariadenia"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2444-13
 msgid "Enable your tweak from the menu"
-msgstr ""
+msgstr "Povoľte si vylepšenie z ponuky"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2448-9
 msgid "1. Creating the user tweak file:"
-msgstr ""
+msgstr "1. Vytvorenie užívateľského súboru s vylepšeniami:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2449-9
 msgid ""
 "A <span class=\"ui\">user style tweak</span> is actually a normal text file "
 "with a <b>.css</b> extension. You can create this file:"
 msgstr ""
+"<span class=\"ui\">Užívateľské vylepšenie štýlu</span> je v skutočnosti "
+"bežný textový súbor s príponou <b>.css</b>. Tento súbor môžete vytvoriť:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2452-13
 msgid "On your computer"
-msgstr ""
+msgstr "Na vašom počítači"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2453-13
 msgid "On your device if it has a text editor (like Android OS based devices)"
 msgstr ""
+"Na vašom zariadení, ak má textový editor (ako napríklad zariadenia so "
+"systémom Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2454-13
 msgid "In KOReader's integrated text editor which you can find in plugins"
-msgstr ""
+msgstr "Vo vstavanom textovom editore KOReadera, ktorý nájdete v doplnkoch"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2457-9
 msgid "You can copy / paste the examples we mentioned above to your file."
 msgstr ""
+"Príklady, ktoré sme spomenuli vyššie, môžete skopírovať/vložiť do svojho "
+"súboru."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2461-9
-#, fuzzy
 msgid "2. Transferring the file to your device:"
-msgstr "Prispôsobenie komiksu manga pre vašu čítačku"
+msgstr "2. Prenos súboru do zariadenia:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2462-9
 msgid ""
@@ -5462,27 +5584,30 @@ msgid ""
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
 msgstr ""
+"Po vytvorení súboru (súborov), ktoré obsahujú vaše pravidlá CSS, ich uložte "
+"alebo preneste do priečinka <span class=\"ui\">styletweaks</span> v rámci "
+"vašej inštalácie KOReader. Súborom dajte popisné názvy, pretože názov súboru "
+"bude v systéme ponuky KOReader názvom vylepšenia. V názvoch súborov môžete "
+"použiť podčiarkovníky „<b>_</b>“, v ponuke sa budú považovať za medzery. "
+"<b>Po prenose súborov je potrebné reštartovať KOReader, aby sa mohli "
+"načítať.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. Povolenie vylepšenia:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2467-9
 msgid "After the restart, open a book and go to this menu:"
-msgstr ""
+msgstr "Po reštarte otvorte knihu a prejdite do tejto ponuky:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2469-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2469-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Úpravy štýlu / Užívateľské vylepšenia štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid ""
@@ -5494,6 +5619,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps. See below for an example:"
 msgstr ""
+"Teraz by ste mali vidieť svoje vylepšenie v zozname so zaškrtávacím políčkom "
+"vedľa neho. Ak chcete vylepšenie použiť iba na <b>aktuálnu knihu</b>, "
+"zaškrtnite políčko. Ak chcete, aby bola toto vylepšenie povolené pre "
+"<b>všetky knihy</b>, dlho stlačte jeho názov. Zobrazí sa dialógové okno. "
+"Ťuknite na položku ponuky <span class=\"ui\">Použiť na všetky knihy</span>. "
+"Vedľa jeho názvu sa v ponuke zobrazí <b>hviezdička (★)</b>, ktorá označuje, "
+"že toto vylepšenie bude použité na všetky knihy. Túto funkciu môžete vypnúť "
+"rovnakým spôsobom. Pozrite si príklad nižšie:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2475-9
 msgid ""
@@ -5503,6 +5636,11 @@ msgid ""
 "book only since checkbox is marked but there is no star. Third one is "
 "enabled for all the books <b>(★)</b>."
 msgstr ""
+"Na obrázku vyššie mám v priečinku <span class=\"ui\">styletweaks</span> v "
+"mojej inštalácii KOReader 3 súbory na vylepšenia štýlov. Prvý je neaktívny, "
+"pretože zaškrtávacie políčko je prázdne. Druhá možnosť je povolená iba pre "
+"túto knihu, pretože je začiarknuté políčko, ale hviezdička nie je. Tretia "
+"možnosť je povolená pre všetky knihy <b>(★)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2477-9
 msgid ""
@@ -5510,10 +5648,13 @@ msgid ""
 "icon</span> next to the first tweak. This means that this tweak can be "
 "activated using gestures. This will explained in the next heading."
 msgstr ""
+"Možno si všimnete, že vedľa prvého vylepšenia sa nachádza aj <span class="
+"\"ui\">ikona pravouhlého trojuholníka</span>. To znamená, že toto vylepšenie "
+"je možné aktivovať pomocou gest. Vysvetlíme si to v ďalšom nadpise."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2479-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Ako efektívne používať vylepšenia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2481-9
 msgid ""
@@ -5523,58 +5664,72 @@ msgid ""
 "to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows "
 "you to enable tweaks depending on your document."
 msgstr ""
+"Pri vytváraní <span class=\"ui\">užívateľského vylepšenia štýlu</span> "
+"môžete vytvoriť viacero súborov s vylepšeniami, pričom každý z nich upraví "
+"niektorú časť knihy, ako je to znázornené na obrázku vyššie. Môžete mať "
+"jeden súbor pre <b>nadpisy</b>, ďalšie na úpravu <b>odsekov</b>, <b>odkazov</"
+"b> atď. Tento modulárny systém vám umožňuje povoliť vylepšenia v závislosti "
+"od vášho dokumentu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2483-9
 msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
 msgstr ""
+"Ako sme už spomenuli vyššie, <span class=\"ui\">užívateľské vylepšenia "
+"štýlu</span> môžete prepínať z tejto ponuky:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2485-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2485-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Úpravy štýlu / Užívateľské vylepšenia štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2489-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
 msgstr ""
+"Taktiež máme jednoduchšie spôsoby, ako prepínať vylepšenia štýlu, než "
+"zakaždým chodiť do menu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2491-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. Môžete priradiť k vylepšeniu gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2492-9
 msgid ""
 "To do this, first we have to add our <span class=\"ui\">user style tweak</"
 "span> to the list of gesture actions:"
 msgstr ""
+"Aby sme to dosiahli, musíme najprv pridať naše <span class=\"ui\""
+">užívateľské vylepšenie štýlu</span> do zoznamu akcií gest:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2495-17
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
 msgstr ""
+"Prejdite do ponuky <span class=\"ui\">užívateľské vylepšenia štýlu</span> a "
+"dlho stlačte požadované vylepšenie štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2496-17
 msgid ""
 "In the dialog press the button <span class=\"ui\">Show in action list</span>"
 msgstr ""
+"V dialógovom okne stlačte tlačidlo <span class=\"ui\">Zobraziť v zozname "
+"akcií</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2497-17
 msgid ""
 "A <span class=\"ui\">right triangle icon</span> will appear next to your "
 "style tweak in the menu"
 msgstr ""
+"Vedľa vylepšenia štýlu sa v ponuke zobrazí ikona <span class=\"ui\""
+">pravouhlého trojuholníka</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2500-13
 msgid ""
@@ -5583,10 +5738,14 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
+"Môžete to vidieť na obrázku vyššie, vedľa vylepšenia štýlu <b>Upraviť "
+"okraje</b>. Toto vylepšenie štýlu je teraz pridané do zoznamu akcií. Nájdete "
+"ho v kategórii <span class=\"ui\">Správca gest > Dokumenty s možnosťou "
+"preformátovania</span>. Bude na konci zoznamu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2504-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. Vylepšenie môžete pridať do Rýchleho menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2506-9
 msgid ""
@@ -5595,6 +5754,10 @@ msgid ""
 "follow the instructions under the <a href=\"#quickmenu\">Quick Menu</a> "
 "section of this guide."
 msgstr ""
+"Ak chcete do svojej <span class=\"ui\">Rýchlej ponuky</span> pridať "
+"vylepšenie, najprv ho musíte pridať do zoznamu akcií, ako je popísané v "
+"nadpise vyššie. Potom môžete postupovať podľa pokynov v časti <a href="
+"\"#quickmenu\">Rýchla ponuka</a> v tejto príručke."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2508-9
 msgid ""
@@ -5603,10 +5766,14 @@ msgid ""
 "gesture. This way, with a simple gesture you can access all your style "
 "tweaks and activate them as needed."
 msgstr ""
+"Môžete dokonca skombinovať obe metódy a vytvoriť si špeciálnu <span class="
+"\"ui\">Rýchlu ponuku</span> pre vylepšenia štýlu a potom ju priradiť gestu. "
+"Takto môžete jednoduchým gestom pristupovať ku všetkým vylepšeniam štýlu a "
+"aktivovať ich podľa potreby."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2511-5
 msgid "Finding elements for modifying"
-msgstr ""
+msgstr "Hľadanie prvkov na úpravu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2513-5
 msgid ""
@@ -5617,45 +5784,50 @@ msgid ""
 "in, and choose <span class=\"ui\">View HTML</span> from the dialog. In the "
 "example above, your style tweak would look like this:"
 msgstr ""
+"Upozorňujeme, že v niektorých knihách nemusia byť nadpisy v elementoch "
+"<b>&lt;H1&gt; alebo &lt;H2&gt;</b>, ale v niečom ako <b>&lt;p class="
+"\"tit123\"&gt;</b>. Selektory, ktoré sa používajú pre časť textu, môžete "
+"zistiť kontrolou zdroja. Ak to chcete dosiahnuť, vyberte text okolo prvku, "
+"ktorý vás zaujíma, a v dialógovom okne vyberte možnosť <span class=\"ui\""
+">Zobraziť HTML</span>. Vo vyššie uvedenom príklade by vaše vylepšenie štýlu "
+"vyzeralo takto:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2515-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2517-5
 msgid "instead of this:"
-msgstr ""
+msgstr "namiesto tohto:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2519-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2530-1
 msgctxt "user_guide/en.html+html.body.div.div:2530-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "ZÁLOŽKY, ZVÝRAZNENIA A POZNÁMKY"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2532-5
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
 msgstr ""
+"KOReader vám ponúka možnosti interakcie s knihou rovnako ako so skutočnou "
+"knihou. Tu je možné zmeniť mnoho nastavení okna so záložkami:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2536-6
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Nastavenia / Záložky"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2541-5
 msgid "BOOKMARKS:"
-msgstr ""
+msgstr "ZÁLOŽKY:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2543-5
 msgid ""
@@ -5663,10 +5835,13 @@ msgid ""
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
 msgstr ""
+"Záložku môžete pridať (a odstrániť) stlačením pravého horného rohu. Je to "
+"ekvivalent prehnutia rohu strany na skutočnej knihe a keď ju povolíte, "
+"zobrazí sa podobná ikona."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2547-5
 msgid "HIGHLIGHTS:"
-msgstr ""
+msgstr "ZVÝRAZNENIA:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2549-5
 msgid ""
@@ -5676,6 +5851,10 @@ msgid ""
 "class=\"ui\">Underline, Strikeout</span> and <span class=\"ui\">Invert</"
 "span>."
 msgstr ""
+"Text môžete zvýrazniť v 4 rôznych štýloch. Na obrázku nižšie môžete vidieť "
+"normálny odsek, za ktorým nasledujú rôzne štýly zvýraznenia. <span class="
+"\"ui\">Zosvetliť</span> (so sivým pozadím), <span class=\"ui\">Podčiarknuť, "
+"prečiarknuť</span> a <span class=\"ui\">Invertovať</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2554-5
 msgid ""
@@ -5683,48 +5862,46 @@ msgid ""
 "colored highlight markers. Or you can decide your favorite style and set it "
 "as default from this menu by long pressing:"
 msgstr ""
+"Všetky tieto štýly môžete použiť súčasne, ako keby išlo o rôzne farebné "
+"zvýraznenia. Alebo sa môžete rozhodnúť pre svoj obľúbený štýl a nastaviť ho "
+"ako predvolený z tejto ponuky dlhým stlačením:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2556-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2556-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Štýl zvýraznenia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2560-5
 msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
 msgstr ""
+"Ak máte zariadenie s farebnou obrazovkou, môžete vytvoriť zvýraznenia v "
+"rôznych farbách:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2562-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Zvýraznenia / Farba zvýraznenia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2566-5
-#, fuzzy
 msgid "Some tips for color highlights:"
-msgstr "1. Doplnok Export zvýraznení"
+msgstr "Niekoľko tipov pre farebné zvýraznenia:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2569-9
 msgid ""
 "You can change the color of an existing highlight by tapping on it and "
 "choosing <span class=\"ui\">Color</span> from the popup menu."
 msgstr ""
+"Farbu existujúceho zvýraznenia môžete zmeniť ťuknutím naň a výberom možnosti "
+"<span class=\"ui\">Farba</span> z kontextovej ponuky."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2571-9
 msgid ""
@@ -5735,16 +5912,25 @@ msgid ""
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
 msgstr ""
+"Farby môžete kombinovať s rôznymi štýlmi zvýrazňovania, ako napríklad "
+"<b>Podčiarknuté</b> a <b>Prečiarknuté</b>, a vytvoriť tak výkonný systém "
+"zvýrazňovania. Napríklad môžete použiť štýl <span style=\"text-decoration: "
+"line-through; font-weight: bold; color: red;"
+"\">červené prečiarknutie</span> na odstránenie alebo štýl <span style=\"text-"
+"decoration: underline; font-weight: bold; color: orange;\">oranžové "
+"podčiarknutie</span> pre dôležité body atď."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2574-1
 msgid "Setting the defaults for highlights"
-msgstr ""
+msgstr "Nastavenie predvolených hodnôt pre zvýraznenia"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2580-9
 msgid ""
 "In the highlights menu you can long-press on a highlight type to set it as "
 "default (★)"
 msgstr ""
+"V ponuke zvýraznení môžete dlhým stlačením typu zvýraznenia nastaviť ho ako "
+"predvolené (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2581-9
 msgid ""
