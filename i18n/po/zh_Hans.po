@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
 "PO-Revision-Date: 2025-08-09 07:19+0000\n"
-"Last-Translator: cyanjiang <cyanjiang@163.com>\n"
+"Last-Translator: hiro Kanhlp <hoklp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -3028,8 +3028,8 @@ msgstr ""
 msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
-msgstr "长按一个单词会弹出一个对话框，您可以在其中搜索文档中的所选内容以查找更多出现"
-"的地方，或者在维基百科上查找。"
+msgstr "在单词上长按，弹出对话框可查找该词在当前书籍中的其它出现位置，或者查询维基百"
+"科。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1845-13
 msgid ""
@@ -3337,37 +3337,37 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1948-5
 msgid "Explanations of the numbered items (long-press action in bold):"
-msgstr "编号项目的说明（粗体长按动作）："
+msgstr "图中编号项的功能说明（粗体代表长按时的功能）："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1951-9
 msgid ""
 "Jump to the beginning of the previous chapter / <b>Jump to the first page of "
 "the book</b>"
-msgstr "跳到上一章的开头/<b>转到第一页</b>"
+msgstr "转到上一章开头/<b>转到本书扉页</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1952-9
 msgid ""
 "Jump to the previous bookmark / <b>Jump to the first bookmark in the book</b>"
-msgstr "跳转到上一个书签/<b>跳转到书中的第一个书签</b>"
+msgstr "转到上一处书签/<b>转到本书第一处书签</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1953-9
 msgid "Bookmark current page / <b>Open bookmarks dialog</b>"
-msgstr "为当前页面添加书签/<b>打开书签对话框</b>"
+msgstr "在当前页添加书签/<b>打开书签对话框</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1954-9
 msgid ""
 "Jump to the next bookmark / <b>Jump to the last bookmark in the book</b>"
-msgstr "跳转到下一个书签/<b>跳转到书中的最后一个书签</b>"
+msgstr "转到下一处书签/<b>转到本书最后一处书签</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1955-9
 msgid ""
 "Jump to the beginning of the next chapter / <b>Jump to the last page of the "
 "book</b>"
-msgstr "跳到下一章的开头/<b>跳到最后一页</b>"
+msgstr "转到下一章开头/<b>跳到本书尾页</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1956-9
 msgid "Jump backward (-) or forward (+) this many pages"
-msgstr "向后（-）或向前（+）跳这么多页"
+msgstr "按所示数字间隔回退（－）或快进（＋）页码"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1957-9
 msgid ""
@@ -3378,10 +3378,10 @@ msgid ""
 "want to check some other part of the book quickly and return to your reading "
 "where you left."
 msgstr ""
-"此数字显示当前页码。如果您点击它，将打开一个对话框，允许您输入页码或百分比以"
-"直接跳转。<b>如果你长按，它会带你回到打开<span class=\"ui\""
-">浏览小部件的页面</span>。</b>例如，如果你想快速查看这本书的其他部分，然后回"
-"到你离开的地方继续阅读，这很有用。"
+"该数字为当前页码。点按将打开对话框以输入指定页码或百分比跳转。"
+"<b>长按时则将回到最初开启<span class=\"ui\""
+">跳读工具</span>时的页码。</b>该功能对于诸如想快速浏览书籍其它章节然后回到当"
+"前位置等情况非常有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1958-9
 msgid ""
@@ -3392,11 +3392,11 @@ msgid ""
 "the place where you started reading this book in the current session. This "
 "arrows reset when you switch between books."
 msgstr ""
-"这是<span class=\"ui\">进度条</span>。细线是显示章节开头的章节标记。"
-"你可以点击这个<span class=\"ui\">进度条</span>直接跳到该部分。小箭头是<span "
+"这是<span class=\"ui\">阅读进度条</span>。细线是显示每章节起始处的章节标记。"
+"点按<span class=\"ui\">阅读进度条</span>任意位置将转到对应页码。游标是<span "
 "class=\"ui\""
-">会话开始箭头</span>，它标记了您在当前会话中开始阅读这本书的地方。当您在书籍"
-"之间切换时，此箭头会重置。"
+">阅读起始点</span>，用于显示本次阅读开始时的页码。游标位置将随书籍切换而重置"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1959-9
 msgid ""
@@ -3406,11 +3406,11 @@ msgid ""
 "useful for example if you want to check some other part of the book quickly "
 "and return to your reading where you left."
 msgstr ""
-"<span class=\"ui\""
-">紧凑型浏览小部件</span>中的此按钮与项目<b>数字7</b>的长按功能相同。"
-"它将带您回到打开<span class=\"ui\""
-">浏览小部件</span>的页面。例如，如果你想快速查看这本书的其他部分，并回到你离"
-"开的地方阅读，这很有用。"
+"此按钮仅出现在<span class=\"ui\""
+">紧凑型跳读工具</span>中，功能与长按<b>编号7</b>相同，使页面会到打开<span "
+"class=\"ui\""
+">跳读工具</span>时所处页码。该功能对于诸如想快速浏览书籍其它章节然后回到当前"
+"位置等情况非常有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1962-20
 msgid ""
@@ -3602,8 +3602,9 @@ msgid ""
 "Numbers in a circle shows your previous locations. When you choose <span "
 "class=\"ui\">Go back to previous location</span> from the menu, you will "
 "jump back here in order."
-msgstr "圆圈中的数字显示您以前的位置。当您从菜单中选择<<span class=\"ui\""
-">返回上一个位置</span>时，您将按顺序跳回此处。"
+msgstr ""
+"若使用了跳页功能，带圆圈的数字将指示之前所在的阅读位置。在阅读界面使用<span "
+"class=\"ui\">返回上一位置</span>时，将按照数字标记的顺序逐一回到该位置。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2024-13
 msgid "Triangle shows your current page."
@@ -3731,8 +3732,10 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
-"<span class=\"ui\">10 页标记：</span>当你增加这个值时，它首先会每<b>10 "
-"页</b>添加一个标记，然后它会使它们变大，最终它会为每<b>5</b>页添加一个标记。"
+"<span class=\"ui\""
+">拾页标记</span>：该选项共有三档，第一档将在页码格上每隔十页在<b>第十页</b>添"
+"加竖线标记；第二档将会加长标记使其更明显；第三档将每隔五页在<b>第五页</b>上添"
+"加次级标记。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2062-1
 msgctxt "user_guide/en.html+html.body.div.div:2062-1"
@@ -3777,13 +3780,13 @@ msgstr ""
 msgid ""
 "Swipe <b>left / right</b> over this top edge to increase / decrease the "
 "number of the <b>columns</b>."
-msgstr ""
+msgstr "在顶部边缘<b>左划或右划</b>可增加或减少书页缩略图的<b>列数</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2074-9
 msgid ""
 "Swipe <b>up / down</b> over this left edge to increase / decrease the number "
 "of the <b>rows</b>."
-msgstr "在左边缘向<b>上 / 下</b>滑动可增加 / 减少<b>行数</b>。"
+msgstr "在左侧边缘<b>上划或下划</b>可增加或减少书页缩略图<b>行数</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2075-9
 msgid ""
@@ -3791,19 +3794,19 @@ msgid ""
 "one row (2 pages in the example), <b>left / right</b> to scroll one screen "
 "(4 pages in the example)."
 msgstr ""
-"在页面区域滑动可移动查看的页面。<b>向上 / 向下</b>滑动可滚动一行（示例中为 2 "
-"页），<b>向左 / 向右</b>滑动可滚动一屏（示例中为 4 页）。"
+"在中间区域划动可移动显示的缩略图。<b>上划或下划</b>将卷动一行（在图示中对应2"
+"块缩略图），<b>左划或右划</b>可翻过整屏（在图示中对应4块缩略图）。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2076-9
 msgid "Tap any page to open that page in reading view."
-msgstr "点击任意页面，在阅读视图中打开该页面。"
+msgstr "点击缩略图可在阅读视图中阅读该页。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2077-9
 msgid ""
 "On the bottom area, tapping on a page focuses the thumbnail view on that "
 "page. Swiping <b>left / right</b> will jump one stripe width."
-msgstr "在底部区域，点击页面会将缩略图视图聚焦在该页面上。<b>向左/向右</b>滑动将跳转"
-"一个条纹宽度。"
+msgstr "点击底部刻度条区域的任意位置以该页为中心显示缩略图。在底部<b>左划或右划</b>将"
+"跳过一整块刻度条对应的页数。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
@@ -3842,26 +3845,26 @@ msgid ""
 "Some of the digital books you come across might not have a proper table of "
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
-msgstr "您遇到的一些数字图书可能没有正确的目录（<b>ToC</b>）。根据本书的准备情况，您"
-"可能会遇到以下目录问题："
+msgstr "有些书籍文档不包含目录（<b>ToC</b>）。根据对书籍预处理的不同，可能会遇到下列"
+"目录相关问题："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2092-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
-msgstr "书中没有目录，因此您无法在章节之间跳转或查看剩余的阅读时间"
+msgstr "书籍缺少目录，因此无法跳读章节或查看剩余阅读用时"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2093-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
-msgstr "有一个目录，但是作用不大，因为它有错误或缺少章节标题"
+msgstr "书籍包含的目录用处不大，因为目录中的章节标题存在错误或缺失"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2096-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
-msgstr "KOReader有一些功能，您可以在阅读有问题的目录部分的书籍时使用。"
+msgstr "KOReader的一些功能可以在阅读这类目录有问题的书籍时提供帮助。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2098-5
 msgid ""
@@ -3871,21 +3874,21 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
-"请注意，<span class=\"ui\""
-">替代目录</span>在<b>固定布局文档</b>（如PDF、DJVU等）上不可用，因为它需要HTM"
-"L标签来创建目录。可以在所有支持的文件类型上提供<span class=\"ui\""
-">自定义目录</span>和<span class=\"ui\">自定义隐藏流</span>功能。"
+"请注意<span class=\"ui\""
+">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</b>，因为创建副目录功能依"
+"赖于文档的HTML标签。<span class=\"ui\">自定义目录</span>及<span class=\"ui\""
+">划定隐藏页码段</span>功能则可用于所有文件格式。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr "自动创建目录：替代目录"
+msgstr "自动创建目录：副目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2103-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
-msgstr "第一个功能是<span class=\"ui\">替代目录</span>，您可以在以下位置找到："
+msgstr "通过下列路径可以找到<span class=\"ui\">创建副目录</span>功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
 msgctxt "user_guide/en.html+html.body.div.div:2106-5"
@@ -3916,15 +3919,15 @@ msgid ""
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
 "<span class=\"ui\""
-">替代目录</span>试图从您的书中的标题（EPUB中HTML文件中的<b>H1</b>到<b>H6</b>"
-"标签）创建一个目录。如果你的书不包含任何标题，它将尝试利用文档片段（EPUB书中"
-"的单个HTML文件）构建一个目录，该目录将指向每个文件的开头。"
+">创建副目录</span>功能会尝试利用书籍的章节标题（epub文档中的<b>H1</b>到<b>H6<"
+"/b>HTML标签）自动生成目录。如果书籍不包含任何标题，该功能会尝试根据文档分段（"
+"epub文档中的独立HTML文件）生成目录。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
-msgstr "您可以从该菜单中选择要在目录中包含（或忽略）哪些标题级别："
+msgstr "可以在下列菜单中选择副目录所包含（或忽略）哪些章节标题层级："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
 msgid ""
@@ -3944,8 +3947,9 @@ msgid ""
 "selected parts of your book. This ToC can contain only one level so you "
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
-msgstr "自定义目录功能允许您从书籍的选定部分创建自己的目录。此目录只能包含一个级别，"
-"因此使用此功能时不能有子章节。要创建自己的吗目录，请首先启用："
+msgstr ""
+"利用自定义目录功能可以从书籍内页中选定文段来组成标题。此目录只能包含一个层级"
+"，因此无法列入子章节标题。要创建自定义目录，请先在下列路径中启用自定义目录："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-5
 msgid ""
@@ -3960,8 +3964,8 @@ msgid ""
 "Once you enable this feature, new menu items will be added to the user "
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
-msgstr "启用此功能后，用户界面中将添加新的菜单项，使您能够选择章节。您可以从两个位置"
-"将章节添加到目录中："
+msgstr "启用自定义目录后，用户界面将出现新的菜单项，用以选择章节标题。可以从以下两种"
+"途径添加章节："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2128-9
 msgid ""
@@ -4003,7 +4007,8 @@ msgstr ""
 msgid ""
 "When you are done creating your ToC and don’t want to see these extra "
 "buttons, you can disable them by unchecking:"
-msgstr "当您完成创建目录并且不想看到这些额外的按钮时，您可以通过取消选中来禁用它们："
+msgstr "当完成自定义目录的创建、不再需要这些额外按钮，可以通过取消勾选下列选项来将其"
+"禁用："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2139-5
 msgid ""
@@ -4023,15 +4028,15 @@ msgid ""
 "ToC to return to the original one, your custom ToC will not be deleted. You "
 "can still switch between the original and your custom ToC."
 msgstr ""
-"创建副目录并不会替换掉书籍内置的原目录。在同一份菜单中还可清除<b>自定义目录</"
-"b>（比如要创建一份新的）。要回到原目录，可通过与启用时相同的操作将副目录禁用"
-"。请注意，在创建自定义目录后，禁用副目录并不会将其删除，之后仍可在正副目录间"
-"反复切换。"
+"创建自定义目录并不会替换掉书籍内置的原目录。在同一份菜单中还可清除已创建的<b>"
+"自定义目录</b>（比如要创建一份新的）。要回到原目录，可通过与启用自定义目录时"
+"相同的方式将其禁用。请注意，禁用该功能并不会将删除已创建的自定义目录，之后仍"
+"可切换显示原目录及自定义目录。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2145-1
 msgctxt "user_guide/en.html+html.body.div.div:2145-1"
 msgid "Excluding sections: Custom hidden flows"
-msgstr "章节排除：定制要隐藏的页码区"
+msgstr "章节排除：划定要隐藏的页码段"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2147-5
 msgid ""
@@ -4046,20 +4051,25 @@ msgid ""
 "class=\"ui\">Custom hidden flows</span> feature of KOReader allows you to "
 "exclude these kind of parts of your book."
 msgstr ""
+"有写书籍或文档可能附有大篇幅的尾注或参考书目。比如一本250页的科学类书籍最后50"
+"页全是附录、专业术语索引及参考文献。通常情况下这些页码仍会被计入阅读进度条和"
+"阅读时间统计。但这些章节大多只作为参考，并不需要逐页阅读，因此可能希望将其排"
+"除使页码计数和预估阅读用时更加准确。再比如一本选集中包含了一些自己已经读过的"
+"篇章。<span class=\"ui\">划定隐藏页码段</span>功能可以将这类章节排除出去。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2149-5
 msgid ""
 "Have a look at the image for an overview of the process. Steps will be "
 "explained after the image:"
-msgstr ""
+msgstr "请浏览下方图示大致了解操作过程，详细步骤列于图片下方："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2155-5
 msgid "How to exclude a section by creating a hidden flow:"
-msgstr ""
+msgstr "通过创建隐藏页码段来排除部分章节："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2158-9
 msgid "Go to the first page of the section you want to exclude"
-msgstr ""
+msgstr "转到要排除章节的起始页"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2159-9
 msgid "Open the <span class=\"ui\">Page browser</span> via:"
@@ -4079,13 +4089,14 @@ msgid ""
 "Long press on the page thumbnail that you want to be the beginning of your "
 "excluded section and select <span class=\"ui\">Start hidden flow here</span> "
 "item from the popup menu."
-msgstr ""
+msgstr "找到要排除章节的起始页，在页面缩略图上长按，从弹出菜单中选择<span class="
+"\"ui\">设定为隐藏页码段的起点</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2164-9
 msgid ""
 "You will see that the pages starting from your selection now have a gray "
 "hatched background."
-msgstr ""
+msgstr "此时可以看到从所选页面开始的章节全部被灰色阴影覆盖。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2165-9
 msgid ""
@@ -4100,8 +4111,7 @@ msgstr ""
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
-msgstr "跳至被排除页码段的最后一页后，再次进入<span class=\"ui\""
-">书页速览视图</span>。"
+msgstr "在被排除章节的结束页上再次进入<span class=\"ui\">书页速览视图</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2167-9
 msgid ""
@@ -4111,17 +4121,22 @@ msgid ""
 "return to normal color, indicating the end of hidden flow and the beginning "
 "of regular flow."
 msgstr ""
+"找到要隐藏章节的结束页，然后长按<b>下个页面</b>的缩略图。"
+"从弹出菜单中选择<span class=\"ui\""
+">标记为正文页码段的起始点</span>。可以看到从所选页面开始的章节不再被灰色阴影"
+"覆盖。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2172-5
 msgid "Working with the hidden sections:"
-msgstr ""
+msgstr "页码段被隐藏后的表现："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2174-5
 msgid ""
 "When you create a hidden flow section as described above, KOReader’s "
 "behavior will be similar to the situation as if you removed a section of a "
 "paper book by cutting it out:"
-msgstr ""
+msgstr "当按照上述步骤创建隐藏页码段后KOReader会将其视作不存在，类似于从纸版书中撕下"
+"部分书页："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2177-9
 msgid ""
@@ -4130,6 +4145,8 @@ msgid ""
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
 msgstr ""
+"翻页时将直接跳过被隐藏页码段。例如将<b>第十章</b>标记为隐藏页码段后，从<b>第"
+"九章</b>的最后一页继续翻页将直接显示<b>第十一章</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2178-9
 msgid ""
@@ -4154,7 +4171,7 @@ msgid ""
 "will still work. Also you can still reach these sections from the <span "
 "class=\"ui\">Table of contents, Book map, Page browser, Skim widget</span>."
 msgstr ""
-"跳往位于被隐藏页码段页面的引用链接仍然有效。隐藏页码段的页面也可通过<span "
+"链接到位于被隐藏页码段页面的引用仍然有效。隐藏页码段的页面也可通过<span "
 "class=\"ui\">目录、书籍地图、书页速览视图和跳读工具</span>访问。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2183-5
@@ -4168,10 +4185,15 @@ msgid ""
 "other navigation tools, your Progress bar will go back to showing the whole "
 "book again (with your custom hidden flows again not visible)."
 msgstr ""
+"如上所述，隐藏页码段将不会被计入<span class=\"ui\""
+">阅读进度条</span>。但如果使用上一条提到的几种方式访问隐藏页码段的某一页，阅"
+"读进度条将临时变为该隐藏页码段的章节阅读进度条。可以将此想象成阅读进度条放大"
+"到了被隐藏的章节。当翻到隐藏页码段最末页、或使用其它页面定位工具离开被隐藏的"
+"章节，阅读进度条将恢复为显示全书阅读进度，此时被隐藏的章节将从进度条上消失。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2186-5
 msgid "Removing and cleaning up hidden sections:"
-msgstr ""
+msgstr "移除并清理被隐藏章节："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2187-5
 msgid ""
@@ -4180,8 +4202,8 @@ msgid ""
 "also clear all of them at once with the menu item:"
 msgstr ""
 "隐藏页码段可在<span class=\"ui\""
-">书页速览视图</span>中逐一恢复，方法与创建隐藏一致。还可以通过下列菜单项一次"
-"性全部恢复："
+">书页速览视图</span>中逐一恢复，方法与设置隐藏时一致。还可以通过下列菜单项一"
+"次性全部恢复："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2189-5
 msgid ""
@@ -4190,7 +4212,7 @@ msgid ""
 "marked pages"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
-"\"width:22px;\"> / 设置 / 自定义版式功能 / 清理所有页面标记"
+"\"width:22px;\"> / 设置 / 自定义版式功能 / 清除所有页面标记"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2191-5
 msgid ""
@@ -4207,6 +4229,16 @@ msgid ""
 "flows, or once you finish making your hidden flows and happy with the "
 "results:"
 msgstr ""
+"在通过标记页面为<span class=\"ui\">隐藏页码段起始处</span>或<span class="
+"\"ui\""
+">正文页码起始处</span>来设置隐藏页码段时，部分已经设置隐藏的页码可能不再生效"
+"。例如在<span class=\"ui\">隐藏页码段起始处</span>的早几页再次执行<span "
+"class=\"ui\""
+">标记为隐藏页码段起始处</span>操作，之前设置的标记将不会被包含在内。出于实用"
+"性考虑，这些重叠或失效的标记仍会被保留。还是上面的例子，当新设置的隐藏页码段"
+"最末页位于先前已失效的隐藏页码段区域内，先前失效的隐藏页码段将再次生效。如果"
+"这些标记相互干扰，或对隐藏页码段的设置结果已经满意，可以将失效的隐藏页码段标"
+"记清除："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2193-5
 msgid ""
@@ -4215,17 +4247,17 @@ msgid ""
 "marked pages"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
-"\"width:22px;\"> / 设置 / 自定义版式功能 / 清除不再使用的页面标记"
+"\"width:22px;\"> / 设置 / 自定义版式功能 / 清除失效的页面标记"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2199-1
 msgctxt "user_guide/en.html+html.body.div.div:2199-1"
 msgid "CUSTOMIZING TEXT APPEARANCE"
-msgstr ""
+msgstr "自定义文本样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2201-1
 msgctxt "user_guide/en.html+html.body.div.div:2201-1"
 msgid "Default appearance settings"
-msgstr ""
+msgstr "默认样式设置"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2203-5
 msgid ""
@@ -5137,13 +5169,14 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2530-1
 msgctxt "user_guide/en.html+html.body.div.div:2530-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr "书签、标注与笔记"
+msgstr "位置书签、文段标注与旁注笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2532-5
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
-msgstr ""
+msgstr "KOReader提供了多种选项，可以像纸质书一样做记号。书签页面的多项设定可以在下列"
+"路径变更："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2536-6
 msgid ""
@@ -5151,22 +5184,23 @@ msgid ""
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
-"\"width:26px;\"> / 设置 / 书签"
+"\"width:26px;\"> / 设置 / 书签相关"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2541-5
 msgid "BOOKMARKS:"
-msgstr ""
+msgstr "阅读位置书签："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2543-5
 msgid ""
 "You can add (and remove) a bookmark by pressing the upper right corner. This "
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
-msgstr ""
+msgstr "可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将纸质书的书页折起一角"
+"，并且会显示类似形状的标志。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2547-5
 msgid "HIGHLIGHTS:"
-msgstr "标注："
+msgstr "文段标注："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2549-5
 msgid ""
@@ -5266,7 +5300,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2587-5
 msgid "NOTES:"
-msgstr ""
+msgstr "旁注笔记："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2589-5
 msgid ""
@@ -5308,7 +5342,7 @@ msgstr "KOReader提供两种不同的标注模式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2608-1
 msgid "Normal mode"
-msgstr ""
+msgstr "普通标注模式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2610-5
 msgid ""
@@ -5321,15 +5355,15 @@ msgstr "<span class=\"ui\""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2613-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "在要标注文段的首字上长按"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2614-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "移动手指到要标注文段的末尾"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2615-9
 msgid "Release finger"
-msgstr ""
+msgstr "抬起手指"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2618-5
 msgid ""
@@ -5385,13 +5419,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2634-5
 msgid "How to highlight:"
-msgstr "标注的使用方法："
+msgstr "划标注的方法："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2639-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
-msgstr ""
+msgstr "在要标注文段的首字上长按（如果启用了查找字典功能则是对首字拖拽）呼出菜单。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2640-5
 msgid ""
@@ -5411,8 +5445,8 @@ msgstr ""
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
-msgstr "在标注的最后一个单词上长按，菜单会再次显示；如果按照上面的说明启用了查询字典"
-"功能，则通过拖拽末尾单词呼出菜单。"
+msgstr "在标注的末字上长按菜单会再次显示；若启用了查询字典功能，则通过拖拽末字呼出菜"
+"单。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2642-5
 msgid ""
@@ -5427,7 +5461,7 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
-"通常情况下，本对话框将显示在屏幕中间。如果希望对话框显示在标注位置附近，"
+"通常情况下该对话框将显示在屏幕中间。如果希望对话框显示在标注位置附近，"
 "可以将菜单第二页的<span class=\"ui\">中间</span>选项改为<span class=\"ui\""
 ">手势位置</span>："
 
@@ -5621,19 +5655,19 @@ msgstr "点按标注文段"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2703-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "在弹出菜单中点按<span class=\"ui\">详情</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2704-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
-msgstr ""
+msgstr "在对话框中点按<span class=\"ui\">编辑被标注文本</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2708-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "也可以从书签页进入："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2711-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
-msgstr ""
+msgstr "通过点按菜单或手势交互打开<span class=\"ui\">书签列表</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2712-9
 msgid "Long press on the highlight you want to edit"
@@ -5641,13 +5675,13 @@ msgstr "长按想要编辑的被标注文段"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2713-9
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr ""
+msgstr "在菜单中点按<span class=\"ui\">编辑被标注文本</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2714-9
 msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
-msgstr ""
+msgstr "在弹出对话框中修改文字，然后点按<span class=\"ui\">保存</span>按钮"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2717-5
 msgid ""
@@ -5662,7 +5696,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2720-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
-msgstr ""
+msgstr "改变书签列表中旁注笔记的显示方式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
 msgid ""
@@ -5672,9 +5706,9 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
-"通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带笔记，只会在书签"
-"列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记"
-"。若要在<span class=\"ui\""
+"通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带旁注笔记，只会在"
+"书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的"
+"笔记。若要在<span class=\"ui\""
 ">书签列表</span>中同时展示笔记，可按照下列路径设置："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2724-5
@@ -5687,7 +5721,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "有如下几种显示方式可供选择："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2728-9
 msgid "<b>Only</b> highlight text (default behavior)"
@@ -5733,18 +5767,21 @@ msgid ""
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
 msgstr ""
+"在读完一本书后，可以将其移到指定文件夹作为归档。启用<span class=\"ui\""
+">移动书籍以归档</span>插件，指定归档目录路径（<span class=\"ui\""
+">设置归档文件夹</span>）。完成设置后，可通过下列方式将书籍移入归档："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2745-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr ""
+msgstr "<span class=\"ui\">移动书籍以归档</span>插件菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "利用指定的交互手势，或者"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr ""
+msgstr "使用<span class=\"ui\">快捷菜单</span>中的入口"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2750-5
 msgid ""
@@ -5764,7 +5801,7 @@ msgstr "这款多功能插件可以将标注导出为<b>本地文档</b>或上�
 
 #: user_guide/en.html%2Bhtml.body.div.p:2760-5
 msgid "Local export"
-msgstr ""
+msgstr "导出到设备目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2762-5
 msgid "You can export your highlights to your device in these file formats:"
@@ -5772,27 +5809,27 @@ msgstr "标注可被导出为以下几种文件格式："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2764-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "纯文本（.txt）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2765-9
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML网页 (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2766-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Markdown文档 (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2767-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Kindle剪贴本(.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2768-9
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON文件 (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2771-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "可以在下列菜单中选择想要使用的导出格式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2773-5
 msgid ""
@@ -5804,7 +5841,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2775-5
 msgid "You can see the export location (and also change it if you want):"
-msgstr ""
+msgstr "可以在下列菜单中查看（或修改）导出文件存放目录："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2777-5
 msgid ""
@@ -5816,16 +5853,16 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2781-5
 msgid "Online services"
-msgstr ""
+msgstr "在线服务"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2783-5
 msgid "You can also export to these services over the network:"
-msgstr ""
+msgstr "还可通过网络将标注导出到下列服务平台："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
-msgstr ""
+msgstr "<a href=\"https://joplinapp.org/\">Joplin</a>——一款笔记标注软件"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2787-9
 msgid ""
@@ -5837,18 +5874,19 @@ msgstr "<a href=\"https://readwise.io/\">Readwise</a>——一款在线书签及
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
-msgstr ""
+msgstr "<a href=\"https://github.com/usememos/memos\">Memos</a>一款自托管的开源记事本"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2789-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
-msgstr ""
+msgstr "<a href=\"https://flomoapp.com\">Flomo</a>——一款在线笔记服务"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
-msgstr ""
+msgstr "<a href=\"https://www.xmnote.com/\""
+">XMNote</a>——一款安卓平台的中文界面书签管理软件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2798-5
 msgid ""
@@ -5880,7 +5918,7 @@ msgstr "在<span class=\"ui\">文件管理器</span>中同时选中多本书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2806-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
-msgstr ""
+msgstr "点按右上角的对号按钮"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2807-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
@@ -7468,20 +7506,20 @@ msgstr "用户可创建多份书单来对应各种书籍分类方式，例如：
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3352-9
 msgid "<b>Genres:</b> Fiction, non-fiction, memoir..."
-msgstr ""
+msgstr "<b>作品体裁</b>：虚构文学、非虚构文学、报告文学等。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3353-9
 msgid ""
 "<b>Book status:</b> Currently reading, want to read, next, did not finish..."
-msgstr ""
+msgstr "<b>阅读状态</b>：在读、想读、已读、搁置等。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3354-9
 msgid "<b>Series:</b> Lord of the Rings, Harry Potter..."
-msgstr ""
+msgstr "<b>丛书系列</b>：《指环王》、《饥饿游戏》等。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3355-9
 msgid "<b>Document type:</b> Books, scientific articles, web articles..."
-msgstr ""
+msgstr "<b>文档类型</b>：书籍、科研论文、网页等。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3360-1
 msgid "Creating and modifying collections"
@@ -7587,20 +7625,20 @@ msgstr "若要一次性添加多本书籍，请在<span class=\"ui\""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3390-3
 msgid "Long press on a book"
-msgstr ""
+msgstr "长按某本书"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3391-3
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
-msgstr ""
+msgstr "在弹出菜单中点按<span class=\"ui\">多选</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3392-3
 msgid "Select other books"
-msgstr ""
+msgstr "选择其它书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3393-3
 msgid ""
 "Tap the <span class=\"ui\">checkmark</span> (✔️) icon at the top-right corner"
-msgstr ""
+msgstr "点按右上角的<span class=\"ui\">对号</span>（✔️）标志"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3394-3
 msgid "Tap <span class=\"ui\">Collections</span>"
@@ -10178,7 +10216,6 @@ msgid "QUICK MENU AND PROFILES"
 msgstr "快捷菜单及配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4317-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4317-5"
 msgid "Quick Menu"
 msgstr "快捷菜单"
@@ -11976,7 +12013,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4906-17
 msgid "settings/profiles.lua"
-msgstr ""
+msgstr "settings/profiles.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4907-17
 msgid ""
