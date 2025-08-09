@@ -2326,59 +2326,59 @@ line-height: 2rem;
 
     <p><span class="label_red">!!! ADVANCED</span></p>
 
-    <p>Style tweaks feature of KOReader allows you to modify how your book is rendered by KOReader. We won't go through a full CSS course here. We just want to show you the basics so when you see a style tweak, you will at least have a rough idea what it does.</p>
+    <p>Met de stijlaanpassingen-functie van KOReader kun je aanpassen hoe het boek wordt weergegeven. We gaan hier geen volledige CSS-cursus geven. We laten alleen de basis zien zodat je in grote lijnen weet wat een stijlaanpassing doet wanneer je er één ziet.</p>
     
-    <div class="L3-Smaller-heading">What is a style tweak?</div>
-    <p>We can describe an EPUB document as a <b>HTML file + some CSS rules</b>. These CSS rules determine how different parts of the book (headings, bold text, quotes etc.) will be shown on a reader app. With <span class="ui">style tweaks</span>, you can change how your book will be rendered by adding new rules and/or overriding the rules written by the publisher that is embedded in your book.</p>
+    <div class="L3-Smaller-heading">Wat is een stijlaanpassing?</div>
+    <p>We kunnen een EPUB-document beschrijven als een <b>HTML-bestand + enkele CSS-regels</b>. Deze CSS-regels bepalen hoe verschillende delen van het boek (koppen, vetgedrukte tekst, citaten enz.) in een lees-app worden getoond. Met <span class="ui">stijlaanpassingen</span> kun je door nieuwe regels toe te voegen en/of regels van de uitgever te overschrijven aanpassen hoe je boek wordt gerenderd.</p>
     
-    <p>Let's see this on an example <span class="ui">style tweak</span>:</p>
+    <p>Laten we dit bekijken met een voorbeeld-<span class="ui">stijlaanpassing</span>:</p>
 
     <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
-    <p>In plain language this rule says: <b>"Ignore their original size and make all the images in this book 10 pixels wide and 10 pixels high."</b> So if you add this style tweak to KOReader, all the images in your book will be shown tiny.</p>
+    <p>In gewone taal zegt deze regel: <b>"Negeer hun oorspronkelijke grootte en maak alle afbeeldingen in dit boek 10 pixels breed en 10 pixels hoog."</b> Voeg je deze stijlaanpassing toe aan KOReader dan worden alle afbeeldingen piepklein weergegeven.</p>
 
-    <p>Now lets explain this tweak item by item:</p>
+    <p>Laten we deze aanpassing stap voor stap uitleggen:</p>
 
     <ul>
-        <li><span class="ui">img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
-        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class="ui">img</span> - Dit is een CSS-selector die alle <b>img</b>- (afbeeldings)elementen in het boek selecteert.</li>
+        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - Dit is het declaratieblok. Het bevat de stijlen die op de geselecteerde <b>img</b>-elementen worden toegepast.</li>
         <li><span class="ui">width: 10px !important;</span> - Dit gedeelte stelt de breedte van de geselecteerde <b>img</b> elementen in op 10 pixels. De <b>!important</b> declaratie is een 'override switch' die ervoor zorgt dat jouw waarde voorrang heeft op elke andere bestaande <b>width</b>-declaratie die op deze afbeeldingen wordt toegepast.</li>
         <li><span class="ui">height: 10px !important;</span> - Dit gedeelte stelt de hoogte van de geselecteerde <b>img</b> elementen in op 10 pixels. De <b>!important</b> declaratie is een 'override switch' die ervoor zorgt dat jouw waarde voorrang heeft op elke andere bestaande <b>height</b>-declaratie die op deze afbeeldingen wordt toegepast.</li>
     </ul>
 
-    <p>In summary, this CSS rule is designed to set a <b>fixed width and height of 10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their original style</b>.</p>
+    <p>Samengevat: deze CSS-regel geeft alle <b>img</b>-elementen een <b>vaste breedte en hoogte van 10 pixels</b> en <b>negeert hun oorspronkelijke stijl</b>.</p>
     
 
 
-    <div class="L3-Smaller-heading">Some useful examples of style tweaks</div>
+    <div class="L3-Smaller-heading">Enkele nuttige voorbeelden van stijlaanpassingen</div>
     
-    <p>These are some useful style tweaks that you can use directly or modify according to your liking. Next heading explains how to use them in KOReader.</p>
+    <p>Hieronder staan enkele nuttige stijlaanpassingen die je direct kunt gebruiken of naar wens kunt aanpassen. De volgende kop legt uit hoe je ze in KOReader gebruikt.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b>
+            <li><b>Voeg een scheidingslijn boven elke kop in een boek toe:</b>
                 <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b>
+            <li><b>Voeg wat marge boven de koppen toe:</b>
                 <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+            <li><b>Of als het boek te veel marge boven de koppen heeft, verwijder die:</b>
                 <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+            <li><b>Voeg een kleine ruimte tussen alinea's toe voor betere leesbaarheid:</b>
                 <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b>
+            <li><b>Schakel alle afbeeldingen in een EPUB uit:</b>
                 <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b>
+                <b>Maak afbeeldingen heel klein in plaats van ze uit te schakelen:</b>
                 <p>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <b>Codebloksecties in informaticaboeken netter en beter leesbaar maken (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">voorbeeld</a>):</b>
                 <p>
                         pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
                 </p>
@@ -2387,128 +2387,128 @@ line-height: 2rem;
 
 
 
-    <div class="L2-Sub-heading">How to add style tweaks</div>
+    <div class="L2-Sub-heading">Stijlaanpassingen toevoegen</div>
 
-    <p>Ok, now we have seen what <span class="ui">style tweaks</span> are. But how can we use them? There are three types of <span class="ui">style tweaks</span> in KOReader:</p>
+    <p>Oké, we weten nu wat <span class="ui">stijlaanpassingen</span> zijn. Hoe gebruiken we ze? Er zijn drie soorten <span class="ui">stijlaanpassingen</span> in KOReader:</p>
 
         <img loading="lazy" src="pictures/styletweaks_main.png" style="width:450px;">
 
-    <div class="L3-Smaller-heading">1. Built-in style tweaks</div>
+    <div class="L3-Smaller-heading">1. Ingebouwde stijlaanpassingen</div>
 
-    <p><span class="highlight">This heading is new, and the screenshot above and below. Anything to add?</span></p>
+    <p><span class="highlight">Deze kop is nieuw, evenals de schermafbeelding erboven en eronder. Nog iets toe te voegen?</span></p>
     
 
 <p>These tweaks are included in KOReader. They are the easiest to use since you just enable them from the menu to use them. You don't need to write any CSS code:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Stijlaanpassingen</div>
 
-    <p>They come in many categories. To apply a tweak to the <b>current book only</b>, tick the checkbox. If you want to get more information about this tweak or enable it for <b>all the books</b>, long-press on its name. A dialog will appear:</p>
+    <p>Ze zijn onderverdeeld in veel categorieën. Om een aanpassing alleen op het <b>huidige boek</b> toe te passen vink je het vakje aan. Wil je meer informatie of hem voor <b>alle boeken</b> inschakelen, houd dan de naam ingedrukt. Er verschijnt een dialoog:</p>
 
     <img loading="lazy" src="pictures/styletweaks_dialog.png" style="width:500px;">
 
         <ol>
-            <li>This area shows the name and description of the tweak</li>
-            <li>This box shows the CSS code of the tweak. You can tap on this area to copy the code to the clipboard. Then you can paste and modify this code in your <span class="ui">Book-specific tweak</span> as explained under the next heading.</li>
+            <li>Dit gedeelte toont de naam en beschrijving van de aanpassing</li>
+            <li>Dit vak toont de CSS-code van de aanpassing. Je kunt op dit gebied tikken om de code naar het klembord te kopiëren. Daarna kun je de code plakken en aanpassen in je <span class="ui">Boekspecifieke aanpassing</span> zoals in de volgende kop uitgelegd.</li>
 
-            <li><span class="ui">Show in action list</span> button allows you to toggle this tweak with a gesture or add it to a <span class="ui">Quick Menu</span>. See the heading named <b>"How to use tweaks efficiently"</b> below for more info. </li>
+            <li>Met de knop <span class="ui">Toon in actielijst</span> kun je deze aanpassing met een gebaar schakelen of toevoegen aan een <span class="ui">Snelmenu</span>. Zie de kop <b>"Stijlaanpassingen efficiënt gebruiken"</b> hieronder voor meer info. </li>
 
-            <li><span class="ui">Use on all books</span> button activate this tweak for all your books. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps.</li>
+            <li>Met de knop <span class="ui">Gebruik op alle boeken</span> activeer je deze aanpassing voor al je boeken. Er verschijnt een <b>ster (★)</b> naast de naam in het menu wat aangeeft dat hij op alle boeken wordt toegepast. Uitschakelen gaat op dezelfde manier.</li>
         </ol>
 
 
-    <div class="L3-Smaller-heading">2. Book-specific tweak</div>
-        <p>As you can guess from its name, this type of tweaks are only active for the book which you created them in. This feature is more useful for testing your tweaks or if you need to fix something on the current book and you know that you won't need it on other books. After creating this type of tweak, if you decide that you will need it on other books too (i.e. from the same publisher), you can convert it to a <span class="ui">user style tweak</span>, which we will explain next.</p>
+    <div class="L3-Smaller-heading">2. Boekspecifieke aanpassing</div>
+        <p>Zoals de naam al aangeeft is dit type aanpassing alleen actief voor het boek waarin je hem hebt aangemaakt. Dit is handig om te testen of om iets in het huidige boek te repareren waarvan je weet dat je het elders niet nodig hebt. Beslis je later dat je hem toch in andere boeken (bijv. van dezelfde uitgever) wilt gebruiken dan kun je hem omzetten naar een <span class="ui">gebruikersstijlaanpassing</span>, die we hierna uitleggen.</p>
 
-        <p>To create a <span class="ui">book specific tweak</span>, use the integrated editor which you can find here:</p>
+        <p>Om een <span class="ui">boekspecifieke aanpassing</span> te maken gebruik je de geïntegreerde editor die je hier vindt:</p>
 
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / Book-specific tweak</div>
+        <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Stijlaanpassingen / Boekspecifieke aanpassing</div>
 
-        <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">TIP</span> In the editor we have a <span class="ui">CSS</span> menu on the bottom toolbar. This menu contains many useful CSS syntax and properties. When you open this menu please first read the <span class="ui">Long-press for info</span> help. Also you can long-press on CSS items in this menu to see a description.</p></div>
+        <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">TIP</span> In de editor is er een <span class="ui">CSS</span>-menu op de onderste werkbalk. Dit bevat veel nuttige CSS-syntaxis en eigenschappen. Lees eerst de <span class="ui">Lang ingedrukt houden voor info</span>-uitleg. Je kunt ook lang drukken op items in dit menu voor een beschrijving.</p></div>
 
 
-    <div class="L3-Smaller-heading">3. User style tweaks</div>
+    <div class="L3-Smaller-heading">3. Gebruikersstijlaanpassingen</div>
 
-        <p>These group of tweaks are different from the previous ones in the way they are created. Also unlike the previous type, they are not limited to a single book. They can be applied globally to all of your books.</p>
+        <p>Deze groep aanpassingen verschilt van de vorige in hoe ze worden aangemaakt. In tegenstelling tot het vorige type zijn ze niet beperkt tot één boek; je kunt ze globaal op al je boeken toepassen.</p>
 
-        <p>Procedure is roughly like this, which we will explain in detail:</p>
+        <p>Globaal werkt het zo, wat we hierna in detail zullen uitleggen:</p>
 
         <ol>
-            <li>Create your user tweak file</li>
-            <li>Transfer it to your device</li>
-            <li>Enable your tweak from the menu</li>
+            <li>Maak je gebruikersaanpassingsbestand</li>
+            <li>Zet het over naar je apparaat</li>
+            <li>Schakel je aanpassing in via het menu</li>
         </ol>
 
         <br>
-        <p><b>1. Creating the user tweak file:</b></p>
-        <p>A <span class="ui">user style tweak</span> is actually a normal text file with a <b>.css</b> extension. You can create this file:</p>
+        <p><b>1. Het gebruikersaanpassingsbestand maken:</b></p>
+        <p>Een <span class="ui">gebruikersstijlaanpassing</span> is gewoon een tekstbestand met de extensie <b>.css</b>. Je kunt dit bestand maken:</p>
 
         <ul>
-            <li>On your computer</li>
-            <li>On your device if it has a text editor (like Android OS based devices)</li>
-            <li>In KOReader's integrated text editor which you can find in plugins</li>
+            <li>Op je computer</li>
+            <li>Op je apparaat als het een teksteditor heeft (zoals Android-apparaten)</li>
+            <li>In KOReaders geïntegreerde teksteditor die je bij de plugins vindt</li>
         </ul>
 
-        <p>You can copy / paste the examples we mentioned above to your file.</p>
+        <p>Je kunt de hierboven genoemde voorbeelden kopiëren/plakken in je bestand.</p>
 
         <br>
 
-        <p><b>2. Transferring the file to your device:</b></p>
-        <p>After creating the file(s) which contain your CSS rules, save or transfer them to the <span class="ui">styletweaks</span> folder under your KOReader installation. Give the files descriptive names because filename will be the title of the tweak in the KOReader menu system. You can use underscores "<b>_</b>" in your filenames, they will be treated as spaces in the menu. <b>You need to restart KOReader after transferring your files so it can load them.</b></p>
+        <p><b>2. Het bestand naar je apparaat overzetten:</b></p>
+        <p>Nadat je de bestanden met je CSS-regels hebt gemaakt, sla of plaats ze in de map <span class="ui">styletweaks</span> onder je KOReader-installatie. Geef ze beschrijvende namen want de bestandsnaam wordt de titel van de aanpassing in het menu. Je kunt underscores (<b>_</b>) gebruiken; die worden in het menu als spaties getoond. <b>Herstart KOReader na het overzetten zodat ze geladen worden.</b></p>
 
         <br>
 
-        <p><b>2. Enabling the tweak:</b></p>
-        <p>After the restart, open a book and go to this menu:</p>
+        <p><b>2. De aanpassing inschakelen:</b></p>
+        <p>Na het herstarten open je een boek en ga je naar dit menu:</p>
 
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / User style tweaks</div>
+        <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Stijlaanpassingen / Gebruikersstijlaanpassingen</div>
             
-        <p>Now you should see your tweak in the list with a checkbox next to it. To apply your tweak to the <b>current book only</b>, tick the checkbox. If you want this tweak to be enabled for <b>all the books</b>, long-press on its name. A dialog will appear. Tap the menu item <span class="ui">Use on all books</span>. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps. See below for an example:</p>
+        <p>Je ziet je aanpassing nu in de lijst met een selectievakje. Om hem alleen op het <b>huidige boek</b> toe te passen vink je het vakje aan. Wil je hem voor <b>alle boeken</b> inschakelen, houd dan de naam ingedrukt. Er verschijnt een dialoog. Tik op <span class="ui">Gebruik op alle boeken</span>. Er verschijnt een <b>ster (★)</b> naast de naam: dat betekent dat hij voor alle boeken geldt. Uitschakelen gaat met dezelfde stappen. Hieronder een voorbeeld:</p>
 
         <img loading="lazy" src="pictures/user_styletweaks_activation.png" style="width:400px;">
 
-        <p>In the image above, I have 3 style tweak files in the <span class="ui">styletweaks</span> folder under my KOReader installation. First one is disabled because checkbox is empty. Second one is enabled for this book only since checkbox is marked but there is no star. Third one is enabled for all the books <b>(★)</b>.</p>
+        <p>In de afbeelding hierboven heb ik 3 stijlaanpassingsbestanden in de map <span class="ui">styletweaks</span>. De eerste is uitgeschakeld (vakje leeg). De tweede is ingeschakeld alleen voor dit boek (vakje aan maar geen ster). De derde is ingeschakeld voor alle boeken <b>(★)</b>.</p>
 
-        <p>You might notice that there is also a <span class="ui">right triangle icon</span> next to the first tweak. This means that this tweak can be activated using gestures. This will explained in the next heading.</p>
+        <p>Je ziet misschien ook een <span class="ui">rechts driehoek-icoon</span> naast de eerste aanpassing. Dat betekent dat je hem via gebaren kunt activeren. Dit wordt in de volgende kop uitgelegd.</p>
 
-        <div class="L3-Smaller-heading">How to use tweaks efficiently</div>
+        <div class="L3-Smaller-heading">Stijlaanpassingen efficiënt gebruiken</div>
 
-        <p>When creating your <span class="ui">user style tweaks</span> you can make multiple tweak files, each modifying some part of the book like in the example image above. You can have one file for the <b>headings</b>, others to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows you to enable tweaks depending on your document.</p>
+        <p>Bij het maken van <span class="ui">gebruikersstijlaanpassingen</span> kun je meerdere bestanden maken die elk een onderdeel van het boek aanpassen zoals op de voorbeeldafbeelding. Eén bestand voor <b>koppen</b>, andere voor <b>alinea's</b>, <b>links</b> etc. Dit modulaire systeem laat je aanpassingen inschakelen afhankelijk van het document.</p>
 
-        <p>As we said above, you can toggle <span class="ui">user style tweaks</span> from this menu location:</p>
+        <p>Zoals hierboven gezegd kun je <span class="ui">gebruikersstijlaanpassingen</span> schakelen via dit menu:</p>
 
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style tweaks / User style tweaks</div>
+        <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Stijlaanpassingen / Gebruikersstijlaanpassingen</div>
 
     <br>
 
-        <p>Also we have easier ways to toggle your style tweaks than going to the menu every time.</p>
+        <p>Er zijn ook snellere manieren dan telkens het menu openen.</p>
         
-        <p><b>1. You can assign a gesture to a tweak</b></p>
-        <p>To do this, first we have to add our <span class="ui">user style tweak</span> to the list of gesture actions:</p>
+        <p><b>1. Je kunt een gebaar aan een aanpassing koppelen</b></p>
+        <p>Daarvoor moeten we eerst onze <span class="ui">gebruikersstijlaanpassing</span> aan de lijst met gebarenacties toevoegen:</p>
            
             <ul>
-                <li>Go to the <span class="ui">user style tweaks</span> menu and long-press on your style tweak</li>
-                <li>In the dialog press the button <span class="ui">Show in action list</span></li>
-                <li>A <span class="ui">right triangle icon</span> will appear next to your style tweak in the menu</li>
+                <li>Ga naar het menu <span class="ui">Gebruikersstijlaanpassingen</span> en houd je aanpassing ingedrukt</li>
+                <li>Druk in de dialoog op <span class="ui">Toon in actielijst</span></li>
+                <li>Er verschijnt een <span class="ui">rechts driehoek-icoon</span> naast je aanpassing in het menu</li>
             </ul>
 
-            <p>You can see it in the example image above, next to the <b>Adjust margins</b> style tweak. Now this style tweak is added to the actions list. You can find it under <span class="ui">Gesture Manager > Reflowable documents</span> category. It will be at the end of the list.</p>
+            <p>Je ziet het in de voorbeeldafbeelding hierboven naast de aanpassing <b>Randen aanpassen</b>. De aanpassing is nu aan de actielijst toegevoegd. Je vindt hem onder <span class="ui">Gebarenbeheer > Reflow-documenten</span> aan het einde van de lijst.</p>
 
 <br>
 
-        <p><b>2. You can add a tweak to your Quick Menu</b></p>
+        <p><b>2. Je kunt een aanpassing aan je Snelmenu toevoegen</b></p>
 
-        <p>To add a tweak to your <span class="ui">Quick Menu</span>, first it has to be added to the actions list as described in the heading above. Then you can follow the instructions under the <a href="#quickmenu">Quick Menu</a> section of this guide. </p>
+        <p>Om een aanpassing aan je <span class="ui">Snelmenu</span> toe te voegen moet hij eerst in de actielijst staan zoals hierboven beschreven. Volg daarna de instructies in de sectie <a href="#quickmenu">Snelmenu</a>. </p>
 
-        <p>You can even combine both methods and create a special <span class="ui">Quick Menu</span> for your style tweaks and then assign it to a gesture. This way, with a simple gesture you can access all your style tweaks and activate them as needed.</p>
+        <p>Je kunt beide methoden combineren en een speciaal <span class="ui">Snelmenu</span> voor je stijlaanpassingen maken en dat aan een gebaar koppelen. Zo kun je met één gebaar alles openen en schakelen.</p>
 
 
-    <div class="L3-Smaller-heading">Finding elements for modifying</div>
+    <div class="L3-Smaller-heading">Elementen vinden om te wijzigen</div>
 
-    <p>Note that in some books, titles might not be in <b>&lt;H1&gt; or &lt;H2&gt;</b> elements, but in something like <b>&lt;p class="tit123"&gt;</b>. You can find which selectors are used for a part of text by checking the source. To achieve this, select the text around the element which you are interested in, and choose <span class="ui">View HTML</span> from the dialog. In the example above, your style tweak would look like this:</p>
+    <p>Let op: in sommige boeken staan titels niet in <b>&lt;H1&gt; of &lt;H2&gt;</b>-elementen maar bijvoorbeeld in <b>&lt;p class="tit123"&gt;</b>. Je kunt zien welke selectors worden gebruikt door de bron te bekijken: selecteer tekst rond het element dat je interesseert en kies <span class="ui">HTML bekijken</span>. In het voorbeeld hierboven zou je stijlaanpassing er zo uitzien:</p>
 
     <p><b>P.tit123 { border-top: 2px solid black; }</b></p>
 
-    <p>instead of this:</p>
+    <p>in plaats van zo:</p>
     
     <p><b>H1 { border-top: 2px solid black; }</b></p>
 
@@ -2524,162 +2524,162 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-bookmarks">BLADWIJZERS, MARKERINGEN EN NOTITIES</div>
 
     <p>
-    KOReader gives you options to interact with your book like you can do with a real book. Many settings of the bookmark window can be changed here:</p>
+    KOReader geeft je opties om met je boek te werken zoals bij een echt boek. Veel instellingen van het bladwijzervenster kun je hier aanpassen:</p>
 
 
-    	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Settings / Bookmarks</div>
+    	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Instellingen / Bladwijzers</div>
 
     
     <br>
 
-    <p><b>BOOKMARKS:</b></p>
+    <p><b>BLADWIJZERS:</b></p>
     
-    <p>You can add (and remove) a bookmark by pressing the upper right corner. This is the equivalent of folding the corner of a page on a real book and shows a similar icon when you enable it.</p>
+    <p>Je voegt een bladwijzer toe (en verwijdert hem) door op de rechterbovenhoek te drukken. Dit is het digitale equivalent van een ezelsoor en toont een vergelijkbaar icoon.</p>
 
     <br>
 
-    <p><b>HIGHLIGHTS:</b></p>
+    <p><b>MARKERINGEN:</b></p>
     
-    <p>You can highlight text in 4 different styles. In the image below, you can see a normal paragraph followed by different styles of highlights. <span class="ui">Lighten</span> (with gray background), <span class="ui">Underline, Strikeout</span> and <span class="ui">Invert</span>.</p>
+    <p>Je kunt tekst markeren in 4 verschillende stijlen. In de afbeelding hieronder zie je een normale alinea gevolgd door de markeerstijlen: <span class="ui">Verlichten</span> (grijze achtergrond), <span class="ui">Onderstrepen, Doorhalen</span> en <span class="ui">Omkeren</span>.</p>
 
 
     <img loading="lazy" src="pictures/highlight_styles.png" style="width:70%;">
 
-    <p>You can use all these styles at the same time, like they are different colored highlight markers. Or you can decide your favorite style and set it as default from this menu by long pressing:</p>
+    <p>Je kunt alle stijlen naast elkaar gebruiken, alsof het verschillende kleuren markeerstiften zijn. Of kies je favoriet en stel die als standaard in door lang te drukken in dit menu:</p>
 
     <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Markeerstijl</div>
 
     <br>
 
-    <p>Also if you have a device with a color screen, you can create highlights in different colors:</p>
+    <p>Als je een apparaat met kleurenscherm hebt kun je markeringen in verschillende kleuren maken:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Highlights / Highlight color</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Markeringen / Markeerkleur</div>
 
     <img loading="lazy" src="pictures/highlight_colors.png" style="width:40%;">
 
-    <p>Some tips for color highlights:</p>
+    <p>Enkele tips voor gekleurde markeringen:</p>
 
     <ul>
-        <li>You can change the color of an existing highlight by tapping on it and choosing <span class="ui">Color</span> from the popup menu.</li>
+        <li>Je kunt de kleur van een bestaande markering wijzigen door erop te tikken en <span class="ui">Kleur</span> te kiezen in het pop-upmenu.</li>
 
-        <li>You can combine the colors with different highlight styles like <b>Underline</b> and <b>Strikethrough</b> to create a powerful highlighting system. For example you can use a <span style="text-decoration: line-through; font-weight: bold; color: red;">red strikethrough</span> style for removals or <span style="text-decoration: underline; font-weight: bold; color: orange;">orange underline</span> style for important points etc.</li>
+        <li>Je kunt kleuren combineren met verschillende stijlen zoals <b>Onderstrepen</b> en <b>Doorhalen</b> om een krachtig systeem te maken. Gebruik bijvoorbeeld een <span style="text-decoration: line-through; font-weight: bold; color: red;">rode doorhaling</span> voor verwijderingen of een <span style="text-decoration: underline; font-weight: bold; color: orange;">oranje onderstreping</span> voor belangrijke punten.</li>
     </ul>
 
-<div class="L3-Smaller-heading">Setting the defaults for highlights</div>
+<div class="L3-Smaller-heading">Standaarden voor markeringen instellen</div>
 	<p><b></b></p>
 
     <img loading="lazy" src="pictures/highlight_defaults.png" style="width:40%;">
 
     <ol>
-        <li>In the highlights menu you can long-press on a highlight type to set it as default (★)</li>
-        <li><b>After selecting a color</b>, you can long-press on the color name in this menu to set that color as default (★)</li>
-        <li>You can press the <span class="ui">Apply current style and color to all highlights</span> option to make all the highlights in the current book same. <b>Be careful, there is no undo!</b></li>
+        <li>In het markeringenmenu kun je lang drukken op een type om het als standaard (★) in te stellen</li>
+        <li><b>Na het kiezen van een kleur</b> kun je lang op de kleurnaam drukken om die als standaard (★) te zetten</li>
+        <li>Je kunt de optie <span class="ui">Pas huidige stijl en kleur toe op alle markeringen</span> gebruiken om alle markeringen in het huidige boek gelijk te maken. <b>Let op: geen ongedaan maken!</b></li>
     </ol>
 
     <br>
 
-    <p><b>NOTES:</b></p>
+    <p><b>NOTITIES:</b></p>
     
-    <p>You can also add notes to your highlights. Just tap on a highlight and choose <span class="ui">Add note</span> from the popup menu. You can also choose a <span class="ui">Note marker</span> that shows which highlights contain a note. There are three styles: <span class="ui">Underline, Side line</span> and <span class="ui">Side mark</span> (which is the pencil icon shown on the right side of the picture below):</p>
+    <p>Je kunt ook notities aan je markeringen toevoegen. Tik op een markering en kies <span class="ui">Notitie toevoegen</span> in het pop-upmenu. Je kunt ook een <span class="ui">Notitiemarkering</span> kiezen die aangeeft welke markeringen een notitie hebben. Er zijn drie stijlen: <span class="ui">Onderstrepen, Zijlijn</span> en <span class="ui">Zijmarkering</span> (het potlood-icoon rechts in de afbeelding).</p>
 
 
 
     <img loading="lazy" src="pictures/note_marker.png" style="width: 70%;">
 
-    <p>To enable this feature and choose a <span class="ui">Note marker</span> style, go to:</p>
+    <p>Om dit in te schakelen en een <span class="ui">Notitiemarkering</span>-stijl te kiezen ga je naar:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Highlight style / Note marker</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Markeringen / Notitiemarkering</div>
 
 
     
 <div class="L2-Sub-heading" id="L2-howtohighlight">Markeringsmodi van KOReader</div>
 
     <p>
-    KOReader has two highlighting modes for different use cases:</p>
+    KOReader heeft twee markeermodi voor verschillende situaties:</p>
 
 
 
-<div class="L3-Smaller-heading">Normal mode</div>
+<div class="L3-Smaller-heading">Normale modus</div>
 
-    <p><span class="ui">Normal mode</span> is similar to selecting a text with your finger on a phone/tablet and more suitable if your highlights are shorter than one page.</p>
+    <p><span class="ui">Normale modus</span> lijkt op tekst selecteren met je vinger op een telefoon/tablet en is handiger als markeringen korter dan een pagina zijn.</p>
 
     <ol>
-        <li>Long-press on the starting word</li>
-        <li>Move your finger to the end of the passage</li>
-        <li>Release finger</li>
+        <li>Houd het beginwoord ingedrukt</li>
+        <li>Sleep je vinger naar het einde van het fragment</li>
+        <li>Laat los</li>
     </ol>
 
-    <p>When you reach page boundaries, KOReader will turn the page for you to continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable this feature from:</p>
+    <p>Wanneer je een paginagrens bereikt slaat KOReader voor je om zodat je kunt doorgaan met markeren <b>(alleen in EPUB/HTML)</b>. Je kunt dit uitschakelen via:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Long-press on text / Auto-scroll when selection reaches a corner</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Tikken en gebaren / Lang ingedrukt op tekst / Auto-scroll wanneer selectie een hoek bereikt</div>
 
     <br>
 
-<div class="L3-Smaller-heading">Select and highlight mode</div>
+<div class="L3-Smaller-heading">Selecteer-en-markeer modus</div>
 
-    <p>When you reach page boundaries, KOReader will turn the page for you to continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable this feature from:</p>
+    <p>De <span class="ui">Selecteer-en-markeer modus</span> is handiger voor langere passages die over paginagrens(en) gaan. Het werkt ook beter als je problemen hebt met aanraakgevoeligheid of motoriek, omdat je in deze modus niet hoeft te slepen.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> If you have dictionary lookup enabled, when you long-press a word, you have to drag your finger to initiate this mode.</div>
+    <div class="info"><span class="label_blue">INFO</span> Als woordenboekopzoeking aanstaat moet je, wanneer je lang op een woord drukt, je vinger slepen om deze modus te starten.</div>
         
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Long-press on text / Dictionary on single word selection</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Tikken en gebaren / Lang ingedrukt op tekst / Woordenboek bij enkel woord selecteren</div>
 
     <br>
 
-    <p><b>How to highlight:</b></p>
+    <p><b>Hoe markeer je:</b></p>
 
     <img loading="lazy" src="pictures/highlight_menu.png" style="width: 60%;">
 
     <ol>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the starting word, popup menu will show up.</li>
-    <li>Tap on <span class="ui">Select</span>, now you are in highlighting mode. When you are in this mode, you will see an indicator at the upper left corner of the screen (which you can tap on it to get more information). You can cancel highlighting by tapping on the beginning of highlight again. You can turn pages with taps/swipes and freely navigate the document (TOC, skim etc) in this mode.</li>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the ending word for your highlight, menu will show up again.</li>
-    <li>Tap <span class="ui">Highlight</span> this time to finish highlighting the passage.</li>
+    <li>Houd het beginwoord lang ingedrukt (of sleep als woordenboekopzoeking aanstaat); een pop-upmenu verschijnt.</li>
+    <li>Tik op <span class="ui">Selecteren</span>; je zit nu in markeermodus. Je ziet een indicator linksboven (tik erop voor meer info). Je annuleert door opnieuw op het begin te tikken. Je kunt pagina's omslaan met tikken/vegen en vrij navigeren (Inhoudsopgave, skim, enz.) in deze modus.</li>
+    <li>Houd het eindwoord lang ingedrukt (of sleep) en het menu verschijnt weer.</li>
+    <li>Tik nu op <span class="ui">Markeren</span> om het fragment af te ronden.</li>
     </ol>
 
-    <p>This dialog normally opens at the center of the screen. If you want this dialog to open closer to your highlight location, you can change the <span class="ui">center</span> option here to <span class="ui">gesture position</span> (located on the second page of this menu):</p>
+    <p>Deze dialoog opent normaal midden op het scherm. Wil je hem dichter bij je markering zien, verander dan de optie <span class="ui">centrum</span> naar <span class="ui">gebaarpositie</span> (op de tweede pagina van dit menu):</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ Taps and Gestures / Long-press on text / Highlight dialog position</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Tikken en gebaren / Lang ingedrukt op tekst / Positie markeerdialoog</div>
 
-    <div class="tip"><span class="label_green">TIP</span> There is a <b>faster</b> method for this mode if you don’t need <b>long-press menu items</b> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
+    <div class="tip"><span class="label_green">TIP</span> Er is een <b>snellere</b> methode als je de <b>lang ingedrukt</b>-items niet nodig hebt. Schakel het pop-upmenu uit zodat je bij lang indrukken meteen de <span class="ui">Selecteer-en-markeer</span> modus ingaat. Zo kun je elke lengte in twee tikken markeren. Zet hiervoor deze optie aan:
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Long-press on text / Select and highlight</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Tikken en gebaren / Lang ingedrukt op tekst / Selecteer en markeer</div>
 
     </div>
 
 
 
-    <div class="tip"><span class="label_green">TIP</span> KOReader can highlight a passage in different styles. If you use <span class="ui">Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class="ui">Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options from:
+    <div class="tip"><span class="label_green">TIP</span> KOReader kan op verschillende manieren markeren. Bij <span class="ui">Verlichten</span> wordt de achtergrond grijs. Door e-ink beperkingen kan het scherm niet direct van wit naar grijs, dus flitst het via zwart. Wil je dat vermijden kies dan <span class="ui">Omkeren</span>; de achtergrond wordt dan zwart zonder flits. Je past deze opties aan via:
 
     <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Markeerstijl</div>
 
     </div>
 
 
-    <div class="tip"><span class="label_green">TIP</span> You can add multiple highlights and notes to the same section of text. If they are overlapping, when you tap on a highlight you will be presented with a menu to choose which highlight you want to edit.
+    <div class="tip"><span class="label_green">TIP</span> Je kunt meerdere markeringen en notities op hetzelfde tekstdeel hebben. Als ze overlappen krijg je bij tikken een menu om te kiezen welke je wilt bewerken.
     </div>
 
   
-<div class="L3-Smaller-heading">Selecting punctuation while highlighting</div>
+<div class="L3-Smaller-heading">Leestekens selecteren tijdens markeren</div>
 
     <p>
-    When you are highlighting, KOReader tries to include the related punctuation marks around your selection. For example if you highlight from the first word to the last word of a sentence, KOReader will automatically include the punctuation marks at the both ends of the sentence to your highlight.</p>
+    Tijdens het markeren probeert KOReader bijbehorende leestekens mee te nemen. Markeer je van het eerste tot het laatste woord van een zin dan worden de leestekens aan beide uiteinden automatisch toegevoegd.</p>
     
-    <p>When you tap on an already highlighted text <b>with a note added</b>, you will see this popup menu. Tap on <span class="ui">Edit highlight</span> to open the menu above where you can edit both the highlight and the contained note:</p>
+    <p>Begin je in het midden van een zin dan wordt het punt aan het einde <b>niet toegevoegd</b> omdat KOReader aanneemt dat je slechts een deel wilt markeren. Wil je leestekens erbij zorg dan dat je de <b>hele zin</b> kiest. Je kunt ze ook later toevoegen via lang indrukken op de <span class="ui">Markering bewerken</span>-knoppen.</p>
 
 
-<div class="L2-Sub-heading" id="L2-editinghighlight">Editing highlights</div>
+<div class="L2-Sub-heading" id="L2-editinghighlight">Markeringen bewerken</div>
 
-    <p>When you tap on an already highlighted text <b>(without a note)</b>, you will see this popup menu. <span class="ui">Delete</span> and <span class="ui">Add note</span> items are clear. Bottom row menu items are used to extend or shrink the highlight.</p>
+    <p>Als je op reeds gemarkeerde tekst tikt <b>(zonder notitie)</b> zie je dit pop-upmenu. <span class="ui">Verwijderen</span> en <span class="ui">Notitie toevoegen</span> spreken voor zich. De onderste rij wordt gebruikt om de markering te verlengen of te verkorten.</p>
 
     <img loading="lazy" src="pictures/highlight_edit.png" style="width: 70%;">
 
-    <div class="info"><span class="label_blue">INFO</span> This adjustment works only on reflowable documents like EPUBs. If you want to extend or shrink a highlight on PDFs, you have to delete it and highlight again due to the limitations of the PDF format.</div>
+    <div class="info"><span class="label_blue">INFO</span> Dit aanpassen werkt alleen in herschikbare documenten zoals EPUBs. In PDF's moet je een markering verwijderen en opnieuw maken door beperkingen van het PDF-formaat.</div>
 
-    <p>When you tap on an already highlighted text <b>with a note added</b>, you will see this popup menu. Tap on <span class="ui">Edit highlight</span> to open the menu above where you can edit both the highlight and the contained note:</p>
+    <p>Tik je op gemarkeerde tekst <b>met notitie</b> dan zie je dit pop-upmenu. Tik op <span class="ui">Markering bewerken</span> om het menu te openen waarin je zowel de markering als de notitie wijzigt:</p>
 
     <img loading="lazy" src="pictures/note_edit.png" style="width: 40%;">
 
-    <p>On your <span class="ui">Bookmarks</span> page you can filter the view to see only one type of bookmark by pressing the menu icon ( <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> ) You can also filter by highlight style:</p>
+    <p>Op je <span class="ui">Bladwijzers</span>-pagina kun je filteren om slechts één type te zien via het menu-icoon (<img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;">). Je kunt ook op markeerstijl filteren:</p>
 
     <img loading="lazy" src="pictures/bookmark_filter.png" style="width: 100%;">
 
