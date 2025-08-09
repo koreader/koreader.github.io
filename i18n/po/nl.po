@@ -3996,7 +3996,7 @@ msgid ""
 "file containing one or more HTML files. Your book might be one big HTML file "
 "for the whole book or it might contain separate chapters as individual HTML "
 "files (which is a better structure)."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Een EPUB-document is in feite een ZIP-bestand met één of meer HTML-bestanden. Een boek kan uit één groot HTML-bestand bestaan of uit afzonderlijke hoofdstukken als aparte HTML-bestanden (wat een betere structuur is)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2110-5
 msgid ""
@@ -4005,29 +4005,25 @@ msgid ""
 "files in your EPUB). If your book doesn’t contain any headings, it will try "
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
-msgstr ""
+msgstr "<span class=\"ui\">Alternatieve inhoudsopgave</span> probeert een inhoudsopgave te maken op basis van de koppen in je boek (HTML-tags <b>H1</b> t/m <b>H6</b>). Als je boek geen koppen bevat, zal het proberen een inhoudsopgave op te bouwen uit de documentfragmenten (afzonderlijke HTML-bestanden in je EPUB) die naar het begin van elk bestand wijzen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
-msgstr ""
+msgstr "Je kunt kiezen welke kopniveau's je wilt opnemen (of negeren) in je inhoudsopgave via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Miscellaneous / Alternative ToC hints"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Stijlaanpassingen / Diversen / Alternatieve ToC-hints"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2118-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
-msgstr ""
+msgstr "Handmatig een inhoudsopgave maken: AANGEPASTE INHOUDSOPGAVE"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2120-5
 msgid ""
@@ -4035,26 +4031,22 @@ msgid ""
 "selected parts of your book. This ToC can contain only one level so you "
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
-msgstr ""
+msgstr "Met de functie aangepaste inhoudsopgave kun je je eigen inhoudsopgave maken uit geselecteerde delen van je boek. Deze inhoudsopgave kan slechts één niveau bevatten; subhoofdstukken zijn dus niet mogelijk. Om je eigen inhoudsopgave te maken, schakel eerst in:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom table of contents"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Instellingen / Aangepaste inhoudsopgave"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2125-5
 msgid ""
 "Once you enable this feature, new menu items will be added to the user "
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
-msgstr ""
-"When you are done creating your ToC and don’t want to see these extra "
-"buttons, you can disable them by unchecking:"
+msgstr "Zodra je deze functie inschakelt, worden nieuwe menu-items toegevoegd waarmee je hoofdstukken kunt selecteren. Je kunt een hoofdstuk op twee manieren aan je inhoudsopgave toevoegen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2128-9
 msgid ""
@@ -4064,47 +4056,41 @@ msgid ""
 "will see a dialog asking you to enter your chapter title. The text you "
 "selected will be already entered in the dialog. Edit your title if necessary "
 "and press create."
-msgstr ""
+msgstr "<b>Vanuit een markering:</b> tijdens het lezen selecteer je tekst alsof je die wilt markeren of houd je een woord ingedrukt. In het pop-upmenu zie je het item <span class=\"ui\">TOC-hoofdstuk starten</span>. Als je daarop drukt, verschijnt een dialoog waarin je je hoofdstuktitel kunt invoeren. De geselecteerde tekst is al ingevuld. Pas de titel aan indien nodig en druk op aanmaken."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2129-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
-msgstr ""
+msgstr "<b>Vanuit de Pagina-browser:</b> open de Pagina-browser via"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2133-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2133-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Pagina-browser"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2135-5
 msgid ""
 "Long press on the page thumbnail that you want to be the beginning of your "
 "chapter and select <span class=\"ui\">Start TOC chapter</span> item from the "
 "popup menu. You will see a dialog asking you to enter your chapter title."
-msgstr ""
+msgstr "Houd de miniatuur van de pagina ingedrukt die het begin van je hoofdstuk moet worden en kies het item <span class=\"ui\">TOC-hoofdstuk starten</span> in het pop-upmenu. Er verschijnt een dialoog waarin je je hoofdstuktitel kunt invoeren."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2137-5
 msgid ""
 "When you are done creating your ToC and don’t want to see these extra "
 "buttons, you can disable them by unchecking:"
-msgstr ""
+msgstr "Als je klaar bent met het maken van je inhoudsopgave en deze extra knoppen niet meer wilt zien, kun je ze uitschakelen door het vinkje te verwijderen bij:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2139-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom layout features / Edit mode"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Instellingen / Aangepaste lay-out functies / Bewerkingsmodus"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2141-5
 msgid ""
@@ -4115,7 +4101,7 @@ msgid ""
 "original ToC. Note that if you disable this feature after creating a custom "
 "ToC to return to the original one, your custom ToC will not be deleted. You "
 "can still switch between the original and your custom ToC."
-msgstr ""
+msgstr "Het aanmaken van deze inhoudsopgave verandert de oorspronkelijke inhoudsopgave van je boek niet. Je kunt je <b>Aangepaste inhoudsopgave</b> wissen via hetzelfde menu (als je een nieuwe wilt maken). Je kunt deze functie ook volledig uitschakelen op dezelfde manier als je haar hebt ingeschakeld om terug te keren naar de originele inhoudsopgave. Let op: als je de functie uitschakelt nadat je een aangepaste inhoudsopgave hebt gemaakt, wordt die niet verwijderd. Je kunt nog steeds schakelen tussen de originele en je aangepaste inhoudsopgave."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2145-1
 msgctxt "user_guide/en.html+html.body.div.div:2145-1"
