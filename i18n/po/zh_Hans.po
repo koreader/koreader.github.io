@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
-"PO-Revision-Date: 2025-08-08 09:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-08-09 07:19+0000\n"
+"Last-Translator: cyanjiang <cyanjiang@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -3783,7 +3783,7 @@ msgstr ""
 msgid ""
 "Swipe <b>up / down</b> over this left edge to increase / decrease the number "
 "of the <b>rows</b>."
-msgstr ""
+msgstr "在左边缘向<b>上 / 下</b>滑动可增加 / 减少<b>行数</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2075-9
 msgid ""
@@ -3791,22 +3791,26 @@ msgid ""
 "one row (2 pages in the example), <b>left / right</b> to scroll one screen "
 "(4 pages in the example)."
 msgstr ""
+"在页面区域滑动可移动查看的页面。<b>向上 / 向下</b>滑动可滚动一行（示例中为 2 "
+"页），<b>向左 / 向右</b>滑动可滚动一屏（示例中为 4 页）。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2076-9
 msgid "Tap any page to open that page in reading view."
-msgstr ""
+msgstr "点击任意页面，在阅读视图中打开该页面。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2077-9
 msgid ""
 "On the bottom area, tapping on a page focuses the thumbnail view on that "
 "page. Swiping <b>left / right</b> will jump one stripe width."
-msgstr ""
+msgstr "在底部区域，点击页面会将缩略图视图聚焦在该页面上。<b>向左/向右</b>滑动将跳转"
+"一个条纹宽度。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
 "Icons on the bottom area are same as the ones used in <span "
 "class=\"ui\">Book Map</span> and explained under that section."
-msgstr ""
+msgstr "底部区域的图标与<span class=\"ui\""
+">图书地图</span>中使用的图标相同，并在该节中进行了解释。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2082-1
 msgid "Alternative theme for Book map and Page Browser"
@@ -3831,32 +3835,33 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2088-1
 msgctxt "user_guide/en.html+html.body.div.div:2088-1"
 msgid "Table of Contents Tools"
-msgstr ""
+msgstr "目录工具"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2089-5
 msgid ""
 "Some of the digital books you come across might not have a proper table of "
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
-msgstr ""
+msgstr "您遇到的一些数字图书可能没有正确的目录（<b>ToC</b>）。根据本书的准备情况，您"
+"可能会遇到以下目录问题："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2092-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
-msgstr ""
+msgstr "书中没有目录，因此您无法在章节之间跳转或查看剩余的阅读时间"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2093-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
-msgstr ""
+msgstr "有一个目录，但是作用不大，因为它有错误或缺少章节标题"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2096-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
-msgstr ""
+msgstr "KOReader有一些功能，您可以在阅读有问题的目录部分的书籍时使用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2098-5
 msgid ""
@@ -3866,17 +3871,21 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
+"请注意，<span class=\"ui\""
+">替代目录</span>在<b>固定布局文档</b>（如PDF、DJVU等）上不可用，因为它需要HTM"
+"L标签来创建目录。可以在所有支持的文件类型上提供<span class=\"ui\""
+">自定义目录</span>和<span class=\"ui\">自定义隐藏流</span>功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "自动创建目录：替代目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2103-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
-msgstr ""
+msgstr "第一个功能是<span class=\"ui\">替代目录</span>，您可以在以下位置找到："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
 msgctxt "user_guide/en.html+html.body.div.div:2106-5"
@@ -3906,12 +3915,16 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
+"<span class=\"ui\""
+">替代目录</span>试图从您的书中的标题（EPUB中HTML文件中的<b>H1</b>到<b>H6</b>"
+"标签）创建一个目录。如果你的书不包含任何标题，它将尝试利用文档片段（EPUB书中"
+"的单个HTML文件）构建一个目录，该目录将指向每个文件的开头。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
-msgstr ""
+msgstr "您可以从该菜单中选择要在目录中包含（或忽略）哪些标题级别："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
 msgid ""
@@ -3923,7 +3936,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2118-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
-msgstr ""
+msgstr "手动创建目录：自定义目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2120-5
 msgid ""
@@ -3931,7 +3944,8 @@ msgid ""
 "selected parts of your book. This ToC can contain only one level so you "
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
-msgstr ""
+msgstr "自定义目录功能允许您从书籍的选定部分创建自己的目录。此目录只能包含一个级别，"
+"因此使用此功能时不能有子章节。要创建自己的吗目录，请首先启用："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-5
 msgid ""
@@ -3946,7 +3960,8 @@ msgid ""
 "Once you enable this feature, new menu items will be added to the user "
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
-msgstr ""
+msgstr "启用此功能后，用户界面中将添加新的菜单项，使您能够选择章节。您可以从两个位置"
+"将章节添加到目录中："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2128-9
 msgid ""
@@ -3981,12 +3996,14 @@ msgid ""
 "chapter and select <span class=\"ui\">Start TOC chapter</span> item from the "
 "popup menu. You will see a dialog asking you to enter your chapter title."
 msgstr ""
+"长按要作为章节开头的页面缩略图，然后从弹出菜单中选择<span class=\"ui\""
+">添加目录章节</span>item。 您将看到一个对话框，要求您输入章节标题。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2137-5
 msgid ""
 "When you are done creating your ToC and don’t want to see these extra "
 "buttons, you can disable them by unchecking:"
-msgstr ""
+msgstr "当您完成创建目录并且不想看到这些额外的按钮时，您可以通过取消选中来禁用它们："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2139-5
 msgid ""
@@ -4217,6 +4234,9 @@ msgid ""
 "font to <b>Verdana</b>, any books you open next including the ones you are "
 "already reading will be shown in this Verdana font."
 msgstr ""
+"在某些阅读器应用程序中，当您更改设置（例如用于书籍的字体）时，它会全局更改。 "
+"这意味着，如果你将默认字体更改为<b>Verdana</b>，你接下来打开的任何书籍，包括"
+"你已经在阅读的书籍，都将以这种Verdana字体显示。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2205-5
 msgid ""
@@ -4227,6 +4247,10 @@ msgid ""
 "you can set some books to open in <b>landscape orientation</b> or <b>double "
 "column</b> mode."
 msgstr ""
+"KOReader的方法与此不同。我们保存每本书的外观设置。这使您可以灵活地更改当前书"
+"籍的设置，而不会影响其他书籍。例如，如果你有一些奇幻书籍，你可以将字体更改为"
+"中世纪风格的字体，这个改变将只应用用于这些书籍。或者，您可以将一些书籍设置为"
+"以<b>横向</b>或<b>双列</b>模式打开。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2207-5
 msgid ""
@@ -4238,10 +4262,15 @@ msgid ""
 "span> (★) in the menu or as a <span class=\"ui\">black border</span> around "
 "the indicators as seen below:"
 msgstr ""
+"要全局更改设置，请点击并按住<b>选项</b>或<b>菜单项</b>（字体粗细、行距等），"
+"将其值设置为<span class=\"ui\""
+">默认值</span>。正如我们上面所说，这个新值只影响从现在开始打开的书籍。以前打"
+"开的书籍将保留其设置。您可以将默认值标识为菜单中的<span class=\"ui\""
+">星号</span>（★）或指示器周围的<span class=\"ui\">黑色边框</span>，如下所示："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2213-1
 msgid "Applying current defaults to an already opened book"
-msgstr ""
+msgstr "将当前默认值应用于已打开的书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2215-5
 msgid ""
@@ -4250,6 +4279,10 @@ msgid ""
 "value will only be used for the new documents you open after the change. "
 "Your already opened books will not change."
 msgstr ""
+"因此，当您调整文档默认值，如<span class=\"ui\">默认行距</span>或<span class="
+"\"ui\""
+">默认对比度</span>时，此值将仅用于更改后打开的新文档。你已经打开的书不会改变"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2217-5
 msgid ""
@@ -4261,11 +4294,16 @@ msgid ""
 "feature you don’t need to change these values manually in all your opened "
 "books."
 msgstr ""
+"但如果你想让他们也改变呢？例如，如果您更改了默认的<span class=\"ui\""
+">font</span>，您可能会将<span class=\"ui\">字体粗细</span>和<span class="
+"\"ui\""
+">行距</span>调整为更适合此新字体的值。你对文本的外观很满意，现在你希望你所有"
+"的书都是这样的。使用此功能，您不需要在所有打开的书籍中手动更改这些值。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2219-5
 msgid ""
 "You can easily apply these changes to your already opened books by choosing:"
-msgstr ""
+msgstr "您可以通过选择以下选项轻松地将这些更改应用于已打开的书籍："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2221-5
 msgid ""
@@ -4287,7 +4325,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2226-1
 msgid "Saving current book settings as defaults"
-msgstr ""
+msgstr "将当前书籍设置保存为默认值"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2228-5
 msgid ""
@@ -4298,11 +4336,15 @@ msgid ""
 "class=\"ui\">Reset document settings to default</span> option as explained "
 "above."
 msgstr ""
+"当您根据自己的喜好调整一本书时，例如通过更改<span class=\"ui\">行距</span>、"
+"<span class=\"ui\">字体对比度</span>等，您可以一次将所有更改保存为<span "
+"class=\"ui\">默认值</span>。然后，您可以使用<span class=\"ui\""
+">将文档设置重置为默认值</span>选项将这些设置应用于其他书籍，如上所述。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2230-5
 msgid ""
 "You can save your changes as <span class=\"ui\">defaults</span> by choosing:"
-msgstr ""
+msgstr "您可以通过选择以下选项将更改保存为<span class=\"ui\">默认值</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2232-5
 msgid ""
@@ -4314,7 +4356,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2236-1
 msgid "Creating different groups of settings"
-msgstr ""
+msgstr "创建不同的设置组"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2238-5
 msgid ""
@@ -4324,10 +4366,14 @@ msgid ""
 "which you can apply at once instead of changing the settings manually every "
 "time."
 msgstr ""
+"这个强大的功能允许您将所有<span class=\"ui\""
+">底部菜单</span>设置+字体类型保存为<b>配置文件</b>。这意味着您可以为不同的条"
+"件或书籍类型设置不同的设置组，您可以一次应用这些设置，而不是每次手动更改设置"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2240-5
 msgid "For example you can create:"
-msgstr ""
+msgstr "例如，您可以创建："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2243-9
 msgid ""
@@ -4335,6 +4381,8 @@ msgid ""
 "small sized text, <span class=\"ui\">landscape orientation</span> and "
 "minimum <span class=\"ui\">margins</span>"
 msgstr ""
+"<b>双列</b>配置文件，带有<span class=\"ui\">两列</span>小尺寸文本，<span "
+"class=\"ui\">横向</span>和最小<span class=\"ui\">边距</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2244-9
 msgid ""
@@ -4342,6 +4390,8 @@ msgid ""
 "span> and higher <span class=\"ui\">contrast</span> for more visible text "
 "under low light"
 msgstr ""
+"<b>夜间阅读</b>配置文件，<span class=\"ui\">更大的无衬线字体</"
+"span>和更高的<span class=\"ui\">对比度</span>，以便在低光下显示更清晰的文本"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
 msgid ""
@@ -4349,12 +4399,14 @@ msgid ""
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
 "books"
 msgstr ""
+"<b>禁用样式</b>配置文件，在结构不良的书籍中禁用<span class=\"ui\">内置样式</"
+"span>和<span class=\"ui\">内置字体</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2248-5
 msgid ""
 "After adjusting your settings to your liking, you can create a profile from "
 "them via:"
-msgstr ""
+msgstr "根据您的喜好调整设置后，您可以通过以下方式从中创建配置文件："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2250-5
 msgid ""
@@ -4368,7 +4420,7 @@ msgstr ""
 msgid ""
 "After creating a profile with your settings, you have many options for "
 "applying it to another book:"
-msgstr ""
+msgstr "使用您的设置创建配置文件后，您有许多选项可以将其应用于另一本书："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2254-9
 msgid ""
