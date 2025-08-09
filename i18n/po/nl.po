@@ -4889,11 +4889,11 @@ msgid ""
 "rendered by KOReader. We won't go through a full CSS course here. We just "
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
-msgstr ""
+msgstr "Met de stijlaanpassingen-functie van KOReader kun je aanpassen hoe het boek wordt weergegeven. We gaan hier geen volledige CSS-cursus geven. We laten alleen de basis zien zodat je in grote lijnen weet wat een stijlaanpassing doet wanneer je er één ziet."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2331-5
 msgid "What is a style tweak?"
-msgstr ""
+msgstr "Wat is een stijlaanpassing?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2332-5
 msgid ""
@@ -4903,16 +4903,16 @@ msgid ""
 "class=\"ui\">style tweaks</span>, you can change how your book will be "
 "rendered by adding new rules and/or overriding the rules written by the "
 "publisher that is embedded in your book."
-msgstr ""
+msgstr "We kunnen een EPUB-document beschrijven als een <b>HTML-bestand + enkele CSS-regels</b>. Deze CSS-regels bepalen hoe verschillende delen van het boek (koppen, vetgedrukte tekst, citaten enz.) in een lees-app worden getoond. Met <span class=\"ui\">stijlaanpassingen</span> kun je door nieuwe regels toe te voegen en/of regels van de uitgever te overschrijven aanpassen hoe je boek wordt gerenderd."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
-msgstr ""
+msgstr "Laten we dit bekijken met een voorbeeld-<span class=\"ui\">stijlaanpassing</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2336-5
 msgctxt "user_guide/en.html+html.body.div.p:2336-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2337-5
 msgid ""
@@ -4920,24 +4920,24 @@ msgid ""
 "all the images in this book 10 pixels wide and 10 pixels high.\"</b> So if "
 "you add this style tweak to KOReader, all the images in your book will be "
 "shown tiny."
-msgstr ""
+msgstr "In gewone taal zegt deze regel: <b>\"Negeer hun oorspronkelijke grootte en maak alle afbeeldingen in dit boek 10 pixels breed en 10 pixels hoog.\"</b> Voeg je deze stijlaanpassing toe aan KOReader dan worden alle afbeeldingen piepklein weergegeven."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Now lets explain this tweak item by item:"
-msgstr ""
+msgstr "Laten we deze aanpassing stap voor stap uitleggen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2342-9
 msgid ""
 "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
 "<b>img</b> (image) elements in the book."
-msgstr ""
+msgstr "<span class=\"ui\">img</span> - Dit is een CSS-selector die alle <b>img</b>- (afbeeldings)elementen in het boek selecteert."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2343-9
 msgid ""
 "<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
 "span> - This is the declaration block. It contains the styles which will be "
 "applied to the selected <b>img</b> elements."
-msgstr ""
+msgstr "<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</span> - Dit is het declaratieblok. Het bevat de stijlen die op de geselecteerde <b>img</b>-elementen worden toegepast."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2344-9
 msgid ""
@@ -4972,104 +4972,101 @@ msgid ""
 "In summary, this CSS rule is designed to set a <b>fixed width and height of "
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
-msgstr ""
+msgstr "Samengevat: deze CSS-regel geeft alle <b>img</b>-elementen een <b>vaste breedte en hoogte van 10 pixels</b> en <b>negeert hun oorspronkelijke stijl</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2352-5
-#, fuzzy
 msgid "Some useful examples of style tweaks"
-msgstr ""
-"<b> Export highlights </b> - Export highlights and notes to local files or "
-"to Joplin (a note taking application)"
+msgstr "Enkele nuttige voorbeelden van stijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
 msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
-msgstr ""
+msgstr "Hieronder staan enkele nuttige stijlaanpassingen die je direct kunt gebruiken of naar wens kunt aanpassen. De volgende kop legt uit hoe je ze in KOReader gebruikt."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2357-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Voeg een scheidingslijn boven elke kop in een boek toe:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2358-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Voeg wat marge boven de koppen toe:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2362-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2364-13
 msgid "Or if the book have too much margin above the headings, remove them:"
-msgstr ""
+msgstr "Of als het boek te veel marge boven de koppen heeft, verwijder die:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2365-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2368-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
-msgstr ""
+msgstr "Voeg een kleine ruimte tussen alinea's toe voor betere leesbaarheid:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2369-17
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
-msgstr ""
+msgstr "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2371-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Schakel alle afbeeldingen in een EPUB uit:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2372-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Maak afbeeldingen heel klein in plaats van ze uit te schakelen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2377-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid ""
 "Make the code block sections in computer science books tidier and more "
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
-msgstr ""
+msgstr "Codebloksecties in informaticaboeken netter en beter leesbaar maken (<a href=\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\">voorbeeld</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgid ""
 "pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
-msgstr ""
+msgstr "pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2396-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Stijlaanpassingen toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2398-5
 msgid ""
 "Ok, now we have seen what <span class=\"ui\">style tweaks</span> are. But "
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
-msgstr ""
+msgstr "Oké, we weten nu wat <span class=\"ui\">stijlaanpassingen</span> zijn. Hoe gebruiken we ze? Er zijn drie soorten <span class=\"ui\">stijlaanpassingen</span> in KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2402-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Ingebouwde stijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2404-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
-msgstr ""
+msgstr "Deze kop is nieuw, evenals de schermafbeelding erboven en eronder. Nog iets toe te voegen?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2407-1
 msgid ""
@@ -5079,16 +5076,10 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2409-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:26px;\"> / Stijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2411-5
 msgid ""
@@ -5096,11 +5087,11 @@ msgid ""
 "b>, tick the checkbox. If you want to get more information about this tweak "
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
-msgstr ""
+msgstr "Ze zijn onderverdeeld in veel categorieën. Om een aanpassing alleen op het <b>huidige boek</b> toe te passen vink je het vakje aan. Wil je meer informatie of hem voor <b>alle boeken</b> inschakelen, houd dan de naam ingedrukt. Er verschijnt een dialoog:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2416-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Dit gedeelte toont de naam en beschrijving van de aanpassing"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2417-13
 msgid ""
@@ -5108,7 +5099,7 @@ msgid ""
 "the code to the clipboard. Then you can paste and modify this code in your "
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
-msgstr ""
+msgstr "Dit vak toont de CSS-code van de aanpassing. Je kunt op dit gebied tikken om de code naar het klembord te kopiëren. Daarna kun je de code plakken en aanpassen in je <span class=\"ui\">Boekspecifieke aanpassing</span> zoals in de volgende kop uitgelegd."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2419-13
 msgid ""
@@ -5116,7 +5107,7 @@ msgid ""
 "this tweak with a gesture or add it to a <span class=\"ui\">Quick Menu</"
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
-msgstr ""
+msgstr "Met de knop <span class=\"ui\">Toon in actielijst</span> kun je deze aanpassing met een gebaar schakelen of toevoegen aan een <span class=\"ui\">Snelmenu</span>. Zie de kop <b>\"Stijlaanpassingen efficiënt gebruiken\"</b> hieronder voor meer info."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid ""
@@ -5124,11 +5115,11 @@ msgid ""
 "all your books. A <b>star (★)</b> will appear next to its name in the menu, "
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
-msgstr ""
+msgstr "Met de knop <span class=\"ui\">Gebruik op alle boeken</span> activeer je deze aanpassing voor al je boeken. Er verschijnt een <b>ster (★)</b> naast de naam in het menu wat aangeeft dat hij op alle boeken wordt toegepast. Uitschakelen gaat op dezelfde manier."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2425-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Boekspecifieke aanpassing"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2426-9
 msgid ""
@@ -5139,25 +5130,19 @@ msgid ""
 "decide that you will need it on other books too (i.e. from the same "
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
-msgstr ""
+msgstr "Zoals de naam al aangeeft is dit type aanpassing alleen actief voor het boek waarin je hem hebt aangemaakt. Dit is handig om te testen of om iets in het huidige boek te repareren waarvan je weet dat je het elders niet nodig hebt. Beslis je later dat je hem toch in andere boeken (bijv. van dezelfde uitgever) wilt gebruiken dan kun je hem omzetten naar een <span class=\"ui\">gebruikersstijlaanpassing</span>, die we hierna uitleggen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2428-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
-msgstr ""
+msgstr "Om een <span class=\"ui\">boekspecifieke aanpassing</span> te maken gebruik je de geïntegreerde editor die je hier vindt:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:26px;\"> / Stijlaanpassingen / Boekspecifieke aanpassing"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2432-24
 msgid ""
@@ -5166,66 +5151,64 @@ msgid ""
 "useful CSS syntax and properties. When you open this menu please first read "
 "the <span class=\"ui\">Long-press for info</span> help. Also you can long-"
 "press on CSS items in this menu to see a description."
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> In de editor is er een <span class=\"ui\">CSS</span>-menu op de onderste werkbalk. Dit bevat veel nuttige CSS-syntaxis en eigenschappen. Lees eerst de <span class=\"ui\">Lang ingedrukt houden voor info</span>-uitleg. Je kunt ook lang drukken op items in dit menu voor een beschrijving."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2435-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Gebruikersstijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2437-9
 msgid ""
 "These group of tweaks are different from the previous ones in the way they "
 "are created. Also unlike the previous type, they are not limited to a single "
 "book. They can be applied globally to all of your books."
-msgstr ""
+msgstr "Deze groep aanpassingen verschilt van de vorige in hoe ze worden aangemaakt. In tegenstelling tot het vorige type zijn ze niet beperkt tot één boek; je kunt ze globaal op al je boeken toepassen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2439-9
 msgid "Procedure is roughly like this, which we will explain in detail:"
-msgstr ""
+msgstr "Globaal werkt het zo, wat we hierna in detail zullen uitleggen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2442-13
 msgid "Create your user tweak file"
-msgstr ""
+msgstr "Maak je gebruikersaanpassingsbestand"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2443-13
-#, fuzzy
 msgid "Transfer it to your device"
-msgstr "Optimizing manga for your mobile reader device"
+msgstr "Zet het over naar je apparaat"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2444-13
 msgid "Enable your tweak from the menu"
-msgstr ""
+msgstr "Schakel je aanpassing in via het menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2448-9
 msgid "1. Creating the user tweak file:"
-msgstr ""
+msgstr "1. Het gebruikersaanpassingsbestand maken:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2449-9
 msgid ""
 "A <span class=\"ui\">user style tweak</span> is actually a normal text file "
 "with a <b>.css</b> extension. You can create this file:"
-msgstr ""
+msgstr "Een <span class=\"ui\">gebruikersstijlaanpassing</span> is gewoon een tekstbestand met de extensie <b>.css</b>. Je kunt dit bestand maken:" 
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2452-13
 msgid "On your computer"
-msgstr ""
+msgstr "Op je computer"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2453-13
 msgid "On your device if it has a text editor (like Android OS based devices)"
-msgstr ""
+msgstr "Op je apparaat als het een teksteditor heeft (zoals Android-apparaten)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2454-13
 msgid "In KOReader's integrated text editor which you can find in plugins"
-msgstr ""
+msgstr "In KOReaders geïntegreerde teksteditor die je bij de plugins vindt"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2457-9
 msgid "You can copy / paste the examples we mentioned above to your file."
-msgstr ""
+msgstr "Je kunt de hierboven genoemde voorbeelden kopiëren/plakken in je bestand."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2461-9
-#, fuzzy
 msgid "2. Transferring the file to your device:"
-msgstr "Optimizing manga for your mobile reader device"
+msgstr "2. Het bestand naar je apparaat overzetten:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2462-9
 msgid ""
@@ -5236,28 +5219,22 @@ msgid ""
 "\"<b>_</b>\" in your filenames, they will be treated as spaces in the menu. "
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
-msgstr ""
+msgstr "Nadat je de bestanden met je CSS-regels hebt gemaakt, sla of plaats ze in de map <span class=\"ui\">styletweaks</span> onder je KOReader-installatie. Geef ze beschrijvende namen want de bestandsnaam wordt de titel van de aanpassing in het menu. Je kunt underscores (<b>_</b>) gebruiken; die worden in het menu als spaties getoond. <b>Herstart KOReader na het overzetten zodat ze geladen worden.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. De aanpassing inschakelen:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2467-9
 msgid "After the restart, open a book and go to this menu:"
-msgstr ""
+msgstr "Na het herstarten open je een boek en ga je naar dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2469-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2469-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:26px;\"> / Stijlaanpassingen / Gebruikersstijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid ""
@@ -5268,7 +5245,7 @@ msgid ""
 "books</span>. A <b>star (★)</b> will appear next to its name in the menu, "
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps. See below for an example:"
-msgstr ""
+msgstr "Je ziet je aanpassing nu in de lijst met een selectievakje. Om hem alleen op het <b>huidige boek</b> toe te passen vink je het vakje aan. Wil je hem voor <b>alle boeken</b> inschakelen, houd dan de naam ingedrukt. Er verschijnt een dialoog. Tik op <span class=\"ui\">Gebruik op alle boeken</span>. Er verschijnt een <b>ster (★)</b> naast de naam: dat betekent dat hij voor alle boeken geldt. Uitschakelen gaat met dezelfde stappen. Hieronder een voorbeeld:" 
 
 #: user_guide/en.html%2Bhtml.body.div.p:2475-9
 msgid ""
@@ -5277,18 +5254,18 @@ msgid ""
 "one is disabled because checkbox is empty. Second one is enabled for this "
 "book only since checkbox is marked but there is no star. Third one is "
 "enabled for all the books <b>(★)</b>."
-msgstr ""
+msgstr "In de afbeelding hierboven heb ik 3 stijlaanpassingsbestanden in de map <span class=\"ui\">styletweaks</span>. De eerste is uitgeschakeld (vakje leeg). De tweede is ingeschakeld alleen voor dit boek (vakje aan maar geen ster). De derde is ingeschakeld voor alle boeken <b>(★)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2477-9
 msgid ""
 "You might notice that there is also a <span class=\"ui\">right triangle "
 "icon</span> next to the first tweak. This means that this tweak can be "
 "activated using gestures. This will explained in the next heading."
-msgstr ""
+msgstr "Je ziet misschien ook een <span class=\"ui\">rechts driehoek-icoon</span> naast de eerste aanpassing. Dat betekent dat je hem via gebaren kunt activeren. Dit wordt in de volgende kop uitgelegd."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2479-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Stijlaanpassingen efficiënt gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2481-9
 msgid ""
@@ -5297,59 +5274,53 @@ msgid ""
 "example image above. You can have one file for the <b>headings</b>, others "
 "to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows "
 "you to enable tweaks depending on your document."
-msgstr ""
+msgstr "Bij het maken van <span class=\"ui\">gebruikersstijlaanpassingen</span> kun je meerdere bestanden maken die elk een onderdeel van het boek aanpassen zoals op de voorbeeldafbeelding. Eén bestand voor <b>koppen</b>, andere voor <b>alinea's</b>, <b>links</b> etc. Dit modulaire systeem laat je aanpassingen inschakelen afhankelijk van het document."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2483-9
 msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
-msgstr ""
+msgstr "Zoals hierboven gezegd kun je <span class=\"ui\">gebruikersstijlaanpassingen</span> schakelen via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2485-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2485-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:26px;\"> / Stijlaanpassingen / Gebruikersstijlaanpassingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2489-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
-msgstr ""
+msgstr "Er zijn ook snellere manieren dan telkens het menu openen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2491-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. Je kunt een gebaar aan een aanpassing koppelen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2492-9
 msgid ""
 "To do this, first we have to add our <span class=\"ui\">user style tweak</"
 "span> to the list of gesture actions:"
-msgstr ""
+msgstr "Daarvoor moeten we eerst onze <span class=\"ui\">gebruikersstijlaanpassing</span> aan de lijst met gebarenacties toevoegen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2495-17
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
-msgstr ""
+msgstr "Ga naar het menu <span class=\"ui\">Gebruikersstijlaanpassingen</span> en houd je aanpassing ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2496-17
 msgid ""
 "In the dialog press the button <span class=\"ui\">Show in action list</span>"
-msgstr ""
+msgstr "Druk in de dialoog op <span class=\"ui\">Toon in actielijst</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2497-17
 msgid ""
 "A <span class=\"ui\">right triangle icon</span> will appear next to your "
 "style tweak in the menu"
-msgstr ""
+msgstr "Er verschijnt een <span class=\"ui\">rechts driehoek-icoon</span> naast je aanpassing in het menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2500-13
 msgid ""
@@ -5357,11 +5328,11 @@ msgid ""
 "style tweak. Now this style tweak is added to the actions list. You can find "
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
-msgstr ""
+msgstr "Je ziet het in de voorbeeldafbeelding hierboven naast de aanpassing <b>Randen aanpassen</b>. De aanpassing is nu aan de actielijst toegevoegd. Je vindt hem onder <span class=\"ui\">Gebarenbeheer > Reflow-documenten</span> aan het einde van de lijst."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2504-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. Je kunt een aanpassing aan je Snelmenu toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2506-9
 msgid ""
@@ -5369,7 +5340,7 @@ msgid ""
 "be added to the actions list as described in the heading above. Then you can "
 "follow the instructions under the <a href=\"#quickmenu\">Quick Menu</a> "
 "section of this guide."
-msgstr ""
+msgstr "Om een aanpassing aan je <span class=\"ui\">Snelmenu</span> toe te voegen moet hij eerst in de actielijst staan zoals hierboven beschreven. Volg daarna de instructies in de sectie <a href=\"#quickmenu\">Snelmenu</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2508-9
 msgid ""
@@ -5377,11 +5348,11 @@ msgid ""
 "class=\"ui\">Quick Menu</span> for your style tweaks and then assign it to a "
 "gesture. This way, with a simple gesture you can access all your style "
 "tweaks and activate them as needed."
-msgstr ""
+msgstr "Je kunt beide methoden combineren en een speciaal <span class=\"ui\">Snelmenu</span> voor je stijlaanpassingen maken en dat aan een gebaar koppelen. Zo kun je met één gebaar alles openen en schakelen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2511-5
 msgid "Finding elements for modifying"
-msgstr ""
+msgstr "Elementen vinden om te wijzigen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2513-5
 msgid ""
@@ -5391,57 +5362,51 @@ msgid ""
 "To achieve this, select the text around the element which you are interested "
 "in, and choose <span class=\"ui\">View HTML</span> from the dialog. In the "
 "example above, your style tweak would look like this:"
-msgstr ""
+msgstr "Let op: in sommige boeken staan titels niet in <b>&lt;H1&gt; of &lt;H2&gt;</b>-elementen maar bijvoorbeeld in <b>&lt;p class=\"tit123\"&gt;</b>. Je kunt zien welke selectors worden gebruikt door de bron te bekijken: selecteer tekst rond het element dat je interesseert en kies <span class=\"ui\">HTML bekijken</span>. In het voorbeeld hierboven zou je stijlaanpassing er zo uitzien:" 
 
 #: user_guide/en.html%2Bhtml.body.div.p:2515-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2517-5
 msgid "instead of this:"
-msgstr ""
+msgstr "in plaats van zo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2519-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2530-1
 msgctxt "user_guide/en.html+html.body.div.div:2530-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "BLADWIJZERS, MARKERINGEN EN NOTITIES"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2532-5
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
-msgstr ""
+msgstr "KOReader geeft je opties om met je boek te werken zoals bij een echt boek. Veel instellingen van het bladwijzervenster kun je hier aanpassen:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div:2536-6
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style=\"width:26px;\"> / Instellingen / Bladwijzers"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2541-5
 msgid "BOOKMARKS:"
-msgstr ""
+msgstr "BLADWIJZERS:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2543-5
 msgid ""
 "You can add (and remove) a bookmark by pressing the upper right corner. This "
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
-msgstr ""
+msgstr "Je voegt een bladwijzer toe (en verwijdert hem) door op de rechterbovenhoek te drukken. Dit is het digitale equivalent van een ezelsoor en toont een vergelijkbaar icoon."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2547-5
 msgid "HIGHLIGHTS:"
-msgstr ""
+msgstr "MARKERINGEN:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2549-5
 msgid ""
@@ -5450,56 +5415,43 @@ msgid ""
 "class=\"ui\">Lighten</span> (with gray background), <span "
 "class=\"ui\">Underline, Strikeout</span> and <span class=\"ui\">Invert</"
 "span>."
-msgstr ""
+msgstr "Je kunt tekst markeren in 4 verschillende stijlen. In de afbeelding hieronder zie je een normale alinea gevolgd door de markeerstijlen: <span class=\"ui\">Verlichten</span> (grijze achtergrond), <span class=\"ui\">Onderstrepen, Doorhalen</span> en <span class=\"ui\">Omkeren</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2554-5
 msgid ""
 "You can use all these styles at the same time, like they are different "
 "colored highlight markers. Or you can decide your favorite style and set it "
 "as default from this menu by long pressing:"
-msgstr ""
+msgstr "Je kunt alle stijlen naast elkaar gebruiken, alsof het verschillende kleuren markeerstiften zijn. Of kies je favoriet en stel die als standaard in door lang te drukken in dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2556-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2556-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:22px;\"> / Markeringen / Markeerstijl"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2560-5
 msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
-msgstr ""
+msgstr "Als je een apparaat met kleurenscherm hebt kun je markeringen in verschillende kleuren maken:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2562-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:22px;\"> / Markeringen / Markeerkleur"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2566-5
-#, fuzzy
 msgid "Some tips for color highlights:"
-msgstr "1. Export Highlights plugin"
+msgstr "Enkele tips voor gekleurde markeringen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2569-9
 msgid ""
 "You can change the color of an existing highlight by tapping on it and "
 "choosing <span class=\"ui\">Color</span> from the popup menu."
-msgstr ""
+msgstr "Je kunt de kleur van een bestaande markering wijzigen door erop te tikken en <span class=\"ui\">Kleur</span> te kiezen in het pop-upmenu."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2571-9
 msgid ""
@@ -5509,34 +5461,34 @@ msgid ""
 "through; font-weight: bold; color: red;\">red strikethrough</span> style for "
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
-msgstr ""
+msgstr "Je kunt kleuren combineren met verschillende stijlen zoals <b>Onderstrepen</b> en <b>Doorhalen</b> om een krachtig systeem te maken. Gebruik bijvoorbeeld een <span style=\"text-decoration: line-through; font-weight: bold; color: red;\">rode doorhaling</span> voor verwijderingen of een <span style=\"text-decoration: underline; font-weight: bold; color: orange;\">oranje onderstreping</span> voor belangrijke punten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2574-1
 msgid "Setting the defaults for highlights"
-msgstr ""
+msgstr "Standaarden voor markeringen instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2580-9
 msgid ""
 "In the highlights menu you can long-press on a highlight type to set it as "
 "default (★)"
-msgstr ""
+msgstr "In het markeringenmenu kun je lang drukken op een type om het als standaard (★) in te stellen"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2581-9
 msgid ""
 "<b>After selecting a color</b>, you can long-press on the color name in this "
 "menu to set that color as default (★)"
-msgstr ""
+msgstr "<b>Na het kiezen van een kleur</b> kun je lang op de kleurnaam drukken om die als standaard (★) te zetten"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2582-9
 msgid ""
 "You can press the <span class=\"ui\">Apply current style and color to all "
 "highlights</span> option to make all the highlights in the current book "
 "same. <b>Be careful, there is no undo!</b>"
-msgstr ""
+msgstr "Je kunt de optie <span class=\"ui\">Pas huidige stijl en kleur toe op alle markeringen</span> gebruiken om alle markeringen in het huidige boek gelijk te maken. <b>Let op: geen ongedaan maken!</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2587-5
 msgid "NOTES:"
-msgstr ""
+msgstr "NOTITIES:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2589-5
 msgid ""
@@ -5546,80 +5498,69 @@ msgid ""
 "contain a note. There are three styles: <span class=\"ui\">Underline, Side "
 "line</span> and <span class=\"ui\">Side mark</span> (which is the pencil "
 "icon shown on the right side of the picture below):"
-msgstr ""
+msgstr "Je kunt ook notities aan je markeringen toevoegen. Tik op een markering en kies <span class=\"ui\">Notitie toevoegen</span> in het pop-upmenu. Je kunt ook een <span class=\"ui\">Notitiemarkering</span> kiezen die aangeeft welke markeringen een notitie hebben. Er zijn drie stijlen: <span class=\"ui\">Onderstrepen, Zijlijn</span> en <span class=\"ui\">Zijmarkering</span> (het potlood-icoon rechts in de afbeelding)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2595-5
 msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
-msgstr ""
+msgstr "Om dit in te schakelen en een <span class=\"ui\">Notitiemarkering</span>-stijl te kiezen ga je naar:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div:2597-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:22px;\"> / Markeringen / Notitiemarkering"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2601-1
 msgctxt "user_guide/en.html+html.body.div.div:2601-1"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "Markeer-modi van KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2603-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr ""
+msgstr "KOReader heeft twee markeermodi voor verschillende situaties:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2608-1
 msgid "Normal mode"
-msgstr ""
+msgstr "Normale modus"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2610-5
 msgid ""
 "<span class=\"ui\">Normal mode</span> is similar to selecting a text with "
 "your finger on a phone/tablet and more suitable if your highlights are "
 "shorter than one page."
-msgstr ""
+msgstr "<span class=\"ui\">Normale modus</span> lijkt op tekst selecteren met je vinger op een telefoon/tablet en is handiger als markeringen korter dan een pagina zijn."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2613-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Houd het beginwoord ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2614-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Sleep je vinger naar het einde van het fragment"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2615-9
 msgid "Release finger"
-msgstr ""
+msgstr "Laat los"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2618-5
 msgid ""
 "When you reach page boundaries, KOReader will turn the page for you to "
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
-msgstr ""
+msgstr "Wanneer je een paginagrens bereikt slaat KOReader voor je om zodat je kunt doorgaan met markeren <b>(alleen in EPUB/HTML)</b>. Je kunt dit uitschakelen via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div:2620-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Auto-"
 "scroll when selection reaches a corner"
-msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Tikken en gebaren / Lang ingedrukt op tekst / Auto-scroll wanneer selectie een hoek bereikt"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2624-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Selecteer-en-markeer modus"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2626-5
 msgid ""
@@ -5628,40 +5569,31 @@ msgid ""
 "better if you have touch screen sensitivity problems or motor control issues "
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
-msgstr ""
-"When you reach page boundaries, KOReader will turn the page for you to "
-"continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
-"this feature from:"
+msgstr "De <span class=\"ui\">Selecteer-en-markeer modus</span> is handiger voor langere passages die over paginagrens(en) gaan. Het werkt ook beter als je problemen hebt met aanraakgevoeligheid of motoriek, omdat je in deze modus niet hoeft te slepen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2628-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> If you have dictionary lookup "
 "enabled, when you long-press a word, you have to drag your finger to "
 "initiate this mode."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Als woordenboekopzoeking aanstaat moet je, wanneer je lang op een woord drukt, je vinger slepen om deze modus te starten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2630-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Dictionary "
 "on single word selection"
-msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Tikken en gebaren / Lang ingedrukt op tekst / Woordenboek bij enkel woord selecteren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2634-5
-#, fuzzy
 msgid "How to highlight:"
-msgstr "1. Export Highlights plugin"
+msgstr "Hoe markeer je:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2639-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
-msgstr ""
+msgstr "Houd het beginwoord lang ingedrukt (of sleep als woordenboekopzoeking aanstaat); een pop-upmenu verschijnt."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2640-5
 msgid ""
@@ -5671,19 +5603,19 @@ msgid ""
 "can cancel highlighting by tapping on the beginning of highlight again. You "
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
-msgstr ""
+msgstr "Tik op <span class=\"ui\">Selecteren</span>; je zit nu in markeermodus. Je ziet een indicator linksboven (tik erop voor meer info). Je annuleert door opnieuw op het begin te tikken. Je kunt pagina's omslaan met tikken/vegen en vrij navigeren (Inhoudsopgave, skim, enz.) in deze modus."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2641-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
-msgstr ""
+msgstr "Houd het eindwoord lang ingedrukt (of sleep) en het menu verschijnt weer."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2642-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
-msgstr ""
+msgstr "Tik nu op <span class=\"ui\">Markeren</span> om het fragment af te ronden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2645-5
 msgid ""
@@ -5691,19 +5623,14 @@ msgid ""
 "dialog to open closer to your highlight location, you can change the <span "
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
-msgstr ""
+msgstr "Deze dialoog opent normaal midden op het scherm. Wil je hem dichter bij je markering zien, verander dan de optie <span class=\"ui\">centrum</span> naar <span class=\"ui\">gebaarpositie</span> (op de tweede pagina van dit menu):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2647-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\">/ Taps and Gestures / Long-press on text / Highlight "
 "dialog position"
-msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Tikken en gebaren / Lang ingedrukt op tekst / Positie markeerdialoog"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2649-5
 msgid ""
@@ -5713,19 +5640,14 @@ msgid ""
 "will immediately enter the <span class=\"ui\">Select and highlight</span> "
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> Er is een <b>snellere</b> methode als je de <b>lang ingedrukt</b>-items niet nodig hebt. Schakel het pop-upmenu uit zodat je bij lang indrukken meteen de <span class=\"ui\">Selecteer-en-markeer</span> modus ingaat. Zo kun je elke lengte in twee tikken markeren. Zet hiervoor deze optie aan:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2651-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Select and "
 "highlight"
-msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Tikken en gebaren / Lang ingedrukt op tekst / Selecteer en markeer"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2657-5
 msgid ""
@@ -5737,20 +5659,14 @@ msgid ""
 "class=\"ui\">Inverted</span> as your highlight style. In this mode text "
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> KOReader kan op verschillende manieren markeren. Bij <span class=\"ui\">Verlichten</span> wordt de achtergrond grijs. Door e-ink beperkingen kan het scherm niet direct van wit naar grijs, dus flitst het via zwart. Wil je dat vermijden kies dan <span class=\"ui\">Omkeren</span>; de achtergrond wordt dan zwart zonder flits. Je past deze opties aan via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2659-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:2659-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:22px;\"> / Markeerstijl"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2664-5
 msgid ""
@@ -5758,11 +5674,11 @@ msgid ""
 "notes to the same section of text. If they are overlapping, when you tap on "
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> Je kunt meerdere markeringen en notities op hetzelfde tekstdeel hebben. Als ze overlappen krijg je bij tikken een menu om te kiezen welke je wilt bewerken."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2668-1
 msgid "Selecting punctuation while highlighting"
-msgstr ""
+msgstr "Leestekens selecteren tijdens markeren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2670-5
 msgid ""
@@ -5770,7 +5686,7 @@ msgid ""
 "marks around your selection. For example if you highlight from the first "
 "word to the last word of a sentence, KOReader will automatically include the "
 "punctuation marks at the both ends of the sentence to your highlight."
-msgstr ""
+msgstr "Tijdens het markeren probeert KOReader bijbehorende leestekens mee te nemen. Markeer je van het eerste tot het laatste woord van een zin dan worden de leestekens aan beide uiteinden automatisch toegevoegd."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2673-5
 msgid ""
@@ -5780,16 +5696,11 @@ msgid ""
 "to your highlight, be sure that you select the <b>whole sentence</b>. Also "
 "you can add these marks later by long pressing the <span "
 "class=\"ui\">Highlight edit</span> buttons."
-msgstr ""
-"When you tap on an already highlighted text <b>with a note added</b>, you "
-"will see this popup menu. Tap on <span class=\"ui\">Edit highlight</span> to "
-"open the menu above where you can edit both the highlight and the contained "
-"note:"
+msgstr "Begin je in het midden van een zin dan wordt het punt aan het einde <b>niet toegevoegd</b> omdat KOReader aanneemt dat je slechts een deel wilt markeren. Wil je leestekens erbij zorg dan dat je de <b>hele zin</b> kiest. Je kunt ze ook later toevoegen via lang indrukken op de <span class=\"ui\">Markering bewerken</span>-knoppen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2676-1
-#, fuzzy
 msgid "Editing highlights"
-msgstr "1. Export Highlights plugin"
+msgstr "Markeringen bewerken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2678-5
 msgid ""
@@ -5797,7 +5708,7 @@ msgid ""
 "will see this popup menu. <span class=\"ui\">Delete</span> and <span "
 "class=\"ui\">Add note</span> items are clear. Bottom row menu items are used "
 "to extend or shrink the highlight."
-msgstr ""
+msgstr "Als je op reeds gemarkeerde tekst tikt <b>(zonder notitie)</b> zie je dit pop-upmenu. <span class=\"ui\">Verwijderen</span> en <span class=\"ui\">Notitie toevoegen</span> spreken voor zich. De onderste rij wordt gebruikt om de markering te verlengen of te verkorten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2682-5
 msgid ""
@@ -5805,7 +5716,7 @@ msgid ""
 "reflowable documents like EPUBs. If you want to extend or shrink a highlight "
 "on PDFs, you have to delete it and highlight again due to the limitations of "
 "the PDF format."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Dit aanpassen werkt alleen in herschikbare documenten zoals EPUBs. In PDF's moet je een markering verwijderen en opnieuw maken door beperkingen van het PDF-formaat."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2684-5
 msgid ""
@@ -5813,7 +5724,7 @@ msgid ""
 "will see this popup menu. Tap on <span class=\"ui\">Edit highlight</span> to "
 "open the menu above where you can edit both the highlight and the contained "
 "note:"
-msgstr ""
+msgstr "Tik je op gemarkeerde tekst <b>met notitie</b> dan zie je dit pop-upmenu. Tik op <span class=\"ui\">Markering bewerken</span> om het menu te openen waarin je zowel de markering als de notitie wijzigt:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2688-5
 msgid ""
@@ -5821,7 +5732,7 @@ msgid ""
 "see only one type of bookmark by pressing the menu icon ( <img "
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;"
 "\"> ) You can also filter by highlight style:"
-msgstr ""
+msgstr "Op je <span class=\"ui\">Bladwijzers</span>-pagina kun je filteren om slechts één type te zien via het menu-icoon (<img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;\">). Je kunt ook op markeerstijl filteren:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2694-1
 #, fuzzy
