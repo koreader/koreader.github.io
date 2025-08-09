@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 13:31+0000\n"
-"PO-Revision-Date: 2025-08-09 13:32+0000\n"
+"PO-Revision-Date: 2025-08-09 13:34+0000\n"
 "Last-Translator: cyanjiang <cyanjiang@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -7509,7 +7509,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3249-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
-msgstr ""
+msgstr "<b>从阅读屏幕：</b>通过为其分配手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3252-5
 msgid ""
@@ -7517,15 +7517,17 @@ msgid ""
 "class=\"ui\">Gesture manager</span>. You can learn how to set gestures in "
 "the relevant section of this guide."
 msgstr ""
+"它位于<span class=\"ui\">手势管理器</span>的<span class=\"ui\""
+">文件浏览器</span>部分。您可以在本指南的相关部分学习如何设置手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3258-1
 msgctxt "user_guide/en.html+html.body.div.div:3258-1"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "查看其他文件类型"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3262-1
 msgid "Viewing text files"
-msgstr ""
+msgstr "查看文本文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3264-5
 msgid ""
@@ -7538,12 +7540,18 @@ msgid ""
 "indentation or centered text considered heading...) to guess how to better "
 "render the text and will try to create a <b>table of contents</b>."
 msgstr ""
+"如果您有<b>.txt</b>格式的书籍（在<b>中文</b>和<b>西里尔文</b>语言中更常见），"
+"您可以尝试启用<span class=\"ui\""
+">自动检测txt文件布局</span>功能。在某些情况下，它可以改善渲染效果，使文本更“"
+"像书”。启用后，渲染引擎将使用启发式方法（文本被包裹在一些最大行长下，标记段落"
+"的单行或双空行，缩进或被视为标题的居中文本…）来猜测如何更好地渲染文本，并尝试"
+"创建一个<b>目录</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3266-5
 msgid ""
 "You can enable this feature here (which is visible only if you are reading "
 "a .txt file):"
-msgstr ""
+msgstr "您可以在此处启用此功能（仅当您正在读取.txt文件时才可见）："
 
 #: user_guide/en.html%2Bhtml.body.div.div:3268-5
 msgid ""
@@ -7560,10 +7568,13 @@ msgid ""
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
 msgstr ""
+"请注意，此功能可能会弄乱 ASCII "
+"艺术绘图和基于空格字符的格式。如果您的图书具有这些功能，最好使用默认模式，在"
+"该模式下，文本文件以等宽字体按<b>原样</b>呈现。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3274-1
 msgid "Viewing archive files"
-msgstr ""
+msgstr "查看存档文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3276-5
 msgid ""
