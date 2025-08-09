@@ -3311,14 +3311,14 @@ line-height: 2rem;
 
 	<div class="L3-Smaller-heading">Setting file associations</div>
     
-    <p>You can also set file associations for file types which KOReader doesn’t automatically recognize. To associate a file with one of the KOReader providers, first long tap on your file in the <span class="ui">File Browser</span> then choose a provider engine to handle this file. You can check:</p>
+    <p>您还可以为KOReader无法自动识别的文件类型设置文件关联。要将文件与KOReader提供程序之一相关联，请首先在<span class="ui">文件浏览器</span>中长按您的文件，然后选择一个提供程序引擎来处理此文件。您可以选择：</p>
 
     <ul>
-        <li><span class="ui">Always use this engine for this file</span> to associate this provider with this particular file only</li>
+        <li><span class="ui">始终对此文件使用此引擎</span>仅将此提供程序与此特定文件相关联</li>
 
-        <li>Or check <span class="ui">Always use this engine for file type</span> to associate this provider with all the files that has same extension as this one</li>
+        <li>或者选择<span class="ui">始终对文件类型使用此引擎</span>，将此提供程序与所有与此提供程序具有相同扩展名的文件相关联</li>
 
-        <li>From the same dialog, you can see the associations you made by tapping on <span class="ui">View defaults for file types</span></li>
+        <li>在同一对话框中，您可以通过点击<span class="ui">查看默认文件类型</span>来查看所建立的关联</li>
     </ul>
     
     <img loading="lazy" src="pictures/open_with_association.png" style="width:50%;">
@@ -3534,16 +3534,16 @@ line-height: 2rem;
 
 	<p><span class="label_red">！！专业操作！！</span></p>
 
-	<p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+	<p>KOReader将与书籍相关的设置和额外信息存储在与书籍文件相同的目录中。我们称之为<b>元数据</b>，它包括：</p>
 	<ul>
-		<li>Visual settings for the book</li>
+		<li>书籍的显示设置</li>
 		<li>全书阅读进度</li>
 		<li>标注、书签及旁注笔记</li>
 	</ul>
 	
-	<p>In a recent change, we added new ways of storing this metadata to solve certain problems related to synchronization between devices. Currently there are three different methods to store the metadata and each method has its own benefits/negatives.</p>
+	<p>在最近的一次更改中，我们添加了存储此元数据的新方法，以解决与设备之间同步相关的某些问题。目前有三种不同的方法来存储元数据，每种方法都有自己的优缺点。</p>
 
-	<p>You can change this setting from this menu:</p>
+	<p>您可以从此菜单更改此设置：</p>
 
 	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / 文档相关 / 书籍元数据存放目录</div>
 
@@ -3552,70 +3552,70 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">1. Individual metadata folders next to the book files - DEFAULT SETTING</div>
+<div class="L3-Smaller-heading">1.书籍文件旁边的单个元数据文件夹-默认设置</div>
 
 		<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / 文档 / 书籍元数据存放目录：书籍所在文件夹</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>这是KOReader新安装时使用的<b>默认</b>方法。在此方法中，当您将<b>Alice In Wonderland.epub</b>复制到设备并首次打开时，将在同一目录中创建一个名为<span class="ui">Alice In Wonderland.sdr</span>的文件夹。此目录包含本书的设置、注释和书籍进度的文件。</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">好处</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>您可以手动备份和还原每本书的设置。</li>
+			<li>当您使用<b>Syncthing</b>或<b>Dropbox</b>等系统执行目录同步或备份时，您的设置将与您的书籍同步。</li>
+			<li>您可以重命名书籍所在的父目录，这不会混淆KOReader。</li>
 		</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">坏处</span></b></p>
 		<ul>
-			<li>If you reorganize your library by moving/renaming the book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
-			<li>These <b>.sdr</b> folders will be visible when you browse your library directories with another file browser or from your computer, which may clutter your view.</li>
+			<li>如果您通过在KOReader文件浏览器之外移动/重命名图书文件或其附带的.sdr文件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些图书的元数据。</li>
+			<li>当您使用其他文件浏览器或从计算机浏览库目录时，这些<b>.sdr</b>文件夹将可见，这可能会使您的视图变得混乱。</li>
 		</ul>
 	
 
 
-<div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">2.单个KOReader目录下的元数据目录</div>
 
 	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / 文档相关 / 书籍元数据存放目录：.../koreader/docsettings</div>
 
-<p>This method is essentially same as the default one above. The difference is, in this method, all <b>.sdr</b> folders of your books will be under a single directory <b>which is under the KOReader main directory structure</b>, instead of your library directory, next to the book files.</p>
+<p>此方法与上面的默认方法基本相同。不同的是，在这种方法中，您的所有书籍的<b>.sdr</b>文件夹都将位于<b>KOReader主目录结构</b>下的单个目录下，而不是书籍文件旁边的库目录下。</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">好处</span></b></p>
 	<ul>
-		<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+		<li>Book<b>.sdr</b>文件夹仅对KOReader可见并由其使用。当您使用另一个文件浏览器或从计算机浏览库时，它们不会打乱您对库目录的查看。</li>
 	</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">坏处</span></b></p>
 	<ul>
-		<li>If you reorganize your library by moving/renaming the moving/renaming library directories, book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
+		<li>如果您通过在KOReader文件浏览器之外移动/重命名移动/重命名库目录、图书文件或其附带的.sdr文件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些图书的元数据。</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>由于您的图书元数据不在库文件夹中，因此库的任何同步或备份都不会包含它们。</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">3.单个KOReader目录下的单个HASHED元数据目录</div>
 
 	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / 文档相关 / 书籍元数据存放目录：.../koreader/hashdocsettings</div>
 
-	<p>This method is similar to the previous one as the <b>.sdr</b> folders will be under an internal directory. But this method is developed to address the shortcomings of the previous method. Because, normally if you rename a book outside KOReader (with the native file manager/reader of the device or from a connected computer), its <b>.sdr</b> folder name will no longer match and your metadata for that book will be lost. <b>If you are only using the KOReader File Browser for file operations, this is automatically handled so there are no repercussions.</b></p>
+	<p>此方法与前一种方法类似，因为<b>.sdr</b>文件夹将位于内部目录下。但这种方法是为了解决以前方法的缺点而开发的。因为，通常如果您在KOReader之外重命名一本书（使用设备的本机文件管理器/阅读器或从连接的计算机），其<b>.sdr</b>文件夹名称将不再匹配，并且该书的元数据将丢失。<b>如果您只使用KOReader文件浏览器进行文件操作，则会自动处理，因此不会产生任何影响。</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>在这种<b>HASHED</b>方法中，<b>.sdr</b>文件夹不是由书籍的文件路径/文件名标识的。相反，将使用部分<b>MD5哈希</b>将书籍链接到其设置。此哈希用作图书的唯一ID，并根据<b>图书文件的内容</b>计算。同样的哈希也用于命名其.sdr文件夹。</p>
 		
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">好处</span></b></p>
 		<ul>
-			<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+			<li>书籍<b>.sdr</b>文件夹仅对KOReader可见并由其使用。当您使用另一个文件浏览器或从计算机浏览库目录时，它们不会弄乱您对库目录的视图。</li>
 
-			<li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+			<li>您可以使用其他文件浏览器或从计算机重命名、移动和复制书籍。经过这些操作后，KOReader仍将识别这些书籍。</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>在这种方法中，KOReader将同一个<b>.sdr</b>文件夹与书籍的所有副本相关联，即使这些副本位于不同的设备上。例如，如果您正在使用<b>Syncthing</b>，此方法使您能够在安装了KOReader的许多设备上同步您的<span class="ui">/hashdocsettings</span>文件夹以及您的书籍文件。尽管这些书在每个设备上的相对路径不同，但您仍然可以在设备之间同步注释和进度。这在其他方法中是不可能的。</li>
 		</ul>
 
-		<p><b><span class="label_red">Negatives</span></b></p>
+		<p><b><span class="label_red">坏处</span></b></p>
 		<ul>
 			<li>任何直接修改文件的操作（如将标注写入PDF文档或从<b>Calibre</b>下载标注）都会使文件发生变化，导致文件的<b>MD5校验值发生变化</b>（不过重命名文件或移动文件对此没有影响）。此时KOReader无法识别该书籍，因此该书籍的元数据将会丢失。</li>
 
-			<li>Calculating file IDs may slow down <span class="ui">File browser</span> navigation when browsing larger directories.</li>
+			<li>在浏览较大目录时，计算文件ID可能会减慢<span class="ui">文件浏览器</span>的导航速度。</li>
 		</ul>
 
 
@@ -3627,7 +3627,7 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-gestures">手势交互与键盘快捷键</div>
 
     <p>
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.</p>
+    您可以使用许多类型的手势来控制KOReader。某些手势在屏幕上的使用位置和支持的方向方面存在限制。这些限制如下所示。</p>
 
     <div class="L2-Sub-heading" id="L2-gesturetypes">交互手势的种类</div>
 
@@ -3640,53 +3640,53 @@ line-height: 2rem;
             <td style="width: 25%;">
                 <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
             </td>
-            <td><p class="ui">TAP / DOUBLE TAP</p>
-                <p>Single or double tap with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">点击 / 双击</p>
+                <p>用<b>一个</b>手指轻敲或双击</p>
+                <p><b>工作区：</b>屏幕上的任何地方</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TAP AND HOLD</p>
-                <p>Single tap and hold with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">点按</p>
+                <p>用<b>一个</b>手指轻点并按住</p>
+                <p><b>工作区：</b>只在四个角落</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TWO FINGER TAP</p>
-        <p>Single tap with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">双指点击</p>
+        <p>用<b>两个</b>手指在同一时间轻轻敲击</p>
+        <p><b>工作区：</b>只在四个角落</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
-            <td><p class="ui">SPREAD AND PINCH</p>
-        <p>Same as zooming in and out on a phone or tablet.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">伸展和捏合</p>
+        <p>与在手机或平板电脑上放大和缩小相同。</p>
+        <p><b>工作区：</b>屏幕上的任何地方</p>
         <div class="info"><span class="label_blue">说明</span> 该手势交互在部分设备型号上可能无法稳定生效。如果发生这种情况，请选择其它的交互手势。</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
-            <td><p class="ui">ONE FINGER SWIPE</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p></td>
+            <td><p class="ui">单指滑动</p>
+        <p>用<b>一个</b>手指轻扫动作</p>
+        <p><b>工作区:</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置 </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
-            <td><p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">双指滑动</p>
+        <p>用<b>两个</b>手指在同一时间滑动动作</p>
+        <p><b>工作区：</b>屏幕上的任何地方</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
-            <td><p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">多重滑动</p>
+        <p>在不抬起手指的情况下连续完成多次滑动。例如，比如画字母 <b>U</b>（下-右-上）</p>
+        <p><b>工作区：</b>屏幕上的任何地方</p></td>
         </tr>
         <tr>
             <td></td>
@@ -3698,7 +3698,7 @@ line-height: 2rem;
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">内置的手势交互</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    此表显示了KOReader附带的手势。 您可以通过以下方式根据自己的喜好更改这些手势:</p>
 
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 交互手势管理</div>
@@ -3708,42 +3708,42 @@ line-height: 2rem;
 
     <br>
 
-    <div class="L3-Smaller-heading">CORNER TAP</div>
+    <div class="L3-Smaller-heading">点击边角</div>
     
-    <p><b>Top Left Corner</b> > Toggle page flipping</p>
-    <p><b>Top Right Corner</b> > Toggle bookmark</p>
-    <p><b>Opposing diagonal corners at the same time</b> > Take screenshot</p>
+    <p><b>左上角</b>>切换翻页</p>
+    <p><b>右上角</b> > 切换书签</p>
+    <p><b>同时点击对角</b>>截图</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">DOUBLE TAP</div>
-    <p><b>Left Side</b> > Go -10 pages</p>
-    <p><b>Right Side</b> > Go +10 pages</p>
+    <div class="L3-Smaller-heading">双击</div>
+    <p><b>左侧</b>>后翻10页</p>
+    <p><b>右侧</b>>前翻10页</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
-    <p><b>Short diagonal swipe</b> > Full screen refresh</p>
-    <p><b>Long diagonal swipe</b> > Take screenshot</p>
+    <div class="L3-Smaller-heading">单指滑动</div>
+    <p><b>短对角滑动</b>>全屏刷新</p>
+    <p><b>长对角线滑动</b>>截图</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">MULTISWIPES</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
+    <div class="L3-Smaller-heading">多重滑动</div>
+    <p><span style="font-family: microns;"></span> - 返回上个位置</p>
+    <p><span style="font-family: microns;"></span> - 转到最后的书签</p>
     <p><span style="font-family: microns;"></span>——跳读全书</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
-    <p><span style="font-family: microns;"></span> - Table of contents</p>
-    <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
-    <p><span style="font-family: microns;"></span> - Toggle reflow</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
-    <p><span style="font-family: microns;"></span> - Next chapter</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
-    <p><span style="font-family: microns;"></span> - Favorites</p>
+    <p><span style="font-family: microns;"></span> - 书签</p>
+    <p><span style="font-family: microns;"></span> - 目录</p>
+    <p><span style="font-family: microns;"></span> - 显示前灯对话框</p>
+    <p><span style="font-family: microns;"></span> - 重排</p>
+    <p><span style="font-family: microns;"></span> - 历史</p>
+    <p><span style="font-family: microns;"></span> - 书籍状态</p>
+    <p><span style="font-family: microns;"></span> - 转到页面</p>
+    <p><span style="font-family: microns;"></span> - 返回</p>
+    <p><span style="font-family: microns;"></span> - 上一章</p>
+    <p><span style="font-family: microns;"></span> - 下一章</p>
+    <p><span style="font-family: microns;"></span> - 打开上一个文档</p>
+    <p><span style="font-family: microns;"></span> - 收藏</p>
 
     </div>
 
@@ -3752,7 +3752,7 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">手势交互分类</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        这是您可以使用<span class="ui">手势管理器</span>菜单分配给手势的每个操作的列表。您可以使用浏览器的搜索功能（通常为<b>Ctrl+F</b>）在此处搜索操作。这些操作也可以在您自己的<span class="ui">快速菜单</span>中使用。请查看指南中的相关部分以获取更多信息。</p>
 
     <div class="info"><span class="label_blue">说明</span> 在为手势交互指定对应操作时，可以看到选单中包含名为 <span class="ui">忽略</span>的特殊操作项。该选项用于保留当前手势交互的默认操作定义（如长按屏幕四角进入文本选择模式）。若要禁用某种交互手势以避免误触，请选择 <span class="ui">无</span>选项。换句话说，<span class="ui">忽略</span>选项等于<b>其它操作可能会使用该手势</b>，而<span class="ui">无</span>选项则意味着<b>禁止任何操作使用该手势</b>。</div>
 
@@ -3800,9 +3800,9 @@ line-height: 2rem;
                 
                 <li>阅读进度</li>
                 <li>开/关 SSH 服务器</li>
-                <li>Statistics calendar view</li>
-                <li>Statistics today’s timeline</li>
-                <li>Synchronize book statistics</li>
+                <li>统计日历视图</li>
+                <li>今天的统计时间线</li>
+                <li>同步书籍统计</li>
             </ol>
 
 
@@ -3816,12 +3816,12 @@ line-height: 2rem;
                 <li>启用触摸输入</li>
                 <li>禁用触摸输入</li>
                 <li>开/关 触摸输入</li>
-                <li>Invert page turn buttons</li>
+                <li>反转翻页按钮</li>
                 <li>屏幕方向</li>
                 <li>切换屏幕方向</li>
                 <li>屏幕旋转180°</li>
-                <li>Rotate by 90 CW</li>
-                <li>Rotate by 90 CCW</li>
+                <li>顺时针旋转90度</li>
+                <li>逆时针旋转90度</li>
                 <li>切换全屏</li>
                 <li>显示网络信息</li>
                 <li>电量统计</li>
@@ -3830,7 +3830,7 @@ line-height: 2rem;
                 
 
                 <li>启动U盘读写模式</li>
-                <li>Suspend</li>
+                <li>休眠</li>
                 <li>重启设备</li>
                 <li>关机</li>
                 <li>触发重复按键操作</li>
@@ -3874,7 +3874,7 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">可重排文件</div>
             <ol>
                 <li>字型</li>
                 <li>增大字号</li>
@@ -3883,23 +3883,23 @@ line-height: 2rem;
                 <li>词间距</li>
                 <li>字间距</li>
                 <li>对比度</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
+                <li>字重</li>
+                <li>字体微调</li>
+                <li>字体字距</li>
+                <li>两栏</li>
+                <li>左右边距</li>
+                <li>同步顶/底边距</li>
+                <li>顶部边距</li>
+                <li>底部边距</li>
+                <li>查看模式（连续页）</li>
+                <li>渲染模式</li>
                 <li>缩放</li>
-                <li>Line spacing</li>
+                <li>行距</li>
                 <li>副状态栏</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>内嵌样式</li>
+                <li>内置字体</li>
+                <li>图像缩放</li>
+                <li>图片反色</li>
             </ol>
 
         
@@ -3980,7 +3980,7 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">固定布局文档</div>
             <ol>
                 <li>开/关 快捷跳页</li>
                 <li>开/关 书签跳页</li>
@@ -3988,7 +3988,7 @@ line-height: 2rem;
                 <li>缩放模式</li>
                 <li>更改缩放比例</li>
                 <li>开/关 区块缩放</li>
-                <li>Page crop</li>
+                <li>页面裁剪</li>
                 <li>页边距</li>
                 <li>水平重叠</li>
                 <li>垂直重叠</li>
@@ -3997,22 +3997,22 @@ line-height: 2rem;
                 <li>页面分割的栏与节数量</li>
                 <li>缩放比例</li>
                 <li>翻页方向</li>
-                <li>View mode</li>
-                <li>Page gap</li>
-                <li>Line spacing</li>
+                <li>显示模式</li>
+                <li>页面间隙</li>
+                <li>行距</li>
                 <li>对齐方式</li>
                 <li>字号</li>
                 <li>调整字号</li>
-                <li>Word gap</li>
+                <li>字距</li>
                 <li>页面重排</li>
                 <li>对比度</li>
                 <li>去水印</li>
-                <li>Render quality</li>
-                <li>Document language</li>
+                <li>渲染质量</li>
+                <li>文档语言</li>
                 <li>强制 OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
-                <li>Auto straighten</li>
+                <li>文字方向</li>
+                <li>文档列数</li>
+                <li>自动拉直</li>
             </ol>
 
     </div>
@@ -4020,23 +4020,23 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Keyboard Shortcuts</div>
+<div class="L2-Sub-heading" id="L2-keyboardshortcuts">快捷键</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>如果你有一个带键盘的设备，比如<b>Kindle 2</b>和<b>Kindle 3</b>，包括蓝牙键盘和模拟器，你可以使用键盘键、设备按钮和快捷键来控制KOReader。<b>Kindle 4</b>也受支持，它没有完整的键盘，但仍然有足够的按钮使其在这种情况下正常工作。在这些设备上，KOReader将启用一个名为<span class="ui">键盘快捷键</span>的额外菜单，您可以在此处访问该菜单：</p>
 
 <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / 定位相关 / 实体键 / 键盘快捷键</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>此菜单与<span class="ui">手势管理器</span>界面非常相似。在此菜单中：</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>您可以看到设备上可用的快捷键</li>
+        <li>您可以看到一些快捷方式的预定义操作</li>
+        <li>您可以将操作分配给可用的快捷方式</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p><span class="ui">手势管理器</span>中的所有操作也可用于键盘快捷键分配。这意味着您可以通过这些快捷方式控制KOReader的几乎所有功能。</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>在下表中，您可以看到默认的按键和快捷键分配：</p>
 
 
     
@@ -4050,35 +4050,35 @@ line-height: 2rem;
 
         <table class="grid-table" style="width: 65%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
-            <td><div class="L3-Smaller-heading">File browser mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">文件浏览器模式</div></td><td></td>
         </tr>
 
         <tr>
-            <td>Open top menu</td>
+            <td>打开顶部菜单</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Navigate to home</td>
+            <td>导航到主页</td>
             <td><b>主目录</b></td>
         </tr>
         <tr>
-            <td>Move in file list</td>
-            <td><b>Up / Down</b></td>
+            <td>移入文件列表</td>
+            <td><b>上/下</b></td>
         </tr>
         <tr>
-            <td>Open selected book</td>
+            <td>打开所选图书</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>退出应用程序</td>
             <td><b>Esc键</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Reading mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">阅读模式</div></td><td></td>
         </tr>
         <tr>
-            <td>Open top menu</td>
+            <td>打开顶部菜单</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
