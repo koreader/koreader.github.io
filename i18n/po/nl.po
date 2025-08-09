@@ -38,7 +38,7 @@ msgid ""
 "the <b>overall translation status</b> below. But we only link to the "
 "languages which are translated <b>above 50%</b> for usability reasons."
 msgstr ""
-"Je leest momenteel de <b>Nederlandse</b> (vertaalde) versie van de "
+msgstr "Bestanden zoals MOBI en EPUB zijn ongeschikt voor voornamelijk beeld (manga/strips). <b>MOBI</b>-ondersteuning in KOReader is minimaal en de tekstfocus van <b>EPUB</b> kan problemen geven bij paginavullende afbeeldingen. Zie dit <a href=\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\">GitHub issue</a> voor details." 
 "<b>KOReader Gebruikershandleiding</b>. Vrijwilligers zijn deze handleiding "
 "ook aan het vertalen naar andere talen. We hebben veel vertalingen in "
 "uitvoering, zoals je kunt zien in de <b>algemene vertaalstatus</b> "
@@ -5986,9 +5986,8 @@ msgstr ""
 "markeerstijl filteren:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2694-1
-#, fuzzy
 msgid "Editing the text of a highlight"
-msgstr "1. Export Highlights plugin"
+msgstr "Tekst van een markering bewerken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2696-5
 msgid ""
@@ -6001,7 +6000,7 @@ msgid ""
 "specify in your note, which one is wrong. But if you edit the text of a "
 "highlight, you can directly write <b>\"(this date needs to be checked)\"</b> "
 "next to the problematic date."
-msgstr ""
+msgstr "Naast het toevoegen van een notitie kun je in KOReader ook de gemarkeerde tekst zelf bewerken zoals die in de <span class=\"ui\">Bladwijzerlijst</span> verschijnt. Soms is dat handiger dan een notitie toevoegen. Stel dat je een tekst nakijkt, een zin met meerdere data markeert en één datum is fout. Met een notitie moet je uitleggen welke. Bewerk je de markeringstekst dan kun je direct <b>\"(deze datum controleren)\"</b> achter de foute datum zetten."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2698-5
 msgid ""
@@ -6010,47 +6009,45 @@ msgid ""
 "sentence in the reader. Your edit will be visible in the <span "
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
-msgstr ""
+msgstr "Let op: deze bewerking <b>verandert de inhoud van het boek niet</b> en ook niet de gemarkeerde passage op de pagina. In de reader zie je dezelfde gemarkeerde zin. Je bewerking verschijnt alleen in de <span class=\"ui\">Bladwijzerlijst</span>. Bij export wordt de bewerkte tekst meegenomen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2700-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Om de tekst van een markering te bewerken kun je:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2702-13
-#, fuzzy
 msgid "Tap on the highlight"
-msgstr "1. Export Highlights plugin"
+msgstr "Tik op de markering"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2703-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "Tik op <span class=\"ui\">Details</span> in het pop-upmenu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2704-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
-msgstr ""
+msgstr "Kies <span class=\"ui\">Tekst bewerken</span> in de detailsdialoog"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2708-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "Je kunt het ook vanuit het Bladwijzervenster doen:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2711-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
-msgstr ""
+msgstr "Ga naar de <span class=\"ui\">Bladwijzerlijst</span> via menu of gebaar"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2712-9
 msgid "Long press on the highlight you want to edit"
-msgstr ""
+msgstr "Houd de markering die je wilt bewerken lang ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2713-9
-#, fuzzy
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr "Text (.txt)"
+msgstr "Kies <span class=\"ui\">Tekst bewerken</span> in het menu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2714-9
 msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
-msgstr ""
+msgstr "Wijzig de tekst in de dialoog en druk op <span class=\"ui\">Opslaan</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2717-5
 msgid ""
@@ -6058,11 +6055,11 @@ msgid ""
 "follow the steps above and at the step <b>3</b>, instead of <span "
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
-msgstr ""
+msgstr "Wil je terug <b>naar de originele tekst</b>, volg dan dezelfde stappen en druk bij stap <b>3</b> op <span class=\"ui\">Tekst resetten</span> in plaats van <span class=\"ui\">Tekst bewerken</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2720-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
-msgstr ""
+msgstr "Weergave van toegevoegde notities in de Bladwijzerlijst aanpassen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
 msgid ""
@@ -6071,33 +6068,29 @@ msgid ""
 "a pencil icon in the Bookmarks list. You can long-press on an item in this "
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
-msgstr ""
+msgstr "Normaal toont de Bladwijzerlijst alleen de gemarkeerde tekst. Heb je een notitie toegevoegd dan zie je enkel een potloodicoon. Lang indrukken toont (en laat bewerken) de notitie. Wil je de notitietekst ook direct zien dan stel je dat hier in:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div:2724-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
-msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style=\"width:22px;\"> / Instellingen / Bladwijzers / Toon in items"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "Je kunt tonen:" 
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2728-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr ""
+msgstr "<b>Alleen</b> markeringstekst (standaard)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2729-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr ""
+msgstr "<b>Zowel</b> markeringstekst als notitie"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2730-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr ""
+msgstr "<b>Notitie indien aanwezig</b>, anders markeringstekst"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2733-5
 msgid ""
@@ -6105,25 +6098,18 @@ msgid ""
 "bookmarks window is static and divided equally. If you want a more flexible "
 "layout, you can change the <span class=\"ui\">Max lines per bookmark</span> "
 "setting from here:"
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> Het aantal items in het bladwijzervenster is normaal vast en gelijk verdeeld. Wil je meer flexibiliteit wijzig dan <span class=\"ui\">Max regels per bladwijzer</span> hier:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2735-6
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks / Max lines per bookmark"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style=\"width:26px;\"> / Instellingen / Bladwijzers / Max regels per bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2739-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2739-1"
 msgid "Exporting highlights"
-msgstr "1. Export Highlights plugin"
+msgstr "Markeringen exporteren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2741-5
 msgid ""
@@ -6132,21 +6118,19 @@ msgid ""
 "plugin and set your target directory in the plugin’s settings (<span "
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
-msgstr ""
-"This versatile plugin can export your highlights to <b>local files</b> or "
-"<b>online services</b>."
+msgstr "Na het uitlezen van een boek kun je het naar een specifieke map verplaatsen voor archivering of verdere verwerking. Schakel de plugin <span class=\"ui\">Verplaats naar archief</span> in en stel de doelmap in (<span class=\"ui\">Archiefmap instellen</span>). Daarna verplaats je een boek via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2745-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr ""
+msgstr "<span class=\"ui\">Verplaats naar archief</span>-pluginmenu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Met een gebaar of"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr "Text (.txt)"
+msgstr "Met een <span class=\"ui\">Snelmenu</span>-item"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2750-5
 msgid ""
@@ -6222,91 +6206,83 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2781-5
 msgid "Online services"
-msgstr ""
+msgstr "Onlinediensten"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2783-5
-#, fuzzy
 msgid "You can also export to these services over the network:"
-msgstr ""
-"You can find more info about the <b>table of contents</b> tools available in "
-"KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
-"OF CONTENTS TOOLS</a>"
+msgstr "Je kunt ook via het netwerk naar deze diensten exporteren:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
-msgstr ""
+msgstr "<a href=\"https://joplinapp.org/\">Joplin</a> - een notitie-app"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2787-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
-msgstr ""
+msgstr "<a href=\"https://readwise.io/\">Readwise</a> - online bladwijzer-/markeringsdienst"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2788-9
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
-msgstr ""
+msgstr "<a href=\"https://github.com/usememos/memos\">Memos</a> - zelfgehost open-source memoplatform"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2789-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
-msgstr ""
+msgstr "<a href=\"https://flomoapp.com\">Flomo</a> - online notitiedienst"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
-msgstr ""
+msgstr "<a href=\"https://www.xmnote.com/\">XMNote</a> - een Chinese Android-bladwijzerbeheerder"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2798-5
 msgid ""
 "You can find detailed setup instructions for these services on our related "
 "<a href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki "
 "page</a>."
-msgstr ""
+msgstr "Gedetailleerde configuratie-instructies staan op onze <a href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2802-5
 msgid ""
 "After selecting your formats, you can export the notes for the <b>current "
 "book</b> or <b>all the books in your library</b> from the same plugin menu."
-msgstr ""
+msgstr "Na het selecteren van formaten kun je in hetzelfde pluginmenu de notities van het <b>huidige boek</b> of <b>alle boeken in je bibliotheek</b> exporteren."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2803-5
 msgid ""
 "If you want to export only some of the books in your library, you can do "
 "this from the <span class=\"ui\">File Browser</span>:"
-msgstr ""
+msgstr "Wil je slechts enkele boeken exporteren, dan kan dat via de <span class=\"ui\">Bestandsverkenner</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2805-9
 msgid "Select multiple books in the <span class=\"ui\">File Browser</span>"
-msgstr ""
+msgstr "Selecteer meerdere boeken in de <span class=\"ui\">Bestandsverkenner</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2806-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
-msgstr ""
+msgstr "Tik op de menuknop (vinkje) rechtsboven"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2807-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
-msgstr ""
+msgstr "Kies <span class=\"ui\">Markeringen exporteren</span> in het menu"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2810-5
 msgid ""
 "<span class=\"label_green\">TIP</span> You can also export only some of "
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
 "Normally KOReader exports all of them. You can choose from:"
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> Je kunt ook slechts bepaalde stijlen exporteren (<b>verlichten, onderstrepen, doorhalen, omkeren</b>) in plaats van allemaal. Kies via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2812-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
-msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style=\"width:22px;\"> / Markeringen exporteren / Kies markeringsstijlen"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2816-5
 msgid ""
@@ -6314,11 +6290,11 @@ msgid ""
 "gestures for quicker access. You can find these under the <span "
 "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
-msgstr ""
+msgstr "<span class=\"label_green\">TIP</span> Je kunt exportacties aan gebaren koppelen voor sneller gebruik. Ze staan onder de categorie <span class=\"ui\">Reader</span> in de <span class=\"ui\">Gebarenbeheerder</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2821-1
 msgid "2. Using KoHighlights"
-msgstr ""
+msgstr "2. KoHighlights gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2823-5
 msgid ""
@@ -6327,11 +6303,11 @@ msgid ""
 "when you plug your reader to your computer. Check the <a href=\"https://"
 "github.com/noembryo/KoHighlights\">GitHub project page</a> for download and "
 "instructions."
-msgstr ""
+msgstr "<span class=\"external\">KoHighlights</span> is een extern programma dat je op je computer installeert. Het leest notities en markeringen wanneer je je reader aansluit. Zie de <a href=\"https://github.com/noembryo/KoHighlights\">GitHub-pagina</a> voor download en instructies."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-1
 msgid "3. Using Calibre"
-msgstr ""
+msgstr "3. Calibre gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2830-5
 msgid ""
@@ -6342,7 +6318,7 @@ msgid ""
 "mentioned plugin within the <span class=\"external\">Calibre</span> "
 "application. Check the <a href=\"https://calibre-ebook.com/\">project page</"
 "a> for download and instructions."
-msgstr ""
+msgstr "<span class=\"external\">Calibre</span> is een extern programma op je computer. Je kunt markeringen importeren in de <span class=\"external\">Calibre</span>-database via de <span class=\"external\">KOReader Sync</span>-plugin. Installeer deze plugin binnen Calibre. Zie de <a href=\"https://calibre-ebook.com/\">projectpagina</a> voor download en instructies."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-9
 msgid ""
@@ -6351,7 +6327,7 @@ msgid ""
 "document. This directory contains a .LUA file which includes all the "
 "highlights, notes and user options (formatting properties etc.) related to "
 "that document. You can manually backup/restore these directories."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Wanneer je een document opent maakt KOReader een map naast het bestand met dezelfde naam. Die bevat een .LUA-bestand met alle markeringen, notities en gebruikersopties (opmaak enz.). Je kunt deze mappen handmatig back-uppen of terugzetten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2841-1
 msgctxt "user_guide/en.html+html.body.div.div:2841-1"
@@ -6748,7 +6724,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2984-9
 msgid "How PDF highlights work in KOReader"
-msgstr ""
+msgstr "Hoe PDF-markeringen werken in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2985-9
 msgid ""
@@ -6759,21 +6735,21 @@ msgid ""
 "see the highlights with a compatible PDF reader. They won't need your <span "
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
-msgstr ""
+msgstr "PDF-markeringen werken net iets anders dan hierboven beschreven. Wanneer je je PDF-markeringen opslaat, worden ze direct in het PDF-bestand geschreven en maken ze dus deel uit van het bestand zelf. Daarom kun je deze PDF naar iemand anders sturen en kan die de markeringen zien in een compatibele PDF-lezer. Ze hebben je <span class=\"ui\">.sdr map</span> niet nodig met het overzicht van je markeringen omdat die nu rechtstreeks in het PDF-bestand zijn ingebed."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2987-9
 msgid ""
 "Let's explain the problem which can arise when you are using this feature, "
 "on an example. Imagine that you are reading a PDF book on your <b>e-reader</"
 "b> with KOReader:"
-msgstr ""
+msgstr "We leggen met een voorbeeld uit welk probleem kan ontstaan bij gebruik van deze functie. Stel: je leest een PDF-boek op je <b>e-reader</b> met KOReader:" 
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2990-13
 msgid ""
 "You are making highlights and <span class=\"ui\">Save highlights to PDF</"
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
-msgstr ""
+msgstr "Je maakt markeringen en de optie <span class=\"ui\">Markeringen opslaan in PDF</span> staat aan, dus terwijl je markeert slaat KOReader ze op in het PDF-bestand." 
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2991-13
 msgid ""
@@ -6781,13 +6757,13 @@ msgid ""
 "you copy this PDF file from your <b>e-reader</b> to your <b>phone</b> (but "
 "you didn't copy the <span class=\"ui\">.sdr folder</span>, only the PDF "
 "file)."
-msgstr ""
+msgstr "Je wilt verder lezen op je <b>telefoon</b> met KOReader, dus je kopieert het PDF-bestand van je <b>e-reader</b> naar je <b>telefoon</b> (maar je kopieert de <span class=\"ui\">.sdr map</span> niet, alleen het PDF-bestand)." 
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2992-13
 msgid ""
 "When you open the book on your <b>phone</b> with KOReader, you will see that "
 "your highlights are still there."
-msgstr ""
+msgstr "Als je het boek op je <b>telefoon</b> opent met KOReader zie je dat je markeringen er nog steeds zijn." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:2995-9
 msgid ""
@@ -6795,7 +6771,7 @@ msgid ""
 "reader</b> and <b>phone</b> KOReader shows the PDF file with the same "
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
-msgstr ""
+msgstr "Nu lijkt de situatie op beide apparaten identiek: zowel je <b>e-reader</b> als je <b>telefoon</b> tonen het PDF-bestand met dezelfde markeringen. Maar het <b>lijkt</b> alleen zo; er is een belangrijk verschil." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:2997-9
 msgid ""
@@ -6803,7 +6779,7 @@ msgid ""
 "this PDF file are made by KOReader because it has the <span class=\"ui\">."
 "sdr folder</span>. But KOReader on your phone doesn't have this knowledge. "
 "It only has the PDF file."
-msgstr ""
+msgstr "KOReader op je <b>e-reader</b> weet welke markeringen in deze PDF door KOReader zijn gemaakt dankzij de <span class=\"ui\">.sdr map</span>. KOReader op je telefoon weet dat niet; die heeft alleen het PDF-bestand." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:2999-9
 msgid ""
@@ -6812,7 +6788,7 @@ msgid ""
 "But your <b>phone</b> KOReader can't, because as we said, it doesn't have "
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
-msgstr ""
+msgstr "Het verschil merk je wanneer je de PDF-markeringen wilt verwijderen of exporteren. Je <b>e-reader</b> kan ze verwijderen en exporteren. KOReader op je <b>telefoon</b> kan dat niet omdat, zoals gezegd, de <span class=\"ui\">.sdr map</span> ontbreekt en de markeringen daardoor voor dat apparaat lijken alsof ze origineel bij het boek horen." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3001-9
 msgid ""
@@ -6935,32 +6911,27 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3038-1
 #, fuzzy
 msgid "Panel zoom feature"
-msgstr "Render quality"
+msgstr "Panel-zoomfunctie"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3040-5
 msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
-msgstr ""
+msgstr "Deze functie maakt strips lezen op kleine schermen makkelijker. Je schakelt haar in tijdens het lezen van een <b>PDF-, DJVU-, CBZ- of CBT</b>-document via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3042-5
 #, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3044-5
 msgid ""
 "When this option is enabled, KOReader tries to find the boundaries of "
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
-msgstr ""
+msgstr "Wanneer deze optie aan staat probeert KOReader de grenzen van rechthoekige panelen te vinden. Bij lang indrukken op een paneel zoomt KOReader in en toont alleen dat paneel." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3046-5
 msgid ""
@@ -6971,11 +6942,11 @@ msgid ""
 "class=\"ui\">swipe down</span> this zoomed in panel. Also you can use any "
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
-msgstr ""
+msgstr "Dit werkt het best bij strips met duidelijke kaderranden. Er is geen automatische <b>paginawissel</b> naar het volgende paneel omdat dat lastig betrouwbaar kan. Sluit het ingezoomde paneel en lang druk op het volgende. Veeg simpelweg <span class=\"ui\">omlaag</span> op het ingezoomde paneel, of gebruik een willekeurig <span class=\"ui\">multiveeggebaar</span> (combinatie van omhoog/omlaag/links/rechts) om terug te gaan." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3048-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "De procedure zie je hieronder:" 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3052-5
 msgid ""
@@ -6983,12 +6954,12 @@ msgid ""
 "or image files, you should open the file with a different engine: In the "
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
-msgstr ""
+msgstr "Wil je dit met bestandstypen zoals EPUB, FB2, HTML of losse afbeeldingen gebruiken, open het dan met een andere engine: lang tik op de bestandsnaam in de <span class=\"ui\">Bestandsverkenner</span>, tik <span class=\"ui\">Openen met…</span> en kies <span class=\"ui\">MuPDF</span>." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3056-1
 msgctxt "user_guide/en.html+html.body.div.div:3056-1"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Spring naar het volgende bestand"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3058-5
 msgid ""
@@ -7013,40 +6984,40 @@ msgid ""
 "file as finished from the end of book dialog shown above. Also you can mark "
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
-msgstr ""
+msgstr "Bij het openen slaat KOReader bestanden over die je als <b>afgerond</b> markeerde. Handig bij een map met manga waarvan je er al een paar gelezen hebt. Je markeert een bestand in de eind-van-boek dialoog of door lang te drukken in de <span class=\"ui\">Bestandsverkenner</span>. Nadat je ze kopieerde kun je:" 
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3065-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
-msgstr ""
+msgstr "Open de <span class=\"ui\">Bestandsverkenner</span> in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3066-5
 msgid ""
 "Long press on the ones you already finished and tap <span class=\"ui\">Mark "
 "as finished</span>"
-msgstr ""
+msgstr "Lang drukken op de bestanden die je uit hebt en <span class=\"ui\">Markeren als afgerond</span> tikken" 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3069-5
 msgid ""
 "Now you can read all the files by just tapping <span class=\"ui\">Open next "
 "file</span> at the end of the book. KOReader will skip the ones you have "
 "already read."
-msgstr ""
+msgstr "Nu lees je alles door aan het eind op <span class=\"ui\">Volgend bestand openen</span> te tikken; reeds gelezen worden overgeslagen." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3072-1
 msgctxt "user_guide/en.html+html.body.div.div:3072-1"
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Manga optimaliseren voor de reader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3074-5
 msgid ""
 "If you like reading manga books on your e-ink device there are some tips "
 "that can make your experience better. Preparing your own manga files is the "
 "best solution if you're not satisfied with how comics look on your device."
-msgstr ""
+msgstr "Lees je graag manga op e-ink, dan zijn er tips om het te verbeteren. Eigen bestanden voorbereiden is het beste als je niet tevreden bent over het uiterlijk." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
 msgid "Which file type to use"
-msgstr ""
+msgstr "Welk bestandstype gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3078-5
 msgid ""
@@ -7066,7 +7037,7 @@ msgid ""
 "commonly <b>.png</b> or <b>.jpeg</b> files, organized into pages of the "
 "comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</"
 "b> files but use <b>TAR</b> archive format."
-msgstr ""
+msgstr "De beste optie is een <b>CBZ</b>-bestand; dat werkt beter in KOReader. Een <b>.cbz</b> is een zip (zonder compressie) met afbeeldingen (<b>.png</b>, <b>.jpeg</b>) als pagina's. KOReader kan ook <b>CBT</b> openen (zelfde idee maar <b>TAR</b>-archief)." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3082-5
 msgid ""
@@ -7077,11 +7048,11 @@ msgid ""
 "useful settings like <b>auto-rotating two-page splits to landscape and "
 "applying dithering</b> so that eink-rendered gradients are smoothly dithered "
 "without jagged layers."
-msgstr ""
+msgstr "Eenvoudigste conversie: haal de manga als afbeeldingen binnen en converteer met <span class=\"external\">Kindle Comic Converter</span> (<a href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>). Handig: <b>twee-pagina splits automatisch landschapsstand</b> en <b>dithering toepassen</b> voor vloeiende grijsverlopen." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3084-1
 msgid "Which resolution to use"
-msgstr ""
+msgstr "Welke resolutie gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3085-5
 msgid ""
@@ -7091,7 +7062,7 @@ msgid ""
 "downscales your images to your screen size while reading but this is not "
 "recommended because KOReader adds a dithering pass before scaling and this "
 "causes loss of quality."
-msgstr ""
+msgstr "Beste resultaat: schaal je afbeeldingen precies naar het scherm van je e-reader. Een schermspecifieke <b>CBZ</b> voorkomt herschalen. KOReader schaalt anders omlaag met voorafgaande dithering wat kwaliteit kost." 
 
 #: user_guide/en.html%2Bhtml.body.div.p:3087-5
 msgid ""
@@ -7106,7 +7077,7 @@ msgid ""
 "memory can struggle with sizes like <b>3000×4000</b> for example. If you're "
 "automating the process, it might be worth considering creating both a lower "
 "and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI)."
-msgstr ""
+msgstr "Wil je de <b>CBZ</b> op meerdere apparaten of toekomstbestendig gebruiken, maak hem dan voor je hoogste resolutie apparaat, of kies een 'hoge' resolutie passend bij de bron. <b>300 PPI</b> of hoger (tot <b>450</b>/<b>600</b>) tenzij de bron lager is. Voor 8\" is <b>1500×2000</b> een goed doel. Test grotere afbeeldingen; oude Kindles met weinig geheugen kunnen bv. moeite hebben met <b>3000×4000</b>. Automatiseer je het, overweeg dan zowel een lage als hoge kwaliteitsvariant (bv. <b>200/400</b> of <b>300/600</b> DPI)." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:3089-5
 msgid ""
@@ -7114,7 +7085,7 @@ msgid ""
 "progression-direction=\"rtl\"</b> attribute of the books. So it doesn’t "
 "change page turning direction even though the file was created with right-to-"
 "left reading. Users can switch this via:"
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> KOReader interpreteert het attribuut <b>spine page-progression-direction=\"rtl\"</b> niet, dus de blader richting wordt niet automatisch omgekeerd. Je kunt dit zelf aanpassen via:" 
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3091-5
 #, fuzzy
@@ -7122,11 +7093,7 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Page turns / Invert page turn "
 "tap and swipes / buttons"
-msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Tikken en gebaren / Paginawissels / Paginawissel tik en vegen omkeren / knoppen"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-1
 msgid "Advanced preparation of manga"
@@ -7160,32 +7127,32 @@ msgid ""
 "Process this directory with <span class=\"external\">KCC</span>. Each "
 "directory will produce a single <b>CBZ</b> file, so if you want to make "
 "several volumes at once, select multiple directories at once"
-msgstr ""
+msgstr "Verwerk deze map met <span class=\"external\">KCC</span>. Elke map levert één <b>CBZ</b>-bestand op; selecteer meerdere mappen voor meerdere delen tegelijk"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3105-5
 msgid "Some useful settings of <span class=\"external\">KCC</span>:"
-msgstr ""
+msgstr "Enkele nuttige instellingen van <span class=\"external\">KCC</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3107-5
 msgid ""
 "<b>Spread splitter:</b> This feature detects double pages and allows you to "
 "rotate or cut them in two."
-msgstr ""
+msgstr "<b>Spread splitter:</b> Detecteert dubbele pagina's en laat je ze roteren of in tweeën knippen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3109-5
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
-msgstr ""
+msgstr "<b>Upscaling:</b> Vergroot afbeeldingen die kleiner zijn dan de doelresolutie."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3115-1
 #, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3115-1"
 msgid "Other manga tips"
-msgstr "Schermbeveiliging verlaten"
+msgstr "Overige manga-tips"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3119-1
 msgid "Immersive mode in KOReader"
-msgstr ""
+msgstr "Immersieve modus in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3121-5
 msgid ""
@@ -7194,7 +7161,7 @@ msgid ""
 "resolution in <b>KCC</b> when creating your <b>CBZ</b> file. Also you can "
 "hide the bottom progress bar while reading your manga in KOReader. So you "
 "will have an immersive full screen view of your manga without obstructions."
-msgstr ""
+msgstr "Voor maximale onderdompeling kies je in <b>KCC</b> exact de schermresolutie van je apparaat bij het maken van de <b>CBZ</b> en verberg je de onderste voortgangsbalk tijdens het lezen. Zo krijg je een volledig scherm zonder afleiding."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3125-1
 msgid "Extra step for smooth gradients"
