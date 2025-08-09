@@ -1063,7 +1063,7 @@ line-height: 2rem;
 <div class="L2-Sub-heading">用多种方式导入阅读材料</div>
 
 	<ul>
-        <li><b>USB大容量存储</b>模式（须阅读设备支持该功能）<a href="#L2-transferring" class="internalink"></a></li>
+        <li><b>U盘读写</b>模式（须阅读设备支持该功能）<a href="#L2-transferring" class="internalink"></a></li>
 
         <li>用配套账号登录<b>云存储</b> (<span class="external">Dropbox</span>/FTP/Webdav)上传下载 <a href="#L2-transferring" class="internalink"></a></li>
 
@@ -1839,7 +1839,7 @@ line-height: 2rem;
 
     <tr>
         <td><p>KOReader 支持在 EPUB 和扫描的 PDF/DJVU 文档中进行<b>词典查询</b>。要查看词典定义或翻译，只需点击并长按一个单词即可。</p>
-        <p>长按一个单词会弹出一个对话框，您可以在其中搜索文档中的所选内容以查找更多出现的地方，或者在维基百科上查找。</p></td>
+        <p>在单词上长按，弹出对话框可查找该词在当前书籍中的其它出现位置，或者查询维基百科。</p></td>
     </tr>
     <tr>
         <td><p>如果你想查看当前日期，可以点击<span class="ui">顶部菜单</span>中的时钟图标。</p></td>
@@ -1945,18 +1945,18 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/skim_widget.png" style="width:90%;">
 
-    <p><b>编号项目的说明（粗体长按动作）：</b></p>
+    <p><b>图中编号项的功能说明（粗体代表长按时的功能）：</b></p>
 
     <ol>
-        <li>跳到上一章的开头/<b>转到第一页</b></li>
-        <li>跳转到上一个书签/<b>跳转到书中的第一个书签</b></li>
-        <li>为当前页面添加书签/<b>打开书签对话框</b></li>
-        <li>跳转到下一个书签/<b>跳转到书中的最后一个书签</b></li>
-        <li>跳到下一章的开头/<b>跳到最后一页</b></li>
-        <li>向后（-）或向前（+）跳这么多页</li>
-        <li>此数字显示当前页码。如果您点击它，将打开一个对话框，允许您输入页码或百分比以直接跳转。<b>如果你长按，它会带你回到打开<span class="ui">浏览小部件的页面</span>。</b>例如，如果你想快速查看这本书的其他部分，然后回到你离开的地方继续阅读，这很有用。</li>
-        <li>这是<span class="ui">进度条</span>。细线是显示章节开头的章节标记。你可以点击这个<span class="ui">进度条</span>直接跳到该部分。小箭头是<span class="ui">会话开始箭头</span>，它标记了您在当前会话中开始阅读这本书的地方。当您在书籍之间切换时，此箭头会重置。</li>
-        <li><span class="ui">紧凑型浏览小部件</span>中的此按钮与项目<b>数字7</b>的长按功能相同。它将带您回到打开<span class="ui">浏览小部件</span>的页面。例如，如果你想快速查看这本书的其他部分，并回到你离开的地方阅读，这很有用。</li>
+        <li>转到上一章开头/<b>转到本书扉页</b></li>
+        <li>转到上一处书签/<b>转到本书第一处书签</b></li>
+        <li>在当前页添加书签/<b>打开书签对话框</b></li>
+        <li>转到下一处书签/<b>转到本书最后一处书签</b></li>
+        <li>转到下一章开头/<b>跳到本书尾页</b></li>
+        <li>按所示数字间隔回退（－）或快进（＋）页码</li>
+        <li>该数字为当前页码。点按将打开对话框以输入指定页码或百分比跳转。<b>长按时则将回到最初开启<span class="ui">跳读工具</span>时的页码。</b>该功能对于诸如想快速浏览书籍其它章节然后回到当前位置等情况非常有用。</li>
+        <li>这是<span class="ui">阅读进度条</span>。细线是显示每章节起始处的章节标记。点按<span class="ui">阅读进度条</span>任意位置将转到对应页码。游标是<span class="ui">阅读起始点</span>，用于显示本次阅读开始时的页码。游标位置将随书籍切换而重置。</li>
+        <li>此按钮仅出现在<span class="ui">紧凑型跳读工具</span>中，功能与长按<b>编号7</b>相同，使页面会到打开<span class="ui">跳读工具</span>时所处页码。该功能对于诸如想快速浏览书籍其它章节然后回到当前位置等情况非常有用。</li>
     </ol>
 
     <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">提示</span> 若要随机跳到某一页，KOReader提供<b>跳到随机页码</b>操作项，可以指定给任意交互手势。该选项位于 <span class="ui">交互手势管理</span>中的<b>阅读设备相关</b>类目下。</p></div>
@@ -2020,7 +2020,7 @@ line-height: 2rem;
             <li>书签图标显示书签页面的名称。</li>
             <li>块状条纹标志说明该页包含标注。</li>
             <li>铅笔图标显示带有笔记的页面。</li>
-            <li>圆圈中的数字显示您以前的位置。当您从菜单中选择<<span class="ui">返回上一个位置</span>时，您将按顺序跳回此处。</li>
+            <li>若使用了跳页功能，带圆圈的数字将指示之前所在的阅读位置。在阅读界面使用<span class="ui">返回上一位置</span>时，将按照数字标记的顺序逐一回到该位置。</li>
             <li>三角形显示您当前的页面。</li>
             <li>垂直滚动条显示您当前的视图级别。</li>
             <li>垂直滚动条显示您当前的页面宽度级别。</li>
@@ -2055,7 +2055,7 @@ line-height: 2rem;
         <li><span class="ui">切换网格/平面视图：</span>在单独的章节或连续的章节视图之间切换。</li>
         <li><span class="ui">章节级别：</span>更改章节/子章节级别的深度。</li>
         <li><span class="ui">页面槽宽度：</span>使每个页面槽更宽或更窄。</li>
-        <li><span class="ui">10 页标记：</span>当你增加这个值时，它首先会每<b>10 页</b>添加一个标记，然后它会使它们变大，最终它会为每<b>5</b>页添加一个标记。</li>
+        <li><span class="ui">拾页标记</span>：该选项共有三档，第一档将在页码格上每隔十页在<b>第十页</b>添加竖线标记；第二档将会加长标记使其更明显；第三档将每隔五页在<b>第五页</b>上添加次级标记。</li>
     </ul>
 
     
@@ -2070,12 +2070,12 @@ line-height: 2rem;
         <p>下方展示了<span class="ui">书页速览视图</span>的用法。也可通过点按<span class="ui">界面左上角的汉堡状菜单键</span>查看功能介绍。长按该按键还可显示或隐藏底部定位栏中的章节标题。</p>
 
     <ol>
-        <li>Swipe <b>left / right</b> over this top edge to increase / decrease the number of the <b>columns</b>.</li>
-        <li>Swipe <b>up / down</b> over this left edge to increase / decrease the number of the <b>rows</b>.</li>
-        <li>Swipe the pages area to move the viewed pages. <b>Up / down</b> to scroll one row (2 pages in the example), <b>left / right</b> to scroll one screen (4 pages in the example). </li>
-        <li>Tap any page to open that page in reading view.</li>
-        <li>On the bottom area, tapping on a page focuses the thumbnail view on that page. Swiping <b>left / right</b> will jump one stripe width.</li>
-        <li>Icons on the bottom area are same as the ones used in <span class="ui">Book Map</span> and explained under that section.</li>
+        <li>在顶部边缘<b>左划或右划</b>可增加或减少书页缩略图的<b>列数</b>。</li>
+        <li>在左侧边缘<b>上划或下划</b>可增加或减少书页缩略图<b>行数</b>。</li>
+        <li>在中间区域划动可移动显示的缩略图。<b>上划或下划</b>将卷动一行（在图示中对应2块缩略图），<b>左划或右划</b>可翻过整屏（在图示中对应4块缩略图）。 </li>
+        <li>点击缩略图可在阅读视图中阅读该页。</li>
+        <li>点击底部刻度条区域的任意位置以该页为中心显示缩略图。在底部<b>左划或右划</b>将跳过一整块刻度条对应的页数。</li>
+        <li>底部区域的图标与<span class="ui">图书地图</span>中使用的图标相同，并在该节中进行了解释。</li>
     </ol>
 
 
@@ -2087,42 +2087,42 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-toctools">目录工具</div>
     <p>
-    Some of the digital books you come across might not have a proper table of contents (<b>ToC</b>). Depending on the preparation of the book, you can experience these ToC problems:</p>
+    有些书籍文档不包含目录（<b>ToC</b>）。根据对书籍预处理的不同，可能会遇到下列目录相关问题：</p>
     <ul>
-        <li>No ToC in the book, so you can’t jump between the chapters or see the remaining reading times</li>
-        <li>There is a ToC but it is not very useful because it has wrong or missing chapter titles</li>
+        <li>书籍缺少目录，因此无法跳读章节或查看剩余阅读用时</li>
+        <li>书籍包含的目录用处不大，因为目录中的章节标题存在错误或缺失</li>
     </ul>
     
-    <p> KOReader has some features that you can use when reading books with a problematic table of contents section.</p>
+    <p> KOReader的一些功能可以在阅读这类目录有问题的书籍时提供帮助。</p>
     
-    <p>Note that <span class="ui">Alternative table of contents</span> is not available on <b>fixed layout documents</b> like PDF, DJVU etc. because it requires HTML tags to create a ToC. <span class="ui">Custom table of contents</span> and <span class="ui">Custom hidden flows</span> features are available on all file types.</p>
+    <p>请注意<span class="ui">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</b>，因为创建副目录功能依赖于文档的HTML标签。<span class="ui">自定义目录</span>及<span class="ui">划定隐藏页码段</span>功能则可用于所有文件格式。</p>
 
 
-<div class="L3-Smaller-heading">Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS</div>
+<div class="L3-Smaller-heading">自动创建目录：副目录</div>
 
     <p>
-    First feature is the <span class="ui">Alternative table of contents</span> which you can find in:</p>
+    通过下列路径可以找到<span class="ui">创建副目录</span>功能：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 副目录</div>
 
     <div class="info"><span class="label_blue">信息</span> epub文档本质上是包含一个或多个HTML文件的ZIP压缩档。整本书可能仅包含单个巨型HTML文件，或者每章节被拆分为独立HTML文件（这种结构更好）。</div>
         
-    <p><span class="ui">Alternative table of contents</span> tries to create a ToC from the headings in your book (<b>H1</b> to <b>H6</b> tags in the HTML files in your EPUB). If your book doesn’t contain any headings, it will try to build a ToC from the document fragments (individual HTML files in your EPUB book) which will point to the beginning of each file.</p>
+    <p><span class="ui">创建副目录</span>功能会尝试利用书籍的章节标题（epub文档中的<b>H1</b>到<b>H6</b>HTML标签）自动生成目录。如果书籍不包含任何标题，该功能会尝试根据文档分段（epub文档中的独立HTML文件）生成目录。</p>
     
-    <p>You can choose which heading levels to include (or ignore) in your ToC from this menu:</p>
+    <p>可以在下列菜单中选择副目录所包含（或忽略）哪些章节标题层级：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调 / 杂项 / 副目录层级标记</div>
 
 
 
-<div class="L3-Smaller-heading">Manually creating a table of contents: CUSTOM TABLE OF CONTENTS</div>
+<div class="L3-Smaller-heading">手动创建目录：自定义目录</div>
 
     <p>
-    Custom table of contents feature allows you to create your own ToC from the selected parts of your book. This ToC can contain only one level so you can’t have sub-chapters while using this feature. To create your own ToC, first enable:</p>
+    利用自定义目录功能可以从书籍内页中选定文段来组成标题。此目录只能包含一个层级，因此无法列入子章节标题。要创建自定义目录，请先在下列路径中启用自定义目录：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 自定义目录</div>
         
-    <p>Once you enable this feature, new menu items will be added to the user interface which allows you to select your chapters. You can add a chapter to your ToC from two places:</p>
+    <p>启用自定义目录后，用户界面将出现新的菜单项，用以选择章节标题。可以从以下两种途径添加章节：</p>
 
     <ol>
         <li><b>通过标注</b>：在阅读书籍时，滑动文段选中（像类似标注操作）、或在单词上长按。在弹出菜单中可见<span class="ui">创建目录章节</span>选项。点按该项，会出现对话框要求输入章节标题。前面选中的文段会被自动填入，可按照需要进行编辑。点按创建即可保存。</li>
@@ -2132,65 +2132,65 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 书页速览视图</div>
     
-    <p>Long press on the page thumbnail that you want to be the beginning of your chapter and select <span class="ui">Start TOC chapter</span> item from the popup menu. You will see a dialog asking you to enter your chapter title.</p>
+    <p>长按要作为章节开头的页面缩略图，然后从弹出菜单中选择<span class="ui">添加目录章节</span>item。 您将看到一个对话框，要求您输入章节标题。</p>
     
-    <p>When you are done creating your ToC and don’t want to see these extra buttons, you can disable them by unchecking:</p>
+    <p>当完成自定义目录的创建、不再需要这些额外按钮，可以通过取消勾选下列选项来将其禁用：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 版式自定义功能 / 编辑模式</div>
     
-    <p>创建副目录并不会替换掉书籍内置的原目录。在同一份菜单中还可清除<b>自定义目录</b>（比如要创建一份新的）。要回到原目录，可通过与启用时相同的操作将副目录禁用。请注意，在创建自定义目录后，禁用副目录并不会将其删除，之后仍可在正副目录间反复切换。</p>
+    <p>创建自定义目录并不会替换掉书籍内置的原目录。在同一份菜单中还可清除已创建的<b>自定义目录</b>（比如要创建一份新的）。要回到原目录，可通过与启用自定义目录时相同的方式将其禁用。请注意，禁用该功能并不会将删除已创建的自定义目录，之后仍可切换显示原目录及自定义目录。</p>
 
 
 
 <div class="L2-Sub-heading" id="L2-hiddenflows">章节排除：定制要隐藏的页码区</div>
 
     <p>
-    Some books or documents might contain long footnotes or bibliography sections. Like a scientific book which is 250 pages long but last 50 pages are Appendices, Index and References. Normally these pages are included in the progress bar and reading time calculations since they are part of the book. But generally these sections exist as a reference and they are not read completely so you might want to exclude them to make your remaining page count and time estimates more accurate. Or maybe you have an anthology book which contain some stories you have already read. <span class="ui">Custom hidden flows</span> feature of KOReader allows you to exclude these kind of parts of your book.</p>
-    <p>Have a look at the image for an overview of the process. Steps will be explained after the image:</p>
+    有写书籍或文档可能附有大篇幅的尾注或参考书目。比如一本250页的科学类书籍最后50页全是附录、专业术语索引及参考文献。通常情况下这些页码仍会被计入阅读进度条和阅读时间统计。但这些章节大多只作为参考，并不需要逐页阅读，因此可能希望将其排除使页码计数和预估阅读用时更加准确。再比如一本选集中包含了一些自己已经读过的篇章。<span class="ui">划定隐藏页码段</span>功能可以将这类章节排除出去。</p>
+    <p>请浏览下方图示大致了解操作过程，详细步骤列于图片下方：</p>
 
     <img loading="lazy" src="pictures/custom_hidden_flow_howto.png" style="width:100%; box-shadow: none;">
 
     <br>
 
-    <p><b>How to exclude a section by creating a hidden flow:</b></p>
+    <p><b>通过创建隐藏页码段来排除部分章节：</b></p>
 
     <ol>
-        <li>Go to the first page of the section you want to exclude</li>
+        <li>转到要排除章节的起始页</li>
         <li>按照下列路径进入<span class="ui">书页速览视图</span>：
 
             <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 书页速览视图</div>
         </li>
-        <li>Long press on the page thumbnail that you want to be the beginning of your excluded section and select <span class="ui">Start hidden flow here</span> item from the popup menu.</li>
-        <li>You will see that the pages starting from your selection now have a gray hatched background.</li>
+        <li>找到要排除章节的起始页，在页面缩略图上长按，从弹出菜单中选择<span class="ui">设定为隐藏页码段的起点</span>。</li>
+        <li>此时可以看到从所选页面开始的章节全部被灰色阴影覆盖。</li>
         <li>接下来，转到被排除页码段的最后一页。可以通过<span class="ui">书页速览视图</span>或<span class="ui">书籍地图、跳读工具</span>等定位页面。</li>
-        <li>跳至被排除页码段的最后一页后，再次进入<span class="ui">书页速览视图</span>。</li>
-        <li>Find the last page of your hidden section and long press on the <b>next page</b>. Choose <span class="ui">Restart regular flow here</span> from the popup menu. You will see that the background of the remaining pages will return to normal color, indicating the end of hidden flow and the beginning of regular flow.</li>
+        <li>在被排除章节的结束页上再次进入<span class="ui">书页速览视图</span>。</li>
+        <li>找到要隐藏章节的结束页，然后长按<b>下个页面</b>的缩略图。从弹出菜单中选择<span class="ui">标记为正文页码段的起始点</span>。可以看到从所选页面开始的章节不再被灰色阴影覆盖。</li>
     </ol>
 
     <br>
 
-    <p><b>Working with the hidden sections:</b></p>
+    <p><b>页码段被隐藏后的表现：</b></p>
 
-    <p>When you create a hidden flow section as described above, KOReader’s behavior will be similar to the situation as if you removed a section of a paper book by cutting it out:</p>
+    <p>当按照上述步骤创建隐藏页码段后KOReader会将其视作不存在，类似于从纸版书中撕下部分书页：</p>
 
     <ul>
-        <li>These hidden flow sections will be skipped when turning pages. For example assume that you created a hidden flow for <b>Chapter 10</b>. Now you are on the last page of <b>Chapter 9</b>. When you turn the page, you will see <b>Chapter 11</b>.</li>
+        <li>翻页时将直接跳过被隐藏页码段。例如将<b>第十章</b>标记为隐藏页码段后，从<b>第九章</b>的最后一页继续翻页将直接显示<b>第十一章</b>。</li>
         <li>页码计数将<b>无视被隐藏的页码段</b>继续增加。</li>
         <li>被隐藏的章节将不会显示在<span class="ui">阅读进度条</span>上（请另行阅读下方解释），且不会被计入<b>阅读用时</b>。 但这些页码仍可通过<span class="ui">跳读工具</span>访问。</li>
-        <li>跳往位于被隐藏页码段页面的引用链接仍然有效。隐藏页码段的页面也可通过<span class="ui">目录、书籍地图、书页速览视图和跳读工具</span>访问。</li>
+        <li>链接到位于被隐藏页码段页面的引用仍然有效。隐藏页码段的页面也可通过<span class="ui">目录、书籍地图、书页速览视图和跳读工具</span>访问。</li>
     </ul>
     
-    <p>As we said above, your hidden flows will be excluded from your <span class="ui">Progress bar</span>. But if you jump to one of your hidden sections using any of the methods mentioned above, your Progress bar temporarily becomes this hidden section’s progress bar. You can imagine this as the progress bar is zooming into that hidden flow section. If you exit out of this hidden section by turning the page at the end of it, or using other navigation tools, your Progress bar will go back to showing the whole book again (with your custom hidden flows again not visible).</p>
+    <p>如上所述，隐藏页码段将不会被计入<span class="ui">阅读进度条</span>。但如果使用上一条提到的几种方式访问隐藏页码段的某一页，阅读进度条将临时变为该隐藏页码段的章节阅读进度条。可以将此想象成阅读进度条放大到了被隐藏的章节。当翻到隐藏页码段最末页、或使用其它页面定位工具离开被隐藏的章节，阅读进度条将恢复为显示全书阅读进度，此时被隐藏的章节将从进度条上消失。</p>
     
 <br>
-    <p><b>Removing and cleaning up hidden sections:</b></p>
-    <p>隐藏页码段可在<span class="ui">书页速览视图</span>中逐一恢复，方法与创建隐藏一致。还可以通过下列菜单项一次性全部恢复：</p>
+    <p><b>移除并清理被隐藏章节：</b></p>
+    <p>隐藏页码段可在<span class="ui">书页速览视图</span>中逐一恢复，方法与设置隐藏时一致。还可以通过下列菜单项一次性全部恢复：</p>
         
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 自定义版式功能 / 清理所有页面标记</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 自定义版式功能 / 清除所有页面标记</div>
 
-    <p>As you work on creating hidden flows by tagging pages as <span class="ui">Start hidden flow</span> or <span class="ui">Restart regular flow</span>, some of the previously made ones may stop having an effect. For example in the case that you make <span class="ui">Start hidden flow</span> a few pages before an existing <span class="ui">Start hidden flow</span>, that existing one is no longer involved. This overlapping or obsolete tags are remembered for practical purposes. Again in the previous example, if you end that second hidden flow before the existing-but-no-longer-involved Start hidden flow, this deactive one will be involved again. You can clear all these inactive markers if they interfere with your custom flows, or once you finish making your hidden flows and happy with the results:</p>
+    <p>在通过标记页面为<span class="ui">隐藏页码段起始处</span>或<span class="ui">正文页码起始处</span>来设置隐藏页码段时，部分已经设置隐藏的页码可能不再生效。例如在<span class="ui">隐藏页码段起始处</span>的早几页再次执行<span class="ui">标记为隐藏页码段起始处</span>操作，之前设置的标记将不会被包含在内。出于实用性考虑，这些重叠或失效的标记仍会被保留。还是上面的例子，当新设置的隐藏页码段最末页位于先前已失效的隐藏页码段区域内，先前失效的隐藏页码段将再次生效。如果这些标记相互干扰，或对隐藏页码段的设置结果已经满意，可以将失效的隐藏页码段标记清除：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 自定义版式功能 / 清除不再使用的页面标记</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 自定义版式功能 / 清除失效的页面标记</div>
 
 
 
@@ -2200,71 +2200,71 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-defaultappearance">默认样式设置</div>
 
-    <p>In some reader applications, when you change a setting let's say the font used for books, it changes globally. Which means, if you change the default font to <b>Verdana</b>, any books you open next including the ones you are already reading will be shown in this Verdana font.</p>
+    <p>在某些阅读器应用程序中，当您更改设置（例如用于书籍的字体）时，它会全局更改。 这意味着，如果你将默认字体更改为<b>Verdana</b>，你接下来打开的任何书籍，包括你已经在阅读的书籍，都将以这种Verdana字体显示。</p>
 
-    <p>KOReader's approach is different from this. We save appearance settings per book. This gives you the flexibility to change your settings for the current book without affecting others. For example if you have some fantasy books, you can change the font to a medieval looking one just for these books. Or you can set some books to open in <b>landscape orientation</b> or <b>double column</b> mode.</p>
+    <p>KOReader的方法与此不同。我们保存每本书的外观设置。这使您可以灵活地更改当前书籍的设置，而不会影响其他书籍。例如，如果你有一些奇幻书籍，你可以将字体更改为中世纪风格的字体，这个改变将只应用用于这些书籍。或者，您可以将一些书籍设置为以<b>横向</b>或<b>双列</b>模式打开。</p>
 
-    <p>To change a setting globally, tap and hold an <b>option</b> or <b>menu item</b> (font weight, line spacing etc.), to set its value as <span class="ui">default</span>. This new value will only be applied to books opened from now on as we said above. Previously opened books will keep their settings. You can identify default values as a <span class="ui">star</span> (★) in the menu or as a <span class="ui">black border</span> around the indicators as seen below:</p>
+    <p>要全局更改设置，请点击并按住<b>选项</b>或<b>菜单项</b>（字体粗细、行距等），将其值设置为<span class="ui">默认值</span>。正如我们上面所说，这个新值只影响从现在开始打开的书籍。以前打开的书籍将保留其设置。您可以将默认值标识为菜单中的<span class="ui">星号</span>（★）或指示器周围的<span class="ui">黑色边框</span>，如下所示：</p>
         
     <img loading="lazy" src="pictures/default_border.png" style="width:80%;">
     <img loading="lazy" src="pictures/default_star.png" style="width:40%;">
 
 
-<div class="L3-Smaller-heading">Applying current defaults to an already opened book</div>
+<div class="L3-Smaller-heading">将当前默认值应用于已打开的书籍</div>
 
-    <p>So when you adjust your document defaults like <span class="ui">default line spacing</span> or <span class="ui">default contrast</span>, this new value will only be used for the new documents you open after the change. Your already opened books will not change.</p>
+    <p>因此，当您调整文档默认值，如<span class="ui">默认行距</span>或<span class="ui">默认对比度</span>时，此值将仅用于更改后打开的新文档。你已经打开的书不会改变。</p>
         
-    <p> But what if you want them to change too? For example, if you change your default <span class="ui">font</span>, you will probably adjust <span class="ui">font weight</span> and <span class="ui">line spacing</span> to more suitable values for this new font. You are satisfied with how the text looks and now you want all your books to look like this. With this feature you don’t need to change these values manually in all your opened books.</p>
+    <p> 但如果你想让他们也改变呢？例如，如果您更改了默认的<span class="ui">font</span>，您可能会将<span class="ui">字体粗细</span>和<span class="ui">行距</span>调整为更适合此新字体的值。你对文本的外观很满意，现在你希望你所有的书都是这样的。使用此功能，您不需要在所有打开的书籍中手动更改这些值。</p>
 
-    <p>You can easily apply these changes to your already opened books by choosing:</p>
+    <p>您可以通过选择以下选项轻松地将这些更改应用于已打开的书籍：</p>
     
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 将文档设置重置为默认值</div>
 
     <p>点按该选项后，当前书籍设定将会回到上次配置的<b>默认值</b>。无需担心，该选项仅改变书籍样式，<b>阅读位置、标注、笔记和书签</b>会被保留。</p>
 
 
-<div class="L3-Smaller-heading">Saving current book settings as defaults</div>
+<div class="L3-Smaller-heading">将当前书籍设置保存为默认值</div>
 
-    <p>When you adjust a book to your liking, for example by changing <span class="ui">line spacing</span>, <span class="ui">font contrast</span> etc. you can save all the changes at once as <span class="ui">defaults</span>. Then you can apply these settings to other books with the <span class="ui">Reset document settings to default</span> option as explained above.</p>
+    <p>当您根据自己的喜好调整一本书时，例如通过更改<span class="ui">行距</span>、<span class="ui">字体对比度</span>等，您可以一次将所有更改保存为<span class="ui">默认值</span>。然后，您可以使用<span class="ui">将文档设置重置为默认值</span>选项将这些设置应用于其他书籍，如上所述。</p>
 
-    <p>You can save your changes as <span class="ui">defaults</span> by choosing:</p>
+    <p>您可以通过选择以下选项将更改保存为<span class="ui">默认值</span>：</p>
     
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 将当前文档设置保存为默认值</div>
 
 
 
-<div class="L3-Smaller-heading">Creating different groups of settings</div>
+<div class="L3-Smaller-heading">创建不同的设置组</div>
 
-    <p>This powerful feature allows you to save all the <span class="ui">BOTTOM MENU</span> settings + font type as a <b>profile</b>. This means you can have different group of settings for different conditions or book types which you can apply at once instead of changing the settings manually every time.</p>
+    <p>这个强大的功能允许您将所有<span class="ui">底部菜单</span>设置+字体类型保存为<b>配置文件</b>。这意味着您可以为不同的条件或书籍类型设置不同的设置组，您可以一次应用这些设置，而不是每次手动更改设置。</p>
 
-    <p>For example you can create:</p>
+    <p>例如，您可以创建：</p>
 
     <ul>
-        <li><b>Double column</b> profile with <span class="ui">two columns</span> of small sized text, <span class="ui">landscape orientation</span> and minimum <span class="ui">margins</span></li>
-        <li><b>Night reading</b> profile with <span class="ui">bigger sans serif font</span> and higher <span class="ui">contrast</span> for more visible text under low light</li>
-        <li><b>Disabled styles</b> profile with <span class="ui">embedded style</span> and <span class="ui">embedded fonts</span> disabled for badly structured books</li>
+        <li><b>双列</b>配置文件，带有<span class="ui">两列</span>小尺寸文本，<span class="ui">横向</span>和最小<span class="ui">边距</span></li>
+        <li><b>夜间阅读</b>配置文件，<span class="ui">更大的无衬线字体</span>和更高的<span class="ui">对比度</span>，以便在低光下显示更清晰的文本</li>
+        <li><b>禁用样式</b>配置文件，在结构不良的书籍中禁用<span class="ui">内置样式</span>和<span class="ui">内置字体</span></li>
     </ul>
     
-    <p>After adjusting your settings to your liking, you can create a profile from them via:</p>
+    <p>根据您的喜好调整设置后，您可以通过以下方式从中创建配置文件：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 配置文件 / 使用当前文档设置新建配置</div>
 
-    <p>After creating a profile with your settings, you have many options for applying it to another book:</p>
+    <p>使用您的设置创建配置文件后，您有许多选项可以将其应用于另一本书：</p>
         <ul>
-        <li>You can apply the profile from the <span class="ui">Profiles menu</span></li>
+        <li>您可以从<span class="ui">配置文件菜单</span>应用配置文件</li>
         <li>您可以为其指定一个手势</li>
-        <li>You can show it in your <span class="ui">Quick Menu</span></li>
+        <li>您可以将其显示在<span class="ui">快速菜单</span>中</li>
         </ul>
 
-    <p>Click here to go to the <a href="#L1-qmandprofiles">QUICK MENU AND PROFILES</a> section of the guide.</p>
+    <p>单击此处转到本指南的<a href="#L1-qmandprofiles">快速菜单和配置文件</a>部分。</p>
 
 <div class="L2-Sub-heading" id="L2-fonts">使用自有字体</div>
 
     <p>KOReader支持被广泛使用的TrueType（.ttf）和OpenType（.otf）字体格式。这类扩展名的字体文件可直接复制到阅读设备中的<span class="ui">/koreader/fonts/</span>文件夹中。更多信息请查阅<a href="https://github.com/koreader/koreader/wiki/Fonts">相关维基页</a>。</p>
 
-    <p>When starting up, KOReader compiles the available fonts from the <b>font metadata/info</b> and classifies them according to family and weights. This means you can add different weights and variants of a font and KOReader will try to use the most suitable one. <b>Since it takes font family information from metadata, font names are not important when copying to your device. Installed fonts will be available after restarting KOReader.</b></p>
+    <p>启动时，KOReader从<b>字体元数据/信息</b>中编译可用字体，并根据字体系列和权重对其进行分类。 这意味着您可以添加不同的字体权重和变体，KOReader将尝试使用最合适的字体。 <b>由于它从元数据中获取字体系列信息，因此复制到设备时字体名称并不重要。 重新启动 KOReader 后，安装的字体将可用。</b></p>
 
-    <p>Here are some example fonts which look good on an e-ink screen. You can find more of them on the <a href="https://fonts.google.com">Google Fonts</a> website:</p>
+    <p>这里有一些在电子墨水屏幕上看起来不错的字体示例。 您可以在<a href="https://fonts.google.com">Google Fonts</a>网站上找到更多内容：</p>
     <p><b>衬线体：</b></p>
     <ul>
         <li><a href="https://fonts.google.com/specimen/Spectral">Spectral</a></li>
@@ -2276,11 +2276,11 @@ line-height: 2rem;
     <ul>
         <li><a href="https://fonts.google.com/specimen/Varela+Round">Varela Round</a></li>
         <li><a href="https://fonts.google.com/specimen/Wix+Madefor+Text">Wix Madefor Text</a></li>
-        <li><a href="https://fonts.google.com/specimen/Maven+Pro">Maven Pro (User guide font you are currently reading)</a></li>
+        <li><a href="https://fonts.google.com/specimen/Maven+Pro">Maven Pro（您当前正在阅读的用户指南使用的字体）</a></li>
     </ul>
 
     <p><b>等宽字体：</b></p>
-    <p>If you are planning to use your own monospace font, probably you already have a favorite one, so we are not offering any examples here. But you can find and compare many monospace fonts at <a href="https://www.programmingfonts.org/">programmingfonts.org</a></p>
+    <p>如果你打算使用自己的等宽字体，可能你已经有一个最喜欢的字体了，所以我们在这里不提供任何例子。 但是你可以在<a href="https://www.programmingfonts.org/">programmingfonts.org</a>上找到并比较许多等宽字体</p>
 
 	<div class="tip"><span class="label_green">提示</span> KOReader可使用已安装的字体及书籍中的全部文本生成一份新文档。该功能可用于快速对照字体样式及特征，如希腊语、希伯来语或汉语等非拉丁字母书体中的合字及字形。该功能位于：
 
@@ -2289,23 +2289,23 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Monospace font scale</div>
+<div class="L3-Smaller-heading">等宽字体比例</div>
     
-    <p>If your book includes parts with <b>Monospace</b> fonts (like in programming books), Monospace text might look disproportional even if it is technically at the same size as the rest of the book. This is caused by differing font metrics. KOReader has an option that allows you to adjust the relative Monospace font size to fix this difference:</p>
+    <p>如果您的书籍包含使用<b>等宽</b>字体的部分（如编程书籍），等宽文本可能看起来不成比例，即使它在技术上与书籍的其余部分大小相同。 这是由不同的字体指标引起的。 KOReader有一个选项，允许您调整相对等宽字体大小来修复此差异：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 字体相关 / 字体设置 / 等宽字体尺寸</div>
 
-    <p>Here you can increase or decrease the size of your Monospace font by adjusting its scaling as a percentage of the default size.</p>
+    <p>在这里，您可以通过调整默认大小的百分比来增加或减少等宽字体的大小。</p>
     
 
 	
 <div class="L3-Smaller-heading">在一本书籍中套用多种字体</div>
 
-    <p>In HTML/CSS based documents like EPUBs, books can specify to use fonts by family instead of a specific font name. These families can be <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For example in a book, normal text can be shown in <b>Sans-serif</b> while dialogues are shown in <b>Serif</b> font. KOReader normally uses your default font for all these families except <b>Monospace</b> and <b>Math</b> (which is determined by the style of the text nodes, for example <b>'font-family: serif'</b>). If you want these families to look distinct, you can assign specific fonts for them here:</p>
+    <p>在基于HTML/CSS的文档（如EPUB）中，书籍可以指定使用字体家族而不是特定的字体名称。 这些族可以是<b>Serif、Sans-Serif、Monospace、Cursive、Fantasy、Emoji、Fang Song和Math</b>。 例如，在一本书中，正常的文本可以用<b>无衬线字体</b>显示，而对话则用<b>衬线</b>字体显示。 KOReader通常对所有这些系列使用默认字体，但<b>Monospace</b>和<b>Math</b>除外（由文本节点的样式确定，例如<b>'font-family：serif'</b>）。 如果您希望这些系列看起来不同，您可以在这里为它们指定特定的字体：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 字体相关 / 字体字族</div>
 
-    <p>To change a family font for the current book just tap on the desired font name. If you want to set this for all your books, long-tap to set it as a <b>default (★)</b>. If a book abuses this font family feature to the point where your default font is hardly used, you can disable that family font for this book by unchecking the association.</p>
+    <p>要更改当前图书的系列字体，只需点击所需的字体名称。 如果您想为所有图书设置此设置，请长按将其设置为<b>默认设置（★）</b>。 如果某本书滥用了此字体系列功能，以至于几乎不使用默认字体，则可以通过取消选中该关联来禁用该系列字体。</p>
     
     <img loading="lazy" src="pictures/font_family.png" style="width:70%;">
 
@@ -2313,11 +2313,11 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">快速切换字体</div>
 
-	<p>If you are switching between fonts frequently (i.e. <b>monospace</b> for programming books and <b>serif</b> for novels) there is a workaround which makes this easier than going into the menu each time. You can create profiles for your fonts and all font related settings like <span class="ui">line spacing, contrast, bold</span> etc. and add these profiles to a <span class="ui">Quick Menu</span>. So with a single gesture you can open your font selection menu and change the font like shown in the image below:</p>
+	<p>如果你经常在字体之间切换（比如编程书籍用<b>等宽字体</b>，小说用<b>衬线字体</b>），有一个解决方案可以让你比每次都进入菜单更容易。 您可以为您的字体和所有字体相关设置（如<span class="ui">行距，对比度，粗体</span>等）创建配置文件，并将这些配置文件添加到<span class="ui">快速菜单</span>中。 因此，只需一个手势，您就可以打开字体选择菜单，并更改字体，如下图所示：</p>
 
     <img loading="lazy" src="pictures/quickmenu_font_selection.png" style="width:40%;">
 
-    <p>Check the <a href="#qmandprofiles">QUICK MENU AND PROFILES</a> section of this guide to learn how to do this.</p>
+    <p>查看本指南的<a href="#qmandprofiles">快速菜单和配置文件</a>部分，了解如何执行此操作。</p>
 
 
 
@@ -2326,59 +2326,59 @@ line-height: 2rem;
 
     <p><span class="label_red">！！专业操作！！</span></p>
 
-    <p>Style tweaks feature of KOReader allows you to modify how your book is rendered by KOReader. We won't go through a full CSS course here. We just want to show you the basics so when you see a style tweak, you will at least have a rough idea what it does.</p>
+    <p>KOReader 的样式调整功能允许您修改 KOReader 显示书籍的方式。 我们不会在这里进行完整的CSS课程。 我们只想向你展示一些基本的东西，这样当你看到一个样式调整时，你至少会有一个大致的概念。</p>
     
-    <div class="L3-Smaller-heading">What is a style tweak?</div>
-    <p>We can describe an EPUB document as a <b>HTML file + some CSS rules</b>. These CSS rules determine how different parts of the book (headings, bold text, quotes etc.) will be shown on a reader app. With <span class="ui">style tweaks</span>, you can change how your book will be rendered by adding new rules and/or overriding the rules written by the publisher that is embedded in your book.</p>
+    <div class="L3-Smaller-heading">什么是样式调整？</div>
+    <p>我们可以将EPUB文档描述为<b>HTML文件+一些CSS规则</b>。 这些CSS规则决定了书的不同部分（标题，粗体文本，引用等） 通过<span class="ui">样式调整</span>，您可以通过添加新规则和/或覆盖图书中嵌入的出版商编写的规则来更改图书的呈现方式。</p>
     
-    <p>Let's see this on an example <span class="ui">style tweak</span>:</p>
+    <p>让我们看看这个例子<span class="ui">样式调整</span>：</p>
 
     <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
-    <p>In plain language this rule says: <b>"Ignore their original size and make all the images in this book 10 pixels wide and 10 pixels high."</b> So if you add this style tweak to KOReader, all the images in your book will be shown tiny.</p>
+    <p>用通俗的语言来说，这条规则是：<b>“忽略它们的原始大小，让这本书中的所有图像都有10个像素宽，10个像素高。“</b>因此，如果您将此样式调整添加到KOReader，您书中的所有图像都将显示为微小。</p>
 
-    <p>Now lets explain this tweak item by item:</p>
+    <p>现在让我们逐项解释这个调整：</p>
 
     <ul>
-        <li><span class="ui">img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
-        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
-        <li><span class="ui">width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
-        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
+        <li><span class="ui">img</span>-这是一个CSS选择器，目标是图书中的所有<b>img</b>（图像）元素。</li>
+        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span>-这是声明块。 它包含将应用于所选<b>img</b>元素的样式。</li>
+        <li><span class="ui">width: 10px !important;</span> -第一部分将目标<b>img</b>元素的宽度设置为10像素。 <b>!important</b> 声明是一个覆盖开关，它确保您的宽度值优先于应用于这些图像的任何其他现有<b>宽度</b>声明。</li>
+        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
     </ul>
 
-    <p>In summary, this CSS rule is designed to set a <b>fixed width and height of 10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their original style</b>.</p>
+    <p>总之，这个CSS规则旨在为您的书中的所有 <b>img</b> 元素设置 <b> 固定宽度和高度为10像素 </b>，并<b> 忽略其原始样式 </b>。</p>
     
 
 
-    <div class="L3-Smaller-heading">Some useful examples of style tweaks</div>
+    <div class="L3-Smaller-heading">一些有用的样式调整示例</div>
     
-    <p>These are some useful style tweaks that you can use directly or modify according to your liking. Next heading explains how to use them in KOReader.</p>
+    <p>这些是一些有用的样式调整，您可以直接使用或根据自己的喜好进行修改。下一个标题解释了如何在KOReader中使用它们。</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b>
+            <li><b>在书籍中的每个标题上方添加分隔线:</b>
                 <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b>
+            <li><b>在标题上方添加一些边距:</b>
                 <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+            <li><b>或者，如果书的标题上方的边距过多，请将其删除:</b>
                 <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+            <li><b>在段落之间添加一个小间隙，使文本更具可读性:</b>
                 <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b>
+            <li><b>禁用EPUB中的所有图像:</b>
                 <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b>
+                <b>使图像非常小，而不是禁用它们:</b>
                 <p>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <b>使计算机科学书籍中的代码块部分更整洁、更易读（<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">在这里你可以看到一个例子</a>）：</b>
                 <p>
                         pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
                 </p>
@@ -2387,128 +2387,128 @@ line-height: 2rem;
 
 
 
-    <div class="L2-Sub-heading">How to add style tweaks</div>
+    <div class="L2-Sub-heading">如何添加样式调整</div>
 
-    <p>Ok, now we have seen what <span class="ui">style tweaks</span> are. But how can we use them? There are three types of <span class="ui">style tweaks</span> in KOReader:</p>
+    <p>好的，现在我们已经了解了什么是 <span class="ui"> 样式的调整</span>。但我们如何使用它们呢？KOReader 中有三种类型的 <span class="ui"> 样式调整</span>：</p>
 
         <img loading="lazy" src="pictures/styletweaks_main.png" style="width:450px;">
 
-    <div class="L3-Smaller-heading">1. Built-in style tweaks</div>
+    <div class="L3-Smaller-heading">1. 内置样式调整</div>
 
-    <p><span class="highlight">This heading is new, and the screenshot above and below. Anything to add?</span></p>
+    <p><span class="highlight">新建标题，上下截图。还有需要添加的吗？</span></p>
     
 
-<p>These tweaks are included in KOReader. They are the easiest to use since you just enable them from the menu to use them. You don't need to write any CSS code:</p>
+<p>这些调整都包含在KOReader中。它们是最容易使用的，因为您只需从菜单中启用它们即可使用它们。你不需要写任何CSS代码：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调</div>
 
-    <p>They come in many categories. To apply a tweak to the <b>current book only</b>, tick the checkbox. If you want to get more information about this tweak or enable it for <b>all the books</b>, long-press on its name. A dialog will appear:</p>
+    <p>它们有很多种类。 若要<b>仅对当前图书</b>应用调整，请勾选复选框。 如果你想获得更多关于这个调整的信息，或者对<b>所有的书</b>启用它，长按它的名字。 将出现一个对话框：</p>
 
     <img loading="lazy" src="pictures/styletweaks_dialog.png" style="width:500px;">
 
         <ol>
-            <li>This area shows the name and description of the tweak</li>
-            <li>This box shows the CSS code of the tweak. You can tap on this area to copy the code to the clipboard. Then you can paste and modify this code in your <span class="ui">Book-specific tweak</span> as explained under the next heading.</li>
+            <li>此区域显示参数的名称和说明</li>
+            <li>此框显示了调整的CSS代码。您可以点击此区域将代码复制到剪贴板。然后，您可以在您的<span class="ui">书籍特定调整</span>中粘贴和修改此代码，如下一标题所述。</li>
 
-            <li><span class="ui">Show in action list</span> button allows you to toggle this tweak with a gesture or add it to a <span class="ui">Quick Menu</span>. See the heading named <b>"How to use tweaks efficiently"</b> below for more info. </li>
+            <li><span class="ui">在操作列表中显示</span>按钮允许您用手势切换此调整或将其添加到<span class="ui">快速菜单</span]。有关更多信息，请参阅下面名为<b>“如何有效地使用调整”</b>的标题。 </li>
 
-            <li><span class="ui">Use on all books</span> button activate this tweak for all your books. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps.</li>
+            <li><span class="ui">在所有书籍上使用</span>按钮为所有书籍激活此调整。菜单中其名称旁边将出现一个<b>星号（★）</b>，表示此调整将应用于所有书籍。您可以使用相同的步骤禁用此功能。</li>
         </ol>
 
 
-    <div class="L3-Smaller-heading">2. Book-specific tweak</div>
-        <p>As you can guess from its name, this type of tweaks are only active for the book which you created them in. This feature is more useful for testing your tweaks or if you need to fix something on the current book and you know that you won't need it on other books. After creating this type of tweak, if you decide that you will need it on other books too (i.e. from the same publisher), you can convert it to a <span class="ui">user style tweak</span>, which we will explain next.</p>
+    <div class="L3-Smaller-heading">2.针对书籍的调整</div>
+        <p>正如你从它的名字中猜到的，这种类型的调整只对你创建它们的书有效。这个功能对于测试你的调整更有用，或者如果你需要在当前的书上修复一些东西，并且你知道你不需要在其他书上使用它。创建这种类型的调整后，如果您决定在其他书籍上也需要它（即来自同一出版商），您可以将其转换为<span class="ui">用户样式调整</span>，我们将在下面解释。</p>
 
-        <p>To create a <span class="ui">book specific tweak</span>, use the integrated editor which you can find here:</p>
+        <p>要创建<span class="ui">特定于书籍的调整</span>，请使用您可以在此处找到的集成编辑器：</p>
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 用于当前书籍的微调</div>
 
         <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">提示</span> 编辑器底部工具栏有 <span class="ui">CSS</span>菜单，内置多种常用CSS语法和特性。在打开该菜单前，请先阅读<span class="ui">长按获取说明</span>帮助。另外，长按菜单中的CSS项可阅读其功能描述。</p></div>
 
 
-    <div class="L3-Smaller-heading">3. User style tweaks</div>
+    <div class="L3-Smaller-heading">3.用户样式调整</div>
 
-        <p>These group of tweaks are different from the previous ones in the way they are created. Also unlike the previous type, they are not limited to a single book. They can be applied globally to all of your books.</p>
+        <p>这组调整在创建方式上与之前的调整不同。与之前的类型不同，它们也不限于一本书。它们可以在全局范围内应用于您的所有书籍。</p>
 
-        <p>Procedure is roughly like this, which we will explain in detail:</p>
+        <p>程序大致是这样的，我们将详细解释：</p>
 
         <ol>
-            <li>Create your user tweak file</li>
-            <li>Transfer it to your device</li>
-            <li>Enable your tweak from the menu</li>
+            <li>创建用户调整文件</li>
+            <li>传输到您的设备</li>
+            <li>从菜单中启用</li>
         </ol>
 
         <br>
-        <p><b>1. Creating the user tweak file:</b></p>
-        <p>A <span class="ui">user style tweak</span> is actually a normal text file with a <b>.css</b> extension. You can create this file:</p>
+        <p><b>1. 创建用户调整文件：</b></p>
+        <p><span class="ui">用户样式调整</span>实际上是一个扩展名为<b>.css</b>的普通文本文件。 您可以创建此文件：</p>
 
         <ul>
-            <li>On your computer</li>
-            <li>On your device if it has a text editor (like Android OS based devices)</li>
-            <li>In KOReader's integrated text editor which you can find in plugins</li>
+            <li>在您的计算机上</li>
+            <li>在您的设备上，如果它有一个文本编辑器（如基于Android操作系统的设备）</li>
+            <li>在KOReader的集成文本编辑器中，您可以在插件中找到</li>
         </ul>
 
-        <p>You can copy / paste the examples we mentioned above to your file.</p>
+        <p>您可以将上面提到的示例复制/粘贴到您的文件中。</p>
 
         <br>
 
-        <p><b>2. Transferring the file to your device:</b></p>
-        <p>After creating the file(s) which contain your CSS rules, save or transfer them to the <span class="ui">styletweaks</span> folder under your KOReader installation. Give the files descriptive names because filename will be the title of the tweak in the KOReader menu system. You can use underscores "<b>_</b>" in your filenames, they will be treated as spaces in the menu. <b>You need to restart KOReader after transferring your files so it can load them.</b></p>
+        <p><b>2. 将文件传输到您的设备：</b></p>
+        <p>创建包含CSS规则的文件后，将其保存或传输到KOReader安装下的<span class="ui">styletweaks</span>文件夹中。 为文件指定描述性名称，因为文件名将是KOReader菜单系统中调整的标题。 您可以在文件名中使用下划线“<b>_</b>“，它们将在菜单中被视为空格。 <b>您需要在传输文件后重新启动KOReader，以便它可以加载它们。</b></p>
 
         <br>
 
-        <p><b>2. Enabling the tweak:</b></p>
-        <p>After the restart, open a book and go to this menu:</p>
+        <p><b>2. 启用调整：</b></p>
+        <p>重新启动后，打开一本书并转到此菜单：</p>
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 用户样式微调</div>
             
-        <p>Now you should see your tweak in the list with a checkbox next to it. To apply your tweak to the <b>current book only</b>, tick the checkbox. If you want this tweak to be enabled for <b>all the books</b>, long-press on its name. A dialog will appear. Tap the menu item <span class="ui">Use on all books</span>. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps. See below for an example:</p>
+        <p>现在你应该在列表中看到你的调整，旁边有一个复选框。要将你的调整仅应用于<b>当前图书</b>，请勾选复选框。 如果您希望对<b>所有图书</b>启用此调整，请长按其名称。 将出现一个对话框。 轻按菜单项<span class="ui">应用到所有图书上</span>。 一个<b>星号（★）</b>将出现在菜单中其名称旁边，表示此调整将应用于所有书籍。 您可以使用相同的步骤禁用此功能。 下面是一个例子：</p>
 
         <img loading="lazy" src="pictures/user_styletweaks_activation.png" style="width:400px;">
 
-        <p>In the image above, I have 3 style tweak files in the <span class="ui">styletweaks</span> folder under my KOReader installation. First one is disabled because checkbox is empty. Second one is enabled for this book only since checkbox is marked but there is no star. Third one is enabled for all the books <b>(★)</b>.</p>
+        <p>在上图中，我在KOReader安装下的<span class="ui">styletweaks</span>文件夹中有3个样式调整文件。第一个被禁用，因为复选框为空。第二个选项仅对本书启用，因为复选框已标记，但没有星号。第三个选项适用于所有书籍<b>（★）</b>。</p>
 
-        <p>You might notice that there is also a <span class="ui">right triangle icon</span> next to the first tweak. This means that this tweak can be activated using gestures. This will explained in the next heading.</p>
+        <p>您可能会注意到，在第一个调整旁边还有一个<span class="ui">直角三角形图标</span>。这意味着可以使用手势激活此调整。这将在下一个标题中解释。</p>
 
-        <div class="L3-Smaller-heading">How to use tweaks efficiently</div>
+        <div class="L3-Smaller-heading">如何有效地使用微调</div>
 
-        <p>When creating your <span class="ui">user style tweaks</span> you can make multiple tweak files, each modifying some part of the book like in the example image above. You can have one file for the <b>headings</b>, others to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows you to enable tweaks depending on your document.</p>
+        <p>在创建<span class="ui">用户样式调整</span>时，您可以创建多个调整文件，每个文件都修改了书的某些部分，如上图所示。您可以有一个文件用于<b>标题</b>，其他文件用于修改<b>段落</b>、<b>链接</b>等。这个模块化系统允许您根据文档进行调整。</p>
 
-        <p>As we said above, you can toggle <span class="ui">user style tweaks</span> from this menu location:</p>
+        <p>正如我们上面所说的，您可以从这个菜单位置切换<span class="ui">用户样式调整</span>：</p>
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 用户样式微调</div>
 
     <br>
 
-        <p>Also we have easier ways to toggle your style tweaks than going to the menu every time.</p>
+        <p>此外，我们还有更简单的方法来切换你的样式调整，而不是每次都去菜单。</p>
         
-        <p><b>1. You can assign a gesture to a tweak</b></p>
-        <p>To do this, first we have to add our <span class="ui">user style tweak</span> to the list of gesture actions:</p>
+        <p><b>1.您可以将手势指定给调整</b></p>
+        <p>为此，首先我们必须将我们的<span class="ui">用户样式调整</span>添加到手势操作列表中：</p>
            
             <ul>
-                <li>Go to the <span class="ui">user style tweaks</span> menu and long-press on your style tweak</li>
-                <li>In the dialog press the button <span class="ui">Show in action list</span></li>
-                <li>A <span class="ui">right triangle icon</span> will appear next to your style tweak in the menu</li>
+                <li>转到<span class="ui">用户样式调整</span>菜单，长按样式调整</li>
+                <li>在对话框中，按下按钮<span class="ui">显示在操作列表中</span></li>
+                <li>菜单中样式调整旁边将出现一个<span class="ui">直角三角形图标</span></li>
             </ul>
 
-            <p>You can see it in the example image above, next to the <b>Adjust margins</b> style tweak. Now this style tweak is added to the actions list. You can find it under <span class="ui">Gesture Manager > Reflowable documents</span> category. It will be at the end of the list.</p>
+            <p>您可以在上面的示例图像中看到它，在<b>调整边距</b>样式调整旁边。现在，此样式调整已添加到操作列表中。您可以在<span class="ui">手势管理器>可重排文档</span>类别下找到它。它将在列表的末尾。</p>
 
 <br>
 
-        <p><b>2. You can add a tweak to your Quick Menu</b></p>
+        <p><b>2.您可以在快速菜单中添加调整</b></p>
 
-        <p>To add a tweak to your <span class="ui">Quick Menu</span>, first it has to be added to the actions list as described in the heading above. Then you can follow the instructions under the <a href="#quickmenu">Quick Menu</a> section of this guide. </p>
+        <p>要在<span class="ui">快速菜单</span>中添加调整，首先必须将其添加到上述标题中描述的操作列表中。然后，您可以按照本指南<a href="#quickmenu">快速菜单</a>部分的说明进行操作。 </p>
 
-        <p>You can even combine both methods and create a special <span class="ui">Quick Menu</span> for your style tweaks and then assign it to a gesture. This way, with a simple gesture you can access all your style tweaks and activate them as needed.</p>
+        <p>你甚至可以将这两种方法结合起来，为你的风格调整创建一个特殊的<span class="ui">快速菜单</span>，然后将其分配给一个手势。这样，只需一个简单的手势，您就可以访问所有的样式调整，并根据需要激活它们。</p>
 
 
-    <div class="L3-Smaller-heading">Finding elements for modifying</div>
+    <div class="L3-Smaller-heading">查找要修改的元素</div>
 
-    <p>Note that in some books, titles might not be in <b>&lt;H1&gt; or &lt;H2&gt;</b> elements, but in something like <b>&lt;p class="tit123"&gt;</b>. You can find which selectors are used for a part of text by checking the source. To achieve this, select the text around the element which you are interested in, and choose <span class="ui">View HTML</span> from the dialog. In the example above, your style tweak would look like this:</p>
+    <p>请注意，在某些书籍中，标题可能不在<b>&lt;H1或H2&gt;</b>元素中，而是在类似<b>&lt;p class=“tit123”的&gt;</b>内容中。 您可以通过检查源代码来查找用于文本部分的选择器。 要实现这一点，请选择您感兴趣的元素周围的文本，然后从对话框中选择<span class="ui">查看 HTML</span>。 在上面的示例中，您的样式调整看起来像这样：</p>
 
     <p><b>P.tit123 { border-top: 2px solid black; }</b></p>
 
-    <p>instead of this:</p>
+    <p>而不是这样：</p>
     
     <p><b>H1 { border-top: 2px solid black; }</b></p>
 
@@ -2524,21 +2524,21 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-bookmarks">书签、标注与笔记</div>
 
     <p>
-    KOReader gives you options to interact with your book like you can do with a real book. Many settings of the bookmark window can be changed here:</p>
+    KOReader提供了多种选项，可以像纸质书一样做记号。书签页面的多项设定可以在下列路径变更：</p>
 
 
-    	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / 设置 / 书签</div>
+    	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / 设置 / 书签相关</div>
 
     
     <br>
 
-    <p><b>BOOKMARKS:</b></p>
+    <p><b>阅读位置书签：</b></p>
     
-    <p>You can add (and remove) a bookmark by pressing the upper right corner. This is the equivalent of folding the corner of a page on a real book and shows a similar icon when you enable it.</p>
+    <p>可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将纸质书的书页折起一角，并且会显示类似形状的标志。</p>
 
     <br>
 
-    <p><b>标注：</b></p>
+    <p><b>文段标注：</b></p>
     
     <p>有四种不同样式的标注可用使用。下图展示了一段普通文本及不同样式的标注：<span class="ui">浅色</span>（灰色背景）、<span class="ui">下划线、删除线</span>及<span class="ui">反色</span>。</p>
 
@@ -2578,7 +2578,7 @@ line-height: 2rem;
 
     <br>
 
-    <p><b>NOTES:</b></p>
+    <p><b>旁注笔记：</b></p>
     
     <p>还可为标注添加笔记；只需点按一段标注，从弹出菜单中选择<span class="ui">添加笔记</span>。还可选择一种<span class="ui">笔记标志</span>标出包含笔记的标注。有三种样式可供选择——<span class="ui">下划线、批注线</span>和<span class="ui">旁注符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）：</p>
 
@@ -2599,14 +2599,14 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Normal mode</div>
+<div class="L3-Smaller-heading">普通标注模式</div>
 
     <p><span class="ui">普通模式</span>与在手机或平板电脑上用手指选择文本类似，适用于标注文段在同一页内的情况。</p>
 
     <ol>
-        <li>Long-press on the starting word</li>
-        <li>Move your finger to the end of the passage</li>
-        <li>Release finger</li>
+        <li>在要标注文段的首字上长按</li>
+        <li>移动手指到要标注文段的末尾</li>
+        <li>抬起手指</li>
     </ol>
 
     <p>当划到页面边界时，KOReader会自动翻页以保持标注连贯<b>（仅对EPUB和HTML文档有效）</b>。该功能可通过下列路径禁用：</p>
@@ -2625,18 +2625,18 @@ line-height: 2rem;
 
     <br>
 
-    <p><b>标注的使用方法：</b></p>
+    <p><b>划标注的方法：</b></p>
 
     <img loading="lazy" src="pictures/highlight_menu.png" style="width: 60%;">
 
     <ol>
-    <li>Long-press (or drag if dictionary lookup is enabled as described above) on the starting word, popup menu will show up.</li>
+    <li>在要标注文段的首字上长按（如果启用了查找字典功能则是对首字拖拽）呼出菜单。</li>
     <li>点按<span class="ui">选择</span>选项进入标注模式，此时屏幕左上角将出现一枚标志（可点击标志获得更多信息）。再次点按标注起始处可取消标注。在标注模式下可使用点按或滑动翻页，并可使用目录或跳读工具前往任意页。</li>
-    <li>在标注的最后一个单词上长按，菜单会再次显示；如果按照上面的说明启用了查询字典功能，则通过拖拽末尾单词呼出菜单。</li>
+    <li>在标注的末字上长按菜单会再次显示；若启用了查询字典功能，则通过拖拽末字呼出菜单。</li>
     <li>现在点按<span class="ui">标注</span>即可完成对文段的标注。</li>
     </ol>
 
-    <p>通常情况下，本对话框将显示在屏幕中间。如果希望对话框显示在标注位置附近，可以将菜单第二页的<span class="ui">中间</span>选项改为<span class="ui">手势位置</span>：</p>
+    <p>通常情况下该对话框将显示在屏幕中间。如果希望对话框显示在标注位置附近，可以将菜单第二页的<span class="ui">中间</span>选项改为<span class="ui">手势位置</span>：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ 点按及手势交互 / 在文字上长按 / 标注对话框位置</div>
 
@@ -2694,30 +2694,30 @@ line-height: 2rem;
     <p>要编辑被标注的文本，请按如下步骤操作：</p>
         <ol>
             <li>点按标注文段</li>
-            <li>Tap <span class="ui">Details</span> from the popup menu</li>
-            <li>Tap <span class="ui">Edit text</span> from the details dialog</li>
+            <li>在弹出菜单中点按<span class="ui">详情</span></li>
+            <li>在详情对话框中点按<span class="ui">编辑文本</span></li>
         </ol>
         
         
-        <p>Also you can do it from the Bookmarks window:</p>
+        <p>你也可以从书签窗口中进行操作：</p>
 
     <ol>
-        <li>Go to the <span class="ui">Bookmarks list</span> via menu or gesture</li>
+        <li>通过点按菜单或手势交互打开<span class="ui">书签列表</span></li>
         <li>长按想要编辑的被标注文段</li>
-        <li>Press <span class="ui">Edit text</span> in the menu</li>
-        <li>Change the text in the dialog and press the <span class="ui">Save</span> button</li>
+        <li>在菜单中点按<span class="ui">编辑文本</span></li>
+        <li>在弹出对话框中修改文字，然后点按<span class="ui">保存</span>按钮</li>
     </ol>
 
     <p>若要将编辑后的文本<b>撤回到</b>书籍原文，按上方所属步骤操作但在<b>第三步</b>时不要点按<span class="ui">编辑被标注文本</span>，而是点按<span class="ui">还原原始文本</span>按钮。</p>
 
 
-<div class="L3-Smaller-heading">Changing how the added notes are shown in the Bookmarks List</div>
+<div class="L3-Smaller-heading">更改添加的笔记在书签列表中的显示方式</div>
 
-    <p>通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带笔记，只会在书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记。若要在<span class="ui">书签列表</span>中同时展示笔记，可按照下列路径设置：</p>
+    <p>通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带旁注笔记，只会在书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记。若要在<span class="ui">书签列表</span>中同时展示笔记，可按照下列路径设置：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 书签相关 / 书签界面中的展示元素</div>
 
-    <p>You can choose to show:</p>
+    <p>有如下几种显示方式可供选择：</p>
     <ul>
         <li><b>仅显示</b>标注文段（默认设置）</li>
         <li><b>同时显示</b>标注文段及旁注笔记</li>
@@ -2733,12 +2733,12 @@ line-height: 2rem;
 <div class="L2-Sub-heading" id="L2-exportinghighlights">导出标注</div>
 
     <p>
-    After finishing a book, you can move it to a specific folder for archiving or processing purposes. Enable <span class="ui">Move to archive</span> plugin and set your target directory in the plugin’s settings (<span class="ui">Set archive folder</span>). After this, you can move a book to your archive folder using:</p>
+    在读完一本书后，可以将其移到指定文件夹作为归档。启用<span class="ui">移动书籍以归档</span>插件，指定归档目录路径（<span class="ui">设置归档文件夹</span>）。完成设置后，可通过下列方式将书籍移入归档：</p>
 
     <ul>
-        <li><span class="ui">Move to archive</span> plugin menu</li>
-        <li>With a gesture or</li>
-        <li>With a <span class="ui">Quick Menu</span> entry</li>
+        <li><span class="ui">移动书籍以归档</span>插件菜单</li>
+        <li>利用指定的交互手势，或者</li>
+        <li>使用<span class="ui">快捷菜单</span>中的入口</li>
     </ul>
 
     <p>KOReader提供多种导出标注和笔记的方式：</p>
@@ -2751,39 +2751,39 @@ line-height: 2rem;
 
         <br>
 
-    <p><b>Local export</b></p>
+    <p><b>本地导出</b></p>
     
     <p>标注可被导出为以下几种文件格式：</p>
     <ul>
-        <li>Text (.txt)</li>
-        <li>HTML (.html)</li>
-        <li>Markdown (.md)</li>
-        <li>Kindle Clippings (.txt)</li>
-        <li>JSON (.json)</li>
+        <li>纯文本（.txt）</li>
+        <li>HTML 网页 (.html)</li>
+        <li>Markdown文档 (.md)</li>
+        <li>Kindle 剪辑 (.txt)</li>
+        <li>JSON文件 (.json)</li>
     </ul>
         
-    <p>You can choose your preferred export formats from:</p>
+    <p>可以在下列菜单中选择想要使用的导出格式：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 导出标注 / 选择文件格式及服务</div>
 
-    <p>You can see the export location (and also change it if you want):</p>
+    <p>可以在下列菜单中查看（或修改）导出文件存放目录：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 导出标注 / 选择存放文件夹</div>
     
     <br>
 
-    <p><b>Online services</b></p>
+    <p><b>在线服务</b></p>
     
-    <p>You can also export to these services over the network:</p>
+    <p>还可通过网络将标注导出到下列服务平台：</p>
 
     <ul>
-        <li><a href="https://joplinapp.org/">Joplin</a> - a note taking application</li>
+        <li><a href="https://joplinapp.org/">Joplin</a>——一款笔记标注软件</li>
         <li><a href="https://readwise.io/">Readwise</a>——一款在线书签及标注软件</li>
-        <li><a href="https://github.com/usememos/memos">Memos</a> - a self-hosted open source memo hub</li>
+        <li><a href="https://github.com/usememos/memos">Memos</a>一款自托管的开源备忘录</li>
         <li>
-        <a href="https://flomoapp.com">Flomo</a> - an online note taking service</li>
+        <a href="https://flomoapp.com">Flomo</a>——一款在线笔记服务</li>
         <li>
-        <a href="https://www.xmnote.com/">XMNote</a> - an Android bookmark organizer in Chinese language</li>
+        <a href="https://www.xmnote.com/">XMNote</a>——一款安卓平台的中文界面书签管理软件</li>
 
 
     </ul>
@@ -2797,7 +2797,7 @@ line-height: 2rem;
     <p>若想仅导出部分书目的旁注，可以在<span class="ui">文件管理器</span>中这样操作：</p>
     <ol>
         <li>在<span class="ui">文件管理器</span>中同时选中多本书籍</li>
-        <li>Tap on the menu button (shown as a check mark) at the top right corner</li>
+        <li>点击右上角的菜单按钮（显示为复选标记）</li>
         <li>从菜单中选择<span class="ui">导出标注</span></li>
     </ol>
 
@@ -2844,7 +2844,7 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">底部菜单 / <img class="img_inline" src="pictures/bottom_font.svg" style="width:22px;"> / 页面重排</div>
 
-    <p>Reflow tries to extract the text portion from your document (if it is available) and format it as a single column. Results are generally satisfactory. You can also set this as a <b>default</b> by tapping and holding on it.</p>
+    <p>重排尝试从文档中提取文本部分（如果可用）并将其格式化为单个列。 结果总体上还行。 您也可以通过点击并按住它将其设置为<b>默认值</b>。</p>
 
 	<br>
     
@@ -2855,13 +2855,13 @@ line-height: 2rem;
     <img loading="lazy" src="pictures/bottom_pdf_3.png" style="width: 70%;">
 
 
-    <p>With this option KOReader tries to crop margins from your document so text can look bigger on your screen. You can set <span class="ui">fit</span> to <span class="ui">width</span> in the same menu which will try to fit only page width instead of whole page, so your text will look bigger.</p>
+    <p>使用此选项，KOReader会尝试从文档中裁剪边距，以便文本在屏幕上看起来更大。您可以在同一菜单中设置 <span class="ui">适配</span>到<span class="ui">宽度</span>，该菜单将尝试仅适合页面宽度而不是整个页面，因此您的文本看起来会更大。</p>
 
 	<br>
 
     <p><b>3、将阅读设备设置为</b><span class="ui">横屏模式</span></p>
 
-    <p>This will make your screen wider so your document may look big enough to read comfortably.</p>
+    <p>这将使您的屏幕更宽，以便您的文档看起来足够大，可以舒适地阅读。</p>
 
     <div class="menu-breadcrumbs">底部菜单 / <img loading="lazy" class="img_inline" src="pictures/bottom_orientation.svg" style="width:22px;"></div>
 
@@ -2870,27 +2870,27 @@ line-height: 2rem;
 	<p><b>4、以文档原始尺寸浏览，通过滚动屏幕浏览页面的不同部分</b></p>
     
 
-    <p>This is especially helpful with comic books. First enable <span class="ui">column mode</span> from this menu item:</p>
+    <p>这对漫画书尤其有用。首先从该菜单项启用<span class="ui">列模式</span>：</p>
 
     <div class="menu-breadcrumbs">底部菜单 / <img loading="lazy" class="img_inline" src="pictures/bottom_fit.svg" style="width:22px;"> / <img class="img_inline" src="pictures/bottom_fit_column.svg" style="width:22px;"></div>
 
-    <p>Then select an appropriate flow direction for your document from the same menu:</p>
+    <p>然后从同一菜单中为文档选择适当的流向:</p>
     
     <img loading="lazy" src="pictures/pdf_flow_types.png" style="width: 60%;">
     
 
     <ul>
-        <li>For example if you are reading an article which has two columns, you will scroll down until the end of page reading left column then go to right upper side to continue reading right column:<br>
+        <li>例如，如果您正在阅读一篇有两列的文章，您将向下滚动直到页面末尾阅读左列，然后转到右上侧继续阅读右列：<br>
         <img class="img_inline" loading="lazy" src="pictures/flow_pattern_DRD.svg" style="width:50px;"><br></li>
 
-        <li>Or if you are reading a comic book, you will want to go <b>“right / down left / right”</b> in a zigzag pattern:<br>
+        <li>或者，如果您正在阅读漫画书，您将需要以锯齿形模式<b>“右/下左/右”</b>：<br>
         <img class="img_inline" loading="lazy" src="pictures/flow_pattern_RDR.svg" style="width:50px;"></li>
 
-        <li>For a Japanese comic book (right-to-left panel order) this might be the reverse:<br>
+        <li>对于日本漫画书（从右到左的面板顺序），这可能是相反的:<br>
         <img class="img_inline" loading="lazy" src="pictures/flow_pattern_LDL.svg" style="width:50px;"></li>
     </ul>
 
-    <p>In this mode you can also adjust <span class="ui">Horizontal/Vertical Overlap</span> and <span class="ui">Number of Columns</span> from the same menu to fit the text on your screen better. Feel free to experiment with these settings.</p>
+    <p>在此模式下，您还可以从同一菜单调整<span class="ui">水平/垂直重叠</span>和<span class="ui">列数</span>，以更好地适应屏幕上的文本。 请随意尝试这些设置。</p>
 
     <div class="tip"><span class="label_green">说明</span> 阅读PDF文档时，若处于放大视图（分栏放大、分行放大或手动放大）或者开启了<span class="ui">页面重排模式</span>，点击界面左上角标志可进入<span class="ui">翻页模式</span>。该模式将临时显示未经裁剪、放大的完整页面。该模式下可以翻页。再次点击该标志可从该模式中退出。</div>
 
@@ -2899,29 +2899,29 @@ line-height: 2rem;
     <img loading="lazy" src="pictures/bottom_pdf_6.png" style="width: 60%;">
 
 
-    <p><span class="ui">Contrast</span> setting adjusts black levels in your document. Be aware that same contrast value applies to both text and images in your document. If you set it very high, your images may become too dark.</p>
+    <p><span class="ui">对比度</span>设置调整文档中的黑色级别。 请注意，相同的对比度值适用于文档中的文本和图像。 如果你把它设置得很高，你的图像可能会变得太暗。</p>
 
-    <p><span class="ui">Dewatermark</span> removes watermarks from the rendered document. It can also be used to remove gray backgrounds. This feature can convert a grayscale or color document to black & white to produce more contrast for easier reading.</p>
+    <p><span class="ui">去水印</span>从呈现的文档中移除水印。 它也可以用来删除灰色背景。 此功能可以将灰度或彩色文档转换为黑白，提高对比度，以便于阅读。</p>
 
-    <p><span class="ui">Render quality</span> <b>(only active in Reflow mode)</b> sets the quality of text and image extraction processing and output. <span class="ui">High</span> is more pleasing but it can be much slower (several seconds for page turn) than <span class="ui">default</span> depending on your document. If your PDF/DJVU files are slow, this is the first setting you should check.</p>
+    <p><span class="ui">渲染质量</span><b>（仅在重排模式下处于活动状态）</b>设置文本和图像提取处理和输出的质量。 <span class="ui">高</span>更令人愉悦，但它可能比<span class="ui">默认</span>慢得多（翻页需要几秒钟），具体取决于您的文档。 如果您的PDF/DJVU文件很慢，这是您应该检查的第一个设置。</p>
         
     <hr>
         
     <img loading="lazy" src="pictures/bottom_pdf_7.png" style="width: 60%;">
     
-    <p><span class="ui">Document language</span> sets the language that will be used by the OCR engine.</p>
+    <p><span class="ui">文档语言</span>设置OCR引擎将使用的语言。</p>
 
-    <p><span class="ui">Forced OCR</span> as the name says, forces the use of OCR even if the document has a text layer.</p>
+    <p><span class="ui">强制 OCR</span>顾名思义，即使文档具有文本层，也强制使用OCR。</p>
 
-    <p><span class="ui">Writing direction</span> <b>(only active in Reflow mode)</b> sets the direction of original document. Set this to <b>RTL</b> for languages like Arabic and Hebrew.</p>
+    <p><span class="ui">书写方向</span><b>（仅在重排模式下有效）</b>设置原始文档的方向。 对于阿拉伯语和希伯来语等语言，将其设置为<b>从右到左（RTL）</b>。</p>
 
-    <p><span class="ui">Document columns</span> <b>(only active in Reflow mode)</b> sets the number of text columns in the original document.</p>
+    <p><span class="ui">文档列</span><b>（仅在重排模式下处于活动状态）</b>设置原始文档中的文本列数。</p>
         
     <hr>
 
     <img loading="lazy" src="pictures/bottom_pdf_2.png" style="width: 60%;">
 
-    <p><span class="ui">Auto straighten</span> feature can straighten the pages of a problematic document, for example pages of a PDF which are scanned with an angle. It is available in <b>PDF, DJVU, CBZ/CBT</b> documents and <b>image</b> files. To enable, choose the maximum tilt angle which KOReader will try to correct. If it doesn’t correct you might have to choose a bigger angle. Note that this feature <b>might slow down your reader</b> depending on several factors.</p>
+    <p><span class="ui">自动拉直</span>功能可以拉直有问题文档的页面，例如以角度扫描的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图像</b>文件中可用。 要启用，请选择KOReader将尝试纠正的最大倾斜角度。 如果它不正确，你可能不得不选择一个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于几个因素。</p>
 
     
 
@@ -2944,16 +2944,16 @@ line-height: 2rem;
 
         <div class="centering-div">
         <ul>
-            <li>✅ Chrome Browser (All platforms)</li>
-            <li>✅ Deepin Reader (Linux)</li>
-            <li>✅ Firefox Browser (All platforms)</li>
-            <li>✅ Ghostscript (All platforms)</li>
+            <li>✅ Chrome浏览器（所有平台）</li>
+            <li>✅ Deepin 阅读器 (Linux)</li>
+            <li>✅ 火狐浏览器 (所有平台)</li>
+            <li>✅ Ghostscript (所有平台)</li>
             <li>✅ MuPDF (Windows/Android)</li>
-            <li>⚠️ Zathura (if MuPDF plugin is enabled)</li>
+            <li>⚠️ Zathura (如果启用了 MuPDF 插件)</li>
             <li>❌ Adobe Acrobat Reader</li>
             <li>❌ Evince (Linux)</li>
             <li>❌ Foxit Reader</li>
-            <li>❌ LibreOffice Draw (as editor)</li>
+            <li>❌ LibreOffice Draw (作为编辑器)</li>
             <li>❌ Moon Reader (Android)</li>
             <li>❌ Okular (Linux)</li>
             <li>❌ SumatraPDF (Windows)</li>
@@ -2978,11 +2978,11 @@ line-height: 2rem;
         <p><b>KOReader中PDF文档标注的工作原理</b></p>
         <p>PDF文档的标注功能与上述说明有所不同。如前所述，保存PDF标注时，标注数据会被直接写入到PDF文档中，成为文档的一部分。这就是为何该PDF被发送给其它用户后对方可使用兼容的PDF阅读软件查看标注。对方无需获得包含了标注记录的关联<span class="ui">.sdr文件夹</span>，因为标注已被直接嵌入PDF文档中。</p>
 
-        <p>Let's explain the problem which can arise when you are using this feature, on an example. Imagine that you are reading a PDF book on your <b>e-reader</b> with KOReader:</p>
+        <p>让我们通过一个例子来解释使用此功能时可能出现的问题。 想象一下，您正在使用KOReader在<b>电子阅读器</b>上阅读PDF书籍:</p>
 
         <ol>
             <li>若<span class="ui">将标注保存到PDF文档</span>选项开启，KOReader会在做下标注的同时将标注写入PDF文档。</li>
-            <li>You want to continue reading the book on your <b>phone</b> with KOReader, so you copy this PDF file from your <b>e-reader</b> to your <b>phone</b> (but you didn't copy the <span class="ui">.sdr folder</span>, only the PDF file).</li>
+            <li>你想继续用KOReader在你的<b>手机</b>上阅读这本书，所以你把这个PDF文件从你的<b>电子阅读器</b>复制到你的<b>手机</b>上（但是你没有复制<span class="ui">.sdr文件夹</span>，只有PDF文件）。</li>
             <li>当用<b>手机上的</b>KOReader打开书籍，可以看到标注仍保留在书籍中。</li>
         </ol>
 
@@ -2998,12 +2998,12 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-ocr">OCR (光学字符识别)</div>
     <p>
-    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a> for this task.</p>
+    <b>OCR（光学字符识别）</b>是从图像中提取文本的过程。 在KOReader上下文中，它通常用于从PDF文件中的扫描书页中提取文本。 KOReader依赖于<a href="https://github.com/tesseract-ocr/tessdoc">Tesseract开源OCR引擎</a>用于此任务。</p>
     
-    <p>To use this feature you need to:</p>
+    <p>要使用此功能，您需要:</p>
     <ol>
-        <li>Install <span class="external">Tesseract</span> language data to your KOReader</li>
-        <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
+        <li>安装<span class="external">Tesseract</span>语言数据到您的KOReader</li>
+        <li>将新安装的语言添加到koreader/defaults.lua配置文件（仅当您的语言不是英语或中文时才需要）</li>
     </ol>
     
     <div class="info"><span class="label_blue">说明</span> 在Tesseract识别引擎的必要文件安装前，OCR菜单中的各个按钮<b>不会响应</b>。详细的操作过程请前往<a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">相关维基页</a>阅读。</div>
@@ -3014,35 +3014,35 @@ line-height: 2rem;
 
 <!-- ANCHOR READING COMICS AND MANGA -->
 
-<div class="L1-Chapter-heading" id="L1-manga">READING COMICS AND MANGA</div>
+<div class="L1-Chapter-heading" id="L1-manga">阅读漫画</div>
 
     <div class="L2-Sub-heading" id="L2-mangarefresh">调整页面刷新间隔</div>
 
-    <p>Comic books generally need more frequent page refreshes than the pure text content. For normal text, you can set your page refresh interval to high numbers without problem. But images can leave more residue and cause ghosting, especially depending on the panel of your e-reader.</p>
+    <p>漫画书一般需要比纯文本内容更频繁的页面刷新。 对于普通文本，您可以毫无问题地将页面刷新间隔设置为高数字。 但图像可能会留下更多残留并导致重影，特别是取决于您的电子阅读器的面板。</p>
 
-    <p>KOReader allows you to assign any gesture to switch to different refresh rates. For example you can set <b>swipe up left edge</b> for <span class="ui">every page</span> refresh when reading comics and set <b>swipe down left edge</b> for <span class="ui">every x page</span> refresh for text only books. So when you open a comic, you can switch to more frequent refresh with a simple tap or swipe (or vice versa).</p>
+    <p>KOReader允许将手势分配到不同的刷新率。 例如，您可以在阅读漫画时设置<b>向上滑动左边缘</b>为<span class="ui">每页</span>刷新，并设置<b>向下滑动左边缘</b>为<span class="ui">每x页</span>刷新纯文本书籍。 因此，当您打开漫画时，您可以通过简单的点击或滑动（反之亦然）切换到更频繁的刷新。</p>
         
-    <p>This action is under:</p>
+    <p>此操作位于：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点击及手势交互 / 交互手势管理 / 屏幕与灯光相关 / 全屏刷新率</div>
 
 
 
-<div class="L2-Sub-heading" id="L2-panelzoom">Panel zoom feature</div>
+<div class="L2-Sub-heading" id="L2-panelzoom">面板缩放功能</div>
     
-    <p>This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:</p>
+    <p>此功能使在较小的屏幕上阅读漫画书更容易。 您可以在阅读<b>PDF，DJVU，CBZ或CBT</b>文档时启用它:</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 分格缩放（适用于漫画书籍）</div>
 
-    <p>When this option is enabled, KOReader tries to find the boundaries of rectangular panels on the screen. If you long-press on a panel, KOReader zooms in and shows just that panel.</p>
+    <p>启用此选项后，Koreader试图在屏幕上找到矩形面板的边界。如果您长时间在面板上进行了压力，那么Koreader会放大并显示该面板。</p>
         
-    <p>As you can guess, this feature works best with comics that has clean panel boundaries. Also there is no <b>page turn</b> in this mode to jump to the next panel due to this boundary problem. You have to close the zoomed in panel and long-press on the next one. To do this, just <span class="ui">swipe down</span> this zoomed in panel. Also you can use any <span class="ui">multiswipe gesture</span> (any combination of up, down, left, right) to exit this view.</p>
+    <p>正如您所猜测的，此功能最适合具有干净面板边界的漫画。 此外，由于此边界问题，在此模式下没有<b>翻页</b>跳转到下一个面板。 你必须关闭放大的面板，长按下一个。 要做到这一点，只需<span class="ui">向下滑动</span>此放大面板。 您也可以使用任何<span class="ui">多重手势</span>（向上，向下，向左，向右的任何组合）退出此视图。</p>
         
-    <p>Procedure can be seen below:</p>
+    <p>过程可以在下面看到：</p>
     
     <img loading="lazy" src="pictures/panel_zoom.png" style="width: 70%;">
     
-    <p>If you want to use this feature with other file types like EPUB, FB2, HTML or image files, you should open the file with a different engine: In the <span class="ui">File Browser</span> long-tap on the file name, tap <span class="ui">Open with…</span> and select <span class="ui">MuPDF</span>.</p>
+    <p>如果要将此功能用于EPUB、FB2、HTML或图像文件等其他文件类型，则应使用其他引擎打开该文件：在<span class="ui">文件浏览器中</span>长按文件名，点按<span class="ui">以...打开</span>，并选择<span class="ui">MuPDF</span>。</p>
 
 
   
@@ -3052,14 +3052,14 @@ line-height: 2rem;
     
     <img loading="lazy" src="pictures/open_next_file.png" style="width: 60%;">
     
-    <p> When opening this next file, KOReader skips the files that you have marked as <b>finished</b>. This feature is useful for example when you have a folder of manga files and you have already read some of them. You can mark a file as finished from the end of book dialog shown above. Also you can mark it from the <span class="ui">File Browser</span> by long-pressing on the file. After copying them to your device, you can: </p>
+    <p> 打开下一个文件时，KOReader会跳过标记为<b> >已阅读</b>的文件。这个功能是有用的，例如当你有一个文件夹的漫画文件，你已经读了其中的一些。您可以从上面所示的图书结束对话框中将文件标记为已完成。也可以在<span class="ui">文件浏览器</span>上标记它，长按该文件。将它们复制到您的设备后，您可以： </p>
     
     <ul>
-    <li>Open the <span class="ui">File Browser</span> in KOReader</li>
-    <li>Long press on the ones you already finished and tap <span class="ui">Mark as finished</span></li>
+    <li>在 KOReader 中打开<span class="ui">文件浏览器</span></li>
+    <li>长按你已经读完的书，然后点击<span class="ui">标记为已读</span></li>
     </ul>
     
-    <p>Now you can read all the files by just tapping <span class="ui">Open next file</span> at the end of the book. KOReader will skip the ones you have already read.</p>
+    <p>现在，您只需点击本书末尾的<span class="ui">打开下一个文件</span>即可读取所有文件。 KOReader会跳过你已经读过的那些书籍。</p>
 
 
 <div class="L2-Sub-heading" id="L2-mangaprepare">预处理漫画文档以适配阅读设备</div>
@@ -3067,17 +3067,17 @@ line-height: 2rem;
     <p>
     对喜欢在电子墨水屏设备上阅读漫画的用户，下面有一些提升阅读体验的小技巧。若漫画在设备上的呈现方式不尽如人意，对漫画书文件进行预处理是最佳解决方案。</p>
     
-<div class="L3-Smaller-heading">Which file type to use</div>
-    <p>File types like MOBI and EPUB are not suitable for handling primarily image content (e.g., manga/comics). <b>MOBI</b> support in KOReader is minimal to nonexistent, and <b>EPUB’s</b> text rendering priorities can cause problems when showing full-page images. For further technical details, please visit this <a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">GitHub issue</a>.</p>
+<div class="L3-Smaller-heading">使用哪种文件类型</div>
+    <p>MOBI和EPUB等文件类型不适合主要处理图像内容（例如漫画/漫画）。KOReader中的<b>MOBI</b>支持几乎为零，而<b>EPUB</b>的文本渲染优先级在显示整页图像时可能会导致问题。有关更多技术细节，请访问<a href="https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205">GitHub 问题</a>。</p>
         
     <p>最好的选择是创建一份在KOReader中效果更好的<b>CBZ</b>格式文件。<b>.cbz</b>扩展名的文件本质上是将未压缩处理的图片集打包而成的zip压缩档，内含通常为<b>.png</b>或<b>.jpeg</b>格式、按照漫画页码排序的多个图片文件。KOReader也支持打开<b>CBT</b>格式文件，它与<b>CBZ</b>相似，区别是使用<b>TAR</b>格式打包。</p>
     
-    <p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>). There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that eink-rendered gradients are smoothly dithered without jagged layers.</p>
+    <p>将漫画转换为<b>CBZ</b>的最简单方法是从各种网站获得漫画图像，然后使用<span class="external">Kindle Comic Converter</span> (<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>)转换它们。有一些有用的设置，如<b>自动旋转两页分割为横向，并应用抖动</b>，使墨水屏渲染的渐变平滑抖动，没有锯齿层。</p>
     
-<div class="L3-Smaller-heading">Which resolution to use</div>
-    <p>The best results can be achieved by resizing your images to exactly your e-reader screen size. A screen-specific <b>CBZ</b> which targets the exact screen size of the device, prevents rescaling during reading. KOReader downscales your images to your screen size while reading but this is not recommended because KOReader adds a dithering pass before scaling and this causes loss of quality.</p>
+<div class="L3-Smaller-heading">使用哪种分辨率</div>
+    <p>通过将图像大小调整为电子阅读器屏幕尺寸，可以获得最佳效果。特定于屏幕的 <b>CBZ</b> 针对设备的确切屏幕尺寸，可防止在读取期间重新缩放。KOReader 在阅读时将图像缩小到屏幕尺寸，但不建议这样做，因为 KOReader 在缩放之前添加了抖动通道，这会导致质量损失。</p>
     
-    <p>But if you want to use your hand made <b>CBZ</b> on more than one device or you want to preserve high resolution for future proofing, your best option might be to make the <b>CBZ</b> for your highest resolution device. Or pick an arbitrary "high" resolution, possibly one that matches the source. <b>300 PPI</b> or better (up to <b>450</b> or even <b>600</b>), unless the source is lower of course. If we assume a screen size of <b>8", 1500×2000</b> is a good target resolution. For bigger images, you should try it on your device and see whether it can deal with it. Especially old Kindles with low memory can struggle with sizes like <b>3000×4000</b> for example. If you're automating the process, it might be worth considering creating both a lower and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI).</p>
+    <p>但是，如果您想在多台设备上使用手工制作的 <b>CBZ</b>，或者您想保留高分辨率以备将来使用，那么最好的选择可能是为您的最高分辨率设备制作 <b>CBZ</b>。或者选择任意的“高”分辨率，可能是与源匹配的分辨率。<b>300 PPI</b> 或更高（高达 <b>450</b> 甚至 <b>600</b>），当然，除非来源较低。如果我们假设屏幕尺寸为 <b>8 英寸，则 1500×2000</b> 是一个不错的目标分辨率。对于较大的图像，您应该在您的设备上尝试一下，看看它是否可以处理它。例如，内存不足的旧 Kindle 可能会难以处理 <b>3000×4000</b> 等大小。如果您要自动化该过程，则可能值得考虑创建较低和较高质量的版本（例如，<b>200/400</b> 或 <b>300/600</b> DPI）。</p>
     
     <div class="info"><span class="label_blue">说明</span> KOReader不会解析书籍的<b>spine page-progression-direction="rtl"</b>参数，因此即使书籍指定了从右向左阅读，软件中的翻页方向也不会改变。用户可通过下列路径手动切换：
         
@@ -3086,20 +3086,20 @@ line-height: 2rem;
     
 <div class="L3-Smaller-heading">对漫画书籍进行高阶预处理</div>
     
-    <p>The following is an example procedure to process one manga file:</p>
+    <p>以下是处理一个漫画文件的示例过程：</p>
 
     <ul>
-        <li>Download <span class="external">Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
-        <li>Download your manga from the source of your choosing (i.e. <span class="external">HakuNeko</span>)</li>
-        <li>Unpack the manga file. Now you should have a directory that contains only images (or subdirectories with images, no archives)</li>
+        <li>从<a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a>下载 <span class="external">Kindle Comic Converter (KCC)</span></li>
+        <li>从您选择的来源下载您的漫画（如：<span class="external">HakuNeko</span>）</li>
+        <li>解压漫画文件。现在，您应该有一个仅包含图像的目录（或包含图像的子目录，没有存档）</li>
         <li>使用<span class="external">KCC</span>软件处理这个文件夹，每个文件夹将被打包为单个<b>CBZ</b>格式文件。若要一次性制作多卷漫画书籍，请同时选中多个文件夹</li>
     </ul>
     
-    <p>Some useful settings of <span class="external">KCC</span>:</p>
+    <p><span class="external">KCC</span> 的一些有用设置：</p>
 
-    <p><b>Spread splitter:</b> This feature detects double pages and allows you to rotate or cut them in two.</p>
+    <p><b>跨页分割器：</b>此功能可检测双页，并允许您将其旋转或切成两半。</p>
 
-    <p><b>Upscaling:</b> Enlarge images that is smaller than your target resolution.</p>
+    <p><b>放大：</b>放大比目标分辨率小的图像。</p>
 
 
 
@@ -3109,20 +3109,20 @@ line-height: 2rem;
     
 
 
-<div class="L3-Smaller-heading">Immersive mode in KOReader</div>
+<div class="L3-Smaller-heading">KOReader中的沉浸式模式</div>
     
     <p>
-    If you would like to enjoy your manga in a more immersive way, make sure that you selected the exact same resolution as your device’s screen resolution in <b>KCC</b> when creating your <b>CBZ</b> file. Also you can hide the bottom progress bar while reading your manga in KOReader. So you will have an immersive full screen view of your manga without obstructions.</p>
+    如果你想以更身临其境的方式欣赏你的漫画，请确保在创建<b>CBZ</b>文件时，你在<b>KCC</b>中选择了与设备屏幕分辨率完全相同的分辨率。您还可以在KOReader中阅读漫画时隐藏底部进度条。因此，您将获得一个无障碍的沉浸式全屏漫画视图。</p>
 
     
-<div class="L3-Smaller-heading">Extra step for smooth gradients</div>
+<div class="L3-Smaller-heading">平滑渐变的额外步骤</div>
 
     <p><span class="label_red">！！专业操作！！</span></p>
     
     <p>
-    After using <span class="external">KCC</span> to create a <b>CBZ</b> file, you can apply additional <b>dithering</b> to the images. This way, eink-rendered gradients will be smoothly dithered without jagged layers. This step will produce fine-tuned manga volumes which look better in KOReader.</p>
+    使用<span class=“external”>KCC</span>创建<b>CBZ</b>文件后，您可以对图像应用额外的<b>抖动</b>。这样，eink渲染的渐变将平滑抖动，没有锯齿层。这一步将制作出在KOReader中看起来更好的微调漫画卷。</p>
     
-    <p>You can use <span class="external">ImageMagick</span> to process your images. <span class="external">ImageMagick</span>, is a powerful open-source software suite for displaying, creating, converting, modifying, and editing raster images. You can download <span class="external">ImageMagick</span> and use it from the command line to process many images at once.</p>
+    <p>您可以使用<span class="external">ImageMagick</span>来处理您的图像。<span class="external">ImageMagick</span>，是一个功能强大的开源软件套件，用于显示、创建、转换、修改和编辑光栅图像。您可以下载<span class="external">ImageMagick</span>，并从命令行使用它一次处理多个图像。</p>
     
     <ol>
         <li>Unpack the prepared <b>CBZ</b> file that you created with <span class="external">KCC</span>,</li>
@@ -3339,10 +3339,10 @@ line-height: 2rem;
 
     <p>用户可创建多份书单来对应各种书籍分类方式，例如：</p>
     <ul>
-        <li><b>Genres:</b> Fiction, non-fiction, memoir...</li>
-        <li><b>Book status:</b> Currently reading, want to read, next, did not finish...</li>
-        <li><b>Series:</b> Lord of the Rings, Harry Potter...</li>
-        <li><b>Document type:</b> Books, scientific articles, web articles...</li>
+        <li><b>作品体裁</b>：虚构文学、非虚构文学、报告文学等。</li>
+        <li><b>阅读状态</b>：在读、想读、已读、搁置等。</li>
+        <li><b>丛书系列</b>：《指环王》、《饥饿游戏》等。</li>
+        <li><b>文档类型</b>：书籍、科研论文、网页等。</li>
     </ul>
 
 
@@ -3377,10 +3377,10 @@ line-height: 2rem;
 		
 	<p>若要一次性添加多本书籍，请在<span class="ui">文件管理器</span>中按照下列方式操作：</p>
 	<ol>
-		<li>Long press on a book</li>
-		<li>Choose <span class="ui">Select</span> from the popup menu</li>
-		<li>Select other books</li>
-		<li>Tap the <span class="ui">checkmark</span> (✔️) icon at the top-right corner</li>
+		<li>长按某本书</li>
+		<li>在弹出菜单中点按<span class="ui">多选</span></li>
+		<li>选择其它书籍</li>
+		<li>点按右上角的<span class="ui">对号</span>（✔️）标志</li>
 		<li>点按<span class="ui">自定义书单</span></li>
 	</ol>
 		
@@ -3400,7 +3400,7 @@ line-height: 2rem;
 
 	<ul>
 		<li><span class="ui">将整个文件夹加入书单</span>：如选项标题所示，该选项可以将所选文件夹中的全部书籍一次性编入当前书单。请注意，所选文件夹的<b>次级文件夹中的书籍不会被添加</b>。例如，用户选中名为<b>虚构作品</b>的文件夹，其中包含名为<b>科幻作品</b>和<b>战争文学</b>的两个次级文件夹，这两个次级文件夹内的书籍不会被添加到当前书单中。</li>
-		<li><span class="ui">Add all books from a folder and its subfolders:</span> This is the option that will <b>add all the subfolders</b> of your chosen folder. Be careful with this option because it will go down all the way while adding the books. So if you have many levels of nested folders, there might be too many books than you thought.</li>
+		<li><span class="ui">将所选文件夹及次级文件夹中添加到书单</span>：该选项会将所选文件夹的<b>次级文件夹</b>一同加入书单，使用时应当谨慎，因为该功能会遍历所选的文件夹目录。若其中包含多个目录层级，添加的书籍数量可能会远超用户预期。</li>
 		<li><span class="ui">添加书籍到书单</span>：该选项可以将单本书籍添加到当前书单。</li>
 	</ul>
 
@@ -3416,9 +3416,9 @@ line-height: 2rem;
 
         <p>书单可能十分冗长，因此KOReader提供多种筛选方式以便更容易地找到要读的书籍。如前图所示，<b>方框2</b>和<b>方框3</b>标出了书籍筛选选项。<b>方框2</b>可以按照书籍阅读状态（未读、在读、已读、搁置）筛选；<b>方框3</b>可以通过书籍元数据（作者、丛书系列、语种、关键词）筛选。两种筛选方式还可组合使用，例如：<b>「当前书单中未读<span class="ui">（按阅读状态筛选⇨未读）</span>的Isaac Asimov作品<span class="ui">（按作者筛选⇨Isaac Asimov）</span>」。」</b></p>
         
-        <p>You can update the book metadata by long-pressing on the book in <span class="ui">File browser</span> and choosing <span class="ui">Book information</span> from the menu. In the popup window you can long-press on any field to change the metadata like <b>author</b> or <b>keywords</b>. You can also use <span class="external">Calibre</span> for this task, a third-party application which makes managing your book metadata much easier.</p>
+        <p>在<span class="ui">文件管理器</span>中长按某本书，可以更新书籍元数据或<span class="ui">查看书籍信息</span>。在弹出的对话框中长按任意项，可以编辑<b>作者</b>或<b>关键词</b>等书籍元数据。该操作也可通过<span class="external">Calibre</span>完成，一款便捷管理书籍元数据的第三方软件。</p>
 
-        <div class="info"><span class="label_blue">说明</span> 请注意，<span class="external">Calibre</span>会改写书籍内部的元数据，因此将文件从<span class="external">Calibre</span>中导出后，修改过的元数据仍然有效；但KOReader不会改写书籍文件，而是将自定义的书籍元数据以独立文件的形式存储于与书籍关联的<b>.sdr 文件夹</b>中，因此这些改动的元数据仅可使用KOReader查看。</div>
+        <div class="info"><span class="label_blue">说明</span> 请注意，<span class="external">Calibre</span>会改写书籍内部的元数据，因此将文件从<span class="external">Calibre</span>中导出后，修改过的元数据仍然有效；但KOReader不会修改书籍文件，而是将自定义的书籍元数据以独立文件的形式存储于与书籍关联的<b>.sdr文件夹</b>中，因此这些改动的元数据仅可使用KOReader查看。</div>
 
 
 
@@ -3428,7 +3428,7 @@ line-height: 2rem;
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / 自定义书单 / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / 在书单中检索</div>
 
-        <p>If you want to perform a search <b>in the book texts</b>, please keep these points in mind:</p>
+        <p>在<b>检索书籍全文</b>时有以下几点需要注意：</p>
 
         <ul>
             <li>这种搜索仅在通过<span class="ui">文件管理器</span>打开<span class="ui">自定义书单</span>时才可用，在阅读视图下<b>不可用</b>。</li>
@@ -3449,29 +3449,29 @@ line-height: 2rem;
 
     <ul>
         <li>为书单添加关联文件夹后</li>
-        <li>When including subfolders of a connected folder</li>
+        <li>向关联文件夹中添加了次级文件夹</li>
         <li>查看该书单时</li>
-        <li>On program start</li>
+        <li>KOReader启动时</li>
     </ul>
 
 
-    <p><b>如何将文件夹关联到书单：</b></p>
+    <p><b>将文件夹关联到书单的方法：</b></p>
         
     <img loading="lazy" src="pictures/collections_connect.png" style="width:50%;">
 
     <ol>
         <li>前往如上图所示的<span class="ui">书单列表</span>界面。</li>
         <li>长按想要关联到文件夹的书单标题<b>①</b>。</li>
-        <li>Select <span class="ui">Connect folders</span> from the pop-up menu <b>(2)</b>.</li>
-        <li><span class="ui">List of connected folders screen</span> will open.</li>
-        <li>Add a folder by pressing the <span class="ui">PLUS icon</span> at the top left corner of that screen, which will open the <span class="ui">Folder chooser screen</span>.</li>
+        <li>在弹出菜单中选择<span class="ui">关联文件夹</span><b>②</b>。</li>
+        <li>此时会显示<span class="ui">已关联的文件夹</span>列表。</li>
+        <li>点按屏幕左上角的<span class="ui">加号标志</span>，在弹出的<span class="ui">选择文件夹</span>窗口中选择要添加的文件夹。</li>
             
-        <li>Repeat the last item if you want to connect more folders.</li>
+        <li>重复最后一步以添加多个文件夹。</li>
     </ol>
         
     <p>如上图所示，关联了文件夹的书单标题右侧有一个<span class="ui">文件夹标志</span><b>③</b>。</p>
 
-    <p>You might want to include subfolders of a folder too for synchronization. In the <b>step 4</b> above, when you open the <span class="ui">List of connected folders screen</span>, you can long-press on a folder to <span class="ui">include/exclude subfolders</span> from the popup menu.</p>
+    <p>为了同步功能的正常执行，最好连同次级文件夹也一并添加。在上面的<b>第四步</b>，在打开<span class="ui">已关联的文件夹</span>列表中长按某个文件夹，在弹出菜单中选择<span class="ui">包含或排除次级目录</span>。</p>
 
     <br>
     <p><b>将书单与文件夹断开关联的方法：</b></p>
@@ -3479,58 +3479,58 @@ line-height: 2rem;
     <ol>
         <li>前往如上图所示的<span class="ui">书单列表</span>界面。</li>
         <li>长按想要关联到文件夹的书单标题<b>①</b>。</li>
-        <li>Select <span class="ui">Connect folders</span> from the pop-up menu <b>(2)</b>.</li>
-        <li><span class="ui">List of connected folders screen</span> will open.</li>
-        <li>Long-press on the folder which you want to disconnect and choose <span class="ui">Disconnect folder</span> from the popup menu.</li>
+        <li>在弹出菜单中选择<span class="ui">关联文件夹</span><b>②</b>。</li>
+        <li>此时会显示<span class="ui">已关联的文件夹</span>列表。</li>
+        <li>长按想要断开关联的文件夹，在弹出菜单中选择<span class="ui">断开文件夹关联</span>。</li>
     </ol>
 
 
 
-<div class="L3-Smaller-heading">将配置文件应用到书单</div>
+<div class="L3-Smaller-heading">将配置档应用到自定义书单</div>
 
-    <p>书单可配合KOReader的<span class="ui">配置文件</span>功能使用。如果对<span class="ui">配置文件</span>功能不了解，下面是取自<a href="#L2-profiles">配置文件</a>一节的介绍：</p>
+    <p>书单可配合KOReader的<span class="ui">配置档</span>功能使用。如果对<span class="ui">配置档</span>功能不了解，下面是取自<a href="#L2-profiles">配置档</a>一节的介绍：</p>
 
     <p>
-        A <span class="ui">profile</span> is basically a set of actions that can be triggered with a single gesture (like a macro).</p>
+        <span class="ui">配置档</span>本质上是一套操作集合（就像宏命令），可通过单个手势触发。</p>
 
-        <p>As an example, imagine that when reading some type of books, you always:</p>
+        <p>例如在阅读某种类型的书籍时总会应用如下设置：</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
-            <li>Increase the font size and contrast and</li>
-            <li>Turn the screen light on</li>
+            <li>将屏幕切换到横向显示模式</li>
+            <li>增大字号及对比度，并且</li>
+            <li>打开屏幕前光</li>
         </ul>
         
-        <p>借助配置文件插件，单次操作即可完成这些调整。</p>
+        <p>借助配置档插件，只需执行单次操作即可完成这些调整。</p>
 
-        <p>配置文件可以手动套用，但<span class="ui">自动套用</span>特性才是该功能的强大之处。该特性可以在指定情况下自动套用特定配置，请点击<a href="#L2-profileautoexec">自动套用配置</a>前往对应章节了解。此处仅介绍在<span class="ui">自定义书单</span>中自动套用配置的功能。</p>
+        <p>配置档可以手动套用，但<span class="ui">自动套用</span>特性才是该功能的强大之处。该特性可以在指定情况下自动套用特定配置档，请点击<a href="#L2-profileautoexec">自动套用配置</a>前往对应章节了解。此处仅介绍在<span class="ui">自定义书单</span>中自动套用配置的功能。</p>
 
-        <p>简单来说，用户可以创建若干套配置，并且在打开特定书单中的书籍时自动套用。一些示例：</p>
+        <p>简单来说，用户可以创建若干套配置档，并且在打开特定书单中的书籍时自动套用。一些示例：</p>
 
         <ul>
-            <li>将所有漫画书添加到<b>《漫画作品》</b>书单，创建一套配置在打开该书单中的书籍时自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的点击和滑动翻页操作。</li>
+            <li>将所有漫画书添加到<b>《漫画作品》</b>书单，创建一套配置档在打开该书单中的书籍时自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的点按和划动翻页操作。</li>
             <li>可以将漫画书添加到套用配置的书单，阅读时将页面刷新间隔降低到<span class="ui">逐页刷新</span>以避免残影。</li>
-            <li>可以将有问题的PDF文档编成一份书单，在阅读这些文档时套用配置触发<span class="ui">自动OCR</span>或者启动<span class="ui">页面重排模式</span>。</li>
+            <li>可以将有问题的PDF文档编成一份书单，在阅读这些文档时套用配置档触发<span class="ui">自动OCR</span>或者启动<span class="ui">页面重排模式</span>。</li>
         </ul>
 
 
 
 <div class="L2-Sub-heading" id="L2-optimizing">预处理EPUB和PDF文档以适配阅读设备</div>
 
-    <p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format.</p>
+    <p>KOReader可对PDF文档进行页面重排（该选项在阅读PDF等固定版面文档时出现在底部菜单中），使其适合在阅读设备的小尺寸屏幕阅读。但为了更好的阅读效果，可能需要用户预先将文档转换为版式更加灵活的epub文件格式。</p>
 
-    <p>Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).</p>
+    <p>为便携移动设备转换及优化文档的最常用软件是<span class="external">Calibre</span>（主要用于<b>epub和kindle</b>）以及<span class="external">K2pdfopt</span>（主要用于<b>PDF</b>）。</p>
 
-    <p><a href="https://calibre-ebook.com/">Calibre</a> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. </p>
+    <p><a href="https://calibre-ebook.com/">Calibre</a>可以将文档转换为多种格式。它的内置编辑器还可直接修改epub和kindle等常见电子书格式并修正文档错乱。 </p>
 
-    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool.</p>
+    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a>可以为便携阅读设备及手机改善PDF和DJVU文档。该软件可以对分栏的文档进行编辑，甚至对扫描版PDF文件进行文字重排。同时，它可以作为一款通用的PDF复制、裁切、调整大小、OCR等的编辑软件。</p>
 
-    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> is a command line application which can add an OCR text layer to scanned PDF files (containing only images without text), allowing them to be searched or copy-pasted. It can especially be useful for reading old scanned books. It can also optimize the images for a smaller file size.</p>
+    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a>是一款为扫描版PDF文档添加OCR文本层的命令行软件，使处理后的文档可以检索及复制粘贴。在阅读扫描版旧书时格外有用。它也可用于压缩图像文件大小。</p>
 
     <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a>是一款适用于<b>Mozilla Firefox、Google Chrome</b>及<b>Microsoft Edge</b>的浏览器插件。这款插件可以将网页包含的图片、样式表和脚本等打包保存为<b>单个.html文件</b>。</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-metadatastorage">Book metadata storage options</div>
+<div class="L2-Sub-heading" id="L2-metadatastorage">书籍元数据存储选项</div>
 
 	<p><span class="label_red">！！专业操作！！</span></p>
 
@@ -3829,7 +3829,7 @@ line-height: 2rem;
                 <li>终端模拟器</li>
                 
 
-                <li>启动 USB 存储模式</li>
+                <li>启动U盘读写模式</li>
                 <li>Suspend</li>
                 <li>重启设备</li>
                 <li>关机</li>
@@ -4401,14 +4401,14 @@ line-height: 2rem;
         <p>
         配置文档本质上是一套操作集合（就像宏命令），可通过单个手势触发。</p>
 
-        <p>As an example, imagine that when reading some type of books, you always:</p>
+        <p>例如在阅读某种类型的书籍时总会应用如下设置：</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
-            <li>Increase the font size and contrast and</li>
-            <li>Turn the screen light on</li>
+            <li>将屏幕切换到横向显示模式</li>
+            <li>增大字号及对比度，并且</li>
+            <li>打开屏幕前光</li>
         </ul>
         
-        <p>借助配置文件插件，单次操作即可完成这些调整。</p>
+        <p>借助配置档插件，只需执行单次操作即可完成这些调整。</p>
         
         <div class="info"><span class="label_blue">信息</span> 启用另一套配置后，对前一套配置进行的修改将<b>不可撤销</b>。例如，用户启用了一套配置将字号从<b>20</b>改为<b>24</b>，然后又启用了另一套配置调整了<b>屏幕前光</b>，此时字号将<b>保持为24</b>。KOReader不存在退出或撤销配置的操作选项。
         </div>
