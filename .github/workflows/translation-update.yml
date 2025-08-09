@@ -70,10 +70,16 @@ jobs:
         run: |
           git add i18n/user_guide.pot i18n/po/*.po user_guide/*.html
 
-          # Only commit if there are changes
+          # Ignore commits where only POT/PO timestamp headers changed
+          if git diff --staged -I '^"POT-Creation-Date:' -I '^"PO-Revision-Date:' --quiet; then
+            echo "No substantive translation changes to commit"
+            exit 0
+          fi
+
           if git diff --staged --quiet; then
             echo "No translation changes to commit"
-          else
-            git commit -m "Update translations with html2po/po2html [automated]"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update translations with html2po/po2html [automated]"
+          git push
