@@ -46,13 +46,13 @@ jobs:
             exit 1
           fi
 
-      - name: Update or create language PO files
-        run: |
-          # Find all existing PO files and update them with msgmerge
-          for po_file in i18n/po/*.po; do
-            echo "Updating $po_file"
-            msgmerge --update --backup=off "$po_file" i18n/user_guide.pot
-          done
+      # - name: Update or create language PO files
+      #   run: |
+      #     # Find all existing PO files and update them with msgmerge
+      #     for po_file in i18n/po/*.po; do
+      #       echo "Updating $po_file"
+      #       msgmerge --update --backup=off "$po_file" i18n/user_guide.pot
+      #     done
 
       - name: Generate translated HTML files
         run: |
