@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 14:10+0000\n"
-"PO-Revision-Date: 2025-08-09 07:19+0000\n"
+"PO-Revision-Date: 2025-08-09 15:06+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5262,13 +5262,6 @@ msgstr ""
 "obrázky."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2345-9
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">height: 10px !important;</span> - This part sets the "
-#| "height of the targeted <b>img</b> elements to 10 pixels. Again, the The "
-#| "<b>!important</b> declaration is an override switch which ensures that "
-#| "your width value takes precedence over any other existing <b>height</b> "
-#| "declaration applied to these images."
 msgid ""
 "<span class=\"ui\">height: 10px !important;</span> - This part sets the "
 "height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!"
@@ -5954,6 +5947,8 @@ msgid ""
 "<b>After selecting a color</b>, you can long-press on the color name in this "
 "menu to set that color as default (★)"
 msgstr ""
+"<b>Po výbere farby</b> môžete dlhým stlačením názvu farby v tejto ponuke "
+"nastaviť túto farbu ako predvolenú (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2582-9
 msgid ""
@@ -5961,10 +5956,13 @@ msgid ""
 "highlights</span> option to make all the highlights in the current book "
 "same. <b>Be careful, there is no undo!</b>"
 msgstr ""
+"Môžete stlačiť možnosť <span class=\"ui\">Použiť aktuálny štýl a farbu na "
+"všetky zvýraznenia</span>, aby boli všetky zvýraznenia v aktuálnej knihe "
+"rovnaké. <b>Pozor, nie je možné vrátiť späť!</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2587-5
 msgid "NOTES:"
-msgstr ""
+msgstr "POZNÁMKY:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2589-5
 msgid ""
@@ -5975,37 +5973,42 @@ msgid ""
 "line</span> and <span class=\"ui\">Side mark</span> (which is the pencil "
 "icon shown on the right side of the picture below):"
 msgstr ""
+"K svojim zvýrazneniam môžete pridať aj poznámky. Stačí ťuknúť na zvýraznenie "
+"a z kontextovej ponuky vybrať možnosť <span class=\"ui\">Pridať poznámku</"
+"span>. Môžete si tiež vybrať <span class=\"ui\">Značku poznámky</span>, "
+"ktorá ukazuje, ktoré zvýraznenia obsahujú poznámku. Existujú tri štýly: "
+"<span class=\"ui\">Podčiarknuté, Postranná čiara</span> a <span class=\"ui\""
+">Značka na boku</span> (čo je ikona ceruzky zobrazená na pravej strane "
+"obrázka nižšie):"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2595-5
 msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
 msgstr ""
+"Ak chcete povoliť túto funkciu a vybrať štýl <span class=\"ui\">Značka "
+"poznámky</span>, prejdite na:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2597-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Štýl zvýraznenia / Značka poznámky"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2601-1
 msgctxt "user_guide/en.html+html.body.div.div:2601-1"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "Režimy zvýraznenia pre KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2603-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr ""
+msgstr "KOReader má dva režimy zvýraznenia pre rôzne prípady použitia:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2608-1
 msgid "Normal mode"
-msgstr ""
+msgstr "Normálny režim"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2610-5
 msgid ""
@@ -6013,18 +6016,20 @@ msgid ""
 "your finger on a phone/tablet and more suitable if your highlights are "
 "shorter than one page."
 msgstr ""
+"<span class=\"ui\">Normálny režim</span> je podobný výberu textu prstom na "
+"telefóne/tablete a je vhodnejší, ak sú zvýraznenia kratšie ako jedna strana."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2613-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Dlho stlačte na začiatočnom slove"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2614-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Presuňte prst na koniec výberu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2615-9
 msgid "Release finger"
-msgstr ""
+msgstr "Uvoľnite prst"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2618-5
 msgid ""
@@ -6032,21 +6037,23 @@ msgid ""
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
 msgstr ""
+"Keď dosiahnete koniec strany, KOReader za vás otočí stranu, aby ste mohli "
+"pokračovať vo zvýrazňovaní <b>(iba v dokumentoch EPUB/HTML)</b>. Túto "
+"funkciu môžete vypnúť z:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2620-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Auto-"
 "scroll when selection reaches a corner"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ťuknutia a gestá / Dlhé stlačenie textu / Automatické "
+"posúvanie, keď výber dosiahne roh"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2624-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Režim výberu a zvýraznenia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2626-5
 msgid ""
@@ -6066,28 +6073,31 @@ msgid ""
 "enabled, when you long-press a word, you have to drag your finger to "
 "initiate this mode."
 msgstr ""
+"<span class=\"label_blue\">INFORMÁCIA</span> Ak máte pri dlhom stlačení "
+"slova povolené vyhľadávanie v slovníku, musíte tento režim spustiť "
+"potiahnutím prsta."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2630-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Dictionary "
 "on single word selection"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ťuknutia a gestá / Dlhé stlačenie textu / Slovník pri "
+"výbere jedného slova"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2634-5
-#, fuzzy
 msgid "How to highlight:"
-msgstr "1. Doplnok Export zvýraznení"
+msgstr "Ako zvýrazniť:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2639-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
 msgstr ""
+"Dlhým stlačením (alebo potiahnutím, ak je zapnuté vyhľadávanie v slovníku, "
+"ako je popísané vyššie) na začiatočnom slove, sa zobrazí kontextová ponuka."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2640-5
 msgid ""
@@ -6098,18 +6108,29 @@ msgid ""
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
 msgstr ""
+"Ťuknite na <span class=\"ui\">Vybrať</span>, teraz ste v režime "
+"zvýrazňovania. Keď sa nachádzate v tomto režime, v ľavom hornom rohu "
+"obrazovky uvidíte indikátor (na ktorý môžete ťuknúť a získať ďalšie "
+"informácie). Zvýraznenie môžete zrušiť opätovným ťuknutím na začiatok "
+"zvýraznenia. V tomto režime môžete otáčať stránky ťuknutím/potiahnutím a "
+"voľne sa pohybovať v dokumente (TOK, prebehnutie atď.)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2641-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
 msgstr ""
+"Dlhým stlačením (alebo potiahnutím, ak je zapnuté vyhľadávanie v slovníku, "
+"ako je popísané vyššie) na koncovom slove zvýraznenia, sa znova zobrazí "
+"ponuka."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2642-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
 msgstr ""
+"Tentoraz ťuknite na <span class=\"ui\">Zvýrazniť</span>, čím dokončíte "
+"zvýraznenie pasáže."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2645-5
 msgid ""
@@ -6118,17 +6139,20 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
+"Toto dialógové okno sa zvyčajne otvorí v strede obrazovky. Ak chcete, aby sa "
+"toto dialógové okno otvorilo bližšie k miestu zvýraznenia, môžete tu zmeniť "
+"možnosť <span class=\"ui\">stred</span> na <span class=\"ui\">polohu gesta</"
+"span> (nachádza sa na druhej strane tejto ponuky):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2647-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\">/ Taps and Gestures / Long-press on text / Highlight "
 "dialog position"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Ťuknutia a gestá / Dlhé stlačenie textu / Pozícia "
+"dialógového okna zvýraznenie"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2649-5
 msgid ""
@@ -6139,17 +6163,23 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> Pre tento režim existuje "
+"<b>rýchlejšia</b> metóda, ak nepotrebujete <b>položky ponuky pre dlhé "
+"stlačenie</b> zobrazené vyššie. Kontextovú ponuku môžete úplne zakázať tak, "
+"že po dlhom stlačení slova okamžite vstúpite do režimu <span class=\"ui\""
+">Výber a zvýraznenie</span>. Táto metóda je oveľa rýchlejšia a môžete "
+"zvýrazniť ľubovoľnú dĺžku textu iba dvoma ťuknutiami. Ak chcete použiť túto "
+"metódu, povoľte túto možnosť:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2651-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Select and "
 "highlight"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ťuknutia a gestá / Dlhé stlačenie textu / Výber a "
+"zvýraznenie"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2657-5
 msgid ""
@@ -6162,19 +6192,23 @@ msgid ""
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> KOReader môže zvýrazniť pasáž v "
+"rôznych štýloch. Ak použijete možnosť <span class=\"ui\">Zosvetlenie</span>, "
+"pozadie textu bude sivé. Kvôli obmedzeniam e-ink sa obrazovky nemôžu zmeniť "
+"z bielej na sivú priamo, takže zvýraznená časť sa musí najskôr zmeniť na "
+"čiernu a potom na sivú. Ak sa chcete tomuto blikaniu vyhnúť, ako štýl "
+"zvýraznenia môžete zvoliť <span class=\"ui\">Invertované</span> ako štýl "
+"zvýraznenia. V tomto režime bude pozadie textu čierne, takže ho možno "
+"nastaviť bez prebliknutia. Tieto možnosti zvýraznenia môžete upraviť pomocou:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2659-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:2659-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Štýl zvýraznenia"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2664-5
 msgid ""
@@ -6183,6 +6217,9 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
+"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
+"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
+"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2668-1
 msgid "Selecting punctuation while highlighting"
