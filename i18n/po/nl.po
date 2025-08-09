@@ -2333,28 +2333,28 @@ msgstr ""
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
-msgstr ""
+msgstr "<span class=\"label_orange\">Flipmodus-pictogram</span> Dit pictogram verschijnt wanneer je op de linkerbovenhoek tikt als:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1563-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Je een PDF-document leest"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1564-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
-msgstr ""
+msgstr "En je een ingezoomde weergave die niet 100% is (kolom, rij of handmatig), of in de <span class=\"ui\">herindelingsmodus</span> bent"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
 "This mode temporarily displays the full page without cropping, scaled to fit "
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
-msgstr ""
+msgstr "Deze modus toont tijdelijk de volledige pagina zonder bijsnijden, geschaald zodat hij op je scherm past. Je kunt in deze modus bladeren. Tik op dit pictogram om de modus te verlaten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1574-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Paginanummering en referentiepaginanummers"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1576-5
 msgid ""
@@ -2363,7 +2363,7 @@ msgid ""
 "can be adjusted according to the screen size and orientation of the device "
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
-msgstr ""
+msgstr "Documenttypes zoals <b>epub, mobi, html</b> hebben van nature geen vaste paginanummers omdat het herschikbare documenten zijn. Dat betekent dat ze kunnen worden aangepast aan de schermgrootte en -oriëntatie van het apparaat (in tegenstelling tot bijvoorbeeld <b>pdf</b>- of <b>djvu</b>-bestanden die een vaste paginagrootte hebben)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1578-5
 msgid ""
@@ -2371,7 +2371,7 @@ msgid ""
 "increase too, because now less text will fit on a single page. This "
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
-msgstr ""
+msgstr "Als je de lettergrootte van een herschikbaar document vergroot, neemt ook het aantal pagina's toe omdat er nu minder tekst op één pagina past. Dit kan problemen geven omdat een markering die je op <b>pagina 38</b> maakte na de aanpassing op <b>pagina 42</b> kan staan."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1580-5
 msgid ""
@@ -2381,24 +2381,24 @@ msgid ""
 "numbers itself. Instead, it shows you the <b>embedded page numbers</b> from "
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
-msgstr ""
+msgstr "KOReader ondersteunt <b>referentiepaginanummers</b>, waarmee uitgevers paginanummers uit gedrukte boeken rechtstreeks in de e-bookversie kunnen insluiten. Wanneer je deze functie inschakelt berekent KOReader de paginanummers niet zelf maar toont het de <b>ingesloten paginanummers</b> van de uitgever. Dit betekent dat het paginanummer in de <span class=\"ui\">statusbalk</span> overeenkomt met de papieren versie."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1582-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Voordelen van referentiepaginanummers:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1584-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
-msgstr ""
+msgstr "Referentiepaginanummers maken nauwkeurige citaties mogelijk doordat ze overeenkomen met de paginanummers in de gedrukte versie."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1585-9
 msgid ""
 "Reference page numbers can aid in navigation, especially for readers who are "
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
-msgstr ""
+msgstr "Referentiepaginanummers helpen bij navigatie, vooral voor lezers die bekend zijn met de gedrukte versie. Ze helpen specifieke passages of citaten eenvoudiger terug te vinden in de digitale versie."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1586-9
 msgid ""
@@ -2407,38 +2407,32 @@ msgid ""
 "significantly. Reference page numbers provide a consistent point of "
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
-msgstr ""
+msgstr "Omdat digitale boeken op verschillende apparaten en platforms kunnen worden gelezen, elk met hun eigen lettertype- en weergave-instellingen, kunnen weergegeven paginanummers sterk variëren. Referentiepaginanummers bieden een consistent referentiepunt wanneer je hetzelfde boek op verschillende apparaten zoals e-reader en telefoon leest."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1589-5
-#, fuzzy
 msgid "You can enable this feature from:"
-msgstr ""
-"You can find more info about the <b>table of contents</b> tools available in "
-"KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
-"OF CONTENTS TOOLS</a>"
+msgstr "Je kunt deze functie inschakelen via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1591-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Referentiepagina's / Referentiepaginanummers gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1593-5
 msgid ""
 "If you also check the <span class=\"ui\">Show reference page labels in "
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
-msgstr ""
+msgstr "Als je ook de optie <span class=\"ui\">Referentiepaginalabels in marge weergeven</span> aanvinkt in hetzelfde menu, worden deze paginanummers naast de tekst in een klein lettertype weergegeven."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1595-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
-msgstr ""
+msgstr "Let op: dit menu verschijnt alleen als er ingesloten <b>referentiepaginanummers</b> in je boek aanwezig zijn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1599-1
 msgctxt "user_guide/en.html+html.body.div.div:1599-1"
