@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 12:02+0000\n"
-"PO-Revision-Date: 2025-08-09 12:00+0000\n"
+"PO-Revision-Date: 2025-08-09 13:25+0000\n"
 "Last-Translator: cyanjiang <cyanjiang@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -7705,25 +7705,33 @@ msgid ""
 "Browser</span> then choose a provider engine to handle this file. You can "
 "check:"
 msgstr ""
+"您还可以为KOReader无法自动识别的文件类型设置文件关联。要将文件与KOReader提供"
+"程序之一相关联，请首先在<span class=\"ui\""
+">文件浏览器</span>中长按您的文件，然后选择一个提供程序引擎来处理此文件。您可"
+"以选择："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3327-9
 msgid ""
 "<span class=\"ui\">Always use this engine for this file</span> to associate "
 "this provider with this particular file only"
-msgstr ""
+msgstr "<span class=\"ui\""
+">始终对此文件使用此引擎</span>仅将此提供程序与此特定文件相关联"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3329-9
 msgid ""
 "Or check <span class=\"ui\">Always use this engine for file type</span> to "
 "associate this provider with all the files that has same extension as this "
 "one"
-msgstr ""
+msgstr "或者选择<span class=\"ui\""
+">始终对文件类型使用此引擎</span>，将此提供程序与所有与此提供程序具有相同扩展"
+"名的文件相关联"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3331-9
 msgid ""
 "From the same dialog, you can see the associations you made by tapping on "
 "<span class=\"ui\">View defaults for file types</span>"
-msgstr ""
+msgstr "在同一对话框中，您可以通过点击<span class=\"ui\""
+">查看默认文件类型</span>来查看所建立的关联"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
@@ -8488,11 +8496,12 @@ msgid ""
 "KOReader stores settings and extra information related to your books in the "
 "same directory as your book file. We call this <b>metadata</b> and it "
 "includes:"
-msgstr ""
+msgstr "KOReader将与书籍相关的设置和额外信息存储在与书籍文件相同的目录中。我们称之为<"
+"b>元数据</b>，它包括："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3549-3
 msgid "Visual settings for the book"
-msgstr ""
+msgstr "书籍的显示设置"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3550-3
 msgid "Book reading progress"
@@ -8509,10 +8518,12 @@ msgid ""
 "are three different methods to store the metadata and each method has its "
 "own benefits/negatives."
 msgstr ""
+"在最近的一次更改中，我们添加了存储此元数据的新方法，以解决与设备之间同步相关"
+"的某些问题。目前有三种不同的方法来存储元数据，每种方法都有自己的优缺点。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3556-2
 msgid "You can change this setting from this menu:"
-msgstr ""
+msgstr "您可以从此菜单更改此设置："
 
 #: user_guide/en.html%2Bhtml.body.div.div:3558-2
 msgid ""
@@ -8534,7 +8545,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3565-1
 msgid "1. Individual metadata folders next to the book files - DEFAULT SETTING"
-msgstr ""
+msgstr "1.书籍文件旁边的单个元数据文件夹-默认设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3567-3
 msgid ""
@@ -8553,37 +8564,42 @@ msgid ""
 "contains the files for your settings, annotations and book progress for this "
 "book."
 msgstr ""
+"这是KOReader新安装时使用的<b>默认</b>方法。在此方法中，当您将<b>Alice In "
+"Wonderland.epub</b>复制到设备并首次打开时，将在同一目录中创建一个名为<span "
+"class=\"ui\">Alice In "
+"Wonderland.sdr</span>的文件夹。此目录包含本书的设置、注释和书籍进度的文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3571-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3571-2user_guide/en.html+html.body.div."
 "p:3571-2"
 msgid "Benefits"
-msgstr ""
+msgstr "好处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3573-4
 msgid "You can manually backup and restore the settings for each book."
-msgstr ""
+msgstr "您可以手动备份和还原每本书的设置。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3574-4
 msgid ""
 "When you perform directory synchronization or backups with a system like "
 "<b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized "
 "alongside your books."
-msgstr ""
+msgstr "当您使用<b>Syncthing</b>或<b>Dropbox</b>等系统执行目录同步或备份时，您的设置"
+"将与您的书籍同步。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3575-4
 msgid ""
 "You can rename the parent directories where your book resides, this doesn't "
 "confuse KOReader."
-msgstr ""
+msgstr "您可以重命名书籍所在的父目录，这不会混淆KOReader。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3578-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3578-2user_guide/en.html+html.body.div."
 "p:3578-2"
 msgid "Negatives"
-msgstr ""
+msgstr "坏处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3580-4
 msgid ""
@@ -8591,17 +8607,20 @@ msgid ""
 "accompanying .sdr folder outside of KOReader file browser, you will lose "
 "metadata of those books without any warning."
 msgstr ""
+"如果您通过在KOReader文件浏览器之外移动/重命名图书文件或其附带的.sdr文件夹来重"
+"新组织您的库，您将在没有任何警告的情况下丢失这些图书的元数据。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3581-4
 msgid ""
 "These <b>.sdr</b> folders will be visible when you browse your library "
 "directories with another file browser or from your computer, which may "
 "clutter your view."
-msgstr ""
+msgstr "当您使用其他文件浏览器或从计算机浏览库目录时，这些<b>.sdr</b>文件夹将可见，这"
+"可能会使您的视图变得混乱。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3586-1
 msgid "2. Metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "2.单个KOReader目录下的元数据目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3588-2
 msgid ""
@@ -8620,11 +8639,14 @@ msgid ""
 "directory <b>which is under the KOReader main directory structure</b>, "
 "instead of your library directory, next to the book files."
 msgstr ""
+"此方法与上面的默认方法基本相同。不同的是，在这种方法中，您的所有书籍的<b>.sdr"
+"</b>文件夹都将位于<b>KOReader主目录结构</b>下的单个目录下，而不是书籍文件旁边"
+"的库目录下。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3592-2
 msgctxt "user_guide/en.html+html.body.div.p:3592-2"
 msgid "Benefits"
-msgstr ""
+msgstr "好处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3594-3
 msgid ""
@@ -8632,11 +8654,13 @@ msgid ""
 "won't clutter your view of your library directories when you browse your "
 "library with another file browser or from your computer."
 msgstr ""
+"Book<b>.sdr</b>文件夹仅对KOReader可见并由其使用。当您使用另一个文件浏览器或从"
+"计算机浏览库时，它们不会打乱您对库目录的查看。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3597-2
 msgctxt "user_guide/en.html+html.body.div.p:3597-2"
 msgid "Negatives"
-msgstr ""
+msgstr "坏处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3599-3
 msgid ""
@@ -8645,17 +8669,20 @@ msgid ""
 "KOReader file browser, you will lose metadata of those books without any "
 "warning."
 msgstr ""
+"如果您通过在KOReader文件浏览器之外移动/重命名移动/重命名库目录、图书文件或其"
+"附带的.sdr文件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些图书的元"
+"数据。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3601-3
 msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
-msgstr ""
+msgstr "由于您的图书元数据不在库文件夹中，因此库的任何同步或备份都不会包含它们。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3606-1
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "3.单个KOReader目录下的单个HASHED元数据目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3608-2
 msgid ""
@@ -8678,6 +8705,11 @@ msgid ""
 "KOReader File Browser for file operations, this is automatically handled so "
 "there are no repercussions.</b>"
 msgstr ""
+"此方法与前一种方法类似，因为<b>.sdr</b>文件夹将位于内部目录下。但这种方法是为"
+"了解决以前方法的缺点而开发的。因为，通常如果您在KOReader之外重命名一本书（使"
+"用设备的本机文件管理器/阅读器或从连接的计算机），其<b>.sdr</b>文件夹名称将不"
+"再匹配，并且该书的元数据将丢失。<b>如果您只使用KOReader文件浏览器进行文件操作"
+"，则会自动处理，因此不会产生任何影响。</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3612-2
 msgid ""
@@ -8687,11 +8719,14 @@ msgid ""
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
 msgstr ""
+"在这种<b>HASHED</b>方法中，<b>.sdr</b>文件夹不是由书籍的文件路径/文件名标识的"
+"。相反，将使用部分<b>MD5哈希</b>将书籍链接到其设置。此哈希用作图书的唯一ID，"
+"并根据<b>图书文件的内容</b>计算。同样的哈希也用于命名其.sdr文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3615-2
 msgctxt "user_guide/en.html+html.body.div.p:3615-2"
 msgid "Benefits"
-msgstr ""
+msgstr "好处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3617-4
 msgid ""
@@ -8699,13 +8734,16 @@ msgid ""
 "won't clutter your view of your library directories when you browse your "
 "library directories with another file browser or from your computer."
 msgstr ""
+"书籍<b>.sdr</b>文件夹仅对KOReader可见并由其使用。当您使用另一个文件浏览器或从"
+"计算机浏览库目录时，它们不会弄乱您对库目录的视图。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3619-4
 msgid ""
 "You can rename, move, and copy your books with another file browser or from "
 "your computer. KOReader will still recognize the books after these "
 "operations."
-msgstr ""
+msgstr "您可以使用其他文件浏览器或从计算机重命名、移动和复制书籍。经过这些操作后，KOR"
+"eader仍将识别这些书籍。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3621-4
 msgid ""
@@ -8718,11 +8756,16 @@ msgid ""
 "your annotations and progress synchronized across your devices. This isn't "
 "possible with other methods."
 msgstr ""
+"在这种方法中，KOReader将同一个<b>.sdr</b>文件夹与书籍的所有副本相关联，即使这"
+"些副本位于不同的设备上。例如，如果您正在使用<b>Syncthing</b>，"
+"此方法使您能够在安装了KOReader的许多设备上同步您的<span class=\"ui\""
+">/hashdocsettings</span>文件夹以及您的书籍文件。尽管这些书在每个设备上的相对"
+"路径不同，但您仍然可以在设备之间同步注释和进度。这在其他方法中是不可能的。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3624-3
 msgctxt "user_guide/en.html+html.body.div.p:3624-3"
 msgid "Negatives"
-msgstr ""
+msgstr "坏处"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3626-4
 msgid ""
@@ -8740,24 +8783,26 @@ msgstr ""
 msgid ""
 "Calculating file IDs may slow down <span class=\"ui\">File browser</span> "
 "navigation when browsing larger directories."
-msgstr ""
+msgstr "在浏览较大目录时，计算文件ID可能会减慢<span class=\"ui\""
+">文件浏览器</span>的导航速度。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3637-1
 msgctxt "user_guide/en.html+html.body.div.div:3637-1"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "手势和键盘快捷键"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3639-5
 msgid ""
 "There are many types of gestures you can use to control KOReader. Some "
 "gestures have limitations regarding where on the screen they can be used and "
 "which directions are supported. These limitations are indicated below."
-msgstr ""
+msgstr "您可以使用许多类型的手势来控制KOReader。某些手势在屏幕上的使用位置和支持的方"
+"向方面存在限制。这些限制如下所示。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3642-5
 msgctxt "user_guide/en.html+html.body.div.div:3642-5"
 msgid "Gesture Types"
-msgstr ""
+msgstr "手势类型"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3644-5
 msgid ""
@@ -8769,11 +8814,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3653-17
 msgid "TAP / DOUBLE TAP"
-msgstr ""
+msgstr "点击 / 双击"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3654-17
 msgid "Single or double tap with <b>ONE</b> finger"
-msgstr ""
+msgstr "用<b>一个</b>手指轻敲或双击"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3655-17
 msgctxt ""
@@ -8781,46 +8826,46 @@ msgctxt ""
 "html+html.body.div.table.tr.td.p:3655-17user_guide/en.html+html.body.div."
 "table.tr.td.p:3655-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>工作区：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3662-17
 msgid "TAP AND HOLD"
-msgstr ""
+msgstr "点按"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3663-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "用<b>一个</b>手指轻点并按住"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3664-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3664-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>工作区：</b>只在四个角落"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3670-17
 msgid "TWO FINGER TAP"
-msgstr ""
+msgstr "双指点击"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3671-9
 msgid "Single tap with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "用<b>两个</b>手指在同一时间轻轻敲击"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3672-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3672-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>工作区：</b>只在四个角落"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3678-17
 msgid "SPREAD AND PINCH"
-msgstr ""
+msgstr "伸展和捏合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3679-9
 msgid "Same as zooming in and out on a phone or tablet."
-msgstr ""
+msgstr "与在手机或平板电脑上放大和缩小相同。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3680-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3680-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>工作区：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3681-9
 msgid ""
@@ -8834,45 +8879,45 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3685-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-17"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "单指滑动"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3686-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "用<b>一个</b>手指轻扫动作"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3687-9
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
-msgstr ""
+msgstr "<b>工作区:</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3691-17
 msgid "TWO FINGER SWIPE"
-msgstr ""
+msgstr "双指滑动"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3692-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "用<b>两个</b>手指在同一时间滑动动作"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3693-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3693-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>工作区：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3697-17
 msgid "MULTISWIPE"
-msgstr ""
+msgstr "多重滑动"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgid ""
 "More than one swipe done after each other without lifting your finger. For "
 "example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)"
-msgstr ""
+msgstr "在不抬起手指的情况下连续完成多次滑动。例如，比如画字母 <b>U</b>（下-右-上）"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3700-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3700-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>工作区：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3704-17
 msgid ""
@@ -8885,13 +8930,13 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3710-1
 msgctxt "user_guide/en.html+html.body.div.div:3710-1"
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "内置的手势交互"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3711-5
 msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
-msgstr ""
+msgstr "此表显示了KOReader附带的手势。 您可以通过以下方式根据自己的喜好更改这些手势:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-5
 msgid ""
@@ -8903,57 +8948,57 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3722-5
 msgid "CORNER TAP"
-msgstr ""
+msgstr "点击边角"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3724-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>左上角</b>>切换翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3725-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr ""
+msgstr "<b>右上角</b> > 切换书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3726-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
-msgstr ""
+msgstr "<b>同时点击对角</b>>截图"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3730-5
 msgid "DOUBLE TAP"
-msgstr ""
+msgstr "双击"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3731-5
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr ""
+msgstr "<b>左侧</b>>后翻10页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3732-5
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr ""
+msgstr "<b>右侧</b>>前翻10页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3736-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3736-5"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "单指滑动"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3737-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr ""
+msgstr "<b>短对角滑动</b>>全屏刷新"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3738-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr ""
+msgstr "<b>长对角线滑动</b>>截图"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3742-5
 msgid "MULTISWIPES"
-msgstr ""
+msgstr "多重滑动"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 返回上个位置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3744-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 转到最后的书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3745-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
@@ -8961,58 +9006,58 @@ msgstr "<span style=\"font-family: microns;\"></span>——跳读全书"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3746-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3747-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3748-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Show frontlight dialog"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 显示前灯对话框"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 重排"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 历史"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 书籍状态"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 转到页面"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3753-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 返回"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3754-5
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 上一章"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 下一章"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 打开上一个文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - 收藏"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3764-1
 msgctxt "user_guide/en.html+html.body.div.div:3764-1"
 msgid "Gesture Categories"
-msgstr ""
+msgstr "手势类别"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3765-5
 msgid ""
@@ -9022,6 +9067,10 @@ msgid ""
 "here. These actions can also be used in your own <span class=\"ui\">Quick "
 "Menu</span>. Please check the relevant section in the guide for more info."
 msgstr ""
+"这是您可以使用<span class=\"ui\""
+">手势管理器</span>菜单分配给手势的每个操作的列表。您可以使用浏览器的搜索功能"
+"（通常为<b>Ctrl+F</b>）在此处搜索操作。这些操作也可以在您自己的<span class="
+"\"ui\">快速菜单</span>中使用。请查看指南中的相关部分以获取更多信息。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3768-5
 msgid ""
@@ -9195,15 +9244,15 @@ msgstr "开/关 SSH 服务器"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3814-17
 msgid "Statistics calendar view"
-msgstr ""
+msgstr "统计日历视图"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3815-17
 msgid "Statistics today’s timeline"
-msgstr ""
+msgstr "今天的统计时间线"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3816-17
 msgid "Synchronize book statistics"
-msgstr ""
+msgstr "同步书籍统计"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3820-9
 msgid "Device"
@@ -9240,7 +9289,7 @@ msgstr "开/关 触摸输入"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3830-17
 msgid "Invert page turn buttons"
-msgstr ""
+msgstr "反转翻页按钮"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Rotation"
@@ -9256,11 +9305,11 @@ msgstr "屏幕旋转180°"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3834-17
 msgid "Rotate by 90 CW"
-msgstr ""
+msgstr "顺时针旋转90度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3835-17
 msgid "Rotate by 90 CCW"
-msgstr ""
+msgstr "逆时针旋转90度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
 msgid "Toggle Fullscreen"
@@ -9288,7 +9337,7 @@ msgstr "启动U盘读写模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
 msgid "Suspend"
-msgstr ""
+msgstr "休眠"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
 msgid "Reboot the device"
@@ -9428,7 +9477,7 @@ msgstr "按照模式自动切换对应色温设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3888-9
 msgid "Reflowable documents"
-msgstr ""
+msgstr "可重排文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
 msgid "Font face"
@@ -9462,43 +9511,43 @@ msgstr "对比度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3897-17
 msgid "Font weight"
-msgstr ""
+msgstr "字重"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3898-17
 msgid "Font hinting"
-msgstr ""
+msgstr "字体微调"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3899-17
 msgid "Font kerning"
-msgstr ""
+msgstr "字体字距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3900-17
 msgid "Two columns"
-msgstr ""
+msgstr "两栏"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3901-17
 msgid "L/R margins"
-msgstr ""
+msgstr "左右边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3902-17
 msgid "Sync T/B margins"
-msgstr ""
+msgstr "同步顶/底边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3903-17
 msgid "Top margin"
-msgstr ""
+msgstr "顶部边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3904-17
 msgid "Bottom margin"
-msgstr ""
+msgstr "底部边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3905-17
 msgid "View mode (page-continuous)"
-msgstr ""
+msgstr "查看模式（连续页）"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3906-17
 msgid "Render mode"
-msgstr ""
+msgstr "渲染模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
 msgid "Zoom"
@@ -9507,7 +9556,7 @@ msgstr "缩放"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3908-17"
 msgid "Line spacing"
-msgstr ""
+msgstr "行距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Alt status bar"
@@ -9515,19 +9564,19 @@ msgstr "副状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3910-17
 msgid "Embedded style"
-msgstr ""
+msgstr "内嵌样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3911-17
 msgid "Embedded fonts"
-msgstr ""
+msgstr "内置字体"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3912-17
 msgid "Image scaling"
-msgstr ""
+msgstr "图像缩放"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3913-17
 msgid "Invert images"
-msgstr ""
+msgstr "图片反色"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3917-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3917-5"
@@ -9820,7 +9869,7 @@ msgstr "从其他设备拉取阅读进度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3994-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "固定布局文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3996-17
 msgid "Toggle page flipping"
@@ -9848,7 +9897,7 @@ msgstr "开/关 区块缩放"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Page crop"
-msgstr ""
+msgstr "页面裁剪"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Margin"
@@ -9884,16 +9933,16 @@ msgstr "翻页方向"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4011-17
 msgid "View mode"
-msgstr ""
+msgstr "显示模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4012-17
 msgid "Page gap"
-msgstr ""
+msgstr "页面间隙"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4013-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4013-17"
 msgid "Line spacing"
-msgstr ""
+msgstr "行距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Alignment"
@@ -9910,7 +9959,7 @@ msgstr "调整字号"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Word gap"
-msgstr ""
+msgstr "字距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgid "Reflow"
@@ -9927,11 +9976,11 @@ msgstr "去水印"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Render quality"
-msgstr ""
+msgstr "渲染质量"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Document language"
-msgstr ""
+msgstr "文档语言"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Forced OCR"
@@ -9939,19 +9988,19 @@ msgstr "强制 OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgid "Writing direction"
-msgstr ""
+msgstr "文字方向"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4025-17
 msgid "Document columns"
-msgstr ""
+msgstr "文档列数"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Auto straighten"
-msgstr ""
+msgstr "自动拉直"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4034-1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "快捷键"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4036-1
 msgid ""
@@ -9963,6 +10012,12 @@ msgid ""
 "an extra menu named <span class=\"ui\">Keyboard Shortcuts</span> which you "
 "can access here:"
 msgstr ""
+"如果你有一个带键盘的设备，比如<b>Kindle 2</b>和<b>Kindle "
+"3</b>，包括蓝牙键盘和模拟器，你可以使用键盘键、设备按钮和快捷键来控制KOReader"
+"。<b>Kindle "
+"4</b>也受支持，它没有完整的键盘，但仍然有足够的按钮使其在这种情况下正常工作。"
+"在这些设备上，KOReader将启用一个名为<span class=\"ui\""
+">键盘快捷键</span>的额外菜单，您可以在此处访问该菜单："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4038-1
 msgid ""
@@ -9976,19 +10031,19 @@ msgstr ""
 msgid ""
 "This menu is very similar to the <span class=\"ui\">Gesture Manager</span> "
 "interface. In this menu:"
-msgstr ""
+msgstr "此菜单与<span class=\"ui\">手势管理器</span>界面非常相似。在此菜单中："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4042-9
 msgid "You can see the shortcuts that are available on your device"
-msgstr ""
+msgstr "您可以看到设备上可用的快捷键"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4043-9
 msgid "You can see the predefined actions for some shortcuts"
-msgstr ""
+msgstr "您可以看到一些快捷方式的预定义操作"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4044-9
 msgid "You can assign actions to the available shortcuts"
-msgstr ""
+msgstr "您可以将操作分配给可用的快捷方式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4048-5
 msgid ""
@@ -9996,11 +10051,14 @@ msgid ""
 "available for keyboard shortcut assignment. Which means you can control "
 "nearly all the functions of KOReader with these shortcuts."
 msgstr ""
+"<span class=\"ui\""
+">手势管理器</span>中的所有操作也可用于键盘快捷键分配。这意味着您可以通过这些"
+"快捷方式控制KOReader的几乎所有功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4050-5
 msgid ""
 "In the table below, you can see the default key and shortcut assignments:"
-msgstr ""
+msgstr "在下表中，您可以看到默认的按键和快捷键分配："
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4055-21
 msgid ""
@@ -10027,12 +10085,12 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4064-17
 msgid "File browser mode"
-msgstr ""
+msgstr "文件浏览器模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4068-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4068-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "打开顶部菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4069-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4069-13"
@@ -10041,7 +10099,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4072-13
 msgid "Navigate to home"
-msgstr ""
+msgstr "导航到主页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
 msgid "Home"
@@ -10049,15 +10107,15 @@ msgstr "主目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4076-13
 msgid "Move in file list"
-msgstr ""
+msgstr "移入文件列表"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4077-13
 msgid "Up / Down"
-msgstr ""
+msgstr "上/下"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4080-13
 msgid "Open selected book"
-msgstr ""
+msgstr "打开所选图书"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4081-13
 msgctxt ""
@@ -10069,7 +10127,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4084-13
 msgid "Exit application"
-msgstr ""
+msgstr "退出应用程序"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgctxt ""
@@ -10080,12 +10138,12 @@ msgstr "Esc键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4089-17
 msgid "Reading mode"
-msgstr ""
+msgstr "阅读模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4092-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4092-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "打开顶部菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4093-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4093-13"
