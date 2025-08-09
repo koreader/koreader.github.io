@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 16:17+0000\n"
 "PO-Revision-Date: 2025-08-09 07:19+0000\n"
-"Last-Translator: cyanjiang <cyanjiang@163.com>\n"
+"Last-Translator: hiro Kanhlp <hoklp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -602,8 +602,8 @@ msgid ""
 "<b>USB mass storage</b> mode for supporting devices <a href=\"#L2-"
 "transferring\" class=\"internalink\"></a>"
 msgstr ""
-"<b>USB大容量存储</b>模式（须阅读设备支持该功能）<a href=\"#L2-transferring\" "
-"class=\"internalink\"></a>"
+"<b>U盘读写</b>模式（须阅读设备支持该功能）<a href=\"#L2-transferring\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1068-9
 msgid ""
@@ -7946,6 +7946,10 @@ msgid ""
 "while adding the books. So if you have many levels of nested folders, there "
 "might be too many books than you thought."
 msgstr ""
+"<span class=\"ui\""
+">将所选文件夹及次级文件夹中添加到书单</span>：该选项会将所选文件夹的<b>次级文"
+"件夹</b>一同加入书单，使用时应当谨慎，因为该功能会遍历所选的文件夹目录。若其"
+"中包含多个目录层级，添加的书籍数量可能会远超用户预期。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3414-3
 msgid ""
@@ -8011,6 +8015,11 @@ msgid ""
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
 msgstr ""
+"在<span class=\"ui\">文件管理器</span>中长按某本书，"
+"可以更新书籍元数据或<span class=\"ui\""
+">查看书籍信息</span>。在弹出的对话框中长按任意项，可以编辑<b>作者</b>或<b>关"
+"键词</b>等书籍元数据。该操作也可通过<span class=\"external\""
+">Calibre</span>完成，一款便捷管理书籍元数据的第三方软件。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3431-9
 msgid ""
@@ -8023,9 +8032,9 @@ msgid ""
 msgstr ""
 "<span class=\"label_blue\">说明</span> 请注意，<span class=\"external\""
 ">Calibre</span>会改写书籍内部的元数据，因此将文件从<span class=\"external\""
-">Calibre</span>中导出后，修改过的元数据仍然有效；但KOReader不会改写书籍文件，"
-"而是将自定义的书籍元数据以独立文件的形式存储于与书籍关联的<b>.sdr "
-"文件夹</b>中，因此这些改动的元数据仅可使用KOReader查看。"
+">Calibre</span>中导出后，修改过的元数据仍然有效；但KOReader不会修改书籍文件，"
+"而是将自定义的书籍元数据以独立文件的形式存储于与书籍关联的<b>.sdr文件夹</b>中"
+"，因此这些改动的元数据仅可使用KOReader查看。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3435-1
 msgid "Searching in collections"
@@ -8055,7 +8064,7 @@ msgstr ""
 msgid ""
 "If you want to perform a search <b>in the book texts</b>, please keep these "
 "points in mind:"
-msgstr ""
+msgstr "在<b>检索书籍全文</b>时有以下几点需要注意："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3444-13
 msgid ""
@@ -8127,7 +8136,7 @@ msgstr "为书单添加关联文件夹后"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3462-9
 msgid "When including subfolders of a connected folder"
-msgstr ""
+msgstr "向关联文件夹中添加了次级文件夹"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3463-9
 msgid "When showing the collection"
@@ -8135,11 +8144,11 @@ msgstr "查看该书单时"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3464-9
 msgid "On program start"
-msgstr ""
+msgstr "KOReader启动时"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3468-5
 msgid "How to connect a folder to your collection:"
-msgstr "如何将文件夹关联到书单："
+msgstr "将文件夹关联到书单的方法："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3473-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3473-9"
@@ -8160,12 +8169,12 @@ msgctxt "user_guide/en.html+html.body.div.ol.li:3475-9"
 msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
-msgstr ""
+msgstr "在弹出菜单中选择<span class=\"ui\">关联文件夹</span><b>②</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3476-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3476-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr ""
+msgstr "此时会显示<span class=\"ui\">已关联的文件夹</span>列表。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3477-9
 msgid ""
@@ -8173,10 +8182,12 @@ msgid ""
 "left corner of that screen, which will open the <span class=\"ui\">Folder "
 "chooser screen</span>."
 msgstr ""
+"点按屏幕左上角的<span class=\"ui\">加号标志</span>，在弹出的<span class="
+"\"ui\">选择文件夹</span>窗口中选择要添加的文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3479-9
 msgid "Repeat the last item if you want to connect more folders."
-msgstr ""
+msgstr "重复最后一步以添加多个文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3482-5
 msgid ""
@@ -8192,6 +8203,9 @@ msgid ""
 "connected folders screen</span>, you can long-press on a folder to <span "
 "class=\"ui\">include/exclude subfolders</span> from the popup menu."
 msgstr ""
+"为了同步功能的正常执行，最好连同次级文件夹也一并添加。在上面的<b>第四步</b>，"
+"在打开<span class=\"ui\">已关联的文件夹</span>列表中长按某个文件夹，"
+"在弹出菜单中选择<span class=\"ui\">包含或排除次级目录</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3487-5
 msgid "How to disconnect a folder from your collection:"
@@ -8216,22 +8230,23 @@ msgctxt "user_guide/en.html+html.body.div.ol.li:3492-9"
 msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
-msgstr ""
+msgstr "在弹出菜单中选择<span class=\"ui\">关联文件夹</span><b>②</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3493-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3493-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr ""
+msgstr "此时将打开<span class=\"ui\">已关联的文件夹</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3494-9
 msgid ""
 "Long-press on the folder which you want to disconnect and choose <span "
 "class=\"ui\">Disconnect folder</span> from the popup menu."
-msgstr ""
+msgstr "长按想要断开关联的文件夹，在弹出菜单中选择<span class=\"ui\""
+">断开文件夹关联</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3499-1
 msgid "Using Collections with Profiles"
-msgstr "将配置文件应用到书单"
+msgstr "将配置档应用到自定义书单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3501-5
 msgid ""
@@ -8240,42 +8255,43 @@ msgid ""
 "span> yet, here is a description from our <a href=\"#L2-profiles\">Profiles</"
 "a> section:"
 msgstr ""
-"书单可配合KOReader的<span class=\"ui\">配置文件</span>功能使用。如果对<span "
-"class=\"ui\">配置文件</span>功能不了解，下面是取自<a href=\"#L2-profiles\""
-">配置文件</a>一节的介绍："
+"书单可配合KOReader的<span class=\"ui\">配置档</span>功能使用。如果对<span "
+"class=\"ui\">配置档</span>功能不了解，下面是取自<a href=\"#L2-profiles\""
+">配置档</a>一节的介绍："
 
 #: user_guide/en.html%2Bhtml.body.div.p:3503-5
 msgid ""
 "A <span class=\"ui\">profile</span> is basically a set of actions that can "
 "be triggered with a single gesture (like a macro)."
-msgstr ""
+msgstr "<span class=\"ui\""
+">配置档</span>本质上是一套操作集合（就像宏命令），可通过单个手势触发。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3506-9
 msgctxt "user_guide/en.html+html.body.div.p:3506-9"
 msgid ""
 "As an example, imagine that when reading some type of books, you always:"
-msgstr ""
+msgstr "例如在阅读某种类型的书籍时总会应用如下设置："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3508-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3508-13"
 msgid "Rotate the screen to landscape orientation"
-msgstr ""
+msgstr "将屏幕切换到横向显示模式"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3509-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3509-13"
 msgid "Increase the font size and contrast and"
-msgstr ""
+msgstr "增大字号及对比度，并且"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3510-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3510-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "打开屏幕前光"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3513-9
 msgctxt "user_guide/en.html+html.body.div.p:3513-9"
 msgid ""
 "With the profiles plugin, you can do all these at once with a single action."
-msgstr "借助配置文件插件，单次操作即可完成这些调整。"
+msgstr "借助配置档插件，只需执行单次操作即可完成这些调整。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3515-9
 msgid ""
@@ -8286,9 +8302,9 @@ msgid ""
 "auto-execution</a>. For now we will just explain one trigger condition here: "
 "<span class=\"ui\">Collections</span>."
 msgstr ""
-"配置文件可以手动套用，但<span class=\"ui\""
+"配置档可以手动套用，但<span class=\"ui\""
 ">自动套用</span>特性才是该功能的强大之处。该特性可以在指定情况下自动套用特定"
-"配置，请点击<a href=\"#L2-profileautoexec\""
+"配置档，请点击<a href=\"#L2-profileautoexec\""
 ">自动套用配置</a>前往对应章节了解。此处仅介绍在<span class=\"ui\""
 ">自定义书单</span>中自动套用配置的功能。"
 
@@ -8296,8 +8312,8 @@ msgstr ""
 msgid ""
 "Basically you can create some profiles and set them to auto-execute if an "
 "opened book is in some specific collection. Some useful examples:"
-msgstr "简单来说，用户可以创建若干套配置，并且在打开特定书单中的书籍时自动套用。一些"
-"示例："
+msgstr "简单来说，用户可以创建若干套配置档，并且在打开特定书单中的书籍时自动套用。一"
+"些示例："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3520-13
 msgid ""
@@ -8305,8 +8321,8 @@ msgid ""
 "to switch the page turn direction to <b>Right-To-Left</b> and to invert page "
 "turn taps and swipes when you open a manga book from this collection."
 msgstr ""
-"将所有漫画书添加到<b>《漫画作品》</b>书单，创建一套配置在打开该书单中的书籍时"
-"自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的点击和滑动翻页操作。"
+"将所有漫画书添加到<b>《漫画作品》</b>书单，创建一套配置档在打开该书单中的书籍"
+"时自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的点按和划动翻页操作。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3521-13
 msgid ""
@@ -8322,13 +8338,13 @@ msgid ""
 "<span class=\"ui\">Auto OCR</span> or <span class=\"ui\">Reflow mode</span> "
 "is activated with a profile."
 msgstr ""
-"可以将有问题的PDF文档编成一份书单，在阅读这些文档时套用配置触发<span class="
+"可以将有问题的PDF文档编成一份书单，在阅读这些文档时套用配置档触发<span class="
 "\"ui\">自动OCR</span>或者启动<span class=\"ui\">页面重排模式</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3527-1
 msgctxt "user_guide/en.html+html.body.div.div:3527-1"
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr ""
+msgstr "预处理EPUB和PDF文档以适配阅读设备"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3529-5
 msgid ""
@@ -8337,6 +8353,9 @@ msgid ""
 "for the small screens of e-readers. But for best results, you may want to "
 "convert your documents into more flexible EPUB format."
 msgstr ""
+"KOReader可对PDF文档进行页面重排（该选项在阅读PDF等固定版面文档时出现在底部菜"
+"单中），使其适合在阅读设备的小尺寸屏幕阅读。但为了更好的阅读效果，可能需要用"
+"户预先将文档转换为版式更加灵活的epub文件格式。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3531-5
 msgid ""
@@ -8345,6 +8364,9 @@ msgid ""
 "(<b>EPUB, Kindle</b> focused) and <span class=\"external\">K2pdfopt</span> "
 "(<b>PDF</b> focused)."
 msgstr ""
+"为便携移动设备转换及优化文档的最常用软件是<span class=\"external\""
+">Calibre</span>（主要用于<b>epub和kindle</b>）以及<span class=\"external\""
+">K2pdfopt</span>（主要用于<b>PDF</b>）。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3533-5
 msgid ""
@@ -8353,6 +8375,9 @@ msgid ""
 "you to edit e-books (and fix problems) in the most popular e-book formats, "
 "EPUB and Kindle."
 msgstr ""
+"<a href=\"https://calibre-ebook.com/\""
+">Calibre</a>可以将文档转换为多种格式。它的内置编辑器还可直接修改epub和kindle"
+"等常见电子书格式并修正文档错乱。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3535-5
 msgid ""
@@ -8362,6 +8387,10 @@ msgid ""
 "be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation "
 "tool."
 msgstr ""
+"<a href=\"https://www.willus.com/k2pdfopt/\""
+">K2pdfopt</a>可以为便携阅读设备及手机改善PDF和DJVU文档。该软件可以对分栏的文"
+"档进行编辑，甚至对扫描版PDF文件进行文字重排。同时，它可以作为一款通用的PDF复"
+"制、裁切、调整大小、OCR等的编辑软件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3537-5
 msgid ""
@@ -8371,6 +8400,9 @@ msgid ""
 "pasted. It can especially be useful for reading old scanned books. It can "
 "also optimize the images for a smaller file size."
 msgstr ""
+"<a href=\"https://github.com/ocrmypdf/OCRmyPDF\""
+">OCRmyPDF</a>是一款为扫描版PDF文档添加OCR文本层的命令行软件，使处理后的文档可"
+"以检索及复制粘贴。在阅读扫描版旧书时格外有用。它也可用于压缩图像文件大小。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3539-5
 msgid ""
@@ -8387,7 +8419,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3543-1
 msgid "Book metadata storage options"
-msgstr ""
+msgstr "书籍元数据存储选项"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3545-2
 msgctxt "user_guide/en.html+html.body.div.p:3545-2"
@@ -9198,7 +9230,7 @@ msgstr "终端模拟器"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3843-17
 msgid "Start USB storage"
-msgstr "启动 USB 存储模式"
+msgstr "启动U盘读写模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
 msgid "Suspend"
