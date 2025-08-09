@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 13:35+0000\n"
-"PO-Revision-Date: 2025-08-09 13:36+0000\n"
+"PO-Revision-Date: 2025-08-09 13:39+0000\n"
 "Last-Translator: cyanjiang <cyanjiang@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -7606,6 +7606,11 @@ msgid ""
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
 msgstr ""
+"一个ZIP文件可以包含许多类型的文件，如html，txt或图像。 "
+"KOReader可以正确打开您的ZIP文件<b>只有当你给它一个提示的zip压缩文件</b>的文件"
+"类型。 "
+"如果你给你的文件只有一个<b>.zip</b>扩展名，KOReader将假设此存档包含图像，并尝"
+"试像<b>CBZ</b>文件一样打开它。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
 msgid ""
@@ -7613,12 +7618,15 @@ msgid ""
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
 msgstr ""
+"<span class=\"ui\""
+">默认大小写：</span>yourfilename<b>.zip</b>-假定为图像的zip文件（并由<span "
+"class=\"ui\">mupdf引擎</span>打开）"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3288-5
 msgid ""
 "If your zip file contains one of these types (instead of just images), "
 "please name it accordingly:"
-msgstr ""
+msgstr "如果您的zip文件包含这些类型之一（而不仅仅是图像），请相应地命名它:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3291-9
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
@@ -7638,11 +7646,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3295-9
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
-msgstr ""
+msgstr "<b>富文本格式</b> - yourfilename.<b>rtf.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3296-9
 msgid "<b>Plain text</b> - yourfilename.<b>txt.zip</b>"
-msgstr ""
+msgstr "<b>纯文本</b> - yourfilename.<b>txt.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3299-5
 msgid ""
