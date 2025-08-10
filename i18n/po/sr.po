@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-09 17:29+0000\n"
-"PO-Revision-Date: 2025-08-08 09:01+0000\n"
+"PO-Revision-Date: 2025-08-10 14:22+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2488,12 +2488,17 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Ако у истом менију штиклирате и опцију <span class=\"ui\">Прикажи у маргини "
+"референтне бројеве страница</span>, ови бројеви страница ће се малим фонтом "
+"приказивати уз текст."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1595-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Имајте на уму да се овај мени приказује само ако су <b>Референтни бројеви "
+"страница</b> уграђени у вашу књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1599-1
 msgctxt "user_guide/en.html+html.body.div.div:1599-1"
@@ -2508,6 +2513,11 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"KOReader поседује две статусне линије, <span class=\"ui\">Доњу статусну "
+"линију</span> која је подразумевано укључена. А има и <span class=\"ui\">Алт "
+"статусну линију</span> која се појављује на вргу странице ако је укључите. "
+"Ова <span class=\"ui\">Алт статусна линија</span> је доступна само за "
+"документе коју могу да се пресложе (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2517,18 +2527,27 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"<span class=\"ui\">Доња статусна линија</span> је новија и она се активно "
+"одржава. <span class=\"ui\">Алт статусна линија</span> је остатак из ранијих "
+"верзија KOReader читача тако да у њу не додајемо нове функционалности. Али "
+"још увек можете да укључите <span class=\"ui\">Алт статусну линију</span> "
+"ако вам је корисна. Можете да је укључите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
+"МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Алтернативна статусна линија"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1607-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"<span class=\"ui\">Алт статусну линију</span> можете да подесите из следећег "
+"менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
@@ -2536,16 +2555,20 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Алтернативна статусна линија"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Упутства у остатку овог одељка су за <span class=\"ui\">Доњу статусну "
+"линију</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
 msgid "Configuring the status bar"
-msgstr ""
+msgstr "Конфигурисање статусне линије"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1615-2
 msgid ""
@@ -2553,12 +2576,17 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Доњу статусну линију можете да подесите из овог менија. Слободно истражите "
+"подмени <span class=\"ui\">ПОДЕШАВАЊА</span> и прилагодите статусну линију "
+"по вашој жељи."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1621-5
 msgid ""
@@ -2566,6 +2594,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"Постоји много ставки које могу да се прикажу на статусној линији. Али "
+"подразумевано се истовремено приказује само једна, и морате да тапнете на "
+"статусну линију да бисте кружили по осталима. Ако желите да се све ставке "
+"прикажу истовремено, укључите то овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
 msgid ""
@@ -2573,6 +2605,9 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Конфигурација ставки / Истовремено "
+"прикажи све изабране ставке"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1627-5
 msgid ""
@@ -2580,14 +2615,17 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Ако сте укључили горњу опцију, статусну линију не можете да сакријете када "
+"тапнете на њу. Ако желите да је сакријете, требало би да овде доделите "
+"гестикулацију којом се укључује/искључује приказ статусне линије:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1629-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Мени за избор гестикулације / Читач / Укљ./Искљ. статусну линију"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1631-5
 msgid "Sorting the status bar items:"
-msgstr ""
+msgstr "Сортирање ставки статусне линије:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1633-5
 msgid ""
@@ -2595,10 +2633,13 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Конфигурисање ставки / Ређање ставки у "
+"статусној линији"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1637-1
 msgid "Using \"Custom Text\" item for status bar alignment"
-msgstr ""
+msgstr "Употреба ставке „Произвољни текст” за поравнање статусне линије"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
 msgid ""
@@ -2607,16 +2648,23 @@ msgid ""
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
+"Постоји специјална ставка статусне линије под именом <span class=\"ui\""
+">Произвољни текст</span>. Ова ставка вам у статусној линији приказује "
+"произвољно унети текст. Такође је можете употребити и да креирате граничник "
+"између ставки статусне линије, као што се види у примеру испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Најпре је укључите кратким притиском на следеће"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1645-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Ставке статусне линије / Произвољни "
+"текст (дуги притисак за уређивање): ‘KOReader’"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1648-9
 msgid ""
@@ -2624,16 +2672,22 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Затим поново извршите дуги притисак на њу да се отворе подешавања. Унесите "
+"карактер <b>„размак”</b> у прво поље, па затим унесите број понављања у "
+"друго поље, чиме се одређује ширина граничника."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1651-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"Као граничник можете да изаберете и неки други карактер. Ову ставку такође "
+"можете да померате као и остале ставке статусне линије, и тако подесите "
+"своје групе."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1653-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Трака напретка поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1655-5
 msgid ""
@@ -2645,6 +2699,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"<span class=\"ui\">Трака напретка</span> у <span class=\"ui\">статусној "
+"линији</span> обично приказује ваш напредак читања кроз целу књигу. Али "
+"уместо тога, она може да прикаже и напредак читања кроз <b>текуће поглавље</"
+"b>. На пример, ово може бити корисно ако књига има много кратких поглавља. У "
+"том случају се тешко може пратити напредак читања кроз текуће поглавље, тако "
+"да <span class=\"ui\">статусна линија поглавља</span> даје корисније "
+"информације. Функционалност можете да укључите из следећег менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1657-5
 msgid ""
@@ -2652,21 +2713,27 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Progress Bar / Show chapter-progress "
 "bar instead"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Трака напретка / Уместо тога укљ./искљ. "
+"траку напретка поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1659-5
 msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"За пребацивање између обичне и траке напретка поглавља можете да доделите и "
+"гестикулацију. Ову акцију ћете пронаћи под:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1661-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr ""
+"Мени за избор гестикулације / Читач / Укљ./Искљ. траку напретка поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1667-1
 msgctxt "user_guide/en.html+html.body.div.div:1667-1"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Ставке менија на врху"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1669-5
 msgid ""
@@ -2674,6 +2741,9 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Да бисте се упознали са менијем, овде ћемо навести само преглед ставки у "
+"структури <span class=\"ui\">менија на врху</span>. Детаљне информације се "
+"налазе у одговарајућим одељцима овог упутства."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1674-9
 msgid ""
@@ -2681,6 +2751,9 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">НАВИГАЦИЈА:</span> Овај мени садржи ставке које вам "
+"омогућавају кретање кроз књигу коју читате. <b>Садржај, маркери, мапа "
+"књиге...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1676-9
 msgid ""
@@ -2688,24 +2761,32 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">СЛОВОСЛАГАЊЕ:</span> Овај мени садржи ставке којима "
+"мењате изглед ваше књиге. <b>Поставке фонта, дотеривања стила...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1678-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">ПОДЕШАВАЊА:</span> Овај мени садржи подешавања KOReader "
+"читача и вашег уређаја. <b>E-ink, осветљење, подешавања гестикулација...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1680-9
 msgid ""
 "<span class=\"ui\">TOOLS:</span> This menu contains plugins that can expand "
 "the functionality of KOReader."
 msgstr ""
+"<span class=\"ui\">АЛАТИ:</span> Овај мени садржи додатке који могу да "
+"прошире функционалност програма KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1682-9
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
+"<span class=\"ui\">ПРЕТРАГА:</span> Овај мени садржи ставке у вези са "
+"претрагом. <b>Претрага текста, речник, превод, Википедија...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1684-9
 msgid ""
@@ -2713,6 +2794,9 @@ msgid ""
 "class=\"ui\">file browser</span> which is the interface for managing your "
 "library."
 msgstr ""
+"<span class=\"ui\">ПРЕГЛЕДАЧ ФАЈЛОВА:</span> Ово дугме отвара <span class="
+"\"ui\">прегледач фајлова</span>, интерфејс којим управљате својом "
+"библиотеком."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1686-9
 msgid ""
@@ -2720,17 +2804,23 @@ msgid ""
 "books like <b>history, favorites, collections</b>. Also <b>book information</"
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
+"<span class=\"ui\">ГЛАВНИ:</span> Овај мени садржи алате којима својим "
+"књигама приступате кроз <b>историју, омиљене, колекције</b>. У овом менију "
+"се такође налазе и <b>информације о књизи</b>, <b>ажурирање</b> и <b>излаз</"
+"b> из програма."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1693-1
 msgctxt "user_guide/en.html+html.body.div.div:1693-1"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Ставке менија на дну"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1695-5
 msgid ""
 "<span class=\"label_green\">TIP</span> If you long tap on their names, you "
 "can see an explanation of these items"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Ако извршите дуги притисак на "
+"њихово име, видећете објашњење ових ставки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1700-5
 msgid ""
@@ -2741,12 +2831,21 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">Режим погледа:</span> ако га промените на <span class="
+"\"ui\">непрекидни</span> режим, документ можете да скролујете као веб "
+"страницу. Овај режим је погодан за екране који не користе e-ink технологију ("
+"LCD, OLED). У непрекидном режиму <b>нестају горње и доње маргине</b> тако да "
+"текст може да буде одсечен на првој и последњој линији екрана. Да бисте "
+"решили овај проблем, можете да укључите <span class=\"ui\">Преклапање "
+"страница</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1702-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Page Overlap"
 msgstr ""
+"МЕНИ НА ВРХУ/ <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Преклапање страница"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1704-5
 msgid ""
@@ -2757,6 +2856,13 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">Режим исцртавања:</span> ова опција одређује начин на "
+"који KOReader исцртава документ на екран. Подразумевана вредност је <span "
+"class=\"ui\">ВЕБ</span> и у општем случају нема потребе да мењате ово "
+"подешавање. Када је књига (или сачувана веб страница) врло компликована ("
+"наведене ширине или маргине, негативне маргине, плутајући објекти итд.) и "
+"распоред на екрану изгледа лоше или се прелива са екрана, пробајте остале "
+"режиме исцртавања."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1706-5
 msgid ""
@@ -2766,6 +2872,11 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\">Зумирање (dpi):</span> ово подешавање може да се сматра "
+"за <b>општи фактор зумирања</b> документа (осим за величину фонта). На 96 "
+"dpi (што је и подразумевана вредност), слике у документу се исцртавају у "
+"оригиналним величинама. У суштини, ово подешавање ћете употребити када "
+"желите да <b>слике постану веће, а да величина текста остане иста</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1712-5
 msgid ""
@@ -2776,6 +2887,13 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"<span class=\"ui\">Размак између речи и Експанзија речи:</span> ова два "
+"подешавања су у вези једно са другим и она одређују како ће ваш текст да "
+"изгледа када се обострано поравна. Када укључите обострано поравнање текста, "
+"између речи се додаје размак тако да се обе ивице сваке линије поравнају са "
+"левом и десном маргином. Пошто број речи у линијама није исти све време, при "
+"обостраном поравнању је потребно да се текст сабије или развуче тако да се "
+"испуни простор линије."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1714-5
 msgid ""
@@ -2783,6 +2901,9 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Размак између речи:</span> колико карактери <b>размака</"
+"b> у линији могу да се сабију тако да стане више речи. Ово подешавање не "
+"утиче на речи, оно мења само размак између њих."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1716-5
 msgid ""
@@ -2791,12 +2912,19 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Експанзија речи:</span> ако у линији имате превише "
+"празног простора, колики део може да се распореди у речи тако што се рашире. "
+"Ово подешавање утиче на изглед речи. Ако не желите ширење речи, поставите "
+"ову опцију на <span class=\"ui\">ништа</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1718-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Можете да експериментишете са различитим подешавањима све док вам текст не "
+"изгледа лепо, па да их затим у њиховим одговарајућим дијалозима поставите "
+"као подразумевана."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1725-5
 msgid ""
@@ -2806,42 +2934,46 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Контраст</span> и <span class=\"ui\">Тежина фонта</span> "
+"су две опције којима текст може постати тамнији (или светлији). Исти изглед "
+"можете постићи било којом од ове две опције, али оне користе различите "
+"методе да постигну ефекат. Наравно, обе можете да користите истовремено."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1727-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "Укратко, разлике између њих су:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1730-9
 msgid "CONTRAST"
-msgstr ""
+msgstr "КОНТРАСТ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1732-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
-msgstr ""
+msgstr "<b>+</b> Не мења ширину фонта, дужина књиге остаје иста"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1733-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>+</b> Нема потребе да се документ поново исцрта, брже је"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1734-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>-</b> Може лоше да изгледа на LCD или на екранима са малом DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1736-9
 msgid "FONT WEIGHT"
-msgstr ""
+msgstr "ТЕЖИНА ФОНТА"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
-msgstr ""
+msgstr "<b>+</b> Ако су инсталирани, употребиће се фонтови одговарајуће тежине"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1739-13
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>+</b> Боље изгледа на LCD или на екранима са малом DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1740-13
 msgid "<b>-</b> Has to re-render fonts, slower"
-msgstr ""
+msgstr "<b>-</b> Потребно је да се фонтови поново исцртају, спорије је"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1745-5
 msgid ""
@@ -2854,6 +2986,15 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\">Хинтовање фонта</span> подешава текст тако да се добије "
+"најбоља читљивост на мрежи пиксела вашег екрана. <span class=\"ui\">уграђено "
+"у фонт</span> користи интерне инструкције за хинтовање у фонту, <span class="
+"\"ui\">аутоматско</span> користи алгоритам за хинтовање библиотеке FreeType. "
+"<span class=\"ui\">аутоматско</span> је сигурнији избор јер инсталирани "
+"фајлови фонта могу да имају проблематичне инструкције за хинтовање. Исто "
+"тако, <span class=\"ui\">аутоматско</span> боље обрађује <b>CJK</b> ("
+"кинески, јапански, корејски) текст. Пробајте различита подешавања да видите "
+"које боље изгледа на вашем уређају."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1747-5
 msgid ""
@@ -2865,6 +3006,14 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"<span class=\"ui\">Кернинг фонта</span> подешава размак између слова, тако "
+"да се добије визуелно лепши резултат. Подразумевана вредност је <span class="
+"\"ui\">најбоље</span>, и то може да буде <b>спорије</b> када се отварају "
+"фајлови (у зависности од вашег уређаја) али <b>има бољу подршку за лигатуре</"
+"b> (за пример, погледајте слику испод), спојене <b>арапске</b> словне ликове "
+"и нека остала писма. Ако је ваш уређај спор, покушајте <span class=\"ui\""
+">добро</span> јер ради брже, а још увек може коректно да изгледа у случају "
+"текстова писаних западним латиницама."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1756-5
 msgid ""
@@ -2873,6 +3022,10 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
+"<span class=\"ui\">Алтернативна статусна линија</span> укључује алтернативну "
+"статусну линију која је доступна само за типове докумената који могу да се "
+"пресложе (EPUB, HTML, DOCX, RTF, TXT…). Када се овде укључи, <span class="
+"\"ui\">Алтернативну статусну линију</span> можете да подесите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1758-5
 msgctxt "user_guide/en.html+html.body.div.div:1758-5"
@@ -2880,6 +3033,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Статусна линија / Алтернативна статусна линија"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1760-5
 msgid ""
@@ -2889,12 +3044,18 @@ msgid ""
 "on/off switches. You can achieve more fine tuned tweaks for your document "
 "via:"
 msgstr ""
+"<span class=\"ui\">Уграђени стил</span> и <span class=\"ui\">Уграђени "
+"фонтови</span> одређују да ли ће се користити (или игнорисати) стилови "
+"издавача и фонтови уграђени у документ. Ово су општи прекидачи укључено/"
+"искључено. Финија дотеривања докумената можете да извршите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1762-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style Tweaks"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1764-5
 msgid ""
@@ -2902,24 +3063,30 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
+"<span class=\"ui\">Скалирање слике</span> одређује како се исцртавају слике "
+"у документу. <span class=\"ui\">најбоље</span> изгледа лепше, али је спорије."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1773-1
 msgid "User Interface Tips"
-msgstr ""
+msgstr "Савети за кориснички интерфејс"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1775-5
 msgid ""
 "KOReader’s user interface and options can change depending on the file type "
 "you open. There are two main categories of documents:"
 msgstr ""
+"Кориснички интерфејс KOReader читача и опције могу да се промене у "
+"зависности од типа фајла који отворите. Постоје две главне категорије "
+"докумената:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1777-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr ""
+msgstr "<b>Документи фиксног распореда</b> (pdf, djvu, фајлови слика…)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1778-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
 msgstr ""
+"<b>Документи који могу да се пресложе</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1781-5
 msgid ""
@@ -2928,46 +3095,62 @@ msgid ""
 "items quickly. If you remember the name of a menu item but don't remember "
 "where it is, you can use this feature:"
 msgstr ""
+"KOReader има доста могућности, тако да систем његових менија осликава ту "
+"сложеност. Имамо функционалност <span class=\"ui\">Претрага менија</span> "
+"којом се брзо проналазе ставке менија. Ако упамтите име ставке менија, али "
+"се не сећате где се она налази, употребите следећу функционалност:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1783-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Menu search"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Помоћ / Претрага менија"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1785-5
 msgid ""
 "Also you can assign this feature to a gesture or add it to your <a "
 "href=\"#L2-quickmenu\">Quick Menu</a> for faster access."
 msgstr ""
+"За бржи приступ, ову функционалност можете да доделите гестикулацији или да "
+"је додате у свој <a href=\"#L2-quickmenu\">Брзи мени</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1790-13
 msgid ""
 "On the <span class=\"ui\">bottom menu</span> if you tap and hold an option’s "
 "name, you can see its explanation."
 msgstr ""
+"Ако у <span class=\"ui\">менију на дну</span> тапнете и задржите име опције, "
+"приказаће вам се објашњење те опције."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1794-13
 msgid "You can change the interface language via:"
-msgstr ""
+msgstr "Језик интерфејса можете да промените из:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.div:1794-59
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Language"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Језик"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1800-13
 msgid ""
 "If you want to change the size of user interface, there is a <span "
 "class=\"ui\">DPI</span> setting for that:"
 msgstr ""
+"Ако желите да измените величину корисничког интерфејса, за то постоји <span "
+"class=\"ui\">DPI</span> подешавање:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1802-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screen DPI"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Екран / DPI екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1804-13
 msgid ""
@@ -2977,6 +3160,11 @@ msgid ""
 "span> setting in the bottom bar. That one is related to the documents only. "
 "You can find the explanation in the next section."
 msgstr ""
+"Можете да изаберете вредност из менија или да изаберете <span class=\"ui\""
+">Произвољна dpi</span> и унесете вредност за фино подешавање: <b>Виша DPI = "
+"Већи интерфејс</b>. Приметите да у доњој линији постоји и подешавање <span "
+"class=\"ui\">Зумирање (dpi)</span>. Оно утиче само на документе. Објашњење "
+"се налази у наредном одељку."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1808-13
 msgid ""
@@ -2987,6 +3175,13 @@ msgid ""
 "<span class=\"ui\">star</span> (★) in the menu or as a <span "
 "class=\"ui\">black border</span> around the indicators as seen below:"
 msgstr ""
+"Ако тапнете и задржите <b>опцију</b> или <b>ставку менија</b> (тежину фонта, "
+"проред итд.), њену вредност можете да поставите као <span class=\"ui\""
+">ПОДРАЗУМЕВАНУ</span>. Нова вредност ће се применити само на књиге које се "
+"отворе након тог тренутка. Претходно отворене књиге задржавају своја "
+"подешавања. Подразумеване вредности можете да препознате по <span class="
+"\"ui\">звездици</span> (★) у менију, или као <span class=\"ui\">црни оквир</"
+"span> око индикатора, као што је приказано испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1815-13
 msgid ""
@@ -2995,6 +3190,11 @@ msgid ""
 "<span class=\"ui\">Bookmarks</span> window. You can use any multi swipe "
 "gesture to close this one)"
 msgstr ""
+"Дијалоге који покривају цео екран (<span class=\"ui\">Историја, Садржај, "
+"Статистика читања</span> итд.) можете да <b>затворите</b> тако што "
+"<b>превучете наниже</b>. (Осим прозора <span class=\"ui\">Маркери</span>. Да "
+"бисте га затворили можете да употребите било коју гестикулацију "
+"мултипревлачења)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1818-13
 msgid ""
@@ -3005,6 +3205,12 @@ msgid ""
 "take a screenshot with the <span class=\"ui\">Alt + Shift + G</span> "
 "shortcut."
 msgstr ""
+"<span class=\"ui\">Снимак екрана</span> можете да направите извођењем "
+"<b>дугог дијагоналног превлачења</b> прстом. Снимак екрана се такође прави и "
+"<b>додиром на супротне дијагоналне углове</b>. На пример, ову другу "
+"гестикулацију можете да употребите када гледате слику. Такође, ако ваш "
+"уређај има тастатуру, снимак екрана можете да направите и пречицом <span "
+"class=\"ui\">Alt + Shift + G</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1821-13
 msgid ""
@@ -3012,6 +3218,10 @@ msgid ""
 "page</b> action which you can assign to any gesture. It is in the <b>Reader</"
 "b> category of the <span class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"Ако желите да отворите насумично изабрану страницу књиге, имамо акцију "
+"<b>Скок на насумично изабрану страницу</b> коју можете да доделите било "
+"којој гестикулацији. Налази се у категорији <b>Читач</b> <span class=\"ui\""
+">Управљача гестикулацијама</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1825-9
 msgid ""
@@ -3019,18 +3229,25 @@ msgid ""
 "<b>tap and hold</b> on arrow buttons to change the value in bigger "
 "increments."
 msgstr ""
+"У дијалозима који садрже дугмиће са стрелицама за подешавања, као што су они "
+"приказани изнад, стрелицу можете да <b>тапнете и задржите</b>, па да "
+"вредност мењате у већим корацима."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-9
 msgid ""
 "You can <b>close</b> this type of dialog (non-full screen) by tapping "
 "outside of its window."
 msgstr ""
+"Овај тип дијалога (који не заузима цео екран) можете да <b>затворите</b> "
+"тако што тапнете ван прозора."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1827-9
 msgid ""
 "You can <b>move</b> this type of dialog by holding its window title and "
 "dragging."
 msgstr ""
+"Овај тип дијалога можете да <b>преместите</b> тако што задржите његов наслов "
+"прозора и превлачите."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1828-9
 msgid ""
@@ -3038,6 +3255,9 @@ msgid ""
 "holding the <b>window title</b> (when you want to see the text under it "
 "while adjusting a value)."
 msgstr ""
+"Овај тип дијалога можете да учините <b>полупровидним</b> тако што тапнете и "
+"задржите <b>наслов прозора</b> (онда када желите да видите текст испод њега "
+"док подешавате вредност)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1832-13
 msgid ""
@@ -3046,18 +3266,25 @@ msgid ""
 "presents you a screen that looks like our <span class=\"ui\">File Browser</"
 "span>. If you want to create a new folder while choosing:"
 msgstr ""
+"<b>Креирање нових фолдера - </b>У ситуацијама када је потребно да изаберете "
+"локацију (складиште у облаку, додатак премештања у архиву, додатак за извоз)"
+", KOReader вам приказује екран који изгледа као наш <span class=\"ui\""
+">Прегледач фајлова</span>. Ако током избора желите да креирате нови фолдер:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1834-17
 msgid ""
 "First navigate to the folder from the <span class=\"ui\">Folder chooser "
 "screen</span>"
 msgstr ""
+"Најпре дођите до фолдера у <span class=\"ui\">Екрану избора фолдера</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1835-17
 msgid ""
 "Then <b>long-press</b> the <span class=\"ui\">Home icon</span> shown at the "
 "upper-left corner of this screen"
 msgstr ""
+"Затим извршите <b>дуги притисак</b> на <span class=\"ui\">Икону куће</span> "
+"приказану у горњем левом углу овог екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1841-13
 msgid ""
@@ -3065,32 +3292,42 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
+"KOReader подржава <b>претрагу речника</b> у EPUB и скенираним PDF/DJVU "
+"документима. Да бисте видели дефиницију у речнику или превод, једноставно "
+"тапните и задржите реч."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1842-9
 msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
 msgstr ""
+"Притисак и задржавање на реч отвара дијалог у којем такође можете да "
+"претражите наредна појављивања избора у документу или да га потражите на "
+"Википедији."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1845-13
 msgid ""
 "If you want to check the current date you can tap on the clock in the <span "
 "class=\"ui\">TOP MENU</span>."
 msgstr ""
+"Ако желите да видите текући датум, можете да тапнете на сат у <span class="
+"\"ui\">МЕНИЈУ НА ВРХУ</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1849-1
 msgid "Scrolling types"
-msgstr ""
+msgstr "Типови скроловања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1851-5
 msgid "KOReader has three types of touch scrolling. You can access this from:"
-msgstr ""
+msgstr "KOReader има три врсте скроловања додиром. Можете да им приступите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1853-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Scrolling"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Тапови и гестикулације / Скроловање"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1855-5
 msgid ""
@@ -3098,12 +3335,17 @@ msgid ""
 "class=\"ui\">Continuous mode</span> from the <span class=\"ui\">Bottom menu</"
 "span> to be able to use scrolling."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Да бисте били у могућности да "
+"користите скроловање, у <span class=\"ui\">Менију на дну</span> морате да "
+"укључите <span class=\"ui\">Непрекидни режим</span> погледа."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1858-9
 msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
+"<b>Класично скроловање:</b> овај режим ради на потпуно исти начин као "
+"скроловање на телефоу/таблету."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1860-9
 msgid ""
@@ -3112,6 +3354,11 @@ msgid ""
 "without lifting your finger. Scrolling amount is proportional to the "
 "distance you move your finger after you initiated scrolling."
 msgstr ""
+"<b>Турбо скроловање:</b> овај режим вам омогућава да скролујете брже у "
+"односу на <span class=\"ui\">класично скроловање</span>. Такође можете да "
+"скролујете више страница без подизања прста. Количина скроловања је "
+"пропорционална растојању за које померите прст у односу на тачку из које сте "
+"започели скроловање."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1862-9
 msgid ""
@@ -3123,9 +3370,15 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>Скроловање при отпуштању:</b> ова врста скроловања је погоднија за e-ink "
+"екране. За разлику од осталих типова скроловања, овај режим не освежава "
+"страницу непрестано док се скролује. Он ради као исто као и <span class="
+"\"ui\">класично скроловање</span> само што се не приказују међукораци. Тако "
+"да скролујете прстом, па када подигнете прст, страница скочи на ту позицију. "
+"Ово је посебно корисно <b>да се репозиционира и подеси приказ</b> када књига "
+"коју читате садржи слике или табеле, па желите да их видите у потпуности."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
-#, fuzzy
 msgid "Go back to previous location"
 msgstr "Назад на претходну локацију"
 
@@ -3138,12 +3391,20 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
+"Ова корисна функција ради на исти начин као дугме <b>Назад</b> у интернет "
+"прегледачу. Када скочите на неки други део књиге употребом<span class=\"ui\""
+">Виџета за прелетање, Листе маркера, Мапе књиге</span> итд. KOReader памти "
+"вашу претходну локацију. Ово је корисно, на пример, ако следите интерни линк "
+"или референцу. Једним тапом можете да се вратите на место са којег сте "
+"скочили. Овој функцији приступате из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1871-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go back to previous location"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Назад на претходну локацију"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1873-5
 msgid ""
@@ -3152,10 +3413,15 @@ msgid ""
 "assign this to another gesture if you want (like tapping a corner) or add it "
 "to your <span class=\"ui\">Quick Menu</span>."
 msgstr ""
+"Из истог менија, такође можете да идете и унапред. Ова функционалност је "
+"додељена <span style=\"font-family: microns;\"></span> гестикулацији "
+"мултипревлачења. Ако желите, можете ово да доделите некој другој "
+"гестикулацији (као што је тап у угао) или да је додате у свој <span class="
+"\"ui\">Брзи мени</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1877-1
 msgid "Prevent flashing on pages with images and in the menu"
-msgstr ""
+msgstr "Спречавање блескања на страницама са сликама и у менију"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1879-5
 msgid ""
@@ -3165,6 +3431,11 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
+"KOReader обично извршава потпуно освежавање на страницама које садрже слике ("
+"што можете да приметите као бљесак црне). Разлог за то је да се отараси "
+"остатака и духова са претходне странице. Али у зависности од уређаја и ваших "
+"личних потреба, ово можда и није неопходно. Понашање аутоматског освежавања "
+"можете да искучите овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1881-5
 msgid ""
@@ -3172,102 +3443,118 @@ msgid ""
 "style=\"width:24px;\"> / Screen / E-ink Settings / Full refresh rate / "
 "Always flash on pages with images"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Екран / E-ink подешавања / Пуна учесталост освежавања / "
+"Увек трепћи на страницама са сликама"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1883-5
 msgid ""
 "Also you can disable black flashing of user interface from here if it "
 "disturbs you:"
 msgstr ""
+"Ако вам смета, одавде можете да искључите трептање корисничког интерфејса:"
 
 #: user_guide/en.html%2Bhtml.body.div.p.div:1885-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / E-ink Settings"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Екран / E-ink подешавања"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1894-1
 msgctxt "user_guide/en.html+html.body.div.div:1894-1"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "КРЕТАЊЕ КРОЗ КЊИГУ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1896-5
 msgid ""
 "There are different ways of moving through your document in KOReader with "
 "their own strengths. You can use the:"
 msgstr ""
+"Постоје различити начини кретања кроз документ у KOReader читачу, и сваки од "
+"њих има своје предности. Можете да користите:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1899-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1899-3"
 msgid "Skim Widget"
-msgstr ""
+msgstr "Виџет за прелетање"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1900-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1900-3"
 msgid "Book Map"
-msgstr ""
+msgstr "Мапа књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1901-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1901-3"
 msgid "Page Browser"
-msgstr ""
+msgstr "Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1904-1
 msgctxt "user_guide/en.html+html.body.div.div:1904-1"
 msgid "Skim Widget"
-msgstr ""
+msgstr "Виџет за прелетање"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1906-5
 msgid ""
 "<span class=\"ui\">Skim Widget</span> is a very functional navigation tool. "
 "You can use it to:"
 msgstr ""
+"<span class=\"ui\">Виџет за прелетање</span> је врло користан алат за "
+"кретање. Можете га користити да:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1908-13
 msgid ""
 "Jump to any part of your book by directly tapping on the <span "
 "class=\"ui\">progress bar</span> or entering the page number"
 msgstr ""
+"Скочите на било који део књиге директним тапом на <span class=\"ui\">траку "
+"напретка</span> или уносом броја странице"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1909-13
 msgid "Navigate between chapters"
-msgstr ""
+msgstr "Кретање по поглављима"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1910-13
 msgid "Navigate between bookmarks"
-msgstr ""
+msgstr "Кретање по маркерима"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1914-5
 msgid "How to open the Skim Widget:"
-msgstr ""
+msgstr "Како се отвара виџет за прелетање:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1916-17
 msgid ""
 "With a long-tap on the <span class=\"ui\">Status Bar</span> area at the "
 "bottom of your screen"
 msgstr ""
+"Дугим тапом на простор <span class=\"ui\">Статусне линије</span> при дну "
+"екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1917-17
 msgid "From this menu:"
-msgstr ""
+msgstr "Из следећег менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1917-37
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Skim document"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Прелети по документу"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1918-17
 msgctxt "user_guide/en.html+html.body.div.ul.li:1918-17"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Можете да му доделите гестикулацију"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1919-17
 msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Можете да га додате у свој <span class=\"ui\">Брзи мени</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1924-1
 msgid "Using the Skim Widget"
-msgstr ""
+msgstr "Употреба виџета за прелетање"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1926-5
 msgid ""
@@ -3275,6 +3562,9 @@ msgid ""
 "have two different <span class=\"ui\">Skim Widget</span>s. They have the "
 "same functions, only their size is different:"
 msgstr ""
+"Погледајмо најпре дијаграм испод. Приметићете да имамо два различита <span "
+"class=\"ui\">Виџета за прелетање</span>. Они имају исту функцију, само се "
+"разликују по величини:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1929-9
 msgid ""
@@ -3283,6 +3573,10 @@ msgid ""
 "<span class=\"ui\">compact skim widget</span> so buttons are more "
 "comfortable to press. This widget opens at the <b>center of the screen</b>."
 msgstr ""
+"<b>ВИЏЕТ ЗА ПРЕЛЕТАЊЕ ПУНЕ ВЕЛИЧИНЕ:</b> Ово је подразумевани <span class="
+"\"ui\">виџет за прелетање</span> који ћете видети када инсталирате KOReader. "
+"Већи је од <span class=\"ui\">компактног виџета за прелетање</span> тако да "
+"је угодније притискати дугмад. Овај виџет се отвара на <b>центру екрана</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1931-9
 msgid ""
@@ -3292,6 +3586,11 @@ msgid ""
 "or bottom of the screen</b>, it doesn't obstruct the page as much as the "
 "default widget."
 msgstr ""
+"<b>КОМПАКТНИ ВИЏЕТ ЗА ПРЕЛЕТАЊЕ:</b> Ово је ситнија верзија подразумеваног "
+"<span class=\"ui\">виџета за прелетање</span>. На пример, може бити "
+"кориснији када радите истицања. Пошто је овај виџет мањи и отвара се на "
+"<b>врху или дну екрана</b>, он не заклања страницу у толикој мери као "
+"подразумевани виџет."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1938-9
 msgid ""
@@ -3299,12 +3598,17 @@ msgid ""
 "can do this by choosing <span class=\"ui\">Top</span> or <span "
 "class=\"ui\">Bottom</span> from this menu:"
 msgstr ""
+"Ако желите да користите <span class=\"ui\">компактни виџет за прелетање</"
+"span>, изаберите <span class=\"ui\">Горе</span> или <span class=\"ui\">Доле</"
+"span> у следећем менију:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1940-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Navigation / Skim dialog position:"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Навигација / Позиција дијалога прелетања:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1942-24
 msgid ""
@@ -3314,6 +3618,12 @@ msgid ""
 "area on the widget. But semi-transparency is triggered only in its initial "
 "position. Once moved, long-pressing moves it back to the initial position."
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Оба виџета за прелетање могу да се "
+"померају. Премештате их тако што притиснете на празну површину и превлачите. "
+"Ове дијалоге такође можете да прикажете полупровидно трако што дуго "
+"притиснете на правну површину виџета. Али полупровидност се окида само на "
+"почетној позицији виџета. Једном када га померите, дуги притисак га враћа "
+"назад на почетну позицију."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1944-5
 msgid ""
@@ -8800,9 +9110,8 @@ msgid "Last page"
 msgstr "Последња страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3946-17
-#, fuzzy
 msgid "Random page"
-msgstr "Случајна страница"
+msgstr "Насумично изабрана страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-17
 #, fuzzy
@@ -8910,7 +9219,6 @@ msgid "Book map (overview)"
 msgstr "Мапа књиге (преглед)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3967-17
-#, fuzzy
 msgid "Page browser"
 msgstr "Прегледач страница"
 
