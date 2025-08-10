@@ -20,7 +20,7 @@ msgstr "nl"
 
 #: user_guide/en.html%2Bhtml.head.title:8-1
 msgid "KOReader User Guide"
-msgstr "KOReader handleiding"
+msgstr "wordt actief onderhouden. De <span class=\"ui\">Alt-statusbalk</span> is een overblijfsel van eerdere versies van KOReader, dus we voegen daar geen nieuwe functies meer aan toe. Je kunt deze <span class=\"ui\">Alt-statusbalk</span> nog steeds inschakelen als je hem nuttig vindt. Inschakelen kan via:"
 
 #: user_guide/en.html%2Bhtml.body.button[title]:750-5
 msgid "Jump to Next Heading"
@@ -1771,10 +1771,9 @@ msgstr ""
 "href=\"https://github.com/koreader/koreader/wiki/Chinese-keyboard\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1377-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1377-1"
 msgid "Auto Warmth And Night Mode"
-msgstr "Automatische warmte- en nachtstand"
+msgstr "Automatische warmte en nachtmodus"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1379-5
 msgid ""
@@ -1802,7 +1801,6 @@ msgstr ""
 "om wat voor reden dan ook niet in het menu, dan kun je hem hier inschakelen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1383-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / More tools / Auto Warmth and Night Mode"
@@ -2229,21 +2227,17 @@ msgstr ""
 "een lange tik) op:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1510-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
-msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:24px;\"> / Document / Gedeeltelijke weergave inschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1512-13
 msgid ""
 "After confirming your changes whole book has to be re-rendered so this is a "
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
-msgstr ""
+msgstr "Na bevestiging van je wijzigingen moet het hele boek opnieuw gerenderd worden; dit is dus een meerstapsprocedure. Deze pictogrammen tonen de fase van het renderen zoals hieronder uitgelegd:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1522-17
 msgid ""
@@ -2281,7 +2275,7 @@ msgstr ""
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
-msgstr ""
+msgstr "Je was een tijdje inactief, dus KOReader laadt nu het hele document opnieuw. In deze stap is KOReader <b>geblokkeerd</b> om interactie te voorkomen." 
 
 #: user_guide/en.html%2Bhtml.body.div.div:1539-5
 msgid ""
@@ -2292,7 +2286,7 @@ msgid ""
 "the book is a separate .html file. <b>If your book is only a single .html "
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Gedeeltelijke weergave is alleen mogelijk als je EPUB uit meerdere fragmenten bestaat. EPUB-bestanden zijn in feite .zip-archieven met .html-bestanden. Sommige boeken zijn één enkel .html-bestand, andere bestaan uit meerdere .html-bestanden (bijvoorbeeld één per hoofdstuk). <b>Als je boek één enkel .html-bestand is, kan gedeeltelijke weergave niet werken omdat KOReader voor elke wijziging toch het hele boek moet verwerken.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1547-13
 msgid ""
@@ -2307,7 +2301,7 @@ msgid ""
 "by <b>selecting the end of the passage</b> or when you <b>cancel the "
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
-msgstr ""
+msgstr "<span class=\"label_orange\">Markeerpictogram</span> Dit pictogram verschijnt wanneer je in de <span class=\"ui\">Selecteer en markeer-modus</span> bent. KOReader heeft een extra markeermodus waarmee je een markering kunt starten en pagina's kunt omslaan om lange markeringen te maken die meerdere pagina's beslaan. Lees hierover in de sectie <a href=\"#bookmarks\">BLADWIJZERS, MARKERINGEN EN NOTITIES</a>. Wanneer je in deze modus een markering start verschijnt dit pictogram in de hoek als herinnering dat je nog in de markeermodus zit. Het verdwijnt wanneer je de markering beëindigt door <b>het einde van het fragment te selecteren</b> of wanneer je de markering <b>annuleert</b> (door opnieuw op het begin van je markering of op dit <span class=\"ui\">markeerpictogram</span> te tikken)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1554-13
 msgid ""
@@ -2478,7 +2472,7 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. This <span "
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
-msgstr ""
+msgstr "KOReader heeft twee statusbalken: een <span class=\"ui\">Onderste statusbalk</span> die standaard is ingeschakeld en een <span class=\"ui\">Alt-statusbalk</span> die bovenaan de pagina verschijnt als je hem inschakelt. Deze <span class=\"ui\">Alt-statusbalk</span> is alleen beschikbaar in herschikbare documenten (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2490,60 +2484,46 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "ONDERMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Alt-statusbalk"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1607-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
-msgstr ""
+msgstr "Je kunt de <span class=\"ui\">Alt-statusbalk</span> configureren via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Statusbalk / Alt-statusbalk"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
-msgstr ""
+msgstr "De verdere instructies in deze sectie gelden voor de <span class=\"ui\">Onderste statusbalk</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
-#, fuzzy
 msgid "Configuring the status bar"
-msgstr "Boekkaart"
+msgstr "De statusbalk configureren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1615-2
 msgid ""
 "You can configure the bottom status bar from this menu. Feel free to explore "
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
-msgstr ""
+msgstr "Je kunt de onderste statusbalk configureren via dit menu. Verken gerust het submenu <span class=\"ui\">INSTELLINGEN</span> om de statusbalk naar wens aan te passen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
-msgstr ""
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Statusbalk"
 "This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
 "MENU</span> settings + font type as a <b>profile</b>. This means you can "
 "have different group of settings for different conditions or book types "
