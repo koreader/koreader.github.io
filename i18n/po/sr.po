@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-10 16:28+0000\n"
-"PO-Revision-Date: 2025-08-10 16:28+0000\n"
+"PO-Revision-Date: 2025-08-11 09:17+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1867,13 +1867,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1398-5
 msgid "Fixed Schedule Mode"
-msgstr ""
-"<span class=\"label_green\">САВЕТ</span> Као што је приказано на горњој "
-"слици, зона отварања <span class=\"ui\">менија на врху</span> је подељена на "
-"3 области. Ако превучете наниже у првој 1/3 горње ивице, <span "
-"class=\"ui\">мени на врху</span> се отвара са <b>првом картицом менија</b>. "
-"Друга 1/3 област отвара <b>последње коришћену картицу менија</b>. И последња "
-"област отвара <b>последњу картицу менија</b>."
+msgstr "Режим фиксног распореда"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1401-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1401-3"
@@ -3951,13 +3945,14 @@ msgstr "Вертикална скрол линија приказује теку
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2026-13
 msgid "Vertical scrollbar shows your current page width level."
-msgstr ""
+msgstr "Вертикална скрол линија приказује текући ниво ширине странице."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2030-5
 msgid ""
 "You can customize <span class=\"ui\">Book Map</span> by changing these "
 "options:"
 msgstr ""
+"<span class=\"ui\">Мапу књиге</span> можете да прилагодите следећим опцијама:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2031-5
 msgid ""
@@ -3966,6 +3961,9 @@ msgid ""
 "width of columns indicating pages and observe how it changes the scale of "
 "the map."
 msgstr ""
+"- Најпре пробајте да превлачите <span class=\"ui\">ЛЕВО</span> и <span class="
+"\"ui\">ДЕСНО</span> уз доњу ивицу екрана да промените ширину колона које "
+"приказују странице и посматрајте како то мења скалирање мапе."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2033-5
 msgid ""
@@ -3973,6 +3971,10 @@ msgid ""
 "span> along the left edge of the screen to change chapter title depth and "
 "switch to the <span class=\"ui\">Flat View</span>. See examples below."
 msgstr ""
+"- Затим пробајте да превлачите <span class=\"ui\">НАВИШЕ</span> и <span "
+"class=\"ui\">НАНИЖЕ</span> уз леву ивицу екрана да измените дубину наслова "
+"поглавља и да пређете на <span class=\"ui\">Равни приказ</span>. Погледајте "
+"примере испод."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2035-5
 msgid ""
@@ -3982,28 +3984,40 @@ msgid ""
 "scrollbar between views. If you want to switch back to the default view, you "
 "can long-press the info icon at the upper left corner."
 msgstr ""
+"Уз подразумевани <span class=\"ui\">Приказ мреже</span> који је описан "
+"изнад, овде на левој страни можете да видите <span class=\"ui\">Равни "
+"приказ</span> и Приказ мреже без наслова поглавља на десној страни. Запазите "
+"вертикалну скрол линију која се мења у погледима. Ако желите да се вратите "
+"назад на подразумевани поглед, можете да извршите дуги притисак на инфо "
+"икону у горњем левом углу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2044-1
 msgid "Book map options"
-msgstr ""
+msgstr "Опције Мапе књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2048-5
 msgid ""
 "When you tap the menu icon on the <b>Book map</b> screen you are presented "
 "with the menu above. Menu options are explained below:"
 msgstr ""
+"Када тапнете на икону менија у екрану <b>Мапе књиге</b> приказаће вам се "
+"мени са горње слике. Испод су објашњене опције менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2051-9
 msgid ""
 "<span class=\"ui\">About book map:</span> Short explanation of Book map "
 "usage and icon descriptions."
 msgstr ""
+"<span class=\"ui\">О мапи књиге:</span> кратко објашњење о начину на који се "
+"користи Мапа књиге, као и опис икона."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2052-9
 msgid ""
 "<span class=\"ui\">Available gestures:</span> Gestures you can use to change "
 "the settings of Book map instead of using this menu."
 msgstr ""
+"<span class=\"ui\">Доступне гестикулације:</span> уместо да користите овај "
+"мени, подешавања Мапе књиге можете да измените гестикулацијама."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2053-9
 msgid ""
@@ -4014,6 +4028,13 @@ msgid ""
 "depending on factors like your screen size, touch screen sensitivity, tap "
 "accuracy etc. you might end up in adjacent pages."
 msgstr ""
+"<span class=\"ui\">Прегледач страница када се тапне:</span> ако је ово "
+"штиклирано, тапом на Мапу књиге се отвара <span class=\"ui\">Прегледач "
+"страница</span>. Ово приказује преглед области коју сте изабрали. Ако "
+"искључите ову опцију, тап на Мапу књиге вас води директно на ту страницу. "
+"Али упамтите, у зависности од фактора као што су величина екрана, осетљивост "
+"екрана осетљивог на додир, прецизности тапа итд. може се десити да се нађете "
+"на суседним страницама."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2054-9
 msgid ""
@@ -4021,24 +4042,33 @@ msgid ""
 "your Book map view, tapping this switches between the <b>default view</b> "
 "and your <b>customized view</b>."
 msgstr ""
+"<span class=\"ui\">Пребацуј текући/почетни поглед:</span> ако сте "
+"прилагодили поглед Мапе књиге, тап на ово врши прелаз између "
+"<b>подразумеваног погледа</b> и вашег <b>произвољног погледа</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2055-9
 msgid ""
 "<span class=\"ui\">Switch grid/flat views:</span> Switch between separate "
 "chapters or continuous chapters views."
 msgstr ""
+"<span class=\"ui\">Пребацуј поглед мреже/равни:</span> пребацује између "
+"погледа одвојених поглавља и погледа непрекидних поглавља."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2056-9
 msgid ""
 "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
 "chapter levels."
 msgstr ""
+"<span class=\"ui\">Нивои поглавља:</span> мења дубину нивоа "
+"поглавља/подпоглавља."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2057-9
 msgid ""
 "<span class=\"ui\">Page slot width:</span> Make each page slot wider or "
 "narrower."
 msgstr ""
+"<span class=\"ui\">Ширина места за страницу:</span> проширује или сужава "
+"свако место за страницу."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2058-9
 msgid ""
@@ -4047,11 +4077,14 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
+"<span class=\"ui\">Маркери сваке 10. странице:</span> како увећавате ову "
+"вредност, прво ће се додати маркери на сваку <b>десету страницу</b>, затим "
+"ће их повећавати, па ће коначно додати маркери на сваку <b>пету страницу</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2062-1
 msgctxt "user_guide/en.html+html.body.div.div:2062-1"
 msgid "Page Browser"
-msgstr ""
+msgstr "Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2063-5
 msgid ""
@@ -4060,6 +4093,11 @@ msgid ""
 "class=\"ui\">Page Browser</span> by tapping on the <span class=\"ui\">Book "
 "Map</span> or from the menu. You can also assign a gesture for easier access."
 msgstr ""
+"Прегледач страница може да се користи за кретање по страницама као у фото "
+"албуму, тако што сличице страница приказује као мрежу. <span class=\"ui\""
+">Прегледач страница</span> можете отворити тапом на <span class=\"ui\">Мапу "
+"књиге</span> или из менија. За лакши приступ, можете да му доделите и "
+"гестикулацију."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2066-5
 msgctxt ""
@@ -4069,6 +4107,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2070-9
 msgid ""
@@ -4077,18 +4117,26 @@ msgid ""
 "span> on this screen to see these explanations. A long-press on the same "
 "button adds/removes chapter titles from the bottom strip."
 msgstr ""
+"Испод је објашњена употреба <span class=\"ui\">Прегледача страница</span>. "
+"Такође можете да тапнете на <span class=\"ui\"> дугме хамбургер менија у "
+"горњем левом углу</span> овог екрана и видите ова објашњења. Дуги притисак "
+"на исто дугме додаје/уклања наслове поглавља из траке на дну."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2073-9
 msgid ""
 "Swipe <b>left / right</b> over this top edge to increase / decrease the "
 "number of the <b>columns</b>."
 msgstr ""
+"Превуците <b>лево/ десно</b> по овој горњој ивици да повећате / смањите број "
+"<b>колона</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2074-9
 msgid ""
 "Swipe <b>up / down</b> over this left edge to increase / decrease the number "
 "of the <b>rows</b>."
 msgstr ""
+"Превуците <b>горе / доле</b> по овој левој ивици да повећате / смањите број "
+"<b>редова</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2075-9
 msgid ""
@@ -4096,26 +4144,33 @@ msgid ""
 "one row (2 pages in the example), <b>left / right</b> to scroll one screen "
 "(4 pages in the example)."
 msgstr ""
+"Превлачите по површи са страницама да померите странице које се виде. "
+"<b>Горе / доле</b> да скролујете један ред (2 странице у примеру), <b>лево / "
+"десно</b> да скролујете једна екран (4 странице у примеру)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2076-9
 msgid "Tap any page to open that page in reading view."
-msgstr ""
+msgstr "Тапните на било коју страницу и она ће се отворити у погледу читања."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2077-9
 msgid ""
 "On the bottom area, tapping on a page focuses the thumbnail view on that "
 "page. Swiping <b>left / right</b> will jump one stripe width."
 msgstr ""
+"У простору на дну, тап на страницу фокусира приказ сличица на ту страницу. "
+"Превлачење <b>лево / десно</b> ће скочити за ширину једне траке."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
 "Icons on the bottom area are same as the ones used in <span "
 "class=\"ui\">Book Map</span> and explained under that section."
 msgstr ""
+"Иконе у простору на дну су исте као оне које се користе у <span class=\"ui\""
+">Мапи књиге</span> и објашњене су у том одељку."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2082-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr ""
+msgstr "Алтернативна тема за Мапу књиге и Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2084-5
 msgid ""
@@ -4127,11 +4182,19 @@ msgid ""
 "requires flashing to black so it might be distracting for some users. You "
 "can try both and use the one you like."
 msgstr ""
+"Мапа књиге и прегледач страница имају <b>Алтернативну тему</b> у којој се "
+"користи другачија схема сенчења и коју можете да активирате из њихових "
+"хамбургер менија. Ова тема користи наизменичне боје за наслове поглавља, "
+"тако да су у <span class=\"ui\">Мапи књиге</span> и <span class=\"ui\""
+">Прегледачу страница</span> границе поглавља лакше видљиве. Али употреба "
+"сиве боје у овој теми захтева бљескање на црну, тако да то може сметати "
+"неким корисницима. Можете да пробате обе, па да користите ону која вам се "
+"више свиђа."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2088-1
 msgctxt "user_guide/en.html+html.body.div.div:2088-1"
 msgid "Table of Contents Tools"
-msgstr ""
+msgstr "Алати за садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2089-5
 msgid ""
@@ -4139,24 +4202,33 @@ msgid ""
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
 msgstr ""
+"Неке дигиталне књиге на које наиђете можда неће имати прописан садржај. У "
+"зависности од тога како је израђена књига, можете искусити следеће проблеме "
+"са садржајем:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2092-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
 msgstr ""
+"У књизи нема садржаја, па не можете да скачете по поглављима и видите време "
+"преостало до краја читања"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2093-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
 msgstr ""
+"Садржај постоји, али није од користи јер садржи погрешне наслове поглавља, "
+"или неки недостају"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2096-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
 msgstr ""
+"KOReader има неке функционалности које можете да употребите када читате "
+"књиге са проблематичним одељком садржаја."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2098-5
 msgid ""
@@ -4166,17 +4238,24 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
+"Запазите да <span class=\"ui\">Алтернативни садржај</span> није доступан за "
+"<b>документе фиксног распореда</b> као што су PDF, DJVU итд. јер су за "
+"креирање садржаја неопходне HTML ознаке. Функције <span class=\"ui\""
+">Произвољни садржај</span> и <span class=\"ui\">Произвољни скривени токови</"
+"span> су доступне за све типове фајлова."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "Аутоматско креирање садржаја: АЛТЕРНАТИВНИ САДРЖАЈ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2103-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
 msgstr ""
+"Прва функционалност је <span class=\"ui\">Алтернативни садржај</span> који "
+"можете да пронађете у:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
 msgctxt "user_guide/en.html+html.body.div.div:2106-5"
@@ -4184,6 +4263,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Alternative table of contents"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Алтернативни садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2108-5
 msgid ""
@@ -4192,6 +4273,10 @@ msgid ""
 "for the whole book or it might contain separate chapters as individual HTML "
 "files (which is a better structure)."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> EPUB документ је у суштини ZIP фајл "
+"који садржи један или више HTML фајлова. Књига коју читате може да се "
+"састоји из једног великог HTML фајла, или може да има поглавља смештена у "
+"појединачне HTML фајлове (што је боља структура)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2110-5
 msgid ""
@@ -4201,22 +4286,32 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
+"<span class=\"ui\">Алтернативни садржај</span> покушава да креира садржај из "
+"наслова у књизи (ознаке <b>H1</b> до <b>H6</b> у HTML фајловима из EPUB "
+"књиге). Ако књига не садржи ниједан наслов, покушаће да изгради садржај из "
+"фрагмената документа (појединачни HTML фајлови у EPUB књизи) који ће да "
+"показују на почетак сваког фајла."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
 msgstr ""
+"У следећем менију можете да изаберете који нивои наслова улазе (или се "
+"игноришу) у садржај:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Miscellaneous / Alternative ToC hints"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Дотеривања стила / Разно / Назнаке алтернативног "
+"садржаја"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2118-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
-msgstr ""
+msgstr "Ручно креирање садржаја: ПРОИЗВОЉНИ САДРЖАЈ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2120-5
 msgid ""
@@ -4225,12 +4320,18 @@ msgid ""
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
 msgstr ""
+"Функција Произвољни садржај вам омогућава да креирате сопствени садржај из "
+"одабраних делова књиге. Тај садржај се састоји само из једног нивоа, тако да "
+"када користите ову функцију, не можете имати потпоглавља. Да бисте креирали "
+"сопствени садржај, најпре укључите:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom table of contents"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Произвољни садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2125-5
 msgid ""
@@ -4238,6 +4339,9 @@ msgid ""
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
 msgstr ""
+"Када укључите ову функцију, у корисничком интерфејсу ће се појавити нове "
+"ставке менија које вам омогућавају да изаберете поглавља. Поглавље можете да "
+"додате у садржај са два места:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2128-9
 msgid ""
@@ -4248,10 +4352,16 @@ msgid ""
 "selected will be already entered in the dialog. Edit your title if necessary "
 "and press create."
 msgstr ""
+"<b>Из истицања:</b> док читате књигу, изаберите текст као да га истичете или "
+"урадите дуги притисак на реч. У искачућем менију ћете видети ставку <span "
+"class=\"ui\">Почетак поглавља садржаја</span>. Када је изаберете, приказаће "
+"вам се дијалог који од вас тражи да унесете наслов поглавља. У дијалог ће "
+"већ бити унесен текст који сте изабрали. Ако је потребно, уредите наслов и "
+"притисните направи."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2129-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
-msgstr ""
+msgstr "<b>Из Прегледача страница:</b> отворите Прегледач страница из"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2133-5
 msgctxt "user_guide/en.html+html.body.div.div:2133-5"
@@ -4259,6 +4369,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2135-5
 msgid ""
@@ -4266,18 +4378,27 @@ msgid ""
 "chapter and select <span class=\"ui\">Start TOC chapter</span> item from the "
 "popup menu. You will see a dialog asking you to enter your chapter title."
 msgstr ""
+"Извршите дуги притисак на сличицу странице која желите да буде почетак "
+"поглавља и изаберите из искачућег менија ставку <span class=\"ui\">Почетак "
+"поглавља садржаја</span>. Приказаће вам се дијалог који од вас тражи да "
+"унесете наслов поглавља."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2137-5
 msgid ""
 "When you are done creating your ToC and don’t want to see these extra "
 "buttons, you can disable them by unchecking:"
 msgstr ""
+"Када завршите са креирањем садржаја и не желите да видите ове додатне "
+"дугмиће, можете да их искључите тако што уклоните штиклирање са ставке:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2139-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom layout features / Edit mode"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Могућности произвољног распореда / "
+"Режим уређивања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2141-5
 msgid ""
@@ -4289,11 +4410,18 @@ msgid ""
 "ToC to return to the original one, your custom ToC will not be deleted. You "
 "can still switch between the original and your custom ToC."
 msgstr ""
+"Креирање овог садржаја неће да измени оригинални који долази уз књигу. Ваш "
+"<b>Произвољни садржај</b> можете да обришете из истог менија (у случају да "
+"желите креирати нови). А можете и комплетно да искључите функцију, на исти "
+"начин на који сте је и укључили, у случају да желите повратак оригиналног "
+"садржаја. Запазите да ако након креирања произвољног садржаја искључите ову "
+"могућност, он се неће обрисати. Још увек можете да се пребацујете између "
+"оригиналног и вашег произвољног садржаја."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2145-1
 msgctxt "user_guide/en.html+html.body.div.div:2145-1"
 msgid "Excluding sections: Custom hidden flows"
-msgstr ""
+msgstr "Изузимање одељака: Произвољни скривени токови"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2147-5
 msgid ""
@@ -4308,24 +4436,36 @@ msgid ""
 "class=\"ui\">Custom hidden flows</span> feature of KOReader allows you to "
 "exclude these kind of parts of your book."
 msgstr ""
+"Неке књиге или документи могу да садрже дугачке одељке фуснота или "
+"библиографије. Као нека научна књига дужине 250 страница чијих је 50 "
+"последњих страница Додаци, Индекс и Референце. У општем случају, ове "
+"странице су део траке напретка и улазе у обзир приликом израчунавања времена "
+"читања јер су део књиге. Али ови одељци углавном служе као референца и не "
+"читају се у потпуности, тако да има смисла да се изузму како би број "
+"преосталих страница и процена преосталог времена читања до краја били "
+"тачнији. Или можда имате неку књигу антологије која садржи и приче које сте "
+"већ прочитали. Функција <span class=\"ui\">Произвољни скривени токови</span> "
+"програма KOReader вам омогућава да изузмете овакве делове књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2149-5
 msgid ""
 "Have a look at the image for an overview of the process. Steps will be "
 "explained after the image:"
 msgstr ""
+"Погледајте слику да стекнете општи преглед процеса. Кораци ће бити објашњени "
+"након слике:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2155-5
 msgid "How to exclude a section by creating a hidden flow:"
-msgstr ""
+msgstr "Како се изузима одељак креирањем скривеног тока:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2158-9
 msgid "Go to the first page of the section you want to exclude"
-msgstr ""
+msgstr "Идите на прву страницу одељка који желите да изузмете"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2159-9
 msgid "Open the <span class=\"ui\">Page browser</span> via:"
-msgstr ""
+msgstr "Отворите <span class=\"ui\">Прегледач страница</span> из:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:2161-13
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:2161-13"
@@ -4333,6 +4473,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2163-9
 msgid ""
@@ -4340,12 +4482,17 @@ msgid ""
 "excluded section and select <span class=\"ui\">Start hidden flow here</span> "
 "item from the popup menu."
 msgstr ""
+"Извршите дуги притисак на сличицу странице која представља почетак одељка "
+"који се изузима и у искачућем менију изаберите ставку <span class=\"ui\""
+">Почни скривени ток овде</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2164-9
 msgid ""
 "You will see that the pages starting from your selection now have a gray "
 "hatched background."
 msgstr ""
+"Видећете да странице почевши од оне коју сте изабрали имају сиво шрафирану "
+"позадину."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2165-9
 msgid ""
@@ -4353,12 +4500,19 @@ msgid ""
 "from the <span class=\"ui\">Page browser</span> or using other ways like "
 "<span class=\"ui\">Book map, Skim widget</span> etc."
 msgstr ""
+"Сада идите на последњу страницу одељка који желите да се изузме. Тамо можете "
+"да одете из <span class=\"ui\">Прегледача страница</span>, или коришћењем "
+"осталих начина као што су <span class=\"ui\">Мапа књиге, Виџет за прелетање</"
+"span> итд."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2166-9
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
 msgstr ""
+"Једном кад се нађете на последњој страници одељка који се изузима, поново "
+"отворите <span class=\"ui\">Прегледач страница</span> (ако се већ не "
+"налазите у њему)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2167-9
 msgid ""
@@ -4368,10 +4522,15 @@ msgid ""
 "return to normal color, indicating the end of hidden flow and the beginning "
 "of regular flow."
 msgstr ""
+"Пронађите последњу страницу вашег скривеног одељка и извршите дуги притисак "
+"на <b>наредну страницу</b>. Изаберите из искачућег менија ставку <span class="
+"\"ui\">Поново покрени обични ток овде</span>. Видећете да се позадина "
+"остатка страница враћа на нормалну боју, што означава крај скривеног и "
+"почетак обичног тока."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2172-5
 msgid "Working with the hidden sections:"
-msgstr ""
+msgstr "Рад са скривеним одељцима:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2174-5
 msgid ""
@@ -4379,6 +4538,9 @@ msgid ""
 "behavior will be similar to the situation as if you removed a section of a "
 "paper book by cutting it out:"
 msgstr ""
+"Када креирате скривени ток на начин који је описан изнад, понашање програма "
+"KOReader ће бити слично као у ситуацији када из папирне књиге уклоните "
+"одељак тако што одсечете одговарајуће странице:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2177-9
 msgid ""
@@ -4387,12 +4549,18 @@ msgid ""
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
 msgstr ""
+"Ови одељци скривеног тока ће се прескакати приликом окретања страница. На "
+"пример, претпоставимо да сте креирали скривени ток за <b>Поглавље 10</b>. "
+"Сада се налазите на последњој страници <b>Поглавља 9</b>. Када окренете "
+"страницу, видећете <b>Поглавље 11</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2178-9
 msgid ""
 "Page numbering will continue as if these hidden flow sections <b>do not "
 "exist</b>."
 msgstr ""
+"Нумерација страница ће се наставити као да ови одељци скривеног тока <b>не "
+"постоје</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2179-9
 msgid ""
@@ -4401,6 +4569,10 @@ msgid ""
 "<b>time to read</b> calculations. But they will still be visible in the "
 "<span class=\"ui\">Skim widget</span>."
 msgstr ""
+"Ови одељци скривеног тока се неће приказивати у <span class=\"ui\">Траци "
+"напретка</span> (али прочитајте објашњење испод) и неће се узимати у обзир "
+"при израчунавању <b>времена до краја читања</b>. Али ће још увек моћи да се "
+"виде у <span class=\"ui\">Виџету за прелетање</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2180-9
 msgid ""
@@ -4408,6 +4580,10 @@ msgid ""
 "will still work. Also you can still reach these sections from the <span "
 "class=\"ui\">Table of contents, Book map, Page browser, Skim widget</span>."
 msgstr ""
+"Још увек ће да функционишу директни линкови на странице које су део ових "
+"одељака скривеног тока. Такође, још увек можете да дођете до ових одељака из "
+"<span class=\"ui\">Садржаја, Мапе књиге, Прегледача страница, Виџета за "
+"прелетање</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2183-5
 msgid ""
@@ -4420,10 +4596,18 @@ msgid ""
 "other navigation tools, your Progress bar will go back to showing the whole "
 "book again (with your custom hidden flows again not visible)."
 msgstr ""
+"Као што смо рекли изнад, скривени токови ће се изузети из <span class=\"ui\""
+">Траке напретка</span>. Али ако скочите на један од скривених одељака "
+"користећи било који од горе наведених метода, ваша Трака напретка привремено "
+"постаје линија напретка тог скривеног одељка. Ово можете да замислите као да "
+"се трака напретка зумира у тај одељак скривеног тока. Ако изађете из овог "
+"одељка скривеног тока окретањем странице на његовом крају, или ако "
+"употребите остале алате за кретање по књизи, ваша Трака напретка се поново "
+"враћа на приказ комплетне књиге (који поново не приказује скривене токове)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2186-5
 msgid "Removing and cleaning up hidden sections:"
-msgstr ""
+msgstr "Уклањање и брисање скривених одељака:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2187-5
 msgid ""
@@ -4431,6 +4615,9 @@ msgid ""
 "class=\"ui\">Page browser</span> in the same way you created them. You can "
 "also clear all of them at once with the menu item:"
 msgstr ""
+"Појединачне одељке скривених токова можете да уклоните из <span class=\"ui\""
+">Прегледача страница</span> на исти начин на који сте их и креирали. Такође "
+"можете и да их обришете све одједном ако употребите следећу ставку менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2189-5
 msgid ""
@@ -4438,6 +4625,9 @@ msgid ""
 "style=\"width:22px;\"> / Settings / Custom layout features / Clear all "
 "marked pages"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Могућности произвољног распореда / "
+"Обриши све означене странице"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2191-5
 msgid ""
@@ -4454,6 +4644,17 @@ msgid ""
 "flows, or once you finish making your hidden flows and happy with the "
 "results:"
 msgstr ""
+"Док радите на креирању скривених токова означавањем страница као <span class="
+"\"ui\">Почни скривени ток</span> или <span class=\"ui\">Поново покрени "
+"обични ток</span>, неке од раније означених можда више неће имати ефекта. На "
+"пример, у случају да сте направили <span class=\"ui\">Почни скривени ток</"
+"span> неколико страница пре постојећег <span class=\"ui\">Почни скривени "
+"ток</span>, тај постојећи више нема ефекта. Ово преклапање или застареле "
+"ознаке се памте из практичних разлога. Ако опет у претходном примеру тај "
+"одељак завршите пре постојећег-који-више-нема-ефекта Почни скривени ток, тај "
+"неактивни ће се поново активирати. Ако ометају ваше произвољне токове, "
+"можете да обришете све ове неактивне маркере, или када завршите са креирањем "
+"скривених токова и задовољни сте резултатом, урадите:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2193-5
 msgid ""
@@ -4461,16 +4662,19 @@ msgid ""
 "style=\"width:22px;\"> / Settings / Custom layout features / Clear inactive "
 "marked pages"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Могућности произвољног распореда / "
+"Обриши неактивне означене странице"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2199-1
 msgctxt "user_guide/en.html+html.body.div.div:2199-1"
 msgid "CUSTOMIZING TEXT APPEARANCE"
-msgstr ""
+msgstr "ПРИЛАГОЂАВАЊЕ ИЗГЛЕДА ТЕКСТА"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2201-1
 msgctxt "user_guide/en.html+html.body.div.div:2201-1"
 msgid "Default appearance settings"
-msgstr ""
+msgstr "Подразумевана подешавања изгледа"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2203-5
 msgid ""
@@ -4479,6 +4683,10 @@ msgid ""
 "font to <b>Verdana</b>, any books you open next including the ones you are "
 "already reading will be shown in this Verdana font."
 msgstr ""
+"У неким апликацијама читача, када промените подешавање, рецимо фонт који се "
+"користи за књигу, та промена важи глобално. Ово значи да ако подразумевани "
+"фонт промените на <b>Verdana</b>, свака књига коју након тога отворите, "
+"укључујући и оне које већ читате, биће приказана тим Verdana фонтом."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2205-5
 msgid ""
@@ -4489,6 +4697,13 @@ msgid ""
 "you can set some books to open in <b>landscape orientation</b> or <b>double "
 "column</b> mode."
 msgstr ""
+"Приступ KOReader читача се разликује од овога. Ми подешавања изгледа књиге "
+"чувамо за сваку књигу посебно. Ово вам омогућава флексибилност да измените "
+"подешавања текуће књиге и да то не утиче на остале. На пример, ако имате "
+"неке књиге епске фантастике, фонт можете да поставите на неки са "
+"средњевековним изгледом само за те књиге. Или можете подесити да се неке "
+"књиге отварају у <b>положеној оријентацији</b> или у режиму <b>две "
+"колоне</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2207-5
 msgid ""
@@ -4500,10 +4715,18 @@ msgid ""
 "span> (★) in the menu or as a <span class=\"ui\">black border</span> around "
 "the indicators as seen below:"
 msgstr ""
+"Да бисте подешавање променили глобално, тапните и задржите <b>опцију</b> или "
+"<b>ставку менија</b> (тежину фонта, проред итд.), и тако поставите њену "
+"вредност као <span class=\"ui\">подразумевану</span>. Као што је већ речено, "
+"ова нова вредност ће се примењивати само на књиге које се отворе након ове "
+"акције. Претходно отворене књиге ће задржати своја подешавања. Подразумеване "
+"вредности можете да препознате као <span class=\"ui\">звездицу</span> (★) у "
+"менију или као <span class=\"ui\">црни оквир</span> око индикатора, као што "
+"је приказано испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2213-1
 msgid "Applying current defaults to an already opened book"
-msgstr ""
+msgstr "Примењивање текућих подразумеваних подешавања на већ отворену књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2215-5
 msgid ""
@@ -4512,6 +4735,10 @@ msgid ""
 "value will only be used for the new documents you open after the change. "
 "Your already opened books will not change."
 msgstr ""
+"Дакле, када подесите жељене подразумеване вредности за документ, као што је "
+"<span class=\"ui\">подразумевани проред</span> или <span class=\"ui\""
+">подразумевани контраст</span>, ова нова вредност ће се користити само за "
+"нове документе које отворите након измене. Већ отворене књиге се неће мењати."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2217-5
 msgid ""
@@ -4523,17 +4750,26 @@ msgid ""
 "feature you don’t need to change these values manually in all your opened "
 "books."
 msgstr ""
+"Али шта ако желите да се и оне измене? На пример, ако промените "
+"подразумевани <span class=\"ui\">фонт</span>, вероватно ћете <span class="
+"\"ui\">тежину фонта</span> и <span class=\"ui\">проред</span> поставити на "
+"вредности које су одговарајуће за тај нови фонт. Задовољни сте изгледом "
+"текста и сада желите да све ваше књиге тако изгледају. Уз ову функционалност "
+"нема потребе да ове вредности ручно постављате за све отворене књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2219-5
 msgid ""
 "You can easily apply these changes to your already opened books by choosing:"
 msgstr ""
+"Лако можете да примените та нова подешавања на већ отворене књиге бирајући:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2221-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Reset document settings to default"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Ресетуј подешавања документа на подразумевана"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2223-5
 msgid ""
@@ -4542,10 +4778,14 @@ msgid ""
 "appearance of the book. Your <b>reading position, highlights, notes and "
 "bookmarks</b> will be preserved."
 msgstr ""
+"Када тапнете на ову опцију, подешавања текуће књиге ће се променити на "
+"најновије <b>подразумеване</b> вредности које сте поставили. Не брините, ово "
+"ће да промени само изглед књиге. Ваша <b>позиција читања, истицања, белешке "
+"и маркери</b> ће се очувати."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2226-1
 msgid "Saving current book settings as defaults"
-msgstr ""
+msgstr "Чување текућих подешавања књиге као подразумеваних"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2228-5
 msgid ""
@@ -4575,10 +4815,12 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Save document settings as default"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Сачувај подешавања документа као подразумевана"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2236-1
 msgid "Creating different groups of settings"
-msgstr ""
+msgstr "Креирање различитих група подешавања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2238-5
 msgid ""
@@ -4588,10 +4830,15 @@ msgid ""
 "which you can apply at once instead of changing the settings manually every "
 "time."
 msgstr ""
+"Ова моћна функционалност вам омогућава да сачувате сва подешавања <span "
+"class=\"ui\">МЕНИЈА НА ДНУ</span> + тип фонта као <b>профил</b>. То значи да "
+"можете имати различите групе подешавања за различите услове или различите "
+"типове књига која можете одједном применити уместо да сваки пут ручно мењате "
+"подешавања."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2240-5
 msgid "For example you can create:"
-msgstr ""
+msgstr "На пример, можете да креирате:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2243-9
 msgid ""
@@ -4599,6 +4846,9 @@ msgid ""
 "small sized text, <span class=\"ui\">landscape orientation</span> and "
 "minimum <span class=\"ui\">margins</span>"
 msgstr ""
+"Профил <b>Две колоне</b> са <span class=\"ui\">две колоне</span> текста мале "
+"величине, <span class=\"ui\">положену оријентацију</span> и минималне <span "
+"class=\"ui\">маргине</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2244-9
 msgid ""
@@ -4606,6 +4856,9 @@ msgid ""
 "span> and higher <span class=\"ui\">contrast</span> for more visible text "
 "under low light"
 msgstr ""
+"Профил <b>Ноћно читање</b> са <span class=\"ui\">већим линеарним фонтом</"
+"span> и већим <span class=\"ui\">контрастом</span> чиме се добија читљивији "
+"текст у условима слабог светла"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
 msgid ""
@@ -4613,49 +4866,60 @@ msgid ""
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
 "books"
 msgstr ""
+"Профил <b>Искључени стилови</b> са искљученим <span class=\"ui\">уграђени "
+"стил</span> и <span class=\"ui\">уграђени фонтови</span> у случају лоше "
+"структурираних књига"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2248-5
 msgid ""
 "After adjusting your settings to your liking, you can create a profile from "
 "them via:"
 msgstr ""
+"Када поставите подешавања по жељи, профил заснован на њима можете да "
+"креирате из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2250-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles / New with current document settings"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Профили / Нови са текућим подешавањима књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2252-5
 msgid ""
 "After creating a profile with your settings, you have many options for "
 "applying it to another book:"
 msgstr ""
+"Када креирате профил са својим подешавањима, имате многе опције за "
+"примењивање профила на другу књигу:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2254-9
 msgid ""
 "You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
-msgstr ""
+msgstr "Профил можете да примените из <span class=\"ui\">менија Профили</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2255-9
 msgctxt "user_guide/en.html+html.body.div.ul.li:2255-9"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Можете да му доделите гестикулацију"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2256-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Можете да га прикажете у <span class=\"ui\">Брзом менију</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2259-5
 msgid ""
 "Click here to go to the <a href=\"#L1-qmandprofiles\">QUICK MENU AND "
 "PROFILES</a> section of the guide."
 msgstr ""
+"Кликните овде да скочите на одељак упутства <a href=\"#L1-qmandprofiles\""
+">БРЗИ МЕНИ И ПРОФИЛИ</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2261-1
 msgctxt "user_guide/en.html+html.body.div.div:2261-1"
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Употреба ваших фонтова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2263-5
 msgid ""
@@ -4665,6 +4929,11 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/wiki/Fonts\">our wiki</a> for "
 "more info."
 msgstr ""
+"KOReader подржава фонтове у најраспрострањенијим TrueType (.ttf) и OpenType "
+"форматима (.otf). Фајлови фонтова са овим екстензијама могу директно да се "
+"копирају у <span class=\"ui\">/koreader/fonts/</span> фолдер на вашем "
+"уређају. За више информација, погледајте <a href="
+"\"https://github.com/koreader/koreader/wiki/Fonts\">наш вики</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2265-5
 msgid ""
@@ -4675,6 +4944,13 @@ msgid ""
 "from metadata, font names are not important when copying to your device. "
 "Installed fonts will be available after restarting KOReader.</b>"
 msgstr ""
+"Када се покреће, KOReader сакупља доступне фонтове из <b>метаподатака/"
+"информација у фонту</b> и класификује их по фамилијама и тежинама. Ово значи "
+"да можете додати различите тежине и варијанте фонта и KOReader ће покушати "
+"да употреби најпогоднији. <b>Пошто информације о фамилији фонта узима из "
+"метаподатака, имена фајлова фонтова нису важна када их копирате на уређај. "
+"Инсталирани фонтови постају доступни након поновног покретања програма "
+"KOReader.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2267-5
 msgid ""
@@ -4682,42 +4958,45 @@ msgid ""
 "more of them on the <a href=\"https://fonts.google.com\">Google Fonts</a> "
 "website:"
 msgstr ""
+"Ево примера неких фонтова који лепо изгледају на e-ink екрану. Више њих "
+"можете да пронађете на <a href=\"https://fonts.google.com\">Google Fonts</a> "
+"веб сајту:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2268-5
 msgid "Serif:"
-msgstr ""
+msgstr "Серифни:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2270-9
 msgid "Spectral"
-msgstr ""
+msgstr "Spectral"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2271-9
 msgid "Vollkorn"
-msgstr ""
+msgstr "Vollkorn"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2272-9
 msgid "EB Garamond"
-msgstr ""
+msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2275-5
 msgid "Sans Serif:"
-msgstr ""
+msgstr "Линеарни:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2277-9
 msgid "Varela Round"
-msgstr ""
+msgstr "Varela Round"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2278-9
 msgid "Wix Madefor Text"
-msgstr ""
+msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2279-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (фонт који се користи у корисничком упутству које читате)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2282-5
 msgid "Monospace:"
-msgstr ""
+msgstr "Фиксне ширине:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2283-5
 msgid ""
@@ -4726,6 +5005,10 @@ msgid ""
 "find and compare many monospace fonts at <a href=\"https://www."
 "programmingfonts.org/\">programmingfonts.org</a>"
 msgstr ""
+"Ако планирате да користите сопствени фонт фиксне ширине, вероватно већ имате "
+"омиљени, тако да овде не нудимо никакве примере. Али многе фонтове фиксне "
+"ширине можете да пронађете и да их поредите на <a href="
+"\"https://www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2285-2
 msgid ""
@@ -4735,16 +5018,25 @@ msgid ""
 "ligatures and character sets in non-Latin scripts like Greek, Hebrew or "
 "Chinese. You can access this feature via:"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> KOReader може да генерише документ "
+"са пробним текстом исцртаним свим фонтовима који су инсталирани на вашем "
+"уређају. Ово вам омогућава да брзо упоредите изглед и могућности фонтова као "
+"што су лигатуре и скупови карактера у писмима која нису заснована на "
+"латиници, као што су грчко, хебрејско или кинеско. Овој функционалности "
+"можете да приступите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2287-3
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Generate font test document"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Фонт / Подешавања фонта / Генериши документ за "
+"тестирање фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2292-1
 msgid "Monospace font scale"
-msgstr ""
+msgstr "Скалирање фонта фиксне ширине"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2294-5
 msgid ""
@@ -4754,22 +5046,33 @@ msgid ""
 "metrics. KOReader has an option that allows you to adjust the relative "
 "Monospace font size to fix this difference:"
 msgstr ""
+"Ако ваша књига садржи делове писане фонтовима <b>фиксне ширине</b> (као у "
+"случају књига о програмирању), текст фиксне ширине би могао изгледати "
+"диспропорционално чак и ако је технички исте величине као и текст остатка "
+"књиге. Узрок овога је различита метрика фонта. KOReader има опцију која вам "
+"омогућава да подесите релативну величину фонта фиксне ширине и тако "
+"поправите ову разлику:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2296-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Фонт / Подешавања фонта / Скалирање фонтова фиксне "
+"ширине"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2298-5
 msgid ""
 "Here you can increase or decrease the size of your Monospace font by "
 "adjusting its scaling as a percentage of the default size."
 msgstr ""
+"Овде можете да повећате или смањите величину свог фонта фиксне ширине тако "
+"што поставите скалирање као проценат подразумеване величине."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2302-1
 msgid "Using different fonts in one document"
-msgstr ""
+msgstr "Употреба различитих фонтова у једном документу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2304-5
 msgid ""
@@ -4783,12 +5086,24 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
+"У документима који се заснивају на HTML/CSS, као што су EPUB документи, "
+"уместо одређеног имена фонта, књиге могу да наведу употребу фамилије "
+"фонтова. Ове фамилије могу да буду <b>Серифни, Линеарни, Фиксне ширине, "
+"Курзивни, Фантазија, Емођи, Fang Song и Математички</b>. На пример, у некој "
+"књизи обични текст може да буде приказан у <b>Линеарном</b> писму, док се "
+"дијалози приказују <b>Серифним</b> фонтом. KOReader обично користи ваш "
+"подразумевани фонт за све ове фамилији, осим у случају <b>Фиксне ширине</b> "
+"и <b>Математички</b> (што се одређује стилом текст чворова, на пример <b"
+">'font-family: serif'</b>). Ако желите да ове фамилије имају особен изглед, "
+"овде можете да им доделите одређене фонтове:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2306-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Фонт / Font-family фонтови"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2308-5
 msgid ""
@@ -4798,10 +5113,16 @@ msgid ""
 "where your default font is hardly used, you can disable that family font for "
 "this book by unchecking the association."
 msgstr ""
+"Да бисте променили фамилију фонта за текућу књигу једноставно тапните на име "
+"жељеног фонта. Ако ово желите да поставите за све ваше књиге, извршите дуги "
+"тап да је поставите као <b>подразумевану (★)</b>. Ако књига злоупотребљава "
+"ову функционалност фамилије фонта па се ваш подразумевани фонт скоро и не "
+"користи, за ту књигу можете да искључите фамилију фонта тако што уклоните "
+"штиклирање са придруживања."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2314-1
 msgid "Changing font quickly"
-msgstr ""
+msgstr "Брза измена фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2316-2
 msgid ""
@@ -4814,15 +5135,24 @@ msgid ""
 "open your font selection menu and change the font like shown in the image "
 "below:"
 msgstr ""
+"Ако често мењате фонтове (нпр. <b>фиксне ширине</b> за књиге из програмирања "
+"и<b>серифне</b> за романе) постоји заобилазно решење које спречава потребу "
+"да сваки пут одлазите у мени. Можете да креирате профиле за своје фонтове, "
+"као и за сва подешавања у вези са фонтовима као што су <span class=\"ui\""
+">проред, контраст, подебљање</span> итд. па да те профиле додате у <span "
+"class=\"ui\">Брзи мени</span>. Тако да са једном гестикулацијом можете да "
+"отворите мени за избор фонта и да промените фонт као што је то приказано на "
+"слици испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2320-5
 msgid ""
 "Check the <a href=\"#qmandprofiles\">QUICK MENU AND PROFILES</a> section of "
 "this guide to learn how to do this."
 msgstr ""
+"Погледајте одељак <a href=\"#qmandprofiles\">БРЗИ МЕНИ И ПРОФИЛИ</a> овог "
+"упутства да научите како се то ради."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2325-1
-#, fuzzy
 msgid "Style tweaks"
 msgstr "Дотеривања стила"
 
@@ -4834,7 +5164,7 @@ msgctxt ""
 "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
 "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! НАПРЕДНО"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2329-5
 msgid ""
@@ -4843,10 +5173,14 @@ msgid ""
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
 msgstr ""
+"Функционалност KOReader читача под називом дотеривања стила вам омогућава да "
+"измените начин на који KOReader исцртава вашу књигу. Овде нећемо проћи кроз "
+"комплетан CSS курс. Желимо само да вам прикажемо основе, тако да када видите "
+"дотеривање стила, имаћете барем основну идеју шта оно ради."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2331-5
 msgid "What is a style tweak?"
-msgstr ""
+msgstr "Шта је дотеривање стила?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2332-5
 msgid ""
@@ -4857,15 +5191,22 @@ msgid ""
 "rendered by adding new rules and/or overriding the rules written by the "
 "publisher that is embedded in your book."
 msgstr ""
+"EPUB документ можемо да опишемо као <b>HTML фајл + нека CSS правила</b>. Ова "
+"CSS правила одређују како ће се различити делови књиге (наслови, подебљани "
+"текст, цитати итд.) приказивати у апликацији читача. Помоћу <span class="
+"\"ui\">дотеривања стила</span>, можете изменити начин на који ће се "
+"исцртавати ваша књига додавањем нових правила и/или преиначавањем правила "
+"која је написао издавач и која су уграђена у вашу књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
 msgstr ""
+"Хајде да ово видимо на примеру <span class=\"ui\">дотеривања стила</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2336-5
 msgctxt "user_guide/en.html+html.body.div.p:2336-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2337-5
 msgid ""
@@ -4874,16 +5215,22 @@ msgid ""
 "you add this style tweak to KOReader, all the images in your book will be "
 "shown tiny."
 msgstr ""
+"Простим језиком, ово правило каже: <b>„Игнориши њихову оригиналну величину и "
+"учини све слике у овој књизи 10 пиксела широке и 10 пиксела високе.”</b> "
+"Дакле, ако у KOReader додате ово дотеривање стила, све слике у вашој књизи "
+"ће се приказивати малецке."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Now lets explain this tweak item by item:"
-msgstr ""
+msgstr "Хајде сада да ово дотеривање објаснимо ставку по ставку:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2342-9
 msgid ""
 "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
 "<b>img</b> (image) elements in the book."
 msgstr ""
+"<span class=\"ui\">img</span> - Ово је CSS селектор који циља на све <b>img</"
+"b> (image–слика) елементе у књизи."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2343-9
 msgid ""
@@ -4891,6 +5238,9 @@ msgid ""
 "span> - This is the declaration block. It contains the styles which will be "
 "applied to the selected <b>img</b> elements."
 msgstr ""
+"<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
+"span> - Ово је декларација блока. Садржи стилове који ће се применити на "
+"изабране <b>img</b> елементе."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2344-9
 msgid ""
@@ -4900,6 +5250,11 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> - Овај први део поставља "
+"ширину циљаних <b>img</b> елемената на 10 пиксела. Декларација "
+"<b>!important</b> је прекидач за преиначавање који обезбеђује да ваша "
+"вредност ширине има предност над било којим постојећим <b>width</b> "
+"декларацијама примењеним на ове слике."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2345-9
 msgid ""
@@ -4909,6 +5264,11 @@ msgid ""
 "height value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"<span class=\"ui\">height: 10px !important;</span> - Овај део поставља "
+"висину циљаних <b>img</b> елемената на 10 пиксела. Поново, декларација "
+"<b>!important</b> је прекидач за преиначавање који обезбеђује да ваша "
+"вредност висине има предност над било којим постојећим <b>height</b> "
+"декларацијама примењеним на ове слике."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2348-5
 msgid ""
@@ -4916,66 +5276,73 @@ msgid ""
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
 msgstr ""
+"Укратко, ово CSS правило је дизајнирано тако да постави <b>фиксну ширину и "
+"висину од 10 пиксела</b> свим <b>img</b> елементима у вашој књизи, "
+"<b>игноришући њихов оригинални стил</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2352-5
 msgid "Some useful examples of style tweaks"
-msgstr ""
+msgstr "Неки корисни примери дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
 msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
 msgstr ""
+"Ово су нека корисна дотеривања стила која можете да употребите директно или "
+"да их измените по својој жељи. Наредни наслов вам објашњава како да их "
+"користите у KOReader читачу."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2357-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Додавање граничне линије изнад сваког наслова у књизи:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2358-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Додавање мало маргине изнад наслова:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2362-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2364-13
 msgid "Or if the book have too much margin above the headings, remove them:"
-msgstr ""
+msgstr "Или ако књига има превелике маргине изнад наслова, уклањају се:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2365-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2368-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
-msgstr ""
+msgstr "Додавање малог размака између пасуса да би се текст лакше читао:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2369-17
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2371-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Искључивање свих слика у EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2372-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Уместо да се искључе, слике се приказују у врло малим димензијама:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2377-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid ""
@@ -4983,6 +5350,10 @@ msgid ""
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgstr ""
+"Одељци блокова кода у књигама из компјутерске науке постају чистији и "
+"читљивији (<a href="
+"\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\""
+">Овде можете видети пример</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgid ""
@@ -4990,10 +5361,13 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2396-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Како се додају дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2398-5
 msgid ""
@@ -5001,15 +5375,20 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
+"OК, сада смо видели шта су <span class=\"ui\">дотеривања стила</span>. Али "
+"како можемо да их користимо? KOReader познаје три врсте <span class=\"ui\""
+">дотеривања стила</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2402-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Уграђена дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2404-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
 msgstr ""
+"Овај наслов је нов, као и снимак екрана изнад и испод. Треба ли нешто да се "
+"дода?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2407-1
 msgid ""
@@ -5017,12 +5396,17 @@ msgid ""
 "just enable them from the menu to use them. You don't need to write any CSS "
 "code:"
 msgstr ""
+"Ова дотеривања се испоручују уз KOReader. Она се најлакше користе, јер је "
+"потребно само да се укључе из менија. Нема потребе да пишете било какав CSS "
+"кôд:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2409-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2411-5
 msgid ""
@@ -5031,10 +5415,14 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
+"Јављају се у многим категоријама. Ако желите да дотеривање примените <b>само "
+"на текућу књигу</b>, штиклирајте поље. Ако желите да сазнате више "
+"информација у вези са овим дотеривањем или да га укључите за <b>све књиге</"
+"b>, извршите дуги притисак на његово име. Појавиће се следећи дијалог:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2416-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Ова област приказује име и опис дотеривања"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2417-13
 msgid ""
@@ -5043,6 +5431,10 @@ msgid ""
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
 msgstr ""
+"Ово поље приказује CSS кôд дотеривања. Ако тапнете на ову област, копираћете "
+"кôд у клипборд. Затим можете да га налепите и измените у <span class=\"ui\""
+">Дотеривању специфичном за књигу</span>, као што је објашњено у наредном "
+"наслову."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2419-13
 msgid ""
@@ -5051,6 +5443,10 @@ msgid ""
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
 msgstr ""
+"Дугме <span class=\"ui\">Прикажи у листи акција</span> вам омогућава да ово "
+"дотеривање укључујете/искључујете гестикулацијом или да га додате у <span "
+"class=\"ui\">Брзи мени</span>. За више информација, погледајте испод наслов "
+"<b>„Како да се дотеривања користе ефикасно”</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid ""
@@ -5059,10 +5455,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"Дугме <span class=\"ui\">Користи за све књиге</span> активира ово дотеривање "
+"за све ваше књиге. Уз његово име у менију ће се појавити <b>звезда (★)</b>, "
+"чиме се означава да се ово дотеривање примењује на све књиге. Истим "
+"корацима, ово можете и да искључите."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2425-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Дотеривања специфична за књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2426-9
 msgid ""
@@ -5074,18 +5474,29 @@ msgid ""
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
 msgstr ""
+"Као што можете да погодите из имена, ова врста дотеривања је активна само за "
+"књигу за коју сте их креирали. Ова функционалност је кориснија за тестирање "
+"ваших дотеривања или ако је потребно да поправите нешто у текућој књизи и "
+"знате да вам то неће бити потребно за остале књиге. Када креирате ову врсту "
+"дотеривања, па схватите да вам је потребно и у осталим књигама (нпр. од "
+"истог издавача), можете да га конвертујете у <span class=\"ui\">корисничко "
+"дотеривање стила</span>, што ћемо управо да објаснимо."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2428-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Да бисте креирали <span class=\"ui\">дотеривање специфично за књигу</span>, "
+"употребите интегрисани едитор који можете да пронађете овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Дотеривања стила / Дотеривање специфично за књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2432-24
 msgid ""
@@ -6710,7 +7121,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3096-5
 msgid "The following is an example procedure to process one manga file:"
-msgstr "Прегледач страница"
+msgstr "Следи пример процедуре за обраду једног манга фајла:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3099-9
 msgid ""
@@ -7051,10 +7462,9 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3229-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3229-1"
 msgid "Folder shortcuts"
-msgstr "Директоријумске пречице"
+msgstr "Пречице фолдера"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3231-5
 msgid ""
@@ -7342,7 +7752,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
 msgid "Collections"
 msgstr "Збирке"
@@ -8488,191 +8897,154 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3774-9
-#, fuzzy
 msgid "General"
 msgstr "Опште"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3777-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3777-17"
 msgid "File browser"
 msgstr "Прегледач фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3778-17
-#, fuzzy
 msgid "Open previous document"
 msgstr "Отвори претходни документ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3779-17
-#, fuzzy
 msgid "History"
 msgstr "Историја"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3780-17
-#, fuzzy
 msgid "History search"
 msgstr "Претрага историје"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3781-17
-#, fuzzy
 msgid "Favorites"
 msgstr "Омиљено"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3782-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3782-17"
 msgid "Collections"
 msgstr "Збирке"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3783-17
-#, fuzzy
 msgid "Collections search"
-msgstr "Претрага колекција"
+msgstr "Претрага збирки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3784-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3784-17"
 msgid "Dictionary lookup"
-msgstr "Претрага речника"
+msgstr "Претрага по речнику"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3785-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3785-17"
 msgid "Wikipedia lookup"
 msgstr "Упит Википедије"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3786-17
-#, fuzzy
 msgid "Show menu"
 msgstr "Прикажи мени"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3787-17
-#, fuzzy
 msgid "Menu search"
 msgstr "Претрага менија"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3788-17
-#, fuzzy
 msgid "Open next file in last book folder"
 msgstr "Отвори наредни фајл у последњем директоријуму књига"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3789-17
-#, fuzzy
 msgid "Open previous file in last book folder"
 msgstr "Отвори претходни фајл у последњем директоријуму књига"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3790-17
-#, fuzzy
 msgid "Notebook file"
 msgstr "Фајл бележнице"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3791-17
-#, fuzzy
 msgid "Screenshot"
 msgstr "Снимак екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3792-17
-#, fuzzy
 msgid "Show ephemeris"
 msgstr "Прикажи ефемериде"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
-#, fuzzy
 msgid "Calibre metadata search"
 msgstr "Претрага Calibre метаподатака"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3794-17
-#, fuzzy
 msgid "Browse all calibre tags"
 msgstr "Прегледај све calibre ознаке"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
-#, fuzzy
 msgid "Browse all calibre series"
 msgstr "Прегледај све calibre серије"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3796-17
-#, fuzzy
 msgid "Browse all calibre authors"
 msgstr "Прегледај све calibre ауторе"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3797-17
-#, fuzzy
 msgid "Browse all calibre titles"
 msgstr "Прегледај све calibre наслове"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3798-17
-#, fuzzy
 msgid "Calibre wireless connect"
 msgstr "Бежично повезивање са Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3799-17
-#, fuzzy
 msgid "Calibre wireless disconnect"
 msgstr "Прекид бежичне везе са Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3800-17
-#, fuzzy
 msgid "Reading statistics: toggle"
 msgstr "Статистика читања: укљ./искљ."
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3801-17
-#, fuzzy
 msgid "Reading statistics: show progress"
 msgstr "Статистика читања: приказ напретка"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3802-17
-#, fuzzy
 msgid "Reading statistics: show time range"
 msgstr "Статистика читања: приказ временског периода"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3803-17
-#, fuzzy
 msgid "Reading statistics: show calendar view"
 msgstr "Статистика читања: приказ календара"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3804-17
-#, fuzzy
 msgid "Reading statistics: show today's timeline"
 msgstr "Статистика читања: приказ данашње временске линије"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3805-17
-#, fuzzy
 msgid "Reading statistics: synchronize"
 msgstr "Статистика читања: синхронизација"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
-#, fuzzy
 msgid "Text editor: open last file"
 msgstr "Едитор текста: отвори последњи фајл"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
-#, fuzzy
 msgid "Open vocabulary builder"
 msgstr "Отвори изграђивач речника"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
-#, fuzzy
 msgid "Wallabag retrieval"
 msgstr "Wallabag добављање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
-#, fuzzy
 msgid "Wallabag queue upload"
 msgstr "Wallabag отпремање реда"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3810-17
-#, fuzzy
 msgid "Wallabag statuses upload"
 msgstr "Wallabag отпремање статуса"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
-#, fuzzy
 msgid "Reading progress"
 msgstr "Напредак читања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3813-17
-#, fuzzy
 msgid "Toggle SSH server"
 msgstr "Укљ./Искљ. SSH сервер"
 
@@ -8689,43 +9061,35 @@ msgid "Synchronize book statistics"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3820-9
-#, fuzzy
 msgid "Device"
 msgstr "Уређај"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3823-17
-#, fuzzy
 msgid "Exit sleep screen"
 msgstr "Напусти екран спавања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3824-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3824-17"
 msgid "Restart KOReader"
 msgstr "Поново покрени KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3825-17
-#, fuzzy
 msgid "Exit KOReader"
 msgstr "Напусти KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3826-17
-#, fuzzy
 msgid "Toggle long-press on corners"
 msgstr "Укљ./Искљ. дуге притиске на углове"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3827-17
-#, fuzzy
 msgid "Enable touch input"
 msgstr "Укључи унос додиром"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3828-17
-#, fuzzy
 msgid "Disable touch input"
 msgstr "Искључи унос додиром"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3829-17
-#, fuzzy
 msgid "Toggle touch input"
 msgstr "Укљ./Искљ. унос додиром"
 
@@ -8734,17 +9098,14 @@ msgid "Invert page turn buttons"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
-#, fuzzy
 msgid "Rotation"
 msgstr "Ротација"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
-#, fuzzy
 msgid "Toggle orientation"
 msgstr "Укљ./Искљ. оријентацију"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3833-17
-#, fuzzy
 msgid "Invert rotation"
 msgstr "Обрни ротацију"
 
@@ -8757,32 +9118,26 @@ msgid "Rotate by 90 CCW"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
-#, fuzzy
 msgid "Toggle Fullscreen"
 msgstr "Укљ./Искљ. приказ у пуном екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3837-17
-#, fuzzy
 msgid "Show network info"
 msgstr "Прикажи информације о мрежи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3838-17
-#, fuzzy
 msgid "Battery statistics"
 msgstr "Статистика батерије"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3839-17
-#, fuzzy
 msgid "System statistics"
 msgstr "Статистика система"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
-#, fuzzy
 msgid "Terminal emulator"
 msgstr "Емулатор терминала"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3843-17
-#, fuzzy
 msgid "Start USB storage"
 msgstr "Покрени USB складиште"
 
@@ -8791,42 +9146,34 @@ msgid "Suspend"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
-#, fuzzy
 msgid "Reboot the device"
 msgstr "Поново покрени уређај"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3846-17
-#, fuzzy
 msgid "Power off"
 msgstr "Искључи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3847-17
-#, fuzzy
 msgid "Toggle key repeat"
 msgstr "Укљ./Искљ. понављање тастера"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3848-17
-#, fuzzy
 msgid "Toggle accelerometer"
 msgstr "Укљ./Искљ. акцелерометар"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3849-17
-#, fuzzy
 msgid "Turn on Wi-Fi"
 msgstr "Укључи Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3850-17
-#, fuzzy
 msgid "Turn off Wi-Fi"
 msgstr "Искључи Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3851-17
-#, fuzzy
 msgid "Toggle Wi-Fi"
 msgstr "Укљ./Искљ. Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3856-9
-#, fuzzy
 msgid "Screen and lights"
 msgstr "Екран и светла"
 
@@ -10163,18 +10510,9 @@ msgid "Shift + D"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4314-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4314-5"
 msgid "QUICK MENU AND PROFILES"
-msgstr ""
-"<span class=\"label_green\">TIP</span> KOReader can highlight a passage in "
-"different styles. If you use <span class=\"ui\">Lighten</span> option, text "
-"background will be gray. Due to e-ink limitations, screens can’t change from "
-"white to gray directly, so highlighted part first has to turn black and then "
-"gray. If you want to avoid this flashing, you can choose <span "
-"class=\"ui\">Inverted</span> as your highlight style. In this mode text "
-"background will be black so it can be set without flashing. You can adjust "
-"these highlighting options from:"
+msgstr "БРЗИ МЕНИ И ПРОФИЛИ"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4317-5
 msgctxt "user_guide/en.html+html.body.div.div:4317-5"
@@ -11370,31 +11708,37 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4726-13
 msgid "<b>0</b> - Executed very early and only once after an update"
-msgstr "✅ MuPDF (Windows/Android)"
+msgstr "<b>0</b> - Извршавају се врло рано и само једном након ажурирања"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4727-13
 msgid ""
 "<b>1</b> - Excuted very early on every start of KOReader (but after 0 if "
 "applicable)"
-msgstr "⚠️ Zathura (if MuPDF plugin is enabled)"
+msgstr ""
+"<b>1</b> - Извршавају се врло рано приликом сваког покретања програма "
+"KOReader (али након 0, ако постоји)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4728-13
 msgid ""
 "<b>2</b> - Executed after <span class=\"ui\">UIManager</span> is ready on "
 "every start of KOReader"
-msgstr "❌ Adobe Acrobat Reader"
+msgstr ""
+"<b>2</b> - Извршава се након што је спреман <span class=\"ui\">UIManager</"
+"span> приликом сваког покретања програма KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4729-13
 msgid "<b>3-7</b> - Reserved"
-msgstr "❌ Evince (Linux)"
+msgstr "<b>3-7</b> - Резервисано"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4730-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
-msgstr "❌ Foxit Reader"
+msgstr ""
+"<b>8</b> - Извршава се пре напуштања програма и пре него што се сачувају "
+"подешавања"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4731-13
 msgid "<b>9</b> - Executed right before exit"
-msgstr "❌ LibreOffice Draw (as editor)"
+msgstr "<b>9</b> - Извршава се непосредно пре напуштања програма"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4734-9
 msgid ""
