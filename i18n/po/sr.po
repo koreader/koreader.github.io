@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 09:28+0000\n"
-"PO-Revision-Date: 2025-08-11 09:28+0000\n"
+"PO-Revision-Date: 2025-08-11 12:42+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5592,14 +5592,21 @@ msgid ""
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
 msgstr ""
+"Након што креирате фајл(ове) који садржи ваша CSS правила, сачувајте га или "
+"га пренесите у <span class=\"ui\">styletweaks</span> фолдер унутар ваше "
+"KOReader инсталације. Назовите фајлове описним именима јер ће име фајла бити "
+"наслов дотеривања у систему менија KOReader читача. У именима фајлова можете "
+"да користите доње црте „<b>_</b>”, оне ће се у менију третирати као размаци. "
+"<b>Након преноса фајлова, морате поново да покренете KOReader тако да може "
+"да их учита.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. Укључивање дотеривања:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2467-9
 msgid "After the restart, open a book and go to this menu:"
-msgstr ""
+msgstr "Након поновног покретања, отворите књигу и идите на следећи мени:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2469-9
 msgctxt "user_guide/en.html+html.body.div.div:2469-9"
@@ -5607,6 +5614,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Дотеривања стила / Корисничка дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid ""
@@ -5618,6 +5627,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps. See below for an example:"
 msgstr ""
+"Сада би у листи требало да видите своје дотеривање са пољем за штиклирање "
+"поред имена. Ако дотеривање желите да примените <b>само на текућу књигу</b>, "
+"штиклирајте поље. Ако желите да се то дотеривање укључи за <b>све књиге</b>, "
+"извршите дуги притисак на његово име. Појавиће се дијалог. Тапните ставку "
+"менија <span class=\"ui\">Користи за све књиге</span>. Поред његовог имена у "
+"менију ће се појавити <b>звезда (★)</b> која означава да се ово дотеривање "
+"примењује на све књиге. Истим корацима можете да га искључите. Погледајте "
+"пример испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2475-9
 msgid ""
@@ -5627,6 +5644,10 @@ msgid ""
 "book only since checkbox is marked but there is no star. Third one is "
 "enabled for all the books <b>(★)</b>."
 msgstr ""
+"На горњој слици имам 3 фајла дотеривања стила <span class=\"ui\""
+">styletweaks</span> фолдеру моје KOReader инсталације. Прво је искључено јер "
+"није штиклирано поље. Друго је укључено само за једну књигу јер је поље "
+"штиклирано али нема звезде. Треће је укључено за све књиге <b>(★)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2477-9
 msgid ""
@@ -5634,10 +5655,13 @@ msgid ""
 "icon</span> next to the first tweak. This means that this tweak can be "
 "activated using gestures. This will explained in the next heading."
 msgstr ""
+"Можда сте приметили да поред првог дотеривања постоји и <span class=\"ui\""
+">икона десног троугла </span>. Ово значи да се ово дотеривање може "
+"активирати гестикулацијама. Ово ћемо објаснити у наредном наслову."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2479-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Како да се дотеривања користе ефикасно"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2481-9
 msgid ""
@@ -5647,12 +5671,19 @@ msgid ""
 "to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows "
 "you to enable tweaks depending on your document."
 msgstr ""
+"Када креирате своја <span class=\"ui\">корисничка дотеривања стила</span> "
+"можете да направите више фајлова дотеривања, од којих сваки мења неки део "
+"књиге, као у примеру са горње слике. Можете имати један фајл за <b>наслове</"
+"b>, остале да измене <b>пасусе</b>, <b>линкове</b> итд. Овакав модуларни "
+"систем вам омогућава да укључујете дотеривања у зависности од документа."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2483-9
 msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
 msgstr ""
+"Као што смо рекли изнад, <span class=\"ui\">корисничка дотеривања стила</"
+"span> можете да укључујете/искључујете из следећег менија:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2485-9
 msgctxt "user_guide/en.html+html.body.div.div:2485-9"
@@ -5660,39 +5691,50 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Дотеривања стила / Корисничка дотеривања стила"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2489-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
 msgstr ""
+"Имамо и лакше начине за активацију и деактивацију ваших дотеривања стила "
+"осим одлажења у мени сваки пут."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2491-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. Дотеривању можете да доделите гестикулацију"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2492-9
 msgid ""
 "To do this, first we have to add our <span class=\"ui\">user style tweak</"
 "span> to the list of gesture actions:"
 msgstr ""
+"Да бисмо то урадили, наше <span class=\"ui\">корисничко дотеривање стила</"
+"span> најпре морамо да додамо на листу акција гестикулација:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2495-17
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
 msgstr ""
+"Идите у мени <span class=\"ui\">корисничка дотеривања стила</span> и "
+"извршите дуги притисак на ваше дотеривање стила"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2496-17
 msgid ""
 "In the dialog press the button <span class=\"ui\">Show in action list</span>"
 msgstr ""
+"У дијалогу притисните дугме <span class=\"ui\">Прикажи у листи акција</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2497-17
 msgid ""
 "A <span class=\"ui\">right triangle icon</span> will appear next to your "
 "style tweak in the menu"
 msgstr ""
+"У менију ће се из ваше дотеривање стила појавити <span class=\"ui\">икона "
+"десног троугла</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2500-13
 msgid ""
