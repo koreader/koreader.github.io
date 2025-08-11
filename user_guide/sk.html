@@ -2911,49 +2911,49 @@ line-height: 2rem;
     
     <p><span class="ui">Jazyk dokumentu</span> nastavuje jazyk, ktorý bude používať nástroj OCR (optické rozoznanie písmen).</p>
 
-    <p><span class="ui">Forced OCR</span> as the name says, forces the use of OCR even if the document has a text layer.</p>
+    <p><span class="ui">Vynútené OCR</span>, ako už názov napovedá, vynúti použitie OCR (optického rozoznania písmen), aj keď dokument obsahuje textovú vrstvu.</p>
 
-    <p><span class="ui">Writing direction</span> <b>(only active in Reflow mode)</b> sets the direction of original document. Set this to <b>RTL</b> for languages like Arabic and Hebrew.</p>
+    <p><span class="ui">Smer písania</span> <b>(aktívne iba v režime preformátovania)</b> nastavuje smer pôvodného dokumentu. Pre jazyky ako arabčina a hebrejčina nastavte <b>RTL</b> (sprava doľava).</p>
 
-    <p><span class="ui">Document columns</span> <b>(only active in Reflow mode)</b> sets the number of text columns in the original document.</p>
+    <p><span class="ui">Stĺpce dokumentu</span> <b>(aktívne iba v režime preformátovania)</b> nastavuje počet textových stĺpcov v pôvodnom dokumente.</p>
         
     <hr>
 
     <img loading="lazy" src="pictures/bottom_pdf_2.png" style="width: 60%;">
 
-    <p><span class="ui">Auto straighten</span> feature can straighten the pages of a problematic document, for example pages of a PDF which are scanned with an angle. It is available in <b>PDF, DJVU, CBZ/CBT</b> documents and <b>image</b> files. To enable, choose the maximum tilt angle which KOReader will try to correct. If it doesn’t correct you might have to choose a bigger angle. Note that this feature <b>might slow down your reader</b> depending on several factors.</p>
+    <p>Funkcia <span class="ui">automatické vyrovnanie</span> dokáže narovnať strany problematického dokumentu, napríklad strany PDF, ktoré sú naskenované pod uhlom. Je k dispozícii v <b>PDF, DJVU, CBZ/CBT</b> dokumentoch a <b>obrázkových</b> súboroch. Pre aktiváciu zvoľte maximálny uhol sklonu, ktorý sa KOReader pokúsi opraviť. Ak to nie je správne, možno budete musieť zvoliť väčší uhol. Upozorňujeme, že táto funkcia <b>môže spomaliť vašu čítačku</b> v závislosti od niekoľkých faktorov.</p>
 
     
 
 
-<div class="L2-Sub-heading" id="L2-pdfhighlights">Saving highlights into PDF</div>
+<div class="L2-Sub-heading" id="L2-pdfhighlights">Ukladanie zvýraznení do PDF</div>
 
-    <p>For saving your highlights, you can use the <span class="ui">Export highlights</span> feature of KOReader which is explained in a previous section.</p>
-    <p>If you are making your highlights on a PDF document, KOReader can also save them directly to the PDF file. This can be useful in certain situations because with this method, your highlights become a part of the PDF file. This means you can see them on other applications or platforms without installing KOReader. For example if you are sending a file with highlights to another user, they don't have to install KOReader to see your highlights. You can just send the PDF file with your highlights saved into it and they can open and see them with a <b>compatible</b> PDF reader.</p>
+    <p>Na uloženie zvýraznení môžete použiť funkciu <span class="ui">Exportovať zvýraznenia</span> v KOReaderi, ktorá je vysvetlená v predchádzajúcej časti.</p>
+    <p>Ak zvýrazňujete časti dokumentu PDF, KOReader ich dokáže uložiť aj priamo do súboru PDF. To môže byť v určitých situáciách užitočné, pretože pri tejto metóde sa vaše zvýraznenia stanú súčasťou súboru PDF. To znamená, že si ich môžete pozrieť v iných aplikáciách alebo platformách bez inštalácie KOReaderu. Napríklad, ak posielate súbor so zvýrazneniami inému používateľovi, nemusí si nainštalovať KOReader, aby si vaše zvýraznenia mohol pozrieť. Môžete im jednoducho poslať súbor PDF s uloženými zvýrazneniami a oni si ich môžu otvoriť a zobraziť pomocou <b>kompatibilného</b> programu pre PDF.</p>
     
-    <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> If you are using the <span class="ui">Progress Sync</span> plugin, saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class="ui">Progress Sync</span> plugin's settings, change the <span class="ui">Document matching method</span> to <span class="ui">Filename</span> instead of the default <span class="ui">Binary</span> matching:
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Progress sync / Document matching method</div>
+    <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">UPOZORNENIE</span> Ak používate doplnok <span class="ui">Progress Sync</span>, uloženie zvýraznení PDF zmení váš súbor, takže synchronizácia zlyhá. Ak plánujete používať obe funkcie, v nastaveniach doplnku <span class="ui">Progress Sync</span> zmeňte metódu <span class="ui">zhody dokumentov</span> na <span class="ui">Názov súboru</span> namiesto predvolenej metódy <span class="ui">Binárnej</span>:
+        <div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Synchronizácia priebehu / Metóda porovnávania dokumentov</div>
     </p></div>
 
     <br>
 
-    <p><b>Which PDF readers can show these highlights?</b></p>
-    <p>PDF readers generally depend on some standard libraries to render PDF files. Two of the most known PDF libraries are <b>MuPDF</b> and <b>Poppler</b> libraries. KOReader uses the <b>MuPDF</b> library, so the highlights written to PDFs in KOReader are not currently visible on PDF readers which uses the <b>Poppler</b> library. You can find a compatibility list below. ✅ means you can see your KOReader highlights in this application, ❌ means you can't see them. And ⚠️ means the application needs some plugin to show them. List is ordered alphabetically within categories.</p>
+    <p><b>Ktoré programy pre PDF dokážu zobraziť tieto zvýraznenia?</b></p>
+    <p>Programy pre PDF sa vo všeobecnosti spoliehajú na niektoré štandardné knižnice na vykresľovanie súborov PDF. Dve z najznámejších knižníc PDF sú knižnice <b>MuPDF</b> a <b>Poppler</b>. KOReader používa knižnicu <b>MuPDF</b>, takže zvýraznenia zapísané do PDF súborov v KOReaderi momentálne nie sú viditeľné v programoch PDF, ktoré používajú knižnicu <b>Poppler</b>. Zoznam kompatibility nájdete nižšie. ✅ znamená, že v tejto aplikácii vidíte svoje zvýraznenia z KOReaderu, ❌ znamená, že ich nevidíte. A ⚠️ znamená, že aplikácia potrebuje na ich zobrazenie nejaký doplnok. Zoznam je zoradený abecedne v rámci kategórií.</p>
         
-            <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> This list is not complete and might not be up to date. So we suggest you to test the compatibility yourself. Simply make a highlight in KOReader, write it into the PDF file and try opening the file on your intended reader to check if the highlight is visible.</p></div>
+            <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">UPOZORNENIE</span> Tento zoznam nie je úplný a nemusí byť aktuálny. Preto vám odporúčame, aby ste si kompatibilitu otestovali sami. Jednoducho zvýraznite text v KOReaderi, zapíšte ho do súboru PDF a skúste súbor otvoriť v programe, ktorý chcete použiť, aby ste skontrolovali, či je zvýraznenie viditeľné.</p></div>
 
         <div class="centering-div">
         <ul>
-            <li>✅ Chrome Browser (All platforms)</li>
+            <li>✅ Prehliadač Chrome (všetky platformy)</li>
             <li>✅ Deepin Reader (Linux)</li>
-            <li>✅ Firefox Browser (All platforms)</li>
-            <li>✅ Ghostscript (All platforms)</li>
+            <li>✅ Prehliadač Firefox (všetky platformy)</li>
+            <li>✅ Ghostscript (všetky platformy)</li>
             <li>✅ MuPDF (Windows/Android)</li>
-            <li>⚠️ Zathura (if MuPDF plugin is enabled)</li>
+            <li>⚠️ Zathura (ak je povolený doplnok MuPDF)</li>
             <li>❌ Adobe Acrobat Reader</li>
             <li>❌ Evince (Linux)</li>
             <li>❌ Foxit Reader</li>
-            <li>❌ LibreOffice Draw (as editor)</li>
+            <li>❌ LibreOffice Draw (ako editor)</li>
             <li>❌ Moon Reader (Android)</li>
             <li>❌ Okular (Linux)</li>
             <li>❌ SumatraPDF (Windows)</li>
@@ -2962,51 +2962,51 @@ line-height: 2rem;
         </ul>
         </div>
 
-        <div class="L3-Smaller-heading">Important information about saving PDF highlights feature</div>
-        <p>Since making highlights for later usage can involve significant effort, if you are planning to use this feature, you should understand how it works in order to avoid frustrating situations.</p>
+        <div class="L3-Smaller-heading">Dôležité informácie o funkcii ukladania zvýraznení vo formáte PDF</div>
+        <p>Keďže vytváranie zvýraznení na neskoršie použitie môže vyžadovať značné úsilie, ak plánujete túto funkciu používať, mali by ste pochopiť, ako funguje, aby ste sa vyhli sklamaniu.</p>
 
-        <p><b>QUICK SUMMARY:</b> If you want to be able to delete or export your PDF highlights later, you have to copy the <span class="ui">.sdr folder</span> associated with your book when you backup or copy your book to other devices. Without this folder, KOReader can still show the saved highlights but it can't know where they are in the file, so it can't modify them. Please continue reading for more information about this.</p>
+        <p><b>STRUČNÉ ZHRNUTIE:</b> Ak chcete neskôr odstrániť alebo exportovať zvýraznenia vo formáte PDF, musíte pri zálohovaní alebo kopírovaní knihy na iné zariadenia skopírovať priečinok <span class="ui">.sdr</span> spojený s vašou knihou. Bez tohto priečinka dokáže KOReader stále zobraziť uložené zvýraznenia, ale nevie, kde sa v súbore nachádzajú, takže ich nemôže upravovať. Pre viac informácií o tejto téme čítajte ďalej.</p>
 
         <br>
 
-        <p><b>How normal highlights work in KOReader</b></p>
+        <p><b>Ako fungujú bežné zvýraznenia v KOReaderi</b></p>
 
-        <p>When you make a highlight in KOReader, whether the document is an EPUB or PDF, this highlight is written into a settings file. For example if you are reading <b>Alice in Wonderland.epub</b> you will have a folder named <span class="ui">Alice in Wonderland.sdr</span> in the same folder as your book. Your highlights will be kept in a file under this <span class="ui">.sdr folder</span>. Which means, if you delete this <span class="ui">.sdr folder</span> which is associated with your book, you will lose your highlights.</p>
+        <p>Keď v KOReaderi zvýrazníte text, či už ide o dokument vo formáte EPUB alebo PDF, tento zvýraznený text sa zapíše do súboru nastavení. Napríklad, ak čítate <b>Alice in Wonderland.epub</b>, budete mať priečinok s názvom <span class="ui">Alice in Wonderland.sdr</span> v tom istom priečinku ako vaša kniha. Vaše zvýraznenia budú uložené v súbore v tomto <span class="ui">.sdr priečinku</span>. To znamená, že ak odstránite tento <span class="ui">.sdr priečinok</span>, ktorý je spojený s vašou knihou, stratíte svoje zvýraznenia.</p>
             
         <br>
 
-        <p><b>How PDF highlights work in KOReader</b></p>
-        <p>PDF highlights feature works a bit different than the description above. As we mentioned before, when you save your PDF highlights, they will be directly written into the PDF file, which means they become a part of the file itself. That's why you can send this PDF to another user and they can see the highlights with a compatible PDF reader. They won't need your <span class="ui">.sdr folder</span> which contains a record of your highlights because now the highlights are embedded directly into the PDF file.</p>
+        <p><b>Ako fungujú zvýraznenia PDF v KOReaderi</b></p>
+        <p>Funkcia zvýraznenia PDF funguje trochu inak ako v predchádzajúcom popise. Ako sme už spomenuli, keď uložíte zvýraznenia PDF, zapíšu sa priamo do súboru PDF, čo znamená, že sa stanú súčasťou samotného súboru. Preto môžete tento PDF súbor poslať inému používateľovi, ktorý si môže pozrieť najdôležitejšie časti pomocou kompatibilného programu pre PDF súbory. Nebude potrebovať váš <span class="ui">.sdr priečinok</span>, ktorý obsahuje záznam vašich zvýraznení, pretože teraz sú zvýraznenia vložené priamo do súboru PDF.</p>
 
-        <p>Let's explain the problem which can arise when you are using this feature, on an example. Imagine that you are reading a PDF book on your <b>e-reader</b> with KOReader:</p>
+        <p>Vysvetlime si na príklade problém, ktorý môže nastať pri používaní tejto funkcie. Predstavte si, že čítate PDF knihu na svojej <b>čítačke elektronických kníh</b> s KOReaderom:</p>
 
         <ol>
-            <li>You are making highlights and <span class="ui">Save highlights to PDF</span> option is enabled, so as you make these highlights, KOReader saves them to your PDF file.</li>
-            <li>You want to continue reading the book on your <b>phone</b> with KOReader, so you copy this PDF file from your <b>e-reader</b> to your <b>phone</b> (but you didn't copy the <span class="ui">.sdr folder</span>, only the PDF file).</li>
-            <li>When you open the book on your <b>phone</b> with KOReader, you will see that your highlights are still there.</li>
+            <li>Zvýrazňujete časti a je povolená možnosť <span class="ui">Uložiť zvýraznenia do PDF</span>, takže keď tieto zvýraznenia vytvoríte, KOReader ich uloží do vášho súboru PDF.</li>
+            <li>Chcete pokračovať v čítaní knihy na svojom <b>telefóne</b> pomocou KOReaderu, takže skopírujete tento súbor PDF z <b>elektronickej čítačky</b> do svojho <b>telefónu</b> (ale neskopírovali ste <span class="ui">.sdr priečinok</span>, iba súbor PDF).</li>
+            <li>Keď otvoríte knihu na svojom <b>telefóne</b> pomocou aplikácie KOReader, uvidíte, že vaše zvýraznenia sú stále tam.</li>
         </ol>
 
-        <p>Now the situation on both of your devices looks identical. Both your <b>e-reader</b> and <b>phone</b> KOReader shows the PDF file with the same highlights. But it only <b>looks</b> identical, actually there is a big difference.</p>
+        <p>Teraz to vyzerá na oboch vašich zariadeniach rovnako. KOReader na vašej <b>čítačke elektronických kníh</b> aj v <b>telefóne</b> zobrazuje súbor PDF s rovnakými zvýrazneniami. Identicky však iba <b>vyzerá</b>, v skutočnosti je medzi nimi veľký rozdiel.</p>
 
-        <p>KOReader on your <b>e-reader</b> has the knowledge of which highlights in this PDF file are made by KOReader because it has the <span class="ui">.sdr folder</span>. But KOReader on your phone doesn't have this knowledge. It only has the PDF file.</p>
+        <p>KOReader vo vašej <b>čítačke elektronických kníh</b> vie, ktoré zvýraznenia v tomto súbore PDF vytvoril, pretože má <span class="ui">.sdr priečinok</span>. KOReader vo vašom telefóne však tieto informácie nemá. Má iba súbor PDF.</p>
 
-        <p>Difference arises when you try to delete the pdf highlights or export them. Your <b>e-reader</b> can both delete these PDF highlights and export them. But your <b>phone</b> KOReader can't, because as we said, it doesn't have the <span class="ui">.sdr folder</span> of your book so the highlights in the book look like a part of the original book from its point of view.</p>
+        <p>Rozdiel nastáva, keď sa pokúsite odstrániť zvýraznenia PDF alebo ich exportovať. Vaša <b>čítačka elektronických kníh</b> dokáže tieto zvýraznenia PDF odstrániť aj exportovať. Ale váš KOReader v <b>telefóne</b> to nedokáže, pretože, ako sme už povedali, nemá <span class="ui">.sdr priečinok</span> vašej knihy, takže zvýraznené časti v knihe z jeho pohľadu vyzerajú ako súčasť pôvodnej knihy.</p>
 
-        <p>So in short, if you want to be able to delete or export your PDF highlights later, you have to copy the <span class="ui">.sdr folder</span> associated with your book when you backup or copy your book to other devices.</p>
+        <p>Takže v skratke, ak chcete neskôr odstrániť alebo exportovať zvýraznené časti PDF súboru, musíte pri zálohovaní alebo kopírovaní knihy na iné zariadenia skopírovať <span class="ui">.sdr priečinok</span> spojený s vašou knihou.</p>
 
 
 
 <div class="L2-Sub-heading" id="L2-ocr">OCR (optické rozpoznávanie znakov)</div>
     <p>
-    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a> for this task.</p>
+    <b>OCR (optické rozpoznávanie znakov)</b> je proces extrakcie textu z obrázkov. V súvislosti s KOReaderom sa vo všeobecnosti používa na extrakciu textu z naskenovaných stránok kníh v súboroch PDF. KOReader sa pri tejto úlohe spolieha na nástroj <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a>.</p>
     
-    <p>To use this feature you need to:</p>
+    <p>Ak chcete použiť túto funkciu, musíte:</p>
     <ol>
-        <li>Install <span class="external">Tesseract</span> language data to your KOReader</li>
-        <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
+        <li>Nainštalovať jazykové údaje <span class="external">Tesseract</span> do svojho KOReadera</li>
+        <li>Pridať novo nainštalované jazyky do konfiguračného súboru korader/defaults.lua (potrebné, iba ak je váš jazyk iný ako angličtina alebo čínština)</li>
     </ol>
     
-    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in our <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">related wiki page</a>.</div>
+    <div class="info"><span class="label_blue">INFORMÁCIA</span> Tlačidlá v ponuke OCR <b>nebudú fungovať</b>, kým nenainštalujete potrebné súbory Tesseract. Podrobnosti o tomto procese si môžete prečítať na našej <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">súvisiacej wiki stránke</a>.</div>
 
 
 
@@ -3014,15 +3014,15 @@ line-height: 2rem;
 
 <!-- ANCHOR READING COMICS AND MANGA -->
 
-<div class="L1-Chapter-heading" id="L1-manga">READING COMICS AND MANGA</div>
+<div class="L1-Chapter-heading" id="L1-manga">ČÍTANIE KOMIKSOV A MANGA</div>
 
     <div class="L2-Sub-heading" id="L2-mangarefresh">Úprava intervalu obnovovania stránky</div>
 
-    <p>Comic books generally need more frequent page refreshes than the pure text content. For normal text, you can set your page refresh interval to high numbers without problem. But images can leave more residue and cause ghosting, especially depending on the panel of your e-reader.</p>
+    <p>Komiksy vo všeobecnosti potrebujú častejšie obnovovanie stránky ako čisto textový obsah. Pre bežný text môžete bez problémov nastaviť interval obnovovania stránky na vysoké čísla. Obrázky však môžu zanechávať viac zvyškov a spôsobovať duchov, najmä v závislosti od displeja vašej elektronickej čítačky.</p>
 
-    <p>KOReader allows you to assign any gesture to switch to different refresh rates. For example you can set <b>swipe up left edge</b> for <span class="ui">every page</span> refresh when reading comics and set <b>swipe down left edge</b> for <span class="ui">every x page</span> refresh for text only books. So when you open a comic, you can switch to more frequent refresh with a simple tap or swipe (or vice versa).</p>
+    <p>KOReader vám umožňuje priradiť ľubovoľné gesto na prepínanie medzi rôznymi obnovovacími frekvenciami. Napríklad môžete nastaviť <b>potiahnutie prstom nahor z ľavého okraja</b> na obnovenie <span class="ui">každú stranu</span> pri čítaní komiksov a <b>potiahnutie prstom nadol z ľavého okraja</b> na obnovenie <span class="ui">každých x strán</span> pre knihy obsahujúce iba text. Takže keď otvoríte komiks, môžete prepnúť na častejšie obnovovanie jednoduchým ťuknutím alebo potiahnutím prsta (alebo naopak).</p>
         
-    <p>This action is under:</p>
+    <p>Táto akcia je pod:</p>
 
     <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and Gestures / Gesture manager / Screen and lights section / Full screen refresh rate</div>
 
