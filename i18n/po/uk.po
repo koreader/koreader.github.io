@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 15:06+0000\n"
-"PO-Revision-Date: 2025-08-12 15:01+0000\n"
+"PO-Revision-Date: 2025-08-13 04:28+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2183,6 +2183,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Номери сторінок джерела.</b> Якщо видавець книги включив до файлу номери "
+"сторінок паперового видання книги, вони будуть відображатися як тут "
+"показано. Для отримання докладнішої інформації натисніть тут: <a href="
+"\"#L3-referencepages\">Нумерація сторінок і номери сторінок джерела</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1493-9
 msgid ""
@@ -2191,6 +2195,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Типи виділення.</b> Тут можна побачити різні типи виділення тексту. На "
+"пристрої з кольоровим екраном також можна робити виділення тексту "
+"кольоровим. Щоб перейти до присвяченого цьому розділу натисніть тут: <a href="
+"\"#L1-bookmarks\">Закладки, виділення і нотатки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2198,6 +2206,9 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Позначка нотатки.</b> Позначка нотатки показує коли до виділення тексту "
+"додано нотатку. Існують різні типи позначок нотатки. Більше інформації див. "
+"тут: <a href=\"#L1-bookmarks\">Закладки, виділення і нотатки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1498-1
 msgid "Indicator icons"
@@ -2209,6 +2220,9 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"KOReader має деякі індикатори, якими інформує читача про певні поточні "
+"процеси і стани, як показано на зображенні вище. Вони відображаються у "
+"верхньому лівому куті екрану протягом певних операцій."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1506-17
 msgid ""
@@ -2217,6 +2231,10 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Значки часткової візуалізації</span> Ця група "
+"значків стосується процедури часткової візуалізації та, ймовірно, ви будете "
+"бачити ці значки частіше за інші. Ви бачите ці значки коли змінюєте "
+"налаштування у <span class=\"ui\">нижньому меню</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1508-13
 msgid ""
@@ -2226,6 +2244,11 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Ця функція дозволяє набагато швидше побачити зміни пристосування вигляду "
+"тексту, візуалізуючи лише поточний розділ, а не всю книгу. Також обертання "
+"орієнтації екрану завдяки цій функції є набагато швидшим. Ця функція типово "
+"<b>УВІМКНЕНА</b>. Якщо необхідно, її можна вимкнути для окремої книги "
+"(дотиком) або для усіх книг (затисканням) тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1510-13
 msgid ""
@@ -2241,6 +2264,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Після підтвердження змін ціла книга повинна повторно візуалізуватися, тому "
+"це багатокрокова процедура. Ці значки показують стадію візуалізації, які "
+"роз'яснені нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1522-17
 msgid ""
@@ -2315,6 +2341,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Значок виділення</span> Цей значок показує коли "
+"програма знаходиться у <span class=\"ui\">режимі вибору і виділення</span>. "
+"KOReader має додатковий режим виділення, який дозволяє починати виділення та "
+"перегортати сторінки, щоб зробити велике виділення тексту, який може "
+"знаходитися на кількох сторінках. Про це можна прочитати у розділі «<a href="
+"\"#bookmarks\">Закладки, виділення і нотатки</a>» цього посібника. Коли ви "
+"розпочинаєте виділення у цьому режимі, у куті відображається цей значок, щоб "
+"нагадувати вам, що програма все ще знаходиться у режимі виділення. Він "
+"зникає коли ви завершуєте робити виділення <b>вибравши закінчення уривка</b> "
+"або коли <b>скасовуєте виділення</b> (натискаючи на початок виділеного або "
+"цього <span class=\"ui\">значка виділення</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1554-13
 msgid ""
@@ -2324,22 +2361,32 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Значок кулі покемона</span> Цей значок показує "
+"коли ви довго затискаєте слово (спеціально або випадково). KOReader має "
+"звичайне меню, яке відкривається <b>затисканням</b>. Та додаткове меню, яке "
+"викликається <b>довгим затисканням</b> (коли палець утримується понад 3 "
+"секунди). Цей значок означає, що ви активували саме меню, яке викликається "
+"довгим затисканням."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1561-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Значок режиму гортання</span> Цей значок "
+"показується при дотику у верхньому лівому куті екрану, якщо:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1563-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Ви читаєте документ PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1564-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"Та масштаб документа збільшено до понад 100% (стовпець, рядок чи власноруч) "
+"або активний <span class=\"ui\">режим перекомпонування</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
@@ -2347,10 +2394,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"Цей режим тимчасово показує всю сторінку (без обрізання країв) масштабовану "
+"так, щоб вона повністю помістилася на екрані. В цьому режимі можна гортати "
+"сторінки. Щоб вийти з даного режиму, натисніть цей значок."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1574-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Нумерація сторінок та номери сторінок джерела"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1576-5
 msgid ""
@@ -11146,10 +11196,17 @@ msgid ""
 "taking your screenshot you can select <span class=\"ui\">Set as book cover</"
 "span> from the dialog."
 msgstr ""
+"В подібних випадках можна швидко зробити знімок екрану і призначити його "
+"обкладинкою книги. Типово знімок екрану робиться жестом, <b>довгим "
+"проведення по діагоналі</b>. Знімок екрану також можна зробити одночасними "
+"<b>дотиками у протилежних кутах екрану по діагоналі</b>. Другий спосіб можна "
+"використовувати при перегляді зображення. Коли знімок екрану буде зроблено, "
+"його можна призначити у діалозі <span class=\"ui\">Зберегти як обкладинку "
+"книги</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4762-5
 msgid "You can remove this custom book cover here:"
-msgstr ""
+msgstr "Вилучити цю власну обкладинку книги можна тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4764-5
 msgctxt "user_guide/en.html+html.body.div.div:4764-5"
@@ -11165,6 +11222,9 @@ msgid ""
 "On the book information page, long-press on the <span class=\"ui\">Cover "
 "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgstr ""
+"На сторінці відомостей про книгу затисніть елемент <span class=\"ui\""
+">Обкладинка</span>, а потім натисніть <span class=\"ui\">Скинути "
+"власну</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4768-5
 msgid ""
@@ -11190,7 +11250,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4774-1
 msgid "Avoiding opening links accidentally"
-msgstr ""
+msgstr "Уникнення випадкових відкриттів посилань"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4775-1
 msgid ""
@@ -11198,6 +11258,9 @@ msgid ""
 "turning the page or using other gestures, you can turn off <span "
 "class=\"ui\">Following links by tapping</span> via this menu item:"
 msgstr ""
+"Якщо документ містить посилання і ви випадково відкриваєте їх дотиками при "
+"перегортанні сторінок або іншими жестами, тоді можна вимкнути <span class="
+"\"ui\">Відкривати посилання дотиком</span> у цьому пункті меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4777-1
 msgid ""
@@ -11216,10 +11279,15 @@ msgid ""
 "enable <span class=\"ui\">Allow larger tap area around links</span> from the "
 "same menu."
 msgstr ""
+"Після вимкнення цього параметра, щоб перейти за посиланням доведеться "
+"затиснути його і в контекстному меню вибрати пункт <span class=\"ui\""
+">Перейти за посиланням</span>. Якщо у вас протилежна проблема і ви бажаєте "
+"зробити відкриття посилань легшим, потрібно в тому ж меню увімкнути <span "
+"class=\"ui\">Збільшити ділянку дотику довкола посилань</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4783-1
 msgid "Reading statistics after midnight"
-msgstr ""
+msgstr "Статистика читання після півночі"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4784-1
 msgid ""
@@ -11230,6 +11298,14 @@ msgid ""
 "<span class=\"ui\">Calendar view</span>; it does not apply to any of the "
 "other statistics reports. You can set this time at:"
 msgstr ""
+"У статистиці читання можна змінювати час початку підрахунку статистики за "
+"день (фактично за добу). Це корисно, наприклад, якщо ви полюбляєте читати "
+"після півночі й бажаєте, щоб прочитане після півночі зараховувалося не до "
+"статистики поточної доби (яка почалася опівночі), а до статистики "
+"попередньої доби (яка закінчилася до півночі). Це застосовується лише до "
+"<span class=\"ui\">Статистики за сьогодні</span> та, за бажанням, до <span "
+"class=\"ui\">Подання календаря</span>; це не впливає на будь-які інші "
+"статистичні звіти. Цей час можна вказати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4786-1
 msgid ""
@@ -11243,17 +11319,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4791-1
 msgid "Device Tips"
-msgstr ""
+msgstr "Поради щодо пристрою"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4793-1
 msgid "Updating KOReader"
-msgstr ""
+msgstr "Оновлення KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4794-5
 msgid ""
 "KOReader can update itself over Wi-Fi. You can trigger the check via this "
 "menu item:"
 msgstr ""
+"KOReader може оновлюватися самостійно через Wi-Fi. Увімкнути або вимкнути "
+"пошук оновлень можна у цьому пункті меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4797-1
 msgid ""
@@ -11274,12 +11352,18 @@ msgid ""
 "KOReader to keep the screensaver on the screen until you enter a chosen "
 "gesture. To achieve this:"
 msgstr ""
+"Для цього в KOReader немає спеціальної функції. Однак, існує обхідний шлях, "
+"за допомогою якого можна додати екран блокування. Можна налаштувати "
+"KOReader, щоб він показував на екрані заставку аж доки ви не виконаєте "
+"певний жест. Цю функцію можна налаштувати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4805-9
 msgid ""
 "Choose any gesture (including the complex ones with custom multiswipes) and "
 "make it your <b>\"unlock\"</b> gesture by going to:"
 msgstr ""
+"Оберіть будь-який жест (в тому числі складні, з індивідуальними "
+"мультижестами) та зробіть його вашим жестом <b>«розблокування»</b> тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4806-13
 msgid ""
@@ -11293,7 +11377,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4808-9
 msgid "And then enable this option:"
-msgstr ""
+msgstr "Потім увімкніть цю функцію:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4809-13
 msgid ""
@@ -11736,7 +11820,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4961-9
 msgid "You are running out of storage space."
-msgstr ""
+msgstr "На пристрої закінчується місце для зберігання."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4962-9
 msgid ""
@@ -11744,10 +11828,13 @@ msgid ""
 "interfering with the operation of KOReader or some background processes "
 "might be using your system resources."
 msgstr ""
+"Якщо ви використовуєте пристрій Android, операційна система Android може "
+"перешкоджати роботі KOReader або деякі процеси, які виконуються у фоні, "
+"використовують багато системних ресурсів."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4966-5
 msgid "SOLUTIONS:"
-msgstr ""
+msgstr "СПОСОБИ ВИРІШЕННЯ:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4968-5
 msgid ""
@@ -11756,12 +11843,18 @@ msgid ""
 "version of it. Or if another file type is available for download, like EPUB "
 "instead of PDF (or reverse) you can try that format."
 msgstr ""
+"На жаль, варіантів розв'язання проблеми, пов'язаної з поганими файлами PDF, "
+"не багато. Зазвичай найкращим рішенням для проблемних файлів PDF та EPUB "
+"буде спробувати знайти кращу версію цієї книги у такому ж або іншому форматі "
+"файлу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4970-5
 msgid ""
 "Following solutions are for EPUB files and they might require advanced "
 "knowledge:"
 msgstr ""
+"Наведені далі рішення призначені для файлів EPUB, і вони можуть вимагати "
+"спеціальних знань:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4973-9
 msgid ""
@@ -11770,6 +11863,10 @@ msgid ""
 "(of course, you'll probably lose any nice formatting, but you'll know what "
 "is the culprit)."
 msgstr ""
+"Можна в нижньому меню вибрати для <span class=\"ui\">Вбудованих стилів</"
+"span> стан «<b>вимкнено</b>» та подивитися чи нехтування усіма вбудованими "
+"стилями документа зробить роботу з ним швидшою (ймовірно, буде відсутнє "
+"певне гарне форматування, зате зможете дізнатися в чому причина)."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4975-9
 msgid ""
@@ -11778,6 +11875,10 @@ msgid ""
 "complexity by yourself. To do this, you can long-press on some text and "
 "choose <span class=\"ui\">View HTML</span> in the popup menu."
 msgstr ""
+"Якщо ви розумієтеся на HTML та CSS, можна просто у KOReader перевірити файли "
+"HTML і CSS та особисто оцінити їх якість чи надмірну складність. Щоб зробити "
+"це, затисніть текст і у контекстному меню оберіть пункт <span class=\"ui\""
+">Переглянути HTML</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4977-9
 msgid ""
@@ -11785,6 +11886,10 @@ msgid ""
 "above in the problems section, you can add this <span class=\"ui\">table, "
 "tr, td { display:block; }</span> book-specific style tweak to:"
 msgstr ""
+"Якщо ви стикнулися з проблемою <b>«вмісту, запханого в таблицю»</b>, що "
+"описана вище у розділі про проблеми, ви можете додати підлаштування стилю "
+"для окремої книги «<span class=\"ui\">table, tr, td { display:block; "
+"}</span>» до:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4979-9
 msgid ""
@@ -11799,12 +11904,17 @@ msgid ""
 "<span class=\"external\">Calibre</span>’s e-book editor can check EPUB files "
 "for problems and has tools to fix some of the problems."
 msgstr ""
+"<span class=\"external\">Calibre</span> містить редактор книг, який "
+"перевіряє файли EPUB на наявність проблем і має інструменти для виправлення "
+"деяких проблем."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4983-9
 msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Завантажити <span class=\"external\">Calibre</span> можна <a href="
+"\"https://calibre-ebook.com/uk\">звідси</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4985-9
 msgid ""
@@ -11812,6 +11922,10 @@ msgid ""
 "class=\"external\">Calibre</span> <a href=\"https://manual.calibre-ebook.com/"
 "edit.html#checking-the-book\">here</a>."
 msgstr ""
+"Інструкцію щодо користування <b>інструментом перевірки книг</b> зі складу "
+"<span class=\"external\">Calibre</span> <a href="
+"\"https://manual.calibre-ebook.com/uk/edit.html#checking-the-book\">читайте "
+"тут</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4987-9
 msgid ""
@@ -11821,22 +11935,31 @@ msgid ""
 "class=\"external\">EPUBCheck</span> <a href=\"https://github.com/koreader/"
 "koreader/issues/11268\">here</a>."
 msgstr ""
+"<span class=\"external\">EPUBCheck</span> — застосунок, який може перевірити "
+"правильність файлів EPUB і виявити багато типів помилок. Приклади проблем, "
+"які були виявлені за допомогою <span class=\"external\">EPUBCheck</span>, "
+"можна побачити <a href=\"https://github.com/koreader/koreader/issues/11268\""
+">тут</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4989-9
 msgid ""
 "You can download the <b>command line version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck\">here</a>."
 msgstr ""
+"Завантажити <b>версію для командного рядка</b> можна <a href="
+"\"https://github.com/w3c/epubcheck\">звідси</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4991-9
 msgid ""
 "Or download a <b>graphical user interface version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck/wiki/GUI\">here</a>."
 msgstr ""
+"Або ж <b>версію з графічним користувацьким інтерфейсом</b> завантажити <a "
+"href=\"https://github.com/w3c/epubcheck/wiki/GUI\">звідси</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4995-5
 msgid "Opening an issue:"
-msgstr ""
+msgstr "Відкриття обговорення проблеми:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4996-5
 msgid ""
@@ -11859,6 +11982,12 @@ msgid ""
 "the book will not be readable and there won’t be any copyright violation</b> "
 "but we can still use this file for diagnostic purposes."
 msgstr ""
+"Цей модуль прочитає файл книги без DRM (EPUB, KEPUB, AZW3) та створить його "
+"копію <b>з заміною оригінального тексту випадковими символами</b>. Такою "
+"версією файлу з повністю заміненим текстом ви вільно можете поділитися з "
+"нами у темі з питанням. <b>Текст книги не буде читабельним і в цьому не буде "
+"жодного порушення авторських прав</b>, але цей файл все ще буде надзвичайно "
+"корисним для вирішення проблеми."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5001-5
 msgid ""
@@ -11880,17 +12009,21 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5010-1
 msgid "My status bar disappeared"
-msgstr ""
+msgstr "Моя панель стану зникла"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5012-5
 msgid ""
 "Probably you tapped on the <span class=\"ui\">STATUS BAR</span> touch zone "
 "at the bottom of the screen. You can bring it back by tapping the same zone."
 msgstr ""
+"Ймовірно, ви торкнулися ділянки дотику <span class=\"ui\">Панелі стану</"
+"span> внизу екрана. Щоб панель стану знову з'явилася, ще раз торкніться тієї "
+"ж ділянки."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5018-1
 msgid "Sometimes my taps are registered as a long tap or double taps"
 msgstr ""
+"Іноді програма реагує на мої дотики як на довгі дотики чи подвійні дотики"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5019-5
 msgid ""
@@ -11899,6 +12032,11 @@ msgid ""
 "interval</span>. By increasing this interval, you tell KOReader to ignore "
 "quick taps at the same location."
 msgstr ""
+"Це може траплятися через тремтіння рук або проблеми з сенсорним екраном "
+"пристрою. Якщо ви зіткнулися з такою проблемою, можна спробувати збільшити "
+"<span class=\"ui\">інтервал дотику</span>. Збільшення цього інтервалу "
+"призведе до того, що KOReader буде нехтувати швидкими повторними дотиками до "
+"тієї самої ділянки."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5021-5
 msgid ""
@@ -11914,10 +12052,13 @@ msgid ""
 "apply. So you can still quickly browse pages by tapping quickly "
 "alternatively with two fingers."
 msgstr ""
+"Це налаштування не вплине на два послідовні дотики здійснені на відстані "
+"один від іншого. Тож ви й надалі зможете швидко гортати сторінки швидкими "
+"дотиками різними пальцями по черзі або одним пальцем в різних точках."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5029-1
 msgid "KOReader can't write to the SD card"
-msgstr "Очищення кешу обкладинок книг"
+msgstr "KOReader не може записувати на SD-карту"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5031-9
 msgid ""
@@ -11932,7 +12073,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5037-1
 msgid "Ghosting and residue when turning pages"
-msgstr ""
+msgstr "Сліди від попередньої сторінки при перегортанні"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5039-9
 msgid ""
@@ -11944,10 +12085,18 @@ msgid ""
 "to get rid of these artifacts if they bother you (<span class=\"ui\">short "
 "diagonal swipe</span> gesture by default)."
 msgstr ""
+"Навіть якщо KOReader налаштований, щоб <b>повністю оновлювати екран після "
+"перегортання кожної сторінки</b>, після перегортання сторінки все ще можуть "
+"залишатися певні сліди (артефакти, «сміття») від попередньої сторінки. Це "
+"специфіка технології е-чорнил, яку можна спостерігати на пристроях останніх "
+"поколінь, особливо під час читання документів зі змішаним вмістом (текст + "
+"зображення). Як альтернатива, щоб позбутися цих артефактів, якщо вони "
+"заважають, можна ще раз власноруч оновлювати сторінку після перегортання ("
+"типово – <span class=\"ui\">коротким проведенням пальця по діагоналі</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5041-5
 msgid "Sleep cover problems"
-msgstr "Очищення кешу файлів"
+msgstr "Проблема з переведенням пристрою в режим сну чи пробудження обкладинкою"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
 msgid ""
@@ -11978,7 +12127,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5050-1
 msgid "Text indentation problems"
-msgstr ""
+msgstr "Проблеми з відступами у тексті"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5052-5
 msgid ""
@@ -11989,6 +12138,12 @@ msgid ""
 "be read on <b>web browser engine based</b> readers, so they don't bother "
 "\"resetting\" the styles."
 msgstr ""
+"Якщо наявні хибно відцентровані назви, заголовки, розділювачі або "
+"неочікувані відступи тексту, спробуйте змінити стиль для документу з <span "
+"class=\"ui\">epub.css</span> на <span class=\"ui\">html5.css</span>. Такі "
+"проблеми виникають через те, що деякі видавці припускають, що їхні книги "
+"будуть читати лише у програмах читання, <b>які працюють на рушії "
+"вебоглядача</b>, тому вони не турбуються про «скидання» стилів."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5054-5
 msgid ""
@@ -12004,6 +12159,10 @@ msgid ""
 "stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better "
 "for unstyled books, and might make styled books more readable."
 msgstr ""
+"Типово <span class=\"ui\">HTML/EPUB (epub.css)</span> — це наша таблиця "
+"стилів для книг, де <b>text-align: justify, text-indent всередині P</b>. "
+"Вона краще підходить для книг без стилів і може зробити приємнішими для "
+"читання книги зі стилями."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5060-9
 msgid ""
@@ -12013,10 +12172,15 @@ msgid ""
 "indent on P, spacing between P</b>. But it doesn’t look pretty when "
 "publishers haven’t done any styling."
 msgstr ""
+"Якщо у книзі присутні проблеми з відступами, як вказано вище, можна "
+"спробувати перемкнутися на <span class=\"ui\">HTML5 (html5.css)</span>. Цей "
+"стиль забезпечує базову таблицю стилів, як це роблять браузери для "
+"візуалізації: <b>text-align: left, без text-indent всередині P, проміжки між "
+"P</b>. Але це має дуже гарний вигляд коли видавці не додали жодного стилю."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5068-1
 msgid "Cleaning your book cover cache database"
-msgstr ""
+msgstr "Очищення кешу обкладинок книг"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5070-5
 msgid ""
@@ -12025,6 +12189,10 @@ msgid ""
 "books or rename directories, you may want to clean up your book cover cache "
 "database to reclaim some space. You can do it from this menu:"
 msgstr ""
+"KOReader зберігає кеш обкладинок книг, щоб показувати їх швидше. Зазвичай "
+"цей кеш не займає надто багато місця. Якщо ви вилучили багато книг або "
+"перейменували теки, тоді можете захотіти очистити застарілий кеш, щоб "
+"звільнити трохи місця. Це можна зробити з даного меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5072-5
 msgid ""
@@ -12038,7 +12206,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5078-1
 msgid "Clearing file cache"
-msgstr ""
+msgstr "Очищення кешу файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5079-5
 msgid ""
@@ -12049,6 +12217,12 @@ msgid ""
 "KOReader installation directory under the <b>cache folder</b>. To clear this "
 "cache and reclaim the space you can go to:"
 msgstr ""
+"Коли ви читаєте документи <b>PDF і DJVU</b>, KOReader зберігає кеш останніх "
+"сторінок книг, які ви читали. Тож повторне відкриття книги відбувається "
+"швидше. Але цей кеш може займати багато місця, якщо KOReader тривалий час "
+"використовується для читання великої кількості документів PDF/DJVU. Цей кеш "
+"файлів зберігається у <b>підтеці кешу</b> теки встановленого KOReader. "
+"Очистити цей кеш і звільнити місце можна тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5081-5
 msgid ""
@@ -12067,11 +12241,15 @@ msgid ""
 "will not provide any benefit. Instead, it will degrade the performance "
 "because your reader will have to render those pages again."
 msgstr ""
+"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Очищуйте цей кеш <b>тільки "
+"якщо справді потребуєте це місце</b>. Якщо на пристрої і без того достатньо "
+"місця, очищення місця не принесе жодної користі. Навпаки, це погіршить "
+"швидкодію, оскільки застосунок повторно візуалізуватиме ці сторінки."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5091-1
 msgctxt "user_guide/en.html+html.body.div.div:5091-1"
 msgid "REACH US"
-msgstr ""
+msgstr "ЗВ'ЯЗОК З НАМИ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5093-9
 msgid ""
@@ -12080,6 +12258,12 @@ msgid ""
 "GitHub account which is free. Click this link to open our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub Issues</a> page."
 msgstr ""
+"KOReader як базу проекту використовує <span class=\"external\">GitHub</"
+"span>. На сторінці GitHub можна повідомити про проблеми, написати свої "
+"побажання і пропозиції (англійською мовою). Для цього достатньо мати "
+"обліковий запис GitHub. Перейдіть за цим посиланням, щоб відкрити нашу "
+"сторінку <a href=\"https://github.com/koreader/koreader/issues\">обговорень "
+"(issues)</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5100-9
 msgid ""
@@ -12088,24 +12272,35 @@ msgid ""
 "existing issue about the same topic. You can also check other opened issues "
 "to have an idea about the process."
 msgstr ""
+"На сторінці обговорень (<b>Issues</b>) натисніть кнопку «<b>New Issue</b>» («"
+"Створити обговорення»). Але перед тим, як це робити, ми наполегливо радимо "
+"за допомогою панелі пошуку спробувати пошукати та перевірити чи не "
+"обговорювалося це питання раніше. Також можна переглянути інші відкриті "
+"обговорення, щоб мати уявлення про процес."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5102-9
 msgid ""
 "When you click the <b>New Issue</b> button you will be presented with two "
 "options:"
 msgstr ""
+"Після натискання кнопки <b>New Issue</b> вам буде запропоновано два варіанти:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5106-9
 msgid ""
 "Click the appropriate one and follow the instructions on the page to report "
 "your problem or suggestion."
 msgstr ""
+"Щоб сповістити нас про свою проблему чи пропозицію, натисніть відповідний "
+"варіант і далі дійте згідно з інструкціями на сторінці."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5108-9
 msgid ""
 "If you are reporting a bug, <b>verbose debug logs</b> are very helpful to "
 "determine the problem. You can enable them via:"
 msgstr ""
+"Якщо ви сповіщаєте про помилку, дуже корисними для визначення причини "
+"виникнення проблеми будуть <b>докладні журнали налагодження</b>. Їх "
+"автоматичне створення можна увімкнути тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5110-9
 msgid ""
@@ -12121,6 +12316,8 @@ msgid ""
 "You can also find the version number of your KOReader and your device type "
 "from the same dialog for reporting."
 msgstr ""
+"Версію свого KOReader та тип пристрою ви можете побачити у тому ж діалозі "
+"повідомлення про помилку."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5114-9
 msgid ""
@@ -12128,21 +12325,30 @@ msgid ""
 "can write to the <a href=\"https://github.com/koreader/koreader/"
 "issues/11147\">GitHub discussion thread</a>"
 msgstr ""
+"Пропозиції та питання, що стосуються цього <b>посібника користувача</b> ви "
+"можете писати (англійською мовою) у <a href="
+"\"https://github.com/koreader/koreader/issues/11147\">цій темі обговорення "
+"на GitHub</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5118-1
 msgid "You can also . . ."
-msgstr ""
+msgstr "Ви також можете . . ."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5123-3
 msgid ""
 "Find other KOReader users on <a href=\"https://www.mobileread.com/forums/"
 "forumdisplay.php?f=276\">MobileRead forums</a>"
 msgstr ""
+"Знайти інших користувачів KOReader на <a href="
+"\"https://www.mobileread.com/forums/forumdisplay.php?f=276\">форумах "
+"MobileRead</a> (англійською мовою)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5130-3
 msgid ""
 "Reach us at <a href=\"https://gitter.im/koreader/koreader\">Gitter chat</a>"
 msgstr ""
+"Зв'яжіться з нами у <a href=\"https://gitter.im/koreader/koreader\">чаті "
+"Gitter</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5135-3
 msgid ""
