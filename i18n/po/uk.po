@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 13:15+0000\n"
-"PO-Revision-Date: 2025-08-11 09:17+0000\n"
+"PO-Revision-Date: 2025-08-12 15:01+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1413,6 +1413,10 @@ msgid ""
 "span> and <span class=\"ui\">bottom menu</span> at the same time via this "
 "menu:"
 msgstr ""
+"Якщо бажаєте відкривати одночасно обидва меню, можете налаштувати ділянку "
+"дотику <span class=\"ui\">верхнього меню</span>, щоб при натисненні на неї "
+"одночасно відкривалися обидва меню – <span class=\"ui\">верхнє меню</span> "
+"та <span class=\"ui\">нижнє меню</span>. Це можна зробити в цьому меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1277-5
 msgid ""
@@ -1447,15 +1451,19 @@ msgid ""
 "all items are visible, tapping will show and hide the <span "
 "class=\"ui\">status bar</span>."
 msgstr ""
+"Якщо у <span class=\"ui\">панелі стану</span> показується лише один елемент, "
+"тоді при дотику до цієї ділянки будуть почергово показуватися усі елементи "
+"<span class=\"ui\">панелі стану</span>. Якщо ж показуються усі елементи, "
+"дотик буде приховувати та показувати <span class=\"ui\">панель стану</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1288-5
 msgctxt "user_guide/en.html+html.body.div.div:1288-5"
 msgid "Changing text appearance"
-msgstr ""
+msgstr "Зміна вигляду тексту"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1291-5
 msgid "<b>Changing the font*</b>:"
-msgstr ""
+msgstr "<b>Зміна шрифту*</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1291-35
 msgid ""
@@ -1467,7 +1475,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1292-5
 msgid "Make the font bigger"
-msgstr ""
+msgstr "Збільшити шрифт"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1292-36
 msgctxt ""
@@ -1478,7 +1486,7 @@ msgstr "НИЖНЄ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1293-5
 msgid "Make the font bolder"
-msgstr ""
+msgstr "Зробити шрифт жирнішим"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1293-36
 msgctxt "user_guide/en.html+html.body.div.ul.li.div:1293-36"
@@ -1487,7 +1495,7 @@ msgstr "НИЖНЄ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1294-5
 msgid "Invert the colors on screen (white on black)"
-msgstr ""
+msgstr "Інвертувати кольори на екрані (біле на чорному)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1294-60
 msgid ""
@@ -1505,6 +1513,11 @@ msgid ""
 "section dedicated to <a href=\"#L1-customizingappearance\">CUSTOMIZING TEXT "
 "APPEARANCE</a>"
 msgstr ""
+"За допомогою <span class=\"ui\">НИЖНЬОГО МЕНЮ</span> можна змінити також "
+"інші функції форматування, щоб зробити вигляд тексту якнайприємнішим для "
+"вас. Звісно, це лиш швидкі поради для початку роботи. У посібнику є цілий "
+"розділ, присвячений <a href=\"#L1-customizingappearance\">ПРИСТОСУВАННЮ "
+"ВИГЛЯДУ ТЕКСТУ</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1299-5
 msgid ""
@@ -1512,10 +1525,13 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> *Вибір шрифту доступний лише "
+"для документів, що перекомпоновуються (EPUB, HTML, DOCX, RTF, TXT тощо). "
+"Документи з фіксованою версткою, на кшталт PDF/DJVU, не підтримуються."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1304-1
 msgid "Controlling the backlight / frontlight"
-msgstr ""
+msgstr "Керування підсвічуванням екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1306-5
 msgid ""
@@ -1523,6 +1539,10 @@ msgid ""
 "(normal white LEDs+orange ones) you can control them separately from this "
 "dialog. You can also define a gesture for this dialog:"
 msgstr ""
+"Керувати підсвічуванням екрану можна за допомогою цього меню. Якщо "
+"підсвічування може змінювати температуру світла (має звичайні білі та "
+"жовтогарячі світлодіоди), тоді кожним з цих параметрів підсвічування можна "
+"керувати окремо. Для цього діалогу також можна визначити жести:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1308-5
 msgid ""
@@ -1534,12 +1554,14 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1312-1
 msgid "Changing the screen displayed while sleeping"
-msgstr ""
+msgstr "Зміна заставки екрану на час сну"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1314-2
 msgid ""
 "You can choose a book cover or a custom image as screensaver via this menu:"
 msgstr ""
+"Обрати обкладинку книги або інше зображення як заставку можна за допомогою "
+"цього меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1316-5
 msgid ""
@@ -1555,6 +1577,10 @@ msgid ""
 "look best). Transfer the files from your computer into any folder on your "
 "device. And choose this folder as your screensaver folder via this menu:"
 msgstr ""
+"В якості заставки екрану допускається використовувати файли JPG/PNG ("
+"найкраще виглядають правильно перетворені зображення в градаціях сірого). "
+"Скопіюйте файл з комп'ютера до будь-якої теки на пристрої, після чого "
+"оберіть цю теку як теку з заставками екрану за допомогою цього меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1320-5
 msgid ""
@@ -1570,11 +1596,15 @@ msgid ""
 "php?p=3728291&postcount=17\">Mobileread forum post</a> for advanced "
 "information about preparing screensaver images."
 msgstr ""
+"Додаткову інформацію про підготовку зображень в якості заставок екрану можна "
+"дізнатися <a href="
+"\"https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17\">з "
+"цього допису форуму Mobileread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1326-1
 msgctxt "user_guide/en.html+html.body.div.div:1326-1"
 msgid "Keyboard Usage And Tips"
-msgstr ""
+msgstr "Використання клавіатури і поради"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1328-5
 msgid ""
@@ -1582,22 +1612,31 @@ msgid ""
 "shortcuts</span>, click <a href=\"#L2-keyboardshortcuts\">here</a> to go "
 "that section. This heading only explains the keyboard usage."
 msgstr ""
+"Якщо ви шукаєте інформацію про <span class=\"ui\">комбінації клавіш</span>, "
+"натисніть <a href=\"#L2-keyboardshortcuts\">сюди</a>, щоб перейти до "
+"відповідного розділу. Даний розділ пояснює тільки як можна використовувати "
+"клавіатуру."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1331-3
 msgid ""
 "Tap outside the input field to close the keyboard, tap the input field to "
 "show the keyboard again"
 msgstr ""
+"Щоб приховати клавіатуру, торкніться екрану за межами поля введення. Дотик у "
+"полі введення призведе до повторного виклику клавіатури"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1332-3
 msgid ""
 "<b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase "
 "if you are already in <b>shift</b> mode)"
 msgstr ""
+"<b>Торкніться клавіші й протягніть палець вгору</b>, щоб ввести цю літеру у "
+"верхньому регістрі (або в нижньому регістрі, якщо клавіатура вже у режимі "
+"<b>shift</b>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1333-3
 msgid "You can change the appearance of the keyboard:"
-msgstr ""
+msgstr "Змінити вигляд клавіатури можна тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1334-4
 msgid ""
@@ -1610,7 +1649,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1335-3
 msgid "You can select more than one layout:"
-msgstr ""
+msgstr "Можна додати більше однієї розкладки клавіатури:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1336-4
 msgid ""
@@ -1626,10 +1665,13 @@ msgid ""
 "loading=\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" "
 "style=\"width:22px;\"> icon on the keyboard"
 msgstr ""
+"Змінювати активну розкладку клавіатури можна натисканням значка <img loading="
+"\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" style="
+"\"width:22px;\"> на клавіатурі"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1342-1
 msgid "Entering extra characters"
-msgstr ""
+msgstr "Введення додаткових символів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1344-5
 msgid ""
@@ -1637,6 +1679,9 @@ msgid ""
 "key. Most frequently used extra characters are shown below. You can tap and "
 "hold the key in the <b>gray box</b> to get the surrounding characters:"
 msgstr ""
+"Клавіатура KOReader дозволяє вводити додаткові символи затисканням кнопки. "
+"Нижче показано символи, які використовуються найчастіше. Щоб відкрити "
+"навколишні символи, затисніть <b>сіру кнопку</b> клавіатури:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1348-5
 msgid ""
@@ -1648,11 +1693,19 @@ msgid ""
 "swipe on the keys. Once you get used to the locations of the extra "
 "characters, you can enter them much quicker this way."
 msgstr ""
+"На додачу до зринаючого вікна при затисненні, кнопки додаткових символів "
+"також можна відкрити протягнувши пальцем по кнопці. На наведеному нижче "
+"прикладі можна протягнути пальцем вгору на кнопці <b>«a»</b>, щоб вписати "
+"<b>велику літеру «A»</b> або ж протягнути в інших напрямках, щоб вписати "
+"відповідні символи. Майте на увазі, що на нижченаведеному прикладі показано "
+"повне зринаюче вікно. Відкривати це зринаюче вікно не обов'язково, можна "
+"просто протягувати пальцем на кнопках. Щойно ви звикнете до розміщення "
+"додаткових символів, набирати текст таким чином буде набагато швидше."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1352-5
 msgid ""
 "If this feature interferes with your usage, you can disable it by unchecking:"
-msgstr ""
+msgstr "Якщо ця функція заважає, її можна вимкнути знявши галочку тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1354-5
 msgid ""
@@ -1669,42 +1722,51 @@ msgid ""
 "Additionally there are some shortcuts for easier text manipulation. You can "
 "<b>tap and hold</b> these keys for extra actions:"
 msgstr ""
+"На додачу існують дії, які спрощують користування клавіатурою. Можна "
+"<b>затиснути</b> відповідні клавіші, щоб активувати їх додаткові функції:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1358-9
 msgid "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
-msgstr ""
+msgstr "<b>Стрілка вліво</b> – переміщує курсор до початку рядка"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1359-9
 msgid "<b>Right Arrow</b> - Moves the cursor to the end of the line"
-msgstr ""
+msgstr "<b>Стрілка вправо</b> – переміщує курсор до кінця рядка"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1362-5
 msgid ""
 "Also <span class=\"ui\">backspace</span> key behaves different when you make "
 "swipe gestures on it:"
 msgstr ""
+"Також кнопка <span class=\"ui\">Backspace</span> виконує різні дії, якщо "
+"натиснути на неї і протягнути пальцем, а саме:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1365-9
 msgid "<b>Tap:</b> Delete a character"
-msgstr ""
+msgstr "<b>Дотик</b> – видалити символ"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1366-9
 msgid "<b>Long-press:</b> Delete the whole line"
-msgstr ""
+msgstr "<b>Затискання</b> – видалити весь рядок"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1367-9
 msgid "<b>Swipe left:</b> Delete part of the word left of the cursor"
 msgstr ""
+"<b>Протягування ліворуч</b> – видалити частину слова, яка знаходиться лівіше "
+"від курсора"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1368-9
 msgid "<b>Swipe up:</b> Delete the whole word"
-msgstr ""
+msgstr "<b>Протягування вгору</b> – видалити ціле слово"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1371-2
 msgid ""
 "For more information, you can check the <a href=\"https://github.com/"
 "koreader/koreader/wiki/Virtual-keyboard\">related wiki page</a>."
 msgstr ""
+"Більше інформації можна знайти на <a href="
+"\"https://github.com/koreader/koreader/wiki/Virtual-keyboard\">відповідній "
+"сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1373-5
 msgid ""
@@ -1713,6 +1775,10 @@ msgid ""
 "it in our <a href=\"https://github.com/koreader/koreader/wiki/Chinese-"
 "keyboard\">wiki</a>."
 msgstr ""
+"KOReader також інтегрує китайську клавіатуру з штрихами, яка дозволяє "
+"вводити символи традиційного і спрощеного китайського письма. Більше "
+"інформації про це можна прочитати у нашій <a href="
+"\"https://github.com/koreader/koreader/wiki/Chinese-keyboard\">вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1377-1
 msgctxt "user_guide/en.html+html.body.div.div:1377-1"
@@ -1729,12 +1795,22 @@ msgid ""
 "class=\"ui\">only night mode control</span> mode, so you can adjust the "
 "other one manually."
 msgstr ""
+"Цей модуль дозволяє автоматично підлаштувати теплоту (колір) підсвічування "
+"екрану на пристроях з <b>теплим (жовтим/жовтогарячим) підсвічуванням</b> і "
+"встановлює <span class=\"ui\">нічний режим</span> (інвертує кольори – "
+"<b>білий текст на чорному тлі</b>) відповідно до розкладу. Він може "
+"контролювати обидва ці параметри або можна обрати режим <span class=\"ui\""
+">керування лише теплотою підсвічування</span> або <span class=\"ui\""
+">керування лише нічним режимом</span>, щоб інший параметр підлаштувати "
+"вручну."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1381-5
 msgid ""
 "This plugin comes enabled as default when you install KOReader. If for some "
 "reason it is not in the menu, you can enable it here:"
 msgstr ""
+"Цей модуль є увімкненим одразу після встановлення KOReader. Якщо з якихось "
+"причин його немає в меню, його можна увімкнути тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1383-5
 msgid ""
@@ -1752,12 +1828,19 @@ msgid ""
 "in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</"
 "b> option is set to <b>Disabled</b>."
 msgstr ""
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Якщо на вашому пристрої "
+"PocketBook у KOReader не працює повзунок підсвічування або його теплоти, "
+"переконайтеся, що у заводській програмі читання PocketBook (з якою "
+"постачається пристрій) параметр <b>Розумне світло – Авто</b> встановлено на "
+"<b>Вимкнено</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1388-5
 msgid ""
 "You can adjust the warmth of your screen frontlight automatically in two "
 "different ways:"
 msgstr ""
+"Автоматично регулювати теплоту підсвічування екрану пристрою можна двома "
+"різними способами:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1390-5
 msgid ""
@@ -1766,6 +1849,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Сталий розклад:</span> в цьому режимі теплота "
+"підсвічування екрану змінюється відповідно до визначеного вами щоденного "
+"розкладу. Цей режим є <b>фіксованим</b>, він не враховує тривалість "
+"світлового дня. Розклад залишається однаковим протягом всього року."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1392-5
 msgid ""
@@ -1776,21 +1863,29 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Позиція Сонця:</span> цей параметр розраховує "
+"розташування Сонця згідно вашого місця розташування відповідно до введених "
+"відомостей про <b>координати</b> та <b>висоту над рівнем моря</b>. Теплота "
+"підсвічування екрану змінюється поступово, відповідно до розрахованої "
+"позиції Сонця. Цей режим є <b>динамічним</b>. Оскільки тривалість світлового "
+"дня протягом року є різною, модуль пристосовує розклад відповідним чином."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1394-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Щоб зрозуміти терміни, які використовуються в модулі, ознайомтеся з цим "
+"зображенням:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1398-5
 msgid "Fixed Schedule Mode"
-msgstr ""
+msgstr "Режим сталого розкладу"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1401-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1401-3"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Перейдіть до меню модуля:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1401-30
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1401-30"
@@ -1806,12 +1901,16 @@ msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Натисніть пункт меню «Активувати», а потім натисніть <span class=\"ui\""
+">Згідно з сталим розкладом</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1405-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Поверніться назад до попереднього меню і торкніться пункту меню <span class="
+"\"ui\">Налаштування сталого розкладу</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1407-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1407-3"
@@ -1819,15 +1918,17 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Налаштуйте свій графік переходу на тепліше освітлення, вказавши тут час для "
+"різних елементів. Пояснення до елементів див. на зображенні вище."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1412-1
 msgid "Sun’s Position Mode"
-msgstr ""
+msgstr "Режим позиції Сонця"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1415-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1415-13"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Перейдіть до меню модуля:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1416-17
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1416-17"
@@ -1843,6 +1944,8 @@ msgid ""
 "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
 "class=\"ui\">According to the sun's position</span>"
 msgstr ""
+"Натисніть пункт меню <span class=\"ui\">Активувати</span>, а потім натисніть "
+"<span class=\"ui\">Згідно з положенням Сонця</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
 msgid ""
@@ -1850,12 +1953,18 @@ msgid ""
 "menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> "
 "(optional) correctly and give a <b>name</b> to your location."
 msgstr ""
+"Поверніться до попереднього меню і торкніться пункту меню <span class=\"ui\""
+">Параметри розташування</span>. Правильно зазначте свої <b>координати</b> "
+"(обов'язково) та <b>висоту над рівнем моря</b> (за бажанням) і <b>назвіть</"
+"b> своє місце розташування."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1422-13
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Warmth and night mode "
 "settings</span> menu item"
 msgstr ""
+"Поверніться до попереднього меню і натисніть пункт меню <span class=\"ui\""
+">Налаштування теплоти і нічного режиму</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1424-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1424-13"
@@ -1863,12 +1972,16 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Визначте свій графік переходу на тепліше підсвічування встановивши тут час "
+"для різних елементів. На зображенні вище наявне пояснення елементів."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1427-5
 msgid ""
 "You can see your current schedule via <span class=\"ui\">Currently active "
 "parameters</span> menu option."
 msgstr ""
+"Поточний розклад можна подивитися у пункті меню <span class=\"ui\">Зараз "
+"активні параметри</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1432-1
 msgid "Night Mode"
@@ -1884,6 +1997,14 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Під час налаштування відсотків теплоти підсвічування для різних проміжків "
+"часу, для цих же проміжків можна також встановити <span class=\"ui\">Нічний "
+"режим</span>, який інвертує кольори екрану на початку цього проміжку часу. "
+"Якщо мінімальне значення яскравості підсвічування екрану все ще занадто "
+"яскраве або якщо вам більше до вподоби темне тло сторінки, тоді можна "
+"активувати цю функцію. Щоб її увімкнути, у нижченаведеному діалозі "
+"торкніться квадратика <span class=\"ui\">Нічний режим</span>, а потім <span "
+"class=\"ui\">Встановити</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1436-5
 msgid ""
@@ -1891,10 +2012,13 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"Якщо так зробити, в меню поруч з цим проміжком часу з'явиться <b>значок "
+"місяця</b>. Щоб вимкнути нічний режим, просто торкніться квадратика <span "
+"class=\"ui\">Нічний режим</span> (зніміть галочку)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1442-1
 msgid "Frontlight auto on/off"
-msgstr ""
+msgstr "Автоматичне увімкнення/вимкнення підсвічування"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1444-5
 msgid ""
@@ -1906,24 +2030,33 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Ця функція вмикає підсвічування екрану на світанку і вимикає при заході "
+"сонця відповідно до <span class=\"ui\">Зараз активних параметрів</span> "
+"цього модуля. Ручне увімкнення/вимкнення підсвічування екрану має пріоритет "
+"над цим параметром. Під час наступного сходу/заходу сонця <span class=\"ui\""
+">автотеплота підсвічування</span> перемкнеться. Її можна активувати "
+"натиснувши в модулі пункт меню <span class=\"ui\">Підсвічування вимкнено "
+"вдень</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1448-1
 msgid "Faster warmth transitions"
-msgstr ""
+msgstr "Швидші переходи теплоти"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1450-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
+"Якщо потрібно, щоб температура підсвічування екрану змінювалася не повільно, "
+"а швидко:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1452-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "Оберіть режим <b>Сталий розклад</b>, як це описано нижче"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1453-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "Та підлаштуйте параметри подібно до того, як вказано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1458-5
 msgid ""
@@ -1943,7 +2076,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgctxt "user_guide/en.html+html.body.div.div:1466-1"
 msgid "LEARNING THE USER INTERFACE"
-msgstr ""
+msgstr "ВИВЧЕННЯ ІНТЕРФЕЙСУ КОРИСТУВАЧА"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1468-5
 msgid ""
@@ -1951,6 +2084,9 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"KOReader має простий, переважно чорно-білий інтерфейс, оскільки градієнти та "
+"різні відтінки сірого можуть спричиняти миготіння та артефакти на екранах з "
+"е-чорнилами, що погіршує якість читання."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1470-5
 msgid ""
@@ -1960,6 +2096,11 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"KOReader має два основні режими (інтерфейси): <span class=\"ui\">екран "
+"читання</span> та <span class=\"ui\">Оглядач файлів</span>. Тут ми "
+"розглянемо <span class=\"ui\">екран читання</span>. <span class=\"ui\""
+">Оглядачу файлів</span> присвячений <a href=\"#L2-filebrowser\">цей розділ</"
+"a> посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1473-1
 msgctxt "user_guide/en.html+html.body.div.div:1473-1"
@@ -1968,7 +2109,7 @@ msgstr "Екран читання"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1475-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "<b>ЕКРАН ЧИТАННЯ</b> має два меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1478-3
 msgid ""
@@ -1976,6 +2117,9 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"<span class=\"ui\">ВЕРХНЄ МЕНЮ</span> включає елементи меню, що пов'язані з "
+"основним використанням KOReader. З нього можна отримати доступ до книг, "
+"налаштувань KOReader, модулів та іншого."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1479-3
 msgid ""
@@ -1984,12 +2128,18 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"<span class=\"ui\">НИЖНЄ МЕНЮ</span> зосереджене на параметрах для "
+"<b>форматування документу</b> на зразок розміру та жирності шрифту, "
+"відстаней між рядками та ін. Під час підлаштування вигляду тексту ви "
+"переважно взаємодієте з <span class=\"ui\">НИЖНІМ МЕНЮ</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1487-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"Наведене вище зображення показує елементи, які ви можете бачити під час "
+"читання книги на своєму пристрої:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1489-9
 msgid ""
@@ -1999,6 +2149,11 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>Значки індикаторів.</b> Ці значки інформують про певні поточні процеси і "
+"стани. Вони відображаються у верхньому лівому куті екрану під час певних "
+"операцій. Зазвичай вони менші, але тут вони збільшені для наглядності. "
+"Значення цих значків індикаторів детально пояснюються у наступному розділі: "
+"<a href=\"#L2-indicators\">Значки індикаторів</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1490-9
 msgid ""
@@ -2006,6 +2161,9 @@ msgid ""
 "various information about your book and KOReader. Click here to go to the "
 "section: Click here for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Панель стану.</b> Це область, яку можна детально налаштовувати та у якій "
+"відображається інформація про книгу та KOReader. Детальніше про нього "
+"написано у цьому розділі: <a href=\"#L2-statusbar\">Панель стану</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1491-9
 msgid ""
@@ -2014,6 +2172,10 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Альтернативна панель стану.</b> На додачу до типової <span class=\"ui\""
+">панелі стану</span>, KOReader має <span class=\"ui\">альтернативну панель "
+"стану</span>, яка, якщо вона увімкнена, відображається вгорі сторінки. "
+"Детальніше читайте тут: <a href=\"#L2-statusbar\">Панель стану</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1492-9
 msgid ""
@@ -2040,7 +2202,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1498-1
 msgid "Indicator icons"
-msgstr ""
+msgstr "Значки індикаторів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1500-5
 msgid ""
@@ -2087,12 +2249,19 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"Документ <b>частково</b> візуалізований. Лічильник сторінок, інформація в "
+"нижньому колонтитулі та багато інших відомостей є <b>неточними</b>. Можна "
+"переглянути як виглядає документ з новими налаштуваннями і здійснити "
+"подальші зміни. В цьому стані також можна гортати сторінки та переходити за "
+"посиланнями."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1526-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Повна візуалізація відбувається <b>у тлі</b>. Все ще можна гортати сторінки, "
+"переходити за посиланнями та змінювати налаштування."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1530-17
 msgid ""
@@ -2101,12 +2270,18 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"Повна візуалізація завершена, але ще <b>не застосована</b>, бо KOReader "
+"очікує вашої <b>бездіяльності</b>, щоб перезавантажити решту книги ("
+"бездіяльність = відсутність взаємодії з пристроєм). Все ще можна гортати "
+"сторінки, переходити за посиланнями та змінювати налаштування."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Ви деякий час були бездіяльними, тому KOReader зараз перезавантажує весь "
+"документ. На цьому етапі KOReader <b>заблокований</b> для взаємодії з ним."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1539-5
 msgid ""
@@ -2118,6 +2293,14 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Це можливо лише якщо файл EPUB "
+"складається з багатьох фрагментів. Файли EPUB по суті є архівами .zip, які "
+"містять файли .html. Деякі книги можуть складаються з єдиного файлу .html, в "
+"той час як інші можуть складатися з багатьох файлів .html, в яких кожен "
+"розділ книги міститься в окремому файлі .html. <b>Якщо книга складається з "
+"єдиного файлу .html, тоді часткова візуалізація не працюватиме, оскільки при "
+"кожній зміні KOReader повинен заново здійснити обчислення для всієї "
+"книги.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1547-13
 msgid ""
