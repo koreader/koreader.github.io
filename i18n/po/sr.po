@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 13:15+0000\n"
-"PO-Revision-Date: 2025-08-11 12:42+0000\n"
+"PO-Revision-Date: 2025-08-12 15:01+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5744,10 +5744,14 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
+"Можете га видети на слици за пример изнад, уз <b>Adjust margins</b> "
+"дотеривање стила. Сада је ово дотеривање стила додато на листу акција. "
+"Можете је пронаћи у категорији <span class=\"ui\">Управљачу гестикулацијама "
+"> Документи који могу да се преслажу</span>. Додаће се на крај листе."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2504-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. Дотеривање можете додати у Брзи мени"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2506-9
 msgid ""
@@ -5756,6 +5760,10 @@ msgid ""
 "follow the instructions under the <a href=\"#quickmenu\">Quick Menu</a> "
 "section of this guide."
 msgstr ""
+"Ако дотеривање желите да додате у свој <span class=\"ui\">Брзи мени</span>, "
+"оно најпре треба да се дода у листу акција, на начин који је објашњен у "
+"претходном наслову. Затим можете да пратите кораке из одељка <a href="
+"\"#quickmenu\">Брзи мени</a> овог упутства."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2508-9
 msgid ""
@@ -5764,10 +5772,14 @@ msgid ""
 "gesture. This way, with a simple gesture you can access all your style "
 "tweaks and activate them as needed."
 msgstr ""
+"Можете чак и да комбинујете обе методе и да креирате специјални <span class="
+"\"ui\">Брзи мени</span> за своја дотеривања стила, па да га затим доделите "
+"гестикулацији. На овај начин, једноставном гестикулацијом можете да "
+"приступите свим својим дотеривањима стила и да их по потреби активирате."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2511-5
 msgid "Finding elements for modifying"
-msgstr ""
+msgstr "Проналажење елемената за измену"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2513-5
 msgid ""
@@ -5778,39 +5790,50 @@ msgid ""
 "in, and choose <span class=\"ui\">View HTML</span> from the dialog. In the "
 "example above, your style tweak would look like this:"
 msgstr ""
+"Имајте на уму да наслови у неким књигама можда нису у <b>&lt;H1&gt; или "
+"&lt;H2&gt;</b> елементима, већ у нечему као што је <b>&lt;p class=\"tit123\""
+"&gt;</b>. Провером изворног кода можете сазнати који селектори се користе за "
+"одређени део текста. Да бисте то урадили, изаберите текст у околини елемента "
+"који вас интересује, па изаберите <span class=\"ui\">Прикажи HTML</span> из "
+"дијалога. У горњем примеру, ваше дотеривање стила би изгледало овако:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2515-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2517-5
 msgid "instead of this:"
-msgstr ""
+msgstr "уместо овога:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2519-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2530-1
 msgctxt "user_guide/en.html+html.body.div.div:2530-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "МАРКЕРИ, ИСТИЦАЊА И БЕЛЕШКЕ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2532-5
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
 msgstr ""
+"KOReader вам даје могућност да имате интеракцију са својом књигом на исти "
+"начин на који је имате и са физичком књигом. Многа подешавања прозора "
+"маркера књиге могу да се измене овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2536-6
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Подешавања / Маркери књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2541-5
 msgid "BOOKMARKS:"
-msgstr ""
+msgstr "МАРКЕРИ:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2543-5
 msgid ""
@@ -5818,10 +5841,13 @@ msgid ""
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
 msgstr ""
+"Можете да додате (и уклоните) маркер тако што притиснете горњи десни угао. "
+"Ово је исто као да савијете угао странице физичке књиге и приказује сличну "
+"икону када га укључите."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2547-5
 msgid "HIGHLIGHTS:"
-msgstr ""
+msgstr "ИСТИЦАЊА:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2549-5
 msgid ""
@@ -5831,6 +5857,10 @@ msgid ""
 "class=\"ui\">Underline, Strikeout</span> and <span class=\"ui\">Invert</"
 "span>."
 msgstr ""
+"Текст можете да истакнете једним од четири различита стила. На слици испод "
+"можете видети обичан пасус након којег следи четири различита стила "
+"истицања. <span class=\"ui\">Посветли</span> (са сивом позадином), <span "
+"class=\"ui\">Подвуци, Прецртано</span> и <span class=\"ui\">Инвертуј</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2554-5
 msgid ""
@@ -5838,6 +5868,9 @@ msgid ""
 "colored highlight markers. Or you can decide your favorite style and set it "
 "as default from this menu by long pressing:"
 msgstr ""
+"Све ове стилове можете да користите истовремено, као да су маркери различите "
+"боје. Или можете да се одлучите за омиљени стил, па да га у овом менију "
+"поставите као подразумевани тако што урадите дуги притисак на:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2556-5
 msgctxt "user_guide/en.html+html.body.div.div:2556-5"
@@ -5845,28 +5878,36 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Стил истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2560-5
 msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
 msgstr ""
+"Такође, ако имате уређај са екраном у боји, истицања можете да креирате у "
+"различитим бојама:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2562-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Истицања / Боја истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2566-5
 msgid "Some tips for color highlights:"
-msgstr ""
+msgstr "Неки савети за истицања у боји:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2569-9
 msgid ""
 "You can change the color of an existing highlight by tapping on it and "
 "choosing <span class=\"ui\">Color</span> from the popup menu."
 msgstr ""
+"Боју постојећег истицања можете да промените тапом на њега и избором <span "
+"class=\"ui\">Боја</span> из искачућег менија."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2571-9
 msgid ""
@@ -5877,22 +5918,33 @@ msgid ""
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
 msgstr ""
+"Боје можете да комбинујете са различитим стиловима истицања, као што су "
+"<b>Подвучено</b> и <b>Прецртано</b> и тако креирате моћан систем истицања. "
+"На пример, можете да употребите стил <span style=\"text-decoration: line-"
+"through; font-weight: bold; color: red;"
+"\">црвено прецртано</span> за уклањања или <span style=\"text-decoration: "
+"underline; font-weight: bold; color: orange;\">наранџасто подвучено</span> "
+"за важне делове итд."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2574-1
 msgid "Setting the defaults for highlights"
-msgstr ""
+msgstr "Постављање подразумеваних вредности за истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2580-9
 msgid ""
 "In the highlights menu you can long-press on a highlight type to set it as "
 "default (★)"
 msgstr ""
+"У менију истицања можете да извршите дуги притисак на тип истицања и тако га "
+"поставите као подразумевано (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2581-9
 msgid ""
 "<b>After selecting a color</b>, you can long-press on the color name in this "
 "menu to set that color as default (★)"
 msgstr ""
+"<b>Након избора боје</b>, можете да извршите дуги притисак на име боје у "
+"овом менију и тако ту боју поставите као подразумевану (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2582-9
 msgid ""
@@ -5900,10 +5952,13 @@ msgid ""
 "highlights</span> option to make all the highlights in the current book "
 "same. <b>Be careful, there is no undo!</b>"
 msgstr ""
+"Можете да притиснете опцију <span class=\"ui\">Примени подразумевани стил и "
+"боју на сва истицања</span> и тако учините да сва истицања у књизи изгледају "
+"на исти начин. <b>Будите опрезни, не постоји поништавање ове команде!</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2587-5
 msgid "NOTES:"
-msgstr ""
+msgstr "БЕЛЕШКЕ:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2589-5
 msgid ""
@@ -5914,31 +5969,43 @@ msgid ""
 "line</span> and <span class=\"ui\">Side mark</span> (which is the pencil "
 "icon shown on the right side of the picture below):"
 msgstr ""
+"Вашим истицањима можете и да додате белешке. Једноставно тапните на истицање "
+"и из искачућег менија изаберите ставку <span class=\"ui\">Додај белешку</"
+"span>. Такође можете и да изаберете <span class=\"ui\">Маркер белешке</span> "
+"који приказује која истицања садрже белешку. Постоји три стила: <span class="
+"\"ui\">Подвучено, Линија са стране</span> и <span class=\"ui\">Ознака са "
+"стране</span> (што је икона оловке приказана на десној страни слике испод):"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2595-5
 msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
 msgstr ""
+"Ако желите да укључите ову функцију и изаберете стил за <span class=\"ui\""
+">Маркер белешке</span>, идите на:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2597-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Истицања / Маркер белешке"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2601-1
 msgctxt "user_guide/en.html+html.body.div.div:2601-1"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "Режими истицања у KOReader читачу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2603-5
 msgid "KOReader has two highlighting modes for different use cases:"
 msgstr ""
+"KOReader поседује два режима истицања који се користе у различитим "
+"ситуацијама:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2608-1
 msgid "Normal mode"
-msgstr ""
+msgstr "Нормални режим"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2610-5
 msgid ""
@@ -5946,18 +6013,20 @@ msgid ""
 "your finger on a phone/tablet and more suitable if your highlights are "
 "shorter than one page."
 msgstr ""
+"<span class=\"ui\">Нормални режим</span> је сличан избору текста прстом на "
+"телефону/таблету и погоднији је истицања која су краћа од једне странице."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2613-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Дуги притисак на почетну реч"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2614-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Померите прст на крај пасажа"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2615-9
 msgid "Release finger"
-msgstr ""
+msgstr "Подигните прст са екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2618-5
 msgid ""
@@ -5965,6 +6034,9 @@ msgid ""
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
 msgstr ""
+"Када наиђете на границу између две странице, KOReader ће окренути страницу "
+"да би могли да наставите истицање <b>(само у EPUB/HTML документма)</b>. Ову "
+"функцију можете да искључите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2620-5
 msgid ""
@@ -5972,10 +6044,13 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Auto-"
 "scroll when selection reaches a corner"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Тапови и гестикулације / Дуги притисак на текст / Ауто "
+"скролуј када избор достигне угао"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2624-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Режим Изабери и истакни"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2626-5
 msgid ""
@@ -5985,6 +6060,11 @@ msgid ""
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
 msgstr ""
+"<span class=\"ui\">Режим Изабери и истакни</span> је више прилагођен "
+"истицању дужих пасажа који се простиру на више страница. Такође може боље "
+"функционисати ако имате проблема са осетљивошћу екрана или са контролом "
+"моторике својих руку. Јер у овом режиму истицања нема потребе да превлачите "
+"прстом по екрану."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2628-5
 msgid ""
@@ -5992,6 +6072,9 @@ msgid ""
 "enabled, when you long-press a word, you have to drag your finger to "
 "initiate this mode."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Ако вам је укључена претрага речника "
+"када извршите дуги притисак на реч, мораћете да превучете прстом када желите "
+"да активирате овај режим."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2630-5
 msgid ""
@@ -5999,16 +6082,21 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Dictionary "
 "on single word selection"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Тапови и гестикулације / Дуги притисак на текст/ Речник "
+"приликом избора једне речи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2634-5
 msgid "How to highlight:"
-msgstr ""
+msgstr "Како се истиче:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2639-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
 msgstr ""
+"Дуги притисак (или превлачење ако је укључена претрага речника, као што је "
+"описано изнад) на почетну реч, појавиће се искачући мени."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2640-5
 msgid ""
@@ -6019,18 +6107,28 @@ msgid ""
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
 msgstr ""
+"Тапните на <span class=\"ui\">Избор</span>, сада се налазите у режиму "
+"истицања. Док се налазите у овом режиму, у горњем левом углу екрана ћете "
+"видети индикатор (који можете да тапнете и добијете додатне информације). "
+"Истицање можете да откажете тапом на почетак истицања. У овом режиму можете "
+"да окрећете странице таповима/превлачењима и да се слободно крећете кроз "
+"документ (садржај, прелетање итд.)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2641-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
 msgstr ""
+"Дуги притисак (или превлачење ако је укључена претрага речника, као што је "
+"описано изнад) на завршну реч истицања, поново ће да се појави мени."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2642-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
 msgstr ""
+"Овај пут тапните на <span class=\"ui\">Истицање</span> и завршите истицање "
+"пасажа."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2645-5
 msgid ""
@@ -6039,6 +6137,10 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
+"Овај дијалог се обично отвара на центру екрана. Ако желите да се отвори "
+"ближе месту које тренутно истичете, промените овде опцију <span class=\"ui\""
+">Центрирано</span> на <span class=\"ui\">Позиција истицања</span> (која се "
+"налази на другој страници следећег менија):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2647-5
 msgid ""
@@ -6046,6 +6148,9 @@ msgid ""
 "style=\"width:22px;\">/ Taps and Gestures / Long-press on text / Highlight "
 "dialog position"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Тапови и гестикулације / Дуги притисак на текст / Позиција "
+"дијалога истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2649-5
 msgid ""
@@ -6056,6 +6161,13 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Постоји и <b>бржи</b> метод за овај "
+"режим у случају да вам нису потребне <b>ставке менија дугог притиска</b> "
+"приказане изнад. Искачући мени можете потпуно да искључите, па када извршите "
+"дуги притисак на реч, одмах улазите у режим <span class=\"ui\">Избор и "
+"истицање</span>. Ова метода је много бржа и можете да истакнете текст било "
+"које дужине користећи само два тапа. Да бисте користили ову методу, укључите "
+"следећу опцију:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2651-5
 msgid ""
@@ -6063,6 +6175,9 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Select and "
 "highlight"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Тапови и гестикулације / Дуги притисак на текст / Изабери "
+"и истакни"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2657-5
 msgid ""
@@ -6075,6 +6190,15 @@ msgid ""
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> KOReader може да истакне пасаж "
+"користећи различите стилове. Ако користите опцију <span class=\"ui\""
+">Посветли</span>, позадина текста ће бити сива. Услед ограничења e-ink "
+"екрана, они не могу директно да промене боју са беле на сиву, тако да "
+"истакнути део најпре постане црн, па онда пређе у сиво. Ако желите да "
+"спречите ово трептање, можете да изаберете <span class=\"ui\">Инвертуј</"
+"span> као стил истицања. У овом режиму ће позадина текста да буде црна, тако "
+"да ће боја моћи да се постави без бљескања. Ове опције истицања можете да "
+"подесите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2659-5
 msgctxt "user_guide/en.html+html.body.div.div.div:2659-5"
@@ -6082,6 +6206,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2664-5
 msgid ""
@@ -6090,10 +6216,14 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Једном те истом тексту можете да "
+"доделите више истицања и белешки. Ако се преклапају, када тапнете на "
+"истицање приказаће вам се мени у којем можете да изаберете истицање које "
+"желите да уређујете."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2668-1
 msgid "Selecting punctuation while highlighting"
-msgstr ""
+msgstr "Избор интерпункције током истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2670-5
 msgid ""
@@ -6102,6 +6232,10 @@ msgid ""
 "word to the last word of a sentence, KOReader will automatically include the "
 "punctuation marks at the both ends of the sentence to your highlight."
 msgstr ""
+"Када вршите истицање, KOReader покушава да у истицање укључи везане знакове "
+"интерпункције око текста који изаберете. На пример, ако истичете од прве до "
+"последње речи реченице, KOReader ће у истицање аутоматски да укључи знаке "
+"интерпункције са оба краја реченице."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2673-5
 msgid ""
@@ -6112,10 +6246,16 @@ msgid ""
 "you can add these marks later by long pressing the <span "
 "class=\"ui\">Highlight edit</span> buttons."
 msgstr ""
+"Али ако истицање започнете из средине реченице, тачка на крају се <b>неће "
+"укључити у истицање</b> јер KOReader претпоставља да желите да извршите "
+"делимично истицање. Тако да ако желите да знаци интерпункције буду придодати "
+"тексту који истичете, постарајте се да изаберете <b>целу реченицу</b>. Ове "
+"знаке можете и касније да додате дугим притиском на дугмиће за <span class="
+"\"ui\">Уређивање истицања</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2676-1
 msgid "Editing highlights"
-msgstr ""
+msgstr "Уређивање истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2678-5
 msgid ""
@@ -6124,6 +6264,10 @@ msgid ""
 "class=\"ui\">Add note</span> items are clear. Bottom row menu items are used "
 "to extend or shrink the highlight."
 msgstr ""
+"Када тапнете на текст који је већ истакнут <b>(али је без белешке)</b>, "
+"појавиће се следећи искачући мени. Ставке <span class=\"ui\">Обриши</span> и "
+"<span class=\"ui\">Додај белешку</span> су јасне. Доњи ред ставки менија се "
+"користи за проширивање или сажимање истицања."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2682-5
 msgid ""
@@ -6132,6 +6276,10 @@ msgid ""
 "on PDFs, you have to delete it and highlight again due to the limitations of "
 "the PDF format."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Ово подешавање функционише само за "
+"документе који могу да се пресложе, као што су EPUB документи. Ако желите да "
+"проширите или сажмете истицање у PDF документима, услед ограничења PDF "
+"формата, морате најпре да их обришете па затим поново да истакнете."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2684-5
 msgid ""
@@ -6140,6 +6288,10 @@ msgid ""
 "open the menu above where you can edit both the highlight and the contained "
 "note:"
 msgstr ""
+"Када тапнете на текст који је већ истакнут <b>са додатом белешком</b>, "
+"приказаће вам се следећи искачући мени. Тапните на <span class=\"ui\">Уреди "
+"истицање</span> и отвориће вам се горњи мени у којем можете да уредите и "
+"истицање и напомену везану за њега:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2688-5
 msgid ""
@@ -6148,10 +6300,14 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;"
 "\"> ) You can also filter by highlight style:"
 msgstr ""
+"На страници <span class=\"ui\">Маркери</span> можете филтрирати приказ тако "
+"да се прикаже само један тип маркера тако што притиснете икону менија ( <img "
+"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;\""
+"> ) Такође можете да филтрирате по стилу истицања:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2694-1
 msgid "Editing the text of a highlight"
-msgstr ""
+msgstr "Уређивање текста истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2696-5
 msgid ""
@@ -6165,6 +6321,15 @@ msgid ""
 "highlight, you can directly write <b>\"(this date needs to be checked)\"</b> "
 "next to the problematic date."
 msgstr ""
+"Уз могућност додавања белешке, KOReader вам такође омогућава да уредите сам "
+"текст истицања који се приказује у <span class=\"ui\">Листи маркера</span>. "
+"У неким ситуацијама ово може бити корисније од додавања белешке истицању. На "
+"пример, замислите да прегледате текст. Желите да истакнете реченицу која "
+"садржи доста датума и један од њих је погрешан. Када пожелите да додате "
+"напомену која треба да указује на ову грешку, морате у напомени да наведете "
+"који датум је погрешан. Али ако уредите текст истицања, можете уз "
+"проблематични датум директно да напишете <b>„(овај датум треба да се "
+"провери)”</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2698-5
 msgid ""
@@ -6174,44 +6339,52 @@ msgid ""
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
 msgstr ""
+"Имајте на уму да ово уређивање <b>не мења</b> садржај књиге или истакнутог "
+"пасажа на страници. У читачу ћете још увек видети исту истакнуту реченицу. "
+"Оно што сте уредили ће се видети само у <span class=\"ui\">Листи маркера</"
+"span>. Па када касније извезете своја истицања, извешће се тај уређени текст."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2700-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Ако желите да уредите истакнуте текст можете да:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2702-13
 msgid "Tap on the highlight"
-msgstr ""
+msgstr "Тапнете на истицање"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2703-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "Тапнете на <span class=\"ui\">Детаљи</span> у искачућем менију"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2704-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
-msgstr ""
+msgstr "Тапнете на <span class=\"ui\">Уреди текст</span> у дијалогу детаља"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2708-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "То можете да урадите из прозора Маркери:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2711-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgstr ""
+"Идите на <span class=\"ui\">Листу маркера</span> помоћу менија или "
+"гестикулације"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2712-9
 msgid "Long press on the highlight you want to edit"
-msgstr ""
+msgstr "Извршите дуги притисак на истицање које желите да уредите"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2713-9
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr ""
+msgstr "Притисните у менију <span class=\"ui\">Уреди текст</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2714-9
 msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
 msgstr ""
+"У дијалогу измените текст и притисните дугме <span class=\"ui\""
+">Сачувај</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2717-5
 msgid ""
@@ -6220,10 +6393,14 @@ msgid ""
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
+"Ако уређени текст желите да <b>вратите</b> на оригинално истицање, следите "
+"претходне кораке, па у кораку <b>3</b>, уместо дугмета <span class=\"ui\""
+">Уреди текст</span>, притисните дугме <span class=\"ui\">Ресетуј "
+"текст</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2720-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
-msgstr ""
+msgstr "Измена начина на који се у Листи маркера приказују додате белешке"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
 msgid ""
@@ -6233,28 +6410,35 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
+"Обично када отворите листу Маркери, приказује са само садржај ваших "
+"истицања. Ако сте истицању доделили белешку, у листи Маркери ћете видети "
+"само икону оловке. Можете да извршите дуги притисак на ставку листе и моћи "
+"ћете да видите (и уредите) додату белешку. Ако у <span class=\"ui\">листи "
+"Маркери </span> желите да видите и и текст белешке, поставите то овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2724-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Подешавања / Маркери књиге/ Прикажи у ставкама"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "Имате избор да се прикаже:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2728-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr ""
+msgstr "<b>Само</b> истакнути текст (подразумевано понашање)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2729-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr ""
+msgstr "<b>И</b> истакнути текст и белешка"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2730-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr ""
+msgstr "<b>Напомена ако постоји</b>, у супротном истакнути текст"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2733-5
 msgid ""
@@ -6263,17 +6447,24 @@ msgid ""
 "layout, you can change the <span class=\"ui\">Max lines per bookmark</span> "
 "setting from here:"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Обично је број ставки у прозору "
+"маркера статичан и прозор је подједнако издељен. Ако желите прилагодљивији "
+"распоред, овде промените подешавање <span class=\"ui\">Макс. број линија по "
+"маркеру</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2735-6
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks / Max lines per bookmark"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Подешавања/ Маркери књиге / Макс. број линија по "
+"маркеру"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2739-1
 msgctxt "user_guide/en.html+html.body.div.div:2739-1"
 msgid "Exporting highlights"
-msgstr ""
+msgstr "Извоз истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2741-5
 msgid ""
@@ -6283,118 +6474,142 @@ msgid ""
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
 msgstr ""
+"Након што завршите књигу, можете да је преместите у посебан фолдер који "
+"служи архивирање или обраду. Укључите додатак <span class=\"ui\">Премести у "
+"архиву</span> и у његовим подешавањима поставите циљни директоријум (<span "
+"class=\"ui\">Постави директоријум архиве</span>). Након тога књигу можете да "
+"преместите у фолдер архиве:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2745-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr ""
+msgstr "Менијем додатка <span class=\"ui\">Премести у архиву</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Гестикулацијом или"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr ""
+msgstr "Ставком <span class=\"ui\">Брзог менија</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2750-5
 msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
 msgstr ""
+"KOReader обезбеђује различите начине за извоз ваших истицања и белешки са "
+"уређаја за читање:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2753-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Додатак Извези истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2755-5
 msgid ""
 "This versatile plugin can export your highlights to <b>local files</b> or "
 "<b>online services</b>."
 msgstr ""
+"Овај свестрани додатак може да извезе ваша истицања у <b>локалне фајлове</b> "
+"или на <b>мрежне сервисе</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2760-5
 msgid "Local export"
-msgstr ""
+msgstr "Локални извоз"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2762-5
 msgid "You can export your highlights to your device in these file formats:"
-msgstr ""
+msgstr "Истицања можете да извезете на уређај у следећим форматима:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2764-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Текст (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2765-9
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2766-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Markdown (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2767-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Kindle Clippings (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2768-9
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2771-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "Жељене формате извоза можете да изаберете из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2773-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Извези истицања / Избор формата и сервиса"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2775-5
 msgid "You can see the export location (and also change it if you want):"
 msgstr ""
+"Можете да видите (а ако то желите, такође и да измените) локацију за извоз:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2777-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose export folder"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Извези истицања / Избор директоријума за извоз"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2781-5
 msgid "Online services"
-msgstr ""
+msgstr "Сервиси на мрежи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2783-5
 msgid "You can also export to these services over the network:"
-msgstr ""
+msgstr "Преко мреже такође можете да извезете и на следеће сервисе:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
 msgstr ""
+"<a href=\"https://joplinapp.org/\">Joplin</a> - апликација за прављење "
+"белешки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2787-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
 msgstr ""
+"<a href=\"https://readwise.io/\">Readwise</a> - апликација за маркере/"
+"истицања на мрежи"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2788-9
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
 msgstr ""
+"<a href=\"https://github.com/usememos/memos\">Memos</a> - централно место за "
+"белешке, отвореног кода, хостовано код вас"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2789-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
 msgstr ""
+"<a href=\"https://flomoapp.com\">Flomo</a> - мрежни сервис за прављење "
+"белешки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
 msgstr ""
+"<a href=\"https://www.xmnote.com/\">XMNote</a> - Android организатор маркера "
+"на кинеском језику"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2798-5
 msgid ""
@@ -6402,30 +6617,40 @@ msgid ""
 "<a href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki "
 "page</a>."
 msgstr ""
+"Детаљна упутства за подешавање ових сервиса можете да пронађене на нашој <a "
+"href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">вики "
+"страници</a> посвећеној овој теми."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2802-5
 msgid ""
 "After selecting your formats, you can export the notes for the <b>current "
 "book</b> or <b>all the books in your library</b> from the same plugin menu."
 msgstr ""
+"Када изаберете формате, из истог менија додатка можете да извезете белешке "
+"за <b>текућу књигу</b> или за <b>све књиге у библиотеци</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2803-5
 msgid ""
 "If you want to export only some of the books in your library, you can do "
 "this from the <span class=\"ui\">File Browser</span>:"
 msgstr ""
+"Ако желите да извршите извоз само за неке књиге из библиотеке, то можете да "
+"урадите из <span class=\"ui\">Прегледача фајлова</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2805-9
 msgid "Select multiple books in the <span class=\"ui\">File Browser</span>"
-msgstr ""
+msgstr "У <span class=\"ui\">Прегледачу фајлова</span> изаберите више књига"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2806-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
 msgstr ""
+"Тапните на мени дугме (приказано као знак за штиклирање) у горњем десном углу"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2807-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
 msgstr ""
+"Из менија који се прикаже, изаберите <span class=\"ui\">Извези "
+"истицања</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2810-5
 msgid ""
@@ -6433,12 +6658,17 @@ msgid ""
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
 "Normally KOReader exports all of them. You can choose from:"
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Такође можете да извезете само неке "
+"од ових стилова истицања: <b>посветљено, подвучено, прецртано, инвертовано</"
+"b>. KOReader их обично извози све. Можете да изаберете из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2812-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
 msgstr ""
+"МЕНИ НА ВРХУ/ <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / Извези истицања / Изабери стилове истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2816-5
 msgid ""
@@ -6447,10 +6677,14 @@ msgid ""
 "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> За бржи приступ, акције извоза "
+"можете да придружите гестикулацијама. Можете их наћи у категорији <span "
+"class=\"ui\">Читач</span> <span class=\"ui\">Управљача "
+"гестикулацијама</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2821-1
 msgid "2. Using KoHighlights"
-msgstr ""
+msgstr "2. Употребом KoHighlights"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2823-5
 msgid ""
@@ -6460,10 +6694,15 @@ msgid ""
 "github.com/noembryo/KoHighlights\">GitHub project page</a> for download and "
 "instructions."
 msgstr ""
+"<span class=\"external\">KoHighlights</span> је спољни програм који "
+"инсталирате на свој компјутер. Када читач повежете са компјутером, он може "
+"приступити вашим белешкама и истицањима у књизи. За преузимање и упутства, "
+"погледајте <a href=\"https://github.com/noembryo/KoHighlights\">GitHub "
+"страницу пројекта</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-1
 msgid "3. Using Calibre"
-msgstr ""
+msgstr "3. Употребом програма Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2830-5
 msgid ""
@@ -6475,6 +6714,12 @@ msgid ""
 "application. Check the <a href=\"https://calibre-ebook.com/\">project page</"
 "a> for download and instructions."
 msgstr ""
+"<span class=\"external\">Calibre</span> је спољни програм који инсталирате "
+"на компјутер. Истицања можете да увезете у <span class=\"external\">Calibre</"
+"span> базу података његовим <span class=\"external\">KOReader Sync</span> "
+"додатком. Тај додатак можете да инсталирате из <span class=\"external\""
+">Calibre</span> апликације. За преузимање и упутства, погледајте <a href="
+"\"https://calibre-ebook.com/\">страницу пројекта</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-9
 msgid ""
@@ -6484,16 +6729,22 @@ msgid ""
 "highlights, notes and user options (formatting properties etc.) related to "
 "that document. You can manually backup/restore these directories."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Када отворите документ у KOReader "
+"читачу, он уз документ креира директоријум под истим именом као и документ. "
+"Овај директоријум садржи .LUA фајл у којем се налазе сва истицања, белешке и "
+"корисничке опције (особине форматирања итд.) које су у вези са документом. "
+"Можете ручно да направите резервну копију ових директоријума као и да их "
+"вратите."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2841-1
 msgctxt "user_guide/en.html+html.body.div.div:2841-1"
 msgid "READING PDFS"
-msgstr ""
+msgstr "ЧИТАЊЕ PDF ДОКУМЕНАТА"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2843-1
 msgctxt "user_guide/en.html+html.body.div.div:2843-1"
 msgid "Reading large PDFs on a small screen"
-msgstr ""
+msgstr "Читање великих PDF докумената на малом екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2844-5
 msgid ""
@@ -6501,16 +6752,21 @@ msgid ""
 "optimized for bigger page sizes (generally A4 or Letter) on your smaller "
 "screen device:"
 msgstr ""
+"KOReader омогућава разне начине за читање PDF/DJVU документа оптимизованих "
+"за веће (у општем случају A4 или Letter) формате страница на вашем уређају "
+"који поседује мали екран:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2849-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
-msgstr ""
+msgstr "<b>1. Можете да укључите </b><span class=\"ui\">Преслагање</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2851-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
+"МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
+"style=\"width:22px;\"> / Преслагање"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2853-5
 msgid ""
@@ -6519,10 +6775,15 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
+"Преслагање покушава да издвоји текстуални део документа (ако је доступан) и "
+"да га форматира у једну колону. Резултат је углавном задовољавајући. Ово "
+"такође можете да подесите и као <b>подразумевано</b> тако што тапнете и "
+"задржите."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2857-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
 msgstr ""
+"<b>2. Можете да укључите</b> <span class=\"ui\">Зумирај на садржај</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-5
 msgctxt "user_guide/en.html+html.body.div.div:2859-5"
@@ -6530,6 +6791,8 @@ msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
+"МЕНИ НА ДНУ / <img loading=\"lazy\" class=\"img_inline\" src="
+"\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2864-5
 msgid ""
@@ -6538,35 +6801,48 @@ msgid ""
 "<span class=\"ui\">width</span> in the same menu which will try to fit only "
 "page width instead of whole page, so your text will look bigger."
 msgstr ""
+"Овом опцијом KOReader покушава да опсече маргине документа тако да текст на "
+"екрану може изгледати већи. У истом менију можете да поставите и <span class="
+"\"ui\">уклопи</span> на <span class=\"ui\">ширину</span> чиме се уместо "
+"целе, покушава уклапање само ширине странице, тако да ће текст изгледати "
+"већи."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2868-5
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
 msgstr ""
+"<b>3. Можете пробати да уређај користите у </b><span class=\"ui\">Положеној "
+"оријентацији</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
 msgid ""
 "This will make your screen wider so your document may look big enough to "
 "read comfortably."
 msgstr ""
+"На овај начин је екран шири, па документ може изгледати довољно велики за "
+"удобно читање."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2872-5
 msgctxt "user_guide/en.html+html.body.div.div:2872-5"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "МЕНИ НА ДНУ /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2876-2
 msgid ""
 "4. You can zoom to 100 percent size and instead scroll the screen to read "
 "different parts"
 msgstr ""
+"4. Уместо да скролујете екран и читате различите делове, можете да се "
+"зумирате на 100 процената"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2879-5
 msgid ""
 "This is especially helpful with comic books. First enable <span "
 "class=\"ui\">column mode</span> from this menu item:"
 msgstr ""
+"Ово је посебно корисно за стрипове. Најпре у овом менију укључите <span "
+"class=\"ui\">режим колона</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2881-5
 msgctxt "user_guide/en.html+html.body.div.div:2881-5"
@@ -6574,12 +6850,14 @@ msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
+"МЕНИ НА ДНУ / <img loading=\"lazy\" class=\"img_inline\" src="
+"\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2883-5
 msgid ""
 "Then select an appropriate flow direction for your document from the same "
 "menu:"
-msgstr ""
+msgstr "Затим у истом менију изаберите одговарајући смер тока:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2889-9
 msgid ""
@@ -6587,18 +6865,25 @@ msgid ""
 "scroll down until the end of page reading left column then go to right upper "
 "side to continue reading right column:"
 msgstr ""
+"На пример, ако читате чланак који је сложен у две колоне, скроловаћете "
+"наниже све до краја странице читајући леву колону, па ћете затим да "
+"наставите читање десне колоне од горњег десног угла странице:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2892-9
 msgid ""
 "Or if you are reading a comic book, you will want to go <b>“right / down "
 "left / right”</b> in a zigzag pattern:"
 msgstr ""
+"Или, ако читате стрип, одговараће вам да се крећете <b>„десно / доле лево / "
+"десно”</b> по цик-цак линији:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2895-9
 msgid ""
 "For a Japanese comic book (right-to-left panel order) this might be the "
 "reverse:"
 msgstr ""
+"У случају јапанских стрипова (редослед панела с десна у лево) ово може бити "
+"обрнуто:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2899-5
 msgid ""
@@ -6607,6 +6892,10 @@ msgid ""
 "menu to fit the text on your screen better. Feel free to experiment with "
 "these settings."
 msgstr ""
+"У овом режиму такође у истом менију можете да подесите и <span class=\"ui\""
+">Хоризонтално/Вертикално преклапање</span> и <span class=\"ui\">Колоне</"
+"span> како би се текст још боље уклапао на екран. Слободно експериментишите "
+"са овим подешавањима."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2901-5
 msgid ""
@@ -6617,11 +6906,18 @@ msgid ""
 "displays the full page without cropping, scaled to fit your screen. You can "
 "turn the pages in this mode. To exit, tap on this icon."
 msgstr ""
+"<span class=\"label_green\">САВЕТ</span> Када читате PDF документ, ако нисте "
+"зумирани у 100% поглед (већ колона, ред или ручни зум) или сте у <span class="
+"\"ui\">режиму преслагања</span>, можете да тапнете на горњи леви угао екрана "
+"да уђете у <span class=\"ui\">режим окретања страница</span>. Овај режим "
+"привремено приказује комплетну страницу без опсецања, скалирану тако да "
+"стане на величину вашег екрана. У овом режиму можете да окрећете странице. "
+"Напуштате га тако што тапнете на ову икону."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2903-1
 msgctxt "user_guide/en.html+html.body.div.div:2903-1"
 msgid "PDF Specific Bottom Menu Items"
-msgstr ""
+msgstr "Ставке менија на дну специфичне за PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2908-5
 msgid ""
@@ -6629,6 +6925,10 @@ msgid ""
 "document. Be aware that same contrast value applies to both text and images "
 "in your document. If you set it very high, your images may become too dark."
 msgstr ""
+"<span class=\"ui\">Контраст</span> подешавање подешава нивое црне боје у "
+"вашем документу. Имајте на уму да се иста вредност контраста примењује и на "
+"текст и на слике документа. Ако га поставите на врло велику вредност, слике "
+"ће постати сувише тамне."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2910-5
 msgid ""
@@ -6637,6 +6937,10 @@ msgid ""
 "convert a grayscale or color document to black & white to produce more "
 "contrast for easier reading."
 msgstr ""
+"<span class=\"ui\">Уклањање воденог жига</span> Уклања водени жиг из "
+"исцртаног документа. Такође може да се употреби за уклањање сивих позадина. "
+"Ова функција може да конвертује документ који користи нијансе сиве или боје "
+"у црно-бели формат чиме се добија бољи контраст и олакшава читање."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2912-5
 msgid ""
@@ -6647,18 +6951,29 @@ msgid ""
 "your document. If your PDF/DJVU files are slow, this is the first setting "
 "you should check."
 msgstr ""
+"<span class=\"ui\">Квалитет исцртавања</span> <b>(активан само у режиму "
+"Преслагања)</b> поставља квалитет процеса који издваја текст и слике и "
+"квалитет излаза. <span class=\"ui\">Високи</span> је пријатнији али може "
+"бити много спорији (неколико секунди за окретање странице) од <span class="
+"\"ui\">подразумевног</span>, у зависности од документа. ако су ваши PDF/DJVU "
+"фајлови спори, ово је прво подешавање које би требало да проверите."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2918-5
 msgid ""
 "<span class=\"ui\">Document language</span> sets the language that will be "
 "used by the OCR engine."
 msgstr ""
+"<span class=\"ui\">Језик документа</span> поставља језик документа који ће "
+"користити механизам за OCR."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2920-5
 msgid ""
 "<span class=\"ui\">Forced OCR</span> as the name says, forces the use of OCR "
 "even if the document has a text layer."
 msgstr ""
+"<span class=\"ui\">Форсирани OCR</span>, као што име каже, форсира употребу "
+"OCR (оптичког препознавања карактера) чак и када документ поседује слој са "
+"текстом."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2922-5
 msgid ""
@@ -6666,12 +6981,17 @@ msgid ""
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
 "languages like Arabic and Hebrew."
 msgstr ""
+"<span class=\"ui\">Смер писања</span> <b>(активно само у режиму преслагања)</"
+"b> поставља смер оригиналног документа. Поставите ово на <b>RTL</b> за "
+"језике као што су арапски и хебрејски."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2924-5
 msgid ""
 "<span class=\"ui\">Document columns</span> <b>(only active in Reflow mode)</"
 "b> sets the number of text columns in the original document."
 msgstr ""
+"<span class=\"ui\">Колоне документа</span> <b>(активно само у режиму "
+"Преслагања)</b> поставља број колона текста у оригиналном документу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2930-5
 msgid ""
@@ -6683,10 +7003,17 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
+"Функција <span class=\"ui\">Аутоматско исправљање</span> може да исправи "
+"странице проблематичних докумената, на пример, странице PDF документа који "
+"је скениран под углом. Доступна је за <b>PDF, DJVU, CBZ/CBT</b> документе и "
+"за фајлове <b>слика</b>. Да бисте је укључили, изаберите максимални угао "
+"нагнутости који ће KOReader покушати да коригује. Ако не успе, мораћете "
+"пробати да изаберете већи угао. Имајте на уму да би у зависности од више "
+"фактора, ова функција <b>могла да успори читач</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2935-1
 msgid "Saving highlights into PDF"
-msgstr ""
+msgstr "Чување истицања у PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2937-5
 msgid ""
@@ -6694,6 +7021,9 @@ msgid ""
 "highlights</span> feature of KOReader which is explained in a previous "
 "section."
 msgstr ""
+"Ако желите да сачувате своја истицања, употребите KOReader функционалност "
+"<span class=\"ui\">Извези истицања</span> која је објашњена у претходном "
+"одељку."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2938-5
 msgid ""
@@ -6706,6 +7036,14 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
+"Ако правите истицања у PDF документу, KOReader такође може да их сачува "
+"директно у PDF фајл. Ово може бити корисно у одређеним ситуацијама, јер овом "
+"методом истицања постају део PDF фајла. То значи да их можете видети и у "
+"осталим апликацијама, без потребе да инсталирате KOReader. На пример, ако "
+"фајл са истицањима шаљете неком другом кориснику, он не мора да има "
+"инсталиран KOReader да би видео ваша истицања. Једноставно можете да му "
+"пошаљете PDF фајл са истицањима која су сачувана у сам фајл и он ће моћи да "
+"их отвори и погледа <b>компатибилним</b> PDF читачем."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2940-24
 msgid ""
@@ -6717,16 +7055,25 @@ msgid ""
 "class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
+"<span class=\"label_red\">УПОЗОРЕЊЕ</span> Ако користите додатак <span class="
+"\"ui\">Синхронизација напретка</span>, чување PDF истицања ће променити ваш "
+"фајл, па синхронизација неће успети. Ако планирате да користите обе "
+"функционалности, у подешавањима додатка <span class=\"ui\">Синхронизација "
+"напретка</span> измените <span class=\"ui\">Метода подударања документа</"
+"span> на <span class=\"ui\">Име фајла</span> уместо на подразумевану "
+"вредност <span class=\"ui\">Бинарна</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p.div:2941-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Progress sync / Document matching method"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Синхронизација напретка/ Метода подударања документа"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2946-5
 msgid "Which PDF readers can show these highlights?"
-msgstr ""
+msgstr "Који PDF читачи могу да прикажу ова истицања?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2947-5
 msgid ""
@@ -6739,6 +7086,14 @@ msgid ""
 "see them. And ⚠️ means the application needs some plugin to show them. List "
 "is ordered alphabetically within categories."
 msgstr ""
+"PDF читачи се за исцртавање PDF фајлова у општем случају ослањају на неке од "
+"стандардних библиотека. Две најпознатије PDF библиотеке су <b>MuPDF</b> и "
+"<b>Poppler</b>. KOReader користи <b>MuPDF</b> библиотеку, тако да истицања "
+"која KOReader упише у PDF-ове тренутно нису видљива на PDF читачима који "
+"користе <b>Poppler</b> библиотеку. Листу компатибилности можете видети "
+"испод. ✅ значи да у тој апликацији можете видети KOReader истицања, ❌ "
+"значи да не можете. И ⚠️ значи да је апликацији потребан неки додатак да би "
+"их приказао. Листа је поређана абецедно по категоријама."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2949-32
 msgid ""
@@ -6748,70 +7103,75 @@ msgid ""
 "opening the file on your intended reader to check if the highlight is "
 "visible."
 msgstr ""
+"<span class=\"label_red\">УПОЗОРЕЊЕ</span> Ова листа није комплетна и можда "
+"је застарела. Стога вам саветујемо да компатибилност тестирате сами. "
+"Једноставно направите истицање у KOReader читачу, упишите га у PDF фајл, па "
+"покушајте да га отворите читачем који тестирате и проверите да ли се "
+"истицање приказује."
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2953-13
 msgid "✅ Chrome Browser (All platforms)"
-msgstr ""
+msgstr "✅ Chrome прегледач (све платформе)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2954-13
 msgid "✅ Deepin Reader (Linux)"
-msgstr ""
+msgstr "✅ Deepin Reader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2955-13
 msgid "✅ Firefox Browser (All platforms)"
-msgstr ""
+msgstr "✅ Firefox прегледач (све платформе)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2956-13
 msgid "✅ Ghostscript (All platforms)"
-msgstr ""
+msgstr "✅ Ghostscript (све платформе)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2957-13
 msgid "✅ MuPDF (Windows/Android)"
-msgstr ""
+msgstr "✅ MuPDF (Windows/Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2958-13
 msgid "⚠️ Zathura (if MuPDF plugin is enabled)"
-msgstr ""
+msgstr "⚠️ Zathura (ако је укључен MuPDF додатак)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2959-13
 msgid "❌ Adobe Acrobat Reader"
-msgstr ""
+msgstr "❌ Adobe Acrobat Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2960-13
 msgid "❌ Evince (Linux)"
-msgstr ""
+msgstr "❌ Evince (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2961-13
 msgid "❌ Foxit Reader"
-msgstr ""
+msgstr "❌ Foxit Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2962-13
 msgid "❌ LibreOffice Draw (as editor)"
-msgstr ""
+msgstr "❌ LibreOffice Draw (као едитор)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2963-13
 msgid "❌ Moon Reader (Android)"
-msgstr ""
+msgstr "❌ Moon Reader (Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2964-13
 msgid "❌ Okular (Linux)"
-msgstr ""
+msgstr "❌ Okular (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2965-13
 msgid "❌ SumatraPDF (Windows)"
-msgstr ""
+msgstr "❌ SumatraPDF (Windows)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2966-13
 msgid "❌ Xpdf (Linux)"
-msgstr ""
+msgstr "❌ Xpdf (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2967-13
 msgid "❌ Xreader (Linux)"
-msgstr ""
+msgstr "❌ Xreader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2971-9
 msgid "Important information about saving PDF highlights feature"
-msgstr ""
+msgstr "Важна информација у вези са функционалности чувања PDF истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2972-9
 msgid ""
@@ -6819,6 +7179,9 @@ msgid ""
 "you are planning to use this feature, you should understand how it works in "
 "order to avoid frustrating situations."
 msgstr ""
+"Пошто креирање истицања за каснију употребу може захтевати значајни труд, "
+"ако планирате да користите ову функционалност, требало би да разумете начин "
+"на који она ради и тако спречите фрустрирајуће ситуације."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2974-9
 msgid ""
@@ -6829,10 +7192,17 @@ msgid ""
 "but it can't know where they are in the file, so it can't modify them. "
 "Please continue reading for more information about this."
 msgstr ""
+"<b>КРАТАК РЕЗИМЕ:</b> ако желите могућност да обришете или извезете своја "
+"PDF истицања касније, морате да копирате <span class=\"ui\">.sdr фолдер</"
+"span> придружен вашој књизи када правите резервну копију или копирате књигу "
+"на друге уређаје. Без овог фолдера, KOReader још увек може да прикаже "
+"сачувана истицања, али не може да зна где се она налазе у фајлу, тако да не "
+"може да их измени. Молимо вас да наставите читање да бисте сазнали више о "
+"овоме."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2978-9
 msgid "How normal highlights work in KOReader"
-msgstr ""
+msgstr "Како у KOReader читачу раде обична истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2980-9
 msgid ""
@@ -6845,10 +7215,17 @@ msgid ""
 "folder</span> which is associated with your book, you will lose your "
 "highlights."
 msgstr ""
+"Када у KOReader читачу направите истицање, било да је то EPUB или PDF "
+"документ, ово истицање се уписује у фајл подешавања. На пример, ако читате "
+"<b>Alice in Wonderland.epub</b> имаћете фолдер под називом <span class=\"ui\""
+">Alice in Wonderland.sdr</span> у истом фолдеру у којем се налази и књига. "
+"Ваша истицања се чувају у фајлу унутар овог <span class=\"ui\">.sdr фолдера</"
+"span>. Ово значи да ако обришете тај <span class=\"ui\">.sdr фолдер</span> "
+"који је придружен књизи, изгубићете и своја истицања."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2984-9
 msgid "How PDF highlights work in KOReader"
-msgstr ""
+msgstr "Како у KOReader читачу раде PDF истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2985-9
 msgid ""
@@ -6860,6 +7237,13 @@ msgid ""
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
 msgstr ""
+"Функционалност PDF истицања ради на донекле различит начин од оног који је "
+"описан изнад. Као што смо раније рекли, када сачувате своја PDF истицања, "
+"она ће се директно уписати у PDF фајл, што значи да постају део самог фајла. "
+"То је разлог што тај PDF можете послати неком другом кориснику и он ће моћи "
+"да види истицања компатибилним PDF читачем. Неће им требати ваш <span class="
+"\"ui\">.sdr фолдер</span> који садржи запис ваших истицања јер су сада "
+"истицања директно уграђена у PDF фајл."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2987-9
 msgid ""
@@ -6867,6 +7251,9 @@ msgid ""
 "on an example. Imagine that you are reading a PDF book on your <b>e-reader</"
 "b> with KOReader:"
 msgstr ""
+"Хајде да на примеру објаснимо проблем који може да настане када користимо "
+"ову функционалност. Замислите на свом <b>e-читачу</b> PDF књигу читате "
+"програмом KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2990-13
 msgid ""
@@ -6874,6 +7261,8 @@ msgid ""
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
 msgstr ""
+"Правите истицања и укључена је опција <span class=\"ui\">Упиши истицања у "
+"PDF</span>, тако да како правите ова истицања, KOReader их чува у PDF фајл."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2991-13
 msgid ""
@@ -6882,12 +7271,17 @@ msgid ""
 "you didn't copy the <span class=\"ui\">.sdr folder</span>, only the PDF "
 "file)."
 msgstr ""
+"Затим желите наставити читање књиге на <b>телефону</b> програмом KOReader, "
+"тако да овај PDF фајл копирате са <b>e-читача</b> на <b>телефон</b> (али "
+"нисте копирали <span class=\"ui\">.sdr фолдер</span>, већ само PDF фајл)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2992-13
 msgid ""
 "When you open the book on your <b>phone</b> with KOReader, you will see that "
 "your highlights are still there."
 msgstr ""
+"Када KOReader читачем <b>телефону</b> отворите књигу, видећете да су "
+"истицања још увек ту."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2995-9
 msgid ""
@@ -6896,6 +7290,9 @@ msgid ""
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
 msgstr ""
+"Сада је ситуација на оба уређаја иста. KOReader и на <b>e-читачу</b> и на "
+"<b>телефону</b> приказује PDF фајл са истим истицањима. Али то само "
+"<b>изгледа</b> идентично, у суштини постоји велика разлика."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2997-9
 msgid ""
@@ -6904,6 +7301,9 @@ msgid ""
 "sdr folder</span>. But KOReader on your phone doesn't have this knowledge. "
 "It only has the PDF file."
 msgstr ""
+"KOReader на вашем <b>e-читачу</b> зна која истицања у овом PDF фајлу је "
+"направио KOReader јер има <span class=\"ui\">.sdr фолдер</span>. Али "
+"KOReader на вашем телефону то не зна. Он има само PDF фајл."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2999-9
 msgid ""
@@ -6913,6 +7313,11 @@ msgid ""
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
 msgstr ""
+"Разлика се јавља када покушате да обришете pdf истицања или да их извезете. "
+"Ваш <b>e-читач</b> може и да обрише и да извезе ова PDF истицања. Али "
+"KOReader на вашем <b>телефону</b> то не може, јер као што смо рекли, он нема "
+"<span class=\"ui\">.sdr фолдер</span> ваше књиге, тако да из његове "
+"перспективе, истицања у књизи изгледају као део оригиналне књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3001-9
 msgid ""
@@ -6920,11 +7325,14 @@ msgid ""
 "later, you have to copy the <span class=\"ui\">.sdr folder</span> associated "
 "with your book when you backup or copy your book to other devices."
 msgstr ""
+"Укратко, ако желите могућност да касније обришете или извезете PDF истицања, "
+"морате да копирате <span class=\"ui\">.sdr фолдер</span> придружен књизи "
+"када правите резервну копију или копирате књигу на друге уређаје."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3005-1
 msgctxt "user_guide/en.html+html.body.div.div:3005-1"
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (Оптичко препознавање карактера)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3006-5
 msgid ""
@@ -6934,22 +7342,32 @@ msgid ""
 "github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR Engine</a> for "
 "this task."
 msgstr ""
+"<b>OCR (Optical Character Recognition)</b> је процес издвајања текста из "
+"слика. У контексту KOReader читача, ово се у општем случају користи за "
+"издвајање текста из скенираних страница књиге у PDF фајловима. KOReader се "
+"за овај задатак ослања на <a href="
+"\"https://github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR "
+"Engine</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3009-5
 msgid "To use this feature you need to:"
-msgstr ""
+msgstr "Ако желите да користите ову функционалност, потребно је да:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3011-9
 msgid ""
 "Install <span class=\"external\">Tesseract</span> language data to your "
 "KOReader"
 msgstr ""
+"Инсталирате у KOReader <span class=\"external\">Tesseract</span> језичке "
+"податке"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3012-9
 msgid ""
 "Add newly installed languages to koreader/defaults.lua configuration file "
 "(necessary only if your language is other than English or Chinese)"
 msgstr ""
+"Додате ново инсталиране језике у koreader/defaults.lua конфигурациони фајл ("
+"неопходно је у случају да је ваш језик није енглески или кинески)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3016-5
 msgid ""
@@ -6959,15 +7377,20 @@ msgid ""
 "koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
 "pages\">related wiki page</a>."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Дугмићи у OCR менију <b>неће "
+"функционисати</b> све док не инсталирате неопходне Tesseract фајлове. Детаље "
+"овог процеса можете да пронађете на нашој <a href=\"https://github.com/"
+"koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
+"pages\">вики страници о овој теми</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3024-1
 msgid "READING COMICS AND MANGA"
-msgstr ""
+msgstr "ЧИТАЊЕ СТРИПОВА И МАНГИ"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3026-5
 msgctxt "user_guide/en.html+html.body.div.div:3026-5"
 msgid "Adjusting the page refresh interval"
-msgstr ""
+msgstr "Подешавање интервала освежавања странице"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3028-5
 msgid ""
@@ -6976,6 +7399,11 @@ msgid ""
 "numbers without problem. But images can leave more residue and cause "
 "ghosting, especially depending on the panel of your e-reader."
 msgstr ""
+"Стриповима је у општем случају потребно чешће освежавање страница него "
+"садржају чистог текста. За обичан текст, интервал освежавања странице можете "
+"без проблема да поставите на веће бројеве. Али слике могу да оставе више "
+"остатака и да изазову појаву такозваних духова, што посебно зависи од врсте "
+"панела уграђеног у ваш e-читач."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3030-5
 msgid ""
@@ -6986,10 +7414,17 @@ msgid ""
 "text only books. So when you open a comic, you can switch to more frequent "
 "refresh with a simple tap or swipe (or vice versa)."
 msgstr ""
+"KOReader вам омогућава да било коју гестикулацију доделите различитим "
+"учесталостима освежавања. На пример, можете да поставите <b>превлачење "
+"навише по левој ивици</b> на освежавање <span class=\"ui\">свака страница</"
+"span> када читате стрипове и поставите <b>превлачење наниже по левој ивици</"
+"b> на oсвежавање <span class=\"ui\">свака x страница</span> за чисто "
+"текстуалне књиге. Тако да када отворите стрип, можете да укључите чешће "
+"освежавање простим тапом или превлачењем (или обрнуто)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3032-5
 msgid "This action is under:"
-msgstr ""
+msgstr "Ова акција се налази у:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3034-5
 msgid ""
@@ -6997,22 +7432,29 @@ msgid ""
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
 "lights section / Full screen refresh rate"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама / "
+"одељак Екран и светла / Освежавање целог екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3038-1
 msgid "Panel zoom feature"
-msgstr ""
+msgstr "Функционалност зумирања табле"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3040-5
 msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
 msgstr ""
+"Ова функција олакшава читање стрипова на мањим екранима. Можете да је "
+"укључите док читате <b>PDF, DJVU, CBZ или CBT</b> документ из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3042-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Зумирање табле (манга/стрип)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3044-5
 msgid ""
@@ -7020,6 +7462,9 @@ msgid ""
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
 msgstr ""
+"Када је ова опција укључена, KOReader покушава да пронађе границе "
+"правоугаоних панела на екрану. Ако на панел извршите дуги притисак, KOReader "
+"се зумира и приказује само тај панел."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3046-5
 msgid ""
@@ -7031,10 +7476,18 @@ msgid ""
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
 msgstr ""
+"Као што већ погађате, ова функционалност најбоље ради у стриповима који "
+"имају чисте границе панела. Такође, услед овог проблема одређивања граница, "
+"у овом режиму нема <b>окретања странице</b> за скок на наредни панел. Морате "
+"најпре да затворите зумирани панел, па да извршите дуги притисак на наредни. "
+"Да бисте то урадили, једноставно <span class=\"ui\">превуците наниже</span> "
+"овај зумирани панел. Такође можете да употребите било коју <span class=\"ui\""
+">гестикулацију мултипревлачења</span> (било коју комбинацију горе, доле, "
+"лево, десно) да напустите овај приказ."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3048-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "Процедура може да се види испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3052-5
 msgid ""
@@ -7043,11 +7496,16 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
+"Ако ову функцију желите да користите и са осталим типовима фајлова као што "
+"су EPUB, FB2, HTML или фајлови слика, потребно је да фајл отворите другим "
+"механизмом: у <span class=\"ui\">Прегледачу фајлова</span> извршите дуги тап "
+"на име фајла, тапните на <span class=\"ui\">Отвори помоћу…</span> и "
+"изаберите <span class=\"ui\">MuPDF</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3056-1
 msgctxt "user_guide/en.html+html.body.div.div:3056-1"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Скок на наредни фајл"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3058-5
 msgid ""
@@ -7057,6 +7515,12 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Када дођете до последње странице књиге, KOReader вам приказује дијалог. У "
+"њему се налази акција <span class=\"ui\">Отвори наредни фајл</span> која ће "
+"да отвори наредни фајл у истом директоријуму у којем се налази и текућа "
+"књига. Тако да серије можете да поставите у посебне директоријуме и да "
+"епизоде читате једну за другом, без потребе да одлазите назад у <span class="
+"\"ui\">Прегледач фајлова</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3062-5
 msgid ""
@@ -7067,16 +7531,25 @@ msgid ""
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
 msgstr ""
+"Када отвара овај наредни фајл, KOReader прескаче фајлове које сте означили "
+"као <b>завршене</b>. Ова функција је корисна на пример, када имате фолдер "
+"манга фајлова и неке од њих сте већ прочитали. Фајл можете да означите као "
+"прочитан на крају дијалога приказаног изнад. Такође можете да га означите из "
+"<span class=\"ui\">Прегледача фајлова</span> тако што извршите дуги притисак "
+"на фајл. Након копирања фајлова на уређај можете да:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3065-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
 msgstr ""
+"Отворите <span class=\"ui\">Прегледач фајлова</span> у програму KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3066-5
 msgid ""
 "Long press on the ones you already finished and tap <span class=\"ui\">Mark "
 "as finished</span>"
 msgstr ""
+"Извршите дуги притисак на оне које сте већ прочитали и тапнете на <span "
+"class=\"ui\">Означи као прочитану</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3069-5
 msgid ""
@@ -7084,11 +7557,14 @@ msgid ""
 "file</span> at the end of the book. KOReader will skip the ones you have "
 "already read."
 msgstr ""
+"Сада све фајлове можете да читате тако што на крају књиге тапнете на <span "
+"class=\"ui\">Отвори наредни фајл</span>. KOReader ће да прескочи оне које "
+"сте већ прочитали."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3072-1
 msgctxt "user_guide/en.html+html.body.div.div:3072-1"
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Оптимизација манге за читач"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3074-5
 msgid ""
@@ -7096,10 +7572,13 @@ msgid ""
 "that can make your experience better. Preparing your own manga files is the "
 "best solution if you're not satisfied with how comics look on your device."
 msgstr ""
+"Ако на e-ink уређају читате манга књиге постоје неки савети којима можете да "
+"унапредите искуство читања. Ако нисте задовољни како стрипови изгледају на "
+"уређају који користите, најбоље решење је да сами припремите манга фајлове."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
 msgid "Which file type to use"
-msgstr ""
+msgstr "Који тип фајла треба да се користи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3078-5
 msgid ""
@@ -7110,6 +7589,14 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
+"Типови фајла као што су MOBI и EPUB нису погодни за обраду садржаја који се "
+"примарно састоји од слика (нпр., манге/стрипови). Подршка за <b>MOBI</b> у "
+"KOReader читачу је минимално до никаква, а приоритети исцртавања текста код "
+"<b>EPUB</b> формата могу да изазову проблеме када се приказују слике које "
+"покривају целу страницу. За више техничких детаља, молимо вас да посетите "
+"овај <a href="
+"\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\""
+">GitHub проблем</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3080-5
 msgid ""
@@ -7120,6 +7607,12 @@ msgid ""
 "comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</"
 "b> files but use <b>TAR</b> archive format."
 msgstr ""
+"Најбоља опција је да изградите <b>CBZ</b> фајл који много боље функционише у "
+"програму KOReader. Фајл са <b>.cbz</b> екстензијом је zip фајл (без "
+"компресије) који представља колекцију слика, најчешће <b>.png</b> или "
+"<b>.jpeg</b> фајлова, организованих у странице стрипа. KOReader такође може "
+"да отвори и <b>CBT</b> фајлове, који су слични са <b>CBZ</b> фајловима, али "
+"користе формат <b>TAR</b> архиве."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3082-5
 msgid ""
@@ -7131,10 +7624,18 @@ msgid ""
 "applying dithering</b> so that eink-rendered gradients are smoothly dithered "
 "without jagged layers."
 msgstr ""
+"Најједноставнији начин да конвертујете мангу у <b>CBZ</b> је да са разних "
+"веб сајтова преузмете мангу као слике, па да их затим конвертујете програмом "
+"<span class=\"external\">Kindle Comic Converter</span> (<a href="
+"\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>)"
+". Постоје нека корисна подешавања као што су <b>ауто ротирање подела од две "
+"странице на положену оријентацију и примена дитеринга</b> тако да су "
+"градијенти исцртани на e-ink екрану глатко дитеровани, без појаве назубљених "
+"слојева."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3084-1
 msgid "Which resolution to use"
-msgstr ""
+msgstr "Која резолуција би требало да се користи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3085-5
 msgid ""
@@ -9239,132 +9740,106 @@ msgid "Screen and lights"
 msgstr "Екран и светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3859-17
-#, fuzzy
 msgid "Show frontlight dialog"
 msgstr "Прикажи дијалог предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3860-17
-#, fuzzy
 msgid "Toggle frontlight"
 msgstr "Укљ./Искљ. предње светло"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3861-17
-#, fuzzy
 msgid "Set frontlight brightness"
 msgstr "Постави осветљај предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3862-17
-#, fuzzy
 msgid "Increase frontlight brightness"
 msgstr "Повећај осветљај предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3863-17
-#, fuzzy
 msgid "Decrease frontlight brightness"
 msgstr "Смањи осветљај предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3864-17
-#, fuzzy
 msgid "Set frontlight warmth"
 msgstr "Постави топлину предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3865-17
-#, fuzzy
 msgid "Increase frontlight warmth"
 msgstr "Повећај топлину предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3866-17
-#, fuzzy
 msgid "Decrease frontlight warmth"
 msgstr "Смањи топлину предњег светла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3867-17
-#, fuzzy
 msgid "Toggle night mode"
 msgstr "Укљ./Искљ. ноћни режим"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3868-17
-#, fuzzy
 msgid "Set night mode"
 msgstr "Постави ноћни режим"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3869-17
-#, fuzzy
 msgid "Full screen refresh"
 msgstr "Освежавање целог екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3870-17
-#, fuzzy
 msgid "Full refresh rate (always)"
 msgstr "Пуна учесталост освежавања (увек)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3871-17
-#, fuzzy
 msgid "Full refresh rate (not in night mode)"
 msgstr "Пуна учесталост освежавања (ван ноћног режима)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3872-17
-#, fuzzy
 msgid "Full refresh rate (in night mode)"
 msgstr "Пуна учесталост освежавања (у ноћном режиму)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3873-17
-#, fuzzy
 msgid "Always flash on chapter boundaries"
 msgstr "Увек трепни на границама поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3874-17
-#, fuzzy
 msgid "Toggle flashing on chapter boundaries"
 msgstr "Укљ./Искљ. трептање на границама поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3875-17
-#, fuzzy
 msgid "Never flash on chapter's 2nd page"
 msgstr "Никад не трепћи на другој страници поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
-#, fuzzy
 msgid "Toggle flashing on chapter's 2nd page"
 msgstr "Укљ./Искљ. трептање на другој страници поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
-#, fuzzy
 msgid "Always flash on pages with images"
 msgstr "Увек трепћи на страницама са сликама"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
-#, fuzzy
 msgid "Toggle flashing on pages with images"
 msgstr "Укљ./Искљ. трептање на страницама са сликама"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
-#, fuzzy
 msgid "Auto warmth off"
 msgstr "Искључи аутоматску топлину"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3880-17
-#, fuzzy
 msgid "Auto warmth use sun position"
 msgstr "Аутоматска топлина користи позицију Сунца"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3881-17
-#, fuzzy
 msgid "Auto warmth use schedule"
 msgstr "Аутоматска топлина користи распоред"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3882-17
-#, fuzzy
 msgid "Auto warmth use closer midnight"
 msgstr "Аутоматска топлина користи близину поноћи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3883-17
-#, fuzzy
 msgid "Auto warmth use closer noon"
 msgstr "Аутоматска топлина користи близину поднева"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3884-17
-#, fuzzy
 msgid "Auto warmth cycle through modes"
 msgstr "Аутоматска топлина кружи по режимима"
 
@@ -9373,38 +9848,31 @@ msgid "Reflowable documents"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
-#, fuzzy
 msgid "Font face"
 msgstr "Фонт"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3891-17
-#, fuzzy
 msgid "Increase font size"
 msgstr "Увећај величину фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3892-17
-#, fuzzy
 msgid "Decrease font size"
 msgstr "Смањи величину фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3893-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3893-17"
 msgid "Font size"
 msgstr "Величина фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3894-17
-#, fuzzy
 msgid "Word spacing"
 msgstr "Размак између речи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3895-17
-#, fuzzy
 msgid "Word expansion"
 msgstr "Експанзија речи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3896-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3896-17"
 msgid "Contrast"
 msgstr "Контраст"
@@ -9450,7 +9918,6 @@ msgid "Render mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
-#, fuzzy
 msgid "Zoom"
 msgstr "Зумирање"
 
@@ -9460,7 +9927,6 @@ msgid "Line spacing"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
-#, fuzzy
 msgid "Alt status bar"
 msgstr "Алтернативна статусна линија"
 
@@ -9481,127 +9947,103 @@ msgid "Invert images"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3917-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3917-5"
 msgid "File browser"
 msgstr "Прегледач фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3919-13
-#, fuzzy
 msgid "Set display mode"
 msgstr "Постави режим приказа"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3920-13
-#, fuzzy
 msgid "Sort by"
 msgstr "Сортирај по"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3921-13
-#, fuzzy
 msgid "Reverse sorting"
 msgstr "Обрнуто сортирање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3922-13
-#, fuzzy
 msgid "Folders and files mixed"
 msgstr "Директоријуми и фајлови измешани"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3923-13
-#, fuzzy
 msgid "Show plus menu"
 msgstr "Прикажи плус мени"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3924-13
-#, fuzzy
 msgid "Toggle select mode"
 msgstr "Укљ./Искљ. режим избора"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-13
-#, fuzzy
 msgid "Refresh content"
 msgstr "Освежи садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3926-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3926-13"
 msgid "Folder shortcuts"
-msgstr "Директоријумске пречице"
+msgstr "Пречице фолдера"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3927-13
-#, fuzzy
 msgid "File search"
 msgstr "Претрага фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-13
-#, fuzzy
 msgid "Last file search results"
 msgstr "Резултати последње претраге фајла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3929-13
-#, fuzzy
 msgid "Folder up"
 msgstr "Директоријум навише"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3930-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3930-13"
 msgid "Go to page"
 msgstr "Иди на страну"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3931-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3931-13"
 msgid "Back"
 msgstr "Натраг"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3932-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3932-13"
 msgid "Export all notes in all books in history"
 msgstr "Извези све белешке у свим књигама из историје"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3933-13
-#, fuzzy
 msgid "OPDS catalog"
 msgstr "Каталог типа OPDS"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3937-9
-#, fuzzy
 msgid "Reader"
 msgstr "Читач"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3939-17
-#, fuzzy
 msgid "Show bottom menu"
 msgstr "Прикажи мени на дну"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3940-17
-#, fuzzy
 msgid "Toggle status bar"
 msgstr "Укљ./Искљ. статусну линију"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3941-17
-#, fuzzy
 msgid "Toggle chapter progress bar"
 msgstr "Укљ./Искљ. траку напретка поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3942-17
-#, fuzzy
 msgid "Previous chapter"
 msgstr "Претходно поглавље"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3943-17
-#, fuzzy
 msgid "Next chapter"
 msgstr "Наредно поглавље"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-17
-#, fuzzy
 msgid "First page"
 msgstr "Прва страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3945-17
-#, fuzzy
 msgid "Last page"
 msgstr "Последња страница"
 
@@ -9610,107 +10052,87 @@ msgid "Random page"
 msgstr "Насумично изабрана страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-17
-#, fuzzy
 msgid "Turn pages"
 msgstr "Окрећи странице"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3948-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3948-17"
 msgid "Go to page"
 msgstr "Иди на страну"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-17
-#, fuzzy
 msgid "Skim document"
 msgstr "Прелети по документу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3950-17
-#, fuzzy
 msgid "Previous bookmark"
 msgstr "Претходни маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3951-17
-#, fuzzy
 msgid "Next bookmark"
 msgstr "Наредни маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3952-17
-#, fuzzy
 msgid "First bookmark"
 msgstr "Први маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
-#, fuzzy
 msgid "Last bookmark"
 msgstr "Последњи маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
-#, fuzzy
 msgid "Latest bookmark"
 msgstr "Најновији маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3955-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3955-17"
 msgid "Back"
 msgstr "Натраг"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3956-17
-#, fuzzy
 msgid "Back to previous location"
 msgstr "Натраг на претходно место"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
-#, fuzzy
 msgid "Forward to next location"
 msgstr "Напред на наредно место"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
-#, fuzzy
 msgid "Follow nearest link"
 msgstr "Прати најближи линк"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
-#, fuzzy
 msgid "Follow nearest internal link"
 msgstr "Прати најближи унутрашњи линк"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
-#, fuzzy
 msgid "Add current location to history"
 msgstr "Додај текуће место на историју локација"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
-#, fuzzy
 msgid "Clear location history"
 msgstr "Обриши историју локација"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3962-17"
 msgid "Fulltext search"
 msgstr "Претраживање комплетног текста"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3963-17
-#, fuzzy
 msgid "Last fulltext search results"
 msgstr "Резултати последње претраге комплетног текста"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3964-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3964-17"
 msgid "Table of contents"
 msgstr "Садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3965-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3965-17"
 msgid "Book map"
 msgstr "Мапа књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3966-17
-#, fuzzy
 msgid "Book map (overview)"
 msgstr "Мапа књиге (преглед)"
 
@@ -9719,120 +10141,97 @@ msgid "Page browser"
 msgstr "Прегледач страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3968-17"
 msgid "Bookmarks"
 msgstr "Маркери књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3969-17
-#, fuzzy
 msgid "Bookmark search"
 msgstr "Претрага маркера"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3970-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3970-17"
 msgid "Toggle bookmark"
 msgstr "Укљ./Искљ. маркер"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3971-17
-#, fuzzy
 msgid "Book status"
 msgstr "Статус књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3972-17
-#, fuzzy
 msgid "Book information"
 msgstr "Информације о књизи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3973-17
-#, fuzzy
 msgid "Book description"
 msgstr "Опис књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3974-17
-#, fuzzy
 msgid "Book cover"
 msgstr "Корице књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
-#, fuzzy
 msgid "Translate current page"
 msgstr "Преведи текућу страну"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
-#, fuzzy
 msgid "Invert page turn taps and swipes"
 msgstr "Обрни тапове и превлачења за окретање странице"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3977-17
-#, fuzzy
 msgid "Toggle page turn direction"
 msgstr "Мењај смер окретања страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
-#, fuzzy
 msgid "Toggle custom TOC"
 msgstr "Укљ./Искљ. произвољни садржај"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
-#, fuzzy
 msgid "Toggle custom hidden flows"
 msgstr "Укљ./Искљ. произвољних скривених токова"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
-#, fuzzy
 msgid "Set highlight action"
 msgstr "Постави акцију истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3981-17
-#, fuzzy
 msgid "Cycle highlight action"
 msgstr "Кружи по акцијама истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3982-17
-#, fuzzy
 msgid "Cycle highlight style"
 msgstr "Кружи по стиловима истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3983-17
-#, fuzzy
 msgid "Save book metadata"
 msgstr "Сачувај метаподатке књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
-#, fuzzy
 msgid "Export annotations"
 msgstr "Извоз белешки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3985-17
-#, fuzzy
 msgid "Export all notes in current book"
 msgstr "Извези све белешке у текућој књизи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3986-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3986-17"
 msgid "Export all notes in all books in history"
 msgstr "Извези све белешке у свим књигама из историје"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
-#, fuzzy
 msgid "Move current book to archive"
 msgstr "Премести текућу књигу у архиву"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
-#, fuzzy
 msgid "Reading statistics: current book"
 msgstr "Статистика читања: текућа књига"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
-#, fuzzy
 msgid "Push progress from this device"
 msgstr "Гурај напредак са овог уређаја"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3990-17
-#, fuzzy
 msgid "Pull progress from other devices"
 msgstr "Повлачи напредак са других уређаја"
 
@@ -9841,32 +10240,26 @@ msgid "Fixed layout documents"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3996-17
-#, fuzzy
 msgid "Toggle page flipping"
 msgstr "Укљ./Искљ. окретање страница"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3997-17
-#, fuzzy
 msgid "Toggle bookmark flipping"
 msgstr "Укљ./Искљ. окретање маркера"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
-#, fuzzy
 msgid "Toggle reflow"
 msgstr "Укљ./Искљ. преслагање текста"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
-#, fuzzy
 msgid "Zoom mode"
 msgstr "Режим зумирања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
-#, fuzzy
 msgid "Change zoom factor"
 msgstr "Промени фактор зумирања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
-#, fuzzy
 msgid "Toggle panel zoom"
 msgstr "Укљ./Искљ. зумирање табле"
 
@@ -9875,42 +10268,34 @@ msgid "Page crop"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
-#, fuzzy
 msgid "Margin"
 msgstr "Маргина"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
-#, fuzzy
 msgid "Horizontal overlap"
 msgstr "Хоризонтално преклапање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
-#, fuzzy
 msgid "Vertical overlap"
 msgstr "Вертикално преклапање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
-#, fuzzy
 msgid "Fit"
 msgstr "Уклопи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
-#, fuzzy
 msgid "Zoom to"
 msgstr "Зумирај на"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
-#, fuzzy
 msgid "Number of columns/rows to split page"
 msgstr "Број колона/редова за дељење странице"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4009-17
-#, fuzzy
 msgid "Zoom factor"
 msgstr "Зум фактор"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4010-17
-#, fuzzy
 msgid "Direction"
 msgstr "Смер"
 
@@ -9928,18 +10313,15 @@ msgid "Line spacing"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
-#, fuzzy
 msgid "Alignment"
 msgstr "Поравнање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4015-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4015-17"
 msgid "Font size"
 msgstr "Величина фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4016-17
-#, fuzzy
 msgid "Change font size"
 msgstr "Промени величину фонта"
 
@@ -9948,18 +10330,15 @@ msgid "Word gap"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
-#, fuzzy
 msgid "Reflow"
 msgstr "Преслагање"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4019-17"
 msgid "Contrast"
 msgstr "Контраст"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
-#, fuzzy
 msgid "Dewatermark"
 msgstr "Уклањање воденог жига"
 
@@ -9972,7 +10351,6 @@ msgid "Document language"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
-#, fuzzy
 msgid "Forced OCR"
 msgstr "Форсирани OCR"
 
@@ -10074,7 +10452,6 @@ msgid "Navigate to home"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
-#, fuzzy
 msgid "Home"
 msgstr "Почетак"
 
@@ -10103,7 +10480,6 @@ msgid "Exit application"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.table.tr.td:4085-13user_guide/en."
 "html+html.body.div.div.table.tr.td:4085-13"
@@ -10138,13 +10514,11 @@ msgid "Back/exit application"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4101-13"
 msgid "Esc"
 msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4104-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4104-13"
 msgid "Bookmarks"
 msgstr "Маркери књиге"
@@ -10154,7 +10528,6 @@ msgid "Shift + Left"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4108-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4108-13"
 msgid "Toggle bookmark"
 msgstr "Укљ./Искљ. маркер"
@@ -10164,17 +10537,15 @@ msgid "Shift + Right"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4112-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4112-13"
 msgid "Dictionary lookup"
-msgstr "Претрага речника"
+msgstr "Претрага у речнику"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4113-13
 msgid "Ctrl + D (Alt + D on Kindles)"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4116-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4116-13"
 msgid "Wikipedia lookup"
 msgstr "Упит Википедије"
@@ -10184,7 +10555,6 @@ msgid "Ctrl + W"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4120-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4120-13"
 msgid "Fulltext search"
 msgstr "Претраживање комплетног текста"
@@ -10202,7 +10572,6 @@ msgid "Ctrl + F"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4129-17
-#, fuzzy
 msgid "Links"
 msgstr "Линкови"
 
@@ -10293,7 +10662,6 @@ msgid "Exit highlighting mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4177-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4177-13"
 msgid "Esc"
 msgstr "Esc"
@@ -10311,7 +10679,6 @@ msgid "Left-Right / Up-Down<br>Page Up-Page Down"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4188-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4188-13"
 msgid "Table of contents"
 msgstr "Садржај"
@@ -10321,7 +10688,6 @@ msgid "Shift + Up"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4192-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4192-13"
 msgid "Book map"
 msgstr "Мапа књиге"
@@ -10823,7 +11189,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4411-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4411-1"
 msgid "Profiles"
 msgstr "Профили"
@@ -11731,7 +12096,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4711-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:4711-13"
 msgid "Restart KOReader"
 msgstr "Поново покрени KOReader"
