@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-12 15:06+0000\n"
-"PO-Revision-Date: 2025-08-12 15:04+0000\n"
+"PO-Revision-Date: 2025-08-13 04:28+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
-"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sr/>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -158,7 +158,7 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"ГОРЊИ МЕНИ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Стил истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:879-17
@@ -316,7 +316,7 @@ msgstr "Статусна линија"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:946-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:946-17"
 msgid "Top Menu Items"
-msgstr "Ставке горњег менија"
+msgstr "Ставке менија на врху"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:947-17
 msgctxt ""
@@ -473,7 +473,7 @@ msgstr "Приказ осталих типова фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1007-5
 msgid "Collections <span class=\"microns\"></span>"
-msgstr "Колекције <span class=\"microns\"></span>"
+msgstr "Збирке <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1008-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1008-5"
@@ -817,9 +817,9 @@ msgid ""
 "filtering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 msgstr ""
 "Додајете књиге у <span class=\"ui\">Омиљено</span> да бисте им брзо "
-"приступили, или креирате сопствене <span class=\"ui\">Колекције</span> са "
-"сортирањем и филтрирањем <a href=\"#L2-collections\" "
-"class=\"internalink\"></a>"
+"приступили, или креирате сопствене <span class=\"ui\">Збирке</span> са "
+"сортирањем и филтрирањем <a href=\"#L2-collections\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1119-1
 msgid "Fly through your book with powerful tools"
@@ -1287,9 +1287,9 @@ msgid ""
 "<span class=\"ui\">Collections</span> - Personalized book lists you created. "
 "Dedicated section is here: <a href=\"#L2-collections\">Collections</a>"
 msgstr ""
-"<span class=\"ui\">Колекције</span> - персонализоване листе књига које ви "
-"креирате. Посебан одељак се налази овде: <a href=\"#L2-"
-"collections\">Колекције</a>"
+"<span class=\"ui\">Збирке</span> - персонализоване листе књига које ви "
+"креирате. Посебан одељак се налази овде: <a href=\"#L2-collections\""
+">Збирке</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1248-5
 msgid "You can change how these screens look from:"
@@ -2799,9 +2799,9 @@ msgid ""
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
 "<span class=\"ui\">ГЛАВНИ:</span> Овај мени садржи алате којима својим "
-"књигама приступате кроз <b>историју, омиљене, колекције</b>. У овом менију "
-"се такође налазе и <b>информације о књизи</b>, <b>ажурирање</b> и <b>излаз</"
-"b> из програма."
+"књигама приступате кроз <b>историју, омиљене, збирке</b>. У овом менију се "
+"такође налазе и <b>информације о књизи</b>, <b>ажурирање</b> и <b>излаз</b> "
+"из програма."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1693-1
 msgctxt "user_guide/en.html+html.body.div.div:1693-1"
@@ -6290,7 +6290,7 @@ msgid ""
 msgstr ""
 "Када тапнете на текст који је већ истакнут <b>са додатом белешком</b>, "
 "приказаће вам се следећи искачући мени. Тапните на <span class=\"ui\">Уреди "
-"истицање</span> и отвориће вам се горњи мени у којем можете да уредите и "
+"истицање</span> и отвориће вам се мени изнад у којем можете да уредите и "
 "истицање и напомену везану за њега:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2688-5
@@ -7609,10 +7609,10 @@ msgid ""
 msgstr ""
 "Најбоља опција је да изградите <b>CBZ</b> фајл који много боље функционише у "
 "програму KOReader. Фајл са <b>.cbz</b> екстензијом је zip фајл (без "
-"компресије) који представља колекцију слика, најчешће <b>.png</b> или <b>."
-"jpeg</b> фајлова, организованих у странице стрипа. KOReader такође може да "
-"отвори и <b>CBT</b> фајлове, који су слични са <b>CBZ</b> фајловима, али "
-"користе формат <b>TAR</b> архиве."
+"компресије) који представља збирку слика, најчешће <b>.png</b> или <b>.jpeg</"
+"b> фајлова, организованих у странице стрипа. KOReader такође може да отвори "
+"и <b>CBT</b> фајлове, који су слични са <b>CBZ</b> фајловима, али користе "
+"формат <b>TAR</b> архиве."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3082-5
 msgid ""
@@ -7697,10 +7697,13 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Page turns / Invert page turn "
 "tap and swipes / buttons"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Тапови и гестикулације / Окретања странице / Обрни тапове "
+"и превлачења за окретање странице / дугмад"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-1
 msgid "Advanced preparation of manga"
-msgstr ""
+msgstr "Напредна припрема манги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3096-5
 msgid "The following is an example procedure to process one manga file:"
@@ -7712,18 +7715,25 @@ msgid ""
 "<a href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
 "kcc</a>"
 msgstr ""
+"Преузмите <span class=\"external\">Kindle Comic Converter (KCC)</span> са "
+"адресе <a href=\"https://github.com/ciromattia/kcc\">https://github.com/"
+"ciromattia/kcc</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3100-9
 msgid ""
 "Download your manga from the source of your choosing (i.e. <span "
 "class=\"external\">HakuNeko</span>)"
 msgstr ""
+"Преузмите мангу из извора који желите да користите (нпр. <span class="
+"\"external\">HakuNeko</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3101-9
 msgid ""
 "Unpack the manga file. Now you should have a directory that contains only "
 "images (or subdirectories with images, no archives)"
 msgstr ""
+"Распакујте манга фајл. Сада би требало да имате директоријум који садржи "
+"само слике (или поддиректоријуме са сликама, без архива)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3102-9
 msgid ""
@@ -7731,30 +7741,35 @@ msgid ""
 "directory will produce a single <b>CBZ</b> file, so if you want to make "
 "several volumes at once, select multiple directories at once"
 msgstr ""
+"Обрадите овај директоријум са <span class=\"external\">KCC</span>. Сваки "
+"директоријум ће да креира један <b>CBZ</b> фајл, тако да ако желите одједном "
+"да направите неколико томова, изаберите више директоријума одједном"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3105-5
 msgid "Some useful settings of <span class=\"external\">KCC</span>:"
-msgstr ""
+msgstr "Нека корисна подешавања програма <span class=\"external\">KCC</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3107-5
 msgid ""
 "<b>Spread splitter:</b> This feature detects double pages and allows you to "
 "rotate or cut them in two."
 msgstr ""
+"<b>Spread splitter:</b> ова функција детектује двоструке странице и "
+"омогућава вам да их ротирате или да из пресечете на две странице."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3109-5
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
-msgstr ""
+msgstr "<b>Upscaling:</b> повећава слике које су мање од циљне резолуције."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3115-1
 msgctxt "user_guide/en.html+html.body.div.div:3115-1"
 msgid "Other manga tips"
-msgstr ""
+msgstr "Остали манга савети"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3119-1
 msgid "Immersive mode in KOReader"
-msgstr ""
+msgstr "Окружујући режим у програму KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3121-5
 msgid ""
@@ -7764,15 +7779,20 @@ msgid ""
 "hide the bottom progress bar while reading your manga in KOReader. So you "
 "will have an immersive full screen view of your manga without obstructions."
 msgstr ""
+"Ако у манги желите да уживате на окружујући начин, док креирате <b>CBZ</b> "
+"обезбедите да сте у <b>KCC</b> изабрали потпуно исту резолуцију као што је "
+"резолуција екрана вашег уређаја. Такође, док читате мангу KOReader можете да "
+"сакријете траку напретка на дну. Тако ћете на мангу добити окружујући поглед "
+"пуног екрана, без сметњи."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3125-1
 msgid "Extra step for smooth gradients"
-msgstr ""
+msgstr "Додатни корак за глатке градијенте"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3127-5
 msgctxt "user_guide/en.html+html.body.div.p:3127-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! НАПРЕДНО"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3129-5
 msgid ""
@@ -7781,6 +7801,11 @@ msgid ""
 "rendered gradients will be smoothly dithered without jagged layers. This "
 "step will produce fine-tuned manga volumes which look better in KOReader."
 msgstr ""
+"Када употребите <span class=\"external\">KCC</span> да креирате <b>CBZ</b> "
+"фајл, на слике можете да примените додатно <b>дитеровање</b>. На тај начин "
+"ће се градијенти на e-ink екрану исцртавати глатко, без назубљених слојева. "
+"Овај корак ће креирати фино подешене манга томове који много боље изгледају "
+"у програму KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3132-5
 msgid ""
@@ -7791,12 +7816,20 @@ msgid ""
 "class=\"external\">ImageMagick</span> and use it from the command line to "
 "process many images at once."
 msgstr ""
+"За обраду слика можете да употребите <span class=\"external\">ImageMagick</"
+"span>. <span class=\"external\">ImageMagick</span> је моћна софтверска свита "
+"отвореног кода која служи за приказивање, креирање, конвертовање, измену и "
+"уређивање растерских слика. Можете да преузмете <span class=\"external\""
+">ImageMagick</span> и да га из командне линије користите за истовремену "
+"обраду великог броја слика."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3135-9
 msgid ""
 "Unpack the prepared <b>CBZ</b> file that you created with <span "
 "class=\"external\">KCC</span>,"
 msgstr ""
+"Распакујте припремљени <b>CBZ</b> фајл који сте креирали програмом <span "
+"class=\"external\">KCC</span>,"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3136-9
 msgid ""
@@ -7805,16 +7838,21 @@ msgid ""
 "class=\"external\">Yandex Disk</span>) which contains two <b>batch files (."
 "BAT)</b> and a <b>GIF</b> color template."
 msgstr ""
+"Преузмите следећи фајл <a href=\"https://disk.yandex.com/d/glEebjmPYYp7og\""
+">dither_pack.zip</a> (који се налази на <span class=\"external\">Yandex "
+"Disk</span>) и садржи два <b>batch фајла (.BAT)</b> и <b>GIF</b> шаблон боја."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3137-9
 msgid "Extract these three files next to your images that will be processed"
-msgstr ""
+msgstr "Распакујте та три фајла уз слике које треба да се обраде"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3138-9
 msgid ""
 "Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution "
 "to your device resolution (in both places in the <b>BAT</b> file)."
 msgstr ""
+"Уредите <b>_magick_manga_ditherN_resize.bat</b> и промените резолуцију тако "
+"да одговара резолуцији вашег уређаја (на оба места у <b>BAT</b> фајлу)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.p:3139-9
 msgid ""
@@ -7822,46 +7860,58 @@ msgid ""
 "images in the directory with the processed ones. So make sure that you have "
 "a copy of them in some other directory if you want to keep the originals."
 msgstr ""
+"<span class=\"label_red\">УПОЗОРЕЊЕ</span> Наредни корак ће заменити све "
+"слике у директоријуму обрађеним сликама. Обавезно направите копију у неки "
+"други директоријум ако желите да задржите и оригинале."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3141-9
 msgid ""
 "Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images."
 msgstr ""
+"Покрените <b>_magick_manga_ditherN_resize.bat</b> да измените величину слика "
+"и да примените дитер."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3142-9
 msgid ""
 "Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to "
 "pack all the processed images into a <b>CBZ</b> archive."
 msgstr ""
+"Под претпоставком да имате инсталиран програм <b>7-Zip</b>, покрените "
+"<b>_batch_archive.bat</b> да обрађене слике спакујете у <b>CBZ</b> архиву."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3147-1
 msgid "Reversing the page turn direction for authentic Japanese manga"
-msgstr ""
+msgstr "Обртање смера окретања страница за аутентичне јапанске манге"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3149-5
 msgctxt "user_guide/en.html+html.body.div.p:3149-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! НАПРЕДНО"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3151-5
 msgid ""
 "You can make KOReader turn pages from <b>Left to Right</b>, so that swipes "
 "and tap zones are swapped. To enable this, add the following lines:"
 msgstr ""
+"KOReader можете подесити тако да се странице окрећу <b>слева у десно</b>, "
+"тако да су превлачења и тап зоне замењене. Ако то желите да укључите, "
+"додајте следеће линије:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3155-5
 msgid ""
 "[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
 "true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 msgstr ""
+"[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
+"true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3164-5
 msgid "to this file:"
-msgstr ""
+msgstr "у следећи фајл:"
 
 #: user_guide/en.html%2Bhtml.body.div:3164-21
 msgid "/koreader/settings/directory_defaults.lua"
-msgstr ""
+msgstr "/koreader/settings/directory_defaults.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3168-5
 msgid ""
@@ -7869,15 +7919,18 @@ msgid ""
 "directory containing your mangas. After this change, when you open a file "
 "from the mentioned directory, your swipes and tap zones will be swapped."
 msgstr ""
+"где је <b>/storage/emulated/0/Books/manga</b> апсолутна путања директоријума "
+"који садржи манге. Након ове измене, када отворите фајл из поменутог "
+"директоријума, превлачења и тап зоне ће бити обрнути."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3173-1
 msgctxt "user_guide/en.html+html.body.div.div:3173-1"
 msgid "MANAGING YOUR LIBRARY"
-msgstr ""
+msgstr "УПРАВЉАЊЕ БИБЛИОТЕКОМ"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3177-1
 msgid "File Browser Usage"
-msgstr ""
+msgstr "Употреба Прегледача фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3179-5
 msgid ""
@@ -7886,10 +7939,14 @@ msgid ""
 "KOReader. You will do all your file and folder operations here. You can "
 "access it from the reading screen by:"
 msgstr ""
+"Када KOReader покренете по први пут, приказаће вам се интерфејс <span class="
+"\"ui\">прегледача фајлова</span>. То је један од два главна интерфејса "
+"KOReader читача. Овде ћете обављати све операције са фајловима и фолдерима. "
+"Из екрана читања му приступате овако:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3181-5
 msgid "TOP MENU /"
-msgstr ""
+msgstr "МЕНИ НА ВРХУ /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3187-5
 msgid ""
@@ -7900,10 +7957,17 @@ msgid ""
 "or sorted via the <span class=\"ui\">TOP MENU</span> by swiping down from "
 "the top part of the screen."
 msgstr ""
+"<span class=\"ui\">Прегледач фајлова</span> подразумевано приказује ваш "
+"<span class=\"ui\">ПОЧЕТНИ</span> фолдер, који представља главни фолдер ваше "
+"библиотеке. Ово можете да промените <b>дугим притиском на било који фолдер</"
+"b>. Можете да промените многе опције <span class=\"ui\">прегледача фајлова</"
+"span>, као што је начин на који се приказују или сортирају књиге из <span "
+"class=\"ui\">МЕНИЈА НА ВРХУ</span> који отварате превлачењем наниже у горњем "
+"делу екрана."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3189-5
 msgid "Circled items in the image are explained below:"
-msgstr ""
+msgstr "Испод су објашњене заокружене ставке у слици:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3191-5
 msgid ""
@@ -7911,6 +7975,9 @@ msgid ""
 "properties of your document like <b>reading progress, bookmarks, custom "
 "cover image</b> etc. which you can choose in a following dialog."
 msgstr ""
+"<span class=\"ui\">РЕСЕТ:</span> ова опција вам омогућава да ресетујете неке "
+"особине документа као што су <b>напредак читања, маркери, произвољна слика "
+"омота</b> итд. и које можете да изаберете у наредном дијалогу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3193-5
 msgid ""
@@ -7918,6 +7985,10 @@ msgid ""
 "<span class=\"ui\">reset</span> dialog and double check which items are "
 "marked, otherwise you can reset everything related to your book accidentally."
 msgstr ""
+"<span class=\"label_red\">УПОЗОРЕЊЕ</span> Будите веома опрезни када "
+"користите <span class=\"ui\">ресет</span> дијалог и детаљно проверите које "
+"ставке су маркиране, у супротном нехотично можете да ресетујете све у вези "
+"са својом књигом."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3195-5
 msgid ""
@@ -7926,6 +7997,11 @@ msgid ""
 "different engine to get some other features. See <b>Viewing archive files</"
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
+"<span class=\"ui\">ОТВОРИ СА:</span> KOReader поседује различите механизме "
+"за исцртавање различитих типова фајлова. У неким случајевима фајл можете да "
+"отворите другим механизмом како би добили неке другачије функционалности. "
+"Погледајте одељке <b>Приказивање фајлова архиве</b> и <b>Приказивање фајлова "
+"слика</b> одмах испод."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3197-5
 msgid ""
@@ -7933,6 +8009,9 @@ msgid ""
 "disable the cover for this book (it may have wrong cover or cover is not "
 "very readable on the e-ink screen) you can select this."
 msgstr ""
+"<span class=\"ui\">ИГНОРИШИ ОМОТ:</span> ако из неког разлога желите да "
+"искључите омот за ову књигу (можда поседује погрешни омот или се омот не "
+"приказује како треба на e-ink екрану) можете да изаберете ово."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3199-5
 msgid ""
@@ -7940,6 +8019,9 @@ msgid ""
 "correct, name field may show useless information. Select this option to show "
 "the file name instead of metadata."
 msgstr ""
+"<span class=\"ui\">ИГНОРИШИ МЕТАПОДАТКЕ:</span> ако метаподаци ваше књиге "
+"нису исправни, поље назива може да приказује бескорисне информацје. "
+"Изаберите ову опцију да би се уместо метаподатака приказивало име фајла."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3201-5
 msgid ""
@@ -7949,10 +8031,15 @@ msgid ""
 "might need to be updated. If you see wrong cover or metadata, you can "
 "refresh the book information with this menu item."
 msgstr ""
+"<span class=\"ui\">ОСВЕЖИ КЕШИРАНЕ ИНФОРМАЦИЈЕ О КЊИЗИ:</span> када је "
+"додате у библиотеку, KOReader кешира метаподатке књиге и њен омот. Ако након "
+"копирања на уређај извршите неке измене над књигом, може бити потребно да се "
+"ове информације освеже. Ако видите погрешан омот или метаподатке, овом "
+"ставком менија можете да освежите информације о књизи."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3205-1
 msgid "Working on multiple files"
-msgstr ""
+msgstr "Рад са више фајлова одједном"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3207-5
 msgid ""
@@ -7962,6 +8049,12 @@ msgid ""
 "there are three different ways of selecting files for bulk operations in the "
 "<span class=\"ui\">file browser</span>:"
 msgstr ""
+"<span class=\"ui\">Прегледач фајлова</span> вам омогућава да неке операције ("
+"као што је копирање, премештање, брисање, извоз истицања) истовремено "
+"извршите над више фајлова. Ова процедура почиње тиме што прво изаберете "
+"фајлове. Тренутно постоји три различита начина за избор фајлова над којима "
+"ће се извршити масовне операције у <span class=\"ui\">прегледачу "
+"фајлова</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3209-5
 msgid ""
@@ -7973,6 +8066,13 @@ msgid ""
 "your screen. You can choose what to do with these files from the dialog. Or "
 "exit the selection mode from the same dialog."
 msgstr ""
+"<b>- У првом методу</b>, извршите дуги притисак на име фајла и изаберите ис "
+"искачућег дијалога <span class=\"ui\">Избор</span>. То ће активирати <span "
+"class=\"ui\">Режим избора</span>. Сада можете да тапнете на остале фајлове и "
+"да их тако додате у избор. Када завршите са избором фајлова, тапните на "
+"<span class=\"ui\">икону знака штиклирања</span> у <b>горњем десном углу</b> "
+"екрана. У дијалогу можете изабрати шта желите да се уради са овим фајловима. "
+"Или да из истог дијалога напустите режим избора."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3211-5
 msgid ""
@@ -7982,6 +8082,10 @@ msgid ""
 "class=\"ui\">Selection mode</span> and rest is the same as the first method "
 "above."
 msgstr ""
+"<b>- У другом методу</b>, притисните <span class=\"ui\">+ (плус) икону</"
+"span> у <b>горњем десном углу</b> па у дијалогу тапните на <span class=\"ui\""
+">Изаберите фајлове</span>. Ово ће да активира <span class=\"ui\">Режим "
+"избора</span> и остало је исто као у првом методу описаном изнад."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3213-5
 msgid ""
@@ -7991,6 +8095,11 @@ msgid ""
 "want to move all files in your collection authored by Tolkien, to a new "
 "folder. Steps for this action will be:"
 msgstr ""
+"<b>- У трећем методу</b>, жељене фајлове можете да изаберете <span class="
+"\"ui\"> Претрагом фајлова</span>. Ово је корисно ако је потребно да се "
+"операција изврши над много фајлова који су распоређени у различите фолдере. "
+"На пример, ако желите да преместите у нови фолдер све фајлове из своје "
+"збирке које је написао Толкин. Кораци за овако нешто би били:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3216-9
 msgid ""
@@ -7998,6 +8107,9 @@ msgid ""
 "class=\"ui\">Search tab</span> (with the magnifier icon) and choose <span "
 "class=\"ui\">File search</span>."
 msgstr ""
+"Из <span class=\"ui\">Менија на врху</span> притисните на <span class=\"ui\""
+">Картицу претраге</span> (икону лупе) и изаберите <span class=\"ui\""
+">Претрага фајлова</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3217-9
 msgid ""
@@ -8006,6 +8118,11 @@ msgid ""
 "in book metadata</span> if you want KOReader to look in book's metadata. "
 "Otherwise KOReader will only look at the file names for the word you entered."
 msgstr ""
+"Штиклирајте опцију <span class=\"ui\">Обухвати подфолдере</span> ако желите "
+"да се претрага врши и у њима. Ако желите да KOReader претражује и по "
+"метаподацима књиге, можете да штиклирате и <span class=\"ui\">Такође "
+"претражуј и по метаподацима књиге</span>. У супротном, KOReader ће реч коју "
+"сте унели тражити само по именима фајлова."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3218-9
 msgid ""
@@ -8013,6 +8130,9 @@ msgid ""
 "span> or your <span class=\"ui\">Current folder</span> by pressing on the "
 "respective button."
 msgstr ""
+"Претрагу можете да започнете из свог <span class=\"ui\">Почетног (кућног) "
+"директоријума</span> или <span class=\"ui\">Тренутног директоријума</span> "
+"притиском на одговарајуће дугме."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3219-9
 msgid ""
@@ -8021,6 +8141,10 @@ msgid ""
 "span> at the <b>top left corner</b> of the screen to enter the <span "
 "class=\"ui\">Selection mode</span>."
 msgstr ""
+"Када се претрага заврши, појавиће се листа фајлова (наравно, само ако је "
+"тражени израз пронађен). Сада можете да тапнете на <span class=\"ui\""
+">Хамбургер икону</span> у <b>горњем левом углу</b> екрана да уђете у <span "
+"class=\"ui\">Режим избора</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3220-9
 msgid ""
@@ -8029,6 +8153,10 @@ msgid ""
 "screen. You will see a dialog which contains <span class=\"ui\">Select in "
 "file browser</span>. Select this option."
 msgstr ""
+"Тапните на све фајлове над којима желите да извршите операције и тапните на "
+"<span class=\"ui\">Икону знака за штиклирање</span> у <b>горњем левом углу</"
+"b> екрана. Појавиће се дијалог у којем се налази <span class=\"ui\">Изабери "
+"у прегледачу фајлова</span>. Тапните на ову опцију."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3221-9
 msgid ""
@@ -8036,6 +8164,9 @@ msgid ""
 "files you selected in the <span class=\"ui\">Search dialog</span> will also "
 "be selected here."
 msgstr ""
+"Сада се враћате у <span class=\"ui\">Прегледач фајлова</span> и фајлови које "
+"сте изабрали у <span class=\"ui\">Дијалогу претраге</span> ће такође бити "
+"изабрани и овде."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3222-9
 msgid ""
@@ -8043,6 +8174,9 @@ msgid ""
 "corner</b> of your screen. Now you can choose what to do with these files "
 "from the dialog."
 msgstr ""
+"Тапните на <span class=\"ui\">Икону знака за штиклирање</span> у <b>горњем "
+"десном углу</b> екрана. Сада можете да изаберете шта желите да се уради са "
+"фајловима из дијалога."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3229-1
 msgctxt "user_guide/en.html+html.body.div.div:3229-1"
@@ -8057,16 +8191,24 @@ msgid ""
 "assign a folder shortcut to this <b>Archived</b> folder and access it "
 "quickly even while reading a book."
 msgstr ""
+"KOReader вам омогућава да своје омиљене фолдере додате у мени Пречице "
+"директоријума којем се брзо приступа. На пример, ако у библиотеци имате "
+"директоријум <b>Архивирано</b> под "
+"<b>Home&gt;Чланци&gt;Научниc&gt;Архивирано</b>, овом фолдеру <b>Архивирано</"
+"b> можете да доделите пречицу и да му касније брзо приђете, чак и док читате "
+"књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3233-5
 msgid "Adding a folder shortcut:"
-msgstr ""
+msgstr "Додавање пречице директоријума:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3234-5
 msgid ""
 "There are two ways of adding a folder to your <span class=\"ui\">Folder "
 "shortcuts</span> list:"
 msgstr ""
+"Постоје два начина да додате фолдер на листу <span class=\"ui\">Пречице "
+"директоријума</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3236-9
 msgid ""
@@ -8075,6 +8217,10 @@ msgid ""
 "shortcuts</span> item and enter a descriptive name for this shortcut. "
 "<b>This will add the folder you are currently in.</b>"
 msgstr ""
+"Када се налазите у Прегледачу фајлова, тапните дугме <span class=\"ui\">+ "
+"(плус) мени</span> у десном углу, па затим тапните на ставку <span class="
+"\"ui\">Додај у пречице директоријума</span> и унесите описно име ове "
+"пречице. <b>Ово додаје фолдер у којем се тренутно налазите.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3237-9
 msgid ""
@@ -8083,22 +8229,31 @@ msgid ""
 "enter a descriptive name for this shortcut. <b>This will add the folder you "
 "pressed on.</b>"
 msgstr ""
+"Када се налазите у Прегледачу фајлова, урадите дуги притисак на име фолдера "
+"тако да се отвори контекстни мени. Тапните на ставку <span class=\"ui\""
+">Додај у пречице директоријума</span> и унесите описно име ове пречице. "
+"<b>Ово додаје фолдер који сте притиснули.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3240-5
 msgid ""
 "Folders which are in your <span class=\"ui\">Folder shortcuts</span> list "
 "will have a <b>star (★)</b> in the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Директоријуми који се налазе на листи <span class=\"ui\">Пречице "
+"директоријума</span> ће имати <b>звезду (★)</b> у <span class=\"ui\""
+">Прегледачу фајлова</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3242-5
 msgid ""
 "You can remove a folder from the shortcuts in the same way, by long-pressing "
 "on it and selecting <span class=\"ui\">Remove from folder shortcuts</span>."
 msgstr ""
+"На исти начин можете да уклоните пречице, дугим притиском на њу и избором "
+"<span class=\"ui\">Уклони из пречица директоријума</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3245-5
 msgid "Viewing your folder shortcuts:"
-msgstr ""
+msgstr "Приказ пречица директоријума:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3246-5
 msgid ""
@@ -8106,6 +8261,9 @@ msgid ""
 "class=\"ui\">File Browser</span> or <span class=\"ui\">Reading screen</span> "
 "while reading a book."
 msgstr ""
+"<span class=\"ui\">Пречице директоријума</span> можете да отворите из <span "
+"class=\"ui\">Прегледача фајлова</span> или <span class=\"ui\">Екрана читања</"
+"span> док читате књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3248-9
 msgid ""
@@ -8113,10 +8271,13 @@ msgid ""
 "menu</span> then choosing <span class=\"ui\">Folder shortcuts</span> or "
 "assigning a gesture."
 msgstr ""
+"<b>Из Прегледача фајлова:</b> <span class=\"ui\">+ (плус) мени</span> у "
+"горњем десном углу, па избор <span class=\"ui\">Директоријумске пречице</"
+"span> или доделом гестикулације."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3249-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
-msgstr ""
+msgstr "<b>Из Екрана читања:</b> доделом гестикулације за то."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3252-5
 msgid ""
@@ -8124,15 +8285,18 @@ msgid ""
 "class=\"ui\">Gesture manager</span>. You can learn how to set gestures in "
 "the relevant section of this guide."
 msgstr ""
+"Налази се у <span class=\"ui\">Прегледач фајлова</span> одељку <span class="
+"\"ui\">Управљача гестикулацијама</span>. У одговарајућем одељку овог "
+"упутства можете да научите како се постављају гестикулације."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3258-1
 msgctxt "user_guide/en.html+html.body.div.div:3258-1"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Приказ осталих типова фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3262-1
 msgid "Viewing text files"
-msgstr ""
+msgstr "Приказ текст фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3264-5
 msgid ""
@@ -8145,18 +8309,30 @@ msgid ""
 "indentation or centered text considered heading...) to guess how to better "
 "render the text and will try to create a <b>table of contents</b>."
 msgstr ""
+"Ако имате књиге у <b>.txt</b> формату (што се чешће среће на <b>кинеском</b> "
+"и језицима који користе <b>ћирилицу</b>), можете покушати да укључите "
+"функцију <span class=\"ui\">Аутоматски откриј распоред TXT фајлова</span>. У "
+"неким случајевима она може да побољша исцртавање и учини да текст више „личи "
+"на књигу”. Када је укључена, механизам за исцртавање ће користити хеуристике "
+"(текст обавијен на некој максималној дужини линије, једна или две празне "
+"линије означавају пасусе, увлачење или центриран текст се сматра за наслов…) "
+"да би погодио како да боље исцрта текст и покуша да креира <b>садржај</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3266-5
 msgid ""
 "You can enable this feature here (which is visible only if you are reading "
 "a .txt file):"
 msgstr ""
+"Ову функционалност можете да укључите овде (видљива је само ако читате .txt "
+"фајл):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3268-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style / Auto-detect TXT files layout"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Стил / Аутоматски откриј распоред TXT фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3270-5
 msgid ""
@@ -8165,10 +8341,14 @@ msgid ""
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
 msgstr ""
+"Имајте на уму да би ова функционалност могла да забрља ASCII цртеже и "
+"форматирање засновано на карактеру размака. Ако књига коју читате има овакве "
+"елементе, можда је боље да се користи подразумевани режим у којем се текст "
+"фајл исцртава <b>онакав какав је</b> фонтом фиксне ширине."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3274-1
 msgid "Viewing archive files"
-msgstr ""
+msgstr "Приказивање фајлова архиве"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3276-5
 msgid ""
@@ -8176,20 +8356,26 @@ msgid ""
 "<b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) "
 "files with the archive viewer to have a look at the contained files:"
 msgstr ""
+"KOReader може да чита фајлове сачуване/компресоване у <b>ZIP</b> фајловима. "
+"Такође можете да отворите и <b>ZIP</b>, <b>CBZ</b> и <b>EPUB</b> (пошто су и "
+"они <b>ZIP</b> архиве) фајлове приказивачем архиве и тако погледате фајлове "
+"који се налазе у њима:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3279-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3279-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr ""
+"У <span class=\"ui\">Прегледачу фајлова</span> урадите дуги притисак на име "
+"фајла"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3280-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3280-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr ""
+msgstr "Тапните на <span class=\"ui\">Отвори помоћу…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3281-5
 msgid "Tap <span class=\"ui\">Archive viewer</span>"
-msgstr ""
+msgstr "Тапните на <span class=\"ui\">Приказивач архиве</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3284-5
 msgid ""
@@ -8199,6 +8385,11 @@ msgid ""
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
 msgstr ""
+"ZIP фајл може да садржи различите типове докумената, као што су html, txt "
+"или слике. KOReader може исправно да отвори ваш ZIP фајл <b>само ако му дате "
+"назнаку типа фајла који се налази у ZIP архиви</b>. Ако фајлу дате само "
+"<b>.zip</b> екстензију, KOReader ће претпоставити да та архива садржи слике "
+"и покушаће да је отвори као <b>CBZ</b> фајл."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
 msgid ""
@@ -8206,36 +8397,41 @@ msgid ""
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
 msgstr ""
+"<span class=\"ui\">ПОДРАЗУМЕВАНИ СЛУЧАЈ:</span> имефајла<b>.zip</b> - "
+"претпоставља се да је у питању zip фајл слика (и отвара се <span class=\"ui\""
+">MuPDF механизмом</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3288-5
 msgid ""
 "If your zip file contains one of these types (instead of just images), "
 "please name it accordingly:"
 msgstr ""
+"Ако zip фајл садржи један од следећих типова (а не само слике), молимо вас "
+"да га назовете на одговарајући начин:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3291-9
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
-msgstr ""
+msgstr "<b>FictionBook</b> - имефајла.<b>fb2.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3292-9
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
-msgstr ""
+msgstr "<b>HTML</b> - имефајла.htm.zip / имефајла.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3293-9
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
-msgstr ""
+msgstr "<b>Text log files</b> - имефајла.<b>log.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3294-9
 msgid "<b>Markdown</b> - yourfilename.<b>md.zip</b>"
-msgstr ""
+msgstr "<b>Markdown</b> - имефајла.<b>md.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3295-9
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
-msgstr ""
+msgstr "<b>Rich Text Format</b> - имефајла.<b>rtf.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3296-9
 msgid "<b>Plain text</b> - yourfilename.<b>txt.zip</b>"
-msgstr ""
+msgstr "<b>Plain text</b> - имефајла.<b>txt.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3299-5
 msgid ""
@@ -8245,10 +8441,16 @@ msgid ""
 "explained above or long-press the filename and then choose <span "
 "class=\"ui\">Open with...</span> to select the correct engine."
 msgstr ""
+"У случају да фајлови немају оваква имена, највероватније ће се употребити "
+"погрешан механизам читача/формата и појавиће се порука <span class=\"ui\">За "
+"овај фајл не постоји механизам читања или фајл није исправан</span>. Можете "
+"да промените име фајла на начин који је описан изнад или да извршите дуги "
+"притисак на име фајла и изаберете <span class=\"ui\">Отвори помоћу…</span> "
+"да изаберете исправни механизам."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3301-2
 msgid "Viewing images"
-msgstr ""
+msgstr "Приказ слика"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3303-5
 msgid ""
@@ -8256,28 +8458,33 @@ msgid ""
 "Files opened like this don’t show up in your history and have better scaling "
 "and rotation support."
 msgstr ""
+"Уместо да их отворите као књигу, фајлове слике можете да отворите "
+"приказивачем слика. Овако отворени фајлове се не појављују у историји и "
+"постоји боља подршка за скалирање и ротирање."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3306-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3306-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr ""
+"У <span class=\"ui\">Прегледачу фајлова</span> извршите дуги притисак на име "
+"фајла"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3307-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3307-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr ""
+msgstr "Тапните на <span class=\"ui\">Отвори помоћу…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3308-5
 msgid "Tap <span class=\"ui\">Image viewer</span>"
-msgstr ""
+msgstr "Тапните на <span class=\"ui\">Приказивач слике</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3311-2
 msgid "Viewing Markdown files"
-msgstr ""
+msgstr "Приказ Markdown фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3313-5
 msgid "KOReader provides two options for reading Markdown documents."
-msgstr ""
+msgstr "KOReader нуди две опције за читање Markdown докумената."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3315-9
 msgid ""
@@ -8285,6 +8492,9 @@ msgid ""
 "doesn't provide formatting. So your <b>.md</b> file will look like as it is "
 "opened in a text editor."
 msgstr ""
+"Документ можете да отворите директно као књигу, тапом на њега. Овај режим не "
+"подржава форматирање. Тако ће ваш <b>.md</b> фајл изгледати као да сте га "
+"отворили текст едитором."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3316-9
 msgid ""
@@ -8292,6 +8502,9 @@ msgid ""
 "HTML file from your Markdown document with the correct formatting and a "
 "<b>Table of Contents</b> created from the headings."
 msgstr ""
+"Markdown документ можете да конвертујете у HTML. Ова акција ће да изгради "
+"HTML фајл од Markdown документа са исправним форматирањем и креираним "
+"<b>Садржајем </b> од наслова."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3319-5
 msgid ""
@@ -8301,10 +8514,15 @@ msgid ""
 "be created in the same directory. Be aware that conversion might take a "
 "while depending on your Markdown file and device speed."
 msgstr ""
+"Ако желите да конвертујете <b>.md</b> фајл, извршите дуги притисак на њега у "
+"<span class=\"ui\">Прегледачу фајлова</span> и у искачућем менију тапните на "
+"<span class=\"ui\">Претвори</span>. И истом директоријуму ће се креирати "
+"нови фајл са истим именом, али са HTML екстензијом. Имајте на уму да "
+"конверзија може потрајати у зависности од Markdown фајла и брзине уређаја."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3322-2
 msgid "Setting file associations"
-msgstr ""
+msgstr "Постављање придруживања фајла"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3324-5
 msgid ""
@@ -8314,12 +8532,19 @@ msgid ""
 "Browser</span> then choose a provider engine to handle this file. You can "
 "check:"
 msgstr ""
+"За типове фајлова које KOReader не препознаје аутоматски, можете такође да "
+"подесите и придруживања фајла. Да бисте придружили фајл са једним од "
+"KOReader пружаоца услуге, најпре урадите дуги тап на фајл у <span class="
+"\"ui\">Прегледачу фајлова</span> па затим изаберите механизам пружаоца "
+"услуге који ће да обрађује овај тип фајла. Затим можете да штиклирате:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3327-9
 msgid ""
 "<span class=\"ui\">Always use this engine for this file</span> to associate "
 "this provider with this particular file only"
 msgstr ""
+"<span class=\"ui\">Увек користи овај механизам за овај фајл</span> да овај "
+"механизам придружите само са овим одређеним фајлом"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3329-9
 msgid ""
@@ -8327,12 +8552,18 @@ msgid ""
 "associate this provider with all the files that has same extension as this "
 "one"
 msgstr ""
+"Или штиклирајте <span class=\"ui\">Увек користи овај механизам за тип фајла</"
+"span> да тај пружалац услуге придружите са свим фајловима чија је екстензија "
+"иста као и ова"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3331-9
 msgid ""
 "From the same dialog, you can see the associations you made by tapping on "
 "<span class=\"ui\">View defaults for file types</span>"
 msgstr ""
+"Из истог дијалога можете да видите придруживања која сте направили тако што "
+"тапнете на <span class=\"ui\">Прикажи подразумеване вредности за типове "
+"фајлова</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
@@ -8348,17 +8579,25 @@ msgid ""
 "books accordingly. Of course you can also use folders to do this but using "
 "collections gives you more flexibility."
 msgstr ""
+"Функционалност KOReader читача <span class=\"ui\">Збирке</span> може да вам "
+"помогне у ефикаснијем аранжирању библиотеке. Као врло проста дефиниција, "
+"збирке су кориснички креиране листе књига. На пример, можете да креирате све "
+"збирке по називом <b>Белетристика</b> и <b>Документарна литература</b> и "
+"групишете књиге по њима. Наравно, за ово можете да користите и фолдере, али "
+"збирке вам омогућавају флексибилнији приступ."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3343-5
 msgid ""
 "Some advantages of collections compared to the folder based organization:"
-msgstr ""
+msgstr "Неке предности збирки у односу на организацију по фолдерима:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3345-9
 msgid ""
 "Adding a book to a collection doesn't move the book file. So your books can "
 "be located in different folders but they can appear in the same collection."
 msgstr ""
+"Додавање књиге у збирку не премешта фајл књиге. Тако да се књиге могу "
+"налазити у различитим фолдерима, а изгледа да су у истој збирци."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3346-9
 msgid ""
@@ -8367,6 +8606,10 @@ msgid ""
 "b> collection. A book can be added to both of these collections at the same "
 "time."
 msgstr ""
+"Једна књига може да се налази у многим збиркама, што није могуће са "
+"фолдерима. На пример, можете имати збирке <b>Научна фантастика</b> и "
+"<b>Ратна белетристика</b>. Књига истовремено може да се дода у обе ове "
+"збирке."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3347-9
 msgid ""
@@ -8378,45 +8621,58 @@ msgid ""
 "your books in order to use temporary <span class=\"ui\">profiles</span> for "
 "example.)"
 msgstr ""
+"<span class=\"ui\">Збиркама</span> можете да окинете <span class=\"ui\""
+">профиле</span> . Ово ћемо објаснити испод ако нисте упознати са KOReader "
+"функционалности <span class=\"ui\">профила</span> . (Наравно, <span class="
+"\"ui\">профиле</span> можете да окинете и фолдерима, али <span class=\"ui\""
+">збиркама</span> није потребно да премештате књиге како бисте, на пример, "
+"искористили привремене <span class=\"ui\">профиле</span>.)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3350-5
 msgid ""
 "You can create collections to mirror any kind of categorization. Some "
 "example ideas:"
 msgstr ""
+"Можете да креирате збирке које опонашају било коју врсту категоризације. "
+"Неке идеје за пример:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3352-9
 msgid "<b>Genres:</b> Fiction, non-fiction, memoir..."
-msgstr ""
+msgstr "<b>Жанрови:</b> Белетристика, документарна литература, мемоари…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3353-9
 msgid ""
 "<b>Book status:</b> Currently reading, want to read, next, did not finish..."
 msgstr ""
+"<b>Статус књиге:</b> Тренутно се чита, желим да читам, следећа, незавршене…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3354-9
 msgid "<b>Series:</b> Lord of the Rings, Harry Potter..."
-msgstr ""
+msgstr "<b>Серије:</b> Господар прстенова, Хари Потер…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3355-9
 msgid "<b>Document type:</b> Books, scientific articles, web articles..."
-msgstr ""
+msgstr "<b>Тип документа:</b> Књиге, научни чланци, веб чланци…"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3360-1
 msgid "Creating and modifying collections"
-msgstr ""
+msgstr "Креирање и измена збирки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3361-5
 msgid ""
 "You can create collections from the <span class=\"ui\">Collections</span> "
 "dialog located here:"
 msgstr ""
+"<span class=\"ui\">Збирке</span> можете да креирате из дијалога који се "
+"налази овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3363-2
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:26px;\"> / Збирке"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3365-2
 msgid ""
@@ -8427,6 +8683,11 @@ msgid ""
 "books you have already added to your <span class=\"ui\">Favorites</span> "
 "list."
 msgstr ""
+"Овом дијалогу можете да приступите из погледа читања или из <span class="
+"\"ui\">Прегледача фајлова</span>. Када отворите овај мени, приказаће вам "
+"листу збирки. Подразумевано ће се ту приказати <span class=\"ui\">Омиљено</"
+"span> као ставка збирке која садржи књиге које сте већ додали на вашу листу "
+"<span class=\"ui\">Омиљено</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3368-3
 msgid ""
@@ -8435,18 +8696,26 @@ msgid ""
 "\"> located at the top left corner of this screen > <span class=\"ui\">New "
 "collection</span>"
 msgstr ""
+"<b>Додавање нове збирке:</b> употребите хамбургер мени <img class="
+"\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> "
+"који се налази у горњем левом углу овог екрана &gt; <span class=\"ui\">Нова "
+"збирка</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3370-3
 msgid ""
 "<b>Removing a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Remove collection</span>"
 msgstr ""
+"<b>Брисање збирке:</b> дуги притисак на име збирке &gt; <span class=\"ui\""
+">Уклони збирку</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3372-3
 msgid ""
 "<b>Renaming a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Rename collection</span>"
 msgstr ""
+"<b>Промена назива збирке:</b> дуги притисак на име збирке &gt; <span class="
+"\"ui\">Промени назив збирке</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3374-3
 msgid ""
@@ -8455,20 +8724,26 @@ msgid ""
 "\"> located at the top left corner of this screen > <span "
 "class=\"ui\">Arrange collection</span>"
 msgstr ""
+"<b>Измена редоследа ваших збирки:</b> употребите хамбургер мени <img class="
+"\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> "
+"који се налази у горњем левом углу овог екрана &gt; <span class=\"ui\">Уреди "
+"збирке</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3379-1
 msgid "Adding books to your collections"
-msgstr ""
+msgstr "Додавање књига у збирке"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3381-2
 msgid ""
 "There are three different places in KOReader where you can add books to your "
 "collections:"
 msgstr ""
+"У KOReader читачу постоје три места на којима можете да додате књиге у "
+"збирке:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3385-2
 msgid "1. From the File Browser and History screen"
-msgstr ""
+msgstr "1. Из Прегледача фајлова и екрана Историје"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3386-2
 msgid ""
@@ -8478,33 +8753,43 @@ msgid ""
 "Long press on the book and choose <span class=\"ui\">Collections...</span>. "
 "Then you can choose which collection(s) you want to add this book to."
 msgstr ""
+"Књигу можете да додате у збирке из <span class=\"ui\">Прегледача фајлова</"
+"span> или екрана <span class=\"ui\">Историја</span>. Из екрана <span class="
+"\"ui\">Историја</span> можете да додајете књиге <b>једну по једну</b>. "
+"Извршите дуги притисак на књигу и изаберите <span class=\"ui\">Збирке…</"
+"span>. Затим можете да изаберете збирку (или више њих) у коју желите да "
+"ставите ову књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3388-2
 msgid ""
 "If you are adding several books, you can do this from the <span "
 "class=\"ui\">File browser</span>. For multiple books this is the procedure:"
 msgstr ""
+"Ако додајете неколико књига, урадите то из <span class=\"ui\">Прегледача "
+"фајлова</span>. Процедура за више књига је следећа:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3390-3
 msgid "Long press on a book"
-msgstr ""
+msgstr "Дуги притисак на књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3391-3
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
-msgstr ""
+msgstr "Из искачућег менија изаберите <span class=\"ui\">Избор</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3392-3
 msgid "Select other books"
-msgstr ""
+msgstr "Изаберите остале књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3393-3
 msgid ""
 "Tap the <span class=\"ui\">checkmark</span> (✔️) icon at the top-right corner"
 msgstr ""
+"У горњем десном углу тапните на икону <span class=\"ui\">знака штиклирања</"
+"span> (✔️)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3394-3
 msgid "Tap <span class=\"ui\">Collections</span>"
-msgstr ""
+msgstr "Тапните на <span class=\"ui\">Збирке…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3397-2
 msgid ""
@@ -8512,10 +8797,13 @@ msgid ""
 "class=\"ui\">File browser</span> and choose <span class=\"ui\">Collections</"
 "span> from the popup menu."
 msgstr ""
+"Ако додајете само једну књигу, једноставно извршите дуги притисак на њу у "
+"<span class=\"ui\">Прегледачу фајлова</span> и из искачућег менија изаберите "
+"<span class=\"ui\">Збирке…</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3401-2
 msgid "2. From the Collections menu"
-msgstr ""
+msgstr "2. Из менија Збирке"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3402-2
 msgid ""
@@ -8527,18 +8815,29 @@ msgid ""
 "<b>science fiction</b> books are in a single folder, you can create a "
 "collection named <b>Science fiction</b> and add this folder at once."
 msgstr ""
+"Ова метода вам омогућава да додате једну или више књига у <span class=\"ui\""
+">Збирке</span>. Највећа разлика у односу на метод <span class=\"ui\""
+">Прегледача фајлова</span> је у томе што у збирке можете одједном да додате "
+"<b>целе фолдере и њихове подфолдере</b>. Ово је веома корисно ако су вам "
+"књиге већ сложене по фолдерима. На пример, ако су све ваше књиге <b>научне "
+"фантастике</b> у једном фолдеру, онда креирате збирку под називом <b>Научна "
+"фантастика</b> и у једном кораку додате овај фолдер."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3407-2
 msgid ""
 "In the image above, <b>Box 1</b> shows the book adding options. You can "
 "reach this menu from the collections screen's hamburger menu:"
 msgstr ""
+"На горњој слици, <b>Поље 1</b> приказује опције за додавање књиге. Овом "
+"менију можете да приступите из хамбургер менија на екрану збирки:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3409-2
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections / Your collection name /"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:26px;\"> / Збирке / Име ваше збирке /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3412-3
 msgid ""
@@ -8549,6 +8848,12 @@ msgid ""
 "<b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and "
 "<b>War Fiction</b> under it, they won't be added with this option."
 msgstr ""
+"<span class=\"ui\">Додај све књиге из фолдера:</span> као што име каже, ова "
+"опција вам омогућава да изаберете фолдер из којег ће се све књиге додати у "
+"ову збирку. Имајте на уму да ова опција <b>не додаје књиге из подфолдера</b> "
+"изабраног фолдера. На пример, ако изаберете фолдер <b>Белетристика</b> и у "
+"њему имате фолдере под именима <b>Научна фантастика</b> и <b>Ратна "
+"белетристика</b>, они се неће додати овом опцијом."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3413-3
 msgid ""
@@ -8558,16 +8863,23 @@ msgid ""
 "while adding the books. So if you have many levels of nested folders, there "
 "might be too many books than you thought."
 msgstr ""
+"<span class=\"ui\">Додај све књиге из фолдера и његових подфолдера:</span> "
+"ова опција ће додати <b>све подфолдере</b> фолдера који сте изабрали. Будите "
+"опрезни са овом опцијом јер ће док додаје књиге ићи наниже до краја. Тако да "
+"ако имате пуно нивоа угњеждених фолдера, може постојати много више књига "
+"него што мислите."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3414-3
 msgid ""
 "<span class=\"ui\">Add a book to collection</span>: This is the basic option "
 "that will allow you to add a single book."
 msgstr ""
+"<span class=\"ui\">Додај књигу у збирку</span>: ово је основна опција која "
+"вам омогућава да додате само једну књигу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3419-1
 msgid "Removing books from your collections"
-msgstr ""
+msgstr "Уклањање књига из збирки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3421-9
 msgid ""
@@ -8581,10 +8893,19 @@ msgid ""
 "<span class=\"ui\">Collections</span> screen, you can long press on a book "
 "and choose <span class=\"ui\">Remove from collection</span>."
 msgstr ""
+"Књиге можете да уклоните из збирки са <span class=\"ui\">Прегледача фајлова</"
+"span>, екрана <span class=\"ui\">Историја</span> или екрана <span class="
+"\"ui\">Збирке</span>. У <span class=\"ui\">Прегледачу фајлова</span> и "
+"екрану <span class=\"ui\">Историја</span>, извршите дуги притисак на књигу и "
+"изаберите <span class=\"ui\">Збирке…</span>. Видећете знак за штиклирање уз "
+"збирке у које сте додали ову књигу. Уклоните га тако што тапнете на њега и "
+"тако уклоните књигу из те збирке. Такође и из екрана <span class=\"ui\""
+">Збирке</span>, извршите дуги притисак на књигу и изаберете <span class="
+"\"ui\">Уклони из збирке</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3425-1
 msgid "Arranging the books in your collections"
-msgstr ""
+msgstr "Слагање књига у збиркама"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3427-9
 msgid ""
@@ -8599,6 +8920,17 @@ msgid ""
 "Asimov)</span> that I haven't started yet <span class=\"ui\">(Filter by "
 "status -> New)</span>.\"</b>"
 msgstr ""
+"Збирке могу бити попуњене са доста књига, али KOReader вам омогућава да "
+"једноставно пронађете жељене књиге тако што вам нуди доста опција за "
+"филтрирање. Ако погледате књигу изнад, видећете опције за филтрирање у "
+"<b>Пољу 2</b> и <b>Пољу 3</b>. <b>Поље 2</b> вам омогућава да књиге филтрате "
+"по статусу (нове, чита се, завршене, на чекању), а <b>Поље 3</b> вам "
+"омогућава да књиге филтрирате по метаподацима у књизи (аутор, серија, језик, "
+"кључне речи). Такође можете и да комбинујете ове две групе филтера као у "
+"следећем примеру: <b>„Прикажи ми нове књиге у овој збирци које је написао "
+"Исак Асимов <span class=\"ui\">(Филтрирај по аутору -> Исак Асимов)</span> "
+"које још увек нисам почео да читам <span class=\"ui\">(Филтрирај по статусу -"
+"> Нове)</span>.”</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3429-9
 msgid ""
@@ -8609,6 +8941,13 @@ msgid ""
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
 msgstr ""
+"Метаподатке књиге можете да ажурирате дугим притиском на књигу у <span class="
+"\"ui\">Прегледачу фајлова</span> па избором <span class=\"ui\">Информације о "
+"књизи</span> из менија. У искачућем менију можете да извршите дуги притисак "
+"на било које поље и да измените метаподатке као што су <b>аутор</b> или "
+"<b>кључне речи</b>. За овај посао такође можете да употребите и <span class="
+"\"external\">Calibre</span>, апликацију треће стране која доста олакшава "
+"управљање метаподацима ваше књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3431-9
 msgid ""
@@ -8619,10 +8958,16 @@ msgid ""
 "file, it only adds custom metadata as a file in the book's <b>.sdr folder</"
 "b>, so this metadata is visible in KOReader only."
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Имајте на уму да <span class="
+"\"external\">Calibre</span> мења метаподатке у самој књизи, тако да су "
+"измењени метаподаци видљиви и ван апликације <span class=\"external\""
+">Calibre</span>. Али KOReader не мења фајл књиге, он само додаје произвољне "
+"метаподатке као фајл у<b>.sdr фолдеру</b> књиге, тако да ове метаподатке "
+"види само KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3435-1
 msgid "Searching in collections"
-msgstr ""
+msgstr "Претрага у збиркама"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3437-9
 msgid ""
@@ -8630,6 +8975,9 @@ msgid ""
 "for a phrase <b>in the book titles and metadata</b> or you can also search "
 "<b>inside the book texts</b>. You can open the search dialog from:"
 msgstr ""
+"Постоје два типа претраге које можете да извршите над збиркама: можете да "
+"тражите фразу <b>у насловима књиге и метаподацима</b> или можете такође да "
+"тражите и <b>унутар текста књиге</b>. Дијалог претраге можете да отворите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3439-9
 msgid ""
@@ -8638,12 +8986,17 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> / Collections search"
 msgstr ""
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:26px;\"> / Збирке / <img loading=\"lazy\" class=\"img_inline\" "
+"src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Претрага збирки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3441-9
 msgid ""
 "If you want to perform a search <b>in the book texts</b>, please keep these "
 "points in mind:"
 msgstr ""
+"Ако желите да извршите претрагу <b>по текстовима књига</b>, молимо вас да "
+"имате на уму следеће:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3444-13
 msgid ""
@@ -8651,12 +9004,17 @@ msgid ""
 "class=\"ui\">collections</span> from the <span class=\"ui\">file browser</"
 "span>. It is <b>not available</b> from the reading screen."
 msgstr ""
+"Ова врста претраге је доступна само ако <span class=\"ui\">збирке</span> "
+"отворите из <span class=\"ui\">прегледача фајлова</span>. <b>Не можете</b> "
+"да јој приступите из екрана читања."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3445-13
 msgid ""
 "This search can be slow (around 2 seconds per book in the collection). So if "
 "you have a crowded collection, it might take a long time."
 msgstr ""
+"Ова претрага може бити доста спора (око 2 секунде по књизи у збирци). Тако "
+"да ако имате велику збирку, претрага може да потраје."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3448-9
 msgid ""
@@ -8667,16 +9025,23 @@ msgid ""
 "to tap and enter the collection. This is especially important if you are "
 "also searching in the book texts because it is a slow operation."
 msgstr ""
+"Функција претраге зависи од места на којем се налазите у прозору <span class="
+"\"ui\">збирке</span>. Ако се налазите на кореном нивоу на којем се виде све "
+"ваше збирке, претрага ће се извршити над свом збиркама. Ако желите да "
+"претражујете само у одређеној збирци, морате да тапнете и уђете у збирку. "
+"Ово је од посебне важности ако тражите и по текстовима књига јер је то доста "
+"спора операција."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3450-9
 msgid ""
 "When you perform a search, results will be automatically saved as a new "
 "collection."
 msgstr ""
+"Када обавите претрагу, резултати ће се аутоматски сачувати као нова збирка."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3454-1
 msgid "Automatically synchronizing collections with folders"
-msgstr ""
+msgstr "Аутоматско синхронизовање збирки са фолдерима"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3456-5
 msgid ""
@@ -8688,6 +9053,13 @@ msgid ""
 "itself when you add a new file to this folder, you can do it with <span "
 "class=\"ui\">connected folders</span> feature of the collections."
 msgstr ""
+"Када креирате своје збирке и додате књиге у њих, вероватно ћете пожелети да "
+"одржавате у синхронизацији са неким фолдерима. На пример, замислите да сте "
+"креирали збирку <b>Научна фантастика</b>. А у библиотеци имате и фолдер "
+"<b>SF</b> у који смештате књиге научне фантастике. Ако желите да се <span "
+"class=\"ui\">збирка научна фантастика</span> самостално ажурира када додате "
+"нови фајл у овај фолдер, постићи ћете то уз помоћ функције збирки <span "
+"class=\"ui\">повезани фолдери</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3458-5
 msgid ""
@@ -8695,26 +9067,29 @@ msgid ""
 "After that, KOReader will (re)scan the folders to add or remove books from "
 "your collections in these conditions:"
 msgstr ""
+"Помоћу ове функционалности један или више фолдера можете да повежете са "
+"својом збирком. Након тога, KOReader ће (поново) скенирати фолдере како би "
+"додао или уклонио књиге из збирки под следећим условима:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3461-9
 msgid "When connecting a folder to a collection"
-msgstr ""
+msgstr "Када се фолдер повезује са збирком"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3462-9
 msgid "When including subfolders of a connected folder"
-msgstr ""
+msgstr "Када се укључује подфолдер повезаног фолдера"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3463-9
 msgid "When showing the collection"
-msgstr ""
+msgstr "Када се приказује збирка"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3464-9
 msgid "On program start"
-msgstr ""
+msgstr "Приликом покретања програма"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3468-5
 msgid "How to connect a folder to your collection:"
-msgstr ""
+msgstr "Како да фолдер повежете са збирком:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3473-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3473-9"
@@ -8722,6 +9097,7 @@ msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
 msgstr ""
+"Идите на екран <span class=\"ui\">Збирке</span> који се види на горњој слици."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3474-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3474-9"
@@ -8729,6 +9105,8 @@ msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
 msgstr ""
+"Извршите дуги притисак на име збирке на коју желите да повежете фолдере "
+"<b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3475-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3475-9"
@@ -8736,11 +9114,13 @@ msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
 msgstr ""
+"Ис искачућег менија изаберите <span class=\"ui\">Повежи фолдере</span> "
+"<b>(2)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3476-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3476-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr ""
+msgstr "Отвориће се <span class=\"ui\">екран Листа повезаних фолдера</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3477-9
 msgid ""
@@ -8748,16 +9128,21 @@ msgid ""
 "left corner of that screen, which will open the <span class=\"ui\">Folder "
 "chooser screen</span>."
 msgstr ""
+"Додајте фолдер притиском на <span class=\"ui\">ПЛУС икону</span> у горњем "
+"левом углу тог екрана, након чега ће се отворити <span class=\"ui\">екран "
+"Бирача фолдера</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3479-9
 msgid "Repeat the last item if you want to connect more folders."
-msgstr ""
+msgstr "Поновите последњи корак ако желите да повежете још фолдера."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3482-5
 msgid ""
 "Collections with connected folders will have a <span class=\"ui\">folder "
 "icon</span> as you can see from the image above <b>(3)</b>."
 msgstr ""
+"Збирке са повезаним фолдерима ће имати <span class=\"ui\">икону фолдера</"
+"span> као што можете видети на горњој слици <b>(3)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3484-5
 msgid ""
@@ -8766,10 +9151,14 @@ msgid ""
 "connected folders screen</span>, you can long-press on a folder to <span "
 "class=\"ui\">include/exclude subfolders</span> from the popup menu."
 msgstr ""
+"Можда ћете пожелети да у синхронизацију укључите и подфолдере фолдера. У "
+"<b>кораку 4</b> изнад, када отворите <span class=\"ui\">екран Листе "
+"повезаних фолдера</span>, можете да извршите дуги притисак на фолдер и у "
+"искачућем менију <span class=\"ui\">укључите/искључите подфолдере</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3487-5
 msgid "How to disconnect a folder from your collection:"
-msgstr ""
+msgstr "Како да откачите фолдер од збирке:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3490-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3490-9"
@@ -8777,6 +9166,7 @@ msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
 msgstr ""
+"Идите на екран <span class=\"ui\">Збирке</span> који се види на слици изнад."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3491-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3491-9"
@@ -8784,6 +9174,8 @@ msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
 msgstr ""
+"Извршите дуги притисак на име збирке од које желите да откачите фолдере "
+"<b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3492-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3492-9"
@@ -8791,17 +9183,21 @@ msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
 msgstr ""
+"Из искачућег менија изаберите <span class=\"ui\">Повежи фолдере</span> "
+"<b>(2)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3493-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3493-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr ""
+msgstr "Отвориће се <span class=\"ui\">екран Листе повезаних фолдера</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3494-9
 msgid ""
 "Long-press on the folder which you want to disconnect and choose <span "
 "class=\"ui\">Disconnect folder</span> from the popup menu."
 msgstr ""
+"Извршите дуги притисак на фолдер који желите да откачите и из искачућег "
+"менија изаберите <span class=\"ui\">Откачи фолдер</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3499-1
 msgid "Using Collections with Profiles"
