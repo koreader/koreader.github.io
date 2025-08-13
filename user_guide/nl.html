@@ -1268,7 +1268,7 @@ line-height: 2rem;
 
     <div><img loading="lazy" src="pictures/tap_zones.png" style="width:55%;"></div>
 
-    <p>In de afbeelding hierboven zie je de posities van de standaard tikzones van KOReader. Om het <span class="ui">bovenste menu</span> of <span class="ui">onderste menu</span> weer te geven, kun je op de aangegeven zones tikken. Je kunt ook naar beneden vegen in de bovenste zone om het <span class="ui">hoofdmenu</span> te tonen. Op niet-touch apparaten zoals Kindle 4 kun je het <span class="ui">ondermenu</span> openen door de knop in te drukken die overeenkomt met de <b>ENTER/OK</b> actie.</p>
+    <p>In de afbeelding hierboven zie je de posities van de standaard tikzones van KOReader. Om het <span class="ui">bovenste menu</span> of <span class="ui">ondermenu</span> weer te geven, kun je op de aangegeven zones tikken. Je kunt ook naar beneden vegen in de bovenste zone om het <span class="ui">hoofdmenu</span> te tonen. Op niet-touch apparaten zoals Kindle 4 kun je het <span class="ui">ondermenu</span> openen door de knop in te drukken die overeenkomt met de <b>ENTER/OK</b> actie.</p>
     
     <div class="tip"><span class="label_green">TIP</span> Zoals aangegeven in de afbeelding hierboven, is de <span class="ui">hoofdmenu</span> openingszone verdeeld in 3 gebieden. Als je naar beneden veegt in het eerste 1/3 van de bovenrand, opent het <span class="ui">hoofdmenu</span> met het <b>eerste menu tabblad</b>. Het tweede 1/3 gebied opent het <b>meest recent gebruikte menu tabblad</b>. En het laatste gebied opent het <b>laatste menu tabblad</b>. </div>
 
@@ -3263,76 +3263,76 @@ exporteren vanaf je lezer:</p>
 
 
 
-<div class="L3-Smaller-heading">Viewing text files</div>
+<div class="L3-Smaller-heading">Tekstbestanden bekijken</div>
 
-    <p>If you have books in <b>.txt</b> format (which is more common in <b>Chinese</b> and <b>Cyrillic</b> languages), you can try enabling the <span class="ui">Auto-detect TXT files layout</span> feature. In some cases it can improve the rendering and make the text more "book like". When enabled, the rendering engine will use heuristics (text wrapped under some max line length, single or double blank lines marking paragraphs, indentation or centered text considered heading...) to guess how to better render the text and will try to create a <b>table of contents</b>.</p>
+    <p>Als je boeken in <b>.txt</b>-formaat hebt (wat vaker voorkomt in <b>Chinese</b> en <b>Cyrillische</b> talen), kun je de functie <span class="ui">Indeling van TXT-bestanden automatisch detecteren</span> proberen in te schakelen. In sommige gevallen verbetert dit de weergave en oogt de tekst meer als een ‘boek’. Wanneer ingeschakeld gebruikt de renderengine heuristiek (tekst afbreken onder een maximale regellengte, enkele of dubbele lege regels als alineascheiding, inspringing of gecentreerde tekst als koppen, …) om de tekst beter weer te geven en probeert het een <b>inhoudsopgave</b> te maken.</p>
 
-    <p>You can enable this feature here (which is visible only if you are reading a .txt file):</p>
+    <p>Je schakelt deze functie hier in (alleen zichtbaar wanneer je een .txt-bestand leest):</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Style / Auto-detect TXT files layout</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Stijl / Indeling van TXT-bestanden automatisch detecteren</div>
 
-    <p>Note that this feature might mess up ASCII art drawings and space character based formatting. If your book has these kind of features, it might be better to use the default mode in which, the text file is rendered <b>as is</b> in a monospace font.</p>
+    <p>Let op: deze functie kan ASCII-art en op spaties gebaseerde opmaak verstoren. Als je boek dit soort elementen bevat, gebruik je beter de standaardmodus, waarbij het tekstbestand <b>ongewijzigd</b> met een monospace-lettertype wordt weergegeven.</p>
 
 
 
-<div class="L3-Smaller-heading">Viewing archive files</div>
+<div class="L3-Smaller-heading">Archiefbestanden bekijken</div>
 
-    <p>KOReader can read files stored/compressed in <b>ZIP</b> files. You can open <b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) files with the archive viewer to have a look at the contained files:</p>
+    <p>KOReader kan bestanden lezen die zijn opgeslagen/gecomprimeerd in <b>ZIP</b>-archieven. Je kunt <b>ZIP</b>-, <b>CBZ</b>- en <b>EPUB</b>-bestanden (dat zijn ook <b>ZIP</b>-archieven) openen met de archiefviewer om de inhoud te bekijken:</p>
 
     <ol>
-    <li>In <span class="ui">File Browser</span> long-press the file name</li>
-    <li>Tap <span class="ui">Open with…</span></li>
-    <li>Tap <span class="ui">Archive viewer</span></li>
+    <li>Houd in de <span class="ui">Bestandsverkenner</span> de bestandsnaam ingedrukt</li>
+    <li>Tik op <span class="ui">Openen met…</span></li>
+    <li>Tik op <span class="ui">Archiefviewer</span></li>
     </ol>
 
-    <p>A ZIP file can contain many types of documents like html, txt or images. KOReader can open your ZIP file properly <b>only if you give it a hint for the type of file in the ZIP archive</b>. If you give your file only a <b>.zip</b> extension, KOReader will assume that this archive contains images and try to open it like a <b>CBZ</b> file.</p>
+    <p>Een ZIP-bestand kan veel soorten documenten bevatten, zoals HTML, TXT of afbeeldingen. KOReader kan je ZIP-bestand correct openen <b>alleen als je een hint geeft over het bestandstype in het ZIP-archief</b>. Als je het bestand slechts de extensie <b>.zip</b> geeft, gaat KOReader ervan uit dat het archief afbeeldingen bevat en probeert het als een <b>CBZ</b>-bestand te openen.</p>
 
-    <p>If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class="ui">No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class="ui">Open with…</span> to select the correct engine.</p>
+    <p><span class="ui">STANDAARDGEVAL:</span> jebestandsnaam<b>.zip</b> - Wordt verondersteld een zipbestand met afbeeldingen te zijn (en geopend door de <span class="ui">MuPDF-engine</span>)</p>
 
-    <p>If your zip file contains one of these types (instead of just images), please name it accordingly:</p>
+    <p>Als je zipbestand een van deze typen bevat (in plaats van alleen afbeeldingen), geef het dan overeenkomstig een naam:</p>
 
     <ul>
         <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
-        <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
-        <li><b>Text log files</b> - yourfilename.<b>log.zip</b></li>
-        <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
-        <li><b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b></li>
-        <li><b>Plain text</b> - yourfilename.<b>txt.zip</b></li>
+        <li><b>HTML</b> - jebestandsnaam.<b>htm.zip</b> / jebestandsnaam.<b>html.zip</b></li>
+        <li><b>Tekstlogbestanden</b> - jebestandsnaam.<b>log.zip</b></li>
+        <li><b>Markdown</b> - jebestandsnaam.<b>md.zip</b></li>
+        <li><b>Rich Text Format</b> - jebestandsnaam.<b>rtf.zip</b></li>
+        <li><b>Platte tekst</b> - jebestandsnaam.<b>txt.zip</b></li>
     </ul>
 
-    <p>If the documents are not named like this, the wrong reader/format engine is likely to be used and you will see the <span class="ui">No reader engine for this file or invalid file</span> message. You can rename this file as explained above or long-press the filename and then choose <span class="ui">Open with...</span> to select the correct engine.</p>
+    <p>Als de documenten niet op deze wijze zijn benoemd, wordt waarschijnlijk de verkeerde lezer-/formaat-engine gebruikt en zie je het bericht <span class="ui">Geen engine voor dit bestand of ongeldig bestand.</span>. Je kunt het bestand hernoemen zoals hierboven uitgelegd, of de bestandsnaam lang ingedrukt houden en <span class="ui">Openen met…</span> kiezen om de juiste engine te selecteren.</p>
 
-	<div class="L3-Smaller-heading">Viewing images</div>
+	<div class="L3-Smaller-heading">Afbeeldingen bekijken</div>
 
-    <p>You can open image files with the image viewer instead of opening as a book. Files opened like this don’t show up in your history and have better scaling and rotation support.</p>
+    <p>Je kunt afbeeldingsbestanden openen met de afbeeldingsviewer in plaats van als boek. Bestanden die zo geopend worden verschijnen niet in je geschiedenis en bieden betere ondersteuning voor schalen en roteren.</p>
 
     <ol>
-    <li>In <span class="ui">File Browser</span> long-press the file name</li>
-    <li>Tap <span class="ui">Open with…</span></li>
-    <li>Tap <span class="ui">Image viewer</span></li>
+    <li>Houd in de <span class="ui">Bestandsverkenner</span> de bestandsnaam ingedrukt</li>
+    <li>Tik op <span class="ui">Openen met…</span></li>
+    <li>Tik op <span class="ui">Afbeeldingsviewer</span></li>
     </ol>
 
-	<div class="L3-Smaller-heading">Viewing Markdown files</div>
+	<div class="L3-Smaller-heading">Markdown-bestanden bekijken</div>
 
-    <p>KOReader provides two options for reading Markdown documents.</p>
+    <p>KOReader biedt twee opties om Markdown-documenten te lezen.</p>
     <ol>
-        <li>You can open the document directly like a book by tapping on it. This mode doesn't provide formatting. So your <b>.md</b> file will look like as it is opened in a text editor.</li>
-        <li>You can convert your Markdown document to HTML. This action will render a HTML file from your Markdown document with the correct formatting and a <b>Table of Contents</b> created from the headings.</li>
+        <li>Je kunt het document direct openen als een boek door erop te tikken. Deze modus biedt geen opmaak. Je <b>.md</b>-bestand ziet er dan uit alsof het in een teksteditor is geopend.</li>
+        <li>Je kunt je Markdown-document naar HTML converteren. Deze actie maakt een HTML-bestand van je Markdown met de juiste opmaak en een <b>inhoudsopgave</b> op basis van de koppen.</li>
     </ol>
 
-    <p>To convert a <b>.md</b> file, long press on it in the <span class="ui">File Browser</span> and tap <span class="ui">Convert</span> from the popup menu. A new file with the same name but HTML extension will be created in the same directory. Be aware that conversion might take a while depending on your Markdown file and device speed.</p>
+    <p>Om een <b>.md</b>-bestand te converteren, houd je het in de <span class="ui">Bestandsverkenner</span> lang ingedrukt en tik je in het pop-upmenu op <span class="ui">Converteren</span>. Er wordt een nieuw bestand met dezelfde naam maar met de extensie HTML in dezelfde map aangemaakt. Houd er rekening mee dat converteren even kan duren, afhankelijk van de grootte van je Markdown-bestand en de snelheid van je apparaat.</p>
 
 
-	<div class="L3-Smaller-heading">Setting file associations</div>
+	<div class="L3-Smaller-heading">Bestandsassociaties instellen</div>
     
-    <p>You can also set file associations for file types which KOReader doesn’t automatically recognize. To associate a file with one of the KOReader providers, first long tap on your file in the <span class="ui">File Browser</span> then choose a provider engine to handle this file. You can check:</p>
+    <p>Je kunt ook bestandsassociaties instellen voor bestandstypen die KOReader niet automatisch herkent. Om een bestand aan een van de KOReader-providers te koppelen, houd je het bestand eerst lang ingedrukt in de <span class="ui">Bestandsverkenner</span> en kies je vervolgens een provider-engine om dit bestand te openen. Je kunt de volgende keuzes aanvinken:</p>
 
     <ul>
-        <li><span class="ui">Always use this engine for this file</span> to associate this provider with this particular file only</li>
+        <li><span class="ui">Deze engine altijd voor dit bestand gebruiken</span> om deze provider alleen aan dit specifieke bestand te koppelen</li>
 
-        <li>Or check <span class="ui">Always use this engine for file type</span> to associate this provider with all the files that has same extension as this one</li>
+        <li>Of vink <span class="ui">Deze engine altijd voor dit bestandstype gebruiken</span> aan om deze provider te koppelen aan alle bestanden met dezelfde extensie als dit bestand</li>
 
-        <li>From the same dialog, you can see the associations you made by tapping on <span class="ui">View defaults for file types</span></li>
+        <li>In hetzelfde dialoogvenster kun je de gemaakte associaties bekijken via <span class="ui">Standaarden voor bestandstypen bekijken</span></li>
     </ul>
     
     <img loading="lazy" src="pictures/open_with_association.png" style="width:50%;">
@@ -3343,159 +3343,159 @@ exporteren vanaf je lezer:</p>
 
 <div class="L2-Sub-heading" id="L2-collections">Collecties</div>
 
-    <p>KOReader's <span class="ui">Collections</span> feature can help you with arranging your library more efficiently. As a very simple definition, collections are user created lists of your books. For example you can create two collections named <b>Fiction</b> and <b>Non-Fiction</b> to arrange your books accordingly. Of course you can also use folders to do this but using collections gives you more flexibility.</p>
-    <p>Some advantages of collections compared to the folder based organization:</p>
+    <p>De functie <span class="ui">Collecties</span> van KOReader helpt je je bibliotheek efficiënter te ordenen. Simpel gezegd zijn collecties door de gebruiker gemaakte lijsten van je boeken. Zo kun je bijvoorbeeld twee collecties maken met de namen <b>Fictie</b> en <b>Non-fictie</b> om je boeken dienovereenkomstig te groeperen. Je kunt dit natuurlijk ook met mappen doen, maar collecties geven je meer flexibiliteit.</p>
+    <p>Enkele voordelen van collecties ten opzichte van een mappenstructuur:</p>
     <ul>
-        <li>Adding a book to a collection doesn't move the book file. So your books can be located in different folders but they can appear in the same collection.</li>
-        <li>One book can be in many collections, which is not possible with folders. For example you can have a <b>Science Fiction</b> collection and <b>War Fiction</b> collection. A book can be added to both of these collections at the same time.</li>
-        <li>You can trigger <span class="ui">profiles</span> with <span class="ui">collections</span>. This will be explained below if you are not familiar with the <span class="ui">profiles</span> feature of KOReader. (Of course you can trigger <span class="ui">profiles</span> with folders too but <span class="ui">collections</span> doesn't require you to move your books in order to use temporary <span class="ui">profiles</span> for example.)</li>
+        <li>Een boek aan een collectie toevoegen verplaatst het boekbestand niet. Je boeken kunnen dus in verschillende mappen staan, maar toch in dezelfde collectie verschijnen.</li>
+        <li>Eén boek kan in meerdere collecties zitten, wat met mappen niet kan. Je kunt bijvoorbeeld een collectie <b>Sciencefiction</b> en een collectie <b>Oorlogsromans</b> hebben. Een boek kan tegelijk aan beide collecties worden toegevoegd.</li>
+        <li>Je kunt <span class="ui">profielen</span> activeren via <span class="ui">collecties</span>. Als je de functie <span class="ui">profielen</span> van KOReader niet kent, wordt dit hieronder uitgelegd. (Je kunt ook via mappen <span class="ui">profielen</span> activeren, maar met <span class="ui">collecties</span> hoef je je boeken niet te verplaatsen om bijvoorbeeld tijdelijk een <span class="ui">profiel</span> te gebruiken.)</li>
     </ul>
 
-    <p>You can create collections to mirror any kind of categorization. Some example ideas:</p>
+    <p>Je kunt collecties maken die elke gewenste categorisering weerspiegelen. Enkele ideeën:</p>
     <ul>
-        <li><b>Genres:</b> Fiction, non-fiction, memoir...</li>
-        <li><b>Book status:</b> Currently reading, want to read, next, did not finish...</li>
-        <li><b>Series:</b> Lord of the Rings, Harry Potter...</li>
-        <li><b>Document type:</b> Books, scientific articles, web articles...</li>
+        <li><b>Genres:</b> fictie, non-fictie, memoire…</li>
+        <li><b>Boekstatus:</b> nu aan het lezen, wil ik lezen, volgende, niet uitgelezen…</li>
+        <li><b>Reeksen:</b> In de ban van de ring, Harry Potter…</li>
+        <li><b>Documenttype:</b> boeken, wetenschappelijke artikelen, webartikelen…</li>
     </ul>
 
 
 
-<div class="L3-Smaller-heading">Creating and modifying collections</div>
-    <p>You can create collections from the <span class="ui">Collections</span> dialog located here:</p>
+<div class="L3-Smaller-heading">Collecties maken en wijzigen</div>
+    <p>Je kunt collecties maken via het dialoogvenster <span class="ui">Collecties</span> op deze locatie:</p>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collections</div>
+	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collecties</div>
 
-	<p>Je kunt dit dialoogvenster openen vanuit de leesweergave of vanuit de <span class="ui">Bestandsbeheerder</span>. Wanneer je dit menu opent, krijg je een lijst van je collecties te zien. Standaard zie je daar de <span class="ui">Favorieten</span> staan als een collectie-item, dat de boeken bevat die je al aan je <span class="ui">Favorieten</span>-lijst hebt toegevoegd.</p>
+	<p>Je kunt dit dialoogvenster openen vanuit de leesweergave of vanuit de <span class="ui">Bestandsverkenner</span>. Wanneer je dit menu opent, krijg je een lijst van je collecties te zien. Standaard zie je daar de <span class="ui">Favorieten</span> staan als een collectie-item, dat de boeken bevat die je al aan je <span class="ui">Favorieten</span>-lijst hebt toegevoegd.</p>
 
 	<ul>
-		<li><b>Adding a new collection:</b> Use the hamburger menu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> located at the top left corner of this screen > <span class="ui">New collection</span></li>
+		<li><b>Nieuwe collectie toevoegen:</b> Gebruik het hamburgermenu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> linksboven op dit scherm > <span class="ui">Nieuwe collectie</span></li>
 
-		<li><b>Removing a collection:</b> Long tap on the collection name > <span class="ui">Remove collection</span></li>
+		<li><b>Collectie verwijderen:</b> Houd de collectienaam lang ingedrukt > <span class="ui">Collectie verwijderen</span></li>
 
-		<li><b>Renaming a collection:</b> Long tap on the collection name > <span class="ui">Rename collection</span></li>
+		<li><b>Collectie hernoemen:</b> Houd de collectienaam lang ingedrukt > <span class="ui">Collectie hernoemen</span></li>
 
-		<li><b>Changing the order of your collections:</b> Use the hamburger menu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> located at the top left corner of this screen > <span class="ui">Arrange collection</span></li>
+		<li><b>De volgorde van je collecties wijzigen:</b> Gebruik het hamburgermenu <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> linksboven op dit scherm > <span class="ui">Collectie rangschikken</span></li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">Adding books to your collections</div>
+<div class="L3-Smaller-heading">Boeken aan je collecties toevoegen</div>
 
-	<p>There are three different places in KOReader where you can add books to your collections:</p>
+	<p>Er zijn drie verschillende plekken in KOReader waar je boeken aan je collecties kunt toevoegen:</p>
 
 	<br>
 
-	<p><b>1. From the File Browser and History screen</b></p>
-	<p>You can add a book to your collections from the <span class="ui">File browser</span> or <span class="ui">History</span> screen. From the <span class="ui">History</span> screen you can add books <b>one at a time</b>. Long press on the book and choose <span class="ui">Collections...</span>. Then you can choose which collection(s) you want to add this book to.</p>
+	<p><b>1. Vanuit de Bestandsverkenner en het scherm Geschiedenis</b></p>
+	<p>Je kunt een boek toevoegen aan je collecties vanuit de <span class="ui">Bestandsverkenner</span> of het scherm <span class="ui">Geschiedenis</span>. Vanuit <span class="ui">Geschiedenis</span> kun je boeken <b>één voor één</b> toevoegen. Houd het boek lang ingedrukt en kies <span class="ui">Collecties…</span>. Daarna kies je aan welke collectie(s) je dit boek wilt toevoegen.</p>
 		
-	<p>If you are adding several books, you can do this from the <span class="ui">File browser</span>. For multiple books this is the procedure:</p>
+	<p>Als je meerdere boeken toevoegt, doe je dit vanuit de <span class="ui">Bestandsverkenner</span>. Voor meerdere boeken is dit de procedure:</p>
 	<ol>
-		<li>Long press on a book</li>
-		<li>Choose <span class="ui">Select</span> from the popup menu</li>
-		<li>Select other books</li>
-		<li>Tap the <span class="ui">checkmark</span> (✔️) icon at the top-right corner</li>
-		<li>Tap <span class="ui">Collections</span></li>
+		<li>Houd een boek lang ingedrukt</li>
+		<li>Kies <span class="ui">Selecteren</span> in het pop-upmenu</li>
+		<li>Selecteer andere boeken</li>
+		<li>Tik op het <span class="ui">vinkje</span>-pictogram (✔️) rechtsboven</li>
+		<li>Tik op <span class="ui">Collecties</span></li>
 	</ol>
 		
-	<p>For adding a single book, just long-press on it in the <span class="ui">File browser</span> and choose <span class="ui">Collections</span> from the popup menu.</p>
+	<p>Om één boek toe te voegen houd je het in de <span class="ui">Bestandsverkenner</span> lang ingedrukt en kies je <span class="ui">Collecties</span> in het pop-upmenu.</p>
 
     <br>
 
-	<p><b>2. From the Collections menu</b></p>
-	<p>This method allows you to add single and multiple books to your <span class="ui">Collections</span>. Biggest difference from the <span class="ui">File browser</span> method is that you can add <b>whole folders and their subfolders</b> to your collections at once. This is very useful if your books are already arranged in folders. For example if all your <b>science fiction</b> books are in a single folder, you can create a collection named <b>Science fiction</b> and add this folder at once.</p>
+	<p><b>2. Vanuit het menu Collecties</b></p>
+	<p>Met deze methode kun je zowel losse als meerdere boeken aan je <span class="ui">Collecties</span> toevoegen. Het grootste verschil met de methode via de <span class="ui">Bestandsverkenner</span> is dat je <b>hele mappen en hun submappen</b> in één keer aan je collecties kunt toevoegen. Dat is erg handig als je boeken al in mappen zijn geordend. Als al je <b>sciencefiction</b>-boeken bijvoorbeeld in één map staan, kun je een collectie <b>Sciencefiction</b> maken en die map in één keer toevoegen.</p>
 
 	<img loading="lazy" src="pictures/collections_features.png" style="width:50%;">
 
 	
-	<p>In the image above, <b>Box 1</b> shows the book adding options. You can reach this menu from the collections screen's hamburger menu:</p>
+	<p>In de bovenstaande afbeelding toont <b>Vlak 1</b> de opties om boeken toe te voegen. Je bereikt dit menu via het hamburgermenu op het scherm Collecties:</p>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collections / Your collection name / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"></div>
+	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collecties / Naam van je collectie / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"></div>
 
 	<ul>
-		<li><span class="ui">Add all books from a folder:</span> As its name says, this options allows you to select a folder to add all the books in it to this collection. Note that this option <b>doesn't add the books in subfolders</b> of the chosen folder. For example if you select your <b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and <b>War Fiction</b> under it, they won't be added with this option.</li>
-		<li><span class="ui">Add all books from a folder and its subfolders:</span> This is the option that will <b>add all the subfolders</b> of your chosen folder. Be careful with this option because it will go down all the way while adding the books. So if you have many levels of nested folders, there might be too many books than you thought.</li>
-		<li><span class="ui">Add a book to collection</span>: This is the basic option that will allow you to add a single book.</li>
+		<li><span class="ui">Alle boeken uit een map toevoegen:</span> Zoals de naam aangeeft, kun je hiermee een map selecteren om alle boeken daarin aan deze collectie toe te voegen. Let op: deze optie <b>voegt geen boeken in submappen</b> van de gekozen map toe. Als je bijvoorbeeld je map <b>Fictie</b> selecteert en daaronder de mappen <b>Sciencefiction</b> en <b>Oorlogsromans</b> hebt, dan worden die niet toegevoegd met deze optie.</li>
+		<li><span class="ui">Alle boeken uit een map en submappen toevoegen:</span> Met deze optie worden <b>alle submappen</b> van de gekozen map meegenomen. Wees voorzichtig, want hij gaat alle niveaus naar beneden bij het toevoegen. Als je veel geneste mappen hebt, kunnen het meer boeken zijn dan je verwacht.</li>
+		<li><span class="ui">Boek aan collectie toevoegen</span>: Dit is de basisoptie om één enkel boek toe te voegen.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">Removing books from your collections</div>
+<div class="L3-Smaller-heading">Boeken uit je collecties verwijderen</div>
 
-        <p>You can remove a book from collections from the <span class="ui">File browser</span>, <span class="ui">History</span> screen or the <span class="ui">Collections</span> screen. In the <span class="ui">File browser</span> and <span class="ui">History</span> screens, long press on the book and choose <span class="ui">Collections...</span>. You will see a checkmark next to the collections that you added this book to. Uncheck the ones by tapping on it to remove the book from that collection. Also from the <span class="ui">Collections</span> screen, you can long press on a book and choose <span class="ui">Remove from collection</span>.</p>
+        <p>Je kunt een boek uit collecties verwijderen via de <span class="ui">Bestandsverkenner</span>, het scherm <span class="ui">Geschiedenis</span> of het scherm <span class="ui">Collecties</span>. In de <span class="ui">Bestandsverkenner</span> en <span class="ui">Geschiedenis</span> houd je het boek lang ingedrukt en kies je <span class="ui">Collecties…</span>. Je ziet een vinkje naast de collecties waaraan je dit boek hebt toegevoegd. Haal het vinkje weg om het boek uit die collectie te verwijderen. Ook op het scherm <span class="ui">Collecties</span> kun je een boek lang ingedrukt houden en <span class="ui">Uit collectie verwijderen</span> kiezen.</p>
 
 
 
-<div class="L3-Smaller-heading">Arranging the books in your collections</div>
+<div class="L3-Smaller-heading">Boeken in je collecties ordenen</div>
 
-        <p>Collections can be very crowded but KOReader allows you to find your books easily by providing many filtering options. If you look at the image above, you can see the filtering options in <b>Box 2</b> and <b>Box 3</b>. <b>Box 2</b> allows you to filter by book status (new, reading, finished, on hold) and <b>Box 3</b> allows you to filter by book metadata (author, series, language, keywords). And also you can combine these two groups of filters like this example: <b>"Show me the new books in this collection which are written by Isaac Asimov <span class="ui">(Filter by authors -> Isaac Asimov)</span> that I haven't started yet <span class="ui">(Filter by status -> New)</span>."</b></p>
+        <p>Collecties kunnen erg druk worden, maar KOReader helpt je je boeken makkelijk terug te vinden met veel filteropties. In de afbeelding hierboven zie je de filters in <b>Vlak 2</b> en <b>Vlak 3</b>. Met <b>Vlak 2</b> filter je op boekstatus (nieuw, bezig, uitgelezen, in de wacht) en met <b>Vlak 3</b> op boekmetadata (auteur, reeks, taal, trefwoorden). Je kunt deze twee groepen ook combineren, bijvoorbeeld: <b>‘Laat me de nieuwe boeken in deze collectie zien die zijn geschreven door Isaac Asimov <span class="ui">(Filteren op auteurs -> Isaac Asimov)</span> en die ik nog niet ben begonnen <span class="ui">(Filteren op status -> Nieuw)</span>.’</b></p>
         
-        <p>You can update the book metadata by long-pressing on the book in <span class="ui">File browser</span> and choosing <span class="ui">Book information</span> from the menu. In the popup window you can long-press on any field to change the metadata like <b>author</b> or <b>keywords</b>. You can also use <span class="external">Calibre</span> for this task, a third-party application which makes managing your book metadata much easier.</p>
+        <p>Je kunt de metadata van een boek bijwerken door het boek lang ingedrukt te houden in de <span class="ui">Bestandsverkenner</span> en <span class="ui">Boekinformatie</span> te kiezen. In het pop-upvenster kun je een veld lang ingedrukt houden om metadata zoals <b>auteur</b> of <b>trefwoorden</b> te wijzigen. Je kunt hiervoor ook <span class="external">Calibre</span> gebruiken, een externe toepassing die het beheren van boekmetadata veel eenvoudiger maakt.</p>
 
-        <div class="info"><span class="label_blue">INFO</span> Be aware that <span class="external">Calibre</span> changes the metadata within the book itself, so the changed metadata is visible outside of <span class="external">Calibre</span>. But KOReader doesn't change the book file, it only adds custom metadata as a file in the book's <b>.sdr folder</b>, so this metadata is visible in KOReader only.</div>
+        <div class="info"><span class="label_blue">INFO</span> Weet dat <span class="external">Calibre</span> de metadata in het boek zelf wijzigt, zodat de gewijzigde metadata ook buiten <span class="external">Calibre</span> zichtbaar is. KOReader wijzigt het boekbestand niet; het voegt alleen aangepaste metadata toe als bestand in de <b>.sdr-map</b> van het boek, dus die metadata is alleen in KOReader zichtbaar.</div>
 
 
 
-<div class="L3-Smaller-heading">Searching in collections</div>
+<div class="L3-Smaller-heading">Zoeken in collecties</div>
 
-        <p>There are two types of search you can perform in collections: You can search for a phrase <b>in the book titles and metadata</b> or you can also search <b>inside the book texts</b>. You can open the search dialog from:</p>
+        <p>Er zijn twee soorten zoekopdrachten die je in collecties kunt uitvoeren: je kunt zoeken naar een term <b>in de boektitels en metadata</b>, of je kunt zoeken <b>in de boekteksten</b>. Je opent het zoekdialoog via:</p>
 
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collections / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collections search</div>
+        <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Collecties / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / Zoeken in collecties</div>
 
-        <p>If you want to perform a search <b>in the book texts</b>, please keep these points in mind:</p>
+        <p>Als je <b>in de boekteksten</b> wilt zoeken, houd dan rekening met het volgende:</p>
 
         <ul>
-            <li>This type of search is only available if you open the <span class="ui">collections</span> from the <span class="ui">file browser</span>. It is <b>not available</b> from the reading screen.</li>
-            <li>This search can be slow (around 2 seconds per book in the collection). So if you have a crowded collection, it might take a long time.</li>
+            <li>Dit type zoekopdracht is alleen beschikbaar als je de <span class="ui">collecties</span> via de <span class="ui">Bestandsverkenner</span> opent. Het is <b>niet beschikbaar</b> vanuit het leesscherm.</li>
+            <li>Deze zoekopdracht kan langzaam zijn (ongeveer 2 seconden per boek in de collectie). Als je een grote collectie hebt, kan het dus lang duren.</li>
         </ul>
 
-        <p>Search function depends on where you are in the <span class="ui">collections</span> window. If you are at the root level where you can see all your collections, search will be performed on all collections. If you want to search only in a specific collection, you have to tap and enter the collection. This is especially important if you are also searching in the book texts because it is a slow operation.</p>
+        <p>De zoekfunctie hangt af van waar je je bevindt in het venster <span class="ui">Collecties</span>. Bevind je je op het hoogste niveau waar je al je collecties ziet, dan wordt er in alle collecties gezocht. Wil je alleen in een specifieke collectie zoeken, tik er dan op om die te openen. Dit is vooral belangrijk als je ook in de boekteksten zoekt, omdat dat een trage bewerking is.</p>
 
-        <p>When you perform a search, results will be automatically saved as a new collection.</p>
+        <p>Wanneer je een zoekopdracht uitvoert, worden de resultaten automatisch als een nieuwe collectie opgeslagen.</p>
 
 
 
-<div class="L3-Smaller-heading">Automatically synchronizing collections with folders</div>
+<div class="L3-Smaller-heading">Collecties automatisch synchroniseren met mappen</div>
 
-    <p>After creating your collections and adding books to them, you will probably want to keep them in sync with some folders. For example imagine that you created a <b>Science Fiction</b> collection. And you also have a <b>SF</b> folder in your library where you put your science fiction books. If you want to make the <span class="ui">science fiction collection</span> update itself when you add a new file to this folder, you can do it with <span class="ui">connected folders</span> feature of the collections.</p>
+    <p>Na het aanmaken van je collecties en het toevoegen van boeken wil je ze waarschijnlijk met bepaalde mappen synchroniseren. Stel dat je een collectie <b>Sciencefiction</b> hebt aangemaakt en ook een map <b>SF</b> in je bibliotheek waarin je sciencefictionboeken zet. Als je wilt dat de <span class="ui">sciencefiction-collectie</span> zichzelf bijwerkt wanneer je een nieuw bestand aan deze map toevoegt, kan dat met de functie <span class="ui">Verbonden mappen</span> van collecties.</p>
 
-    <p>With this feature you can connect one or more folders to your collection. After that, KOReader will (re)scan the folders to add or remove books from your collections in these conditions:</p>
+    <p>Met deze functie kun je een of meer mappen aan je collectie koppelen. Daarna zal KOReader de mappen (opnieuw) scannen om boeken aan je collecties toe te voegen of eruit te verwijderen in de volgende situaties:</p>
 
     <ul>
-        <li>When connecting a folder to a collection</li>
-        <li>When including subfolders of a connected folder</li>
-        <li>When showing the collection</li>
-        <li>On program start</li>
+        <li>Wanneer je een map met een collectie verbindt</li>
+        <li>Wanneer submappen van een verbonden map worden meegenomen</li>
+        <li>Wanneer de collectie wordt weergegeven</li>
+        <li>Bij het starten van het programma</li>
     </ul>
 
 
-    <p><b>How to connect a folder to your collection:</b></p>
+    <p><b>Zo verbind je een map met je collectie:</b></p>
         
     <img loading="lazy" src="pictures/collections_connect.png" style="width:50%;">
 
     <ol>
-        <li>Go to the <span class="ui">Collections</span> screen that is seen in the image above.</li>
-        <li>Long-press on the collection name which you want to connect folders <b>(1)</b>.</li>
-        <li>Select <span class="ui">Connect folders</span> from the pop-up menu <b>(2)</b>.</li>
-        <li><span class="ui">List of connected folders screen</span> will open.</li>
-        <li>Add a folder by pressing the <span class="ui">PLUS icon</span> at the top left corner of that screen, which will open the <span class="ui">Folder chooser screen</span>.</li>
+        <li>Ga naar het scherm <span class="ui">Collecties</span> zoals hierboven afgebeeld.</li>
+        <li>Houd de naam van de collectie waar je mappen aan wilt verbinden lang ingedrukt <b>(1)</b>.</li>
+        <li>Kies <span class="ui">Mappen verbinden</span> in het pop-upmenu <b>(2)</b>.</li>
+        <li>Het <span class="ui">scherm Lijst met verbonden mappen</span> wordt geopend.</li>
+        <li>Voeg een map toe door op het <span class="ui">PLUS-pictogram</span> linksboven op dat scherm te tikken; hierdoor wordt het <span class="ui">Mapkiezer-scherm</span> geopend.</li>
             
-        <li>Repeat the last item if you want to connect more folders.</li>
+        <li>Herhaal de vorige stap als je meer mappen wilt verbinden.</li>
     </ol>
         
-    <p>Collections with connected folders will have a <span class="ui">folder icon</span> as you can see from the image above <b>(3)</b>.</p>
+    <p>Collecties met verbonden mappen krijgen een <span class="ui">mappictogram</span>, zoals te zien is in de afbeelding hierboven <b>(3)</b>.</p>
 
-    <p>You might want to include subfolders of a folder too for synchronization. In the <b>step 4</b> above, when you open the <span class="ui">List of connected folders screen</span>, you can long-press on a folder to <span class="ui">include/exclude subfolders</span> from the popup menu.</p>
+    <p>Voor synchronisatie wil je mogelijk ook submappen meenemen. Bij <b>stap 4</b> hierboven, op het <span class="ui">scherm Lijst met verbonden mappen</span>, kun je een map lang ingedrukt houden en in het pop-upmenu <span class="ui">Submappen opnemen/uitsluiten</span> kiezen.</p>
 
     <br>
-    <p><b>How to disconnect a folder from your collection:</b></p>
+    <p><b>Zo koppel je een map los van je collectie:</b></p>
 
     <ol>
-        <li>Go to the <span class="ui">Collections</span> screen that is seen in the image above.</li>
-        <li>Long-press on the collection name which you want to connect folders <b>(1)</b>.</li>
-        <li>Select <span class="ui">Connect folders</span> from the pop-up menu <b>(2)</b>.</li>
-        <li><span class="ui">List of connected folders screen</span> will open.</li>
-        <li>Long-press on the folder which you want to disconnect and choose <span class="ui">Disconnect folder</span> from the popup menu.</li>
+        <li>Ga naar het scherm <span class="ui">Collecties</span> zoals hierboven afgebeeld.</li>
+        <li>Houd de naam van de collectie waar je mappen aan wilt verbinden lang ingedrukt <b>(1)</b>.</li>
+        <li>Kies <span class="ui">Mappen verbinden</span> in het pop-upmenu <b>(2)</b>.</li>
+        <li>Het <span class="ui">scherm Lijst met verbonden mappen</span> wordt geopend.</li>
+        <li>Houd de map die je wilt loskoppelen lang ingedrukt en kies <span class="ui">Map ontkoppelen</span> in het pop-upmenu.</li>
     </ol>
 
 
@@ -3516,120 +3516,120 @@ exporteren vanaf je lezer:</p>
         
         <p>With the profiles plugin, you can do all these at once with a single action.</p>
 
-        <p>You can run a profile manually but real power of profiles can be unleashed with its <span class="ui">auto-execute</span> feature. Using this feature, you can trigger a profile depending on some conditions. Here is the link to the relevant section of the guide: <a href="#L2-profileautoexec">Profile auto-execution</a>. For now we will just explain one trigger condition here: <span class="ui">Collections</span>.</p>
+        <p>Je kunt een profiel handmatig uitvoeren, maar de echte kracht van profielen komt tot zijn recht met de functie <span class="ui">automatisch uitvoeren</span>. Daarmee kun je een profiel activeren op basis van bepaalde voorwaarden. Zie ook de relevante sectie van deze gids: <a href="#L2-profileautoexec">Profielen automatisch uitvoeren</a>. Voor nu lichten we één trigger toe: <span class="ui">Collecties</span>.</p>
 
-        <p>Basically you can create some profiles and set them to auto-execute if an opened book is in some specific collection. Some useful examples:</p>
+        <p>Kort gezegd kun je profielen maken en ze automatisch laten uitvoeren als een geopend boek in een bepaalde collectie zit. Enkele nuttige voorbeelden:</p>
 
         <ul>
-            <li>You can add all your manga to a <b>Manga</b> collection and make a profile to switch the page turn direction to <b>Right-To-Left</b> and to invert page turn taps and swipes when you open a manga book from this collection.</li>
-            <li>You can add your comic books to a collection, which can trigger a profile to decrease the screen refresh interval to <span class="ui">every page</span> to avoid ghosting.</li>
-            <li>You can add your problematic PDFs to a collection, so when you open them <span class="ui">Auto OCR</span> or <span class="ui">Reflow mode</span> is activated with a profile.</li>
+            <li>Je kunt al je manga toevoegen aan een collectie <b>Manga</b> en een profiel maken dat de paginawisselrichting op <b>Rechts-naar-links</b> zet en tikken/vegen voor paginawissel omkeert wanneer je een mangaboek uit deze collectie opent.</li>
+            <li>Je kunt je stripboeken aan een collectie toevoegen, wat een profiel kan activeren dat het schermverversingsinterval verlaagt naar <span class="ui">elke pagina</span> om ghosting te voorkomen.</li>
+            <li>Je kunt je problematische pdf's aan een collectie toevoegen, zodat bij het openen <span class="ui">Auto-OCR</span> of <span class="ui">Herschik-modus</span> via een profiel wordt geactiveerd.</li>
         </ul>
 
 
 
 <div class="L2-Sub-heading" id="L2-optimizing">EPUB/PDF-documenten optimaliseren voor je lezer</div>
 
-    <p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format.</p>
+    <p>KOReader kan PDF-documenten herschikken (deze optie vind je in het ondermenu tijdens het lezen van een document met vaste indeling zoals PDF) om ze geschikt te maken voor de kleine schermen van e-readers. Voor de beste resultaten kun je je documenten echter beter converteren naar het flexibelere EPUB-formaat.</p>
 
-    <p>Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).</p>
+    <p>De meest gebruikte toepassingen voor het converteren of optimaliseren van je document voor je mobiele leestoestel zijn <span class="external">Calibre</span> (gericht op <b>EPUB, Kindle</b>) en <span class="external">K2pdfopt</span> (gericht op <b>PDF</b>).</p>
 
-    <p><a href="https://calibre-ebook.com/">Calibre</a> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. </p>
+    <p><a href="https://calibre-ebook.com/">Calibre</a> kan je documenten tussen veel formaten converteren. Het bevat ook een ingebouwde editor waarmee je e-books kunt bewerken (en problemen oplossen) in de populairste e-bookformaten, EPUB en Kindle. </p>
 
-    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool.</p>
+    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> optimaliseert PDF-/DJVU-bestanden voor mobiele e-readers en smartphones. Het werkt goed met PDF-/DJVU-bestanden met meerdere kolommen en kan zelfs tekst herschikken in gescande PDF-bestanden. Het kan ook worden gebruikt als algemene tool voor PDF kopiëren/bijsnijden/schalen/OCR.</p>
 
-    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> is a command line application which can add an OCR text layer to scanned PDF files (containing only images without text), allowing them to be searched or copy-pasted. It can especially be useful for reading old scanned books. It can also optimize the images for a smaller file size.</p>
+    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> is een commandlinetoepassing die een OCR-tekstlaag kan toevoegen aan gescande PDF-bestanden (die alleen afbeeldingen zonder tekst bevatten), waardoor ze doorzoekbaar worden en tekst kan worden gekopieerd en geplakt. Dit is vooral handig voor het lezen van oude gescande boeken. Het kan afbeeldingen ook optimaliseren voor een kleinere bestandsgrootte.</p>
 
-    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a <b>single .html file</b> with all the resources (images, stylesheets, scripts) embedded.</p>
+    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is een browserextensie voor <b>Mozilla Firefox, Google Chrome</b> en <b>Microsoft Edge</b>. Deze extensie laat je een webpagina opslaan als één <b>.html-bestand</b> met alle bronnen (afbeeldingen, stylesheets, scripts) ingesloten.</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-metadatastorage">Book metadata storage options</div>
+<div class="L2-Sub-heading" id="L2-metadatastorage">Opties voor opslag van boekmetadata</div>
 
 	<p><span class="label_red">!!! GEAVANCEERD</span></p>
 
-	<p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+	<p>KOReader slaat instellingen en extra informatie met betrekking tot je boeken op in dezelfde map als je boekbestand. We noemen dit <b>metadata</b> en het omvat:</p>
 	<ul>
-		<li>Visual settings for the book</li>
-		<li>Book reading progress</li>
-		<li>Highlights, bookmarks and notes</li>
+		<li>Visuele instellingen voor het boek</li>
+		<li>Leesvoortgang van het boek</li>
+		<li>Markeringen, bladwijzers en notities</li>
 	</ul>
 	
-	<p>In a recent change, we added new ways of storing this metadata to solve certain problems related to synchronization between devices. Currently there are three different methods to store the metadata and each method has its own benefits/negatives.</p>
+	<p>Onlangs hebben we nieuwe manieren toegevoegd om deze metadata op te slaan om bepaalde problemen met synchronisatie tussen apparaten op te lossen. Momenteel zijn er drie verschillende methoden om de metadata op te slaan, elk met hun eigen voor- en nadelen.</p>
 
-	<p>You can change this setting from this menu:</p>
+	<p>Je kunt deze instelling wijzigen via dit menu:</p>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location</div>
+	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Locatie boekmetadata</div>
 
 	
-	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> We strongly advise reading the section below to understand the differences and how each method works before making any changes. Otherwise there is a risk of losing your book settings, progress and annotations.</p></div>
+	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WAARSCHUWING</span> We raden sterk aan de onderstaande sectie te lezen om de verschillen en de werking van elke methode te begrijpen voordat je wijzigingen aanbrengt. Anders loop je het risico je boekinstellingen, voortgang en aantekeningen te verliezen.</p></div>
 
 
 
-<div class="L3-Smaller-heading">1. Individual metadata folders next to the book files - DEFAULT SETTING</div>
+<div class="L3-Smaller-heading">1. Afzonderlijke metadata-mappen naast de boekbestanden - STANDAARDINSTELLING</div>
 
-		<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: book folder</div>
+		<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Locatie boekmetadata: map van boek</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>Dit is de <b>standaard</b> methode bij een nieuwe installatie van KOReader. Bij deze methode wordt, wanneer je <b>Alice in Wonderland.epub</b> naar je apparaat kopieert en het voor het eerst opent, in dezelfde map een map met de naam <span class="ui">Alice in Wonderland.sdr</span> aangemaakt. Deze map bevat de bestanden met je instellingen, aantekeningen en leesvoortgang voor dit boek.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Voordelen</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>Je kunt de instellingen per boek handmatig back-uppen en terugzetten.</li>
+			<li>Wanneer je mappen synchroniseert of back-ups maakt met een systeem als <b>Syncthing</b> of <b>Dropbox</b>, worden je instellingen samen met je boeken gesynchroniseerd.</li>
+			<li>Je kunt de bovenliggende mappen waarin je boek zich bevindt hernoemen; dat brengt KOReader niet in de war.</li>
 		</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Nadelen</span></b></p>
 		<ul>
-			<li>If you reorganize your library by moving/renaming the book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
-			<li>These <b>.sdr</b> folders will be visible when you browse your library directories with another file browser or from your computer, which may clutter your view.</li>
+			<li>Als je je bibliotheek herorganiseert door de boekbestanden of hun bijbehorende .sdr-map buiten de Bestandsverkenner van KOReader te verplaatsen of te hernoemen, verlies je de metadata van die boeken zonder waarschuwing.</li>
+			<li>Deze <b>.sdr</b>-mappen zijn zichtbaar wanneer je je bibliotheekmappen met een andere bestandsbeheerder of vanaf je computer bekijkt, wat je weergave kan vervuilen.</li>
 		</ul>
 	
 
 
-<div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">2. Metadata-mappen onder één KOReader-map</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/docsettings</div>
+	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Locatie boekmetadata: .../koreader/docsettings</div>
 
-<p>This method is essentially same as the default one above. The difference is, in this method, all <b>.sdr</b> folders of your books will be under a single directory <b>which is under the KOReader main directory structure</b>, instead of your library directory, next to the book files.</p>
+<p>Deze methode is in wezen hetzelfde als de standaardmethode hierboven. Het verschil is dat in deze methode alle <b>.sdr</b>-mappen van je boeken onder één map staan, <b>die onder de hoofdmapstructuur van KOReader valt</b>, in plaats van in je bibliotheekmap naast de boekbestanden.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Voordelen</span></b></p>
 	<ul>
-		<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+		<li>Boek-<b>.sdr</b>-mappen zijn alleen zichtbaar voor en worden alleen gebruikt door KOReader. Ze vervuilen je weergave van je bibliotheekmappen niet wanneer je die met een andere bestandsbeheerder of vanaf je computer bekijkt.</li>
 	</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Nadelen</span></b></p>
 	<ul>
-		<li>If you reorganize your library by moving/renaming the moving/renaming library directories, book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
+		<li>Als je je bibliotheek herorganiseert door bibliotheekmappen, boekbestanden of hun bijbehorende .sdr-map buiten de Bestandsverkenner van KOReader te verplaatsen of te hernoemen, verlies je de metadata van die boeken zonder waarschuwing.</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>Aangezien je boekmetadata niet in je bibliotheekmappen staat, worden ze niet meegenomen in synchronisaties of back-ups van je bibliotheek.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">3. Afzonderlijke GEHASHTE metadata-mappen onder één KOReader-map</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/hashdocsettings</div>
+	<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Locatie boekmetadata: .../koreader/hashdocsettings</div>
 
-	<p>This method is similar to the previous one as the <b>.sdr</b> folders will be under an internal directory. But this method is developed to address the shortcomings of the previous method. Because, normally if you rename a book outside KOReader (with the native file manager/reader of the device or from a connected computer), its <b>.sdr</b> folder name will no longer match and your metadata for that book will be lost. <b>If you are only using the KOReader File Browser for file operations, this is automatically handled so there are no repercussions.</b></p>
+	<p>Deze methode lijkt op de vorige omdat de <b>.sdr</b>-mappen zich onder een interne map bevinden. Maar deze methode is ontwikkeld om de tekortkomingen van de vorige methode op te lossen. Normaal gesproken, als je een boek buiten KOReader hernoemt (met de ingebouwde bestandsbeheerder/lezer van het apparaat of vanaf een aangesloten computer), komt de naam van de <b>.sdr</b>-map niet meer overeen en gaan de metadata van dat boek verloren. <b>Als je voor bestandsbewerkingen alleen de Bestandsverkenner van KOReader gebruikt, wordt dit automatisch afgehandeld en zijn er geen nadelige gevolgen.</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>In deze <b>HASHED</b>-methode worden <b>.sdr</b>-mappen niet geïdentificeerd op basis van het bestandspad of de bestandsnaam van het boek. In plaats daarvan wordt een gedeeltelijke <b>MD5-hash</b> gebruikt om de boeken aan hun instellingen te koppelen. Deze hash wordt gebruikt als unieke ID voor het boek en wordt berekend op basis van de <b>inhoud van het boekbestand</b>. Dezelfde hash wordt ook gebruikt voor de naam van de .sdr-map.</p>
 		
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Voordelen</span></b></p>
 		<ul>
-			<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+			<li>Boek-<b>.sdr</b>-mappen zijn alleen zichtbaar voor en worden alleen gebruikt door KOReader. Ze vervuilen je weergave van je bibliotheekmappen niet wanneer je je bibliotheekmappen met een andere bestandsbeheerder of vanaf je computer bekijkt.</li>
 
-			<li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+			<li>Je kunt je boeken hernoemen, verplaatsen en kopiëren met een andere bestandsbeheerder of vanaf je computer. KOReader herkent de boeken nog steeds na deze bewerkingen.</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>In deze methode koppelt KOReader dezelfde <b>.sdr</b>-map aan alle kopieën van het boek, zelfs als die kopieën op verschillende apparaten staan. Als je bijvoorbeeld <b>Syncthing</b> gebruikt, kun je met deze methode je map <span class="ui">/hashdocsettings</span> samen met je boekbestanden synchroniseren, over meerdere apparaten waarop KOReader is geïnstalleerd. Ondanks de verschillende relatieve paden van die boeken op elk apparaat kun je toch je aantekeningen en voortgang tussen je apparaten synchroniseren. Dit is niet mogelijk met de andere methoden.</li>
 		</ul>
 
-		<p><b><span class="label_red">Negatives</span></b></p>
+		<p><b><span class="label_red">Nadelen</span></b></p>
 		<ul>
-			<li>Any operations that modify the file directly (such as writing highlights into PDFs or downloading from <b>Calibre</b>) will change the file so its <b>MD5 ID will change</b> (unlike renaming or moving which is safe with this method). In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+			<li>Alle bewerkingen die het bestand rechtstreeks wijzigen (zoals het wegschrijven van markeringen in PDF's of downloaden vanuit <b>Calibre</b>) veranderen het bestand, waardoor de <b>MD5-ID verandert</b> (in tegenstelling tot hernoemen of verplaatsen, wat met deze methode veilig is). In dat geval kan KOReader het boek niet meer herkennen en verliezen die boeken hun metadata.</li>
 
-			<li>Calculating file IDs may slow down <span class="ui">File browser</span> navigation when browsing larger directories.</li>
+			<li>Het berekenen van bestands-ID's kan het bladeren in de <span class="ui">Bestandsverkenner</span> vertragen bij het bekijken van grote mappen.</li>
 		</ul>
 
 
@@ -3641,11 +3641,11 @@ exporteren vanaf je lezer:</p>
 <div class="L1-Chapter-heading" id="L1-gestures">GEBAREN EN TOETSENBORDSNELKOPPELINGEN</div>
 
     <p>
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.</p>
+    Er zijn veel soorten gebaren waarmee je KOReader kunt bedienen. Sommige gebaren hebben beperkingen wat betreft waar op het scherm ze kunnen worden gebruikt en welke richtingen worden ondersteund. Deze beperkingen worden hieronder aangegeven.</p>
 
     <div class="L2-Sub-heading" id="L2-gesturetypes">Gebarentypes</div>
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch so multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">INFO</span> Sommige apparaten ondersteunen alleen een enkele aanraking, dus meer-vingergebaren <b>zijn daarop niet beschikbaar</b>.</div>
 
 
 
@@ -3654,57 +3654,57 @@ exporteren vanaf je lezer:</p>
             <td style="width: 25%;">
                 <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
             </td>
-            <td><p class="ui">TAP / DOUBLE TAP</p>
-                <p>Single or double tap with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">TIK / DUBBELTIK</p>
+                <p>Enkele of dubbele tik met <b>ÉÉN</b> vinger</p>
+                <p><b>WERKT:</b> Overal op het scherm</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TAP AND HOLD</p>
-                <p>Single tap and hold with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">TIK EN VASTHOUDEN</p>
+                <p>Eén tik en vasthouden met <b>ÉÉN</b> vinger</p>
+                <p><b>WERKT:</b> Alleen in de vier hoeken</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;"></td>
             <td>
-                <p class="ui">Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL)</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">TIKKEN MET TWEE VINGERS</p>
+        <p>Enkele tik met <b>TWEE</b> vingers tegelijk</p>
+        <p><b>WERKT:</b> Alleen in de vier hoeken</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
-            <td><p class="ui">Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p>Same as zooming in and out on a phone or tablet.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div></td>
+            <td><p class="ui">UIT- EN INKNIJPEN</p>
+        <p>Net als inzoomen en uitzoomen op een telefoon of tablet.</p>
+        <p><b>WERKT:</b> Overal op het scherm</p>
+        <div class="info"><span class="label_blue">INFO</span> Dit gebaar werkt mogelijk minder betrouwbaar afhankelijk van je apparaat. Kies in dat geval een ander type gebaar.</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
-            <td><p class="ui">ONE FINGER SWIPE</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p></td>
+            <td><p class="ui">VEGEN MET ÉÉN VINGER</p>
+        <p>Veegbeweging met <b>ÉÉN</b> vinger</p>
+        <p><b>WERKT:</b> Randen van het scherm (HORIZONTAAL en VERTICAAL) Overal behalve de randen (DIAGONAAL) </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
-            <td><p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">VEGEN MET TWEE VINGERS</p>
+        <p>Veegbeweging met <b>TWEE</b> vingers tegelijk</p>
+        <p><b>WERKT:</b> Overal op het scherm</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
-            <td><p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">MULTIVEGEN</p>
+        <p>Meer dan één veegbeweging achter elkaar zonder je vinger op te tillen. Bijvoorbeeld zoals de letter <b>U</b> tekenen (OMLAAG-RECHTS-OMHOOG)</p>
+        <p><b>WERKT:</b> Overal op het scherm</p></td>
         </tr>
         <tr>
             <td></td>
-            <td><p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
+            <td><p>Pictogrammen door <b>Econceptive</b> van het <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
         </tr>
     </table>
 
@@ -3712,10 +3712,10 @@ exporteren vanaf je lezer:</p>
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">Voorgedefinieerde gebaren</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    Deze tabel toont de gebaren die standaard met KOReader meekomen. Je kunt deze gebaren naar wens aanpassen via:</p>
 
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Gesture Manager</div>
+    <div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / GebarenbeheerThis powerful feature allows you to save all the <span class="ui">BOTTOM MENU</span> settings + font type as a <b>profile</b>. This means you can have different group of settings for different conditions or book types which you can apply at once instead of changing the settings manually every time. For example you can create a:</div>
 
 
     <div class="centering-div">
@@ -3724,39 +3724,39 @@ exporteren vanaf je lezer:</p>
 
     <div class="L3-Smaller-heading">CORNER TAP</div>
     
-    <p><b>Top Left Corner</b> > Toggle page flipping</p>
-    <p><b>Top Right Corner</b> > Toggle bookmark</p>
-    <p><b>Opposing diagonal corners at the same time</b> > Take screenshot</p>
+    <p><b>Bovenlinkerhoek</b> > Pagina-ombladeren schakelen</p>
+    <p><b>Bovenrechterhoek</b> > Bladwijzer schakelen</p>
+    <p><b>Tegengestelde diagonale hoeken tegelijk</b> > Schermafdruk maken</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">DOUBLE TAP</div>
-    <p><b>↓ ↑</b> - Skim document</p>
-    <p><b>↑ ←</b> - Bookmarks</p>
+    <div class="L3-Smaller-heading">DUBBELTIK</div>
+    <p><b>Linkerkant</b> > Ga -10 pagina's</p>
+    <p><b>Rechterkant</b> > Ga +10 pagina's</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
+    <div class="L3-Smaller-heading">VEGEN MET ÉÉN VINGER</div>
     <p><b>↑ ↓ ↑</b> - Previous chapter</p>
     <p><b>Lange diagonale veegbeweging</b> > Schermafdruk maken</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">MULTISWIPES</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
-    <p><span style="font-family: microns;"></span> - Skim document</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
-    <p><span style="font-family: microns;"></span> - Table of contents</p>
-    <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
-    <p><span style="font-family: microns;"></span> - Toggle reflow</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
+    <div class="L3-Smaller-heading">MULTIVEGEN</div>
+    <p><span style="font-family: microns;"></span> - Terug naar vorige locatie</p>
+    <p><span style="font-family: microns;"></span> - Ga naar meest recente bladwijzer</p>
+    <p><span style="font-family: microns;"></span> - Document doorbladeren</p>
+    <p><span style="font-family: microns;"></span> - Bladwijzers</p>
+    <p><span style="font-family: microns;"></span> - Inhoudsopgave</p>
+    <p><span style="font-family: microns;"></span> - Lichtdialoog tonen</p>
+    <p><span style="font-family: microns;"></span> - Herindeling schakelen</p>
+    <p><span style="font-family: microns;"></span> - Geschiedenis</p>
+    <p><span style="font-family: microns;"></span> - Boekstatus</p>
+    <p><span style="font-family: microns;"></span> - Ga naar pagina</p>
+    <p><span style="font-family: microns;"></span> - Terug</p>
+    <p><span style="font-family: microns;"></span> - Vorig hoofdstuk</p>
     <p><span style="font-family: microns;"></span> - Volgende hoofdstuk</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
+    <p><span style="font-family: microns;"></span> - Vorig document openen</p>
     <p><span style="font-family: microns;"></span> - Favorieten</p>
 
     </div>
@@ -3766,9 +3766,9 @@ exporteren vanaf je lezer:</p>
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">Gebarencategorieën</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        Dit is een lijst van alle acties die je aan een gebaar kunt toewijzen via het menu <span class="ui">Gebarenbeheer</span>. Je kunt de zoekfunctie van je browser (meestal <b>Ctrl+F</b>) gebruiken om hier naar een actie te zoeken. Deze acties kunnen ook worden gebruikt in je eigen <span class="ui">Snelmenu</span>. Raadpleeg de betreffende sectie in de gids voor meer informatie.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> When chooosing an action for a gesture, you will see a special item in the list named <span class="ui">pass through</span>. This action is used to keep the default behavior of that gesture, like text selection when long pressing near the corners. If you want to disable a gesture to avoid accidental actions, choose <span class="ui">nothing</span> as the action. In other words <span class="ui">pass through</span>=<b>another handler might act on it</b>, <span class="ui">nothing</span>=<b>swallow the action</b>.</div>
+    <div class="info"><span class="label_blue">INFO</span> Wanneer je een actie voor een gebaar kiest, zie je een speciaal item in de lijst met de naam <span class="ui">doorlaten</span>. Deze actie behoudt het standaardgedrag van dat gebaar, zoals tekstselectie bij lang indrukken dicht bij de hoeken. Wil je een gebaar uitschakelen om onbedoelde acties te voorkomen, kies dan <span class="ui">nothing</span> als actie. Met andere woorden: <span class="ui">doorlaten</span>=<b>een andere handler kan erop reageren</b>, <span class="ui">nothing</span>=<b>de actie negeren</b>.</div>
 
 
     <div class="centering-div">
@@ -3800,20 +3800,20 @@ exporteren vanaf je lezer:</p>
                 <li>Blader door alle calibretitels</li>
                 <li>Draadloze calibreverbinding</li>
                 <li>Draadloze calibreverbinding verbreken</li>
-                <li>Reading statistics: toggle</li>
-                <li>Reading statistics: show progress</li>
-                <li>Reading statistics: show time range</li>
-                <li>Reading statistics: show calendar view</li>
-                <li>Reading statistics: show today's timeline</li>
-                <li>Reading statistics: synchronize</li>
+                <li>Leesstatistieken: schakelen</li>
+                <li>Leesstatistieken: voortgang tonen</li>
+                <li>Leesstatistieken: tijdsbereik tonen</li>
+                <li>Leesstatistieken: kalenderweergave tonen</li>
+                <li>Leesstatistieken: tijdlijn van vandaag tonen</li>
+                <li>Leesstatistieken: synchroniseren</li>
                 <li>Tekstbewerker: laatste bestand openen</li>
                 <li>Woordenschatbouwer openen</li>
                 <li>Wallabag ophalen</li>
                 <li>Wallabag queue upload</li>
                 <li>Wallabag-statussen uploaden</li>
                 
-                <li>Schermbeveiliging verlaten</li>
-                <li>Pagina-omslagknoppen omdraaien</li>
+                <li>Leesvoortgang</li>
+                <li>SSH-server schakelen</li>
                 <li>Versnelllingsmeter schakelen</li>
                 <li>Draaien</li>
                 <li>Draairichting schakelen</li>
@@ -3828,30 +3828,30 @@ exporteren vanaf je lezer:</p>
                 <li>KOReader afsluiten</li>
                 <li>Hoeken ingedrukt houden schakelen</li>
                 <li>Aanraakinvoer inschakelen</li>
-                <li>Show frontlight dialog</li>
-                <li>Light aan/uit</li>
-                <li>Set frontlight brightness</li>
-                <li>Set frontlight warmth</li>
-                <li>Increase frontlight warmth</li>
-                <li>Decrease frontlight warmth</li>
-                <li>Toggle night mode</li>
-                <li>Nachtmodus instellen</li>
+                <li>Aanraakinvoer uitschakelen</li>
+                <li>Aanraakinvoer schakelen</li>
+                <li>Pagina-omslagknoppen omdraaien</li>
+                <li>Rotatie</li>
+                <li>Oriëntatie schakelen</li>
+                <li>Rotatie omkeren</li>
+                <li>90° rechtsom draaien</li>
+                <li>90° linksom draaien</li>
                 <li>Volledig scherm schakelen</li>
-                <li>Full refresh rate (in night mode)</li>
-                <li>Always flash on chapter boundaries</li>
-                <li>Toggle flashing on chapter boundaries</li>
+                <li>Netwerkinfo tonen</li>
+                <li>Batterijstatistieken</li>
+                <li>Systeemstatistieken</li>
                 <li>Terminalemulator</li>
                 
 
-                <li>Battery statistics</li>
-                <li>Systeemstatistieken</li>
+                <li>USB-opslag starten</li>
+                <li>Pauzestand</li>
                 <li>Apparaat herstarten</li>
                 <li>Uitschakelen</li>
-                <li>Increase frontlight brightness</li>
-                <li>Decrease frontlight brightness</li>
-                <li>Full screen refresh</li>
-                <li>Full refresh rate (always)</li>
-                <li>Full refresh rate (not in night mode)</li>
+                <li>Toetsherhaling schakelen</li>
+                <li>Versnellingsmeter schakelen</li>
+                <li>Wifi inschakelen</li>
+                <li>Wifi uitschakelen</li>
+                <li>Wifi schakelen</li>
 
             </ol>
 
@@ -3866,54 +3866,54 @@ exporteren vanaf je lezer:</p>
                 <li>Lichthelderheid verminderen</li>
                 <li>Lichtwarmte instellen</li>
                 <li>Lichtwarmte verhogen</li>
-                <li>Set font</li>
-                <li>Increase font size</li>
-                <li>Decrease font size</li>
-                <li>Set font size</li>
-                <li>Word spacing</li>
-                <li>Woorduitbreiding</li>
-                <li>Contrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
+                <li>Lichtwarmte verlagen</li>
+                <li>Nachtmodus schakelen</li>
+                <li>Nachtmodus instellen</li>
+                <li>Volledig scherm verversen</li>
+                <li>Volledige verversfrequentie (altijd)</li>
+                <li>Volledige verversfrequentie (niet in nachtmodus)</li>
+                <li>Volledige verversfrequentie (in nachtmodus)</li>
+                <li>Altijd verversen op hoofdstukgrenzen</li>
+                <li>Verversen op hoofdstukgrenzen schakelen</li>
+                <li>Nooit verversen op de 2e pagina van hoofdstukken</li>
+                <li>Verversen op de 2e pagina van hoofdstukken schakelen</li>
+                <li>Altijd verversen op pagina's met afbeeldingen</li>
+                <li>Verversen op pagina's met afbeeldingen schakelen</li>
                 <li>Top margin</li>
                 <li>Automatische warmte gebruikt zonpositie</li>
                 <li>Automatische warmte gebruikt schema</li>
                 <li>Automatische warmte dichter bij middernacht</li>
                 <li>Automatische warmte dichter bij de middag</li>
-                <li>Bottom margin </li>
+                <li>Automatische warmte: door modi bladeren </li>
             </ol>
 
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">Herindeelbare documenten</div>
             <ol>
                 <li>Lettertype</li>
-                <li>Invert images</li>
+                <li>Lettergrootte vergroten</li>
                 <li>Lettertypegrootte verminderen</li>
                 <li>Lettergrootte</li>
                 <li>Woordspatiëring</li>
                 <li>Woorduitbreiding</li>
                 <li>Contrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
+                <li>Lettergewicht</li>
+                <li>Letterhinting</li>
+                <li>Letterspatiëring (kerning)</li>
+                <li>Twee kolommen</li>
+                <li>L/R-marges</li>
+                <li>Boven-/ondermarges synchroniseren</li>
+                <li>Bovenmarge</li>
+                <li>Ondermarge</li>
+                <li>Weergavemodus (pagina-doorlopend)</li>
+                <li>Weergavemodus (rendering)</li>
                 <li>Zoomen</li>
-                <li>Line spacing</li>
+                <li>Regelafstand</li>
                 <li>Alt statusbalk</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Ingebedde stijl</li>
+                <li>Ingebedde lettertypen</li>
+                <li>Afbeeldingsschaal</li>
+                <li>Afbeeldingskleuren omdraaien</li>
             </ol>
 
         
@@ -3939,29 +3939,29 @@ exporteren vanaf je lezer:</p>
 
         <div class="L3-Smaller-heading">Lezer</div>
             <ol>
-                <li>Table of contents</li>
+                <li>Ondermenu tonen</li>
                 <li>Statusbalk schakelen</li>
                 <li>Hoofdstukvoortgangsbalk schakelen</li>
-                <li>Book map (overview)</li>
+                <li>Vorig hoofdstuk</li>
                 <li>Volgende hoofdstuk</li>
-                <li>Bookmarks</li>
+                <li>Eerste pagina</li>
                 <li>Laatste pagina</li>
                 <li>Willekeurige pagina</li>
                 <li>Pagina's omslaan</li>
                 <li>Ga naar pagina</li>
-                <li>Book information</li>
-                <li>Book description</li>
-                <li>Book cover</li>
-                <li>Huidige pagina vertalen</li>
-                <li>Bladerrichting schakelen</li>
-                <li>Toggle custom TOC</li>
+                <li>Document doorbladeren</li>
+                <li>Vorige bladwijzer</li>
+                <li>Volgende bladwijzer</li>
+                <li>Eerste bladwijzer</li>
+                <li>Laatste bladwijzer</li>
+                <li>Meest recente bladwijzer</li>
                 <li>Terug</li>
-                <li>Set highlight action</li>
-                <li>Markeeractie rondschakelen</li>
+                <li>Terug naar vorige locatie</li>
+                <li>Vooruit naar volgende locatie</li>
                 <li>Dichtstbijzijnde link volgen</li>
-                <li>Save book metadata</li>
+                <li>Dichtstbijzijnde interne link volgen</li>
                 <li>Huidige locatie aan locatiegeschiedenis toevoegen</li>
-                <li>Book statistics</li>
+                <li>Locatiegeschiedenis wissen</li>
                 <li>Volledige tekst doorzoeken</li>
                 <li>Laatste volledige-tekst-zoekresultaten</li>
                 <li>Inhoudsopgave</li>
@@ -3988,24 +3988,24 @@ exporteren vanaf je lezer:</p>
                 <li>Exporteer alle aantekeningen in dit boek</li>
                 <li>Exporteer alle aantekeningen in alle boeken</li>
                 <li>Huidig boek naar archief verplaatsen</li>
-                <li>Reading statistics: current book</li>
+                <li>Leesstatistieken: huidig boek</li>
                 <li>Voortgang van dit apparaat doorgeven</li>
                 <li>Voortgang van andere apparaten halen</li>
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Vast opgemaakte documenten</div>
             <ol>
-                <li>Reflow</li>
-                <li>Contrast</li>
-                <li>Dewatermark</li>
-                <li>Dithering on-off</li>
-                <li>Render quality</li>
-                <li>Document language</li>
-                <li>Forced OCR</li>
-                <li>Writing direction</li>
-                <li>Auto straighten</li>
-                <li>Document columns</li>
+                <li>Pagina-ombladeren schakelen</li>
+                <li>Bladwijzer-ombladeren schakelen</li>
+                <li>Herindeling schakelen</li>
+                <li>Zoommodus</li>
+                <li>Zoomfactor wijzigen</li>
+                <li>Paneelzoom schakelen</li>
+                <li>Paginatussenruimte</li>
+                <li>Marge</li>
+                <li>Horizontale overlap</li>
+                <li>Verticale overlap</li>
                 <li>Passen</li>
                 <li>Zoomen naar</li>
                 <li>Stel het aantal kolommen of rijen in waarin de pagina moet worden opgesplitst</li>
@@ -4013,20 +4013,20 @@ exporteren vanaf je lezer:</p>
                 <li>Richting</li>
                 <li>View mode</li>
                 <li>Page gap</li>
-                <li>Line spacing</li>
+                <li>Regelafstand</li>
                 <li>Uitlijning</li>
                 <li>Lettergrootte</li>
                 <li>Lettergrootte wijzigen</li>
-                <li>Word gap</li>
+                <li>Woordtussenruimte</li>
                 <li>Tekstherschikking</li>
                 <li>Contrast</li>
                 <li>Watermerk weghalen</li>
-                <li>Render quality</li>
-                <li>Document language</li>
+                <li>Renderkwaliteit</li>
+                <li>Documenttaal</li>
                 <li>Gedwongen OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
-                <li>Auto straighten</li>
+                <li>Schrijfrichting</li>
+                <li>Documentkolommen</li>
+                <li>Automatisch rechtzetten</li>
             </ol>
 
     </div>
@@ -4034,73 +4034,73 @@ exporteren vanaf je lezer:</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Keyboard Shortcuts</div>
+<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Toetsenbordsneltoetsen</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>Als je een apparaat met een toetsenbord hebt zoals de <b>Kindle 2</b> en <b>Kindle 3</b>, inclusief Bluetooth-toetsenborden en emulators, kun je de toetsen, apparaatknoppen en sneltoetsen gebruiken om KOReader te bedienen. <b>Kindle 4</b> wordt ook ondersteund; die heeft geen volledig toetsenbord, maar wel genoeg knoppen om in deze context te werken. Op deze apparaten schakelt KOReader een extra menu in met de naam <span class="ui">Toetsenbordsneltoetsen</span>, dat je hier kunt openen:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigation / Physical buttons / Keyboard shortcuts</div>
+<div class="menu-breadcrumbs">BOVENMENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigatie / Fysieke knoppen / Toetsenbordsneltoetsen</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>Dit menu lijkt sterk op de interface van <span class="ui">Gebarenbeheer</span>. In dit menu:</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>Zie je de sneltoetsen die op je apparaat beschikbaar zijn</li>
+        <li>Zie je de vooraf ingestelde acties voor sommige sneltoetsen</li>
+        <li>Kun je acties toewijzen aan de beschikbare sneltoetsen</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p>Alle acties in <span class="ui">Gebarenbeheer</span> zijn ook beschikbaar voor toewijzing aan sneltoetsen. Dat betekent dat je bijna alle functies van KOReader met deze sneltoetsen kunt bedienen.</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>In de onderstaande tabel zie je de standaardtoetsen en sneltoewijzingen:</p>
 
 
     
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Universal <span class="ui">screenshot</span> key is <b>Alt + Shift + G</b>. It is available on all screens, modes and platforms. On Kindle 4, it is <b>Keyboard + Menu</b>.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> De universele <span class="ui">schermafdruk</span>-toets is <b>Alt + Shift + G</b>. Deze werkt op alle schermen, modi en platforms. Op de Kindle 4 is het <b>Toetsenbord + Menu</b>.</p></div>
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> If you have a Kindle 4, <b>SHIFT</b> key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift + (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/DOWN/LEFT/RIGHT)</b> on your Kindle 4.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Heb je een Kindle 4, dan komt de <b>SHIFT</b>-toets in de onderstaande tabel overeen met je <b>TOETSENBORD</b>-knop. Dus sneltoetsen <b>Shift + (OMHOOG/OMLAAG/LINKS/RECHTS)</b> worden op je Kindle 4 <b>Toetsenbordknop + (OMHOOG/OMLAAG/LINKS/RECHTS)</b>.</p></div>
 
 
     <div class="centering-div">
 
         <table class="grid-table" style="width: 65%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
-            <td><div class="L3-Smaller-heading">File browser mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Bestandsverkenner-modus</div></td><td></td>
         </tr>
 
         <tr>
-            <td>Open top menu</td>
+            <td>Bovenmenu openen</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Navigate to home</td>
+            <td>Naar startscherm gaan</td>
             <td><b>Thuis</b></td>
         </tr>
         <tr>
-            <td>Move in file list</td>
-            <td><b>Up / Down</b></td>
+            <td>Verplaatsen in bestandslijst</td>
+            <td><b>Omhoog / Omlaag</b></td>
         </tr>
         <tr>
-            <td>Open selected book</td>
+            <td>Geselecteerd boek openen</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>Toepassing afsluiten</td>
             <td><b>Esc</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Reading mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Leesmodus</div></td><td></td>
         </tr>
         <tr>
-            <td>Open top menu</td>
+            <td>Bovenmenu openen</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Open bottom menu</td>
+            <td>Ondermenu openen</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Back/exit application</td>
+            <td>Terug/programma afsluiten</td>
             <td><b>Esc</b></td>
         </tr>
         <tr>
