@@ -1389,7 +1389,7 @@ msgid ""
 msgstr ""
 "In de afbeelding hierboven zie je de posities van de standaard tikzones van "
 "KOReader. Om het <span class=\"ui\">bovenste menu</span> of <span "
-"class=\"ui\">onderste menu</span> weer te geven, kun je op de aangegeven "
+"class=\"ui\">ondermenu</span> weer te geven, kun je op de aangegeven "
 "zones tikken. Je kunt ook naar beneden vegen in de bovenste zone om het "
 "<span class=\"ui\">hoofdmenu</span> te tonen. Op niet-touch apparaten zoals "
 "Kindle 4 kun je het <span class=\"ui\">ondermenu</span> openen door de knop "
@@ -8194,11 +8194,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3258-1
 msgctxt "user_guide/en.html+html.body.div.div:3258-1"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Andere bestandstypen bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3262-1
 msgid "Viewing text files"
-msgstr ""
+msgstr "Tekstbestanden bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3264-5
 msgid ""
@@ -8210,25 +8210,19 @@ msgid ""
 "max line length, single or double blank lines marking paragraphs, "
 "indentation or centered text considered heading...) to guess how to better "
 "render the text and will try to create a <b>table of contents</b>."
-msgstr ""
+msgstr "Als je boeken in <b>.txt</b>-formaat hebt (wat vaker voorkomt in <b>Chinese</b> en <b>Cyrillische</b> talen), kun je de functie <span class=\"ui\">Indeling van TXT-bestanden automatisch detecteren</span> proberen in te schakelen. In sommige gevallen verbetert dit de weergave en oogt de tekst meer als een ‘boek’. Wanneer ingeschakeld gebruikt de renderengine heuristiek (tekst afbreken onder een maximale regellengte, enkele of dubbele lege regels als alineascheiding, inspringing of gecentreerde tekst als koppen, …) om de tekst beter weer te geven en probeert het een <b>inhoudsopgave</b> te maken."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3266-5
 msgid ""
 "You can enable this feature here (which is visible only if you are reading "
 "a .txt file):"
-msgstr ""
+msgstr "Je schakelt deze functie hier in (alleen zichtbaar wanneer je een .txt-bestand leest):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3268-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style / Auto-detect TXT files layout"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style=\"width:26px;\"> / Stijl / Indeling van TXT-bestanden automatisch detecteren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3270-5
 msgid ""
@@ -8236,34 +8230,32 @@ msgid ""
 "based formatting. If your book has these kind of features, it might be "
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
-msgstr ""
+msgstr "Let op: deze functie kan ASCII-art en op spaties gebaseerde opmaak verstoren. Als je boek dit soort elementen bevat, gebruik je beter de standaardmodus, waarbij het tekstbestand <b>ongewijzigd</b> met een monospace-lettertype wordt weergegeven."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3274-1
 msgid "Viewing archive files"
-msgstr ""
+msgstr "Archiefbestanden bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3276-5
 msgid ""
 "KOReader can read files stored/compressed in <b>ZIP</b> files. You can open "
 "<b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) "
 "files with the archive viewer to have a look at the contained files:"
-msgstr ""
+msgstr "KOReader kan bestanden lezen die zijn opgeslagen/gecomprimeerd in <b>ZIP</b>-archieven. Je kunt <b>ZIP</b>-, <b>CBZ</b>- en <b>EPUB</b>-bestanden (dat zijn ook <b>ZIP</b>-archieven) openen met de archiefviewer om de inhoud te bekijken:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3279-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3279-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
-msgstr "Text (.txt)"
+msgstr "Houd in de <span class=\"ui\">Bestandsverkenner</span> de bestandsnaam ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3280-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3280-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr "Text (.txt)"
+msgstr "Tik op <span class=\"ui\">Openen met…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3281-5
 msgid "Tap <span class=\"ui\">Archive viewer</span>"
-msgstr ""
+msgstr "Tik op <span class=\"ui\">Archiefviewer</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3284-5
 msgid ""
@@ -8272,49 +8264,44 @@ msgid ""
 "the type of file in the ZIP archive</b>. If you give your file only a <b>."
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
-msgstr ""
+msgstr "Een ZIP-bestand kan veel soorten documenten bevatten, zoals HTML, TXT of afbeeldingen. KOReader kan je ZIP-bestand correct openen <b>alleen als je een hint geeft over het bestandstype in het ZIP-archief</b>. Als je het bestand slechts de extensie <b>.zip</b> geeft, gaat KOReader ervan uit dat het archief afbeeldingen bevat en probeert het als een <b>CBZ</b>-bestand te openen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
 msgid ""
 "<span class=\"ui\">DEFAULT CASE:</span> yourfilename<b>.zip</b> - Assumed to "
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
-msgstr ""
-"If the documents are not named like this, the wrong reader/format engine is "
-"likely to be used and you will see the <span class=\"ui\">No reader engine "
-"for this file or invalid file</span> message. You can rename this file as "
-"explained above or long-press the filename and then choose <span "
-"class=\"ui\">Open with…</span> to select the correct engine."
+msgstr "<span class=\"ui\">STANDAARDGEVAL:</span> jebestandsnaam<b>.zip</b> - Wordt verondersteld een zipbestand met afbeeldingen te zijn (en geopend door de <span class=\"ui\">MuPDF-engine</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3288-5
 msgid ""
 "If your zip file contains one of these types (instead of just images), "
 "please name it accordingly:"
-msgstr ""
+msgstr "Als je zipbestand een van deze typen bevat (in plaats van alleen afbeeldingen), geef het dan overeenkomstig een naam:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3291-9
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
-msgstr ""
+msgstr "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3292-9
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
-msgstr ""
+msgstr "<b>HTML</b> - jebestandsnaam.<b>htm.zip</b> / jebestandsnaam.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3293-9
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
-msgstr ""
+msgstr "<b>Tekstlogbestanden</b> - jebestandsnaam.<b>log.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3294-9
 msgid "<b>Markdown</b> - yourfilename.<b>md.zip</b>"
-msgstr ""
+msgstr "<b>Markdown</b> - jebestandsnaam.<b>md.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3295-9
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
-msgstr ""
+msgstr "<b>Rich Text Format</b> - jebestandsnaam.<b>rtf.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3296-9
 msgid "<b>Plain text</b> - yourfilename.<b>txt.zip</b>"
-msgstr ""
+msgstr "<b>Platte tekst</b> - jebestandsnaam.<b>txt.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3299-5
 msgid ""
@@ -8323,56 +8310,54 @@ msgid ""
 "for this file or invalid file</span> message. You can rename this file as "
 "explained above or long-press the filename and then choose <span "
 "class=\"ui\">Open with...</span> to select the correct engine."
-msgstr ""
+msgstr "Als de documenten niet op deze wijze zijn benoemd, wordt waarschijnlijk de verkeerde lezer-/formaat-engine gebruikt en zie je het bericht <span class=\"ui\">Geen engine voor dit bestand of ongeldig bestand.</span>. Je kunt het bestand hernoemen zoals hierboven uitgelegd, of de bestandsnaam lang ingedrukt houden en <span class=\"ui\">Openen met…</span> kiezen om de juiste engine te selecteren."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3301-2
 msgid "Viewing images"
-msgstr ""
+msgstr "Afbeeldingen bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3303-5
 msgid ""
 "You can open image files with the image viewer instead of opening as a book. "
 "Files opened like this don’t show up in your history and have better scaling "
 "and rotation support."
-msgstr ""
+msgstr "Je kunt afbeeldingsbestanden openen met de afbeeldingsviewer in plaats van als boek. Bestanden die zo geopend worden verschijnen niet in je geschiedenis en bieden betere ondersteuning voor schalen en roteren."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3306-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3306-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
-msgstr "Text (.txt)"
+msgstr "Houd in de <span class=\"ui\">Bestandsverkenner</span> de bestandsnaam ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3307-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3307-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr "Text (.txt)"
+msgstr "Tik op <span class=\"ui\">Openen met…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3308-5
 msgid "Tap <span class=\"ui\">Image viewer</span>"
-msgstr ""
+msgstr "Tik op <span class=\"ui\">Afbeeldingsviewer</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3311-2
 msgid "Viewing Markdown files"
-msgstr ""
+msgstr "Markdown-bestanden bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3313-5
 msgid "KOReader provides two options for reading Markdown documents."
-msgstr ""
+msgstr "KOReader biedt twee opties om Markdown-documenten te lezen."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3315-9
 msgid ""
 "You can open the document directly like a book by tapping on it. This mode "
 "doesn't provide formatting. So your <b>.md</b> file will look like as it is "
 "opened in a text editor."
-msgstr ""
+msgstr "Je kunt het document direct openen als een boek door erop te tikken. Deze modus biedt geen opmaak. Je <b>.md</b>-bestand ziet er dan uit alsof het in een teksteditor is geopend."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3316-9
 msgid ""
 "You can convert your Markdown document to HTML. This action will render a "
 "HTML file from your Markdown document with the correct formatting and a "
 "<b>Table of Contents</b> created from the headings."
-msgstr ""
+msgstr "Je kunt je Markdown-document naar HTML converteren. Deze actie maakt een HTML-bestand van je Markdown met de juiste opmaak en een <b>inhoudsopgave</b> op basis van de koppen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3319-5
 msgid ""
@@ -8381,11 +8366,11 @@ msgid ""
 "from the popup menu. A new file with the same name but HTML extension will "
 "be created in the same directory. Be aware that conversion might take a "
 "while depending on your Markdown file and device speed."
-msgstr ""
+msgstr "Om een <b>.md</b>-bestand te converteren, houd je het in de <span class=\"ui\">Bestandsverkenner</span> lang ingedrukt en tik je in het pop-upmenu op <span class=\"ui\">Converteren</span>. Er wordt een nieuw bestand met dezelfde naam maar met de extensie HTML in dezelfde map aangemaakt. Houd er rekening mee dat converteren even kan duren, afhankelijk van de grootte van je Markdown-bestand en de snelheid van je apparaat."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3322-2
 msgid "Setting file associations"
-msgstr ""
+msgstr "Bestandsassociaties instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3324-5
 msgid ""
@@ -8394,26 +8379,26 @@ msgid ""
 "providers, first long tap on your file in the <span class=\"ui\">File "
 "Browser</span> then choose a provider engine to handle this file. You can "
 "check:"
-msgstr ""
+msgstr "Je kunt ook bestandsassociaties instellen voor bestandstypen die KOReader niet automatisch herkent. Om een bestand aan een van de KOReader-providers te koppelen, houd je het bestand eerst lang ingedrukt in de <span class=\"ui\">Bestandsverkenner</span> en kies je vervolgens een provider-engine om dit bestand te openen. Je kunt de volgende keuzes aanvinken:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3327-9
 msgid ""
 "<span class=\"ui\">Always use this engine for this file</span> to associate "
 "this provider with this particular file only"
-msgstr ""
+msgstr "<span class=\"ui\">Deze engine altijd voor dit bestand gebruiken</span> om deze provider alleen aan dit specifieke bestand te koppelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3329-9
 msgid ""
 "Or check <span class=\"ui\">Always use this engine for file type</span> to "
 "associate this provider with all the files that has same extension as this "
 "one"
-msgstr ""
+msgstr "Of vink <span class=\"ui\">Deze engine altijd voor dit bestandstype gebruiken</span> aan om deze provider te koppelen aan alle bestanden met dezelfde extensie als dit bestand"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3331-9
 msgid ""
 "From the same dialog, you can see the associations you made by tapping on "
 "<span class=\"ui\">View defaults for file types</span>"
-msgstr ""
+msgstr "In hetzelfde dialoogvenster kun je de gemaakte associaties bekijken via <span class=\"ui\">Standaarden voor bestandstypen bekijken</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
@@ -8428,18 +8413,18 @@ msgid ""
 "two collections named <b>Fiction</b> and <b>Non-Fiction</b> to arrange your "
 "books accordingly. Of course you can also use folders to do this but using "
 "collections gives you more flexibility."
-msgstr ""
+msgstr "De functie <span class=\"ui\">Collecties</span> van KOReader helpt je je bibliotheek efficiënter te ordenen. Simpel gezegd zijn collecties door de gebruiker gemaakte lijsten van je boeken. Zo kun je bijvoorbeeld twee collecties maken met de namen <b>Fictie</b> en <b>Non-fictie</b> om je boeken dienovereenkomstig te groeperen. Je kunt dit natuurlijk ook met mappen doen, maar collecties geven je meer flexibiliteit."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3343-5
 msgid ""
 "Some advantages of collections compared to the folder based organization:"
-msgstr ""
+msgstr "Enkele voordelen van collecties ten opzichte van een mappenstructuur:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3345-9
 msgid ""
 "Adding a book to a collection doesn't move the book file. So your books can "
 "be located in different folders but they can appear in the same collection."
-msgstr ""
+msgstr "Een boek aan een collectie toevoegen verplaatst het boekbestand niet. Je boeken kunnen dus in verschillende mappen staan, maar toch in dezelfde collectie verschijnen."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3346-9
 msgid ""
@@ -8447,7 +8432,7 @@ msgid ""
 "example you can have a <b>Science Fiction</b> collection and <b>War Fiction</"
 "b> collection. A book can be added to both of these collections at the same "
 "time."
-msgstr ""
+msgstr "Eén boek kan in meerdere collecties zitten, wat met mappen niet kan. Je kunt bijvoorbeeld een collectie <b>Sciencefiction</b> en een collectie <b>Oorlogsromans</b> hebben. Een boek kan tegelijk aan beide collecties worden toegevoegd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3347-9
 msgid ""
@@ -8458,52 +8443,46 @@ msgid ""
 "too but <span class=\"ui\">collections</span> doesn't require you to move "
 "your books in order to use temporary <span class=\"ui\">profiles</span> for "
 "example.)"
-msgstr ""
+msgstr "Je kunt <span class=\"ui\">profielen</span> activeren via <span class=\"ui\">collecties</span>. Als je de functie <span class=\"ui\">profielen</span> van KOReader niet kent, wordt dit hieronder uitgelegd. (Je kunt ook via mappen <span class=\"ui\">profielen</span> activeren, maar met <span class=\"ui\">collecties</span> hoef je je boeken niet te verplaatsen om bijvoorbeeld tijdelijk een <span class=\"ui\">profiel</span> te gebruiken.)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3350-5
 msgid ""
 "You can create collections to mirror any kind of categorization. Some "
 "example ideas:"
-msgstr ""
+msgstr "Je kunt collecties maken die elke gewenste categorisering weerspiegelen. Enkele ideeën:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3352-9
 msgid "<b>Genres:</b> Fiction, non-fiction, memoir..."
-msgstr ""
+msgstr "<b>Genres:</b> fictie, non-fictie, memoire…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3353-9
 msgid ""
 "<b>Book status:</b> Currently reading, want to read, next, did not finish..."
-msgstr ""
+msgstr "<b>Boekstatus:</b> nu aan het lezen, wil ik lezen, volgende, niet uitgelezen…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3354-9
 msgid "<b>Series:</b> Lord of the Rings, Harry Potter..."
-msgstr ""
+msgstr "<b>Reeksen:</b> In de ban van de ring, Harry Potter…"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3355-9
 msgid "<b>Document type:</b> Books, scientific articles, web articles..."
-msgstr ""
+msgstr "<b>Documenttype:</b> boeken, wetenschappelijke artikelen, webartikelen…"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3360-1
 msgid "Creating and modifying collections"
-msgstr ""
+msgstr "Collecties maken en wijzigen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3361-5
 msgid ""
 "You can create collections from the <span class=\"ui\">Collections</span> "
 "dialog located here:"
-msgstr ""
+msgstr "Je kunt collecties maken via het dialoogvenster <span class=\"ui\">Collecties</span> op deze locatie:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3363-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Collecties"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3365-2
 msgid ""
@@ -8515,7 +8494,7 @@ msgid ""
 "list."
 msgstr ""
 "Je kunt dit dialoogvenster openen vanuit de leesweergave of vanuit de <span "
-"class=\"ui\">Bestandsbeheerder</span>. Wanneer je dit menu opent, krijg je "
+"class=\"ui\">Bestandsverkenner</span>. Wanneer je dit menu opent, krijg je "
 "een lijst van je collecties te zien. Standaard zie je daar de <span "
 "class=\"ui\">Favorieten</span> staan als een collectie-item, dat de boeken "
 "bevat die je al aan je <span class=\"ui\">Favorieten</span>-lijst hebt "
@@ -8527,19 +8506,19 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> located at the top left corner of this screen > <span class=\"ui\">New "
 "collection</span>"
-msgstr ""
+msgstr "<b>Nieuwe collectie toevoegen:</b> Gebruik het hamburgermenu <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> linksboven op dit scherm > <span class=\"ui\">Nieuwe collectie</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3370-3
 msgid ""
 "<b>Removing a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Remove collection</span>"
-msgstr ""
+msgstr "<b>Collectie verwijderen:</b> Houd de collectienaam lang ingedrukt > <span class=\"ui\">Collectie verwijderen</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3372-3
 msgid ""
 "<b>Renaming a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Rename collection</span>"
-msgstr ""
+msgstr "<b>Collectie hernoemen:</b> Houd de collectienaam lang ingedrukt > <span class=\"ui\">Collectie hernoemen</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3374-3
 msgid ""
@@ -8547,21 +8526,21 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> located at the top left corner of this screen > <span "
 "class=\"ui\">Arrange collection</span>"
-msgstr ""
+msgstr "<b>De volgorde van je collecties wijzigen:</b> Gebruik het hamburgermenu <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> linksboven op dit scherm > <span class=\"ui\">Collectie rangschikken</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3379-1
 msgid "Adding books to your collections"
-msgstr ""
+msgstr "Boeken aan je collecties toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3381-2
 msgid ""
 "There are three different places in KOReader where you can add books to your "
 "collections:"
-msgstr ""
+msgstr "Er zijn drie verschillende plekken in KOReader waar je boeken aan je collecties kunt toevoegen:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3385-2
 msgid "1. From the File Browser and History screen"
-msgstr ""
+msgstr "1. Vanuit de Bestandsverkenner en het scherm Geschiedenis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3386-2
 msgid ""
@@ -8570,46 +8549,45 @@ msgid ""
 "class=\"ui\">History</span> screen you can add books <b>one at a time</b>. "
 "Long press on the book and choose <span class=\"ui\">Collections...</span>. "
 "Then you can choose which collection(s) you want to add this book to."
-msgstr ""
+msgstr "Je kunt een boek toevoegen aan je collecties vanuit de <span class=\"ui\">Bestandsverkenner</span> of het scherm <span class=\"ui\">Geschiedenis</span>. Vanuit <span class=\"ui\">Geschiedenis</span> kun je boeken <b>één voor één</b> toevoegen. Houd het boek lang ingedrukt en kies <span class=\"ui\">Collecties…</span>. Daarna kies je aan welke collectie(s) je dit boek wilt toevoegen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3388-2
 msgid ""
 "If you are adding several books, you can do this from the <span "
 "class=\"ui\">File browser</span>. For multiple books this is the procedure:"
-msgstr ""
+msgstr "Als je meerdere boeken toevoegt, doe je dit vanuit de <span class=\"ui\">Bestandsverkenner</span>. Voor meerdere boeken is dit de procedure:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3390-3
 msgid "Long press on a book"
-msgstr ""
+msgstr "Houd een boek lang ingedrukt"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3391-3
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
-msgstr ""
+msgstr "Kies <span class=\"ui\">Selecteren</span> in het pop-upmenu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3392-3
 msgid "Select other books"
-msgstr ""
+msgstr "Selecteer andere boeken"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3393-3
 msgid ""
 "Tap the <span class=\"ui\">checkmark</span> (✔️) icon at the top-right corner"
-msgstr ""
+msgstr "Tik op het <span class=\"ui\">vinkje</span>-pictogram (✔️) rechtsboven"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3394-3
-#, fuzzy
 msgid "Tap <span class=\"ui\">Collections</span>"
-msgstr "Text (.txt)"
+msgstr "Tik op <span class=\"ui\">Collecties</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3397-2
 msgid ""
 "For adding a single book, just long-press on it in the <span "
 "class=\"ui\">File browser</span> and choose <span class=\"ui\">Collections</"
 "span> from the popup menu."
-msgstr ""
+msgstr "Om één boek toe te voegen houd je het in de <span class=\"ui\">Bestandsverkenner</span> lang ingedrukt en kies je <span class=\"ui\">Collecties</span> in het pop-upmenu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3401-2
 msgid "2. From the Collections menu"
-msgstr ""
+msgstr "2. Vanuit het menu Collecties"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3402-2
 msgid ""
@@ -8620,25 +8598,19 @@ msgid ""
 "your books are already arranged in folders. For example if all your "
 "<b>science fiction</b> books are in a single folder, you can create a "
 "collection named <b>Science fiction</b> and add this folder at once."
-msgstr ""
+msgstr "Met deze methode kun je zowel losse als meerdere boeken aan je <span class=\"ui\">Collecties</span> toevoegen. Het grootste verschil met de methode via de <span class=\"ui\">Bestandsverkenner</span> is dat je <b>hele mappen en hun submappen</b> in één keer aan je collecties kunt toevoegen. Dat is erg handig als je boeken al in mappen zijn geordend. Als al je <b>sciencefiction</b>-boeken bijvoorbeeld in één map staan, kun je een collectie <b>Sciencefiction</b> maken en die map in één keer toevoegen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3407-2
 msgid ""
 "In the image above, <b>Box 1</b> shows the book adding options. You can "
 "reach this menu from the collections screen's hamburger menu:"
-msgstr ""
+msgstr "In de bovenstaande afbeelding toont <b>Vlak 1</b> de opties om boeken toe te voegen. Je bereikt dit menu via het hamburgermenu op het scherm Collecties:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3409-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections / Your collection name /"
-msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Collecties / Naam van je collectie /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3412-3
 msgid ""
@@ -8648,7 +8620,7 @@ msgid ""
 "subfolders</b> of the chosen folder. For example if you select your "
 "<b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and "
 "<b>War Fiction</b> under it, they won't be added with this option."
-msgstr ""
+msgstr "<span class=\"ui\">Alle boeken uit een map toevoegen:</span> Zoals de naam aangeeft, kun je hiermee een map selecteren om alle boeken daarin aan deze collectie toe te voegen. Let op: deze optie <b>voegt geen boeken in submappen</b> van de gekozen map toe. Als je bijvoorbeeld je map <b>Fictie</b> selecteert en daaronder de mappen <b>Sciencefiction</b> en <b>Oorlogsromans</b> hebt, dan worden die niet toegevoegd met deze optie."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3413-3
 msgid ""
@@ -8657,17 +8629,17 @@ msgid ""
 "folder. Be careful with this option because it will go down all the way "
 "while adding the books. So if you have many levels of nested folders, there "
 "might be too many books than you thought."
-msgstr ""
+msgstr "<span class=\"ui\">Alle boeken uit een map en submappen toevoegen:</span> Met deze optie worden <b>alle submappen</b> van de gekozen map meegenomen. Wees voorzichtig, want hij gaat alle niveaus naar beneden bij het toevoegen. Als je veel geneste mappen hebt, kunnen het meer boeken zijn dan je verwacht."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3414-3
 msgid ""
 "<span class=\"ui\">Add a book to collection</span>: This is the basic option "
 "that will allow you to add a single book."
-msgstr ""
+msgstr "<span class=\"ui\">Boek aan collectie toevoegen</span>: Dit is de basisoptie om één enkel boek toe te voegen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3419-1
 msgid "Removing books from your collections"
-msgstr ""
+msgstr "Boeken uit je collecties verwijderen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3421-9
 msgid ""
@@ -8680,11 +8652,11 @@ msgid ""
 "ones by tapping on it to remove the book from that collection. Also from the "
 "<span class=\"ui\">Collections</span> screen, you can long press on a book "
 "and choose <span class=\"ui\">Remove from collection</span>."
-msgstr ""
+msgstr "Je kunt een boek uit collecties verwijderen via de <span class=\"ui\">Bestandsverkenner</span>, het scherm <span class=\"ui\">Geschiedenis</span> of het scherm <span class=\"ui\">Collecties</span>. In de <span class=\"ui\">Bestandsverkenner</span> en <span class=\"ui\">Geschiedenis</span> houd je het boek lang ingedrukt en kies je <span class=\"ui\">Collecties…</span>. Je ziet een vinkje naast de collecties waaraan je dit boek hebt toegevoegd. Haal het vinkje weg om het boek uit die collectie te verwijderen. Ook op het scherm <span class=\"ui\">Collecties</span> kun je een boek lang ingedrukt houden en <span class=\"ui\">Uit collectie verwijderen</span> kiezen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3425-1
 msgid "Arranging the books in your collections"
-msgstr ""
+msgstr "Boeken in je collecties ordenen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3427-9
 msgid ""
@@ -8698,7 +8670,7 @@ msgid ""
 "written by Isaac Asimov <span class=\"ui\">(Filter by authors -> Isaac "
 "Asimov)</span> that I haven't started yet <span class=\"ui\">(Filter by "
 "status -> New)</span>.\"</b>"
-msgstr ""
+msgstr "Collecties kunnen erg druk worden, maar KOReader helpt je je boeken makkelijk terug te vinden met veel filteropties. In de afbeelding hierboven zie je de filters in <b>Vlak 2</b> en <b>Vlak 3</b>. Met <b>Vlak 2</b> filter je op boekstatus (nieuw, bezig, uitgelezen, in de wacht) en met <b>Vlak 3</b> op boekmetadata (auteur, reeks, taal, trefwoorden). Je kunt deze twee groepen ook combineren, bijvoorbeeld: <b>‘Laat me de nieuwe boeken in deze collectie zien die zijn geschreven door Isaac Asimov <span class=\"ui\">(Filteren op auteurs -> Isaac Asimov)</span> en die ik nog niet ben begonnen <span class=\"ui\">(Filteren op status -> Nieuw)</span>.’</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3429-9
 msgid ""
@@ -8708,7 +8680,7 @@ msgid ""
 "any field to change the metadata like <b>author</b> or <b>keywords</b>. You "
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
-msgstr ""
+msgstr "Je kunt de metadata van een boek bijwerken door het boek lang ingedrukt te houden in de <span class=\"ui\">Bestandsverkenner</span> en <span class=\"ui\">Boekinformatie</span> te kiezen. In het pop-upvenster kun je een veld lang ingedrukt houden om metadata zoals <b>auteur</b> of <b>trefwoorden</b> te wijzigen. Je kunt hiervoor ook <span class=\"external\">Calibre</span> gebruiken, een externe toepassing die het beheren van boekmetadata veel eenvoudiger maakt."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3431-9
 msgid ""
@@ -8718,18 +8690,18 @@ msgid ""
 "class=\"external\">Calibre</span>. But KOReader doesn't change the book "
 "file, it only adds custom metadata as a file in the book's <b>.sdr folder</"
 "b>, so this metadata is visible in KOReader only."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Weet dat <span class=\"external\">Calibre</span> de metadata in het boek zelf wijzigt, zodat de gewijzigde metadata ook buiten <span class=\"external\">Calibre</span> zichtbaar is. KOReader wijzigt het boekbestand niet; het voegt alleen aangepaste metadata toe als bestand in de <b>.sdr-map</b> van het boek, dus die metadata is alleen in KOReader zichtbaar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3435-1
 msgid "Searching in collections"
-msgstr ""
+msgstr "Zoeken in collecties"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3437-9
 msgid ""
 "There are two types of search you can perform in collections: You can search "
 "for a phrase <b>in the book titles and metadata</b> or you can also search "
 "<b>inside the book texts</b>. You can open the search dialog from:"
-msgstr ""
+msgstr "Er zijn twee soorten zoekopdrachten die je in collecties kunt uitvoeren: je kunt zoeken naar een term <b>in de boektitels en metadata</b>, of je kunt zoeken <b>in de boekteksten</b>. Je opent het zoekdialoog via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3439-9
 msgid ""
@@ -8737,26 +8709,26 @@ msgid ""
 "style=\"width:26px;\"> / Collections / <img loading=\"lazy\" "
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> / Collections search"
-msgstr ""
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Collecties / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Zoeken in collecties"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3441-9
 msgid ""
 "If you want to perform a search <b>in the book texts</b>, please keep these "
 "points in mind:"
-msgstr ""
+msgstr "Als je <b>in de boekteksten</b> wilt zoeken, houd dan rekening met het volgende:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3444-13
 msgid ""
 "This type of search is only available if you open the <span "
 "class=\"ui\">collections</span> from the <span class=\"ui\">file browser</"
 "span>. It is <b>not available</b> from the reading screen."
-msgstr ""
+msgstr "Dit type zoekopdracht is alleen beschikbaar als je de <span class=\"ui\">collecties</span> via de <span class=\"ui\">Bestandsverkenner</span> opent. Het is <b>niet beschikbaar</b> vanuit het leesscherm."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3445-13
 msgid ""
 "This search can be slow (around 2 seconds per book in the collection). So if "
 "you have a crowded collection, it might take a long time."
-msgstr ""
+msgstr "Deze zoekopdracht kan langzaam zijn (ongeveer 2 seconden per boek in de collectie). Als je een grote collectie hebt, kan het dus lang duren."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3448-9
 msgid ""
@@ -8766,17 +8738,17 @@ msgid ""
 "collections. If you want to search only in a specific collection, you have "
 "to tap and enter the collection. This is especially important if you are "
 "also searching in the book texts because it is a slow operation."
-msgstr ""
+msgstr "De zoekfunctie hangt af van waar je je bevindt in het venster <span class=\"ui\">Collecties</span>. Bevind je je op het hoogste niveau waar je al je collecties ziet, dan wordt er in alle collecties gezocht. Wil je alleen in een specifieke collectie zoeken, tik er dan op om die te openen. Dit is vooral belangrijk als je ook in de boekteksten zoekt, omdat dat een trage bewerking is."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3450-9
 msgid ""
 "When you perform a search, results will be automatically saved as a new "
 "collection."
-msgstr ""
+msgstr "Wanneer je een zoekopdracht uitvoert, worden de resultaten automatisch als een nieuwe collectie opgeslagen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3454-1
 msgid "Automatically synchronizing collections with folders"
-msgstr ""
+msgstr "Collecties automatisch synchroniseren met mappen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3456-5
 msgid ""
@@ -8787,79 +8759,77 @@ msgid ""
 "to make the <span class=\"ui\">science fiction collection</span> update "
 "itself when you add a new file to this folder, you can do it with <span "
 "class=\"ui\">connected folders</span> feature of the collections."
-msgstr ""
+msgstr "Na het aanmaken van je collecties en het toevoegen van boeken wil je ze waarschijnlijk met bepaalde mappen synchroniseren. Stel dat je een collectie <b>Sciencefiction</b> hebt aangemaakt en ook een map <b>SF</b> in je bibliotheek waarin je sciencefictionboeken zet. Als je wilt dat de <span class=\"ui\">sciencefiction-collectie</span> zichzelf bijwerkt wanneer je een nieuw bestand aan deze map toevoegt, kan dat met de functie <span class=\"ui\">Verbonden mappen</span> van collecties."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3458-5
 msgid ""
 "With this feature you can connect one or more folders to your collection. "
 "After that, KOReader will (re)scan the folders to add or remove books from "
 "your collections in these conditions:"
-msgstr ""
+msgstr "Met deze functie kun je een of meer mappen aan je collectie koppelen. Daarna zal KOReader de mappen (opnieuw) scannen om boeken aan je collecties toe te voegen of eruit te verwijderen in de volgende situaties:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3461-9
 msgid "When connecting a folder to a collection"
-msgstr ""
+msgstr "Wanneer je een map met een collectie verbindt"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3462-9
 msgid "When including subfolders of a connected folder"
-msgstr ""
+msgstr "Wanneer submappen van een verbonden map worden meegenomen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3463-9
 msgid "When showing the collection"
-msgstr ""
+msgstr "Wanneer de collectie wordt weergegeven"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3464-9
 msgid "On program start"
-msgstr ""
+msgstr "Bij het starten van het programma"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3468-5
 msgid "How to connect a folder to your collection:"
-msgstr ""
+msgstr "Zo verbind je een map met je collectie:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3473-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3473-9"
 msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
-msgstr ""
+msgstr "Ga naar het scherm <span class=\"ui\">Collecties</span> zoals hierboven afgebeeld."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3474-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3474-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
+msgstr "Houd de naam van de collectie waar je mappen aan wilt verbinden lang ingedrukt <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3475-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3475-9"
 msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
-msgstr "Text (.txt)"
+msgstr "Kies <span class=\"ui\">Mappen verbinden</span> in het pop-upmenu <b>(2)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3476-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3476-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr "Text (.txt)"
+msgstr "Het <span class=\"ui\">scherm Lijst met verbonden mappen</span> wordt geopend."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3477-9
 msgid ""
 "Add a folder by pressing the <span class=\"ui\">PLUS icon</span> at the top "
 "left corner of that screen, which will open the <span class=\"ui\">Folder "
 "chooser screen</span>."
-msgstr ""
+msgstr "Voeg een map toe door op het <span class=\"ui\">PLUS-pictogram</span> linksboven op dat scherm te tikken; hierdoor wordt het <span class=\"ui\">Mapkiezer-scherm</span> geopend."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3479-9
 msgid "Repeat the last item if you want to connect more folders."
-msgstr ""
+msgstr "Herhaal de vorige stap als je meer mappen wilt verbinden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3482-5
 msgid ""
 "Collections with connected folders will have a <span class=\"ui\">folder "
 "icon</span> as you can see from the image above <b>(3)</b>."
-msgstr ""
+msgstr "Collecties met verbonden mappen krijgen een <span class=\"ui\">mappictogram</span>, zoals te zien is in de afbeelding hierboven <b>(3)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3484-5
 msgid ""
@@ -8867,45 +8837,43 @@ msgid ""
 "the <b>step 4</b> above, when you open the <span class=\"ui\">List of "
 "connected folders screen</span>, you can long-press on a folder to <span "
 "class=\"ui\">include/exclude subfolders</span> from the popup menu."
-msgstr ""
+msgstr "Voor synchronisatie wil je mogelijk ook submappen meenemen. Bij <b>stap 4</b> hierboven, op het <span class=\"ui\">scherm Lijst met verbonden mappen</span>, kun je een map lang ingedrukt houden en in het pop-upmenu <span class=\"ui\">Submappen opnemen/uitsluiten</span> kiezen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3487-5
 msgid "How to disconnect a folder from your collection:"
-msgstr ""
+msgstr "Zo koppel je een map los van je collectie:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3490-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3490-9"
 msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
-msgstr ""
+msgstr "Ga naar het scherm <span class=\"ui\">Collecties</span> zoals hierboven afgebeeld."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3491-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3491-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
+msgstr "Houd de naam van de collectie waar je mappen aan wilt verbinden lang ingedrukt <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3492-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3492-9"
 msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
-msgstr "Text (.txt)"
+msgstr "Kies <span class=\"ui\">Mappen verbinden</span> in het pop-upmenu <b>(2)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3493-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3493-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
-msgstr "Text (.txt)"
+msgstr "Het <span class=\"ui\">scherm Lijst met verbonden mappen</span> wordt geopend."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3494-9
 msgid ""
 "Long-press on the folder which you want to disconnect and choose <span "
 "class=\"ui\">Disconnect folder</span> from the popup menu."
-msgstr ""
+msgstr "Houd de map die je wilt loskoppelen lang ingedrukt en kies <span class=\"ui\">Map ontkoppelen</span> in het pop-upmenu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3499-1
 msgid "Using Collections with Profiles"
@@ -8959,7 +8927,7 @@ msgstr ""
 msgctxt "user_guide/en.html+html.body.div.p:3513-9"
 msgid ""
 "With the profiles plugin, you can do all these at once with a single action."
-msgstr ""
+msgstr "Met de plug-in Profielen kun je dit alles in één keer doen met een enkele actie."
 "When you tap on <span class=\"ui\">Edit actions</span> menu item you will "
 "see the menu on the right. This is the same menu as the gesture selection "
 "menu and there are actions in many categories. Which means you can perform "
@@ -8974,39 +8942,39 @@ msgid ""
 "the relevant section of the guide: <a href=\"#L2-profileautoexec\">Profile "
 "auto-execution</a>. For now we will just explain one trigger condition here: "
 "<span class=\"ui\">Collections</span>."
-msgstr ""
+msgstr "Je kunt een profiel handmatig uitvoeren, maar de echte kracht van profielen komt tot zijn recht met de functie <span class=\"ui\">automatisch uitvoeren</span>. Daarmee kun je een profiel activeren op basis van bepaalde voorwaarden. Zie ook de relevante sectie van deze gids: <a href=\"#L2-profileautoexec\">Profielen automatisch uitvoeren</a>. Voor nu lichten we één trigger toe: <span class=\"ui\">Collecties</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3517-9
 msgid ""
 "Basically you can create some profiles and set them to auto-execute if an "
 "opened book is in some specific collection. Some useful examples:"
-msgstr ""
+msgstr "Kort gezegd kun je profielen maken en ze automatisch laten uitvoeren als een geopend boek in een bepaalde collectie zit. Enkele nuttige voorbeelden:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3520-13
 msgid ""
 "You can add all your manga to a <b>Manga</b> collection and make a profile "
 "to switch the page turn direction to <b>Right-To-Left</b> and to invert page "
 "turn taps and swipes when you open a manga book from this collection."
-msgstr ""
+msgstr "Je kunt al je manga toevoegen aan een collectie <b>Manga</b> en een profiel maken dat de paginawisselrichting op <b>Rechts-naar-links</b> zet en tikken/vegen voor paginawissel omkeert wanneer je een mangaboek uit deze collectie opent."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3521-13
 msgid ""
 "You can add your comic books to a collection, which can trigger a profile to "
 "decrease the screen refresh interval to <span class=\"ui\">every page</span> "
 "to avoid ghosting."
-msgstr ""
+msgstr "Je kunt je stripboeken aan een collectie toevoegen, wat een profiel kan activeren dat het schermverversingsinterval verlaagt naar <span class=\"ui\">elke pagina</span> om ghosting te voorkomen."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3522-13
 msgid ""
 "You can add your problematic PDFs to a collection, so when you open them "
 "<span class=\"ui\">Auto OCR</span> or <span class=\"ui\">Reflow mode</span> "
 "is activated with a profile."
-msgstr ""
+msgstr "Je kunt je problematische pdf's aan een collectie toevoegen, zodat bij het openen <span class=\"ui\">Auto-OCR</span> of <span class=\"ui\">Herschik-modus</span> via een profiel wordt geactiveerd."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3527-1
 msgctxt "user_guide/en.html+html.body.div.div:3527-1"
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr ""
+msgstr "EPUB/PDF-documenten optimaliseren voor je e-reader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3529-5
 msgid ""
@@ -9014,7 +8982,7 @@ msgid ""
 "menu while reading a fixed-layout document like PDF) to make them suitable "
 "for the small screens of e-readers. But for best results, you may want to "
 "convert your documents into more flexible EPUB format."
-msgstr ""
+msgstr "KOReader kan PDF-documenten herschikken (deze optie vind je in het ondermenu tijdens het lezen van een document met vaste indeling zoals PDF) om ze geschikt te maken voor de kleine schermen van e-readers. Voor de beste resultaten kun je je documenten echter beter converteren naar het flexibelere EPUB-formaat."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3531-5
 msgid ""
@@ -9022,7 +8990,7 @@ msgid ""
 "your mobile reading device are <span class=\"external\">Calibre</span> "
 "(<b>EPUB, Kindle</b> focused) and <span class=\"external\">K2pdfopt</span> "
 "(<b>PDF</b> focused)."
-msgstr ""
+msgstr "De meest gebruikte toepassingen voor het converteren of optimaliseren van je document voor je mobiele leestoestel zijn <span class=\"external\">Calibre</span> (gericht op <b>EPUB, Kindle</b>) en <span class=\"external\">K2pdfopt</span> (gericht op <b>PDF</b>)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3533-5
 msgid ""
@@ -9030,7 +8998,7 @@ msgid ""
 "documents between many formats. It also has a built-in editor that allows "
 "you to edit e-books (and fix problems) in the most popular e-book formats, "
 "EPUB and Kindle."
-msgstr ""
+msgstr "<a href=\"https://calibre-ebook.com/\">Calibre</a> kan je documenten tussen veel formaten converteren. Het bevat ook een ingebouwde editor waarmee je e-books kunt bewerken (en problemen oplossen) in de populairste e-bookformaten, EPUB en Kindle."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3535-5
 msgid ""
@@ -9039,7 +9007,7 @@ msgid ""
 "PDF/DJVU files and can re-flow text even on scanned PDF files. It can also "
 "be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation "
 "tool."
-msgstr ""
+msgstr "<a href=\"https://www.willus.com/k2pdfopt/\">K2pdfopt</a> optimaliseert PDF-/DJVU-bestanden voor mobiele e-readers en smartphones. Het werkt goed met PDF-/DJVU-bestanden met meerdere kolommen en kan zelfs tekst herschikken in gescande PDF-bestanden. Het kan ook worden gebruikt als algemene tool voor PDF kopiëren/bijsnijden/schalen/OCR."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3537-5
 msgid ""
@@ -9048,7 +9016,7 @@ msgid ""
 "(containing only images without text), allowing them to be searched or copy-"
 "pasted. It can especially be useful for reading old scanned books. It can "
 "also optimize the images for a smaller file size."
-msgstr ""
+msgstr "<a href=\"https://github.com/ocrmypdf/OCRmyPDF\">OCRmyPDF</a> is een commandlinetoepassing die een OCR-tekstlaag kan toevoegen aan gescande PDF-bestanden (die alleen afbeeldingen zonder tekst bevatten), waardoor ze doorzoekbaar worden en tekst kan worden gekopieerd en geplakt. Dit is vooral handig voor het lezen van oude gescande boeken. Het kan afbeeldingen ook optimaliseren voor een kleinere bestandsgrootte."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3539-5
 msgid ""
@@ -9057,36 +9025,35 @@ msgid ""
 "<b>Microsoft Edge</b>. This extension allows saving a web page as a "
 "<b>single .html file</b> with all the resources (images, stylesheets, "
 "scripts) embedded."
-msgstr ""
+msgstr "<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</a> is een browserextensie voor <b>Mozilla Firefox, Google Chrome</b> en <b>Microsoft Edge</b>. Deze extensie laat je een webpagina opslaan als één <b>.html-bestand</b> met alle bronnen (afbeeldingen, stylesheets, scripts) ingesloten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3543-1
 msgid "Book metadata storage options"
-msgstr ""
+msgstr "Opties voor opslag van boekmetadata"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3545-2
 msgctxt "user_guide/en.html+html.body.div.p:3545-2"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! GEVORDERD"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3547-2
 msgid ""
 "KOReader stores settings and extra information related to your books in the "
 "same directory as your book file. We call this <b>metadata</b> and it "
 "includes:"
-msgstr ""
+msgstr "KOReader slaat instellingen en extra informatie met betrekking tot je boeken op in dezelfde map als je boekbestand. We noemen dit <b>metadata</b> en het omvat:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3549-3
 msgid "Visual settings for the book"
-msgstr ""
+msgstr "Visuele instellingen voor het boek"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3550-3
-#, fuzzy
 msgid "Book reading progress"
-msgstr "Schermbeveiliging verlaten"
+msgstr "Leesvoortgang van het boek"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3551-3
 msgid "Highlights, bookmarks and notes"
-msgstr ""
+msgstr "Markeringen, bladwijzers en notities"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3554-2
 msgid ""
@@ -9094,23 +9061,17 @@ msgid ""
 "certain problems related to synchronization between devices. Currently there "
 "are three different methods to store the metadata and each method has its "
 "own benefits/negatives."
-msgstr ""
+msgstr "Onlangs hebben we nieuwe manieren toegevoegd om deze metadata op te slaan om bepaalde problemen met synchronisatie tussen apparaten op te lossen. Momenteel zijn er drie verschillende methoden om de metadata op te slaan, elk met hun eigen voor- en nadelen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3556-2
-#, fuzzy
 msgid "You can change this setting from this menu:"
-msgstr ""
-"If you want to change how many items are visible on these screens, look here:"
+msgstr "Je kunt deze instelling wijzigen via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3558-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location"
-msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:26px;\"> / Document / Locatie boekmetadata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3561-21
 msgid ""
@@ -9118,20 +9079,17 @@ msgid ""
 "section below to understand the differences and how each method works before "
 "making any changes. Otherwise there is a risk of losing your book settings, "
 "progress and annotations."
-msgstr ""
+msgstr "<span class=\"label_red\">WAARSCHUWING</span> We raden sterk aan de onderstaande sectie te lezen om de verschillen en de werking van elke methode te begrijpen voordat je wijzigingen aanbrengt. Anders loop je het risico je boekinstellingen, voortgang en aantekeningen te verliezen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3565-1
 msgid "1. Individual metadata folders next to the book files - DEFAULT SETTING"
-msgstr ""
+msgstr "1. Afzonderlijke metadata-mappen naast de boekbestanden - STANDAARDINSTELLING"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3567-3
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: book folder"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Device Status Alerts → Battery Level"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:26px;\"> / Document / Locatie boekmetadata: map van boek"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3569-2
 msgid ""
@@ -9141,67 +9099,63 @@ msgid ""
 "Wonderland.sdr</span> will be created in the same directory. This directory "
 "contains the files for your settings, annotations and book progress for this "
 "book."
-msgstr ""
+msgstr "Dit is de <b>standaard</b> methode bij een nieuwe installatie van KOReader. Bij deze methode wordt, wanneer je <b>Alice in Wonderland.epub</b> naar je apparaat kopieert en het voor het eerst opent, in dezelfde map een map met de naam <span class=\"ui\">Alice in Wonderland.sdr</span> aangemaakt. Deze map bevat de bestanden met je instellingen, aantekeningen en leesvoortgang voor dit boek."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3571-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3571-2user_guide/en.html+html.body.div."
 "p:3571-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Voordelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3573-4
 msgid "You can manually backup and restore the settings for each book."
-msgstr ""
+msgstr "Je kunt de instellingen per boek handmatig back-uppen en terugzetten."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3574-4
 msgid ""
 "When you perform directory synchronization or backups with a system like "
 "<b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized "
 "alongside your books."
-msgstr ""
+msgstr "Wanneer je mappen synchroniseert of back-ups maakt met een systeem als <b>Syncthing</b> of <b>Dropbox</b>, worden je instellingen samen met je boeken gesynchroniseerd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3575-4
 msgid ""
 "You can rename the parent directories where your book resides, this doesn't "
 "confuse KOReader."
-msgstr ""
+msgstr "Je kunt de bovenliggende mappen waarin je boek zich bevindt hernoemen; dat brengt KOReader niet in de war."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3578-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3578-2user_guide/en.html+html.body.div."
 "p:3578-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Nadelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3580-4
 msgid ""
 "If you reorganize your library by moving/renaming the book files or their "
 "accompanying .sdr folder outside of KOReader file browser, you will lose "
 "metadata of those books without any warning."
-msgstr ""
+msgstr "Als je je bibliotheek herorganiseert door de boekbestanden of hun bijbehorende .sdr-map buiten de Bestandsverkenner van KOReader te verplaatsen of te hernoemen, verlies je de metadata van die boeken zonder waarschuwing."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3581-4
 msgid ""
 "These <b>.sdr</b> folders will be visible when you browse your library "
 "directories with another file browser or from your computer, which may "
 "clutter your view."
-msgstr ""
+msgstr "Deze <b>.sdr</b>-mappen zijn zichtbaar wanneer je je bibliotheekmappen met een andere bestandsbeheerder of vanaf je computer bekijkt, wat je weergave kan vervuilen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3586-1
 msgid "2. Metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "2. Metadata-mappen onder één KOReader-map"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3588-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
 "docsettings"
-msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:26px;\"> / Document / Locatie boekmetadata: .../koreader/docsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3590-1
 msgid ""
@@ -9209,24 +9163,24 @@ msgid ""
 "in this method, all <b>.sdr</b> folders of your books will be under a single "
 "directory <b>which is under the KOReader main directory structure</b>, "
 "instead of your library directory, next to the book files."
-msgstr ""
+msgstr "Deze methode is in wezen hetzelfde als de standaardmethode hierboven. Het verschil is dat in deze methode alle <b>.sdr</b>-mappen van je boeken onder één map staan, <b>die onder de hoofdmapstructuur van KOReader valt</b>, in plaats van in je bibliotheekmap naast de boekbestanden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3592-2
 msgctxt "user_guide/en.html+html.body.div.p:3592-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Voordelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3594-3
 msgid ""
 "Book <b>.sdr</b> folders will only be visible to and used by KOReader. They "
 "won't clutter your view of your library directories when you browse your "
 "library with another file browser or from your computer."
-msgstr ""
+msgstr "Boek-<b>.sdr</b>-mappen zijn alleen zichtbaar voor en worden alleen gebruikt door KOReader. Ze vervuilen je weergave van je bibliotheekmappen niet wanneer je die met een andere bestandsbeheerder of vanaf je computer bekijkt."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3597-2
 msgctxt "user_guide/en.html+html.body.div.p:3597-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Nadelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3599-3
 msgid ""
@@ -9234,29 +9188,25 @@ msgid ""
 "library directories, book files or their accompanying .sdr folder outside of "
 "KOReader file browser, you will lose metadata of those books without any "
 "warning."
-msgstr ""
+msgstr "Als je je bibliotheek herorganiseert door bibliotheekmappen, boekbestanden of hun bijbehorende .sdr-map buiten de Bestandsverkenner van KOReader te verplaatsen of te hernoemen, verlies je de metadata van die boeken zonder waarschuwing."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3601-3
 msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
-msgstr ""
+msgstr "Aangezien je boekmetadata niet in je bibliotheekmappen staat, worden ze niet meegenomen in synchronisaties of back-ups van je bibliotheek."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3606-1
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "3. Afzonderlijke GEHASHTE metadata-mappen onder één KOReader-map"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3608-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
 "hashdocsettings"
-msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:26px;\"> / Document / Locatie boekmetadata: .../koreader/hashdocsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3610-2
 msgid ""
@@ -9268,7 +9218,7 @@ msgid ""
 "your metadata for that book will be lost. <b>If you are only using the "
 "KOReader File Browser for file operations, this is automatically handled so "
 "there are no repercussions.</b>"
-msgstr ""
+msgstr "Deze methode lijkt op de vorige omdat de <b>.sdr</b>-mappen zich onder een interne map bevinden. Maar deze methode is ontwikkeld om de tekortkomingen van de vorige methode op te lossen. Normaal gesproken, als je een boek buiten KOReader hernoemt (met de ingebouwde bestandsbeheerder/lezer van het apparaat of vanaf een aangesloten computer), komt de naam van de <b>.sdr</b>-map niet meer overeen en gaan de metadata van dat boek verloren. <b>Als je voor bestandsbewerkingen alleen de Bestandsverkenner van KOReader gebruikt, wordt dit automatisch afgehandeld en zijn er geen nadelige gevolgen.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3612-2
 msgid ""
@@ -9277,26 +9227,26 @@ msgid ""
 "used to link the books to their settings. This hash is used as a unique ID "
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
-msgstr ""
+msgstr "In deze <b>HASHED</b>-methode worden <b>.sdr</b>-mappen niet geïdentificeerd op basis van het bestandspad of de bestandsnaam van het boek. In plaats daarvan wordt een gedeeltelijke <b>MD5-hash</b> gebruikt om de boeken aan hun instellingen te koppelen. Deze hash wordt gebruikt als unieke ID voor het boek en wordt berekend op basis van de <b>inhoud van het boekbestand</b>. Dezelfde hash wordt ook gebruikt voor de naam van de .sdr-map."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3615-2
 msgctxt "user_guide/en.html+html.body.div.p:3615-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Voordelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3617-4
 msgid ""
 "Book <b>.sdr</b> folders will only be visible to and used by KOReader. They "
 "won't clutter your view of your library directories when you browse your "
 "library directories with another file browser or from your computer."
-msgstr ""
+msgstr "Boek-<b>.sdr</b>-mappen zijn alleen zichtbaar voor en worden alleen gebruikt door KOReader. Ze vervuilen je weergave van je bibliotheekmappen niet wanneer je je bibliotheekmappen met een andere bestandsbeheerder of vanaf je computer bekijkt."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3619-4
 msgid ""
 "You can rename, move, and copy your books with another file browser or from "
 "your computer. KOReader will still recognize the books after these "
 "operations."
-msgstr ""
+msgstr "Je kunt je boeken hernoemen, verplaatsen en kopiëren met een andere bestandsbeheerder of vanaf je computer. KOReader herkent de boeken nog steeds na deze bewerkingen."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3621-4
 msgid ""
@@ -9308,12 +9258,12 @@ msgid ""
 "different relative paths of those books on each device, you can still get "
 "your annotations and progress synchronized across your devices. This isn't "
 "possible with other methods."
-msgstr ""
+msgstr "In deze methode koppelt KOReader dezelfde <b>.sdr</b>-map aan alle kopieën van het boek, zelfs als die kopieën op verschillende apparaten staan. Als je bijvoorbeeld <b>Syncthing</b> gebruikt, kun je met deze methode je map <span class=\"ui\">/hashdocsettings</span> samen met je boekbestanden synchroniseren, over meerdere apparaten waarop KOReader is geïnstalleerd. Ondanks de verschillende relatieve paden van die boeken op elk apparaat kun je toch je aantekeningen en voortgang tussen je apparaten synchroniseren. Dit is niet mogelijk met de andere methoden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3624-3
 msgctxt "user_guide/en.html+html.body.div.p:3624-3"
 msgid "Negatives"
-msgstr ""
+msgstr "Nadelen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3626-4
 msgid ""
@@ -9322,44 +9272,44 @@ msgid ""
 "<b>MD5 ID will change</b> (unlike renaming or moving which is safe with this "
 "method). In this case KOReader wouldn't be able to recognize the book so "
 "these books will lose their metadata."
-msgstr ""
+msgstr "Alle bewerkingen die het bestand rechtstreeks wijzigen (zoals het wegschrijven van markeringen in PDF's of downloaden vanuit <b>Calibre</b>) veranderen het bestand, waardoor de <b>MD5-ID verandert</b> (in tegenstelling tot hernoemen of verplaatsen, wat met deze methode veilig is). In dat geval kan KOReader het boek niet meer herkennen en verliezen die boeken hun metadata."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3628-4
 msgid ""
 "Calculating file IDs may slow down <span class=\"ui\">File browser</span> "
 "navigation when browsing larger directories."
-msgstr ""
+msgstr "Het berekenen van bestands-ID's kan het bladeren in de <span class=\"ui\">Bestandsverkenner</span> vertragen bij het bekijken van grote mappen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3637-1
 msgctxt "user_guide/en.html+html.body.div.div:3637-1"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "GEBAREN EN TOETSENBORDSNELTOETSEN"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3639-5
 msgid ""
 "There are many types of gestures you can use to control KOReader. Some "
 "gestures have limitations regarding where on the screen they can be used and "
 "which directions are supported. These limitations are indicated below."
-msgstr ""
+msgstr "Er zijn veel soorten gebaren waarmee je KOReader kunt bedienen. Sommige gebaren hebben beperkingen wat betreft waar op het scherm ze kunnen worden gebruikt en welke richtingen worden ondersteund. Deze beperkingen worden hieronder aangegeven."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3642-5
 msgctxt "user_guide/en.html+html.body.div.div:3642-5"
 msgid "Gesture Types"
-msgstr ""
+msgstr "Gebaartypen"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3644-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> Some devices support only single "
 "touch so multi-finger gestures <b>are not available</b> on them."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Sommige apparaten ondersteunen alleen een enkele aanraking, dus meer-vingergebaren <b>zijn daarop niet beschikbaar</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3653-17
 msgid "TAP / DOUBLE TAP"
-msgstr ""
+msgstr "TIK / DUBBELTIK"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3654-17
 msgid "Single or double tap with <b>ONE</b> finger"
-msgstr ""
+msgstr "Enkele of dubbele tik met <b>ÉÉN</b> vinger"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3655-17
 msgctxt ""
@@ -9367,124 +9317,119 @@ msgctxt ""
 "html+html.body.div.table.tr.td.p:3655-17user_guide/en.html+html.body.div."
 "table.tr.td.p:3655-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>WERKT:</b> Overal op het scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3662-17
 msgid "TAP AND HOLD"
-msgstr ""
+msgstr "TIK EN VASTHOUDEN"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3663-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "Eén tik en vasthouden met <b>ÉÉN</b> vinger"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3664-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3664-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>WERKT:</b> Alleen in de vier hoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3670-17
 msgid "TWO FINGER TAP"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "TIKKEN MET TWEE VINGERS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3671-9
 msgid "Single tap with <b>TWO</b> fingers at the same time"
-msgstr ""
-"<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
-"(DIAGONAL)"
+msgstr "Enkele tik met <b>TWEE</b> vingers tegelijk"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3672-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3672-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>WERKT:</b> Alleen in de vier hoeken"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3678-17
 msgid "SPREAD AND PINCH"
-msgstr "Swiping motion with <b>TWO</b> fingers at the same time"
+msgstr "UIT- EN INKNIJPEN"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3679-9
-#, fuzzy
 msgid "Same as zooming in and out on a phone or tablet."
-msgstr "<b>WORKS:</b> Anywhere on the screen"
+msgstr "Net als inzoomen en uitzoomen op een telefoon of tablet."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3680-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3680-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>WERKT:</b> Overal op het scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3681-9
 msgid ""
 "<span class=\"label_blue\">INFO</span> This gesture may work less reliably "
 "depending on your device. If that’s the case please choose another gesture "
 "type."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Dit gebaar werkt mogelijk minder betrouwbaar afhankelijk van je apparaat. Kies in dat geval een ander type gebaar."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3685-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-17"
 msgid "ONE FINGER SWIPE"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "VEGEN MET ÉÉN VINGER"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3686-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "Veegbeweging met <b>ÉÉN</b> vinger"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3687-9
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
-msgstr ""
+msgstr "<b>WERKT:</b> Randen van het scherm (HORIZONTAAL en VERTICAAL) Overal behalve de randen (DIAGONAAL)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3691-17
 msgid "TWO FINGER SWIPE"
-msgstr ""
+msgstr "VEGEN MET TWEE VINGERS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3692-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Veegbeweging met <b>TWEE</b> vingers tegelijk"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3693-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3693-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>WERKT:</b> Overal op het scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3697-17
 msgid "MULTISWIPE"
-msgstr ""
+msgstr "MULTIVEGEN"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgid ""
 "More than one swipe done after each other without lifting your finger. For "
 "example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)"
-msgstr ""
+msgstr "Meer dan één veegbeweging achter elkaar zonder je vinger op te tillen. Bijvoorbeeld zoals de letter <b>U</b> tekenen (OMLAAG-RECHTS-OMHOOG)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3700-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3700-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>WERKT:</b> Overal op het scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3704-17
 msgid ""
 "Icons by <b>Econceptive</b> from the <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
-msgstr ""
+msgstr "Pictogrammen door <b>Econceptive</b> van het <a href=\"https://thenounproject.com/econceptive/collection/touch-gesture/\">Noun Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3710-1
 msgctxt "user_guide/en.html+html.body.div.div:3710-1"
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "Vooringestelde gebaren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3711-5
 msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
-msgstr ""
+msgstr "Deze tabel toont de gebaren die standaard met KOReader meekomen. Je kunt deze gebaren naar wens aanpassen via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Gesture Manager"
-msgstr ""
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:22px;\"> / Gebarenbeheer"
 "This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
 "MENU</span> settings + font type as a <b>profile</b>. This means you can "
 "have different group of settings for different conditions or book types "
@@ -9494,37 +9439,37 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.div:3722-5
 #, fuzzy
 msgid "CORNER TAP"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "TIK IN HOEKEN"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3724-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>Bovenlinkerhoek</b> > Pagina-ombladeren schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3725-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr ""
+msgstr "<b>Bovenrechterhoek</b> > Bladwijzer schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3726-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
-msgstr ""
+msgstr "<b>Tegengestelde diagonale hoeken tegelijk</b> > Schermafdruk maken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3730-5
 msgid "DOUBLE TAP"
-msgstr ""
+msgstr "DUBBELTIK"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3731-5
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr "<b>↓ ↑</b> - Skim document"
+msgstr "<b>Linkerkant</b> > Ga -10 pagina's"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3732-5
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr "<b>↑ ←</b> - Bookmarks"
+msgstr "<b>Rechterkant</b> > Ga +10 pagina's"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3736-5
 #, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3736-5"
 msgid "ONE FINGER SWIPE"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "VEGEN MET ÉÉN VINGER"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3737-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
@@ -9536,57 +9481,57 @@ msgstr "<b>Lange diagonale veegbeweging</b> > Schermafdruk maken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3742-5
 msgid "MULTISWIPES"
-msgstr ""
+msgstr "MULTIVEGEN"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Terug naar vorige locatie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3744-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Ga naar meest recente bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3745-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Document doorbladeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3746-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Bladwijzers"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3747-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Inhoudsopgave"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3748-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Show frontlight dialog"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Lichtdialoog tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Herindeling schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Geschiedenis"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Boekstatus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Ga naar pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3753-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Terug"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3754-5
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Vorig hoofdstuk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
@@ -9595,7 +9540,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - Volgende hoofds
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Vorig document openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
@@ -9604,7 +9549,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - Favorieten"
 #: user_guide/en.html%2Bhtml.body.div.div:3764-1
 msgctxt "user_guide/en.html+html.body.div.div:3764-1"
 msgid "Gesture Categories"
-msgstr ""
+msgstr "Gebarencategorieën"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3765-5
 msgid ""
@@ -9614,6 +9559,11 @@ msgid ""
 "here. These actions can also be used in your own <span class=\"ui\">Quick "
 "Menu</span>. Please check the relevant section in the guide for more info."
 msgstr ""
+"Dit is een lijst van alle acties die je aan een gebaar kunt toewijzen via het "
+"menu <span class=\"ui\">Gebarenbeheer</span>. Je kunt de zoekfunctie van je "
+"browser (meestal <b>Ctrl+F</b>) gebruiken om hier naar een actie te zoeken. "
+"Deze acties kunnen ook worden gebruikt in je eigen <span class=\"ui\">Snelmenu</span>. "
+"Raadpleeg de betreffende sectie in de gids voor meer informatie."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3768-5
 msgid ""
@@ -9626,6 +9576,12 @@ msgid ""
 "class=\"ui\">pass through</span>=<b>another handler might act on it</b>, "
 "<span class=\"ui\">nothing</span>=<b>swallow the action</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Wanneer je een actie voor een gebaar "
+"kiest, zie je een speciaal item in de lijst met de naam <span class=\"ui\">doorlaten</span>. "
+"Deze actie behoudt het standaardgedrag van dat gebaar, zoals tekstselectie bij lang indrukken "
+"dicht bij de hoeken. Wil je een gebaar uitschakelen om onbedoelde acties te voorkomen, kies dan "
+"<span class=\"ui\">nothing</span> als actie. Met andere woorden: <span class=\"ui\">doorlaten</span>=<b>een andere handler kan erop reageren</b>, "
+"<span class=\"ui\">nothing</span>=<b>de actie negeren</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3774-9
 msgid "General"
@@ -9729,30 +9685,27 @@ msgstr "Draadloze calibreverbinding verbreken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3800-17
 msgid "Reading statistics: toggle"
-msgstr ""
+msgstr "Leesstatistieken: schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3801-17
-#, fuzzy
 msgid "Reading statistics: show progress"
-msgstr "Schermbeveiliging verlaten"
+msgstr "Leesstatistieken: voortgang tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3802-17
 msgid "Reading statistics: show time range"
-msgstr ""
+msgstr "Leesstatistieken: tijdsbereik tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3803-17
-#, fuzzy
 msgid "Reading statistics: show calendar view"
-msgstr "Versnelllingsmeter schakelen"
+msgstr "Leesstatistieken: kalenderweergave tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3804-17
-#, fuzzy
 msgid "Reading statistics: show today's timeline"
-msgstr "Draaien"
+msgstr "Leesstatistieken: tijdlijn van vandaag tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3805-17
 msgid "Reading statistics: synchronize"
-msgstr ""
+msgstr "Leesstatistieken: synchroniseren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
 msgid "Text editor: open last file"
@@ -9776,11 +9729,11 @@ msgstr "Wallabag-statussen uploaden"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
 msgid "Reading progress"
-msgstr "Schermbeveiliging verlaten"
+msgstr "Leesvoortgang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3813-17
 msgid "Toggle SSH server"
-msgstr "Pagina-omslagknoppen omdraaien"
+msgstr "SSH-server schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3814-17
 msgid "Statistics calendar view"
@@ -9821,35 +9774,35 @@ msgstr "Aanraakinvoer inschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3828-17
 msgid "Disable touch input"
-msgstr "Show frontlight dialog"
+msgstr "Aanraakinvoer uitschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3829-17
 msgid "Toggle touch input"
-msgstr "Light aan/uit"
+msgstr "Aanraakinvoer schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3830-17
 msgid "Invert page turn buttons"
-msgstr "Set frontlight brightness"
+msgstr "Pagina-omslagknoppen omdraaien"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Rotation"
-msgstr "Set frontlight warmth"
+msgstr "Rotatie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
 msgid "Toggle orientation"
-msgstr "Increase frontlight warmth"
+msgstr "Oriëntatie schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3833-17
 msgid "Invert rotation"
-msgstr "Decrease frontlight warmth"
+msgstr "Rotatie omkeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3834-17
 msgid "Rotate by 90 CW"
-msgstr "Toggle night mode"
+msgstr "90° rechtsom draaien"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3835-17
 msgid "Rotate by 90 CCW"
-msgstr "Nachtmodus instellen"
+msgstr "90° linksom draaien"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
 msgid "Toggle Fullscreen"
@@ -9857,15 +9810,15 @@ msgstr "Volledig scherm schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3837-17
 msgid "Show network info"
-msgstr "Full refresh rate (in night mode)"
+msgstr "Netwerkinfo tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3838-17
 msgid "Battery statistics"
-msgstr "Always flash on chapter boundaries"
+msgstr "Batterijstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3839-17
 msgid "System statistics"
-msgstr "Toggle flashing on chapter boundaries"
+msgstr "Systeemstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
 msgid "Terminal emulator"
@@ -9873,11 +9826,11 @@ msgstr "Terminalemulator"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3843-17
 msgid "Start USB storage"
-msgstr "Battery statistics"
+msgstr "USB-opslag starten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
 msgid "Suspend"
-msgstr "Systeemstatistieken"
+msgstr "Pauzestand"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
 msgid "Reboot the device"
@@ -9889,23 +9842,23 @@ msgstr "Uitschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3847-17
 msgid "Toggle key repeat"
-msgstr "Increase frontlight brightness"
+msgstr "Toetsherhaling schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3848-17
 msgid "Toggle accelerometer"
-msgstr "Decrease frontlight brightness"
+msgstr "Versnellingsmeter schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3849-17
 msgid "Turn on Wi-Fi"
-msgstr "Full screen refresh"
+msgstr "Wifi inschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3850-17
 msgid "Turn off Wi-Fi"
-msgstr "Full refresh rate (always)"
+msgstr "Wifi uitschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3851-17
 msgid "Toggle Wi-Fi"
-msgstr "Full refresh rate (not in night mode)"
+msgstr "Wifi schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3856-9
 msgid "Screen and lights"
@@ -9941,55 +9894,55 @@ msgstr "Lichtwarmte verhogen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3866-17
 msgid "Decrease frontlight warmth"
-msgstr "Set font"
+msgstr "Lichtwarmte verlagen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3867-17
 msgid "Toggle night mode"
-msgstr "Increase font size"
+msgstr "Nachtmodus schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3868-17
 msgid "Set night mode"
-msgstr "Decrease font size"
+msgstr "Nachtmodus instellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3869-17
 msgid "Full screen refresh"
-msgstr "Set font size"
+msgstr "Volledig scherm verversen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3870-17
 msgid "Full refresh rate (always)"
-msgstr "Word spacing"
+msgstr "Volledige verversfrequentie (altijd)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3871-17
 msgid "Full refresh rate (not in night mode)"
-msgstr "Woorduitbreiding"
+msgstr "Volledige verversfrequentie (niet in nachtmodus)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3872-17
 msgid "Full refresh rate (in night mode)"
-msgstr "Contrast"
+msgstr "Volledige verversfrequentie (in nachtmodus)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3873-17
 msgid "Always flash on chapter boundaries"
-msgstr "Font weight"
+msgstr "Altijd verversen op hoofdstukgrenzen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3874-17
 msgid "Toggle flashing on chapter boundaries"
-msgstr "Font hinting"
+msgstr "Verversen op hoofdstukgrenzen schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3875-17
 msgid "Never flash on chapter's 2nd page"
-msgstr "Font kerning"
+msgstr "Nooit verversen op de 2e pagina van hoofdstukken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
 msgid "Toggle flashing on chapter's 2nd page"
-msgstr "Two columns"
+msgstr "Verversen op de 2e pagina van hoofdstukken schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
 msgid "Always flash on pages with images"
-msgstr "L/R margins"
+msgstr "Altijd verversen op pagina's met afbeeldingen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
 msgid "Toggle flashing on pages with images"
-msgstr "Sync T/B margins"
+msgstr "Verversen op pagina's met afbeeldingen schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
 msgid "Auto warmth off"
@@ -10013,11 +9966,11 @@ msgstr "Automatische warmte dichter bij de middag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3884-17
 msgid "Auto warmth cycle through modes"
-msgstr "Bottom margin"
+msgstr "Automatische warmte: door modi bladeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3888-9
 msgid "Reflowable documents"
-msgstr ""
+msgstr "Herindeelbare documenten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
 msgid "Font face"
@@ -10025,7 +9978,7 @@ msgstr "Lettertype"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3891-17
 msgid "Increase font size"
-msgstr "Invert images"
+msgstr "Lettergrootte vergroten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3892-17
 msgid "Decrease font size"
@@ -10051,43 +10004,43 @@ msgstr "Contrast"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3897-17
 msgid "Font weight"
-msgstr ""
+msgstr "Lettergewicht"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3898-17
 msgid "Font hinting"
-msgstr ""
+msgstr "Letterhinting"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3899-17
 msgid "Font kerning"
-msgstr ""
+msgstr "Letterspatiëring (kerning)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3900-17
 msgid "Two columns"
-msgstr ""
+msgstr "Twee kolommen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3901-17
 msgid "L/R margins"
-msgstr ""
+msgstr "L/R-marges"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3902-17
 msgid "Sync T/B margins"
-msgstr ""
+msgstr "Boven-/ondermarges synchroniseren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3903-17
 msgid "Top margin"
-msgstr ""
+msgstr "Bovenmarge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3904-17
 msgid "Bottom margin"
-msgstr ""
+msgstr "Ondermarge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3905-17
 msgid "View mode (page-continuous)"
-msgstr ""
+msgstr "Weergavemodus (pagina-doorlopend)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3906-17
 msgid "Render mode"
-msgstr ""
+msgstr "Weergavemodus (rendering)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
 msgid "Zoom"
@@ -10096,7 +10049,7 @@ msgstr "Zoomen"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3908-17"
 msgid "Line spacing"
-msgstr ""
+msgstr "Regelafstand"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Alt status bar"
@@ -10104,19 +10057,19 @@ msgstr "Alt statusbalk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3910-17
 msgid "Embedded style"
-msgstr ""
+msgstr "Ingebedde stijl"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3911-17
 msgid "Embedded fonts"
-msgstr ""
+msgstr "Ingebedde lettertypen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3912-17
 msgid "Image scaling"
-msgstr ""
+msgstr "Afbeeldingsschaal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3913-17
 msgid "Invert images"
-msgstr ""
+msgstr "Afbeeldingskleuren omdraaien"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3917-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3917-5"
@@ -10193,7 +10146,7 @@ msgstr "Lezer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3939-17
 msgid "Show bottom menu"
-msgstr "Table of contents"
+msgstr "Ondermenu tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3940-17
 msgid "Toggle status bar"
@@ -10205,7 +10158,7 @@ msgstr "Hoofdstukvoortgangsbalk schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3942-17
 msgid "Previous chapter"
-msgstr "Book map (overview)"
+msgstr "Vorig hoofdstuk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3943-17
 msgid "Next chapter"
@@ -10213,7 +10166,7 @@ msgstr "Volgende hoofdstuk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-17
 msgid "First page"
-msgstr "Bookmarks"
+msgstr "Eerste pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3945-17
 msgid "Last page"
@@ -10234,27 +10187,27 @@ msgstr "Ga naar pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-17
 msgid "Skim document"
-msgstr "Book information"
+msgstr "Document doorbladeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3950-17
 msgid "Previous bookmark"
-msgstr "Book description"
+msgstr "Vorige bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3951-17
 msgid "Next bookmark"
-msgstr "Book cover"
+msgstr "Volgende bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3952-17
 msgid "First bookmark"
-msgstr "Huidige pagina vertalen"
+msgstr "Eerste bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
 msgid "Last bookmark"
-msgstr "Bladerrichting schakelen"
+msgstr "Laatste bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
 msgid "Latest bookmark"
-msgstr "Toggle custom TOC"
+msgstr "Meest recente bladwijzer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3955-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3955-17"
@@ -10263,11 +10216,11 @@ msgstr "Terug"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3956-17
 msgid "Back to previous location"
-msgstr "Set highlight action"
+msgstr "Terug naar vorige locatie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
 msgid "Forward to next location"
-msgstr "Markeeractie rondschakelen"
+msgstr "Vooruit naar volgende locatie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Follow nearest link"
@@ -10275,7 +10228,7 @@ msgstr "Dichtstbijzijnde link volgen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 msgid "Follow nearest internal link"
-msgstr "Save book metadata"
+msgstr "Dichtstbijzijnde interne link volgen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
 msgid "Add current location to history"
@@ -10283,7 +10236,7 @@ msgstr "Huidige locatie aan locatiegeschiedenis toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
 msgid "Clear location history"
-msgstr "Book statistics"
+msgstr "Locatiegeschiedenis wissen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3962-17"
@@ -10397,7 +10350,7 @@ msgstr "Huidig boek naar archief verplaatsen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 msgid "Reading statistics: current book"
-msgstr ""
+msgstr "Leesstatistieken: huidig boek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
 msgid "Push progress from this device"
@@ -10409,47 +10362,47 @@ msgstr "Voortgang van andere apparaten halen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3994-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "Vast opgemaakte documenten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3996-17
 msgid "Toggle page flipping"
-msgstr "Reflow"
+msgstr "Pagina-ombladeren schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3997-17
 msgid "Toggle bookmark flipping"
-msgstr "Contrast"
+msgstr "Bladwijzer-ombladeren schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Toggle reflow"
-msgstr "Dewatermark"
+msgstr "Herindeling schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Zoom mode"
-msgstr "Dithering on-off"
+msgstr "Zoommodus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
 msgid "Change zoom factor"
-msgstr "Render quality"
+msgstr "Zoomfactor wijzigen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle panel zoom"
-msgstr "Document language"
+msgstr "Paneelzoom schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Page crop"
-msgstr "Forced OCR"
+msgstr "Paginatussenruimte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Margin"
-msgstr "Writing direction"
+msgstr "Marge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgid "Horizontal overlap"
-msgstr "Auto straighten"
+msgstr "Horizontale overlap"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Vertical overlap"
-msgstr "Document columns"
+msgstr "Verticale overlap"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 msgid "Fit"
@@ -10483,7 +10436,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4013-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4013-17"
 msgid "Line spacing"
-msgstr ""
+msgstr "Regelafstand"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Alignment"
@@ -10500,7 +10453,7 @@ msgstr "Lettergrootte wijzigen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Word gap"
-msgstr ""
+msgstr "Woordtussenruimte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgid "Reflow"
@@ -10517,11 +10470,11 @@ msgstr "Watermerk weghalen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Render quality"
-msgstr ""
+msgstr "Renderkwaliteit"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Document language"
-msgstr ""
+msgstr "Documenttaal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Forced OCR"
@@ -10529,19 +10482,19 @@ msgstr "Gedwongen OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgid "Writing direction"
-msgstr ""
+msgstr "Schrijfrichting"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4025-17
 msgid "Document columns"
-msgstr ""
+msgstr "Documentkolommen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Auto straighten"
-msgstr ""
+msgstr "Automatisch rechtzetten"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4034-1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Toetsenbordsneltoetsen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4036-1
 msgid ""
@@ -10552,47 +10505,43 @@ msgid ""
 "make it functional in this context. On these devices, KOReader will enable "
 "an extra menu named <span class=\"ui\">Keyboard Shortcuts</span> which you "
 "can access here:"
-msgstr ""
+msgstr "Als je een apparaat met een toetsenbord hebt zoals de <b>Kindle 2</b> en <b>Kindle 3</b>, inclusief Bluetooth-toetsenborden en emulators, kun je de toetsen, apparaatknoppen en sneltoetsen gebruiken om KOReader te bedienen. <b>Kindle 4</b> wordt ook ondersteund; die heeft geen volledig toetsenbord, maar wel genoeg knoppen om in deze context te werken. Op deze apparaten schakelt KOReader een extra menu in met de naam <span class=\"ui\">Toetsenbordsneltoetsen</span>, dat je hier kunt openen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4038-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Navigation / Physical buttons / Keyboard shortcuts"
-msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+msgstr "BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style=\"width:26px;\"> / Navigatie / Fysieke knoppen / Toetsenbordsneltoetsen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4040-1
 msgid ""
 "This menu is very similar to the <span class=\"ui\">Gesture Manager</span> "
 "interface. In this menu:"
-msgstr ""
+msgstr "Dit menu lijkt sterk op de interface van <span class=\"ui\">Gebarenbeheer</span>. In dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4042-9
 msgid "You can see the shortcuts that are available on your device"
-msgstr ""
+msgstr "Zie je de sneltoetsen die op je apparaat beschikbaar zijn"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4043-9
 msgid "You can see the predefined actions for some shortcuts"
-msgstr ""
+msgstr "Zie je de vooraf ingestelde acties voor sommige sneltoetsen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4044-9
 msgid "You can assign actions to the available shortcuts"
-msgstr ""
+msgstr "Kun je acties toewijzen aan de beschikbare sneltoetsen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4048-5
 msgid ""
 "All of the actions in the <span class=\"ui\">Gesture Manager</span> is also "
 "available for keyboard shortcut assignment. Which means you can control "
 "nearly all the functions of KOReader with these shortcuts."
-msgstr ""
+msgstr "Alle acties in <span class=\"ui\">Gebarenbeheer</span> zijn ook beschikbaar voor toewijzing aan sneltoetsen. Dat betekent dat je bijna alle functies van KOReader met deze sneltoetsen kunt bedienen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4050-5
 msgid ""
 "In the table below, you can see the default key and shortcut assignments:"
-msgstr ""
+msgstr "In de onderstaande tabel zie je de standaardtoetsen en sneltoewijzingen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4055-21
 msgid ""
@@ -10600,7 +10549,7 @@ msgid ""
 "class=\"ui\">screenshot</span> key is <b>Alt + Shift + G</b>. It is "
 "available on all screens, modes and platforms. On Kindle 4, it is "
 "<b>Keyboard + Menu</b>."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> De universele <span class=\"ui\">schermafdruk</span>-toets is <b>Alt + Shift + G</b>. Deze werkt op alle schermen, modi en platforms. Op de Kindle 4 is het <b>Toetsenbord + Menu</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4057-21
 msgid ""
@@ -10608,27 +10557,25 @@ msgid ""
 "key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift "
 "+ (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/"
 "DOWN/LEFT/RIGHT)</b> on your Kindle 4."
-msgstr ""
+msgstr "<span class=\"label_blue\">INFO</span> Heb je een Kindle 4, dan komt de <b>SHIFT</b>-toets in de onderstaande tabel overeen met je <b>TOETSENBORD</b>-knop. Dus sneltoetsen <b>Shift + (OMHOOG/OMLAAG/LINKS/RECHTS)</b> worden op je Kindle 4 <b>Toetsenbordknop + (OMHOOG/OMLAAG/LINKS/RECHTS)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4064-17
 msgid "File browser mode"
-msgstr ""
+msgstr "Bestandsverkenner-modus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4068-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4068-13"
 msgid "Open top menu"
-msgstr "Move highlight indicator - <b>Left/Right/Up/Down </b>"
+msgstr "Bovenmenu openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4069-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4069-13"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4072-13
-#, fuzzy
 msgid "Navigate to home"
-msgstr "Move highlight indicator faster - <b>Shift+Left/Right/Up/Down </b>"
+msgstr "Naar startscherm gaan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
 msgid "Home"
@@ -10636,15 +10583,15 @@ msgstr "Thuis"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4076-13
 msgid "Move in file list"
-msgstr ""
+msgstr "Verplaatsen in bestandslijst"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4077-13
 msgid "Up / Down"
-msgstr ""
+msgstr "Omhoog / Omlaag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4080-13
 msgid "Open selected book"
-msgstr ""
+msgstr "Geselecteerd boek openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4081-13
 msgctxt ""
@@ -10652,11 +10599,11 @@ msgctxt ""
 "html+html.body.div.div.table.tr.td:4081-13user_guide/en.html+html.body.div."
 "div.table.tr.td:4081-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4084-13
 msgid "Exit application"
-msgstr ""
+msgstr "Toepassing afsluiten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgctxt ""
@@ -10667,33 +10614,30 @@ msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4089-17
 msgid "Reading mode"
-msgstr ""
+msgstr "Leesmodus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4092-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4092-13"
 msgid "Open top menu"
-msgstr "Move highlight indicator - <b>Left/Right/Up/Down </b>"
+msgstr "Bovenmenu openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4093-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4093-13"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4096-13
-#, fuzzy
 msgid "Open bottom menu"
-msgstr "Table of contents"
+msgstr "Ondermenu openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4097-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4097-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4100-13
-#, fuzzy
 msgid "Back/exit application"
-msgstr "Set highlight action"
+msgstr "Terug/programma afsluiten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4101-13"
