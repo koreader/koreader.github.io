@@ -3526,96 +3526,96 @@ line-height: 2rem;
 
     <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> je aplikácia príkazového riadka, ktorá dokáže pridať textovú vrstvu OCR do naskenovaných súborov PDF (obsahujúcich iba obrázky bez textu), čo umožňuje ich vyhľadávanie alebo kopírovanie a vkladanie. Môže byť obzvlášť užitočný pri čítaní starých naskenovaných kníh. Dokáže tiež optimalizovať obrázky pre menšiu veľkosť súboru.</p>
 
-    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a <b>single .html file</b> with all the resources (images, stylesheets, scripts) embedded.</p>
+    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> je rozšírenie prehliadača pre <b>Mozilla Firefox, Google Chrome</b> a <b>Microsoft Edge</b>. Toto rozšírenie umožňuje uložiť webovú stránku ako <b>jeden súbor .html</b> so všetkými vloženými zdrojmi (obrázky, štýly, skripty).</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-metadatastorage">Book metadata storage options</div>
+<div class="L2-Sub-heading" id="L2-metadatastorage">Možnosti ukladania metadát kníh</div>
 
 	<p><span class="label_red">!!! POKROČILÉ</span></p>
 
-	<p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+	<p>KOReader ukladá nastavenia a ďalšie informácie týkajúce sa vašich kníh do rovnakého adresára ako súbor vašej knihy. Nazývame to <b>metadáta</b> a tieto zahŕňajú:</p>
 	<ul>
-		<li>Visual settings for the book</li>
-		<li>Book reading progress</li>
-		<li>Highlights, bookmarks and notes</li>
+		<li>Vizuálne nastavenia pre knihu</li>
+		<li>Priebeh čítania knihy</li>
+		<li>Zvýraznenia, záložky a poznámky</li>
 	</ul>
 	
-	<p>In a recent change, we added new ways of storing this metadata to solve certain problems related to synchronization between devices. Currently there are three different methods to store the metadata and each method has its own benefits/negatives.</p>
+	<p>V nedávnej aktualizácii sme pridali nové spôsoby ukladania týchto metadát, aby sme vyriešili určité problémy súvisiace so synchronizáciou medzi zariadeniami. V súčasnosti existujú tri rôzne metódy ukladania metadát a každá metóda má svoje výhody/nevýhody.</p>
 
-	<p>You can change this setting from this menu:</p>
+	<p>Toto nastavenie môžete zmeniť v tejto ponuke:</p>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location</div>
+	<div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Dokument / Umiestnenie metadát knihy</div>
 
 	
-	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> We strongly advise reading the section below to understand the differences and how each method works before making any changes. Otherwise there is a risk of losing your book settings, progress and annotations.</p></div>
+	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">UPOZORNENIE</span> Dôrazne odporúčame prečítať si nasledujúcu časť, aby ste pochopili rozdiely a fungovanie jednotlivých metód pred vykonaním akýchkoľvek zmien. V opačnom prípade hrozí strata nastavení knihy, postupu čítania a anotácií.</p></div>
 
 
 
-<div class="L3-Smaller-heading">1. Individual metadata folders next to the book files - DEFAULT SETTING</div>
+<div class="L3-Smaller-heading">1. Jednotlivé priečinky s metadátami popri súboroch s knihami - PREDVOLENÉ NASTAVENIE</div>
 
-		<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: book folder</div>
+		<div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Dokument / Umiestnenie metadát knihy: priečinok knihy</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>Toto je <b>predvolená</b> metóda používaná pri novej inštalácii KOReaderu. Pri tejto metóde, keď skopírujete súbor <b>Alice in Wonderland.epub</b> do zariadenia a prvýkrát ho otvoríte, sa v tom istom adresári vytvorí priečinok s názvom <span class="ui">Alice in Wonderland.sdr</span>. Tento adresár obsahuje súbory s vašimi nastaveniami, anotáciami a postupom čítania v tejto knihe.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Výhody</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>Nastavenia pre každú knihu môžete manuálne zálohovať a obnovovať.</li>
+			<li>Keď vykonávate synchronizáciu adresárov alebo zálohy pomocou systému ako <b>Synching</b> alebo <b>Dropbox</b>, vaše nastavenia sa synchronizujú spolu s vašimi knihami.</li>
+			<li>Nadradené adresáre, v ktorých sa nachádza vaša kniha, môžete premenovať, KOReader s tým nebude mať problém.</li>
 		</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Nevýhody</span></b></p>
 		<ul>
-			<li>If you reorganize your library by moving/renaming the book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
-			<li>These <b>.sdr</b> folders will be visible when you browse your library directories with another file browser or from your computer, which may clutter your view.</li>
+			<li>Ak reorganizujete svoju knižnicu presunutím/premenovaním súborov kníh alebo ich sprievodného .sdr priečinka mimo prehliadača súborov KOReadera, stratíte metadáta týchto kníh bez akéhokoľvek varovania.</li>
+			<li>Tieto <b>.sdr</b> priečinky budú viditeľné pri prehliadaní adresárov knižnice pomocou iného prehliadača súborov alebo z počítača, čo môže zneprehľadniť knižnicu.</li>
 		</ul>
 	
 
 
-<div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">2. Adresáre metadát v jednom adresári KOReadera</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/docsettings</div>
+	<div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Dokument / Umiestnenie metadát knihy: .../koreader/docsettings</div>
 
-<p>This method is essentially same as the default one above. The difference is, in this method, all <b>.sdr</b> folders of your books will be under a single directory <b>which is under the KOReader main directory structure</b>, instead of your library directory, next to the book files.</p>
+<p>Táto metóda je v podstate rovnaká ako predvolená metóda uvedená vyššie. Rozdiel je v tom, že pri tejto metóde budú všetky <b>.sdr</b> priečinky vašich kníh umiestnené v jednom adresári, <b>ktorý sa nachádza v hlavnej adresárovej štruktúre KOReadera</b>, namiesto adresára knižnice, popri súboroch kníh.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Výhody</span></b></p>
 	<ul>
-		<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+		<li>Priečinky kníh <b>.sdr</b> budú viditeľné a používané iba programom KOReader. Nebudú vám zneprehľadňovať adresáre knižnice pri prehliadaní knižnice pomocou iného prehliadača súborov alebo z počítača.</li>
 	</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Nevýhody</span></b></p>
 	<ul>
-		<li>If you reorganize your library by moving/renaming the moving/renaming library directories, book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
+		<li>Ak reorganizujete svoju knižnicu presunutím/premenovaním adresárov knižníc, súborov kníh alebo ich sprievodného .sdr priečinka mimo prehliadača súborov KOReader, stratíte metadáta týchto kníh bez akéhokoľvek varovania.</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>Keďže metadáta vašej knihy nebudú v priečinkoch vašej knižnice, žiadna synchronizácia ani zálohy vašej knižnice ich nebudú obsahovať.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">3. Jednotlivé adresáre s metadátami uloženými ako reťazec kontrolného súčtu z písmen a číslic v jednom adresári KOReadera</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/hashdocsettings</div>
+	<div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Dokument / Umiestnenie metadát knihy: .../koreader/hashdocsettings</div>
 
-	<p>This method is similar to the previous one as the <b>.sdr</b> folders will be under an internal directory. But this method is developed to address the shortcomings of the previous method. Because, normally if you rename a book outside KOReader (with the native file manager/reader of the device or from a connected computer), its <b>.sdr</b> folder name will no longer match and your metadata for that book will be lost. <b>If you are only using the KOReader File Browser for file operations, this is automatically handled so there are no repercussions.</b></p>
+	<p>Táto metóda je podobná predchádzajúcej, pretože <b>.sdr</b> priečinky budú v internom adresári. Táto metóda je však vyvinutá s cieľom riešiť nedostatky predchádzajúcej metódy. Pretože, ak knihu premenujete mimo KOReadera (pomocou správcu súborov zariadenia/čítačky alebo z pripojeného počítača), názov jej priečinka <b>.sdr</b> sa už nebude zhodovať a vaše metadáta pre danú knihu sa stratia. <b>Ak na operácie so súbormi používate iba prehliadač súborov KOReadera, toto sa automaticky vyrieši, takže neexistujú žiadne následky.</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>V tejto metóde <b>s reťazcom kontrolného súčtu z písmen a číslic</b> nie sú <b>.sdr</b> priečinky identifikované cestou k súboru/názvom súboru knihy. Namiesto toho sa na prepojenie kníh s ich nastaveniami použije čiastočný <b>MD5 kód</b>. Tento kód sa používa ako jedinečný identifikátor knihy a vypočítava sa na základe <b>obsahu súboru knihy</b>. Rovnaký kód sa používa aj na pomenovanie jej .sdr priečinka.</p>
 		
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Výhody</span></b></p>
 		<ul>
-			<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+			<li>Priečinky kníh <b>.sdr</b> budú viditeľné a používané iba programom KOReader. Nebudú vám zneprehľadňovať pohľad na adresáre knižnice pri prehliadaní adresárov knižnice pomocou iného prehliadača súborov alebo z počítača.</li>
 
-			<li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+			<li>Knihy môžete premenovať, presunúť a kopírovať pomocou iného prehliadača súborov alebo z počítača. KOReader knihy aj po týchto operáciách rozpozná.</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>Pri tejto metóde KOReader priradí rovnaký <b>.sdr</b> priečinok ku všetkým kópiám knihy, aj keď sú tieto kópie na rôznych zariadeniach. Napríklad, ak používate funkciu <b>Synchronizácia</b>, táto metóda vám umožňuje synchronizovať priečinok <span class="ui">/hashdocsettings</span> spolu so súbormi kníh na mnohých zariadeniach, na ktorých je nainštalovaný KOReader. Napriek rôznym relatívnym cestám týchto kníh na každom zariadení si stále môžete synchronizovať anotácie a priebeh čítania na všetkých svojich zariadeniach. Pri iných metódach to nie je možné.</li>
 		</ul>
 
-		<p><b><span class="label_red">Negatives</span></b></p>
+		<p><b><span class="label_red">Nevýhody</span></b></p>
 		<ul>
-			<li>Any operations that modify the file directly (such as writing highlights into PDFs or downloading from <b>Calibre</b>) will change the file so its <b>MD5 ID will change</b> (unlike renaming or moving which is safe with this method). In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+			<li>Akékoľvek operácie, ktoré priamo upravujú súbor (napríklad zapisovanie zvýraznení do PDF súborov alebo sťahovanie z <b>Calibre</b>), zmenia súbor, takže jeho <b>MD5 identifikátor sa zmení</b> (na rozdiel od premenovania alebo presunutia, ktoré sú pri tejto metóde bezpečné). V tomto prípade by KOReader nedokázal knihu rozpoznať, takže tieto knihy stratia svoje metadáta.</li>
 
-			<li>Calculating file IDs may slow down <span class="ui">File browser</span> navigation when browsing larger directories.</li>
+			<li>Výpočet identifikátora súborov môže spomaliť navigáciu v <span class="ui">prehliadači súborov</span> pri prehliadaní väčších adresárov.</li>
 		</ul>
 
 
@@ -3627,11 +3627,11 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-gestures">GESTÁ A KLÁVESNOVÉ SKRATKY</div>
 
     <p>
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.</p>
+    Existuje mnoho typov gest, ktoré môžete použiť na ovládanie KOReadera. Niektoré gestá majú obmedzenia týkajúce sa toho, kde na obrazovke ich možno použiť a ktoré smery sú podporované. Tieto obmedzenia sú uvedené nižšie.</p>
 
     <div class="L2-Sub-heading" id="L2-gesturetypes">Typy gest</div>
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch so multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">INFORMÁCIA</span> Niektoré zariadenia podporujú iba dotyk jedným prstom, takže gestá viacerými prstami pre ne <b>nie sú dostupné</b>.</div>
 
 
 
@@ -3640,18 +3640,18 @@ line-height: 2rem;
             <td style="width: 25%;">
                 <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
             </td>
-            <td><p class="ui">TAP / DOUBLE TAP</p>
-                <p>Single or double tap with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">ŤUKNUTIE / DVOJITÉ ŤUKNUTIE</p>
+                <p>Jedno alebo dvojité ťuknutie <b>JEDNÝM</b> prstom</p>
+                <p><b>FUNGUJE:</b> Kdekoľvek na obrazovke</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TAP AND HOLD</p>
-                <p>Single tap and hold with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">ŤUKNÚŤ A PODRŽAŤ</p>
+                <p>Jediným ťuknutím a podržaním <b>JEDNÝM</b> prstom</p>
+                <p><b>FUNGUJE:</b> Iba v štyroch rohoch</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
@@ -3659,38 +3659,38 @@ line-height: 2rem;
             <td>
                 <p class="ui">Pohyb potiahnutím <b>JEDNÝM</b> prstom</p>
         <p><b>FUNGUJE:</b> Okraje obrazovky (HORIZONTÁLNE a VERTIKÁLNE) kdekoľvek okrem okrajov (DIAGONÁLNE)</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+        <p><b>FUNGUJE:</b> Iba v štyroch rohoch</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
             <td><p class="ui">Pohyb potiahnutím <b>DVOCH</b> prstov súčasne</p>
-        <p>Same as zooming in and out on a phone or tablet.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div></td>
+        <p>Rovnaké ako priblíženie a oddialenie na telefóne alebo tablete.</p>
+        <p><b>FUNGUJE:</b> Kdekoľvek na obrazovke</p>
+        <div class="info"><span class="label_blue">INFORMÁCIA</span> Toto gesto môže v závislosti od vášho zariadenia fungovať menej spoľahlivo. Ak je to tak, vyberte iný typ gesta.</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
-            <td><p class="ui">ONE FINGER SWIPE</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p></td>
+            <td><p class="ui">POTIAHNUTIE JEDNÝM PRSTOM</p>
+        <p>Pohyb potiahnutím <b>JEDNÝM</b> prstom</p>
+        <p><b>FUNGUJE:</b> Okraje obrazovky (HORIZONTÁLNE a VERTIKÁLNE) kdekoľvek okrem okrajov (DIAGONÁLNE) </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
-            <td><p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">POTIAHNUTIE DVOCH PRSTOV</p>
+        <p>Pohyb potiahnutím <b>DVOCH</b> prstov súčasne</p>
+        <p><b>FUNGUJE:</b> Kdekoľvek na obrazovke</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
-            <td><p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">VIAC-NÁSOBNÉ POTIAHNUTIE</p>
+        <p>Viac ako jedno potiahnutie po sebe bez zdvihnutia prsta. Napríklad ako kreslenie písmena <b>U</b> (DOLE-VPRAVO-HORE)</p>
+        <p><b>FUNGUJE:</b> Kdekoľvek na obrazovke</p></td>
         </tr>
         <tr>
             <td></td>
-            <td><p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
+            <td><p>Ikony od <b>Econceptive</b> z <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Projektu Noun</a></p></td>
         </tr>
     </table>
 
@@ -3698,52 +3698,52 @@ line-height: 2rem;
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">Preddefinované gestá</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    Táto tabuľka zobrazuje gestá, ktoré sú súčasťou KOReadera. Tieto gestá môžete zmeniť podľa svojich preferencií prostredníctvom:</p>
 
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Gesture Manager</div>
+    <div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Správca gest</div>
 
 
     <div class="centering-div">
 
     <br>
 
-    <div class="L3-Smaller-heading">CORNER TAP</div>
+    <div class="L3-Smaller-heading">ŤUKNUTIE V ROHU</div>
     
-    <p><b>Top Left Corner</b> > Toggle page flipping</p>
-    <p><b>Top Right Corner</b> > Toggle bookmark</p>
-    <p><b>Opposing diagonal corners at the same time</b> > Take screenshot</p>
+    <p><b>Ľavý horný roh</b> &gt; Prepínať smer listovania strán</p>
+    <p><b>Pravý horný roh</b> &gt; Prepínať záložku</p>
+    <p><b>Súčasne protiľahlé diagonálne rohy</b> &gt; Urobiť snímku obrazovky</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">DOUBLE TAP</div>
+    <div class="L3-Smaller-heading">DVOJITÉ ŤUKNUTIE</div>
     <p><b>↓ ↑</b> – Prebehnúť dokument</p>
     <p><b>↑ ←</b> - Záložky</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
+    <div class="L3-Smaller-heading">POTIAHNUTIE JEDNÝM PRSTOM</div>
     <p><b>↑ ↓ ↑</b> - Predchádzajúca kapitola</p>
     <p><b>↓ ↑ ↓</b> - Ďalšia kapitola</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">MULTISWIPES</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
-    <p><span style="font-family: microns;"></span> - Skim document</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
-    <p><span style="font-family: microns;"></span> - Table of contents</p>
-    <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
-    <p><span style="font-family: microns;"></span> - Toggle reflow</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
-    <p><span style="font-family: microns;"></span> - Next chapter</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
-    <p><span style="font-family: microns;"></span> - Favorites</p>
+    <div class="L3-Smaller-heading">VIACNÁSOBNÉ POTIAHNUTIA</div>
+    <p><span style="font-family: microns;"></span> - Späť na predchádzajúce umiestnenie</p>
+    <p><span style="font-family: microns;"></span> – Prejsť na poslednú záložku</p>
+    <p><span style="font-family: microns;"></span> - Prebehnúť dokument</p>
+    <p><span style="font-family: microns;"></span> - Záložky</p>
+    <p><span style="font-family: microns;"></span> - Tabuľka s obsahom knihy</p>
+    <p><span style="font-family: microns;"></span> - Zobraziť dialógové okno nasvietenia/podsvietenia displeja</p>
+    <p><span style="font-family: microns;"></span> - Prepínať preformátovanie</p>
+    <p><span style="font-family: microns;"></span> - História</p>
+    <p><span style="font-family: microns;"></span> - Stav knihy</p>
+    <p><span style="font-family: microns;"></span> - Prejsť na stránku</p>
+    <p><span style="font-family: microns;"></span> - Späť</p>
+    <p><span style="font-family: microns;"></span> - Predchádzajúca kapitola</p>
+    <p><span style="font-family: microns;"></span> - Ďalšia kapitola</p>
+    <p><span style="font-family: microns;"></span> - Otvoriť predchádzajúci dokument</p>
+    <p><span style="font-family: microns;"></span> – Obľúbené</p>
 
     </div>
 
@@ -3752,51 +3752,51 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">Kategórie pre gestá</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        Toto je zoznam všetkých akcií, ktoré môžete priradiť gestu pomocou ponuky <span class="ui">Správca gest</span>. Na vyhľadanie akcie tu môžete použiť funkciu vyhľadávania vášho prehliadača (zvyčajne <b>Ctrl+F</b>). Tieto akcie môžete použiť aj vo svojom vlastnom <span class="ui">Rýchlom menu</span>. Ďalšie informácie nájdete v príslušnej časti príručky.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> When chooosing an action for a gesture, you will see a special item in the list named <span class="ui">pass through</span>. This action is used to keep the default behavior of that gesture, like text selection when long pressing near the corners. If you want to disable a gesture to avoid accidental actions, choose <span class="ui">nothing</span> as the action. In other words <span class="ui">pass through</span>=<b>another handler might act on it</b>, <span class="ui">nothing</span>=<b>swallow the action</b>.</div>
+    <div class="info"><span class="label_blue">INFORMÁCIA</span> Pri výbere akcie pre gesto sa v zozname zobrazí špeciálna položka s názvom <span class="ui">preskočiť akciu</span>. Táto akcia sa používa na zachovanie predvoleného správania daného gesta, ako je napríklad výber textu pri dlhom stlačení v blízkosti rohov. Ak chcete gesto zakázať, aby ste predišli náhodným akciám, vyberte ako akciu <span class="ui">nič</span>. Inými slovami <span class="ui">preskočiť akciu</span>=<b> môže spracovať iný obslužný program</b>, <span class="ui">nič</span>=<b>ignorovať akciu</b>.</div>
 
 
     <div class="centering-div">
         
 
-        <div class="L3-Smaller-heading">General</div>
+        <div class="L3-Smaller-heading">Všeobecné</div>
 
             <ol>
-                <li>File browser</li>
+                <li>Prehliadač súborov</li>
                 <li>Spustite úložisko USB</li>
                 <li>Pozastaviť</li>
                 <li>Reštartovať KOReader</li>
                 <li>Reštartovať zariadenie</li>
                 <li>Zbierky</li>
-                <li>Collections search</li>
-                <li>Dictionary lookup</li>
-                <li>Wikipedia lookup</li>
+                <li>Prehľadávanie zbierok</li>
+                <li>Hľadať v slovníku</li>
+                <li>Vyhľadávanie na Wikipédii</li>
                 <li>Povoliť dotykový vstup</li>
-                <li>Menu search</li>
-                <li>Open next file in last book folder</li>
-                <li>Open previous file in last book folder</li>
-                <li>Notebook file</li>
+                <li>Prehľadávať menu</li>
+                <li>Otvoriť ďalší súbor v priečinku poslednej knihy</li>
+                <li>Otvoriť predchádzajúci súbor v priečinku poslednej knihy</li>
+                <li>Súbor s poznámkami</li>
                 <li>Prepínať dotykový vstup</li>
                 <li>Prepnúť na automatické opakovanie stlačeného tlačidla</li>
-                <li>Calibre metadata search</li>
-                <li>Browse all calibre tags</li>
-                <li>Browse all calibre series</li>
-                <li>Browse all calibre authors</li>
-                <li>Browse all calibre titles</li>
-                <li>Calibre wireless connect</li>
-                <li>Calibre wireless disconnect</li>
-                <li>Reading statistics: toggle</li>
-                <li>Reading statistics: show progress</li>
-                <li>Reading statistics: show time range</li>
-                <li>Reading statistics: show calendar view</li>
-                <li>Reading statistics: show today's timeline</li>
-                <li>Reading statistics: synchronize</li>
-                <li>Text editor: open last file</li>
-                <li>Open vocabulary builder</li>
-                <li>Wallabag retrieval</li>
-                <li>Wallabag queue upload</li>
-                <li>Wallabag statuses upload</li>
+                <li>Vyhľadávanie metadát Calibre</li>
+                <li>Prehľadávať všetky značky Calibre</li>
+                <li>Prehľadávať všetky série Calibre</li>
+                <li>Prehľadávať všetkých autorov Calibre</li>
+                <li>Prehľadávať všetky názvy kníh Calibre</li>
+                <li>Pripojiť bezdrôtovo cez Calibre</li>
+                <li>Odpojiť bezdrôtovo cez Calibre</li>
+                <li>Štatistiky čítania: prepínať</li>
+                <li>Štatistiky čítania: zobraziť priebeh</li>
+                <li>Štatistiky čítania: zobraziť časové rozpätie</li>
+                <li>Štatistiky čítania: zobraziť kalendár štatistík</li>
+                <li>Štatistiky čítania: zobraziť časovú os dnešných štatistík</li>
+                <li>Štatistiky čítania: synchronizovať</li>
+                <li>Textový editor: otvoriť posledný súbor</li>
+                <li>Otvoriť doplnok pre tvorbu slovnej zásoby</li>
+                <li>Získanie obsahu cez Wallabag</li>
+                <li>Nahrávanie do fronty Wallabag</li>
+                <li>Nahrávanie stavov Wallabag</li>
                 
                 <li>Ukončiť šetrič obrazovky</li>
                 <li>Stranovo zameniť tlačidlá otáčania stránok</li>
@@ -3806,14 +3806,14 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading">Device</div>
+        <div class="L3-Smaller-heading">Zariadenie</div>
 
             <ol>
-                <li>Exit sleep screen</li>
-                <li>Restart KOReader</li>
-                <li>Exit KOReader</li>
-                <li>Toggle long-press on corners</li>
-                <li>Enable touch input</li>
+                <li>Ukončiť režim spánku obrazovky</li>
+                <li>Reštartovať KOReader</li>
+                <li>Ukončiť KOReader</li>
+                <li>Prepínať dlhé stlačenie v rohoch</li>
+                <li>Povoliť dotykový vstup</li>
                 <li>Zobraziť dialógové okno pre nasvietenie/podsvietenie displeja</li>
                 <li>Prepínať nasvietenie/podsvietenie displeja</li>
                 <li>Nastaviť intenzitu nasvietenia/podsvietenia displeja</li>
@@ -3822,17 +3822,17 @@ line-height: 2rem;
                 <li>Znížiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Prepínať nočný režim</li>
                 <li>Nastaviť nočný režim</li>
-                <li>Toggle Fullscreen</li>
+                <li>Prepínať celú obrazovku</li>
                 <li>Úplná obnova displeja (v nočnom režime)</li>
                 <li>Vždy prebliknúť na hraniciach kapitol</li>
                 <li>Prepínať prebliknutie na začiatku kapitoly</li>
-                <li>Terminal emulator</li>
+                <li>Emulátor terminálu</li>
                 
 
                 <li>Štatistika batérie</li>
                 <li>Štatistiky systému</li>
-                <li>Reboot the device</li>
-                <li>Power off</li>
+                <li>Reštartovať zariadenie</li>
+                <li>Vypnúť zariadenie</li>
                 <li>Zvýšiť intenzitu nasvietenia/podsvietenia displeja</li>
                 <li>Znížiť intenzitu nasvietenia/podsvietenia displeja</li>
                 <li>Prekresliť celú obrazovku</li>
@@ -3842,16 +3842,16 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading">Screen and lights</div>
+        <div class="L3-Smaller-heading">Obrazovka a svetlá</div>
 
             <ol>
-                <li>Show frontlight dialog</li>
-                <li>Toggle frontlight</li>
-                <li>Set frontlight brightness</li>
-                <li>Increase frontlight brightness</li>
-                <li>Decrease frontlight brightness</li>
-                <li>Set frontlight warmth</li>
-                <li>Increase frontlight warmth</li>
+                <li>Zobraziť dialógové okno pre nasvietenie/podsvietenie displeja</li>
+                <li>Prepínať nasvietenie/podsvietenie displeja</li>
+                <li>Nastaviť intenzitu nasvietenia/podsvietenia displeja</li>
+                <li>Zvýšiť intenzitu nasvietenia/podsvietenia displeja</li>
+                <li>Znížiť intenzitu nasvietenia/podsvietenia displeja</li>
+                <li>Nastaviť farebnú teplotu nasvietenia/podsvietenia displeja</li>
+                <li>Zvýšiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Nastaviť písmo</li>
                 <li>Zväčšiť veľkosť písma</li>
                 <li>Zmenšiť veľkosť písma</li>
@@ -3866,103 +3866,103 @@ line-height: 2rem;
                 <li>Ľavý / pravý okraj</li>
                 <li>Zjednotiť vrchný / spodný okraj</li>
                 <li>Vrchný okraj</li>
-                <li>Auto warmth use sun position</li>
-                <li>Auto warmth use schedule</li>
-                <li>Auto warmth use closer midnight</li>
-                <li>Auto warmth use closer noon</li>
+                <li>Automatická farebná teplota využíva polohu slnka</li>
+                <li>Automatická farebná teplota podľa časového plánu</li>
+                <li>Automatickú farebnú teplotu používať okolo polnoci</li>
+                <li>Automatickú farebnú teplotu používať okolo poludnia</li>
                 <li>Spodný okraj </li>
             </ol>
 
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">Preformátovateľné dokumenty</div>
             <ol>
-                <li>Font face</li>
+                <li>Tvar písma</li>
                 <li>Invertovať obrázky</li>
-                <li>Decrease font size</li>
-                <li>Font size</li>
-                <li>Word spacing</li>
-                <li>Word expansion</li>
-                <li>Contrast</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
-                <li>Zoom</li>
-                <li>Line spacing</li>
-                <li>Alt status bar</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Zmenšiť veľkosť písma</li>
+                <li>Veľkosť písma</li>
+                <li>Medzery medzi slovami</li>
+                <li>Rozšírenie slov</li>
+                <li>Kontrast</li>
+                <li>Šírka písma</li>
+                <li>Kvalita zobrazenia písma</li>
+                <li>Vylepšenie písma</li>
+                <li>Dva stĺpce</li>
+                <li>Ľavý / pravý okraj</li>
+                <li>Zjednotiť vrchný / spodný okraj</li>
+                <li>Vrchný okraj</li>
+                <li>Spodný okraj</li>
+                <li>Režim zobrazenia (stránka priebežne)</li>
+                <li>Režim vykreslenia</li>
+                <li>Priblíženie</li>
+                <li>Riadkovanie</li>
+                <li>Alternatívny stavový riadok</li>
+                <li>Vložený štýl</li>
+                <li>Vložené písma</li>
+                <li>Zmena mierky obrázkov</li>
+                <li>Invertovať obrázky</li>
             </ol>
 
         
-    <div class="L3-Smaller-heading">File browser</div>
+    <div class="L3-Smaller-heading">Prehliadač súborov</div>
         <ol>
-            <li>Set display mode</li>
-            <li>Sort by</li>
-            <li>Reverse sorting</li>
-            <li>Folders and files mixed</li>
-            <li>Show plus menu</li>
-            <li>Toggle select mode</li>
-            <li>Refresh content</li>
+            <li>Nastaviť režim zobrazenia</li>
+            <li>Triediť podľa</li>
+            <li>Obrátené zoradenie</li>
+            <li>Zmiešané priečinky a súbory</li>
+            <li>Zobraziť plus menu</li>
+            <li>Prepínať režim výberu</li>
+            <li>Obnoviť obsah</li>
             <li>Odkazy na priečinky</li>
-            <li>File search</li>
-            <li>Last file search results</li>
-            <li>Folder up</li>
-            <li>Go to page</li>
-            <li>Back</li>
-            <li>Export all notes in all books in history</li>
-            <li>OPDS catalog</li>
+            <li>Vyhľadať súbory</li>
+            <li>Výsledky vyhľadávania pre posledný súbor</li>
+            <li>O priečinok nahor</li>
+            <li>Isť na stranu</li>
+            <li>Spät</li>
+            <li>Exportovať všetky poznámky zo všetkých kníh v histórii</li>
+            <li>Katalóg OPDS</li>
         </ol>
 
 
-        <div class="L3-Smaller-heading">Reader</div>
+        <div class="L3-Smaller-heading">Čítačka</div>
             <ol>
                 <li>Tabuľka s obsahom knihy</li>
                 <li>Knižná mapa</li>
-                <li>Toggle chapter progress bar</li>
+                <li>Prepínať lištu s priebehom čítania kapitoly</li>
                 <li>Knižná mapa (prehľad)</li>
                 <li>Prehliadač stránok</li>
                 <li>Záložky</li>
                 <li>Prehľadávanie záložiek</li>
-                <li>Random page</li>
+                <li>Náhodná strana</li>
                 <li>Prepínať záložku</li>
-                <li>Go to page</li>
+                <li>Isť na stranu</li>
                 <li>Informácie o knihe</li>
                 <li>Popis knihy</li>
                 <li>Obal knihy</li>
                 <li>Preložiť aktuálnu stránku</li>
                 <li>Prepínať smer otáčania stránky</li>
                 <li>Prepínať vlastnú tabuľku obsahu knihy</li>
-                <li>Back</li>
+                <li>Spät</li>
                 <li>Nastaviť zvýraznenie</li>
                 <li>Opakovať akciu pre zvýraznenie</li>
                 <li>Opakovať štýl zvýraznenia</li>
                 <li>Uložiť metadáta knihy</li>
                 <li>Presunúť aktuálnu knihu do archívu</li>
                 <li>Štatistiky knihy</li>
-                <li>Fulltext search</li>
-                <li>Last fulltext search results</li>
-                <li>Table of contents</li>
-                <li>Book map</li>
-                <li>Book map (overview)</li>
-                <li>Page browser</li>
-                <li>Bookmarks</li>
-                <li>Bookmark search</li>
-                <li>Toggle bookmark</li>
+                <li>Hľadanie textu</li>
+                <li>Posledné výsledky vyhľadávania v celom texte</li>
+                <li>Tabuľka s obsahom knihy</li>
+                <li>Knižná mapa</li>
+                <li>Knižná mapa (prehľad)</li>
+                <li>Prehliadač stránok</li>
+                <li>Záložky</li>
+                <li>Prehľadávanie záložiek</li>
+                <li>Prepínať záložku</li>
                 <li>Prepínať smer listovania v záložkách</li>
                 <li>Vypnúť/zapnúť preformátovanie</li>
                 <li>Režim priblíženia</li>
                 <li>Zmeniť faktor priblíženia</li>
                 <li>Vypnúť/zapnúť panelové priblíženie</li>
-                <li>Invert page turn taps and swipes</li>
+                <li>Stranovo zameniť ťuknutia a ťahy prstom pre otáčanie strán</li>
                 <li>Orezanie strany</li>
                 <li>Okraj</li>
                 <li>Horizontálne prekrytie</li>
@@ -3970,17 +3970,17 @@ line-height: 2rem;
                 <li>Prispôsobiť</li>
                 <li>Faktor priblíženia</li>
                 <li>Priblížiť na</li>
-                <li>Export annotations</li>
-                <li>Export all notes in current book</li>
-                <li>Export all notes in all books in history</li>
+                <li>Exportovať anotácie</li>
+                <li>Exportovať všetky poznámky v tejto knihe</li>
+                <li>Exportovať všetky poznámky zo všetkých kníh v histórii</li>
                 <li>Smer</li>
-                <li>Reading statistics: current book</li>
-                <li>Push progress from this device</li>
-                <li>Pull progress from other devices</li>
+                <li>Štatistiky čítania: aktuálna kniha</li>
+                <li>Odoslať priebeh čítania z tohto zariadenia</li>
+                <li>Stiahnuť priebeh čítania z iných zariadení</li>
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Dokumenty s pevným rozložením</div>
             <ol>
                 <li>Preformátovať</li>
                 <li>Kontrast</li>
@@ -3992,27 +3992,27 @@ line-height: 2rem;
                 <li>Smer písania</li>
                 <li>Automatické vyrovnanie</li>
                 <li>Stĺpce dokumentu</li>
-                <li>Fit</li>
-                <li>Zoom to</li>
-                <li>Number of columns/rows to split page</li>
-                <li>Zoom factor</li>
-                <li>Direction</li>
-                <li>View mode</li>
-                <li>Page gap</li>
-                <li>Line spacing</li>
-                <li>Alignment</li>
-                <li>Font size</li>
-                <li>Change font size</li>
-                <li>Word gap</li>
-                <li>Reflow</li>
-                <li>Contrast</li>
-                <li>Dewatermark</li>
-                <li>Render quality</li>
-                <li>Document language</li>
-                <li>Forced OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
-                <li>Auto straighten</li>
+                <li>Prispôsobiť</li>
+                <li>Priblížiť na</li>
+                <li>Počet stĺpcov alebo riadkov, na ktoré sa má stránka rozdeliť</li>
+                <li>Faktor priblíženia</li>
+                <li>Smer</li>
+                <li>Režim zobrazenia</li>
+                <li>Medzera medzi stranami</li>
+                <li>Riadkovanie</li>
+                <li>Zarovnanie</li>
+                <li>Veľkosť písma</li>
+                <li>Zmeniť veľkosť písma</li>
+                <li>Medzery medzi slovami</li>
+                <li>Preformátovať</li>
+                <li>Kontrast</li>
+                <li>Odstrániť vodoznak</li>
+                <li>Kvalita vykresľovania</li>
+                <li>Jazyk dokumentu</li>
+                <li>Vynútené OCR</li>
+                <li>Smer písania</li>
+                <li>Stĺpce dokumentu</li>
+                <li>Automatické vyrovnanie</li>
             </ol>
 
     </div>
@@ -4020,277 +4020,277 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Keyboard Shortcuts</div>
+<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Klávesové skratky</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>Ak máte zariadenie s klávesnicou, ako napríklad <b>Kindle 2</b> a <b>Kindle 3</b>, vrátane klávesníc a emulátorov Bluetooth, môžete na ovládanie KOReaderu použiť klávesy klávesnice, tlačidlá zariadenia a skratky. Podporovaný je aj <b>Kindle 4</b>, ktorému chýba plnohodnotná klávesnica, ale stále má dostatok tlačidiel na to, aby bol v tomto zmysle funkčný. Na týchto zariadeniach KOReader aktivuje dodatočnú ponuku s názvom <span class="ui">Klávesové skratky</span>, ku ktorej máte prístup tu:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigation / Physical buttons / Keyboard shortcuts</div>
+<div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigácia / Fyzické tlačidlá / Klávesové skratky</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>Táto ponuka je veľmi podobná rozhraniu <span class="ui">Správcu gest</span>. V tejto ponuke:</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>Môžete si pozrieť skratky, ktoré sú k dispozícii na vašom zariadení</li>
+        <li>Pre niektoré skratky si môžete pozrieť preddefinované akcie</li>
+        <li>Dostupným skratkám môžete priradiť akcie</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p>Všetky akcie v <span class="ui">Správcovi gest</span> sú k dispozícii aj na priradenie klávesových skratiek. To znamená, že pomocou týchto skratiek môžete ovládať takmer všetky funkcie KOReadera.</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>V tabuľke nižšie si môžete pozrieť predvolené priradenia klávesov a skratiek:</p>
 
 
     
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Universal <span class="ui">screenshot</span> key is <b>Alt + Shift + G</b>. It is available on all screens, modes and platforms. On Kindle 4, it is <b>Keyboard + Menu</b>.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFORMÁCIA</span> Univerzálne klávesy pre <span class="ui">snímku obrazovky</span> sú <b>Alt + Shift + G</b>. Sú dostupné na všetkých obrazovkách, režimoch a platformách. Na Kindle 4 je to <b>Klávesnica + Menu</b>.</p></div>
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> If you have a Kindle 4, <b>SHIFT</b> key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift + (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/DOWN/LEFT/RIGHT)</b> on your Kindle 4.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFORMÁCIA</span> Ak máte Kindle 4, klávesa <b>SHIFT</b> v tabuľke nižšie je namapovaná na tlačidlo <b>KLÁVESNICA</b>. Takže skratky <b>Shift + (HORE/DOLE/VĽAVO/VPRAVO)</b> sú namapované na <b>tlačidlo klávesnice + (HORE/DOLE/VĽAVO/VPRAVO)</b> na vašom Kindle 4.</p></div>
 
 
     <div class="centering-div">
 
         <table class="grid-table" style="width: 65%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
-            <td><div class="L3-Smaller-heading">File browser mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Režim prehliadača súborov</div></td><td></td>
         </tr>
 
         <tr>
-            <td>Open top menu</td>
+            <td>Otvoriť vrchné menu</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Navigate to home</td>
-            <td><b>Home</b></td>
+            <td>Navigovať do 'domov'</td>
+            <td><b>Domovský priečinok</b></td>
         </tr>
         <tr>
-            <td>Move in file list</td>
-            <td><b>Up / Down</b></td>
+            <td>Pohyb v zozname súborov</td>
+            <td><b>Hore / Dole</b></td>
         </tr>
         <tr>
-            <td>Open selected book</td>
+            <td>Otvoriť vybranú knihu</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>Ukončiť aplikáciu</td>
             <td><b>Esc</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Reading mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Režim čítania</div></td><td></td>
         </tr>
         <tr>
-            <td>Open top menu</td>
+            <td>Otvoriť vrchné menu</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Open bottom menu</td>
+            <td>Otvoriť spodné menu</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Back/exit application</td>
+            <td>Späť/ukončiť aplikáciu</td>
             <td><b>Esc</b></td>
         </tr>
         <tr>
-            <td>Bookmarks</td>
-            <td><b>Shift + Left</b></td>
+            <td>Záložky</td>
+            <td><b>Shift + vľavo</b></td>
         </tr>
         <tr>
-            <td>Toggle bookmark</td>
-            <td><b>Shift + Right</b></td>
+            <td>Prepínať záložku</td>
+            <td><b>Shift + vpravo</b></td>
         </tr>
         <tr>
-            <td>Dictionary lookup</td>
-            <td><b>Ctrl + D (Alt + D on Kindles)</b></td>
+            <td>Hľadať v slovníku</td>
+            <td><b>Ctrl + D (Alt + D na Kindle)</b></td>
         </tr>
         <tr>
-            <td>Wikipedia lookup</td>
+            <td>Vyhľadávanie na Wikipédii</td>
             <td><b>Ctrl + W</b></td>
         </tr>
         <tr>
-            <td>Fulltext search</td>
+            <td>Hľadanie textu</td>
             <td><b>Ctrl + S</b></td>
         </tr>
         <tr>
-            <td>File search lookup</td>
+            <td>Vyhľadávanie súborov</td>
             <td><b>Ctrl + F</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Links</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Odkazy</div></td><td></td>
         </tr>
             <tr>
-            <td>Select next page link</td>
-            <td><b>Tab</b></td>
+            <td>Vybrať odkaz na ďalšiu stránku</td>
+            <td><b>Karta</b></td>
         </tr>
         <tr>
-            <td>Select previous page link</td>
+            <td>Vybrať odkaz na predchádzajúcu stránku</td>
             <td><b>Shift+Tab</b></td>
         </tr>
         <tr>
-            <td>Open selected page link</td>
+            <td>Otvoriť odkaz na vybranú stránku</td>
             <td><b>Enter</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Image viewer (long-press on image)</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Prehliadač obrázkov (dlhé stlačenie obrázka)</div></td><td></td>
         </tr>
             <tr>
-            <td>Zoom in</td>
+            <td>Priblížiť</td>
             <td><b>Page Down</b></td>
         </tr>
         <tr>
-            <td>Zoom out</td>
+            <td>Oddialiť</td>
             <td><b>Page Up</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Highlighting</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Zvýrazňovanie</div></td><td></td>
         </tr>
         <tr>
-            <td>Enter highlighting mode</td>
+            <td>Prejsť do režimu zvýrazňovania</td>
             <td><b>H</b></td>
         </tr>
         <tr>
-            <td>Start/stop highlighting</td>
+            <td>Spustiť/zastaviť zvýrazňovanie</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Move highlight indicator</td>
-            <td><b>Left/Right<br>Up/Down</b></td>
+            <td>Indikátor presunutia zvýraznenia</td>
+            <td><b>Vľavo/Vpravo<br>Hore/Dole</b></td>
         </tr>
         <tr>
-            <td>Move indicator faster</td>
-            <td><b>Shift +<br>Left/Right/Up/Down</b></td>
+            <td>Rýchlejší pohyb indikátora</td>
+            <td><b>Shift +<br>Doľava/Doprava/Hore/Dole</b></td>
         </tr>
         <tr>
-            <td>Exit highlighting mode</td>
+            <td>Ukončiť režim zvýrazňovania</td>
             <td><b>Esc</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Navigating the book</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Navigácia v knihe</div></td><td></td>
         </tr>
         <tr>
-            <td>Page turn</td>
-            <td><b>Left-Right / Up-Down<br>Page Up-Page Down</b></td>
+            <td>Otáčanie stránok</td>
+            <td><b>Zľava-Doprava / Hore-Dole<br>Page Up-Page Down</b></td>
         </tr>
         <tr>
-            <td>Table of contents</td>
-            <td><b>Shift + Up</b></td>
+            <td>Tabuľka s obsahom knihy</td>
+            <td><b>Shift + hore</b></td>
         </tr>
         <tr>
-            <td>Book map</td>
-            <td><b>Shift + Down</b></td>
+            <td>Knižná mapa</td>
+            <td><b>Shift + dole</b></td>
         </tr>
         <tr>
-            <td>Go to the beginning</td>
+            <td>Prejsť na začiatok</td>
             <td><b>1</b></td>
         </tr>
         <tr>
-            <td>Go to 11% of book</td>
+            <td>Prejsť na 11 % knihy</td>
             <td><b>2</b></td>
         </tr>
         <tr>
-            <td>Go to 22% of book</td>
+            <td>Prejsť na 22 % knihy</td>
             <td><b>3</b></td>
         </tr>
         <tr>
-            <td>Go to 33% of book</td>
+            <td>Prejsť na 33 % knihy</td>
             <td><b>4</b></td>
         </tr>
         <tr>
-            <td>Go to 44% of book</td>
+            <td>Prejsť na 44 % knihy</td>
             <td><b>5</b></td>
         </tr>
         <tr>
-            <td>Go to 55% of book</td>
+            <td>Prejsť na 55 % knihy</td>
             <td><b>6</b></td>
         </tr>
         <tr>
-            <td>Go to 66% of book</td>
+            <td>Prejsť na 66 % knihy</td>
             <td><b>7</b></td>
         </tr>
         <tr>
-            <td>Go to 77% of book</td>
+            <td>Prejsť na 77 % knihy</td>
             <td><b>8</b></td>
         </tr>
         <tr>
-            <td>Go to 88% of book</td>
+            <td>Prejsť na 88 % knihy</td>
             <td><b>9</b></td>
         </tr>
         <tr>
-            <td>Go to the end</td>
+            <td>Prejsť na koniec</td>
             <td><b>0</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">In Skim Document dialog</div></td><td></td>
+            <td><div class="L3-Smaller-heading">V dialógu Prebehnúť dokument</div></td><td></td>
         </tr>
     <tr>
-        <td>Go to the beginning</td>
+        <td>Prejsť na začiatok</td>
         <td><b>Q</b></td>
     </tr>
     <tr>
-        <td>Go to 11% of book</td>
+        <td>Prejsť na 11 % knihy</td>
         <td><b>W</b></td>
     </tr>
     <tr>
-        <td>Go to 22% of book</td>
+        <td>Prejsť na 22 % knihy</td>
         <td><b>E</b></td>
     </tr>
     <tr>
-        <td>Go to 33% of book</td>
+        <td>Prejsť na 33 % knihy</td>
         <td><b>R</b></td>
     </tr>
     <tr>
-        <td>Go to 44% of book</td>
+        <td>Prejsť na 44 % knihy</td>
         <td><b>T</b></td>
     </tr>
     <tr>
-        <td>Go to 55% of book</td>
+        <td>Prejsť na 55 % knihy</td>
         <td><b>Y</b></td>
     </tr>
     <tr>
-        <td>Go to 66% of book</td>
+        <td>Prejsť na 66 % knihy</td>
         <td><b>U</b></td>
     </tr>
     <tr>
-        <td>Go to 77% of book</td>
+        <td>Prejsť na 77 % knihy</td>
         <td><b>I</b></td>
     </tr>
     <tr>
-        <td>Go to 88% of book</td>
+        <td>Prejsť na 88 % knihy</td>
         <td><b>O</b></td>
     </tr>
     <tr>
-        <td>Go to the end</td>
+        <td>Prejsť na koniec</td>
         <td><b>P</b></td>
     </tr>
 
     <tr>
-        <td><div class="L3-Smaller-heading">Page zooming</div><p style="font-size: 0.9rem;">Only for PDF, DJVU and images</p></td><td></td>
+        <td><div class="L3-Smaller-heading">Priblíženie stránky</div><p style="font-size: 0.9rem;">Len pre PDF, DJVU a obrázky</p></td><td></td>
     </tr>
     <tr>
-        <td>Zoom to fit page</td>
+        <td>Zväčšiť na stranu</td>
         <td><b>A</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit page width</td>
+        <td>Zväčšiť na šírku strany</td>
         <td><b>S</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit page height</td>
+        <td>Zväčšiť na výšku strany</td>
         <td><b>D</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content</td>
+        <td>Priblíženie pre prispôsobenie obsahu</td>
         <td><b>Shift + A</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content width</td>
+        <td>Priblížiť na šírku obsahu</td>
         <td><b>Shift + S</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content height</td>
+        <td>Priblížiť na výšku obsahu</td>
         <td><b>Shift + D</b></td>
     </tr>
 </table>
@@ -4697,7 +4697,7 @@ line-height: 2rem;
         <ol>
             <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
             <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
-            <li>Restart KOReader</li>
+            <li>Reštartovať KOReader</li>
         </ol>
 
         
