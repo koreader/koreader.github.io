@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 17:08+0000\n"
-"PO-Revision-Date: 2025-08-14 17:07+0000\n"
+"PO-Revision-Date: 2025-08-14 19:38+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8415,12 +8415,9 @@ msgid ""
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
 msgstr ""
-"Ak nie sú dokumenty takto pomenované, pravdepodobne sa použije nesprávny "
-"nástroj na čítanie/formátovanie a zobrazí sa hlásenie <span "
-"class=\"ui\">Žiadny nástroj na čítanie tohto súboru alebo neplatný súbor</"
-"span>. Tento súbor môžete premenovať, ako je vysvetlené vyššie, alebo dlho "
-"stlačte názov súboru a potom vyberte možnosť <span class=\"ui\">Otvoriť "
-"pomocou...</span>, aby ste vybrali správny nástroj."
+"<span class=\"ui\">BEŽNÁ SITUÁCIA:</span> názov_vášho_súboru<b>.zip</b> - "
+"Predpokladá sa, že ide o zip súbor s obrázkami (a otvára sa pomocou nástroja "
+"<span class=\"ui\">MuPDF</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3288-5
 msgid ""
@@ -8437,8 +8434,8 @@ msgstr "<b>FictionBook</b> – názovVášhoSúboru.<b>fb2.zip</b>"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3292-9
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
 msgstr ""
-"<b>HTML</b> – názovVášhoSúboru.<b>htm.zip</b> / názovVášhoSúboru.<b>html."
-"zip</b>"
+"<b>HTML</b> - názovVášhoSúboru.<b>htm.zip</b> / "
+"názovVášhoSúboru.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3293-9
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
@@ -10296,7 +10293,7 @@ msgstr "Nastaviť intenzitu nasvietenia/podsvietenia displeja"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Rotation"
-msgstr "Nastaviť farebnú teplotu nasvietenia/podsvietenia displeja"
+msgstr "Rotácia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
 msgid "Toggle orientation"
@@ -10444,7 +10441,7 @@ msgstr "Vylepšenie písma"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
 msgid "Toggle flashing on chapter's 2nd page"
-msgstr "Dva stĺpce"
+msgstr "Prepínať prebliknutie na 2. strane kapitoly"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
 msgid "Always flash on pages with images"
@@ -11819,8 +11816,11 @@ msgid ""
 "there is a <span class=\"ui\">Sort</span> item there so you can change the "
 "order of your menu items."
 msgstr ""
-"Túto možnosť môžete povoliť z nasledujúcej ponuky, ak máte Rýchkle menu "
-"<b>založené na Správcovi gest (jednoduchá metóda)</b>:"
+"Po všetkých krokoch by ste teraz mali vidieť svoju ponuku, keď ťuknete na "
+"ľavý dolný roh. Svoju ponuku môžete upraviť tak, že prejdete na jej stránku "
+"<span class=\"ui\">Profilu</span>, kde môžete pridať alebo odstrániť "
+"položky. Je tu tiež položka <span class=\"ui\">Zoradiť</span>, takže môžete "
+"zmeniť poradie položiek ponuky."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4371-9
 msgid ""
@@ -11847,7 +11847,10 @@ msgid ""
 "Normally after selecting an item in your Quick Menu, menu disappears from "
 "the screen. Sometimes you might want to keep the menu open after selecting "
 "an item. This allows you to adjust settings like these examples:"
-msgstr "Otvorenie rýchlej ponuky na pozícii gesta"
+msgstr ""
+"Za normálnych okolností po výbere položky v rýchlom menu, ponuka zmizne z "
+"obrazovky. Niekedy možno budete chcieť ponechať menu otvorené aj po výbere "
+"položky. To vám umožní upraviť nastavenia, ako sú tieto príklady:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4382-13
 msgid ""
@@ -12077,7 +12080,9 @@ msgstr "Existuje mnoho spôsobov, ako aktivovať profil:"
 msgid ""
 "You can activate a profile with a <b>long press</b> on its name from this "
 "same <span class=\"ui\">Profiles</span> menu"
-msgstr "Zobrazením ako <span class=\"ui\">Rýchla ponuka</span>"
+msgstr ""
+"Profil môžete aktivovať <b>dlhým stlačením</b> jeho názvu v tej istej ponuke "
+"<span class=\"ui\">Profilov</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4455-13
 msgid ""
@@ -12462,7 +12467,13 @@ msgid ""
 "menu in the Gesture manager has two more items (Pass through), that is why "
 "<span class=\"ui\">Show as Quick Menu</span> and <span class=\"ui\">Sort</"
 "span> items are on the second page."
-msgstr "Môžete ich povoliť/zakázať pomocou:"
+msgstr ""
+"Pridávanie/odstraňovanie akcií skupiny a aktivácia/triedenie <span class="
+"\"ui\">Rýchlej ponuky</span> sa vykonáva prostredníctvom rovnakej <span "
+"class=\"ui\">ponuky akcií</span>. Jediný rozdiel je v tom, že ponuka akcií v "
+"správcovi gest má ďalšie dve položky (Preskočiť akciu), preto sú položky "
+"<span class=\"ui\">Zobraziť ako rýchle menu</span> a <span class=\"ui\""
+">Zoradiť</span> na druhej stránke."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4567-25
 msgid ""
@@ -12714,19 +12725,18 @@ msgid ""
 "in devices with natural (yellow/orange) light and set Night Mode "
 "automatically according to a schedule"
 msgstr ""
-"<b> SSH </b> – umožňuje prístup k vášmu zariadeniu cez SSH protokol. Môžete "
-"pristupovať cez FTP aplikácie alebo dokonca cez správcu súborov, ak to "
-"podporuje. Návod nájdete na stránke wiki: <a href=\"https://github.com/"
-"koreader/koreader/wiki/SSH\">https://github.com/koreader/koreader/wiki/SSH</"
-"a>"
+"<b> Automatická farebná teplota a nočný režim </b> – Umožňuje vám nastaviť "
+"farebná teplota nasvietenia/podsvietenia displeja v zariadeniach s "
+"prirodzeným (žltým/oranžovým) osvetlením a automaticky nastaviť nočný režim "
+"podľa plánu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4645-9
 msgid ""
 "<b> Auto power save </b> - Puts the device into standby, suspend or power "
 "off after specified periods of inactivity"
 msgstr ""
-"<b> Štatistiky systému </b> – Informácie o CPU/RAM/BATÉRII si môžete pozrieť "
-"prostredníctvom tohto doplnku pod:"
+"<b> Automatické šetrenie energie </b> – Prepne zariadenie do pohotovostného "
+"režimu, spánku alebo ho vypne po zadanej dobe nečinnosti"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4646-9
 msgid ""
@@ -12749,8 +12759,8 @@ msgid ""
 "<b> Background runner </b> - Service to other plugins: Allows tasks to run "
 "regularly in the background."
 msgstr ""
-"<b> Textový editor </b> – Základný textový editor na vytváranie a úpravu "
-"súborov obyčajného textu"
+"<b> Procesy na pozadí </b> – Slúži iným doplnkom: Umožňuje, aby sa úlohy "
+"pravidelne spúšťali na pozadí."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4649-9
 msgid ""
@@ -12839,8 +12849,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4660-9
 msgid "<b> Move to archive </b> - Moves current document to archive folder"
 msgstr ""
-"Aktuálny zoznam <span class=\"ui\">Užívateľských programový záplat</span> "
-"nájdete na súvisiacej stránke wikipédie pre <b>GitHub</b>:"
+"<b> Presunúť do archívu </b> – Presunie aktuálny dokument do archívneho "
+"priečinka"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4661-9
 msgid ""
@@ -12854,7 +12864,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4662-9
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
-msgstr "https://github.com/koreader/koreader/wiki/User-patches"
+msgstr "<b> OPDS </b> – Umožňuje vám sťahovať knihy z online katalógov"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4663-9
 msgid ""
@@ -12873,8 +12883,8 @@ msgid ""
 "<b> Profiles </b> - Allows combining multiple settings to make switchable "
 "profiles"
 msgstr ""
-"a v zozname <b>problémy (issues)</b> pod značkou <span class=\"ui\">Dostupná "
-"užívateľská programová záplata (User patch available)</span>:"
+"<b> Profily </b> – Umožňuje kombinovať viacero nastavení a vytvoriť tak "
+"prepínateľné profily"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4665-9
 msgid ""
@@ -12889,9 +12899,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4667-9
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
-msgstr ""
-"https://github.com/koreader/koreader/issues?"
-"q=+label%3A%22User+patch+available%22"
+msgstr "<b> QR zo schránky </b> – vygeneruje QR kód z obsahu schránky"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4668-9
 msgid ""
@@ -13320,11 +13328,9 @@ msgid ""
 "dialog, which you can access by long-pressing the filename in the <span "
 "class=\"ui\">File Browser</span>."
 msgstr ""
-"<span class=\"external\">Calibre</span> dokáže konvertovať vaše dokumenty "
-"medzi mnohými formátmi. Má tiež vstavaný editor, ktorý vám umožňuje "
-"upravovať e-knihy (a opravovať problémy) v najpopulárnejších formátoch e-"
-"kníh, EPUB a Kindle. <a href=\"https://calibre-ebook.com/\">https://calibre-"
-"ebook.com/</a>"
+"Obal knihy môžete obnoviť aj pomocou dialógového okna <span class=\"ui\""
+">Obnoviť</span>, ku ktorému sa dostanete dlhým stlačením názvu súboru v "
+"<span class=\"ui\">Prehliadači súborov</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4770-5
 msgid ""
@@ -14300,11 +14306,9 @@ msgid ""
 "Android system restrictions. If you want to change your screenshot saving "
 "location, be careful to choose your device’s internal storage."
 msgstr ""
-"KOReader si uchováva vyrovnávaciu pamäť obalov vašich kníh, aby ich bolo "
-"možné rýchlejšie zobraziť. Za normálnych okolností nie je táto vyrovnávacia "
-"pamäť príliš veľká. Ak odstránite veľa kníh alebo premenujete adresáre, "
-"možno budete chcieť vyčistiť databázu vyrovnávacej pamäte obalov kníh, aby "
-"ste získali späť nejaké miesto. Môžete to urobiť z tohto menu:"
+"Na zariadeniach s Androidom nemôže KOReader zapisovať do externého úložiska "
+"z dôvodu obmedzení systému Android. Ak chcete zmeniť miesto uloženia pre "
+"snímky obrazovky, dbajte na výber interného úložiska zariadenia."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5037-1
 msgid "Ghosting and residue when turning pages"
