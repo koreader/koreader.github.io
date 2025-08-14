@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 15:21+0000\n"
-"PO-Revision-Date: 2025-08-14 15:20+0000\n"
+"PO-Revision-Date: 2025-08-14 15:46+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13943,7 +13943,6 @@ msgstr ""
 "span> v závislosti od vášho dokumentu."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4935-13
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:22px;\"> / Render Quality"
@@ -14192,6 +14191,15 @@ msgid ""
 "and instructions from this <a href=\"https://www.mobileread.com/forums/"
 "showthread.php?t=267998\">Mobileread forum page</a>."
 msgstr ""
+"Ak otvárate správu o tomto probléme, je dôležité, aby sme skontrolovali "
+"problematický súbor. Súbor môžete zdieľať priamo jeho presunutím myšou do "
+"správy na GitHube po jeho skomprimovaní ako súbor ZIP. Ak je vaša kniha vo "
+"formáte EPUB a nechcete súbor zdieľať z dôvodu autorských práv alebo "
+"problémov s ochranou súkromia, existuje doplnok pre <span class=\"external\""
+">Calibre</span> s názvom <span class=\"external\">ScrambleEbook</span>, "
+"pomocou ktorý si môžete stiahnuť a nájsť pokyny na tejto <a href="
+"\"https://www.mobileread.com/forums/showthread.php?t=267998\">stránke fóra "
+"Mobileread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4999-5
 msgid ""
@@ -14201,16 +14209,25 @@ msgid ""
 "the book will not be readable and there won’t be any copyright violation</b> "
 "but we can still use this file for diagnostic purposes."
 msgstr ""
+"Tento doplnok prečíta súbor elektronickej knihy bez ochrany DRM (EPUB/KEPUB/"
+"AZW3) a vytvorí kópiu knihy s <b>jej textom nahradeným náhodnými znakmi</b>. "
+"Túto kódovanú verziu s nami môžete zdieľať vo svojom vlákne nahláseného "
+"problému. <b>Text knihy nebude čitateľný a nedôjde k žiadnemu porušeniu "
+"autorských práv</b>, ale stále môžeme tento súbor použiť na diagnostické "
+"účely."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5001-5
 msgid ""
 "You can see this procedure in a real issue involving a very problematic EPUB "
 "file <a href=\"https://github.com/koreader/koreader/issues/11465\">here</a>."
 msgstr ""
+"Tento postup si môžete pozrieť na reálnom príklade týkajúcom sa veľmi "
+"problematického súboru EPUB <a href="
+"\"https://github.com/koreader/koreader/issues/11465\">tu</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5005-5
 msgid "I see small numbers on the side when reading a book"
-msgstr ""
+msgstr "Pri čítaní knihy vidím malé čísla na boku"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5006-5
 msgid ""
@@ -14219,20 +14236,29 @@ msgid ""
 "information please click here <a href=\"#L2-readingscreen\">Reading Screen</"
 "a> to go to the relevant section."
 msgstr ""
+"Tieto malé čísla sa nazývajú <b>čísla referenčných strán</b>. Skrátka, sú to "
+"skutočné čísla strán z tlačenej verzie vašej knihy. Pre viac informácií "
+"kliknite sem <a href=\"#L2-readingscreen\">Obrazovka na čítanie</a> a "
+"prejdite do príslušnej sekcie."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5010-1
 msgid "My status bar disappeared"
-msgstr ""
+msgstr "Môj stavový riadok zmizol"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5012-5
 msgid ""
 "Probably you tapped on the <span class=\"ui\">STATUS BAR</span> touch zone "
 "at the bottom of the screen. You can bring it back by tapping the same zone."
 msgstr ""
+"Pravdepodobne ste ťukli na dotykovú zónu <span class=\"ui\">STAVOVEJ LIŠTY</"
+"span> v spodnej časti obrazovky. Môžete to vrátiť späť ťuknutím na rovnakú "
+"zónu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5018-1
 msgid "Sometimes my taps are registered as a long tap or double taps"
 msgstr ""
+"Niekedy sú moje ťuknutia registrované ako dlhé stlačenie alebo dvojité "
+"ťuknutia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5019-5
 msgid ""
@@ -14241,16 +14267,18 @@ msgid ""
 "interval</span>. By increasing this interval, you tell KOReader to ignore "
 "quick taps at the same location."
 msgstr ""
+"Môže sa to stať v prípadoch, ako sú trasenie rúk alebo problémy s dotykovou "
+"obrazovkou zariadenia. Ak máte tento problém, môžete skúsiť predĺžiť <span "
+"class=\"ui\">Interval ťuknutia</span>. Zvýšením tohto intervalu určíte "
+"KOReaderu, aby ignoroval rýchle ťuknutia na rovnakom mieste."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5021-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Gesture intervals / Tap interval"
 msgstr ""
-"<span class=\"label_green\">TIP</span> Do rovnakej časti textu môžete pridať "
-"viacero zvýraznení a poznámok. Ak sa prekrývajú, po ťuknutí na zvýraznenie "
-"sa vám zobrazí ponuka na výber zvýraznenia, ktoré chcete upraviť."
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ťuknutia a gestá / Intervaly gest / Interval ťuknutia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5023-5
 msgid ""
@@ -14258,6 +14286,9 @@ msgid ""
 "apply. So you can still quickly browse pages by tapping quickly "
 "alternatively with two fingers."
 msgstr ""
+"Ak sú vaše dve po sebe nasledujúce ťuknutia časovo vzdialené, nebude to "
+"platiť. Takže stále môžete rýchlo prehľadávať stránky rýchlym ťukaním "
+"striedavo dvoma prstami."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5029-1
 msgid "KOReader can't write to the SD card"
@@ -14277,7 +14308,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5037-1
 msgid "Ghosting and residue when turning pages"
-msgstr ""
+msgstr "Duchovia a obrazové zbytky pri otáčaní stránok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5039-9
 msgid ""
@@ -14289,13 +14320,20 @@ msgid ""
 "to get rid of these artifacts if they bother you (<span class=\"ui\">short "
 "diagonal swipe</span> gesture by default)."
 msgstr ""
+"Aj keď je KOReader nastavený na <b>úplná obnova displeja po každej stránke</"
+"b>, po otočení stránok môžete stále vidieť nejaké duchovia/obrazové zbytky. "
+"Toto je obmedzenie technológie e-ink obrazoviek a možno to pozorovať aj na "
+"zariadeniach najnovšej generácie, najmä pri čítaní dokumentov so zmiešaným "
+"obsahom (text + obrázky). Ako riešenie môžete po otočení stránky manuálne "
+"obnoviť stránku, aby ste sa zbavili týchto artefaktov, ak vás obťažujú (v "
+"predvolenom nastavení gesto <span class=\"ui\">krátke diagonálne potiahnutie "
+"prstom</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5041-5
 msgid "Sleep cover problems"
 msgstr "Vyčistenie vyrovnávacej pamäte súborov"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
-#, fuzzy
 msgid ""
 "Sleep covers generally use a magnet embedded in the cover which enables wake "
 "up and sleep events via triggering a sensor in your device. This sensor can "
@@ -14304,25 +14342,25 @@ msgid ""
 "problematic. If you are having problems with your device waking up because "
 "of your cover, you can disable this feature via this menu:"
 msgstr ""
-"Keď čítate dokument <b>PDF/DJVU</b>, KOReader uchováva vo vyrovnávacej "
-"pamäti poslednú prečítanú stránku. Keď teda knihu znova otvoríte, bude to "
-"rýchlejšie. Tieto súbory vyrovnávacej pamäte sú uložené vo vašom inštalačnom "
-"adresári KOReadera v <b>priečinku vyrovnávacej pamäte (cache)</b>. Ak chcete "
-"vymazať túto vyrovnávaciu pamäť a získať späť voľné miesto, prejdite na:"
+"Kryty na uspatie zvyčajne používajú magnet zabudovaný v kryte, ktorý "
+"umožňuje spustenie udalosti prebudenia a spánku senzorom vo vašom zariadení. "
+"Tento senzor sa niekedy označuje ako <b>Hallov senzor</b> alebo <b>senzor s "
+"Hallovým efektom</b>. V niektorých prípadoch, ako napríklad pri nesprávne "
+"zarovnaných alebo slabých magnetoch, môže byť toto spustenie problematické. "
+"Ak máte problémy s prebúdzaním zariadenia kvôli krytu, môžete túto funkciu "
+"vypnúť v tejto ponuke:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5044-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Ignore all sleep cover events"
 msgstr ""
-"⇑ VRCHNÉ MENU (v prehliadači súborov) → <img class=\"img_inline\" "
-"src=\"pictures/top_tools.svg\" style=\"width:26px;\"> → Ďalšie nástroje → "
-"Možnosti vývojára → Vymazať vyrovnávaciu pamäť"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Zariadenie / Ignorovať všetky udalosti krytu spánku"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5050-1
 msgid "Text indentation problems"
-msgstr ""
+msgstr "Problémy s odsadzovaním textu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5052-5
 msgid ""
@@ -14333,18 +14371,20 @@ msgid ""
 "be read on <b>web browser engine based</b> readers, so they don't bother "
 "\"resetting\" the styles."
 msgstr ""
+"Ak máte nesprávne zarovnané nadpisy, záhlavia alebo oddeľovače alebo "
+"nečakané odsadenie textu, skúste zmeniť štýl dokumentu. <span class=\"ui\""
+">epub.css</span> na <span class=\"ui\">html5.css</span>. Tento druh "
+"problémov sa vyskytuje, pretože niektorí vydavatelia predpokladajú, že ich "
+"knihy sa budú čítať iba na čítačkách <b>založených na funkciách webového "
+"prehliadača</b>, takže sa neobťažujú „resetovaním“ štýlov."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5054-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:24px;\"> / Style"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:24px;\"> / Štýl"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5058-9
 msgid ""
@@ -14352,6 +14392,10 @@ msgid ""
 "stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better "
 "for unstyled books, and might make styled books more readable."
 msgstr ""
+"<span class=\"ui\">HTML/EPUB (epub.css)</span> je naša predvolená šablóna "
+"orientovaná na knihu so štýlmi <b>text-align: justify, text-indent on P</b>. "
+"Je to lepšie pre knihy bez štýlu a môže to urobiť štylizované knihy "
+"čitateľnejšie."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5060-9
 msgid ""
@@ -14361,10 +14405,15 @@ msgid ""
 "indent on P, spacing between P</b>. But it doesn’t look pretty when "
 "publishers haven’t done any styling."
 msgstr ""
+"Ak má vaša kniha problémy s odsadením, ako je uvedené vyššie, môžete skúsiť "
+"prepnúť na <span class=\"ui\">HTML5 (html5.css)</span>. Tento štýl poskytuje "
+"základnú šablónu so štýlmi, ako to robia webové prehliadače pri vykresľovaní:"
+" <b>text-align: left, no text-indent on P, spacing between P</b>. Ale "
+"nevyzerá to pekne, keď vydavatelia nevložili žiadny štýl."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5068-1
 msgid "Cleaning your book cover cache database"
-msgstr ""
+msgstr "\"Vyčistenie\" databázy vyrovnávacej pamäte obalov kníh"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5070-5
 msgid ""
@@ -14373,21 +14422,26 @@ msgid ""
 "books or rename directories, you may want to clean up your book cover cache "
 "database to reclaim some space. You can do it from this menu:"
 msgstr ""
+"KOReader si uchováva vyrovnávaciu pamäť obalov vašich kníh, aby ich bolo "
+"možné rýchlejšie zobraziť. Za normálnych okolností nie je táto vyrovnávacia "
+"pamäť príliš veľká. Ak odstránite veľa kníh alebo premenujete adresáre, "
+"možno budete chcieť vyčistiť databázu vyrovnávacej pamäte obalov kníh, aby "
+"ste získali späť nejaké miesto. Môžete to urobiť z tohto menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5072-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings / Book info cache management"
 msgstr ""
-"⇑ VRCHNÉ MENU (v Prehliadači súborov) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → Nastavenia → "
-"Nastavenia mozaiky a podrobného zoznamu"
+"VRCHNÉ MENU (v prehliadači súborov) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Nastavenia / "
+"Nastavenia mozaiky a podrobného zoznamu / Správa vyrovnávacej pamäte "
+"informácií o knihe"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5078-1
 msgid "Clearing file cache"
-msgstr ""
+msgstr "Vyčistenie vyrovnávacej pamäte súborov"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5079-5
 msgid ""
@@ -14398,17 +14452,21 @@ msgid ""
 "KOReader installation directory under the <b>cache folder</b>. To clear this "
 "cache and reclaim the space you can go to:"
 msgstr ""
+"Keď čítate dokument <b>PDF/DJVU</b>, KOReader uchováva vo vyrovnávacej "
+"pamäti poslednú prečítanú stránku. Keď teda knihu znova otvoríte, bude to "
+"rýchlejšie. Tieto súbory vyrovnávacej pamäte sú uložené vo vašom inštalačnom "
+"adresári KOReadera v <b>priečinku vyrovnávacej pamäte (cache)</b>. Ak chcete "
+"vymazať túto vyrovnávaciu pamäť a získať späť voľné miesto, prejdite na:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5081-5
-#, fuzzy
 msgid ""
 "TOP MENU (in file browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / More tools / Developer options / "
 "Clear caches"
 msgstr ""
-"⇑ VRCHNÉ MENU (v Prehliadači súborov) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → Nastavenia → "
-"Nastavenia mozaiky a podrobného zoznamu"
+"VRCHNÉ MENU (v prehliadači súborov) / <img class=\"img_inline\" src="
+"\"pictures/top_tools.svg\" style=\"width:22px;\"> / Ďalšie nástroje / "
+"Možnosti pre vývojárov / Vymazať vyrovnávaciu pamäť"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5083-5
 msgid ""
@@ -14417,11 +14475,15 @@ msgid ""
 "will not provide any benefit. Instead, it will degrade the performance "
 "because your reader will have to render those pages again."
 msgstr ""
+"<span class=\"label_red\">UPOZORNENIE</span> Vymažte túto vyrovnávaciu pamäť "
+"<b>iba ak skutočne potrebujete uvoľniť miesto</b>. Ak máte dostatok miesta, "
+"vymazanie vyrovnávacej pamäte neprinesie žiadnu výhodu. Namiesto toho to "
+"zníži výkon, pretože vaša čítačka bude musieť tieto stránky vykresliť znova."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5091-1
 msgctxt "user_guide/en.html+html.body.div.div:5091-1"
 msgid "REACH US"
-msgstr ""
+msgstr "KONTAKTUJTE NÁS"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5093-9
 msgid ""
@@ -14430,6 +14492,11 @@ msgid ""
 "GitHub account which is free. Click this link to open our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub Issues</a> page."
 msgstr ""
+"KOReader používa ako projektovú základňu <span class=\"external\">GitHub</"
+"span>. Problémy alebo návrhy môžete nahlásiť na našej stránke GitHub. "
+"Potrebujete iba účet GitHub, ktorý je zadarmo. Kliknutím na tento odkaz "
+"otvoríte našu GitHub stránku s <a href="
+"\"https://github.com/koreader/koreader/issues\">problémami</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5100-9
 msgid ""
@@ -14438,42 +14505,52 @@ msgid ""
 "existing issue about the same topic. You can also check other opened issues "
 "to have an idea about the process."
 msgstr ""
+"Na stránke <b>Problémy (Issues)</b> kliknite na tlačidlo <b>Nový problém ("
+"New Issue)</b>. Predtým však odporúčame použiť vyhľadávací panel, aby ste "
+"zistili, či už existuje problém s rovnakou témou. Môžete tiež skontrolovať "
+"ďalšie otvorené problémy, aby ste mali základnú predstavu o procese "
+"nahlasovania problémov."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5102-9
 msgid ""
 "When you click the <b>New Issue</b> button you will be presented with two "
 "options:"
 msgstr ""
+"Po kliknutí na tlačidlo <b>Nový problém (New Issue)</b> sa vám zobrazia dve "
+"možnosti:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5106-9
 msgid ""
 "Click the appropriate one and follow the instructions on the page to report "
 "your problem or suggestion."
 msgstr ""
+"Kliknite na príslušnú položku a podľa pokynov na stránke nahláste váš "
+"problém alebo návrh."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5108-9
 msgid ""
 "If you are reporting a bug, <b>verbose debug logs</b> are very helpful to "
 "determine the problem. You can enable them via:"
 msgstr ""
+"Ak nahlasujete chybu, <b>podrobné protokoly ladenia</b> sú veľmi užitočné "
+"pri určovaní problému. Môžete ich povoliť prostredníctvom:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5110-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Report a bug / Enable verbose logging"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Pomocník / Nahlásiť chybu / Povoliť podrobné "
+"protokolovanie"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5112-9
 msgid ""
 "You can also find the version number of your KOReader and your device type "
 "from the same dialog for reporting."
 msgstr ""
+"V tom istom dialógovom okne pre nahlasovanie môžete tiež nájsť číslo verzie "
+"vášho KOReadera a typ vášho zariadenia."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5114-9
 msgid ""
@@ -14481,27 +14558,38 @@ msgid ""
 "can write to the <a href=\"https://github.com/koreader/koreader/"
 "issues/11147\">GitHub discussion thread</a>"
 msgstr ""
+"Ak máte návrh alebo otázku týkajúcu sa tejto <b>Používateľskej príručky</b>, "
+"môžete napísať do <a href="
+"\"https://github.com/koreader/koreader/issues/11147\">diskusného vlákna "
+"GitHub</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5118-1
 msgid "You can also . . ."
-msgstr ""
+msgstr "Môžete tiež. . ."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5123-3
 msgid ""
 "Find other KOReader users on <a href=\"https://www.mobileread.com/forums/"
 "forumdisplay.php?f=276\">MobileRead forums</a>"
 msgstr ""
+"Nájsť ďalších používateľov KOReaderu na <a href="
+"\"https://www.mobileread.com/forums/forumdisplay.php?f=276\">fórach "
+"MobileRead</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5130-3
 msgid ""
 "Reach us at <a href=\"https://gitter.im/koreader/koreader\">Gitter chat</a>"
 msgstr ""
+"Kontaktujte nás na <a href=\"https://gitter.im/koreader/koreader\">Gitter "
+"čete</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5135-3
 msgid ""
 "Support the project via <a href=\"https://liberapay.com/"
 "KOReader\">Liberapay</a>"
 msgstr ""
+"Podporiť projekt prostredníctvom služby <a href="
+"\"https://liberapay.com/KOReader\">Liberapay</a>"
 
 #, fuzzy
 #~ msgctxt "user_guide/en.html+html.body.div.div:2479-9"
