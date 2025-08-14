@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 15:04+0000\n"
-"PO-Revision-Date: 2025-08-14 15:05+0000\n"
+"PO-Revision-Date: 2025-08-14 15:08+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/user-"
-"guide/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
+"user-guide/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13758,10 +13758,15 @@ msgid ""
 "installation. Open source applications like <b>Shelter</b> and <b>Island</b> "
 "can help you with this."
 msgstr ""
+"<span class=\"label_green\">TIP</span> Ak používate KOReader na zariadení so "
+"systémom Android, môžete použiť funkciu <b>Pracovný profil</b> v operačnom "
+"systéme Android na otestovanie nočných verzií bez ovplyvnenia hlavnej "
+"inštalácie KOReaderu. S tým vám môžu pomôcť aplikácie s otvoreným zdrojovým "
+"kódom ako <b>Shelter</b> a <b>Island</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4887-3
 msgid "Backup your KOReader settings"
-msgstr ""
+msgstr "Zálohujte si nastavenia KOReadera"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4888-9
 msgid ""
@@ -13770,48 +13775,54 @@ msgid ""
 "installation directory. Then you can overwrite them after a clean "
 "installation to restore your settings:"
 msgstr ""
+"V ojedinelých prípadoch, keď chcete zálohovať a obnoviť svoj KOReader so "
+"všetkými vašimi nastaveniami, môžete zálohovať tieto priečinky a súbory v "
+"inštalačnom adresári KOReadera. Potom ich môžete prepísať po čistej "
+"inštalácii, aby ste obnovili svoje nastavenia:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4891-9
 msgid "Folders:"
-msgstr ""
+msgstr "Priečinky:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4894-9
 msgid "settings"
-msgstr ""
+msgstr "nastavenia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4895-9
 msgid "styletweaks"
-msgstr ""
+msgstr "vylepšenia štýlu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4899-9
 msgid "Files:"
-msgstr ""
+msgstr "Súbory:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4902-17
 msgid "data/cr3.ini"
-msgstr ""
+msgstr "data/cr3.ini"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4903-17
 msgid "defaults.persistent.lua"
-msgstr ""
+msgstr "defaults.persistent.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4904-17
 msgid "history.lua"
-msgstr ""
+msgstr "history.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4905-17
 msgid "settings.reader.lua"
-msgstr ""
+msgstr "settings.reader.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4906-17
 msgid "settings/profiles.lua"
-msgstr ""
+msgstr "settings/profiles.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4907-17
 msgid ""
 "Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if "
 "they exist)</b>"
 msgstr ""
+"Súbory v adresároch <b>data/dict/</b> a <b>/data/tessdata/</b> <b>(ak "
+"existujú)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4912-5
 msgid ""
@@ -13820,6 +13831,10 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
+"<span class=\"label_blue\">INFORMÁCIA</span> Vaše individuálne nastavenia a "
+"zvýraznenia knihy sú uložené v rovnakom adresári ako vaše knihy v priečinku "
+"s <b>rovnakým názvom ako vaša kniha</b>. Ak chcete, môžete tieto priečinky "
+"zálohovať samostatne."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4916-1
 msgid "My Progress Sync doesn't synchronize my progress"
