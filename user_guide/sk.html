@@ -3273,13 +3273,13 @@ line-height: 2rem;
 
     <p>Súbor ZIP môže obsahovať mnoho typov dokumentov, ako napríklad html, txt alebo obrázky. KOReader dokáže váš súbor ZIP správne otvoriť, <b>iba ak mu poskytnete nápovedu pre typ súboru v archíve ZIP</b>. Ak súboru priradíte iba príponu <b>.zip</b>, KOReader bude predpokladať, že tento archív obsahuje obrázky a pokúsi sa ho otvoriť ako súbor <b>CBZ</b>.</p>
 
-    <p>Ak nie sú dokumenty takto pomenované, pravdepodobne sa použije nesprávny nástroj na čítanie/formátovanie a zobrazí sa hlásenie <span class="ui">Žiadny nástroj na čítanie tohto súboru alebo neplatný súbor</span>. Tento súbor môžete premenovať, ako je vysvetlené vyššie, alebo dlho stlačte názov súboru a potom vyberte možnosť <span class="ui">Otvoriť pomocou...</span>, aby ste vybrali správny nástroj.</p>
+    <p><span class="ui">BEŽNÁ SITUÁCIA:</span> názov_vášho_súboru<b>.zip</b> - Predpokladá sa, že ide o zip súbor s obrázkami (a otvára sa pomocou nástroja <span class="ui">MuPDF</span>)</p>
 
     <p>Ak váš súbor zip obsahuje jeden z týchto typov (namiesto obrázkov), pomenujte ho podľa toho:</p>
 
     <ul>
         <li><b>FictionBook</b> – názovVášhoSúboru.<b>fb2.zip</b></li>
-        <li><b>HTML</b> – názovVášhoSúboru.<b>htm.zip</b> / názovVášhoSúboru.<b>html.zip</b></li>
+        <li><b>HTML</b> - názovVášhoSúboru.<b>htm.zip</b> / názovVášhoSúboru.<b>html.zip</b></li>
         <li><b>Textové protokolové súbory</b> – názovVášhoSúboru.<b>log.zip</b></li>
         <li><b>Markdown</b> – názovVášhoSúboru.<b>md.zip</b></li>
         <li><b>Formát RTF</b> – názovVášhoSúboru.<b>rtf.zip</b></li>
@@ -3817,7 +3817,7 @@ line-height: 2rem;
                 <li>Zobraziť dialógové okno pre nasvietenie/podsvietenie displeja</li>
                 <li>Prepínať nasvietenie/podsvietenie displeja</li>
                 <li>Nastaviť intenzitu nasvietenia/podsvietenia displeja</li>
-                <li>Nastaviť farebnú teplotu nasvietenia/podsvietenia displeja</li>
+                <li>Rotácia</li>
                 <li>Zvýšiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Znížiť farebnú teplotu nasvietenia/podsvietenia displeja</li>
                 <li>Prepínať nočný režim</li>
@@ -3862,7 +3862,7 @@ line-height: 2rem;
                 <li>Šírka písma</li>
                 <li>Kvalita zobrazenia písma</li>
                 <li>Vylepšenie písma</li>
-                <li>Dva stĺpce</li>
+                <li>Prepínať prebliknutie na 2. strane kapitoly</li>
                 <li>Ľavý / pravý okraj</li>
                 <li>Zjednotiť vrchný / spodný okraj</li>
                 <li>Vrchný okraj</li>
@@ -4355,7 +4355,7 @@ line-height: 2rem;
 
         <p><b>2.</b> Teraz potrebujeme spôsob, ako sa dostať do nášho menu. Prejdite do <span class="ui">Správcu gest</span> a vyberte gesto zo zoznamu, ktoré chcete priradiť k našej ponuke. Povedzme, že chceme ťuknutím na roh obrazovky zobraziť ponuku. Teraz ťuknite na <span class="ui">Ťuknutie na roh</span> a potom vyberte možnosť <span class="ui">Vľavo dole</span>. Teraz ťuknite na <span class="ui">Všeobecné</span> a prejdite na druhú stránku. Váš profil nájdete ako <span class="ui">Profil X</span>, kde X je meno, ktoré ste dali tomuto <span class="ui">Profilu</span>. Ťuknutím na jeho začiarkavacie políčko priradíte tomuto gestu svoj profil.</p>
 
-        <p>Túto možnosť môžete povoliť z nasledujúcej ponuky, ak máte Rýchkle menu <b>založené na Správcovi gest (jednoduchá metóda)</b>:</p>
+        <p>Po všetkých krokoch by ste teraz mali vidieť svoju ponuku, keď ťuknete na ľavý dolný roh. Svoju ponuku môžete upraviť tak, že prejdete na jej stránku <span class="ui">Profilu</span>, kde môžete pridať alebo odstrániť položky. Je tu tiež položka <span class="ui">Zoradiť</span>, takže môžete zmeniť poradie položiek ponuky.</p>
 
         <p> Ako sme už povedali, <span class="ui">Rýchla ponuka</span> je v skutočnosti <span class="ui">Profil</span>. To znamená, že môžete mať viac ako jedno menu. Môžete si vytvoriť ďalší <span class="ui">Profil</span> a podľa rovnakých krokov vytvoriť ďalšie menu, ak chcete.</p>
 
@@ -4365,7 +4365,7 @@ line-height: 2rem;
 <div class="L3-Smaller-heading">Ponechanie otvoreného menu po použití</div>
     
         <p>
-        Otvorenie rýchlej ponuky na pozícii gesta</p>
+        Za normálnych okolností po výbere položky v rýchlom menu, ponuka zmizne z obrazovky. Niekedy možno budete chcieť ponechať menu otvorené aj po výbere položky. To vám umožní upraviť nastavenia, ako sú tieto príklady:</p>
         
         <ul>
             <li>
@@ -4440,7 +4440,7 @@ line-height: 2rem;
         <p>Existuje mnoho spôsobov, ako aktivovať profil:</p>
 
         <ol>
-            <li>Zobrazením ako <span class="ui">Rýchla ponuka</span></li>
+            <li>Profil môžete aktivovať <b>dlhým stlačením</b> jeho názvu v tej istej ponuke <span class="ui">Profilov</span></li>
             <li>Profil môžete aktivovať gestom. Ak to chcete urobiť, musíte v ponuke profilu povoliť možnosť <span class="ui">Zobraziť v zozname akcií</span>. Teraz si ho môžete vybrať cez:
 
             <div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Ťuknutia a gestá / Správca gest / „ĽUBOVOĽNÉ GESTO“ / Všeobecné / Profil „názov vášho profilu“</div>
@@ -4550,7 +4550,7 @@ line-height: 2rem;
             <li>Zobrazením ako <span class="ui">Rýchla ponuka</span></li>
         </ol>
         
-        <p>Môžete ich povoliť/zakázať pomocou:</p>
+        <p>Pridávanie/odstraňovanie akcií skupiny a aktivácia/triedenie <span class="ui">Rýchlej ponuky</span> sa vykonáva prostredníctvom rovnakej <span class="ui">ponuky akcií</span>. Jediný rozdiel je v tom, že ponuka akcií v správcovi gest má ďalšie dve položky (Preskočiť akciu), preto sú položky <span class="ui">Zobraziť ako rýchle menu</span> a <span class="ui">Zoradiť</span> na druhej stránke.</p>
 
 
         <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFORMÁCIA</span> Svoje profily si môžete zálohovať a preniesť do iného zariadenia. Prečítajte si časť <a href="#backup">Zálohovanie nastavení KOReadera</a>.</p></div>
@@ -4630,11 +4630,11 @@ line-height: 2rem;
         <div class="L2-Sub-heading" id="L2-pluginslist">Zoznam interných doplnkov</div>
 
         <p>	<b> Štatistiky čítania </b> – Vypočítava štatistiky relácií čítania a rýchlosť čítania na použitie v odhadoch zostávajúceho času do konca kapitoly/knihy	</p>
-        <p>	<b> SSH </b> – umožňuje prístup k vášmu zariadeniu cez SSH protokol. Môžete pristupovať cez FTP aplikácie alebo dokonca cez správcu súborov, ak to podporuje. Návod nájdete na stránke wiki: <a href="https://github.com/koreader/koreader/wiki/SSH">https://github.com/koreader/koreader/wiki/SSH</a>	</p>
-        <p>	<b> Štatistiky systému </b> – Informácie o CPU/RAM/BATÉRII si môžete pozrieť prostredníctvom tohto doplnku pod:	</p>
+        <p>	<b> Automatická farebná teplota a nočný režim </b> – Umožňuje vám nastaviť farebná teplota nasvietenia/podsvietenia displeja v zariadeniach s prirodzeným (žltým/oranžovým) osvetlením a automaticky nastaviť nočný režim podľa plánu	</p>
+        <p>	<b> Automatické šetrenie energie </b> – Prepne zariadenie do pohotovostného režimu, spánku alebo ho vypne po zadanej dobe nečinnosti	</p>
         <p>	<b> Automatické uspatie </b> – Uspatie zariadenia po zvolenej dobe nečinnosti (k dispozícii na všetkých zariadeniach s elektronickým atramentom okrem OS Android)	</p>
         <p>	<b> Emulátor terminálu </b> – Spustí shell (príkazový riadok) na vašom zariadení, ktorý dokáže spúšťať čisto terminálové aplikácie	</p>
-        <p>	<b> Textový editor </b> – Základný textový editor na vytváranie a úpravu súborov obyčajného textu	</p>
+        <p>	<b> Procesy na pozadí </b> – Slúži iným doplnkom: Umožňuje, aby sa úlohy pravidelne spúšťali na pozadí.	</p>
         <p>	<b> Synchronizácia času </b> – synchronizuje čas zariadenia so servermi NTP	</p>
         <p>	<b> Vylepšiť nastavenia dokumentu </b> – Umožňuje upraviť nastavenia dokumentu pred jeho načítaním na základe vonkajších faktorov	</p>
         <p>	<b> Calibre </b> - Dokumenty z knižnice Calibre môžete posielať priamo do zariadení KOReader prostredníctvom pripojenia WiFi. Návod nájdete na našej <a href="https://github.com/koreader/koreader/wiki/calibre">wiki stránke</a>.</p>
@@ -4646,14 +4646,14 @@ line-height: 2rem;
 		<p><b>HTTP Inspector</b> – Umožňuje vám ovládať vaše zariadenie z iného zariadenia cez Wi-Fi – <b>Viac informácií nájdete nižšie</b></p>
         <p>	<b> Podpora japončiny </b> – Podpora japončiny pre KOReader, ktorá rozširuje vstavaný slovník a systém výberu	</p>
         <p>	<b> Udržiavať spojenie </b> – Udržuje zariadenie v aktívnom stave, aby sa zabránilo automatickému odpojeniu WiFi siete	</p>
-        <p>	Aktuálny zoznam <span class="ui">Užívateľských programový záplat</span> nájdete na súvisiacej stránke wikipédie pre <b>GitHub</b>:	</p>
+        <p>	<b> Presunúť do archívu </b> – Presunie aktuálny dokument do archívneho priečinka	</p>
         <p>	<b> Sťahovač správ </b> - Načítava spravodajské položky RSS a Atom a ukladá ich ako súbory HTML. Návod nájdete na našej <a href="https://github.com/koreader/koreader/wiki/News-downloader">wiki stránke</a>.</p>
-        <p>	https://github.com/koreader/koreader/wiki/User-patches	</p>
+        <p>	<b> OPDS </b> – Umožňuje vám sťahovať knihy z online katalógov	</p>
         <p>	<b> Rozšírenie vnímania </b> – Umožňuje rýchlejšie čítanie pomocou periférneho videnia. Pozrite si toto video YouTube a zistite, ako to funguje: <a href="https://youtu.be/jeOHqI9SqOI?t=137">Ako strojnásobiť rýchlosť čítania za 20 minút (Tim Ferriss)</a>	</p>
-        <p>	a v zozname <b>problémy (issues)</b> pod značkou <span class="ui">Dostupná užívateľská programová záplata (User patch available)</span>:	</p>
+        <p>	<b> Profily </b> – Umožňuje kombinovať viacero nastavení a vytvoriť tak prepínateľné profily	</p>
         <p>	<b> Synchronizácia priebehu čítania</b> - Synchronizujte svoj priebeh čítania na rôznych zariadeniach KOReader. Návod nájdete na našej <a href="https://github.com/koreader/koreader/wiki/Progress-sync">wiki stránke</a>.
         </p>
-        <p>	https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22	</p>
+        <p>	<b> QR zo schránky </b> – vygeneruje QR kód z obsahu schránky	</p>
         <p>	<b> Časovač čítania </b> – Časovač odpočítavania na zobrazenie správy po používateľom definovanom čase	</p>
         <p>	<b> Štatistiky čítania </b> - Vypočítava štatistiky relácií čítania a rýchlosť čítania na použitie v odhadoch zostávajúceho času do konca kapitoly/knihy	</p>
         <p>	<b> SSH </b> - Umožňuje prístup k vášmu zariadeniu cez SSH protokol. Môžete pristupovať cez FTP aplikácie alebo dokonca cez správcu súborov, ak to podporuje. Pozrite si našu <a href="https://github.com/koreader/koreader/wiki/SSH">wiki stránku</a>, kde nájdete návod.</p>
@@ -4754,7 +4754,7 @@ line-height: 2rem;
 
     <p>Na stránke s informáciami o knihe dlho stlačte položku <span class="ui">Obrázok na obálke</span> a potom vyberte možnosť <span class="ui">Odstrániť vlastný</span>.</p>
 
-    <p><span class="external">Calibre</span> dokáže konvertovať vaše dokumenty medzi mnohými formátmi. Má tiež vstavaný editor, ktorý vám umožňuje upravovať e-knihy (a opravovať problémy) v najpopulárnejších formátoch e-kníh, EPUB a Kindle. <a href="https://calibre-ebook.com/">https://calibre-ebook.com/</a></p>
+    <p>Obal knihy môžete obnoviť aj pomocou dialógového okna <span class="ui">Obnoviť</span>, ku ktorému sa dostanete dlhým stlačením názvu súboru v <span class="ui">Prehliadači súborov</span>.</p>
 
     <div class="warning">
     <span class="label_red">UPOZORNENIE</span> Pri používaní tohto dialógového okna <span class="ui">Obnoviť</span> buďte veľmi opatrní a uistite sa, že je začiarknutá iba položka <span class="ui">Vlastný obrázok na obale</span>, inak môžete neúmyselne vymazať všetko, čo súvisí s vašou knihou.
@@ -5017,7 +5017,7 @@ line-height: 2rem;
     
 <div class="L3-Smaller-heading">"Vyčistenie" databázy vyrovnávacej pamäte obalov kníh</div>
 
-        <p>KOReader si uchováva vyrovnávaciu pamäť obalov vašich kníh, aby ich bolo možné rýchlejšie zobraziť. Za normálnych okolností nie je táto vyrovnávacia pamäť príliš veľká. Ak odstránite veľa kníh alebo premenujete adresáre, možno budete chcieť vyčistiť databázu vyrovnávacej pamäte obalov kníh, aby ste získali späť nejaké miesto. Môžete to urobiť z tohto menu:</p>
+        <p>Na zariadeniach s Androidom nemôže KOReader zapisovať do externého úložiska z dôvodu obmedzení systému Android. Ak chcete zmeniť miesto uloženia pre snímky obrazovky, dbajte na výber interného úložiska zariadenia.</p>
         
 
 
