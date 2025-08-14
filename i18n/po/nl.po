@@ -13258,11 +13258,11 @@ msgstr ""
 "het gebruik van dit <span class=\"ui\">Reset</span>-dialoog en zorg dat "
 "alleen het item <span class=\"ui\">Aangepaste omslagafbeelding</span> is "
 "aangevinkt; anders kun je per ongeluk alles met betrekking tot je boek "
-"resetten.the file name instead of metadata."
+"resetten."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4774-1
 msgid "Avoiding opening links accidentally"
-msgstr ""
+msgstr "Per ongeluk links openen voorkomen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4775-1
 msgid ""
@@ -13270,17 +13270,17 @@ msgid ""
 "turning the page or using other gestures, you can turn off <span "
 "class=\"ui\">Following links by tapping</span> via this menu item:"
 msgstr ""
+"Als je document links bevat en je tikt daar per ongeluk op tijdens het "
+"omslaan van de pagina of bij andere gebaren, kun je <span class=\"ui\">"
+"Links volgen door te tikken</span> uitschakelen via dit menu-item:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4777-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Links / Tap to follow links"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Tikken en gebaren / Links / Tik om links te volgen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4779-1
 msgid ""
@@ -13290,10 +13290,15 @@ msgid ""
 "enable <span class=\"ui\">Allow larger tap area around links</span> from the "
 "same menu."
 msgstr ""
+"Na het uitschakelen van deze instelling moet je lang tikken op een link en "
+"<span class=\"ui\">Link volgen</span> kiezen in het pop-upmenu. Heb je het "
+"omgekeerde probleem en wil je links makkelijker kunnen aantikken, schakel dan "
+"<span class=\"ui\">Grotere tikzone rond links toestaan</span> in via hetzelfde "
+"menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4783-1
 msgid "Reading statistics after midnight"
-msgstr ""
+msgstr "Leesstatistieken na middernacht"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4784-1
 msgid ""
@@ -13304,47 +13309,50 @@ msgid ""
 "<span class=\"ui\">Calendar view</span>; it does not apply to any of the "
 "other statistics reports. You can set this time at:"
 msgstr ""
+"In de leesstatistieken kun je de start van de dag voor berekeningen wijzigen. "
+"Dat is handig als je bijvoorbeeld na middernacht leest en je leessessie als "
+"vandaag wilt laten tellen in plaats van morgen. Dit geldt alleen voor de "
+"<span class=\"ui\">Dag-tijdlijnweergave</span> en optioneel voor de "
+"<span class=\"ui\">Kalenderweergave</span>; het is niet van toepassing op "
+"de andere statistiekrapporten. Je stelt dit tijdstip in via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4786-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Reading statistics / Settings / Daily timeline "
 "starts at..."
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Leesstatistieken / Instellingen / Dag-tijdlijn "
+"start om…"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4791-1
 msgid "Device Tips"
-msgstr ""
+msgstr "Apparaattips"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4793-1
 msgid "Updating KOReader"
-msgstr ""
+msgstr "KOReader bijwerken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4794-5
 msgid ""
 "KOReader can update itself over Wi-Fi. You can trigger the check via this "
 "menu item:"
 msgstr ""
+"KOReader kan zichzelf via wifi bijwerken. Je kunt de controle starten via dit "
+"menu-item:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4797-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Update / Check for update"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Bijwerken / Controleren op updates"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4800-1
 msgid "Adding a password lock to KOReader"
-msgstr ""
+msgstr "Een wachtwoordslot aan KOReader toevoegen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4801-5
 msgid ""
@@ -13353,91 +13361,88 @@ msgid ""
 "KOReader to keep the screensaver on the screen until you enter a chosen "
 "gesture. To achieve this:"
 msgstr ""
+"Er is in KOReader geen directe optie voor. Maar er is wel een omweg om dit "
+"soort vergrendelschermgedrag te krijgen. Je kunt KOReader zo instellen dat de "
+"schermbeveiliging in beeld blijft tot je een gekozen gebaar invoert. Zo doe "
+"je dat:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4805-9
 msgid ""
 "Choose any gesture (including the complex ones with custom multiswipes) and "
 "make it your <b>\"unlock\"</b> gesture by going to:"
 msgstr ""
+"Kies een willekeurig gebaar (ook complexe met aangepaste multivegen) en maak "
+"dit je <b>\"ontgrendel\"</b>-gebaar via:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4806-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / \"your "
 "selected gesture\" / Device / Exit screensaver"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Tikken en gebaren / Gebarenbeheer / \"je gekozen "
+"gebaar\" / Apparaat / Schermbeveiliging verlaten"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4808-9
 msgid "And then enable this option:"
-msgstr ""
+msgstr "Schakel vervolgens deze optie in:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4809-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver / Settings / Keep the "
 "screensaver on screen after wakeup / Until 'Exit screensaver' gesture"
 msgstr ""
-"With the version 2023.03, KOReader gained partial rendering capability while "
-"reading EPUB documents. Before this version, when you made an adjustment "
-"like changing font size, the whole book had to be rendered again to be able "
-"to preview the new setting. Depending on the device and book size, this can "
-"take a while to calculate."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Scherm / Schermbeveiliging / Instellingen / "
+"Schermbeveiliging op scherm houden na ontwaken / Tot het ‘Schermbeveiliging "
+"verlaten’-gebaar"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4815-5
 msgid "Automatic screen dimming"
-msgstr ""
+msgstr "Automatisch dimmen van het scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4816-9
 msgid ""
 "KOReader can dim your frontlight to preserve battery if your device is idle "
 "for a while. You can turn on and adjust this feature via:"
 msgstr ""
+"KOReader kan je frontlicht dimmen om batterij te besparen als je apparaat een "
+"tijdje niets doet. Je schakelt dit in en stelt het af via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4818-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Automatic dimmer"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Scherm / Automatische dimmer"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4821-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and gestures → Gesture manager → “ANY GESTURE” "
-"→ General → Open Previous Document"
+msgstr "Aantal regels/woorden op een pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4822-9
 msgid ""
 "If you want to know how many lines or words are being shown on the current "
 "page you can see it at:"
 msgstr ""
+"Wil je weten hoeveel regels of woorden op de huidige pagina worden getoond, "
+"dan kun je dat zien via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4824-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4824-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Boekeninfo"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4828-5
 msgid "Optimizing your battery life"
-msgstr ""
+msgstr "Je batterijduur optimaliseren"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4830-9
 msgid ""
@@ -13448,65 +13453,69 @@ msgid ""
 "means you start charging your device when the battery goes down to 20% and "
 "unplug when it reaches 80% (or 25%-75% if you are extra cautious)."
 msgstr ""
+"Li‑ionbatterijen degraderen sterker aan de uiterste kanten van het "
+"laadbereik. Om die degradatie te beperken en je batterijduur te verlengen, "
+"kun je je minimale ontlaadniveau beperken tot <b>20%</b> en het maximale "
+"laadniveau tot <b>80%</b> (zoals bij elektrische auto’s en sommige recente "
+"telefoons). Dat betekent: opladen wanneer de batterij 20% bereikt en de "
+"stekker eruit bij 80% (of 25%–75% als je extra voorzichtig wilt zijn)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4832-9
 msgid ""
 "KOReader can warn you by showing an alert when charge level reaches your "
 "defined limits:"
 msgstr ""
+"KOReader kan je waarschuwen met een melding wanneer het laadsniveau je "
+"ingestelde grenzen bereikt:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4834-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device Status Alerts / Battery Level"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Waarschuwingen apparaatstatus / Batterijniveau"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4837-5
 msgid "Checking your battery consumption details"
-msgstr ""
+msgstr "Je batterijverbruik in detail bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4838-9
 msgid "You can see your detailed battery usage statistics via this menu item:"
-msgstr ""
+msgstr "Je ziet gedetailleerde batterijstatis­tieken via dit menu-item:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4840-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / More Tools / Battery Statistics"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Meer hulpprogramma’s / Batterijstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-9
 msgid "Checking detailed device statistics"
-msgstr ""
+msgstr "Gedetailleerde apparaatstatistieken bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4843-9
 msgid ""
 "You can see your system information like <b>CPU/DISK SPACE/RAM</b> usage via "
 "this menu item:"
 msgstr ""
+"Je kunt systeeminformatie zoals het gebruik van <b>CPU/opslagruimte/RAM</b> "
+"bekijken via dit menu-item:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4845-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4845-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / System statistics"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Help / Systeemstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4850-9
 msgid "Keeping an eye on your memory usage"
-msgstr ""
+msgstr "Je geheugengebruik in de gaten houden"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4851-9
 msgid ""
@@ -13516,37 +13525,40 @@ msgid ""
 "indicator to your <span class=\"ui\">STATUS BAR</span> and restart KOReader "
 "if this value gets high, to avoid crashes or reboots."
 msgstr ""
+"Op oudere Kindle‑apparaten melden sommige gebruikers crashes door beperkt "
+"geheugen. Het geheugengebruik van KOReader kan oplopen als je veel bestanden "
+"in één sessie opent. Vooral pdf’s verhogen dit. Je kunt een geheugenen "
+"indicator toevoegen aan je <span class=\"ui\">STATUSBALK</span> en KOReader "
+"herstarten als deze waarde hoog wordt om crashes of reboots te voorkomen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4853-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / KOReader memory usage"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Statusbalk / KOReader‑geheugengebruik"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4855-9
 msgid ""
 "Also you can configure KOReader to restart automatically if memory usage "
 "reaches a threshold via:"
 msgstr ""
+"Je kunt KOReader ook automatisch laten herstarten als het geheugengebruik een "
+"drempel overschrijdt via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4856-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Device Status Alerts"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Apparaat / Waarschuwingen apparaatstatus"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4864-1
 msgctxt "user_guide/en.html+html.body.div.div:4864-1"
 msgid "TROUBLESHOOTING"
-msgstr ""
+msgstr "PROBLEEMOPLOSSING"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4866-5
 msgid ""
@@ -13555,14 +13567,18 @@ msgid ""
 "KOReader section of the <b>Mobileread</b> forum. Please see the <a "
 "href=\"#L1-reachus\">last section</a> of this guide for details."
 msgstr ""
+"Kun je in deze handleiding geen oplossing vinden, dan kun je een issue openen "
+"op de <b>GitHub</b>-pagina van het project of een bericht plaatsen in de "
+"KOReader-sectie van het <b>Mobileread</b>-forum. Zie de <a href=\"#L1-"
+"reachus\">laatste sectie</a> van deze gids voor details."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4869-1
 msgid "Nightly versions"
-msgstr ""
+msgstr "Nightly-versies"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4870-1
 msgid "KOReader has two different versions:"
-msgstr ""
+msgstr "KOReader kent twee verschillende versies:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4872-9
 msgid ""
@@ -13572,6 +13588,11 @@ msgid ""
 "released on <b>November 2024</b>. This is generally a <b>monthly</b> "
 "release, but sometimes can take longer."
 msgstr ""
+"<span class=\"label_green\">STABLE</span> Dit is de hoofdversie die je "
+"vindt op de <b>Releases</b>-pagina van de GitHub van het project. De naam is "
+"bijvoorbeeld: <b>\"KOReader 2024.11\"</b>, wat betekent dat deze versie in "
+"<b>november 2024</b> is uitgebracht. Dit is doorgaans een <b>maandelijkse</b> "
+"release, maar soms duurt het langer."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4873-9
 msgid ""
@@ -13580,6 +13601,10 @@ msgid ""
 "continuously added. Nightly releases are intended for a narrow group of "
 "testers and developers, so they might be less stable."
 msgstr ""
+"<span class=\"label_red\">NIGHTLY</span><b></b> Dit zijn de <b>dagelijks</b> "
+"gecompileerde versies van KOReader, waarin continu optimalisaties en fixes "
+"worden toegevoegd. Nightly-releases zijn bedoeld voor een beperkte groep "
+"testers en ontwikkelaars, en kunnen minder stabiel zijn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4876-5
 msgid ""
@@ -13587,12 +13612,16 @@ msgid ""
 "should use. But in some specific cases you might need to use a <b>nightly</"
 "b> version:"
 msgstr ""
+"Normaal gesproken gebruik je als doorsnee gebruiker de <b>stable</b>-versie. "
+"Maar in specifieke gevallen heb je mogelijk een <b>nightly</b>-versie nodig:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4878-9
 msgid ""
 "Your device is very new (a recently released Kobo model for example) and "
 "KOReader support has just been added in a recent nightly."
 msgstr ""
+"Je apparaat is heel nieuw (bijvoorbeeld een recent uitgebracht Kobo-model) en "
+"ondersteuning voor KOReader is pas in een recente nightly toegevoegd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4879-9
 msgid ""
@@ -13600,6 +13629,9 @@ msgid ""
 "not released yet. And you don't want to wait for the <b>stable</b> version "
 "to have this fix."
 msgstr ""
+"Er is een bug of probleem dat specifiek is voor jouw apparaat en al is "
+"opgelost, maar nog niet uitgebracht. En je wilt niet wachten tot de "
+"<b>stable</b>-versie deze fix bevat."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4880-9
 msgid ""
@@ -13609,6 +13641,11 @@ msgid ""
 "previous <b>stable</b> release but <b>nightly</b> would be newer so might "
 "have more features and fixes."
 msgstr ""
+"Na het bijwerken van KOReader merk je dat een functie die je gebruikte is "
+"verwijderd. Je wilt deze functie niet kwijt, dus kun je een nightly-versie "
+"installeren die de functie nog heeft. Je kunt natuurlijk ook teruggaan naar "
+"de vorige <b>stable</b>-release, maar een <b>nightly</b> is nieuwer en bevat "
+"mogelijk al meer functies en fixes."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4883-5
 msgid ""
@@ -13617,6 +13654,10 @@ msgid ""
 "discussion page: <a href=\"https://github.com/koreader/koreader/"
 "issues/11068\">FAQ: How to track latest nightly builds</a>"
 msgstr ""
+"Deze sectie was slechts een algemene introductie. Voor gedetailleerde "
+"informatie en om hulp te vragen over nightly-versies kun je de discussie "
+"raadplegen: <a href=\"https://github.com/koreader/koreader/issues/11068\">"
+"FAQ: How to track latest nightly builds</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4885-20
 msgid ""
@@ -13626,10 +13667,14 @@ msgid ""
 "installation. Open source applications like <b>Shelter</b> and <b>Island</b> "
 "can help you with this."
 msgstr ""
+"<span class=\"label_green\">TIP</span> Gebruik je KOReader op Android, dan "
+"kun je de functie <b>Werkprofiel</b> van Android gebruiken om Nightly-versies "
+"te testen zonder je hoofdinstallatie van KOReader te beïnvloeden. Open-"
+"sourceapps zoals <b>Shelter</b> en <b>Island</b> kunnen hierbij helpen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4887-3
 msgid "Backup your KOReader settings"
-msgstr ""
+msgstr "Een back-up maken van je KOReader-instellingen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4888-9
 msgid ""
@@ -13638,10 +13683,14 @@ msgid ""
 "installation directory. Then you can overwrite them after a clean "
 "installation to restore your settings:"
 msgstr ""
+"Als je in uitzonderlijke gevallen KOReader inclusief alle instellingen wilt "
+"back-uppen en herstellen, maak dan een back-up van deze mappen en bestanden "
+"in de KOReader-installatiemap. Na een schone installatie kun je ze "
+"overschrijven om je instellingen te herstellen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4891-9
 msgid "Folders:"
-msgstr ""
+msgstr "Mappen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4894-9
 msgid "settings"
@@ -13653,7 +13702,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4899-9
 msgid "Files:"
-msgstr ""
+msgstr "Bestanden:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4902-17
 msgid "data/cr3.ini"
@@ -13680,6 +13729,8 @@ msgid ""
 "Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if "
 "they exist)</b>"
 msgstr ""
+"Bestanden in de mappen <b>data/dict/</b> en <b>/data/tessdata/</b> <b>(indien "
+"aanwezig)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4912-5
 msgid ""
@@ -13688,10 +13739,14 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Je individuele boekinstellingen en "
+"markeringen worden bewaard in dezelfde map als je boeken, in een map met de "
+"<b>zelfde naam als je boek</b>. Je kunt deze mappen desgewenst apart back-"
+"uppen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4916-1
 msgid "My Progress Sync doesn't synchronize my progress"
-msgstr ""
+msgstr "Mijn voortgangssynchronisatie synchroniseert mijn voortgang niet"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4918-9
 msgid ""
@@ -13703,20 +13758,27 @@ msgid ""
 "<span class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
+"Dit kan worden veroorzaakt door de KOReader‑functie <span class=\"ui\">"
+"Markeringen in PDF schrijven</span> als je die hebt ingeschakeld. Het "
+"opslaan van PDF‑markeringen wijzigt je bestand, waardoor synchronisatie "
+"mislukt. Als je beide functies wilt gebruiken, wijzig dan in de instellingen "
+"van de plugin <span class=\"ui\">Voortgang synchroniseren</span> de <span "
+"class=\"ui\">Methode voor documentherkenning</span> naar <span class=\"ui\""
+">Bestandsnaam</span> in plaats van de standaard <span class=\"ui\">Binair</span>"
+"-herkenning:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4920-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / Progress sync / Document matching method"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:26px;\"> / Voortgang synchroniseren / Methode voor "
+"documentherkenning"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4923-1
 msgid "My book is slow"
-msgstr ""
+msgstr "Mijn boek is traag"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4925-5
 msgid ""
@@ -13725,14 +13787,18 @@ msgid ""
 "turning is immediate. Here we will talk about the reasons if your book feels "
 "very slow when opening, page turning or adjusting its appearance."
 msgstr ""
+"KOReader is geoptimaliseerd om snel te werken, zelfs op de beperkte hardware "
+"van e-readers. Boeken van duizend pagina’s openen doorgaans in seconden en "
+"pagina’s slaan direct om. Hier bespreken we mogelijke oorzaken als je boek "
+"erg traag aanvoelt bij openen, pagineren of het aanpassen van de weergave."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4927-5
 msgid "If the problematic book is a PDF:"
-msgstr ""
+msgstr "Als het problematische boek een PDF is:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4929-9
 msgid "PDF file itself might be <b>too big for your device memory</b>."
-msgstr ""
+msgstr "Het pdf‑bestand kan <b>te groot zijn voor het geheugen van je apparaat</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4930-9
 msgid ""
@@ -13742,6 +13808,11 @@ msgid ""
 "the opening and page turning because these large images has to be rescaled "
 "to fit on your screen and this process can be CPU intensive."
 msgstr ""
+"Een pdf kan <b>zeer grote afbeeldingsbestanden</b> bevatten. Zelfs in "
+"documenten met een normale tekstlaag (die je kunt selecteren en markeren) "
+"kan er een extra afbeeldingslaag ingebed zijn (vaak een scan van de pagina). "
+"Dit vertraagt openen en pagineren, omdat die grote afbeeldingen naar je "
+"scherm moeten worden geschaald, wat CPU‑intensief is."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4931-9
 msgid ""
@@ -13750,12 +13821,17 @@ msgid ""
 "this case KOReader has to calculate and draw all these elements which can "
 "take time."
 msgstr ""
+"Een pdf kan <b>heel veel losse elementen</b> bevatten die exact gepositioneerd "
+"moeten worden, zoals een tijdschriftpagina met veel afbeeldingen en tekstvakken. "
+"KOReader moet al die elementen berekenen en tekenen, wat tijd kost."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4932-9
 msgid ""
 "<span class=\"ui\">Auto straighten</span> feature (which allows you to "
 "adjust the tilt of the page) might also slow down your reader."
 msgstr ""
+"De functie <span class=\"ui\">Automatisch rechtzetten</span> (om de scheefstand "
+"van de pagina te corrigeren) kan je reader ook vertragen."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4933-9
 msgid ""
@@ -13765,20 +13841,22 @@ msgid ""
 "seconds per page turn) than <span class=\"ui\">DEFAULT</span> depending on "
 "your document."
 msgstr ""
+"Als je de <span class=\"ui\">RENDERKWALITEIT</span> op <span class=\"ui\">"
+"HOOG</span> zet terwijl <span class=\"ui\">HERSCHIKKING</span> <b>AAN</b> staat, "
+"oogt tekst mooier maar kan het veel trager zijn (tot enkele seconden per "
+"pagina) dan <span class=\"ui\">STANDAARD</span>, afhankelijk van je document."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4935-13
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:22px;\"> / Render Quality"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ONDERTSTE MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
+"style=\"width:22px;\"> / Renderkwaliteit"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4940-5
 msgid "If the problematic book is an EPUB:"
-msgstr ""
+msgstr "Als het problematische boek een EPUB is:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4943-9
 msgid ""
@@ -13790,6 +13868,12 @@ msgid ""
 "b> This will slow down opening the book, turning the pages and changing the "
 "appearance properties like font weight or line spacing."
 msgstr ""
+"EPUB‑bestanden bestaan uit tekst en afbeeldingen met regels voor de opmaak op "
+"het scherm. Ideaal gezien is dat vrij eenvoudig en zijn EPUB’s doorgaans snel "
+"in KOReader. <b>Maar sommige EPUB’s voegen een groot aantal opmaakregels toe, "
+"waardoor KOReader veel moet berekenen om zelfs maar één zin weer te geven.</b> "
+"Dit vertraagt openen, pagineren en het aanpassen van weergave‑eigenschappen "
+"zoals lettergewicht of regelafstand."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4945-9
 msgid ""
@@ -13797,6 +13881,9 @@ msgid ""
 "layout EPUBs</b>. They will open, but will render as reflowable EPUBs and "
 "probably won't look nice or readable."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> KOReader ondersteunt geen <b>EPUB’s met "
+"vaste lay‑out</b>. Ze openen wel, maar worden als herschikbare EPUB’s gerenderd "
+"en zien er waarschijnlijk niet mooi of leesbaar uit."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4948-9
 msgid ""
@@ -13808,6 +13895,12 @@ msgid ""
 "KOReader still has to calculate the whole book instead of only the current "
 "chapter."
 msgstr ""
+"EPUB’s zijn ZIP‑archieven met HTML‑bestanden. Sommige boeken bestaan uit één "
+"HTML‑bestand, andere uit meerdere, bijvoorbeeld één per hoofdstuk. <b>Als jouw "
+"boek uit één HTML‑bestand bestaat, werkt gedeeltelijk renderen niet.</b> "
+"Weergave‑wijzigingen zijn dan trager dan bij opgedeelde hoofdstukken, omdat "
+"KOReader bij elke wijziging het hele boek moet berekenen in plaats van alleen "
+"het huidige hoofdstuk."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4950-9
 msgid ""
@@ -13816,30 +13909,38 @@ msgid ""
 "if a cell (containing many paragraphs) spans 50 pages, this will make page "
 "turning quite slow. See below for the solution."
 msgstr ""
+"Een andere zeldzame oorzaak van traagheid is wanneer inhoud is verpakt in een "
+"<b>HTML‑tabel</b>. KOReader moet dan bij elke paginawissel elke cel tekenen; "
+"als een cel (met veel alinea’s) 50 pagina’s beslaat, wordt pagineren erg traag. "
+"Zie hieronder voor de oplossing."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4954-5
 msgid "If everything is slow:"
-msgstr ""
+msgstr "Als alles traag is:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4956-5
 msgid ""
 "Reasons mentioned above is generally valid if only some of your books are "
 "slow. If all of your books are slow, your problem might be device related:"
 msgstr ""
+"De bovenstaande redenen gelden meestal als slechts enkele boeken traag zijn. "
+"Als al je boeken traag zijn, is het probleem mogelijk apparaatgerelateerd:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4959-9
 msgid "Very slow CPU or low RAM."
-msgstr ""
+msgstr "Zeer trage CPU of weinig RAM."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4960-9
 msgid ""
 "Your flash memory (where your books reside) might be degrading, which is "
 "generally due to the old age of the device."
 msgstr ""
+"Je flashgeheugen (waar je boeken staan) kan aan het degraderen zijn, meestal "
+"door de ouderdom van het apparaat."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4961-9
 msgid "You are running out of storage space."
-msgstr ""
+msgstr "Je opslagruimte raakt vol."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4962-9
 msgid ""
@@ -13847,10 +13948,12 @@ msgid ""
 "interfering with the operation of KOReader or some background processes "
 "might be using your system resources."
 msgstr ""
+"Gebruik je een Android‑apparaat, dan kan Android de werking van KOReader "
+"hinderen of gebruiken achtergrondprocessen je systeembronnen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4966-5
 msgid "SOLUTIONS:"
-msgstr ""
+msgstr "OPLOSSINGEN:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4968-5
 msgid ""
@@ -13859,12 +13962,18 @@ msgid ""
 "version of it. Or if another file type is available for download, like EPUB "
 "instead of PDF (or reverse) you can try that format."
 msgstr ""
+"Helaas zijn er voor slechte pdf’s niet veel oplossingen. De beste oplossing "
+"voor problematische pdf’s en EPUB’s is meestal een betere versie vinden. Of "
+"als er een ander bestandsformaat beschikbaar is, zoals EPUB in plaats van pdf "
+"(of omgekeerd), probeer dat formaat."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4970-5
 msgid ""
 "Following solutions are for EPUB files and they might require advanced "
 "knowledge:"
 msgstr ""
+"De volgende oplossingen zijn voor EPUB‑bestanden en vergen mogelijk "
+"gevorderde kennis:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4973-9
 msgid ""
@@ -13873,6 +13982,10 @@ msgid ""
 "(of course, you'll probably lose any nice formatting, but you'll know what "
 "is the culprit)."
 msgstr ""
+"Je kunt <span class=\"ui\">Ingesloten stijlen</span> op <b>UIT</b> zetten in het "
+"onderste menu om te zien of het negeren van alle document‑stylesheets het "
+"sneller maakt (je verliest dan waarschijnlijk mooie opmaak, maar je weet wel "
+"wat de boosdoener is)."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4975-9
 msgid ""
@@ -13881,6 +13994,10 @@ msgid ""
 "complexity by yourself. To do this, you can long-press on some text and "
 "choose <span class=\"ui\">View HTML</span> in the popup menu."
 msgstr ""
+"Als je HTML- en CSS‑kennis hebt, kun je de HTML- en CSS‑bestanden direct vanuit "
+"KOReader inspecteren en zelf hun kwaliteit of onnodige complexiteit "
+"beoordelen. Tik hiervoor lang op een stuk tekst en kies <span class=\"ui\">"
+"HTML bekijken</span> in het pop‑upmenu."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4977-9
 msgid ""
@@ -13890,28 +14007,28 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4979-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Stijlaanpassingen / Boekspecifieke aanpassing"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4982-9
 msgid ""
 "<span class=\"external\">Calibre</span>’s e-book editor can check EPUB files "
 "for problems and has tools to fix some of the problems."
 msgstr ""
+"De e‑bookeditor van <span class=\"external\">Calibre</span> kan EPUB‑bestanden op "
+"problemen controleren en heeft hulpmiddelen om sommige problemen op te lossen."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4983-9
 msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Je kunt <span class=\"external\">Calibre</span> <a href=\"https://calibre-ebook.com/\""
+">hier</a> downloaden."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4985-9
 msgid ""
@@ -13919,6 +14036,9 @@ msgid ""
 "class=\"external\">Calibre</span> <a href=\"https://manual.calibre-ebook.com/"
 "edit.html#checking-the-book\">here</a>."
 msgstr ""
+"De instructies voor de <b>Boek controleren‑tool</b> van <span class=\"external\""
+">Calibre</span> vind je <a href=\"https://manual.calibre-ebook.com/edit.html#checking-the-book\""
+">hier</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4987-9
 msgid ""
@@ -13928,22 +14048,31 @@ msgid ""
 "class=\"external\">EPUBCheck</span> <a href=\"https://github.com/koreader/"
 "koreader/issues/11268\">here</a>."
 msgstr ""
+"De toepassing <span class=\"external\">EPUBCheck</span> kan de geldigheid van "
+"EPUB‑bestanden controleren en veel soorten fouten detecteren. Een voorbeeld "
+"van een issue waarbij het probleem met <span class=\"external\">EPUBCheck</span> "
+"is vastgesteld, lees je <a href=\"https://github.com/koreader/koreader/issues/11268\""
+">hier</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4989-9
 msgid ""
 "You can download the <b>command line version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck\">here</a>."
 msgstr ""
+"Je kunt de <b>commandlineversie</b> <a href=\"https://github.com/w3c/epubcheck\""
+">hier</a> downloaden."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4991-9
 msgid ""
 "Or download a <b>graphical user interface version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck/wiki/GUI\">here</a>."
 msgstr ""
+"Of download een <b>versie met grafische gebruikersinterface</b> <a href=\"https://"
+"github.com/w3c/epubcheck/wiki/GUI\">hier</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4995-5
 msgid "Opening an issue:"
-msgstr ""
+msgstr "Een issue openen:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4996-5
 msgid ""
@@ -13957,6 +14086,14 @@ msgid ""
 "and instructions from this <a href=\"https://www.mobileread.com/forums/"
 "showthread.php?t=267998\">Mobileread forum page</a>."
 msgstr ""
+"Als je een issue over dit probleem opent, is het belangrijk dat we het "
+"problematische bestand kunnen onderzoeken. Je kunt het bestand rechtstreeks "
+"delen door het na inpakken als ZIP in je GitHub‑bericht te slepen. Als je boek "
+"een EPUB is en je het bestand niet wilt delen vanwege auteursrecht of privacy, "
+"is er een plugin voor <span class=\"external\">Calibre</span> genaamd <span "
+"class=\"external\">ScrambleEbook</span>; de download en instructies vind je op "
+"deze <a href=\"https://www.mobileread.com/forums/showthread.php?t=267998\""
+">Mobileread‑forumpagina</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4999-5
 msgid ""
@@ -13966,6 +14103,11 @@ msgid ""
 "the book will not be readable and there won’t be any copyright violation</b> "
 "but we can still use this file for diagnostic purposes."
 msgstr ""
+"Deze plugin leest een ebook zonder DRM (EPUB/KEPUB/AZW3) en maakt een kopie "
+"waarvan <b>de tekst is vervangen door willekeurige tekens</b>. Je kunt deze "
+"scrambled versie met ons delen in je issue. <b>De tekst van het boek is niet "
+"leesbaar en er is geen auteursrechtinbreuk</b>, maar we kunnen het bestand wel "
+"gebruiken voor diagnose."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5001-5
 msgid ""
@@ -14037,6 +14179,9 @@ msgid ""
 "apply. So you can still quickly browse pages by tapping quickly "
 "alternatively with two fingers."
 msgstr ""
+"Als je twee opeenvolgende tikken met wat afstand van elkaar zijn, is dit niet "
+"van toepassing. Je kunt dus nog steeds snel bladeren door afwisselend snel met "
+"twee vingers te tikken."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5029-1
 msgid "KOReader can't write to the SD card"
@@ -14048,14 +14193,13 @@ msgid ""
 "Android system restrictions. If you want to change your screenshot saving "
 "location, be careful to choose your device’s internal storage."
 msgstr ""
-"KOReader keeps a cache of your book covers to be able to show them quicker. "
-"In normal conditions this cache doesn’t get too big. If you remove lots of "
-"books or rename directories, you may want to clean up your book cover cache "
-"database to reclaim some space. You can do it from this menu:"
+"Op Android‑apparaten kan KOReader niet naar externe opslag schrijven vanwege "
+"systeembeperkingen in Android. Als je de opslaglocatie voor schermafbeeldingen "
+"wilt wijzigen, kies dan de interne opslag van je apparaat."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5037-1
 msgid "Ghosting and residue when turning pages"
-msgstr ""
+msgstr "Ghosting en residu bij het omslaan van pagina’s"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5039-9
 msgid ""
@@ -14067,10 +14211,16 @@ msgid ""
 "to get rid of these artifacts if they bother you (<span class=\"ui\">short "
 "diagonal swipe</span> gesture by default)."
 msgstr ""
+"Zelfs als KOReader is ingesteld op <b>volledige verversing na elke pagina</b>, "
+"kun je na het omslaan nog ghosting/residu zien. Dat is een beperking van de "
+"e‑inktechnologie en komt ook voor op de nieuwste generatie apparaten, vooral "
+"bij documenten met gemengde inhoud (tekst+afbeeldingen). Als workaround kun je "
+"na het omslaan nogmaals handmatig verversen om deze artefacten kwijt te raken "
+"(standaard met het gebaar <span class=\"ui\">korte diagonale veeg</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5041-5
 msgid "Sleep cover problems"
-msgstr "Clearing file cache"
+msgstr "Problemen met slaaphoesjes"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
 msgid ""
@@ -14090,18 +14240,16 @@ msgstr ""
 "door je hoesje, kun je deze functie uitschakelen via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5044-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Ignore all sleep cover events"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Apparaat / Alle slaaphoes‑gebeurtenissen negeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5050-1
 msgid "Text indentation problems"
-msgstr ""
+msgstr "Problemen met tekstinspringing"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5052-5
 msgid ""
@@ -14112,18 +14260,20 @@ msgid ""
 "be read on <b>web browser engine based</b> readers, so they don't bother "
 "\"resetting\" the styles."
 msgstr ""
+"Krijg je verkeerd uitgelijnde titels, koppen of scheidingslijnen, of onverwachte "
+"inspringing, probeer dan de stijl voor je document te wisselen: <span class=\"ui\""
+">epub.css</span> naar <span class=\"ui\">html5.css</span>. Dit soort problemen "
+"ontstaat omdat sommige uitgevers ervan uitgaan dat hun boeken alleen op "
+"<b>webbrowserengine‑gebaseerde</b> readers gelezen worden, en ze de stijlen niet "
+"‘resetten’."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5054-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:24px;\"> / Style"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:24px;\"> / Stijl"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5058-9
 msgid ""
@@ -14143,7 +14293,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5068-1
 msgid "Cleaning your book cover cache database"
-msgstr ""
+msgstr "Je database met boekomslagcache opschonen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5070-5
 msgid ""
@@ -14152,21 +14302,24 @@ msgid ""
 "books or rename directories, you may want to clean up your book cover cache "
 "database to reclaim some space. You can do it from this menu:"
 msgstr ""
+"KOReader houdt een cache bij van je boekomslagen om ze sneller te tonen. "
+"Normaal gesproken wordt deze cache niet erg groot. Als je veel boeken "
+"verwijdert of mappen hernoemt, wil je misschien de boekomslagcache opschonen "
+"om ruimte terug te winnen. Dat kan via dit menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5072-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings / Book info cache management"
 msgstr ""
-"⇑ TOP MENU (in File Browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Settings → Mosaic and detailed "
-"list settings"
+"BOVENMENU (in Bestandsverkenner) / <img class=\"img_inline\" src=\"pictures/"
+"top_cabinet.svg\" style=\"width:22px;\"> / Instellingen / Instellingen mozaïek "
+"en gedetailleerde lijst / Beheer boekinfo‑cache"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5078-1
 msgid "Clearing file cache"
-msgstr ""
+msgstr "Bestandscache wissen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5079-5
 msgid ""
@@ -14185,15 +14338,14 @@ msgstr ""
 "te wissen en de ruimte terug te winnen, kun je naar:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5081-5
-#, fuzzy
 msgid ""
 "TOP MENU (in file browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / More tools / Developer options / "
 "Clear caches"
 msgstr ""
-"⇑ TOP MENU (in File Browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Settings → Mosaic and detailed "
-"list settings"
+"BOVENMENU (in Bestandsverkenner) / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Meer hulpprogramma’s / "
+"Ontwikkelaarsopties / Caches wissen"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5083-5
 msgid ""
@@ -14202,11 +14354,15 @@ msgid ""
 "will not provide any benefit. Instead, it will degrade the performance "
 "because your reader will have to render those pages again."
 msgstr ""
+"<span class=\"label_red\">WAARSCHUWING</span> Wis deze cache <b>alleen als je de "
+"ruimte echt nodig hebt</b>. Als je genoeg ruimte hebt, levert het wissen van de "
+"cache geen voordeel op; het verslechtert juist de prestaties omdat je reader "
+"die pagina’s opnieuw moet renderen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5091-1
 msgctxt "user_guide/en.html+html.body.div.div:5091-1"
 msgid "REACH US"
-msgstr ""
+msgstr "CONTACT"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5093-9
 msgid ""
@@ -14215,6 +14371,10 @@ msgid ""
 "GitHub account which is free. Click this link to open our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub Issues</a> page."
 msgstr ""
+"KOReader gebruikt <span class=\"external\">GitHub</span> als projectbasis. Je kunt "
+"problemen of suggesties melden op onze GitHub‑pagina. Je hebt alleen een "
+"GitHub‑account nodig, dat gratis is. Klik op deze link om onze pagina <a href=\""
+"https://github.com/koreader/koreader/issues\">GitHub Issues</a> te openen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5100-9
 msgid ""
@@ -14223,42 +14383,48 @@ msgid ""
 "existing issue about the same topic. You can also check other opened issues "
 "to have an idea about the process."
 msgstr ""
+"Klik op de pagina <b>Issues</b> op de knop <b>New Issue</b>. Maar gebruik eerst de "
+"zoekbalk om te zien of er al een issue over hetzelfde onderwerp bestaat. Je "
+"kunt ook andere geopende issues bekijken om een idee te krijgen van het proces."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5102-9
 msgid ""
 "When you click the <b>New Issue</b> button you will be presented with two "
 "options:"
 msgstr ""
+"Wanneer je op <b>New Issue</b> klikt, krijg je twee opties:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5106-9
 msgid ""
 "Click the appropriate one and follow the instructions on the page to report "
 "your problem or suggestion."
 msgstr ""
+"Klik de juiste optie en volg de instructies op de pagina om je probleem of "
+"suggestie te melden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5108-9
 msgid ""
 "If you are reporting a bug, <b>verbose debug logs</b> are very helpful to "
 "determine the problem. You can enable them via:"
 msgstr ""
+"Als je een bug meldt, zijn <b>uitgebreide debuglogs</b> erg nuttig om het probleem "
+"te bepalen. Je schakelt ze in via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5110-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Report a bug / Enable verbose logging"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Help / Een bug melden / Uitgebreid loggen inschakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5112-9
 msgid ""
 "You can also find the version number of your KOReader and your device type "
 "from the same dialog for reporting."
 msgstr ""
+"In hetzelfde dialoogvenster vind je ook het versienummer van je KOReader en het "
+"type apparaat voor je melding."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5114-9
 msgid ""
@@ -14266,24 +14432,31 @@ msgid ""
 "can write to the <a href=\"https://github.com/koreader/koreader/"
 "issues/11147\">GitHub discussion thread</a>"
 msgstr ""
+"Heb je een suggestie of vraag over deze <b>Gebruikershandleiding</b>, schrijf dan "
+"in de <a href=\"https://github.com/koreader/koreader/issues/11147\">GitHub‑"
+"discussie</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5118-1
 msgid "You can also . . ."
-msgstr ""
+msgstr "Je kunt ook …"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5123-3
 msgid ""
 "Find other KOReader users on <a href=\"https://www.mobileread.com/forums/"
 "forumdisplay.php?f=276\">MobileRead forums</a>"
 msgstr ""
+"Andere KOReader‑gebruikers vinden op de <a href=\"https://www.mobileread.com/forums/"
+"forumdisplay.php?f=276\">MobileRead‑forums</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5130-3
 msgid ""
 "Reach us at <a href=\"https://gitter.im/koreader/koreader\">Gitter chat</a>"
 msgstr ""
+"Neem contact op via de <a href=\"https://gitter.im/koreader/koreader\">Gitter‑chat</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5135-3
 msgid ""
 "Support the project via <a href=\"https://liberapay.com/"
 "KOReader\">Liberapay</a>"
 msgstr ""
+"Steun het project via <a href=\"https://liberapay.com/KOReader\">Liberapay</a>"
