@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-13 22:16+0000\n"
-"PO-Revision-Date: 2025-08-13 19:30+0000\n"
+"PO-Revision-Date: 2025-08-14 14:10+0000\n"
 "Last-Translator: Enrico Morelli <enrico.morelli@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4801,7 +4801,7 @@ msgstr "PERSONALIZZAZIONE DELL'ASPETTO DEL TESTO"
 #: user_guide/en.html%2Bhtml.body.div.div:2201-1
 msgctxt "user_guide/en.html+html.body.div.div:2201-1"
 msgid "Default appearance settings"
-msgstr ""
+msgstr "Impostazioni di aspetto predefinite"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2203-5
 msgid ""
@@ -4810,6 +4810,11 @@ msgid ""
 "font to <b>Verdana</b>, any books you open next including the ones you are "
 "already reading will be shown in this Verdana font."
 msgstr ""
+"In alcune applicazioni di lettura, quando si modifica un'impostazione, ad "
+"esempio il carattere utilizzato per i libri, questa cambia globalmente, se "
+"si cambia il carattere predefinito in <b>Verdana</b>, tutti i libri che si "
+"apriranno successivamente, compresi quelli che si stanno già leggendo, "
+"saranno visualizzati con questo carattere Verdana."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2205-5
 msgid ""
@@ -4820,6 +4825,13 @@ msgid ""
 "you can set some books to open in <b>landscape orientation</b> or <b>double "
 "column</b> mode."
 msgstr ""
+"L'approccio di KOReader è diverso. Salviamo le impostazioni dell'aspetto per "
+"ogni libro. In questo modo è possibile modificare le impostazioni per il "
+"libro corrente senza influenzare gli altri. Ad esempio, se avete alcuni "
+"libri fantasy, potete cambiare il carattere con uno di aspetto medievale "
+"solo per questi libri. Oppure si possono impostare alcuni libri in modo che "
+"si aprano con l'orientamento <b>paesaggio</b> oppure in modalità <b>doppia "
+"colonna</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2207-5
 msgid ""
@@ -4831,10 +4843,19 @@ msgid ""
 "span> (★) in the menu or as a <span class=\"ui\">black border</span> around "
 "the indicators as seen below:"
 msgstr ""
+"Per modificare un'impostazione a livello globale, toccare e tenere premuta "
+"un'<b>opzione</b> o <b>voce del menu</b> (peso del carattere, interlinea, "
+"ecc.), per impostare il suo valore come <span class=\"ui\">predefinito</"
+"span>. Questo nuovo valore sarà applicato solo ai libri aperti d'ora in poi, "
+"come abbiamo detto sopra. I libri aperti in precedenza manterranno le loro "
+"impostazioni. I valori predefiniti possono essere identificati con una <span "
+"class=\"ui\">stella</span> (★) nel menu o con un <span class=\"ui\">bordo "
+"nero</span> intorno agli indicatori, come si vede di seguito:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2213-1
 msgid "Applying current defaults to an already opened book"
 msgstr ""
+"Applicazione delle impostazioni predefinite correnti a un libro già aperto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2215-5
 msgid ""
@@ -4843,6 +4864,10 @@ msgid ""
 "value will only be used for the new documents you open after the change. "
 "Your already opened books will not change."
 msgstr ""
+"Così, quando si modificano le impostazioni predefinite del documento, come "
+"<span class=\"ui\">interlinea predefinita</span> o <span class=\"ui\""
+">contrasto predefinito</span>, il nuovo valore verrà utilizzato solo per i "
+"nuovi documenti aperti dopo la modifica. I libri già aperti non cambieranno."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2217-5
 msgid ""
@@ -4854,17 +4879,29 @@ msgid ""
 "feature you don’t need to change these values manually in all your opened "
 "books."
 msgstr ""
+"Ma cosa succede se volete che anche loro cambino?Ad esempio, se si cambia il "
+"<span class=\"ui\">font</span> predefinito ,probabilmente regolerete <span "
+"class=\"ui\">il peso del carattere</span> e <span class=\"ui\">l'interlinea</"
+"span> su valori più adatti a questo nuovo carattere. Siete soddisfatti "
+"dell'aspetto del testo e ora volete che tutti i vostri libri abbiano questo "
+"aspetto. Con questa funzione non è necessario modificare manualmente i "
+"valori in tutti i libri aperti."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2219-5
 msgid ""
 "You can easily apply these changes to your already opened books by choosing:"
 msgstr ""
+"È possibile applicare facilmente queste modifiche ai libri già aperti "
+"scegliendo:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2221-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Reset document settings to default"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Impostazioni del documento / Azzera impostazioni "
+"documento a predefiniti"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2223-5
 msgid ""
@@ -4873,10 +4910,14 @@ msgid ""
 "appearance of the book. Your <b>reading position, highlights, notes and "
 "bookmarks</b> will be preserved."
 msgstr ""
+"Toccando questa opzione, le impostazioni correnti del libro verranno "
+"modificate in base agli ultimi <b>predefiniti</b> impostati. Non "
+"preoccupatevi, questo cambierà solo l'aspetto del libro. La <b>posizione di "
+"lettura, le evidenziazioni, le note e i segnalibri</b> saranno conservati."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2226-1
 msgid "Saving current book settings as defaults"
-msgstr ""
+msgstr "Salvataggio delle impostazioni correnti del libro come predefinite"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2228-5
 msgid ""
@@ -4887,21 +4928,32 @@ msgid ""
 "class=\"ui\">Reset document settings to default</span> option as explained "
 "above."
 msgstr ""
+"Quando si regola un libro a proprio piacimento, ad esempio modificando <span "
+"class=\"ui\">l'interlinea</span>, <span class=\"ui\">il contrasto dei "
+"caratteri</span>, ecc. è possibile salvare tutte le modifiche in una volta "
+"sola come <span class=\"ui\">predefiniti</span>. Quindi è possibile "
+"applicare queste impostazioni ad altri libri con l'opzione <span class=\"ui\""
+">Azzera impostazioni dei documenti a predefiniti</span>, come spiegato sopra."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2230-5
 msgid ""
 "You can save your changes as <span class=\"ui\">defaults</span> by choosing:"
 msgstr ""
+"È possibile salvare le modifiche come <span class=\"ui\">predefinite</span> "
+"scegliendo:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2232-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Save document settings as default"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Impostazioni del documento / Salva le impostazioni "
+"documento come predefinite"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2236-1
 msgid "Creating different groups of settings"
-msgstr ""
+msgstr "Creare diversi gruppi di impostazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2238-5
 msgid ""
@@ -4911,10 +4963,15 @@ msgid ""
 "which you can apply at once instead of changing the settings manually every "
 "time."
 msgstr ""
+"Questa potente funzione consente di salvare tutte le impostazioni del <span "
+"class=\"ui\">MENU INFERIORE</span> + tipo di carattere come <b>profilo</b>. "
+"Ciò significa che è possibile avere diversi gruppi di impostazioni per "
+"diverse condizioni o tipi di libri, da applicare in una sola volta invece di "
+"modificare le impostazioni manualmente ogni volta."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2240-5
 msgid "For example you can create:"
-msgstr ""
+msgstr "Ad esempio, è possibile creare:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2243-9
 msgid ""
@@ -4922,6 +4979,9 @@ msgid ""
 "small sized text, <span class=\"ui\">landscape orientation</span> and "
 "minimum <span class=\"ui\">margins</span>"
 msgstr ""
+"<b>Profilo a doppia colonna</b> con <span class=\"ui\">due colonne</span> di "
+"testo di piccole dimensioni, <span class=\"ui\">orientamento orizzontale</"
+"span> e i <span class=\"ui\">margini</span> minimi"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2244-9
 msgid ""
@@ -4929,6 +4989,9 @@ msgid ""
 "span> and higher <span class=\"ui\">contrast</span> for more visible text "
 "under low light"
 msgstr ""
+"Un profilo <b>Lettura notturna</b> con <span class=\"ui\">carattere sans "
+"serif più grande</span> e un maggiore <span class=\"ui\">contrasto</span> "
+"per un testo più visibile in condizioni di scarsa illuminazione"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
 msgid ""
@@ -4936,49 +4999,62 @@ msgid ""
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
 "books"
 msgstr ""
+"Un profilo <b>Stili disattivati</b> con <span class=\"ui\">stile "
+"incorporato</span> e <span class=\"ui\">fonts incorporati</span> "
+"disabilitati per i libri mal strutturati"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2248-5
 msgid ""
 "After adjusting your settings to your liking, you can create a profile from "
 "them via:"
 msgstr ""
+"Dopo aver regolato le impostazioni a proprio piacimento, è possibile creare "
+"un profilo tramite queste impostazioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2250-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles / New with current document settings"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Profili / Nuovo colle impostazioni del documento "
+"corrente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2252-5
 msgid ""
 "After creating a profile with your settings, you have many options for "
 "applying it to another book:"
 msgstr ""
+"Dopo aver creato un profilo con le vostre impostazioni, avete molte opzioni "
+"per applicarlo a un altro libro:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2254-9
 msgid ""
 "You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
 msgstr ""
+"È possibile applicare il profilo dal menu <span class=\"ui\">Profili</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2255-9
 msgctxt "user_guide/en.html+html.body.div.ul.li:2255-9"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "È possibile assegnare un gesto ad esso"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2256-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "È possibile mostrarlo nel <span class=\"ui\">menu rapido</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2259-5
 msgid ""
 "Click here to go to the <a href=\"#L1-qmandprofiles\">QUICK MENU AND "
 "PROFILES</a> section of the guide."
 msgstr ""
+"Fare clic qui per accedere alla sezione <a href=\"#L1-qmandprofiles\">MENU "
+"RAPIDO E PROFILI</a> della guida."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2261-1
 msgctxt "user_guide/en.html+html.body.div.div:2261-1"
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Utilizzare i propri font"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2263-5
 msgid ""
@@ -4988,6 +5064,12 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/wiki/Fonts\">our wiki</a> for "
 "more info."
 msgstr ""
+"KOReader supporta i font nei formati TrueType (.ttf) e OpenType (.otf) più "
+"diffusi. I file di font con queste estensioni possono essere copiati "
+"direttamente nella cartella <span class=\"ui\">/koreader/fonts/</span> del "
+"dispositivo. Consultate <a href="
+"\"https://github.com/koreader/koreader/wiki/Fonts\">il nostro wiki</a> per "
+"maggiori informazioni."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2265-5
 msgid ""
@@ -4998,6 +5080,13 @@ msgid ""
 "from metadata, font names are not important when copying to your device. "
 "Installed fonts will be available after restarting KOReader.</b>"
 msgstr ""
+"All'avvio, KOReader compila i font disponibili dai <b>metadati/info dei "
+"font</b> e li classifica in base alla famiglia e ai pesi. Ciò significa che "
+"potete aggiungere diversi pesi e varianti di un carattere e KOReader "
+"cercherà di utilizzare quello più adatto. <b>Poiché le informazioni sulla "
+"famiglia di font vengono ricavate dai metadati, i nomi dei font non sono "
+"importanti durante la copia sul dispositivo. I font installati saranno "
+"disponibili dopo il riavvio di KOReader.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2267-5
 msgid ""
@@ -5005,42 +5094,45 @@ msgid ""
 "more of them on the <a href=\"https://fonts.google.com\">Google Fonts</a> "
 "website:"
 msgstr ""
+"Ecco alcuni esempi di font che si presentano bene su uno schermo e-ink. È "
+"possibile trovarne altri sul sito web <a href=\"https://fonts.google.com\""
+">Google Fonts</a>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2268-5
 msgid "Serif:"
-msgstr ""
+msgstr "Serif:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2270-9
 msgid "Spectral"
-msgstr ""
+msgstr "Spectral"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2271-9
 msgid "Vollkorn"
-msgstr ""
+msgstr "Vollkorn"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2272-9
 msgid "EB Garamond"
-msgstr ""
+msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2275-5
 msgid "Sans Serif:"
-msgstr ""
+msgstr "Sans Serif:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2277-9
 msgid "Varela Round"
-msgstr ""
+msgstr "Varela Round"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2278-9
 msgid "Wix Madefor Text"
-msgstr ""
+msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2279-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (font della guida utente che state leggendo)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2282-5
 msgid "Monospace:"
-msgstr ""
+msgstr "Monospace:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2283-5
 msgid ""
@@ -5049,6 +5141,10 @@ msgid ""
 "find and compare many monospace fonts at <a href=\"https://www."
 "programmingfonts.org/\">programmingfonts.org</a>"
 msgstr ""
+"Se avete intenzione di utilizzare il vostro font monospaziale, probabilmente "
+"ne avete già uno preferito, quindi non vi offriamo alcun esempio in questa "
+"sede. Ma è possibile trovare e confrontare molti font monospaziali su <a "
+"href=\"https://www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2285-2
 msgid ""
@@ -5058,16 +5154,24 @@ msgid ""
 "ligatures and character sets in non-Latin scripts like Greek, Hebrew or "
 "Chinese. You can access this feature via:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> KOReader può generare un documento "
+"con un esempio di testo reso con tutti i font installati sul dispositivo. "
+"Ciò consente di confrontare rapidamente l'aspetto e le caratteristiche dei "
+"font, come le legature e i set di caratteri in scritture non latine come il "
+"greco, l'ebraico o il cinese. È possibile accedere a questa funzione tramite:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2287-3
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Generate font test document"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Carattere / Impostazioni carattere / Genera "
+"documento di prova dei caratteri"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2292-1
 msgid "Monospace font scale"
-msgstr ""
+msgstr "Scala dei caratteri Monospace"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2294-5
 msgid ""
@@ -5077,22 +5181,34 @@ msgid ""
 "metrics. KOReader has an option that allows you to adjust the relative "
 "Monospace font size to fix this difference:"
 msgstr ""
+"Se il libro include parti con font <b>Monospace</b> (come nei libri di "
+"programmazione), il testo Monospace potrebbe apparire sproporzionato anche "
+"se tecnicamente ha le stesse dimensioni del resto del libro. Ciò è dovuto "
+"alla diversa metrica dei caratteri. KOReader ha un'opzione che consente di "
+"regolare la dimensione relativa dei caratteri Monospace per correggere "
+"questa differenza:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2296-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Carattere / Impostazioni carattere / Scala dei "
+"caratteri a larghezza fissa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2298-5
 msgid ""
 "Here you can increase or decrease the size of your Monospace font by "
 "adjusting its scaling as a percentage of the default size."
 msgstr ""
+"Qui è possibile aumentare o diminuire le dimensioni del font Monospace, "
+"regolando il suo ridimensionamento in percentuale rispetto alle dimensioni "
+"predefinite."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2302-1
 msgid "Using different fonts in one document"
-msgstr ""
+msgstr "Utilizzo di font diversi in un documento"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2304-5
 msgid ""
@@ -5106,12 +5222,24 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
+"Nei documenti basati su HTML/CSS, come gli EPUB, i libri possono specificare "
+"di usare i font per famiglia invece di un nome di font specifico. Queste "
+"famiglie possono essere <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, "
+"Emoji, Fang Song e Math</b>. Ad esempio, in un libro, il testo normale può "
+"essere visualizzato in <b>Sans-serif</b> mentre i dialoghi sono visualizzati "
+"in carattere <b>Serif</b>. KOReader utilizza normalmente il font predefinito "
+"per tutte queste famiglie, ad eccezione di <b>Monospace</b>. e <b>Math</b> ("
+"che è determinato dallo stile dei nodi di testo, per esempio <b>'font-family:"
+" serif'</b>). Se si desidera che queste famiglie abbiano un aspetto "
+"distinto, è possibile assegnare loro font specifici:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2306-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Carattere / Caratteri della famiglia di caratteri"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2308-5
 msgid ""
@@ -5121,10 +5249,16 @@ msgid ""
 "where your default font is hardly used, you can disable that family font for "
 "this book by unchecking the association."
 msgstr ""
+"Per cambiare il font di una famiglia per il libro corrente è sufficiente "
+"toccare il nome del font desiderato. Se si desidera impostarla per tutti i "
+"libri, toccare a lungo per impostarla come <b>default (★)</b>. Se un libro "
+"abusa di questa funzione di famiglia di font al punto che il font "
+"predefinito è poco utilizzato, è possibile disabilitare la famiglia di font "
+"per questo libro deselezionando l'associazione."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2314-1
 msgid "Changing font quickly"
-msgstr ""
+msgstr "Cambiare rapidamente il carattere"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2316-2
 msgid ""
@@ -5137,12 +5271,23 @@ msgid ""
 "open your font selection menu and change the font like shown in the image "
 "below:"
 msgstr ""
+"Se si passa frequentemente da un font all'altro (ad esempio <b>monospace</b> "
+"per i libri di programmazione e <b>serif</b> per i romanzi), esiste una "
+"soluzione che semplifica l'operazione rispetto all'accesso al menu ogni "
+"volta. È possibile creare profili per i font e per tutte le impostazioni "
+"relative ai font, come <span class=\"ui\">interlinea, contrasto, grassetto</"
+"span>, ecc. e aggiungere questi profili a un <span class=\"ui\">Menu rapido</"
+"span>. In questo modo, con un solo gesto è possibile aprire il menu di "
+"selezione dei caratteri e cambiare il carattere, come mostrato nell'immagine "
+"seguente:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2320-5
 msgid ""
 "Check the <a href=\"#qmandprofiles\">QUICK MENU AND PROFILES</a> section of "
 "this guide to learn how to do this."
 msgstr ""
+"Per sapere come fare, consultare la sezione <a href=\"#qmandprofiles\">MENU "
+"RAPIDO E PROFILI</a> di questa guida."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2325-1
 #, fuzzy
