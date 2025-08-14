@@ -169,8 +169,6 @@ msgid "EXTERNAL APPS (PURPLE)"
 msgstr "EXTERNE APPS (PAARS)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:881-13
-#, fuzzy
-#| msgid "Calibre, Readwise, KoHighlights…"
 msgid "Calibre, Readwise, KoHighlights..."
 msgstr "Calibre, Readwise, KoHighlights…"
 
@@ -475,7 +473,7 @@ msgstr "Bestandsverkennergebruik"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1006-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1006-5"
 msgid "Viewing other file types"
-msgstr "Andere bestandstypen bekijken"
+msgstr "Andere bestandstypes bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1007-5
 msgid "Collections <span class=\"microns\"></span>"
@@ -686,18 +684,12 @@ msgid "Adjust the appearance of text as you wish"
 msgstr "De tekstweergave aanpassen zoals je wilt"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1081-9
-#, fuzzy
-#| msgid ""
-#| "Change fonts (including your own), font size, contrast, boldness, "
-#| "kerning, word spacing, word expansion, text alignment, line spacing, "
-#| "column layout, margins… <a href=\"#L1-customizingappearance\" "
-#| "class=\"internalink\"></a>"
 msgid ""
 "Change fonts (including your own), font size, contrast, boldness, kerning, "
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
-"Wijzig lettertypes (inclusief je eigen), lettergrootte, contrast, dikte, "
+"Wijzig lettertypes (inclusief je eigen), lettergrootte, contrast, vetheid, "
 "spatiëring tussen letters, woordafstand, woorduitbreiding, tekstuitlijning, "
 "regelafstand, kolomindeling, marges… <a href=\"#L1-customizingappearance\" "
 "class=\"internalink\"></a>"
@@ -708,9 +700,7 @@ msgid ""
 "your own ones to change how your books are rendered precisely <a href=\"#L2-"
 "styletweaks\" class=\"internalink\"></a>"
 msgstr ""
-"Gebruik de inbegrepen krachtige <span class=\"ui\">stijlaanpassingen</span> "
-"of schrijf uw eigen om precies te wijzigen hoe uw boeken worden weergegeven "
-"<a href=\"#L2-styletweaks\" class=\"internalink\"></a>"
+"Gebruik de krachtige <span class=\"ui\">stijlaanpassingen</span> of schrijf je eigen aanpassingen om precies te bepalen hoe je boeken worden weergegeven <a href=\"#L2-styletweaks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1085-9
 msgid ""
@@ -724,9 +714,7 @@ msgstr ""
 msgid ""
 "Adjust your frontlight color warmth automatically <a href=\"#L2-autowarmth\" "
 "class=\"internalink\"></a>"
-msgstr ""
-"Pas de lichtkleur warmte automatisch aan <a href=\"#L2-autowarmth\" "
-"class=\"internalink\"></a>"
+msgstr "Pas de warmte van de verlichting automatisch aan <a href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1090-1
 msgid "Take notes and make highlights while reading"
@@ -1033,7 +1021,7 @@ msgstr "Snijd marges automatisch of handmatig bij"
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
 msgstr ""
-"<b>Herindeling</b> van documenten om tekst te extraheren en gemakkelijker te "
+"<b>Herschikking</b> van documenten om tekst te extraheren en gemakkelijker te "
 "lezen op een klein scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1171-9
@@ -2368,7 +2356,7 @@ msgid ""
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
 "En je een ingezoomde weergave die niet 100% is (kolom, rij of handmatig), of "
-"in de <span class=\"ui\">herindelingsmodus</span> bent"
+"in de <span class=\"ui\">herschikkingsmodus</span> bent"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
@@ -2738,46 +2726,27 @@ msgstr ""
 "gids."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1674-9
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">NAVIGATION:</span> This menu contains items that "
-#| "allows you to navigate the book you are currently reading. <b>Table of "
-#| "contents, bookmarks, book map…</b>"
 msgid ""
 "<span class=\"ui\">NAVIGATION:</span> This menu contains items that allows "
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
-"<span class=\"ui\">NAVIGATIE:</span> Dit menu bevat items waarmee je kunt "
-"navigeren in het boek dat je momenteel leest. <b>Inhoudsopgave, bladwijzers, "
-"boekkaart…</b>"
+"<span class=\"ui\">NAVIGATIE:</span> Dit menu bevat items waarmee je kunt navigeren in het boek dat je momenteel leest. <b>Inhoudsopgave, bladwijzers, boekkaart…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1676-9
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">TYPESETTING:</span> This menu contains items that "
-#| "allows you to change the appearance of your book. <b>Font settings, style "
-#| "tweaks…</b>"
 msgid ""
 "<span class=\"ui\">TYPESETTING:</span> This menu contains items that allows "
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
-"<span class=\"ui\">OPMAAK:</span> Dit menu bevat items waarmee je het "
-"uiterlijk van je boek kunt wijzigen. <b>Lettertype-instellingen, "
-"stijlaanpassingen…</b>"
+"<span class=\"ui\">OPMAAK:</span> Dit menu bevat items waarmee je het uiterlijk van je boek kunt wijzigen. <b>Lettertype-instellingen, stijlaanpassingen…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1678-9
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">SETTINGS:</span> This menu contains settings for "
-#| "KOReader and your device. <b>E-ink, light, gesture settings…</b>"
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
-"<span class=\"ui\">INSTELLINGEN:</span> Dit menu bevat instellingen voor "
-"KOReader en je apparaat. <b>E-ink, verlichting, gebareninstellingen…</b>"
+"<span class=\"ui\">INSTELLINGEN:</span> Dit menu bevat instellingen voor KOReader en je apparaat. <b>E-ink, verlichting, gebareninstellingen…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1680-9
 msgid ""
@@ -2788,17 +2757,11 @@ msgstr ""
 "functionaliteit van KOReader kunnen uitbreiden."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1682-9
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">SEARCH:</span> This menu contains items related to "
-#| "search and lookup. <b>Text search, dictionary, translation, Wikipedia…</b>"
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
-"<span class=\"ui\">ZOEKEN:</span> Dit menu bevat items met betrekking tot "
-"zoeken en opzoeken. <b>Tekstzoekopdracht, woordenboek, vertaling, Wikipedia…"
-"</b>"
+"<span class=\"ui\">ZOEKEN:</span> Dit menu bevat items met betrekking tot zoeken en opzoeken. <b>Tekstzoekopdracht, woordenboek, vertaling, Wikipedia…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1684-9
 msgid ""
@@ -3090,14 +3053,13 @@ msgstr ""
 "van het bestandstype dat je opent. Er zijn twee hoofdcategorieën documenten:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1777-4
-#, fuzzy
 #| msgid "<b>Fixed layout documents</b> (pdf, djvu, image files…)"
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
 msgstr "<b>Vaste lay-out documenten</b> (pdf, djvu, afbeeldingsbestanden…)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1778-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr "<b>Herindelbare documenten</b> (epub, html, docx, rtf, txt…)."
+msgstr "<b>Herschikbare documenten</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1781-5
 msgid ""
@@ -3276,6 +3238,10 @@ msgid ""
 "presents you a screen that looks like our <span class=\"ui\">File Browser</"
 "span>. If you want to create a new folder while choosing:"
 msgstr ""
+"<b>Nieuwe mappen maken – </b>Wanneer je een locatie moet kiezen "
+"(cloudopslag, verplaatsen naar archief-plugin, exportplugin), toont "
+"KOReader een scherm dat lijkt op onze <span class=\"ui\">Bestandsverkenner</span>. "
+"Wil je tijdens het kiezen een nieuwe map maken:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1834-17
 msgid ""
@@ -4212,7 +4178,6 @@ msgstr ""
 "zijn. Probeer beide en gebruik wat je prettig vindt."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2088-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2088-1"
 msgid "Table of Contents Tools"
 msgstr "Hulpmiddelen voor de inhoudsopgave"
@@ -4264,7 +4229,7 @@ msgstr ""
 "omdat hiervoor HTML-tags nodig zijn om een ToC te maken. De functies <span "
 "class=\"ui\">Aangepaste inhoudsopgave</span> en <span "
 "class=\"ui\">Aangepaste verborgen stromen</span> zijn beschikbaar voor alle "
-"bestandstypen."
+"bestandstypes."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
@@ -4280,7 +4245,6 @@ msgstr ""
 "span>, te vinden via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2106-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
@@ -6689,10 +6653,9 @@ msgid "READING PDFS"
 msgstr "PDF'S LEZEN"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2843-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2843-1"
 msgid "Reading large PDFs on a small screen"
-msgstr "Grote PDF's lezen op een klein scherm"
+msgstr "Grote pdf’s lezen op een klein scherm"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2844-5
 msgid ""
@@ -6706,16 +6669,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2849-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
-msgstr "<b>1. Schakel </b><span class=\"ui\">Herindeling</span> <b>in</b>"
+msgstr "<b>1. Schakel </b><span class=\"ui\">Herschikking</span> <b>in</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2851-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
-msgstr ""
-"ONDERMENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Herindeling"
+msgstr "ONDERMENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" style=\"width:22px;\"> / Herschikking"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2853-5
 msgid ""
@@ -6724,7 +6684,7 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
-"Herindeling probeert de tekst (als beschikbaar) te extraheren en opnieuw als "
+"Herschikkig probeert de tekst (als beschikbaar) te extraheren en opnieuw als "
 "één kolom op te maken. Resultaten zijn meestal prima. Je kunt dit ook als "
 "<b>standaard</b> instellen door lang te tikken."
 
@@ -6733,36 +6693,26 @@ msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
 msgstr "<b>2. Schakel</b> <span class=\"ui\">Zoom op inhoud</span> <b>in</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2859-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
-msgstr ""
-"ONDERMENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:22px;\"> /"
+msgstr "ONDERMENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2864-5
-#, fuzzy
 msgid ""
 "With this option KOReader tries to crop margins from your document so text "
 "can look bigger on your screen. You can set <span class=\"ui\">fit</span> to "
 "<span class=\"ui\">width</span> in the same menu which will try to fit only "
 "page width instead of whole page, so your text will look bigger."
 msgstr ""
-"Met deze optie probeert KOReader marges weg te snijden zodat tekst groter "
-"wordt. Je kunt in hetzelfde menu <span class=\"ui\">passen</span> op <span "
-"class=\"ui\">breedte</span> zetten zodat alleen de paginabreedte wordt benut "
-"en tekst maximaal groot wordt."
+"Met deze optie probeert KOReader marges weg te snijden zodat tekst groter oogt. Je kunt in hetzelfde menu <span class=\"ui\">Passen</span> op <span class=\"ui\">Breedte</span> zetten, zodat alleen de paginabreedte wordt benut en tekst groter wordt."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2868-5
-#, fuzzy
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
-msgstr ""
-"<b>3. Probeer je apparaat in </b><span class=\"ui\">Liggende stand</span> "
-"<b>te gebruiken</b>"
+msgstr "<b>3. Probeer je apparaat in </b><span class=\"ui\">Liggende stand</span> te gebruiken"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
 msgid ""
@@ -6792,14 +6742,11 @@ msgstr ""
 "class=\"ui\">kolommodus</span> in via dit menu-item:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2881-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2881-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
-msgstr ""
-"ONDERMENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:22px;\"> /"
+msgstr "ONDERMENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2883-5
 msgid ""
@@ -7428,7 +7375,7 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
-"Wil je dit met bestandstypen zoals EPUB, FB2, HTML of losse afbeeldingen "
+"Wil je dit met bestandstypes zoals EPUB, FB2, HTML of losse afbeeldingen "
 "gebruiken, open het dan met een andere engine: lang tik op de bestandsnaam "
 "in de <span class=\"ui\">Bestandsverkenner</span>, tik <span "
 "class=\"ui\">Openen met…</span> en kies <span class=\"ui\">MuPDF</span>."
@@ -7517,6 +7464,7 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
+"Bestandstypes zoals MOBI en EPUB zijn minder geschikt voor vooral beeldinhoud (bijv. manga/strips). Ondersteuning voor <b>MOBI</b> in KOReader is minimaal tot afwezig, en de prioriteit van tekstweergave in <b>EPUB</b> kan problemen geven bij paginagrote afbeeldingen. Zie voor technische details dit <a href=\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\">GitHub‑issue</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3080-5
 msgid ""
@@ -7889,7 +7837,6 @@ msgstr ""
 "omslagafbeelding</b>, te kiezen in een volgende dialoog."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3193-5
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> Be very careful when using the "
 "<span class=\"ui\">reset</span> dialog and double check which items are "
@@ -7907,7 +7854,7 @@ msgid ""
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
 "<span class=\"ui\">OPENEN MET:</span> KOReader heeft verschillende engines "
-"voor verschillende bestandstypen. Soms kun je een bestand met een andere "
+"voor verschillende bestandstypes. Soms kun je een bestand met een andere "
 "engine openen voor extra functies. Zie de secties <b>Archiefbestanden "
 "bekijken</b> en <b>Afbeeldingsbestanden bekijken</b> hieronder."
 
@@ -8190,7 +8137,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3258-1
 msgctxt "user_guide/en.html+html.body.div.div:3258-1"
 msgid "Viewing other file types"
-msgstr "Andere bestandstypen bekijken"
+msgstr "Andere bestandstypes bekijken"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3262-1
 msgid "Viewing text files"
@@ -8435,7 +8382,7 @@ msgid ""
 "Browser</span> then choose a provider engine to handle this file. You can "
 "check:"
 msgstr ""
-"Je kunt ook bestandsassociaties instellen voor bestandstypen die KOReader "
+"Je kunt ook bestandsassociaties instellen voor bestandstypes die KOReader "
 "niet automatisch herkent. Om een bestand aan een van de KOReader-providers "
 "te koppelen, houd je het bestand eerst lang ingedrukt in de <span "
 "class=\"ui\">Bestandsverkenner</span> en kies je vervolgens een provider-"
@@ -8465,7 +8412,7 @@ msgid ""
 "<span class=\"ui\">View defaults for file types</span>"
 msgstr ""
 "In hetzelfde dialoogvenster kun je de gemaakte associaties bekijken via "
-"<span class=\"ui\">Standaarden voor bestandstypen bekijken</span>"
+"<span class=\"ui\">Standaarden voor bestandstypes bekijken</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
@@ -9152,20 +9099,13 @@ msgstr "Het lettertype en contrast vergroot en"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3510-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3510-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "Schakel het schermlicht in"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3513-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.p:3513-9"
 msgid ""
 "With the profiles plugin, you can do all these at once with a single action."
-msgstr ""
-"Met de plug-in Profielen kun je dit alles in één keer doen met een enkele "
-"actie.When you tap on <span class=\"ui\">Edit actions</span> menu item you "
-"will see the menu on the right. This is the same menu as the gesture "
-"selection menu and there are actions in many categories. Which means you can "
-"perform any <span class=\"ui\">Gesture</span> action using a <span "
-"class=\"ui\">Profile</span>."
+msgstr "Met de plugin Profielen kun je dit allemaal in één keer doen met één actie."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3515-9
 msgid ""
@@ -9823,7 +9763,6 @@ msgstr ""
 "style=\"width:22px;\"> / Gebarenbeheer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3722-5
-#, fuzzy
 msgid "CORNER TAP"
 msgstr "TIK IN HOEKEN"
 
@@ -9852,14 +9791,13 @@ msgid "<b>Right Side</b> > Go +10 pages"
 msgstr "<b>Rechterkant</b> > Ga +10 pagina's"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3736-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3736-5"
 msgid "ONE FINGER SWIPE"
 msgstr "VEGEN MET ÉÉN VINGER"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3737-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr "<b>↑ ↓ ↑</b> - Previous chapter"
+msgstr "<b>Korte diagonale veeg</b> > Volledig scherm verversen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3738-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
@@ -9902,7 +9840,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - Lichtdialoog tonen
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
 msgstr ""
-"<span style=\"font-family: microns;\"></span> - Herindeling schakelen"
+"<span style=\"font-family: microns;\"></span> - Herschikking schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
@@ -9989,11 +9927,11 @@ msgstr "Bestandsverkenner"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3778-17
 msgid "Open previous document"
-msgstr "USB-opslag starten"
+msgstr "Vorig document openen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3779-17
 msgid "History"
-msgstr "Slapen"
+msgstr "Geschiedenis"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3780-17
 msgid "History search"
@@ -10044,11 +9982,11 @@ msgstr "Kladblokbestand"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3791-17
 msgid "Screenshot"
-msgstr "Aanraakinvoer schakelen"
+msgstr "Schermafbeelding"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3792-17
 msgid "Show ephemeris"
-msgstr "Toetsherhaling schakelen"
+msgstr "Efemeriden tonen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
 msgid "Calibre metadata search"
@@ -10116,7 +10054,7 @@ msgstr "Wallabag ophalen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
 msgid "Wallabag queue upload"
-msgstr ""
+msgstr "Wallabag-wachtrij uploaden"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3810-17
 msgid "Wallabag statuses upload"
@@ -10132,15 +10070,15 @@ msgstr "SSH-server schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3814-17
 msgid "Statistics calendar view"
-msgstr "Versnelllingsmeter schakelen"
+msgstr "Statistieken: kalenderweergave"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3815-17
 msgid "Statistics today’s timeline"
-msgstr "Draaien"
+msgstr "Statistieken: tijdlijn van vandaag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3816-17
 msgid "Synchronize book statistics"
-msgstr "Draairichting schakelen"
+msgstr "Boekstatistieken synchroniseren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3820-9
 msgid "Device"
@@ -10365,7 +10303,7 @@ msgstr "Automatische warmte: door modi bladeren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3888-9
 msgid "Reflowable documents"
-msgstr "Herindeelbare documenten"
+msgstr "Herschikbare documenten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
 msgid "Font face"
@@ -10769,7 +10707,7 @@ msgstr "Bladwijzer-ombladeren schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Toggle reflow"
-msgstr "Herindeling schakelen"
+msgstr "Herschikking schakelen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Zoom mode"
@@ -10822,11 +10760,11 @@ msgstr "Richting"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4011-17
 msgid "View mode"
-msgstr ""
+msgstr "Weergavemodus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4012-17
 msgid "Page gap"
-msgstr ""
+msgstr "Ruimte tussen pagina’s"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4013-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4013-17"
@@ -12439,7 +12377,6 @@ msgid "You can enable/disable them via:"
 msgstr "Je kunt ze in- of uitschakelen via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4592-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4592-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
@@ -12466,17 +12403,13 @@ msgstr ""
 "van KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4603-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:4603-13"
 msgid ""
 "They have to be installed <b>manually</b> and then activated from the "
 "plugins menu."
-msgstr ""
-"Ze moeten <b>handmatig</b> worden geïnstalleerd en daarna via het plug-"
-"inmenu worden geactiveerd."
+msgstr "Ze moeten <b>handmatig</b> worden geïnstalleerd en daarna via het pluginmenu worden geactiveerd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4604-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:4604-13"
 msgid "They should be updated <b>manually</b>."
 msgstr "Ze moeten <b>handmatig</b> worden bijgewerkt."
@@ -12519,45 +12452,28 @@ msgstr ""
 "Dit zijn plugins die onafhankelijk van het KOReader-team worden ontwikkeld."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4619-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:4619-13"
 msgid ""
 "They have to be installed <b>manually</b> and then activated from the "
 "plugins menu."
-msgstr ""
-"Ze moeten <b>handmatig</b> worden geïnstalleerd en vervolgens via het plug-"
-"inmenu worden geactiveerd.<span class=\"external\">Anki plugin for KOReader:"
-"</span> KOReader plugin enabling <span class=\"external\">Anki</span> (an "
-"open-source flashcard software) card generations for words looked up in the "
-"internal dictionary. <a href=\"https://github.com/Ajatt-Tools/anki."
-"koplugin\">https://github.com/Ajatt-Tools/anki.koplugin</a>"
+msgstr "Ze moeten <b>handmatig</b> worden geïnstalleerd en vervolgens via het pluginmenu worden geactiveerd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4620-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:4620-13"
 msgid "They should be updated <b>manually</b>."
-msgstr ""
-"Ze moeten <b>handmatig</b> worden bijgewerkt.<span class=\"external\">Zotero "
-"for KOReader:</span> This addon allows you to browse your <span "
-"class=\"external\">Zotero</span> (an open-source reference management "
-"software) collections from KOReader. <a href=\"https://github.com/stelzch/"
-"zotero.koplugin\">https://github.com/stelzch/zotero.koplugin</a>"
+msgstr "Ze moeten <b>handmatig</b> worden bijgewerkt."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4621-13
 msgid ""
 "They are <b>NOT</b> checked by our developers so be aware that there might "
 "be risks using them."
-msgstr ""
+msgstr "Ze worden <b>NIET</b> door onze ontwikkelaars gecontroleerd, dus wees je ervan bewust dat het gebruik ervan risico’s kan meebrengen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4624-9
-#, fuzzy
 msgid ""
 "Some notable examples of these external plugins with links to their GitHub "
 "pages:"
-msgstr ""
-"Enkele opvallende voorbeelden van deze externe plugins met links naar hun "
-"GitHub-pagina's:<b> Export highlights </b> - Export highlights and notes to "
-"local files or to Joplin (a note taking application)"
+msgstr "Enkele opmerkelijke voorbeelden van deze externe plugins met links naar hun GitHub-pagina’s:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4626-13
 msgid ""
@@ -13490,7 +13406,7 @@ msgid ""
 "style=\"width:22px;\"> / More Tools / Battery Statistics"
 msgstr ""
 "BOVENMENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Meer hulpprogramma’s / Batterijstatistieken"
+"style=\"width:22px;\"> / Meer hulpmiddelen / Batterijstatistieken"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-9
 msgid "Checking detailed device statistics"
@@ -14361,7 +14277,7 @@ msgid ""
 "Clear caches"
 msgstr ""
 "BOVENMENU (in Bestandsverkenner) / <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:22px;\"> / Meer hulpprogramma’s / "
+"top_tools.svg\" style=\"width:22px;\"> / Meer hulpmiddelen / "
 "Ontwikkelaarsopties / Caches wissen"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5083-5
