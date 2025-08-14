@@ -4902,50 +4902,50 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Synchronizácia môjho priebehu čítania nesynchronizuje môj priebeh</div>
+<div class="L3-Smaller-heading">Môj doplnok Progress Sync nesynchronizuje môj priebeh čítania</div>
 
-        <p> This might be caused by the <span class="ui">Write highlights into PDF</span> feature of KOReader if you enabled it. Saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class="ui">Progress Sync</span> plugin's settings, change the <span class="ui">Document matching method</span> to <span class="ui">Filename</span> instead of the default <span class="ui">Binary</span> matching:</p>
+        <p> Môže to byť spôsobené funkciou <span class="ui">Zapisovať zvýraznenia do PDF</span> v programe KOReader, ak ste ju povolili. Uloženie zvýraznení PDF zmení váš súbor, takže synchronizácia zlyhá. Ak plánujete používať obe funkcie, v nastaveniach doplnku <span class="ui">Progress Sync</span> zmeňte metódu <span class="ui">zhody dokumentov</span> na <span class="ui">Názov súboru</span> namiesto predvolenej metódy <span class="ui">Binárne</span>:</p>
 
-        <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Progress sync / Document matching method</div>
+        <div class="menu-breadcrumbs">VRCHNÉ MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Synchronizácia priebehu / Metóda porovnávania dokumentov</div>
 
 
-<div class="L3-Smaller-heading">My book is slow</div>
+<div class="L3-Smaller-heading">Moja kniha je pomalá</div>
 
-    <p> KOReader is optimized to work fast even on the limited hardware of e-book readers. Generally thousand page books can be opened in seconds and page turning is immediate. Here we will talk about the reasons if your book feels very slow when opening, page turning or adjusting its appearance.</p>
+    <p> KOReader je optimalizovaný tak, aby fungoval rýchlo aj na obmedzenom hardvéri čítačiek elektronických kníh. Vo všeobecnosti možno tisíc-stranové knihy otvoriť v priebehu niekoľkých sekúnd a otáčanie strán je okamžité. Tu si povieme o dôvodoch, prečo je vaša kniha pri otváraní, otáčaní strán alebo úprave vzhľadu veľmi pomalá.</p>
 
-    <p><b>If the problematic book is a PDF:</b></p>
+    <p><b>Ak je problematická kniha formátu PDF:</b></p>
     <ul>
-        <li>PDF file itself might be <b>too big for your device memory</b>.</li>
-        <li>PDF file <b>might contain very large image files</b>. Even in documents with a normal text layer (which you can select and highlight) there might be another image layer embedded (generally a scan of the page). This slows down the opening and page turning because these large images has to be rescaled to fit on your screen and this process can be CPU intensive.</li>
-        <li>PDF file might have <b>lots of individual elements</b> that needs precise positioning, like a magazine page with lots of images and text boxes. In this case KOReader has to calculate and draw all these elements which can take time.</li>
-        <li><span class="ui">Auto straighten</span> feature (which allows you to adjust the tilt of the page) might also slow down your reader.</li>
-        <li>If you set your <span class="ui">RENDER QUALITY</span> to <span class="ui">HIGH</span> while <span class="ui">REFLOW</span> is <b>ON</b>, text will be more pleasing but it can be much slower (up to several seconds per page turn) than <span class="ui">DEFAULT</span> depending on your document.
+        <li>Samotný PDF súbor môže byť <b>príliš veľký pre pamäť vášho zariadenia</b>.</li>
+        <li>Súbor PDF <b>môže obsahovať veľmi veľké obrazové súbory</b>. Dokonca aj v dokumentoch s normálnou textovou vrstvou (ktorú môžete vybrať a zvýrazniť) môže byť vložená ďalšia obrazová vrstva (zvyčajne sken strany). To spomaľuje otváranie a otáčanie stránok, pretože tieto veľké obrázky musia byť zmenené tak, aby sa zmestili na vašu obrazovku a tento proces môže byť výkonovo náročný pre procesor.</li>
+        <li>Súbor PDF môže obsahovať <b>veľa jednotlivých prvkov</b>, ktoré si vyžadujú presné umiestnenie, napríklad stránku časopisu s množstvom obrázkov a textových polí. V tomto prípade musí KOReader vypočítať a nakresliť všetky tieto prvky, čo môže chvíľu trvať.</li>
+        <li>Čítačku môže spomaliť aj funkcia <span class="ui">Automatické vyrovnanie</span> (ktorá vám umožňuje upraviť naklonenie stránky).</li>
+        <li>Ak nastavíte <span class="ui">KVALITU VYKRESLENIA</span> na <span class="ui">VYSOKÚ</span>, zatiaľ čo <span class="ui">PREFORMÁTOVANIE</span> je <b>ZAPNUTÉ</b>, text bude príjemnejší, ale môže byť oveľa pomalší (až niekoľko sekúnd na otočenie stránky) ako <span class="ui">PREDVOLENÉ</span> v závislosti od vášho dokumentu.
 
             <div class="menu-breadcrumbs">BOTTOM MENU / <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:22px;"> / Render Quality</div>
         </li>
     </ul>
 
 
-    <p><b>If the problematic book is an EPUB:</b></p>
+    <p><b>Ak je problematická kniha formátu EPUB:</b></p>
 
     <ul>
-        <li>EPUB files are basically composed of text and images with some rules to determine how these items are formatted on the screen. In ideal conditions, this is a fairly simple process so EPUB files are generally fast in KOReader. <b>But some EPUB books add a great number of formatting rules that KOReader has to do many calculations just to show even a single sentence.</b> This will slow down opening the book, turning the pages and changing the appearance properties like font weight or line spacing.
+        <li>Súbory EPUB sa v podstate skladajú z textu a obrázkov s určitými pravidlami, ktoré určujú, ako sú tieto položky naformátované na obrazovke. V ideálnych podmienkach je to pomerne jednoduchý proces, takže súbory EPUB sú v KOReaderi vo všeobecnosti rýchle. <b>Niektoré knihy formátu EPUB však pridávajú veľké množstvo pravidiel formátovania, pre ktoré musí KOReader vykonať veľa výpočtov, aby ukázal čo i len jednu vetu. </b> Toto spomalí otváranie knihy, otáčanie strán a zmenu vlastností vzhľadu, ako je hrúbka písma alebo riadkovanie.
 
-        <div class="info"><span class="label_blue">INFO</span> KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will render as reflowable EPUBs and probably won't look nice or readable.</div>
+        <div class="info"><span class="label_blue">INFORMÁCIA</span> KOReader nepodporuje <b>súbory EPUB s pevným rozložením</b>. Otvoria sa, avšak vykreslia sa ako preformátovateľné súbory EPUB a pravdepodobne nebudú vyzerať pekne ani čitateľne.</div>
         </li>
 
-        <li>EPUB files are ZIP archives that contain HTML files. Some books can be a single HTML file while others may be composed of multiple HTML files like each chapter of the book is a separate HTML file. <b>If your book is only a single HTML file, partial rendering can not work.</b> So appearance changes will be slower than the divided chapter books, because for each change, KOReader still has to calculate the whole book instead of only the current chapter.</li>
+        <li>Súbory EPUB sú archívy ZIP, ktoré obsahujú súbory HTML. Niektoré knihy môžu byť jedným súborom HTML, zatiaľ čo iné môžu byť zložené z viacerých súborov HTML, napríklad každá kapitola knihy je samostatný súbor HTML. <b>Ak je vaša kniha iba jedným súborom HTML, čiastočné vykreslenie nebude fungovať. </b> Takže zmeny vzhľadu budú pomalšie ako knihy rozdelené podľa kapitol, pretože pri každej zmene musí KOReader vypočítať celú knihu namiesto len aktuálnej kapitoly.</li>
 
-        <li>Another rare case of slowness is when the content is wrapped in a <b>HTML table tag</b>. KOReader has to render/draw each cell on each page turn, so if a cell (containing many paragraphs) spans 50 pages, this will make page turning quite slow. See below for the solution.</li>
+        <li>Ďalším zriedkavým prípadom spomalenia je, keď je obsah "zabalený" do <b>značky tabuľky HTML</b>. KOReader musí vykresliť/nakresliť každú bunku pri každom otočení stránky, takže ak bunka (obsahujúca veľa odsekov) zaberá 50 strán, otáčanie stránky bude dosť pomalé. Riešenie nájdete nižšie.</li>
     </ul>
 
 
-    <p><b>If everything is slow:</b></p>
+    <p><b>Ak je všetko pomalé:</b></p>
 
-    <p>Reasons mentioned above is generally valid if only some of your books are slow. If all of your books are slow, your problem might be device related:</p>
+    <p>Vyššie uvedené dôvody sú vo všeobecnosti platné, ak sú pomalé iba niektoré z vašich kníh. Ak sú všetky vaše knihy pomalé, problém môže súvisieť s vašim zariadením:</p>
 
     <ul>
-        <li>Very slow CPU or low RAM.</li>
+        <li>Veľmi pomalý procesor alebo málo pamäte RAM.</li>
         <li>Your flash memory (where your books reside) might be degrading, which is generally due to the old age of the device.</li>
         <li>You are running out of storage space.</li>
         <li>If you are using an Android based device, your Android OS might be interfering with the operation of KOReader or some background processes might be using your system resources.</li>
