@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 15:12+0000\n"
-"PO-Revision-Date: 2025-08-14 15:15+0000\n"
+"PO-Revision-Date: 2025-08-14 15:18+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/"
 "user-guide/sk/>\n"
@@ -14037,10 +14037,12 @@ msgid ""
 "Your flash memory (where your books reside) might be degrading, which is "
 "generally due to the old age of the device."
 msgstr ""
+"Vaša interná flash pamäť (kde sú uložené vaše knihy) sa môže časom "
+"zhoršovať, čo je vo všeobecnosti spôsobené vyšším vekom zariadenia."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4961-9
 msgid "You are running out of storage space."
-msgstr ""
+msgstr "Dochádza vám ukladací priestor."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4962-9
 msgid ""
@@ -14048,10 +14050,13 @@ msgid ""
 "interfering with the operation of KOReader or some background processes "
 "might be using your system resources."
 msgstr ""
+"Ak používate zariadenie so systémom Android, váš operačný systém Android "
+"môže zasahovať do prevádzky KOReadera alebo niektoré procesy na pozadí môžu "
+"využívať vaše systémové prostriedky."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4966-5
 msgid "SOLUTIONS:"
-msgstr ""
+msgstr "RIEŠENIA:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4968-5
 msgid ""
@@ -14060,12 +14065,17 @@ msgid ""
 "version of it. Or if another file type is available for download, like EPUB "
 "instead of PDF (or reverse) you can try that format."
 msgstr ""
+"Bohužiaľ, pre zle vytvorené PDF súbory nie je veľa riešení. Vo všeobecnosti "
+"najlepším riešením pre problematické súbory PDF a EPUB je pokúsiť sa nájsť "
+"ich lepšiu verziu. Alebo ak je k dispozícii na stiahnutie iný typ súboru, "
+"napríklad EPUB namiesto PDF (alebo obrátene), môžete tento formát vyskúšať."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4970-5
 msgid ""
 "Following solutions are for EPUB files and they might require advanced "
 "knowledge:"
 msgstr ""
+"Nasledujúce riešenia sú pre súbory EPUB a môžu vyžadovať pokročilé znalosti:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4973-9
 msgid ""
@@ -14074,6 +14084,10 @@ msgid ""
 "(of course, you'll probably lose any nice formatting, but you'll know what "
 "is the culprit)."
 msgstr ""
+"V spodnej ponuke môžete nastaviť <span class=\"ui\">Vložené štýly</span> na "
+"<b>VYPNUTÉ</b>, aby ste zistili, či ignorovanie všetkých šablón so štýlmi "
+"dokumentu nezrýchli (samozrejme, pravdepodobne prídete o pekné formátovanie, "
+"ale budete vedieť, čo je príčina)."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4975-9
 msgid ""
@@ -14082,6 +14096,10 @@ msgid ""
 "complexity by yourself. To do this, you can long-press on some text and "
 "choose <span class=\"ui\">View HTML</span> in the popup menu."
 msgstr ""
+"Ak máte programátorské znalosti HTML a CSS, môžete si HTML a CSS súbory "
+"prezrieť priamo z KOReader a sami posúdiť ich kvalitu alebo zbytočnú "
+"zložitosť. Ak to chcete urobiť, môžete dlho stlačiť nejaký text a v "
+"kontextovej ponuke vybrať možnosť <span class=\"ui\">Zobraziť HTML</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4977-9
 msgid ""
@@ -14089,30 +14107,34 @@ msgid ""
 "above in the problems section, you can add this <span class=\"ui\">table, "
 "tr, td { display:block; }</span> book-specific style tweak to:"
 msgstr ""
+"Ak máte problém <b>„obsah zabalený do tabuľky“</b>, ako je uvedené vyššie v "
+"sekcii problémov, môžete pridať túto <span class=\"ui\">table, tr, td { "
+"display:block; }</span> vylepšenie štýlu špecifického pre knihu na:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4979-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"Táto funkcia vám umožňuje uložiť všetky nastavenia <span "
-"class=\"ui\">SPODNÉHO MENU</span> + typ písma do <b>profilu</b>. To znamená, "
-"že môžete mať rôzne skupiny nastavení pre rôzne podmienky alebo typy kníh, "
-"ktoré môžete použiť naraz namiesto toho, aby ste ich zakaždým menili "
-"manuálne. Môžete napríklad vytvoriť:"
+"VRCHNÉ MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Úpravy štýlu / Úprava špecifická pre knihu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4982-9
 msgid ""
 "<span class=\"external\">Calibre</span>’s e-book editor can check EPUB files "
 "for problems and has tools to fix some of the problems."
 msgstr ""
+"Editor elektronických kníh <span class=\"external\">Calibre</span> dokáže "
+"skontrolovať problémy v súboroch EPUB a má nástroje na odstránenie "
+"niektorých z nich."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4983-9
 msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Program <span class=\"external\">Calibre</span> si môžete stiahnuť <a href="
+"\"https://calibre-ebook.com/\">tu</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4985-9
 msgid ""
@@ -14120,6 +14142,9 @@ msgid ""
 "class=\"external\">Calibre</span> <a href=\"https://manual.calibre-ebook.com/"
 "edit.html#checking-the-book\">here</a>."
 msgstr ""
+"Pokyny k nástroju <b>Check book</b> pre <span class=\"external\">Calibre</"
+"span> nájdete <a href="
+"\"https://manual.calibre-ebook.com/edit.html#checking-the-book\">tu</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4987-9
 msgid ""
