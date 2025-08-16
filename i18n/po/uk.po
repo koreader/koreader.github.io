@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 20:17+0000\n"
-"PO-Revision-Date: 2025-08-15 20:16+0000\n"
+"PO-Revision-Date: 2025-08-16 21:02+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,9 +88,14 @@ msgid ""
 "hosted.weblate.org/projects/koreader/user-guide/\">Weblate translation page</"
 "a> of our project."
 msgstr ""
-"Переглянути усі мови, якими перекладається цей посібник, а також внести свій "
-"внесок у переклад, можна на <a href=\"https://hosted.weblate.org/projects/"
-"koreader/user-guide/\">сторінці Weblate перекладу нашого проекту</a>."
+"Переглянути усі мови, якими перекладається цей посібник, а також зробити "
+"свій внесок у переклад, можна на <a href="
+"\"https://hosted.weblate.org/projects/koreader/user-guide/\">сторінці "
+"Weblate перекладу нашого проекту</a>. При роботі з перекладом просимо "
+"виявляти поміркованість і враховувати, що терміни та назви часто у "
+"однаковому вигляді використовуються у багатьох місцях інтерфейсу та довідки, "
+"що спрощує розуміння та використання програми. Бездумний уривчастий переклад "
+"навряд буде корисним для користувачів."
 
 #: user_guide/en.html%2Bhtml.body.div.p:851-5
 msgid "Overall translation status of the user guide"
@@ -2527,6 +2532,11 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"KOReader має дві панелі стану. <span class=\"ui\">Нижня панель стану</span> "
+"типово увімкнена. Також є <span class=\"ui\">альтернативна панель стану</"
+"span>, яка відображається вгорі сторінки, якщо вона увімкнена. <span class="
+"\"ui\">Альтернативна панель стану</span> доступна лише для документів, що "
+"перекомпоновуються (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2536,6 +2546,12 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"<span class=\"ui\">Нижня панель стану</span> є новішою і вона активно "
+"підтримується розробниками. <span class=\"ui\">Альтернативна панель стану</"
+"span> є залишковою, зі старих версій KOReader, тож до неї не додаються нові "
+"функції. Але <span class=\"ui\">альтернативна панель стану</span> досі "
+"доступна для використання тими, для кого вона є зручною. Її можна увімкнути "
+"тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
 msgid ""
@@ -2550,6 +2566,8 @@ msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"<span class=\"ui\">Альтернативну панель стану</span> можна налаштувати у "
+"цьому меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
@@ -2565,6 +2583,8 @@ msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Інструкції в решті цього розділу стосуються <span class=\"ui\">нижньої "
+"панелі стану</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
 msgid "Configuring the status bar"
@@ -2576,6 +2596,9 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Нижню панель стану можна налаштувати за допомогою цього меню. Дослідіть "
+"підменю <span class=\"ui\">НАЛАШТУВАННЯ</span> та налаштуйте панель стану на "
+"свій смак."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
 msgid ""
@@ -2591,6 +2614,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"У панелі стану можуть відображатися багато елементів. Однак типово в один "
+"момент часу показується лише один і для того, щоб переглянути усі їх по "
+"черзі, слід торкатися панелі стану. Якщо бажаєте, щоб показувалися усі "
+"елементи водночас, увімкніть це тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
 msgid ""
@@ -2608,10 +2635,13 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Якщо увімкнути вищенаведену функцію, панель стану не буде приховуватися "
+"дотиком до неї. Щоб приховувати її потрібно буде призначити жест для дії "
+"приховування/показу панелі стану тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1629-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Меню вибору жестів / Читання / Перемкнути панель стану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1631-5
 msgid "Sorting the status bar items:"
@@ -2629,7 +2659,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1637-1
 msgid "Using \"Custom Text\" item for status bar alignment"
-msgstr ""
+msgstr "Використання елементу «Власний текст» для вирівнювання панелі стану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
 msgid ""
@@ -2645,7 +2675,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Спершу увімкніть цю функцію коротким дотиком до пункту меню"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1645-13
 msgid ""
@@ -2661,16 +2691,22 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Після цього затисніть його знову, щоб відкрити налаштування. У першому полі "
+"впишіть символ <b>пробілу</b>, а в другому полі вкажіть кількість повторень, "
+"яка визначить ширину розділювача."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1651-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"В якості розділювача можна вказати також інший символ. Цей елемент можна "
+"переміщувати так само, як і інші елементи панелі стану, щоб змінити їхній "
+"порядок."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1653-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Смуга поступу читання розділу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1655-5
 msgid ""
@@ -2682,6 +2718,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"<span class=\"ui\">Смуга поступу</span> у <span class=\"ui\">панелі стану</"
+"span> зазвичай показує ваш поступ читання всієї книги. Проте, замість цього "
+"вона може показувати поступ читання <b>поточного розділу</b>. Це може бути "
+"корисним, наприклад, коли книга має багато малих розділів. В такому випадку "
+"може бути важко бачити поступ читання поточного розділу, тож в такому "
+"випадку <span class=\"ui\">смуга поступу читання розділу</span> може бути "
+"більш інформативною. Дану функцію можна увімкнути з цього меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1657-5
 msgid ""
@@ -2698,15 +2741,17 @@ msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"Також можна призначити жест, який буде перемикати звичайну смугу поступу та "
+"смугу поступу читання розділу. Це можна знайти тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1661-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
-msgstr ""
+msgstr "Меню вибору жестів / Читання / Перемкнути смугу поступу читання розділу"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1667-1
 msgctxt "user_guide/en.html+html.body.div.div:1667-1"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Елементи верхнього меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1669-5
 msgid ""
@@ -2714,6 +2759,9 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Тут буде наведено лише огляд елементів у структурі <span class=\"ui\""
+">верхнього меню</span>, щоб надати загальне уявлення про меню. Детальніші "
+"відомості доступні у відповідних розділах цього посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1674-9
 msgid ""
@@ -2721,6 +2769,9 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">НАВІГАЦІЯ:</span> Це меню містить елементи, які "
+"дозволяють переміщуватися книгою, яку ви зараз читаєте. <b>Зміст, закладки, "
+"мапа книги...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1676-9
 msgid ""
@@ -2728,24 +2779,33 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">ВЕРСТКА:</span> Це меню містить елементи, які дозволяють "
+"змінювати вигляд книги. <b>Параметри шрифту, підлаштування стилів...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1678-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">НАЛАШТУВАННЯ:</span> Це меню містить налаштування "
+"KOReader та вашого пристрою. <b>Налаштування е-чорнил, підсвічування, "
+"жестів...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1680-9
 msgid ""
 "<span class=\"ui\">TOOLS:</span> This menu contains plugins that can expand "
 "the functionality of KOReader."
 msgstr ""
+"<span class=\"ui\">ІНСТРУМЕНТИ:</span> Це меню містить модулі, які можуть "
+"розширити функціональність KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1682-9
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
+"<span class=\"ui\">ПОШУК:</span> Це меню містить елементи, які пов'язані з "
+"пошуком і оглядом. <b>Пошук тексту, словник, переклад, Вікіпедія...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1684-9
 msgid ""
@@ -2753,6 +2813,9 @@ msgid ""
 "class=\"ui\">file browser</span> which is the interface for managing your "
 "library."
 msgstr ""
+"<span class=\"ui\">ОГЛЯДАЧ ФАЙЛІВ:</span> Ця кнопка відкриває <span class="
+"\"ui\">Оглядач файлів</span>, який є інтерфейсом для управління вашою "
+"бібліотекою."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1686-9
 msgid ""
@@ -2760,6 +2823,9 @@ msgid ""
 "books like <b>history, favorites, collections</b>. Also <b>book information</"
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
+"<span class=\"ui\">ОСНОВНЕ:</span> Це меню містить такі інструменти для "
+"доступу до книг, як <b>історію, обране, добірки</b>. У цьому меню є також "
+"елементи <b>відомостей про книгу</b>, <b>оновлення</b> та <b>вихід</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1693-1
 msgctxt "user_guide/en.html+html.body.div.div:1693-1"
@@ -2783,6 +2849,13 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">Режим перегляду:</span> Якщо ви перейдете в режим <span "
+"class=\"ui\">безперервного</span> перегляду, тоді зможете переглядати "
+"документ як вебсторінку. Цей режим більше пасує для екранів без е-чорнил ("
+"LCD, OLED). В безперервному режимі <b>ви втрачаєте верхнє і нижнє поля</b>, "
+"тому текст у першому і останньому рядку екрана може бути обрізаним. Щоб "
+"усунути цю проблему, можна увімкнути <span class=\"ui\">Накладення "
+"сторінки</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1702-5
 msgid ""
@@ -2801,6 +2874,12 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">Режим візуалізації:</span> Цей параметр визначає як "
+"KOReader буде візуалізувати документ. Типово використовується <span class="
+"\"ui\">ВЕБ</span> і зазвичай немає необхідності змінювати цей параметр. Коли "
+"книга (або збережена вебсторінка) дуже складна (визначені ширина або поля, "
+"негативні поля, плаваючі поля тощо) і верстка виглядає погано або виходить "
+"за межі екрану, можна спробувати інші режими візуалізації."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1706-5
 msgid ""
@@ -2810,6 +2889,11 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\">Масштаб (dpi):</span> Цей параметр можна вважати "
+"<b>головним фактором масштабування</b> документу (крім розміру шрифту). При "
+"96 dpi (що є типовим значенням) зображення в документі візуалізуються з їх "
+"оригінальними вимірами. Переважно цей параметр використовують для того, щоб "
+"<b>збільшити зображення не збільшуючи текст</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1712-5
 msgid ""
@@ -2820,6 +2904,13 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"<span class=\"ui\">Проміжки між словами і розтягування слів:</span> Ці два "
+"параметри Ці два налаштування пов'язані між собою і визначають, як "
+"виглядатиме ваш текст після верстання. Під час вирівнювання тексту між "
+"словами додаються пробіли, щоб обидва краї кожного рядка були вирівняні з "
+"полями обох країв екрану. Оскільки кількість слів у рядках не завжди "
+"однакова, текст доводиться стискати або розтягувати, щоб рівномірно "
+"заповнити рядок."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1714-5
 msgid ""
@@ -2827,6 +2918,9 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Проміжки між словами:</span> Наскільки символи "
+"<b>пробілу</b> між словами можуть бути стисненими, щоб в рядок помістилося "
+"більше слів. Цей параметр не стосується слів, а тільки простору між ними."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1716-5
 msgid ""
@@ -2835,12 +2929,19 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Розтягування слів:</span> Якщо в рядку завеликі проміжки "
+"між словами, тут визначається скільки з них можна розподілити між словами, "
+"розтягнувши їх. Цей параметр впливає на відображення слів. Якщо ви не "
+"бажаєте, щоб слова розтягувалися, встановіть тут <span class=\"ui\""
+">немає</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1718-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Можна експериментувати з різними параметри доки текст не виглядатиме так, як "
+"вам подобається, після чого встановіть ці налаштування як типові."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1725-5
 msgid ""
@@ -2850,42 +2951,52 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Контраст</span> та <span class=\"ui\">Товщина шрифту</"
+"span> – це дві функції, які можна використовувати, щоб зробити шрифт товщим ("
+"або тоншим). Того ж вигляду можна досягти за допомогою будь-якої з цих "
+"функцій, але вони використовують різні методи для досягнення цього. Звісно "
+"ж, їх обох можна використовувати водночас."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1727-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "Різницю між ними можна підсумувати так:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1730-9
 msgid "CONTRAST"
-msgstr ""
+msgstr "КОНТРАСТ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1732-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
 msgstr ""
+"<b>+</b> Товщина шрифту не змінюється, розмір книги залишається таким же"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1733-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>+</b> Непотрібно повторно візуалізувати документ, швидше"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1734-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
 msgstr ""
+"<b>-</b> Може погано виглядати на LCD-екранах та при низькій роздільній "
+"здатності екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1736-9
 msgid "FONT WEIGHT"
-msgstr ""
+msgstr "ТОВЩИНА ШРИФТУ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
-msgstr ""
+msgstr "<b>+</b> Буде вживати відповідні жирні шрифти, якщо вони є на пристрої"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1739-13
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
 msgstr ""
+"<b>+</b> Краще виглядає на LCD-кранах та при низькій роздільній здатності "
+"екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1740-13
 msgid "<b>-</b> Has to re-render fonts, slower"
-msgstr ""
+msgstr "<b>-</b> Доводиться перемальовувати шрифти, повільніше"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1745-5
 msgid ""
@@ -2898,6 +3009,14 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\">Хінтинг шрифту</span> підлаштовує текст для максимальної "
+"читабельності відповідно до піксельної сітки екрану пристрою. <span class="
+"\"ui\">вбудований</span> використовує вбудовані в шрифти інструкції хінтингу;"
+" <span class=\"ui\">авто</span> використовує алгоритм хінтингу FreeType. "
+"<span class=\"ui\">авто</span> є надійнішим вибором, бо наявні на пристрої "
+"шрифти можуть мати проблемні інструкції хінтингу. До того ж, <span class="
+"\"ui\">авто</span> краще обробляє текст <b>CJK</b>. Можна спробувати різні "
+"варіанти, щоб переконатися який з них краще виглядає на конкретному пристрої."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1747-5
 msgid ""
@@ -2909,6 +3028,14 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"<span class=\"ui\">Кернінг шрифту</span> пристосовує проміжки між літерами "
+"слів, щоб покращити читабельність тексту. Типовим є значення <span class="
+"\"ui\">найкращий</span>, який може бути <b>повільнішим</b> під час відкриття "
+"файлів (залежно від пристрою), але <b>має кращу підтримку лігатур</b> (див. "
+"зображення зі зразком нижче), включаючи <b>арабські</b> символи та деякі "
+"інші скрипти. Якщо пристрій повільний, можна спробувати <span class=\"ui\""
+">хороший</span>, який є швидшим і все ще може виглядати коректно з "
+"написаними західною латиницею текстами."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1756-5
 msgid ""
@@ -2917,6 +3044,10 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
+"<span class=\"ui\">Альтернативна панель стану</span> вмикає відображення "
+"альтернативної панелі стану, яка доступна лише для документів, які "
+"перекомпоновуються (EPUB, HTML, DOCX, RTF, TXT…). Після увімкнення тут, "
+"<span class=\"ui\">альтернативну панель стану</span> можна налаштувати у:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1758-5
 msgctxt "user_guide/en.html+html.body.div.div:1758-5"
@@ -2935,6 +3066,11 @@ msgid ""
 "on/off switches. You can achieve more fine tuned tweaks for your document "
 "via:"
 msgstr ""
+"<span class=\"ui\">Вбудований стиль</span> та <span class=\"ui\">вбудовані "
+"шрифти</span> визначають чи будуть використовуватися (або ігноруватися) для "
+"візуалізації документу вбудовані видавцем у документ стилі та шрифти. Це "
+"загальні перемикачі увімкнення/вимкнення. Тонші підлаштування для документа "
+"можна здійснити за допомогою:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1762-5
 msgid ""
@@ -2950,24 +3086,30 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
+"<span class=\"ui\">Масштабування зображення</span> визначає як будуть "
+"візуалізуватися зображення у документі. <span class=\"ui\">Найкраще</span> "
+"виглядає приємніше, але воно повільніше працює."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1773-1
 msgid "User Interface Tips"
-msgstr ""
+msgstr "Поради щодо інтерфейсу користувача"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1775-5
 msgid ""
 "KOReader’s user interface and options can change depending on the file type "
 "you open. There are two main categories of documents:"
 msgstr ""
+"Інтерфейс користувача KOReader та функції можуть змінюватися залежно від "
+"відкритого типу файлу. Існує дві основні категорії документів:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1777-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
 msgstr ""
+"<b>Документи з фіксованим компонуванням</b> (файли PDF, DJVU, зображення...)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1778-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr ""
+msgstr "<b>Документи, які перекомпоновуються</b> (EPUB, HTML, DOCX, RTF, TXT…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1781-5
 msgid ""
@@ -2976,6 +3118,11 @@ msgid ""
 "items quickly. If you remember the name of a menu item but don't remember "
 "where it is, you can use this feature:"
 msgstr ""
+"KOReader містить багато функцій, тож його система меню відображає цю "
+"комплексність. Програма має функцію <span class=\"ui\">Пошуку в меню</span>, "
+"що допомагає швидко знаходити потрібні пункти меню. Якщо ви пам'ятаєте назву "
+"пункта меню, але не пам'ятаєте де він знаходиться, можна скористатися цією "
+"функцією:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1783-5
 msgid ""
@@ -2990,6 +3137,8 @@ msgid ""
 "Also you can assign this feature to a gesture or add it to your <a "
 "href=\"#L2-quickmenu\">Quick Menu</a> for faster access."
 msgstr ""
+"Для швидкого доступу цю функцію також можна призначити на жест чи додати "
+"його до вашого <a href=\"#L2-quickmenu\">Швидкого меню</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1790-13
 msgid ""
@@ -3001,7 +3150,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1794-13
 msgid "You can change the interface language via:"
-msgstr ""
+msgstr "Мову інтерфейсу можна змінити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.div:1794-59
 msgid ""
@@ -3016,6 +3165,8 @@ msgid ""
 "If you want to change the size of user interface, there is a <span "
 "class=\"ui\">DPI</span> setting for that:"
 msgstr ""
+"Розмір інтерфейсу користувача можна змінити за допомогою параметра <span "
+"class=\"ui\">DPI екрану</span>, який знаходиться тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1802-13
 msgid ""
@@ -3043,6 +3194,14 @@ msgid ""
 "<span class=\"ui\">star</span> (★) in the menu or as a <span "
 "class=\"ui\">black border</span> around the indicators as seen below:"
 msgstr ""
+"Якщо затиснути <b>кнопку</b> або <b>пункт меню</b> (товщина шрифту, проміжки "
+"між рядками тощо), можна скинути його значення на <span class=\"ui\">ТИПОВЕ</"
+"span>. Нові значення параметрів будуть застосовані лише до книг, які будуть "
+"відкриті починаючи з цього моменту. Книги, які відкривалися раніше, будуть "
+"використовувати попередні параметри. Типові значення в пунктах меню "
+"позначені <span class=\"ui\">зірочкою</span> (★), а в інших елементах "
+"інтерфейсу виділені <span class=\"ui\">товстою рамкою</span>, як показано "
+"нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1815-13
 msgid ""
@@ -3075,18 +3234,23 @@ msgid ""
 "<b>tap and hold</b> on arrow buttons to change the value in bigger "
 "increments."
 msgstr ""
+"У вікнах, які містять стрілки для зміни значень, подібні до зображеної вище, "
+"можна <b>затиснути</b> пальцем стрілку, щоб змінити значення набагато швидше."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-9
 msgid ""
 "You can <b>close</b> this type of dialog (non-full screen) by tapping "
 "outside of its window."
 msgstr ""
+"Ви можете <b>закрити</b> діалог цього типу (не на повний екран) дотиком за "
+"межами його вікна."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1827-9
 msgid ""
 "You can <b>move</b> this type of dialog by holding its window title and "
 "dragging."
 msgstr ""
+"Можна <b>перемістити</b> діалог цього типу перетягнувши заголовок вікна."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1828-9
 msgid ""
@@ -3094,6 +3258,8 @@ msgid ""
 "holding the <b>window title</b> (when you want to see the text under it "
 "while adjusting a value)."
 msgstr ""
+"Цей тип діалогу можна зробити <b>напівпрозорим</b> затиснувши <b>заголовок "
+"вікна</b> (якщо бажаєте бачити текст під ним під час налаштування значення)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1832-13
 msgid ""
@@ -3130,20 +3296,26 @@ msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
 msgstr ""
+"Затискання слова відкриє вікно, за допомогою якого можна знайти в документі "
+"інші місця, в яких зустрічається це слово, або знайти це слово у Вікіпедії."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1845-13
 msgid ""
 "If you want to check the current date you can tap on the clock in the <span "
 "class=\"ui\">TOP MENU</span>."
 msgstr ""
+"Щоб побачити поточну дату, торкніться годинника у <span class=\"ui\""
+">ВЕРХНЬОМУ МЕНЮ</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1849-1
 msgid "Scrolling types"
-msgstr ""
+msgstr "Типи прокручування"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1851-5
 msgid "KOReader has three types of touch scrolling. You can access this from:"
 msgstr ""
+"KOReader має три типи прокручування жестами. Ви можете отримати доступ до "
+"них з:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1853-5
 msgid ""
@@ -3159,6 +3331,9 @@ msgid ""
 "class=\"ui\">Continuous mode</span> from the <span class=\"ui\">Bottom menu</"
 "span> to be able to use scrolling."
 msgstr ""
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Щоб використовувати "
+"прокручування у <span class=\"ui\">Нижньому меню</span> режим перегляду "
+"повинен бути <span class=\"ui\">безперервний</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1858-9
 msgid ""
@@ -3175,6 +3350,10 @@ msgid ""
 "without lifting your finger. Scrolling amount is proportional to the "
 "distance you move your finger after you initiated scrolling."
 msgstr ""
+"<b>Швидке прокручування:</b> Цей режим дозволяє прокручувати швидше, ніж "
+"<span class=\"ui\">класичне прокручування</span>. Також можна прокрутити "
+"декілька сторінок не відриваючи пальця. Величина прокручування пропорційна "
+"до відстані, на яку переміщується палець після початку прокручування."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1862-9
 msgid ""
@@ -3186,10 +3365,18 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>Прокручування при відпусканні:</b> Цей тип прокручування найкраще "
+"підходить для екранів е-чорнилами, бо, на відміну від інших режимів "
+"прокручування, цей режим не оновлює сторінку постійно під час прокручування. "
+"Він працює як <span class=\"ui\">класичне прокручування</span>, але проміжні "
+"етапи не показуються, тому ви спершу ви прокручуєте пальцем, а щойно його "
+"заберете, сторінка на екрані перескочить до цього розташування. Це особливо "
+"корисно <b>для переміщення і налаштування вигляду</b>, якщо книга містить "
+"зображення або таблиці та ви бажаєте бачити їх повністю."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
 msgid "Go back to previous location"
-msgstr ""
+msgstr "Повернутись до попереднього розташування"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1869-5
 msgid ""
@@ -3275,7 +3462,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1894-1
 msgctxt "user_guide/en.html+html.body.div.div:1894-1"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "ПЕРЕМІЩЕННЯ ПО КНИЗІ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1896-5
 msgid ""
@@ -3599,6 +3786,8 @@ msgid ""
 "You can access Book Map via menu and you can also assign a gesture for "
 "quicker access:"
 msgstr ""
+"Мапу книги можна відкрити з меню, а також призначити жест для ще швидшого її "
+"відкриття:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2007-5
 msgid ""
@@ -3622,6 +3811,14 @@ msgid ""
 "class=\"ui\">X</span> on the upper right corner or with any multiswipe "
 "gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.)."
 msgstr ""
+"При першому відкритті <span class=\"ui\">Мапи книги</span> під час читання "
+"книги, вона відкриється у <span class=\"ui\">вигляді решітки</span>, "
+"вміщаючи усі розділи на одному екрані, щоб забезпечити найкращий початковий "
+"загальний огляд вмісту книги. Щоб отримати детальну інформацію про "
+"використання, торкніться значка інформації у верхньому лівому куті. Мапу "
+"книги можна закрити дотиком до <span class=\"ui\">X</span> у верхньому "
+"правому куті або будь-яким мультижестом (<b>ВГОРУ-ВНИЗ, ВЛІВО-ВПРАВО</b> "
+"тощо)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2018-13
 msgid "Chapter boundaries"
@@ -3668,6 +3865,8 @@ msgid ""
 "You can customize <span class=\"ui\">Book Map</span> by changing these "
 "options:"
 msgstr ""
+"Підлаштувати вигляд <span class=\"ui\">Мапи книги</span> можна змінюючи такі "
+"параметри:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2031-5
 msgid ""
@@ -3676,6 +3875,9 @@ msgid ""
 "width of columns indicating pages and observe how it changes the scale of "
 "the map."
 msgstr ""
+"– Спершу спробуйте протягнути <span class=\"ui\">ВЛІВО</span> та <span class="
+"\"ui\">ВПРАВО</span> вздовж низу екрану, щоб змінити ширину стовпців, які "
+"відображають сторінки, та простежте як це змінює масштаб мапи."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2033-5
 msgid ""
@@ -3683,6 +3885,10 @@ msgid ""
 "span> along the left edge of the screen to change chapter title depth and "
 "switch to the <span class=\"ui\">Flat View</span>. See examples below."
 msgstr ""
+"– Потім спробуйте протягнути <span class=\"ui\">ВГОРУ</span> та <span class="
+"\"ui\">ВНИЗ</span> вздовж лівого боку екрану, щоб змінити глибину заголовків "
+"розділів та перемкнутися на <span class=\"ui\">плаский вигляд</span>. Див. "
+"приклади нижче."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2035-5
 msgid ""
@@ -3692,28 +3898,40 @@ msgid ""
 "scrollbar between views. If you want to switch back to the default view, you "
 "can long-press the info icon at the upper left corner."
 msgstr ""
+"На додачу до типового <span class=\"ui\">вигляду решіткою</span>, як "
+"показано вище, тут можна побачити <span class=\"ui\">плаский вигляд</span> "
+"(ліворуч) та вигляд решіткою без заголовків розділів (праворуч). Зверніть "
+"увагу на зміну вертикальної лівої смуга прокрутки при зміні вигляду мапи "
+"книги. Якщо бажаєте повернутися до типового вигляду, можна затиснути "
+"піктограму інформації у верхньому лівому куті."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2044-1
 msgid "Book map options"
-msgstr ""
+msgstr "Функції мапи книги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2048-5
 msgid ""
 "When you tap the menu icon on the <b>Book map</b> screen you are presented "
 "with the menu above. Menu options are explained below:"
 msgstr ""
+"При дотику до значка меню на екрані <b>Мапи книги</b> з'являється меню, яке "
+"показане вище. Пояснення до пунктів меню подано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2051-9
 msgid ""
 "<span class=\"ui\">About book map:</span> Short explanation of Book map "
 "usage and icon descriptions."
 msgstr ""
+"<span class=\"ui\">Про мапу книги:</span> коротка довідка про використання "
+"мапи книги і пояснення значків."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2052-9
 msgid ""
 "<span class=\"ui\">Available gestures:</span> Gestures you can use to change "
 "the settings of Book map instead of using this menu."
 msgstr ""
+"<span class=\"ui\">Доступні жести:</span> жести, які можна використовувати, "
+"щоб змінити параметри мапи книги замість того, щоб використовувати це меню."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2053-9
 msgid ""
@@ -3724,6 +3942,13 @@ msgid ""
 "depending on factors like your screen size, touch screen sensitivity, tap "
 "accuracy etc. you might end up in adjacent pages."
 msgstr ""
+"<span class=\"ui\">Оглядач сторінок за дотиком:</span> якщо цей пункт "
+"відмічено, після дотику до сторінки в мапі книги відкривається <span class="
+"\"ui\">Оглядач сторінок</span>. В ньому відображається огляд вибраної вами "
+"області. Якщо цей параметр вимкнений, дотик у мапі книги відкриває "
+"безпосередньо ту сторінку. Але пам'ятайте, що в залежності від різних "
+"факторів (розмір екрану пристрою, чутливість сенсорного екрану, точності "
+"дотику тощо), ви можете опинитися на сусідніх сторінках."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2054-9
 msgid ""
@@ -3731,24 +3956,33 @@ msgid ""
 "your Book map view, tapping this switches between the <b>default view</b> "
 "and your <b>customized view</b>."
 msgstr ""
+"<span class=\"ui\">Змінити вигляд: поточний/початковий:</span> якщо ви "
+"налаштували вигляд мапи книги, дотик до цього пункту перемикає між "
+"<b>типовим виглядом</b> та <b>налаштованим вами виглядом</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2055-9
 msgid ""
 "<span class=\"ui\">Switch grid/flat views:</span> Switch between separate "
 "chapters or continuous chapters views."
 msgstr ""
+"<span class=\"ui\">Змінити вигляд: решітка/плаский:</span> перемикає між "
+"переглядом окремих розділів або безперервними розділами."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2056-9
 msgid ""
 "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
 "chapter levels."
 msgstr ""
+"<span class=\"ui\">Рівні заголовків:</span> змінює глибину рівнів "
+"розділів/підрозділів."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2057-9
 msgid ""
 "<span class=\"ui\">Page slot width:</span> Make each page slot wider or "
 "narrower."
 msgstr ""
+"<span class=\"ui\">Ширина слота сторінки:</span> зробити кожен слот сторінки "
+"ширшим або вужчим."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2058-9
 msgid ""
@@ -3757,6 +3991,10 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
+"<span class=\"ui\">10-сторінкові позначки:</span> при збільшенні цього "
+"значення, спочатку буде додано позначки на кожній <b>10-й сторінці</b>, "
+"потім збільшить їх та доведе це значення до позначки на кожній <b>5-й "
+"сторінці</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2062-1
 msgctxt "user_guide/en.html+html.body.div.div:2062-1"
@@ -3827,7 +4065,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2082-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr ""
+msgstr "Альтернативна тема для Мапи книги і Оглядача сторінок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2084-5
 msgid ""
@@ -3839,6 +4077,14 @@ msgid ""
 "requires flashing to black so it might be distracting for some users. You "
 "can try both and use the one you like."
 msgstr ""
+"Мапа книги і оглядач сторінок мають <b>Альтернативну тему</b> з іншою схемою "
+"затінення, яку можна активувати з їх «гамбургерних» меню. Ця тема "
+"використовує альтернативні кольори для заголовків розділів, тож межі "
+"розділів у <span class=\"ui\">Мапі книги</span> та <span class=\"ui\""
+">Оглядачі сторінок</span> краще видимі. Але використання в цій темі сірого "
+"кольору вимагає блимання екрану чорним кольором, що може бути некомфортним "
+"для деяких користувачів. Ви маєте можливість спробувати обидва варіанти й "
+"обрати той, який більше подобається."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2088-1
 msgctxt "user_guide/en.html+html.body.div.div:2088-1"
@@ -3851,24 +4097,33 @@ msgid ""
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
 msgstr ""
+"Деякі цифрові книги, з якими ви стикаєтеся, можуть не мати відповідного "
+"<b>змісту</b>. Залежно від якості підготовки файлу книги, трапляються такі "
+"проблеми зі змістом:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2092-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
 msgstr ""
+"Книга не містить змісту, тому ви не зможете переходити між розділами та "
+"бачити час, що залишився до завершення читання розділу"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2093-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
 msgstr ""
+"Зміст є, але він не дуже корисний, бо в ньому відсутні або неправильні назви "
+"розділів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2096-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
 msgstr ""
+"KOReader має деякі функції, які можна застосувати для книг з проблемним "
+"змістом."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2098-5
 msgid ""
@@ -3878,17 +4133,24 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
+"Майте на увазі, що <span class=\"ui\">Альтернативний зміст</span> "
+"недоступний у <b>документах з фіксованим макетом</b> як от PDF, DJVU та "
+"подібних, оскільки для автоматичного створення змісту він вимагає наявності "
+"HTML-теґів. Функції <span class=\"ui\">Власний зміст</span> та <span class="
+"\"ui\">Власні приховані частини</span> доступні для усіх типів файлів."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "Автоматичне створення змісту: АЛЬТЕРНАТИВНИЙ ЗМІСТ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2103-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
 msgstr ""
+"Першою функцією є <span class=\"ui\">Альтернативний зміст</span>, що можна "
+"знайти у:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
 msgctxt "user_guide/en.html+html.body.div.div:2106-5"
@@ -3906,6 +4168,10 @@ msgid ""
 "for the whole book or it might contain separate chapters as individual HTML "
 "files (which is a better structure)."
 msgstr ""
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Документ EPUB насправді є ZIP-"
+"архівом, що містить один або більше HTML-файлів. Книга може бути одним "
+"великим HTML-файлом або кожен з її розділів може міститися в окремому HTML-"
+"файлі (що є кращою структурою)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2110-5
 msgid ""
@@ -3915,12 +4181,19 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
+"<span class=\"ui\">Альтернативний зміст</span> намагається створити зміст із "
+"заголовків файлу (теґів від <b>H1</b> до <b>H6</b> у HTML-файлах всередині "
+"EPUB). Якщо HTML-файли не містять заголовків, функція спробує створити зміст "
+"з фрагментів документа (окремих HTML-файлів всередині EPUB), де початком "
+"розділу буде вважатися початок кожного HTML-файлу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
 msgstr ""
+"В цьому меню можна обрати які рівні заголовків включати (або нехтувати) до "
+"змісту:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
 msgid ""
@@ -3933,7 +4206,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2118-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
-msgstr ""
+msgstr "Створення альтернативного змісту власноруч: ВЛАСНИЙ ЗМІСТ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2120-5
 msgid ""
@@ -3942,6 +4215,9 @@ msgid ""
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
 msgstr ""
+"Функція створення власного змісту дозволяє власноруч створити зміст з "
+"обраних частин книги. Цей зміст містить лише один рівень розділів, тому "
+"додати підрозділи не можна. Щоб створити власний зміст, спершу увімкніть:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-5
 msgid ""
@@ -3957,8 +4233,8 @@ msgid ""
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
 msgstr ""
-"Якщо не бажаєте бачити додаткові кнопки після завершення створення змісту, "
-"їх можна приховати вимкнувши тут:"
+"Після увімкнення цієї функції, в інтерфейсі з'явиться два нові пункти меню, "
+"які дозволять обрати розділи. Заголовки для змісту можна обрати з двох місць:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2128-9
 msgid ""
@@ -3969,10 +4245,15 @@ msgid ""
 "selected will be already entered in the dialog. Edit your title if necessary "
 "and press create."
 msgstr ""
+"<b>З виділення:</b> під час читання книги виберіть текст затисканням слова. "
+"У зринаючому меню буде пункт <span class=\"ui\">Почати розділ змісту</span>. "
+"Після дотику до нього, з'явиться вікно в якому можна визначити назву "
+"розділу. Вибраний текст вже буде вписаний у текстове поле. Якщо потрібно, "
+"змініть заголовок і натисніть «Створити»."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2129-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
-msgstr ""
+msgstr "<b>З оглядача сторінок:</b> Відкрийте оглядач сторінок через меню"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2133-5
 msgctxt "user_guide/en.html+html.body.div.div:2133-5"
@@ -3989,12 +4270,17 @@ msgid ""
 "chapter and select <span class=\"ui\">Start TOC chapter</span> item from the "
 "popup menu. You will see a dialog asking you to enter your chapter title."
 msgstr ""
+"Затисніть мініатюру сторінки, з якої починається новий розділ, після чого у "
+"контекстному меню натисніть пункт <span class=\"ui\">Почати розділ змісту</"
+"span>. З'явиться вікно, в якому можна вказати заголовок розділу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2137-5
 msgid ""
 "When you are done creating your ToC and don’t want to see these extra "
 "buttons, you can disable them by unchecking:"
 msgstr ""
+"Якщо не бажаєте бачити додаткові кнопки після завершення створення змісту, "
+"їх можна приховати вимкнувши тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2139-5
 msgid ""
@@ -4302,6 +4588,7 @@ msgstr ""
 msgid ""
 "You can save your changes as <span class=\"ui\">defaults</span> by choosing:"
 msgstr ""
+"Зберегти налаштування як <span class=\"ui\">типові</span> можна обравши:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2232-5
 msgid ""
@@ -4334,6 +4621,9 @@ msgid ""
 "small sized text, <span class=\"ui\">landscape orientation</span> and "
 "minimum <span class=\"ui\">margins</span>"
 msgstr ""
+"Профіль «<b>Два стовпці</b>» з <span class=\"ui\">двома стовпцями</span> "
+"дрібного тексту, <span class=\"ui\">альбомною орієнтацією</span> екрану та "
+"мінімальними <span class=\"ui\">полями</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2244-9
 msgid ""
@@ -4341,6 +4631,9 @@ msgid ""
 "span> and higher <span class=\"ui\">contrast</span> for more visible text "
 "under low light"
 msgstr ""
+"Профіль «<b>Читання вночі</b>» з <span class=\"ui\">більшим шрифтом без "
+"засічок</span> і вищим <span class=\"ui\">контрастом</span> для кращої "
+"читабельності тексту при меншій освітленості"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
 msgid ""
@@ -4356,7 +4649,7 @@ msgstr ""
 msgid ""
 "After adjusting your settings to your liking, you can create a profile from "
 "them via:"
-msgstr ""
+msgstr "Виставивши налаштування на свій смак, можна створити з них профіль:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2250-5
 msgid ""
@@ -4371,20 +4664,22 @@ msgid ""
 "After creating a profile with your settings, you have many options for "
 "applying it to another book:"
 msgstr ""
+"Після створення профілю з вашими налаштуваннями, можна застосувати їх до "
+"інших книг кількома способами:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2254-9
 msgid ""
 "You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
-msgstr ""
+msgstr "Застосувати профіль з <span class=\"ui\">Меню профілів</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2255-9
 msgctxt "user_guide/en.html+html.body.div.ul.li:2255-9"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Призначити на нього жест"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2256-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Показувати його у <span class=\"ui\">Швидкому меню</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2259-5
 msgid ""
@@ -4487,7 +4782,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2292-1
 msgid "Monospace font scale"
-msgstr "Використання різних шрифтів в одному документі"
+msgstr "Масштаб моноширинного шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2294-5
 msgid ""
@@ -4521,7 +4816,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2302-1
 msgid "Using different fonts in one document"
-msgstr "Швидка зміна шрифту"
+msgstr "Використання різних шрифтів в одному документі"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2304-5
 msgid ""
@@ -4561,7 +4856,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2314-1
 msgid "Changing font quickly"
-msgstr "ПЕРЕМІЩЕННЯ ПО КНИЗІ"
+msgstr "Швидка зміна шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2316-2
 msgid ""
