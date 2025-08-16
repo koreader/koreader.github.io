@@ -1400,7 +1400,7 @@ line-height: 2rem;
 	<ol>
 		<li>按照下列路径找到插件菜单： <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 屏幕相关 / 自动切换暖光及夜间模式</div></li>
         
-		<li>点按<span class="ui">启用</span>，然后点按<span class="ui">根据固定时间表切换</span></li>
+		<li>单击激活菜单项，然后单击<span class="ui">按固定计划</span></li>
 
 		<li>回到上级菜单，点按<span class="ui">固定时间表设置</span></li>
 
@@ -1544,7 +1544,7 @@ line-height: 2rem;
     <table align="center" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
         <td style="vertical-align: top; width: 8%;"><img loading="lazy" class="img_inline" src="pictures/texture-box.svg" style="width:80%;"></td>
-        <td><p style="text-indent: 0rem;"><span class="label_orange">标注模式图标</span> 进入<span class="ui">选择并标注模式</span>时，该图标将会显示。KOReader拥有独立的标注模式，以实现跨多页的标注。请前往<a href="#bookmarks">书签、标注和笔记</a>一节了解详情。当开始标注操作后，该图标将显示于屏幕左上角，提醒用户当前仍处于标注模式下；结束标注操作后该图标就会消失。<b>选择到文段末尾</b>时会自动结束标注操作；用户也可点按标注起始处，或点按该<span class="ui">标注模式图标</span>主动<b>取消标注</b>。</p></td>
+        <td><p style="text-indent: 0rem;"><span class="label_orange">标注模式图标</span> 进入<span class="ui">选择并标注模式</span>时，该图标将会显示。KOReader拥有独立的标注模式，以实现跨多页的标注。请前往<a href="#bookmarks">书签、标注和笔记</a>一节了解详情。当开始标注操作后，该图标将显示于屏幕左上角，提醒用户当前仍处于标注模式下。当用户<b>选择到文段末尾</b>自动结束标注操作时或用户<b>取消标注</b>（通过再次点击标注的开头或该<span class="ui">标注图标</span>）时，该图标就会消失。。</p></td>
         </tr>
     </table>
 
@@ -1812,10 +1812,10 @@ line-height: 2rem;
     </td>
     </tr>
     <tr>
-        <td><p><span class="ui">阅读历史、目录、阅读统计</span>等全屏对话框可通过<b>下划</b>手势来<b>关闭</b>。<span class="ui">书签管理器</span>是个例外，但可以通过指定其它多指手势来关闭</p></td>
+        <td><p>可使用<b>下划</b>手势对<span class="ui">阅读历史、目录、阅读统计</span>等全屏对话框执行<b>关闭</b>操作。(<span class="ui">书签管理器</span>是个例外，但可以通过指定其它多指手势来关闭)</p></td>
     </tr>
     <tr>
-        <td><p><b>沿对角线划过屏幕</b>可以<span class="ui">截取屏幕内容</span>。另外，用双指同时<b>点击任意一对屏幕对焦</b>也可截图。第二种交互手势可以用于在浏览图像时截图。如果阅读设备配有实体键盘，可以同时按下<span class="ui">Alt、Shift和G键</span>组合键来截图。</p></td>
+        <td><p>有两种手势可以用来进行<span class="ui">屏幕截图</span>，一种是<b>沿对角线长划</b>，另外一种是用双指同时<b>点击任意一对屏幕对角</b>。第二种手势可以用于在浏览图像时截图。如果阅读设备配有实体键盘，还可以按下<span class="ui">Alt+Shift+G</span>组合键来截图。</p></td>
     </tr>
 
     <tr><td><p>如果你想随机打开一本书的某一页，我们提供了一个<b>跳转到随机页</b>的操作，你可以将其分配给任何手势。该操作位于<b>阅读器</b>的<span class="ui">手势管理器</span>的类别中。</p></td></tr>
@@ -1959,7 +1959,7 @@ line-height: 2rem;
         <li>此按钮仅出现在<span class="ui">紧凑型跳读工具</span>中，功能与长按<b>编号7</b>相同，使页面会到打开<span class="ui">跳读工具</span>时所处页码。该功能对于诸如想快速浏览书籍其它章节然后回到当前位置等情况非常有用。</li>
     </ol>
 
-    <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">提示</span> 若要随机跳到某一页，KOReader提供<b>跳到随机页码</b>操作项，可以指定给任意交互手势。该选项位于 <span class="ui">交互手势管理</span>中的<b>阅读设备相关</b>类目下。</p></div>
+    <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">提示</span> 若要随机跳到某一页，KOReader提供<b>跳到随机页码</b>的操作项，你可以为该操作指定一个交互手势。该选项位于 <span class="ui">手势管理</span>中的<b>阅读器</b>类目下。</p></div>
 
 
 
@@ -2055,7 +2055,7 @@ line-height: 2rem;
         <li><span class="ui">切换网格/平面视图：</span>在单独的章节或连续的章节视图之间切换。</li>
         <li><span class="ui">章节级别：</span>更改章节/子章节级别的深度。</li>
         <li><span class="ui">页面槽宽度：</span>使每个页面槽更宽或更窄。</li>
-        <li><span class="ui">拾页标记</span>：该选项共有三档，第一档将在页码格上每隔十页在<b>第十页</b>添加竖线标记；第二档将会加长标记使其更明显；第三档将每隔五页在<b>第五页</b>上添加次级标记。</li>
+        <li><span class="ui">十页标记</span>：该选项共有三档，第一档将在页码格上每隔十页在<b>第十页</b>添加竖线标记；第二档将会加长标记使其更明显；第三档将每隔五页在<b>第五页</b>上添加次级标记。</li>
     </ul>
 
     
@@ -3125,7 +3125,7 @@ line-height: 2rem;
     <p>您可以使用<span class="external">ImageMagick</span>来处理您的图像。<span class="external">ImageMagick</span>，是一个功能强大的开源软件套件，用于显示、创建、转换、修改和编辑光栅图像。您可以下载<span class="external">ImageMagick</span>，并从命令行使用它一次处理多个图像。</p>
     
     <ol>
-        <li>将通过<span class="external">KCC</span>创建的<b>CBZ</b>文件解压缩，</li>
+        <li>将之前使用<span class="external">KCC</span>创建的<b>CBZ</b>文件解压缩，</li>
         <li>下载以下文件<a href="https://disk.yandex.com/d/glEebjmPYYp7og">dizz_pack.zip</a>（位于<span class="external">Yandex Disk</span>上），其中包含两个<b>批处理文件（.BAT）</b>和一个<b>GIF</b>颜色模板。</li>
         <li>将这个三个文件放到你要处理的图片旁边</li>
         <li>编辑<b>_magick_manga_ditherN_resize.bat</b>，并将分辨率更改为您的设备分辨率（在<b>bat</b>文件的两个位置）。
@@ -3196,9 +3196,9 @@ line-height: 2rem;
 
     <p><span class="ui">文件管理器</span>可同时对大量文件执行诸如复制、移动、删除和导出标注的多种操作。要使用该功能，首先要选择对应的文件。<span class="ui">文件管理器</span>当前提供了三种进行批量操作的方式：</p>
         
-    <p><b>第一种方式</b>：在文件名上长按，从弹出对话框中选择<span class="ui">多选</span>。此时将进入<span class="ui">连续选择模式</span>。点按其它文件使其被选中，然后点按<b>屏幕右上角</b>的<span class="ui">对号标志</span>。在弹出对话框中可选择要对这些文件执行的操作，或者退出连续选择模式。</p>
+    <p><b>- 第一种方式</b>：在文件名上长按，从弹出对话框中选择<span class="ui">多选</span>。此时将进入<span class="ui">连续选择模式</span>。点按其它文件使其被选中，然后点按<b>屏幕右上角</b>的<span class="ui">对号标志</span>。在弹出对话框中可选择要对这些文件执行的操作，或者退出连续选择模式。</p>
 
-    <p><b>第二种方式</b>：点按<b>屏幕右上角</b>的<span class="ui">加号标志（＋）</span>，从弹出对话框中选择<span class="ui">选择多个文件</span>。此时将进入<span class="ui">连续选择模式</span>，接下来的操作与第一种方式相同。</p>
+    <p><b>- 第二种方式</b>：点按<b>屏幕右上角</b>的<span class="ui">加号标志（＋）</span>，从弹出对话框中选择<span class="ui">选择多个文件</span>。此时将进入<span class="ui">连续选择模式</span>，接下来的操作与第一种方式相同。</p>
 
     <p><b>第三种方式</b>：通过<span class="ui">文件检索</span>功能筛选书籍。该方式可十分高效地处理分散于多处目录的多本书籍。例如，要将书单中所有作者是托尔金的书籍移至同个文件夹，请按下列步骤操作：</p>
     
@@ -3206,7 +3206,7 @@ line-height: 2rem;
         <li>从<span class="ui">顶部菜单</span>按<span class="ui">搜索选项卡</span>（带有放大镜图标）并选择<span class="ui">文件检索</span>。</li>
         <li>如果您也想在文件夹中搜索，请选中<span class="ui">包含子文件夹</span>选项。 如果你想让KOReader在搜索书籍的元数据，你可以选择<span class="ui">搜索书籍元数据</span>。 否则，KOReader只会搜索文件名。</li>
         <li>您可以通过按相应的按钮从库<span class="ui">主文件夹</span>或<span class="ui">当前文件夹</span>开始搜索。</li>
-        <li>在执行检索后，将列出符合条件的文件列表（若存在关键词匹配的结果）。点击<b>屏幕左上角</b>的<span class="ui">汉堡状菜单键</span>，进入<span class="ui">连续选择模式</span>。</li>
+        <li>在执行检索后，将列出符合条件的文件列表（若存在关键词匹配的结果）。点击<b>屏幕左上角</b>的<span class="ui">汉堡菜单</span>，进入<span class="ui">连续选择模式</span>。</li>
         <li> 点按任何要处理的文件，然后点按<b>屏幕左上角</b>的<span class="ui">对号标志（√）</span>，从弹出对话框中选择<span class="ui">在文件管理器中选中</span>。 </li>
         <li>现在，您将回到<span class="ui">文件管理器</span>，您在<span class="ui">搜索对话框</span>中选择的文件也将在此处选择。</li>
         <li>点击<b>屏幕右上角</b>的<span class="ui">对号标志（√）</span>。从弹出对话框中选择要执行的操作。</li>
@@ -3279,7 +3279,7 @@ line-height: 2rem;
 
     <ul>
         <li><b>FB2格式（FictionBook）</b>——文件名.<b>fb2.zip</b></li>
-        <li><b>网页文件</b>——文件名.<b>htm.zip</b>或者 文件名.<b>html.zip</b></li>
+        <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
         <li><b>文本日志文件</b> - yourfilename.<b>log.zip</b></li>
         <li><b>Markdown文件</b>——文件名.<b>md.zip</b></li>
         <li><b>富文本格式</b> - yourfilename.<b>rtf.zip</b></li>
@@ -4440,7 +4440,7 @@ line-height: 2rem;
         <p>有许多方法可以激活配置档：</p>
 
         <ol>
-            <li>在当前<span class="ui">配置档</span>菜单中，<b>长按</b>某套配置档标题以启用该配置档</li>
+            <li>在<span class="ui">配置文件</span>菜单中，通过<b>长按</b>某套配置文件标题可以启用该配置文件</li>
             <li>您可以使用手势激活配置档。为此，您必须从配置档的菜单中启用<span class="ui">显示在操作列表中</span>。现在，您可以通过以下方式选择它：
 
             <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点按及手势交互 / 交互手势管理 / “任意手势” / 通用类 / 配置档 「自定义标题」</div>
@@ -4859,7 +4859,7 @@ line-height: 2rem;
 <p>KOReader有两个不同的版本分支：</p>
     <ul>
         <li><span class="label_green">稳定版</span> 该类版本是GitHub上<b>Releases</b>发布页提供的主力版本，其文件名形如「<b>KOReader 2024.11</b>」，意为该版软件发布于<b>2024年11月</b>。该类版本大致上按<b>月度</b>发布，但有时发布间隔也会更久。</li>
-        <li><span class="label_red">每夜版</span> 该类版本会<b>每天</b>持续编译发布以便及时合并优化和修复。每夜版面向尝鲜者及开发者这类小群体用户，因此软件稳定性可能欠佳。</li>
+        <li><span class="label_red">每夜版</span> <b></b>该类版本会<b>每天</b>持续编译发布以便及时合并优化和修复。每夜版面向尝鲜者及开发者这类小群体用户，因此软件稳定性可能欠佳。</li>
     </ul>
 
     <p>通常来说，<b>稳定版</b>是适合普通用户的版本。但某些特殊情况下，用户可能需要<b>每夜版</b>：</p>
