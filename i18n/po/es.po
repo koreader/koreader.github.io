@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 08:03+0000\n"
-"PO-Revision-Date: 2025-08-18 08:01+0000\n"
+"PO-Revision-Date: 2025-08-19 10:02+0000\n"
 "Last-Translator: No name <CertainBot@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,7 +102,7 @@ msgstr "Estado de la traducción"
 
 #: user_guide/en.html%2Bhtml.body.div.div:859-1
 msgid "Guide for this user guide :)"
-msgstr "Guía para esta guía de usuario :)"
+msgstr "Guía para la guía de usuario :)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:861-5
 msgid ""
@@ -1652,8 +1652,8 @@ msgid ""
 "that section. This heading only explains the keyboard usage."
 msgstr ""
 "Si estás buscando información sobre <span class=\"ui\">atajos de teclado</"
-"span>, haz clic <a href=\"#L2-keyboardshortcuts\">aquí</a> para ir a esa "
-"sección. Este encabezado solo explica el uso del teclado."
+"span>, haz clic <a href=\"#L2-keyboardshortcuts\">aquí</a> para ir a la "
+"sección. Este encabezado sólo explica el uso del teclado."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1331-3
 msgid ""
@@ -1893,6 +1893,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Horario fijo:</span> En este modo, la calidez de la luz "
+"frontal cambia según el horario diario que has proporcionado. Este modo es "
+"<b>estático</b>, no tiene en cuenta la duración del día. El horario "
+"permanece igual durante todo el año."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1392-5
 msgid ""
@@ -1903,21 +1907,29 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Posición del sol:</span> Esta opción calcula la posición "
+"del sol en tu ubicación según las <b>coordenadas</b> y la <b>altitud</b> que "
+"has proporcionado. La calidez de la luz frontal se ajusta gradualmente según "
+"los cálculos de la posición del sol. Este modo es <b>dinámico</b>. A medida "
+"que cambia la duración del día durante el año, el plugin ajusta el horario "
+"en consecuencia."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1394-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Antes de nada echa un vistazo a la imagen para familiarizarte con los "
+"términos usados en el plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1398-5
 msgid "Fixed Schedule Mode"
-msgstr ""
+msgstr "Modo horario fijo"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1401-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1401-3"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Ir al menu del plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1401-30
 #, fuzzy
@@ -1935,12 +1947,16 @@ msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Toca el elemento de menú y después toca <span class=\"ui\">Según el horario "
+"fijo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1405-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Vuelve al menú anterior y toca el elemento del menú <span class=\"ui\""
+">Configuración del horario fijo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1407-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1407-3"
@@ -1948,15 +1964,18 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Configura tu horario de transición de temperatura aquí, ajustando los "
+"tiempos para los distintos elementos. Consulta la imagen de arriba para una "
+"explicación sobre estos."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1412-1
 msgid "Sun’s Position Mode"
-msgstr ""
+msgstr "Modo de posición del sol"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1415-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1415-13"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Ir al menú del plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1416-17
 #, fuzzy
@@ -1974,6 +1993,8 @@ msgid ""
 "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
 "class=\"ui\">According to the sun's position</span>"
 msgstr ""
+"Toca el elemento de menú <span class=\"ui\">Activar</span> y luego toca "
+"<span class=\"ui\">Según la posición del sol</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
 msgid ""
@@ -1981,12 +2002,17 @@ msgid ""
 "menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> "
 "(optional) correctly and give a <b>name</b> to your location."
 msgstr ""
+"Vuelve al menú anterior y toca en <span class=\"ui\">Configuración de "
+"ubicación</span>. Configura correctamente tus <b>coordenadas</b> (necesarias)"
+" y <b>altitud</b> (opcional) y asigna un <b>nombre</b> a tu ubicación."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1422-13
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Warmth and night mode "
 "settings</span> menu item"
 msgstr ""
+"Vuelve al menú anterior y toca en <span class=\"ui\">Configuración de "
+"temperatura del color y modo noche</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1424-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1424-13"
@@ -1994,12 +2020,17 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Configura tu horario de transición de temperatura aquí, ajustando los "
+"tiempos para los distintos elementos. Consulta la imagen de arriba para una "
+"explicación sobre estos."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1427-5
 msgid ""
 "You can see your current schedule via <span class=\"ui\">Currently active "
 "parameters</span> menu option."
 msgstr ""
+"Puedes ver el horario actual a través de la opción <span class=\"ui\""
+">Parámetros actualmente activos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1432-1
 #, fuzzy
@@ -2016,6 +2047,13 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Al configurar los porcentajes de calidez de la luz para diferentes "
+"intervalos, también puedes establecer estos intervalos como <span class="
+"\"ui\">Modo Nocturno</span> para además inviertir los colores de la "
+"pantalla. Puedes activar esta función si luz frontal mínima sigue siendo "
+"demasiado brillante o si prefieres tener un fondo de página oscuro, . Para "
+"activarlo, en el diálogo siguiente toca la casilla <span class=\"ui\">Modo "
+"Nocturno</span> y después <span class=\"ui\">Establecer</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1436-5
 msgid ""
@@ -2023,10 +2061,13 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"Cuando lo hagas aparecerá un <b>icono de luna</b> en el menú junto al "
+"intervalo. Para desactivar el modo nocturno, simplemente desactiva la "
+"casilla <span class=\"ui\">Modo Nocturno</span> en ese intervalo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1442-1
 msgid "Frontlight auto on/off"
-msgstr ""
+msgstr "Luz frontal automática activada/desactivada"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1444-5
 msgid ""
@@ -2038,24 +2079,35 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Esta función enciende la luz frontal al atardecer y la apaga al amanecer "
+"según los <span class=\"ui\">Parámetros actualmente activos</span> del "
+"plugin. Puedes anular este cambio activando o desactivando manualmente la "
+"luz frontal. En el próximo amanecer/atardecer, <span class=\"ui\""
+">Temperatura del color</span> volverá a tomar el control si fuese necesario. "
+"Puedes activarla seleccionando <span class=\"ui\">Iluminación apagada en "
+"horario diurno</span> del plugin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1448-1
 msgid "Faster warmth transitions"
-msgstr ""
+msgstr "Transición de temperatura más rápida"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1450-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
+"Si deseas que la calidez de la iluminación cambie rápidamente en lugar de "
+"ser gradual:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1452-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
 msgstr ""
+"Configura el modo en <b>Horario fijo</b> siguiendo las instrucciones "
+"anteriores"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1453-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "Y ajusta la configuración similar a la imagen inferior:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1458-5
 msgid ""
@@ -2074,7 +2126,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgctxt "user_guide/en.html+html.body.div.div:1466-1"
 msgid "LEARNING THE USER INTERFACE"
-msgstr ""
+msgstr "CONOCER LA INTERFAZ DE USUARIO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1468-5
 msgid ""
@@ -2082,6 +2134,10 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"KOReader tiene una interfaz de usuario simple, principalmente en blanco y "
+"negro, porque los gradientes y los diferentes tonos de gris pueden causar "
+"parpadeo y sombras en la pantalla de tinta electrónica, lo que degradada la "
+"experiencia de lectura."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1470-5
 msgid ""
@@ -2091,6 +2147,11 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"KOReader tiene dosinterfaces principales: <span class=\"ui\">pantalla de "
+"lectura</span> y <span class=\"ui\">navegador de archivos</span>. "
+"Explicaremos la <span class=\"ui\">pantalla de lectura</span> aquí. El <span "
+"class=\"ui\">navegador de archivos</span> se explica en <a href="
+"\"#L2-filebrowser\">esta sección</a> de la guía."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1473-1
 msgctxt "user_guide/en.html+html.body.div.div:1473-1"
@@ -2099,7 +2160,7 @@ msgstr "Pantalla de lectura"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1475-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "La <b>PANTALLA DE LECTURA</b> tiene dos menús:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1478-3
 msgid ""
@@ -2107,6 +2168,9 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"El <span class=\"ui\">MENÚ SUPERIOR</span> incluye elementos de menú "
+"relacionados con el uso general de KOReader. Aquí podrás acceder a tus "
+"libros, preferencias de KOReader, complementos, etc."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1479-3
 msgid ""
@@ -2115,12 +2179,18 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"El <span class=\"ui\">MENÚ INFERIOR</span> se enfoca a opciones para "
+"<b>formato de documento</b> como el grosor/tamaño de la letra, espaciado "
+"entre líneas, etc. Mientras ajustas la apariencia del texto, interactúas "
+"principalmente con el <span class=\"ui\">MENÚ INFERIOR</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1487-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"La imagen superior muestra los elementos que puedes ver en la pantalla de "
+"lectura mientras lees un libro:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1489-9
 msgid ""
@@ -2130,6 +2200,12 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>Iconos indicadores:</b> Estos iconos informan sobre ciertos procesos y "
+"estados en curso. Los verás en la esquina superior izquierda de la pantalla "
+"durante ciertas operaciones. Normalmente son más pequeños, pero los "
+"mostramos grandes para mayor claridad. El siguiente encabezado explica estos "
+"iconos indicadores en detalle: <a href=\"#L2-indicators\">Iconos "
+"indicadores</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1490-9
 msgid ""
@@ -2137,6 +2213,9 @@ msgid ""
 "various information about your book and KOReader. Click here to go to the "
 "section: Click here for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Barra de estado:</b> Esta es un área altamente configurable donde puedes "
+"ver diversa información sobre el libro y KOReader. Haz clic aquí para ir a "
+"la sección: <a href=\"#L2-statusbar\">Barra de estado</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1491-9
 msgid ""
@@ -2145,6 +2224,11 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Barra de estado alternativa:</b> Además de la <span class=\"ui\">Barra de "
+"estado</span> predeterminada, tenemos una <span class=\"ui\">Barra de estado "
+"alternativa</span> que aparece en la parte superior de la página si la "
+"habilitas. Haz clic aquí para más detalles: <a href=\"#L2-statusbar\">Barra "
+"de estado</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1492-9
 msgid ""
@@ -2153,6 +2237,11 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Numeración de páginas de la edición impresa:</b> Si el editor del libro "
+"ha incluido los números de página de la versión impresa del libro, los verás "
+"de esta manera. Haz clic aquí para obtener más información: <a href="
+"\"#L3-referencepages\">Numeración de páginas y numeración de páginas de la "
+"edición impresa</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1493-9
 msgid ""
@@ -2161,6 +2250,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Tipos de subrayados:</b> Aquí puedes ver los diferentes tipos de "
+"subrayados. También puedes hacer subrayados de colores si tu dispositivo "
+"tiene la pantalla adecuada. Haz clic aquí para ir a la sección: <a href="
+"\"#L1-bookmarks\">Marcadores, Subrayados y Notas</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2168,6 +2261,10 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Marcador de notas:</b> El icono de marcador de nota aparece cuando "
+"agregas una nota a un subrayado. Tenemos diferentes tipos de marcadores de "
+"nota. Haz clic aquí para obtener más información: <a href=\"#L1-bookmarks\""
+">Marcadores, Subrayados y Notas</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1498-1
 msgid "Indicator icons"
@@ -2299,6 +2396,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Icono de subrayado</span> Este icono aparece "
+"cuando estás en el <span class=\"ui\">modo de selección y subrayado</span>. "
+"KOReader tiene un modo de subrayado adicional que te permite iniciar un "
+"subrayado y pasar páginas para crear subrayados largos que pueden abarcar "
+"varias páginas. Puedes leer más en la sección <a href=\"#bookmarks\""
+">Marcadores, Subrayados y Notas</a> de esta guía. Cuando inicias un "
+"subrayado en este modo, este icono se muestra en la esquina para recordarte "
+"que todavía estás en el modo de subrayado. Desaparece cuando terminas tu "
+"subrayado <b>seleccionando el final del pasaje</b> o cuando <b>cancelas el "
+"subrayado</b> (toca de nuevo en el comienzo de tu subrayado o en el mismo "
+"<span class=\"ui\">icono de subrayado</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1554-13
 msgid ""
@@ -2308,22 +2416,31 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Icono de bola de Pokémon</span> Este icono "
+"aparece cuando tocas durante mucho tiempo en una palabra (intencional o "
+"accidentalmente). KOReader tiene un menú de <b>toque largo</b> y un menú "
+"adicional de <b>toque muy largo</b> cuando mantienes el dedo durante más de "
+"3 segundos. Este icono significa que has activado el menú de toque muy largo."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1561-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Icono del modo de volteo</span> Este icono "
+"aparece cuando tocas la esquina superior izquierda si:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1563-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Estás leyendo un documento PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1564-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"Y estás en una vista con zoom distinto de 100% (columna, fila o manual) o en "
+"el <span class=\"ui\">modo de reflujo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
@@ -2331,10 +2448,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"Este modo muestra temporalmente la página completa sin recortar y escalada "
+"para ajustarse a la pantalla. También puedes girar las páginas en este modo. "
+"Para salir toca este icono."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1574-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Numeración de páginas y numeración de páginas de la edición impresa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1576-5
 msgid ""
@@ -2344,6 +2464,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"Naturalmente tipos de documentos como <b>epub, mobi, html</b> no tienen "
+"números de página fijos porque son documentos ajustables. Esto significa que "
+"se pueden ajustar según el tamaño de la pantalla y la orientación del "
+"dispositivo (a diferencia de los archivos <b>pdf</b> o <b>djvu</b> que "
+"tienen un tamaño de página fijo)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1578-5
 msgid ""
@@ -2352,6 +2477,10 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Si aumentas el tamaño de la letra de un documento ajustable, el número de "
+"páginas también aumentará porque cabrá menos texto por página. A veces puede "
+"causar problemas porque un subrayado en la <b>página 38</b> podría estar en "
+"la <b>página 42</b> después del ajuste de la letra."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1580-5
 msgid ""
@@ -2362,16 +2491,25 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"KOReader admite la función de <b>Numeración de páginas de la edición "
+"impresa</b> que permite a los editores incrustar números de página de libros "
+"impresos directamente en la versión ebook. Cuando habilitas esta función "
+"KOReader no calcula los números de página por sí mismo. En su lugar muestra "
+"los <b>números de página incrustados</b> del editor. Esto significa que el "
+"número de página que ves en la <span class=\"ui\">Barra de estado</span> "
+"coincide con la versión impresa del libro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1582-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Beneficios de la numeración de páginas de la edición impresa:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1584-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"La numeración de páginas de la edición impresa habilita las citas precisas "
+"ajustándose al número de página encontrado en la versión impresa."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1585-9
 msgid ""
@@ -2379,6 +2517,10 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"La numeración de páginas de la edición impresa puede ayudar en la "
+"navegación, especialmente para lectores que están familiarizados con la "
+"versión impresa del libro. Pueden ayudarte a encontrar pasajes o citas "
+"específicas más fácilmente en la versión digital."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1586-9
 msgid ""
@@ -2388,6 +2530,12 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"Dado que los libros digitales se pueden leer en varios dispositivos y "
+"plataformas, cada uno con su propio tamaño de fuente y configuración de "
+"pantalla, los números de página mostrados pueden variar significativamente. "
+"La numeración de páginas de la edición impresa proporcionan un punto de "
+"referencia consistente al leer a la vez el mismo libro en dispositivos "
+"diferentes como un e-reader y un teléfono."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1589-5
 #, fuzzy
@@ -2398,14 +2546,13 @@ msgstr ""
 "href=\"#toctools\">HERRAMIENTAS DE ÍNDICE</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1591-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
-"Puedes configurar la barra de estado inferior desde este menú. No dudes en "
-"explorar el submenú de <span class=\"ui\">AJUSTES</span> para personalizar "
-"tu barra de estado a tu gusto."
+"MENÚ SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Numeracón de páginas de la edición impresa / Usar "
+"numeración de páginas de la edición impresa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1593-5
 msgid ""
@@ -2413,12 +2560,17 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Si también activas la opción <span class=\"ui\">Mostrar numeración de "
+"páginas de la edición impresa en el margen</span> del mismo menú, los "
+"números de página se mostrarán junto al texto en letra pequeña."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1595-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Ten en cuenta que este menú sólo aparece si hay numeración de páginas de la "
+"edición impresa <b>incrustados</b> en el libro."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1599-1
 #, fuzzy
@@ -2434,6 +2586,12 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"KOReader tiene dos barras de estado, una <span class=\"ui\">barra de estado "
+"inferior</span> que está habilitada por defecto y una <span class=\"ui\""
+">barra de estado alternativa</span> que si la habilitas aparece en la parte "
+"superior de la página. La <span class=\"ui\">barra de estado alternativa</"
+"span> solo está disponible en documentos ajustables (epub, html, docx, rtf, "
+"txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2443,6 +2601,12 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"La <span class=\"ui\">barra de estado inferior</span> es la más nueva y se "
+"mantiene activamente. La <span class=\"ui\">barra de estado alternativa</"
+"span> es un vestigio de versiones anteriores de KOReader, por lo que no "
+"estamos agregando nuevas características. Pero todavía puedes habilitar la "
+"<span class=\"ui\">barra de estado alternativa</span> si la encuentras útil. "
+"Puedes habilitarla desde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
 #, fuzzy
@@ -2461,6 +2625,8 @@ msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"Puedes configurar la <span class=\"ui\">barra de estado alternativa</span> "
+"desde este menú:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
 #, fuzzy
@@ -2480,6 +2646,8 @@ msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Las instrucciones en el resto de la sección son para la <span class=\"ui\""
+">barra de estado inferior</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
 #, fuzzy
@@ -2492,6 +2660,9 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Puedes configurar la barra de estado inferior desde este menú. No dudes en "
+"explorar el submenú <span class=\"ui\">AJUSTES</span> para personalizar la "
+"barra de estado a tu gusto."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
 #, fuzzy
@@ -2511,6 +2682,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"Hay muchos elementos que puedes mostrar en la barra de estado, pero por "
+"defecto sólo se muestra uno a la vez y tienes que tocar la barra de estado "
+"para cambiar entre ellos. Si deseas mostrar todos los elementos a la vez, "
+"puedes habilitarlo desde aquí:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
 #, fuzzy
@@ -2529,10 +2704,13 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Si has habilitado la opción anterior, no podrás ocultar la barra de estado "
+"tocándola. Si deseas ocultarla, deberías asignar un gesto aquí para alternar "
+"la barra de estado:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1629-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Menú de selección de gestos / Lector / Conmutar barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1631-5
 #, fuzzy
@@ -2553,7 +2731,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1637-1
 msgid "Using \"Custom Text\" item for status bar alignment"
-msgstr ""
+msgstr "Usar \"Texto personalizado\" para alinear la barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
 #, fuzzy
@@ -2568,7 +2746,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Primero habilita esta opción con un toque corto desde este menú"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1645-13
 #, fuzzy
@@ -2588,16 +2766,22 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Después un toque largo para abrir los ajustes. Introduce un carácter <b>"
+"\"espacio\"</b> en la primera casilla e introduce el número de repeticiones "
+"en la segunda casilla, lo que determinará el ancho del separador."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1651-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"Puedes elegir otro caracter como separador. También puedes mover este "
+"elemento como otros elementos de la barra de estado para cambiar su orden y "
+"ajustar tus grupos."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1653-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Barra de progreso de capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1655-5
 msgid ""
@@ -2609,6 +2793,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"La <span class=\"ui\">barra de progreso</span> en la <span class=\"ui\""
+">barra de estado</span> normalmente muestra tu progreso para todo el libro, "
+"pero también puede mostrar en su lugar el progreso para el <b>capítulo "
+"actual</b>. Puede ser útil si un libro tiene muchos capítulos cortos, en "
+"cuyo caso puede resultar difícil ver el progreso en el capítulo actual, por "
+"lo que la <span class=\"ui\">barra de estado del capítulo</span> puede "
+"resultar más informativa. Puedes habilitar la función desde este menú:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1657-5
 #, fuzzy
@@ -2626,15 +2817,18 @@ msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"También puedes asignar un gesto para cambiar entre las barras de progreso "
+"normal y la de capítulo. Puedes encontrar esta acción en:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1661-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr ""
+"Menú de selección de gestos / Lector / Conmutar barra de progreso de capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1667-1
 msgctxt "user_guide/en.html+html.body.div.div:1667-1"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Elementos del Menú Superior"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1669-5
 msgid ""
@@ -2642,6 +2836,10 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Aquí solo daremos una visión general de los elementos en la estructura del "
+"<span class=\"ui\">menú superior</span> para familiarizarte con estos. La "
+"información detallada está disponible en las secciones relacionadas de esta "
+"guía."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1674-9
 msgid ""
@@ -2649,6 +2847,9 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">NAVEGACIÓN:</span> Este menú contiene elementos que te "
+"permiten navegar por el libro que estás leyendo actualmente. <b>Índice, "
+"marcadores, mapa del libro...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1676-9
 msgid ""
@@ -2656,24 +2857,34 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">CONFIGURACIÓN DE TIPOGRAFÍA:</span> Este menú contiene "
+"elementos que te permiten cambiar la apariencia de tu libro. <b>Ajustes de "
+"letra, ajustes de estilo...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1678-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">AJUSTES:</span> Este menú contiene ajustes para KOReader "
+"y tu dispositivo. <b>Tinta electrónica, luz, ajustes de gestos...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1680-9
 msgid ""
 "<span class=\"ui\">TOOLS:</span> This menu contains plugins that can expand "
 "the functionality of KOReader."
 msgstr ""
+"<span class=\"ui\">HERRAMIENTAS:</span> Este menú contiene plugins que "
+"pueden ampliar las funcionalidades de KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1682-9
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
+"<span class=\"ui\">BUSCAR:</span> Este menú contiene elementos relacionados "
+"con la búsqueda y las consultas. <b>Búsqueda de texto, diccionario, "
+"traducción, Wikipedia...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1684-9
 msgid ""
@@ -2681,6 +2892,9 @@ msgid ""
 "class=\"ui\">file browser</span> which is the interface for managing your "
 "library."
 msgstr ""
+"<span class=\"ui\">Navegador de archivos:</span> Este botón abre el <span "
+"class=\"ui\">navegador de archivos</span> que es la interfaz para "
+"administrar tu biblioteca."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1686-9
 msgid ""
@@ -2688,11 +2902,15 @@ msgid ""
 "books like <b>history, favorites, collections</b>. Also <b>book information</"
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
+"<span class=\"ui\">PRINCIPAL:</span> Este menú contiene herramientas para "
+"acceder a tus libros, como <b>historial, favoritos, colecciones</b>. También "
+"se encuentran aquí <b>información del libro</b>, <b>actualización</b> y "
+"<b>salida</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1693-1
 msgctxt "user_guide/en.html+html.body.div.div:1693-1"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Elementos del Menú Inferior"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1695-5
 #, fuzzy
@@ -12345,6 +12563,10 @@ msgid ""
 "information please click here <a href=\"#L2-readingscreen\">Reading Screen</"
 "a> to go to the relevant section."
 msgstr ""
+"Esos números pequeños son la <b>numeración de página de la edición impresa</"
+"b> y son los números de página reales de la versión impresa del libro. Para "
+"obtener más información, haz clic en <a href=\"#L2-readingscreen\">Pantalla "
+"de Lectura</a> para ir a la sección relevante."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5010-1
 msgid "My status bar disappeared"
