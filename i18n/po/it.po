@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-18 08:03+0000\n"
-"PO-Revision-Date: 2025-08-14 14:10+0000\n"
+"PO-Revision-Date: 2025-08-19 10:02+0000\n"
 "Last-Translator: Enrico Morelli <enrico.morelli@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -5303,7 +5303,7 @@ msgctxt ""
 "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
 "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANZATO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2329-5
 msgid ""
@@ -5312,10 +5312,14 @@ msgid ""
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
 msgstr ""
+"La funzione Ritocchi di Stile di KOReader consente di modificare il modo in "
+"cui il libro viene reso da KOReader. Non faremo qui un corso completo di "
+"CSS. Vogliamo solo mostrarvi le basi, in modo che quando vedrete un ritocco "
+"di stile, avrete almeno un'idea approssimativa di cosa fa."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2331-5
 msgid "What is a style tweak?"
-msgstr ""
+msgstr "Che cos'è un ritocco di stile?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2332-5
 msgid ""
@@ -5326,15 +5330,21 @@ msgid ""
 "rendered by adding new rules and/or overriding the rules written by the "
 "publisher that is embedded in your book."
 msgstr ""
+"Possiamo descrivere un documento EPUB come un <b>file HTML + alcune regole "
+"CSS</b>. Queste regole CSS determinano il modo in cui le diverse parti del "
+"libro (titoli, testo in grassetto, citazioni, ecc.) saranno visualizzate su "
+"un'applicazione di lettura. Con i <span class=\"ui\">ritocchi di stile</"
+"span>, è possibile modificare la resa del libro aggiungendo nuove regole e/o "
+"sovrascrivendo le regole scritte dall'editore che è incorporato nel libro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
-msgstr ""
+msgstr "Vediamo un esempio di <span class=\"ui\">ritocco di stile</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2336-5
 msgctxt "user_guide/en.html+html.body.div.p:2336-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2337-5
 msgid ""
@@ -5343,16 +5353,22 @@ msgid ""
 "you add this style tweak to KOReader, all the images in your book will be "
 "shown tiny."
 msgstr ""
+"In parole povere questa regola dice: <b>\"Ignorate le dimensioni originali e "
+"rendete tutte le immagini di questo libro larghe 10 pixel e alte 10 pixel\""
+".</b> Quindi, se si aggiunge questa modifica di stile a KOReader, tutte le "
+"immagini del libro saranno visualizzate in piccolo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Now lets explain this tweak item by item:"
-msgstr ""
+msgstr "Ora spieghiamo questa modifica voce per voce:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2342-9
 msgid ""
 "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
 "<b>img</b> (image) elements in the book."
 msgstr ""
+"<span class=\"ui\">img</span> - È un selettore CSS che si rivolge a tutti "
+"gli elementi <b>img</b> (immagine) del libro."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2343-9
 msgid ""
@@ -5360,6 +5376,9 @@ msgid ""
 "span> - This is the declaration block. It contains the styles which will be "
 "applied to the selected <b>img</b> elements."
 msgstr ""
+"<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
+"span> - Questo è il blocco di dichiarazione. Contiene gli stili che verranno "
+"applicati agli elementi <b>img</b> selezionati."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2344-9
 msgid ""
@@ -5369,6 +5388,11 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> - Questa prima parte "
+"imposta la larghezza degli elementi <b>img</b> a 10 pixel. La dichiarazione "
+"<b>!important</b> è uno switch di sovrascrittura che assicura che il valore "
+"della larghezza abbia la precedenza su qualsiasi altro valore esistente "
+"della dichiarazione <b>width</b> applicata a queste immagini."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2345-9
 msgid ""
@@ -5378,6 +5402,11 @@ msgid ""
 "height value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"<span class=\"ui\">height: 10px !important;</span> - Questa parte imposta "
+"l'altezza degli elementi <b>img</b> a 10 pixel. Anche in questo caso, la "
+"dichiarazione <b>!important</b> è uno switch di sovrascrittura che assicura "
+"che il valore dell'altezza abbia la precedenza su qualsiasi altro valore "
+"esistente della dichiarazione <b>width</b> applicata a queste immagini."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2348-5
 msgid ""
@@ -5385,66 +5414,75 @@ msgid ""
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
 msgstr ""
+"In sintesi, questa regola CSS è progettata per impostare una <b>larghezza e "
+"un'altezza fisse di 10 pixel</b> per tutti gli elementi <b>img</b> del "
+"libro, <b>ignorando lo stile originale</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2352-5
 msgid "Some useful examples of style tweaks"
-msgstr ""
+msgstr "Alcuni esempi utili di modifiche allo stile"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
 msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
 msgstr ""
+"Queste sono alcune utili ritocchi di stile che si possono utilizzare "
+"direttamente o modificare a proprio piacimento. Il prossimo paragrafo spiega "
+"come utilizzarli in KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2357-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Aggiungere una linea di separazione sopra ogni titolo di un libro:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2358-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Aggiungere un po' di margine sopra i titoli:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2362-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2364-13
 msgid "Or if the book have too much margin above the headings, remove them:"
-msgstr ""
+msgstr "Oppure, se il libro ha troppi margini sopra i titoli, rimuoveteli:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2365-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2368-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
 msgstr ""
+"Aggiungete un piccolo spazio tra i paragrafi per rendere il testo più "
+"leggibile:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2369-17
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2371-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Disabilita tutte le immagini in un EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2372-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Rendere le immagini molto piccole invece di disabilitarle:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2377-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid ""
@@ -5452,6 +5490,10 @@ msgid ""
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgstr ""
+"Rendere più ordinate e leggibili le sezioni dei blocchi di codice nei libri "
+"di informatica (<a href="
+"\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\""
+">Qui potete vedere un esempio</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgid ""
@@ -5459,10 +5501,13 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2396-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Come aggiungere ritocchi di stile"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2398-5
 msgid ""
@@ -5470,15 +5515,20 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
+"Ok, ora abbiamo visto cosa sono i <span class=\"ui\">ritocchi di stile</"
+"span>. Ma come possiamo usarli? Ci sono tre tipi di <span class=\"ui\""
+">rotocchi di stile</span> in KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2402-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Ritocchi di stile integrate"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2404-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
 msgstr ""
+"Questa voce è nuova, così come lo screenshot sopra e sotto. C'è qualcosa da "
+"aggiungere?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2407-1
 msgid ""
@@ -5486,12 +5536,17 @@ msgid ""
 "just enable them from the menu to use them. You don't need to write any CSS "
 "code:"
 msgstr ""
+"Questi ritocchi sono inclusi in KOReader. Sono i più facili da usare, poiché "
+"basta attivarli dal menu per utilizzarli. Non è necessario scrivere alcun "
+"codice CSS:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2409-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Ritocchi di stile"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2411-5
 msgid ""
@@ -5500,10 +5555,14 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
+"Sono disponibili in diverse categorie. Per applicare un ritocco solo al "
+"<b>libro corrente</b>, selezionare la casella di controllo. Se si desidera "
+"ottenere maggiori informazioni su questo ritocco o attivarla per <b>tutti i "
+"libri</b>, premere a lungo sul suo nome. Apparirà una finestra di dialogo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2416-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Quest'area mostra il nome e la descrizione del ritocco."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2417-13
 msgid ""
@@ -5512,6 +5571,10 @@ msgid ""
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
 msgstr ""
+"Questo riquadro mostra il codice CSS del ritocco. È possibile toccare "
+"quest'area per copiare il codice negli appunti. Quindi si può incollare e "
+"modificare questo codice nel proprio <span class=\"ui\">ritocco specifico "
+"per il libro</span>, come spiegato nel prossimo paragrafo."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2419-13
 msgid ""
@@ -5520,6 +5583,10 @@ msgid ""
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
 msgstr ""
+"Il pulsante <span class=\"ui\">Mostra nella lista delle azioni</span> "
+"consente di attivare questa modifica con un gesto o aggiungerlo a un <span "
+"class=\"ui\">Menu Rapido</span>. Per ulteriori informazioni, si veda la "
+"sezione <b>\"Come usare i ritocchi in modo efficiente\"</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid ""
@@ -5528,10 +5595,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"Il pulsante <span class=\"ui\">Usa su tutti i libri</span> attiva questa "
+"modifica per tutti i libri. Una <b>stella (★)</b> apparirà accanto al nome "
+"nel menu, a indicare che questa modifica sarà applicata a tutti i libri. È "
+"possibile disattivarla con gli stessi passaggi."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2425-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Ritocco specifico del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2426-9
 msgid ""
@@ -5543,18 +5614,29 @@ msgid ""
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
 msgstr ""
+"Come si può intuire dal nome, questo tipo di ritocco è attivo solo per il "
+"libro in cui è stato creato. Questa funzione è più utile per testare i "
+"ritocchi o per correggere qualcosa nel libro corrente, sapendo che non ne "
+"avrete bisogno in altri libri. Dopo aver creato questo tipo di ritocco, se "
+"si decide di utilizzarlo anche per altri libri (ad esempio dello stesso "
+"editore), è possibile convertirlo in un <span class=\"ui\">ritocco stile "
+"utente</span>, che verrà spiegata di seguito."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2428-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Per creare un <span class=\"ui\">ritocco specifico per un libro</span>, "
+"utilizzare l'editor integrato che si trova qui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Ritocchi di stile / Ritocco specifico per il libro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2432-24
 msgid ""
@@ -5564,10 +5646,16 @@ msgid ""
 "the <span class=\"ui\">Long-press for info</span> help. Also you can long-"
 "press on CSS items in this menu to see a description."
 msgstr ""
+"<span class=\"label_green\">TIP</span> Nell'editor abbiamo un menu <span "
+"class=\"ui\">CSS</span> nella barra degli strumenti inferiore. Questo menu "
+"contiene molte utili proprietà e sintassi CSS.Quando si apre questo menu, "
+"leggere prima la guida <span class=\"ui\">Pressione prolungata per "
+"informazioni</span>. È inoltre possibile premere a lungo sulle voci CSS di "
+"questo menu per visualizzarne la descrizione."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2435-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Ritocchi di stile dell'utente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2437-9
 msgid ""
@@ -5575,52 +5663,59 @@ msgid ""
 "are created. Also unlike the previous type, they are not limited to a single "
 "book. They can be applied globally to all of your books."
 msgstr ""
+"Questo gruppo di ritocchi si differenzia dai precedenti per il modo in cui "
+"vengono creati. Inoltre, a differenza del tipo precedente, non sono limitati "
+"a un singolo libro. Possono essere applicati globalmente a tutti i libri."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2439-9
 msgid "Procedure is roughly like this, which we will explain in detail:"
-msgstr ""
+msgstr "La procedura è più o meno questa, che spiegheremo in dettaglio:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2442-13
 msgid "Create your user tweak file"
-msgstr ""
+msgstr "Creare il file di ritocchi utente"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2443-13
 msgid "Transfer it to your device"
-msgstr ""
+msgstr "Trasferirlo sul dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2444-13
 msgid "Enable your tweak from the menu"
-msgstr ""
+msgstr "Attivare il ritocco dal menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2448-9
 msgid "1. Creating the user tweak file:"
-msgstr ""
+msgstr "1. Creazione del file di ritocchi utente:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2449-9
 msgid ""
 "A <span class=\"ui\">user style tweak</span> is actually a normal text file "
 "with a <b>.css</b> extension. You can create this file:"
 msgstr ""
+"Un <span class=\"ui\">ritocco stile utente</span> è in realtà un normale "
+"file di testo con estensione <b>.css</b>. È possibile creare questo file:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2452-13
 msgid "On your computer"
-msgstr ""
+msgstr "Sul computer"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2453-13
 msgid "On your device if it has a text editor (like Android OS based devices)"
 msgstr ""
+"Sul vostro dispositivo, se dispone di un editor di testo (come i dispositivi "
+"basati su Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2454-13
 msgid "In KOReader's integrated text editor which you can find in plugins"
-msgstr ""
+msgstr "Nell'editor di testo integrato in KOReader, che si trova nei plugin"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2457-9
 msgid "You can copy / paste the examples we mentioned above to your file."
-msgstr ""
+msgstr "È possibile copiare/incollare gli esempi sopra citati nel proprio file."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2461-9
 msgid "2. Transferring the file to your device:"
-msgstr ""
+msgstr "2. Trasferimento del file sul dispositivo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2462-9
 msgid ""
@@ -5632,14 +5727,21 @@ msgid ""
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
 msgstr ""
+"Dopo aver creato i file contenenti le regole CSS, salvarli o trasferirli "
+"nella cartella <span class=\"ui\">styletweaks</span> dell'installazione di "
+"KOReader. Date ai file nomi descrittivi, perché il nome del file sarà il "
+"titolo del ritocco nel sistema di menu di KOReader. È possibile utilizzare i "
+"trattini bassi \"<b>_</b>\" nei nomi dei file, saranno trattati come spazi "
+"nel menu. <b>E' necessario riavviare KOReader dopo il trasferimento dei file "
+"in modo che possa caricarli.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. Abilitazione del ritocco:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2467-9
 msgid "After the restart, open a book and go to this menu:"
-msgstr ""
+msgstr "Dopo il riavvio, aprire un libro e accedere a questo menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2469-9
 msgctxt "user_guide/en.html+html.body.div.div:2469-9"
@@ -5647,6 +5749,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Ritocchi di stile / Ritocchi stile utente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid ""
@@ -5658,6 +5762,15 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps. See below for an example:"
 msgstr ""
+"Ora dovreste vedere il vostro ritocco nell'elenco con una casella di "
+"controllo accanto. Per applicare il ritocco solo al <b>libro corrente</b>, "
+"selezionare la casella di controllo. Se si desidera che questa modifica sia "
+"abilitata per <b>tutti i libri</b>, premere a lungo sul suo nome. Viene "
+"visualizzata una finestra di dialogo. Toccare la voce di menu <span class="
+"\"ui\">Usa su tutti i libri</span>. Una <b>stella (★)</b> apparirà accanto "
+"al nome nel menu, a indicare che questo ritocco sarà applicato a tutti i "
+"libri. È possibile disattivarla con gli stessi passaggi. Vedere di seguito "
+"un esempio:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2475-9
 msgid ""
@@ -5667,6 +5780,12 @@ msgid ""
 "book only since checkbox is marked but there is no star. Third one is "
 "enabled for all the books <b>(★)</b>."
 msgstr ""
+"Nell'immagine qui sopra, ho 3 file di modifica dello stile nella cartella "
+"<span class=\"ui\">styletweaks</span> della mia installazione di KOReader. "
+"Il primo è disabilitato perché la casella di controllo è vuota. Il secondo è "
+"abilitato solo per questo libro, poiché la casella di controllo è "
+"contrassegnata, ma non c'è nessuna stella. Il terzo è abilitato per tutti i "
+"libri <b>(★)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2477-9
 msgid ""
@@ -5674,10 +5793,14 @@ msgid ""
 "icon</span> next to the first tweak. This means that this tweak can be "
 "activated using gestures. This will explained in the next heading."
 msgstr ""
+"Si può notare che c'è anche un'icona con un <span class=\"ui\">triangolo</"
+"span> a destra del primo ritocco. Ciò significa che questo ritocco può "
+"essere attivato utilizzando i gesti. Ciò verrà spiegato nella prossima "
+"sezione."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2479-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Come utilizzare i ritocchi in modo efficiente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2481-9
 msgid ""
@@ -5687,12 +5810,20 @@ msgid ""
 "to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows "
 "you to enable tweaks depending on your document."
 msgstr ""
+"Quando si creano i <span class=\"ui\">ritocchi stile utente</span>, si "
+"possono creare più file di ritocchi, ognuno dei quali modifica una parte del "
+"libro, come nell'immagine di esempio qui sopra. È possibile avere un file "
+"per le <b>intestazioni</b>, altri per modificare i <b>paragrafi</b>, "
+"<b>collegamenti</b> etc. Questo sistema modulare consente di apportare "
+"modifiche a seconda del documento."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2483-9
 msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
 msgstr ""
+"Come abbiamo detto sopra, è possibile attivare i <span class=\"ui\">ritocchi "
+"stile utente</span> da questa posizione del menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2485-9
 msgctxt "user_guide/en.html+html.body.div.div:2485-9"
@@ -5700,39 +5831,51 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Ritocchi di stile / Ritocchi stile utente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2489-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
 msgstr ""
+"Abbiamo anche un modo più semplice per attivare i ritocchi di stile "
+"piuttosto che andare ogni volta nel menu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2491-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. È possibile assegnare un gesto a un ritocco"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2492-9
 msgid ""
 "To do this, first we have to add our <span class=\"ui\">user style tweak</"
 "span> to the list of gesture actions:"
 msgstr ""
+"Per farlo, dobbiamo prima aggiungere il nostro <span class=\"ui\">ritocco "
+"stile utente</span> all'elenco delle azioni dei gesti:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2495-17
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
 msgstr ""
+"Andare al menu <span class=\"ui\">Ritocchi stile utente</span> e premere a "
+"lungo sulla modifica dello stile"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2496-17
 msgid ""
 "In the dialog press the button <span class=\"ui\">Show in action list</span>"
 msgstr ""
+"Nella finestra di dialogo, premere il pulsante <span class=\"ui\">Mostra "
+"nella lista delle azioni</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2497-17
 msgid ""
 "A <span class=\"ui\">right triangle icon</span> will appear next to your "
 "style tweak in the menu"
 msgstr ""
+"Un'icona <span class=\"ui\">triangolo</span> apparirà a destra del ritocco "
+"di stile nel menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2500-13
 msgid ""
@@ -5741,10 +5884,15 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
+"Lo si può vedere nell'immagine di esempio qui sopra, accanto alla modifica "
+"dello stile <b>Regola i margini</b>. Ora questo ritocco di stile viene "
+"aggiunta all'elenco delle azioni. È possibile trovarlo nella categoria <span "
+"class=\"ui\">Tocchi e gesti > Documenti adattabili</span>. Si troverà alla "
+"fine dell'elenco."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2504-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. È possibile aggiungere un ritocco al Menu Rapido"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2506-9
 msgid ""
@@ -5753,6 +5901,10 @@ msgid ""
 "follow the instructions under the <a href=\"#quickmenu\">Quick Menu</a> "
 "section of this guide."
 msgstr ""
+"Per aggiungere un ritocco al vostro <span class=\"ui\">Menu Rapido</span>, "
+"occorre innanzitutto aggiungerlo all'elenco delle azioni, come descritto "
+"nella sezione precedente. Quindi potete seguire le istruzioni riportate "
+"nella sezione <a href=\"#quickmenu\">Menu rapido</a> di questa guida."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2508-9
 msgid ""
@@ -5761,10 +5913,13 @@ msgid ""
 "gesture. This way, with a simple gesture you can access all your style "
 "tweaks and activate them as needed."
 msgstr ""
+"È anche possibile combinare entrambi i metodi e creare uno speciale <span "
+"class=\"ui\">Menu Rapido</span> per i ritocchi di stile e assegnarli a un "
+"gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2511-5
 msgid "Finding elements for modifying"
-msgstr ""
+msgstr "Trovare elementi da modificare"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2513-5
 msgid ""
@@ -5775,39 +5930,51 @@ msgid ""
 "in, and choose <span class=\"ui\">View HTML</span> from the dialog. In the "
 "example above, your style tweak would look like this:"
 msgstr ""
+"Si noti che in alcuni libri i titoli potrebbero non essere contenuti negli "
+"elementi <b>&lt;H1&gt; o &lt;H2&gt;</b>, ma in qualcosa come <b>&lt;p class="
+"\"tit123\"&gt;</b>. È possibile trovare i selettori utilizzati per una parte "
+"di testo controllando la fonte. Per ottenere questo risultato, selezionare "
+"il testo intorno all'elemento che interessa e scegliere <span class=\"ui\""
+">Visualizza HTML</span> dalla finestra di dialogo. Nell'esempio precedente, "
+"la modifica dello stile avrà il seguente aspetto:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2515-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2517-5
 msgid "instead of this:"
-msgstr ""
+msgstr "invece di questo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2519-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2530-1
 msgctxt "user_guide/en.html+html.body.div.div:2530-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "SEGNALIBRI, EVIDENZIAZIONI E NOTE"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2532-5
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
 msgstr ""
+"KOReader offre la possibilità di interagire con il libro come si fa con un "
+"libro vero. Qui è possibile modificare molte impostazioni della finestra dei "
+"segnalibri:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2536-6
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Impostazioni / Segnalibri"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2541-5
 msgid "BOOKMARKS:"
-msgstr ""
+msgstr "SEGNALIBRI:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2543-5
 msgid ""
@@ -5815,10 +5982,13 @@ msgid ""
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
 msgstr ""
+"È possibile aggiungere (e rimuovere) un segnalibro premendo l'angolo "
+"superiore destro. È l'equivalente della piegatura dell'angolo di una pagina "
+"di un libro vero e proprio e mostra un'icona simile quando la si attiva."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2547-5
 msgid "HIGHLIGHTS:"
-msgstr ""
+msgstr "EVIDENZIAZIONI:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2549-5
 msgid ""
@@ -5828,6 +5998,11 @@ msgid ""
 "class=\"ui\">Underline, Strikeout</span> and <span class=\"ui\">Invert</"
 "span>."
 msgstr ""
+"È possibile evidenziare il testo in 4 stili diversi. Nell'immagine "
+"sottostante, si può vedere un paragrafo normale seguito da diversi stili di "
+"evidenziazione.<span class=\"ui\">Chiaro </span> (con sfondo grigio), <span "
+"class=\"ui\">Sottolineato, Sbarrato</span> e <span class=\"ui\""
+">Invertire</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2554-5
 msgid ""
@@ -5835,6 +6010,9 @@ msgid ""
 "colored highlight markers. Or you can decide your favorite style and set it "
 "as default from this menu by long pressing:"
 msgstr ""
+"È possibile utilizzare tutti questi stili contemporaneamente, come se "
+"fossero evidenziatori di colore diverso. Oppure si può decidere lo stile "
+"preferito e impostarlo come predefinito da questo menu premendo a lungo:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2556-5
 msgctxt "user_guide/en.html+html.body.div.div:2556-5"
@@ -5842,28 +6020,36 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Evidenziati"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2560-5
 msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
 msgstr ""
+"Inoltre, se si dispone di un dispositivo con schermo a colori, è possibile "
+"creare evidenziazioni di colori diversi:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2562-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Evidenziati / Colore dell'evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2566-5
 msgid "Some tips for color highlights:"
-msgstr ""
+msgstr "Alcuni suggerimenti per il colore delle evidenziazioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2569-9
 msgid ""
 "You can change the color of an existing highlight by tapping on it and "
 "choosing <span class=\"ui\">Color</span> from the popup menu."
 msgstr ""
+"È possibile modificare il colore di un'evidenziazione esistente toccandola e "
+"scegliendo <span class=\"ui\">Colore</span> dal menu a comparsa."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2571-9
 msgid ""
@@ -5874,22 +6060,33 @@ msgid ""
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
 msgstr ""
+"È possibile combinare i colori con diversi stili di evidenziazione, come "
+"<b>Sottolineato</b> e <b>Sbarrato</b> per creare un potente sistema di "
+"evidenziazione. Ad esempio, è possibile utilizzare uno stile <span style"
+"=\"text-decoration: line-through; font-weight: bold; color: red;"
+"\">sbarrato rosso</span> per le rimozioni o <span style=\"text-decoration: "
+"underline; font-weight: bold; color: orange;\">sottolineatura arancione</"
+"span> per i punti importanti, ecc."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2574-1
 msgid "Setting the defaults for highlights"
-msgstr ""
+msgstr "Impostazione dei valori predefiniti per le evidenziazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2580-9
 msgid ""
 "In the highlights menu you can long-press on a highlight type to set it as "
 "default (★)"
 msgstr ""
+"Nel menu delle evidenziazioni è possibile premere a lungo su un tipo di "
+"evidenziazione per impostarlo come predefinito (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2581-9
 msgid ""
 "<b>After selecting a color</b>, you can long-press on the color name in this "
 "menu to set that color as default (★)"
 msgstr ""
+"<b>Dopo aver selezionato un colore</b>, è possibile premere a lungo sul nome "
+"del colore in questo menu per impostarlo come predefinito (★)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2582-9
 msgid ""
@@ -5897,10 +6094,13 @@ msgid ""
 "highlights</span> option to make all the highlights in the current book "
 "same. <b>Be careful, there is no undo!</b>"
 msgstr ""
+"È possibile premere l'opzione <span class=\"ui\">Applica lo stile e il "
+"colore corrente a tutte le evidenziazioni</span> per rendere uguali tutte le "
+"evidenziazioni del libro corrente. <b>Attenzione, non c'è l'annullamento!</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2587-5
 msgid "NOTES:"
-msgstr ""
+msgstr "NOTE:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2589-5
 msgid ""
@@ -5911,31 +6111,42 @@ msgid ""
 "line</span> and <span class=\"ui\">Side mark</span> (which is the pencil "
 "icon shown on the right side of the picture below):"
 msgstr ""
+"È anche possibile aggiungere note ai punti salienti. È sufficiente toccare "
+"un'evidenziazione e scegliere <span class=\"ui\">Note</span> dal menu a "
+"comparsa. È inoltre possibile scegliere un <span class=\"ui\">simbolo di "
+"nota</span> che mostra quali evidenziazioni contengono una nota. Esistono "
+"tre stili:<span class=\"ui\">Sottolineato, Linea laterale</span> e <span "
+"class=\"ui\">Segno di margine</span> (che è l'icona della matita mostrata "
+"sul lato destro dell'immagine sottostante):"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2595-5
 msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
 msgstr ""
+"Per attivare questa funzione e scegliere uno stile di <span class=\"ui\""
+">simbolo di nota</span>, andare su:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2597-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Evidenziati / Simbolo di nota"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2601-1
 msgctxt "user_guide/en.html+html.body.div.div:2601-1"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "Modalità di evidenziazione di KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2603-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr ""
+msgstr "KOReader ha due modalità di evidenziazione per diversi casi d'uso:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2608-1
 msgid "Normal mode"
-msgstr ""
+msgstr "Modalità normale"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2610-5
 msgid ""
@@ -5943,18 +6154,21 @@ msgid ""
 "your finger on a phone/tablet and more suitable if your highlights are "
 "shorter than one page."
 msgstr ""
+"La modalità <span class=\"ui\">Normale</span> è simile alla selezione di un "
+"testo con il dito su un telefono/tablet ed è più adatta se le evidenziazioni "
+"sono più brevi di una pagina."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2613-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Premere a lungo sulla parola iniziale"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2614-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Spostare il dito alla fine del passaggio"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2615-9
 msgid "Release finger"
-msgstr ""
+msgstr "Alzare il dito"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2618-5
 msgid ""
@@ -5962,6 +6176,9 @@ msgid ""
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
 msgstr ""
+"Quando si raggiungono i limiti della pagina, KOReader gira la pagina per "
+"continuare l'evidenziazione <b>(solo nei documenti EPUB/HTML)</b>. È "
+"possibile disattivare questa funzione da:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2620-5
 msgid ""
@@ -5969,10 +6186,13 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Auto-"
 "scroll when selection reaches a corner"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tocchi e gesti / Pressione a lungo sul testo / "
+"Scorrimento automatico quando la selezione raggi..."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2624-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Modalità per selezionare ed evidenziare"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2626-5
 msgid ""
@@ -5982,6 +6202,11 @@ msgid ""
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
 msgstr ""
+"La modalità <span class=\"ui\">Selezione ed evidenziazione</span> è più "
+"adatta per evidenziare passaggi più lunghi che attraversano i confini della "
+"pagina. Potrebbe anche funzionare meglio se si hanno problemi di sensibilità "
+"al touch screen o di controllo motorio delle mani. Infatti, in questa "
+"modalità di evidenziazione non è necessario trascinare il dito sullo schermo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2628-5
 msgid ""
@@ -5989,6 +6214,9 @@ msgid ""
 "enabled, when you long-press a word, you have to drag your finger to "
 "initiate this mode."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Se è abilitata la ricerca nel "
+"dizionario, quando si preme a lungo una parola, è necessario trascinare il "
+"dito per avviare questa modalità."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2630-5
 msgid ""
@@ -5996,16 +6224,22 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Dictionary "
 "on single word selection"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tocchi e gesti / Pressione a lungo sul testo / Dizionario "
+"sulla selezione di una sola parola"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2634-5
 msgid "How to highlight:"
-msgstr ""
+msgstr "Come evidenziare:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2639-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
 msgstr ""
+"Premendo a lungo (o trascinando se la ricerca nel dizionario è abilitata "
+"come descritto sopra) sulla parola iniziale, viene visualizzato un menu a "
+"comparsa."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2640-5
 msgid ""
@@ -6016,18 +6250,30 @@ msgid ""
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
 msgstr ""
+"Toccare <span class=\"ui\">Seleziona</span>, ora si è in modalità di "
+"evidenziazione. Quando si è in questa modalità, nell'angolo superiore "
+"sinistro dello schermo compare un indicatore (che si può toccare per "
+"ottenere ulteriori informazioni). È possibile annullare l'evidenziazione "
+"toccando nuovamente l'inizio dell'evidenziazione. In questa modalità è "
+"possibile girare le pagine toccando o sfiorando e navigare liberamente nel "
+"documento (TOC, skim, ecc.)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2641-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
 msgstr ""
+"Premete a lungo (o trascinate se la ricerca nel dizionario è abilitata come "
+"descritto sopra) sulla parola finale dell'evidenziazione, il menu apparirà "
+"di nuovo."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2642-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
 msgstr ""
+"Toccare questa volta <span class=\"ui\">Evidenzia</span> per terminare "
+"l'evidenziazione del passaggio."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2645-5
 msgid ""
@@ -6036,6 +6282,11 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
+"Questa finestra di dialogo si apre normalmente al centro dello schermo. Se "
+"si desidera che la finestra di dialogo si apra più vicino alla posizione di "
+"evidenziazione, è possibile cambiare l'opzione <span class=\"ui\">centro</"
+"span> in <span class=\"ui\">posizione dell'orientamento</span> (si trova "
+"nella seconda pagina di questo menu):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2647-5
 msgid ""
@@ -6043,6 +6294,9 @@ msgid ""
 "style=\"width:22px;\">/ Taps and Gestures / Long-press on text / Highlight "
 "dialog position"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Tocchi e gesti / Pressione a lungo sul testo / Posizione "
+"del dialogo d'evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2649-5
 msgid ""
@@ -6053,6 +6307,14 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> Esiste un metodo <b>più veloce</b> "
+"per questa modalità se non si ha bisogno di <b>voci di menu a pressione "
+"prolungata</b> mostrate sopra. È possibile disattivare completamente il menu "
+"a comparsa in modo che quando si preme a lungo su una parola si acceda "
+"immediatamente alla modalità <span class=\"ui\">Seleziona ed evidenzia</"
+"span>.Questo metodo è molto più veloce e consente di evidenziare qualsiasi "
+"lunghezza di testo con due soli tocchi. Per utilizzare questo metodo, "
+"attivare questa opzione:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2651-5
 msgid ""
@@ -6060,6 +6322,9 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Select and "
 "highlight"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tocchi e gesti / Pressione a lungo sul testo / Selezione "
+"ed evidenzia"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2657-5
 msgid ""
@@ -6072,6 +6337,15 @@ msgid ""
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> KOReader può evidenziare un brano in "
+"diversi stili. Se si utilizza l'opzione <span class=\"ui\">Chiaro</span>, lo "
+"sfondo del testo sarà grigio. A causa delle limitazioni dell'e-ink, gli "
+"schermi non possono passare direttamente dal bianco al grigio, quindi la "
+"parte evidenziata deve prima diventare nera e poi grigia. Se si desidera "
+"evitare questo lampeggiamento, è possibile scegliere <span class=\"ui\""
+">Invertire</span> come stile di evidenziazione. In questa modalità lo sfondo "
+"del testo sarà nero, quindi potrà essere impostato senza lampeggiare. È "
+"possibile regolare queste opzioni di evidenziazione da:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2659-5
 msgctxt "user_guide/en.html+html.body.div.div.div:2659-5"
@@ -6079,6 +6353,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Evidenziati"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2664-5
 msgid ""
@@ -6087,10 +6363,14 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
+"<span class=\"label_green\">TIP</span> È possibile aggiungere più "
+"evidenziazioni e note alla stessa sezione di testo. Se si sovrappongono, "
+"quando si tocca un'evidenziazione viene presentato un menu per scegliere "
+"quale evidenziazione modificare."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2668-1
 msgid "Selecting punctuation while highlighting"
-msgstr ""
+msgstr "Selezione della punteggiatura durante l'evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2670-5
 msgid ""
@@ -6099,6 +6379,10 @@ msgid ""
 "word to the last word of a sentence, KOReader will automatically include the "
 "punctuation marks at the both ends of the sentence to your highlight."
 msgstr ""
+"Quando si evidenzia, KOReader cerca di includere i relativi segni di "
+"punteggiatura intorno alla selezione. Ad esempio, se si evidenzia dalla "
+"prima all'ultima parola di una frase, KOReader includerà automaticamente i "
+"segni di punteggiatura alle due estremità della frase."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2673-5
 msgid ""
@@ -6109,10 +6393,17 @@ msgid ""
 "you can add these marks later by long pressing the <span "
 "class=\"ui\">Highlight edit</span> buttons."
 msgstr ""
+"Ma se si inizia a evidenziare dal centro di una frase, il periodo alla fine "
+"<b>non sarà incluso</b> perché KOReader presume che si voglia fare "
+"un'evidenziazione parziale. Quindi, se volete che i segni di punteggiatura "
+"vengano aggiunti all'evidenziazione, assicuratevi di selezionare l'<b>intera "
+"frase</b>. È inoltre possibile aggiungere questi segni in un secondo momento "
+"premendo a lungo i pulsanti <span class=\"ui\">Modifica "
+"evidenziazione</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2676-1
 msgid "Editing highlights"
-msgstr ""
+msgstr "Modifica evidenziazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2678-5
 msgid ""
@@ -6121,6 +6412,10 @@ msgid ""
 "class=\"ui\">Add note</span> items are clear. Bottom row menu items are used "
 "to extend or shrink the highlight."
 msgstr ""
+"Quando si tocca un testo già evidenziato <b>(senza nota)</b>, viene "
+"visualizzato questo menu a comparsa. Le voci <span class=\"ui\">Cancella</"
+"span> e <span class=\"ui\">Note</span> sono chiare. Le voci di menu della "
+"riga inferiore sono utilizzate per estendere o ridurre l'evidenziazione."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2682-5
 msgid ""
@@ -6129,6 +6424,10 @@ msgid ""
 "on PDFs, you have to delete it and highlight again due to the limitations of "
 "the PDF format."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Questa regolazione funziona solo su "
+"documenti adattabili come gli EPUB. Se si desidera estendere o ridurre "
+"un'evidenziazione su PDF, è necessario eliminarla ed evidenziarla nuovamente "
+"a causa delle limitazioni del formato PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2684-5
 msgid ""
@@ -6137,6 +6436,10 @@ msgid ""
 "open the menu above where you can edit both the highlight and the contained "
 "note:"
 msgstr ""
+"Quando si tocca un testo già evidenziato <b>con una nota aggiunta</b>, viene "
+"visualizzato questo menu a comparsa. Toccare <span class=\"ui\">Menù "
+"evidenziazioni</span> per aprire il menu in alto dove è possibile modificare "
+"sia l'evidenziazione che la nota contenuta:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2688-5
 msgid ""
@@ -6145,10 +6448,14 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;"
 "\"> ) You can also filter by highlight style:"
 msgstr ""
+"Nella pagina <span class=\"ui\">Segnalibri</span> è possibile filtrare la "
+"visualizzazione per vedere solo un tipo di segnalibro premendo l'icona del "
+"menu ( <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style="
+"\"width:22px;\"> ). È anche possibile filtrare per stile di evidenziazione:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2694-1
 msgid "Editing the text of a highlight"
-msgstr ""
+msgstr "Modifica del testo di un'evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2696-5
 msgid ""
@@ -6162,6 +6469,16 @@ msgid ""
 "highlight, you can directly write <b>\"(this date needs to be checked)\"</b> "
 "next to the problematic date."
 msgstr ""
+"Oltre ad aggiungere una nota, KOReader consente anche di modificare il testo "
+"evidenziato che viene visualizzato <span class=\"ui\">nell'elenco dei "
+"segnalibri</span>. In alcune situazioni questo potrebbe essere più utile "
+"dell'aggiunta di una nota a un'evidenziazione. Ad esempio, immaginate di "
+"rivedere un testo. Si vuole evidenziare una frase che contiene molte date e "
+"una delle date è sbagliata. Quando si vuole aggiungere una nota per "
+"evidenziare questo errore, è necessario specificare nella nota quale data è "
+"sbagliata. Ma se si modifica il testo di un'evidenziazione, è possibile "
+"scrivere direttamente <b>\"(questa data deve essere controllata)\"</b> "
+"accanto alla data problematica."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2698-5
 msgid ""
@@ -6171,44 +6488,55 @@ msgid ""
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
 msgstr ""
+"Si noti che questa modifica <b>non cambia</b> il contenuto del libro o il "
+"passaggio evidenziato nella pagina. Nel lettore si vedrà ancora la stessa "
+"frase evidenziata. La modifica sarà visibile nell'elenco <span class=\"ui\""
+">Segnalibri</span>. Quando si esportano le evidenziazioni, il testo "
+"modificato sarà quello esportato."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2700-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Per modificare un testo evidenziato, è possibile:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2702-13
 msgid "Tap on the highlight"
-msgstr ""
+msgstr "Toccare l'evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2703-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "Toccare <span class=\"ui\">Dettagli</span> dal menu a comparsa"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2704-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
 msgstr ""
+"Toccare <span class=\"ui\">Modifica testo</span> dalla finestra di dialogo "
+"dei dettagli"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2708-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "È possibile farlo anche dalla finestra Segnalibri:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2711-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgstr ""
+"Accedere all'elenco dei <span class=\"ui\">segnalibri</span> tramite menu o "
+"gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2712-9
 msgid "Long press on the highlight you want to edit"
-msgstr ""
+msgstr "Premere a lungo sull'evidenziazione che si desidera modificare"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2713-9
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr ""
+msgstr "Premere <span class=\"ui\">Modifica testo</span> nel menu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2714-9
 msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
 msgstr ""
+"Modificare il testo nella finestra di dialogo e premere il pulsante <span "
+"class=\"ui\">Salva</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2717-5
 msgid ""
@@ -6217,10 +6545,16 @@ msgid ""
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
+"Se si desidera <b>ripristinare</b> un testo modificato all'evidenziazione "
+"originale, seguire i passaggi precedenti e al passo <b>3</b>, invece di "
+"<span class=\"ui\">Modifica testo</span>, premere il pulsante <span class="
+"\"ui\">Ripristina il testo</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2720-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
 msgstr ""
+"Modifica della modalità di visualizzazione delle note aggiunte nell'Elenco "
+"segnalibri"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
 msgid ""
@@ -6230,28 +6564,38 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
+"Normalmente, quando si apre l'elenco Segnalibri, viene visualizzato solo il "
+"contenuto delle evidenziazioni. Se si è aggiunta una nota a "
+"un'evidenziazione, nell'elenco Segnalibri verrà visualizzata solo l'icona di "
+"una matita. È possibile premere a lungo su un elemento dell'elenco per "
+"visualizzare (e modificare) la nota aggiunta. Se si desidera visualizzare "
+"anche il testo della nota nell'elenco dei <span class=\"ui\">segnalibri</"
+"span>, è possibile impostarlo da qui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2724-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Impostazioni / BookSegnalibrimarks / Mostra negli "
+"elementi: nota se impostato, altrimen..."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "È possibile scegliere di mostrare:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2728-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr ""
+msgstr "<b>Solo</b> testo evidenziato (comportamento predefinito)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2729-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr ""
+msgstr "<b>Entrambi</b>, testo evidenziato e nota"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2730-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr ""
+msgstr "<b>Nota se impostato</b>, altrimenti testo evidenziato"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2733-5
 msgid ""
@@ -6260,17 +6604,23 @@ msgid ""
 "layout, you can change the <span class=\"ui\">Max lines per bookmark</span> "
 "setting from here:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> Normalmente il numero di elementi "
+"nella finestra dei segnalibri è statico e suddiviso equamente. Se si "
+"desidera un layout più flessibile, è possibile modificare l'impostazione "
+"<span class=\"ui\">Segnalibri per pagina</span> da qui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2735-6
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks / Max lines per bookmark"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Impostazioni / Segnalibri / Segnalibri per pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2739-1
 msgctxt "user_guide/en.html+html.body.div.div:2739-1"
 msgid "Exporting highlights"
-msgstr ""
+msgstr "Esportazione delle evidenziazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2741-5
 msgid ""
@@ -6280,118 +6630,148 @@ msgid ""
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
 msgstr ""
+"Dopo aver terminato un libro, è possibile spostarlo in una cartella "
+"specifica per l'archiviazione o l'elaborazione. Attivare il plugin <span "
+"class=\"ui\">Esporta annotazioni allachiusura del libro</span> e impostare "
+"la directory di destinazione nelle impostazioni del plugin(<span class=\"ui\""
+">Cartella di esportazioni/importazione: cartella met...</span>). "
+"Successivamente, è possibile spostare un libro nella cartella di archivio "
+"utilizzando:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2745-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr ""
+msgstr "<span class=\"ui\">Esporta annotazioni </span> menu del plugin"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Con un gesto o"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr ""
+msgstr "Con una voce del <span class=\"ui\">Menu Rapido</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2750-5
 msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
 msgstr ""
+"KOReader offre diversi modi per esportare evidenziazioni e note dal "
+"dispositivo di lettura:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2753-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Plugin di esportazione annotazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2755-5
 msgid ""
 "This versatile plugin can export your highlights to <b>local files</b> or "
 "<b>online services</b>."
 msgstr ""
+"Questo versatile plugin può esportare i punti salienti in <b>file locali</b> "
+"o in <b>servizi online</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2760-5
 msgid "Local export"
-msgstr ""
+msgstr "Esportazione locale"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2762-5
 msgid "You can export your highlights to your device in these file formats:"
 msgstr ""
+"È possibile esportare i punti salienti sul dispositivo in questi formati di "
+"file:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2764-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Testo (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2765-9
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2766-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Markdown (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2767-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Ritagli di Kindle (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2768-9
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2771-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "E' possibile scegliere i formati di esportazione preferiti tra:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2773-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Esporta evidenziazioni / Scegli formati e servizi"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2775-5
 msgid "You can see the export location (and also change it if you want):"
 msgstr ""
+"È possibile vedere la posizione di esportazione (e anche modificarla, se si "
+"desidera):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2777-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose export folder"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Esporta evidenziazioni / Scegli la cartella di "
+"esportazione"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2781-5
 msgid "Online services"
-msgstr ""
+msgstr "Servizi online"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2783-5
 msgid "You can also export to these services over the network:"
-msgstr ""
+msgstr "È inoltre possibile esportare questi servizi in rete:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
 msgstr ""
+"<a href=\"https://joplinapp.org/\">Joplin</a> - un'applicazione per prendere "
+"appunti"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2787-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
 msgstr ""
+"<a href=\"https://readwise.io/\">Readwise</a> - un'applicazione online per "
+"segnalibri/evidenziazioni"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2788-9
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
 msgstr ""
+"<a href=\"https://github.com/usememos/memos\">Memos</a> - un hub di memo "
+"open source autogestito"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2789-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
 msgstr ""
+"<a href=\"https://flomoapp.com\">Flomo</a> - un servizio per prendere "
+"appunti online"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
 msgstr ""
+"<a href=\"https://www.xmnote.com/\">XMNote</a> - un organizzatore di "
+"segnalibri Android in lingua cinese"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2798-5
 msgid ""
@@ -6399,30 +6779,42 @@ msgid ""
 "<a href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki "
 "page</a>."
 msgstr ""
+"Le istruzioni dettagliate per la configurazione di questi servizi sono "
+"disponibili nella nostra pagina <a href="
+"\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2802-5
 msgid ""
 "After selecting your formats, you can export the notes for the <b>current "
 "book</b> or <b>all the books in your library</b> from the same plugin menu."
 msgstr ""
+"Dopo aver selezionato i formati, è possibile esportare le note per il "
+"<b>libro corrente</b> o <b>tutti i libri della libreria</b> dallo stesso "
+"menu del plugin."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2803-5
 msgid ""
 "If you want to export only some of the books in your library, you can do "
 "this from the <span class=\"ui\">File Browser</span>:"
 msgstr ""
+"Se si desidera esportare solo alcuni dei libri della libreria, è possibile "
+"farlo dal <span class=\"ui\">File Browser</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2805-9
 msgid "Select multiple books in the <span class=\"ui\">File Browser</span>"
-msgstr ""
+msgstr "Selezionare più libri nel <span class=\"ui\">File Browser</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2806-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
 msgstr ""
+"Toccare il pulsante del menu (rappresentato da un segno di spunta) "
+"nell'angolo in alto a destra"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2807-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
 msgstr ""
+"Selezionare <span class=\"ui\">Esporta evidenziazioni</span> dal menu "
+"visualizzato"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2810-5
 msgid ""
@@ -6430,12 +6822,19 @@ msgid ""
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
 "Normally KOReader exports all of them. You can choose from:"
 msgstr ""
+"<span class=\"label_green\">TIP</span> È anche possibile esportare solo "
+"alcuni di questi stili di evidenziazione: <b>chiaro, sottolineato, sbarrato, "
+"invertito</b>. Normalmente KOReader li esporta tutti. È possibile scegliere "
+"tra:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2812-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Esporta evidenziazioni / Scegli gli stili di "
+"evidenziazione"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2816-5
 msgid ""
@@ -6444,10 +6843,14 @@ msgid ""
 "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
 msgstr ""
+"<span class=\"label_green\">TIP</span> È possibile assegnare le azioni di "
+"esportazione ai gesti per un accesso più rapido. Si trovano nella categoria "
+"<span class=\"ui\">Lettore</span> di <span class=\"ui\">Tocchi e "
+"gesti</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2821-1
 msgid "2. Using KoHighlights"
-msgstr ""
+msgstr "2. Utilizzo di KoHighlights"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2823-5
 msgid ""
@@ -6457,10 +6860,15 @@ msgid ""
 "github.com/noembryo/KoHighlights\">GitHub project page</a> for download and "
 "instructions."
 msgstr ""
+"<span class=\"external\">KoHighlights</span> è un programma esterno che si "
+"può installare sul computer. Può accedere alle note e alle evidenziazioni "
+"dei libri quando si collega il lettore al computer. Controllare la pagina "
+"del progetto <a href=\"https://github.com/noembryo/KoHighlights\">GitHub</a> "
+"per il download e le istruzioni."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-1
 msgid "3. Using Calibre"
-msgstr ""
+msgstr "3. Utilizzo di Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2830-5
 msgid ""
@@ -6472,6 +6880,13 @@ msgid ""
 "application. Check the <a href=\"https://calibre-ebook.com/\">project page</"
 "a> for download and instructions."
 msgstr ""
+"<span class=\"external\">Calibre</span> è un programma esterno che si può "
+"installare sul computer. È possibile importare le evidenziazioni nel "
+"database <span class=\"external\">Calibre</span> con il plugin <span class="
+"\"external\">KOReader Sync</span>. È possibile installare il plugin citato "
+"all'interno dell'applicazione <span class=\"external\">Calibre</span>. "
+"Consultate la <a href=\"https://calibre-ebook.com/\">pagina del progetto</a> "
+"per il download e le istruzioni."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-9
 msgid ""
@@ -6481,16 +6896,22 @@ msgid ""
 "highlights, notes and user options (formatting properties etc.) related to "
 "that document. You can manually backup/restore these directories."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Quando si apre un documento in "
+"KOReader, viene creata una directory accanto al documento con lo stesso nome "
+"del documento. Questa directory contiene un file .LUA che include tutte le "
+"evidenziazioni, le note e le opzioni utente (proprietà di formattazione, "
+"ecc.) relative al documento. È possibile eseguire manualmente il backup/"
+"ripristino di queste directory."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2841-1
 msgctxt "user_guide/en.html+html.body.div.div:2841-1"
 msgid "READING PDFS"
-msgstr ""
+msgstr "LETTURA DEI PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2843-1
 msgctxt "user_guide/en.html+html.body.div.div:2843-1"
 msgid "Reading large PDFs on a small screen"
-msgstr ""
+msgstr "Leggere PDF di grandi dimensioni su uno schermo piccolo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2844-5
 msgid ""
@@ -6498,16 +6919,22 @@ msgid ""
 "optimized for bigger page sizes (generally A4 or Letter) on your smaller "
 "screen device:"
 msgstr ""
+"KOReader offre diversi modi per leggere un documento PDF/DJVU ottimizzato "
+"per pagine di dimensioni maggiori (generalmente A4 o Letter) su uno schermo "
+"più piccolo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2849-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
 msgstr ""
+"<b>1. È possibile abilitare </b><span class=\"ui\">Reflow-adatta testo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2851-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
+"MENU INFERIORE / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
+"style=\"width:22px;\"> / Reflow-adatta testo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2853-5
 msgid ""
@@ -6516,10 +6943,14 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
+"Reflow-adatta testo cerca di estrarre la parte di testo dal documento (se "
+"disponibile) e di formattarla come una singola colonna. I risultati sono "
+"generalmente soddisfacenti. È anche possibile impostarlo come <b>default</b> "
+"toccandolo e tenendolo premuto."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2857-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
-msgstr ""
+msgstr "<b>2. È possibile attivare</b> <span class=\"ui\">Zoom a</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-5
 msgctxt "user_guide/en.html+html.body.div.div:2859-5"
@@ -6527,6 +6958,8 @@ msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
+"MENU INFERIORE / <img loading=\"lazy\" class=\"img_inline\" src="
+"\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2864-5
 msgid ""
@@ -6535,35 +6968,48 @@ msgid ""
 "<span class=\"ui\">width</span> in the same menu which will try to fit only "
 "page width instead of whole page, so your text will look bigger."
 msgstr ""
+"Con questa opzione KOReader cerca di ritagliare i margini del documento in "
+"modo che il testo risulti più grande sullo schermo. È possibile impostare "
+"<span class=\"ui\">adatta</span> su <span class=\"ui\">larghezza</span> "
+"nello stesso menu, che cercherà di adattarsi solo alla larghezza della "
+"pagina invece che all'intera pagina, in modo che il testo risulti più grande."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2868-5
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
 msgstr ""
+"<b>3. È possibile provare a utilizzare il dispositivo in </b><span class="
+"\"ui\">Modalità orizzontale</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
 msgid ""
 "This will make your screen wider so your document may look big enough to "
 "read comfortably."
 msgstr ""
+"In questo modo lo schermo sarà più ampio e il documento sembrerà abbastanza "
+"grande da poter essere letto comodamente."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2872-5
 msgctxt "user_guide/en.html+html.body.div.div:2872-5"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "MENU INFERIORE /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2876-2
 msgid ""
 "4. You can zoom to 100 percent size and instead scroll the screen to read "
 "different parts"
 msgstr ""
+"4. È possibile zoomare fino al 100% e scorrere lo schermo per leggere le "
+"diverse parti"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2879-5
 msgid ""
 "This is especially helpful with comic books. First enable <span "
 "class=\"ui\">column mode</span> from this menu item:"
 msgstr ""
+"Questo è particolarmente utile per i fumetti. Attivare innanzitutto la "
+"modalità <span class=\"ui\">colonna</span> da questa voce di menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2881-5
 msgctxt "user_guide/en.html+html.body.div.div:2881-5"
@@ -6571,12 +7017,16 @@ msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
+"MENU INFERIORE / <img loading=\"lazy\" class=\"img_inline\" src="
+"\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2883-5
 msgid ""
 "Then select an appropriate flow direction for your document from the same "
 "menu:"
 msgstr ""
+"Dopodiché, dallo stesso menu, selezionate una direzione di flusso "
+"appropriata per il vostro documento:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2889-9
 msgid ""
@@ -6584,18 +7034,26 @@ msgid ""
 "scroll down until the end of page reading left column then go to right upper "
 "side to continue reading right column:"
 msgstr ""
+"Ad esempio, se si sta leggendo un articolo con due colonne, si scorrerà "
+"verso il basso fino alla fine della pagina leggendo la colonna di sinistra e "
+"poi si passerà al lato superiore destro per continuare a leggere la colonna "
+"di destra:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2892-9
 msgid ""
 "Or if you are reading a comic book, you will want to go <b>“right / down "
 "left / right”</b> in a zigzag pattern:"
 msgstr ""
+"Oppure, se state leggendo un fumetto, vorrete andare <b>"
+"\"a destra / in basso a sinistra / a destra\"</b> con uno schema a zig-zag:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2895-9
 msgid ""
 "For a Japanese comic book (right-to-left panel order) this might be the "
 "reverse:"
 msgstr ""
+"Per un fumetto giapponese (ordine dei pannelli da destra a sinistra) "
+"potrebbe essere il contrario:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2899-5
 msgid ""
@@ -6604,6 +7062,10 @@ msgid ""
 "menu to fit the text on your screen better. Feel free to experiment with "
 "these settings."
 msgstr ""
+"In questa modalità è possibile regolare anche la <span class=\"ui\""
+">Sovrapposizione orizzontale/verticale</span> e il <span class=\"ui\">Numero "
+"di colonne</span> dallo stesso menu per adattare meglio il testo sullo "
+"schermo. Sperimentate pure con queste impostazioni."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2901-5
 msgid ""
@@ -6614,11 +7076,19 @@ msgid ""
 "displays the full page without cropping, scaled to fit your screen. You can "
 "turn the pages in this mode. To exit, tap on this icon."
 msgstr ""
+"<span class=\"label_green\">TIP</span> Durante la lettura di un documento "
+"PDF, se ci si trova in una visualizzazione ingrandita diversa dal 100% ("
+"colonna, riga o manuale) o in modalità <span class=\"ui\">reflow-adatta "
+"testo</span>, è possibile toccare l'angolo superiore sinistro dello schermo "
+"per accedere alla modalità <span class=\"ui\">lavagna</span>. Questa "
+"modalità visualizza temporaneamente l'intera pagina senza ritaglio, "
+"ridimensionata per adattarsi allo schermo. In questa modalità è possibile "
+"girare le pagine. Per uscire, toccare questa icona."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2903-1
 msgctxt "user_guide/en.html+html.body.div.div:2903-1"
 msgid "PDF Specific Bottom Menu Items"
-msgstr ""
+msgstr "Voci del menu inferiore specifiche per i PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2908-5
 msgid ""
@@ -6626,6 +7096,10 @@ msgid ""
 "document. Be aware that same contrast value applies to both text and images "
 "in your document. If you set it very high, your images may become too dark."
 msgstr ""
+"L'impostazione <span class=\"ui\">Contrasto</span> regola i livelli di nero "
+"nel documento. Tenere presente che lo stesso valore di contrasto si applica "
+"sia al testo che alle immagini del documento. Se si imposta un valore molto "
+"alto, le immagini potrebbero diventare troppo scure."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2910-5
 msgid ""
@@ -6634,6 +7108,10 @@ msgid ""
 "convert a grayscale or color document to black & white to produce more "
 "contrast for easier reading."
 msgstr ""
+"<span class=\"ui\">De filigrana</span> rimuove le filigrane dal documento "
+"reso. Può essere utilizzata anche per rimuovere gli sfondi grigi. Questa "
+"funzione può convertire un documento in scala di grigi o a colori in bianco "
+"e nero per ottenere un maggiore contrasto e facilitare la lettura."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2912-5
 msgid ""
@@ -6644,18 +7122,29 @@ msgid ""
 "your document. If your PDF/DJVU files are slow, this is the first setting "
 "you should check."
 msgstr ""
+"<span class=\"ui\">Qualità Resa Grafica</span><b>(attivo solo in modalità "
+"Reflow-adatta testo)</b> imposta la qualità dell'elaborazione e dell'output "
+"dell'estrazione di testo e immagini. <span class=\"ui\">Alto</span> è più "
+"gradevole, ma può essere molto più lento (diversi secondi per girare la "
+"pagina) rispetto a <span class=\"ui\">predefinito</span>, a seconda del "
+"documento. Se i file PDF/DJVU sono lenti, questa è la prima impostazione da "
+"controllare."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2918-5
 msgid ""
 "<span class=\"ui\">Document language</span> sets the language that will be "
 "used by the OCR engine."
 msgstr ""
+"<span class=\"ui\">Lingua documento</span> imposta la lingua che verrà "
+"utilizzata dal motore OCR."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2920-5
 msgid ""
 "<span class=\"ui\">Forced OCR</span> as the name says, forces the use of OCR "
 "even if the document has a text layer."
 msgstr ""
+"<span class=\"ui\">Forza OCR</span> come dice il nome, forza l'uso dell'OCR "
+"anche se il documento ha un livello di testo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2922-5
 msgid ""
@@ -6663,12 +7152,18 @@ msgid ""
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
 "languages like Arabic and Hebrew."
 msgstr ""
+"<span class=\"ui\">Direzione scrittura</span> <b>(attivo solo in modalità "
+"Reflow-adatta testo)</b> imposta la direzione del documento originale. "
+"Impostare questa opzione su <b>RTL</b> per lingue come l'arabo e l'ebraico."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2924-5
 msgid ""
 "<span class=\"ui\">Document columns</span> <b>(only active in Reflow mode)</"
 "b> sets the number of text columns in the original document."
 msgstr ""
+"<span class=\"ui\">Colonne documento</span><b>(attivo solo in modalità "
+"Reflow-adatta testo)</b> imposta il numero di colonne di testo nel documento "
+"originale."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2930-5
 msgid ""
@@ -6680,10 +7175,17 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
+"La funzione <span class=\"ui\">Raddrizza automaticamente</span> può "
+"raddrizzare le pagine di un documento problematico, ad esempio le pagine di "
+"un PDF scansionate con un angolo. È disponibile in documenti <b>PDF, DJVU, "
+"CBZ/CBT</b> e file <b>immagine</b>. Per attivare, scegliere l'angolo di "
+"inclinazione massimo che KOReader cercherà di correggere. Se non corregge, è "
+"necessario scegliere un angolo maggiore. Si noti che questa funzione "
+"<b>potrebbe rallentare il lettore</b> a seconda di diversi fattori."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2935-1
 msgid "Saving highlights into PDF"
-msgstr ""
+msgstr "Salvataggio di evidenziazioni in PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2937-5
 msgid ""
@@ -6691,6 +7193,9 @@ msgid ""
 "highlights</span> feature of KOReader which is explained in a previous "
 "section."
 msgstr ""
+"Per salvare le evidenziazioni, è possibile utilizzare la funzione <span "
+"class=\"ui\">Esporta evidenziazioni</span> di KOReader, spiegata in una "
+"sezione precedente."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2938-5
 msgid ""
@@ -6703,6 +7208,15 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
+"Se si stanno facendo le evidenziazioni su un documento PDF, KOReader può "
+"anche salvarle direttamente nel file PDF. Questo metodo può essere utile in "
+"alcune situazioni perché le evidenziazioni diventano parte del file PDF. Ciò "
+"significa che è possibile visualizzarle su altre applicazioni o piattaforme "
+"senza installare KOReader. Ad esempio, se si invia un file con le "
+"evidenziazioni a un altro utente, questi non dovrà installare KOReader per "
+"vedere le evidenziazioni. È sufficiente inviare il file PDF con i punti "
+"salienti salvati al suo interno e i lettori possono aprirlo e vederlo con un "
+"lettore PDF <b>compatibile</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2940-24
 msgid ""
@@ -6714,16 +7228,27 @@ msgid ""
 "class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
+"<span class=\"label_red\">ATTENZIONE</span> Se si utilizza il plugin <span "
+"class=\"ui\">Sincronizzare la posizione di lettura</span>, il salvataggio "
+"dei punti salienti del PDF modificherà il file e la sincronizzazione non "
+"andrà a buon fine. Se si intende utilizzare entrambe le funzioni, nelle "
+"impostazioni del plugin <span class=\"ui\">Sincronizzare la posizione di "
+"lettura</span>, cambiare il <span class=\"ui\">metodo di corrispondenza dei "
+"documenti</span> su <span class=\"ui\">Nome del file</span> invece della "
+"voce predefinita <span class=\"ui\">Binario</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p.div:2941-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Progress sync / Document matching method"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> /Sincronizzare la posizione di lettura / Metodo di "
+"corrispondenza dei documenti"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2946-5
 msgid "Which PDF readers can show these highlights?"
-msgstr ""
+msgstr "Quali lettori di PDF possono mostrare queste evidenziazioni?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2947-5
 msgid ""
@@ -6736,6 +7261,16 @@ msgid ""
 "see them. And ⚠️ means the application needs some plugin to show them. List "
 "is ordered alphabetically within categories."
 msgstr ""
+"I lettori PDF generalmente dipendono da alcune librerie standard per il "
+"rendering dei file PDF. Due delle librerie PDF più conosciute sono <b>MuPDF</"
+"b> e <b>Poppler</b>. KOReader utilizza la libreria <b>MuPDF</b>, quindi le "
+"evidenziazioni scritte sui PDF in KOReader non sono attualmente visibili sui "
+"lettori PDF che utilizzano la libreria <b>Poppler</b>. Di seguito è "
+"riportato un elenco di compatibilità. ✅ significa che è possibile vedere i "
+"punti salienti di KOReader in questa applicazione, ❌ significa che non è "
+"possibile vederli. E ⚠️ significa che l'applicazione ha bisogno di qualche "
+"plugin per mostrarli. L'elenco è ordinato alfabeticamente all'interno delle "
+"categorie."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2949-32
 msgid ""
@@ -6745,70 +7280,77 @@ msgid ""
 "opening the file on your intended reader to check if the highlight is "
 "visible."
 msgstr ""
+"<span class=\"label_red\">ATTENZIONE</span> Questo elenco non è completo e "
+"potrebbe non essere aggiornato. Vi suggeriamo quindi di testare voi stessi "
+"la compatibilità. È sufficiente creare un'evidenziazione in KOReader, "
+"scriverla nel file PDF e provare ad aprire il file con il lettore desiderato "
+"per verificare se l'evidenziazione è visibile."
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2953-13
 msgid "✅ Chrome Browser (All platforms)"
-msgstr ""
+msgstr "✅ Browser Chrome (tutte le piattaforme)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2954-13
 msgid "✅ Deepin Reader (Linux)"
-msgstr ""
+msgstr "✅ Deepin Reader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2955-13
 msgid "✅ Firefox Browser (All platforms)"
-msgstr ""
+msgstr "✅ Firefox Browser (tutte le piattaforme)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2956-13
 msgid "✅ Ghostscript (All platforms)"
-msgstr ""
+msgstr "✅ Ghostscript (tutte le piattaforme)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2957-13
 msgid "✅ MuPDF (Windows/Android)"
-msgstr ""
+msgstr "✅ MuPDF (Windows/Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2958-13
 msgid "⚠️ Zathura (if MuPDF plugin is enabled)"
-msgstr ""
+msgstr "⚠️ Zathura (se il plugin MuPDF è abilitato)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2959-13
 msgid "❌ Adobe Acrobat Reader"
-msgstr ""
+msgstr "❌ Adobe Acrobat Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2960-13
 msgid "❌ Evince (Linux)"
-msgstr ""
+msgstr "❌ Evince (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2961-13
 msgid "❌ Foxit Reader"
-msgstr ""
+msgstr "❌ Foxit Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2962-13
 msgid "❌ LibreOffice Draw (as editor)"
-msgstr ""
+msgstr "❌ LibreOffice Draw (come editor)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2963-13
 msgid "❌ Moon Reader (Android)"
-msgstr ""
+msgstr "❌ Moon Reader (Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2964-13
 msgid "❌ Okular (Linux)"
-msgstr ""
+msgstr "❌ Okular (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2965-13
 msgid "❌ SumatraPDF (Windows)"
-msgstr ""
+msgstr "❌ SumatraPDF (Windows)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2966-13
 msgid "❌ Xpdf (Linux)"
-msgstr ""
+msgstr "❌ Xpdf (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2967-13
 msgid "❌ Xreader (Linux)"
-msgstr ""
+msgstr "❌ Xreader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2971-9
 msgid "Important information about saving PDF highlights feature"
 msgstr ""
+"Informazioni importanti sulla funzione di salvataggio delle evidenziazioni "
+"PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2972-9
 msgid ""
@@ -6816,6 +7358,10 @@ msgid ""
 "you are planning to use this feature, you should understand how it works in "
 "order to avoid frustrating situations."
 msgstr ""
+"Poiché la creazione di evidenziazioni per un utilizzo successivo può "
+"comportare uno sforzo significativo, se si intende utilizzare questa "
+"funzione, è necessario comprenderne il funzionamento per evitare situazioni "
+"frustranti."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2974-9
 msgid ""
@@ -6826,10 +7372,17 @@ msgid ""
 "but it can't know where they are in the file, so it can't modify them. "
 "Please continue reading for more information about this."
 msgstr ""
+"<b>SINTESI RAPIDA:</b> Per poter eliminare o esportare le evidenziazioni in "
+"PDF in un secondo momento, è necessario copiare la cartella <span class="
+"\"ui\">.sdr</span> associata al libro quando si esegue il backup o si copia "
+"il libro su altri dispositivi. Senza questa cartella, KOReader può ancora "
+"mostrare le evidenziazioni salvate, ma non può sapere dove si trovano nel "
+"file e quindi non può modificarle. Continuate a leggere per maggiori "
+"informazioni."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2978-9
 msgid "How normal highlights work in KOReader"
-msgstr ""
+msgstr "Come funzionano normalmente le evidenziazioni in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2980-9
 msgid ""
@@ -6842,10 +7395,18 @@ msgid ""
 "folder</span> which is associated with your book, you will lose your "
 "highlights."
 msgstr ""
+"Quando si effettua un'evidenziazione in KOReader, sia che il documento sia "
+"un EPUB o un PDF, questa viene scritta in un file di impostazioni.Ad "
+"esempio, se si sta leggendo <b>Alice nel paese delle meraviglie.epub</b>, si "
+"avrà una cartella denominata <span class=\"ui\">Alice nel paese delle "
+"meraviglie.sdr</span> nella stessa cartella del libro. I punti evidenziati "
+"saranno conservati in un file sotto questa cartella <span class=\"ui\">.sdr</"
+"span>. Ciò significa che se si elimina la cartella <span class=\"ui\">.sdr</"
+"span> associata al libro, si perderanno le evidenziazioni."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2984-9
 msgid "How PDF highlights work in KOReader"
-msgstr ""
+msgstr "Come funzionano le evidenziazioni dei PDF in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2985-9
 msgid ""
@@ -6857,6 +7418,15 @@ msgid ""
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
 msgstr ""
+"La funzione di evidenziazione dei PDF funziona in modo leggermente diverso "
+"rispetto alla descrizione precedente. Come abbiamo già detto, quando si "
+"salvano le evidenziazioni in PDF, queste vengono scritte direttamente nel "
+"file PDF, il che significa che diventano parte del file stesso. Per questo "
+"motivo è possibile inviare il PDF a un altro utente che potrà vedere le "
+"evidenziazioni con un lettore PDF compatibile. Non avranno bisogno della "
+"cartella <span class=\"ui\">.sdr</span> che contiene una registrazione dei "
+"punti salienti, perché ora i punti salienti sono incorporati direttamente "
+"nel file PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2987-9
 msgid ""
@@ -6864,6 +7434,9 @@ msgid ""
 "on an example. Imagine that you are reading a PDF book on your <b>e-reader</"
 "b> with KOReader:"
 msgstr ""
+"Spieghiamo il problema che può sorgere quando si utilizza questa funzione, "
+"con un esempio. Immaginate di leggere un libro PDF sul vostro <b>e-reader</"
+"b> con KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2990-13
 msgid ""
@@ -6871,6 +7444,9 @@ msgid ""
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
 msgstr ""
+"Si stanno creando delle evidenziazioni e l'opzione <span class=\"ui\">Scrivi "
+"le evidenziazioni nel PDF</span> è attivata, quindi mentre si creano queste "
+"evidenziazioni, KOReader le salva nel file PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2991-13
 msgid ""
@@ -6879,12 +7455,18 @@ msgid ""
 "you didn't copy the <span class=\"ui\">.sdr folder</span>, only the PDF "
 "file)."
 msgstr ""
+"Volete continuare a leggere il libro sul vostro <b>telefono</b> con "
+"KOReader, così copi il file PDF dall'<b>e-reader</b> al <b>telefono</b> (ma "
+"non è stata copiata la cartella <span class=\"ui\">.sdr</span>, solo il file "
+"PDF)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2992-13
 msgid ""
 "When you open the book on your <b>phone</b> with KOReader, you will see that "
 "your highlights are still there."
 msgstr ""
+"Quando aprite il libro sul vostro <b>telefono</b> con KOReader, vedrete che "
+"le vostre evidenziazioni sono ancora presenti."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2995-9
 msgid ""
@@ -6893,6 +7475,10 @@ msgid ""
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
 msgstr ""
+"Ora la situazione su entrambi i dispositivi è identica. Sia "
+"sull'<b>e-reader</b> che sul <b>telefono</b>, KOReader mostra il file PDF "
+"con le stesse evidenziazioni. <b>Sembra</b> identico, ma in realtà c'è una "
+"grande differenza."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2997-9
 msgid ""
@@ -6901,6 +7487,10 @@ msgid ""
 "sdr folder</span>. But KOReader on your phone doesn't have this knowledge. "
 "It only has the PDF file."
 msgstr ""
+"KOReader sul vostro <b>e-reader</b> è a conoscenza di quali evidenziazioni "
+"in questo file PDF sono state fatte da KOReader perché ha la cartella <span "
+"class=\"ui\">.sdr</span>. Ma KOReader sul telefono non ha questa conoscenza. "
+"Ha solo il file PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2999-9
 msgid ""
@@ -6910,6 +7500,12 @@ msgid ""
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
 msgstr ""
+"Il problema si presenta quando si cerca di eliminare i punti evidenziati del "
+"pdf o di esportarli. Il vostro <b>e-reader</b> può sia cancellare queste "
+"evidenziazioni in PDF che esportarle. ma il vostro <b>telefono</b> KOReader "
+"non può, perché come abbiamo detto, non ha la cartella <span class=\"ui\""
+">.sdr</span> del libro, quindi i punti evidenziati del libro sembrano parte "
+"del libro originale dal suo punto di vista."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3001-9
 msgid ""
@@ -6917,11 +7513,15 @@ msgid ""
 "later, you have to copy the <span class=\"ui\">.sdr folder</span> associated "
 "with your book when you backup or copy your book to other devices."
 msgstr ""
+"In breve, se si desidera eliminare o esportare i punti salienti del PDF in "
+"un secondo momento, è necessario copiare la cartella <span class=\"ui\""
+">.sdr</span> associata al libro quando si esegue il backup o si copia il "
+"libro su altri dispositivi."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3005-1
 msgctxt "user_guide/en.html+html.body.div.div:3005-1"
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (Optical Character Recognition)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3006-5
 msgid ""
@@ -6931,22 +7531,33 @@ msgid ""
 "github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR Engine</a> for "
 "this task."
 msgstr ""
+"<b>OCR (Optical Character Recognition)</b> è il processo di estrazione del "
+"testo dalle immagini. Nel contesto di KOReader, viene generalmente "
+"utilizzato per estrarre il testo dalle pagine scansionate dei libri in file "
+"PDF. KOReader si affida a <a href="
+"\"https://github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR "
+"Engine</a> per questo compito."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3009-5
 msgid "To use this feature you need to:"
-msgstr ""
+msgstr "Per utilizzare questa funzione è necessario:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3011-9
 msgid ""
 "Install <span class=\"external\">Tesseract</span> language data to your "
 "KOReader"
 msgstr ""
+"Installare i dati linguistici di <span class=\"external\">Tesseract</span> "
+"nel proprio KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3012-9
 msgid ""
 "Add newly installed languages to koreader/defaults.lua configuration file "
 "(necessary only if your language is other than English or Chinese)"
 msgstr ""
+"Aggiungete le nuove lingue installate al file di configurazione koreader/"
+"defaults.lua (necessario solo se la vostra lingua è diversa dall'inglese o "
+"dal cinese)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3016-5
 msgid ""
@@ -6956,15 +7567,20 @@ msgid ""
 "koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
 "pages\">related wiki page</a>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> I pulsanti del menu OCR <b>non "
+"funzionano</b> finché non si installano i file Tesseract necessari. I "
+"dettagli di questo processo possono essere letti nella nostra <a href=\"https"
+"://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-"
+"in-scanned-pages\">pagina wiki correlata</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3024-1
 msgid "READING COMICS AND MANGA"
-msgstr ""
+msgstr "LEGGERE FUMETTI E MANGA"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3026-5
 msgctxt "user_guide/en.html+html.body.div.div:3026-5"
 msgid "Adjusting the page refresh interval"
-msgstr ""
+msgstr "Regolazione dell'intervallo di aggiornamento della pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3028-5
 msgid ""
@@ -6973,6 +7589,11 @@ msgid ""
 "numbers without problem. But images can leave more residue and cause "
 "ghosting, especially depending on the panel of your e-reader."
 msgstr ""
+"I fumetti hanno generalmente bisogno di aggiornamenti di pagina più "
+"frequenti rispetto ai contenuti testuali puri. Per il testo normale, è "
+"possibile impostare l'intervallo di aggiornamento della pagina su numeri "
+"elevati senza problemi. Ma le immagini possono lasciare più residui e "
+"causare ghosting, soprattutto a seconda del pannello del vostro e-reader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3030-5
 msgid ""
@@ -6983,10 +7604,18 @@ msgid ""
 "text only books. So when you open a comic, you can switch to more frequent "
 "refresh with a simple tap or swipe (or vice versa)."
 msgstr ""
+"KOReader consente di assegnare qualsiasi gesto per passare a diverse "
+"frequenze di aggiornamento. Ad esempio, è possibile impostare <b>scorri il "
+"bordo sinistro</b> per l'aggiornamento di <span class=\"ui\">ogni pagina</"
+"span> quando si leggono fumetti e impostare <b>scorrimento verso il basso "
+"del bordo sinistro</b> per l'<span class=\"ui\">aggiornamento ogni x pagine</"
+"span> per i libri di solo testo. Così, quando si apre un fumetto, si può "
+"passare a un aggiornamento più frequente con un semplice tocco o scorrimento "
+"(o viceversa)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3032-5
 msgid "This action is under:"
-msgstr ""
+msgstr "Questa azione è in:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3034-5
 msgid ""
@@ -6994,22 +7623,30 @@ msgid ""
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
 "lights section / Full screen refresh rate"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Schermo / Impostazioni E-ink / Frequenza di aggiornamento "
+"completa"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3038-1
 msgid "Panel zoom feature"
-msgstr ""
+msgstr "Funzione del pannello di zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3040-5
 msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
 msgstr ""
+"Questa funzione facilita la lettura dei fumetti su schermi più piccoli. È "
+"possibile attivarla durante la lettura di un documento <b>PDF, DJVU, CBZ o "
+"CBT</b> tramite:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3042-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Panello di Zoom (manga/fumetti)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3044-5
 msgid ""
@@ -7017,6 +7654,9 @@ msgid ""
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
 msgstr ""
+"Quando questa opzione è attivata, KOReader cerca di individuare i confini "
+"dei pannelli rettangolari sullo schermo. Se si preme a lungo su un pannello, "
+"KOReader esegue uno zoom e mostra solo quel pannello."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3046-5
 msgid ""
@@ -7028,10 +7668,18 @@ msgid ""
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
 msgstr ""
+"Come si può intuire, questa funzione funziona meglio con i fumetti che hanno "
+"confini puliti dei pannelli. Inoltre, in questa modalità non è possibile "
+"<b>girare la pagina</b> per passare al pannello successivo a causa del "
+"problema dei confini. È necessario chiudere il pannello ingrandito e premere "
+"a lungo su quello successivo. Per farlo, è sufficiente <span class=\"ui\""
+">scorrere verso il basso</span> nel pannello. Inoltre, è possibile "
+"utilizzare qualsiasi gesto <span class=\"ui\">multiswipe</span> (qualsiasi "
+"combinazione di su, giù, sinistra, destra) per uscire da questa vista."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3048-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "La procedura è riportata di seguito:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3052-5
 msgid ""
@@ -7040,11 +7688,16 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
+"Se si desidera utilizzare questa funzione con altri tipi di file come EPUB, "
+"FB2, HTML o file di immagini, è necessario aprire il file con un motore "
+"diverso: Nel <span class=\"ui\">File Browser</span> toccare a lungo il nome "
+"del file, toccare <span class=\"ui\">Apri con...</span> e selezionare <span "
+"class=\"ui\">MuPDF</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3056-1
 msgctxt "user_guide/en.html+html.body.div.div:3056-1"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Passare al file successivo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3058-5
 msgid ""
@@ -7054,6 +7707,12 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Quando si raggiunge l'ultima pagina di un libro, KOReader mostra una "
+"finestra di dialogo. In questa finestra di dialogo è presente un'azione "
+"<span class=\"ui\">Apri file successivo</span> che aprirà il file successivo "
+"nella stessa directory del libro corrente. In questo modo è possibile "
+"mettere le serie in directory separate e leggerle una dopo l'altra senza "
+"tornare al <span class=\"ui\">File Browser</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3062-5
 msgid ""
@@ -7064,16 +7723,25 @@ msgid ""
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
 msgstr ""
+"Quando si apre il file successivo, KOReader salta i file contrassegnati come "
+"<b>finiti</b>. Questa funzione è utile, ad esempio, quando si ha una "
+"cartella di file manga e se ne sono già letti alcuni. È possibile "
+"contrassegnare un file come finito dalla finestra di dialogo di fine libro "
+"mostrata sopra. È inoltre possibile contrassegnarli dal <span class=\"ui\""
+">File Browser</span> premendo a lungo sul file. Dopo averli copiati sul "
+"dispositivo, è possibile:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3065-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
-msgstr ""
+msgstr "Aprire il <span class=\"ui\">File Browser</span> in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3066-5
 msgid ""
 "Long press on the ones you already finished and tap <span class=\"ui\">Mark "
 "as finished</span>"
 msgstr ""
+"Premere a lungo su quelli già terminati e toccare <span class=\"ui\""
+">Finito</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3069-5
 msgid ""
@@ -7081,11 +7749,14 @@ msgid ""
 "file</span> at the end of the book. KOReader will skip the ones you have "
 "already read."
 msgstr ""
+"Ora è possibile leggere tutti i file toccando semplicemente <span class="
+"\"ui\">Apri il file successivo</span> alla fine del libro. KOReader salterà "
+"quelli già letti."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3072-1
 msgctxt "user_guide/en.html+html.body.div.div:3072-1"
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Ottimizzare i manga per la lettura"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3074-5
 msgid ""
@@ -7093,10 +7764,14 @@ msgid ""
 "that can make your experience better. Preparing your own manga files is the "
 "best solution if you're not satisfied with how comics look on your device."
 msgstr ""
+"Se vi piace leggere i manga sul vostro dispositivo e-ink, ci sono alcuni "
+"suggerimenti che possono migliorare la vostra esperienza. Preparare i propri "
+"file manga è la soluzione migliore se non si è soddisfatti dell'aspetto dei "
+"fumetti sul proprio dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
 msgid "Which file type to use"
-msgstr ""
+msgstr "Quale tipo di file utilizzare"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3078-5
 msgid ""
@@ -7107,6 +7782,14 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
+"Tipi di file come MOBI ed EPUB non sono adatti a gestire contenuti "
+"prevalentemente di immagini (ad esempio, manga/fumetti).Il supporto di "
+"<b>MOBI</b> in KOReader è minimo o inesistente,e le priorità di rendering "
+"del testo di <b>EPUB</b> possono causare problemi quando si visualizzano "
+"immagini a pagina intera. Per ulteriori dettagli tecnici, visitate questo <a "
+"href="
+"\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\""
+">problema di GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3080-5
 msgid ""
@@ -7117,6 +7800,12 @@ msgid ""
 "comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</"
 "b> files but use <b>TAR</b> archive format."
 msgstr ""
+"L'opzione migliore è la creazione di un file <b>CBZ</b> che funziona meglio "
+"in KOReader. Un file con estensione <b>.cbz</b> è un file zip (senza "
+"compressione) che è una raccolta di immagini.Salva più immagini, di solito "
+"in formato <b>.png</b> o <b>.jpeg</b>, organizzate in pagine del fumetto. "
+"KOReader può anche aprire file <b>CBT</b>,che sono simili ai file <b>CBZ</b> "
+"ma utilizzano il formato di archivio <b>TAR</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3082-5
 msgid ""
@@ -7128,10 +7817,18 @@ msgid ""
 "applying dithering</b> so that eink-rendered gradients are smoothly dithered "
 "without jagged layers."
 msgstr ""
+"Il modo più semplice per convertire un manga in <b>CBZ</b> è ottenere i "
+"manga come immagini da vari siti web, quindi convertirli utilizzando <span "
+"class=\"external\">Kindle Comic Converter</span> (<a href="
+"\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>)"
+". Ci sono alcune impostazioni utili come <b>la rotazione automatica di due "
+"pagine in orizzontale e l'applicazione del dithering</b> in modo che i "
+"gradienti renderizzati con l'inchiostro vengano sfumati in modo uniforme "
+"senza livelli frastagliati."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3084-1
 msgid "Which resolution to use"
-msgstr ""
+msgstr "Quale risoluzione utilizzare"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3085-5
 msgid ""
@@ -7142,6 +7839,13 @@ msgid ""
 "recommended because KOReader adds a dithering pass before scaling and this "
 "causes loss of quality."
 msgstr ""
+"I risultati migliori si ottengono ridimensionando le immagini esattamente "
+"alle dimensioni dello schermo dell'e-reader. Un <b>CBZ</b> specifico per lo "
+"schermo, che si adatta esattamente alle dimensioni dello schermo del "
+"dispositivo, impedisce il ridimensionamento durante la lettura. KOReader "
+"ridimensiona le immagini in base alle dimensioni dello schermo durante la "
+"lettura, ma non è consigliabile perché KOReader aggiunge un passaggio di "
+"retinatura prima del ridimensionamento, causando una perdita di qualità."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3087-5
 msgid ""
@@ -7157,6 +7861,21 @@ msgid ""
 "automating the process, it might be worth considering creating both a lower "
 "and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI)."
 msgstr ""
+"Ma se si vuole usare il proprio <b>CBZ</b> fatto a mano su più di un "
+"dispositivo o se si vuole conservare l'alta risoluzione per una visione "
+"futura, la soluzione migliore potrebbe essere quella di creare il <b>CBZ</b> "
+"per il dispositivo con la risoluzione più alta. Oppure scegliere una "
+"risoluzione \"alta\" arbitraria, possibilmente corrispondente alla "
+"sorgente.<b>300 PPI</b> o ancora meglio (oltre i <b>450</b> o anche "
+"<b>600</b>), a meno che la fonte non sia più bassa, ovviamente. Se assumiamo "
+"una dimensione dello schermo di <b>8\", 1500×2000</b> è una buona "
+"risoluzione target. Per le immagini più grandi, si dovrebbe provare sul "
+"proprio dispositivo e vedere se è in grado di gestirle. Soprattutto i vecchi "
+"Kindle con poca memoria possono avere problemi con dimensioni come "
+"<b>3000×4000</b>, ad esempio.Se si sta automatizzando il processo, si "
+"potrebbe prendere in considerazione la creazione di una versione di qualità "
+"inferiore e di una versione di qualità superiore (per esempio a <b>200/400</"
+"b> o <b>300/600</b> DPI)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3089-5
 msgid ""
@@ -7165,6 +7884,11 @@ msgid ""
 "change page turning direction even though the file was created with right-to-"
 "left reading. Users can switch this via:"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> KOReader non analizza l'attributo "
+"<b>spine page-progression-direction=\"rtl\"</b> dei libri. Quindi non cambia "
+"la direzione di rotazione delle pagine anche se il file è stato creato per "
+"la lettura da destra a sinistra. Gli utenti possono cambiare questo aspetto "
+"tramite:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3091-5
 msgid ""
@@ -7172,14 +7896,19 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Page turns / Invert page turn "
 "tap and swipes / buttons"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tocchi e gesti / Volta pagina / Inverti i tocchi e i "
+"gesti di cambio pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-1
 msgid "Advanced preparation of manga"
-msgstr ""
+msgstr "Preparazione avanzata dei manga"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3096-5
 msgid "The following is an example procedure to process one manga file:"
 msgstr ""
+"Di seguito è riportato un esempio di procedura per l'elaborazione di un file "
+"manga:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3099-9
 msgid ""
@@ -7187,18 +7916,25 @@ msgid ""
 "<a href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
 "kcc</a>"
 msgstr ""
+"Scaricare <span class=\"external\">Kindle Comic Converter (KCC)</span> da <a "
+"href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
+"kcc</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3100-9
 msgid ""
 "Download your manga from the source of your choosing (i.e. <span "
 "class=\"external\">HakuNeko</span>)"
 msgstr ""
+"Scaricare il manga dalla fonte scelta (ad esempio <span class=\"external\""
+">HakuNeko</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3101-9
 msgid ""
 "Unpack the manga file. Now you should have a directory that contains only "
 "images (or subdirectories with images, no archives)"
 msgstr ""
+"Scompattare il file del manga. Ora si dovrebbe avere una cartella che "
+"contiene solo immagini (o sottodirectory con immagini, senza archivi)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3102-9
 msgid ""
@@ -7206,30 +7942,37 @@ msgid ""
 "directory will produce a single <b>CBZ</b> file, so if you want to make "
 "several volumes at once, select multiple directories at once"
 msgstr ""
+"Elaborare questa directory con <span class=\"external\">KCC</span>. Ogni "
+"directory produrrà un singolo file <b>CBZ</b>, quindi se si desidera creare "
+"più volumi in una volta sola, selezionare più directory in una volta sola"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3105-5
 msgid "Some useful settings of <span class=\"external\">KCC</span>:"
-msgstr ""
+msgstr "Alcune impostazioni utili di <span class=\"external\">KCC</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3107-5
 msgid ""
 "<b>Spread splitter:</b> This feature detects double pages and allows you to "
 "rotate or cut them in two."
 msgstr ""
+"<b>Spread splitter:</b> Questa funzione rileva le pagine doppie e consente "
+"di ruotarle o tagliarle in due."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3109-5
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
 msgstr ""
+"<b>Upscaling:</b> Ingrandisce le immagini più piccole della risoluzione "
+"desiderata."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3115-1
 msgctxt "user_guide/en.html+html.body.div.div:3115-1"
 msgid "Other manga tips"
-msgstr ""
+msgstr "Altri suggerimenti sui manga"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3119-1
 msgid "Immersive mode in KOReader"
-msgstr ""
+msgstr "Modalità immersiva in KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3121-5
 msgid ""
@@ -7239,15 +7982,21 @@ msgid ""
 "hide the bottom progress bar while reading your manga in KOReader. So you "
 "will have an immersive full screen view of your manga without obstructions."
 msgstr ""
+"Se desiderate godervi il vostro manga in modo più coinvolgente, assicurarsi "
+"di aver selezionato la stessa risoluzione dello schermo del dispositivo in "
+"<b>KCC</b> durante la creazione dei file <b>CBZ</b>. Inoltre, è possibile "
+"nascondere la barra di avanzamento inferiore durante la lettura del manga in "
+"KOReader. In questo modo avrete una visione coinvolgente a schermo intero "
+"del vostro manga, senza ostruzioni."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3125-1
 msgid "Extra step for smooth gradients"
-msgstr ""
+msgstr "Un passo in più per sfumature uniformi"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3127-5
 msgctxt "user_guide/en.html+html.body.div.p:3127-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANZATO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3129-5
 msgid ""
@@ -7256,6 +8005,11 @@ msgid ""
 "rendered gradients will be smoothly dithered without jagged layers. This "
 "step will produce fine-tuned manga volumes which look better in KOReader."
 msgstr ""
+"Dopo aver usato <span class=\"external\">KCC</span> per creare un file "
+"<b>CBZ</b>, è possibile applicare ulteriore <b>retinatura</b> alle immagini. "
+"In questo modo, i gradienti renderizzati con l'inchiostro elettronico "
+"saranno sfumati in modo fluido senza livelli frastagliati. Questo passaggio "
+"produrrà volumi di manga ben definiti che risulteranno migliori in KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3132-5
 msgid ""
@@ -7266,12 +8020,20 @@ msgid ""
 "class=\"external\">ImageMagick</span> and use it from the command line to "
 "process many images at once."
 msgstr ""
+"È possibile utilizzare <span class=\"external\">ImageMagick</span> per "
+"elaborare le immagini.<span class=\"external\">ImageMagick</span>, è una "
+"potente suite di software open-source per la visualizzazione, la creazione, "
+"la conversione, la modifica e l'editing di immagini raster. È possibile "
+"scaricare <span class=\"external\">ImageMagick</span> e utilizzarlo dalla "
+"riga di comando per elaborare molte immagini contemporaneamente."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3135-9
 msgid ""
 "Unpack the prepared <b>CBZ</b> file that you created with <span "
 "class=\"external\">KCC</span>,"
 msgstr ""
+"Scompattare il file <b>CBZ</b> preparato che è stato creato con <span class="
+"\"external\">KCC</span>,"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3136-9
 msgid ""
@@ -7280,16 +8042,23 @@ msgid ""
 "class=\"external\">Yandex Disk</span>) which contains two <b>batch files (."
 "BAT)</b> and a <b>GIF</b> color template."
 msgstr ""
+"Scaricare il seguente file <a href="
+"\"https://disk.yandex.com/d/glEebjmPYYp7og\">dither_pack.zip</a> (si trova "
+"su <span class=\"external\">Yandex Disk</span>) che contiene due <b>file "
+"batch (.BAT)</b> e un modello di colore <b>GIF</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3137-9
 msgid "Extract these three files next to your images that will be processed"
-msgstr ""
+msgstr "Estrarre questi tre file accanto alle immagini da elaborare"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3138-9
 msgid ""
 "Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution "
 "to your device resolution (in both places in the <b>BAT</b> file)."
 msgstr ""
+"Modificare il file <b>_magick_manga_ditherN_resize.bat</b> e modificare la "
+"risoluzione in base a quella del dispositivo (in entrambi i punti del file "
+"<b>BAT</b>)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.p:3139-9
 msgid ""
@@ -7297,46 +8066,60 @@ msgid ""
 "images in the directory with the processed ones. So make sure that you have "
 "a copy of them in some other directory if you want to keep the originals."
 msgstr ""
+"<span class=\"label_red\">ATTENZIONE</span> Il passo successivo sostituirà "
+"tutte le immagini della directory con quelle elaborate. Assicuratevi quindi "
+"di averne una copia in un'altra directory se volete conservare gli originali."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3141-9
 msgid ""
 "Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images."
 msgstr ""
+"Eseguire <b>_magick_manga_ditherN_resize.bat</b> per ridimensionare e "
+"sfumare le immagini."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3142-9
 msgid ""
 "Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to "
 "pack all the processed images into a <b>CBZ</b> archive."
 msgstr ""
+"Supponendo che abbiate installato <b>7-Zip</b>, eseguire "
+"<b>batch_archive.bat</b> per impacchettare tutte le immagini elaborate in un "
+"archivio <b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3147-1
 msgid "Reversing the page turn direction for authentic Japanese manga"
 msgstr ""
+"Invertire il senso di rotazione delle pagine per i manga giapponesi autentici"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3149-5
 msgctxt "user_guide/en.html+html.body.div.p:3149-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANZATO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3151-5
 msgid ""
 "You can make KOReader turn pages from <b>Left to Right</b>, so that swipes "
 "and tap zones are swapped. To enable this, add the following lines:"
 msgstr ""
+"È possibile fare in modo che KOReader giri le pagine da <b>sinistra a "
+"destra</b>, in modo che le zone di scorrimento e di tocco siano scambiate. "
+"Per abilitare questa funzione, aggiungere le seguenti righe:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3155-5
 msgid ""
 "[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
 "true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 msgstr ""
+"[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
+"true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3164-5
 msgid "to this file:"
-msgstr ""
+msgstr "a questo file:"
 
 #: user_guide/en.html%2Bhtml.body.div:3164-21
 msgid "/koreader/settings/directory_defaults.lua"
-msgstr ""
+msgstr "/koreader/settings/directory_defaults.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3168-5
 msgid ""
@@ -7344,15 +8127,18 @@ msgid ""
 "directory containing your mangas. After this change, when you open a file "
 "from the mentioned directory, your swipes and tap zones will be swapped."
 msgstr ""
+"dove <b>/storage/emulated/0/Books/manga</b> è il percorso assoluto della "
+"directory contenente i manga. Dopo questa modifica, quando si apre un file "
+"dalla directory citata, le zone di scorrimento e di tocco saranno scambiate."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3173-1
 msgctxt "user_guide/en.html+html.body.div.div:3173-1"
 msgid "MANAGING YOUR LIBRARY"
-msgstr ""
+msgstr "GESTIONE DELLA BIBLIOTECA"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3177-1
 msgid "File Browser Usage"
-msgstr ""
+msgstr "Utilizzo del File Browser"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3179-5
 msgid ""
@@ -7361,10 +8147,14 @@ msgid ""
 "KOReader. You will do all your file and folder operations here. You can "
 "access it from the reading screen by:"
 msgstr ""
+"L'interfaccia <span class=\"ui\">file browser</span> viene visualizzata "
+"quando si esegue KOReader per la prima volta. È una delle due interfacce "
+"principali di KOReader. Qui si eseguono tutte le operazioni su file e "
+"cartelle. È possibile accedervi dalla schermata di lettura tramite:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3181-5
 msgid "TOP MENU /"
-msgstr ""
+msgstr "MENU SUPERIORE /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3187-5
 msgid ""
@@ -7375,10 +8165,18 @@ msgid ""
 "or sorted via the <span class=\"ui\">TOP MENU</span> by swiping down from "
 "the top part of the screen."
 msgstr ""
+"Per impostazione predefinita, il <span class=\"ui\">file browser</span> "
+"mostra la cartella <span class=\"ui\">HOME</span>, che è la cartella "
+"principale della libreria. È possibile cambiare questa impostazione "
+"<b>premendo a lungo su qualsiasi cartella</b>. È possibile modificare le "
+"numerose opzioni del <span class=\"ui\">file browser</span>, come la "
+"visualizzazione o l'ordinamento dei libri, tramite il <span class=\"ui\""
+">MENU SUPERIORE</span>, scorrendo verso il basso dalla parte superiore dello "
+"schermo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3189-5
 msgid "Circled items in the image are explained below:"
-msgstr ""
+msgstr "Gli elementi cerchiati nell'immagine sono spiegati di seguito:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3191-5
 msgid ""
@@ -7386,6 +8184,9 @@ msgid ""
 "properties of your document like <b>reading progress, bookmarks, custom "
 "cover image</b> etc. which you can choose in a following dialog."
 msgstr ""
+"<span class=\"ui\">REIMPOSTA (RESET):</span> Questa opzione consente di "
+"reimpostare alcune proprietà del documento, come <b>progresso di lettura, "
+"segnalibri, immagine di copertina personalizzata</b>, ecc."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3193-5
 msgid ""
@@ -7393,6 +8194,10 @@ msgid ""
 "<span class=\"ui\">reset</span> dialog and double check which items are "
 "marked, otherwise you can reset everything related to your book accidentally."
 msgstr ""
+"<span class=\"label_red\">ATTENZIONE</span> Fare molta attenzione quando si "
+"utilizza la finestra di dialogo <span class=\"ui\">reimposta</span> e "
+"controllare due volte quali elementi sono contrassegnati, altrimenti si può "
+"ripristinare accidentalmente tutto ciò che riguarda il libro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3195-5
 msgid ""
@@ -7401,6 +8206,11 @@ msgid ""
 "different engine to get some other features. See <b>Viewing archive files</"
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
+"<span class=\"ui\">APRI CON (OPEN WITH):</span> KOReader dispone di diversi "
+"motori per il rendering di diversi tipi di file. In alcuni casi è possibile "
+"aprire un file in un motore diverso per ottenere altre funzioni. Vedere "
+"<b>Visualizzazione dei file di archivio</b> e <b>Visualizzazione dei file "
+"immagine</b> sezioni appena sotto."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3197-5
 msgid ""
@@ -7408,6 +8218,10 @@ msgid ""
 "disable the cover for this book (it may have wrong cover or cover is not "
 "very readable on the e-ink screen) you can select this."
 msgstr ""
+"<span class=\"ui\">IGNORA LA COPERTINA (IGNORE COVER):</span> Se per qualche "
+"motivo si desidera disattivare la copertina di questo libro (potrebbe avere "
+"una copertina sbagliata o poco leggibile sullo schermo e-ink), è possibile "
+"selezionare questa opzione."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3199-5
 msgid ""
@@ -7415,6 +8229,10 @@ msgid ""
 "correct, name field may show useless information. Select this option to show "
 "the file name instead of metadata."
 msgstr ""
+"<span class=\"ui\">IGNORA I METADATA (IGNORE METADATA):</span> Se i metadati "
+"del libro non sono corretti, il campo del nome potrebbe mostrare "
+"informazioni inutili. Selezionare questa opzione per mostrare il nome del "
+"file invece dei metadati."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3201-5
 msgid ""
@@ -7424,10 +8242,17 @@ msgid ""
 "might need to be updated. If you see wrong cover or metadata, you can "
 "refresh the book information with this menu item."
 msgstr ""
+"<span class=\"ui\">AGGIORNA LE INFORMAZIONI DEL LIBRO MEMORIZZATO (REFRESH "
+"CACHED BOOK INFORMATION):</span> KOReader memorizza i metadati e la "
+"copertina di un libro quando lo si aggiunge alla libreria. Se si apportano "
+"modifiche al libro dopo averlo copiato sul dispositivo, potrebbe essere "
+"necessario aggiornare queste informazioni. Se la copertina o i metadati sono "
+"errati, è possibile aggiornare le informazioni del libro con questa voce di "
+"menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3205-1
 msgid "Working on multiple files"
-msgstr ""
+msgstr "Lavorare su più file"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3207-5
 msgid ""
@@ -7437,6 +8262,12 @@ msgid ""
 "there are three different ways of selecting files for bulk operations in the "
 "<span class=\"ui\">file browser</span>:"
 msgstr ""
+"Il <span class=\"ui\">File browser</span> consente di eseguire alcune "
+"operazioni (come la copia, lo spostamento, l'eliminazione, l'esportazione "
+"delle evidenziazioni) su molti file contemporaneamente. Per questa "
+"procedura, è necessario innanzitutto selezionare i file. Attualmente "
+"esistono tre modi diversi per selezionare i file per le operazioni in blocco "
+"nel <span class=\"ui\">browser dei file</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3209-5
 msgid ""
@@ -7448,6 +8279,14 @@ msgid ""
 "your screen. You can choose what to do with these files from the dialog. Or "
 "exit the selection mode from the same dialog."
 msgstr ""
+"<b>- Nel primo metodo</b>, Premere a lungo su un nome di file e scegliere "
+"<span class=\"ui\">Seleziona</span> dalla finestra di dialogo a comparsa. In "
+"questo modo si attiva la modalità <span class=\"ui\">Selezione</span>. Ora è "
+"possibile toccare altri file per aggiungerli alla selezione. Una volta "
+"terminata la selezione dei file, toccare l'icona <span class=\"ui\">segno di "
+"spunta</span> nell'angolo <b>in alto a destra</b> dello schermo. È possibile "
+"scegliere cosa fare con questi file dalla finestra di dialogo. Oppure uscire "
+"dalla modalità di selezione dalla stessa finestra di dialogo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3211-5
 msgid ""
@@ -7457,6 +8296,11 @@ msgid ""
 "class=\"ui\">Selection mode</span> and rest is the same as the first method "
 "above."
 msgstr ""
+"<b>- Nel secondo metodo</b>, premere l'icona <span class=\"ui\">+ (più)</"
+"span> nell'angolo <b>in alto a destra</b> e scegliere <span class=\"ui\""
+">Seleziona file</span> dalla finestra di dialogo. In questo modo si attiverà "
+"la modalità <span class=\"ui\">Selezione</span> e il resto è uguale al primo "
+"metodo precedente."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3213-5
 msgid ""
@@ -7466,6 +8310,11 @@ msgid ""
 "want to move all files in your collection authored by Tolkien, to a new "
 "folder. Steps for this action will be:"
 msgstr ""
+"<b>- Nel terzo metodo</b>, è possibile scegliere i file in base a una <span "
+"class=\"ui\">ricerca di file</span>. È utile se si deve eseguire "
+"un'operazione su molti file distribuiti in cartelle diverse. Ad esempio, si "
+"desidera spostare tutti i file della collezione di Tolkien in una nuova "
+"cartella. I passaggi per questa azione saranno:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3216-9
 msgid ""
@@ -7473,6 +8322,9 @@ msgid ""
 "class=\"ui\">Search tab</span> (with the magnifier icon) and choose <span "
 "class=\"ui\">File search</span>."
 msgstr ""
+"Dal <span class=\"ui\">menu superiore</span> premere sulla scheda <span "
+"class=\"ui\">Ricerca</span> (con l'icona della lente di ingrandimento) e "
+"scegliere <span class=\"ui\">Cerca file</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3217-9
 msgid ""
@@ -7481,6 +8333,11 @@ msgid ""
 "in book metadata</span> if you want KOReader to look in book's metadata. "
 "Otherwise KOReader will only look at the file names for the word you entered."
 msgstr ""
+"Selezionare l'opzione <span class=\"ui\">Includi sottocartelle</span> se si "
+"desidera cercare anche all'interno delle cartelle. È possibile selezionare "
+"<span class=\"ui\">Cerca anche nei metadati del libro</span> se si desidera "
+"che KOReader cerchi nei metadati del libro. Altrimenti KOReader guarderà "
+"solo i nomi dei file per la parola inserita."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3218-9
 msgid ""
@@ -7488,6 +8345,9 @@ msgid ""
 "span> or your <span class=\"ui\">Current folder</span> by pressing on the "
 "respective button."
 msgstr ""
+"È possibile avviare la ricerca dalla cartella <span class=\"ui\">Home</span> "
+"della libreria o dalla cartella <span class=\"ui\">Corrente</span> premendo "
+"il pulsante corrispondente."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3219-9
 msgid ""
@@ -7496,6 +8356,10 @@ msgid ""
 "span> at the <b>top left corner</b> of the screen to enter the <span "
 "class=\"ui\">Selection mode</span>."
 msgstr ""
+"Al termine della ricerca, verrà visualizzato un elenco di file (se il "
+"termine di ricerca è stato trovato). Ora è possibile toccare l'icona <span "
+"class=\"ui\">Hamburger</span> nell'angolo <b>in alto a sinistra</b> dello "
+"schermo per accedere alla modalità <span class=\"ui\">Selezione</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3220-9
 msgid ""
@@ -7504,6 +8368,11 @@ msgid ""
 "screen. You will see a dialog which contains <span class=\"ui\">Select in "
 "file browser</span>. Select this option."
 msgstr ""
+"Toccare tutti i file su cui si desidera eseguire le operazioni e toccare "
+"l'icona <span class=\"ui\">Segno di spunta</span> nell'angolo <b>in alto a "
+"sinistra</b> dello schermo. Verrà visualizzata una finestra di dialogo "
+"contenente <span class=\"ui\">Seleziona nel navigatore del file</span>. "
+"Selezionare questa opzione."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3221-9
 msgid ""
@@ -7511,6 +8380,9 @@ msgid ""
 "files you selected in the <span class=\"ui\">Search dialog</span> will also "
 "be selected here."
 msgstr ""
+"Ora si torna al <span class=\"ui\">File Browser</span> e i file selezionati "
+"nella finestra di dialogo <span class=\"ui\">Ricerca</span> saranno "
+"selezionati anche qui."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3222-9
 msgid ""
@@ -7518,6 +8390,9 @@ msgid ""
 "corner</b> of your screen. Now you can choose what to do with these files "
 "from the dialog."
 msgstr ""
+"Toccare l'icona <span class=\"ui\">Segno di spunta</span> nell'angolo <b>in "
+"alto a destra</b> dello schermo. Ora è possibile scegliere cosa fare con "
+"questi file dalla finestra di dialogo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3229-1
 #, fuzzy
@@ -7533,16 +8408,24 @@ msgid ""
 "assign a folder shortcut to this <b>Archived</b> folder and access it "
 "quickly even while reading a book."
 msgstr ""
+"KOReader consente di aggiungere le cartelle preferite a un menu di scelta "
+"rapida accessibile. Ad esempio, se si dispone di una cartella <b>Archivio</"
+"b> nella propria libreria che si trova sotto "
+"<b>Home>Articoli>Scientifici>Archivi</b>, è possibile assegnare un "
+"collegamento a questa cartella <b>Archivi</b> e accedervi rapidamente anche "
+"durante la lettura di un libro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3233-5
 msgid "Adding a folder shortcut:"
-msgstr ""
+msgstr "Aggiunta di un collegamento alla cartella:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3234-5
 msgid ""
 "There are two ways of adding a folder to your <span class=\"ui\">Folder "
 "shortcuts</span> list:"
 msgstr ""
+"Esistono due modi per aggiungere una cartella all'elenco <span class=\"ui\""
+">Scorciatoie per le cartelle</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3236-9
 msgid ""
@@ -7551,6 +8434,11 @@ msgid ""
 "shortcuts</span> item and enter a descriptive name for this shortcut. "
 "<b>This will add the folder you are currently in.</b>"
 msgstr ""
+"Quando si è nel navigatore dei file, toccare il pulsante <span class=\"ui\">+"
+" (più) del menu</span> nell'angolo destro quindi toccare la voce <span class="
+"\"ui\">Aggiungi alle scorciatoie delle cartella</span> e inserire un nome "
+"descrittivo per questa scorciatoia. <b>Questa operazione aggiungerà la "
+"cartella in cui ci si trova attualmente.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3237-9
 msgid ""
@@ -7559,22 +8447,33 @@ msgid ""
 "enter a descriptive name for this shortcut. <b>This will add the folder you "
 "pressed on.</b>"
 msgstr ""
+"Nel navigatore dei file, premere a lungo sul nome di una cartella per aprire "
+"il menu contestuale. Toccare la voce <span class=\"ui\">Aggiungi alle "
+"scorciatoie delle cartella</span> e inserire un nome descrittivo per questa "
+"scorciatoia. <b>Questa operazione aggiungerà la cartella su cui si è "
+"premuto.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3240-5
 msgid ""
 "Folders which are in your <span class=\"ui\">Folder shortcuts</span> list "
 "will have a <b>star (★)</b> in the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Cartelle presenti nell'elenco <span class=\"ui\">Scorciatoie per le "
+"cartelle</span> avrà una <b>stella (★)</b> nel <span class=\"ui\">File "
+"Browser</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3242-5
 msgid ""
 "You can remove a folder from the shortcuts in the same way, by long-pressing "
 "on it and selecting <span class=\"ui\">Remove from folder shortcuts</span>."
 msgstr ""
+"È possibile rimuovere una cartella dalle scorciatoie nello stesso modo, "
+"premendo a lungo su di essa e selezionando <span class=\"ui\">Rimuovi le "
+"scorciatoie dalla cartella</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3245-5
 msgid "Viewing your folder shortcuts:"
-msgstr ""
+msgstr "Visualizzazione delle scorciatoie delle cartelle:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3246-5
 msgid ""
@@ -7582,6 +8481,9 @@ msgid ""
 "class=\"ui\">File Browser</span> or <span class=\"ui\">Reading screen</span> "
 "while reading a book."
 msgstr ""
+"È possibile aprire i propri <span class=\"ui\">Scorciatoie per le cartelle</"
+"span> dal <span class=\"ui\">File Browser</span> o <span class=\"ui\""
+">Schermo di lettura</span> durante la lettura di un libro."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3248-9
 msgid ""
@@ -7589,10 +8491,13 @@ msgid ""
 "menu</span> then choosing <span class=\"ui\">Folder shortcuts</span> or "
 "assigning a gesture."
 msgstr ""
+"<b>Dal navigatore dei file:</b> Angolo in alto a destra <span class=\"ui\">+ "
+"(più) menu</span> quindi scegliere <span class=\"ui\">Scorciatoie per le "
+"cartelle</span> o assegnare un gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3249-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
-msgstr ""
+msgstr "<b>Dallo schermo di lettura:</b> Assegnandogli un gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3252-5
 msgid ""
@@ -7600,15 +8505,18 @@ msgid ""
 "class=\"ui\">Gesture manager</span>. You can learn how to set gestures in "
 "the relevant section of this guide."
 msgstr ""
+"Si trova sotto la sezione <span class=\"ui\">Gestore di file</span> di <span "
+"class=\"ui\">Tocchi e gesti</span>. Per sapere come impostare i gesti, "
+"consultare la relativa sezione di questa guida."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3258-1
 msgctxt "user_guide/en.html+html.body.div.div:3258-1"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Visualizzazione di altri tipi di file"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3262-1
 msgid "Viewing text files"
-msgstr ""
+msgstr "Visualizzazione di file di testo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3264-5
 msgid ""
@@ -7621,18 +8529,32 @@ msgid ""
 "indentation or centered text considered heading...) to guess how to better "
 "render the text and will try to create a <b>table of contents</b>."
 msgstr ""
+"Se si dispone di libri in formato <b>.txt</b> (che è più frequente in "
+"<b>cinese</b> e <b>>cirillico</b>), si può provare ad attivare la funzione "
+"<span class=\"ui\">Rilevazione automatica del layout dei file TXT</span>. In "
+"alcuni casi può migliorare la resa e rendere il testo più "
+"\"simile a un libro\". Se abilitato, il motore di rendering utilizzerà delle "
+"euristiche (testo avvolto sotto una certa lunghezza massima di riga, righe "
+"vuote singole o doppie che segnano i paragrafi, rientro o centratura del "
+"testo considerato come titolo...) per indovinare come rendere meglio il "
+"testo e cercherà di creare una <b>tabella dei contenuti</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3266-5
 msgid ""
 "You can enable this feature here (which is visible only if you are reading "
 "a .txt file):"
 msgstr ""
+"È possibile attivare questa funzione qui (visibile solo se si sta leggendo "
+"un file .txt):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3268-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style / Auto-detect TXT files layout"
 msgstr ""
+"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Stile / Rilevamento automatico del layout dei file "
+"TXT"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3270-5
 msgid ""
@@ -7641,10 +8563,14 @@ msgid ""
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
 msgstr ""
+"Si noti che questa funzione potrebbe rovinare i disegni artistici ASCII e la "
+"formattazione basata sui caratteri spaziali. Se il vostro libro ha questo "
+"tipo di caratteristiche, sarebbe meglio usare la modalità predefinita in cui "
+"il file di testo viene reso <b>così com'è</b> in un carattere monospazio."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3274-1
 msgid "Viewing archive files"
-msgstr ""
+msgstr "Visualizzazione dei file di archivio"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3276-5
 msgid ""
@@ -7652,20 +8578,25 @@ msgid ""
 "<b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) "
 "files with the archive viewer to have a look at the contained files:"
 msgstr ""
+"KOReader può leggere i file memorizzati/compressi in file <b>ZIP</b>. È "
+"possibile aprire file <b>ZIP</b>, <b>CBZ</b> ed <b>EPUB</b> (dato che sono "
+"anche archivi <b>ZIP</b>) con il visualizzatore di archivi per dare "
+"un'occhiata ai file contenuti:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3279-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3279-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr ""
+"Nel <span class=\"ui\">File Browser</span> premere a lungo il nome del file"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3280-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3280-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr ""
+msgstr "Toccare <span class=\"ui\">Apri con...</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3281-5
 msgid "Tap <span class=\"ui\">Archive viewer</span>"
-msgstr ""
+msgstr "Toccare <span class=\"ui\">Visualizzatore archivio</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3284-5
 msgid ""
@@ -7675,6 +8606,11 @@ msgid ""
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
 msgstr ""
+"Un file ZIP può contenere molti tipi di documenti come html, txt o immagini. "
+"KOReader può aprire correttamente il file ZIP <b>solo se gli si fornisce un "
+"suggerimento sul tipo di file contenuto nell'archivio ZIP</b>. Se si dà al "
+"file solo un'estensione <b>.zip</b>, KOReader assumerà che questo archivio "
+"contenga immagini e cercherà di aprirlo come un file <b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
 msgid ""
