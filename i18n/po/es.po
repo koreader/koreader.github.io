@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-19 10:33+0000\n"
-"PO-Revision-Date: 2025-08-19 10:06+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"PO-Revision-Date: 2025-08-20 11:02+0000\n"
+"Last-Translator: No name <CertainBot@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2936,6 +2936,13 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">Modo de visualización:</span> Si cambias a <span class="
+"\"ui\">modo continuo</span>, puedes desplazarte por el documento como si "
+"fuera una página web. Este modo es más adecuado para tipos de pantallas que "
+"no son de tinta electrónica (LCD, OLED). En el modo continuo, <b>pierdes los "
+"márgenes superior e inferior</b>, por lo que el texto puede ser cortado en "
+"la primera y última línea de la pantalla. Para solucionar este problema "
+"puedes habilitar la <span class=\"ui\">Superposición de páginas</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1702-5
 #, fuzzy
@@ -2958,6 +2965,12 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">Modo de renderizado:</span> Esta opción determina la "
+"forma en la que KOReader renderiza el documento. La predeterminada es <span "
+"class=\"ui\">WEB</span> y por lo general no necesitas cambiarla. Cuando un "
+"libro (o página web guardada) es muy complicado (anchuras o márgenes "
+"especificados, márgenes negativos, flotantes, etc.), el diseño se ve mal o "
+"la pantalla se desborda, puedes probar con otros modos de renderizado."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1706-5
 msgid ""
@@ -2967,6 +2980,12 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\">Zoom (dpi):</span> esta configuración puede entenderse "
+"como un <b>factor general de zoom</b> para el documento (excepto el tamaño "
+"de letra). A 96 dpi (que es la configuración predeterminada), las imágenes "
+"del documento se renderizan en sus dimensiones originales. Básicamente "
+"usarás esta configuración si quieres <b>hacer las imágenes más grandes sin "
+"hacer la letra más grande</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1712-5
 msgid ""
@@ -2977,6 +2996,13 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"<span class=\"ui\">Espaciado entre palabras y expansión de palabras</span> "
+"son ajustes relacionados y determinan cómo se verá el texto cuando esté "
+"justificado. Cuando justificas el texto, se añade espacio entre palabras "
+"para que ambos bordes de cada línea queden alineados con los dos márgenes. "
+"Dado que el número de palabras por línea no es siempre igual, en la "
+"alineación justificada el texto tiene que comprimirse o expandirse para "
+"rellenar la línea."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1714-5
 msgid ""
@@ -2984,6 +3010,10 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Espaciado entre palabras:</span> cuánto se pueden "
+"comprimir los caracteres de <b>espacio</b> en una línea de texto para que "
+"quepan más palabras. Esta configuración no afecta a las palabras y sólo "
+"cambia el espacio entre ellas."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1716-5
 msgid ""
@@ -2992,12 +3022,20 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Expansión de palabras:</span> Si tienes demasiado espacio "
+"en blanco en una línea, cuánto de ese espacio puede distribuirse dentro de "
+"las palabras expandiéndolas. Esta configuración afecta la apariencia de las "
+"palabras. Si no quieres que tus palabras se expandan ajusta el valor a <span "
+"class=\"ui\">ninguna</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1718-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Puedes experimentar con diferentes ajustes hasta que el texto te resulte "
+"agradable, y luego establecerlos como valores predeterminados mediante sus "
+"respectivos cuadros de diálogo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1725-5
 msgid ""
@@ -3007,30 +3045,37 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Contraste</span> y <span class=\"ui\">grosor de letra</"
+"span> son dos opciones que puedes usar para hacer el texto más grueso (o más "
+"claro). Puedes lograr la misma apariencia con cualquiera de estas opciones "
+"pero para conseguirlo usan métodos diferentes. Por supuesto puedes usar "
+"ambas al mismo tiempo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1727-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "Las diferencias entre ellas pueden resumirse así:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1730-9
 msgid "CONTRAST"
-msgstr ""
+msgstr "CONTRASTE"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1732-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
 msgstr ""
+"<b>+</b> No cambia el ancho de la letra, la longitud del libro permanece "
+"igual"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1733-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>+</b> No necesita volver a renderizar el documento, más rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1734-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>-</b> Puede verse mal en pantallas LCD o de baja resolución (dpi)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1736-9
 msgid "FONT WEIGHT"
-msgstr ""
+msgstr "GROSOR DE LETRA"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
