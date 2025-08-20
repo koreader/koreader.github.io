@@ -2341,44 +2341,44 @@ line-height: 2rem;
     <ul>
         <li><span class="ui">img</span> – це селектор CSS, який націлений на усі елементи <b>img</b> (зображення) у книзі.</li>
         <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> – це блок декларації, який містить стилі, що будуть застосовані до вибраних елементів <b>img</b>.</li>
-        <li><span class="ui">width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
-        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
+        <li><span class="ui">width: 10px !important;</span> – ця перша частина встановлює ширину (width) цільових елементів <b>img</b> на значення 10 пікселів; декларація <b>!important</b> є замінним перемикачем, який забезпечує те, що вказане тут значення ширини буде мати вищий пріоритет над будь-яким іншим значенням <b>ширини</b> (width), яке може впливати на ці зображення.</li>
+        <li><span class="ui">height: 10px !important;</span> – ця частина вказує висоту (height) цільових елементів <b>img</b> на значення 10 пікселів. Знову ж, декларація <b>!important</b> є замінним перемикачем, який забезпечує, що вказане вами значення висоти (height) буде мати вищий пріоритет над будь-яким іншим значенням декларації <b>висоти</b> (height), що застосовується до цих зображень.</li>
     </ul>
 
-    <p>In summary, this CSS rule is designed to set a <b>fixed width and height of 10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their original style</b>.</p>
+    <p>Коротко кажучи, це правило CSS створене, щоб встановити <b>фіксоване значення ширину і висоту на 10 пікселів</b> для усіх елементів <b>img</b> у книзі, <b>ігноруючи при цьому її оригінальний стиль</b>.</p>
     
 
 
     <div class="L3-Smaller-heading">Деякі корисні зразки підлаштування стилів</div>
     
-    <p>These are some useful style tweaks that you can use directly or modify according to your liking. Next heading explains how to use them in KOReader.</p>
+    <p>Тут наведені деякі корисні підлаштування стилів, які ви можете використовувати як є або ж змінювати відповідно до своїх побажань. Наступні заголовки пояснюють як їх використовувати у KOReader.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b>
+            <li><b>Додати розділювальну лінію над кожним заголовком у книзі:</b>
                 <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b>
+            <li><b>Додати певне поле над заголовками:</b>
                 <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+            <li><b>Або ж, якщо книга має забагато полів над заголовками, вилучити їх:</b>
                 <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+            <li><b>Додати малий розрив між абзацами, щоб зробити текст читабельнішим:</b>
                 <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b>
+            <li><b>Приховати усі зображення в EPUB:</b>
                 <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b>
+                <b>Зробити зображення дуже малими, замість того, щоб приховувати їх:</b>
                 <p>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <b>Зробити секцію з блоком коду акуратнішою, що корисно для комп'ютерних книг (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Тут можна побачити приклад</a>):</b>
                 <p>
                         pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
                 </p>
@@ -2387,39 +2387,39 @@ line-height: 2rem;
 
 
 
-    <div class="L2-Sub-heading">How to add style tweaks</div>
+    <div class="L2-Sub-heading">Як додавати підлаштування стилів</div>
 
-    <p>Ok, now we have seen what <span class="ui">style tweaks</span> are. But how can we use them? There are three types of <span class="ui">style tweaks</span> in KOReader:</p>
+    <p>Гаразд, тепер ми подивимося, що таке <span class="ui">підлаштування стилів</span>. У KOReader є три типи <span class="ui">підлаштування стилів</span>:</p>
 
         <img loading="lazy" src="pictures/styletweaks_main.png" style="width:450px;">
 
-    <div class="L3-Smaller-heading">1. Built-in style tweaks</div>
+    <div class="L3-Smaller-heading">1. Вбудовані підлаштування стилів</div>
 
-    <p><span class="highlight">This heading is new, and the screenshot above and below. Anything to add?</span></p>
+    <p><span class="highlight">Цей заголовок є новим, як і знімки екрану вище та нижче. Щось додати?</span></p>
     
 
-<p>These tweaks are included in KOReader. They are the easiest to use since you just enable them from the menu to use them. You don't need to write any CSS code:</p>
+<p>Ці підлаштування включені у KOReader. Їх найпростіше використовувати, оскільки для цього достатньо увімкнути їх у меню. Не потрібно писати ніякого коду CSS:</p>
 
     <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Підлаштування стилів</div>
 
-    <p>They come in many categories. To apply a tweak to the <b>current book only</b>, tick the checkbox. If you want to get more information about this tweak or enable it for <b>all the books</b>, long-press on its name. A dialog will appear:</p>
+    <p>Вони знаходяться у багатьох категоріях. Щоб застосувати підлаштування тільки до <b>поточної книги</b>, поставте галочку у відповідному пункті меню. Якщо бажаєте отримати більше інформації про це підлаштування чи увімкнути їх для <b>усіх книг</b>, затисніть пункт меню з їх назвою. Появиться такий діалог:</p>
 
     <img loading="lazy" src="pictures/styletweaks_dialog.png" style="width:500px;">
 
         <ol>
-            <li>This area shows the name and description of the tweak</li>
-            <li>This box shows the CSS code of the tweak. You can tap on this area to copy the code to the clipboard. Then you can paste and modify this code in your <span class="ui">Book-specific tweak</span> as explained under the next heading.</li>
+            <li>Ця область показує назву і опис підлаштування</li>
+            <li>У цьому блоці міститься CSS-код підлаштування. Дотик до цього блоку скопіює код до буфера обміну. Потім можна вставити і змінити цей код у <span class="ui">Підлаштуванні окремої книги</span>, як написано у наступному підрозділі.</li>
 
-            <li><span class="ui">Show in action list</span> button allows you to toggle this tweak with a gesture or add it to a <span class="ui">Quick Menu</span>. See the heading named <b>"How to use tweaks efficiently"</b> below for more info. </li>
+            <li>Кнопка <span class="ui">Показувати у списку дій</span> дозволяє перемикати це підлаштування жестом чи додати його до <span class="ui">Швидкого меню</span>. Більше про це читайте у підрозділі <b>«Як ефективно використовувати підлаштування»</b> нижче. </li>
 
-            <li><span class="ui">Use on all books</span> button activate this tweak for all your books. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps.</li>
+            <li>Кнопка <span class="ui">Використовувати в усіх книгах</span> активує це підлаштування для усіх книг. Після цього у меню біля його імені з'явиться <b>зірочка (★)</b> – вона показує, що підлаштування буде застосовуватися до усіх книг. Вимкнути це можна виконання таких же дій.</li>
         </ol>
 
 
-    <div class="L3-Smaller-heading">2. Book-specific tweak</div>
-        <p>As you can guess from its name, this type of tweaks are only active for the book which you created them in. This feature is more useful for testing your tweaks or if you need to fix something on the current book and you know that you won't need it on other books. After creating this type of tweak, if you decide that you will need it on other books too (i.e. from the same publisher), you can convert it to a <span class="ui">user style tweak</span>, which we will explain next.</p>
+    <div class="L3-Smaller-heading">2. Підлаштування окремої книги</div>
+        <p>Як можна здогадатися з назви, цей тип підлаштувань активний тільки для тієї книги, у якій були створені. Ця функція корисна для перевірки підлаштувань або якщо потрібно щось виправити у поточні книзі й зрозуміло, що це не потрібно для інших книг. Після створення цього типу підлаштувань, якщо ви вирішите, що вони знадобляться також і в інших книгах (наприклад, книгах того ж видавця), їх можна перетворити на <span class="ui">підлаштування стилів користувача</span>, що буде описано далі.</p>
 
-        <p>To create a <span class="ui">book specific tweak</span>, use the integrated editor which you can find here:</p>
+        <p>Щоб створити <span class="ui">підлаштування окремої книги</span>, скористайтеся інтегрованим редактором, який можна знайти тут:</p>
 
         <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Підлаштування стилів / Підлаштування окремої книги</div>
 
@@ -2470,7 +2470,7 @@ line-height: 2rem;
 
         <p>You might notice that there is also a <span class="ui">right triangle icon</span> next to the first tweak. This means that this tweak can be activated using gestures. This will explained in the next heading.</p>
 
-        <div class="L3-Smaller-heading">How to use tweaks efficiently</div>
+        <div class="L3-Smaller-heading">Як ефективно використовувати підлаштування</div>
 
         <p>When creating your <span class="ui">user style tweaks</span> you can make multiple tweak files, each modifying some part of the book like in the example image above. You can have one file for the <b>headings</b>, others to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows you to enable tweaks depending on your document.</p>
 
@@ -2755,18 +2755,18 @@ line-height: 2rem;
     
     <p>You can export your highlights to your device in these file formats:</p>
     <ul>
-        <li>Text (.txt)</li>
+        <li>Текстовий (.txt)</li>
         <li>HTML (.html)</li>
-        <li>Markdown (.md)</li>
-        <li>Kindle Clippings (.txt)</li>
+        <li>Текст з розміткою Markdown (.md)</li>
+        <li>Вирізки Kindle (.txt)</li>
         <li>JSON (.json)</li>
     </ul>
         
-    <p>You can choose your preferred export formats from:</p>
+    <p>Формат, в який буде здійснюватися експорт, можна обрати тут:</p>
 
     <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Експорт виділеного / Обрати формати і служби</div>
 
-    <p>You can see the export location (and also change it if you want):</p>
+    <p>Шлях до теки експорту файлів можна побачити та змінити тут:</p>
 
     <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Експорт виділеного / Обрати теку для експорту</div>
     
@@ -2944,16 +2944,16 @@ line-height: 2rem;
 
         <div class="centering-div">
         <ul>
-            <li>✅ Chrome Browser (All platforms)</li>
+            <li>✅ Google Chrome (усі платформи)</li>
             <li>✅ Deepin Reader (Linux)</li>
-            <li>✅ Firefox Browser (All platforms)</li>
-            <li>✅ Ghostscript (All platforms)</li>
+            <li>✅ Mozilla Firefox (усі платформи)</li>
+            <li>✅ Ghostscript (усі платформи)</li>
             <li>✅ MuPDF (Windows/Android)</li>
-            <li>⚠️ Zathura (if MuPDF plugin is enabled)</li>
+            <li>⚠️ Zathura (якщо увімкнений модуль MuPDF)</li>
             <li>❌ Adobe Acrobat Reader</li>
             <li>❌ Evince (Linux)</li>
             <li>❌ Foxit Reader</li>
-            <li>❌ LibreOffice Draw (as editor)</li>
+            <li>❌ LibreOffice Draw (як редактор)</li>
             <li>❌ Moon Reader (Android)</li>
             <li>❌ Okular (Linux)</li>
             <li>❌ SumatraPDF (Windows)</li>
@@ -3042,21 +3042,21 @@ line-height: 2rem;
     
     <img loading="lazy" src="pictures/panel_zoom.png" style="width: 70%;">
     
-    <p>If you want to use this feature with other file types like EPUB, FB2, HTML or image files, you should open the file with a different engine: In the <span class="ui">File Browser</span> long-tap on the file name, tap <span class="ui">Open with…</span> and select <span class="ui">MuPDF</span>.</p>
+    <p>Якщо бажаєте користуватися цією функцією під час читання інших типів документів (EPUB, FB2, HTML) чи перегляду файлів зображень, тоді слід відкрити файл за допомогою іншого рушія: у <span class="ui">Оглядачі файлів</span> затисніть назву файлу, потім торкніться до <span class="ui">Відкрити за допомогою…</span> та оберіть <span class="ui">MuPDF</span>.</p>
 
 
   
 <div class="L2-Sub-heading" id="L2-manganextfile">Перехід до наступного файлу</div>
     
-    <p>When you reach the last page of a book, KOReader shows you a dialog. In this dialog there is an <span class="ui">Open next file</span> action which will open the next file in the same directory as the current book. So you can put your series in separate directories and read them one after another without going back to the <span class="ui">File Browser</span>.</p>
+    <p>Коли ви дочитаєте до останньої сторінки книги, KOReader покаже діалог. У цьому діалозі є кнопка <span class="ui">Відкрити наступний файл</span>, натискання на яку відкриє наступний файл з тієї ж теки, де розміщена поточна книга. Тож ви можете розкласти серії книг у різні теки та читати їх одна за іншою без необхідності повертатися до <span class="ui">Оглядача файлів</span>.</p>
     
     <img loading="lazy" src="pictures/open_next_file.png" style="width: 60%;">
     
-    <p> When opening this next file, KOReader skips the files that you have marked as <b>finished</b>. This feature is useful for example when you have a folder of manga files and you have already read some of them. You can mark a file as finished from the end of book dialog shown above. Also you can mark it from the <span class="ui">File Browser</span> by long-pressing on the file. After copying them to your device, you can: </p>
+    <p> Під час відкриття наступного файлу KOReader буде пропускати файли, які позначені вами як <b>прочитані</b>. Ця функція корисна, якщо у теці з файлами манґи знаходяться книги, які ви вже прочитали. Позначати файли як прочитані можна у діалозі кінця книги, який показано вище. Також їх можна позначати у <span class="ui">Оглядачі файлів</span>, затиснувши файл. Після копіювання їх на пристрій можна: </p>
     
     <ul>
-    <li>Open the <span class="ui">File Browser</span> in KOReader</li>
-    <li>Long press on the ones you already finished and tap <span class="ui">Mark as finished</span></li>
+    <li>Відкрити <span class="ui">Оглядач файлів</span> у KOReader</li>
+    <li>Затиснути раніше прочитану книгу та <span class="ui">Позначити прочитаною</span></li>
     </ul>
     
     <p>Після цього можна відкривати усі непрочитані книги просто натискаючи <span class="ui">Відкрити наступний файл</span> в кінці поточної книги. KOReader пропустить ті, які вже були прочитані раніше.</p>
@@ -3735,7 +3735,7 @@ line-height: 2rem;
     <p><span style="font-family: microns;"></span> - Bookmarks</p>
     <p><span style="font-family: microns;"></span> - Table of contents</p>
     <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
-    <p><span style="font-family: microns;"></span> - Toggle reflow</p>
+    <p><span style="font-family: microns;"></span> – Перемкнути перекомпонування</p>
     <p><span style="font-family: microns;"></span> - History</p>
     <p><span style="font-family: microns;"></span> - Book status</p>
     <p><span style="font-family: microns;"></span> - Go to page</p>
@@ -3743,7 +3743,7 @@ line-height: 2rem;
     <p><span style="font-family: microns;"></span> - Previous chapter</p>
     <p><span style="font-family: microns;"></span> - Next chapter</p>
     <p><span style="font-family: microns;"></span> - Open previous document</p>
-    <p><span style="font-family: microns;"></span> - Favorites</p>
+    <p><span style="font-family: microns;"></span> – Обране</p>
 
     </div>
 
@@ -3767,12 +3767,12 @@ line-height: 2rem;
                 <li>Запустити USB-сховище</li>
                 <li>Сон</li>
                 <li>Перезапустіть KOReader</li>
-                <li>Перезавантажити пристрій</li>
+                <li>Обране</li>
                 <li>Добірки</li>
                 <li>Пошук добірок</li>
                 <li>Пошук у словнику</li>
                 <li>Пошук у Вікіпедії</li>
-                <li>Увімкнути сенсорний ввід</li>
+                <li>Показати меню</li>
                 <li>Пошук в меню</li>
                 <li>Відкрити наступний файл у теці останньої книги</li>
                 <li>Open previous file in last book folder</li>
@@ -3793,10 +3793,10 @@ line-height: 2rem;
                 <li>Статистика читання: показати хронологію за сьогодні</li>
                 <li>Статистика читання: синхронізувати</li>
                 <li>Text editor: open last file</li>
-                <li>Open vocabulary builder</li>
-                <li>Wallabag retrieval</li>
-                <li>Wallabag queue upload</li>
-                <li>Wallabag statuses upload</li>
+                <li>Відкрити конструктор словника</li>
+                <li>Пошук у Wallabag</li>
+                <li>Вивантаження черги Wallabag</li>
+                <li>Вивантаження статусів Wallabag</li>
                 
                 <li>Вийти з заставки</li>
                 <li>Інвертувати кнопки гортання сторінок</li>
@@ -3806,14 +3806,14 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading">Device</div>
+        <div class="L3-Smaller-heading">Пристрій</div>
 
             <ol>
                 <li>Вийти з заставки сну</li>
-                <li>Restart KOReader</li>
-                <li>Exit KOReader</li>
-                <li>Toggle long-press on corners</li>
-                <li>Enable touch input</li>
+                <li>Перезапустити KOReader</li>
+                <li>Вийти з KOReader</li>
+                <li>Перемкнути затискання в кутках</li>
+                <li>Увімкнути сенсорний ввід</li>
                 <li>Показати діалог підсвічування</li>
                 <li>Перемкнути підсвічування</li>
                 <li>Вказати яскравість підсвічування</li>
@@ -3823,20 +3823,20 @@ line-height: 2rem;
                 <li>Перемкнути нічний режим</li>
                 <li>Встановити нічний режим</li>
                 <li>Перемкнути повноекранний режим</li>
-                <li>Повна частота оновлення (нічний режим)</li>
+                <li>Показати відомості про мережу</li>
                 <li>Завжди блимати на межі розділів</li>
                 <li>Перемкнути оновлення на межі розділів</li>
-                <li>Terminal emulator</li>
+                <li>Емулятор терміналу</li>
                 
 
                 <li>Статистика використання акумулятора</li>
                 <li>Статистика системи</li>
-                <li>Reboot the device</li>
+                <li>Перезавантажити пристрій</li>
                 <li>Power off</li>
                 <li>Збільшити яскравість підсвічування</li>
                 <li>Зменшити яскравість підсвічування</li>
                 <li>Повне оновлення екрана</li>
-                <li>Частота повного оновлення (завжди)</li>
+                <li>Вимкнути Wi-Fi</li>
                 <li>Частота повного оновлення (не в нічному режимі)</li>
 
             </ol>
@@ -3856,14 +3856,14 @@ line-height: 2rem;
                 <li>Збільшити розмір шрифту</li>
                 <li>Зменшити розмір шрифту</li>
                 <li>Вказати розмір шрифту</li>
-                <li>Проміжки між словами</li>
-                <li>Розтягування слів</li>
-                <li>Контраст</li>
+                <li>Частота повного оновлення (завжди)</li>
+                <li>Частота повного оновлення (не нічний режим)</li>
+                <li>Повна частота оновлення (нічний режим)</li>
                 <li>Товщина шрифту</li>
                 <li>Хінтинг шрифту</li>
                 <li>Кернування шрифту</li>
                 <li>Два стовпці</li>
-                <li>Ліве/праве поля</li>
+                <li>Завжди блимати на сторінках з зображеннями</li>
                 <li>Синхронізувати В/Н поля</li>
                 <li>Верхнє поле</li>
                 <li>Автозміна теплоти за положенням сонця</li>
@@ -3887,7 +3887,7 @@ line-height: 2rem;
                 <li>Font hinting</li>
                 <li>Font kerning</li>
                 <li>Two columns</li>
-                <li>L/R margins</li>
+                <li>Ліве/праве поля</li>
                 <li>Sync T/B margins</li>
                 <li>Top margin</li>
                 <li>Bottom margin</li>
@@ -3935,18 +3935,18 @@ line-height: 2rem;
                 <li>Випадкова сторінка</li>
                 <li>Гортання сторінок</li>
                 <li>Перейти до сторінки</li>
-                <li>Відомості про книгу</li>
+                <li>Проглянути документ</li>
                 <li>Опис книги</li>
-                <li>Обкладинка книги</li>
+                <li>Наступна закладка</li>
                 <li>Перекласти поточну сторінку</li>
-                <li>Змінити напрямок гортання сторінок</li>
-                <li>Перемкнути власний зміст</li>
+                <li>Остання закладка</li>
+                <li>Найпізніша закладка</li>
                 <li>Назад</li>
-                <li>Вказати дію виділення</li>
+                <li>Повернутись до попереднього місця</li>
                 <li>Циклічна дія виділення</li>
-                <li>Циклічний стиль виділення</li>
-                <li>Зберегти метадані книги</li>
-                <li>Перемістити поточну книгу до архіву</li>
+                <li>Перейти за найближчим посиланням</li>
+                <li>Перейти за найближчим внутрішнім посиланням</li>
+                <li>Додати поточне місце до історії</li>
                 <li>Статистика книги</li>
                 <li>Пошук по всьому тексту</li>
                 <li>Last fulltext search results</li>
@@ -3957,61 +3957,61 @@ line-height: 2rem;
                 <li>Закладки</li>
                 <li>Bookmark search</li>
                 <li>Додати/зняти закладку</li>
-                <li>Перемкнути гортання закладок</li>
-                <li>Перемкнути перекомпонування</li>
+                <li>Стан книги</li>
+                <li>Відомості про книгу</li>
                 <li>Режим масштабування</li>
-                <li>Змінити коефіцієнт масштабування</li>
+                <li>Обкладинка книги</li>
                 <li>Змінити масштаб панелі</li>
                 <li>Інвертувати гортання сторінок дотиком і протягуванням</li>
-                <li>Обтинання сторінки</li>
-                <li>Поле</li>
+                <li>Змінити напрямок гортання сторінок</li>
+                <li>Перемкнути власний зміст</li>
                 <li>Горизонтальне перекриття</li>
-                <li>Вертикальне перекриття</li>
+                <li>Вказати дію виділення</li>
                 <li>Допасування</li>
-                <li>Коефіцієнт масштабування</li>
-                <li>Збільшити до</li>
+                <li>Циклічний стиль виділення</li>
+                <li>Зберегти метадані книги</li>
                 <li>Експорт анотацій</li>
                 <li>Export all notes in current book</li>
                 <li>Export all notes in all books in history</li>
-                <li>Напрямок</li>
+                <li>Перемістити поточну книгу до архіву</li>
                 <li>Reading statistics: current book</li>
-                <li>Push progress from this device</li>
-                <li>Pull progress from other devices</li>
+                <li>Надіслати поступ з цього пристрою</li>
+                <li>Отримати поступ з інших пристроїв</li>
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Документи з фіксованим макетом</div>
             <ol>
                 <li>Перекомпонувати</li>
-                <li>Контраст</li>
-                <li>Очищення тла</li>
+                <li>Перемкнути гортання закладок</li>
+                <li>Перемкнути перекомпонування</li>
                 <li>Увімк./вимк. дитеринг</li>
+                <li>Змінити коефіцієнт масштабування</li>
+                <li>Перемкнути масштаб панелі</li>
+                <li>Обтинання сторінки</li>
+                <li>Поле</li>
+                <li>Корекція нахилу</li>
+                <li>Вертикальне перекриття</li>
+                <li>Допасувати</li>
+                <li>Збільшити до</li>
+                <li>К-сть стовпців/рядків, на яку поділити сторінку</li>
+                <li>Коефіцієнт масштабування</li>
+                <li>Напрямок</li>
+                <li>Режим перегляду</li>
+                <li>Розрив сторінки</li>
+                <li>Line spacing</li>
+                <li>Вирівнювання</li>
+                <li>Розмір шрифту</li>
+                <li>Змінити розмір шрифту</li>
+                <li>Проміжок між словами</li>
+                <li>Перекомпонування</li>
+                <li>Contrast</li>
+                <li>Очищення тла</li>
                 <li>Якість візуалізації</li>
                 <li>Мова документа</li>
                 <li>Примусове OCR</li>
                 <li>Напрямок письма</li>
-                <li>Корекція нахилу</li>
                 <li>Стовпці документа</li>
-                <li>Fit</li>
-                <li>Zoom to</li>
-                <li>Number of columns/rows to split page</li>
-                <li>Zoom factor</li>
-                <li>Direction</li>
-                <li>View mode</li>
-                <li>Page gap</li>
-                <li>Line spacing</li>
-                <li>Alignment</li>
-                <li>Розмір шрифту</li>
-                <li>Змінити розмір шрифту</li>
-                <li>Word gap</li>
-                <li>Reflow</li>
-                <li>Contrast</li>
-                <li>Dewatermark</li>
-                <li>Render quality</li>
-                <li>Document language</li>
-                <li>Forced OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
                 <li>Auto straighten</li>
             </ol>
 
@@ -4697,7 +4697,7 @@ line-height: 2rem;
         <ol>
             <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
             <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
-            <li>Restart KOReader</li>
+            <li>Перезапустити KOReader</li>
         </ol>
 
         
