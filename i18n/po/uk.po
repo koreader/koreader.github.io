@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-19 10:33+0000\n"
-"PO-Revision-Date: 2025-08-19 10:32+0000\n"
+"PO-Revision-Date: 2025-08-20 11:02+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5289,6 +5289,12 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> – ця перша частина "
+"встановлює ширину (width) цільових елементів <b>img</b> на значення 10 "
+"пікселів; декларація <b>!important</b> є замінним перемикачем, який "
+"забезпечує те, що вказане тут значення ширини буде мати вищий пріоритет над "
+"будь-яким іншим значенням <b>ширини</b> (width), яке може впливати на ці "
+"зображення."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2345-9
 msgid ""
@@ -5298,6 +5304,12 @@ msgid ""
 "height value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"<span class=\"ui\">height: 10px !important;</span> – ця частина вказує "
+"висоту (height) цільових елементів <b>img</b> на значення 10 пікселів. Знову "
+"ж, декларація <b>!important</b> є замінним перемикачем, який забезпечує, що "
+"вказане вами значення висоти (height) буде мати вищий пріоритет над будь-"
+"яким іншим значенням декларації <b>висоти</b> (height), що застосовується до "
+"цих зображень."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2348-5
 msgid ""
@@ -5305,6 +5317,9 @@ msgid ""
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
 msgstr ""
+"Коротко кажучи, це правило CSS створене, щоб встановити <b>фіксоване "
+"значення ширину і висоту на 10 пікселів</b> для усіх елементів <b>img</b> у "
+"книзі, <b>ігноруючи при цьому її оригінальний стиль</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2352-5
 msgid "Some useful examples of style tweaks"
@@ -5315,56 +5330,60 @@ msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
 msgstr ""
+"Тут наведені деякі корисні підлаштування стилів, які ви можете "
+"використовувати як є або ж змінювати відповідно до своїх побажань. Наступні "
+"заголовки пояснюють як їх використовувати у KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2357-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Додати розділювальну лінію над кожним заголовком у книзі:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2358-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Додати певне поле над заголовками:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2362-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2364-13
 msgid "Or if the book have too much margin above the headings, remove them:"
-msgstr ""
+msgstr "Або ж, якщо книга має забагато полів над заголовками, вилучити їх:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2365-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2368-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
-msgstr ""
+msgstr "Додати малий розрив між абзацами, щоб зробити текст читабельнішим:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2369-17
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2371-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Приховати усі зображення в EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2372-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Зробити зображення дуже малими, замість того, щоб приховувати їх:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2377-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid ""
@@ -5372,6 +5391,10 @@ msgid ""
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgstr ""
+"Зробити секцію з блоком коду акуратнішою, що корисно для комп'ютерних книг ("
+"<a href="
+"\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\""
+">Тут можна побачити приклад</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgid ""
@@ -5379,10 +5402,13 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2396-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Як додавати підлаштування стилів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2398-5
 msgid ""
@@ -5390,15 +5416,18 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
+"Гаразд, тепер ми подивимося, що таке <span class=\"ui\">підлаштування "
+"стилів</span>. У KOReader є три типи <span class=\"ui\">підлаштування "
+"стилів</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2402-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Вбудовані підлаштування стилів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2404-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
-msgstr ""
+msgstr "Цей заголовок є новим, як і знімки екрану вище та нижче. Щось додати?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2407-1
 msgid ""
@@ -5406,6 +5435,9 @@ msgid ""
 "just enable them from the menu to use them. You don't need to write any CSS "
 "code:"
 msgstr ""
+"Ці підлаштування включені у KOReader. Їх найпростіше використовувати, "
+"оскільки для цього достатньо увімкнути їх у меню. Не потрібно писати ніякого "
+"коду CSS:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2409-5
 msgid ""
@@ -5422,10 +5454,14 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
+"Вони знаходяться у багатьох категоріях. Щоб застосувати підлаштування тільки "
+"до <b>поточної книги</b>, поставте галочку у відповідному пункті меню. Якщо "
+"бажаєте отримати більше інформації про це підлаштування чи увімкнути їх для "
+"<b>усіх книг</b>, затисніть пункт меню з їх назвою. Появиться такий діалог:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2416-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Ця область показує назву і опис підлаштування"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2417-13
 msgid ""
@@ -5434,6 +5470,10 @@ msgid ""
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
 msgstr ""
+"У цьому блоці міститься CSS-код підлаштування. Дотик до цього блоку скопіює "
+"код до буфера обміну. Потім можна вставити і змінити цей код у <span class="
+"\"ui\">Підлаштуванні окремої книги</span>, як написано у наступному "
+"підрозділі."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2419-13
 msgid ""
@@ -5442,6 +5482,10 @@ msgid ""
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
 msgstr ""
+"Кнопка <span class=\"ui\">Показувати у списку дій</span> дозволяє перемикати "
+"це підлаштування жестом чи додати його до <span class=\"ui\">Швидкого меню</"
+"span>. Більше про це читайте у підрозділі <b>«Як ефективно використовувати "
+"підлаштування»</b> нижче."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid ""
@@ -5450,10 +5494,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"Кнопка <span class=\"ui\">Використовувати в усіх книгах</span> активує це "
+"підлаштування для усіх книг. Після цього у меню біля його імені з'явиться "
+"<b>зірочка (★)</b> – вона показує, що підлаштування буде застосовуватися до "
+"усіх книг. Вимкнути це можна виконання таких же дій."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2425-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Підлаштування окремої книги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2426-9
 msgid ""
@@ -5465,12 +5513,21 @@ msgid ""
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
 msgstr ""
+"Як можна здогадатися з назви, цей тип підлаштувань активний тільки для тієї "
+"книги, у якій були створені. Ця функція корисна для перевірки підлаштувань "
+"або якщо потрібно щось виправити у поточні книзі й зрозуміло, що це не "
+"потрібно для інших книг. Після створення цього типу підлаштувань, якщо ви "
+"вирішите, що вони знадобляться також і в інших книгах (наприклад, книгах "
+"того ж видавця), їх можна перетворити на <span class=\"ui\">підлаштування "
+"стилів користувача</span>, що буде описано далі."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2428-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Щоб створити <span class=\"ui\">підлаштування окремої книги</span>, "
+"скористайтеся інтегрованим редактором, який можна знайти тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-9
 msgid ""
@@ -5604,7 +5661,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2479-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Як ефективно використовувати підлаштування"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2481-9
 msgid ""
@@ -6357,27 +6414,27 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2764-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Текстовий (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2765-9
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2766-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Текст з розміткою Markdown (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2767-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Вирізки Kindle (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2768-9
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2771-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "Формат, в який буде здійснюватися експорт, можна обрати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2773-5
 msgid ""
@@ -6389,7 +6446,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2775-5
 msgid "You can see the export location (and also change it if you want):"
-msgstr ""
+msgstr "Шлях до теки експорту файлів можна побачити та змінити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2777-5
 msgid ""
@@ -6827,63 +6884,63 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2953-13
 msgid "✅ Chrome Browser (All platforms)"
-msgstr ""
+msgstr "✅ Google Chrome (усі платформи)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2954-13
 msgid "✅ Deepin Reader (Linux)"
-msgstr ""
+msgstr "✅ Deepin Reader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2955-13
 msgid "✅ Firefox Browser (All platforms)"
-msgstr ""
+msgstr "✅ Mozilla Firefox (усі платформи)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2956-13
 msgid "✅ Ghostscript (All platforms)"
-msgstr ""
+msgstr "✅ Ghostscript (усі платформи)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2957-13
 msgid "✅ MuPDF (Windows/Android)"
-msgstr ""
+msgstr "✅ MuPDF (Windows/Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2958-13
 msgid "⚠️ Zathura (if MuPDF plugin is enabled)"
-msgstr ""
+msgstr "⚠️ Zathura (якщо увімкнений модуль MuPDF)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2959-13
 msgid "❌ Adobe Acrobat Reader"
-msgstr ""
+msgstr "❌ Adobe Acrobat Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2960-13
 msgid "❌ Evince (Linux)"
-msgstr ""
+msgstr "❌ Evince (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2961-13
 msgid "❌ Foxit Reader"
-msgstr ""
+msgstr "❌ Foxit Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2962-13
 msgid "❌ LibreOffice Draw (as editor)"
-msgstr ""
+msgstr "❌ LibreOffice Draw (як редактор)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2963-13
 msgid "❌ Moon Reader (Android)"
-msgstr ""
+msgstr "❌ Moon Reader (Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2964-13
 msgid "❌ Okular (Linux)"
-msgstr ""
+msgstr "❌ Okular (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2965-13
 msgid "❌ SumatraPDF (Windows)"
-msgstr ""
+msgstr "❌ SumatraPDF (Windows)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2966-13
 msgid "❌ Xpdf (Linux)"
-msgstr ""
+msgstr "❌ Xpdf (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2967-13
 msgid "❌ Xreader (Linux)"
-msgstr ""
+msgstr "❌ Xreader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2971-9
 msgid "Important information about saving PDF highlights feature"
@@ -7000,7 +7057,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3005-1
 msgctxt "user_guide/en.html+html.body.div.div:3005-1"
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (оптичне розпізнавання символів)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3006-5
 msgid ""
@@ -7129,11 +7186,16 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
+"Якщо бажаєте користуватися цією функцією під час читання інших типів "
+"документів (EPUB, FB2, HTML) чи перегляду файлів зображень, тоді слід "
+"відкрити файл за допомогою іншого рушія: у <span class=\"ui\">Оглядачі "
+"файлів</span> затисніть назву файлу, потім торкніться до <span class=\"ui\""
+">Відкрити за допомогою…</span> та оберіть <span class=\"ui\">MuPDF</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3056-1
 msgctxt "user_guide/en.html+html.body.div.div:3056-1"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Перехід до наступного файлу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3058-5
 msgid ""
@@ -7143,6 +7205,12 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Коли ви дочитаєте до останньої сторінки книги, KOReader покаже діалог. У "
+"цьому діалозі є кнопка <span class=\"ui\">Відкрити наступний файл</span>, "
+"натискання на яку відкриє наступний файл з тієї ж теки, де розміщена поточна "
+"книга. Тож ви можете розкласти серії книг у різні теки та читати їх одна за "
+"іншою без необхідності повертатися до <span class=\"ui\">Оглядача "
+"файлів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3062-5
 msgid ""
@@ -7153,16 +7221,24 @@ msgid ""
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
 msgstr ""
+"Під час відкриття наступного файлу KOReader буде пропускати файли, які "
+"позначені вами як <b>прочитані</b>. Ця функція корисна, якщо у теці з "
+"файлами манґи знаходяться книги, які ви вже прочитали. Позначати файли як "
+"прочитані можна у діалозі кінця книги, який показано вище. Також їх можна "
+"позначати у <span class=\"ui\">Оглядачі файлів</span>, затиснувши файл. "
+"Після копіювання їх на пристрій можна:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3065-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
-msgstr ""
+msgstr "Відкрити <span class=\"ui\">Оглядач файлів</span> у KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3066-5
 msgid ""
 "Long press on the ones you already finished and tap <span class=\"ui\">Mark "
 "as finished</span>"
 msgstr ""
+"Затиснути раніше прочитану книгу та <span class=\"ui\">Позначити "
+"прочитаною</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3069-5
 msgid ""
@@ -9170,6 +9246,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> – Перемкнути перекомпонування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
@@ -9202,7 +9279,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> – Обране"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3764-1
 msgctxt "user_guide/en.html+html.body.div.div:3764-1"
@@ -9253,7 +9330,7 @@ msgstr "Перезапустіть KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3781-17
 msgid "Favorites"
-msgstr "Перезавантажити пристрій"
+msgstr "Обране"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3782-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3782-17"
@@ -9276,7 +9353,7 @@ msgstr "Пошук у Вікіпедії"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3786-17
 msgid "Show menu"
-msgstr "Увімкнути сенсорний ввід"
+msgstr "Показати меню"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3787-17
 msgid "Menu search"
@@ -9360,19 +9437,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
 msgid "Open vocabulary builder"
-msgstr ""
+msgstr "Відкрити конструктор словника"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
 msgid "Wallabag retrieval"
-msgstr ""
+msgstr "Пошук у Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
 msgid "Wallabag queue upload"
-msgstr ""
+msgstr "Вивантаження черги Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3810-17
 msgid "Wallabag statuses upload"
-msgstr ""
+msgstr "Вивантаження статусів Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
 msgid "Reading progress"
@@ -9396,7 +9473,7 @@ msgstr "Змінити орієнтацію"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3820-9
 msgid "Device"
-msgstr ""
+msgstr "Пристрій"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3823-17
 msgid "Exit sleep screen"
@@ -9405,19 +9482,19 @@ msgstr "Вийти з заставки сну"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3824-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3824-17"
 msgid "Restart KOReader"
-msgstr ""
+msgstr "Перезапустити KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3825-17
 msgid "Exit KOReader"
-msgstr ""
+msgstr "Вийти з KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3826-17
 msgid "Toggle long-press on corners"
-msgstr ""
+msgstr "Перемкнути затискання в кутках"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3827-17
 msgid "Enable touch input"
-msgstr ""
+msgstr "Увімкнути сенсорний ввід"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3828-17
 msgid "Disable touch input"
@@ -9457,7 +9534,7 @@ msgstr "Перемкнути повноекранний режим"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3837-17
 msgid "Show network info"
-msgstr "Повна частота оновлення (нічний режим)"
+msgstr "Показати відомості про мережу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3838-17
 msgid "Battery statistics"
@@ -9469,7 +9546,7 @@ msgstr "Перемкнути оновлення на межі розділів"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
 msgid "Terminal emulator"
-msgstr ""
+msgstr "Емулятор терміналу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3843-17
 msgid "Start USB storage"
@@ -9481,7 +9558,7 @@ msgstr "Статистика системи"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
 msgid "Reboot the device"
-msgstr ""
+msgstr "Перезавантажити пристрій"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3846-17
 msgid "Power off"
@@ -9501,7 +9578,7 @@ msgstr "Повне оновлення екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3850-17
 msgid "Turn off Wi-Fi"
-msgstr "Частота повного оновлення (завжди)"
+msgstr "Вимкнути Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3851-17
 msgid "Toggle Wi-Fi"
@@ -9557,15 +9634,15 @@ msgstr "Вказати розмір шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3870-17
 msgid "Full refresh rate (always)"
-msgstr "Проміжки між словами"
+msgstr "Частота повного оновлення (завжди)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3871-17
 msgid "Full refresh rate (not in night mode)"
-msgstr "Розтягування слів"
+msgstr "Частота повного оновлення (не нічний режим)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3872-17
 msgid "Full refresh rate (in night mode)"
-msgstr "Контраст"
+msgstr "Повна частота оновлення (нічний режим)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3873-17
 msgid "Always flash on chapter boundaries"
@@ -9585,7 +9662,7 @@ msgstr "Два стовпці"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
 msgid "Always flash on pages with images"
-msgstr "Ліве/праве поля"
+msgstr "Завжди блимати на сторінках з зображеннями"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
 msgid "Toggle flashing on pages with images"
@@ -9667,7 +9744,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3901-17
 msgid "L/R margins"
-msgstr ""
+msgstr "Ліве/праве поля"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3902-17
 msgid "Sync T/B margins"
@@ -9834,7 +9911,7 @@ msgstr "Перейти до сторінки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-17
 msgid "Skim document"
-msgstr "Відомості про книгу"
+msgstr "Проглянути документ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3950-17
 msgid "Previous bookmark"
@@ -9842,7 +9919,7 @@ msgstr "Опис книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3951-17
 msgid "Next bookmark"
-msgstr "Обкладинка книги"
+msgstr "Наступна закладка"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3952-17
 msgid "First bookmark"
@@ -9850,11 +9927,11 @@ msgstr "Перекласти поточну сторінку"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
 msgid "Last bookmark"
-msgstr "Змінити напрямок гортання сторінок"
+msgstr "Остання закладка"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
 msgid "Latest bookmark"
-msgstr "Перемкнути власний зміст"
+msgstr "Найпізніша закладка"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3955-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3955-17"
@@ -9863,7 +9940,7 @@ msgstr "Назад"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3956-17
 msgid "Back to previous location"
-msgstr "Вказати дію виділення"
+msgstr "Повернутись до попереднього місця"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
 msgid "Forward to next location"
@@ -9871,15 +9948,15 @@ msgstr "Циклічна дія виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Follow nearest link"
-msgstr "Циклічний стиль виділення"
+msgstr "Перейти за найближчим посиланням"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 msgid "Follow nearest internal link"
-msgstr "Зберегти метадані книги"
+msgstr "Перейти за найближчим внутрішнім посиланням"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
 msgid "Add current location to history"
-msgstr "Перемістити поточну книгу до архіву"
+msgstr "Додати поточне місце до історії"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
 msgid "Clear location history"
@@ -9928,11 +10005,11 @@ msgstr "Додати/зняти закладку"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3971-17
 msgid "Book status"
-msgstr "Перемкнути гортання закладок"
+msgstr "Стан книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3972-17
 msgid "Book information"
-msgstr "Перемкнути перекомпонування"
+msgstr "Відомості про книгу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3973-17
 msgid "Book description"
@@ -9940,7 +10017,7 @@ msgstr "Режим масштабування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3974-17
 msgid "Book cover"
-msgstr "Змінити коефіцієнт масштабування"
+msgstr "Обкладинка книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
 msgid "Translate current page"
@@ -9952,11 +10029,11 @@ msgstr "Інвертувати гортання сторінок дотиком 
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3977-17
 msgid "Toggle page turn direction"
-msgstr "Обтинання сторінки"
+msgstr "Змінити напрямок гортання сторінок"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
 msgid "Toggle custom TOC"
-msgstr "Поле"
+msgstr "Перемкнути власний зміст"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
 msgid "Toggle custom hidden flows"
@@ -9964,7 +10041,7 @@ msgstr "Горизонтальне перекриття"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
 msgid "Set highlight action"
-msgstr "Вертикальне перекриття"
+msgstr "Вказати дію виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3981-17
 msgid "Cycle highlight action"
@@ -9972,11 +10049,11 @@ msgstr "Допасування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3982-17
 msgid "Cycle highlight style"
-msgstr "Коефіцієнт масштабування"
+msgstr "Циклічний стиль виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3983-17
 msgid "Save book metadata"
-msgstr "Збільшити до"
+msgstr "Зберегти метадані книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
 msgid "Export annotations"
@@ -9993,7 +10070,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
 msgid "Move current book to archive"
-msgstr "Напрямок"
+msgstr "Перемістити поточну книгу до архіву"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 msgid "Reading statistics: current book"
@@ -10001,15 +10078,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
 msgid "Push progress from this device"
-msgstr ""
+msgstr "Надіслати поступ з цього пристрою"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3990-17
 msgid "Pull progress from other devices"
-msgstr ""
+msgstr "Отримати поступ з інших пристроїв"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3994-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "Документи з фіксованим макетом"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3996-17
 msgid "Toggle page flipping"
@@ -10017,11 +10094,11 @@ msgstr "Перекомпонувати"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3997-17
 msgid "Toggle bookmark flipping"
-msgstr "Контраст"
+msgstr "Перемкнути гортання закладок"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Toggle reflow"
-msgstr "Очищення тла"
+msgstr "Перемкнути перекомпонування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Zoom mode"
@@ -10029,19 +10106,19 @@ msgstr "Увімк./вимк. дитеринг"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
 msgid "Change zoom factor"
-msgstr "Якість візуалізації"
+msgstr "Змінити коефіцієнт масштабування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle panel zoom"
-msgstr "Мова документа"
+msgstr "Перемкнути масштаб панелі"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Page crop"
-msgstr "Примусове OCR"
+msgstr "Обтинання сторінки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Margin"
-msgstr "Напрямок письма"
+msgstr "Поле"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgid "Horizontal overlap"
@@ -10049,44 +10126,44 @@ msgstr "Корекція нахилу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Vertical overlap"
-msgstr "Стовпці документа"
+msgstr "Вертикальне перекриття"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 msgid "Fit"
-msgstr ""
+msgstr "Допасувати"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
 msgid "Zoom to"
-msgstr ""
+msgstr "Збільшити до"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
 msgid "Number of columns/rows to split page"
-msgstr ""
+msgstr "К-сть стовпців/рядків, на яку поділити сторінку"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4009-17
 msgid "Zoom factor"
-msgstr ""
+msgstr "Коефіцієнт масштабування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4010-17
 msgid "Direction"
-msgstr ""
+msgstr "Напрямок"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4011-17
 msgid "View mode"
-msgstr ""
+msgstr "Режим перегляду"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4012-17
 msgid "Page gap"
-msgstr ""
+msgstr "Розрив сторінки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4013-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4013-17"
 msgid "Line spacing"
-msgstr ""
+msgstr "Міжрядкові проміжки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Alignment"
-msgstr ""
+msgstr "Вирівнювання"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4015-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4015-17"
@@ -10099,40 +10176,40 @@ msgstr "Змінити розмір шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Word gap"
-msgstr ""
+msgstr "Проміжок між словами"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgid "Reflow"
-msgstr ""
+msgstr "Перекомпонування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4019-17"
 msgid "Contrast"
-msgstr ""
+msgstr "Контраст"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
 msgid "Dewatermark"
-msgstr ""
+msgstr "Очищення тла"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Render quality"
-msgstr ""
+msgstr "Якість візуалізації"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Document language"
-msgstr ""
+msgstr "Мова документа"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Forced OCR"
-msgstr ""
+msgstr "Примусове OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgid "Writing direction"
-msgstr ""
+msgstr "Напрямок письма"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4025-17
 msgid "Document columns"
-msgstr ""
+msgstr "Стовпці документа"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Auto straighten"
