@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-20 11:03+0000\n"
-"PO-Revision-Date: 2025-08-20 11:02+0000\n"
-"Last-Translator: Roof Roof <roof77.subs@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"PO-Revision-Date: 2025-08-21 12:02+0000\n"
+"Last-Translator: No name <CertainBot@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1353,7 +1353,7 @@ msgid ""
 msgstr ""
 "Puedes buscar un libro en la pantalla del <span class=\"ui\">Historial</"
 "span> por <b>nombre de archivo</b> o por<b>metadatos del libro</b> desde el "
-"menú desplegable del botón de hamburguesa en la parte superior izquierda."
+"menú hamburguesa en la parte superior izquierda."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1258-5
 msgid ""
@@ -3092,6 +3092,15 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"La <span class=\"ui\">optimización de letra</span> adapta tu texto para la "
+"máxima legibilidad según la rejilla de píxeles de lu pantalla. <span class="
+"\"ui\">native</span> usa las instrucciones internas de optimización de la "
+"letra, <span class=\"ui\">auto</span> usa el algoritmo de optimización de "
+"FreeType. <span class=\"ui\">auto</span> es una opción más segura porque los "
+"archivos de letra que tengas instaladas pueden tener instrucciones de "
+"optimización problemáticas. Además, <span class=\"ui\">auto</span> maneja "
+"mejor el texto <b>CJK</b>. Puedes probar diferentes ajustes para ver cuál es "
+"el mejor en tu dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1747-5
 msgid ""
@@ -3103,6 +3112,14 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"El <span class=\"ui\">interletraje de letra</span> ajusta el espaciado entre "
+"letras para lograr un resultado visualmente agradable. Por defecto está la "
+"opción <span class=\"ui\">mejor</span>, que puede ser <b>más lenta</b> al "
+"abrir archivos (dependiendo de tu dispositivo) pero <b>tiene mejor soporte "
+"para ligaduras</b> (ver imagen abajo como ejemplo), glifos <b>árabes</b> "
+"unidos y algunos otros alfabetos. Si tu dispositivo es lento, puedes probar "
+"<span class=\"ui\">bueno</span> que es más rápida y aún podría verse "
+"correcta con texto latino occidental."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1756-5
 msgid ""
@@ -3286,6 +3303,14 @@ msgid ""
 "<span class=\"ui\">star</span> (★) in the menu or as a <span "
 "class=\"ui\">black border</span> around the indicators as seen below:"
 msgstr ""
+"Si tocas y mantienes presionado una <b>opción</b> o <b>elemento del menú</b> "
+"(grosor de letra, interlineado, etc.), puedes establecer su valor como <span "
+"class=\"ui\">POR DEFECTO</span>. El nuevo valor solo se aplicará a los "
+"libros que se abran a partir de ahora. Los libros abiertos anteriormente "
+"conservarán sus ajustes. Puedes identificar los valores por defecto como una "
+"<span class=\"ui\">estrella</span> (★) en el menú o como un <span class="
+"\"ui\">borde oscuro</span> alrededor de los indicadores, como puedes ver "
+"abajo:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1815-13
 msgid ""
@@ -3294,6 +3319,10 @@ msgid ""
 "<span class=\"ui\">Bookmarks</span> window. You can use any multi swipe "
 "gesture to close this one)"
 msgstr ""
+"Puedes <b>cerrar</b> los diálogos a pantalla completa (<span class=\"ui\""
+">Historial, Índice, Estadísticas de lectura</span> etc.) deslizando <b>hacia "
+"abajo</b>. (Excepto la ventana de <span class=\"ui\">Marcadores</span>. "
+"Puedes usar cualquier multi gesto de deslizamientos para cerrar ésta)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1818-13
 msgid ""
@@ -3304,6 +3333,12 @@ msgid ""
 "take a screenshot with the <span class=\"ui\">Alt + Shift + G</span> "
 "shortcut."
 msgstr ""
+"Puedes tomar una <span class=\"ui\">captura de pantalla</span> haciendo un "
+"<b>deslizamiento diagonal largo</b> con el dedo. También <b>tocar las "
+"esquinas diagonales opuestas</b> hará una captura de pantalla. Puedes usar "
+"este segundo gesto por ejemplo, al ver una imagen. Además, si tu dispositivo "
+"tiene teclado, puedes tomar una captura de pantalla con el atajo <span class="
+"\"ui\">Alt + Shift + G</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1821-13
 msgid ""
@@ -3311,6 +3346,9 @@ msgid ""
 "page</b> action which you can assign to any gesture. It is in the <b>Reader</"
 "b> category of the <span class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"Si quieres abrir una página aleatoria de un libro, tenemos la acción saltar "
+"a <b>Página aleatoria</b> que puedes asignar a cualquier gesto. Está en la "
+"categoría <b>Lector</b> del <span class=\"ui\">Configurador de gestos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1825-9
 msgid ""
@@ -3318,18 +3356,25 @@ msgid ""
 "<b>tap and hold</b> on arrow buttons to change the value in bigger "
 "increments."
 msgstr ""
+"En los diálogos que contienen botones de flecha de ajuste como el anterior, "
+"puedes <b>tocar y mantener</b> los botones de flecha para cambiar el valor "
+"en incrementos mayores."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-9
 msgid ""
 "You can <b>close</b> this type of dialog (non-full screen) by tapping "
 "outside of its window."
 msgstr ""
+"Puedes <b>cerrar</b> este tipo de diálogo (no a pantalla completa) tocando "
+"fuera de su ventana."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1827-9
 msgid ""
 "You can <b>move</b> this type of dialog by holding its window title and "
 "dragging."
 msgstr ""
+"Puedes <b>mover</b> este tipo de diálogo manteniendo pulsado el título de su "
+"ventana y arrastrando."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1828-9
 msgid ""
@@ -3337,6 +3382,9 @@ msgid ""
 "holding the <b>window title</b> (when you want to see the text under it "
 "while adjusting a value)."
 msgstr ""
+"Puedes hacer que este tipo de diálogo sea <b>semi transparente</b> tocando y "
+"manteniendo el <b>título de la ventana</b> (cuando quieras ver el texto que "
+"está debajo mientras ajustas un valor)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1832-13
 msgid ""
@@ -3345,18 +3393,27 @@ msgid ""
 "presents you a screen that looks like our <span class=\"ui\">File Browser</"
 "span>. If you want to create a new folder while choosing:"
 msgstr ""
+"<b>Crear nuevas carpetas - </b>En situaciones en las que necesitas elegir "
+"una ubicación (almacenamiento en la nube, mover al plugin para archivar o "
+"plugin para exportar), KOReader muestra una pantalla que se parece a nuestro "
+"<span class=\"ui\">Explorador de archivos</span>. Si quieres crear una nueva "
+"carpeta mientras eliges:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1834-17
 msgid ""
 "First navigate to the folder from the <span class=\"ui\">Folder chooser "
 "screen</span>"
 msgstr ""
+"Primero navega a la carpeta desde la <span class=\"ui\">pantalla de "
+"selección de carpeta</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1835-17
 msgid ""
 "Then <b>long-press</b> the <span class=\"ui\">Home icon</span> shown at the "
 "upper-left corner of this screen"
 msgstr ""
+"Luego <b>mantén pulsado</b> el <span class=\"ui\">icono de inicio</span> que "
+"aparece en la esquina superior izquierda de esta pantalla"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1841-13
 msgid ""
@@ -3372,20 +3429,27 @@ msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
 msgstr ""
+"Al presionar y mantener una palabra aparece un diálogo donde también puedes "
+"buscar la selección en el documento para más casos en los que aparezca o "
+"consultarla en Wikipedia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1845-13
 msgid ""
 "If you want to check the current date you can tap on the clock in the <span "
 "class=\"ui\">TOP MENU</span>."
 msgstr ""
+"Si quieres comprobar la fecha actual puedes tocar el reloj en el <span class="
+"\"ui\">MENÚ SUPERIOR</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1849-1
 msgid "Scrolling types"
-msgstr ""
+msgstr "Tipos de desplazamiento"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1851-5
 msgid "KOReader has three types of touch scrolling. You can access this from:"
 msgstr ""
+"KOReader tiene tres tipos de toques de desplazamiento. Puedes acceder a "
+"estos desde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1853-5
 #, fuzzy
@@ -3404,6 +3468,9 @@ msgid ""
 "class=\"ui\">Continuous mode</span> from the <span class=\"ui\">Bottom menu</"
 "span> to be able to use scrolling."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Tienes que habilitar el modo <span "
+"class=\"ui\">Continuo</span> desde el <span class=\"ui\">Menú inferior</"
+"span> para poder usar el desplazamiento."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1858-9
 msgid ""
@@ -3426,6 +3493,11 @@ msgid ""
 "without lifting your finger. Scrolling amount is proportional to the "
 "distance you move your finger after you initiated scrolling."
 msgstr ""
+"<b>Turbo desplazamiento:</b> Este modo permite desplazarte más rápido que el "
+"<span class=\"ui\">desplazamiento clásico</span>. También puedes desplazar "
+"varias páginas sin levantar el dedo. La cantidad de desplazamiento es "
+"proporcional a la distancia que mueves el dedo después de iniciar el "
+"desplazamiento."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1862-9
 msgid ""
@@ -3437,6 +3509,14 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>Desplazamiento al levantar el dedo:</b> este tipo de desplazamiento es "
+"más adecuado para pantallas de tinta electrónica. Porque a diferencia de "
+"otros tipos, este modo no actualiza la página continuamente mientras se "
+"desplaza. Funciona como el <span class=\"ui\">desplazamiento clásico</span> "
+"pero no se muestran los pasos intermedios. Así que cuando desplazas con el "
+"dedo y sueltas, la página salta a esa posición. Es especialmente útil "
+"<b>para reposicionar y ajustar la vista</b> si el libro contiene imágenes o "
+"tablas y quieres verlas por completo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
 #, fuzzy
@@ -3526,13 +3606,15 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1894-1
 msgctxt "user_guide/en.html+html.body.div.div:1894-1"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "MOVERSE A TRAVÉS DEL LIBRO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1896-5
 msgid ""
 "There are different ways of moving through your document in KOReader with "
 "their own strengths. You can use the:"
 msgstr ""
+"Hay diferentes formas de moverse por un documento en KOReader y cada una "
+"tiene sus propias ventajas. Puedes usar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1899-3
 #, fuzzy
@@ -3562,16 +3644,20 @@ msgid ""
 "<span class=\"ui\">Skim Widget</span> is a very functional navigation tool. "
 "You can use it to:"
 msgstr ""
+"El <span class=\"ui\">widget de Vista rápida</span> es una herramienta de "
+"navegación muy funcional. Puedes usarla para:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1908-13
 msgid ""
 "Jump to any part of your book by directly tapping on the <span "
 "class=\"ui\">progress bar</span> or entering the page number"
 msgstr ""
+"Salta a cualquier parte del libro tocando directamente la <span class=\"ui\""
+">barra de progreso</span> o introduciendo el número de página"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1909-13
 msgid "Navigate between chapters"
-msgstr ""
+msgstr "Navegar entre capítulos"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1910-13
 #, fuzzy
@@ -3580,17 +3666,19 @@ msgstr "Conmutar índice personalizado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1914-5
 msgid "How to open the Skim Widget:"
-msgstr ""
+msgstr "Cómo abrir el widget de Vista rápida:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1916-17
 msgid ""
 "With a long-tap on the <span class=\"ui\">Status Bar</span> area at the "
 "bottom of your screen"
 msgstr ""
+"Con un toque largo en el área de la <span class=\"ui\">Barra de estado</"
+"span> en la parte inferior de la pantalla"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1917-17
 msgid "From this menu:"
-msgstr ""
+msgstr "Desde este menú:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1917-37
 #, fuzzy
@@ -3607,7 +3695,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1918-17
 msgctxt "user_guide/en.html+html.body.div.ul.li:1918-17"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Puedes asignarle un gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1919-17
 #, fuzzy
@@ -3625,6 +3713,9 @@ msgid ""
 "have two different <span class=\"ui\">Skim Widget</span>s. They have the "
 "same functions, only their size is different:"
 msgstr ""
+"Primero echemos un vistazo rápido al diagrama de abajo. Verás que tenemos "
+"dos <span class=\"ui\">widget de Vista rápida</span>. Tienen las mismas "
+"funciones, solo que su tamaño es diferente:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1929-9
 msgid ""
@@ -3633,6 +3724,11 @@ msgid ""
 "<span class=\"ui\">compact skim widget</span> so buttons are more "
 "comfortable to press. This widget opens at the <b>center of the screen</b>."
 msgstr ""
+"<b>WIDGET DE VISTA RÁPIDA A TAMAÑO COMPLETO:</b> Este es el <span class="
+"\"ui\">widget de Vista rápida</span> predeterminado que verás al instalar "
+"KOReader. Es más grande que el <span class=\"ui\">widget compacto de Vista "
+"rápida</span>, por lo que los botones son más cómodos de pulsar. Este widget "
+"se abre en el <b>centro de la pantalla</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1931-9
 msgid ""
@@ -3642,6 +3738,11 @@ msgid ""
 "or bottom of the screen</b>, it doesn't obstruct the page as much as the "
 "default widget."
 msgstr ""
+"<b>WIDGET COMPACTO DE VISTA RÁPIDA:</b> es la versión más delgada del <span "
+"class=\"ui\">widget de Vista rápida</span> predeterminado. Puede ser más "
+"útil si estás haciendo subrayados. Dado que este widget es más pequeño y se "
+"abre en la <b>parte superior o inferior de la pantalla</b>, no obstruye la "
+"página tanto como el widget predeterminado."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1938-9
 msgid ""
@@ -3649,6 +3750,9 @@ msgid ""
 "can do this by choosing <span class=\"ui\">Top</span> or <span "
 "class=\"ui\">Bottom</span> from this menu:"
 msgstr ""
+"Si quieres usar el <span class=\"ui\">widget compacto de Vista rápida</"
+"span>, puedes hacerlo eligiendo <span class=\"ui\">Arriba</span> o <span "
+"class=\"ui\">Abajo</span> desde este menú:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1940-9
 #, fuzzy
@@ -3669,6 +3773,12 @@ msgid ""
 "area on the widget. But semi-transparency is triggered only in its initial "
 "position. Once moved, long-pressing moves it back to the initial position."
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> Ambos widgets de vista rápida son "
+"movibles. Puedes moverlos presionando en un área vacía del widget y "
+"arrastrando. También puedes hacer estos diálogos semi-transparente "
+"manteniendo pulsado en un área vacía del widget. Pero la semi-transparencia "
+"solo se activa en su posición inicial. Una vez movido, una pulsación larga "
+"lo devuelve a la posición inicial."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1944-5
 msgid ""
@@ -3679,40 +3789,54 @@ msgid ""
 "class=\"label_blue\">BLUE</span> function. If you press longer, it will "
 "perform the <span class=\"label_orange\">ORANGE</span> function."
 msgstr ""
+"Volviendo al diagrama puedes ver que en algunos botones hay dos "
+"descripciones en diferentes colores: <b>azul y naranja</b>. Esto significa "
+"que ese botón tiene dos funciones: una acción de <b>pulsación normal</b> y "
+"una acción de <b>pulsación larga</b>. Si lo pulsas normalmente, realizará la "
+"función <span class=\"label_blue\">AZUL</span>. Si lo mantienes pulsado más "
+"tiempo, realizará la función <span class=\"label_orange\">NARANJA</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1948-5
 msgid "Explanations of the numbered items (long-press action in bold):"
 msgstr ""
+"Explicaciones de los elementos numerados (acción de pulsación larga en "
+"negrita):"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1951-9
 msgid ""
 "Jump to the beginning of the previous chapter / <b>Jump to the first page of "
 "the book</b>"
 msgstr ""
+"Saltar al inicio del capítulo anterior / <b>Saltar a la primera página del "
+"libro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1952-9
 msgid ""
 "Jump to the previous bookmark / <b>Jump to the first bookmark in the book</b>"
 msgstr ""
+"Saltar al marcador anterior / <b>Saltar al primer marcador del libro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1953-9
 msgid "Bookmark current page / <b>Open bookmarks dialog</b>"
-msgstr ""
+msgstr "Marcar la página actual / <b>Abrir el diálogo de marcadores</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1954-9
 msgid ""
 "Jump to the next bookmark / <b>Jump to the last bookmark in the book</b>"
 msgstr ""
+"Saltar al siguiente marcador / <b>Saltar al último marcador del libro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1955-9
 msgid ""
 "Jump to the beginning of the next chapter / <b>Jump to the last page of the "
 "book</b>"
 msgstr ""
+"Saltar al inicio del siguiente capítulo / <b>Saltar a la última página del "
+"libro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1956-9
 msgid "Jump backward (-) or forward (+) this many pages"
-msgstr ""
+msgstr "Saltar hacia atrás (-) o hacia adelante (+) esta cantidad de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1957-9
 msgid ""
@@ -3723,6 +3847,12 @@ msgid ""
 "want to check some other part of the book quickly and return to your reading "
 "where you left."
 msgstr ""
+"Este número muestra el número de página actual. Si lo tocas, se abre un "
+"diálogo que te permite introducir un número de página o porcentaje para ir "
+"directamente. <b>Si lo mantienes pulsado, te lleva de vuelta a la página "
+"donde abriste el <span class=\"ui\">widget de Vista rápida</span>.</b> Esto "
+"es útil, por ejemplo, si quieres consultar rápidamente otra parte del libro "
+"y volver a la lectura donde la dejaste."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1958-9
 msgid ""
@@ -3733,6 +3863,12 @@ msgid ""
 "the place where you started reading this book in the current session. This "
 "arrows reset when you switch between books."
 msgstr ""
+"Esta es la <span class=\"ui\">barra de progreso</span>. Las líneas finas son "
+"las marcas de capítulo que muestran el inicio de los capítulos. Puedes tocar "
+"la <span class=\"ui\">barra de progreso</span> para saltar a esa parte del "
+"libro. Las pequeñas flechas son <span class=\"ui\">flechas de inicio de "
+"sesión</span> que marcan el lugar donde empezaste a leer este libro en la "
+"sesión actual. Estas flechas se restablecen cuando cambias de libro."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1959-9
 msgid ""
@@ -3742,6 +3878,11 @@ msgid ""
 "useful for example if you want to check some other part of the book quickly "
 "and return to your reading where you left."
 msgstr ""
+"Este botón en el <span class=\"ui\">widget compacto de Vista rápida</span> "
+"funciona igual que la función de pulsación larga del elemento <b>número 7</"
+"b>. Te lleva de vuelta a la página donde abriste el <span class=\"ui\""
+">widget de Vista rápida</span>. Esto es útil si quieres consultar "
+"rápidamente otra parte del libro y volver a la lectura donde la dejaste."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1962-20
 msgid ""
@@ -3750,16 +3891,23 @@ msgid ""
 "to any gesture. It is in the <b>Reader</b> category of the <span "
 "class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> Si quieres abrir una página "
+"aleatoria del libro, tenemos la acción saltar a una <b>Página aleatoria</b> "
+"que puedes asignar a cualquier gesto. Está en la categoría <b>Lector</b> del "
+"<span class=\"ui\">Configurador de gestos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1966-1
 msgid "Chapter Marks"
-msgstr ""
+msgstr "Marcas de capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1968-5
 msgid ""
 "KOReader can show chapter boundaries from your documents on the <span "
 "class=\"ui\">SKIM WIDGET</span> and <span class=\"ui\">PROGRESS BAR</span>."
 msgstr ""
+"KOReader puede mostrar los límites de capítulos en el documentos desde el "
+"<span class=\"ui\">WIDGET DE VISTA RÁPIDA</span> y la <span class=\"ui\""
+">BARRA DE PROGRESO</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1972-5
 msgid ""
@@ -3790,18 +3938,20 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1980-9
 msgid "chapter titles (if it is shown on <span class=\"ui\">Status Bar</span>)"
 msgstr ""
+"títulos de capítulo (si se muestran en la <span class=\"ui\">Barra de "
+"estado</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1981-9
 msgid "chapter navigation"
-msgstr ""
+msgstr "navegar por el capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1982-9
 msgid "reading time left estimates"
-msgstr ""
+msgstr "tiempo de lectura y tiempo estimado restante"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1984-5
 msgid "These options are in the same menu."
-msgstr ""
+msgstr "Estas opciones están en el mismo menú."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1985-5
 msgid ""
@@ -3811,6 +3961,11 @@ msgid ""
 "from individual HTML files in the EPUB. Long press on this menu item for "
 "extra info:"
 msgstr ""
+"Si el documento no tiene un índice, puedes habilitar el <span class=\"ui\""
+">ÍNDICE ALTERNATIVO</span>. Cuando esta opción está activada, KOReader "
+"generará un índice a partir de los encabezados del documento (si están "
+"disponibles) o a partir de archivos HTML individuales en el EPUB. Mantén "
+"pulsado este elemento del menú para obtener información adicional:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1988-5
 #, fuzzy
@@ -3829,6 +3984,9 @@ msgid ""
 "KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
 "OF CONTENTS TOOLS</a>"
 msgstr ""
+"Puedes encontrar más información sobre las herramientas de <b>índice</b> "
+"disponibles en KOReader en la sección apropiada de la guía: <a href="
+"\"#toctools\">HERRAMIENTAS DE ÍNDICE</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1994-1
 #, fuzzy
@@ -3844,32 +4002,43 @@ msgid ""
 "hard to track your progress. Book Map can show you which parts of the book "
 "you have already read, at a glance."
 msgstr ""
+"El mapa del libro es una función potente y única de KOReader que puede ser "
+"muy útil para obtener una visión general de un libro. Por ejemplo si estás "
+"leyendo un libro de forma no lineal saltándote algunas partes para leerlas "
+"más tarde, sería difícil seguir tu progreso. El mapa del libro puede "
+"mostrarte de un vistazo qué partes del libro ya has leído."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1998-5
 msgid "Additionally you can:"
-msgstr ""
+msgstr "Además puedes:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2000-9
 msgid ""
 "See how much time you have spent on each page (if <span class=\"ui\">Reading "
 "Statistics</span> plugin is enabled)"
 msgstr ""
+"Vea cuánto tiempo has pasado en cada página (si el plugin <span class=\"ui\""
+">Estadísticas de lectura</span> está habilitado)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2001-9
 msgid "Check which pages have bookmark, highlights and notes"
-msgstr ""
+msgstr "Saber qué páginas tienen marcadores, subrayados y notas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2002-9
 msgid ""
 "Navigate directly to any part of the book like the <span class=\"ui\">SKIM "
 "WIDGET</span>"
 msgstr ""
+"Navegar directamente a cualquier parte del libro como el <span class=\"ui\""
+">WIDGET DE VISTA RÁPIDA</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2005-5
 msgid ""
 "You can access Book Map via menu and you can also assign a gesture for "
 "quicker access:"
 msgstr ""
+"Puedes acceder al mapa del libro desde el menú y también puedes asignar un "
+"gesto para acceder rápidamente:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2007-5
 #, fuzzy
@@ -3885,7 +4054,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2011-1
 msgid "Book map controls"
-msgstr ""
+msgstr "Controles del mapa del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2012-5
 msgid ""
@@ -3897,6 +4066,14 @@ msgid ""
 "class=\"ui\">X</span> on the upper right corner or with any multiswipe "
 "gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.)."
 msgstr ""
+"Cuando abras el <span class=\"ui\">Mapa del libro</span> por primera durante "
+"la lectura, estará en modo <span class=\"ui\">Vista de cuadrícula</span>, "
+"ajustando todos los capítulos en una sola pantalla para ofrecer la mejor "
+"visión general inicial del contenido del libro. Para obtener información "
+"detallada sobre el uso toca el icono de información en la esquina superior "
+"izquierda. Puedes cerrar el Mapa del libro tocando <span class=\"ui\">X</"
+"span> en la esquina superior derecha o con cualquier gesto de "
+"multideslizamiento (<b>ARRIBA-ABAJO, IZQUIERDA-DERECHA</b> etc.)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2018-13
 #, fuzzy
@@ -3907,18 +4084,21 @@ msgstr "Peso de fuente"
 msgid ""
 "Black bars indicate read pages. Higher bars means more time spent in page."
 msgstr ""
+"Las barras negras indican las páginas leídas. Barras más altas significan "
+"más tiempo transcurrido en la página."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2020-13
 msgid "Bookmark icon shows bookmarked pages as the name says."
 msgstr ""
+"El icono de marcador muestra las páginas marcadas, tal como indica su nombre."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2021-13
 msgid "Striped square icon shows pages with highlights."
-msgstr ""
+msgstr "El icono de cuadrado a rayas muestra las páginas con subrayados."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2022-13
 msgid "Pencil icon shows pages with notes."
-msgstr ""
+msgstr "El icono del lápiz muestra las páginas con notas."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2023-13
 msgid ""
@@ -3926,6 +4106,9 @@ msgid ""
 "class=\"ui\">Go back to previous location</span> from the menu, you will "
 "jump back here in order."
 msgstr ""
+"Los números en un círculo muestran tus ubicaciones anteriores. Cuando eliges "
+"<span class=\"ui\">Volver a posición anterior</span> desde el menú, saltarás "
+"a esas posiciones en orden."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2024-13
 msgid "Triangle shows your current page."
@@ -3933,17 +4116,21 @@ msgstr "El triángulo muestra la página actual."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2025-13
 msgid "Vertical scrollbar shows your current view level."
-msgstr ""
+msgstr "La barra de desplazamiento vertical muestra tu nivel actual de vista."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2026-13
 msgid "Vertical scrollbar shows your current page width level."
 msgstr ""
+"La barra de desplazamiento vertical muestra tu nivel actual de anchura de "
+"página."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2030-5
 msgid ""
 "You can customize <span class=\"ui\">Book Map</span> by changing these "
 "options:"
 msgstr ""
+"Puedes personalizar el <span class=\"ui\">Mapa del libro</span> cambiando "
+"estas opciones:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2031-5
 msgid ""
@@ -3952,6 +4139,10 @@ msgid ""
 "width of columns indicating pages and observe how it changes the scale of "
 "the map."
 msgstr ""
+"- Primero prueba deslizar <span class=\"ui\">IZQUIERDA</span> y <span class="
+"\"ui\">DERECHA</span> a lo largo del borde inferior de la pantalla para "
+"cambiar la anchura de las columnas que indican las páginas y observa cómo "
+"cambia la escala del mapa."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2033-5
 msgid ""
@@ -3959,6 +4150,10 @@ msgid ""
 "span> along the left edge of the screen to change chapter title depth and "
 "switch to the <span class=\"ui\">Flat View</span>. See examples below."
 msgstr ""
+"- Luego prueba deslizar <span class=\"ui\">ARRIBA</span> y <span class=\"ui\""
+">ABAJO</span> a lo largo del borde izquierdo de la pantalla para cambiar la "
+"profundidad del título del capítulo y cambiar a la <span class=\"ui\">Vista "
+"plana</span>. Observa los ejemplos abajo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2035-5
 msgid ""
@@ -3968,28 +4163,40 @@ msgid ""
 "scrollbar between views. If you want to switch back to the default view, you "
 "can long-press the info icon at the upper left corner."
 msgstr ""
+"Además de la <span class=\"ui\">Vista de cuadrícula</span> predeterminada de "
+"arriba, aquí puedes ver la <span class=\"ui\">Vista plana</span> a la "
+"izquierda y la Vista de cuadrícula sin títulos de capítulo a la derecha. "
+"Fíjate en la barra de desplazamiento vertical izquierda que cambia entre "
+"vistas. Si quieres volver a la vista predeterminada puedes mantener pulsado "
+"el icono de información en la esquina superior izquierda."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2044-1
 msgid "Book map options"
-msgstr ""
+msgstr "Opciones del mapa del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2048-5
 msgid ""
 "When you tap the menu icon on the <b>Book map</b> screen you are presented "
 "with the menu above. Menu options are explained below:"
 msgstr ""
+"Cuando tocas el icono de menú en el <b>Mapa del libro</b>, se muestra el "
+"menú de arriba. Las opciones del menú se explican a continuación:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2051-9
 msgid ""
 "<span class=\"ui\">About book map:</span> Short explanation of Book map "
 "usage and icon descriptions."
 msgstr ""
+"<span class=\"ui\">Acerca del mapa del libro:</span> breve explicación del "
+"uso del mapa del libro y descripción de los iconos."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2052-9
 msgid ""
 "<span class=\"ui\">Available gestures:</span> Gestures you can use to change "
 "the settings of Book map instead of using this menu."
 msgstr ""
+"<span class=\"ui\">Gestos disponibles:</span> gestos que puedes usar para "
+"cambiar los ajustes del Mapa del libro en vez de usar este menú."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2053-9
 msgid ""
@@ -4000,6 +4207,13 @@ msgid ""
 "depending on factors like your screen size, touch screen sensitivity, tap "
 "accuracy etc. you might end up in adjacent pages."
 msgstr ""
+"<span class=\"ui\">Explorador de páginas al tocar:</span> si está activado, "
+"cuando tocas una página en el Mapa del libro se abre el <span class=\"ui\""
+">Explorador de páginas</span>. Esto te muestra una vista general del área "
+"que has seleccionado. Si desactivas esta opción, un toque en el Mapa del "
+"libro te lleva directamente a esa página. Pero recuerda, dependiendo de "
+"factores como el tamaño de la pantalla, la sensibilidad táctil, la precisión "
+"del toque, etc., podrías acabar en páginas adyacentes."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2054-9
 msgid ""
@@ -4007,24 +4221,33 @@ msgid ""
 "your Book map view, tapping this switches between the <b>default view</b> "
 "and your <b>customized view</b>."
 msgstr ""
+"<span class=\"ui\">Alternar vista actual e inicial:</span> Si has "
+"personalizado la vista del Mapa del libro, tocar esto alterna entre la "
+"<b>vista predeterminada</b> y la <b>vista personalizada</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2055-9
 msgid ""
 "<span class=\"ui\">Switch grid/flat views:</span> Switch between separate "
 "chapters or continuous chapters views."
 msgstr ""
+"<span class=\"ui\">Alternar vista en cuadrícula y plana:</span> Cambia entre "
+"las vistas de capítulos separados o capítulos continuos."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2056-9
 msgid ""
 "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
 "chapter levels."
 msgstr ""
+"<span class=\"ui\">Niveles de capítulo:</span> cambia la profundidad de los "
+"niveles de capítulo/subcapítulo."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2057-9
 msgid ""
 "<span class=\"ui\">Page slot width:</span> Make each page slot wider or "
 "narrower."
 msgstr ""
+"<span class=\"ui\">Anchura de ranura de página:</span> hace que cada ranura "
+"de página sea más ancha o más estrecha."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2058-9
 msgid ""
@@ -4033,6 +4256,10 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
+"<span class=\"ui\">Marcadores cada 10 páginas:</span> al aumentar este valor "
+"primero añadirá marcadores en cada <b>10<sup>a</sup> página</b>, luego los "
+"hará más grandes y finalmente añadirá marcadores en cada <b>5<sup>a</sup> "
+"página</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2062-1
 msgctxt "user_guide/en.html+html.body.div.div:2062-1"
@@ -4046,6 +4273,11 @@ msgid ""
 "class=\"ui\">Page Browser</span> by tapping on the <span class=\"ui\">Book "
 "Map</span> or from the menu. You can also assign a gesture for easier access."
 msgstr ""
+"El Explorador de páginas puede usarse para navegar entre páginas como en un "
+"álbum de fotos mostrando miniaturas de las páginas sobre la cuadrícula. "
+"Puedes abrir el <span class=\"ui\">Explorador de páginas</span> tocando en "
+"el <span class=\"ui\">Mapa del libro</span> o desde el menú. También puedes "
+"asignar un gesto para un acceso más fácil."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2066-5
 #, fuzzy
@@ -4069,18 +4301,27 @@ msgid ""
 "span> on this screen to see these explanations. A long-press on the same "
 "button adds/removes chapter titles from the bottom strip."
 msgstr ""
+"El uso del <span class=\"ui\">Explorador de páginas</span> se explica a "
+"continuación. También puedes tocar el <span class=\"ui\">botón del menú "
+"hamburguesa en la esquina superior izquierda</span> de la pantalla para ver "
+"las explicaciones. Mantener pulsado el mismo botón añade/quita los títulos "
+"de capítulo de la franja inferior."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2073-9
 msgid ""
 "Swipe <b>left / right</b> over this top edge to increase / decrease the "
 "number of the <b>columns</b>."
 msgstr ""
+"Desliza <b>izquierda / derecha</b> sobre el borde superior para aumentar / "
+"disminuir el número de <b>columnas</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2074-9
 msgid ""
 "Swipe <b>up / down</b> over this left edge to increase / decrease the number "
 "of the <b>rows</b>."
 msgstr ""
+"Desliza <b>arriba / abajo</b> sobre el borde izquierdo para aumentar / "
+"disminuir el número de <b>filas</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2075-9
 msgid ""
@@ -4088,26 +4329,34 @@ msgid ""
 "one row (2 pages in the example), <b>left / right</b> to scroll one screen "
 "(4 pages in the example)."
 msgstr ""
+"Desliza el área de páginas para mover las páginas visibles. <b>arriba / "
+"abajo</b> para desplazar una fila (2 páginas en el ejemplo), <b>izquierda / "
+"derecha</b> para desplazar una pantalla (4 páginas en el ejemplo)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2076-9
 msgid "Tap any page to open that page in reading view."
-msgstr ""
+msgstr "Toca cualquier página para abrir esa página en la vista de lectura."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2077-9
 msgid ""
 "On the bottom area, tapping on a page focuses the thumbnail view on that "
 "page. Swiping <b>left / right</b> will jump one stripe width."
 msgstr ""
+"En la zona inferior, tocar una página centra la vista de miniaturas en esa "
+"página. Deslizar <b>izquierda / derecha</b> hará que la anchura salte en una "
+"franja."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
 "Icons on the bottom area are same as the ones used in <span "
 "class=\"ui\">Book Map</span> and explained under that section."
 msgstr ""
+"Los iconos en la zona inferior son los mismos que los usados en el <span "
+"class=\"ui\">Mapa del libro</span> y se explican en esa sección."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2082-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr ""
+msgstr "Tema alternativo para el Mapa del libro y el Explorador de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2084-5
 msgid ""
@@ -4119,6 +4368,14 @@ msgid ""
 "requires flashing to black so it might be distracting for some users. You "
 "can try both and use the one you like."
 msgstr ""
+"El Mapa del libro y el Explorador de páginas tienen un <b>Tema alternativo</"
+"b> con un esquema de sombreado distinto que puedes activar desde sus menús "
+"hamburguesa. Este tema usa colores alternos para los encabezados de "
+"capítulo, así los límites de capítulo son más visibles en el <span class="
+"\"ui\">Mapa del libro</span> y el <span class=\"ui\">Explorador de páginas</"
+"span>. Pero el uso del color gris en este tema requiere parpadeo a negro, "
+"por lo que puede resultar molesto para algunos usuarios. Puedes probar ambos "
+"y usar el que prefieras."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2088-1
 #, fuzzy
@@ -4132,24 +4389,33 @@ msgid ""
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
 msgstr ""
+"Algunos libros digitales pueden no tener un índice (<b>o tabla de "
+"contenidos</b>) correcto. Dependiendo de cómo se preparó el libro puedes "
+"encontrarte con estos problemas de índice:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2092-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
 msgstr ""
+"Sin índice en el libro por lo que no puedes saltar entre capítulos ni ver "
+"los tiempos de lectura restantes"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2093-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
 msgstr ""
+"Hay un índice, pero no es muy útil porque tiene títulos de capítulo erróneos "
+"o que faltan"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2096-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
 msgstr ""
+"KOReader tiene algunas funciones que puedes usar al leer libros con un "
+"índice problemático."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2098-5
 msgid ""
@@ -4159,17 +4425,24 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
+"Ten en cuenta que el <span class=\"ui\">Índice alternativa</span> no está "
+"disponible en documentos de <b>diseño fijo</b> como PDF, DJVU, etc., porque "
+"requiere etiquetas HTML para crear un índice. Las funciones <span class="
+"\"ui\">Índice personalizado</span> y <span class=\"ui\">Secciones ocultas "
+"personalizadas</span> están disponibles en todos los tipos de archivo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2101-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "Crear automáticamente un índice: ÍNDICE ALTERNATIVO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2103-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
 msgstr ""
+"La primera función es el <span class=\"ui\">Índice alternativo</span> que "
+"puedes encontrar en:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-5
 #, fuzzy
@@ -4189,6 +4462,11 @@ msgid ""
 "for the whole book or it might contain separate chapters as individual HTML "
 "files (which is a better structure)."
 msgstr ""
+"<span class=\"label_blue\">INFORMACIÓN</span> Un documento EPUB es "
+"básicamente un archivo ZIP que contiene uno o más archivos HTML. El libro "
+"puede ser un único archivo HTML para todo el libro o puede contener "
+"capítulos separados como archivos HTML individuales (lo cual es una "
+"estructura mejor)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2110-5
 msgid ""
@@ -4198,12 +4476,19 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
+"El <span class=\"ui\">Índice alternativo</span> intenta crear un índice a "
+"partir de los encabezados del libro (<b>H1</b> a <b>H6</b> en los archivos "
+"HTML del EPUB). Si tu libro no contiene encabezados, intentará construir un "
+"índice a partir de los fragmentos del documento (archivos HTML individuales "
+"en tu EPUB) que apuntará al comienzo de cada archivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2112-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
 msgstr ""
+"Puedes elegir qué niveles de encabezado incluir (o ignorar) en tu índice "
+"desde este menú:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2114-5
 #, fuzzy
@@ -9467,9 +9752,8 @@ msgid "Last page"
 msgstr "Buscar en marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3946-17
-#, fuzzy
 msgid "Random page"
-msgstr "Páginas aleatorias"
+msgstr "Página aleatoria"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-17
 msgid "Turn pages"
@@ -9483,7 +9767,7 @@ msgstr "Ir a la pagina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-17
 msgid "Skim document"
-msgstr "Información del libro"
+msgstr "Vista rápida del documento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3950-17
 msgid "Previous bookmark"
@@ -9617,7 +9901,7 @@ msgstr "Margen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
 msgid "Toggle custom hidden flows"
-msgstr "Superposición horizontal"
+msgstr "Alternar secciones ocultas personalizadas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
 msgid "Set highlight action"
