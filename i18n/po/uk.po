@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-23 14:50+0000\n"
-"PO-Revision-Date: 2025-08-23 14:49+0000\n"
+"PO-Revision-Date: 2025-08-24 15:02+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6427,25 +6427,22 @@ msgstr ""
 "class=\"ui\">Зберегти</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2717-5
-#, fuzzy
 msgid ""
 "If you want to <b>revert</b> an edited text to the original highlight, "
 "follow the steps above and at the step <b>3</b>, instead of <span "
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
-"Якщо ви хочете <b>повернути</b> відредагований текст до початкового "
+"Якщо потрібно <b>повернути</b> відредагований текст до початкового "
 "виділення, виконайте наведені вище кроки та на кроці <b>3</b> замість кнопки "
-"<span class=\"ui\">Редагувати текст</span> натисніть кнопку <span "
-"class=\"ui\">Скинути текст</span>."
+"<span class=\"ui\">Редагувати текст</span> натисніть кнопку <span class="
+"\"ui\">Скинути текст</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2720-1
-#, fuzzy
 msgid "Changing how the added notes are shown in the Bookmarks List"
-msgstr "Зміна того, як додані нотатки відображаються у списку закладок"
+msgstr "Зміна відображення доданих нотаток у списку закладок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
-#, fuzzy
 msgid ""
 "Normally when you open the Bookmarks list, only the content of your "
 "highlights are shown. If you added a note to a highlight, you will only see "
@@ -6453,12 +6450,12 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
-"Зазвичай, коли ви відкриваєте список закладок, відображається лише вміст "
-"ваших виділених фрагментів. Якщо ви додали нотатку до виділеного фрагмента, "
-"у списку закладок ви побачите лише значок олівця. Ви можете довго натискати "
-"на елемент у цьому списку, щоб показати (і редагувати) додану нотатку. Якщо "
-"ви також хочете бачити текст нотатки у своєму <span class=\"ui\">списку "
-"закладок</span>, ви можете налаштувати це тут:"
+"При відкритті списку закладок зазвичай відображається лише вміст ваших "
+"виділених фрагментів. Якщо виділений фрагмент містить нотатку, у списку "
+"закладок ви побачите лише значок олівця. Щоб подивитися (і відредагувати) "
+"додану нотатку, потрібно затиснути елемент цього списку. Якщо бажаєте бачити "
+"у <span class=\"ui\">списку закладок</span> також текст нотатки, це можна "
+"налаштувати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2724-5
 msgid ""
@@ -6469,26 +6466,22 @@ msgstr ""
 "style=\"width:22px;\"> / Налаштування / Закладки / Показувати в елементах"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-5
-#, fuzzy
 msgid "You can choose to show:"
-msgstr "Ви можете вибрати показ:"
+msgstr "Можна налаштувати відображення:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2728-9
-#, fuzzy
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr "<b>Тільки</b> виділення тексту (поведінка за замовчуванням)"
+msgstr "<b>Лише</b> виділеного тексту (типово)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2729-9
 msgid "<b>Both</b> highlight text and the note"
 msgstr "Виділити <b>обидва</b>, текст і нотатку"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2730-9
-#, fuzzy
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr "<b>Зверніть увагу, якщо є</b>, інакше виділіть текст"
+msgstr "<b>Нотатку, якщо вона є</b>, інакше виділений текст"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2733-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> Normally number of items in the "
 "bookmarks window is static and divided equally. If you want a more flexible "
@@ -6496,9 +6489,9 @@ msgid ""
 "setting from here:"
 msgstr ""
 "<span class=\"label_green\">ПОРАДА</span> Зазвичай кількість елементів у "
-"вікні закладок є статичною та розподілена порівну. Якщо вам потрібен більш "
-"гнучкий макет, ви можете змінити налаштування <span class=\"ui\">Максимальна "
-"кількість рядків на закладку</span> тут:"
+"вікні закладок є статичною та розподілена порівну. Якщо потрібен більш "
+"гнучкий макет, можна змінити параметр <span class=\"ui\">Максимум рядків у "
+"закладці</span> тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2735-6
 msgid ""
@@ -6564,11 +6557,10 @@ msgid "Local export"
 msgstr "Локальний експорт"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2762-5
-#, fuzzy
 msgid "You can export your highlights to your device in these file formats:"
 msgstr ""
-"Ви можете експортувати свої виділені фрагменти на свій пристрій у таких "
-"форматах файлів:"
+"Виділені фрагменти можна експортувати на свій пристрій у таких форматах "
+"фалів:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2764-9
 msgid "Text (.txt)"
@@ -6615,7 +6607,6 @@ msgstr ""
 "style=\"width:22px;\"> / Експорт виділеного / Обрати теку для експорту"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2781-5
-#, fuzzy
 msgid "Online services"
 msgstr "Онлайн-сервіси"
 
@@ -6624,7 +6615,6 @@ msgid "You can also export to these services over the network:"
 msgstr "Також можна експортувати через мережу до цих сервісів:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
-#, fuzzy
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
 msgstr ""
@@ -6632,16 +6622,14 @@ msgstr ""
 "нотаток"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2787-9
-#, fuzzy
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
 msgstr ""
-"<a href=\"https://readwise.io/\">Readwise</a> – онлайн-додаток для закладок/"
-"виділень"
+"<a href=\"https://readwise.io/\">Readwise</a> – онлайн-додаток для "
+"закладок/виділень"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2788-9
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
@@ -6650,7 +6638,6 @@ msgstr ""
 "нотаток з відкритим кодом"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2789-9
-#, fuzzy
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
 msgstr ""
@@ -6658,7 +6645,6 @@ msgstr ""
 "нотаток"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
-#, fuzzy
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
@@ -6705,7 +6691,6 @@ msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
 msgstr "Виберіть у меню <span class=\"ui\">Експорт виділеного</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2810-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> You can also export only some of "
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
@@ -6713,7 +6698,7 @@ msgid ""
 msgstr ""
 "<span class=\"label_green\">ПОРАДА</span> Ви також можете експортувати лише "
 "деякі з цих стилів виділення: <b>освітлення, підкреслення, закреслення, "
-"інверсія</b>. Зазвичай KOReader експортує їх усі. Ви можете вибрати з:"
+"інверсія</b>. Зазвичай KOReader експортує їх усі. Можна вибрати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2812-5
 msgid ""
@@ -6724,23 +6709,21 @@ msgstr ""
 "style=\"width:22px;\"> / Експорт виділеного / Обрати стиль виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2816-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> You can assign export actions to "
 "gestures for quicker access. You can find these under the <span "
 "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Ви можете призначити жестам дії "
-"експорту для швидшого доступу. Ви можете знайти їх у категорії <span "
-"class=\"ui\">Зчитувач</span> <span class=\"ui\">Менеджера жестів</span>."
+"<span class=\"label_green\">ПОРАДА</span> Для швидкого доступу можна "
+"призначити дії експорту на жест. Їх можна знайти у категорії <span class="
+"\"ui\">Читання</span> у <span class=\"ui\">Менеджері жестів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2821-1
 msgid "2. Using KoHighlights"
 msgstr "2. За допомогою KoHighlights"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2823-5
-#, fuzzy
 msgid ""
 "<span class=\"external\">KoHighlights</span> is an external program that you "
 "can install on your computer. It can access your book notes and highlights "
@@ -6750,16 +6733,15 @@ msgid ""
 msgstr ""
 "<span class=\"external\">KoHighlights</span> – це зовнішня програма, яку "
 "можна встановити на свій комп’ютер. Вона може отримати доступ до нотаток та "
-"виділень у книзі, коли ви підключаєте рідер до комп’ютера. Перегляньте <a "
-"href=\"https://github.com/noembryo/KoHighlights\">сторінку проекту GitHub</"
-"a> для завантаження та інструкцій."
+"виділень у книзі коли пристрій підключений до комп’ютера. Детальніші "
+"відомості дивіться <a href=\"https://github.com/noembryo/KoHighlights\">на "
+"сторінці проекту на GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-1
 msgid "3. Using Calibre"
 msgstr "3. За допомогою Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2830-5
-#, fuzzy
 msgid ""
 "<span class=\"external\">Calibre</span> is an external program that you can "
 "install on your computer. You can import highlights into your <span "
@@ -6770,12 +6752,12 @@ msgid ""
 "a> for download and instructions."
 msgstr ""
 "<span class=\"external\">Calibre</span> – це зовнішня програма, яку можна "
-"встановити на свій комп’ютер. Ви можете імпортувати виділені фрагменти до "
-"бази даних <span class=\"external\">Calibre</span> за допомогою плагіна "
-"<span class=\"external\">KOReader Sync</span>. Ви можете встановити згаданий "
-"плагін у програмі <span class=\"external\">Calibre</span>. Перегляньте <a "
-"href=\"https://calibre-ebook.com/\">сторінку проекту</a> для завантаження та "
-"інструкцій."
+"встановити на свій комп’ютер. Імпортувати виділені фрагменти до бази даних "
+"<span class=\"external\">Calibre</span> можна за допомогою модуля <span "
+"class=\"external\">KOReader Sync</span>. Встановлювати згаданий модуль "
+"потрібно безпосередньо у програмі <span class=\"external\">Calibre</span>. "
+"Завантажити та дізнатися більше можна <a href=\"https://calibre-ebook.com/\""
+">на сторінці проекту</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-9
 msgid ""
@@ -6812,9 +6794,8 @@ msgstr ""
 "сторінок на пристроях з меншими розмірами екранів:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2849-5
-#, fuzzy
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
-msgstr "<b>1. Ви можете ввімкнути </b><span class=\"ui\">Reflow</span>"
+msgstr "<b>1. Можна увімкнути </b><span class=\"ui\">перекомпонування</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2851-5
 msgid ""
@@ -6836,10 +6817,9 @@ msgstr ""
 "Цю функцію можна зробити <b>типовою</b> затиснувши її."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2857-2
-#, fuzzy
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
 msgstr ""
-"<b>2. Ви можете ввімкнути</b> <span class=\"ui\">Збільшити до вмісту</span>"
+"<b>2. Можна увімкнути</b> <span class=\"ui\">Масштабування до вмісту</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-5
 msgctxt "user_guide/en.html+html.body.div.div:2859-5"
@@ -6885,22 +6865,20 @@ msgid "BOTTOM MENU /"
 msgstr "НИЖНЄ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2876-2
-#, fuzzy
 msgid ""
 "4. You can zoom to 100 percent size and instead scroll the screen to read "
 "different parts"
 msgstr ""
-"4. Ви можете збільшити зображення до 100 відсотків і натомість прокручувати "
-"екран, щоб читати різні частини"
+"4. Можна збільшити зображення до 100% і прокручувати на екрані, щоб читати "
+"різні частини"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2879-5
-#, fuzzy
 msgid ""
 "This is especially helpful with comic books. First enable <span "
 "class=\"ui\">column mode</span> from this menu item:"
 msgstr ""
-"Це особливо корисно для коміксів. Спочатку увімкніть <span "
-"class=\"ui\">режим колонки</span> у цьому пункті меню:"
+"Це дуже зручно при читанні мальописів. Спершу увімкніть <span class=\"ui\""
+">режим стовпців</span> у цьому пункті меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2881-5
 msgctxt "user_guide/en.html+html.body.div.div:2881-5"
@@ -6912,24 +6890,21 @@ msgstr ""
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2883-5
-#, fuzzy
 msgid ""
 "Then select an appropriate flow direction for your document from the same "
 "menu:"
-msgstr ""
-"Потім виберіть відповідний напрямок потоку для вашого документа з того ж "
-"меню:"
+msgstr "Потім, у тому ж меню, виберіть відповідний напрямок читання документа:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2889-9
-#, fuzzy
 msgid ""
 "For example if you are reading an article which has two columns, you will "
 "scroll down until the end of page reading left column then go to right upper "
 "side to continue reading right column:"
 msgstr ""
-"Наприклад, якщо ви читаєте статтю, яка має два стовпці, ви прокрутите "
-"сторінку вниз до кінця лівого стовпця, а потім перейдете до правого "
-"верхнього краю, щоб продовжити читання правого стовпця:"
+"Наприклад, під час читання статті, яка має дві колонки (стовпці) тексту, ви "
+"спочатку будете читати першу колонку згори до низу сторінки, а потім "
+"повернетеся до верхнього правого боку, щоб продовжити читання тексту в "
+"правій колонці:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2892-9
 msgid ""
@@ -6948,20 +6923,18 @@ msgstr ""
 "читання зворотний:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2899-5
-#, fuzzy
 msgid ""
 "In this mode you can also adjust <span class=\"ui\">Horizontal/Vertical "
 "Overlap</span> and <span class=\"ui\">Number of Columns</span> from the same "
 "menu to fit the text on your screen better. Feel free to experiment with "
 "these settings."
 msgstr ""
-"У цьому режимі ви також можете налаштувати <span class=\"ui\">Горизонтальне/"
-"вертикальне перекриття</span> та <span class=\"ui\">Кількість стовпців</"
-"span> з того ж меню, щоб краще розмістити текст на екрані. Сміливо "
-"експериментуйте з цими налаштуваннями."
+"В цьому режимі, з того ж меню, також можна налаштувати <span class=\"ui\""
+">Горизонтальне/Вертикальне перекриття</span> та <span class=\"ui\">Кількість "
+"стовпців</span>, щоб краще припасувати текст до розмірів екрану пристрою. "
+"Поекспериментуйте з цими налаштуваннями."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2901-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> When reading a PDF document, if you "
 "are in a zoomed in view other than 100% (column, row or manual) or in the "
@@ -6971,12 +6944,11 @@ msgid ""
 "turn the pages in this mode. To exit, tap on this icon."
 msgstr ""
 "<span class=\"label_green\">ПОРАДА</span> Під час читання PDF-документа, "
-"якщо ви перебуваєте в збільшеному вигляді, відмінному від 100% (стовпчик, "
-"рядок або вручну), або в <span class=\"ui\">режимі перекомпонування</span>, "
-"ви можете торкнутися верхнього лівого кута екрана, щоб перейти в <span "
-"class=\"ui\">режим перегортання</span>. У цьому режимі тимчасово "
-"відображається повна сторінка без обрізання, масштабована відповідно до "
-"розміру екрана. У цьому режимі ви можете перегортати сторінки. Щоб вийти, "
+"якщо його масштаб відмінний від 100% (стовпчик, рядок або вручну), або в "
+"<span class=\"ui\">режимі перекомпонування</span>, дотик у верхньому лівому "
+"куті екрана переведе вас у <span class=\"ui\">режим гортання</span>. У цьому "
+"режимі тимчасово відображається повна сторінка (без обтинання), припасована "
+"до розміру екрана. У цьому режимі можна перегортати сторінки. Щоб вийти, "
 "торкніться цього значка."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2903-1
@@ -6985,7 +6957,6 @@ msgid "PDF Specific Bottom Menu Items"
 msgstr "Особливі елементи нижнього меню для PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2908-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Contrast</span> setting adjusts black levels in your "
 "document. Be aware that same contrast value applies to both text and images "
@@ -6993,26 +6964,21 @@ msgid ""
 msgstr ""
 "Параметр <span class=\"ui\">Контрастність</span> регулює рівні чорного "
 "кольору у вашому документі. Майте на увазі, що однакове значення "
-"контрастності застосовується як до тексту, так і до зображень у вашому "
-"документі. Якщо встановити дуже високе значення, зображення можуть стати "
-"занадто темними."
+"контрастності застосовується як до тексту, так і до зображень. Якщо "
+"встановити дуже високе значення, зображення можуть стати занадто темними."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2910-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Dewatermark</span> removes watermarks from the rendered "
 "document. It can also be used to remove gray backgrounds. This feature can "
 "convert a grayscale or color document to black & white to produce more "
 "contrast for easier reading."
 msgstr ""
-"<span class=\"ui\">Видалення водяних знаків</span> видаляє водяні знаки з "
-"візуалізованого документа. Його також можна використовувати для видалення "
-"сірого фону. Ця функція може перетворити документ у градаціях сірого або "
-"кольоровий документ на чорно-білий, щоб створити більшу контрастність для "
-"легшого читання."
+"<span class=\"ui\">Очищення тла</span> вилучає водяні знаки з документа, а "
+"також сіре тло. Ця функція може перетворити документ у відтінках сірого на "
+"чорно-білий, щоб він став контрастнішим та зручнішим для читання."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2912-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Render quality</span> <b>(only active in Reflow mode)</b> "
 "sets the quality of text and image extraction processing and output. <span "
@@ -7025,31 +6991,27 @@ msgstr ""
 "перекомпонування)</b> встановлює якість обробки та вилучення тексту та "
 "зображень. <span class=\"ui\">Висока</span> є приємнішим варіантом, але вона "
 "може бути набагато повільнішою (кілька секунд для перегортання сторінки), "
-"ніж <span class=\"ui\">за замовчуванням</span>, залежно від вашого "
-"документа. Якщо ваші PDF/DJVU файли повільні, це перше налаштування, яке "
-"слід перевірити."
+"ніж <span class=\"ui\">типово</span>. Якщо файли PDF/DJVU повільні, то це "
+"перше налаштування, яке слід перевірити."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2918-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Document language</span> sets the language that will be "
 "used by the OCR engine."
 msgstr ""
-"<span class=\"ui\">Мова документа</span> встановлює мову, яка "
-"використовуватиметься механізмом розпізнавання символів (OCR)."
+"<span class=\"ui\">Мова документа</span> встановлює мову, яка буде "
+"використовуватися механізмом розпізнавання символів (OCR)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2920-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Forced OCR</span> as the name says, forces the use of OCR "
 "even if the document has a text layer."
 msgstr ""
-"<span class=\"ui\">Примусове розпізнавання символів</span>, як випливає з "
-"назви, примусово використовує розпізнавання символів, навіть якщо документ "
-"має текстовий шар."
+"<span class=\"ui\">Примусове OCR</span>, як випливає з назви, примусово "
+"використовує розпізнавання символів (OCR), навіть якщо документ має "
+"текстовий шар."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2922-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Writing direction</span> <b>(only active in Reflow mode)</"
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
@@ -7057,17 +7019,16 @@ msgid ""
 msgstr ""
 "<span class=\"ui\">Напрямок письма</span> <b>(активно лише в режимі "
 "перекомпонування)</b> встановлює напрямок оригінального документа. "
-"Встановіть значення <b>RTL</b> для таких мов, як арабська та іврит."
+"Встановіть значення <b>ПНЛ (RTL)</b> для таких мов, як арабська та іврит."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2924-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Document columns</span> <b>(only active in Reflow mode)</"
 "b> sets the number of text columns in the original document."
 msgstr ""
-"<span class=\"ui\">Колонки документа</span> <b>(активно лише в режимі "
-"перекомпонування)</b> встановлює кількість текстових колонок у вихідному "
-"документі."
+"<span class=\"ui\">Стовпці документа</span> <b>(активно лише в режимі "
+"перекомпонування)</b> встановлює кількість текстових колонок (стовпців) у "
+"оригінальному документі."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2930-5
 msgid ""
@@ -7092,18 +7053,15 @@ msgid "Saving highlights into PDF"
 msgstr "Збереження виділеного у PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2937-5
-#, fuzzy
 msgid ""
 "For saving your highlights, you can use the <span class=\"ui\">Export "
 "highlights</span> feature of KOReader which is explained in a previous "
 "section."
 msgstr ""
-"Щоб зберегти виділені фрагменти, ви можете скористатися функцією <span "
-"class=\"ui\">Експорт виділених фрагментів</span> KOReader, яка пояснювалася "
-"в попередньому розділі."
+"Щоб зберегти виділені фрагменти, можна скористатися функцією <span class="
+"\"ui\">Експорт виділеного</span>, про яку йшлося в попередньому розділі."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2938-5
-#, fuzzy
 msgid ""
 "If you are making your highlights on a PDF document, KOReader can also save "
 "them directly to the PDF file. This can be useful in certain situations "
@@ -7116,16 +7074,15 @@ msgid ""
 msgstr ""
 "Якщо ви робите виділення в PDF-документі, KOReader також може зберігати їх "
 "безпосередньо у PDF-файлі. Це може бути корисним у певних ситуаціях, "
-"оскільки за допомогою цього методу ваші виділення стають частиною PDF-файлу. "
-"Це означає, що ви можете переглядати їх в інших програмах або на інших "
-"платформах без встановлення KOReader. Наприклад, якщо ви надсилаєте файл із "
-"виділеннями іншому користувачеві, йому не потрібно встановлювати KOReader, "
-"щоб побачити ваші виділення. Ви можете просто надіслати PDF-файл зі "
-"збереженими в ньому виділеннями, і він зможе відкрити та переглянути їх за "
-"допомогою <b>сумісної</b> програми для читання PDF."
+"оскільки за допомогою цього методу виділення тексту стають частиною PDF-"
+"файлу. Це означає, що ви можете переглядати їх в інших програмах або на "
+"інших платформах без встановлення KOReader. Наприклад, якщо ви надсилаєте "
+"файл із виділеннями тексту іншому користувачеві, йому не потрібно "
+"встановлювати KOReader, щоб бачити виділене вами. Можна просто надіслати PDF-"
+"файл зі збереженими в ньому виділеннями, і його можна відкрити та "
+"переглянути виділення за допомогою <b>сумісної</b> програми для читання PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2940-24
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> If you are using the <span "
 "class=\"ui\">Progress Sync</span> plugin, saving PDF highlights will change "
@@ -7135,13 +7092,13 @@ msgid ""
 "class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
-"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Якщо ви використовуєте плагін "
-"<span class=\"ui\">Progress Sync</span>, збереження виділених фрагментів PDF-"
-"файлу змінить ваш файл, тому синхронізація не вдасться. Якщо ви плануєте "
-"використовувати обидві функції, у налаштуваннях плагіна <span "
-"class=\"ui\">Progress Sync</span> змініть <span class=\"ui\">Метод "
-"зіставлення документів</span> на <span class=\"ui\">Ім'я файлу</span> "
-"замість стандартного зіставлення <span class=\"ui\">Двійковий</span>:"
+"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> При використанні модуля <span "
+"class=\"ui\">Синхронізація поступу</span> збереження виділених фрагментів "
+"PDF-файлу змінить ваш файл, тому синхронізація не вдасться. Якщо плануєте "
+"використовувати обидві функції, у налаштуваннях модуля <span class=\"ui\""
+">Синхронізація поступу</span> змініть параметри <span class=\"ui\">Метод "
+"зіставлення документів</span> на <span class=\"ui\">За назвою</span> замість "
+"стандартного методу зіставлення <span class=\"ui\">Двійковий</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p.div:2941-9
 msgid ""
@@ -7152,13 +7109,10 @@ msgstr ""
 "style=\"width:22px;\"> / Синхронізація поступу / Метод зіставлення документів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2946-5
-#, fuzzy
 msgid "Which PDF readers can show these highlights?"
-msgstr ""
-"Які програми для читання PDF-файлів можуть відображати ці основні моменти?"
+msgstr "Які програми читання PDF-файлів відображають виділене в KOReader?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2947-5
-#, fuzzy
 msgid ""
 "PDF readers generally depend on some standard libraries to render PDF files. "
 "Two of the most known PDF libraries are <b>MuPDF</b> and <b>Poppler</b> "
@@ -7169,18 +7123,16 @@ msgid ""
 "see them. And ⚠️ means the application needs some plugin to show them. List "
 "is ordered alphabetically within categories."
 msgstr ""
-"Програми для читання PDF-файлів зазвичай використовують деякі стандартні "
-"бібліотеки для відображення PDF-файлів. Дві найвідоміші бібліотеки PDF – це "
-"бібліотеки <b>MuPDF</b> та <b>Poppler</b>. KOReader використовує бібліотеку "
-"<b>MuPDF</b>, тому виділення, записані в PDF-файли в KOReader, наразі не "
-"видно на програмах для читання PDF-файлів, які використовують бібліотеку "
-"<b>Poppler</b>. Список сумісності можна знайти нижче. ✅ означає, що ви "
-"можете бачити виділення KOReader у цій програмі, ❌ означає, що ви їх не "
-"бачите. А ⚠️ означає, що програмі потрібен певний плагін, щоб їх відобразити. "
-"Список упорядковано в алфавітному порядку в межах категорій."
+"Програми читання PDF-файлів зазвичай використовують певні стандартні "
+"бібліотеки для відображення PDF-файлів. Дві найвідоміші бібліотеки для PDF – "
+"це бібліотеки <b>MuPDF</b> та <b>Poppler</b>. KOReader використовує "
+"бібліотеку <b>MuPDF</b>, тому виділення, записані в PDF-файли у KOReader, "
+"наразі не видно на програмах для читання PDF-файлів, які використовують "
+"бібліотеку <b>Poppler</b>. Список сумісності наведений нижче. ✅ означає, що "
+"ця програма показує виділене у KOReader; ❌ означає, що програма не показує "
+"ці виділення. А ⚠️ означає, що для їх показу програмі потрібен певний модуль."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2949-32
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> This list is not complete and might "
 "not be up to date. So we suggest you to test the compatibility yourself. "
@@ -7189,10 +7141,10 @@ msgid ""
 "visible."
 msgstr ""
 "<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Цей список не є повним і може "
-"бути неактуальним. Тому ми пропонуємо вам самостійно перевірити сумісність. "
-"Просто зробіть виділення в KOReader, запишіть його у PDF-файл і спробуйте "
-"відкрити файл на вашій програмі для читання, щоб перевірити, чи видно "
-"виділення."
+"застаріти. Тому варто самостійно перевірити сумісність. Просто зробіть "
+"виділення в KOReader, запишіть його у PDF-файл, а потім спробуйте відкрити "
+"файл у програмі читання PDF-файлів, щоб перевірити, чи виділення "
+"відображаються."
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2953-13
 msgid "✅ Chrome Browser (All platforms)"
@@ -7255,24 +7207,20 @@ msgid "❌ Xreader (Linux)"
 msgstr "❌ Xreader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2971-9
-#, fuzzy
 msgid "Important information about saving PDF highlights feature"
-msgstr ""
-"Важлива інформація про функцію збереження виділених фрагментів PDF-файлу"
+msgstr "Важлива інформація про функцію зберігання виділень до PDF-файлу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2972-9
-#, fuzzy
 msgid ""
 "Since making highlights for later usage can involve significant effort, if "
 "you are planning to use this feature, you should understand how it works in "
 "order to avoid frustrating situations."
 msgstr ""
-"Оскільки створення виділених фрагментів для подальшого використання може "
-"вимагати значних зусиль, якщо ви плануєте використовувати цю функцію, вам "
-"слід розуміти, як вона працює, щоб уникнути неприємних ситуацій."
+"Оскільки створення виділень для подальшого використання може вимагати "
+"значних зусиль, варто розуміти як це працює, щоб уникнути неприємних "
+"ситуацій."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2974-9
-#, fuzzy
 msgid ""
 "<b>QUICK SUMMARY:</b> If you want to be able to delete or export your PDF "
 "highlights later, you have to copy the <span class=\"ui\">.sdr folder</span> "
@@ -7281,21 +7229,18 @@ msgid ""
 "but it can't know where they are in the file, so it can't modify them. "
 "Please continue reading for more information about this."
 msgstr ""
-"<b>КОРОТКИЙ ОГЛЯД:</b> Якщо ви хочете мати змогу видаляти або експортувати "
-"свої виділені фрагменти PDF пізніше, вам потрібно скопіювати папку <span "
-"class=\"ui\">.sdr</span>, пов’язану з вашою книгою, під час резервного "
-"копіювання або копіювання книги на інші пристрої. Без цієї папки KOReader "
-"все ще може відображати збережені виділені фрагменти, але не може знати, де "
-"вони знаходяться у файлі, тому не може їх змінювати. Будь ласка, продовжуйте "
-"читати, щоб дізнатися більше про це."
+"<b>КОРОТКИЙ ОГЛЯД:</b> Якщо хочете мати змогу видаляти чи експортувати свої "
+"виділені фрагменти PDF пізніше, під час копіювання книги на інший пристрій, "
+"разом з нею необхідно також скопіювати теку <span class=\"ui\">.sdr</span>, "
+"яка пов’язана з відповідною книгою. Без цієї теки KOReader все ще може "
+"відображати збережені виділені фрагменти, але не знатиме, де вони "
+"знаходяться у файлі, тому не може їх змінювати. Більше про це читайте нижче."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2978-9
-#, fuzzy
 msgid "How normal highlights work in KOReader"
 msgstr "Як працюють звичайні виділення в KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2980-9
-#, fuzzy
 msgid ""
 "When you make a highlight in KOReader, whether the document is an EPUB or "
 "PDF, this highlight is written into a settings file. For example if you are "
@@ -7308,20 +7253,17 @@ msgid ""
 msgstr ""
 "Коли ви робите виділення в KOReader, незалежно від того, чи є документ у "
 "форматі EPUB чи PDF, це виділення записується у файл налаштувань. Наприклад, "
-"якщо ви читаєте <b>Аліса в Країні Чудес.epub</b>, у вас буде папка з назвою "
-"<span class=\"ui\">Аліса в Країні Чудес.sdr</span> у тій самій папці, що й "
-"ваша книга. Ваші виділення зберігатимуться у файлі в цій папці <span "
-"class=\"ui\">.sdr</span>. Це означає, що якщо ви видалите цю папку <span "
-"class=\"ui\">.sdr</span>, пов’язану з вашою книгою, ви втратите свої "
-"виділення."
+"якщо ви читаєте книгу з файлу <b>Меч Арея.epub</b>, у вас буде тека з назвою "
+"<span class=\"ui\">Меч Арея.sdr</span> у тій самій теці, що й файл книги. "
+"Виділення зберігаються у файлі в цій теці <span class=\"ui\">.sdr</span>. Це "
+"означає, що при видаленні пов'язаної з книгою теки <span class=\"ui\">.sdr</"
+"span> усі виділення втрачаються."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2984-9
-#, fuzzy
 msgid "How PDF highlights work in KOReader"
-msgstr "Як працюють виділення PDF-файлів у KOReader"
+msgstr "Як в KOReader працюють виділення у PDF-файлах"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2985-9
-#, fuzzy
 msgid ""
 "PDF highlights feature works a bit different than the description above. As "
 "we mentioned before, when you save your PDF highlights, they will be "
@@ -7331,13 +7273,14 @@ msgid ""
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
 msgstr ""
-"Функція виділення PDF-файлів працює дещо інакше, ніж описано вище. Як ми вже "
-"згадували раніше, коли ви зберігаєте виділення PDF-файлу, вони безпосередньо "
-"записуються у PDF-файл, тобто стають частиною самого файлу. Саме тому ви "
-"можете надіслати цей PDF-файл іншому користувачеві, і він зможе переглянути "
-"виділення за допомогою сумісного зчитувача PDF-файлів. Йому не знадобиться "
-"ваша папка <span class=\"ui\">.sdr</span>, яка містить запис ваших виділень, "
-"оскільки тепер виділення вбудовані безпосередньо у PDF-файл."
+"Функція виділення у PDF-файлах працює дещо інакше, ніж описано вище. Як вже "
+"було згадано, при збереженні виділення у PDF-файлі, вони записуються "
+"безпосередньо до PDF-файлу, тобто стають частиною самого файлу. Саме тому "
+"можна надіслати цей PDF-файл іншому користувачеві і він зможе переглянути "
+"виділення за допомогою сумісної програми для читання PDF-файлів. Йому не "
+"знадобиться ваша тека <span class=\"ui\">.sdr</span>, яка містить запис "
+"виділень у книзі, оскільки тепер виділення вбудовані безпосередньо у "
+"PDF-файл."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2987-9
 msgid ""
@@ -7350,18 +7293,16 @@ msgstr ""
 "читання</b> за допомогою KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2990-13
-#, fuzzy
 msgid ""
 "You are making highlights and <span class=\"ui\">Save highlights to PDF</"
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
 msgstr ""
-"Ви робите виділення, і опція <span class=\"ui\">Зберегти виділення у PDF</"
-"span> увімкнена, тому, коли ви робите ці виділення, KOReader зберігає їх у "
-"вашому PDF-файлі."
+"Ви робите виділення і функція <span class=\"ui\">Зберегти виділення у PDF</"
+"span> увімкнена, тому коли ви робите ці виділення, KOReader зберігає їх у "
+"PDF-файлі."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2991-13
-#, fuzzy
 msgid ""
 "You want to continue reading the book on your <b>phone</b> with KOReader, so "
 "you copy this PDF file from your <b>e-reader</b> to your <b>phone</b> (but "
@@ -7369,9 +7310,8 @@ msgid ""
 "file)."
 msgstr ""
 "Ви хочете продовжити читання книги на своєму <b>телефоні</b> за допомогою "
-"KOReader, тому ви копіюєте цей PDF-файл з вашої <b>електронної книги</b> на "
-"свій <b>телефон</b> (але ви не скопіювали папку <span class=\"ui\">.sdr</"
-"span>, лише PDF-файл)."
+"KOReader, тому копіюєте цей PDF-файл з <b>е-читалки</b> на свій <b>телефон</"
+"b> (але не копіюєте теку <span class=\"ui\">.sdr</span>, лише PDF-файл)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2992-13
 msgid ""
@@ -7382,17 +7322,16 @@ msgstr ""
 "побачите ваші виділені фрагменти тексту все ще там."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2995-9
-#, fuzzy
 msgid ""
 "Now the situation on both of your devices looks identical. Both your <b>e-"
 "reader</b> and <b>phone</b> KOReader shows the PDF file with the same "
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
 msgstr ""
-"Тепер ситуація на обох ваших пристроях виглядає однаково. KOReader як на "
-"вашій <b>електронній_читалці</b>, так і на <b>телефоні</b> відображає PDF-"
-"файл з однаковими виділеннями. Але він лише <b>виглядає</b> однаково, "
-"насправді є велика різниця."
+"Тепер ситуація на обох пристроях виглядає однаково. KOReader як на "
+"<b>е-читалці</b>, так і на <b>телефоні</b> показує PDF-файл з однаковими "
+"виділеннями. Але він лише <b>виглядає</b> однаково, насправді є велика "
+"різниця."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2997-9
 msgid ""
@@ -7422,16 +7361,15 @@ msgstr ""
 "для нього виглядають як частина оригінальної книги."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3001-9
-#, fuzzy
 msgid ""
 "So in short, if you want to be able to delete or export your PDF highlights "
 "later, you have to copy the <span class=\"ui\">.sdr folder</span> associated "
 "with your book when you backup or copy your book to other devices."
 msgstr ""
-"Отже, коротше кажучи, якщо ви хочете мати змогу видаляти або експортувати "
-"свої виділені фрагменти PDF-файлу пізніше, вам потрібно скопіювати папку "
-"<span class=\"ui\">.sdr</span>, пов’язану з вашою книгою, під час резервного "
-"копіювання або копіювання книги на інші пристрої."
+"Коротше кажучи, якщо хочете мати змогу видаляти або експортувати свої "
+"виділені фрагменти з PDF-файлу пізніше, під час копіювання книги на інші "
+"пристрої потрібно також скопіювати теку <span class=\"ui\">.sdr</span>, пов’"
+"язану з вашою книгою."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3005-1
 msgctxt "user_guide/en.html+html.body.div.div:3005-1"
@@ -7439,7 +7377,6 @@ msgid "OCR (Optical Character Recognition)"
 msgstr "OCR (оптичне розпізнавання символів)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3006-5
-#, fuzzy
 msgid ""
 "<b>OCR (Optical Character Recognition)</b> is the process of extracting text "
 "from images. In KOReader context, it is generally used for extracting text "
@@ -7447,34 +7384,30 @@ msgid ""
 "github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR Engine</a> for "
 "this task."
 msgstr ""
-"<b>OCR (оптичне розпізнавання символів)</b> – це процес вилучення тексту із "
-"зображень. У контексті KOReader він зазвичай використовується для вилучення "
-"тексту зі сканованих сторінок книг у PDF-файлах. KOReader використовує <a "
-"href=\"https://github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR "
-"Engine</a> для цього завдання."
+"<b>OCR (оптичне розпізнавання символів)</b> – це процес отримання тексту із "
+"зображень. У контексті KOReader він зазвичай використовується для отримання "
+"тексту зі сканованих сторінок книг у PDF-файлах. KOReader для цього завдання "
+"використовує <a href=\"https://github.com/tesseract-ocr/tessdoc\">Tesseract "
+"Open Source OCR Engine</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3009-5
-#, fuzzy
 msgid "To use this feature you need to:"
-msgstr "Щоб скористатися цією функцією, вам потрібно:"
+msgstr "Для використання цієї функції потрібно:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3011-9
-#, fuzzy
 msgid ""
 "Install <span class=\"external\">Tesseract</span> language data to your "
 "KOReader"
 msgstr ""
-"Встановіть дані мови <span class=\"external\">Tesseract</span> на ваш "
-"KOReader"
+"Встановити дані мов для <span class=\"external\">Tesseract</span> у KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3012-9
-#, fuzzy
 msgid ""
 "Add newly installed languages to koreader/defaults.lua configuration file "
 "(necessary only if your language is other than English or Chinese)"
 msgstr ""
-"Додати щойно встановлені мови до файлу конфігурації koreader/defaults.lua "
-"(потрібно, лише якщо ваша мова відрізняється від англійської або китайської)"
+"Додати нововстановлені мови до файлу конфігурації /koreader/defaults.lua ("
+"для всіх мов, крім англійської й китайської)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3016-5
 msgid ""
@@ -7491,32 +7424,27 @@ msgstr ""
 "pages\">на відповідній сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3024-1
-#, fuzzy
 msgid "READING COMICS AND MANGA"
-msgstr "ЧИТАННЯ КОМІКСІВ ТА МАНГИ"
+msgstr "ЧИТАННЯ МАЛЬОПИСІВ І МАНҐИ"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3026-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3026-5"
 msgid "Adjusting the page refresh interval"
-msgstr "Налаштування інтервалу оновлення сторінки"
+msgstr "Підлаштування частоти оновлення екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3028-5
-#, fuzzy
 msgid ""
 "Comic books generally need more frequent page refreshes than the pure text "
 "content. For normal text, you can set your page refresh interval to high "
 "numbers without problem. But images can leave more residue and cause "
 "ghosting, especially depending on the panel of your e-reader."
 msgstr ""
-"Комікси зазвичай потребують частішого оновлення сторінок, ніж чистий "
-"текстовий контент. Для звичайного тексту ви можете без проблем встановити "
-"високий інтервал оновлення сторінки. Але зображення можуть залишати більше "
-"залишків і спричиняти ореоли, особливо залежно від панелі вашої електронної "
-"книги."
+"Мальописи зазвичай потребують частішого повного оновлення екрану, ніж "
+"текстовий контент без зображень. Для звичайного тексту можна без негативних "
+"наслідків встановити високий інтервал повного оновлення екрану. Але "
+"зображення можуть залишати після себе більше артефактів."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3030-5
-#, fuzzy
 msgid ""
 "KOReader allows you to assign any gesture to switch to different refresh "
 "rates. For example you can set <b>swipe up left edge</b> for <span "
@@ -7526,17 +7454,16 @@ msgid ""
 "refresh with a simple tap or swipe (or vice versa)."
 msgstr ""
 "KOReader дозволяє призначити будь-який жест для перемикання між різними "
-"частотами оновлення. Наприклад, ви можете налаштувати <b>проведення пальцем "
-"вгору по лівому краю</b> для оновлення <span class=\"ui\">кожної сторінки</"
-"span> під час читання коміксів та <b>проведення пальцем вниз по лівому краю</"
-"b> для оновлення <span class=\"ui\">кожні x сторінок</span> для книг, що "
-"містять лише текст. Тож, відкриваючи комікс, ви можете перемикатися на "
-"частіше оновлення простим дотиком або свайпом (або навпаки)."
+"частотами оновлення. Наприклад, можна налаштувати <b>проведення пальцем "
+"вгору по лівому краю</b> для повного оновлення <span class=\"ui\">на кожній "
+"сторінці</span> під час читання мальописів та <b>проведення пальцем вниз по "
+"лівому краю</b> для оновлення <span class=\"ui\">кожні N сторінок</span> для "
+"книг, що містять лише текст. Тож, відкриваючи мальопис, можна перемикатися "
+"на частіше оновлення простим дотиком чи протягуванням пальцем (або навпаки)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3032-5
-#, fuzzy
 msgid "This action is under:"
-msgstr "Ця дія відбувається в рамках:"
+msgstr "Це налаштовується тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3034-5
 msgid ""
@@ -7569,18 +7496,16 @@ msgstr ""
 "style=\"width:22px;\"> / Масштабування панелі (мальопис)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3044-5
-#, fuzzy
 msgid ""
 "When this option is enabled, KOReader tries to find the boundaries of "
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
 msgstr ""
-"Коли ця опція увімкнена, KOReader намагається знайти межі прямокутних "
-"панелей на екрані. Якщо довго натискати на панель, KOReader збільшує масштаб "
-"і показує лише цю панель."
+"Коли ця функція увімкнена, KOReader намагається знайти межі прямокутних "
+"панелей («кадрів») на екрані. Якщо затиснути панель, KOReader збільшить її "
+"масштаб і покаже лише цю панель."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3046-5
-#, fuzzy
 msgid ""
 "As you can guess, this feature works best with comics that has clean panel "
 "boundaries. Also there is no <b>page turn</b> in this mode to jump to the "
@@ -7590,19 +7515,18 @@ msgid ""
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
 msgstr ""
-"Як ви можете здогадатися, ця функція найкраще працює з коміксами, які мають "
-"чіткі межі панелей. Також у цьому режимі немає <b>перегортання сторінок</b> "
-"для переходу до наступної панелі через цю проблему з межами. Вам потрібно "
-"закрити збільшену панель і довго натискати на наступну. Щоб зробити це, "
+"Як можна здогадатися, ця функція найкраще працює з мальописами, які мають "
+"чіткі межі панелей. Також через цю проблему з межами у даному режимі немає "
+"<b>перегортання сторінок</b> для переходу до наступної панелі. Доведеться "
+"закрити поточну збільшену панель і затиснути наступну. Щоб зробити це, "
 "просто <span class=\"ui\">проведіть пальцем вниз</span> по цій збільшеній "
-"панелі. Також ви можете використовувати будь-який <span class=\"ui\">жест "
-"кількох свайпів</span> (будь-яку комбінацію вгору, вниз, вліво, вправо), щоб "
-"вийти з цього режиму перегляду."
+"панелі. Також, щоб вийти з цього режиму перегляду, можна використовувати "
+"будь-який <span class=\"ui\">мультижест</span> (будь-яку комбінацію вгору, "
+"вниз, вліво, вправо)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3048-5
-#, fuzzy
 msgid "Procedure can be seen below:"
-msgstr "Процедуру можна побачити нижче:"
+msgstr "Як це робиться показано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3052-5
 msgid ""
@@ -7693,12 +7617,10 @@ msgstr ""
 "вашому пристрої."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
-#, fuzzy
 msgid "Which file type to use"
 msgstr "Який тип файлу використовувати"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3078-5
-#, fuzzy
 msgid ""
 "File types like MOBI and EPUB are not suitable for handling primarily image "
 "content (e.g., manga/comics). <b>MOBI</b> support in KOReader is minimal to "
@@ -7707,13 +7629,14 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
-"Такі типи файлів, як MOBI та EPUB, не підходять для обробки переважно "
-"графічного контенту (наприклад, манги/коміксів). Підтримка <b>MOBI</b> у "
+"Такі типи файлів, як MOBI та EPUB, не підходять для роботи з переважно "
+"графічним вмістом (наприклад, манґи і мальописів). Підтримка <b>MOBI</b> у "
 "KOReader мінімальна або взагалі відсутня, а пріоритети відображення тексту "
-"<b>EPUB</b> можуть спричиняти проблеми під час відображення зображень на всю "
-"сторінку. Для отримання додаткової технічної інформації відвідайте цю <a "
-"href=\"https://github.com/koreader/koreader/"
-"issues/9163#issuecomment-1146637205\">проблему GitHub</a>."
+"<b>EPUB</b> можуть спричиняти проблеми під час показу зображень на всю "
+"сторінку. Для отримання додаткової технічної інформації відвідайте це <a "
+"href="
+"\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\""
+">обговорення на GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3080-5
 msgid ""
@@ -7750,7 +7673,6 @@ msgstr ""
 "візуалізовані е-чорнилами, плавно розтушовувалися без нерівних шарів."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3084-1
-#, fuzzy
 msgid "Which resolution to use"
 msgstr "Яку роздільну здатність використовувати"
 
@@ -7911,7 +7833,6 @@ msgstr ""
 "манґу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3125-1
-#, fuzzy
 msgid "Extra step for smooth gradients"
 msgstr "Додатковий крок для плавних градієнтів"
 
@@ -7958,17 +7879,16 @@ msgstr ""
 "class=\"external\">KCC</span>,"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3136-9
-#, fuzzy
 msgid ""
 "Download the following file <a href=\"https://disk.yandex.com/d/"
 "glEebjmPYYp7og\">dither_pack.zip</a> (located on <span "
 "class=\"external\">Yandex Disk</span>) which contains two <b>batch files (."
 "BAT)</b> and a <b>GIF</b> color template."
 msgstr ""
-"Завантажте наступний файл <a href=\"https://disk.yandex.com/d/"
-"glEebjmPYYp7og\">dither_pack.zip</a> (розташований на <span "
-"class=\"external\">Яндекс Диску</span>), який містить два <b>пакетні файли (."
-"BAT)</b> та кольоровий шаблон <b>GIF</b>."
+"Завантажте файл <a href=\"https://disk.yandex.com/d/glEebjmPYYp7og\""
+">dither_pack.zip</a> (розташований на <span class=\"external\">Яндекс "
+"Диску</span>), який містить два <b>пакетні файли (.BAT)</b> та кольоровий "
+"шаблон <b>GIF</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3137-9
 msgid "Extract these three files next to your images that will be processed"
@@ -8011,10 +7931,8 @@ msgstr ""
 "<b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3147-1
-#, fuzzy
 msgid "Reversing the page turn direction for authentic Japanese manga"
-msgstr ""
-"Зворотній напрямок перегортання сторінок для справжньої японської манги"
+msgstr "Зворотній напрямок гортання сторінок для справжньої японської манґи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3149-5
 msgctxt "user_guide/en.html+html.body.div.p:3149-5"
@@ -8022,14 +7940,13 @@ msgid "!!! ADVANCED"
 msgstr "!!! ДЛЯ ДОСВІДЧЕНИХ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3151-5
-#, fuzzy
 msgid ""
 "You can make KOReader turn pages from <b>Left to Right</b>, so that swipes "
 "and tap zones are swapped. To enable this, add the following lines:"
 msgstr ""
-"Ви можете налаштувати KOReader перегортати сторінки <b>зліва направо</b>, "
-"щоб зони свайпів та дотиків мінялися місцями. Щоб увімкнути це, додайте такі "
-"рядки:"
+"Можна налаштувати, щоб KOReader перегортав сторінки <b>зліва направо</b>, "
+"тобто щоб зони протягувань та дотиків помінялися місцями. Щоб увімкнути це, "
+"додайте такі рядки:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3155-5
 msgid ""
@@ -8048,18 +7965,16 @@ msgid "/koreader/settings/directory_defaults.lua"
 msgstr "/koreader/settings/directory_defaults.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3168-5
-#, fuzzy
 msgid ""
 "where <b>/storage/emulated/0/Books/manga</b> is the absolute path to the "
 "directory containing your mangas. After this change, when you open a file "
 "from the mentioned directory, your swipes and tap zones will be swapped."
 msgstr ""
-"де <b>/storage/emulated/0/Books/manga</b> — це абсолютний шлях до каталогу, "
-"що містить ваші манґи. Після цієї зміни, коли ви відкриватимете файл із "
-"зазначеного каталогу, ваші зони свайпів та дотиків поміняються місцями."
+"де <b>/storage/emulated/0/Books/manga</b> є абсолютним шляхом до теки, яка "
+"містить зображення. Після цієї зміни, коли ви відкриєте зображення зі "
+"згаданої теки, ділянки жестів проведення і дотиків будуть поміняні місцями."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3173-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3173-1"
 msgid "MANAGING YOUR LIBRARY"
 msgstr "КЕРУВАННЯ ВАШОЮ БІБЛІОТЕКОЮ"
@@ -8069,24 +7984,22 @@ msgid "File Browser Usage"
 msgstr "Використання Оглядача файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3179-5
-#, fuzzy
 msgid ""
 "You will see the <span class=\"ui\">file browser</span> interface when you "
 "run KOReader for the first time. It is one of the two main interfaces of "
 "KOReader. You will do all your file and folder operations here. You can "
 "access it from the reading screen by:"
 msgstr ""
-"Ви побачите інтерфейс <span class=\"ui\">файлового браузера</span> під час "
-"першого запуску KOReader. Це один із двох основних інтерфейсів KOReader. Тут "
-"ви будете виконувати всі операції з файлами та папками. Ви можете отримати "
-"до нього доступ з екрана читання таким чином:"
+"Під час першого запуску KOReader ви побачите інтерфейс <span class=\"ui\""
+">Оглядача файлів</span>. Це один з двох основних інтерфейсів KOReader. Тут "
+"ви будете виконувати всі операції з файлами і теками. До нього можна "
+"отримати доступ з екрану читання таким чином:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3181-5
 msgid "TOP MENU /"
 msgstr "ВЕРХНЄ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3187-5
-#, fuzzy
 msgid ""
 "By default, <span class=\"ui\">file browser</span> shows your <span "
 "class=\"ui\">HOME</span> folder, which is your main library folder. You can "
@@ -8095,13 +8008,12 @@ msgid ""
 "or sorted via the <span class=\"ui\">TOP MENU</span> by swiping down from "
 "the top part of the screen."
 msgstr ""
-"За замовчуванням <span class=\"ui\">файловий браузер</span> показує вашу "
-"папку <span class=\"ui\">ДОМАШНЯ</span>, яка є основною папкою вашої "
-"бібліотеки. Ви можете змінити це, <b>довго натискаючи на будь-яку папку</b>. "
-"Ви можете змінити багато параметрів <span class=\"ui\">файлового браузера</"
-"span>, як-от спосіб відображення або сортування книг, через <span "
-"class=\"ui\">ГОЛОВНЕ МЕНЮ</span>, провівши пальцем униз від верхньої частини "
-"екрана."
+"Типово <span class=\"ui\">Оглядач файлів</span> показує теку <span class="
+"\"ui\">ДОМІВКА</span>, яка є головною текою вашої бібліотеки. Цю теку можна "
+"змінити, якщо <b>затиснути будь-яку теку</b>. Можна змінити багато "
+"параметрів <span class=\"ui\">Оглядача файлів</span>, на кшталт способу "
+"відображення або сортування книг, через <span class=\"ui\">ВЕРХНЄ МЕНЮ</"
+"span>, протягнувши пальцем вниз від верхньої частини екрана."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3189-5
 msgid "Circled items in the image are explained below:"
@@ -8142,30 +8054,27 @@ msgstr ""
 "<b>Перегляд архівів</b> та <b>Перегляд файлів зображень</b> нижче."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3197-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">IGNORE COVER:</span> If for some reason you want to "
 "disable the cover for this book (it may have wrong cover or cover is not "
 "very readable on the e-ink screen) you can select this."
 msgstr ""
-"<span class=\"ui\">ІГНОРУВАТИ ОБКЛАДИНКУ:</span> Якщо з якоїсь причини ви "
-"хочете вимкнути обкладинку для цієї книги (можливо, у неї неправильна "
-"обкладинка або вона погано читається на екрані електронного чорнила), ви "
-"можете вибрати цей пункт."
+"<span class=\"ui\">ІГНОРУВАТИ ОБКЛАДИНКУ:</span> Якщо з якихось причин ви "
+"бажаєте вимкнути обкладинку для цієї книги (наприклад, якщо обкладинка "
+"неправильна або вона не дуже підходить для відображення на екрані з "
+"е-чорнилами), можна обрати це."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3199-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">IGNORE METADATA:</span> If your book metadata is not "
 "correct, name field may show useless information. Select this option to show "
 "the file name instead of metadata."
 msgstr ""
 "<span class=\"ui\">ІГНОРУВАТИ МЕТАДАНІ:</span> Якщо метадані вашої книги "
-"неправильні, у полі назви може відображатися непотрібна інформація. Виберіть "
-"цей параметр, щоб відображати назву файлу замість метаданих."
+"неправильні, у полі назви може відображатися безкорисна інформація. Виберіть "
+"цей параметр, щоб замість метаданих відображалася назву файлу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3201-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">REFRESH CACHED BOOK INFORMATION:</span> KOReader caches a "
 "book's metadata and book cover when you add it to your library. If you make "
@@ -8173,12 +8082,12 @@ msgid ""
 "might need to be updated. If you see wrong cover or metadata, you can "
 "refresh the book information with this menu item."
 msgstr ""
-"<span class=\"ui\">ОНОВЛЕННЯ КЕШОВАНОЇ ІНФОРМАЦІЇ ПРО КНИГУ:</span> KOReader "
-"кешує метадані та обкладинку книги, коли ви додаєте її до своєї бібліотеки. "
-"Якщо ви внесете якісь зміни до книги після копіювання на пристрій, цю "
-"інформацію, можливо, потрібно буде оновити. Якщо ви бачите неправильну "
-"обкладинку або метадані, ви можете оновити інформацію про книгу за допомогою "
-"цього пункту меню."
+"<span class=\"ui\">ОНОВИТИ КЕШОВАНІ ВІДОМОСТІ ПРО КНИГУ:</span> KOReader "
+"кешує метадані й обкладинки книг під час додавання книг до бібліотеки. Якщо "
+"після перенесення книг на пристрій до файлів вносилися зміни, може "
+"знадобитися оновлення кешованої інформації. Якщо відображається хибна "
+"обкладинка чи метадані, за допомогою цього пункту меню можна оновити "
+"відомості про книгу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3205-1
 msgid "Working on multiple files"
