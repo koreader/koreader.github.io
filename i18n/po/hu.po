@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-24 15:03+0000\n"
-"PO-Revision-Date: 2025-08-20 11:02+0000\n"
-"Last-Translator: exactlee <exactlee.terminus@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/hu/>\n"
+"PO-Revision-Date: 2025-08-26 06:01+0000\n"
+"Last-Translator: Balázs Attila <g.gumicsizma@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:851-5
 msgid "Overall translation status of the user guide"
-msgstr ""
+msgstr "A felhasználói útmutató fordításának általános állapota"
 
 #: user_guide/en.html%2Bhtml.body.div.img[alt]:853-9
 msgid "Translation status"
@@ -103,7 +103,7 @@ msgstr "Fordítás állapota"
 
 #: user_guide/en.html%2Bhtml.body.div.div:859-1
 msgid "Guide for this user guide :)"
-msgstr "Útmutató ehhez az útmutatóhoz :)"
+msgstr "Útmutató ehhez a felhasználói útmutatóhoz :)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:861-5
 msgid ""
@@ -126,6 +126,11 @@ msgid ""
 "related to this user guide, you can write to this <a href=\"https://github."
 "com/koreader/koreader/issues/11147\">GitHub discussion thread</a>."
 msgstr ""
+"Használhatja a keresés funkciót a webböngészőjében hogy megtaláljon egy "
+"adott témát vagy kulcsszót (általában <b>Ctrl + F</b>). Ha van javaslata "
+"vagy kérdése amit ehhez a felhasználói útmutatóhoz kapcsolódik, akkor ide "
+"írhat <a href=\"https://github.com/koreader/koreader/issues/11147\">GitHub "
+"discussion thread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:864-5
 msgid ""
@@ -140,8 +145,9 @@ msgid "PARTS OF KOREADER (BLUE)"
 msgstr "KOREADER RÉSZEI (KÉK)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:871-13
+#, fuzzy
 msgid "Status bar, Book map…"
-msgstr ""
+msgstr "Állapotsor, Könyvtérkép…"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:874-17
 msgid "MENU PATHS (GREEN)"
@@ -178,18 +184,25 @@ msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
+"<span class=\"label_red\">FIGYELMEZTETÉS</span> Én egy figyelmeztető doboz "
+"vagyok. Elmagyarázom a dolgokat, amikor különösen óvatosnak kell lenned."
 
 #: user_guide/en.html%2Bhtml.body.div.div:892-5
+#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> I am an info box. I give contextual "
 "information or extra explanations."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Én egy információs doboz vagyok. "
+"Kontextuális információkat vagy extra magyarázatokat adok."
 
 #: user_guide/en.html%2Bhtml.body.div.div:894-5
 msgid ""
 "<span class=\"label_green\">TIP</span> I am a tip box. I contain tips that "
 "makes your life easier when using KOReader."
 msgstr ""
+"<span class=\"label_green\">TIPP</span> Egy tippdoboz vagyok. Tippeket "
+"tartalmazok, amelyek megkönnyítik az életedet a KOReader használata során."
 
 #: user_guide/en.html%2Bhtml.body.div.div:896-5
 msgid ""
@@ -198,6 +211,10 @@ msgid ""
 "technical knowledge like working with a file system, CSS knowledge, "
 "installation of external files etc. depending on the procedure."
 msgstr ""
+"<span class=\"label_red\">!!! HALADÓ</span> <b>HALADÓ</b> tag vagyok. Ha egy "
+"témában látsz engem, az azt jelenti, hogy bizonyos fokú technikai "
+"ismeretekkel kell rendelkezned, például fájlrendszerrel való munka, CSS "
+"ismeret, külső fájlok telepítése stb., az eljárástól függően."
 
 #: user_guide/en.html%2Bhtml.body.div.p:900-2
 msgid ""
@@ -222,10 +239,14 @@ msgid ""
 "Helping others with your knowledge in the forums or on GitHub issues and "
 "discussions"
 msgstr ""
+"Tudásoddal segíteni másoknak a fórumokon vagy a GitHub-problémák és -"
+"beszélgetések során"
 
 #: user_guide/en.html%2Bhtml.body.div.p:907-9
 msgid "Check <a href=\"#L1-reachus\">Reach us</a> section for the links."
 msgstr ""
+"A linkekért tekintse meg a <a href=\"#L1-reachus\">Kapcsolatfelvétel</a> "
+"részt."
 
 #: user_guide/en.html%2Bhtml.body.div.p:911-9
 msgid "Guide last update: 2025-03-25"
@@ -240,36 +261,39 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Newly added or updated sections since "
 "the last guide release are marked with a <span class=\"microns\"></span>"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Az útmutató legutóbbi kiadása óta "
+"újonnan hozzáadott vagy frissített szakaszokat <span class=\"microns\"></"
+"span> jelöli"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:929-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:929-9"
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
-msgstr ""
+msgstr "MIT LEHET CSINÁLNI A KOREADER-REL?"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:931-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:931-9"
 msgid "BASIC USAGE INFORMATION"
-msgstr ""
+msgstr "ALAPVETŐ HASZNÁLATI INFORMÁCIÓK"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:933-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:933-5"
 msgid "Transferring books to your reader"
-msgstr ""
+msgstr "Könyek átvitele az olvasóra"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:934-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:934-5"
 msgid "Tap zones"
-msgstr ""
+msgstr "Tapintási zónák"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:935-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:935-17"
 msgid "Changing text appearance"
-msgstr ""
+msgstr "A szöveg megjelenésének megváltoztatása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:936-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:936-17"
 msgid "Keyboard Usage And Tips"
-msgstr ""
+msgstr "Billentyűzethasználat és tippek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:937-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:937-17"
@@ -279,16 +303,17 @@ msgstr "Automatikus színhőmérséklet és éjszakai mód"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:941-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:941-9"
 msgid "LEARNING THE USER INTERFACE"
-msgstr ""
+msgstr "A FELHASZNÁLÓI FELÜLET ELSAJÁTÍTÁSA"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:943-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:943-17"
 msgid "Reading Screen"
-msgstr ""
+msgstr "Képernyő olvasása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:944-17
+#, fuzzy
 msgid "Indicator icons <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Jelzőikonok <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:945-17
 #, fuzzy
@@ -297,199 +322,206 @@ msgid "Status bar"
 msgstr "Állapotsor"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:946-17
+#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:946-17"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Felső menü elemek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:947-17
+#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.ul.li.ul.li:947-17user_guide/en."
 "html+html.body.div.div.ul.li.ul.li:947-17"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Alsó Menü elemek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:948-17
 msgid "User Interface Tips <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Felahasználói felület tippek<span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:949-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:949-17"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Alsó Menü elemek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:953-9
+#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:953-9"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "KÖNYVBEN TÖRTÉNŐ BÖNGÉSZÉS"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:955-17
+#, fuzzy
 msgid "Skim Widget <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Átfejtő widget <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:956-17
 msgctxt ""
 "user_guide/en.html+html.body.div.div.ul.li.ul.li:956-17user_guide/en."
 "html+html.body.div.div.ul.li.ul.li:956-17"
 msgid "Book Map"
-msgstr ""
+msgstr "Könyvtérkép"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:957-17
 msgctxt ""
 "user_guide/en.html+html.body.div.div.ul.li.ul.li:957-17user_guide/en."
 "html+html.body.div.div.ul.li.ul.li:957-17"
 msgid "Page Browser"
-msgstr ""
+msgstr "Oldalböngésző"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:958-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:958-17"
 msgid "Table of Contents Tools"
-msgstr ""
+msgstr "Tartalomjegyzék eszközök"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:959-17
+#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:959-17"
 msgid "Excluding sections: Custom hidden flows"
-msgstr ""
+msgstr "Szakaszok kizárása: Egyéni rejtett folyamatok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:963-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:963-9"
 msgid "CUSTOMIZING TEXT APPEARANCE"
-msgstr ""
+msgstr "SZÖVEG MEGJELENÉSÉNEK TESTRESZABÁSA"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:965-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:965-17"
 msgid "Default appearance settings"
-msgstr ""
+msgstr "Alapértelmezett megjelenési beállítások"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li.li:966-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li.li:966-17"
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Saját betűtípusok használata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li.li:967-5
 msgid "Style tweaks <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Stílusbeli módosítások <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:972-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:972-9"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "KÖNYVJELZŐK, KIEMELÉSEK ÉS MEGJEGYZÉSEK"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:974-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:974-17"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "KOReader kiemelési módjai"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:975-5
 msgid "Editing highlights <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Kiemelések szerkesztése <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:976-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:976-17"
 msgid "Exporting highlights"
-msgstr ""
+msgstr "Kiemelések exportálása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:980-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:980-9"
 msgid "READING PDFS"
-msgstr ""
+msgstr "PDF-ek OLVASÁSA"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:982-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:982-17"
 msgid "Reading large PDFs on a small screen"
-msgstr ""
+msgstr "Nagy PDF-ek olvasása kis képernyőn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:983-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:983-17"
 msgid "PDF Specific Bottom Menu Items"
-msgstr ""
+msgstr "PDF-specifikus alsó menüelemek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:984-17
 msgid "Saving highlights into PDF <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Kiemelések mentése PDF-be <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:985-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:985-17"
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (optikai karakterfelismerés)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:990-9
 msgid "READING COMICS AND MANGA <span class=\"microns\"></span>"
-msgstr ""
+msgstr "KÉPREGÉNYEK ÉS MANGÁK OLVASÁSA <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:992-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:992-17"
 msgid "Adjusting the page refresh interval"
-msgstr ""
+msgstr "Oldalfrissítési intervallum beállítása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:993-5
+#, fuzzy
 msgid "Panel Zoom"
-msgstr ""
+msgstr "Panel nagyítása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:994-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:994-17"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Ugrás a következő fájlra"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:995-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:995-17"
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Manga optimalizálása az olvasó számára"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:996-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:996-17"
 msgid "Other manga tips"
-msgstr ""
+msgstr "További manga tippek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1003-3
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1003-3"
 msgid "MANAGING YOUR LIBRARY"
-msgstr ""
+msgstr "KÖNYVTÁR KEZELÉSE"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1005-5
 msgid "File Browser usage"
-msgstr ""
+msgstr "Fájlböngésző használata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1006-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1006-5"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Más fájltípusok megtekintése"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1007-5
 msgid "Collections <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Gyűjtemények <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1008-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1008-5"
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr ""
+msgstr "EPUB/PDF dokumentumok optimalizálása az olvasóhoz"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1009-5
 msgid "Book metadata storage options <span class=\"microns\"></span>"
 msgstr ""
+"Könyv metaadatainak tárolási lehetőségei <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1013-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1013-5"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "GESZTUSOK ÉS BILLENTYŰPARANCSOK"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1015-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1015-13"
 msgid "Gesture Types"
-msgstr ""
+msgstr "Gesztustípusok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1016-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1016-13"
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "Előre definiált gesztusok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1017-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1017-13"
 msgid "Gesture Categories"
-msgstr ""
+msgstr "Gesztusok kategóriái"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1018-13
 msgid "Keyboard Shortcuts <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Billentyűparancsok <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1022-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1022-9"
@@ -499,11 +531,11 @@ msgstr "GYORS MENÜ ÉS PROFILOK"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1024-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1024-13"
 msgid "Quick Menu"
-msgstr ""
+msgstr "Gyors menü"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1025-13
 msgid "Quick Menu tips"
-msgstr ""
+msgstr "Gyors menü tippek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1026-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1026-13"
@@ -512,22 +544,22 @@ msgstr "Profilok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1027-13
 msgid "Profile auto-execution <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Profil automatikus végrehajtása <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1031-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1031-5"
 msgid "PLUGINS AND USER PATCHES"
-msgstr ""
+msgstr "BŐVÍTMÉNYEK ÉS FELHASZNÁLÓI JAVÍTÁSOK"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1033-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1033-13"
 msgid "Plugin types"
-msgstr ""
+msgstr "Bővítménytípusok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1034-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1034-13"
 msgid "List of internal plugins"
-msgstr ""
+msgstr "Belső bővítmények listája"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1035-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1035-13"
