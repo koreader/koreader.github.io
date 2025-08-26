@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-24 15:03+0000\n"
-"PO-Revision-Date: 2025-08-24 15:02+0000\n"
+"PO-Revision-Date: 2025-08-26 06:02+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1061,8 +1061,8 @@ msgid ""
 "Auto straighten tilted documents, like scanned old books <a href=\"#L2-"
 "pdfbottom\" class=\"internalink\"></a>"
 msgstr ""
-"Автоматична корекція надрукованих під кутом сторінок, які трапляються у "
-"старих книгах <a href=\"#L2-pdfbottom\" class=\"internalink\"></a>"
+"Автоматична корекція нахилу надрукованих під кутом сторінок, які трапляються "
+"у старих книгах <a href=\"#L2-pdfbottom\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1177-9
 msgid ""
@@ -7040,7 +7040,7 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
-"<span class=\"ui\">Автовирівнювання</span> може вирівняти сторінки "
+"<span class=\"ui\">Корекція нахилу</span> може вирівняти сторінки "
 "проблемного документу. Наприклад, сторінки PDF, які відскановані під кутом. "
 "Воно доступне для документів <b>PDF, DJVU, CBZ/CBT</b> та файлів "
 "<b>зображень</b>. Щоб увімкнути, оберіть максимальний кут нахилу, який "
@@ -8095,7 +8095,6 @@ msgid "Working on multiple files"
 msgstr "Робота з багатьма файлами"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3207-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">File browser</span> allows you to perform some operations "
 "(like copying, moving, deleting, exporting highlights) on many files at the "
@@ -8103,14 +8102,13 @@ msgid ""
 "there are three different ways of selecting files for bulk operations in the "
 "<span class=\"ui\">file browser</span>:"
 msgstr ""
-"<span class=\"ui\">Файловий браузер</span> дозволяє виконувати деякі "
-"операції (такі як копіювання, переміщення, видалення, експорт виділених "
-"фрагментів) з багатьма файлами одночасно. Для цієї процедури спочатку "
-"потрібно вибрати файли. Наразі існує три різні способи вибору файлів для "
-"масових операцій у <span class=\"ui\">файловому браузері</span>:"
+"<span class=\"ui\">Оглядач файлів</span> дозволяє виконувати деякі операції ("
+"копіювання, переміщення, видалення, експорт виділених фрагментів) з багатьма "
+"файлами одночасно. Для цього спочатку потрібно вибрати файли. Наразі існує "
+"три різні способи вибору файлів для пакетних операцій у <span class=\"ui\""
+">Оглядачі файлів</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3209-5
-#, fuzzy
 msgid ""
 "<b>- In the first method</b>, long press on a file name and choose <span "
 "class=\"ui\">Select</span> from the popup dialog. This will activate the "
@@ -8120,16 +8118,15 @@ msgid ""
 "your screen. You can choose what to do with these files from the dialog. Or "
 "exit the selection mode from the same dialog."
 msgstr ""
-"<b>- У першому способі</b> натисніть і утримуйте ім’я файлу та виберіть "
-"<span class=\"ui\">Вибрати</span> у спливаючому діалоговому вікні. Це "
-"активує <span class=\"ui\">режим вибору</span>. Тепер ви можете натиснути на "
-"інші файли, щоб додати їх до вибору. Коли ви завершите вибір файлів, "
-"натисніть на <span class=\"ui\">значок галочки</span> у <b>верхньому правому "
-"куті</b> екрана. Ви можете вибрати, що робити з цими файлами, у діалоговому "
-"вікні. Або вийти з режиму вибору з того ж діалогового вікна."
+"<b>– У першому способі</b> затисніть назву файлу та виберіть <span class="
+"\"ui\">Вибрати</span> у зринаючому діалоговому вікні. Це активує <span class="
+"\"ui\">режим вибору</span>. Тепер можна натискати на інші файли, щоб вибрати "
+"і їх теж. Після завершення вибору файлів натисніть на <span class=\"ui\""
+">значок галочки</span> у <b>верхньому правому куті</b> екрану. Потім у "
+"діалоговому вікні можна вибрати , що робити з усіма вибраними файлами. Або ж "
+"вийти з режиму вибору з того ж діалогового вікна."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3211-5
-#, fuzzy
 msgid ""
 "<b>- In the second method</b>, press the <span class=\"ui\">+ (plus) icon</"
 "span> at the <b>top right corner</b> and choose <span class=\"ui\">Select "
@@ -8137,13 +8134,13 @@ msgid ""
 "class=\"ui\">Selection mode</span> and rest is the same as the first method "
 "above."
 msgstr ""
-"<b>- У другому способі</b> натисніть значок <span class=\"ui\">+ (плюс)</"
-"span> у <b>верхньому правому куті</b> та виберіть <span class=\"ui\">Вибрати "
-"файли</span> у діалоговому вікні. Це активує <span class=\"ui\">режим "
-"вибору</span>, а решта дій така ж, як і в першому способі вище."
+"<b>– У другому способі</b> натисніть <span class=\"ui\">значок + (плюс)</"
+"span> у <b>верхньому правому куті</b> та натисніть <span class=\"ui\""
+">Вибрати файли</span> у діалоговому вікні. Це активує <span class=\"ui\""
+">режим вибору</span>, а решта дій така ж, як і в описаному вище першому "
+"способі."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3213-5
-#, fuzzy
 msgid ""
 "<b>- In the third method</b>, you can choose your files based on a <span "
 "class=\"ui\"> File search</span>. This is useful if you need to perform an "
@@ -8151,95 +8148,88 @@ msgid ""
 "want to move all files in your collection authored by Tolkien, to a new "
 "folder. Steps for this action will be:"
 msgstr ""
-"<b>- У третьому методі</b> ви можете вибрати файли на основі <span "
-"class=\"ui\"> пошуку файлів</span>. Це корисно, якщо вам потрібно виконати "
-"операцію з багатьма файлами, розподіленими по різних папках. Наприклад, ви "
-"хочете перемістити всі файли з вашої колекції, автором якої є Толкін, до "
-"нової папки. Кроки для цієї дії будуть такими:"
+"<b>– У третьому способі</b> можна вибрати файли за допомогою <span class="
+"\"ui\">пошуку файлів</span>. Це корисно, якщо потрібно виконати операцію з "
+"багатьма файлами, розміщеними у різних теках. Наприклад, потрібно "
+"перемістити всі файли з добірки творів Уласа Самчука до нової теки. Кроки "
+"для цієї дії будуть такими:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3216-9
-#, fuzzy
 msgid ""
 "From the <span class=\"ui\">Top menu</span> press on the <span "
 "class=\"ui\">Search tab</span> (with the magnifier icon) and choose <span "
 "class=\"ui\">File search</span>."
 msgstr ""
-"У <span class=\"ui\">Головному меню</span> натисніть на <span "
-"class=\"ui\">вкладку Пошук</span> (зі значком лупи) та виберіть <span "
-"class=\"ui\">Пошук файлів</span>."
+"У <span class=\"ui\">ВЕРХНЬОМУ МЕНЮ</span> натисніть на <span class=\"ui\""
+">вкладку Пошук</span> (зі значком лупи), а потім виберіть <span class=\"ui\""
+">Пошук файлів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3217-9
-#, fuzzy
 msgid ""
 "Check <span class=\"ui\">Include subfolders</span> option if you want to "
 "search inside the folders too. You can check <span class=\"ui\">Also search "
 "in book metadata</span> if you want KOReader to look in book's metadata. "
 "Otherwise KOReader will only look at the file names for the word you entered."
 msgstr ""
-"Позначте опцію <span class=\"ui\">Включити підпапки</span>, якщо ви також "
-"хочете шукати всередині папок. Ви можете позначити опцію <span "
-"class=\"ui\">Також шукати в метаданих книги</span>, якщо ви хочете, щоб "
-"KOReader шукав у метаданих книги. В іншому випадку KOReader шукатиме лише "
-"назви файлів для введеного вами слова."
+"Позначте параметр <span class=\"ui\">Включити підтеки</span>, якщо бажаєте "
+"шукати також всередині тек. Можна позначити параметр <span class=\"ui\""
+">Також шукати в метаданих книги</span>, якщо бажаєте, щоб KOReader шукав у "
+"метаданих книги. В іншому випадку KOReader вказане вами слово шукатиме лише "
+"у назвах файлів."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3218-9
-#, fuzzy
 msgid ""
 "You can start the search from your library <span class=\"ui\">Home folder</"
 "span> or your <span class=\"ui\">Current folder</span> by pressing on the "
 "respective button."
 msgstr ""
-"Ви можете розпочати пошук з <span class=\"ui\">домашньої папки</span> вашої "
-"бібліотеки або з <span class=\"ui\">поточної папки</span>, натиснувши "
-"відповідну кнопку."
+"Натиснувши відповідну кнопку можна розпочати пошук з <span class=\"ui\""
+">Домашньої теки</span> бібліотеки або з <span class=\"ui\">Поточної "
+"теки</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3219-9
-#, fuzzy
 msgid ""
 "After search is finished, you will see a file list (if your search term is "
 "found of course). Now you can tap on the <span class=\"ui\">Hamburger icon</"
 "span> at the <b>top left corner</b> of the screen to enter the <span "
 "class=\"ui\">Selection mode</span>."
 msgstr ""
-"Після завершення пошуку ви побачите список файлів (якщо, звичайно, знайдено "
-"ваш пошуковий термін). Тепер ви можете натиснути на <span "
-"class=\"ui\">значок гамбургера</span> у <b>лівому верхньому куті</b> екрана, "
-"щоб увійти в <span class=\"ui\">режим вибору</span>."
+"Після завершення пошуку буде показано список файлів (звичайно, якщо знайдено "
+"шукане слово). Тепер можна натиснути <span class=\"ui\">значок-«гамбургер»</"
+"span> у <b>лівому верхньому куті</b> екрану, щоб увійти в <span class=\"ui\""
+">режим вибору</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3220-9
-#, fuzzy
 msgid ""
 "Tap on all the files you want to perform operations on and tap on the <span "
 "class=\"ui\">Checkmark icon</span> at the <b>top left corner</b> of your "
 "screen. You will see a dialog which contains <span class=\"ui\">Select in "
 "file browser</span>. Select this option."
 msgstr ""
-"Торкніться всіх файлів, над якими потрібно виконати операції, і торкніться "
-"значка <span class=\"ui\">галочки</span> у <b>лівому верхньому куті</b> "
-"екрана. Ви побачите діалогове вікно з опцією <span class=\"ui\">Вибрати у "
-"файловому браузері</span>. Виберіть цю опцію."
+"Торкніться всіх файлів, з якими потрібно виконати операції, а потім "
+"торкніться <span class=\"ui\">значка галочки</span> у <b>лівому верхньому "
+"куті</b> екрану. У діалоговому вікні, що з'явиться, виберіть <span class="
+"\"ui\">Вибрати в оглядачі файлів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3221-9
-#, fuzzy
 msgid ""
 "Now you will be back at the <span class=\"ui\">File browser</span> and the "
 "files you selected in the <span class=\"ui\">Search dialog</span> will also "
 "be selected here."
 msgstr ""
-"Тепер ви повернетеся до <span class=\"ui\">браузера файлів</span>, і файли, "
-"які ви вибрали в <span class=\"ui\">діалоговому вікні пошуку</span>, також "
-"будуть вибрані тут."
+"Тепер ви повернетеся до <span class=\"ui\">Оглядача файлів</span> і файли, "
+"які ви раніше вибрали в <span class=\"ui\">діалоговому вікні пошуку</span>, "
+"будуть вибрані також тут."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3222-9
-#, fuzzy
 msgid ""
 "Tap on the <span class=\"ui\">Checkmark icon</span> at the <b>top right "
 "corner</b> of your screen. Now you can choose what to do with these files "
 "from the dialog."
 msgstr ""
 "Натисніть на <span class=\"ui\">значок галочки</span> у <b>верхньому правому "
-"куті</b> екрана. Тепер ви можете вибрати, що робити з цими файлами, у "
-"діалоговому вікні."
+"куті</b> екрану. Тепер у діалоговому вікні можна вибрати, що робити з цими "
+"файлами."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3229-1
 msgctxt "user_guide/en.html+html.body.div.div:3229-1"
@@ -8357,7 +8347,6 @@ msgid "Viewing text files"
 msgstr "Перегляд текстових файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3264-5
-#, fuzzy
 msgid ""
 "If you have books in <b>.txt</b> format (which is more common in <b>Chinese</"
 "b> and <b>Cyrillic</b> languages), you can try enabling the <span "
@@ -8368,24 +8357,21 @@ msgid ""
 "indentation or centered text considered heading...) to guess how to better "
 "render the text and will try to create a <b>table of contents</b>."
 msgstr ""
-"Якщо у вас є книги у форматі <b>.txt</b> (що частіше зустрічається в "
-"<b>китайській</b> та <b>кирилиці</b> мовах), ви можете спробувати ввімкнути "
-"функцію <span class=\"ui\">Автоматичне визначення макета TXT-файлів</span>. "
-"У деяких випадках це може покращити відображення та зробити текст більш "
-"\"книжним\". Коли цю функцію ввімкнено, механізм відображення "
-"використовуватиме евристику (текст, перенесений під певну максимальну "
-"довжину рядка, одинарні або подвійні порожні рядки, що позначають абзаци, "
-"відступи або вирівнювання тексту по центру, що вважається заголовком...), "
-"щоб припустити, як краще відобразити текст, і спробує створити <b>зміст</b>."
+"Для книг у форматі <b>.txt</b> (часто зустрічаються <b>українською</b> та "
+"<b>китайською</b> мовами), можна увімкнути функцію <span class=\"ui\""
+">Автовизначення верстки TXT-файлів</span>. У деяких випадках це може "
+"покращити відображення та зробити текст «книжковішим». Коли ця функція "
+"увімкнена, механізм відображення використовує евристику (текст переноситься "
+"під певну максимальну довжину рядка, одинарні чи подвійні порожні рядки "
+"позначають абзаци, відступи чи вирівнювання тексту по центру виділяють "
+"заголовки...), щоб припустити, як краще відобразити текст, і спробує "
+"створити <b>зміст</b> книги."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3266-5
-#, fuzzy
 msgid ""
 "You can enable this feature here (which is visible only if you are reading "
 "a .txt file):"
-msgstr ""
-"Ви можете ввімкнути цю функцію тут (вона видима лише під час читання файлу ."
-"txt):"
+msgstr "Функцію можна увімкнути тут (пункт є лише під час читання файлу .txt):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3268-5
 msgid ""
@@ -8396,33 +8382,31 @@ msgstr ""
 "style=\"width:26px;\"> / Стиль / Автовизначення верстки TXT-файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3270-5
-#, fuzzy
 msgid ""
 "Note that this feature might mess up ASCII art drawings and space character "
 "based formatting. If your book has these kind of features, it might be "
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
 msgstr ""
-"Зверніть увагу, що ця функція може спотворити малюнки ASCII art та "
-"форматування на основі пробілів. Якщо ваша книга має такі функції, можливо, "
-"краще використовувати режим за замовчуванням, у якому текстовий файл "
-"відтворюється <b>як є</b> моноширинним шрифтом."
+"Майте на увазі, що ця функція може спотворити малюнки, які зроблені "
+"символами (ASCII art), та форматування на основі пробілів. Якщо книга має "
+"такий вміст, можливо, краще використовувати типовий режим, у якому текстовий "
+"файл відображається моноширинним шрифтом <b>як є</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3274-1
 msgid "Viewing archive files"
 msgstr "Перегляд архівів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3276-5
-#, fuzzy
 msgid ""
 "KOReader can read files stored/compressed in <b>ZIP</b> files. You can open "
 "<b>ZIP</b>, <b>CBZ</b> and <b>EPUB</b> (as they are <b>ZIP</b> archives too) "
 "files with the archive viewer to have a look at the contained files:"
 msgstr ""
-"KOReader може читати файли, що зберігаються/стискаються у архівах <b>ZIP</"
-"b>. Ви можете відкривати файли <b>ZIP</b>, <b>CBZ</b> та <b>EPUB</b> "
-"(оскільки вони також є архівами <b>ZIP</b>) за допомогою засобу перегляду "
-"архівів, щоб переглянути файли, що містяться в них:"
+"KOReader вміє читати файли, що зберігаються/стиснуті у архівах <b>ZIP</b>. "
+"За допомогою засобу перегляду архівів можна відкривати файли <b>ZIP</b>, "
+"<b>CBZ</b> та <b>EPUB</b> (оскільки це теж <b>ZIP</b>-архіви), щоб "
+"переглянути файли всередині:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3279-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3279-5"
@@ -8439,7 +8423,6 @@ msgid "Tap <span class=\"ui\">Archive viewer</span>"
 msgstr "Натисніть <span class=\"ui\">Перегляд архіву</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3284-5
-#, fuzzy
 msgid ""
 "A ZIP file can contain many types of documents like html, txt or images. "
 "KOReader can open your ZIP file properly <b>only if you give it a hint for "
@@ -8447,11 +8430,11 @@ msgid ""
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
 msgstr ""
-"ZIP-файл може містити багато типів документів, таких як html, txt або "
-"зображення. KOReader може правильно відкрити ваш ZIP-файл, <b>лише якщо ви "
-"надасте йому підказку щодо типу файлу в ZIP-архіві</b>. Якщо ви надасте "
-"файлу лише розширення <b>.zip</b>, KOReader вважатиме, що цей архів містить "
-"зображення, і спробує відкрити його як файл <b>CBZ</b>."
+"ZIP-файл може містити багато типів файлів, як html, txt або зображення. "
+"KOReader може правильно відкрити ваш ZIP-файл, <b>лише якщо надати йому "
+"підказку щодо типу файлу в ZIP-архіві</b>. Якщо файл має розширення лише "
+"<b>.zip</b>, KOReader вважатиме, що цей архів містить зображення, і спробує "
+"відкрити його як файл <b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
 msgid ""
@@ -8515,15 +8498,14 @@ msgid "Viewing images"
 msgstr "Перегляд зображень"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3303-5
-#, fuzzy
 msgid ""
 "You can open image files with the image viewer instead of opening as a book. "
 "Files opened like this don’t show up in your history and have better scaling "
 "and rotation support."
 msgstr ""
-"Ви можете відкривати файли зображень за допомогою засобу перегляду зображень "
-"замість того, щоб відкривати їх як книгу. Файли, відкриті таким чином, не "
-"відображаються в історії та мають кращу підтримку масштабування та обертання."
+"Файли зображень можна відкривати у переглядачі зображень (замість того, щоб "
+"відкривати їх як книгу). Відкриті таким чином файли не відображаються у "
+"історії й мають кращу підтримку масштабування та повертання."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3306-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3306-5"
@@ -8549,29 +8531,26 @@ msgstr ""
 "KOReader пропонує два варіанти читання документів з розміткою Markdown."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3315-9
-#, fuzzy
 msgid ""
 "You can open the document directly like a book by tapping on it. This mode "
 "doesn't provide formatting. So your <b>.md</b> file will look like as it is "
 "opened in a text editor."
 msgstr ""
-"Ви можете відкрити документ безпосередньо, як книгу, торкнувшись його. Цей "
-"режим не передбачає форматування. Тож ваш файл <b>.md</b> виглядатиме так, "
-"як його відкривають у текстовому редакторі."
+"Документ можна відкрити безпосередньо як книгу дотиком до нього. Цей режим "
+"не передбачає форматування. Тож файл <b>.md</b> виглядатиме так, як його "
+"відкривають у текстовому редакторі."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3316-9
-#, fuzzy
 msgid ""
 "You can convert your Markdown document to HTML. This action will render a "
 "HTML file from your Markdown document with the correct formatting and a "
 "<b>Table of Contents</b> created from the headings."
 msgstr ""
-"Ви можете конвертувати свій документ Markdown у HTML. Ця дія призведе до "
-"створення HTML-файлу з вашого документа Markdown з правильним форматуванням "
-"та <b>Змістом</b>, створеним із заголовків."
+"Можна конвертувати свій документ з розміткою Markdown у HTML. Ця дія "
+"призведе до створення HTML-файлу з документа Markdown з правильним "
+"форматуванням та <b>змістом</b>, створеним із заголовків."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3319-5
-#, fuzzy
 msgid ""
 "To convert a <b>.md</b> file, long press on it in the <span "
 "class=\"ui\">File Browser</span> and tap <span class=\"ui\">Convert</span> "
@@ -8579,12 +8558,11 @@ msgid ""
 "be created in the same directory. Be aware that conversion might take a "
 "while depending on your Markdown file and device speed."
 msgstr ""
-"Щоб конвертувати файл <b>.md</b>, довго натисніть на нього у <span "
-"class=\"ui\">Оглядачі файлів</span> та виберіть <span "
-"class=\"ui\">Конвертувати</span> у спливаючому меню. У тому ж каталозі буде "
-"створено новий файл з такою ж назвою, але розширенням HTML. Майте на увазі, "
-"що конвертація може тривати деякий час залежно від вашого файлу Markdown та "
-"швидкості пристрою."
+"Щоб конвертувати файл <b>.md</b>, затисніть його у <span class=\"ui\""
+">Оглядачі файлів</span> та виберіть <span class=\"ui\">Конвертувати</span> у "
+"зринаючому меню. Новий файл з тією ж назвою, але з розширенням HTML, буде "
+"створено у тій же теці. Майте на увазі, що конвертація може тривати деякий "
+"час, залежно від файлу Markdown та швидкодії пристрою."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3322-2
 msgid "Setting file associations"
@@ -8613,25 +8591,22 @@ msgstr ""
 "цей конкретний файл з цим рушієм"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3329-9
-#, fuzzy
 msgid ""
 "Or check <span class=\"ui\">Always use this engine for file type</span> to "
 "associate this provider with all the files that has same extension as this "
 "one"
 msgstr ""
-"Або поставте позначку <span class=\"ui\">Завжди використовувати цей механізм "
-"для типу файлу</span>, щоб пов’язати цього постачальника з усіма файлами, "
-"які мають таке ж розширення, як і цей"
+"Або позначте пункт <span class=\"ui\">Завжди цей рушій для типу файлів</"
+"span>, щоб пов’язати даний рушій з усіма файлами, які мають таке ж "
+"розширення, як і цей"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3331-9
-#, fuzzy
 msgid ""
 "From the same dialog, you can see the associations you made by tapping on "
 "<span class=\"ui\">View defaults for file types</span>"
 msgstr ""
-"У цьому ж діалоговому вікні ви можете переглянути створені вами асоціації, "
-"натиснувши <span class=\"ui\">Переглянути значення за замовчуванням для "
-"типів файлів</span>"
+"Переглянути створені асоціації можна натиснувши <span class=\"ui\""
+">Переглянути типові для типів файлів</span> у цьому ж діалоговому вікні"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3340-1
 msgctxt "user_guide/en.html+html.body.div.div:3340-1"
@@ -8639,7 +8614,6 @@ msgid "Collections"
 msgstr "Добірки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3342-5
-#, fuzzy
 msgid ""
 "KOReader's <span class=\"ui\">Collections</span> feature can help you with "
 "arranging your library more efficiently. As a very simple definition, "
@@ -8648,43 +8622,39 @@ msgid ""
 "books accordingly. Of course you can also use folders to do this but using "
 "collections gives you more flexibility."
 msgstr ""
-"Функція <span class=\"ui\">Колекції</span> у KOReader може допомогти вам "
-"ефективніше впорядкувати вашу бібліотеку. Як дуже просте визначення, "
-"колекції – це створені користувачем списки ваших книг. Наприклад, ви можете "
-"створити дві колекції під назвою <b>Художня література</b> та <b>Нехудожня "
-"література</b>, щоб відповідно впорядкувати свої книги. Звичайно, ви також "
-"можете використовувати для цього папки, але використання колекцій дає вам "
-"більше гнучкості."
+"Функція <span class=\"ui\">Добірки</span> у KOReader може допомогти "
+"ефективніше впорядкувати вашу бібліотеку. Як дуже просте визначення, добірки "
+"– це створені користувачем списки книг (колекції, підбірки тощо). Наприклад, "
+"можна створити дві добірки з назвою «<b>Художня література</b>» та «"
+"<b>Наукова література</b>», щоб відповідно впорядкувати книги. Звичайно, для "
+"цього можна також використовувати теки, але використання добірок дає більше "
+"гнучкості."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3343-5
-#, fuzzy
 msgid ""
 "Some advantages of collections compared to the folder based organization:"
-msgstr "Деякі переваги колекцій порівняно з організацією на основі папок:"
+msgstr "Деякі переваги добірок порівняно з організацією на основі тек:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3345-9
-#, fuzzy
 msgid ""
 "Adding a book to a collection doesn't move the book file. So your books can "
 "be located in different folders but they can appear in the same collection."
 msgstr ""
-"Додавання книги до колекції не переміщує файл книги. Тож ваші книги можуть "
-"знаходитися в різних папках, але вони можуть відображатися в одній колекції."
+"Додавання книги до добірки не переміщує файл книги. Тож книги можуть "
+"знаходитися в різних теках, але відображатися в одній добірці."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3346-9
-#, fuzzy
 msgid ""
 "One book can be in many collections, which is not possible with folders. For "
 "example you can have a <b>Science Fiction</b> collection and <b>War Fiction</"
 "b> collection. A book can be added to both of these collections at the same "
 "time."
 msgstr ""
-"Одна книга може бути в багатьох колекціях, що неможливо з папками. "
-"Наприклад, ви можете мати колекцію <b>Наукова фантастика</b> та колекцію "
-"<b>Воєнна проза</b>. Книгу можна додати до обох цих колекцій одночасно."
+"Одна книга може бути в багатьох добірках, що неможливо з теками. Наприклад, "
+"можна додати книгу одночасно до добірок «<b>Наукова фантастика</b>» та «"
+"<b>Воєнна проза</b>»."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3347-9
-#, fuzzy
 msgid ""
 "You can trigger <span class=\"ui\">profiles</span> with <span "
 "class=\"ui\">collections</span>. This will be explained below if you are not "
@@ -8694,58 +8664,49 @@ msgid ""
 "your books in order to use temporary <span class=\"ui\">profiles</span> for "
 "example.)"
 msgstr ""
-"Ви можете активувати <span class=\"ui\">профілі</span> за допомогою <span "
-"class=\"ui\">колекцій</span>. Це буде пояснено нижче, якщо ви не знайомі з "
-"функцією <span class=\"ui\">профілі</span> KOReader. (Звичайно, ви також "
-"можете активувати <span class=\"ui\">профілі</span> за допомогою папок, але "
-"<span class=\"ui\">колекції</span> не вимагають переміщення книг, щоб, "
+"<span class=\"ui\">Профілі</span> можна активувати за допомогою <span class="
+"\"ui\">добірок</span>. Нижче про це докладно розказано для тих, хто не "
+"знайомий з функцією <span class=\"ui\">профілів</span> KOReader. (Звичайно, "
+"<span class=\"ui\">профілі</span> можна активувати за допомогою тек, але "
+"<span class=\"ui\">добірки</span> не вимагають переміщення книг, щоб, "
 "наприклад, використовувати тимчасові <span class=\"ui\">профілі</span>.)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3350-5
-#, fuzzy
 msgid ""
 "You can create collections to mirror any kind of categorization. Some "
 "example ideas:"
 msgstr ""
-"Ви можете створювати колекції, щоб відображати будь-який тип категоризації. "
-"Деякі приклади ідей:"
+"Добірки можна створювати, щоб відображати будь-який тип категоризації. Деякі "
+"приклади ідей:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3352-9
-#, fuzzy
 msgid "<b>Genres:</b> Fiction, non-fiction, memoir..."
-msgstr "<b>Жанри:</b> Художня література, документальна література, мемуари..."
+msgstr "<b>Жанри:</b> художня література, документальна література, спогади..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3353-9
-#, fuzzy
 msgid ""
 "<b>Book status:</b> Currently reading, want to read, next, did not finish..."
-msgstr ""
-"<b>Статус книги:</b> Читаю зараз, хочу прочитати, наступна, не закінчив/"
-"закінчила..."
+msgstr "<b>Стан книги:</b> читаю зараз, хочу прочитати, наступна, не дочитав..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3354-9
-#, fuzzy
 msgid "<b>Series:</b> Lord of the Rings, Harry Potter..."
-msgstr "<b>Серія:</b> Володар перснів, Гаррі Поттер..."
+msgstr "<b>Серія:</b> Володар перснів, Історія в романах, Гаррі Поттер..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3355-9
-#, fuzzy
 msgid "<b>Document type:</b> Books, scientific articles, web articles..."
-msgstr "<b>Тип документа:</b> Книги, наукові статті, веб-статті..."
+msgstr "<b>Тип документа:</b> книги, наукові статті, публіцистичні статті..."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3360-1
-#, fuzzy
 msgid "Creating and modifying collections"
-msgstr "Створення та редагування колекцій"
+msgstr "Створення та редагування добірок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3361-5
-#, fuzzy
 msgid ""
 "You can create collections from the <span class=\"ui\">Collections</span> "
 "dialog located here:"
 msgstr ""
-"Ви можете створювати колекції з діалогового вікна <span "
-"class=\"ui\">Колекції</span>, розташованого тут:"
+"Добірки можна створювати з діалогового вікна <span class=\"ui\">Добірки</"
+"span>, яке знаходиться тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3363-2
 msgid ""
@@ -8756,7 +8717,6 @@ msgstr ""
 "style=\"width:26px;\"> / Добірки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3365-2
-#, fuzzy
 msgid ""
 "You can access this dialog from the reader view or from the <span "
 "class=\"ui\">File Browser</span>. When you open this menu, it will show you "
@@ -8765,76 +8725,68 @@ msgid ""
 "books you have already added to your <span class=\"ui\">Favorites</span> "
 "list."
 msgstr ""
-"Ви можете отримати доступ до цього діалогового вікна з вікна читання або з "
-"<span class=\"ui\">Оглядача файлів</span>. Коли ви відкриваєте це меню, воно "
-"покаже вам список ваших колекцій. За замовчуванням ви побачите там <span "
-"class=\"ui\">Улюблені</span> як елемент колекції, який включає книги, які ви "
-"вже додали до свого списку <span class=\"ui\">Улюблені</span>."
+"Відкрити це діалогове вікно з режиму читання або з <span class=\"ui\""
+">Оглядача файлів</span>. Після відкриття цього меню в ньому буде список "
+"ваших добірок. Типово <span class=\"ui\">Обрані</span> відображаються там як "
+"елемент добірки, який включає книги, які були раніше додані до списку <span "
+"class=\"ui\">Обраних</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3368-3
-#, fuzzy
 msgid ""
 "<b>Adding a new collection:</b> Use the hamburger menu <img "
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> located at the top left corner of this screen > <span class=\"ui\">New "
 "collection</span>"
 msgstr ""
-"<b>Додавання нової колекції:</b> Скористайтеся меню-гамбургер <img "
-"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
-"\"> розташованим у верхньому лівому куті цього екрана > <span "
-"class=\"ui\">Нова колекція</span>"
+"<b>Створення нової добірки.</b> Скористайтеся меню-«гамбургером» <img class="
+"\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\">, "
+"розташованим у верхньому лівому куті цього екрану > <span class=\"ui\">Нова "
+"добірка</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3370-3
-#, fuzzy
 msgid ""
 "<b>Removing a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Remove collection</span>"
 msgstr ""
-"<b>Видалення колекції:</b> Довго торкніться назви колекції > <span "
-"class=\"ui\">Видалити колекцію</span>"
+"<b>Вилучення добірки.</b> Затисніть назву добірки > <span class=\"ui\""
+">Вилучити добірку</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3372-3
-#, fuzzy
 msgid ""
 "<b>Renaming a collection:</b> Long tap on the collection name > <span "
 "class=\"ui\">Rename collection</span>"
 msgstr ""
-"<b>Перейменування колекції:</b> Довге натискання на назву колекції > <span "
-"class=\"ui\">Перейменувати колекцію</span>"
+"<b>Перейменування добірки.</b> Затисніть назву добірки > <span class=\"ui\""
+">Перейменувати добірку</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3374-3
-#, fuzzy
 msgid ""
 "<b>Changing the order of your collections:</b> Use the hamburger menu <img "
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> located at the top left corner of this screen > <span "
 "class=\"ui\">Arrange collection</span>"
 msgstr ""
-"<b>Зміна порядку ваших колекцій:</b> Скористайтеся меню гамбургер <img "
-"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
-"\"> розташованим у верхньому лівому куті цього екрана > <span "
-"class=\"ui\">Упорядкувати колекцію</span>"
+"<b>Зміна порядку відображення добірок.</b> Скористайтеся меню-«гамбургером» "
+"<img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style="
+"\"width:26px;\">, розташованим у верхньому лівому куті цього екрану > <span "
+"class=\"ui\">Впорядкувати добірки</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3379-1
-#, fuzzy
 msgid "Adding books to your collections"
-msgstr "Додавання книг до ваших колекцій"
+msgstr "Додавання книг до ваших добірок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3381-2
-#, fuzzy
 msgid ""
 "There are three different places in KOReader where you can add books to your "
 "collections:"
 msgstr ""
-"У KOReader є три різні місця, де ви можете додавати книги до своїх колекцій:"
+"У KOReader є три різні місця, з яких можна додавати книги до своїх добірок:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3385-2
-#, fuzzy
 msgid "1. From the File Browser and History screen"
-msgstr "1. З екрана «Оглядач файлів» та «Історія»"
+msgstr "1. З екранів «Оглядач файлів» та «Історія»"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3386-2
-#, fuzzy
 msgid ""
 "You can add a book to your collections from the <span class=\"ui\">File "
 "browser</span> or <span class=\"ui\">History</span> screen. From the <span "
@@ -8842,42 +8794,37 @@ msgid ""
 "Long press on the book and choose <span class=\"ui\">Collections...</span>. "
 "Then you can choose which collection(s) you want to add this book to."
 msgstr ""
-"Ви можете додати книгу до своїх колекцій з екрана <span "
-"class=\"ui\">Файлового браузера</span> або <span class=\"ui\">Історія</"
-"span>. На екрані <span class=\"ui\">Історія</span> ви можете додавати книги "
-"<b>по одній</b>. Натисніть і утримуйте на книзі та виберіть <span "
-"class=\"ui\">Колекції...</span>. Потім ви можете вибрати, до якої(их) "
-"колекції(й) ви хочете додати цю книгу."
+"Книгу до своїх добірок можна додати з екранів <span class=\"ui\">Оглядача "
+"файлів</span> або <span class=\"ui\">Історія</span>. На екрані <span class="
+"\"ui\">Історія</span> можна додавати книги <b>по одній</b>. Затисніть книгу "
+"та виберіть <span class=\"ui\">Добірки...</span>. Потім можна вибрати, до "
+"якої(их) добірки(ок) потрібно додати цю книгу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3388-2
-#, fuzzy
 msgid ""
 "If you are adding several books, you can do this from the <span "
 "class=\"ui\">File browser</span>. For multiple books this is the procedure:"
 msgstr ""
-"Якщо ви додаєте кілька книг, це можна зробити за допомогою <span "
-"class=\"ui\">браузера файлів</span>. Для кількох книг виконайте такі дії:"
+"Додати кілька книг можна за допомогою <span class=\"ui\">Оглядача файлів</"
+"span>. Для додавання кількох книг виконайте такі дії:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3390-3
-#, fuzzy
 msgid "Long press on a book"
-msgstr "Тривале натискання на книгу"
+msgstr "Затисніть книгу"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3391-3
-#, fuzzy
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
-msgstr "Виберіть <span class=\"ui\">Вибрати</span> у спливаючому меню"
+msgstr "У зринаючому меню натисніть <span class=\"ui\">Вибрати</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3392-3
 msgid "Select other books"
 msgstr "Виберіть інші книги"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3393-3
-#, fuzzy
 msgid ""
 "Tap the <span class=\"ui\">checkmark</span> (✔️) icon at the top-right corner"
 msgstr ""
-"Натисніть значок <span class=\"ui\">галочки</span> (✔️) у верхньому правому "
+"Натисніть <span class=\"ui\">значок галочки</span> (✔️) у верхньому правому "
 "куті"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3394-3
@@ -8885,22 +8832,20 @@ msgid "Tap <span class=\"ui\">Collections</span>"
 msgstr "Натисніть <span class=\"ui\">Добірки</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3397-2
-#, fuzzy
 msgid ""
 "For adding a single book, just long-press on it in the <span "
 "class=\"ui\">File browser</span> and choose <span class=\"ui\">Collections</"
 "span> from the popup menu."
 msgstr ""
-"Щоб додати окрему книгу, просто довго натисніть на неї у <span "
-"class=\"ui\">файловому браузері</span> та виберіть <span "
-"class=\"ui\">Колекції</span> у спливаючому меню."
+"Щоб додати окрему книгу, просто затисніть її у <span class=\"ui\">Оглядачі "
+"файлів</span> та у зринаючому вікні виберіть <span class=\"ui\""
+">Добірки</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3401-2
 msgid "2. From the Collections menu"
 msgstr "2. З меню «Добірки»"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3402-2
-#, fuzzy
 msgid ""
 "This method allows you to add single and multiple books to your <span "
 "class=\"ui\">Collections</span>. Biggest difference from the <span "
@@ -8910,23 +8855,22 @@ msgid ""
 "<b>science fiction</b> books are in a single folder, you can create a "
 "collection named <b>Science fiction</b> and add this folder at once."
 msgstr ""
-"Цей метод дозволяє додавати одну або кілька книг до ваших <span "
-"class=\"ui\">Колекцій</span>. Найбільша відмінність від методу <span "
-"class=\"ui\">Файлового браузера</span> полягає в тому, що ви можете додавати "
-"<b>цілі папки та їхні підпапки</b> до своїх колекцій одночасно. Це дуже "
-"корисно, якщо ваші книги вже розташовані в папках. Наприклад, якщо всі ваші "
-"<b>науково-фантастичні</b> книги знаходяться в одній папці, ви можете "
-"створити колекцію під назвою <b>Наукова фантастика</b> та додати цю папку "
-"одразу."
+"Цей спосіб дозволяє додавати до <span class=\"ui\">добірок</span> одну або "
+"кілька книг. Найбільша відмінність від способу з <span class=\"ui\""
+">Оглядачем файлів</span> полягає в тому, що цим способом до своїх колекцій "
+"можна одночасно додавати <b>цілі теки разом з підтеками</b>. Це дуже "
+"корисно, якщо книги вже знаходяться у теках. Наприклад, якщо усі "
+"<b>науково-фантастичні</b> книги знаходяться у одній теці, тоді можна "
+"створити добірку під назвою «<b>Наукова фантастика</b>» та додати до неї "
+"одразу всі книги, що є у теці."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3407-2
-#, fuzzy
 msgid ""
 "In the image above, <b>Box 1</b> shows the book adding options. You can "
 "reach this menu from the collections screen's hamburger menu:"
 msgstr ""
-"На зображенні вище, <b>Поле 1</b> показує опції додавання книги. Ви можете "
-"перейти до цього меню з меню-гамбургера на екрані колекцій:"
+"На вищенаведеному зображення, <b>Блок 1</b> показує параметри додавання "
+"книги. До цього меню можна перейти на екрані добірок через меню-«гамбургера»:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3409-2
 msgid ""
@@ -8937,7 +8881,6 @@ msgstr ""
 "style=\"width:26px;\"> / Добірки / Назва вашої добірки /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3412-3
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Add all books from a folder:</span> As its name says, "
 "this options allows you to select a folder to add all the books in it to "
@@ -8946,15 +8889,14 @@ msgid ""
 "<b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and "
 "<b>War Fiction</b> under it, they won't be added with this option."
 msgstr ""
-"<span class=\"ui\">Додати всі книги з папки:</span> Як випливає з назви, ця "
-"опція дозволяє вибрати папку, щоб додати всі книги з неї до цієї колекції. "
-"Зверніть увагу, що ця опція <b>не додає книги з підпапок</b> вибраної папки. "
-"Наприклад, якщо ви вибрали папку <b>Художня література</b>, і в ній є папки "
-"з назвами <b>Наукова фантастика</b> та <b>Воєнна проза</b>, вони не будуть "
-"додані за допомогою цієї опції."
+"<span class=\"ui\">Додати усі книги з теки.</span> Як випливає з назви, ця "
+"функція дозволяє вибрати теку, щоб додати усі книги з неї до цієї добірки. "
+"Зверніть увагу, що ця функція <b>не додає книги з підтек</b> вибраної теки. "
+"Наприклад, якщо обрати теку «<b>Художня література</b>», і в ній є підтеки з "
+"назвами «<b>Наукова фантастика</b>» та «<b>Воєнна проза</b>», то книги з цих "
+"підтек не будуть додані до добірки."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3413-3
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Add all books from a folder and its subfolders:</span> "
 "This is the option that will <b>add all the subfolders</b> of your chosen "
@@ -8962,27 +8904,24 @@ msgid ""
 "while adding the books. So if you have many levels of nested folders, there "
 "might be too many books than you thought."
 msgstr ""
-"<span class=\"ui\">Додати всі книги з папки та її підпапок:</span> Ця опція "
-"<b>додасть усі підпапки</b> вибраної вами папки. Будьте обережні з цією "
-"опцією, оскільки вона повністю закриватиметься під час додавання книг. Тож, "
-"якщо у вас багато рівнів вкладених папок, книг може бути забагато, ніж ви "
-"думали."
+"<span class=\"ui\">Додати усі книги з теки та її підтек.</span> Ця функція "
+"<b>додасть усі підтеки</b> вибраної теки. Будьте обережні з цією функцією, "
+"бо вона повністю закриватиметься під час додавання книг. Тож, якщо у вас "
+"багато рівнів вкладених підтек, книг може бути забагато, ніж ви думали."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3414-3
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Add a book to collection</span>: This is the basic option "
 "that will allow you to add a single book."
 msgstr ""
-"<span class=\"ui\">Додати книгу до колекції</span>: Це базова опція, яка "
-"дозволить вам додати одну книгу."
+"<span class=\"ui\">Додати книгу в добірку</span>- Це базова функція, яка "
+"дозволяє додати одну книгу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3419-1
 msgid "Removing books from your collections"
 msgstr "Вилучення книг з ваших добірок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3421-9
-#, fuzzy
 msgid ""
 "You can remove a book from collections from the <span class=\"ui\">File "
 "browser</span>, <span class=\"ui\">History</span> screen or the <span "
@@ -8994,23 +8933,21 @@ msgid ""
 "<span class=\"ui\">Collections</span> screen, you can long press on a book "
 "and choose <span class=\"ui\">Remove from collection</span>."
 msgstr ""
-"Ви можете вилучати книгу з колекцій на екранах <span class=\"ui\">Файловий "
-"браузер</span>, <span class=\"ui\">Історія</span> або <span "
-"class=\"ui\">Колекції</span>. На екранах <span class=\"ui\">Файловий "
-"браузер</span> та <span class=\"ui\">Історія</span> натисніть і утримуйте "
-"книгу та виберіть <span class=\"ui\">Колекції...</span>. Ви побачите "
-"позначку поруч із колекціями, до яких ви додали цю книгу. Зніміть позначку, "
-"натиснувши на неї, щоб видалити книгу з цієї колекції. Також на екрані <span "
-"class=\"ui\">Колекції</span> ви можете натиснути і утримувати книгу та "
-"вибрати <span class=\"ui\">Видалити з колекції</span>."
+"Вилучати книги з добірок можна на екранах <span class=\"ui\">Оглядач файлів</"
+"span>, <span class=\"ui\">Історія</span> та <span class=\"ui\">Добірки</"
+"span>. На екранах <span class=\"ui\">Оглядач файлів</span> та <span class="
+"\"ui\">Історія</span> затисніть книгу і виберіть <span class=\"ui\""
+">Добірки...</span>. Поруч з добірками, до яких додана ця книга, будуть "
+"позначки. Щоб вилучити книгу з добірки, потрібно зняти позначку дотиком на "
+"неї. В той же час, на екрані <span class=\"ui\">Добірки</span> для вилучення "
+"книги з добірки потрібно затиснути книгу та вибрати пункт <span class=\"ui\""
+">Вилучити з добірки</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3425-1
-#, fuzzy
 msgid "Arranging the books in your collections"
-msgstr "Упорядкування книг у ваших колекціях"
+msgstr "Впорядкування книг у добірках"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3427-9
-#, fuzzy
 msgid ""
 "Collections can be very crowded but KOReader allows you to find your books "
 "easily by providing many filtering options. If you look at the image above, "
@@ -9023,20 +8960,18 @@ msgid ""
 "Asimov)</span> that I haven't started yet <span class=\"ui\">(Filter by "
 "status -> New)</span>.\"</b>"
 msgstr ""
-"Колекції можуть бути дуже переповненими, але KOReader дозволяє легко "
-"знаходити потрібні книги, пропонуючи багато варіантів фільтрації. Якщо ви "
-"подивитеся на зображення вище, ви можете побачити варіанти фільтрації в "
-"<b>Полі 2</b> та <b>Полі 3</b>. <b>Полі 2</b> дозволяє фільтрувати за "
-"статусом книги (нова, читається, завершена, на очікуванні), а <b>Полі 3</b> "
-"дозволяє фільтрувати за метаданими книги (автор, серія, мова, ключові "
-"слова). А також ви можете поєднати ці дві групи фільтрів, як у цьому "
-"прикладі: <b>\"Показати мені нові книги в цій колекції, написані Айзеком "
-"Азімовим <span class=\"ui\">(Фільтрувати за авторами -> Айзек Азімов)</"
-"span>, які я ще не почав читати <span class=\"ui\">(Фільтрувати за статусом -"
-"> Нові)</span>.\"</b>"
+"Добірки можуть бути дуже переповненими, але KOReader дозволяє легко "
+"знаходити потрібні книги за допомогою функції фільтрації. На вищенаведеному "
+"зображенні видно варіанти фільтрації у <b>Блоці 2</b> та <b>Блоці 3</b>. "
+"<b>Блок 2</b> дозволяє фільтрувати за станом книги (нова, читаю, прочитана, "
+"до прочитання), а <b>Поле 3</b> дозволяє фільтрувати за метаданими книги ("
+"автор, серія, мова, ключові слова). Також можна поєднати ці дві групи "
+"фільтрів, як у цьому прикладі: <b>«Показати нові книги у цій колекції, "
+"написані Уласом Самчуком <span class=\"ui\">(Фільтрувати за авторами -> Улас "
+"Самчук)</span>, які я ще не почав читати <span class=\"ui\">(Фільтрувати за "
+"станом -> Нові)</span>.»</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3429-9
-#, fuzzy
 msgid ""
 "You can update the book metadata by long-pressing on the book in <span "
 "class=\"ui\">File browser</span> and choosing <span class=\"ui\">Book "
@@ -9045,16 +8980,14 @@ msgid ""
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
 msgstr ""
-"Ви можете оновити метадані книги, довго натискаючи на книгу у <span "
-"class=\"ui\">файловому браузері</span> та вибираючи <span "
-"class=\"ui\">Інформація про книгу</span> з меню. У спливаючому вікні ви "
-"можете довго натискати на будь-яке поле, щоб змінити метадані, такі як "
-"<b>автор</b> або <b>ключові слова</b>. Ви також можете використовувати для "
-"цього завдання <span class=\"external\">Calibre</span>, сторонню програму, "
-"яка значно спрощує керування метаданими вашої книги."
+"Метадані книги можна оновити затиснувши книгу в <span class=\"ui\">Оглядачі "
+"файлів</span> та вибравши пункт меню <span class=\"ui\">Відомості про книгу</"
+"span>. У зринаючому вікні можна затиснути будь-яке поле, щоб змінити наявні "
+"в ньому метадані, як от <b>автор</b> чи <b>ключові слова</b>. Для цього "
+"також можна використати програму <span class=\"external\">Calibre</span>, "
+"яка значно спрощує керування метаданими книг."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3431-9
-#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> Be aware that <span "
 "class=\"external\">Calibre</span> changes the metadata within the book "
@@ -9063,71 +8996,62 @@ msgid ""
 "file, it only adds custom metadata as a file in the book's <b>.sdr folder</"
 "b>, so this metadata is visible in KOReader only."
 msgstr ""
-"<span class=\"label_blue\">INFO</span> Майте на увазі, що <span "
-"class=\"external\">Calibre</span> змінює метадані в самій книзі, тому "
-"змінені метадані видно поза <span class=\"external\">Calibre</span>. Але "
-"KOReader не змінює файл книги, він лише додає власні метадані як файл у "
-"папку <b>.sdr</b> книги, тому ці метадані видно лише в KOReader."
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Майте на увазі, що <span class="
+"\"external\">Calibre</span> змінює метадані у файлі книги, тому змінені "
+"метадані видно поза <span class=\"external\">Calibre</span>. А KOReader не "
+"змінює файл книги, він лише додає власні метадані як окремий файл до теки "
+"<b>.sdr</b>, що пов'язана з книгою, тому ці метадані видно лише в KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3435-1
 msgid "Searching in collections"
 msgstr "Пошук у добірках"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3437-9
-#, fuzzy
 msgid ""
 "There are two types of search you can perform in collections: You can search "
 "for a phrase <b>in the book titles and metadata</b> or you can also search "
 "<b>inside the book texts</b>. You can open the search dialog from:"
 msgstr ""
-"У колекціях можна виконувати два типи пошуку: ви можете шукати фразу <b>у "
-"назвах книг та метаданих</b> або <b>всередині текстів книг</b>. Ви можете "
-"відкрити діалогове вікно пошуку з:"
+"У добірках можна здійснювати два види пошуку: можна шукати вираз <b>у назвах "
+"книг і метаданих</b> або <b>всередині текстів книг</b>. Діалогове вікно "
+"пошуку можна відкрити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3439-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections / <img loading=\"lazy\" "
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
 "\"> / Collections search"
 msgstr ""
-"ГОЛОВНЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:26px;\"> / Колекції / <img loading=\"lazy\" "
-"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
-"\"> / Пошук колекцій"
+"ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:26px;\"> / Добірки / <img loading=\"lazy\" class=\"img_inline\""
+" src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / Пошук добірок"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3441-9
-#, fuzzy
 msgid ""
 "If you want to perform a search <b>in the book texts</b>, please keep these "
 "points in mind:"
-msgstr ""
-"Якщо ви хочете виконати пошук <b>в текстах книги</b>, будь ласка, пам’ятайте "
-"про таке:"
+msgstr "Якщо бажаєте виконати пошук <b>у текстах книг</b>, пам’ятайте про таке:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3444-13
-#, fuzzy
 msgid ""
 "This type of search is only available if you open the <span "
 "class=\"ui\">collections</span> from the <span class=\"ui\">file browser</"
 "span>. It is <b>not available</b> from the reading screen."
 msgstr ""
-"Цей тип пошуку доступний, лише якщо ви відкриваєте <span "
-"class=\"ui\">колекції</span> з <span class=\"ui\">браузера файлів</span>. "
-"Він <b>недоступний</b> з екрана читання."
+"Цей тип пошуку доступний лише якщо відкрити <span class=\"ui\">Добірки</"
+"span> з <span class=\"ui\">Оглядача файлів</span>. Він <b>недоступний</b> з "
+"екрану читання."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3445-13
-#, fuzzy
 msgid ""
 "This search can be slow (around 2 seconds per book in the collection). So if "
 "you have a crowded collection, it might take a long time."
 msgstr ""
-"Цей пошук може бути повільним (близько 2 секунд на кожну книгу в колекції). "
-"Тому, якщо у вас переповнена колекція, це може зайняти багато часу."
+"Цей пошук може бути повільним (близько 2 секунд на кожну книгу в добірці). "
+"Тому в переповнених добірках пошук може тривати довго."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3448-9
-#, fuzzy
 msgid ""
 "Search function depends on where you are in the <span "
 "class=\"ui\">collections</span> window. If you are at the root level where "
@@ -9136,26 +9060,24 @@ msgid ""
 "to tap and enter the collection. This is especially important if you are "
 "also searching in the book texts because it is a slow operation."
 msgstr ""
-"Функція пошуку залежить від того, де ви знаходитесь у вікні <span "
-"class=\"ui\">колекцій</span>. Якщо ви знаходитесь на кореневому рівні, де "
-"можете бачити всі свої колекції, пошук буде виконано по всіх колекціях. Якщо "
-"ви хочете шукати лише в певній колекції, вам потрібно натиснути та ввести "
-"колекцію. Це особливо важливо, якщо ви також шукаєте в текстах книг, "
-"оскільки це повільна операція."
+"Функція пошуку залежить від того, де ви знаходитесь у вікні <span class="
+"\"ui\">добірок</span>. Якщо ви знаходитесь у кореневому рівні, де можете "
+"бачити усі свої добірки, пошук буде виконано по усіх добірках. Якщо ж ви "
+"хочете шукати лише у певній добірці, необхідно торкнутися та вказати "
+"добірку. Це особливо важливо, якщо ви також шукаєте в текстах книг, оскільки "
+"це повільна операція."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3450-9
-#, fuzzy
 msgid ""
 "When you perform a search, results will be automatically saved as a new "
 "collection."
 msgstr ""
-"Під час виконання пошуку результати автоматично зберігатимуться як нова "
-"колекція."
+"Під час виконання пошуку результати будуть автоматично збережені як нова "
+"добірка."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3454-1
-#, fuzzy
 msgid "Automatically synchronizing collections with folders"
-msgstr "Автоматична синхронізація колекцій з папками"
+msgstr "Автоматична синхронізація добірок з теками"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3456-5
 msgid ""
@@ -9176,25 +9098,22 @@ msgstr ""
 "<span class=\"ui\">під'єднаних тек</span> добірок."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3458-5
-#, fuzzy
 msgid ""
 "With this feature you can connect one or more folders to your collection. "
 "After that, KOReader will (re)scan the folders to add or remove books from "
 "your collections in these conditions:"
 msgstr ""
-"За допомогою цієї функції ви можете підключити одну або декілька папок до "
-"своєї колекції. Після цього KOReader (повторно) просканує папки, щоб додати "
-"або видалити книги з ваших колекцій за таких умов:"
+"За допомогою цієї функції можна під'єднувати до своєї добірки одну чи "
+"декілька тек. Після цього KOReader (пере)сканує теки, щоб додати або "
+"вилучити книги з ваших добірок за таких умов:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3461-9
-#, fuzzy
 msgid "When connecting a folder to a collection"
-msgstr "Під час підключення папки до колекції"
+msgstr "При під'єднанні теки до добірки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3462-9
-#, fuzzy
 msgid "When including subfolders of a connected folder"
-msgstr "Під час включення підпапок підключеної папки"
+msgstr "При від'єднанні підтек раніше під'єднаної теки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3463-9
 msgid "When showing the collection"
@@ -9205,28 +9124,24 @@ msgid "On program start"
 msgstr "При запуску програми"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3468-5
-#, fuzzy
 msgid "How to connect a folder to your collection:"
-msgstr "Як підключити папку до вашої колекції:"
+msgstr "Як під'єднати теку до добірки:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3473-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3473-9"
 msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
 msgstr ""
-"Перейдіть на екран <span class=\"ui\">Колекції</span>, який показано на "
+"Перейдіть до екрану <span class=\"ui\">Добірки</span>, який показано на "
 "зображенні вище."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3474-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3474-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
-"Довго натискайте на назву колекції, папки якої потрібно об’єднати <b>(1)</b>."
+msgstr "Затисніть назву добірки, до якої потрібно під'єднати теки <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3475-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3475-9"
@@ -9243,66 +9158,58 @@ msgid "<span class=\"ui\">List of connected folders screen</span> will open."
 msgstr "Відкриється <span class=\"ui\">екран списку під'єднаних тек</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3477-9
-#, fuzzy
 msgid ""
 "Add a folder by pressing the <span class=\"ui\">PLUS icon</span> at the top "
 "left corner of that screen, which will open the <span class=\"ui\">Folder "
 "chooser screen</span>."
 msgstr ""
-"Додайте папку, натиснувши значок <span class=\"ui\">PLUS</span> у верхньому "
-"лівому куті цього екрана, що відкриє <span class=\"ui\">екран вибору папок</"
-"span>."
+"Додайте теку, натиснувши <span class=\"ui\">значок + (плюс)</span> у "
+"верхньому лівому куті екрана, що відкриє <span class=\"ui\">екран вибору "
+"тек</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3479-9
-#, fuzzy
 msgid "Repeat the last item if you want to connect more folders."
-msgstr "Повторіть останній пункт, якщо потрібно підключити більше папок."
+msgstr "Якщо потрібно під'єднати більше тек – повторіть останній пункт."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3482-5
-#, fuzzy
 msgid ""
 "Collections with connected folders will have a <span class=\"ui\">folder "
 "icon</span> as you can see from the image above <b>(3)</b>."
 msgstr ""
-"Колекції з підключеними папками матимуть <span class=\"ui\">значок папки</"
+"Добірки з під'єднаними теками будуть мати <span class=\"ui\">значок теки</"
 "span>, як видно на зображенні вище <b>(3)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3484-5
-#, fuzzy
 msgid ""
 "You might want to include subfolders of a folder too for synchronization. In "
 "the <b>step 4</b> above, when you open the <span class=\"ui\">List of "
 "connected folders screen</span>, you can long-press on a folder to <span "
 "class=\"ui\">include/exclude subfolders</span> from the popup menu."
 msgstr ""
-"Можливо, вам також знадобиться включити підпапки папки для синхронізації. У "
-"<b>кроці 4</b> вище, коли ви відкриваєте екран <span class=\"ui\">Список "
-"підключених папок</span>, ви можете довго натискати на папку, щоб <span "
-"class=\"ui\">включити/виключити підпапки</span> у спливаючому меню."
+"Можливо, потрібно буде також увімкнути синхронізацію підтек. . У <b>кроці 4</"
+"b> вище, після відкриття екрану <span class=\"ui\">Список під'єднаних тек</"
+"span>, можна затиснути теку, щоб <span class=\"ui\">увімкнути/вимкнути "
+"підтеки</span> у зринаючому меню."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3487-5
-#, fuzzy
 msgid "How to disconnect a folder from your collection:"
-msgstr "Як від’єднати папку від вашої колекції:"
+msgstr "Як від'єднати теку від добірки:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3490-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3490-9"
 msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
 msgstr ""
-"Перейдіть на екран <span class=\"ui\">Колекції</span>, який показано на "
+"Перейдіть до екрану <span class=\"ui\">Добірки</span>, який показано на "
 "зображенні вище."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3491-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:3491-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
-"Довго натискайте на назву колекції, папки якої потрібно об’єднати <b>(1)</b>."
+msgstr "Затисніть назву добірки, до якої потрібно під'єднати теки <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3492-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3492-9"
@@ -10979,7 +10886,7 @@ msgstr "Перемкнути власний зміст"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
 msgid "Toggle custom hidden flows"
-msgstr "Горизонтальне перекриття"
+msgstr "Перемкнути власні приховані частини"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
 msgid "Set highlight action"
@@ -11063,8 +10970,9 @@ msgid "Margin"
 msgstr "Поле"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
+#, fuzzy
 msgid "Horizontal overlap"
-msgstr "Корекція нахилу"
+msgstr "Горизонтальне перекриття"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Vertical overlap"
@@ -11155,7 +11063,7 @@ msgstr "Стовпці документа"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Auto straighten"
-msgstr "Автовирівнювання"
+msgstr "Корекція нахилу"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4034-1
 msgid "Keyboard Shortcuts"
@@ -14242,8 +14150,8 @@ msgid ""
 "<span class=\"ui\">Auto straighten</span> feature (which allows you to "
 "adjust the tilt of the page) might also slow down your reader."
 msgstr ""
-"<span class=\"ui\">Автовирівнювання</span>, що дозволяє скорегувати нахил "
-"сторінки, також може сповільнювати роботу пристрою."
+"<span class=\"ui\">Корекція нахилу</span> дозволяє скорегувати нахил "
+"сторінки, однак також може сповільнювати роботу пристрою."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4933-9
 msgid ""
