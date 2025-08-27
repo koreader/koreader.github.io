@@ -3495,98 +3495,98 @@ line-height: 2rem;
 
         <p>Як приклад, уявіть, що під час читання певних типів книг ви завжди:</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
+            <li>Повертаєте екран у альбомну орієнтацію</li>
             <li>Збільшуєте розмір шрифту і контраст та</li>
-            <li>Turn the screen light on</li>
+            <li>Вмикаєте підсвічування екрану</li>
         </ul>
         
         <p>За допомогою модуля профілів все це можна робити одночасно єдиним дотиком.</p>
 
-        <p>You can run a profile manually but real power of profiles can be unleashed with its <span class="ui">auto-execute</span> feature. Using this feature, you can trigger a profile depending on some conditions. Here is the link to the relevant section of the guide: <a href="#L2-profileautoexec">Profile auto-execution</a>. For now we will just explain one trigger condition here: <span class="ui">Collections</span>.</p>
+        <p>Профіль можна запускати власноруч, але справжню силу профілів можна розкрити завдяки функції <span class="ui">автоматичного виконання</span>. За допомогою цієї функції можна запускати профіль залежно від певних умов. Ось посилання на відповідний розділ посібника: <a href="#L2-profileautoexec">Автоматичне виконання профілю</a>. Тут буде пояснено лише одну умову запуску: <span class="ui">Добірки</span>.</p>
 
-        <p>Basically you can create some profiles and set them to auto-execute if an opened book is in some specific collection. Some useful examples:</p>
+        <p>По суті, можна створити кілька профілів і налаштувати їх автоматичне виконання за умови, що відкрита книга знаходиться у певній добірці. Ось кілька корисних прикладів:</p>
 
         <ul>
-            <li>You can add all your manga to a <b>Manga</b> collection and make a profile to switch the page turn direction to <b>Right-To-Left</b> and to invert page turn taps and swipes when you open a manga book from this collection.</li>
-            <li>You can add your comic books to a collection, which can trigger a profile to decrease the screen refresh interval to <span class="ui">every page</span> to avoid ghosting.</li>
-            <li>You can add your problematic PDFs to a collection, so when you open them <span class="ui">Auto OCR</span> or <span class="ui">Reflow mode</span> is activated with a profile.</li>
+            <li>Ви можете додати всю свою манґу до добірки «<b>Манґа</b>» та створити профіль, щоб змінити напрямок гортання сторінок на гортання <b>справа наліво</b>, а також інвертувати дотики та протягування пальцем у відкритій з цієї добірки книзі манґи.</li>
+            <li>Можна додати книгу мальописів до добірки, що може активувати профіль у якому діє зменшений інтервал повного оновлення екрана до <span class="ui">кожної сторінки</span>, що дозволить уникнути артефактів від попередніх сторінок на екрані.</li>
+            <li>Можна додати до добірки проблемні PDF-файли, щоб під час їх відкриття разом з профілем активувалося <span class="ui">примусове OCR</span> (оптичне розпізнавання символів) або <span class="ui">режим перекомпонування</span>.</li>
         </ul>
 
 
 
 <div class="L2-Sub-heading" id="L2-optimizing">Оптимізація документів EPUB/PDF для вашого пристрою читання</div>
 
-    <p>KOReader can reflow PDF documents (this option can be found in the bottom menu while reading a fixed-layout document like PDF) to make them suitable for the small screens of e-readers. But for best results, you may want to convert your documents into more flexible EPUB format.</p>
+    <p>KOReader може перекомпоновувати PDF-документи (цю функцію знайти в нижньому меню під час читання документа з фіксованим макетом, на зразок PDF), щоб зробити їх зручнішими для читання на невеликих екранах е-читалок. Ще кращі результати дає конвертування файлів у гнучкіший формат EPUB, яке можна виконувати на комп'ютері.</p>
 
-    <p>Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).</p>
+    <p>Найпоширенішими програмами для конвертації або оптимізації документів для читання на мобільних пристроях є <span class="external">Calibre</span> (орієнтований на <b>EPUB, Kindle</b>) та <span class="external">K2pdfopt</span> (орієнтований на <b>PDF</b>).</p>
 
-    <p><a href="https://calibre-ebook.com/">Calibre</a> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. </p>
+    <p><a href="https://calibre-ebook.com/">Calibre</a> може конвертувати документи між багатьма форматами. Він також має вбудований редактор, який дозволяє редагувати е-книги (та виправляти проблеми) у найпопулярніших форматах е-книг, EPUB та Kindle. </p>
 
-    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool.</p>
+    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> оптимізує файли PDF/DJVU для е-читалок та смартфонів. Він добре працює з багатоколонковими файлами PDF/DJVU та може переформатувати текст навіть у сканованих PDF-файлах. Його також можна використовувати як загальний інструмент для копіювання, обрізання, зміни розміру та OCR-маніпуляцій з PDF.</p>
 
-    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> is a command line application which can add an OCR text layer to scanned PDF files (containing only images without text), allowing them to be searched or copy-pasted. It can especially be useful for reading old scanned books. It can also optimize the images for a smaller file size.</p>
+    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> – це програма командного рядка, яка може додавати оптично розпізнаний (OCR) текстовий шар до сканованих PDF-файлів, що містять лише зображення без текстового шару. Це дозволяє здійснювати пошук у тексті фалу та копіювати його текст. Це може бути особливо корисно для читання старих сканованих книг. Програма також може оптимізувати зображення, щоб зменшити розмір файлу.</p>
 
-    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a <b>single .html file</b> with all the resources (images, stylesheets, scripts) embedded.</p>
+    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> – це розширення для вебоглядачів <b>Mozilla Firefox, Google Chrome</b> та <b>Microsoft Edge</b>. Воно дозволяє зберігати вебсторінку з усіма ресурсами як <b>єдиний файл .html</b> (зображеннями, таблицями стилів, скриптами).</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-metadatastorage">Book metadata storage options</div>
+<div class="L2-Sub-heading" id="L2-metadatastorage">Варіанти зберігання метаданих книги</div>
 
 	<p><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></p>
 
-	<p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+	<p>KOReader зберігає налаштування та додаткову пов'язану з кожною книгою інформацію у одній теці з файлом цієї книги. Ми називаємо це <b>метаданими</b> і вони включають:</p>
 	<ul>
-		<li>Visual settings for the book</li>
+		<li>Візуальні налаштування для книги</li>
 		<li>Поступ читання книги</li>
-		<li>Highlights, bookmarks and notes</li>
+		<li>Виділення, закладки та нотатки</li>
 	</ul>
 	
-	<p>In a recent change, we added new ways of storing this metadata to solve certain problems related to synchronization between devices. Currently there are three different methods to store the metadata and each method has its own benefits/negatives.</p>
+	<p>У нещодавній зміні ми додали нові способи зберігання цих метаданих, щоб вирішити певні проблеми, пов'язані із синхронізацією між пристроями. Наразі існує три різні способи зберігання метаданих, і кожен з них має свої переваги та недоліки.</p>
 
 	<p>Даний параметр можна змінити з цього меню:</p>
 
 	<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Документ / Розташування метаданих книги</div>
 
 	
-	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> We strongly advise reading the section below to understand the differences and how each method works before making any changes. Otherwise there is a risk of losing your book settings, progress and annotations.</p></div>
+	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">ПОПЕРЕДЖЕННЯ</span> Перш ніж вносити будь-які зміни, ми наполегливо рекомендуємо прочитати нижченаведений розділ, щоб зрозуміти відмінності та принцип роботи кожного способу. В іншому випадку існує ризик втрати налаштувань книги, поступу читання та анотацій.</p></div>
 
 
 
-<div class="L3-Smaller-heading">1. Individual metadata folders next to the book files - DEFAULT SETTING</div>
+<div class="L3-Smaller-heading">1. Окремі теки метаданих поруч з файлами книги – ТИПОВІ НАЛАШТУВАННЯ</div>
 
 		<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Документ / Розташування метаданих книги: тека книги</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>Цей спосіб є <b>типовим</b> і він використовується під час нового встановлення KOReader. При використанні цього способу, коли ви копіюєте файл <b>Чорний Ворон.epub</b> на свій пристрій та відкриваєте його вперше, у тій же теці створюється тека з назвою <span class="ui">Чорний Ворон.sdr</span>. Ця тека містить файли з вашими налаштуваннями, анотацією та поступом читання цієї книги.</p>
 
 	<p><b><span class="label_green">Переваги</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>Для кожної книги можна власноруч створювати резервні копії налаштувань та відновлювати їх.</li>
+			<li>При виконанні синхронізації тек чи резервному копіюванні за допомогою систем на зразок <b>Syncthing</b> або <b>Dropbox</b>, ваші налаштування будуть синхронізуватися разом з книгами.</li>
+			<li>Можна перейменувати батьківську теки, де знаходиться книга і це не заплутає KOReader.</li>
 		</ul>
 
 	<p><b><span class="label_red">Недоліки</span></b></p>
 		<ul>
-			<li>If you reorganize your library by moving/renaming the book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
-			<li>These <b>.sdr</b> folders will be visible when you browse your library directories with another file browser or from your computer, which may clutter your view.</li>
+			<li>Якщо реорганізовувати бібліотеку шляхом переміщення чи перейменування файлів книг або пов'язаних з ними тек .sdr поза межами Оглядача файлів KOReader, то метадані цих книг буде втрачено без будь-якого попередження.</li>
+			<li>Теки <b>.sdr</b> будуть видимими під час перегляду тек бібліотеки за допомогою іншого файлового оглядача на пристрої або з комп’ютера, що може захаращувати перегляд тек на екрані.</li>
 		</ul>
 	
 
 
-<div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">2. Теки метаданих всередині однієї теки KOReader</div>
 
 	<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Документ / Розташування метаданих книги: .../koreader/docsettings</div>
 
-<p>This method is essentially same as the default one above. The difference is, in this method, all <b>.sdr</b> folders of your books will be under a single directory <b>which is under the KOReader main directory structure</b>, instead of your library directory, next to the book files.</p>
+<p>Цей спосіб по своїй суті такий самий, як і вищеописаний типовий. Різниця полягає в тому, що в цьому способі усі теки <b>.sdr</b> замість тек поруч з файлами книг будуть знаходитися у єдиній теці, <b>яка розташована всередині основної теки KOReader</b>.</p>
 
 	<p><b><span class="label_green">Переваги</span></b></p>
 	<ul>
-		<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+		<li>Теки книг <b>.sdr</b> будуть видимі та використовуватимуться лише KOReader. Вони не захаращуватимуть перегляд тек бібліотеки під час перегляду бібліотеки за допомогою іншого файлового оглядача або з комп’ютера.</li>
 	</ul>
 
 	<p><b><span class="label_red">Недоліки</span></b></p>
 	<ul>
-		<li>If you reorganize your library by moving/renaming the moving/renaming library directories, book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
+		<li>Якщо реорганізовувати бібліотеку шляхом переміщення чи перейменування тек бібліотеки, файлів книг або пов'язаних з ними тек .sdr поза межами Оглядача файлів KOReader, то метадані цих книг буде втрачено без будь-якого попередження.</li>
 
 		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
 	</ul>
@@ -4403,9 +4403,9 @@ line-height: 2rem;
 
         <p>Як приклад, уявіть, що під час читання певних типів книг ви завжди:</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
+            <li>Повертаєте екран у альбомну орієнтацію</li>
             <li>Збільшуєте розмір шрифту і контраст та</li>
-            <li>Turn the screen light on</li>
+            <li>Вмикаєте підсвічування екрану</li>
         </ul>
         
         <p>За допомогою модуля профілів все це можна робити одночасно єдиним дотиком.</p>

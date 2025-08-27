@@ -1019,7 +1019,7 @@ line-height: 2rem;
         </ul>
     </li>
 
-        <li><a href="#L1-qmandprofiles">QUICK MENU AND PROFILES</a>
+        <li><a href="#L1-qmandprofiles">MENU RAPIDE ET PROFILS</a>
         <ul>
             <li><a href="#L2-quickmenu">Quick Menu</a></li>
             <li><a href="#L2-quickmenutips">Quick Menu tips</a></li>
@@ -1395,7 +1395,7 @@ line-height: 2rem;
     
     <img loading="lazy" src="pictures/auto_warmth_explanation.png" style="width:100%;">
 
-    <div class="L3-Smaller-heading"><span class="label_green">TIP</span> As indicated in the image above, <span class="ui">top menu</span> opening zone is divided into 3 areas. If you swipe down the first 1/3 of the top edge, <span class="ui">top menu</span> opens with the <b>first menu tab</b>. Second 1/3 area opens the <b>most recently used menu tab</b>. And last area opens the <b>last menu tab</b>.</div>
+    <div class="L3-Smaller-heading">Mode horaire fixe</div>
 
 	<ol>
 		<li>Go to the plugin menu: <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Screen / Auto Warmth and Night Mode</div></li>
@@ -3086,7 +3086,7 @@ line-height: 2rem;
     
 <div class="L3-Smaller-heading">Advanced preparation of manga</div>
     
-    <p>Page Browser</p>
+    <p>Voici un exemple de procédure pour traiter un fichier manga :</p>
 
     <ul>
         <li>Download <span class="external">Kindle Comic Converter (KCC)</span> from <a href="https://github.com/ciromattia/kcc">https://github.com/ciromattia/kcc</a></li>
@@ -3786,17 +3786,17 @@ line-height: 2rem;
                 <li>Browse all calibre titles</li>
                 <li>Calibre wireless connect</li>
                 <li>Calibre wireless disconnect</li>
-                <li>Reading statistics: toggle</li>
+                <li>Statistiques de lecture : activer/désactiver</li>
                 <li>Reading statistics: show progress</li>
                 <li>Reading statistics: show time range</li>
-                <li>Reading statistics: show calendar view</li>
-                <li>Reading statistics: show today's timeline</li>
+                <li>Statistiques de lecture : afficher le calendrier</li>
+                <li>Statistiques de lecture : afficher le calendrier</li>
                 <li>Reading statistics: synchronize</li>
                 <li>Text editor: open last file</li>
                 <li>Ouvrir le générateur de vocabulaire</li>
                 <li>Wallabag retrieval</li>
                 <li>Wallabag queue upload</li>
-                <li>Wallabag statuses upload</li>
+                <li>Téléchargement des statuts Wallabag</li>
                 
                 <li>Reading progress</li>
                 <li>Toggle SSH server</li>
@@ -3971,7 +3971,7 @@ line-height: 2rem;
                 <li>Cycle highlight style</li>
                 <li>Save book metadata</li>
                 <li>Export annotations</li>
-                <li>Export all notes in current book</li>
+                <li>Exporter toutes les notes du livre actuel</li>
                 <li>Export all notes in all books in history</li>
                 <li>Move current book to archive</li>
                 <li>Reading statistics: current book</li>
@@ -4300,7 +4300,7 @@ line-height: 2rem;
 
 <!-- ANCHOR QUICK MENU AND PROFILES -->
 
-    <div class="L1-Chapter-heading" id="L1-qmandprofiles">QUICK MENU AND PROFILES</div>
+    <div class="L1-Chapter-heading" id="L1-qmandprofiles">MENU RAPIDE ET PROFILS</div>
 
 
     <div class="L2-Sub-heading" id="L2-quickmenu">Quick Menu</div>
@@ -4712,12 +4712,12 @@ line-height: 2rem;
         <p> Names starting with:</p>
         
         <ul>
-            <li>✅ MuPDF (Windows/Android)</li>
-            <li>⚠️ Zathura (if MuPDF plugin is enabled)</li>
-            <li>❌ Adobe Acrobat Reader</li>
-            <li>❌ Evince (Linux)</li>
-            <li>❌ Foxit Reader</li>
-            <li>❌ LibreOffice Draw (as editor)</li>
+            <li><b>0</b> - Executed very early and only once after an update</li>
+            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
+            <li><b>2</b> - Executed after <span class="ui">UIManager</span> is ready on every start of KOReader</li>
+            <li><b>3-7</b> - Réservé</li>
+            <li><b>8</b> - Exécuté avant la fermeture et avant l'enregistrement des paramètres</li>
+            <li><b>9</b> - Exécuté juste avant la sortie</li>
         </ul>
         
         <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
