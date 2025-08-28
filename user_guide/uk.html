@@ -867,12 +867,12 @@ line-height: 2rem;
     <table class="grid-table" style="width: 100%;  margin-left: auto; margin-right: auto;">
         <tr>
             <td><p style="text-indent: 0em; line-height: 1.8rem; text-align: center;">
-		<span style="color: var(--blue-color); font-weight: bold;font-size: 1rem;">ЧАСТИНИ KOREADER (синій)</span></p></td>
+		<span style="color: var(--blue-color); font-weight: bold;font-size: 1rem;">ЧАСТИНИ KOREADER (блакитний)</span></p></td>
             <td><span class="ui">Смуга стану, Мапа книги…</span></td>
         </tr>
         <tr>
             <td><p style="text-indent: 0em; line-height: 1.8rem; text-align: center;">
-                <span style="color:var(--green-color); font-weight: bold;font-size: 1rem;">ШЛЯХИ МЕНЮ (зелений)</span></p></td>
+                <span style="color:var(--green-color); font-weight: bold;font-size: 1rem;">ШЛЯХИ МЕНЮ (яснозелений)</span></p></td>
             <td><div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Стиль виділення</div></td>
         </tr>
         <tr>
@@ -1864,7 +1864,7 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Повернутись до попереднього розташування</div>
+<div class="L3-Smaller-heading">Повернутися до попереднього місця</div>
 
     <p>Ця корисна функція працює аналогічно кнопці «<b>Назад</b>» у вебоглядачі. Коли ви перескакуєте до якоїсь іншої частини книги використовуючи <span class="ui">віджет проглядання, список закладок, мапу книги</span> тощо. KOReader запам'ятовує попереднє розташування. Це дуже корисно коли ви, наприклад, перейшли за внутрішнім чи зовнішнім посиланням. Одним дотиком ви можете повернутися туди, звідки прийшли. Доступ до цієї функції можна отримати з:</p>
 
@@ -3588,34 +3588,34 @@ line-height: 2rem;
 	<ul>
 		<li>Якщо реорганізовувати бібліотеку шляхом переміщення чи перейменування тек бібліотеки, файлів книг або пов'язаних з ними тек .sdr поза межами Оглядача файлів KOReader, то метадані цих книг буде втрачено без будь-якого попередження.</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>Оскільки метадані вашої книги не будуть у теках вашої бібліотеки, будь-яка синхронізація чи резервні копії вашої бібліотеки не включатимуть їх.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">3. Окремі теки метаданих HASHED у одній теці KOReader</div>
 
 	<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Документ / Розташування метаданих книги: .../koreader/hashdocsettings</div>
 
-	<p>This method is similar to the previous one as the <b>.sdr</b> folders will be under an internal directory. But this method is developed to address the shortcomings of the previous method. Because, normally if you rename a book outside KOReader (with the native file manager/reader of the device or from a connected computer), its <b>.sdr</b> folder name will no longer match and your metadata for that book will be lost. <b>If you are only using the KOReader File Browser for file operations, this is automatically handled so there are no repercussions.</b></p>
+	<p>Цей спосіб схожий на попередній, оскільки теки <b>.sdr</b> будуть знаходитися у внутрішній теці. Але цей спосіб розроблений для усунення недоліків попереднього. Зазвичай, якщо при перейменуванні файлу книги поза KOReader (за допомогою вбудованого файлового оглядачі чи з підключеного комп’ютера), назва пов'язаної з нею теки <b>.sdr</b> більше не збігатиметься і метадані для цієї книги будуть втрачені. <b>Якщо для операцій з файлами використовувати лише Оглядач файлів KOReader для операцій з файлами, тоді такої проблеми не виникає, що KOReader автоматично перейменовує пов'язану теку з метаданими одночасно з перейменуванням файлу книги.</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>У цьому способі <b>HASHED</b> теки <b>.sdr</b> не ідентифікуються місцезнаходженням чи назвою файлу книги. Натомість, для пов'язування книг з їхніми налаштуваннями використовується частковий <b>хеш MD5</b>. Цей хеш використовується як унікальний ідентифікатор книги та розраховується на основі <b>вмісту файлу книги</b>. Той самий хеш також використовується для найменування її теки .sdr.</p>
 		
 
 	<p><b><span class="label_green">Переваги</span></b></p>
 		<ul>
-			<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+			<li>Теки <b>.sdr</b> книг будуть видимі та використовуватимуться лише KOReader. Вони не захаращуватимуть перегляд тек бібліотеки під час їх за допомогою іншого файлового оглядача чи з комп’ютера.</li>
 
-			<li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+			<li>Можна перейменовувати, переміщувати та копіювати книги за допомогою іншого файлового оглядача чи з комп’ютера. KOReader все одно розпізнає книги після цих операцій.</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>У цьому способі KOReader пов’язує ту саму теку <b>.sdr</b> з усіма копіями книги, навіть якщо ці копії знаходяться на різних пристроях. Наприклад, якщо ви використовуєте <b>Syncthing</b>, цей спосіб дозволяє синхронізувати теку <span class="ui">/hashdocsettings</span> разом з файлами книг на багатьох пристроях, на яких встановлено KOReader. Незважаючи на різні відносні шляхи до цих книг на кожному пристрої, ви все одно можете синхронізувати свої анотації та поступ читання на усіх своїх пристроях. Це неможливо за допомогою інших способів зберігання метаданих і налаштувань книг.</li>
 		</ul>
 
 		<p><b><span class="label_red">Недоліки</span></b></p>
 		<ul>
-			<li>Any operations that modify the file directly (such as writing highlights into PDFs or downloading from <b>Calibre</b>) will change the file so its <b>MD5 ID will change</b> (unlike renaming or moving which is safe with this method). In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+			<li>Будь-які операції, що безпосередньо змінюють файл (наприклад, запис виділень у PDF-файли чи завантаження з <b>Calibre</b>), призведуть до <b>зміни його MD5 ID зміниться</b> (на відміну від перейменування чи переміщення, які не шкідливі для цього способу). У цьому випадку KOReader не зможе розпізнати книгу, тому такі книги втратять свої метадані.</li>
 
-			<li>Calculating file IDs may slow down <span class="ui">File browser</span> navigation when browsing larger directories.</li>
+			<li>Обчислення ідентифікаторів файлів може уповільнити навігацію в <span class="ui">Оглядачі файлів</span> під час перегляду більших тек.</li>
 		</ul>
 
 
@@ -3698,7 +3698,7 @@ line-height: 2rem;
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">Наперед визначені жести</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    У цій таблиці наведено жести, які типово налаштовані у KOReader. Їх можна змінити відповідно до своїх уподобань за допомогою:</p>
 
 
     <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Менеджер жестів</div>
@@ -3729,20 +3729,20 @@ line-height: 2rem;
     <hr>
 
     <div class="L3-Smaller-heading">МУЛЬТИЖЕСТИ</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
-    <p><span style="font-family: microns;"></span> - Skim document</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
+    <p><span style="font-family: microns;"></span> – Назад до попереднього місця</p>
+    <p><span style="font-family: microns;"></span> – Перейти до найновішої закладки</p>
+    <p><span style="font-family: microns;"></span> – Проглянути документ</p>
+    <p><span style="font-family: microns;"></span> – Закладки</p>
     <p><span style="font-family: microns;"></span> – Зміст</p>
-    <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
+    <p><span style="font-family: microns;"></span> – Показати діалог підсвічування</p>
     <p><span style="font-family: microns;"></span> – Перемкнути перекомпонування</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
-    <p><span style="font-family: microns;"></span> - Next chapter</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
+    <p><span style="font-family: microns;"></span> – Історія</p>
+    <p><span style="font-family: microns;"></span> – Стан книги</p>
+    <p><span style="font-family: microns;"></span> – Перейти до сторінки</p>
+    <p><span style="font-family: microns;"></span> – Назад</p>
+    <p><span style="font-family: microns;"></span> – Попередній розділ</p>
+    <p><span style="font-family: microns;"></span> – Наступний розділ</p>
+    <p><span style="font-family: microns;"></span> – Відкрити попередній документ</p>
     <p><span style="font-family: microns;"></span> – Обране</p>
 
     </div>
@@ -3752,9 +3752,9 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">Категорії жестів</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        Це список усіх дій, виконання яких можна призначити на жест за допомогою меню <span class="ui">Менеджер жестів</span>. Щоб швидко знайти в цьому списку певну дію, можна скористатися функцією пошуку вебоглядача (зазвичай <b>Ctrl+F</b>). Ці дії також можна використовувати у власному <span class="ui">Швидкому меню</span>. Додаткова інформація про це наведена у відповідному розділі цього посібника.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> When chooosing an action for a gesture, you will see a special item in the list named <span class="ui">pass through</span>. This action is used to keep the default behavior of that gesture, like text selection when long pressing near the corners. If you want to disable a gesture to avoid accidental actions, choose <span class="ui">nothing</span> as the action. In other words <span class="ui">pass through</span>=<b>another handler might act on it</b>, <span class="ui">nothing</span>=<b>swallow the action</b>.</div>
+    <div class="info"><span class="label_blue">ІНФОРМАЦІЯ</span> При виборі дії для жесту в списку буде відображатися спеціальний елемент під назвою <span class="ui">Пропустити</span>. Ця дія використовується для збереження типової поведінки цього жесту, наприклад, виділення тексту під час затискання біля кутів. Якщо бажаєте вимкнути жест, щоб уникнути випадкових дій, виберіть в якості дії <span class="ui">Нічого</span>. Іншими словами, <span class="ui">Пропустити</span>=<b>інший обробник може вплинути на нього</b>, <span class="ui">Нічого</span>=<b>проковтнути дію</b>.</div>
 
 
     <div class="centering-div">
@@ -3792,7 +3792,7 @@ line-height: 2rem;
                 <li>Статистика читання: показати календар</li>
                 <li>Статистика читання: показати хронологію за сьогодні</li>
                 <li>Статистика читання: синхронізувати</li>
-                <li>Text editor: open last file</li>
+                <li>Текстовий редактор: відкрити останній файл</li>
                 <li>Відкрити конструктор словника</li>
                 <li>Пошук у Wallabag</li>
                 <li>Вивантаження черги Wallabag</li>
@@ -3942,7 +3942,7 @@ line-height: 2rem;
                 <li>Остання закладка</li>
                 <li>Найпізніша закладка</li>
                 <li>Назад</li>
-                <li>Повернутись до попереднього місця</li>
+                <li>Назад до попереднього місця</li>
                 <li>Циклічна дія виділення</li>
                 <li>Перейти за найближчим посиланням</li>
                 <li>Перейти за найближчим внутрішнім посиланням</li>
@@ -3990,7 +3990,7 @@ line-height: 2rem;
                 <li>Перемкнути масштаб панелі</li>
                 <li>Обтинання сторінки</li>
                 <li>Поле</li>
-                <li>Horizontal overlap</li>
+                <li>Горизонтальне перекриття</li>
                 <li>Вертикальне перекриття</li>
                 <li>Допасувати</li>
                 <li>Збільшити до</li>
@@ -4022,28 +4022,28 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-keyboardshortcuts">Сполучення клавіш</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>Якщо у вас є пристрій із клавіатурою, наприклад <b>Kindle 2</b> та <b>Kindle 3</b>, включаючи Bluetooth-клавіатури та емулятори, тоді для керування KOReader можна використовувати клавіші клавіатури, кнопки пристрою та комбінації клавіш. Також підтримується <b>Kindle 4</b>, якому бракує повноцінної клавіатури, але все ще достатньо кнопок для функціональності в цьому контексті. На цих пристроях KOReader активує додаткове меню під назвою <span class="ui">Комбінації клавіш</span>, до якого можна отримати доступ тут:</p>
 
 <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Навігація / Фізичні кнопки / Сполучення клавіш</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>Це меню дуже схоже до інтерфейсу <span class="ui">Менеджера жестів</span>. У цьому меню:</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>Можна побачити комбінації клавіш, доступні на поточному пристрої</li>
+        <li>Можна побачити наперед визначені дії для деяких комбінацій клавіш</li>
+        <li>Можна призначити дії доступним комбінаціям клавіш</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p>Усі дії в <span class="ui">Менеджері жестів</span> також доступні для призначення комбінацій клавіш. Це означає, що за допомогою цих комбінацій клавіш можна керувати майже усіма функціями KOReader.</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>У нижченаведеній таблиці можна побачити призначення клавіш та типові комбінацій клавіш:</p>
 
 
     
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Universal <span class="ui">screenshot</span> key is <b>Alt + Shift + G</b>. It is available on all screens, modes and platforms. On Kindle 4, it is <b>Keyboard + Menu</b>.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">ІНФОРМАЦІЯ</span> Універсальна комбінація клавіш, щоб зробити <span class="ui">знімок екрану</span> – це <b>Alt + Shift + G</b>. Вона доступна на усіх екранах, у всіх режимах та на всіх платформах. На Kindle 4 – це кнопки <b>Клавіатура + Меню</b>.</p></div>
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> If you have a Kindle 4, <b>SHIFT</b> key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift + (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/DOWN/LEFT/RIGHT)</b> on your Kindle 4.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">ІНФОРМАЦІЯ</span> На Kindle 4 клавіша <b>Shift</b> у нижченаведеній таблиці відповідає кнопці <b>Keyboard</b>. Отже, комбінації клавіш <b>Shift + Вгору/Вниз/Вліво/Вправо</b> відповідають комбінаціям клавіш <b>кнопка Клавіатура + Вгору/Вниз/Вліво/Вправо</b> на Kindle 4.</p></div>
 
 
     <div class="centering-div">
@@ -4070,7 +4070,7 @@ line-height: 2rem;
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>Вийти з програми</td>
             <td><b>Esc</b></td>
         </tr>
 
@@ -4118,7 +4118,7 @@ line-height: 2rem;
             <td><div class="L3-Smaller-heading">Посилання</div></td><td></td>
         </tr>
             <tr>
-            <td>Select next page link</td>
+            <td>Вибрати наступне посилання на поточній сторінці</td>
             <td><b>Tab</b></td>
         </tr>
         <tr>
@@ -4126,7 +4126,7 @@ line-height: 2rem;
             <td><b>Shift + Tab</b></td>
         </tr>
         <tr>
-            <td>Open selected page link</td>
+            <td>Відкрити вибране на сторінці посилання</td>
             <td><b>Enter</b></td>
         </tr>
 
@@ -4155,10 +4155,10 @@ line-height: 2rem;
         </tr>
         <tr>
             <td>Переміщувати індикатор виділення</td>
-            <td><b>Left/Right<br>Up/Down</b></td>
+            <td><b>Вліво/Вправо<br>Вгору/Вниз</b></td>
         </tr>
         <tr>
-            <td>Move indicator faster</td>
+            <td>Переміщувати індикатор швидше</td>
             <td><b>Shift +<br>Вліво/Вправо/Вгору/Вниз</b></td>
         </tr>
         <tr>
@@ -4305,7 +4305,7 @@ line-height: 2rem;
 
     <div class="L2-Sub-heading" id="L2-quickmenu">Швидке меню</div>
     <p>
-        <span class="ui">Quick Menu</span> is a recent feature of KOReader which allows you to have a quickly accessible personalized menu as in the example image below. You can assign this menu to a gesture and access it with a single swipe. You can even have a menu longer than your screen, it is scrollable.</p>
+        <span class="ui">Швидке меню</span> – це нова функція KOReader, яка дозволяє швидко отримати доступ до персоналізованого меню, як на нижченаведеному зображенні. Відкриття цього меню можна призначити на жест та отримати до нього доступ одним рухом пальця. Можна мати меню навіть довше за екран, бо його можна прокручувати.</p>
 
         <p>Будь-яку дію, яка може виконуватися жестом, можна додати до <span class="ui">Швидкого меню</span>. Його переваги:</p>
 
@@ -4320,7 +4320,7 @@ line-height: 2rem;
         <img loading="lazy" src="pictures/quickmenu_example.png" style="width: 60%;">
 
         
-        <p>There are two methods of creating a <span class="ui">Quick Menu</span>: <b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</b> should be enough for you. If you want to show different menus with different gestures you need to use <b>Advanced method</b>. Another advantage of <b>Advanced method</b> is easier gesture reassignment. If you want to change the gesture for your menu, you can easily move it to another gesture with the <b>Advanced method</b> menu. If you want to use another gesture while using the <b>Easy method</b>, you have to re-create your menu under the new gesture.</p>
+        <p>Є два способи створити <span class="ui">Швидке меню</span>. <b>Простий</b> та <b>розширений</b>. Якщо вам потрібне тільки меню, <b>простого способу</b> буде достатньо. Якщо ж бажаєте, щоб за різними жестами відкривалися різні меню, тоді потрібно скористатися <b>розширеним способом</b>. Іншою перевагою <b>розширеного способу</b> є те, що якщо ви забажаєте використовувати інший жест для відкриття цього меню, то зможете просто перепризначити відкриття цього меню на інший жест. Якщо ж при використанні <b>простого способу</b> ви забажаєте відкривати меню іншим жестом, доведеться повторно створювати швидке меню для нового жесту.</p>
 
 
 
@@ -4341,13 +4341,13 @@ line-height: 2rem;
         
 
 
-<div class="L3-Smaller-heading">Розширений метод</div>
+<div class="L3-Smaller-heading">Розширений спосіб</div>
 
         <div class="info"><span class="label_blue">ІНФОРМАЦІЯ</span> Як було сказано вище, якщо ви не плануєте створювати більше одного <span class="ui">Швидкого меню</span>, цей розділ вас не стосується.</div>
 
         <p><span class="ui">Швидке меню</span> по своїй суті є <span class="ui">профілем</span>, який відображається як меню. Тож спершу варто прочитати про <span class="ui">профілі</span>. Якщо вам вже відомо як використовувати <span class="ui">профілі</span>, можете продовжувати читання цього розділу, інакше перейдіть до розділу <span class="ui">Профілі</span> (наступний після цього), створіть <span class="ui">профіль</span> з якимись елементами і поверніться суди.</p>
         
-        <p>Before continuing, we assume that you already created a <span class="ui">Profile</span> as instructed in the previous paragraph. Now we will turn our <span class="ui">Profile</span> into a <span class="ui">Quick Menu</span>.</p>
+        <p>Вважатимемо, що ви вже створити <span class="ui">профіль</span>, як описано в наступному розділі. Тепер потрібно перетворити <span class="ui">профіль</span> на <span class="ui">Швидке меню</span>.</p>
 
         <p><b>1.</b> Перейдіть до новоствореного <span class="ui">профілю</span> і увімкніть <span class="ui">Показувати у списку дій</span> (показано на зображенні нижче). Це зробить ваш <span class="ui">профіль</span> видимим у <span class="ui">Менеджері жестів</span>. Також увімкніть <span class="ui">Показати як швидке меню</span> (показано на зображенні нижче), після чого, замість непомітного виконання, ваш профіль буде показано як меню.</p>
         
@@ -4399,7 +4399,7 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-profiles">Профілі</div>
         <p>
-        A profile is basically a collection of actions that can be triggered with a single gesture (like a macro).</p>
+        По своїй суті профілі є набором жестів, який можна запустити одним дотиком (на зразок макросу).</p>
 
         <p>Як приклад, уявіть, що під час читання певних типів книг ви завжди:</p>
         <ul>
@@ -4445,26 +4445,26 @@ line-height: 2rem;
 
             <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ» / Загальне / Профіль «назва вашого профілю»</div>
             </li>
-            <li>You can also activate a profile <b>automatically</b> depending on some conditions. See the next heading to learn how to use this powerful feature.</li>
+            <li>Профіль можна також активувати <b>автоматично</b>, залежно від певних умов. Як використовувати цю функцію описано у наступному підрозділі.</li>
         </ol>
 
-		<div class="L2-Sub-heading" id="L2-profileautoexec">Profile auto-execution</div>
+		<div class="L2-Sub-heading" id="L2-profileautoexec">Автоматичне виконання профілю</div>
         
-		<p>You can run a profile manually as explained above but real power of profiles can be unleashed with its <span class="ui">auto-execute</span> feature. Using this feature, you can trigger a profile depending on some conditions and sub-conditions:</p>
+		<p>Як вже було сказано, профіль можна запустити власноруч, але справжню силу профілів можна розкрити завдяки функції <span class="ui">автоматичного виконання</span>. За допомогою цієї функції можна запустити профіль залежно від певних умов та підумов:</p>
 	
 			<table class="grid-table" align="center" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
 	
 			<tr>
-				<td><b>Trigger</b></td><td><b>Sub-conditions</b></td>
+				<td><b>Дія-активатор</b></td><td><b>Підумови</b></td>
 			</tr>
 			<tr>
-				<td><span class="ui">При запуску KOReader</span><p>Run this profile every time KOReader starts. Note that this is only possible when KOReader is starting with the <span class="ui">File browser</span> or <span class="ui">Last file</span>.</p></td><td>-</td>
+				<td><span class="ui">При запуску KOReader</span><p>Запускати цей профіль щоразу при запуску KOReader. Зверніть увагу, що це можливо лише тоді, коли KOReader запускається з <span class="ui">Оглядача файлів</span> чи <span class="ui">останнього файлу</span>.</p></td><td>-</td>
 			</tr>
 			<tr>
-				<td><span class="ui">При пробудженні</span> <p>Run this profile every time device wakes up</p></td><td>-</td>
+				<td><span class="ui">При пробудженні</span> <p>Запускати цей профіль щоразу при пробудженні пристрою</p></td><td>-</td>
 			</tr>
 			<tr>
-				<td><span class="ui">При повороті</span> <p>Run this profile when screen rotates to the selected rotation(s).</p>  <p><b>Examples:</b> Change to double column layout when device rotates to landscape. Activate night mode when device rotates upside down.</p></td>
+				<td><span class="ui">При повороті</span> <p>Запускати цей профіль при повороті екрану до вибраного положення чи положень.</p>  <p><b>Приклади:</b> Змінити макет на два стовпці коли пристрій повертається в альбомну орієнтацію. Активувати нічний режим коли пристрій повертається на 180°.</p></td>
 				<td>
 				<ul>
 				<li><span class="ui">Ліворуч 90°</span> (альбомна)</li>
@@ -4475,39 +4475,39 @@ line-height: 2rem;
 				</td>
 			</tr>
 			<tr>
-				<td><span class="ui">При показі теки</span> <p>Run this profile when you enter this folder in file browser. You can use this trigger to change the display mode of <span class="ui">file browser</span>. For example when you enter a certain folder you can change the display mode from <b>mosaic</b> to <b>detailed</b> view.</p></td>
+				<td><span class="ui">При показі теки</span> <p>Запускати цей профіль при вході до цієї теки у Оглядачі файлів. Цей активатор можна використовувати для зміни режиму відображення <span class="ui">Оглядача файлів</span>. Наприклад, при вході до певної теки можна змінити режим відображення з <b>мозаїчного</b> на <b>детальний</b>.</p></td>
 				<td><ul>
-					<li><span class="ui">If folder path contains</span> a certain text</li>
-					<li><span class="ui">If folder path doesn't contain</span> a certain text</li>
+					<li><span class="ui">Якщо шлях до теки містить</span> певний текст</li>
+					<li><span class="ui">Якщо шлях до теки не містить</span> певного тексту</li>
 				</ul></td>
 			</tr>
 			<tr>
 				<td><span class="ui">При відкритті книги</span>
-					<p>This trigger is executed when you open a book (optionally) combined with specific sub-conditions.</p>
+					<p>Цей активатор виконується при відкритті книгу (за бажанням) у поєднанні з певними підумовами.</p>
 					<p>Перші 4 підумови збігаються за допомогою оператора <b>АБО</b>, тому будь-якої з них достатньо для запуску виконання профілю.</p>
 					</td>
 					<td>
 					<ul>
-						<li>Combined with <b>device orientation</b></li>
-						<li>Combined with <b>book metadata</b></li>
-						<li>Combined with <b>book file path</b></li>
-						<li>Combined with <b>collections book is included in</b></li>
-						<li>Combined with <b>book is being opened for the first time</b></li>
+						<li>У поєднанні з <b>орієнтацією пристрою</b></li>
+						<li>У поєднанні з <b>метаданими книги</b></li>
+						<li>У поєднанні з <b>шляхом до файлу книги</b></li>
+						<li>У поєднанні з <b>добірками, до яких включена книга</b></li>
+						<li>У поєднанні з тим, що <b>книга відкривається вперше</b></li>
 					</ul>
 					</td>
 			</tr>
 			<tr>
-				<td><span class="ui">Про закриття книги</span>
-					<p>This option is same as above but it triggers when you close a book. You can use this for example enabling/disabling reading statistics when you open certain documents to exclude them from your stats.</p>
+				<td><span class="ui">При закритті книги</span>
+					<p>Ця функція така ж, як вищенаведена, але вона спрацьовує при закритті книги. Нею можна користуватися, наприклад, для увімкнення/вимкнення статистики читання під час відкриття певних документів, щоб вони не враховувалися у статистиці.</p>
 					
 				</td>
 					<td>
 					<ul>
-						<li>Combined with <b>device orientation</b></li>
-						<li>Combined with <b>book metadata</b></li>
-						<li>Combined with <b>book file path</b></li>
-						<li>Combined with <b>collections book is included in</b></li>
-						<li>Combined with <b>book is being opened for the first time</b></li>
+						<li>У поєднанні з <b>орієнтацією пристрою</b></li>
+						<li>У поєднанні з <b>метаданими книги</b></li>
+						<li>У поєднанні з <b>шляхом до файлу книги</b></li>
+						<li>У поєднанні з <b>добірками, до яких включена книга</b></li>
+						<li>У поєднанні з тим, що <b>книга відкривається вперше</b></li>
 					</ul>
 					</td>
 			</tr>
@@ -4515,45 +4515,45 @@ line-height: 2rem;
 	
 			<br><br>
 	
-			<p><b>Profile examples:</b></p>
+			<p><b>Приклади профілів:</b></p>
 	
-			<p>Here are some profile examples from our devs to give you ideas about using this powerful feature of KOReader. Examples also include auto-execute conditions and <span class="ui">collections</span> features:</p>
+			<p>Ось кілька прикладів профілів від наших розробників, які дадуть уявлення про використання цієї потужної функції KOReader. Приклади також включають умови автоматичного виконання та функції <span class="ui">добірок</span>:</p>
 	
 			<ul>
-				<li>Enable <b>two columns mode</b> when you turn your device to landscape orientation.</li>
-				<li>Enable <b>night mode</b> when you turn your device upside down.</li>
-				<li>Add all your manga to a collection. Then create a profile which switches the page turn direction to <b>Right-To-Left</b> and inverts the page turn taps and swipes when you open a manga book from this collection.</li>
-				<li>Add your comic books to a collection, which can trigger a profile to decrease the screen refresh interval to <span class="ui">every page</span> to avoid ghosting.</li>
-				<li>Trigger a profile to adjust typeface, font size and set two-column mode when opening a file for the first time from the <b>Periodicals</b> folder.</li>
-				<li>Add your problematic PDFs to a collection, so when you open them <span class="ui">Auto OCR</span> or <span class="ui">Reflow mode</span> is activated with a profile.</li>
-				<li>Switch display mode (covers, detailed list etc.) of <span class="ui">file browser</span> when you enter certain folders.</li>
-				<li>Toggle off reading statistics when opening a book from a <b>Reference Books</b> collection. Toggle statistics back on when closing the book.</li>
-				<li>If you expose the <span class="ui">style tweaks</span> in the gesture manager, you can create a profile to enable or disable them based on certain conditions. For example you can trigger a <b>"disable publisher styles AND apply my user style tweaks"</b> profile based on the book's location/collection or by a keyword in the metadata of the book. See the <a href="#L2-styletweaks">style tweaks</a> section of the guide for more info.</li>
+				<li>Увімкнути <b>режим двох стовпців</b> при перевертанні пристрою в альбомну орієнтацію.</li>
+				<li>Увімкнути <b>нічний режим</b> при перевертанні пристрою догори дриґом.</li>
+				<li>Додайте всю свою манґу до добірки. Потім створіть профіль, який змінює напрямок гортання сторінок на гортання <b>справа наліво</b>, а також інвертує дотики та протягування пальцем у відкритій з цієї добірки книзі манґи.</li>
+				<li>Додайте книги мальописів до добірки, що може активувати профіль у якому діє зменшений до <span class="ui">кожної сторінки</span> інтервал повного оновлення екрану, що дозволить уникнути артефактів від попередніх сторінок на екрані.</li>
+				<li>Активувати профіль для пристосування гарнітури шрифту, розміру шрифту та встановлення режиму в два стовпці під час першого відкриття файлу з теки <b>Періодичні видання</b>.</li>
+				<li>Додайте проблемні PDF-файли до добірки, щоб під час їх відкриття разом з профілем активувалося <span class="ui">примусове OCR</span> (оптичне розпізнавання символів) або <span class="ui">режим перекомпонування</span>.</li>
+				<li>Перемикати режим відображення (обкладинки, детальний список тощо) <span class="ui">Оглядача файлів</span> під час відкриття певних тек.</li>
+				<li>Вимкнути статистику читання під час відкриття книги з добірки <b>Довідкова література</b> та знову увімкнути статистику при закритті книги.</li>
+				<li>Якщо ви відкриєте для себе <span class="ui">підлаштування стилів</span> у менеджері жестів, то зможете створити профіль, щоб увімкнути/вимкнути їх залежно від певних умов. Наприклад, можна активувати профіль <b>«вимкнути стилі видавця ТА застосувати мої налаштування стилю користувача»</b> на основі розташування/добірки книги або за ключовим словом у метаданих книги. Докладну інформацію див. у розділі <a href="#L2-styletweaks">Налаштування стилю</a> посібника.</li>
 			</ul>
 
         
-<div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu</div>
+<div class="L3-Smaller-heading">Технічні деталі Профілів та Швидкого меню</div>
 
         <p><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></p>
     
         <p>
-        In KOReader we have <b>a set of actions/settings</b> and this set can be created in two ways:</p>
+        У KOReader є <b>набір дій/налаштувань</b> і цей набір можна створити двома способами:</p>
 
         <ol>
             <li>Як профіль (який описано як <span class="ui">Розширений спосіб</span>, параметри якого зберігаються у <span class="ui">settings/profiles.lua</span>)</li>
-            <li>As a list of actions assigned to a gesture (which is explained as the <span class="ui">Easy Method</span> and stored in <span class="ui">settings/gestures.lua)</span></li>
+            <li>Як список дій, призначених жесту (що пояснюється як <span class="ui">простий спосіб</span> та зберігається у <span class="ui">settings/gestures.lua)</span></li>
         </ol>
     
-        <p>This set can also be <b>executed</b> in two different ways:</p>
+        <p>Цей набір також можна <b>виконати</b> двома різними способами:</p>
         <ol>
-            <li>Applying each action in the (sorted) order when triggered (as a <span class="ui">Profile</span>)</li>
-            <li>Showing it as a <span class="ui">Quick Menu</span></li>
+            <li>Застосування кожної дії у (впорядкованому) порядку під час активації (як <span class="ui">профіль</span>)</li>
+            <li>Відображення його як <span class="ui">Швидке меню</span></li>
         </ol>
         
         <p>Додавання/вилучення дій з набору й увімкнення/сортування <span class="ui">Швидкого меню</span> здійснюється за допомогою того самого <span class="ui">меню дій</span>. Різниця полягає лише в тому, що у Менеджері жестів меню дій має на два пункти більше («Пропустити»). Саме тому пункти <span class="ui">Показати як швидке меню</span> та <span class="ui">Сортувати</span> розміщено на другій сторінці.</p>
 
 
-        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> You can backup and transfer your profiles to another device. Please see <a href="#backup">Backup your KOReader settings</a> section.</p></div>
+        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">ІНФОРМАЦІЯ</span> Можна створити резервну копію та перенести свої профілі на інший пристрій. Див. розділ <a href="#backup">Резервне копіювання налаштувань KOReader</a>.</p></div>
 
 
 
@@ -4562,7 +4562,7 @@ line-height: 2rem;
         <div class="L1-Chapter-heading" id="L1-plugins">МОДУЛІ ТА ЛАТКИ</div>
         <div class="L2-Sub-heading" id="L2-plugintypes">Типи модулів</div>
         <p>
-        Plugins are small KOReader programs that are similar to browser add-ons which extends the capabilities of the base program. KOReader has 3 categories of plugins:</p>
+        Модулі – це невеликі програми KOReader, схожі на доповнення вебоглядача, які розширюють можливості базової програми. KOReader має три категорії плагінів:</p>
 
         
         <div class="L3-Smaller-heading">Внутрішні</div>
@@ -4582,7 +4582,7 @@ line-height: 2rem;
 
 
 
-        <div class="L3-Smaller-heading">Contrib</div>
+        <div class="L3-Smaller-heading">Від ентузіастів</div>
         <p><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></p>
 
         <p>
@@ -4595,7 +4595,7 @@ line-height: 2rem;
         </ul>
     
         <p>
-            You can access them from <a href="https://github.com/koreader/contrib">this page</a>. Generally they are installed by downloading the plugin’s directory from the page above and copying it under <span class="ui">koreader/plugins</span> folder on your device. But please check the plugin’s page for other possible instructions.
+            Їх можна завантажити <a href="https://github.com/koreader/contrib">з цієї сторінки</a>. Зазвичай, щоб встановити такий модуль, потрібно завантажити його теку з файлами і скопіювати до теки <span class="ui">/koreader/plugins</span> на своєму пристрої. Проте, ознайомтеся з сторінкою модуля, бо там можуть бути додаткові інструкції.
         </p>
 
         
@@ -4612,73 +4612,73 @@ line-height: 2rem;
                 
         <p>Кілька відомих прикладів зовнішніх модулів та посилання на їхні сторінки на GitHub:</p>
         <ul>
-            <li> <a href="https://github.com/drewbaumann/AskGPT">AskGPT plugin:</a> You can ask questions to <b>ChatGPT</b> about parts of your book. You can also use this plugin to simplify, explain, discuss or translate text to other languages.</li>
+            <li> <a href="https://github.com/drewbaumann/AskGPT">AskGPT</a> – модуль, який дозволяє ставити запитання до <b>ChatGPT</b> щодо частин книги. Цей модуль можна також використовувати для спрощення, пояснення, обговорення або перекладу тексту іншими мовами.</li>
 
-            <li> <a href="https://github.com/omer-faruq/assistant.koplugin">Assistant: AI Helper plugin:</a> A fork of the plugin above with more advanced features like multiple AI providers and built-in/custom prompts.</li>
+            <li> <a href="https://github.com/omer-faruq/assistant.koplugin">Assistant: AI Helper</a> – відгалуження (fork) вищезгаданого модуля з розширеними функціями на зразок кількох постачальників ШІ та вбудовані/користувацькі запити.</li>
 
-            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Anki plugin:</a> KOReader plugin enabling <b>Anki</b> (an open-source flashcard software) card generations for words looked up in the internal dictionary.</li>
+            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Anki</a> – модуль KOReader, що дозволяє генерувати картки <b>Anki</b> (програмне забезпечення з відкритим кодом для карток) для слів, знайдених у внутрішньому словнику.</li>
 
-            <li><a href="https://github.com/stelzch/zotero.koplugin">Zotero plugin:</a> This addon allows you to browse your <span class="external">Zotero</span> (an open-source reference management software) collections from KOReader.</li>
+            <li><a href="https://github.com/stelzch/zotero.koplugin">Zotero</a> – модуль, що дозволяє переглядати ваші колекції <span class="external">Zotero</span> (програмне забезпечення з відкритим кодом для керування посиланнями) з KOReader.</li>
 
-            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">Syncthing plugin:</a> This addon allows you to run <b>Syncthing</b> peer-to-peer file synchronization program on KOReader (tested only on Kobo devices but might work on other devices according to the author). This makes it possible to sync files between your e-reader and computer/phone automatically.</li>
+            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">Syncthing</a> – модуль, що дозволяє запускати програму синхронізації файлів між одноранговими пристроями <b>Syncthing</b> на KOReader (перевірено лише на пристроях Kobo, але, за словами автора, може працювати й на інших пристроях). Це дозволяє автоматично синхронізувати файли між вашою е-читалкою та комп’ютером/телефоном.</li>
         </ul>
     
-        <p>Also you can click <a href="https://github.com/search?q=koplugin&type=repositories">this link</a> to open a search page on <span class="external">Github</span> to discover more KOReader plugin projects.</p>
+        <p>За <a href="https://github.com/search?q=koplugin&type=repositories">цим посиланням</a> можна перейти на сторінку пошуку на <span class="external">Github</span> і там знайти більше проектів модулів KOReader.</p>
 
 
 
         <div class="L2-Sub-heading" id="L2-pluginslist">Список внутрішніх модулів</div>
 
-        <p>	<b> Статистика читання </b> - обчислює статистику сеансу читання та швидкість читання для використання цих даних під час оцінки часу, який потрібен для завершення читання розділу або книги	</p>
+        <p>	<b> Автопідсвічування </b> – автоматично перемикає рівень підсвічування екрану відповідно до рівня освітленості навколишнього середовища (працює тільки на Kindle Voyage та Oasis)	</p>
         <p>	<b> Автотеплота підсвічування і нічний режим </b> – дозволяє змінювати температуру підсвічування екрану пристроїв з жовтим/жовтогарячим кольором підсвічування та автоматично перемикатися на нічний режим згідно з розкладом	</p>
-        <p>	<b> Авто енергоощадження </b> – переводить пристрій у режим очікування або вимикає його після невикористання протягом вказаного проміжку часу	</p>
-        <p>	<b> Autosuspend </b> - Suspend device after chosen period of inactivity (available on all e-ink devices except android os)	</p>
-        <p>	<b> Емулятор термінала </b> - запускає на пристрої оболонку (командний рядок), за допомогою якої можна запускати повноцінні термінальні застосунки	</p>
+        <p>	<b> Автоматичне енергозаощадження </b> – переводить пристрій у режим очікування або вимикає його після невикористання протягом вказаного проміжку часу	</p>
+        <p>	<b> Автопризупинення </b> - призупиняє роботу пристрою після обраного періоду бездіяльності (доступно на всіх пристроях з е-чорнилами, крім Android)	</p>
+        <p>	<b> Емулятор терміналу </b> – запускає на пристрої оболонку (командний рядок), за допомогою якої можна запускати повноцінні термінальні застосунки	</p>
         <p>	<b> Робота у тлі </b> – служба для інших модулів, яка дозволяє регулярно виконувати завдання у тлі (без показу процесу виконання).	</p>
-        <p>	<b> Синхронізація часу </b> - синхронізує час пристрою з серверами точного часу (NTP)	</p>
-        <p>	<b> Точні підлаштування документа </b> - дозволяє виконати детальні підлаштування документа перед завантаженням документа на основі зовнішніх чинників	</p>
+        <p>	<b> Статистика акумулятора </b> – збирає та показує статистику про використання акумулятора вашого пристрою	</p>
+        <p>	<b> Ярлики книг </b> – дозволяє додати ярлик книги на жест	</p>
         <p>	<b> Calibre </b> – дозволяє надсилати документи з вашої бібліотеки Calibre прямо на пристрій з KOReader через з'єднання Wi-Fi. Дізнатися як можна <a href="https://github.com/koreader/koreader/wiki/calibre">сторінці вікі</a>.</p>
-        <p>	<b> Cover browser </b> - Allows cover display modes for file browser and history	</p>
-        <p>	<b> Cover image </b> - Saves the cover image of the current book as a file (available on Android/PocketBook/reMarkable devices)	</p>
-        <p>	<b> Export highlights </b> - Export highlights and notes to local files or to Joplin (a note taking application)	</p>
-        <p>	<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) of highlight from your library	</p>
-        <p>	<b> Gestures </b> - Provide gesture support for KOReader	</p>
-		<p><b>HTTP Inspector</b> - Allows you to control your device from another device over wifi - <b>See below for more info</b></p>
-        <p>	<b> Japanese support </b> - Japanese language support for KOReader that extends built-in dictionary and selection system	</p>
-        <p>	<b> Keep alive </b> - Keeps the device awake to prevent automatic WiFi disconnects	</p>
+        <p>	<b> Оглядач обкладинок </b> – дозволяє перемикати режими відображення обкладинок для оглядача файлів та історії	</p>
+        <p>	<b> Обкладинка </b> – зберігає зображення обкладинки поточної книги як файл (доступно на пристроях Android, PocketBook, reMarkable)	</p>
+        <p>	<b> Експорт виділеного </b> – експортує виділені уривки і нотатки до локального файлу або до Joplin (додаток для нотаток)	</p>
+        <p>	<b> Тренувальні картки (Flashcard trainer) </b> – показує картки для вивчення і запам'ятовування, використовуючи інтервальний повтор (SM2) виділених фрагментів з бібліотеки	</p>
+        <p>	<b> Жести </b> – забезпечує підтримку жестів для KOReader	</p>
+		<p><b>HTTP-інспектор</b> – дозволяє керувати своїм пристроєм з іншого пристрою через Wi-Fi. <b>Див. нижче для отримання додаткової інформації</b></p>
+        <p>	<b> Підтримка японської </b> – підтримка японської мови для KOReader, яка розширює вбудований словник і систему вибору	</p>
+        <p>	<b> Підтримувати роботу </b> – підтримує роботу пристрою, щоб запобігти автоматичному відключенню Wi-Fi	</p>
         <p>	<b> Перемістити до архіву </b> – переміщує поточний документ до архівної теки	</p>
-        <p>	<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves them as HTML files. Check our <a href="https://github.com/koreader/koreader/wiki/News-downloader">wiki page</a> for how-to.</p>
+        <p>	<b> Завантажувач новин </b> – отримує через RSS та Atom записи новин і зберігає їх як файли HTML. Докладніше читайте на <a href="https://github.com/koreader/koreader/wiki/News-downloader">сторінці вікі</a>.</p>
         <p>	<b> OPDS </b> – дозволяє завантажувати книги з каталогів сайтів	</p>
-        <p>	<b> Perception expander </b> - Allows using peripheral vision to read more quickly. Check this YouTube video to see how it works: <a href="https://youtu.be/jeOHqI9SqOI?t=137">How to Triple Your Reading Speed in 20 Minutes (Tim Ferriss)</a>	</p>
+        <p>	<b> Розширення сприйняття </b> – дозволяє використовувати периферійний зір для швидшого читання. Подивіться це відео на YouTube, щоб дізнатися, як це працює: <a href="https://youtu.be/jeOHqI9SqOI?t=137">Як потроїти швидкість читання за 20 хвилин (Tim Ferriss; англ. мовою)</a>	</p>
         <p>	<b> Профілі </b> – дозволяє комбінувати декілька налаштувань, щоб створити профілі між якими можна перемикатися	</p>
-        <p>	<b> Progress sync </b> - Synchronize your reading progress across different KOReader devices. Check our <a href="https://github.com/koreader/koreader/wiki/Progress-sync">wiki page</a> for how-to.
+        <p>	<b> Синхронізація поступу </b> – синхронізує дані про поступ вашого читання між різними пристроями з KOReader. Як це робиться читайте на <a href="https://github.com/koreader/koreader/wiki/Progress-sync">сторінці вікі</a>.
         </p>
         <p>	<b> QR з буфера обміну </b> – генерує QR-код з вмісту буфера обміну	</p>
-        <p>	<b> Read timer </b> - A countdown timer to display a message after a user defined time	</p>
-        <p>	<b> Reading statistics </b> - Calculates reading sessions statistics and reading speed for use in chapter/book remaining time estimations	</p>
-        <p>	<b> SSH </b> - Allows access to your device over SSH protocol. You can access via FTP applications or even your file manager if it supports. Check our <a href="https://github.com/koreader/koreader/wiki/SSH">wiki page</a> for how-to.</p>
-        <p>	<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this plugin under:</p>
+        <p>	<b> Таймер читання </b> – таймер зворотного відліку, який показує повідомлення через заданий користувачем час	</p>
+        <p>	<b> Статистика читання </b> – обчислює статистику сеансу читання та швидкість читання для використання цих даних під час оцінки часу, який потрібен для завершення читання розділу або книги	</p>
+        <p>	<b> SSH </b> - дозволяє забезпечити доступ до пристрою через протокол SSH. Таким чином на пристрій можна зайти за допомогою програм FTP або навіть файлового менеджера, якщо він це підтримує. Докладніше читайте на <a href="https://github.com/koreader/koreader/wiki/SSH">сторінці вікі</a>.</p>
+        <p>	<b> Статистика системи </b> - показує відомості про процесор, оперативну пам'ять і акумулятор пристрою, яку можна побачити тут:</p>
         <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Довідка / Статистика системи</div>
-        <p>	<b> Terminal emulator </b> - Starts a shell (command prompt) on your device that can run full terminal apps	</p>
-        <p>	<b> Text editor </b> - A basic text editor to create and edit plain text files	</p>
-        <p>	<b> Time sync </b> - Synchronizes the device time with NTP servers	</p>
-        <p>	<b> Tweak document settings </b> - Allows tweaking settings of a document before it is loaded based on external factors	</p>
-        <p>	<b> Wallabag </b> - Downloads the latest articles from a Wallabag server as individual EPUB files. Check our <a href="https://github.com/koreader/koreader/wiki/Wallabag">wiki page</a> for more info.</p>
+        <p>	<b> Емулятор термінала </b> – запускає на пристрої оболонку (командний рядок), за допомогою якої можна запускати повноцінні термінальні застосунки	</p>
+        <p>	<b> Текстовий редактор </b> – текстовий редактор для створення і редагування простих текстових файлів	</p>
+        <p>	<b> Синхронізація часу </b> – синхронізує час пристрою з серверами точного часу (NTP)	</p>
+        <p>	<b> Точні підлаштування документа </b> – дозволяє виконати детальні підлаштування документа перед завантаженням документа на основі зовнішніх чинників	</p>
+        <p>	<b> Wallabag </b> – завантажує останні статті з сервера Wallabag як окремі файли EPUB. Докладніше читайте на <a href="https://github.com/koreader/koreader/wiki/Wallabag">сторінці вікі</a>.</p>
 
-		<div class="L3-Smaller-heading">Controlling your reader from another device - HTTP Inspector Plugin</div>
+		<div class="L3-Smaller-heading">Керування е-читалкою з іншого пристрою – модуль HTTP Inspector</div>
 
 		<p><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></p>
 
 
-		<p>This plugin allows you to control your device from another device over wifi. It works by running a simple HTTP server on your device which serves a page containing KOReader controls. You can access this page over your network and control your reader device. But be aware of these points when using this plugin:</p>
+		<p>Цей модуль дозволяє керувати своїм пристроєм з іншого пристрою через Wi-Fi. Він працює, запускаючи на пристрої простий HTTP-сервер, який обслуговує сторінку з елементами керування KOReader. До цієї сторінки можна отримати доступ через мережу Wi-Fi та керувати своїм пристроєм для читання. Але під час використання цього модуля майте на увазі такі моменти:</p>
 
 		<ul>
-			<li>This is an experimental plugin so <b>use this at your own risk</b></li>
-			<li>This plugin is enabled by default, but the server is <b>NOT</b> started by default. You can start it manually or set it to <b>auto start</b>.</li>
-			<li>You should run this plugin <b>only on trusted networks</b>, as it is highly insecure (no HTTPS, no access restriction, no authentication)</li>
+			<li>Це експериментальний модуль, тож <b>використовуйте його на власний ризик</b></li>
+			<li>Цей модуль типово увімкнено, але сервер типово <b>НЕ</b> запускається. Запустити його можна власноруч або налаштувати <b>автоматичний запуск</b>.</li>
+			<li>Цей модуль слід запускати <b>лише в перевірених мережах</b>, оскільки він дуже небезпечний (без HTTPS, без обмежень доступу, без автентифікації)</li>
 		</ul>
 
-		<p>You can read an example use case for this plugin on the <a href="https://www.mobileread.com/forums/showthread.php?t=359837">MobileRead forum</a></p>
+		<p>З прикладом використання цього модуля можна ознайомитися на <a href="https://www.mobileread.com/forums/showthread.php?t=359837">форумі MobileRead</a></p>
 
 
 
@@ -4687,15 +4687,15 @@ line-height: 2rem;
 		<p><span class="label_red">!!! ДЛЯ ДОСВІДЧЕНИХ</span></p>
 
         <p>
-        User patches are small files written in <b>Lua</b> language. They can change the functionality of KOReader without modifying your installation permanently. They can be written by developers, other users or you can write one yourself (if you have the necessary extensive knowledge about the KOReader internals).</p>
+        Користувацькі латки – це малі файли, написані мовою <b>Lua</b>. Вони можуть змінювати функціональність KOReader не вносячи постійні зміни у файли програми. Вони можуть бути написані розробниками, іншими користувачами чи самостійно (якщо ви володієте необхідними глибокими знаннями про внутрішню структуру KOReader).</p>
         
-        <p>You can find a current list of <span class="ui">User patches</span> in our <a href="https://github.com/koreader/koreader/wiki/User-patches">wiki</a> and in the <b>GitHub issues list</b> marked with the <span class="ui">User patch available</span> tag. You can see them by following this <a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">link</a>.</p>
+        <p>Актуальний список <span class="ui">користувацьких латок</span> можна зайти у нашій <a href="https://github.com/koreader/koreader/wiki/User-patches">вікі</a> та у <b>списку обговорень GitHub</b>, позначеному теґом <span class="ui">User patch available (Доступна користувацька латка)</span>. Переглянути їх можна перейшовши <a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">за цим посиланням</a>.</p>
         
         
-        <div class="L3-Smaller-heading">Basic usage – Adding an already written patch to your KOReader:</div>
+        <div class="L3-Smaller-heading">Просте використання – Додавання вже написаної латки до KOReader:</div>
         
         <ol>
-            <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
+            <li>Створіть підтеку з назвою <span class="ui">patches</span> у теці <span class="ui">koreader</span> на пристрої (на Android ця тека знаходиться на SD-карті)</li>
             <li>Завантажте і покладіть файл латки з розширенням <b>.lua</b> до теки «<span class="ui">patches</span>»</li>
             <li>Перезапустити KOReader</li>
         </ol>
@@ -4731,20 +4731,20 @@ line-height: 2rem;
 <div class="L2-Sub-heading" id="L2-readingtips">Поради щодо читання</div>
 
 <div class="L3-Smaller-heading">⇑ ВЕРХНЄ МЕНЮ → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Дотики та жести → Посилання → Відкривати посилання дотиком</div>
-<p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class="ui">File Browser</span>. KOReader can open the last document with a gesture (<b><span style="font-family: microns;"></span> multiswipe</b>). If you define a gesture’s action as <span class="ui">Open previous document</span>, you can switch between two documents quickly similar to the <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
+<p>Якщо необхідно перемикатися між двома документами (наприклад, для їх порівняння), існує швидший спосіб робити це, ніж переходити через <span class="ui">Оглядач файлів</span>. KOReader може відкрити останній документ жестом (<b>мультижест <span style="font-family: microns;"></span></b>). Якщо призначити на жест дію <span class="ui">Відкрити попередній документ</span>, можна буде швидко перемикатися між документами, на зразок того як це робиться за допомогою сполучення клавіш <b>Alt+Tab</b> на комп'ютері. Дану функцію можна знайти тут:</p>
 
 <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ» / Загальне / Відкрити попередній документ</div>
 
-<p>Also you can use the <span class="ui">History</span> dialog to switch between documents quickly. The history screen can be opened with the <span style="font-family: microns;"></span> multiswipe gesture. You can also define any other gesture for this of course.</p>
+<p>Також для швидкого перемикання між документами можна використовувати екран <span class="ui">Історія</span>. Екран історії можна швидко відкрити мультижестом <span style="font-family: microns;"></span>. Звичайно, для виконання цієї дії можна призначити будь-який інший жест.</p>
     
-<div class="L3-Smaller-heading">Changing your book cover</div>
-<p>You can change your book cover from this menu:</p>
+<div class="L3-Smaller-heading">Зміна обкладинки книги</div>
+<p>Обкладинку книги можна змінити за допомогою цього меню:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Book information / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Set cover image</div>
+<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Відомості про книгу / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Обкладинка</div>
 
-<div class="L3-Smaller-heading">Custom book cover from a screenshot</div>
+<div class="L3-Smaller-heading">Власна обкладинка книги зі знімка екрану</div>
     <p>
-    Some books don’t come with proper book covers. Or they may have their cover on the second page so it doesn’t show up properly. Or maybe the cover is not suitable for e-ink (too light or dark). Or you prefer to set some image from the book as cover.</p>
+    Деякі книги не містять правильних обкладинок. Або обкладинка може знаходитися на другій сторінці книги, через що вона не відображається як слід. Також обкладинка може бути непридатна для відображення на екрані з е-чорнилами (занадто світла чи темна). Або ж ви просто бажаєте призначити якесь зображення з книги в якості її обкладинки.</p>
 
     <p>В подібних випадках можна швидко зробити знімок екрану і призначити його обкладинкою книги. Типово знімок екрану робиться жестом, <b>довгим проведення по діагоналі</b>. Знімок екрану також можна зробити одночасними <b>дотиками у протилежних кутах екрану по діагоналі</b>. Другий спосіб можна використовувати при перегляді зображення. Коли знімок екрану буде зроблено, його можна призначити у діалозі <span class="ui">Зберегти як обкладинку книги</span>.</p>
 
@@ -4786,7 +4786,7 @@ line-height: 2rem;
 <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Оновити / Перевірити наявність оновлень</div>
 
 
-<div class="L3-Smaller-heading">Adding a password lock to KOReader</div>
+<div class="L3-Smaller-heading">Додавання блокування KOReader паролем</div>
     <p>
         Для цього в KOReader немає спеціальної функції. Однак, існує обхідний шлях, за допомогою якого можна додати екран блокування. Можна налаштувати KOReader, щоб він показував на екрані заставку аж доки ви не виконаєте певний жест. Цю функцію можна налаштувати тут:</p>
     
@@ -4801,7 +4801,7 @@ line-height: 2rem;
     </ol>
 
 
-    <div class="L3-Smaller-heading">Automatic screen dimming</div>
+    <div class="L3-Smaller-heading">Автоматичне затемнення екрана</div>
         <p>Якщо ваш пристрій довго не використовується, KOReader може притемнювати (знижувати яскравість) підсвічування екрана, щоб заощадити заряд акумулятора. Увімкнути та налаштувати дану функцію можна тут:</p>
         
         <div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Екран / Автоматичне притемнення</div>
@@ -4852,24 +4852,24 @@ line-height: 2rem;
 
 <div class="L1-Chapter-heading" id="L1-troubleshooting">УСУНЕННЯ НЕСПРАВНОСТЕЙ</div>
 
-    <p>If you can't find a solution to your problem in this guide, you can open an issue about it on the project's <b>GitHub</b> page or make a post in the KOReader section of the <b>Mobileread</b> forum. Please see the <a href="#L1-reachus">last section</a> of this guide for details.</p>
+    <p>Якщо ви не знайшли вирішення своєї проблеми в цьому посібнику, можна відкрити запит на її вирішення на сторінці проєкту на <b>GitHub</b> або створити допис у розділі KOReader на форумі <b>Mobileread</b>. Деталі читайте в <a href="#L1-reachus">останньому розділі</a> цього посібника.</p>
     
 
-<div class="L3-Smaller-heading">Nightly versions</div>
-<p>KOReader has two different versions:</p>
+<div class="L3-Smaller-heading">Нічні версії</div>
+<p>KOReader має дві різні версії:</p>
     <ul>
-        <li><span class="label_green">STABLE</span> This version is the main one that you can find on the <b>Releases</b> page of the project GitHub. It is named like this: <b>"KOReader 2024.11"</b> which means this specific version is released on <b>November 2024</b>. This is generally a <b>monthly</b> release, but sometimes can take longer.</li>
-        <li><span class="label_red">NIGHTLY</span><b></b> These versions are the <b>daily</b> compiled versions of KOReader with optimizations and fixes continuously added. Nightly releases are intended for a narrow group of testers and developers, so they might be less stable.</li>
+        <li><span class="label_green">СТАБІЛЬНА</span> Ця версія є основною, яку ви можете знайти на сторінці <b>релізів</b> проекту GitHub. Вона має назву на зразок такої: <b>«KOReader 2024.11»</b>, що означає, що ця конкретна версія випущена у <b>листопаді 2024 року</b>. Зазвичай нові стабільні версії з'являються <b>раз на кілька місяців</b>.</li>
+        <li><span class="label_red">НІЧНІ</span><b></b> Ці версії є <b>щоденно</b> скомпільованими версіями KOReader з оптимізаціями та виправленнями, які додаються щодня. Нічні релізи призначені для вузької групи тестувальників та розробників, тому вони часто менш стабільні.</li>
     </ul>
 
     <p>Якщо ви пересічний користувач, радимо використовувати <b>стабільну</b> версію. Але в деяких окремих випадках вам може знадобитися <b>нічна</b> версія:</p>
     <ul>
-        <li>Your device is very new (a recently released Kobo model for example) and KOReader support has just been added in a recent nightly.</li>
-        <li>There is a bug or problem specific to your device that is fixed already but not released yet. And you don't want to wait for the <b>stable</b> version to have this fix.</li>
+        <li>Ваш пристрій дуже новий (наприклад, нещодавно випущена модель Kobo) і підтримку KOReader було додано у нещодавній нічній версії програми.</li>
+        <li>Існує помилка або проблема, характерна для вашого пристрою, яку вже виправлено, але ще не випущено в стабільній версії. І немає сил чекати на <b>стабільну</b> версію, щоб мати це виправлення.</li>
         <li>Після оновлення KOReader ви помітили, що функція, яку ви використовували, вилучена. Ви ж не хочете втрачати цю функцію, тому можете встановити нічну версії, яка все ще її містить. Звичайно, також можна повернутися до попередної <b>стабільної</b> версії, але <b>нічна</b> версія буде новішою, тому може містити більше функцій та виправлень.</li>
     </ul>
 
-    <p>This section was just a general introduction to the topic. For detailed information and asking for help about nightly versions, you can visit the discussion page: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: How to track latest nightly builds</a></p>
+    <p>Цей розділ був лише загальним вступом до теми. Для отримання детальної інформації та звернення за допомогою щодо нічних версій можна відвідати сторінку обговорення: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: Як відстежувати останні нічні збірки</a></p>
 
     <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">TIP</span> If you are using KOReader on an Android device, you can use the <b>Work Profile</b> feature of the Android OS to test the Nightly versions without affecting your main KOReader installation. Open source applications like <b>Shelter</b> and <b>Island</b> can help you with this.</p></div>
 	
