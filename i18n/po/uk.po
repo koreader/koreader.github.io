@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-28 07:31+0000\n"
-"PO-Revision-Date: 2025-08-28 07:30+0000\n"
+"PO-Revision-Date: 2025-08-28 15:15+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -13228,10 +13228,7 @@ msgstr "Поради щодо читання"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4744-1
 msgid "Switching between documents quickly"
-msgstr ""
-"⇑ ВЕРХНЄ МЕНЮ → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Дотики та жести → Посилання → Відкривати посилання "
-"дотиком"
+msgstr "Швидке перемикання між документами"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4745-1
 msgid ""
@@ -13536,10 +13533,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4821-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ ВЕРХНЄ МЕНЮ → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Дотики та жести → Менеджер жестів → «Будь-який "
-"жест» → Загальне → Відкрити попередній документ"
+msgstr "Кількість рядків/слів на сторінці"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4822-9
 msgid ""
@@ -13785,7 +13779,6 @@ msgstr ""
 "issues/11068\">FAQ: Як відстежувати останні нічні збірки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4885-20
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> If you are using KOReader on an "
 "Android device, you can use the <b>Work Profile</b> feature of the Android "
@@ -13793,29 +13786,28 @@ msgid ""
 "installation. Open source applications like <b>Shelter</b> and <b>Island</b> "
 "can help you with this."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Якщо ви використовуєте KOReader на "
-"пристрої Android, ви можете скористатися функцією <b>Робочий профіль</b> ОС "
-"Android, щоб протестувати нічні версії, не впливаючи на основну інсталяцію "
-"KOReader. Програми з відкритим кодом, такі як <b>Shelter</b> та <b>Island</"
-"b>, можуть допомогти вам у цьому."
+"<span class=\"label_green\">ПОРАДА</span> На пристроях Android можна "
+"скористатися функцією <b>Робочий профіль</b> ОС Android, щоб протестувати "
+"нічні версії, не впливаючи на основну інсталяцію KOReader. Програми з "
+"відкритим кодом, як <b>Shelter</b> та <b>Island</b>, можуть допомогти у "
+"цьому."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4887-3
-#, fuzzy
 msgid "Backup your KOReader settings"
 msgstr "Резервне копіювання налаштувань KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4888-9
-#, fuzzy
 msgid ""
 "In rare cases that you want to backup and restore your KOReader with all "
 "your settings, you can backup these folders and files under the KOReader "
 "installation directory. Then you can overwrite them after a clean "
 "installation to restore your settings:"
 msgstr ""
-"У рідкісних випадках, коли вам потрібно створити резервну копію та відновити "
-"KOReader з усіма налаштуваннями, ви можете створити резервні копії цих папок "
-"та файлів у каталозі встановлення KOReader. Потім ви можете перезаписати їх "
-"після чистої установки, щоб відновити налаштування:"
+"Деколи може знадобитися зробити резервну копію усіх налаштувань KOReader, "
+"щоб потім відновити їх з резервної копії на тому ж або іншому пристрої. Всі "
+"необхідні для цього теки й файли розміщені в теці встановленого KOReader. "
+"Щоб відновити усі зроблені налаштування з резервної копії, замініть "
+"відповідні теки й файли у нововстановленій програмі:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4891-9
 msgid "Folders:"
@@ -13874,12 +13866,10 @@ msgstr ""
 "резервні копії також і цих тек."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4916-1
-#, fuzzy
 msgid "My Progress Sync doesn't synchronize my progress"
-msgstr "Синхронізація мого прогресу не синхронізує мій прогрес"
+msgstr "Синхронізація поступу читання не синхронізує поступ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4918-9
-#, fuzzy
 msgid ""
 "This might be caused by the <span class=\"ui\">Write highlights into PDF</"
 "span> feature of KOReader if you enabled it. Saving PDF highlights will "
@@ -13889,13 +13879,13 @@ msgid ""
 "<span class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
-"Це може бути спричинено функцією <span class=\"ui\">Запис виділеного "
-"фрагмента в PDF</span> у KOReader, якщо ви її ввімкнули. Збереження "
-"виділеного фрагмента PDF змінить ваш файл, тому синхронізація не вдасться. "
-"Якщо ви плануєте використовувати обидві функції, у налаштуваннях плагіна "
-"<span class=\"ui\">Progress Sync</span> змініть <span class=\"ui\">Метод "
-"зіставлення документів</span> на <span class=\"ui\">Ім'я файлу</span> "
-"замість стандартного зіставлення <span class=\"ui\">Двійковий</span>:"
+"Це може бути спричинено функцією <span class=\"ui\">Записати виділене у PDF</"
+"span> в KOReader, якщо функція увімкнена. Збереження виділеного фрагмента в "
+"PDF змінить файл, тому синхронізація не вдасться. Якщо плануєте "
+"використовувати обидві функції, у налаштуваннях модуля <span class=\"ui\""
+">Синхронізація поступу</span> змініть <span class=\"ui\">Метод зіставлення "
+"документів</span> на <span class=\"ui\">Назва файлу</span> замість "
+"стандартного зіставлення <span class=\"ui\">Двійковий</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4920-9
 msgid ""
@@ -14223,7 +14213,6 @@ msgid "Opening an issue:"
 msgstr "Відкриття обговорення проблеми:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4996-5
-#, fuzzy
 msgid ""
 "If you are opening an issue about this problem, it is important for us to "
 "inspect the problematic file. You can share the file directly by dragging "
@@ -14235,15 +14224,16 @@ msgid ""
 "and instructions from this <a href=\"https://www.mobileread.com/forums/"
 "showthread.php?t=267998\">Mobileread forum page</a>."
 msgstr ""
-"Якщо ви відкриваєте запит щодо цієї проблеми, важливо, щоб ми перевірили "
-"проблемний файл. Ви можете поділитися файлом безпосередньо, перетягнувши "
-"його у своє повідомлення GitHub після стиснення його як ZIP-файлу. Якщо ваша "
-"книга у форматі EPUB, і ви не хочете ділитися файлом через проблеми з "
-"авторським правом або конфіденційністю, існує плагін для <span "
-"class=\"external\">Calibre</span> під назвою <span "
-"class=\"external\">ScrambleEbook</span>, який ви можете завантажити та "
-"отримати інструкції з цієї <a href=\"https://www.mobileread.com/forums/"
-"showthread.php?t=267998\">сторінки форуму Mobileread</a>."
+"Якщо створюєте обговорення щодо цієї проблеми, то дуже важливо, щоб ми "
+"перевірили проблемний файл. Таким файлом можна поділитися з нами "
+"перетягнувши його у своє повідомлення GitHub після стиснення його у ZIP-"
+"архіві. Якщо це книга у форматі EPUB і ви не хочете ділитися файлом через "
+"авторське право або конфіденційність, існує модуль для <span class="
+"\"external\">Calibre</span> під назвою <span class=\"external\""
+">ScrambleEbook</span>, який ви можна завантажити та дізнатися детальніше про "
+"нього на цій <a href="
+"\"https://www.mobileread.com/forums/showthread.php?t=267998\">сторінці "
+"форуму Mobileread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4999-5
 msgid ""
@@ -14261,32 +14251,29 @@ msgstr ""
 "корисним для вирішення проблеми."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5001-5
-#, fuzzy
 msgid ""
 "You can see this procedure in a real issue involving a very problematic EPUB "
 "file <a href=\"https://github.com/koreader/koreader/issues/11465\">here</a>."
 msgstr ""
-"Ви можете побачити цю процедуру на реальному прикладі, пов'язаному з дуже "
-"проблемним файлом EPUB. <a href=\"https://github.com/koreader/koreader/"
-"issues/11465\">here</a>."
+"Цю процедуру показано на реальному прикладі дуже проблемного файлу EPUB <a "
+"href=\"https://github.com/koreader/koreader/issues/11465\">на цій "
+"сторінці</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5005-5
-#, fuzzy
 msgid "I see small numbers on the side when reading a book"
-msgstr "Я бачу маленькі цифри збоку, коли читаю книгу"
+msgstr "Коли я читаю книгу, то бачу маленькі цифри збоку"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5006-5
-#, fuzzy
 msgid ""
 "Those small numbers are called <b>Reference Page Numbers</b>. In short, they "
 "are the real page numbers from the printed version of your book. For more "
 "information please click here <a href=\"#L2-readingscreen\">Reading Screen</"
 "a> to go to the relevant section."
 msgstr ""
-"Ці невеликі цифри називаються <b>Номерами сторінок для довідки</b>. Коротше "
-"кажучи, це справжні номери сторінок з друкованої версії вашої книги. Для "
-"отримання додаткової інформації натисніть тут <a href=\"#L2-"
-"readingscreen\">Екран читання</a>, щоб перейти до відповідного розділу."
+"Ці малі цифри називаються <b>номерами сторінок джерела</b>. Якщо коротко, то "
+"це справжні номери сторінок з друкованої версії книги. Докладніше про них "
+"читайте у розділі <a href=\"#L2-readingscreen\">Екран читання</a> цього "
+"посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5010-1
 msgid "My status bar disappeared"
