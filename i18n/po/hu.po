@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-28 07:31+0000\n"
-"PO-Revision-Date: 2025-08-28 07:30+0000\n"
+"PO-Revision-Date: 2025-08-28 15:15+0000\n"
 "Last-Translator: Balázs Attila <g.gumicsizma@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1360,6 +1360,8 @@ msgid ""
 "<b>filename</b> or <b>book metadata</b> from the upper left hamburger menu "
 "button."
 msgstr ""
+"A <span class=\"ui\">Előzmények</span> képernyőn a bal felső hamburgermenü "
+"gomb <b>fájlnév</b> vagy <b>könyv metaadat</b> alapján kereshet könyvet."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1258-5
 msgid ""
@@ -1367,17 +1369,22 @@ msgid ""
 "or <span class=\"ui\">History</span> screen instead of <span "
 "class=\"ui\">File Browser</span> via:"
 msgstr ""
+"A KOReadert úgy is beállíthatod, hogy a <span class=\"ui\">Kedvencek</span> "
+"vagy az <span class=\"ui\">Előzmények</span> képernyővel induljon el a <span "
+"class=\"ui\">Fájlböngésző</span> helyett, a következőképpen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1261-5
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Start with"
 msgstr ""
+"FELSŐ MENÜ (a Fájlkezelőben) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Kezdés ezzel"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1267-1
 msgctxt "user_guide/en.html+html.body.div.div:1267-1"
 msgid "Tap zones"
-msgstr ""
+msgstr "Érintési zónák"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1271-5
 msgid ""
@@ -1389,6 +1396,13 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
+"A fenti képen láthatók a KOReader alapértelmezett koppintási zónái. A <span "
+"class=\"ui\">felső menü</span> vagy az <span class=\"ui\">alsó menü</span> "
+"megjelenítéséhez koppintson a jelzett zónákra. A <span class=\"ui\">felső "
+"menü</span> megjelenítéséhez lefelé is húzhatja az ujját a felső zónán. Nem "
+"érintőképernyős eszközökön, mint például a Kindle 4, az <span class=\"ui\""
+">alsó menüt</span> az <b>ENTER/OK</b> műveletnek megfelelő gomb "
+"megnyomásával nyithatja meg."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1273-5
 msgid ""
@@ -1399,6 +1413,12 @@ msgid ""
 "<b>most recently used menu tab</b>. And last area opens the <b>last menu "
 "tab</b>."
 msgstr ""
+"<span class=\"label_green\">TIPP</span> Amint a fenti képen látható, a <span "
+"class=\"ui\">felső menü</span> megnyitási zónája 3 részre van osztva. Ha a "
+"felső szél első 1/3-át lefelé húzza, a <span class=\"ui\">felső menü</span> "
+"az <b>első menüfüllel</b> nyílik meg. A második 1/3 terület a <b>legutóbb "
+"használt menüfül</b>-t nyitja meg. Az utolsó terület pedig a <b>legutóbbi "
+"menüfül</b>-t nyitja meg."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1275-5
 msgid ""
@@ -1407,12 +1427,18 @@ msgid ""
 "span> and <span class=\"ui\">bottom menu</span> at the same time via this "
 "menu:"
 msgstr ""
+"Ha azt szeretné, hogy mindkét menü egyszerre nyíljon meg, akkor a <span "
+"class=\"ui\">felső menü</span> zónát beállíthatja úgy, hogy a <span class="
+"\"ui\">felső</span> és az <span class=\"ui\">alsó menü</span> -t is "
+"egyszerre nyissa meg a következő menü segítségével:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1277-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Activate Menu"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Érintések és gesztusok / Menü aktiválása"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1280-5
 msgid ""
@@ -1420,12 +1446,17 @@ msgid ""
 "type of gestures including <b>TAP, DOUBLE TAP, TWO FINGER TAP</b> and <b>TAP "
 "and HOLD</b>."
 msgstr ""
+"A <span class=\"ui\">sarokkoppintási zónák</span> számos különböző "
+"gesztushoz használhatók, beleértve a <b>KOPPINTÁST, DUPLA KOPPINTÁST, "
+"KÉTUJJAS KOPPINTÁST</b> és a <b>KOPPINTÁS ÉS TARTÁS</b> műveleteket."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1282-5
 msgid ""
 "<b>PREVIOUS PAGE</b> and <b>NEXT PAGE</b> zones can also be used for "
 "<b>DOUBLE TAP</b> gestures at the same time."
 msgstr ""
+"Az <b>ELŐZŐ OLDAL</b> és a <b>KÖVETKEZŐ OLDAL</b> zónák egyszerre "
+"használhatók <b>DUPLA KOPPINTÁS</b> gesztusokhoz is."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1284-5
 msgid ""
@@ -1434,53 +1465,63 @@ msgid ""
 "all items are visible, tapping will show and hide the <span "
 "class=\"ui\">status bar</span>."
 msgstr ""
+"Az <span class=\"ui\">Állapotsor</span> zónára koppintva válthat az <span "
+"class=\"ui\">állapotsor</span> elemei között, ha csak egy elem látható. Ha "
+"az összes elem látható, koppintással megjelenítheti és elrejtheti az <span "
+"class=\"ui\">állapotsor</span>-t."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1288-5
 msgctxt "user_guide/en.html+html.body.div.div:1288-5"
 msgid "Changing text appearance"
-msgstr ""
+msgstr "A szöveg megjelenésének megváltoztatása"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1291-5
 msgid "<b>Changing the font*</b>:"
-msgstr ""
+msgstr "<b>A betűtípus módosítása*</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1291-35
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Betűtípus"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1292-5
 msgid "Make the font bigger"
-msgstr ""
+msgstr "Nagyobb betűméret"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1292-36
 msgctxt ""
 "user_guide/en.html+html.body.div.ul.li.div:1292-36user_guide/en.html+html."
 "body.div.ul.li.div:1292-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "ALSÓ MENÜ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1293-5
+#, fuzzy
 msgid "Make the font bolder"
-msgstr ""
+msgstr "Félkövérebb betűtípus"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1293-36
 msgctxt "user_guide/en.html+html.body.div.ul.li.div:1293-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "ALSÓ MENÜ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1294-5
 msgid "Invert the colors on screen (white on black)"
-msgstr ""
+msgstr "A képernyő színeinek megfordítása (fehér a feketén)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1294-60
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Night Mode"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Éjszakai mód"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1297-5
+#, fuzzy
 msgid ""
 "You can also change other formatting options from the <span "
 "class=\"ui\">BOTTOM MENU</span> to fine tune the appearance of your text. "
@@ -1488,6 +1529,10 @@ msgid ""
 "section dedicated to <a href=\"#L1-customizingappearance\">CUSTOMIZING TEXT "
 "APPEARANCE</a>"
 msgstr ""
+"A szöveg megjelenésének finomhangolásához más formázási beállításokat is "
+"módosíthatsz az <span class=\"ui\">ALSÓ MENÜBEN</span>. Ezek természetesen "
+"csak gyors tippek a kezdéshez. Van egy teljes szakaszunk a <a href="
+"\"#L1-customizingappearance\">SZÖVEG MEGJELENÉSÉNEK TESTRESZABÁSÁRA</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1299-5
 msgid ""
@@ -1495,10 +1540,13 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> *A betűtípus kiválasztása csak "
+"áttördelhető dokumentumokon (EPUB, HTML, DOCX, RTF, TXT…) érhető el. A fix "
+"elrendezésű dokumentumok, mint például a PDF/DJVU, nem támogatottak."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1304-1
 msgid "Controlling the backlight / frontlight"
-msgstr ""
+msgstr "Háttérvilágítás / elülső megvilágítás vezérlése"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1306-5
 msgid ""
@@ -1506,27 +1554,36 @@ msgid ""
 "(normal white LEDs+orange ones) you can control them separately from this "
 "dialog. You can also define a gesture for this dialog:"
 msgstr ""
+"A képernyő fényerejét ebben a menüben szabályozhatja. Ha meleg színű "
+"világítással rendelkezik (normál fehér LED-ek + narancssárga LED-ek), akkor "
+"azokat külön is vezérelheti ebből a párbeszédpanelből. Kézmozdulatot is "
+"definiálhat ehhez a párbeszédpanelhez:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1308-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Frontlight"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Elülső világítás"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1312-1
 msgid "Changing the screen displayed while sleeping"
-msgstr ""
+msgstr "Alvó módban a képernyőkép megváltoztatása"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1314-2
 msgid ""
 "You can choose a book cover or a custom image as screensaver via this menu:"
 msgstr ""
+"Ebben a menüben választhat könyvborítót vagy egyéni képet képernyővédőként:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1316-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Képernyő / Képernyővédő"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1318-5
 msgid ""
@@ -1534,12 +1591,18 @@ msgid ""
 "look best). Transfer the files from your computer into any folder on your "
 "device. And choose this folder as your screensaver folder via this menu:"
 msgstr ""
+"JPG/PNG fájlokat használhat képernyővédőként (a megfelelően árnyalt "
+"szürkeárnyalatos képek mutatnak a legjobban). Vigye át a fájlokat a "
+"számítógépéről az eszközöd bármelyik mappájába. És válassza ki ezt a mappát "
+"képernyővédő mappának a következő menü segítségével:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1320-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver / Settings"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Képernyő / Képernyővédő / Beállítások"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1322-5
 msgid ""
@@ -1547,11 +1610,15 @@ msgid ""
 "php?p=3728291&postcount=17\">Mobileread forum post</a> for advanced "
 "information about preparing screensaver images."
 msgstr ""
+"Kérjük, tekintse meg ezt a <a href="
+"\"https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17\""
+">Mobileread fórumbejegyzést</a> a képernyővédő képek elkészítéséről szóló "
+"további információkért."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1326-1
 msgctxt "user_guide/en.html+html.body.div.div:1326-1"
 msgid "Keyboard Usage And Tips"
-msgstr ""
+msgstr "Billentyűzethasználat és tippek"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1328-5
 msgid ""
@@ -1559,38 +1626,50 @@ msgid ""
 "shortcuts</span>, click <a href=\"#L2-keyboardshortcuts\">here</a> to go "
 "that section. This heading only explains the keyboard usage."
 msgstr ""
+"Ha a <span class=\"ui\">billentyűparancsok</span>-ról keres információt, "
+"kattintson <a href=\"#L2-keyboard shortcuts\">ide</a> az adott szakasz "
+"megnyitásához. Ez a címsor csak a billentyűzet használatát ismerteti."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1331-3
 msgid ""
 "Tap outside the input field to close the keyboard, tap the input field to "
 "show the keyboard again"
 msgstr ""
+"A billentyűzet bezárásához koppintson a beviteli mezőn kívülre, a "
+"billentyűzet újbóli megjelenítéséhez pedig a beviteli mezőre"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1332-3
 msgid ""
 "<b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase "
 "if you are already in <b>shift</b> mode)"
 msgstr ""
+"<b>Húzza felfelé</b> a billentyűket az adott betű nagybetűs változatának "
+"beviteléhez (vagy kisbetűs változatának beviteléhez, ha már <b>shift</b> "
+"módban van)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1333-3
 msgid "You can change the appearance of the keyboard:"
-msgstr ""
+msgstr "A billentyűzet megjelenését a következőképpen módosíthatja:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1334-4
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard settings"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Eszköz / Billentyűzet / Billentyűzetbeállítások"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1335-3
 msgid "You can select more than one layout:"
-msgstr ""
+msgstr "Több elrendezést is kiválaszthat:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1336-4
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard layout"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Eszköz / Billentyűzet / Billentyűzetkiosztás"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1337-3
 msgid ""
@@ -1598,10 +1677,13 @@ msgid ""
 "loading=\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" "
 "style=\"width:22px;\"> icon on the keyboard"
 msgstr ""
+"A kiválasztott elrendezések között a billentyűzeten található <img loading="
+"\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" style="
+"\"width:22px;\"> ikonra koppintva válthat"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1342-1
 msgid "Entering extra characters"
-msgstr ""
+msgstr "Extra karakterek beírása"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1344-5
 msgid ""
@@ -1609,6 +1691,11 @@ msgid ""
 "key. Most frequently used extra characters are shown below. You can tap and "
 "hold the key in the <b>gray box</b> to get the surrounding characters:"
 msgstr ""
+"A KOreader billentyűzet lehetővé teszi extra karakterek bevitelét egy "
+"billentyű megérintésével és lenyomva tartásával. A leggyakrabban használt "
+"extra karakterek az alábbiakban láthatók. A <b>szürke mezőben</b> lévő "
+"billentyű megérintésével és lenyomva tartásával jelenítheti meg a környező "
+"karaktereket:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1348-5
 msgid ""
@@ -1620,11 +1707,21 @@ msgid ""
 "swipe on the keys. Once you get used to the locations of the extra "
 "characters, you can enter them much quicker this way."
 msgstr ""
+"A hosszan lenyomott felugró ablak mellett ezeket a plusz karaktereket egy "
+"billentyűn való húzással is beírhatja. Az alábbi példában a <b>a</b> "
+"billentyűn felfelé húzva beírhatja a <b>nagybetűs A</b> betűt, vagy más "
+"irányba húzva beírhatja a megjelenített karaktereket. Megjegyzendő, hogy a "
+"bemutatott példa a teljes felugró ablakot tartalmazza a demonstrációhoz. Nem "
+"kell megnyitni ezt a felugró ablakot, közvetlenül is húzhatja a "
+"billentyűkön. Ha már megszokta a plusz karakterek helyét, sokkal gyorsabban "
+"beírhatja őket így."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1352-5
 msgid ""
 "If this feature interferes with your usage, you can disable it by unchecking:"
 msgstr ""
+"Ha ez a funkció zavarja a használatot, letilthatja a jelölőnégyzet "
+"bejelölésének törlésével:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1354-5
 msgid ""
@@ -1632,48 +1729,58 @@ msgid ""
 "style=\"width:22px;\">/ Device / Keyboard / Swipe to input additional "
 "characters"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Eszköz / Billentyűzet / Húzza az ujját további karakterek "
+"beviteléhez"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1356-5
 msgid ""
 "Additionally there are some shortcuts for easier text manipulation. You can "
 "<b>tap and hold</b> these keys for extra actions:"
 msgstr ""
+"Ezenkívül vannak gyorsbillentyűk is a szöveg egyszerűbb kezeléséhez. További "
+"műveletekhez <b>érintse meg és tartsa lenyomva</b> ezeket a billentyűket:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1358-9
 msgid "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
-msgstr ""
+msgstr "<b>Balra mutató nyíl</b> – A kurzort a sor elejére mozgatja"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1359-9
 msgid "<b>Right Arrow</b> - Moves the cursor to the end of the line"
-msgstr ""
+msgstr "<b>Jobbra nyíl</b> – A kurzort a sor végére mozgatja"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1362-5
 msgid ""
 "Also <span class=\"ui\">backspace</span> key behaves different when you make "
 "swipe gestures on it:"
 msgstr ""
+"A <span class=\"ui\">backspace</span> billentyű is másképp viselkedik, ha "
+"húzómozdulatokat végez rajta:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1365-9
 msgid "<b>Tap:</b> Delete a character"
-msgstr ""
+msgstr "<b>Koppintás:</b> Karakter törlése"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1366-9
 msgid "<b>Long-press:</b> Delete the whole line"
-msgstr ""
+msgstr "<b>Hosszan lenyomva:</b> A teljes sor törlése"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1367-9
 msgid "<b>Swipe left:</b> Delete part of the word left of the cursor"
-msgstr ""
+msgstr "<b>Balra húzás:</b> A kurzortól balra eső szó egy részének törlése"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1368-9
 msgid "<b>Swipe up:</b> Delete the whole word"
-msgstr ""
+msgstr "<b>Húzás felfelé:</b> A teljes szó törlése"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1371-2
 msgid ""
 "For more information, you can check the <a href=\"https://github.com/"
 "koreader/koreader/wiki/Virtual-keyboard\">related wiki page</a>."
 msgstr ""
+"További információkért tekintse meg a <a href="
+"\"https://github.com/koreader/koreader/wiki/Virtual-keyboard\">kapcsolódó "
+"wiki oldalt</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1373-5
 msgid ""
@@ -1682,6 +1789,10 @@ msgid ""
 "it in our <a href=\"https://github.com/koreader/koreader/wiki/Chinese-"
 "keyboard\">wiki</a>."
 msgstr ""
+"A KOReader integrálja a kínai vonásbillentyűzetet is az egyszerűsített és "
+"hagyományos kínai karakterek beviteléhez. További információkat erről a <a "
+"href=\"https://github.com/koreader/koreader/wiki/Chinese-keyboard\""
+">wikinkben</a> talál."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1377-1
 msgctxt "user_guide/en.html+html.body.div.div:1377-1"
