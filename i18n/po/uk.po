@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-27 08:02+0000\n"
-"PO-Revision-Date: 2025-08-27 08:02+0000\n"
-"Last-Translator: Максим Горпиніч <gorpinicmaksim0@gmail.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/uk/>\n"
+"PO-Revision-Date: 2025-08-28 07:30+0000\n"
+"Last-Translator: Vitalii <stopchan@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,7 +146,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:869-17
 msgid "PARTS OF KOREADER (BLUE)"
-msgstr "ЧАСТИНИ KOREADER (синій)"
+msgstr "ЧАСТИНИ KOREADER (блакитний)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:871-13
 msgid "Status bar, Book map…"
@@ -154,7 +154,7 @@ msgstr "Смуга стану, Мапа книги…"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:874-17
 msgid "MENU PATHS (GREEN)"
-msgstr "ШЛЯХИ МЕНЮ (зелений)"
+msgstr "ШЛЯХИ МЕНЮ (яснозелений)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:876-17
 msgctxt ""
@@ -3404,7 +3404,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
 msgid "Go back to previous location"
-msgstr "Повернутись до попереднього розташування"
+msgstr "Повернутися до попереднього місця"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1869-5
 msgid ""
@@ -9643,19 +9643,17 @@ msgstr ""
 "попередження."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3601-3
-#, fuzzy
 msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
 msgstr ""
-"Оскільки метадані вашої книги не будуть у папках вашої бібліотеки, будь-яка "
+"Оскільки метадані вашої книги не будуть у теках вашої бібліотеки, будь-яка "
 "синхронізація чи резервні копії вашої бібліотеки не включатимуть їх."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3606-1
-#, fuzzy
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
-msgstr "3. Окремі каталоги метаданих HASHED в одному каталозі KOReader"
+msgstr "3. Окремі теки метаданих HASHED у одній теці KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3608-2
 msgid ""
@@ -9668,7 +9666,6 @@ msgstr ""
 "koreader/hashdocsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3610-2
-#, fuzzy
 msgid ""
 "This method is similar to the previous one as the <b>.sdr</b> folders will "
 "be under an internal directory. But this method is developed to address the "
@@ -9679,17 +9676,17 @@ msgid ""
 "KOReader File Browser for file operations, this is automatically handled so "
 "there are no repercussions.</b>"
 msgstr ""
-"Цей метод схожий на попередній, оскільки папки <b>.sdr</b> будуть "
-"знаходитися у внутрішньому каталозі. Але цей метод розроблено для усунення "
-"недоліків попереднього методу. Зазвичай, якщо ви перейменовуєте книгу поза "
-"KOReader (за допомогою вбудованого файлового менеджера/читача пристрою або з "
-"підключеного комп’ютера), її назва папки <b>.sdr</b> більше не "
-"збігатиметься, і ваші метадані для цієї книги будуть втрачені. <b>Якщо ви "
-"використовуєте лише файловий браузер KOReader для операцій з файлами, це "
-"обробляється автоматично, тому немає жодних наслідків.</b>"
+"Цей спосіб схожий на попередній, оскільки теки <b>.sdr</b> будуть "
+"знаходитися у внутрішній теці. Але цей спосіб розроблений для усунення "
+"недоліків попереднього. Зазвичай, якщо при перейменуванні файлу книги поза "
+"KOReader (за допомогою вбудованого файлового оглядачі чи з підключеного "
+"комп’ютера), назва пов'язаної з нею теки <b>.sdr</b> більше не збігатиметься "
+"і метадані для цієї книги будуть втрачені. <b>Якщо для операцій з файлами "
+"використовувати лише Оглядач файлів KOReader для операцій з файлами, тоді "
+"такої проблеми не виникає, що KOReader автоматично перейменовує пов'язану "
+"теку з метаданими одночасно з перейменуванням файлу книги.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3612-2
-#, fuzzy
 msgid ""
 "In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the "
 "filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be "
@@ -9697,12 +9694,12 @@ msgid ""
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
 msgstr ""
-"У цьому методі <b>HASHED</b> папки <b>.sdr</b> не ідентифікуються шляхом до "
-"файлу/назвою книги. Натомість, для зв'язування книг з їхніми налаштуваннями "
-"використовуватиметься частковий <b>MD5-хеш</b>. Цей хеш використовується як "
-"унікальний ідентифікатор книги та розраховується на основі <b>вмісту файлу "
-"книги</b>. Той самий хеш також використовується для найменування її папки ."
-"sdr."
+"У цьому способі <b>HASHED</b> теки <b>.sdr</b> не ідентифікуються "
+"місцезнаходженням чи назвою файлу книги. Натомість, для пов'язування книг з "
+"їхніми налаштуваннями використовується частковий <b>хеш MD5</b>. Цей хеш "
+"використовується як унікальний ідентифікатор книги та розраховується на "
+"основі <b>вмісту файлу книги</b>. Той самий хеш також використовується для "
+"найменування її теки .sdr."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3615-2
 msgctxt "user_guide/en.html+html.body.div.p:3615-2"
@@ -9710,30 +9707,26 @@ msgid "Benefits"
 msgstr "Переваги"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3617-4
-#, fuzzy
 msgid ""
 "Book <b>.sdr</b> folders will only be visible to and used by KOReader. They "
 "won't clutter your view of your library directories when you browse your "
 "library directories with another file browser or from your computer."
 msgstr ""
-"Папки книг <b>.sdr</b> будуть видимі та використовуватимуться лише KOReader. "
-"Вони не захаращуватимуть перегляд каталогів вашої бібліотеки під час "
-"перегляду каталогів бібліотеки за допомогою іншого файлового браузера або з "
-"вашого комп’ютера."
+"Теки <b>.sdr</b> книг будуть видимі та використовуватимуться лише KOReader. "
+"Вони не захаращуватимуть перегляд тек бібліотеки під час їх за допомогою "
+"іншого файлового оглядача чи з комп’ютера."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3619-4
-#, fuzzy
 msgid ""
 "You can rename, move, and copy your books with another file browser or from "
 "your computer. KOReader will still recognize the books after these "
 "operations."
 msgstr ""
-"Ви можете перейменовувати, переміщувати та копіювати свої книги за допомогою "
-"іншого файлового браузера або з вашого комп’ютера. KOReader все одно "
-"розпізнає книги після цих операцій."
+"Можна перейменовувати, переміщувати та копіювати книги за допомогою іншого "
+"файлового оглядача чи з комп’ютера. KOReader все одно розпізнає книги після "
+"цих операцій."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3621-4
-#, fuzzy
 msgid ""
 "In this method, KOReader associates the same <b>.sdr</b> folder with all "
 "copies of the book, even if these copies are on different devices. For "
@@ -9744,14 +9737,14 @@ msgid ""
 "your annotations and progress synchronized across your devices. This isn't "
 "possible with other methods."
 msgstr ""
-"У цьому методі KOReader пов’язує ту саму папку <b>.sdr</b> з усіма копіями "
+"У цьому способі KOReader пов’язує ту саму теку <b>.sdr</b> з усіма копіями "
 "книги, навіть якщо ці копії знаходяться на різних пристроях. Наприклад, якщо "
-"ви використовуєте <b>Syncthing</b>, цей метод дозволяє синхронізувати вашу "
-"папку <span class=\"ui\">/hashdocsettings</span> разом із файлами вашої "
-"книги на багатьох пристроях, на яких встановлено KOReader. Незважаючи на "
-"різні відносні шляхи до цих книг на кожному пристрої, ви все одно можете "
-"синхронізувати свої анотації та прогрес на всіх своїх пристроях. Це "
-"неможливо за допомогою інших методів."
+"ви використовуєте <b>Syncthing</b>, цей спосіб дозволяє синхронізувати теку "
+"<span class=\"ui\">/hashdocsettings</span> разом з файлами книг на багатьох "
+"пристроях, на яких встановлено KOReader. Незважаючи на різні відносні шляхи "
+"до цих книг на кожному пристрої, ви все одно можете синхронізувати свої "
+"анотації та поступ читання на усіх своїх пристроях. Це неможливо за "
+"допомогою інших способів зберігання метаданих і налаштувань книг."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3624-3
 msgctxt "user_guide/en.html+html.body.div.p:3624-3"
@@ -9759,7 +9752,6 @@ msgid "Negatives"
 msgstr "Недоліки"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3626-4
-#, fuzzy
 msgid ""
 "Any operations that modify the file directly (such as writing highlights "
 "into PDFs or downloading from <b>Calibre</b>) will change the file so its "
@@ -9768,19 +9760,18 @@ msgid ""
 "these books will lose their metadata."
 msgstr ""
 "Будь-які операції, що безпосередньо змінюють файл (наприклад, запис виділень "
-"у PDF-файли або завантаження з <b>Calibre</b>), змінять файл, тому його "
-"<b>MD5 ID зміниться</b> (на відміну від перейменування або переміщення, які "
-"безпечні за допомогою цього методу). У цьому випадку KOReader не зможе "
-"розпізнати книгу, тому ці книги втратять свої метадані."
+"у PDF-файли чи завантаження з <b>Calibre</b>), призведуть до <b>зміни його "
+"MD5 ID зміниться</b> (на відміну від перейменування чи переміщення, які не "
+"шкідливі для цього способу). У цьому випадку KOReader не зможе розпізнати "
+"книгу, тому такі книги втратять свої метадані."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3628-4
-#, fuzzy
 msgid ""
 "Calculating file IDs may slow down <span class=\"ui\">File browser</span> "
 "navigation when browsing larger directories."
 msgstr ""
-"Обчислення ідентифікаторів файлів може уповільнити навігацію у <span "
-"class=\"ui\">браузері файлів</span> під час перегляду більших каталогів."
+"Обчислення ідентифікаторів файлів може уповільнити навігацію в <span class="
+"\"ui\">Оглядачі файлів</span> під час перегляду більших тек."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3637-1
 msgctxt "user_guide/en.html+html.body.div.div:3637-1"
@@ -9937,13 +9928,12 @@ msgid "Predefined Gestures"
 msgstr "Наперед визначені жести"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3711-5
-#, fuzzy
 msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
 msgstr ""
-"У цій таблиці наведено жести, які постачаються з KOReader. Ви можете змінити "
-"ці жести відповідно до своїх уподобань за допомогою:"
+"У цій таблиці наведено жести, які типово налаштовані у KOReader. Їх можна "
+"змінити відповідно до своїх уподобань за допомогою:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-5
 msgid ""
@@ -9999,41 +9989,35 @@ msgid "MULTISWIPES"
 msgstr "МУЛЬТИЖЕСТИ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
-#, fuzzy
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
 msgstr ""
-"<span style=\"font-family: microns;\"></span> – Назад до попереднього "
-"розташування"
+"<span style=\"font-family: microns;\"></span> – Назад до попереднього місця"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3744-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
 msgstr ""
-"<span style=\"font-family: microns;\"></span> – Перейти до останньої "
+"<span style=\"font-family: microns;\"></span> – Перейти до найновішої "
 "закладки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3745-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
-msgstr "<span style=\"font-family: microns;\"></span> - Переглянути документ"
+msgstr "<span style=\"font-family: microns;\"></span> – Проглянути документ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3746-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr "<span style=\"font-family: microns;\"></span> - Закладки"
+msgstr "<span style=\"font-family: microns;\"></span> – Закладки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3747-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
 msgstr "<span style=\"font-family: microns;\"></span> – Зміст"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3748-5
-#, fuzzy
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Show frontlight dialog"
 msgstr ""
-"<span style=\"font-family: microns;\"></span> - Показати діалогове вікно "
-"підсвічування переднього плану"
+"<span style=\"font-family: microns;\"></span> – Показати діалог "
+"підсвічування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
@@ -10041,41 +10025,34 @@ msgstr ""
 "<span style=\"font-family: microns;\"></span> – Перемкнути перекомпонування"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr "<span style=\"font-family: microns;\"></span> - Історія"
+msgstr "<span style=\"font-family: microns;\"></span> – Історія"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
-msgstr "<span style=\"font-family: microns;\"></span> - Статус книги"
+msgstr "<span style=\"font-family: microns;\"></span> – Стан книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr "<span style=\"font-family: microns;\"></span> - Перейти на сторінку"
+msgstr "<span style=\"font-family: microns;\"></span> – Перейти до сторінки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3753-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "<span style=\"font-family: microns;\"></span> – Назад"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3754-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
-msgstr "<span style=\"font-family: microns;\"></span> - Попередній розділ"
+msgstr "<span style=\"font-family: microns;\"></span> – Попередній розділ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
-#, fuzzy
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
-msgstr "<span style=\"font-family: microns;\"></span> - Наступний розділ"
+msgstr "<span style=\"font-family: microns;\"></span> – Наступний розділ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
-#, fuzzy
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
 msgstr ""
-"<span style=\"font-family: microns;\"></span> - Відкрити попередній "
+"<span style=\"font-family: microns;\"></span> – Відкрити попередній "
 "документ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
@@ -10083,13 +10060,11 @@ msgid "<span style=\"font-family: microns;\"></span> - Favorites"
 msgstr "<span style=\"font-family: microns;\"></span> – Обране"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3764-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3764-1"
 msgid "Gesture Categories"
 msgstr "Категорії жестів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3765-5
-#, fuzzy
 msgid ""
 "This is a list of every action that you can assign to a gesture using the "
 "<span class=\"ui\">Gesture Manager</span> menu. You can use the search "
@@ -10097,15 +10072,14 @@ msgid ""
 "here. These actions can also be used in your own <span class=\"ui\">Quick "
 "Menu</span>. Please check the relevant section in the guide for more info."
 msgstr ""
-"Це список усіх дій, які можна призначити жесту за допомогою меню <span "
-"class=\"ui\">Менеджер жестів</span>. Ви можете скористатися функцією пошуку "
-"вашого браузера (зазвичай <b>Ctrl+F</b>), щоб знайти тут дію. Ці дії також "
-"можна використовувати у вашому власному <span class=\"ui\">Швидкому меню</"
-"span>. Будь ласка, перегляньте відповідний розділ посібника для отримання "
-"додаткової інформації."
+"Це список усіх дій, виконання яких можна призначити на жест за допомогою "
+"меню <span class=\"ui\">Менеджер жестів</span>. Щоб швидко знайти в цьому "
+"списку певну дію, можна скористатися функцією пошуку вебоглядача (зазвичай "
+"<b>Ctrl+F</b>). Ці дії також можна використовувати у власному <span class="
+"\"ui\">Швидкому меню</span>. Додаткова інформація про це наведена у "
+"відповідному розділі цього посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3768-5
-#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> When chooosing an action for a "
 "gesture, you will see a special item in the list named <span "
@@ -10116,14 +10090,14 @@ msgid ""
 "class=\"ui\">pass through</span>=<b>another handler might act on it</b>, "
 "<span class=\"ui\">nothing</span>=<b>swallow the action</b>."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Вибираючи дію для жесту, ви "
-"побачите у списку спеціальний елемент під назвою <span class=\"ui\">pass "
-"through</span>. Ця дія використовується для збереження поведінки цього жесту "
-"за замовчуванням, наприклад, виділення тексту під час тривалого натискання "
-"біля кутів. Якщо ви хочете вимкнути жест, щоб уникнути випадкових дій, "
-"виберіть <span class=\"ui\">nothing</span> як дію. Іншими словами, <span "
-"class=\"ui\">pass through</span>=<b>інший обробник може на нього вплинути</"
-"b>, <span class=\"ui\">nothing</span>=<b>проковтнути дію</b>."
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> При виборі дії для жесту в "
+"списку буде відображатися спеціальний елемент під назвою <span class=\"ui\""
+">Пропустити</span>. Ця дія використовується для збереження типової поведінки "
+"цього жесту, наприклад, виділення тексту під час затискання біля кутів. Якщо "
+"бажаєте вимкнути жест, щоб уникнути випадкових дій, виберіть в якості дії "
+"<span class=\"ui\">Нічого</span>. Іншими словами, <span class=\"ui\""
+">Пропустити</span>=<b>інший обробник може вплинути на нього</b>, <span class="
+"\"ui\">Нічого</span>=<b>проковтнути дію</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3774-9
 msgid "General"
@@ -10250,7 +10224,6 @@ msgid "Reading statistics: synchronize"
 msgstr "Статистика читання: синхронізувати"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
-#, fuzzy
 msgid "Text editor: open last file"
 msgstr "Текстовий редактор: відкрити останній файл"
 
@@ -10759,7 +10732,7 @@ msgstr "Назад"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3956-17
 msgid "Back to previous location"
-msgstr "Повернутись до попереднього місця"
+msgstr "Назад до попереднього місця"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
 msgid "Forward to next location"
@@ -10940,7 +10913,6 @@ msgid "Margin"
 msgstr "Поле"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
-#, fuzzy
 msgid "Horizontal overlap"
 msgstr "Горизонтальне перекриття"
 
@@ -11040,7 +11012,6 @@ msgid "Keyboard Shortcuts"
 msgstr "Сполучення клавіш"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4036-1
-#, fuzzy
 msgid ""
 "If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</"
 "b>, including Bluetooth keyboards and emulators, you can use the keyboard "
@@ -11051,9 +11022,9 @@ msgid ""
 "can access here:"
 msgstr ""
 "Якщо у вас є пристрій із клавіатурою, наприклад <b>Kindle 2</b> та <b>Kindle "
-"3</b>, включаючи Bluetooth-клавіатури та емулятори, ви можете "
-"використовувати клавіші клавіатури, кнопки пристрою та комбінації клавіш для "
-"керування KOReader. Також підтримується <b>Kindle 4</b>, якому бракує "
+"3</b>, включаючи Bluetooth-клавіатури та емулятори, тоді для керування "
+"KOReader можна використовувати клавіші клавіатури, кнопки пристрою та "
+"комбінації клавіш. Також підтримується <b>Kindle 4</b>, якому бракує "
 "повноцінної клавіатури, але все ще достатньо кнопок для функціональності в "
 "цьому контексті. На цих пристроях KOReader активує додаткове меню під назвою "
 "<span class=\"ui\">Комбінації клавіш</span>, до якого можна отримати доступ "
@@ -11068,75 +11039,66 @@ msgstr ""
 "style=\"width:26px;\"> / Навігація / Фізичні кнопки / Сполучення клавіш"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4040-1
-#, fuzzy
 msgid ""
 "This menu is very similar to the <span class=\"ui\">Gesture Manager</span> "
 "interface. In this menu:"
 msgstr ""
-"Це меню дуже схоже на інтерфейс <span class=\"ui\">Gesture Manager</span>. У "
-"цьому меню:"
+"Це меню дуже схоже до інтерфейсу <span class=\"ui\">Менеджера жестів</span>. "
+"У цьому меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4042-9
-#, fuzzy
 msgid "You can see the shortcuts that are available on your device"
-msgstr "Ви можете переглянути комбінації клавіш, доступні на вашому пристрої"
+msgstr "Можна побачити комбінації клавіш, доступні на поточному пристрої"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4043-9
-#, fuzzy
 msgid "You can see the predefined actions for some shortcuts"
-msgstr ""
-"Ви можете побачити попередньо визначені дії для деяких комбінацій клавіш"
+msgstr "Можна побачити наперед визначені дії для деяких комбінацій клавіш"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4044-9
-#, fuzzy
 msgid "You can assign actions to the available shortcuts"
-msgstr "Ви можете призначити дії доступним комбінаціям клавіш"
+msgstr "Можна призначити дії доступним комбінаціям клавіш"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4048-5
-#, fuzzy
 msgid ""
 "All of the actions in the <span class=\"ui\">Gesture Manager</span> is also "
 "available for keyboard shortcut assignment. Which means you can control "
 "nearly all the functions of KOReader with these shortcuts."
 msgstr ""
 "Усі дії в <span class=\"ui\">Менеджері жестів</span> також доступні для "
-"призначення комбінацій клавіш. Це означає, що ви можете керувати майже всіма "
-"функціями KOReader за допомогою цих комбінацій клавіш."
+"призначення комбінацій клавіш. Це означає, що за допомогою цих комбінацій "
+"клавіш можна керувати майже усіма функціями KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4050-5
-#, fuzzy
 msgid ""
 "In the table below, you can see the default key and shortcut assignments:"
 msgstr ""
-"У таблиці нижче ви можете побачити призначення клавіш та комбінацій клавіш "
-"за замовчуванням:"
+"У нижченаведеній таблиці можна побачити призначення клавіш та типові "
+"комбінацій клавіш:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4055-21
-#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> Universal <span "
 "class=\"ui\">screenshot</span> key is <b>Alt + Shift + G</b>. It is "
 "available on all screens, modes and platforms. On Kindle 4, it is "
 "<b>Keyboard + Menu</b>."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Універсальна клавіша для <span "
-"class=\"ui\">знімків екрана</span> – це <b>Alt + Shift + G</b>. Вона "
-"доступна на всіх екранах, у всіх режимах та на всіх платформах. На Kindle 4 "
-"це <b>Клавіатура + Меню</b>."
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Універсальна комбінація клавіш, "
+"щоб зробити <span class=\"ui\">знімок екрану</span> – це <b>Alt + Shift + G</"
+"b>. Вона доступна на усіх екранах, у всіх режимах та на всіх платформах. На "
+"Kindle 4 – це кнопки <b>Клавіатура + Меню</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4057-21
-#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> If you have a Kindle 4, <b>SHIFT</b> "
 "key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift "
 "+ (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/"
 "DOWN/LEFT/RIGHT)</b> on your Kindle 4."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Якщо у вас Kindle 4, клавіша "
-"<b>SHIFT</b> у таблиці нижче відповідає вашій кнопці <b>KEYBOARD</b>. Отже, "
-"комбінації клавіш <b>Shift + (ВГОРУ/ВНИЗ/ЛІВОРУЧ/ПРАВОРУЧ)</b> відповідають "
-"комбінації клавіш <b>Кнопка клавіатури + (ВГОРУ/ВНИЗ/ЛІВОРУЧ/ПРАВОРУЧ)</b> "
-"на вашому Kindle 4."
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> На Kindle 4 клавіша <b>Shift</"
+"b> у нижченаведеній таблиці відповідає кнопці <b>Keyboard</b>. Отже, "
+"комбінації клавіш <b>Shift + Вгору/Вниз/Вліво/Вправо</b> відповідають "
+"комбінаціям клавіш <b>кнопка Клавіатура + Вгору/Вниз/Вліво/Вправо</b> на "
+"Kindle 4."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4064-17
 msgid "File browser mode"
@@ -11173,18 +11135,16 @@ msgid "Open selected book"
 msgstr "Відкрити вибрану книгу"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4081-13
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.table.tr.td:4081-13user_guide/en."
 "html+html.body.div.div.table.tr.td:4081-13user_guide/en.html+html.body.div."
 "div.table.tr.td:4081-13"
 msgid "Enter"
-msgstr "Введіть"
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4084-13
-#, fuzzy
 msgid "Exit application"
-msgstr "Вихід із програми"
+msgstr "Вийти з програми"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgctxt ""
@@ -11212,10 +11172,9 @@ msgid "Open bottom menu"
 msgstr "Відкрити нижнє меню"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4097-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4097-13"
 msgid "Enter"
-msgstr "Введіть"
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4100-13
 msgid "Back/exit application"
@@ -11284,9 +11243,8 @@ msgid "Links"
 msgstr "Посилання"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4132-13
-#, fuzzy
 msgid "Select next page link"
-msgstr "Вибрати посилання на наступну сторінку"
+msgstr "Вибрати наступне посилання на поточній сторінці"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4133-13
 msgid "Tab"
@@ -11301,9 +11259,8 @@ msgid "Shift+Tab"
 msgstr "Shift + Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4140-13
-#, fuzzy
 msgid "Open selected page link"
-msgstr "Відкрити посилання на вибрану сторінку"
+msgstr "Відкрити вибране на сторінці посилання"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4141-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4141-13"
@@ -11356,14 +11313,12 @@ msgid "Move highlight indicator"
 msgstr "Переміщувати індикатор виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4169-13
-#, fuzzy
 msgid "Left/Right<br>Up/Down"
-msgstr "Ліворуч/Праворуч<br>Вгору/Вниз"
+msgstr "Вліво/Вправо<br>Вгору/Вниз"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4172-13
-#, fuzzy
 msgid "Move indicator faster"
-msgstr "Перемістіть індикатор швидше"
+msgstr "Переміщувати індикатор швидше"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4173-13
 msgid "Shift +<br>Left/Right/Up/Down"
@@ -11659,7 +11614,6 @@ msgid "Quick Menu"
 msgstr "Швидке меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4318-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Quick Menu</span> is a recent feature of KOReader which "
 "allows you to have a quickly accessible personalized menu as in the example "
@@ -11668,10 +11622,10 @@ msgid ""
 "scrollable."
 msgstr ""
 "<span class=\"ui\">Швидке меню</span> – це нова функція KOReader, яка "
-"дозволяє вам швидко отримати доступ до персоналізованого меню, як на "
-"зображенні нижче. Ви можете призначити це меню жесту та отримати до нього "
-"доступ одним рухом пальця. Ви навіть можете мати меню довше, ніж ваш екран, "
-"його можна прокручувати."
+"дозволяє швидко отримати доступ до персоналізованого меню, як на "
+"нижченаведеному зображенні. Відкриття цього меню можна призначити на жест та "
+"отримати до нього доступ одним рухом пальця. Можна мати меню навіть довше за "
+"екран, бо його можна прокручувати."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4321-9
 msgid ""
@@ -11711,7 +11665,6 @@ msgid "An example Quick Menu:"
 msgstr "Приклад швидкого меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4334-9
-#, fuzzy
 msgid ""
 "There are two methods of creating a <span class=\"ui\">Quick Menu</span>: "
 "<b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</"
@@ -11723,15 +11676,15 @@ msgid ""
 "while using the <b>Easy method</b>, you have to re-create your menu under "
 "the new gesture."
 msgstr ""
-"Існує два методи створення <span class=\"ui\">Швидкого меню</span>: "
-"<b>Простий</b> та <b>Розширений</b>. Якщо вам потрібне лише одне меню, "
-"<b>Простого методу</b> має бути достатньо. Якщо ви хочете відображати різні "
-"меню за допомогою різних жестів, вам потрібно використовувати <b>Розширений "
-"метод</b>. Ще однією перевагою <b>Розширеного методу</b> є простіше "
-"перепризначення жестів. Якщо ви хочете змінити жест для свого меню, ви "
-"можете легко перемістити його на інший жест за допомогою меню <b>Розширений "
-"метод</b>. Якщо ви хочете використовувати інший жест під час використання "
-"<b>Простого методу</b>, вам доведеться повторно створити меню з новим жестом."
+"Є два способи створити <span class=\"ui\">Швидке меню</span>. <b>Простий</b> "
+"та <b>розширений</b>. Якщо вам потрібне тільки меню, <b>простого способу</b> "
+"буде достатньо. Якщо ж бажаєте, щоб за різними жестами відкривалися різні "
+"меню, тоді потрібно скористатися <b>розширеним способом</b>. Іншою перевагою "
+"<b>розширеного способу</b> є те, що якщо ви забажаєте використовувати інший "
+"жест для відкриття цього меню, то зможете просто перепризначити відкриття "
+"цього меню на інший жест. Якщо ж при використанні <b>простого способу</b> ви "
+"забажаєте відкривати меню іншим жестом, доведеться повторно створювати "
+"швидке меню для нового жесту."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4338-9
 msgid "Easy method"
@@ -11792,7 +11745,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4355-1
 msgid "Advanced method"
-msgstr "Розширений метод"
+msgstr "Розширений спосіб"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4357-9
 msgid ""
@@ -11822,17 +11775,15 @@ msgstr ""
 "class=\"ui\">профіль</span> з якимись елементами і поверніться суди."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4361-9
-#, fuzzy
 msgid ""
 "Before continuing, we assume that you already created a <span "
 "class=\"ui\">Profile</span> as instructed in the previous paragraph. Now we "
 "will turn our <span class=\"ui\">Profile</span> into a <span "
 "class=\"ui\">Quick Menu</span>."
 msgstr ""
-"Перш ніж продовжити, ми припускаємо, що ви вже створили <span "
-"class=\"ui\">Профіль</span>, як зазначено в попередньому абзаці. Тепер ми "
-"перетворимо наш <span class=\"ui\">Профіль</span> на <span "
-"class=\"ui\">Швидке меню</span>."
+"Вважатимемо, що ви вже створити <span class=\"ui\">профіль</span>, як "
+"описано в наступному розділі. Тепер потрібно перетворити <span class=\"ui\""
+">профіль</span> на <span class=\"ui\">Швидке меню</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4363-9
 msgid ""
@@ -12013,13 +11964,12 @@ msgid "Profiles"
 msgstr "Профілі"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4412-9
-#, fuzzy
 msgid ""
 "A profile is basically a collection of actions that can be triggered with a "
 "single gesture (like a macro)."
 msgstr ""
-"Профіль — це, по суті, набір дій, які можна запустити одним жестом "
-"(наприклад, макросом)."
+"По своїй суті профілі є набором жестів, який можна запустити одним дотиком ("
+"на зразок макросу)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4415-9
 msgctxt "user_guide/en.html+html.body.div.p:4415-9"
@@ -12171,40 +12121,34 @@ msgstr ""
 "ЖЕСТ» / Загальне / Профіль «назва вашого профілю»"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4459-13
-#, fuzzy
 msgid ""
 "You can also activate a profile <b>automatically</b> depending on some "
 "conditions. See the next heading to learn how to use this powerful feature."
 msgstr ""
-"Ви також можете активувати профіль <b>автоматично</b> залежно від певних "
-"умов. Дивіться наступний заголовок, щоб дізнатися, як користуватися цією "
-"потужною функцією."
+"Профіль можна також активувати <b>автоматично</b>, залежно від певних умов. "
+"Як використовувати цю функцію описано у наступному підрозділі."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4462-3
-#, fuzzy
 msgid "Profile auto-execution"
 msgstr "Автоматичне виконання профілю"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4464-3
-#, fuzzy
 msgid ""
 "You can run a profile manually as explained above but real power of profiles "
 "can be unleashed with its <span class=\"ui\">auto-execute</span> feature. "
 "Using this feature, you can trigger a profile depending on some conditions "
 "and sub-conditions:"
 msgstr ""
-"Ви можете запустити профіль вручну, як пояснювалося вище, але справжню силу "
+"Як вже було сказано, профіль можна запустити власноруч, але справжню силу "
 "профілів можна розкрити завдяки функції <span class=\"ui\">автоматичного "
-"виконання</span>. За допомогою цієї функції ви можете запустити профіль "
-"залежно від певних умов та підумов:"
+"виконання</span>. За допомогою цієї функції можна запустити профіль залежно "
+"від певних умов та підумов:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4469-5
-#, fuzzy
 msgid "Trigger"
-msgstr "Тригер"
+msgstr "Дія-активатор"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4469-28
-#, fuzzy
 msgid "Sub-conditions"
 msgstr "Підумови"
 
@@ -12213,16 +12157,14 @@ msgid "On KOReader start"
 msgstr "При запуску KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4472-48
-#, fuzzy
 msgid ""
 "Run this profile every time KOReader starts. Note that this is only possible "
 "when KOReader is starting with the <span class=\"ui\">File browser</span> or "
 "<span class=\"ui\">Last file</span>."
 msgstr ""
-"Запускати цей профіль щоразу, коли KOReader запускається. Зверніть увагу, що "
-"це можливо лише тоді, коли KOReader запускається з <span "
-"class=\"ui\">файлового браузера</span> або <span class=\"ui\">останнього "
-"файлу</span>."
+"Запускати цей профіль щоразу при запуску KOReader. Зверніть увагу, що це "
+"можливо лише тоді, коли KOReader запускається з <span class=\"ui\">Оглядача "
+"файлів</span> чи <span class=\"ui\">останнього файлу</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4472-242
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4472-242"
@@ -12234,9 +12176,8 @@ msgid "On wake-up"
 msgstr "При пробудженні"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4475-42
-#, fuzzy
 msgid "Run this profile every time device wakes up"
-msgstr "Запускати цей профіль щоразу, коли пристрій прокидається"
+msgstr "Запускати цей профіль щоразу при пробудженні пристрою"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4475-97
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4475-97"
@@ -12248,21 +12189,18 @@ msgid "On rotation"
 msgstr "При повороті"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4478-43
-#, fuzzy
 msgid "Run this profile when screen rotates to the selected rotation(s)."
 msgstr ""
-"Запускати цей профіль, коли екран повертається до вибраного положення "
-"(положень)."
+"Запускати цей профіль при повороті екрану до вибраного положення чи положень."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4478-117
-#, fuzzy
 msgid ""
 "<b>Examples:</b> Change to double column layout when device rotates to "
 "landscape. Activate night mode when device rotates upside down."
 msgstr ""
-"<b>Приклади:</b> Змінити макет на подвійний стовпчик, коли пристрій "
-"повертається в альбомну орієнтацію. Активувати нічний режим, коли пристрій "
-"повертається догори дном."
+"<b>Приклади:</b> Змінити макет на два стовпці коли пристрій повертається в "
+"альбомну орієнтацію. Активувати нічний режим коли пристрій повертається на "
+"180°."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4481-5
 msgid "<span class=\"ui\">Left 90°</span> (landscape)"
@@ -12285,41 +12223,36 @@ msgid "On showing folder"
 msgstr "При показі теки"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4489-49
-#, fuzzy
 msgid ""
 "Run this profile when you enter this folder in file browser. You can use "
 "this trigger to change the display mode of <span class=\"ui\">file browser</"
 "span>. For example when you enter a certain folder you can change the "
 "display mode from <b>mosaic</b> to <b>detailed</b> view."
 msgstr ""
-"Запускати цей профіль, коли ви входите в цю папку у файловому браузері. Ви "
-"можете використовувати цей тригер для зміни режиму відображення <span "
-"class=\"ui\">файлового браузера</span>. Наприклад, коли ви входите в певну "
-"папку, ви можете змінити режим відображення з <b>мозаїчного</b> на "
-"<b>детальний</b> вигляд."
+"Запускати цей профіль при вході до цієї теки у Оглядачі файлів. Цей "
+"активатор можна використовувати для зміни режиму відображення <span class="
+"\"ui\">Оглядача файлів</span>. Наприклад, при вході до певної теки можна "
+"змінити режим відображення з <b>мозаїчного</b> на <b>детальний</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4491-6
-#, fuzzy
 msgid "<span class=\"ui\">If folder path contains</span> a certain text"
-msgstr "<span class=\"ui\">Якщо шлях до папки містить</span> певний текст"
+msgstr "<span class=\"ui\">Якщо шлях до теки містить</span> певний текст"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4492-6
-#, fuzzy
 msgid "<span class=\"ui\">If folder path doesn't contain</span> a certain text"
-msgstr "<span class=\"ui\">Якщо шлях до папки не містить</span> певного тексту"
+msgstr "<span class=\"ui\">Якщо шлях до теки не містить</span> певного тексту"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4496-5
 msgid "On book opening"
 msgstr "При відкритті книги"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4497-6
-#, fuzzy
 msgid ""
 "This trigger is executed when you open a book (optionally) combined with "
 "specific sub-conditions."
 msgstr ""
-"Цей тригер виконується, коли ви відкриваєте книгу (необов'язково) у "
-"поєднанні з певними підумами."
+"Цей активатор виконується при відкритті книгу (за бажанням) у поєднанні з "
+"певними підумовами."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4498-6
 msgid ""
@@ -12330,174 +12263,154 @@ msgstr ""
 "якої з них достатньо для запуску виконання профілю."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4502-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4502-7"
 msgid "Combined with <b>device orientation</b>"
 msgstr "У поєднанні з <b>орієнтацією пристрою</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4503-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4503-7"
 msgid "Combined with <b>book metadata</b>"
 msgstr "У поєднанні з <b>метаданими книги</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4504-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4504-7"
 msgid "Combined with <b>book file path</b>"
 msgstr "У поєднанні з <b>шляхом до файлу книги</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4505-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4505-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr "У поєднанні з <b>колекціями книга включена до</b>"
+msgstr "У поєднанні з <b>добірками, до яких включена книга</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4506-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4506-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr "У поєднанні з <b>книга відкривається вперше</b>"
+msgstr "У поєднанні з тим, що <b>книга відкривається вперше</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4511-5
 msgid "On book closing"
-msgstr "Про закриття книги"
+msgstr "При закритті книги"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4512-6
-#, fuzzy
 msgid ""
 "This option is same as above but it triggers when you close a book. You can "
 "use this for example enabling/disabling reading statistics when you open "
 "certain documents to exclude them from your stats."
 msgstr ""
-"Ця опція така ж, як і вище, але вона спрацьовує, коли ви закриваєте книгу. "
-"Ви можете використовувати її, наприклад, для ввімкнення/вимкнення статистики "
-"читання під час відкриття певних документів, щоб виключити їх зі своєї "
-"статистики."
+"Ця функція така ж, як вищенаведена, але вона спрацьовує при закритті книги. "
+"Нею можна користуватися, наприклад, для увімкнення/вимкнення статистики "
+"читання під час відкриття певних документів, щоб вони не враховувалися у "
+"статистиці."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4517-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4517-7"
 msgid "Combined with <b>device orientation</b>"
 msgstr "У поєднанні з <b>орієнтацією пристрою</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4518-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4518-7"
 msgid "Combined with <b>book metadata</b>"
 msgstr "У поєднанні з <b>метаданими книги</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4519-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4519-7"
 msgid "Combined with <b>book file path</b>"
 msgstr "У поєднанні з <b>шляхом до файлу книги</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4520-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4520-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr "У поєднанні з <b>колекціями книга включена до</b>"
+msgstr "У поєднанні з <b>добірками, до яких включена книга</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4521-7
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4521-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr "У поєднанні з <b>книга відкривається вперше</b>"
+msgstr "У поєднанні з тим, що <b>книга відкривається вперше</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4529-4
-#, fuzzy
 msgid "Profile examples:"
 msgstr "Приклади профілів:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4531-4
-#, fuzzy
 msgid ""
 "Here are some profile examples from our devs to give you ideas about using "
 "this powerful feature of KOReader. Examples also include auto-execute "
 "conditions and <span class=\"ui\">collections</span> features:"
 msgstr ""
-"Ось кілька прикладів профілів від наших розробників, які дадуть вам уявлення "
-"про використання цієї потужної функції KOReader. Приклади також включають "
-"умови автоматичного виконання та функції <span class=\"ui\">колекції</span>:"
+"Ось кілька прикладів профілів від наших розробників, які дадуть уявлення про "
+"використання цієї потужної функції KOReader. Приклади також включають умови "
+"автоматичного виконання та функції <span class=\"ui\">добірок</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4534-5
-#, fuzzy
 msgid ""
 "Enable <b>two columns mode</b> when you turn your device to landscape "
 "orientation."
 msgstr ""
-"Увімкніть <b>режим двох колонок</b>, коли ви перемикаєте пристрій в альбомну "
+"Увімкнути <b>режим двох стовпців</b> при перевертанні пристрою в альбомну "
 "орієнтацію."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4535-5
-#, fuzzy
 msgid "Enable <b>night mode</b> when you turn your device upside down."
-msgstr "Увімкніть <b>нічний режим</b>, коли перевернете пристрій догори дном."
+msgstr "Увімкнути <b>нічний режим</b> при перевертанні пристрою догори дриґом."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4536-5
-#, fuzzy
 msgid ""
 "Add all your manga to a collection. Then create a profile which switches the "
 "page turn direction to <b>Right-To-Left</b> and inverts the page turn taps "
 "and swipes when you open a manga book from this collection."
 msgstr ""
-"Додайте всю свою манґу до колекції. Потім створіть профіль, який "
-"перемикатиме напрямок гортання сторінок на <b>Справа наліво</b> та "
-"інвертуватиме дотики та свайпи під час відкриття книги манґи з цієї колекції."
+"Додайте всю свою манґу до добірки. Потім створіть профіль, який змінює "
+"напрямок гортання сторінок на гортання <b>справа наліво</b>, а також "
+"інвертує дотики та протягування пальцем у відкритій з цієї добірки книзі "
+"манґи."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4537-5
-#, fuzzy
 msgid ""
 "Add your comic books to a collection, which can trigger a profile to "
 "decrease the screen refresh interval to <span class=\"ui\">every page</span> "
 "to avoid ghosting."
 msgstr ""
-"Додайте свої комікси до колекції, що може активувати профіль для зменшення "
-"інтервалу оновлення екрана до <span class=\"ui\">кожної сторінки</span>, щоб "
-"уникнути ореолів."
+"Додайте книги мальописів до добірки, що може активувати профіль у якому діє "
+"зменшений до <span class=\"ui\">кожної сторінки</span> інтервал повного "
+"оновлення екрану, що дозволить уникнути артефактів від попередніх сторінок "
+"на екрані."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4538-5
-#, fuzzy
 msgid ""
 "Trigger a profile to adjust typeface, font size and set two-column mode when "
 "opening a file for the first time from the <b>Periodicals</b> folder."
 msgstr ""
-"Активувати профіль для налаштування гарнітури, розміру шрифту та "
-"встановлення двоколонкового режиму під час першого відкриття файлу з папки "
+"Активувати профіль для пристосування гарнітури шрифту, розміру шрифту та "
+"встановлення режиму в два стовпці під час першого відкриття файлу з теки "
 "<b>Періодичні видання</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4539-5
-#, fuzzy
 msgid ""
 "Add your problematic PDFs to a collection, so when you open them <span "
 "class=\"ui\">Auto OCR</span> or <span class=\"ui\">Reflow mode</span> is "
 "activated with a profile."
 msgstr ""
-"Додайте проблемні PDF-файли до колекції, щоб під час їх відкриття "
-"активувалося <span class=\"ui\">автоматичне розпізнавання символів</span> "
-"або <span class=\"ui\">режим перекомпонування</span> з профілем."
+"Додайте проблемні PDF-файли до добірки, щоб під час їх відкриття разом з "
+"профілем активувалося <span class=\"ui\">примусове OCR</span> (оптичне "
+"розпізнавання символів) або <span class=\"ui\">режим перекомпонування</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4540-5
-#, fuzzy
 msgid ""
 "Switch display mode (covers, detailed list etc.) of <span class=\"ui\">file "
 "browser</span> when you enter certain folders."
 msgstr ""
 "Перемикати режим відображення (обкладинки, детальний список тощо) <span "
-"class=\"ui\">файлового браузера</span> під час відвідування певних папок."
+"class=\"ui\">Оглядача файлів</span> під час відкриття певних тек."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4541-5
-#, fuzzy
 msgid ""
 "Toggle off reading statistics when opening a book from a <b>Reference Books</"
 "b> collection. Toggle statistics back on when closing the book."
 msgstr ""
-"Вимкнути статистику читання під час відкриття книги з колекції <b>Довідкова "
-"література</b>. Знову ввімкнути статистику під час закриття книги."
+"Вимкнути статистику читання під час відкриття книги з добірки <b>Довідкова "
+"література</b> та знову увімкнути статистику при закритті книги."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4542-5
-#, fuzzy
 msgid ""
 "If you expose the <span class=\"ui\">style tweaks</span> in the gesture "
 "manager, you can create a profile to enable or disable them based on certain "
@@ -12506,19 +12419,17 @@ msgid ""
 "collection or by a keyword in the metadata of the book. See the <a "
 "href=\"#L2-styletweaks\">style tweaks</a> section of the guide for more info."
 msgstr ""
-"Якщо ви відкриєте для себе <span class=\"ui\">налаштування стилю</span> у "
-"менеджері жестів, ви зможете створити профіль, щоб увімкнути або вимкнути їх "
-"залежно від певних умов. Наприклад, ви можете активувати профіль "
-"<b>«вимкнути стилі видавця ТА застосувати мої налаштування стилю "
-"користувача»</b> на основі розташування/колекції книги або за ключовим "
-"словом у метаданих книги. Див. розділ <a href=\"#L2-"
-"styletweaks\">налаштування стилю</a> посібника для отримання додаткової "
-"інформації."
+"Якщо ви відкриєте для себе <span class=\"ui\">підлаштування стилів</span> у "
+"менеджері жестів, то зможете створити профіль, щоб увімкнути/вимкнути їх "
+"залежно від певних умов. Наприклад, можна активувати профіль <b>«вимкнути "
+"стилі видавця ТА застосувати мої налаштування стилю користувача»</b> на "
+"основі розташування/добірки книги або за ключовим словом у метаданих книги. "
+"Докладну інформацію див. у розділі <a href=\"#L2-styletweaks\">Налаштування "
+"стилю</a> посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4546-1
-#, fuzzy
 msgid "Technical details of Profiles and Quick Menu"
-msgstr "Технічні деталі профілів та швидкого меню"
+msgstr "Технічні деталі Профілів та Швидкого меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4548-9
 msgctxt "user_guide/en.html+html.body.div.p:4548-9"
@@ -12526,12 +12437,11 @@ msgid "!!! ADVANCED"
 msgstr "!!! ДЛЯ ДОСВІДЧЕНИХ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4550-9
-#, fuzzy
 msgid ""
 "In KOReader we have <b>a set of actions/settings</b> and this set can be "
 "created in two ways:"
 msgstr ""
-"У KOReader є <b>набір дій/налаштувань</b>, і цей набір можна створити двома "
+"У KOReader є <b>набір дій/налаштувань</b> і цей набір можна створити двома "
 "способами:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4554-13
@@ -12544,34 +12454,30 @@ msgstr ""
 "span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4555-13
-#, fuzzy
 msgid ""
 "As a list of actions assigned to a gesture (which is explained as the <span "
 "class=\"ui\">Easy Method</span> and stored in <span class=\"ui\">settings/"
 "gestures.lua)</span>"
 msgstr ""
-"Як список дій, призначених жесту (що пояснюється як <span "
-"class=\"ui\">Простий метод</span> та зберігається у <span "
-"class=\"ui\">settings/gestures.lua)</span>"
+"Як список дій, призначених жесту (що пояснюється як <span class=\"ui\""
+">простий спосіб</span> та зберігається у <span class=\"ui\">settings/"
+"gestures.lua)</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4558-9
-#, fuzzy
 msgid "This set can also be <b>executed</b> in two different ways:"
 msgstr "Цей набір також можна <b>виконати</b> двома різними способами:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4560-13
-#, fuzzy
 msgid ""
 "Applying each action in the (sorted) order when triggered (as a <span "
 "class=\"ui\">Profile</span>)"
 msgstr ""
-"Застосування кожної дії в (відсортованому) порядку під час спрацьовування "
-"(як <span class=\"ui\">Профіль</span>)"
+"Застосування кожної дії у (впорядкованому) порядку під час активації (як "
+"<span class=\"ui\">профіль</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4561-13
-#, fuzzy
 msgid "Showing it as a <span class=\"ui\">Quick Menu</span>"
-msgstr "Відображення як <span class=\"ui\">Швидке меню</span>"
+msgstr "Відображення його як <span class=\"ui\">Швидке меню</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4564-9
 msgid ""
@@ -12590,15 +12496,14 @@ msgstr ""
 "class=\"ui\">Сортувати</span> розміщено на другій сторінці."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4567-25
-#, fuzzy
 msgid ""
 "<span class=\"label_blue\">INFO</span> You can backup and transfer your "
 "profiles to another device. Please see <a href=\"#backup\">Backup your "
 "KOReader settings</a> section."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Ви можете створити резервну "
-"копію та перенести свої профілі на інший пристрій. Див. розділ <a "
-"href=\"#backup\">Резервне копіювання налаштувань KOReader</a>."
+"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Можна створити резервну копію "
+"та перенести свої профілі на інший пристрій. Див. розділ <a href=\"#backup\""
+">Резервне копіювання налаштувань KOReader</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4573-9
 msgctxt "user_guide/en.html+html.body.div.div:4573-9"
@@ -12611,14 +12516,13 @@ msgid "Plugin types"
 msgstr "Типи модулів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4575-9
-#, fuzzy
 msgid ""
 "Plugins are small KOReader programs that are similar to browser add-ons "
 "which extends the capabilities of the base program. KOReader has 3 "
 "categories of plugins:"
 msgstr ""
-"Плагіни – це невеликі програми KOReader, схожі на доповнення браузера, які "
-"розширюють можливості базової програми. KOReader має 3 категорії плагінів:"
+"Модулі – це невеликі програми KOReader, схожі на доповнення вебоглядача, які "
+"розширюють можливості базової програми. KOReader має три категорії плагінів:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4579-9
 msgid "Internal"
@@ -12660,9 +12564,8 @@ msgstr ""
 "style=\"width:22px;\"> / Більше інструментів / Керування модулями"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4596-9
-#, fuzzy
 msgid "Contrib"
-msgstr "Внесок"
+msgstr "Від ентузіастів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4597-9
 msgctxt "user_guide/en.html+html.body.div.p:4597-9"
@@ -12700,7 +12603,6 @@ msgstr ""
 "b>, тому вважаються безпечними."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4608-9
-#, fuzzy
 msgid ""
 "You can access them from <a href=\"https://github.com/koreader/"
 "contrib\">this page</a>. Generally they are installed by downloading the "
@@ -12708,11 +12610,11 @@ msgid ""
 "class=\"ui\">koreader/plugins</span> folder on your device. But please check "
 "the plugin’s page for other possible instructions."
 msgstr ""
-"Ви можете отримати до них доступ з <a href=\"https://github.com/koreader/"
-"contrib\">цієї сторінки</a>. Зазвичай вони встановлюються шляхом "
-"завантаження каталогу плагіна зі сторінки вище та копіювання його в папку "
-"<span class=\"ui\">koreader/plugins</span> на вашому пристрої. Але, будь "
-"ласка, перевірте сторінку плагіна для отримання інших можливих інструкцій."
+"Їх можна завантажити <a href=\"https://github.com/koreader/contrib\">з цієї "
+"сторінки</a>. Зазвичай, щоб встановити такий модуль, потрібно завантажити "
+"його теку з файлами і скопіювати до теки <span class=\"ui\">/koreader/"
+"plugins</span> на своєму пристрої. Проте, ознайомтеся з сторінкою модуля, бо "
+"там можуть бути додаткові інструкції."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4613-9
 msgid "External"
@@ -12761,55 +12663,50 @@ msgstr ""
 "GitHub:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4626-13
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/drewbaumann/AskGPT\">AskGPT plugin:</a> You can "
 "ask questions to <b>ChatGPT</b> about parts of your book. You can also use "
 "this plugin to simplify, explain, discuss or translate text to other "
 "languages."
 msgstr ""
-"<a href=\"https://github.com/drewbaumann/AskGPT\">Плагін AskGPT:</a> Ви "
-"можете ставити запитання до <b>ChatGPT</b> щодо частин вашої книги. Ви також "
-"можете використовувати цей плагін для спрощення, пояснення, обговорення або "
+"<a href=\"https://github.com/drewbaumann/AskGPT\">AskGPT</a> – модуль, який "
+"дозволяє ставити запитання до <b>ChatGPT</b> щодо частин книги. Цей модуль "
+"можна також використовувати для спрощення, пояснення, обговорення або "
 "перекладу тексту іншими мовами."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4628-13
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/omer-faruq/assistant.koplugin\">Assistant: AI "
 "Helper plugin:</a> A fork of the plugin above with more advanced features "
 "like multiple AI providers and built-in/custom prompts."
 msgstr ""
-"<a href=\"https://github.com/omer-faruq/assistant.koplugin\">Assistant: "
-"плагін AI Helper:</a> форк вищезгаданого плагіна з розширенішими функціями, "
-"такими як кілька постачальників ШІ та вбудовані/користувацькі підказки."
+"<a href=\"https://github.com/omer-faruq/assistant.koplugin\">Assistant: AI "
+"Helper</a> – відгалуження (fork) вищезгаданого модуля з розширеними "
+"функціями на зразок кількох постачальників ШІ та вбудовані/користувацькі "
+"запити."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4630-13
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/Ajatt-Tools/anki.koplugin\">Anki plugin:</a> "
 "KOReader plugin enabling <b>Anki</b> (an open-source flashcard software) "
 "card generations for words looked up in the internal dictionary."
 msgstr ""
-"<a href=\"https://github.com/Ajatt-Tools/anki.koplugin\">Плагін Anki:</a> "
-"Плагін KOReader, що дозволяє генерувати картки <b>Anki</b> (програмне "
-"забезпечення з відкритим кодом для карток) для слів, знайдених у "
-"внутрішньому словнику."
+"<a href=\"https://github.com/Ajatt-Tools/anki.koplugin\">Anki</a> – модуль "
+"KOReader, що дозволяє генерувати картки <b>Anki</b> (програмне забезпечення "
+"з відкритим кодом для карток) для слів, знайдених у внутрішньому словнику."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4632-13
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/stelzch/zotero.koplugin\">Zotero plugin:</a> "
 "This addon allows you to browse your <span class=\"external\">Zotero</span> "
 "(an open-source reference management software) collections from KOReader."
 msgstr ""
-"<a href=\"https://github.com/stelzch/zotero.koplugin\">Плагін Zotero:</a> "
-"Цей додаток дозволяє переглядати ваші колекції <span "
-"class=\"external\">Zotero</span> (програмне забезпечення з відкритим кодом "
-"для керування посиланнями) з KOReader."
+"<a href=\"https://github.com/stelzch/zotero.koplugin\">Zotero</a> – модуль, "
+"що дозволяє переглядати ваші колекції <span class=\"external\">Zotero</span> "
+"(програмне забезпечення з відкритим кодом для керування посиланнями) з "
+"KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4634-13
-#, fuzzy
 msgid ""
 "<a href=\"https://github.com/jasonchoimtt/koreader-syncthing\">Syncthing "
 "plugin:</a> This addon allows you to run <b>Syncthing</b> peer-to-peer file "
@@ -12817,24 +12714,22 @@ msgid ""
 "work on other devices according to the author). This makes it possible to "
 "sync files between your e-reader and computer/phone automatically."
 msgstr ""
-"<a href=\"https://github.com/jasonchoimtt/koreader-syncthing\">Плагін "
-"Syncthing:</a> Цей додаток дозволяє запускати програму синхронізації файлів "
-"між одноранговими пристроями <b>Syncthing</b> на KOReader (перевірено лише "
-"на пристроях Kobo, але, за словами автора, може працювати й на інших "
-"пристроях). Це дозволяє автоматично синхронізувати файли між вашою "
-"електронною книгою та комп’ютером/телефоном."
+"<a href=\"https://github.com/jasonchoimtt/koreader-syncthing\">Syncthing</a> "
+"– модуль, що дозволяє запускати програму синхронізації файлів між "
+"одноранговими пристроями <b>Syncthing</b> на KOReader (перевірено лише на "
+"пристроях Kobo, але, за словами автора, може працювати й на інших пристроях)"
+". Це дозволяє автоматично синхронізувати файли між вашою е-читалкою та "
+"комп’ютером/телефоном."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4637-9
-#, fuzzy
 msgid ""
 "Also you can click <a href=\"https://github.com/search?"
 "q=koplugin&type=repositories\">this link</a> to open a search page on <span "
 "class=\"external\">Github</span> to discover more KOReader plugin projects."
 msgstr ""
-"Також ви можете натиснути <a href=\"https://github.com/search?"
-"q=koplugin&type=repositories\">це посилання</a>, щоб відкрити сторінку "
-"пошуку на <span class=\"external\">Github</span> та знайти більше проектів "
-"плагінів KOReader."
+"За <a href=\"https://github.com/search?q=koplugin&type=repositories\">цим "
+"посиланням</a> можна перейти на сторінку пошуку на <span class=\"external\""
+">Github</span> і там знайти більше проектів модулів KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4641-9
 msgctxt "user_guide/en.html+html.body.div.div:4641-9"
@@ -12846,9 +12741,9 @@ msgid ""
 "<b> Auto frontlight </b> - Automatically toggles the frontlight according to "
 "ambient light level (Only available on Kindle Voyage and Oasis)"
 msgstr ""
-"<b> Статистика читання </b> - обчислює статистику сеансу читання та "
-"швидкість читання для використання цих даних під час оцінки часу, який "
-"потрібен для завершення читання розділу або книги"
+"<b> Автопідсвічування </b> – автоматично перемикає рівень підсвічування "
+"екрану відповідно до рівня освітленості навколишнього середовища (працює "
+"тільки на Kindle Voyage та Oasis)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4644-9
 msgid ""
@@ -12865,25 +12760,25 @@ msgid ""
 "<b> Auto power save </b> - Puts the device into standby, suspend or power "
 "off after specified periods of inactivity"
 msgstr ""
-"<b> Авто енергоощадження </b> – переводить пристрій у режим очікування або "
-"вимикає його після невикористання протягом вказаного проміжку часу"
+"<b> Автоматичне енергозаощадження </b> – переводить пристрій у режим "
+"очікування або вимикає його після невикористання протягом вказаного проміжку "
+"часу"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4646-9
-#, fuzzy
 msgid ""
 "<b> Autosuspend </b> - Suspend device after chosen period of inactivity "
 "(available on all e-ink devices except android os)"
 msgstr ""
-"<b> Автоматичне призупинення </b> – Призупинити роботу пристрою після "
-"вибраного періоду бездіяльності (доступно на всіх пристроях з електронним "
-"чорнилом, окрім Android)"
+"<b> Автопризупинення </b> - призупиняє роботу пристрою після обраного "
+"періоду бездіяльності (доступно на всіх пристроях з е-чорнилами, крім "
+"Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4647-9
 msgid ""
 "<b> Autoturn </b> - Automatically turns the page after a set period of time"
 msgstr ""
-"<b> Емулятор термінала </b> - запускає на пристрої оболонку (командний "
-"рядок), за допомогою якої можна запускати повноцінні термінальні застосунки"
+"<b> Емулятор терміналу </b> – запускає на пристрої оболонку (командний рядок)"
+", за допомогою якої можна запускати повноцінні термінальні застосунки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4648-9
 msgid ""
@@ -12898,15 +12793,12 @@ msgid ""
 "<b> Battery statistics </b> - Collects and displays battery usage statistics "
 "of your device"
 msgstr ""
-"<b> Синхронізація часу </b> - синхронізує час пристрою з серверами точного "
-"часу (NTP)"
+"<b> Статистика акумулятора </b> – збирає та показує статистику про "
+"використання акумулятора вашого пристрою"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4650-9
 msgid "<b> Book shortcuts </b> - Allows adding a book shortcut to a gesture"
-msgstr ""
-"<b> Точні підлаштування документа </b> - дозволяє виконати детальні "
-"підлаштування документа перед завантаженням документа на основі зовнішніх "
-"чинників"
+msgstr "<b> Ярлики книг </b> – дозволяє додати ярлик книги на жест"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4651-9
 msgid ""
@@ -12919,72 +12811,65 @@ msgstr ""
 "href=\"https://github.com/koreader/koreader/wiki/calibre\">сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4652-9
-#, fuzzy
 msgid ""
 "<b> Cover browser </b> - Allows cover display modes for file browser and "
 "history"
 msgstr ""
-"<b> Оглядач обкладинок </b> – Дозволяє режими відображення обкладинок для "
-"оглядача файлів та історії"
+"<b> Оглядач обкладинок </b> – дозволяє перемикати режими відображення "
+"обкладинок для оглядача файлів та історії"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4653-9
-#, fuzzy
 msgid ""
 "<b> Cover image </b> - Saves the cover image of the current book as a file "
 "(available on Android/PocketBook/reMarkable devices)"
 msgstr ""
-"<b> Зображення обкладинки </b> – Зберігає зображення обкладинки поточної "
-"книги як файл (доступно на пристроях Android/PocketBook/reMarkable)"
+"<b> Обкладинка </b> – зберігає зображення обкладинки поточної книги як файл ("
+"доступно на пристроях Android, PocketBook, reMarkable)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4654-9
-#, fuzzy
 msgid ""
 "<b> Export highlights </b> - Export highlights and notes to local files or "
 "to Joplin (a note taking application)"
 msgstr ""
-"<b> Експорт виділених фрагментів </b> – Експорт виділених фрагментів та "
-"нотаток до локальних файлів або до Joplin (додатку для створення нотаток)"
+"<b> Експорт виділеного </b> – експортує виділені уривки і нотатки до "
+"локального файлу або до Joplin (додаток для нотаток)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4655-9
-#, fuzzy
 msgid ""
 "<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) "
 "of highlight from your library"
 msgstr ""
-"<b> Тренажер для карток </b> – Покажіть картки з інтервальними повтореннями "
-"(SM2) виділення з вашої бібліотеки"
+"<b> Тренувальні картки (Flashcard trainer) </b> – показує картки для "
+"вивчення і запам'ятовування, використовуючи інтервальний повтор (SM2) "
+"виділених фрагментів з бібліотеки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4656-9
-#, fuzzy
 msgid "<b> Gestures </b> - Provide gesture support for KOReader"
-msgstr "<b> Жести </b> – Забезпечує підтримку жестів для KOReader"
+msgstr "<b> Жести </b> – забезпечує підтримку жестів для KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4657-3
-#, fuzzy
 msgid ""
 "<b>HTTP Inspector</b> - Allows you to control your device from another "
 "device over wifi - <b>See below for more info</b>"
 msgstr ""
-"<b>HTTP-інспектор</b> – Дозволяє керувати своїм пристроєм з іншого пристрою "
-"через Wi-Fi – <b>Див. нижче для отримання додаткової інформації</b>"
+"<b>HTTP-інспектор</b> – дозволяє керувати своїм пристроєм з іншого пристрою "
+"через Wi-Fi. <b>Див. нижче для отримання додаткової інформації</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4658-9
-#, fuzzy
 msgid ""
 "<b> Japanese support </b> - Japanese language support for KOReader that "
 "extends built-in dictionary and selection system"
 msgstr ""
-"<b> Підтримка японської мови </b> – підтримка японської мови для KOReader, "
-"яка розширює вбудований словник і систему вибору"
+"<b> Підтримка японської </b> – підтримка японської мови для KOReader, яка "
+"розширює вбудований словник і систему вибору"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4659-9
-#, fuzzy
 msgid ""
 "<b> Keep alive </b> - Keeps the device awake to prevent automatic WiFi "
 "disconnects"
 msgstr ""
-"<b> Підтримувати активність </b> – Тримає пристрій активним, щоб запобігти "
-"автоматичним відключенням від Wi-Fi"
+"<b> Підтримувати роботу </b> – підтримує роботу пристрою, щоб запобігти "
+"автоматичному відключенню Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4660-9
 msgid "<b> Move to archive </b> - Moves current document to archive folder"
@@ -12992,32 +12877,31 @@ msgstr ""
 "<b> Перемістити до архіву </b> – переміщує поточний документ до архівної теки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4661-9
-#, fuzzy
 msgid ""
 "<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves "
 "them as HTML files. Check our <a href=\"https://github.com/koreader/koreader/"
 "wiki/News-downloader\">wiki page</a> for how-to."
 msgstr ""
-"<b> Завантажувач новин </b> – Отримує новини RSS та Atom і зберігає їх як "
-"HTML-файли. Перегляньте нашу <a href=\"https://github.com/koreader/koreader/"
-"wiki/News-downloader\">вікі-сторінку</a>, щоб отримати інструкції."
+"<b> Завантажувач новин </b> – отримує через RSS та Atom записи новин і "
+"зберігає їх як файли HTML. Докладніше читайте на <a href="
+"\"https://github.com/koreader/koreader/wiki/News-downloader\">сторінці "
+"вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4662-9
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
 msgstr "<b> OPDS </b> – дозволяє завантажувати книги з каталогів сайтів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4663-9
-#, fuzzy
 msgid ""
 "<b> Perception expander </b> - Allows using peripheral vision to read more "
 "quickly. Check this YouTube video to see how it works: <a href=\"https://"
 "youtu.be/jeOHqI9SqOI?t=137\">How to Triple Your Reading Speed in 20 Minutes "
 "(Tim Ferriss)</a>"
 msgstr ""
-"<b> Розширювач сприйняття </b> – Дозволяє використовувати периферійний зір "
-"для швидшого читання. Перегляньте це відео на YouTube, щоб дізнатися, як це "
+"<b> Розширення сприйняття </b> – дозволяє використовувати периферійний зір "
+"для швидшого читання. Подивіться це відео на YouTube, щоб дізнатися, як це "
 "працює: <a href=\"https://youtu.be/jeOHqI9SqOI?t=137\">Як потроїти швидкість "
-"читання за 20 хвилин (Тім Феррісс)</a>"
+"читання за 20 хвилин (Tim Ferriss; англ. мовою)</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4664-9
 msgid ""
@@ -13028,62 +12912,56 @@ msgstr ""
 "профілі між якими можна перемикатися"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4665-9
-#, fuzzy
 msgid ""
 "<b> Progress sync </b> - Synchronize your reading progress across different "
 "KOReader devices. Check our <a href=\"https://github.com/koreader/koreader/"
 "wiki/Progress-sync\">wiki page</a> for how-to."
 msgstr ""
-"<b> Синхронізація прогресу </b> – Синхронізуйте свій прогрес читання на "
-"різних пристроях KOReader. Перегляньте нашу <a href=\"https://github.com/"
-"koreader/koreader/wiki/Progress-sync\">вікі-сторінку</a>, щоб отримати "
-"інструкції."
+"<b> Синхронізація поступу </b> – синхронізує дані про поступ вашого читання "
+"між різними пристроями з KOReader. Як це робиться читайте на <a href="
+"\"https://github.com/koreader/koreader/wiki/Progress-sync\">сторінці "
+"вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4667-9
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
 msgstr "<b> QR з буфера обміну </b> – генерує QR-код з вмісту буфера обміну"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4668-9
-#, fuzzy
 msgid ""
 "<b> Read timer </b> - A countdown timer to display a message after a user "
 "defined time"
 msgstr ""
-"<b> Таймер читання </b> – таймер зворотного відліку для відображення "
-"повідомлення після визначеного користувачем часу"
+"<b> Таймер читання </b> – таймер зворотного відліку, який показує "
+"повідомлення через заданий користувачем час"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4669-9
-#, fuzzy
 msgid ""
 "<b> Reading statistics </b> - Calculates reading sessions statistics and "
 "reading speed for use in chapter/book remaining time estimations"
 msgstr ""
-"<b> Статистика читання </b> – Розраховує статистику сеансів читання та "
-"швидкість читання для використання в оцінках часу, що залишився до "
-"прочитання розділів/книг"
+"<b> Статистика читання </b> – обчислює статистику сеансу читання та "
+"швидкість читання для використання цих даних під час оцінки часу, який "
+"потрібен для завершення читання розділу або книги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4670-9
-#, fuzzy
 msgid ""
 "<b> SSH </b> - Allows access to your device over SSH protocol. You can "
 "access via FTP applications or even your file manager if it supports. Check "
 "our <a href=\"https://github.com/koreader/koreader/wiki/SSH\">wiki page</a> "
 "for how-to."
 msgstr ""
-"<b> SSH </b> – дозволяє доступ до вашого пристрою через протокол SSH. Ви "
-"можете отримати доступ через FTP-програми або навіть через файловий "
-"менеджер, якщо він підтримує цю функцію. Перегляньте нашу <a href=\"https://"
-"github.com/koreader/koreader/wiki/SSH\">вікі-сторінку</a>, щоб отримати "
-"інструкції."
+"<b> SSH </b> - дозволяє забезпечити доступ до пристрою через протокол SSH. "
+"Таким чином на пристрій можна зайти за допомогою програм FTP або навіть "
+"файлового менеджера, якщо він це підтримує. Докладніше читайте на <a href="
+"\"https://github.com/koreader/koreader/wiki/SSH\">сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4671-9
-#, fuzzy
 msgid ""
 "<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this "
 "plugin under:"
 msgstr ""
-"<b> Системна статистика </b> – Ви можете переглянути інформацію про свій "
-"процесор/оперативну пам’ять/батарею за допомогою цього плагіна в розділі:"
+"<b> Статистика системи </b> - показує відомості про процесор, оперативну "
+"пам'ять і акумулятор пристрою, яку можна побачити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4672-9
 msgctxt "user_guide/en.html+html.body.div.div:4672-9"
@@ -13095,52 +12973,49 @@ msgstr ""
 "style=\"width:22px;\"> / Довідка / Статистика системи"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4673-9
-#, fuzzy
 msgid ""
 "<b> Terminal emulator </b> - Starts a shell (command prompt) on your device "
 "that can run full terminal apps"
 msgstr ""
-"<b> Емулятор терміналу </b> – Запускає командний рядок (оболонку) на вашому "
-"пристрої, яка може запускати повноцінні термінальні програми"
+"<b> Емулятор термінала </b> – запускає на пристрої оболонку (командний рядок)"
+", за допомогою якої можна запускати повноцінні термінальні застосунки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4674-9
-#, fuzzy
 msgid ""
 "<b> Text editor </b> - A basic text editor to create and edit plain text "
 "files"
 msgstr ""
-"<b> Текстовий редактор </b> – базовий текстовий редактор для створення та "
-"редагування звичайних текстових файлів"
+"<b> Текстовий редактор </b> – текстовий редактор для створення і редагування "
+"простих текстових файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4675-9
-#, fuzzy
 msgid "<b> Time sync </b> - Synchronizes the device time with NTP servers"
-msgstr "<b> Синхронізація часу </b> – Синхронізує час пристрою з NTP-серверами"
+msgstr ""
+"<b> Синхронізація часу </b> – синхронізує час пристрою з серверами точного "
+"часу (NTP)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4676-9
-#, fuzzy
 msgid ""
 "<b> Tweak document settings </b> - Allows tweaking settings of a document "
 "before it is loaded based on external factors"
 msgstr ""
-"<b> Налаштування документа </b> – Дозволяє налаштувати параметри документа "
-"перед його завантаженням на основі зовнішніх факторів"
+"<b> Точні підлаштування документа </b> – дозволяє виконати детальні "
+"підлаштування документа перед завантаженням документа на основі зовнішніх "
+"чинників"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4677-9
-#, fuzzy
 msgid ""
 "<b> Wallabag </b> - Downloads the latest articles from a Wallabag server as "
 "individual EPUB files. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/Wallabag\">wiki page</a> for more info."
 msgstr ""
-"<b> Wallabag </b> – Завантажує останні статті із сервера Wallabag як окремі "
-"файли EPUB. Перегляньте нашу <a href=\"https://github.com/koreader/koreader/"
-"wiki/Wallabag\">вікі-сторінку</a> для отримання додаткової інформації."
+"<b> Wallabag </b> – завантажує останні статті з сервера Wallabag як окремі "
+"файли EPUB. Докладніше читайте на <a href="
+"\"https://github.com/koreader/koreader/wiki/Wallabag\">сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4679-3
-#, fuzzy
 msgid "Controlling your reader from another device - HTTP Inspector Plugin"
-msgstr "Керування рідером з іншого пристрою - плагін HTTP Inspector"
+msgstr "Керування е-читалкою з іншого пристрою – модуль HTTP Inspector"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4681-3
 msgctxt "user_guide/en.html+html.body.div.p:4681-3"
@@ -13148,7 +13023,6 @@ msgid "!!! ADVANCED"
 msgstr "!!! ДЛЯ ДОСВІДЧЕНИХ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4684-3
-#, fuzzy
 msgid ""
 "This plugin allows you to control your device from another device over wifi. "
 "It works by running a simple HTTP server on your device which serves a page "
@@ -13156,53 +13030,46 @@ msgid ""
 "control your reader device. But be aware of these points when using this "
 "plugin:"
 msgstr ""
-"Цей плагін дозволяє вам керувати своїм пристроєм з іншого пристрою через Wi-"
-"Fi. Він працює, запускаючи на вашому пристрої простий HTTP-сервер, який "
-"обслуговує сторінку з елементами керування KOReader. Ви можете отримати "
-"доступ до цієї сторінки через мережу та керувати своїм пристроєм для "
-"читання. Але майте на увазі такі моменти під час використання цього плагіна:"
+"Цей модуль дозволяє керувати своїм пристроєм з іншого пристрою через Wi-Fi. "
+"Він працює, запускаючи на пристрої простий HTTP-сервер, який обслуговує "
+"сторінку з елементами керування KOReader. До цієї сторінки можна отримати "
+"доступ через мережу Wi-Fi та керувати своїм пристроєм для читання. Але під "
+"час використання цього модуля майте на увазі такі моменти:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4687-4
-#, fuzzy
 msgid "This is an experimental plugin so <b>use this at your own risk</b>"
 msgstr ""
-"Це експериментальний плагін, тому <b>використовуйте його на свій страх і "
-"ризик</b>"
+"Це експериментальний модуль, тож <b>використовуйте його на власний ризик</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4688-4
-#, fuzzy
 msgid ""
 "This plugin is enabled by default, but the server is <b>NOT</b> started by "
 "default. You can start it manually or set it to <b>auto start</b>."
 msgstr ""
-"Цей плагін увімкнено за замовчуванням, але сервер <b>НЕ</b> запускається за "
-"замовчуванням. Ви можете запустити його вручну або налаштувати "
-"<b>автоматичний запуск</b>."
+"Цей модуль типово увімкнено, але сервер типово <b>НЕ</b> запускається. "
+"Запустити його можна власноруч або налаштувати <b>автоматичний запуск</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4689-4
-#, fuzzy
 msgid ""
 "You should run this plugin <b>only on trusted networks</b>, as it is highly "
 "insecure (no HTTPS, no access restriction, no authentication)"
 msgstr ""
-"Вам слід запускати цей плагін <b>лише в перевірених мережах</b>, оскільки "
-"він дуже небезпечний (без HTTPS, без обмежень доступу, без автентифікації)"
+"Цей модуль слід запускати <b>лише в перевірених мережах</b>, оскільки він "
+"дуже небезпечний (без HTTPS, без обмежень доступу, без автентифікації)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4692-3
-#, fuzzy
 msgid ""
 "You can read an example use case for this plugin on the <a href=\"https://"
 "www.mobileread.com/forums/showthread.php?t=359837\">MobileRead forum</a>"
 msgstr ""
-"Ви можете ознайомитися з прикладом використання цього плагіна на <a "
-"href=\"https://www.mobileread.com/forums/showthread.php?t=359837\">форумі "
+"З прикладом використання цього модуля можна ознайомитися на <a href="
+"\"https://www.mobileread.com/forums/showthread.php?t=359837\">форумі "
 "MobileRead</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4696-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4696-9"
 msgid "User patches"
-msgstr "Користувацькі патчі"
+msgstr "Користувацькі латки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4698-3
 msgctxt "user_guide/en.html+html.body.div.p:4698-3"
@@ -13210,7 +13077,6 @@ msgid "!!! ADVANCED"
 msgstr "!!! ДЛЯ ДОСВІДЧЕНИХ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4700-9
-#, fuzzy
 msgid ""
 "User patches are small files written in <b>Lua</b> language. They can change "
 "the functionality of KOReader without modifying your installation "
@@ -13218,14 +13084,13 @@ msgid ""
 "one yourself (if you have the necessary extensive knowledge about the "
 "KOReader internals)."
 msgstr ""
-"Користувацькі патчі – це невеликі файли, написані мовою <b>Lua</b>. Вони "
-"можуть змінити функціональність KOReader без постійної зміни вашої "
-"інсталяції. Вони можуть бути написані розробниками, іншими користувачами, "
-"або ви можете написати свій власний патч (якщо у вас є необхідні глибокі "
-"знання про внутрішню роботу KOReader)."
+"Користувацькі латки – це малі файли, написані мовою <b>Lua</b>. Вони можуть "
+"змінювати функціональність KOReader не вносячи постійні зміни у файли "
+"програми. Вони можуть бути написані розробниками, іншими користувачами чи "
+"самостійно (якщо ви володієте необхідними глибокими знаннями про внутрішню "
+"структуру KOReader)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4703-9
-#, fuzzy
 msgid ""
 "You can find a current list of <span class=\"ui\">User patches</span> in our "
 "<a href=\"https://github.com/koreader/koreader/wiki/User-patches\">wiki</a> "
@@ -13234,29 +13099,27 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/issues?"
 "q=+label%3A%22User+patch+available%22\">link</a>."
 msgstr ""
-"Ви можете знайти актуальний список <span class=\"ui\">користувацьких патчів</"
-"span> у нашій <a href=\"https://github.com/koreader/koreader/wiki/User-"
-"patches\">вікі</a> та у <b>списку проблем GitHub</b>, позначеному тегом "
-"<span class=\"ui\">Доступний користувацький патч</span>. Ви можете "
-"переглянути їх, перейшовши за цим <a href=\"https://github.com/koreader/"
-"koreader/issues?q=+label%3A%22User+patch+available%22\">посиланням</a>."
+"Актуальний список <span class=\"ui\">користувацьких латок</span> можна зайти "
+"у нашій <a href=\"https://github.com/koreader/koreader/wiki/User-patches\""
+">вікі</a> та у <b>списку обговорень GitHub</b>, позначеному теґом <span "
+"class=\"ui\">User patch available (Доступна користувацька латка)</span>. "
+"Переглянути їх можна перейшовши <a href=\"https://github.com/koreader/"
+"koreader/issues?q=+label%3A%22User+patch+available%22\">за цим "
+"посиланням</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4706-9
-#, fuzzy
 msgid "Basic usage – Adding an already written patch to your KOReader:"
-msgstr ""
-"Базове використання – Додавання вже написаного патча до вашого KOReader:"
+msgstr "Просте використання – Додавання вже написаної латки до KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4709-13
-#, fuzzy
 msgid ""
 "Create a directory named <span class=\"ui\">patches</span> under <span "
 "class=\"ui\">koreader directory</span> on your device (On Android this "
 "folder is located on the SD-card)"
 msgstr ""
-"Створіть каталог з назвою <span class=\"ui\">patches</span> у каталозі <span "
-"class=\"ui\">koreader</span> на вашому пристрої (на Android ця папка "
-"знаходиться на SD-карті)"
+"Створіть підтеку з назвою <span class=\"ui\">patches</span> у теці <span "
+"class=\"ui\">koreader</span> на пристрої (на Android ця тека знаходиться на "
+"SD-карті)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4710-13
 msgid ""
@@ -13371,7 +13234,6 @@ msgstr ""
 "дотиком"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4745-1
-#, fuzzy
 msgid ""
 "If you need to switch between two documents (when comparing them for "
 "example), there is a quicker way than going through the <span "
@@ -13382,14 +13244,14 @@ msgid ""
 "<b>Alt+Tab</b> feature on the desktop computers. You can find this feature "
 "under:"
 msgstr ""
-"Якщо вам потрібно перемикатися між двома документами (наприклад, під час їх "
-"порівняння), є швидший спосіб, ніж використовувати <span "
-"class=\"ui\">Браузер файлів</span>. KOReader може відкрити останній документ "
-"жестом (<b><span style=\"font-family: microns;\"></span> багаторазове "
-"свайпування</b>). Якщо ви визначите дію жесту як <span class=\"ui\">Відкрити "
-"попередній документ</span>, ви можете швидко перемикатися між двома "
-"документами, подібно до функції <b>Alt+Tab</b> на настільних комп’ютерах. Ви "
-"можете знайти цю функцію за посиланням:"
+"Якщо необхідно перемикатися між двома документами (наприклад, для їх "
+"порівняння), існує швидший спосіб робити це, ніж переходити через <span "
+"class=\"ui\">Оглядач файлів</span>. KOReader може відкрити останній документ "
+"жестом (<b>мультижест <span style=\"font-family: microns;"
+"\"></span></b>). Якщо призначити на жест дію <span class=\"ui\">Відкрити "
+"попередній документ</span>, можна буде швидко перемикатися між документами, "
+"на зразок того як це робиться за допомогою сполучення клавіш <b>Alt+Tab</b> "
+"на комп'ютері. Дану функцію можна знайти тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4747-1
 msgid ""
@@ -13402,58 +13264,51 @@ msgstr ""
 "ЖЕСТ» / Загальне / Відкрити попередній документ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4749-1
-#, fuzzy
 msgid ""
 "Also you can use the <span class=\"ui\">History</span> dialog to switch "
 "between documents quickly. The history screen can be opened with the <span "
 "style=\"font-family: microns;\"></span> multiswipe gesture. You can also "
 "define any other gesture for this of course."
 msgstr ""
-"Також ви можете використовувати діалогове вікно <span class=\"ui\">Історія</"
-"span> для швидкого перемикання між документами. Екран історії можна відкрити "
-"за допомогою жесту багаторазового прокручування <span style=\"font-family: "
-"microns;\"></span>. Звичайно, ви також можете визначити для цього будь-"
-"який інший жест."
+"Також для швидкого перемикання між документами можна використовувати екран "
+"<span class=\"ui\">Історія</span>. Екран історії можна швидко відкрити "
+"мультижестом <span style=\"font-family: microns;\"></span>. Звичайно, для "
+"виконання цієї дії можна призначити будь-який інший жест."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4751-1
-#, fuzzy
 msgid "Changing your book cover"
-msgstr "Зміна обкладинки вашої книги"
+msgstr "Зміна обкладинки книги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4752-1
-#, fuzzy
 msgid "You can change your book cover from this menu:"
-msgstr "Ви можете змінити обкладинку книги в цьому меню:"
+msgstr "Обкладинку книги можна змінити за допомогою цього меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4754-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information / <img class=\"img_inline\" "
 "src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Set cover image"
 msgstr ""
-"ГОЛОВНЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / Інформація про книгу / <img class=\"img_inline\" "
-"src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Встановити "
-"зображення обкладинки"
+"ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Відомості про книгу / <img class=\"img_inline\" src="
+"\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Обкладинка"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4756-1
-#, fuzzy
 msgid "Custom book cover from a screenshot"
-msgstr "Власна обкладинка книги зі знімка екрана"
+msgstr "Власна обкладинка книги зі знімка екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4757-5
-#, fuzzy
 msgid ""
 "Some books don’t come with proper book covers. Or they may have their cover "
 "on the second page so it doesn’t show up properly. Or maybe the cover is not "
 "suitable for e-ink (too light or dark). Or you prefer to set some image from "
 "the book as cover."
 msgstr ""
-"Деякі книги постачаються без належної обкладинки. Або ж обкладинка може бути "
-"на другій сторінці, тому вона не відображається належним чином. Або ж "
-"обкладинка не підходить для електронного чорнила (занадто світла або темна). "
-"Або ж ви бажаєте встановити якесь зображення з книги як обкладинку."
+"Деякі книги не містять правильних обкладинок. Або обкладинка може "
+"знаходитися на другій сторінці книги, через що вона не відображається як "
+"слід. Також обкладинка може бути непридатна для відображення на екрані з е-"
+"чорнилами (занадто світла чи темна). Або ж ви просто бажаєте призначити "
+"якесь зображення з книги в якості її обкладинки."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4760-5
 msgid ""
@@ -13611,9 +13466,8 @@ msgstr ""
 "style=\"width:22px;\"> / Оновити / Перевірити наявність оновлень"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4800-1
-#, fuzzy
 msgid "Adding a password lock to KOReader"
-msgstr "Додавання блокування паролем до KOReader"
+msgstr "Додавання блокування KOReader паролем"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4801-5
 msgid ""
@@ -13660,7 +13514,6 @@ msgstr ""
 "заставку екрану після пробудження / До жесту «Вийти з заставки екрану»"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4815-5
-#, fuzzy
 msgid "Automatic screen dimming"
 msgstr "Автоматичне затемнення екрана"
 
@@ -13832,31 +13685,26 @@ msgid "TROUBLESHOOTING"
 msgstr "УСУНЕННЯ НЕСПРАВНОСТЕЙ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4866-5
-#, fuzzy
 msgid ""
 "If you can't find a solution to your problem in this guide, you can open an "
 "issue about it on the project's <b>GitHub</b> page or make a post in the "
 "KOReader section of the <b>Mobileread</b> forum. Please see the <a "
 "href=\"#L1-reachus\">last section</a> of this guide for details."
 msgstr ""
-"Якщо ви не можете знайти рішення своєї проблеми в цьому посібнику, ви можете "
-"відкрити запит на її вирішення на сторінці <b>GitHub</b> проєкту або "
-"створити допис у розділі KOReader на форумі <b>Mobileread</b>. Будь ласка, "
-"дивіться <a href=\"#L1-reachus\">останній розділ</a> цього посібника для "
-"отримання детальної інформації."
+"Якщо ви не знайшли вирішення своєї проблеми в цьому посібнику, можна "
+"відкрити запит на її вирішення на сторінці проєкту на <b>GitHub</b> або "
+"створити допис у розділі KOReader на форумі <b>Mobileread</b>. Деталі "
+"читайте в <a href=\"#L1-reachus\">останньому розділі</a> цього посібника."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4869-1
-#, fuzzy
 msgid "Nightly versions"
 msgstr "Нічні версії"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4870-1
-#, fuzzy
 msgid "KOReader has two different versions:"
 msgstr "KOReader має дві різні версії:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4872-9
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">STABLE</span> This version is the main one that "
 "you can find on the <b>Releases</b> page of the project GitHub. It is named "
@@ -13865,23 +13713,22 @@ msgid ""
 "release, but sometimes can take longer."
 msgstr ""
 "<span class=\"label_green\">СТАБІЛЬНА</span> Ця версія є основною, яку ви "
-"можете знайти на сторінці <b>Релізи</b> проекту GitHub. Вона має таку назву: "
-"<b>\"KOReader 2024.11\"</b>, що означає, що ця конкретна версія випущена "
-"<b>листопада 2024 року</b>. Зазвичай це <b>щомісячний</b> реліз, але іноді "
-"це може зайняти більше часу."
+"можете знайти на сторінці <b>релізів</b> проекту GitHub. Вона має назву на "
+"зразок такої: <b>«KOReader 2024.11»</b>, що означає, що ця конкретна версія "
+"випущена у <b>листопаді 2024 року</b>. Зазвичай нові стабільні версії "
+"з'являються <b>раз на кілька місяців</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4873-9
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">NIGHTLY</span><b></b> These versions are the "
 "<b>daily</b> compiled versions of KOReader with optimizations and fixes "
 "continuously added. Nightly releases are intended for a narrow group of "
 "testers and developers, so they might be less stable."
 msgstr ""
-"<span class=\"label_red\">NIGHTLY</span><b></b> Ці версії є <b>щоденно</b> "
-"скомпільованими версіями KOReader з постійно доданими оптимізаціями та "
-"виправленнями. Нічні релізи призначені для вузької групи тестувальників та "
-"розробників, тому вони можуть бути менш стабільними."
+"<span class=\"label_red\">НІЧНІ</span><b></b> Ці версії є <b>щоденно</b> "
+"скомпільованими версіями KOReader з оптимізаціями та виправленнями, які "
+"додаються щодня. Нічні релізи призначені для вузької групи тестувальників та "
+"розробників, тому вони часто менш стабільні."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4876-5
 msgid ""
@@ -13894,24 +13741,22 @@ msgstr ""
 "версія:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4878-9
-#, fuzzy
 msgid ""
 "Your device is very new (a recently released Kobo model for example) and "
 "KOReader support has just been added in a recent nightly."
 msgstr ""
-"Ваш пристрій дуже новий (наприклад, нещодавно випущена модель Kobo), і "
-"підтримку KOReader було додано нещодавно щоночі."
+"Ваш пристрій дуже новий (наприклад, нещодавно випущена модель Kobo) і "
+"підтримку KOReader було додано у нещодавній нічній версії програми."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4879-9
-#, fuzzy
 msgid ""
 "There is a bug or problem specific to your device that is fixed already but "
 "not released yet. And you don't want to wait for the <b>stable</b> version "
 "to have this fix."
 msgstr ""
 "Існує помилка або проблема, характерна для вашого пристрою, яку вже "
-"виправлено, але ще не випущено. І ви не хочете чекати на <b>стабільну</b> "
-"версію, щоб мати це виправлення."
+"виправлено, але ще не випущено в стабільній версії. І немає сил чекати на "
+"<b>стабільну</b> версію, щоб мати це виправлення."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4880-9
 msgid ""
@@ -13928,7 +13773,6 @@ msgstr ""
 "тому може містити більше функцій та виправлень."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4883-5
-#, fuzzy
 msgid ""
 "This section was just a general introduction to the topic. For detailed "
 "information and asking for help about nightly versions, you can visit the "
@@ -13936,9 +13780,10 @@ msgid ""
 "issues/11068\">FAQ: How to track latest nightly builds</a>"
 msgstr ""
 "Цей розділ був лише загальним вступом до теми. Для отримання детальної "
-"інформації та звернення за допомогою щодо нічних версій ви можете відвідати "
-"сторінку обговорення: <a href=\"https://github.com/koreader/koreader/"
-"issues/11068\">FAQ: Як відстежувати останні нічні збірки</a>"
+"інформації та звернення за допомогою щодо нічних версій можна відвідати "
+"сторінку обговорення: <a href="
+"\"https://github.com/koreader/koreader/issues/11068\">FAQ: Як відстежувати "
+"останні нічні збірки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4885-20
 #, fuzzy
