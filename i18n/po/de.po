@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-07 00:02+0000\n"
-"PO-Revision-Date: 2025-08-24 15:02+0000\n"
-"Last-Translator: David Fischer <davidfischer99@gmx.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/koreader/user-"
-"guide/de/>\n"
+"PO-Revision-Date: 2025-09-07 15:57+0000\n"
+"Last-Translator: Dominik Gedon <dominik@gedon.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/koreader/"
+"user-guide/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -127,14 +127,11 @@ msgid ""
 "related to this user guide, you can write to this <a href=\"https://github."
 "com/koreader/koreader/issues/11147\">GitHub discussion thread</a>."
 msgstr ""
-"Dieses Handbuch ist für größere Farbbildschirme konzipiert und enthält Links "
-"zu relevanten Websites. Wir empfehlen daher dringend, es auf einem Computer "
-"oder einem Tablet zu lesen (statt auf deinem E-Ink-Gerät). Du kannst die "
-"Suchfunktion deines Browsers nutzen, um ein bestimmtes Thema zu finden. Wenn "
-"du einen Vorschlag oder eine Frage zu diesem Benutzerhandbuch hast, kannst "
-"du in diesen Thread schreiben: <a href=\"https://github.com/koreader/"
-"koreader/issues/11147\">https://github.com/koreader/koreader/issues/11147</"
-"a>."
+"Du kannst die Suchfunktion deines Browsers nutzen, um ein bestimmtes Thema "
+"zu finden (allgemein <b>Strg + F</b>). Wenn du einen Vorschlag oder eine "
+"Frage zu diesem Benutzerhandbuch hast, kannst du in diesen Thread schreiben: "
+"<a href=\"https://github.com/koreader/koreader/issues/11147\">GitHub "
+"Diskussionen Thread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:864-5
 msgid ""
@@ -157,7 +154,6 @@ msgid "MENU PATHS (GREEN)"
 msgstr "MENÜPFADE (GRÜN)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:876-17
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/en."
 "html+html.body.div.div.table.tr.td.div:876-17"
@@ -165,11 +161,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"Hauptmenü / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Markierungsstil"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:879-17
 msgid "EXTERNAL APPS (PURPLE)"
@@ -183,7 +176,7 @@ msgstr "Calibre, Readwise, KoHighlights..."
 msgid ""
 "We also have different boxes throughout the guide to inform or warn you:"
 msgstr ""
-"Wir haben außerdem verschiedene Kästen in der Anleitung, um dich zu "
+"Wir haben auch verschiedene Kästen im gesamten Leitfaden, um Sie zu "
 "informieren oder zu warnen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:890-5
@@ -191,18 +184,15 @@ msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
-"<span class=\"label_red\">!!! FORTGESCHRITTEN</span> Ich bin ein "
-"<b>FORTGESCHRITTEN</b> Tag. Wenn du mich bei einem Thema siehst, bedeutet "
-"das, dass du je nach Verfahren ein gewisses Maß an technischem Wissen haben "
-"musst, wie z.B. die Arbeit mit einem Dateisystem, CSS-Kenntnisse, "
-"Installation von externen Dateien usw."
+"<span class=\"label_red\">WARNUNG</span> Ich bin eine Warnbox. Ich erkläre "
+"Dinge, bei denen Sie besonders vorsichtig sein müssen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:892-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> I am an info box. I give contextual "
 "information or extra explanations."
 msgstr ""
-"<span class=\"label_blue\">INFO</span> Ich bin ein Infokasten. Ich gebe "
+"<span class=\"label_blue\">INFO</span> Ich bin ein Infobox. Ich gebe "
 "kontextbezogene Informationen oder zusätzliche Erklärungen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:894-5
@@ -210,8 +200,8 @@ msgid ""
 "<span class=\"label_green\">TIP</span> I am a tip box. I contain tips that "
 "makes your life easier when using KOReader."
 msgstr ""
-"<span class=\"label_green\">TIP</span> Ich bin ein Tipp-Kasten. Ich enthält "
-"Tipps, die dir das Leben erleichtern, wenn du KOReader benutzt."
+"<span class=\"label_green\">TIPP</span> Ich bin eine Tipp-Box. Ich enthalte "
+"Tipps, die dir die Verwendung von KOReader erleichtern."
 
 #: user_guide/en.html%2Bhtml.body.div.div:896-5
 msgid ""
@@ -220,19 +210,19 @@ msgid ""
 "technical knowledge like working with a file system, CSS knowledge, "
 "installation of external files etc. depending on the procedure."
 msgstr ""
-"<span class=\"label_red\">!!! FORTGESCHRITTEN</span> Ich bin ein "
-"<b>FORTGESCHRITTEN</b>-Tag. Wenn du mich bei einem Thema siehst, bedeutet "
-"das, dass du ein gewisses Maß an technischem Wissen benötigst, wie z.B. den "
-"Umgang mit einem Dateisystem, CSS-Kenntnisse, die Installation externer "
-"Dateien usw., je nach Vorgehensweise."
+"<span class=\"label_red\">!!! FORTGESCHRITTEN</span> Ich bin eine "
+"<b>FORTGESCHRITTEN</b>-Markierung. Wenn du mich in einem Thema siehst, "
+"bedeutet dies, dass du je nach Verfahren über bestimmte technische "
+"Kenntnisse verfügen musst, z. B. im Umgang mit einem Dateisystem, CSS-"
+"Kenntnisse, Installation externer Dateien usw."
 
 #: user_guide/en.html%2Bhtml.body.div.p:900-2
 msgid ""
 "KOReader is developed and supported by volunteers all around the world. You "
 "can be a part of this project too by:"
 msgstr ""
-"KOReader wird von Freiwilligen aus der ganzen Welt entwickelt und "
-"unterstützt. Du kannst ebenfalls Teil dieses Projekts werden, indem du:"
+"KOReader wird von Freiwilligen aus aller Welt entwickelt und unterstützt. "
+"Auch du kannst Teil dieses Projekts werden, indem du:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:902-3
 msgid "Fixing bugs and implementing new features"
@@ -256,10 +246,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:907-9
 msgid "Check <a href=\"#L1-reachus\">Reach us</a> section for the links."
 msgstr ""
+"Die Links finden Sie im Abschnitt <a href=\"#L1-reachus\">So erreichen Sie "
+"uns</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:911-9
 msgid "Guide last update: 2025-03-25"
-msgstr "Litpfaden letztes Update: 2025-03-25"
+msgstr "Letzte Aktualisierung des Leitfadens: 25.03.2025"
 
 #: user_guide/en.html%2Bhtml.body.div.div:921-1
 msgid "TABLE OF CONTENTS"
@@ -1197,10 +1189,8 @@ msgstr ""
 msgid ""
 "If you want to change how many items are visible on these screens, look here:"
 msgstr ""
-"You can assign gestures for each of these dialogs. For example while reading "
-"a book, you can access your <span class=\"ui\">History</span> or <span "
-"class=\"ui\">Favorites</span> with a gesture and open another book without "
-"going through the <span class=\"ui\">File Browser</span>."
+"Wenn Sie ändern möchten, wie viele Elemente auf diesen Bildschirmen "
+"angezeigt werden, schauen Sie hier:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1254-5
 #, fuzzy
@@ -1321,16 +1311,12 @@ msgid "<b>Changing the font*</b>:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1291-35
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"Hauptmenü / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Schriftart"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1292-5
 msgid "Make the font bigger"
@@ -1357,16 +1343,12 @@ msgid "Invert the colors on screen (white on black)"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1294-60
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Night Mode"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"Hauptmenü / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Nachtmodus"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1297-5
 msgid ""
@@ -1396,16 +1378,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1308-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Frontlight"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"Hauptmenü / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Frontlicht"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1312-1
 msgid "Changing the screen displayed while sleeping"
@@ -2116,12 +2094,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1589-5
-#, fuzzy
 msgid "You can enable this feature from:"
-msgstr ""
-"You can find more info about the <b>table of contents</b> tools available in "
-"KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
-"OF CONTENTS TOOLS</a>"
+msgstr "Sie können diese Funktion aktivieren unter:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1591-5
 #, fuzzy
@@ -2890,8 +2864,13 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:26px;\"> → Go back to previous location"
+"Diese nützliche Funktion funktioniert wie die Schaltfläche <b>Zurück</b> in "
+"Ihrem Browser. Wenn Sie mit Hilfe des <span class=\"ui\">Skim-Widgets, der "
+"Lesezeichenliste, der Buchkarte</span> usw. zu einem anderen Teil des Buches "
+"springen, merkt sich KOReader Ihre vorherige Position. Dies ist "
+"beispielsweise nützlich, wenn Sie einem internen Link oder Verweis folgen. "
+"Mit einem Fingertipp können Sie zu Ihrer vorherigen Position zurückkehren. "
+"Sie können diese Funktion aufrufen über:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1871-5
 #, fuzzy
@@ -5716,13 +5695,12 @@ msgstr ""
 "class=\"ui\">COLUMN MODE</span> from this menu item:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2868-5
-#, fuzzy
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
 msgstr ""
-"⇓ BOTTOM MENU → <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:26px;\"> →"
+"<b>3. Sie können versuchen, Ihr Gerät im </b><span class=\"ui\">Querformat</"
+"span> zu verwenden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
 msgid ""
@@ -8432,7 +8410,7 @@ msgstr "Wallabag-Status hochladen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
 msgid "Reading progress"
-msgstr "Exit screensaver"
+msgstr "Lesefortschritt"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3813-17
 msgid "Toggle SSH server"
@@ -8503,7 +8481,7 @@ msgstr "Increase frontlight warmth"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3833-17
 msgid "Invert rotation"
-msgstr "Decrease frontlight warmth"
+msgstr "Drehung umkehren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3834-17
 msgid "Rotate by 90 CW"
@@ -8511,7 +8489,7 @@ msgstr "Toggle night mode"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3835-17
 msgid "Rotate by 90 CCW"
-msgstr "Nachtmodus einstellen"
+msgstr "Um 90° gegen den Uhrzeigersinn drehen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
 #, fuzzy
@@ -8524,11 +8502,11 @@ msgstr "Full refresh rate (in night mode)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3838-17
 msgid "Battery statistics"
-msgstr "Always flash on chapter boundaries"
+msgstr "Batteriestatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3839-17
 msgid "System statistics"
-msgstr "Toggle flashing on chapter boundaries"
+msgstr "Systemstatistiken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
 #, fuzzy
@@ -8541,7 +8519,7 @@ msgstr "Battery statistics"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
 msgid "Suspend"
-msgstr "Systemstatistiken"
+msgstr "Unterbrechen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
 #, fuzzy
@@ -8623,7 +8601,7 @@ msgstr "Increase font size"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3868-17
 msgid "Set night mode"
-msgstr "Decrease font size"
+msgstr "Nachtmodus einstellen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3869-17
 msgid "Full screen refresh"
@@ -8667,7 +8645,7 @@ msgstr "Sync T/B margins"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
 msgid "Auto warmth off"
-msgstr "Top margin"
+msgstr "Ausschalten der automatischen Wärmebestimmung"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3880-17
 #, fuzzy
@@ -8704,7 +8682,7 @@ msgstr "Schriftart"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3891-17
 msgid "Increase font size"
-msgstr "Invert images"
+msgstr "Schriftgröße vergrößern"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3892-17
 #, fuzzy
@@ -8952,11 +8930,11 @@ msgstr "Book cover"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3952-17
 msgid "First bookmark"
-msgstr "Aktuelle Seite übersetzen"
+msgstr "Erstes Lesezeichen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
 msgid "Last bookmark"
-msgstr "Umschalten der Richtung des Seitenwechsels"
+msgstr "Letztes Lesezeichen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
 msgid "Latest bookmark"
@@ -8982,7 +8960,7 @@ msgstr "Cycle highlight style"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 msgid "Follow nearest internal link"
-msgstr "Save book metadata"
+msgstr "Dem nächsten internen Link folgen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
 msgid "Add current location to history"
@@ -9060,7 +9038,7 @@ msgstr "Change zoom factor"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
 msgid "Translate current page"
-msgstr "Toggle panel zoom"
+msgstr "Aktuelle Seite übersetzen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
 #, fuzzy
@@ -9069,7 +9047,7 @@ msgstr "Seitenwechsel-Tipps und Streichen invertieren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3977-17
 msgid "Toggle page turn direction"
-msgstr "Page crop"
+msgstr "Umschalten der Seitenumblätterrichtung"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
 msgid "Toggle custom TOC"
@@ -9084,6 +9062,7 @@ msgid "Set highlight action"
 msgstr "Vertical overlap"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3981-17
+#, fuzzy
 msgid "Cycle highlight action"
 msgstr "Fit"
 
@@ -9156,7 +9135,7 @@ msgstr "Render quality"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle panel zoom"
-msgstr "Document language"
+msgstr "Panel-Zoom umschalten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Page crop"
@@ -10866,10 +10845,10 @@ msgid ""
 "in devices with natural (yellow/orange) light and set Night Mode "
 "automatically according to a schedule"
 msgstr ""
-"<b> SSH </b> - Allows access to your device over SSH protocol. You can "
-"access via FTP applications or even your file manager if it supports. Check "
-"the wiki page for how-to: <a href=\"https://github.com/koreader/koreader/"
-"wiki/SSH\">https://github.com/koreader/koreader/wiki/SSH</a>"
+"<b> Automatische Wärmeeinstellung und Nachtmodus </b> – Ermöglicht die "
+"Anpassung der Wärmeeinstellung der Frontbeleuchtung bei Geräten mit "
+"natürlichem (gelbem/orangefarbenem) Licht und die automatische Einstellung "
+"des Nachtmodus gemäß einem Zeitplan."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4645-9
 msgid ""
@@ -10985,7 +10964,8 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4662-9
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
-msgstr "https://github.com/koreader/koreader/wiki/User-patches"
+msgstr ""
+"<b> OPDS </b> – Ermöglicht das Herunterladen von Büchern aus Online-Katalogen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4663-9
 msgid ""
@@ -11013,8 +10993,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4667-9
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
 msgstr ""
-"https://github.com/koreader/koreader/issues?"
-"q=+label%3A%22User+patch+available%22"
+"<b> QR aus Zwischenablage </b> – Erzeugt einen QR-Code aus dem Inhalt der "
+"Zwischenablage."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4668-9
 msgid ""
@@ -12145,10 +12125,10 @@ msgid ""
 "Android system restrictions. If you want to change your screenshot saving "
 "location, be careful to choose your device’s internal storage."
 msgstr ""
-"KOReader keeps a cache of your book covers to be able to show them quicker. "
-"In normal conditions this cache doesn’t get too big. If you remove lots of "
-"books or rename directories, you may want to clean up your book cover cache "
-"database to reclaim some space. You can do it from this menu:"
+"Auf Android-Geräten kann KOReader aufgrund von Einschränkungen des Android-"
+"Systems nicht auf den externen Speicher schreiben. Wenn Sie den Speicherort "
+"für Ihre Screenshots ändern möchten, achten Sie darauf, den internen "
+"Speicher Ihres Geräts auszuwählen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5037-1
 msgid "Ghosting and residue when turning pages"
@@ -12167,7 +12147,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5041-5
 msgid "Sleep cover problems"
-msgstr "Clearing file cache"
+msgstr "Probleme mit der Schlafhülle"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
 #, fuzzy
