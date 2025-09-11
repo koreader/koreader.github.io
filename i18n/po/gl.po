@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-11 07:04+0000\n"
-"PO-Revision-Date: 2025-09-11 07:02+0000\n"
+"PO-Revision-Date: 2025-09-12 08:01+0000\n"
 "Last-Translator: Juan Comesaña Fernández <xan.comesana@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/koreader/user-"
-"guide/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/koreader/"
+"user-guide/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,10 +179,8 @@ msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
-"<span class=\"label_red\">!!! ADVANCED</span> I am an <b>ADVANCED</b> tag. "
-"If you see me on a topic, it means that you need to have a certain degree of "
-"technical knowledge like working with a file system, CSS knowledge, "
-"installation of external files etc. depending on the procedure."
+"<span class=\"label_red\">AVISO</span> Son unha caixa de aviso. Explico "
+"cousas nas que tes que andar con ollo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:892-5
 msgid ""
@@ -653,6 +651,9 @@ msgid ""
 "from your Calibre Library directly to your KOReader devices over wifi <a "
 "href=\"#L2-transferring\" class=\"internalink\"></a>"
 msgstr ""
+"Co engadido de <span class=\"external\">Calibre</span> podes mandar libros "
+"da túa Biblioteca Calibre directamente aos teus dispositivos KOReader por "
+"medio da wifi <a href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1074-9
 msgid ""
@@ -660,6 +661,9 @@ msgid ""
 "entries to your device as HTML files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Co <b>engadido de descarga de novas</b> podes descargar entradas de novas "
+"RSS e Atom ao teu dispositivo como ficheiros HTML <a href=\"#L2-pluginslist\""
+" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1076-9
 msgid ""
@@ -668,10 +672,14 @@ msgid ""
 "class=\"external\">Pocket</span>) <a href=\"#L2-transferring\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Co engadido de Wallabag podes recuperar artigos da túa conta Wallabag (un "
+"servizo para ler máis tarde baseado nun servidor semellante a <span class="
+"\"external\">Pocket</span>)<a href=\"#L2-transferring\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1079-1
 msgid "Adjust the appearance of text as you wish"
-msgstr ""
+msgstr "Axusta a aparencia do texto como queiras"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1081-9
 msgid ""
@@ -679,6 +687,10 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
+"Cambia os tipos de letra (incluíndo os teus propios), o tamaño, contraste, "
+"grosa, kerning, espazo entre palabras, aliñamento do texto, espazo entre "
+"liñas, disposición de columnas, marxes, ...<a href="
+"\"#L1-customizingappearance\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1083-9
 msgid ""
@@ -865,7 +877,9 @@ msgstr ""
 msgid ""
 "Search the document by selecting or entering text (including <b>regular "
 "expressions</b>)"
-msgstr "Translate whole page at once between more than 130 languages"
+msgstr ""
+"Busca no documento seleccionando ou inserindo texto (incluíndo <b>expresións "
+"regulares</b>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1148-9
 msgid "Search in your bookmarks, highlights and notes"
@@ -940,6 +954,7 @@ msgstr ""
 "documents</b> easily"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1169-9
+#, fuzzy
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
 msgstr "Auto straighten tilted documents"
@@ -1169,13 +1184,14 @@ msgstr ""
 "list settings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1252-5
+#, fuzzy
 msgid ""
 "If you want to change how many items are visible on these screens, look here:"
 msgstr ""
 "You can assign gestures for each of these dialogs. For example while reading "
-"a book, you can access your <span class=\"ui\">History</span> or <span "
-"class=\"ui\">Favorites</span> with a gesture and open another book without "
-"going through the <span class=\"ui\">File Browser</span>."
+"a book, you can access your <span class=\"ui\">History</span> or <span class="
+"\"ui\">Favorites</span> with a gesture and open another book without going "
+"through the <span class=\"ui\">File Browser</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1254-5
 #, fuzzy
@@ -1736,14 +1752,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1432-1
 msgid "Night Mode"
-msgstr ""
-"This feature turns your frontlight on at sunset and turns it off at sunrise "
-"according to your <span class=\"ui\">Currently active parameters</span> in "
-"this plugin. You can override this change by manually turning your "
-"frontlight on/off. On the next sunrise/sunset, <span "
-"class=\"ui\">AutoWarmth</span> will toggle it again if it is necessary. You "
-"can activate it by selecting <span class=\"ui\">Frontlight off during the "
-"day</span> menu item in this plugin."
+msgstr "Modo Nocturno"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1434-5
 msgid ""
@@ -2779,13 +2788,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1841-13
+#, fuzzy
 msgid ""
 "KOReader supports <b>dictionary lookup</b> in EPUB and scanned PDF/DJVU "
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
-"If you want to change the size of user interface, there is a <span "
-"class=\"ui\">DPI</span> setting for that:"
+"If you want to change the size of user interface, there is a <span class="
+"\"ui\">DPI</span> setting for that:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1842-9
 msgid ""
@@ -2826,17 +2836,18 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1858-9
+#, fuzzy
 msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
 "<b>On-release scrolling:</b> This scrolling type is more suitable for e-ink "
 "screens. Because unlike other scrolling types, this mode doesn’t refresh "
-"your page continuously while scrolling. It works like <span "
-"class=\"ui\">classic scrolling</span> but intermediate steps are not shown. "
-"So you scroll with your finger and when you release, page jumps to that "
-"position. This is especially useful <b>to reposition and adjust the view</b> "
-"if your book contains pictures or tables and you want to see all of it."
+"your page continuously while scrolling. It works like <span class=\"ui\""
+">classic scrolling</span> but intermediate steps are not shown. So you "
+"scroll with your finger and when you release, page jumps to that position. "
+"This is especially useful <b>to reposition and adjust the view</b> if your "
+"book contains pictures or tables and you want to see all of it."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1860-9
 msgid ""
@@ -2863,6 +2874,7 @@ msgid "Go back to previous location"
 msgstr "Volver á posición anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1869-5
+#, fuzzy
 msgid ""
 "This useful feature works like the <b>Back</b> button in your browser. When "
 "you jump to some other part of the book using <span class=\"ui\">Skim "
@@ -2899,6 +2911,7 @@ msgid "Prevent flashing on pages with images and in the menu"
 msgstr "Sync T/B margins"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1879-5
+#, fuzzy
 msgid ""
 "KOReader normally perform a full refresh on pages containing images (which "
 "you can observe as a black flash). The reason is to get rid of the residue "
@@ -2906,9 +2919,9 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:24px;\"> → Screen → E-ink Settings → Full refresh rate → "
-"Always flash on pages with images"
+"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> → Screen → E-ink Settings → Full refresh rate → Always "
+"flash on pages with images"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1881-5
 #, fuzzy
@@ -3182,6 +3195,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1972-5
+#, fuzzy
 msgid ""
 "If your document has too many heading levels, your chapter marks can look "
 "crowded like the example above. You can change the depth of visible ToC mark "
@@ -3202,10 +3216,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1978-5
 msgid "You can also use this reduced ToC for:"
-msgstr ""
-"You can find more info about the <b>table of contents</b> tools available in "
-"KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
-"OF CONTENTS TOOLS</a>"
+msgstr "Tamén se pode usar este Índice reducido para:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1980-9
 msgid "chapter titles (if it is shown on <span class=\"ui\">Status Bar</span>)"
@@ -4071,6 +4082,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2245-9
+#, fuzzy
 msgid ""
 "<b>Disabled styles</b> profile with <span class=\"ui\">embedded style</span> "
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
@@ -5057,6 +5069,7 @@ msgid "Select and highlight mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2626-5
+#, fuzzy
 msgid ""
 "<span class=\"ui\">Select and highlight mode</span> is more suitable for "
 "highlighting longer passages which cross page boundaries. It might also work "
@@ -5208,6 +5221,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2673-5
+#, fuzzy
 msgid ""
 "But if you start highlighting from the middle of a sentence, period at the "
 "end <b>will not be included</b> because KOReader assumes that you want to "
@@ -5399,6 +5413,7 @@ msgid "Exporting highlights"
 msgstr "1. Export Highlights plugin"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2741-5
+#, fuzzy
 msgid ""
 "After finishing a book, you can move it to a specific folder for archiving "
 "or processing purposes. Enable <span class=\"ui\">Move to archive</span> "
@@ -5418,6 +5433,7 @@ msgid "With a gesture or"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
+#, fuzzy
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
 msgstr "Text (.txt)"
 
@@ -5706,6 +5722,7 @@ msgstr ""
 "bottom_fit.svg\" style=\"width:26px;\"> →"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2870-5
+#, fuzzy
 msgid ""
 "This will make your screen wider so your document may look big enough to "
 "read comfortably."
@@ -6572,6 +6589,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3189-5
+#, fuzzy
 msgid "Circled items in the image are explained below:"
 msgstr ""
 "<span class=\"ui\">OPEN WITH:</span> KOReader has different engines for "
@@ -6580,6 +6598,7 @@ msgstr ""
 "b> and <b>Viewing image files</b> sections just below."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3191-5
+#, fuzzy
 msgid ""
 "<span class=\"ui\">RESET:</span> This option allows you to reset some "
 "properties of your document like <b>reading progress, bookmarks, custom "
@@ -6601,6 +6620,7 @@ msgstr ""
 "the file name instead of metadata."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3195-5
+#, fuzzy
 msgid ""
 "<span class=\"ui\">OPEN WITH:</span> KOReader has different engines for "
 "rendering different file types. In some cases you can open a file in a "
@@ -6778,6 +6798,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3242-5
+#, fuzzy
 msgid ""
 "You can remove a folder from the shortcuts in the same way, by long-pressing "
 "on it and selecting <span class=\"ui\">Remove from folder shortcuts</span>."
@@ -6899,6 +6920,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3286-5
+#, fuzzy
 msgid ""
 "<span class=\"ui\">DEFAULT CASE:</span> yourfilename<b>.zip</b> - Assumed to "
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
@@ -6907,8 +6929,8 @@ msgstr ""
 "If the documents are not named like this, the wrong reader/format engine is "
 "likely to be used and you will see the <span class=\"ui\">No reader engine "
 "for this file or invalid file</span> message. You can rename this file as "
-"explained above or long-press the filename and then choose <span "
-"class=\"ui\">Open with...</span> to select the correct engine."
+"explained above or long-press the filename and then choose <span class=\"ui\""
+">Open with...</span> to select the correct engine."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3288-5
 msgid ""
@@ -10039,6 +10061,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4369-9
+#, fuzzy
 msgid ""
 "After all the steps, now you should see your menu when you tap on the bottom "
 "left corner. You can edit your menu by going to its <span "
@@ -10066,6 +10089,7 @@ msgid "Keeping the menu open after use"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4378-9
+#, fuzzy
 msgid ""
 "Normally after selecting an item in your Quick Menu, menu disappears from "
 "the screen. Sometimes you might want to keep the menu open after selecting "
@@ -10274,6 +10298,7 @@ msgid "There are many ways to activate a profile:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4454-13
+#, fuzzy
 msgid ""
 "You can activate a profile with a <b>long press</b> on its name from this "
 "same <span class=\"ui\">Profiles</span> menu"
@@ -10598,6 +10623,7 @@ msgid "Showing it as a <span class=\"ui\">Quick Menu</span>"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4564-9
+#, fuzzy
 msgid ""
 "Adding/removing actions of a set and enabling/sorting <span "
 "class=\"ui\">Quick Menu</span> are done via the same <span "
@@ -10842,6 +10868,7 @@ msgstr ""
 "reading speed for use in chapter/book remaining time estimations"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4644-9
+#, fuzzy
 msgid ""
 "<b> Auto warmth and night mode </b> - Allows you to adjust frontlight warmth "
 "in devices with natural (yellow/orange) light and set Night Mode "
@@ -10849,10 +10876,12 @@ msgid ""
 msgstr ""
 "<b> SSH </b> - Allows access to your device over SSH protocol. You can "
 "access via FTP applications or even your file manager if it supports. Check "
-"the wiki page for how-to: <a href=\"https://github.com/koreader/koreader/"
-"wiki/SSH\">https://github.com/koreader/koreader/wiki/SSH</a>"
+"the wiki page for how-to: <a href="
+"\"https://github.com/koreader/koreader/wiki/SSH\">https://github.com/"
+"koreader/koreader/wiki/SSH</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4645-9
+#, fuzzy
 msgid ""
 "<b> Auto power save </b> - Puts the device into standby, suspend or power "
 "off after specified periods of inactivity"
@@ -10874,6 +10903,7 @@ msgstr ""
 "that can run full terminal apps"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4648-9
+#, fuzzy
 msgid ""
 "<b> Background runner </b> - Service to other plugins: Allows tasks to run "
 "regularly in the background."
@@ -10952,6 +10982,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4660-9
+#, fuzzy
 msgid "<b> Move to archive </b> - Moves current document to archive folder"
 msgstr ""
 "You can find a current list of <span class=\"ui\">User patches</span> in the "
@@ -10965,6 +10996,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4662-9
+#, fuzzy
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
 msgstr "https://github.com/koreader/koreader/wiki/User-patches"
 
@@ -10977,6 +11009,7 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4664-9
+#, fuzzy
 msgid ""
 "<b> Profiles </b> - Allows combining multiple settings to make switchable "
 "profiles"
@@ -10992,10 +11025,11 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4667-9
+#, fuzzy
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
 msgstr ""
-"https://github.com/koreader/koreader/issues?"
-"q=+label%3A%22User+patch+available%22"
+"https://github.com/koreader/koreader/"
+"issues?q=+label%3A%22User+patch+available%22"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4668-9
 msgid ""
@@ -11329,14 +11363,15 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4768-5
+#, fuzzy
 msgid ""
 "You can also reset the book cover with the <span class=\"ui\">Reset</span> "
 "dialog, which you can access by long-pressing the filename in the <span "
 "class=\"ui\">File Browser</span>."
 msgstr ""
 "<span class=\"external\">Calibre</span> can convert your documents between "
-"many formats. It also has a built-in editor that allows you to edit e-books "
-"(and fix problems) in the most popular e-book formats, EPUB and Kindle. <a "
+"many formats. It also has a built-in editor that allows you to edit e-books ("
+"and fix problems) in the most popular e-book formats, EPUB and Kindle. <a "
 "href=\"https://calibre-ebook.com/\">https://calibre-ebook.com/</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4770-5
@@ -12121,6 +12156,7 @@ msgid "KOReader can't write to the SD card"
 msgstr "Cleaning your book cover cache database"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5031-9
+#, fuzzy
 msgid ""
 "In Android devices KOReader can’t write to the external storage due to "
 "Android system restrictions. If you want to change your screenshot saving "
