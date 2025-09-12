@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-12 08:04+0000\n"
-"PO-Revision-Date: 2025-09-12 08:01+0000\n"
+"PO-Revision-Date: 2025-09-13 11:01+0000\n"
 "Last-Translator: Juan Comesaña Fernández <xan.comesana@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/koreader/user-"
-"guide/gl/>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/koreader/"
+"user-guide/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -187,8 +187,8 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> I am an info box. I give contextual "
 "information or extra explanations."
 msgstr ""
-"<span class=\"label_blue\">INFO</span>Son unha caixa de información. Ofrezo "
-"información contextual ou explicacións extra."
+"<span class=\"label_blue\">INFORMACIÓN</span>Son unha caixa de información. "
+"Ofrezo información contextual ou explicacións extra."
 
 #: user_guide/en.html%2Bhtml.body.div.div:894-5
 msgid ""
@@ -499,7 +499,7 @@ msgstr "Tipos de aceno"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1016-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1016-13"
 msgid "Predefined Gestures"
-msgstr "Acenos predefinidos"
+msgstr "Acenos Predefinidos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1017-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1017-13"
@@ -560,7 +560,7 @@ msgstr "CONSELLOS"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1041-13
 msgid "Reading tips"
-msgstr "Consellos de Lectura"
+msgstr "Consellos de lectura"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1042-13
 msgid "Device tips"
@@ -9151,31 +9151,32 @@ msgstr "Dewatermark"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Zoom mode"
-msgstr "Dithering on-off"
+msgstr "Modo de zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
 msgid "Change zoom factor"
-msgstr "Render quality"
+msgstr "Cambiar o nivel de zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
+#, fuzzy
 msgid "Toggle panel zoom"
-msgstr "Document language"
+msgstr "Conmutar zoom a viñeta"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Page crop"
-msgstr "Forced OCR"
+msgstr "Recorte de páxina"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Margin"
-msgstr "Writing direction"
+msgstr "Marxe"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgid "Horizontal overlap"
-msgstr "Auto straighten"
+msgstr "Solapamento horizontal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Vertical overlap"
-msgstr "Document columns"
+msgstr "Solapamento vertical"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 #, fuzzy
@@ -10864,8 +10865,8 @@ msgid ""
 "<b> Auto frontlight </b> - Automatically toggles the frontlight according to "
 "ambient light level (Only available on Kindle Voyage and Oasis)"
 msgstr ""
-"<b> Reading statistics </b> - Calculates reading sessions statistics and "
-"reading speed for use in chapter/book remaining time estimations"
+"<b> Iluminación automática </b> - Acende a luz automaticamente de acordo ao "
+"nivel da luz ambiental (Só dispoñible en Kindle Voyage e Oasis)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4644-9
 #, fuzzy
@@ -10898,8 +10899,8 @@ msgstr ""
 msgid ""
 "<b> Autoturn </b> - Automatically turns the page after a set period of time"
 msgstr ""
-"<b> Terminal emulator </b> - Starts a shell (command prompt) on your device "
-"that can run full terminal apps"
+"<b> Execución automática </b> - Pasa a páxina automaticamente despois dun "
+"período de tempo establecido"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4648-9
 #, fuzzy
@@ -10914,13 +10915,14 @@ msgstr ""
 msgid ""
 "<b> Battery statistics </b> - Collects and displays battery usage statistics "
 "of your device"
-msgstr "<b> Time sync </b> - Synchronizes the device time with NTP servers"
+msgstr ""
+"<b> Estatísticas de batería </b> - Recolle e mostra as estatísticas de uso "
+"da batería do teu dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4650-9
 msgid "<b> Book shortcuts </b> - Allows adding a book shortcut to a gesture"
 msgstr ""
-"<b> Tweak document settings </b> - Allows tweaking settings of a document "
-"before it is loaded based on external factors"
+"<b> Atallos a libros</b> - Permite engadir un atallo a un libro a un aceno"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4651-9
 #, fuzzy
@@ -11265,9 +11267,7 @@ msgstr "Exit screensaver"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4744-1
 msgid "Switching between documents quickly"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and Gestures → Links → Tap to follow links"
+msgstr "Cambiar rapidamente entre documentos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4745-1
 msgid ""
@@ -11536,10 +11536,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4821-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and gestures → Gesture manager → “ANY GESTURE” "
-"→ General → Open Previous Document"
+msgstr "Número de liñas/palabras nunha páxina"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4822-9
 msgid ""
@@ -12152,7 +12149,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5029-1
 msgid "KOReader can't write to the SD card"
-msgstr "Cleaning your book cover cache database"
+msgstr "KOReader non pode escribir na tarxeta SD"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5031-9
 #, fuzzy
@@ -12183,7 +12180,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5041-5
 msgid "Sleep cover problems"
-msgstr "Clearing file cache"
+msgstr "Problemas de suspensión coa funda"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5042-9
 #, fuzzy
