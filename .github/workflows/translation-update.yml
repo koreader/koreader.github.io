@@ -66,6 +66,35 @@ jobs:
             po2html -t user_guide/en.html -i "$po_file" -o "$html_file"
           done
 
+      - name: Add translated images to HTML
+        run: |
+          # Find all <img ... src=...> in user guide html, then for each language check if a localized image exists in user_guide/pictures/<lang>/ and, if so, replace the src in the translated HTML.
+          for po_file in i18n/po/*.po; do
+            lang=$(basename "$po_file" .po)
+            html_file="user_guide/$lang.html"
+
+            if [ -f "$html_file" ]; then
+              while read -r img_path; do
+                img_file=$(basename "$img_path")
+
+                fs_localized_path="user_guide/pictures/$lang/$img_file"
+                html_localized_path="pictures/$lang/$img_file"
+
+                if [ -f "$fs_localized_path" ]; then
+                  # Escape search (regex) and replacement for sed, using | as delimiter
+                  escaped_search=$(printf '%s' "$img_path" | sed -e 's/[\/&|.^$*+?()[\]{}\\]/\\&/g')
+                  escaped_replacement=$(printf '%s' "$html_localized_path" | sed -e 's/[\/&|\\]/\\&/g')
+                  sed -i "s|$escaped_search|$escaped_replacement|g" "$html_file"
+                  echo "[$lang] Replaced: $img_path -> $html_localized_path"
+                fi
+              done < <(
+                perl -ne 'while (/<img[^>]*\bsrc\s*=\s*(["\047])([^"\047]+)\1/gi){ print "$2\n" }' user_guide/en.html \
+                  | sort -u \
+                  | grep -E '^pictures/'
+              )
+            fi
+          done
+
       - name: Commit changes back to repository
         run: |
           git add i18n/user_guide.pot i18n/po/*.po user_guide/*.html
