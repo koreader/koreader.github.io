@@ -1,4 +1,4 @@
-name: html2po (Weblate syntax check)
+name: Weblate syntax check
 on: [pull_request, push]
 jobs:
  translate:
@@ -22,3 +22,8 @@ jobs:
     # This is written so complex because at the time of writing (2024-02-28) it always returns 0.
       run: |
         html2po user_guide/en.html 2>&1 | grep Error && exit 1 || exit 0
+
+    - name: Run msgfmt --check
+      run: |
+        find i18n/po -name '*.po' -print0 \
+          | xargs -0 -r -n1 sh -c 'echo "Checking: $1"; msgfmt --check "$1"' _
