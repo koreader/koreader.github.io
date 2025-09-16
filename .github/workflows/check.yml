@@ -6,9 +6,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Python
+      uses: actions/checkout@v4
       uses: actions/setup-python@v3
       with:
         python-version: '3.x'
@@ -18,8 +16,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install translate-toolkit
 
-    - name: Install gettext
-      run: sudo apt-get update && sudo apt-get install -y gettext
+    - name: Install gettext (cached)
+      uses: awalsh128/cache-apt-pkgs-action@v1
+      with:
+        packages: gettext
+        version: 1.0
 
     - name: Run html2po
     # This is written so complex because at the time of writing (2024-02-28) it always returns 0.
