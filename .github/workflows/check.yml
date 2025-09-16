@@ -1,4 +1,4 @@
-name: html2po (Weblate syntax check)
+name: Weblate syntax check
 on: [pull_request, push]
 jobs:
  translate:
@@ -6,7 +6,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v3
@@ -18,7 +18,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install translate-toolkit
 
+    - name: Install gettext (cached)
+      uses: awalsh128/cache-apt-pkgs-action@v1
+      with:
+        packages: gettext
+        version: 1.0
+
     - name: Run html2po
     # This is written so complex because at the time of writing (2024-02-28) it always returns 0.
       run: |
         html2po user_guide/en.html 2>&1 | grep Error && exit 1 || exit 0
+
+    - name: Run msgfmt --check
+      run: |
+        find i18n/po -name '*.po' -print0 \
+          | xargs -0 -r -n1 sh -c 'echo "Checking: $1"; msgfmt --check "$1"' _
