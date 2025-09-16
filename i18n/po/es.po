@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 17:21+0000\n"
-"PO-Revision-Date: 2025-09-11 07:02+0000\n"
-"Last-Translator: No name <CertainBot@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"PO-Revision-Date: 2025-09-17 18:58+0000\n"
+"Last-Translator: No name <usiraset@dnmx.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,11 +54,11 @@ msgstr "🇨🇳 Chino (escritura Han simplificada)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:827-9
 msgid "🇳🇱 Dutch"
-msgstr ""
+msgstr "🇳🇱 Danés"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:828-9
 msgid "🇮🇹 Italian"
-msgstr ""
+msgstr "🇮🇹 Italiano"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:830-9
 msgid "🇷🇸 Serbian"
@@ -345,7 +345,7 @@ msgstr "NAVEGAR POR EL LIBRO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:955-17
 msgid "Skim Widget <span class=\"microns\"></span>"
-msgstr "Widgets para Ojear <span class=\"microns\"></span>"
+msgstr "Widget para ojear <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:956-17
 msgctxt ""
@@ -728,11 +728,12 @@ msgid "Take notes and make highlights while reading"
 msgstr "Tome notas y subraye mientras lea"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1092-9
-#, fuzzy
 msgid ""
 "Highlight text with different styles and colors, place bookmarks <a "
 "href=\"#L1-bookmarks\" class=\"internalink\"></a>"
-msgstr "Haga capturas de pantalla"
+msgstr ""
+"Subrayar texto con diferentes estilos y colores, colocar marcadores <a href="
+"\"#L1-bookmarks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1094-9
 msgid ""
@@ -743,11 +744,12 @@ msgstr ""
 "howtohighlight\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1096-9
-#, fuzzy
 msgid ""
 "Add notes using a customizable keyboard including diacritic modifiers <a "
 "href=\"#L2-keyboard\" class=\"internalink\"></a>"
-msgstr "Cambie la página automáticamente"
+msgstr ""
+"Añadir notas usando un teclado personalido que incluye modificadores "
+"diacríticos <a href=\"#L2-keyboard\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1098-9
 msgid ""
@@ -830,20 +832,23 @@ msgid "Fly through your book with powerful tools"
 msgstr "Vuele a través de sus libros con herramientas potentes"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1121-9
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Skim widget</span> to quickly jump between pages, "
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
-"<b>Navegador de marcapáginas</b> para explorar sus destaques fácilmente"
+"<span class=\"ui\">Widget de ojear</span> para saltar rápidamente entre "
+"páginas, capítulos, marcadores <a href=\"#L2-skimwidget\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1123-9
-#, fuzzy
 msgid ""
 "Unique <span class=\"ui\">Book map</span> to see a bird’s eye map of your "
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
-msgstr "Cree una tabla de contenido de modo automático o manual"
+msgstr ""
+"Único <span class=\"ui\">Mapa del libro</span> para ver una vista general "
+"del libro que incluye todas tus notas y subrayados <a href=\"#L2-bookmap\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1125-9
 msgid ""
@@ -1129,10 +1134,9 @@ msgid "BASIC USAGE INFORMATION"
 msgstr "INFORMACIÓN BÁSICA DE USO"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1209-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1209-1"
 msgid "Transferring books to your reader"
-msgstr "Optimización de manga para su dispositivo lector móvil"
+msgstr "Transferir libros al lector"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1211-5
 msgid ""
@@ -1202,11 +1206,11 @@ msgid ""
 msgstr ""
 "<b>Acceso SSH/SFTP:</b> KOReader puede hacer de <b>servidor SSH</b> al que "
 "puedes acceder desde un ordenador y transferir archivos (disponible en Kobo, "
-"Kindle y Cervantes). Puedes usar cualquier aplicación SFTP (como  <span "
-"class=\"external\">Filezilla</span>) o acceder mediante el explorador de "
-"archivos si tu sistema lo soporta. Revisa nuestra <a href=\"https://github."
-"com/koreader/koreader/wiki/SSH\">wiki</a> para más información y revisa el "
-"recuadro más abajo."
+"Kindle y Cervantes). Puedes usar cualquier aplicación SFTP (como <span class="
+"\"external\">Filezilla</span>) o acceder mediante el explorador de archivos "
+"si tu sistema lo soporta. Revisa nuestra <a href="
+"\"https://github.com/koreader/koreader/wiki/SSH\">wiki</a> para más "
+"información y revisa el recuadro más abajo."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1227-9
 msgid ""
@@ -3516,7 +3520,6 @@ msgstr ""
 "tablas y quieres verlas por completo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1867-1
-#, fuzzy
 msgid "Go back to previous location"
 msgstr "Volver a posición anterior"
 
@@ -3552,9 +3555,8 @@ msgid ""
 msgstr "Evitar el parpadeo en páginas con imágenes"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1877-1
-#, fuzzy
 msgid "Prevent flashing on pages with images and in the menu"
-msgstr "Sincronizar márgenes sup./inf."
+msgstr "Evitar parpadeos en páginas con imágenes y en el menú"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1879-5
 msgid ""
@@ -3614,16 +3616,14 @@ msgstr ""
 "tiene sus propias ventajas. Puedes usar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1899-3
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:1899-3"
 msgid "Skim Widget"
-msgstr "Herramientas de sumario"
+msgstr "Widget de ojear"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1900-3
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li:1900-3"
 msgid "Book Map"
-msgstr "Conmutar volteo de marcadores"
+msgstr "Mapa del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1901-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1901-3"
@@ -3631,10 +3631,9 @@ msgid "Page Browser"
 msgstr "Navegador de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1904-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1904-1"
 msgid "Skim Widget"
-msgstr "Herramientas de sumario"
+msgstr "Widget de ojear"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1906-5
 msgid ""
@@ -3657,9 +3656,8 @@ msgid "Navigate between chapters"
 msgstr "Navegar entre capítulos"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1910-13
-#, fuzzy
 msgid "Navigate between bookmarks"
-msgstr "Conmutar índice personalizado"
+msgstr "Navegar entre marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1914-5
 msgid "How to open the Skim Widget:"
@@ -9896,7 +9894,7 @@ msgstr "Conmutar dirección de cambio de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
 msgid "Toggle custom TOC"
-msgstr "Margen"
+msgstr "Conmutar índice personalizado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
 msgid "Toggle custom hidden flows"
@@ -9987,7 +9985,7 @@ msgstr "OCR forzado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Margin"
-msgstr "Dirección de escritura"
+msgstr "Margen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgid "Horizontal overlap"
