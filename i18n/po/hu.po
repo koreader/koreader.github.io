@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-30 09:03+0000\n"
 "PO-Revision-Date: 2025-10-02 15:00+0000\n"
-"Last-Translator: exactlee <exactlee.terminus@gmail.com>\n"
+"Last-Translator: Zsolt Endreffy <ifjezsolt@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/"
 "user-guide/hu/>\n"
 "Language: hu\n"
@@ -1993,6 +1993,8 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Állítsa be a színhőmérséklet változás ütemezését a különböző paraméterekkel. "
+"A paraméterek magyarázatát lásd a fenti képen."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1427-5
 #, fuzzy
@@ -2017,6 +2019,14 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Amikor a színhőmérséklet százalékos értékét állítja a különböző "
+"intervallumokhoz, akkor az adott intervallumot állíthatja <span class=\"ui\""
+">Éjszakai Mód</span>ra, ami invertálja a képernyő színeit, amikor az "
+"intervallum elkezdődik. Aktiválja ezt a funkciót, ha a képernyő minimális "
+"megvilágítása továbbra is túl világos és a sötét háttereket preferálja. "
+"Ennek bekapcsoláshoz a lenti ablakban koppintson az <span class=\"ui\""
+">Éjszakai Mód</span> jelölőnégyzetre és koppintson a <span class=\"ui\""
+">Beállítás</span>ra."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1436-5
 #, fuzzy
@@ -2045,6 +2055,13 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Ez a funkció be- és kikapcsolja a képernyővilágítást naplementekor és "
+"napfelkeltekor az ebben a pluginban <span class=\"ui\">Jelenleg aktív "
+"paraméterek</span> alapján. Felül tudja írni ezt a képernyővilágítás kézi be-"
+" és kikapcsolásával. A következő napfelkelte/naplementekor az <span class="
+"\"ui\">AutoSzínhőmérséklet</span> ismét változtatni fogja, amennyiben "
+"szükséges. Ezt a <span class=\"ui\">Képernyővilágítás kikapcsolása "
+"napközben</span> menü elemmel tudja aktiválni a pluginban."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1448-1
 #, fuzzy
@@ -2062,7 +2079,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1452-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "Állítsa be a <b>Fix ütemezést</b> a fenti utasítások követésével"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1453-9
 #, fuzzy
@@ -2076,6 +2093,10 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
+"Ahogyan a fenti beállításokban láthatja, csupán egy perc különbség van a "
+"nappal-éjszaka átmenetek között. Tehát a képernyő színhőmérséklete <b>0-ról "
+"100-ra (vagy fordítva) megy egy perc alatt</b>. Megnövelheti ezt az "
+"időpontok közötti távolságot, hogy az átmenet lassabb legyen."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 #, fuzzy
@@ -2187,6 +2208,10 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Alternatív Állapotsor:</b> Az alapértelmezett <span class=\"ui\""
+">Állapotsor</span> mellett van egy <span class=\"ui\">Alternatív állapotsor</"
+"span> is, amelyik megjelenhet az oldal tetején, ha bekapcsolja. Kattintson "
+"ide a részletekért: <a href=\"#L2-statusbar\">Állapotsor</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1492-9
 msgid ""
@@ -2195,6 +2220,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Referencia oldalszámok:</b> Amennyiben a könyve kiadója mellékelte az "
+"oldalszámokat a könyv nyomtatott verziójából, akkor így fogja őket látni. "
+"Kattintson ide további információért: <a href=\"#L3-referencepages\""
+">Oldalszámozás és referencia oldalszámok</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1493-9
 msgid ""
@@ -2203,6 +2232,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Kiemelés típusok:</b> Itt találja a különböző kiemelés típusokat. Továbbá "
+"itt tud színes kiemeléseket létrehozni ha megfelelő az eszköze kijelzője. "
+"Kattintson ide ehhez a fejezethez: <a href=\"#L1-bookmarks\">Könyvjelzők, "
+"Kiemelések és Jegyzetek</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2210,10 +2243,14 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Jegyzetjelölő</b> A jegyzetjelölő ikon akkor jelenik meg, amikor egy "
+"jegyzetet fűz egy kiemeléshez. Több különböző jelölő közül választhat. "
+"Kattintson ide további információkért: <a href=\"#L1-bookmarks\""
+">Könyvjelzők, Kiemelések és Jegyzetek</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1498-1
 msgid "Indicator icons"
-msgstr ""
+msgstr "Indikátor ikonok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1500-5
 msgid ""
@@ -2221,6 +2258,10 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"A KOReader rendelkezik néhány indikátorral, amelyek információkat "
+"szolgáltatnak a folyamatban lévő folyamatokról és állapotokról, amint azt a "
+"fenti képen is láthatja. Bizonyos műveletek alatt ezeket a képernyő bal "
+"felső sarkában láthatja."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1506-17
 msgid ""
@@ -2229,6 +2270,10 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Részlegesen renderelt ikonok</span> Ez az "
+"ikoncsoport a részleges rendereléshez tartozik és valószínűleg gyakrabban "
+"láthatja ezeket, mint a többieket. Akkor láthatja ezeket az ikonokat, ha a "
+"<span class=\"ui\">lenti menü</span> beállításait változtatja."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1508-13
 msgid ""
@@ -2238,12 +2283,20 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Ez a funkció lehetővé teszi, hogy sokkal gyorsabban láthassa az szöveg "
+"kinézetének módosításának az előnézetét, a teljes könyv helyett csak a "
+"jelenlegi fejezet renderelése által. Továbbá a képernyőforgatást is sokkal "
+"gyorsabbá teszi. Ez a funkció alapértelmezetten <b>ENGEDÉLYEZVE</b> van. Ha "
+"szükséges, kikapcsolhatja az egyes könyvekre vonatkozóan (egy koppintással), "
+"vagy globálisan (egy hosszú koppintással) a következőn:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1510-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Dokumentum / Részleges renderelés engedélyezése"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1512-13
 msgid ""
@@ -2251,6 +2304,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Miután megerősítette a változtatásait, az egész könyv újra lesz renderelve, "
+"így ez egy több lépéses procedúra. Ezek az ikonok mutatják a renderelés "
+"állapotát az állabiak szerint:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1522-17
 msgid ""
@@ -2258,12 +2314,18 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"Ebben a stádiumban a documentum <b>részlegesen</b> renderelt. Az oldalszám, "
+"lábjegyzetek és egyebek is <b>pontatlanok</b> lehetnek. Láthatja, hogy az új "
+"beállítások hogyan néznek ki és tovább igazíthatja őket. Lapozhat és "
+"linkekre ugorhat ebben az állapotban."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1526-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Teljes renderelés történik a <b>háttérben</b>. Továbbra is lapozhat, "
+"linkekre ugorhat vagy módosíthatja a beállításokat."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1530-17
 msgid ""
@@ -2272,12 +2334,19 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"A teljes renderelés készen van, de <b>még nincs alkalmazva</b>, mert a "
+"KOReader arra vár hogy <b>tétlen</b> legyen és újratölthesse a könyv további "
+"részeit (tétlen=nem használja a készüléket). Továbbra is lapozhat, linkekre "
+"ugorhat vagy módosíthatja a beállításokat."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Egy ideje tétlen volt, így a KOReader most újratölti a teljes dokumentumot. "
+"Ebben a stádiumban a KOReader <b>blokkolva</b> van az interakció elkerülése "
+"érdekében."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1539-5
 msgid ""
@@ -2289,6 +2358,13 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Részleges renderelés csak akkor "
+"lehetséges, ha az EPUB több darabból áll össze. Az EPUB fájlok "
+"tulajdonképpen .zip archívumok, amelyek .html fájlokat tartalmaznak. Néhány "
+"könyv csak egy .html fájlból áll, míg a többiek több .html fájlból állnak, "
+"mint pl. minden fejezete a könyvnek egy különálló .html file. <b>Ha a könyve "
+"csak egy .html file, a részleges renderelés nem működik, mert minden "
+"változtatásra a teljes könyvet újra kell számolnia a KOReadernek.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1547-13
 msgid ""
@@ -2304,6 +2380,18 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Kiemelés ikon</span> Ez az ikon akkor jelenik "
+"meg, ha <span class=\"ui\">Kijelölés és kiemelés mód</span>ban van. A "
+"KOReader rendelkezik egy további kiemelési móddal is, amely lehetővé tesz, "
+"hogy elkezdjen egy kiemelést, és utána lapozni tudjon, hogy többoldalas "
+"kiemeléseket is létre tudjon hozni. Erről az útmutató <a href=\"#bookmarks\""
+">KÖNYVJELZŐK, KIEMELÉSEK ÉS JEGYZETEK</a> fejezetében olvashat. Amikor "
+"elkezd egy kiemelést, akkor ez az ikon jelenik meg a sarokban, hogy "
+"emlékeztesse rá, hogy még mindig kiemelési módban van. Eltűnik, amint "
+"befejezi a kiemelését a <b>szakasz vége kiválasztásával</b> vagy a "
+"<b>kiemelés megszakításával</b> (a kijelölés elejére való ismételt "
+"koppintással vagy erre a <span class=\"ui\">kiemelés ikon</span>)ra "
+"koppintással."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1554-13
 msgid ""
@@ -2325,16 +2413,20 @@ msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Tükrözési mód ikon</span> Ez az ikon akkor "
+"jelenik meg, ha a bal felső sarokba koppint, amikor:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1563-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Egy PDF dokumentumot olvas"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1564-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"És 100%-tól eltérő mértékű nagyításban van (oszlop, sor vagy manuális) vagy "
+"<span class=\"ui\">újratördelési mód</span>ban van"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1567-13
 msgid ""
@@ -2342,10 +2434,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"Ez a mód ideiglenesen kijelzi a vágás nélküli teljes oldalt a képernyőjére "
+"illesztve. Ebben a módban tud lapozni. Ebből a módból való kilépéshez "
+"koppintson erre az ikonra."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1574-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Oldalszámozás és referencia oldalszámok"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1576-5
 msgid ""
@@ -2355,6 +2450,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"Az <b>epub, mobi, html</b> dokumentumtípusok nem rendelkeznek fix "
+"oldalszámokkal, mert ezek újratördelhető dokumentumok. Ez azt jelenti, hogy "
+"ezek a dokumentumok a képernyő méretéhez és orientációjához igazíthatóak ("
+"ellenben például a <b>pdf</b> vagy a <b>djvu</b> fájlokkal, amelyek fix "
+"oldalmérettel rendelkeznek)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1578-5
 msgid ""
@@ -2363,6 +2463,11 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Ha növeli a betűk méretét egy újratördelhető dokumentumban, akkor az "
+"oldalainak száma is növekedni fog, mert most kevesebb szöveg fog egy oldalra "
+"elférni. Ez néha problémákat okozhat, mert egy kiemelés, amelyet a <b>38. "
+"oldalon</b> hozott létre, a betűméret változtatás után a <b>42. oldalra</b> "
+"kerülhet."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1580-5
 msgid ""
@@ -2373,16 +2478,25 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"A KOReader támogatja a <b>referencia oldalszámok</b> funkciót, amely "
+"lehetővé teszi a kiadók számára, hogy oldalszámokat ágyazzanak be a könyv "
+"nyomtatott változatából az e-könyv változatba. Amikor engedélyezi ezt a "
+"funkciót a KOReader nem kalkulálja az oldalszámokat, hanem a kiadó által "
+"<b>beágyazott oldalszámokat</b> mutatja. Ez azt jelenti, hogy az oldalszám "
+"amit az <span class=\"ui\">Állapotsor</span>ban lát megegyezik a könyv "
+"nyomtatott változatával."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1582-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "A referencia oldalszámok előnyei:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1584-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"A hivatkozási oldalszámok lehetővé teszik a pontos hivatkozásokat azáltal, "
+"hogy megegyeznek a nyomtatott verziókban található oldalszámokkal."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1585-9
 msgid ""
@@ -2390,6 +2504,10 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"A referencia oldalszámok segíthetnek a navigációban, különösen azoknak az "
+"olvasóknak, akik ismerik a könyv nyomtatott változatát. Segíthetnek abban, "
+"hogy könnyebben megtalálják a konkrét részeket vagy idézeteket a digitális "
+"változatban."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1586-9
 msgid ""
@@ -2399,16 +2517,25 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"Mivel a digitális könyvek különböző eszközökön és platformokon olvashatók, "
+"mindegyiknek megvan a saját betűmérete és megjelenítési beállításai, a "
+"megjelenített oldalszámok jelentősen eltérhetnek. A referencia oldalszámok "
+"egységes viszonyítási alapot biztosítanak, amikor ugyanazt a könyvet "
+"egyszerre különböző eszközökön, például e-könyv olvasón és telefonon "
+"olvassuk."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1589-5
 msgid "You can enable this feature from:"
-msgstr ""
+msgstr "Engedélyezni tudja ezt a funkciót innen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1591-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Referencia oldalak / Referencia oldalszámok "
+"használata"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1593-5
 msgid ""
@@ -2416,12 +2543,17 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Amennyiben bejelöli a <span class=\"ui\">Referencia oldalak mutatása a "
+"margón</span> opciót ugyanabban a menüben, akkor ez az oldalszám lesz "
+"látható a szöveg mellett kis betűtípussal."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1595-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Felhívjuk a figyelmét hogy ez a menü csak akkor jelenik meg, ha vannak "
+"beágyazott <b>Referencia oldalszámok</b> a könyvében."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1599-1
 #, fuzzy
