@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-04 17:04+0000\n"
-"PO-Revision-Date: 2025-10-03 07:52+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/hu/>\n"
+"PO-Revision-Date: 2025-10-06 13:02+0000\n"
+"Last-Translator: Balázs Attila <g.gumicsizma@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -304,9 +304,8 @@ msgid "Reading Screen"
 msgstr "Képernyő olvasása"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:944-17
-#, fuzzy
 msgid "Indicator icons <span class=\"microns\"></span>"
-msgstr "Jelzőikonok <span class=\"microns\"></span>"
+msgstr "Jelző ikonok <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:945-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:945-17"
@@ -2570,6 +2569,12 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"A KOReader két állapotsorral rendelkezik: egy <span class=\"ui\">alsó "
+"állapotsorral</span>, amely alapértelmezés szerint engedélyezve van. És van "
+"egy <span class=\"ui\">alt állapotsorral</span>, amely az oldal tetején "
+"jelenik meg, ha engedélyezve van. Ez az <span class=\"ui\">alt állapotsor</"
+"span> csak tördelhető dokumentumokban (epub, html, docx, rtf, txt…) érhető "
+"el."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1603-5
 msgid ""
@@ -2579,18 +2584,26 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"Az <span class=\"ui\">alsó állapotsor</span> az újabb, aktívan karbantartott "
+"sor. Az <span class=\"ui\">alt állapotsor</span> a KOReader korábbi "
+"verzióiból maradt meg, ezért nem adunk hozzá új funkciókat. De továbbra is "
+"engedélyezheti ezt az <span class=\"ui\">alt állapotsort</span>, ha "
+"hasznosnak találja. Engedélyezése a következő helyen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1605-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
+"ALSÓ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Alt állapotsor"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1607-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"Az <span class=\"ui\">Alt állapotsort</span> ebből a menüből konfigurálhatja:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
 msgctxt "user_guide/en.html+html.body.div.div:1609-5"
@@ -2598,16 +2611,20 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotsor / Alt állapotsor"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"A szakasz további részében található utasítások az <span class=\"ui\">alsó "
+"állapotsorra</span> vonatkoznak."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1613-1
 msgid "Configuring the status bar"
-msgstr ""
+msgstr "Az állapotsor konfigurálása"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1615-2
 msgid ""
@@ -2615,12 +2632,16 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Az alsó állapotsort ebből a menüből konfigurálhatja. A <span class=\"ui\""
+">BEÁLLÍTÁSOK</span> almenüben személyre szabhatja az állapotsort."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotsor"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1621-5
 msgid ""
@@ -2628,6 +2649,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"Számos elemet megjeleníthet az állapotsoron. Alapértelmezés szerint azonban "
+"egyszerre csak egy jelenik meg, és a közöttük való váltáshoz koppintani kell "
+"az állapotsoron. Ha egyszerre szeretnéd megjeleníteni az összes elemet, "
+"engedélyezd itt:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
 msgid ""
@@ -2635,6 +2660,9 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotsor / Elemek konfigurálása / Az összes kijelölt "
+"elem egyszerre történő megjelenítése"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1627-5
 msgid ""
@@ -2642,14 +2670,17 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Ha engedélyezte a fenti opciót, akkor nem rejtheti el az állapotsort "
+"koppintással. Ha el szeretné rejteni, itt kell hozzárendelnie egy gesztust "
+"az állapotsor be- és kikapcsolásához:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1629-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Gesztusválasztó menü / Olvasó / Állapotsor be- és kikapcsolása"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1631-5
 msgid "Sorting the status bar items:"
-msgstr ""
+msgstr "Az állapotsor elemeinek rendezése:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1633-5
 msgid ""
@@ -2657,10 +2688,13 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotsor / Elemek konfigurálása / Elemek elrendezése az "
+"állapotsorban"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1637-1
 msgid "Using \"Custom Text\" item for status bar alignment"
-msgstr ""
+msgstr "„Egyéni szöveg” elem használata az állapotsor igazításához"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1638-5
 msgid ""
@@ -2669,16 +2703,22 @@ msgid ""
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
+"Van egy speciális állapotsorelem, a neve <span class=\"ui\">Egyéni szöveg</"
+"span>. Ez az elem megjelenítheti a kiválasztott szöveget az állapotsorban. "
+"Ezt a funkciót arra is használhatja, hogy elválasztót hozzon létre az "
+"állapotsor elemei között, ahogy az az alábbi példában is látható:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1643-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Először engedélyezd ezt az opciót egy rövid nyomással ebben a menüben"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1645-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotsor / Egyéni szöveg: „KOReader”"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1648-9
 msgid ""
@@ -2686,16 +2726,22 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Ezután nyomd meg hosszan ismét a beállítások megnyitásához. Írj be egy <b>"
+"\"szóköz\"</b> karaktert az első mezőbe, és add meg az ismétlések számát a "
+"második mezőbe, amely meghatározza az elválasztó szélességét."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1651-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"Választhat egy másik karaktert elválasztóként. Ezt az elemet a többi "
+"állapotsor-elemhez hasonlóan át is helyezheti, hogy megváltoztassa a "
+"sorrendjét a csoportok beállításához."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1653-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Fejezet folyamatjelző sávja"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1655-5
 msgid ""
@@ -2707,6 +2753,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"A <span class=\"ui\">állapotsáv</span> <span class=\"ui\">folyamatjelző "
+"sávja</span> általában a teljes könyv haladását mutatja. De ehelyett az "
+"<b>aktuális fejezet</b> haladását is megjelenítheti. Ez például akkor lehet "
+"hasznos, ha egy könyv sok rövid fejezetet tartalmaz. Ebben az esetben nehéz "
+"lehet látni az aktuális fejezetben elért haladást, ezért a <span class=\"ui\""
+">fejezet állapotjelző sávja</span> itt informatívabb lehet. A funkciót ebből "
+"a menüből engedélyezhető:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1657-5
 msgid ""
@@ -2714,21 +2767,29 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Progress Bar / Show chapter-progress "
 "bar instead"
 msgstr ""
+"FELSŐ MENÜ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Állapotjelző / Folyamatjelző / Fejezetjelző megjelenítése "
+"helyett"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1659-5
 msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"Hozzárendelhet egy gesztust is a normál és a fejezetfolyamat-jelzők közötti "
+"váltáshoz. Ezt a műveletet a következő helyen találja:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1661-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr ""
+"Gesztusválasztó menü / Olvasó / Fejezet folyamatjelzőjének be- és "
+"kikapcsolása"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1667-1
+#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1667-1"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Felső menü elemek"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1669-5
 msgid ""
@@ -2736,6 +2797,9 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Itt csak a <span class=\"ui\">felső menü</span> struktúrájának elemeit "
+"tekintjük át, hogy megismerkedhessen a menüvel. Részletes információk az "
+"útmutató kapcsolódó részeiben."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1674-9
 msgid ""
@@ -2743,6 +2807,9 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">NAVIGÁCIÓ:</span> Ez a menü olyan elemeket tartalmaz, "
+"amelyek lehetővé teszik a jelenleg olvasott könyvben való navigálást. "
+"<b>Tartalomjegyzék, könyvjelzők, könyvtérkép...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1676-9
 msgid ""
@@ -2750,12 +2817,17 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">SZÖVEGBEÁLLÍTÁS:</span> Ez a menü olyan elemeket "
+"tartalmaz, amelyekkel módosíthatja a könyv megjelenését. <b>Betűtípus-"
+"beállítások, stílusbeli finomhangolások...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1678-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">BEÁLLÍTÁSOK:</span> Ez a menü a KOReader és az eszköz "
+"beállításait tartalmazza. <b>E-ink, világítás, gesztusbeállítások...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1680-9
 msgid ""
