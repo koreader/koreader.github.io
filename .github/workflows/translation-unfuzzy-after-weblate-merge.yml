@@ -1,0 +1,72 @@
+name: Unfuzzy PO after Weblate merge
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'i18n/**/*.po'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: unfuzzy-weblate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  unfuzzy:
+    # Run only on:
+    # - manual dispatch, OR
+    # - a push whose HEAD commit is a Weblate "Update translation files" commit
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event_name == 'push' &&
+        startsWith(github.event.head_commit.message, 'Update translation files') &&
+        github.event.head_commit.author.email == 'hosted@weblate.org'
+      )
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Show head commit (debug)
+        run: |
+          echo "Author: $GITHUB_ACTOR"
+          echo "Commit author name: ${GITHUB_HEAD_COMMIT_AUTHOR_NAME:-${{ github.event.head_commit.author.name }}}"
+          echo "Commit author email: ${{ github.event.head_commit.author.email }}"
+          echo "Message:"
+          echo "${{ github.event.head_commit.message }}"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run unfuzzy script
+        run: |
+            for f in i18n/po/*.po; do
+              echo "Processing $f"
+              python3 tools/unfuzzy_msgctxt.py "$f"
+            done
+            if git diff --quiet -- i18n/po; then
+              echo "No unfuzzy changes needed."
+              echo "UNFUZZY_CHANGED=0" >> $GITHUB_ENV
+            else
+              echo "Unfuzzy changes detected:"
+              git --no-pager diff --name-only i18n/po
+              echo "UNFUZZY_CHANGED=1" >> $GITHUB_ENV
+            fi
+
+      - name: Commit and push changes
+        if: env.UNFUZZY_CHANGED == '1'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add i18n/po/*.po
+          git commit -m "CI: unfuzzy after Weblate translation update"
+          git push
