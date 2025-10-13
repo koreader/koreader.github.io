@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 03:49+0000\n"
-"PO-Revision-Date: 2025-10-12 03:47+0000\n"
-"Last-Translator: Patricio Martino <patomartino@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"PO-Revision-Date: 2025-10-13 21:01+0000\n"
+"Last-Translator: Felipe Bustamante <felipe.bustamante@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1133,9 +1133,6 @@ msgid "BASIC USAGE INFORMATION"
 msgstr "INFORMACIÓN BÁSICA DE USO"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1214-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:933-5"
-#| msgid "Transferring books to your reader"
 msgctxt "user_guide/en.html+html.body.div.div:1214-1"
 msgid "Transferring books to your reader"
 msgstr "Transferir libros al lector"
@@ -1374,12 +1371,9 @@ msgstr ""
 "src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Empieza con"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1272-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:934-5"
-#| msgid "Tap zones"
 msgctxt "user_guide/en.html+html.body.div.div:1272-1"
 msgid "Tap zones"
-msgstr "Zonas de toque"
+msgstr "Zonas de un toque"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1276-5
 msgid ""
@@ -1800,9 +1794,6 @@ msgstr ""
 "Chinese-keyboard\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1382-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:937-17"
-#| msgid "Auto Warmth And Night Mode"
 msgctxt "user_guide/en.html+html.body.div.div:1382-1"
 msgid "Auto Warmth And Night Mode"
 msgstr "Temperatura de color y modo nocturno automáticos"
@@ -1957,14 +1948,13 @@ msgid "Go to the plugin menu:"
 msgstr "Ir al menu del plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1421-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1421-17"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"MENÚ SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Pantalla / Temperatura Automática y Modo Nocturno"
+"MENÚ SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Pantalla / Temperatura y Modo Nocturno Automáticos"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1423-13
 msgid ""
@@ -4561,6 +4551,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2134-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
 msgstr ""
+"<b>Desde el Navegador de páginas:</b> Abra el Navegador de páginas a través "
+"de"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2138-5
 #, fuzzy
@@ -4581,6 +4573,10 @@ msgid ""
 "chapter and select <span class=\"ui\">Start TOC chapter</span> item from the "
 "popup menu. You will see a dialog asking you to enter your chapter title."
 msgstr ""
+"Mantenga presionada la miniatura de la página que quiera que inicie su "
+"capítulo y seleccione <span class=\"ui\">Iniciar capítulo con índice</span> "
+"en el menú emergente. Verá un cuadro de diálogo que le pedirá que "
+"introduzcas el título del capítulo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2142-5
 msgid ""
@@ -4640,6 +4636,17 @@ msgid ""
 "class=\"ui\">Custom hidden flows</span> feature of KOReader allows you to "
 "exclude these kind of parts of your book."
 msgstr ""
+"Algunos libros o documentos pueden contener largas notas a pie de página o "
+"secciones bibliográficas. Por ejemplo, un libro científico de 250 páginas, "
+"cuyas últimas 50 corresponden a apéndices, índice y referencias. Normalmente "
+"estas se incluyen en la barra de progreso y en los cálculos del tiempo de "
+"lectura, ya que forman parte del libro. Sin embargo, generalmente estas "
+"secciones sirven como referencia y no se leen completamente, por lo que "
+"conviene excluirlas para que el recuento de páginas restantes y las "
+"estimaciones de tiempo sean más precisas. O quizás tenga una antología que "
+"contenga algunas historias que ya ha leído. La función <span class=\"ui\""
+">Flujos ocultos personalizados</span> de KOReader le permite excluir este "
+"tipo de partes de su libro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2154-5
 msgid ""
@@ -4649,11 +4656,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2160-5
 msgid "How to exclude a section by creating a hidden flow:"
-msgstr ""
+msgstr "Cómo excluir una sección creando un flujo oculto:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2163-9
 msgid "Go to the first page of the section you want to exclude"
-msgstr ""
+msgstr "Vaya a la primera página de la sección que desea excluir"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2164-9
 msgid "Open the <span class=\"ui\">Page browser</span> via:"
@@ -4691,12 +4698,17 @@ msgid ""
 "from the <span class=\"ui\">Page browser</span> or using other ways like "
 "<span class=\"ui\">Book map, Skim widget</span> etc."
 msgstr ""
+"Ahora ve a la última página de tu sección excluida. Puedes navegar desde el "
+"<span class=\"ui\">Navegador de páginas</span> o usando otros métodos como "
+"el <span class=\"ui\">Mapa del libro, el widget Skim</span>, etc."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2171-9
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
 msgstr ""
+"Una vez que esté en la última página de su sección excluida, abra nuevamente "
+"el <span class=\"ui\">Navegador de páginas</span> (si aún no está en él)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2172-9
 msgid ""
@@ -4706,6 +4718,11 @@ msgid ""
 "return to normal color, indicating the end of hidden flow and the beginning "
 "of regular flow."
 msgstr ""
+"Busca la última página de tu sección oculta y mantén pulsada en <b>página "
+"siguiente</b>. Selecciona <span class=\"ui\">Reiniciar flujo normal aquí</"
+"span> en el menú emergente. Verás que el fondo de las páginas restantes "
+"volverá a su color normal, lo que indica el final del flujo oculto y el "
+"inicio del flujo normal."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2177-5
 #, fuzzy
@@ -4729,12 +4746,18 @@ msgid ""
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
 msgstr ""
+"Estas secciones de flujo oculto se omitirán al pasar las páginas. Por "
+"ejemplo, supongamos que creó un flujo oculto para el <b>Capítulo 10</b>. "
+"Ahora se encuentra en la última página del <b>Capítulo 9</b>. Al pasar la "
+"página, verá el <b>Capítulo 11</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2183-9
 msgid ""
 "Page numbering will continue as if these hidden flow sections <b>do not "
 "exist</b>."
 msgstr ""
+"La numeración de páginas continuará como si estas secciones de flujo ocultas "
+"<b>no existieran</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2184-9
 msgid ""
@@ -4743,6 +4766,10 @@ msgid ""
 "<b>time to read</b> calculations. But they will still be visible in the "
 "<span class=\"ui\">Skim widget</span>."
 msgstr ""
+"Estas secciones ocultas no se mostrarán en la <span class=\"ui\">barra de "
+"progreso</span> (pero lee la explicación a continuación) y no se tendrán en "
+"cuenta en los cálculos de <b>tiempo para leer</b>. Sin embargo, seguirán "
+"siendo visibles en el <span class=\"ui\">widget Skim</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2185-9
 msgid ""
