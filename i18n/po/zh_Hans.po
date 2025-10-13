@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-12 03:49+0000\n"
-"PO-Revision-Date: 2025-10-07 18:13+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-10-13 13:07+0000\n"
+"Last-Translator: rerbin <rerbin@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -323,7 +323,7 @@ msgstr "浏览您的书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:960-17
 msgid "Skim Widget <span class=\"microns\"></span>"
-msgstr "跳读工具 <span class=\"microns\"></span>"
+msgstr "快速翻页工具 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:961-17
 msgctxt ""
@@ -337,7 +337,7 @@ msgctxt ""
 "user_guide/en.html+html.body.div.div.ul.li.ul.li:962-17user_guide/en."
 "html+html.body.div.div.ul.li.ul.li:962-17"
 msgid "Page Browser"
-msgstr "书页速览视图"
+msgstr "页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:963-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:963-17"
@@ -347,7 +347,7 @@ msgstr "目录工具"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:964-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:964-17"
 msgid "Excluding sections: Custom hidden flows"
-msgstr "章节排除：定制要隐藏的页码区"
+msgstr "章节排除：自定义隐藏页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:968-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:968-9"
@@ -455,7 +455,7 @@ msgstr "浏览其它格式的文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1012-5
 msgid "Collections <span class=\"microns\"></span>"
-msgstr "自定义书单 <span class=\"microns\"></span>"
+msgstr "书单 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1013-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1013-5"
@@ -557,9 +557,6 @@ msgid "REACH US"
 msgstr "联系我们"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1062-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:929-9"
-#| msgid "WHAT CAN YOU DO WITH KOREADER ?"
 msgctxt "user_guide/en.html+html.body.div.div:1062-1"
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
 msgstr "KOReader能做什么？"
@@ -630,8 +627,8 @@ msgid ""
 "href=\"#L2-transferring\" class=\"internalink\"></a>"
 msgstr ""
 "借助 <span class=\"external\">Calibre</span> 插件，可通过 WIFI 直接从 "
-"Calibre 图书馆将书籍发送到 KOReader <a href=\"#L2-transferring\" "
-"class=\"internalink\"></a>"
+"Calibre 书库将书籍发送到 KOReader <a href=\"#L2-transferring\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1079-9
 msgid ""
@@ -639,8 +636,8 @@ msgid ""
 "entries to your device as HTML files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"借助<b>新闻下载器插件</b>，将RSS及Atom订阅源提供的文章条目以HTML格式下载至阅"
-"读设备<a href=\"#L2-pluginslist\" class=\"internalink\"></a>"
+"借助<b>新闻下载器插件</b>，将RSS及Atom订阅源提供的文章以HTML格式下载至阅读设"
+"备<a href=\"#L2-pluginslist\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1081-9
 msgid ""
@@ -663,9 +660,9 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
-"更换字体（包括用户自有的字体），调整字号、对比度、亮度、字间距、字偶间距、词"
-"间距、文本对齐方式、行间距、分栏版式、页边距等等<a href=\"#L1-"
-"customizingappearance\" class=\"internalink\"></a>"
+"更换字体（包括用户自有的字体），调整字号、对比度、粗细、字偶间距、字/单词间距"
+"、字母间距、文本对齐方式、行间距、分栏版式、页边距等等<a href="
+"\"#L1-customizingappearance\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1088-9
 msgid ""
@@ -716,9 +713,8 @@ msgstr ""
 msgid ""
 "Add notes using a customizable keyboard including diacritic modifiers <a "
 "href=\"#L2-keyboard\" class=\"internalink\"></a>"
-msgstr ""
-"使用可自定义的带注音符号键盘撰写笔记<a href=\"#L2-keyboard\" "
-"class=\"internalink\"></a>"
+msgstr "使用可自定义的带拼音符号键盘撰写笔记<a href=\"#L2-keyboard\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1103-9
 msgid ""
@@ -787,9 +783,9 @@ msgid ""
 "or create your own <span class=\"ui\">Collections</span> with sorting and "
 "filtering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 msgstr ""
-"将书籍添加到<span class=\"ui\">收藏夹</span>以便快速访问，或创建<span "
-"class=\"ui\">自定义书单</span>对书目排序和过滤 <a href=\"#L2-collections\" "
-"class=\"internalink\"></a>"
+"将书籍添加到<span class=\"ui\">收藏夹</span>以便快速访问，或创建<span class="
+"\"ui\">书单</span>对书目排序和过滤 <a href=\"#L2-collections\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1124-1
 msgid "Fly through your book with powerful tools"
@@ -800,7 +796,7 @@ msgid ""
 "<span class=\"ui\">Skim widget</span> to quickly jump between pages, "
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
-"<span class=\"ui\">跳读工具</span> 可在页面、章节和书签之间快速跳转 <a "
+"<span class=\"ui\">快速翻页工具</span> 可在页面、章节和书签之间快速跳转 <a "
 "href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1128-9
@@ -817,8 +813,8 @@ msgid ""
 "<span class=\"ui\">Page browser</span> to move through pages like a film "
 "reel <a href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 msgstr ""
-"借助<span class=\"ui\">书页速览</span>视图，像检阅胶卷一样快速略览页面<a "
-"href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
+"借助<span class=\"ui\">页面预览</span>，像检阅胶卷一样快速略览页面<a href="
+"\"#L2-pagebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1132-9
 msgid ""
@@ -843,8 +839,8 @@ msgid ""
 "References</b> etc. for more accurate page counts <a href=\"#L2-"
 "hiddenflows\" class=\"internalink\"></a>"
 msgstr ""
-"隐藏或排除如<b>附录、索引和备注</b>等小节，实现更精准的内文页码计数<a "
-"href=\"#L2-hiddenflows\" class=\"internalink\"></a>"
+"隐藏或排除如<b>附录、索引和备注</b>等部分，以获得更准确的页数统计<a href="
+"\"#L2-hiddenflows\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1139-1
 msgid "Control KOReader like a virtuoso"
@@ -918,8 +914,8 @@ msgid ""
 "href=\"#L2-plugintypes\" class=\"internalink\"></a>"
 msgstr ""
 "借助强大的插件系统，用户甚至可以与<span class=\"external\">ChatGPT</span>讨论"
-"书本内容（须安装特定插件）<a href=\"#L2-plugintypes\" "
-"class=\"internalink\"></a>"
+"书籍内容（须安装特定插件）<a href=\"#L2-plugintypes\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1159-1
 msgid "KOReader can control your device"
@@ -1072,17 +1068,11 @@ msgid "See your CPU, memory and battery usage stats"
 msgstr "查看CPU、内存和电池的使用数据"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1210-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:931-9"
-#| msgid "BASIC USAGE INFORMATION"
 msgctxt "user_guide/en.html+html.body.div.div:1210-1"
 msgid "BASIC USAGE INFORMATION"
 msgstr "基础用法说明"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1214-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:933-5"
-#| msgid "Transferring books to your reader"
 msgctxt "user_guide/en.html+html.body.div.div:1214-1"
 msgid "Transferring books to your reader"
 msgstr "将书籍导入阅读器"
@@ -1094,7 +1084,7 @@ msgid ""
 "and show image files."
 msgstr ""
 "KOReader支持<b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, DOCX, RTF, HTML, TXT, XPS, "
-"FB2, PDB, CHM and MD</b>格式，还可打开<b>ZIP</b>压缩档并显示图像文件。"
+"FB2, PDB, CHM and MD</b>格式，还可打开<b>ZIP</b>压缩档并显示图片文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1218-5
 msgid ""
@@ -1158,9 +1148,10 @@ msgid ""
 "KOReader devices via a wifi connection. Check our <a href=\"https://github."
 "com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
-"<b>Calibre传输</b>：借助<span class=\"external\">Calibre插件</span>，可通过 "
-"WIFI直接从 Calibre 图书馆将书籍发送到 KOReader 中。请查阅<a href=\"https://"
-"github.com/koreader/koreader/wiki/calibre\">WIKI</a>页面了解操作方法。"
+"<b>Calibre传输</b>：借助<span class=\"external\">Calibre插件</span>，可通过 W"
+"IFI直接从 Calibre 书库将书籍发送到 KOReader 中。请查阅<a href="
+"\"https://github.com/koreader/koreader/wiki/calibre\">WIKI</a>页面了解操作方"
+"法。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1234-9
 msgid ""
@@ -1227,8 +1218,8 @@ msgid ""
 "<span class=\"ui\">Collections</span> - Personalized book lists you created. "
 "Dedicated section is here: <a href=\"#L2-collections\">Collections</a>"
 msgstr ""
-"<span class=\"ui\">自定义书单</span>——由用户自行创建的书籍清单。请点击<a "
-"href=\"#L2-collections\">自定义书单</a>详细了解"
+"<span class=\"ui\">书单</span>——由用户自行创建的书籍清单。请点击<a href="
+"\"#L2-collections\">书单</a>详细了解"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1253-5
 msgid "You can change how these screens look from:"
@@ -1295,9 +1286,6 @@ msgstr ""
 "top_cabinet.svg\" style=\"width:22px;\"> / 启动后首屏显示"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1272-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:934-5"
-#| msgid "Tap zones"
 msgctxt "user_guide/en.html+html.body.div.div:1272-1"
 msgid "Tap zones"
 msgstr "点按区域"
@@ -1312,11 +1300,11 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
-"下方的图像展示了KOReader的默认点按区域功能划分；请点击屏幕上的对应区域呼出"
-"<span class=\"ui\">顶部菜单</span>或者<span class=\"ui\">底部菜单</span>。"
-"<span class=\"ui\">顶部菜单</span>也可通过从屏幕上端下滑来呼出。在非触摸屏阅"
-"读设备上（如Kindle 4），<span class=\"ui\">底部菜单</span>可通过按动<b>确认键"
-"</b>呼出。"
+"下方的图片展示了KOReader的默认点按区域功能划分；请点击屏幕上的对应区域呼出<sp"
+"an class=\"ui\">顶部菜单</span>或者<span class=\"ui\">底部菜单</span>。<span "
+"class=\"ui\">顶部菜单</span>也可通过从屏幕上端下滑来呼出。在非触摸屏阅读设备"
+"上（如Kindle 4），<span class=\"ui\">底部菜单</span>可通过按动<b>确认键</b>呼"
+"出。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1278-5
 msgid ""
@@ -1470,8 +1458,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Frontlight"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 屏幕前光"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 前光设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1317-1
 msgid "Changing the screen displayed while sleeping"
@@ -1497,7 +1485,7 @@ msgid ""
 "device. And choose this folder as your screensaver folder via this menu:"
 msgstr ""
 "JPG和PNG图片可用作待机屏显（为取得更好的显示效果，建议将图片转换为包含色彩抖"
-"动的灰阶图像）。将图片文件导入阅读设备的任意文件夹，然后将该文件夹指定为待机"
+"动的灰阶图片）。将图片文件导入阅读设备的任意文件夹，然后将该文件夹指定为待机"
 "屏显图片来源。请按照下方路径操作："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1325-5
@@ -1519,9 +1507,6 @@ msgstr ""
 "题帖</a>。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1331-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:936-17"
-#| msgid "Keyboard Usage And Tips"
 msgctxt "user_guide/en.html+html.body.div.div:1331-1"
 msgid "Keyboard Usage And Tips"
 msgstr "键盘用法及技巧"
@@ -1680,9 +1665,6 @@ msgstr ""
 "github.com/koreader/koreader/wiki/Chinese-keyboard\">维基页</a>了解更多信息。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1382-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:937-17"
-#| msgid "Auto Warmth And Night Mode"
 msgctxt "user_guide/en.html+html.body.div.div:1382-1"
 msgid "Auto Warmth And Night Mode"
 msgstr "自动色温及夜间模式"
@@ -1805,26 +1787,18 @@ msgid "Sun’s Position Mode"
 msgstr "太阳方位模式"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:1401-3"
-#| msgid "Go to the plugin menu:"
 msgctxt "user_guide/en.html+html.body.div.ol.li:1420-13"
 msgid "Go to the plugin menu:"
-msgstr "按照下列路径找到插件菜单："
+msgstr "进入插件菜单:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1421-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li.div:1401-30"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1421-17"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 屏幕相关 / 自动切换暖光及夜间模式"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 屏幕 / 自动切换暖光及夜间模式"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1423-13
 msgid ""
@@ -1850,16 +1824,11 @@ msgid ""
 msgstr "返回上级菜单，点按<span class=\"ui\">色温及夜间模式设置</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1429-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:1407-3"
-#| msgid ""
-#| "Set your warmth transition schedule by setting times for various items "
-#| "here. Refer to the image above for an explanation of items."
 msgctxt "user_guide/en.html+html.body.div.ol.li:1429-13"
 msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
-msgstr "调整各菜单项以设置色温切换时间表。菜单中的专业词汇含义请参阅上方图片。"
+msgstr "设置各项以配置色温切换时间表。菜单中的专业词汇含义请参阅上方图片。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1432-5
 msgid ""
@@ -1947,12 +1916,9 @@ msgstr ""
 "分钟内从0调节到100（或反过来）</b>。该用时可单独设置以拉长切换过程。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1471-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:941-9"
-#| msgid "LEARNING THE USER INTERFACE"
 msgctxt "user_guide/en.html+html.body.div.div:1471-1"
 msgid "LEARNING THE USER INTERFACE"
-msgstr "认识本软件用户界面"
+msgstr "学习本软件用户界面"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1473-5
 msgid ""
@@ -2344,9 +2310,6 @@ msgid ""
 msgstr "请注意，仅当书籍内嵌有<b>页码参照</b>时，该菜单才会显示。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1604-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:945-17"
-#| msgid "Status bar"
 msgctxt "user_guide/en.html+html.body.div.div:1604-1"
 msgid "Status bar"
 msgstr "状态栏"
@@ -2551,9 +2514,6 @@ msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr "手势备选菜单 / 阅读器相关 / 章节进度条开关"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1672-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:946-17"
-#| msgid "Top Menu Items"
 msgctxt "user_guide/en.html+html.body.div.div:1672-1"
 msgid "Top Menu Items"
 msgstr "顶部菜单项"
@@ -2624,15 +2584,10 @@ msgid ""
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
 "<span class=\"ui\">主菜单</span>：此页菜单包含查找书籍的工具，如<b>阅读历史、"
-"收藏夹、自定义书单</b>等。<b>书籍信息</b>、<b>更新KOReader</b>及<b>退出"
-"KOReader</b>选项也在此页中。"
+"收藏夹、书单</b>等。<b>书籍信息</b>、<b>更新KOReader</b>及<b>退出KOReader</b>"
+"选项也在此页中。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1698-1
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.ul.li.ul.li:947-17user_guide/en."
-#| "html+html.body.div.div.ul.li.ul.li:947-17"
-#| msgid "Bottom Menu Items"
 msgctxt "user_guide/en.html+html.body.div.div:1698-1"
 msgid "Bottom Menu Items"
 msgstr "底部菜单项"
@@ -2653,8 +2608,8 @@ msgid ""
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
 "<span class=\"ui\">阅读模式</span>：切换到<span class=\"ui\">页面连续</span>"
-"模式，可以像浏览网页一样滑动阅读书籍。该模式更适合配备非电子墨水屏（LCD、"
-"OLED）的阅读设备。在页面连续下，<b>页面的顶部和底部页边空白将被裁切</b>，因此"
+"模式，可以像浏览网页一样滑动阅读书籍。该模式更适合配备非电子墨水屏（LCD、OLED"
+"）的阅读设备。在页面连续模式下，<b>页面的顶部和底部页边空白将被裁切</b>，因此"
 "首行和末行文本可能会被裁掉。启用<span class=\"ui\">页面重叠</span>可以避免这"
 "一问题："
 
@@ -2689,7 +2644,7 @@ msgid ""
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
 "<span class=\"ui\">DPI缩放</span>：该选项可视为文档<b>全局缩放比例</b>（不会"
-"影响字号）。在默认设置96 dpi下，书籍中的图像将以原始尺寸呈现。简单来说该选项"
+"影响字号）。在默认设置96 dpi下，书籍中的图片将以原始尺寸呈现。简单来说该选项"
 "可以在<b>放大图片的同时保持文字大小不变</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1717-5
@@ -2701,10 +2656,10 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
-"<span class=\"ui\">词间距与字间距</span> 两项设定是彼此关联的，它们共同决定文"
-"字在两端对齐下的样式。文本两端对齐时单词之间的间距会被拉大，以便每行文字的左"
-"右边缘都能与页面边缘对齐。由于每行中的字数不是相同的，两端对齐会使用挤压或拉"
-"伸文字来填充满一行。"
+"<span class=\"ui\">字/单词间距与字母间距</span> 两项设定是彼此关联的，它们共"
+"同决定文字在两端对齐下的样式。文本两端对齐时单词之间的间距会被拉大，以便每行"
+"文字的左右边缘都能与页面边缘对齐。由于每行中的字数不是相同的，两端对齐会使用"
+"挤压或拉伸文字来填充满一行。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1719-5
 msgid ""
@@ -2712,8 +2667,8 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
-"<span class=\"ui\">词间距</span>：为容纳更多文字，一行文字中的<b>空白</b>允许"
-"被压缩的程度。该选项不会影响单词，只会改变单词间的间隔。"
+"<span class=\"ui\">字/单词间距</span>：为容纳更多文字，一行文字中的<b>空白</b"
+">允许被压缩的程度。该选项不会影响单词，只会改变字/单词间的间隔。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1721-5
 msgid ""
@@ -2722,9 +2677,9 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
-"<span class=\"ui\">字间距</span>：当一行文字中有太多空白时，将这些空白分拆到"
-"字母之间而使单词被拉伸的程度。 该选项将影响单词的样式。若不希望单词被拉伸，请"
-"将该选项设置为<span class=\"ui\">无</span>。"
+"<span class=\"ui\">字母间距</span>：当一行文字中有太多空白时，将这些空白分拆"
+"到字母之间而使单词被拉伸的程度。 该选项将影响单词的样式。若不希望单词被拉伸，"
+"请将该选项设置为<span class=\"ui\">无</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1723-5
 msgid ""
@@ -2867,8 +2822,8 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
-"<span class=\"ui\">图像缩放</span>决定书籍中的插图如何呈现。<span "
-"class=\"ui\">最佳</span>选项可获得更好的观感，但会拖慢阅读设备。"
+"<span class=\"ui\">图片缩放</span>决定书籍中的插图如何呈现。<span class="
+"\"ui\">最佳</span>选项可获得更好的观感，但会拖慢阅读设备。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1778-1
 msgid "User Interface Tips"
@@ -2884,7 +2839,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1782-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr "<b>固定版面文档</b> PDF、djvu、图像文件等"
+msgstr "<b>固定版面文档</b> PDF、djvu、图片文件等"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1783-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
@@ -2998,8 +2953,8 @@ msgid ""
 msgstr ""
 "有两种手势可以用来进行<span class=\"ui\">屏幕截图</span>，一种是<b>沿对角线长"
 "划</b>，另外一种是用双指同时<b>点击任意一对屏幕对角</b>。第二种手势可以用于在"
-"浏览图像时截图。如果阅读设备配有实体键盘，还可以按下<span "
-"class=\"ui\">Alt+Shift+G</span>组合键来截图。"
+"浏览图片时截图。如果阅读设备配有实体键盘，还可以按下<span class=\"ui\">Alt+Sh"
+"ift+G</span>组合键来截图。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-13
 msgid ""
@@ -3070,8 +3025,8 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
-"KOReader 支持在 EPUB 和扫描的 PDF/DJVU 文档中进行<b>词典查询</b>。要查看词典"
-"定义或翻译，只需点击并长按一个单词即可。"
+"KOReader 支持在 EPUB 和扫描的 PDF/DJVU 文档中进行<b>查词典</b>。要查看词典定"
+"义或翻译，只需点击并长按一个单词即可。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1847-9
 msgid ""
@@ -3149,7 +3104,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1872-1
 msgid "Go back to previous location"
-msgstr "返回至前一位置"
+msgstr "返回前一位置"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1874-5
 msgid ""
@@ -3160,18 +3115,18 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
-"这个有用的功能类似于浏览器中的<b>后退</b>按钮。当您使用<span "
-"class=\"ui\">Skim小部件、书签列表、图书地图</span>等跳转到图书的其他部分时。"
-"KOReader会记住您之前的位置。例如，如果您遵循内部链接或参考，这很有用。只需轻"
-"轻一点，你就可以回到你原来的地方。您可以从以下位置访问此功能："
+"这个有用的功能类似于浏览器中的<b>后退</b>按钮。当您使用<span class=\"ui\">快"
+"速翻页工具、书签列表、书籍地图</span>等跳转到书籍的其他部分时。KOReader会记住"
+"您之前的位置。例如，如果您遵循内部链接或参考，这很有用。只需轻轻一点，你就可"
+"以回到你原来的地方。您可以从以下位置访问此功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1876-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go back to previous location"
 msgstr ""
-"顶部菜单 / <img class=“img_inline”src=“pictures/TOP_bookmark."
-"svg”style=“width:22px；”> / 返回上一位置"
+"顶部菜单 / <img class=“img_inline”src=“pictures/TOP_bookmark.svg”style=“width"
+":22px；”> / 返回前一位置"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1878-5
 msgid ""
@@ -3186,7 +3141,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1882-1
 msgid "Prevent flashing on pages with images and in the menu"
-msgstr "防止图像页面和菜单刷新"
+msgstr "防止图片页面和菜单刷新"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1884-5
 msgid ""
@@ -3196,7 +3151,7 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
-"KOReader通常会对包含图像的页面进行完全刷新（您可以看到黑色闪烁）。原因是去除"
+"KOReader通常会对包含图片的页面进行完全刷新（您可以看到黑色闪烁）。原因是去除"
 "上一页的残留和重影。但根据您的设备和个人喜好，这可能不是必需的。您可以在此处"
 "禁用此自动刷新行为："
 
@@ -3206,8 +3161,8 @@ msgid ""
 "style=\"width:24px;\"> / Screen / E-ink Settings / Full refresh rate / "
 "Always flash on pages with images"
 msgstr ""
-"顶部菜单/<img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:24px;\"> / 屏幕 / 电子墨水设置 / 全刷频率 / 始终刷新图像"
+"顶部菜单/<img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / 屏幕 / 电子墨水设置 / 全刷频率 / 始终刷新图片"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1888-5
 msgid ""
@@ -3240,41 +3195,28 @@ msgstr "在 KOReader 中浏览文档有不同的方法，各有优缺点。您�
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1904-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1904-3"
 msgid "Skim Widget"
-msgstr "跳读工具"
+msgstr "快速翻页工具"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1905-3
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.ul.li.ul.li:956-17user_guide/en."
-#| "html+html.body.div.div.ul.li.ul.li:956-17"
-#| msgid "Book Map"
 msgctxt "user_guide/en.html+html.body.div.ul.li:1905-3"
 msgid "Book Map"
 msgstr "书籍地图"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1906-3
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.ul.li.ul.li:957-17user_guide/en."
-#| "html+html.body.div.div.ul.li.ul.li:957-17"
-#| msgid "Page Browser"
 msgctxt "user_guide/en.html+html.body.div.ul.li:1906-3"
 msgid "Page Browser"
-msgstr "书页速览视图"
+msgstr "页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1909-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:1899-3"
-#| msgid "Skim Widget"
 msgctxt "user_guide/en.html+html.body.div.div:1909-1"
 msgid "Skim Widget"
-msgstr "跳读工具"
+msgstr "快速翻页工具"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1911-5
 msgid ""
 "<span class=\"ui\">Skim Widget</span> is a very functional navigation tool. "
 "You can use it to:"
-msgstr "<span class=\"ui\">跳读工具</span>是非常有用的定位工具，可用来："
+msgstr "<span class=\"ui\">快速翻页工具</span>是非常有用的定位工具，可用来："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1913-13
 msgid ""
@@ -3294,7 +3236,7 @@ msgstr "书签导航"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1919-5
 msgid "How to open the Skim Widget:"
-msgstr "呼出跳读工具的方法："
+msgstr "呼出快速翻页工具的方法："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1921-17
 msgid ""
@@ -3311,8 +3253,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Skim document"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 跳读全书"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 快速翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1923-17
 msgctxt "user_guide/en.html+html.body.div.ul.li:1923-17"
@@ -3325,7 +3267,7 @@ msgstr "您可以将其添加到<span class=\"ui\">快速菜单中</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1929-1
 msgid "Using the Skim Widget"
-msgstr "跳读工具的用法"
+msgstr "快速翻页工具的用法"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1931-5
 msgid ""
@@ -3333,8 +3275,8 @@ msgid ""
 "have two different <span class=\"ui\">Skim Widget</span>s. They have the "
 "same functions, only their size is different:"
 msgstr ""
-"先来快速浏览下方的图表。可以看到<span class=\"ui\">跳读工具</span>有两种样"
-"式。这两种有相同的功能，区别仅是尺寸不同："
+"先来快速浏览下方的图表。可以看到<span class=\"ui\">快速翻页工具</span>有两种"
+"样式。这两种有相同的功能，区别仅是尺寸不同："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1934-9
 msgid ""
@@ -3343,9 +3285,9 @@ msgid ""
 "<span class=\"ui\">compact skim widget</span> so buttons are more "
 "comfortable to press. This widget opens at the <b>center of the screen</b>."
 msgstr ""
-"<b>全尺寸跳读工具</b>：这是安装KOReader后默认启用的<span class=\"ui\">跳读工"
-"具</span>。它的尺寸比<span class=\"ui\">精简跳读工具</span>更大，因此上面的各"
-"种按钮更易点按。该工具会显示在<b>屏幕中间</b>显示。"
+"<b>全尺寸快速翻页工具</b>：这是安装KOReader后默认启用的<span class=\"ui\">快"
+"速翻页工具</span>。它的尺寸比<span class=\"ui\">精简快速翻页工具</span>更大，"
+"因此上面的各种按钮更易点按。该工具会显示在<b>屏幕中间</b>显示。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1936-9
 msgid ""
@@ -3355,9 +3297,9 @@ msgid ""
 "or bottom of the screen</b>, it doesn't obstruct the page as much as the "
 "default widget."
 msgstr ""
-"<b>精简跳读工具</b>： 这是默认<span class=\"ui\">跳读工具</span>的精简版本。"
-"它的尺寸更小巧，会显示在<b>屏幕顶部或底部</b>，因此不像默认工具那样遮挡屏幕，"
-"在诸如标注文段时会更便于使用。"
+"<b>精简快速翻页工具</b>： 这是默认<span class=\"ui\">快速翻页工具</span>的精"
+"简版本。它的尺寸更小巧，会显示在<b>屏幕顶部或底部</b>，因此不像默认工具那样遮"
+"挡屏幕，在诸如标注文段时会更便于使用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1943-9
 msgid ""
@@ -3365,7 +3307,7 @@ msgid ""
 "can do this by choosing <span class=\"ui\">Top</span> or <span "
 "class=\"ui\">Bottom</span> from this menu:"
 msgstr ""
-"若要使用<span class=\"ui\">精简跳读工具</span>，可点选如下菜单中的<span "
+"若要使用<span class=\"ui\">精简快速翻页工具</span>，可点选如下菜单中的<span "
 "class=\"ui\">顶部</span>或<span class=\"ui\">底部</span>选项："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1945-9
@@ -3373,8 +3315,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Navigation / Skim dialog position:"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 书页定位 / 跳读工具位置："
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 书页定位 /快速翻页工具位置："
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1947-24
 msgid ""
@@ -3384,9 +3326,9 @@ msgid ""
 "area on the widget. But semi-transparency is triggered only in its initial "
 "position. Once moved, long-pressing moves it back to the initial position."
 msgstr ""
-"<span class=\"label_green\">提示</span> 两种跳读工具都可调整显示位置。长按工"
-"具栏的空白区域然后拖拽即可移动。另外，长按也可让对话框进入半透明状态（仅在对"
-"话框处于初始位置时有效）。在移动位置后，再次长按对话框可以将其复位。"
+"<span class=\"label_green\">提示</span> 两种快速翻页工具都可调整显示位置。长"
+"按工具栏的空白区域然后拖拽即可移动。另外，长按也可让对话框进入半透明状态（仅"
+"在对话框处于初始位置时有效）。在移动位置后，再次长按对话框可以将其复位。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1949-5
 msgid ""
@@ -3446,8 +3388,8 @@ msgid ""
 "where you left."
 msgstr ""
 "该数字为当前页码。点按将打开对话框以输入指定页码或百分比跳转。<b>长按时则将回"
-"到最初开启<span class=\"ui\">跳读工具</span>时的页码。</b>该功能对于诸如想快"
-"速浏览书籍其它章节然后回到当前位置等情况非常有用。"
+"到最初开启<span class=\"ui\">快速翻页工具</span>时的页码。</b>该功能对于诸如"
+"想快速浏览书籍其它章节然后回到当前位置等情况非常有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1963-9
 msgid ""
@@ -3471,9 +3413,9 @@ msgid ""
 "useful for example if you want to check some other part of the book quickly "
 "and return to your reading where you left."
 msgstr ""
-"此按钮仅出现在<span class=\"ui\">紧凑型跳读工具</span>中，功能与长按<b>编号"
-"7</b>相同，使页面会到打开<span class=\"ui\">跳读工具</span>时所处页码。该功能"
-"对于诸如想快速浏览书籍其它章节然后回到当前位置等情况非常有用。"
+"此按钮仅出现在<span class=\"ui\">精简快速翻页工具</span>中，功能与长按<b>编号"
+"7</b>相同，使页面会到打开<span class=\"ui\">快速翻页工具</span>时所处页码。该"
+"功能对于诸如想快速浏览书籍其它章节然后回到当前位置等情况非常有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1967-20
 msgid ""
@@ -3495,8 +3437,8 @@ msgid ""
 "KOReader can show chapter boundaries from your documents on the <span "
 "class=\"ui\">SKIM WIDGET</span> and <span class=\"ui\">PROGRESS BAR</span>."
 msgstr ""
-"书籍断章点可以显示在<span class=\"ui\">跳读工具</span>或者<span class=\"ui\">"
-"阅读进度条</span>上。"
+"书籍断章点可以显示在<span class=\"ui\">快速翻页工具</span>或者<span class="
+"\"ui\">阅读进度条</span>上。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1977-5
 msgid ""
@@ -3566,11 +3508,6 @@ msgstr ""
 "href=\"#toctools\">目录工具</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1999-1
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.ul.li.ul.li:956-17user_guide/en."
-#| "html+html.body.div.div.ul.li.ul.li:956-17"
-#| msgid "Book Map"
 msgctxt "user_guide/en.html+html.body.div.div:1999-1"
 msgid "Book Map"
 msgstr "书籍地图"
@@ -3607,8 +3544,7 @@ msgstr "检查哪些页面有书签、标注和笔记"
 msgid ""
 "Navigate directly to any part of the book like the <span class=\"ui\">SKIM "
 "WIDGET</span>"
-msgstr ""
-"与<span class=\"ui\">跳读工具</span>功能类似，可直接定位到书籍的任意文段"
+msgstr "与<span class=\"ui\">快速翻页工具</span>功能类似，可直接定位到书籍的任意文段"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2010-5
 msgid ""
@@ -3638,11 +3574,11 @@ msgid ""
 "class=\"ui\">X</span> on the upper right corner or with any multiswipe "
 "gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.)."
 msgstr ""
-"当您在阅读一本书时第一次打开<span class=\"ui\">书籍地图</span>时，它将处于"
-"<span class=\"ui\">网格视图</span>模式，将所有章节都放在一个屏幕上，以提供图"
-"书内容的最佳初始概述。要获取有关使用情况的详细信息，请点击左上角的信息图标。"
-"您可以通过点击右上角的<span class=\"ui\">X</span>或使用任何多滑动手势（<b>向"
-"上、向左</b>等）关闭书籍地图。"
+"当您在阅读一本书时第一次打开<span class=\"ui\">书籍地图</span>时，它将处于<sp"
+"an class=\"ui\">网格视图</span>模式，将所有章节都放在一个屏幕上，以提供书籍内"
+"容的最佳初始概述。要获取有关使用情况的详细信息，请点击左上角的信息图标。您可"
+"以通过点击右上角的<span class=\"ui\">X</span>或使用任何多滑动手势（<b>向上、"
+"向左</b>等）关闭书籍地图。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2023-13
 msgid "Chapter boundaries"
@@ -3672,7 +3608,7 @@ msgid ""
 "jump back here in order."
 msgstr ""
 "若使用了跳页功能，带圆圈的数字将指示之前所在的阅读位置。在阅读界面使用<span "
-"class=\"ui\">返回上一位置</span>时，将按照数字标记的顺序逐一回到该位置。"
+"class=\"ui\">返回前一位置</span>时，将按照数字标记的顺序逐一回到该位置。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2029-13
 msgid "Triangle shows your current page."
@@ -3690,7 +3626,7 @@ msgstr "垂直滚动条显示您当前的页面宽度级别。"
 msgid ""
 "You can customize <span class=\"ui\">Book Map</span> by changing these "
 "options:"
-msgstr "您可以通过更改以下选项自定义<span class=\"ui\">图书地图</span>："
+msgstr "您可以通过更改以下选项自定义<span class=\"ui\">书籍地图</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2036-5
 msgid ""
@@ -3733,8 +3669,7 @@ msgstr "书籍地图选项"
 msgid ""
 "When you tap the menu icon on the <b>Book map</b> screen you are presented "
 "with the menu above. Menu options are explained below:"
-msgstr ""
-"当您点击<b>图书地图</b>屏幕上的菜单图标时，您会看到上面的菜单。菜单选项解释如"
+msgstr "当您点击<b>书籍地图</b>屏幕上的菜单图标时，您会看到上面的菜单。菜单选项解释如"
 "下："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2056-9
@@ -3761,8 +3696,8 @@ msgid ""
 "depending on factors like your screen size, touch screen sensitivity, tap "
 "accuracy etc. you might end up in adjacent pages."
 msgstr ""
-"<span class=\"ui\">即点即看的书页速览</span>：勾选此选项后，点按书籍地图中的"
-"某一页将进入<span class=\"ui\">书页速览</span>视图，展示所点选区域的页码。取"
+"<span class=\"ui\">即点即看的页面预览</span>：勾选此选项后，点按书籍地图中的"
+"某一页将进入<span class=\"ui\">页面预览</span>视图，展示所点选区域的页码。取"
 "消勾选，点按则会直接前往对应页。请注意，受屏幕尺寸、触控灵敏度、点按精准性等"
 "因素，打开的可能是目标页面的临近页面。"
 
@@ -3772,7 +3707,7 @@ msgid ""
 "your Book map view, tapping this switches between the <b>default view</b> "
 "and your <b>customized view</b>."
 msgstr ""
-"<span class=\"ui\">切换当前/初始视图：</span>如果您自定义了图书地图视图，点击"
+"<span class=\"ui\">切换当前/初始视图：</span>如果您自定义了书籍地图视图，点击"
 "此按钮可在<b>默认视图</b>和<b>自定义视图</b>之间切换。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2060-9
@@ -3807,14 +3742,9 @@ msgstr ""
 "在<b>第五页</b>上添加次级标记。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2067-1
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.ul.li.ul.li:957-17user_guide/en."
-#| "html+html.body.div.div.ul.li.ul.li:957-17"
-#| msgid "Page Browser"
 msgctxt "user_guide/en.html+html.body.div.div:2067-1"
 msgid "Page Browser"
-msgstr "书页速览视图"
+msgstr "页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2068-5
 msgid ""
@@ -3823,9 +3753,9 @@ msgid ""
 "class=\"ui\">Page Browser</span> by tapping on the <span class=\"ui\">Book "
 "Map</span> or from the menu. You can also assign a gesture for easier access."
 msgstr ""
-"书页速览视图以网格形式展示书页缩略图，可用于像浏览相册一样快速定位页面。"
-"<span class=\"ui\">书页速览视图</span>可通过点按<span class=\"ui\">书籍地图</"
-"span>或从菜单中进入。还可通过指定手势交互来快速呼出。"
+"页面预览以网格形式展示书页缩略图，可用于像浏览相册一样快速定位页面。<span "
+"class=\"ui\">页面预览</span>可通过点按<span class=\"ui\">书籍地图</span>或从"
+"菜单中进入。还可通过指定手势交互来快速呼出。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2071-5
 msgctxt ""
@@ -3835,8 +3765,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 书页速览视图"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2075-9
 msgid ""
@@ -3845,9 +3775,9 @@ msgid ""
 "span> on this screen to see these explanations. A long-press on the same "
 "button adds/removes chapter titles from the bottom strip."
 msgstr ""
-"下方展示了<span class=\"ui\">书页速览视图</span>的用法。也可通过点按<span "
-"class=\"ui\">界面左上角的汉堡状菜单键</span>查看功能介绍。长按该按键还可显示"
-"或隐藏底部定位栏中的章节标题。"
+"下方展示了<span class=\"ui\">页面预览</span>的用法。也可通过点按<span class="
+"\"ui\">界面左上角的汉堡状菜单键</span>查看功能介绍。长按该按键还可显示或隐藏"
+"底部定位栏中的章节标题。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
@@ -3886,13 +3816,12 @@ msgstr ""
 msgid ""
 "Icons on the bottom area are same as the ones used in <span "
 "class=\"ui\">Book Map</span> and explained under that section."
-msgstr ""
-"底部区域的图标与<span class=\"ui\">图书地图</span>中使用的图标相同，并在该节"
+msgstr "底部区域的图标与<span class=\"ui\">书籍地图</span>中使用的图标相同，并在该节"
 "中进行了解释。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2087-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr "书籍地图及书页速览视图拥有可替换主题"
+msgstr "书籍地图及页面预览拥有可替换主题"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2089-5
 msgid ""
@@ -3904,15 +3833,12 @@ msgid ""
 "requires flashing to black so it might be distracting for some users. You "
 "can try both and use the one you like."
 msgstr ""
-"通过汉堡状菜单键还可为书籍地图和书页速览视图套用不同底纹的<b>备选主题</b>。该"
-"主题对章节标题交替上色，使章节边界在<span class=\"ui\">书籍地图</span>和"
-"<span class=\"ui\">书页速览视图</span>中更易识别。但该主题使用的灰色会触发e-"
-"ink全屏刷新，可能会干扰阅读。请自行尝试是否需要启用。"
+"通过汉堡状菜单键还可为书籍地图和页面预览套用不同底纹的<b>备选主题</b>。该主题"
+"对章节标题交替上色，使章节边界在<span class=\"ui\">书籍地图</span>和<span "
+"class=\"ui\">页面预览</span>中更易识别。但该主题使用的灰色会触发e-ink全屏刷新"
+"，可能会干扰阅读。请自行尝试是否需要启用。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2093-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:958-17"
-#| msgid "Table of Contents Tools"
 msgctxt "user_guide/en.html+html.body.div.div:2093-1"
 msgid "Table of Contents Tools"
 msgstr "目录工具"
@@ -3930,7 +3856,7 @@ msgstr ""
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
-msgstr "书籍缺少目录，因此无法跳读章节或查看剩余阅读用时"
+msgstr "书籍缺少目录，因此您无法在章节间跳转或查看剩余阅读时间"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2098-9
 msgid ""
@@ -3952,9 +3878,9 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
-"请注意<span class=\"ui\">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</"
-"b>，因为创建副目录功能依赖于文档的HTML标签。<span class=\"ui\">自定义目录</"
-"span>及<span class=\"ui\">划定隐藏页码段</span>功能则可用于所有文件格式。"
+"请注意<span class=\"ui\">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</b"
+">，因为创建副目录功能依赖于文档的HTML标签。<span class=\"ui\">自定义目录</spa"
+"n>及<span class=\"ui\">自定义隐藏页</span>功能则可用于所有文件格式。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-1
 msgid ""
@@ -4066,23 +3992,16 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2134-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
-msgstr "<b>从书页速览视图中添加</b>：按照下列路径进入书页速览视图"
+msgstr "<b>从页面预览中添加</b>：按照下列路径进入页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2138-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div:2066-5user_guide/en.html+html.body."
-#| "div.div:2066-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Page browser"
 msgctxt "user_guide/en.html+html.body.div.div:2138-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 书页速览视图"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2140-5
 msgid ""
@@ -4125,12 +4044,9 @@ msgstr ""
 "可切换显示原目录及自定义目录。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2150-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:959-17"
-#| msgid "Excluding sections: Custom hidden flows"
 msgctxt "user_guide/en.html+html.body.div.div:2150-1"
 msgid "Excluding sections: Custom hidden flows"
-msgstr "章节排除：定制要隐藏的页码区"
+msgstr "章节排除：自定义隐藏页"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2152-5
 msgid ""
@@ -4149,7 +4065,7 @@ msgstr ""
 "页全是附录、专业术语索引及参考文献。通常情况下这些页码仍会被计入阅读进度条和"
 "阅读时间统计。但这些章节大多只作为参考，并不需要逐页阅读，因此可能希望将其排"
 "除使页码计数和预估阅读用时更加准确。再比如一本选集中包含了一些自己已经读过的"
-"篇章。<span class=\"ui\">划定隐藏页码段</span>功能可以将这类章节排除出去。"
+"篇章。<span class=\"ui\">自定义隐藏页</span>功能可以将这类章节排除出去。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2154-5
 msgid ""
@@ -4159,7 +4075,7 @@ msgstr "请浏览下方图示大致了解操作过程，详细步骤列于图片
 
 #: user_guide/en.html%2Bhtml.body.div.p:2160-5
 msgid "How to exclude a section by creating a hidden flow:"
-msgstr "通过创建隐藏页码段来排除部分章节："
+msgstr "通过创建隐藏页来排除部分章节："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2163-9
 msgid "Go to the first page of the section you want to exclude"
@@ -4167,32 +4083,24 @@ msgstr "转到要排除章节的起始页"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2164-9
 msgid "Open the <span class=\"ui\">Page browser</span> via:"
-msgstr "按照下列路径进入<span class=\"ui\">书页速览视图</span>："
+msgstr "按照下列路径进入<span class=\"ui\">页面预览</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:2166-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div:2066-5user_guide/en.html+html.body."
-#| "div.div:2066-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Page browser"
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:2166-13"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Page browser"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 书页速览视图"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2168-9
 msgid ""
 "Long press on the page thumbnail that you want to be the beginning of your "
 "excluded section and select <span class=\"ui\">Start hidden flow here</span> "
 "item from the popup menu."
-msgstr ""
-"找到要排除章节的起始页，在页面缩略图上长按，从弹出菜单中选择<span "
-"class=\"ui\">设定为隐藏页码段的起点</span>。"
+msgstr "找到要排除章节的起始页，在页面缩略图上长按，从弹出菜单中选择<span class="
+"\"ui\">设定为隐藏页的起点</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2169-9
 msgid ""
@@ -4206,14 +4114,14 @@ msgid ""
 "from the <span class=\"ui\">Page browser</span> or using other ways like "
 "<span class=\"ui\">Book map, Skim widget</span> etc."
 msgstr ""
-"接下来，转到被排除页码段的最后一页。可以通过<span class=\"ui\">书页速览视图</"
-"span>或<span class=\"ui\">书籍地图、跳读工具</span>等定位页面。"
+"接下来，转到被排除页码段的最后一页。可以通过<span class=\"ui\">页面预览</span"
+">或<span class=\"ui\">书籍地图、快速翻页工具</span>等定位页面。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2171-9
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
-msgstr "在被排除章节的结束页上再次进入<span class=\"ui\">书页速览视图</span>。"
+msgstr "在被排除章节的结束页上再次进入<span class=\"ui\">页面预览</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2172-9
 msgid ""
@@ -4236,9 +4144,8 @@ msgid ""
 "When you create a hidden flow section as described above, KOReader’s "
 "behavior will be similar to the situation as if you removed a section of a "
 "paper book by cutting it out:"
-msgstr ""
-"当按照上述步骤创建隐藏页码段后KOReader会将其视作不存在，类似于从纸版书中撕下"
-"部分书页："
+msgstr "当按照上述步骤创建隐藏页后KOReader会将其视作不存在，类似于从纸版书中撕下部分"
+"书页："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2182-9
 msgid ""
@@ -4246,9 +4153,8 @@ msgid ""
 "assume that you created a hidden flow for <b>Chapter 10</b>. Now you are on "
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
-msgstr ""
-"翻页时将直接跳过被隐藏页码段。例如将<b>第十章</b>标记为隐藏页码段后，从<b>第"
-"九章</b>的最后一页继续翻页将直接显示<b>第十一章</b>。"
+msgstr "翻页时将直接跳过隐藏页。例如将<b>第十章</b>标记为隐藏页后，从<b>第九章</b>的"
+"最后一页继续翻页将直接显示<b>第十一章</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2183-9
 msgid ""
@@ -4265,7 +4171,7 @@ msgid ""
 msgstr ""
 "被隐藏的章节将不会显示在<span class=\"ui\">阅读进度条</span>上（请另行阅读下"
 "方解释），且不会被计入<b>阅读用时</b>。 但这些页码仍可通过<span class=\"ui\">"
-"跳读工具</span>访问。"
+"快速翻页工具</span>访问。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2185-9
 msgid ""
@@ -4273,8 +4179,8 @@ msgid ""
 "will still work. Also you can still reach these sections from the <span "
 "class=\"ui\">Table of contents, Book map, Page browser, Skim widget</span>."
 msgstr ""
-"链接到位于被隐藏页码段页面的引用仍然有效。隐藏页码段的页面也可通过<span "
-"class=\"ui\">目录、书籍地图、书页速览视图和跳读工具</span>访问。"
+"链接到位于被隐藏页页面的引用仍然有效。隐藏页的页面也可通过<span class=\"ui\">"
+"目录、书籍地图、页面预览和快速翻页工具</span>访问。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2188-5
 msgid ""
@@ -4287,11 +4193,11 @@ msgid ""
 "other navigation tools, your Progress bar will go back to showing the whole "
 "book again (with your custom hidden flows again not visible)."
 msgstr ""
-"如上所述，隐藏页码段将不会被计入<span class=\"ui\">阅读进度条</span>。但如果"
-"使用上一条提到的几种方式访问隐藏页码段的某一页，阅读进度条将临时变为该隐藏页"
-"码段的章节阅读进度条。可以将此想象成阅读进度条放大到了被隐藏的章节。当翻到隐"
-"藏页码段最末页、或使用其它页面定位工具离开被隐藏的章节，阅读进度条将恢复为显"
-"示全书阅读进度，此时被隐藏的章节将从进度条上消失。"
+"如上所述，隐藏页将不会被计入<span class=\"ui\">阅读进度条</span>。但如果使用"
+"上一条提到的几种方式访问隐藏页的某一页，阅读进度条将临时变为该隐藏页的章节阅"
+"读进度条。可以将此想象成阅读进度条放大到了被隐藏的章节。当翻到隐藏页最末页、"
+"或使用其它页面定位工具离开被隐藏的章节，阅读进度条将恢复为显示全书阅读进度，"
+"此时自定义隐藏页将从进度条上消失。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2191-5
 msgid "Removing and cleaning up hidden sections:"
@@ -4302,9 +4208,8 @@ msgid ""
 "You can remove individual hidden flow sections from the <span "
 "class=\"ui\">Page browser</span> in the same way you created them. You can "
 "also clear all of them at once with the menu item:"
-msgstr ""
-"隐藏页码段可在<span class=\"ui\">书页速览视图</span>中逐一恢复，方法与设置隐"
-"藏时一致。还可以通过下列菜单项一次性全部恢复："
+msgstr "隐藏页可在<span class=\"ui\">页面预览</span>中逐一恢复，方法与设置隐藏时一致"
+"。还可以通过下列菜单项一次性全部恢复："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2194-5
 msgid ""
@@ -4330,14 +4235,13 @@ msgid ""
 "flows, or once you finish making your hidden flows and happy with the "
 "results:"
 msgstr ""
-"在通过标记页面为<span class=\"ui\">隐藏页码段起始处</span>或<span "
-"class=\"ui\">正文页码起始处</span>来设置隐藏页码段时，部分已经设置隐藏的页码"
-"可能不再生效。例如在<span class=\"ui\">隐藏页码段起始处</span>的早几页再次执"
-"行<span class=\"ui\">标记为隐藏页码段起始处</span>操作，之前设置的标记将不会"
-"被包含在内。出于实用性考虑，这些重叠或失效的标记仍会被保留。还是上面的例子，"
-"当新设置的隐藏页码段最末页位于先前已失效的隐藏页码段区域内，先前失效的隐藏页"
-"码段将再次生效。如果这些标记相互干扰，或对隐藏页码段的设置结果已经满意，可以"
-"将失效的隐藏页码段标记清除："
+"在通过标记页面为<span class=\"ui\">隐藏页起始处</span>或<span class=\"ui\">正"
+"文页码起始处</span>来设置隐藏页时，部分已经设置隐藏的页码可能不再生效。例如在"
+"<span class=\"ui\">隐藏页起始处</span>的早几页再次执行<span class=\"ui\">标记"
+"为隐藏页起始处</span>操作，之前设置的标记将不会被包含在内。出于实用性考虑，这"
+"些重叠或失效的标记仍会被保留。还是上面的例子，当新设置的隐藏页最末页位于先前"
+"已失效的隐藏页区域内，先前失效的隐藏页将再次生效。如果这些标记相互干扰，或对"
+"隐藏页的设置结果已经满意，可以将失效的隐藏页标记清除："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2198-5
 msgid ""
@@ -4349,9 +4253,6 @@ msgstr ""
 "style=\"width:22px;\"> / 设置 / 自定义版式功能 / 清除失效的页面标记"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2204-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:963-9"
-#| msgid "CUSTOMIZING TEXT APPEARANCE"
 msgctxt "user_guide/en.html+html.body.div.div:2204-1"
 msgid "CUSTOMIZING TEXT APPEARANCE"
 msgstr "自定义文本样式"
@@ -4689,8 +4590,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Generate font test document"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 字体相关 / 字体设置 / 生成字体测试文档"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 字体 / 字体设置 / 生成字体测试文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2297-1
 msgid "Monospace font scale"
@@ -4705,16 +4606,16 @@ msgid ""
 "Monospace font size to fix this difference:"
 msgstr ""
 "如果您的书籍包含使用<b>等宽</b>字体的部分（如编程书籍），等宽文本可能看起来不"
-"成比例，即使它在技术上与书籍的其余部分大小相同。 这是由不同的字体指标引起"
-"的。 KOReader有一个选项，允许您调整相对等宽字体大小来修复此差异："
+"成比例，即使其字号与其他文本在技术上相同。 这是由不同的字体指标引起的。 KORea"
+"der有一个选项允许您调整等宽字体的相对大小："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2301-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 字体相关 / 字体设置 / 等宽字体尺寸"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 字体 / 字体设置 / 等宽字体缩放"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2303-5
 msgid ""
@@ -4751,8 +4652,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 字体相关 / 字体字族"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 字体 / 字体字族"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2313-5
 msgid ""
@@ -4762,7 +4663,7 @@ msgid ""
 "where your default font is hardly used, you can disable that family font for "
 "this book by unchecking the association."
 msgstr ""
-"要更改当前图书的系列字体，只需点击所需的字体名称。 如果您想为所有图书设置此设"
+"要更改当前书籍的系列字体，只需点击所需的字体名称。 如果您想为所有书籍设置此设"
 "置，请长按将其设置为<b>默认设置（★）</b>。 如果某本书滥用了此字体系列功能，以"
 "至于几乎不使用默认字体，则可以通过取消选中该关联来禁用该系列字体。"
 
@@ -4835,7 +4736,7 @@ msgid ""
 msgstr ""
 "我们可以将EPUB文档描述为<b>HTML文件+一些CSS规则</b>。 这些CSS规则决定了书的不"
 "同部分（标题，粗体文本，引用等） 通过<span class=\"ui\">样式调整</span>，您可"
-"以通过添加新规则和/或覆盖图书中嵌入的出版商编写的规则来更改图书的呈现方式。"
+"以通过添加新规则和/或覆盖书籍中嵌入的出版商编写的规则来更改书籍的呈现方式。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
@@ -4844,7 +4745,7 @@ msgstr "让我们看看这个例子<span class=\"ui\">样式调整</span>："
 #: user_guide/en.html%2Bhtml.body.div.p:2341-5
 msgctxt "user_guide/en.html+html.body.div.p:2341-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2342-5
 msgid ""
@@ -4853,9 +4754,9 @@ msgid ""
 "you add this style tweak to KOReader, all the images in your book will be "
 "shown tiny."
 msgstr ""
-"用通俗的语言来说，这条规则是：<b>“忽略它们的原始大小，让这本书中的所有图像都"
+"用通俗的语言来说，这条规则是：<b>“忽略它们的原始大小，让这本书中的所有图片都"
 "有10个像素宽，10个像素高。“</b>因此，如果您将此样式调整添加到KOReader，您书中"
-"的所有图像都将显示为微小。"
+"的所有图片都将显示的很小。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2344-5
 msgid "Now lets explain this tweak item by item:"
@@ -4865,9 +4766,8 @@ msgstr "现在让我们逐项解释这个调整："
 msgid ""
 "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
 "<b>img</b> (image) elements in the book."
-msgstr ""
-"<span class=\"ui\">img</span>-这是一个CSS选择器，目标是图书中的所有<b>img</b>"
-"（图像）元素。"
+msgstr "<span class=\"ui\">img</span>-这是一个CSS选择器，目标是书籍中的所有<b>img</b>"
+"（图片）元素。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2348-9
 msgid ""
@@ -4888,7 +4788,7 @@ msgid ""
 msgstr ""
 "<span class=\"ui\">width: 10px !important;</span> -第一部分将目标<b>img</b>元"
 "素的宽度设置为10像素。 <b>!important</b> 声明是一个覆盖开关，它确保您的宽度值"
-"优先于应用于这些图像的任何其他现有<b>宽度</b>声明。"
+"优先于应用于这些图片的任何其他现有<b>宽度</b>声明。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2350-9
 msgid ""
@@ -4900,7 +4800,7 @@ msgid ""
 msgstr ""
 "<span class=\"ui\">height: 10px !important;</span> - 这部分将目标<b>img</b>元"
 "素的高度设置为10像素。同样，<b>!important</b>是一个覆盖开关，可确保您的高度值"
-"优先于应用于这些图像的任何其他现有<b>高度</b>声明。"
+"优先于应用于这些图片的任何其他现有<b>高度</b>声明。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2353-5
 msgid ""
@@ -4959,7 +4859,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2376-13
 msgid "Disable all images in an EPUB:"
-msgstr "禁用EPUB中的所有图像:"
+msgstr "禁用EPUB中的所有图片:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
 msgid "img { display: none !important; }"
@@ -4967,12 +4867,12 @@ msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid "Make images very small instead of disabling them:"
-msgstr "使图像非常小，而不是禁用它们:"
+msgstr "使图片非常小，而不是禁用它们:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2382-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2385-13
 msgid ""
@@ -5040,7 +4940,7 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
-"它们有很多种类。 若要<b>仅对当前图书</b>应用调整，请勾选复选框。 如果你想获得"
+"它们有很多种类。 若要<b>仅对当前书籍</b>应用调整，请勾选复选框。 如果你想获得"
 "更多关于这个调整的信息，或者对<b>所有的书</b>启用它，长按它的名字。 将出现一"
 "个对话框："
 
@@ -5104,8 +5004,7 @@ msgstr ""
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
-msgstr ""
-"要创建<span class=\"ui\">特定于书籍的调整</span>，请使用您可以在此处找到的集"
+msgstr "要创建<span class=\"ui\">仅用于此书的调整</span>，请使用您可以在此处找到的集"
 "成编辑器："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2435-9
@@ -5234,10 +5133,10 @@ msgid ""
 "this with the same steps. See below for an example:"
 msgstr ""
 "现在你应该在列表中看到你的调整，旁边有一个复选框。要将你的调整仅应用于<b>当前"
-"图书</b>，请勾选复选框。 如果您希望对<b>所有图书</b>启用此调整，请长按其名"
-"称。 将出现一个对话框。 轻按菜单项<span class=\"ui\">应用到所有图书上</"
-"span>。 一个<b>星号（★）</b>将出现在菜单中其名称旁边，表示此调整将应用于所有"
-"书籍。 您可以使用相同的步骤禁用此功能。 下面是一个例子："
+"书籍</b>，请勾选复选框。 如果您希望对<b>所有书籍</b>启用此调整，请长按其名称"
+"。 将出现一个对话框。 轻按菜单项<span class=\"ui\">应用到所有书籍上</span>。 "
+"一个<b>星号（★）</b>将出现在菜单中其名称旁边，表示此调整将应用于所有书籍。 您"
+"可以使用相同的步骤禁用此功能。 下面是一个例子："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2480-9
 msgid ""
@@ -5340,7 +5239,7 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
-"您可以在上面的示例图像中看到它，在<b>调整边距</b>样式调整旁边。现在，此样式调"
+"您可以在上面的示例图片中看到它，在<b>调整边距</b>样式调整旁边。现在，此样式调"
 "整已添加到操作列表中。您可以在<span class=\"ui\">手势管理器>可重排文档</span>"
 "类别下找到它。它将在列表的末尾。"
 
@@ -5691,7 +5590,7 @@ msgid ""
 msgstr ""
 "点按<span class=\"ui\">多选</span>选项进入标注模式，此时屏幕左上角将出现一枚"
 "标志（可点击标志获得更多信息）。再次点按标注起始处可取消标注。在标注模式下可"
-"使用点按或滑动翻页，并可使用目录或跳读工具前往任意页。"
+"使用点按或滑动翻页，并可使用目录或快速翻页工具前往任意页。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2646-5
 msgid ""
@@ -6026,13 +5925,13 @@ msgid ""
 "class=\"ui\">Set archive folder</span>). After this, you can move a book to "
 "your archive folder using:"
 msgstr ""
-"在读完一本书后，可以将其移到指定文件夹作为归档。启用<span class=\"ui\">移动书"
-"籍以归档</span>插件，指定归档目录路径（<span class=\"ui\">设置归档文件夹</"
-"span>）。完成设置后，可通过下列方式将书籍移入归档："
+"在读完一本书后，可以将其移到指定文件夹作为存档。启用<span class=\"ui\">移至存"
+"档</span>插件，指定存档目录路径（<span class=\"ui\">设置存档文件夹</span>）。"
+"完成设置后，可通过下列方式将书籍移入存档："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2750-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr "<span class=\"ui\">移动书籍以归档</span>插件菜单"
+msgstr "<span class=\"ui\">移至存档</span>插件菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2751-9
 msgid "With a gesture or"
@@ -6396,8 +6295,7 @@ msgid ""
 "For example if you are reading an article which has two columns, you will "
 "scroll down until the end of page reading left column then go to right upper "
 "side to continue reading right column:"
-msgstr ""
-"例如，如果您正在阅读一篇有两列的文章，您将向下滚动直到页面末尾阅读左列，然后"
+msgstr "例如，如果您正在阅读一篇有两栏的文章，您将向下滚动直到页面末尾阅读左列，然后"
 "转到右上侧继续阅读右列："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2897-9
@@ -6452,7 +6350,7 @@ msgid ""
 "in your document. If you set it very high, your images may become too dark."
 msgstr ""
 "<span class=\"ui\">对比度</span>设置调整文档中的黑色级别。 请注意，相同的对比"
-"度值适用于文档中的文本和图像。 如果你把它设置得很高，你的图像可能会变得太暗。"
+"度值适用于文档中的文本和图片。 如果你把它设置得很高，你的图片可能会变得太暗。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2915-5
 msgid ""
@@ -6474,7 +6372,7 @@ msgid ""
 "you should check."
 msgstr ""
 "<span class=\"ui\">渲染质量</span><b>（仅在重排模式下处于活动状态）</b>设置文"
-"本和图像提取处理和输出的质量。 <span class=\"ui\">高</span>更令人愉悦，但它可"
+"本和图片提取处理和输出的质量。 <span class=\"ui\">高</span>更令人愉悦，但它可"
 "能比<span class=\"ui\">默认</span>慢得多（翻页需要几秒钟），具体取决于您的文"
 "档。 如果您的PDF/DJVU文件很慢，这是您应该检查的第一个设置。"
 
@@ -6520,10 +6418,10 @@ msgid ""
 "on several factors."
 msgstr ""
 "<span class=\"ui\">自动拉直</span>功能可以拉直有问题文档的页面，例如倾斜扫描"
-"的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图像</b>文件中可用。 要启"
-"用，请选择KOReader将尝试纠正的最大倾斜角度。 如果它不正确，你可能不得不选择一"
-"个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多个"
-"因素。"
+"的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图片</b>文件中可用。 要启用"
+"，请选择KOReader将尝试纠正的最大倾斜角度。 如果它不正确，你可能不得不选择一个"
+"更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多个因"
+"素。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2940-1
 msgid "Saving highlights into PDF"
@@ -6831,9 +6729,10 @@ msgid ""
 "github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR Engine</a> for "
 "this task."
 msgstr ""
-"<b>OCR（光学字符识别）</b>是从图像中提取文本的过程。 在KOReader上下文中，它通"
-"常用于从PDF文件中的扫描书页中提取文本。 KOReader依赖于<a href=\"https://"
-"github.com/tesseract-ocr/tessdoc\">Tesseract开源OCR引擎</a>用于此任务。"
+"<b>OCR（光学字符识别）</b>是从图片中提取文本的过程。 在KOReader上下文中，它通"
+"常用于从PDF文件中的扫描书页中提取文本。 KOReader依赖于<a href="
+"\"https://github.com/tesseract-ocr/tessdoc\">Tesseract开源OCR引擎</a>用于此任"
+"务。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3014-5
 msgid "To use this feature you need to:"
@@ -6886,7 +6785,7 @@ msgid ""
 "ghosting, especially depending on the panel of your e-reader."
 msgstr ""
 "漫画书一般需要比纯文本内容更频繁的页面刷新。 对于普通文本，您可以毫无问题地将"
-"页面刷新间隔设置为一个很高的数字。 但图像可能会留下更多残留并导致重影，这与您"
+"页面刷新间隔设置为一个很高的数字。 但图片可能会留下更多残留并导致重影，这与您"
 "的电子阅读器的屏幕密切相关。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3035-5
@@ -6973,7 +6872,7 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
-"如果要将此功能用于EPUB、FB2、HTML或图像文件等其他文件类型，则应使用其他引擎打"
+"如果要将此功能用于EPUB、FB2、HTML或图片文件等其他文件类型，则应使用其他引擎打"
 "开该文件：在<span class=\"ui\">文件浏览器中</span>长按文件名，点按<span "
 "class=\"ui\">打开方式</span>，并选择<span class=\"ui\">MuPDF</span>。"
 
@@ -7007,10 +6906,10 @@ msgid ""
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
 msgstr ""
-"打开下一个文件时，KOReader会跳过标记为<b> >已阅读</b>的文件。这个功能是有用"
-"的，例如当你有一个文件夹的漫画文件，你已经读了其中的一些。您可以从上面所示的"
-"图书结束对话框中将文件标记为已完成。也可以在<span class=\"ui\">文件浏览器</"
-"span>上标记它，长按该文件。将它们复制到您的设备后，您可以："
+"打开下一个文件时，KOReader会跳过标记为<b> >已阅读</b>的文件。这个功能是有用的"
+"，例如当你有一个文件夹的漫画文件，你已经读了其中的一些。您可以从上面所示的书"
+"籍结束对话框中将文件标记为已完成。也可以在<span class=\"ui\">文件浏览器</span"
+">上标记它，长按该文件。将它们复制到您的设备后，您可以："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3070-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
@@ -7061,10 +6960,11 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
-"MOBI和EPUB等文件类型不适合主要处理图像内容（例如漫画/漫画）。KOReader中的"
-"<b>MOBI</b>支持几乎为零，而<b>EPUB</b>的文本渲染优先级在显示整页图像时可能会"
-"导致问题。有关更多技术细节，请访问<a href=\"https://github.com/koreader/"
-"koreader/issues/9163#issuecomment-1146637205\">对应GitHub工单</a>。"
+"MOBI和EPUB等文件类型不适合主要处理图片内容（例如漫画/漫画）。KOReader中的<b>M"
+"OBI</b>支持几乎为零，而<b>EPUB</b>的文本渲染优先级在显示整页图片时可能会导致"
+"问题。有关更多技术细节，请访问<a href="
+"\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\">"
+"对应GitHub工单</a>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3085-5
 msgid ""
@@ -7090,11 +6990,11 @@ msgid ""
 "applying dithering</b> so that eink-rendered gradients are smoothly dithered "
 "without jagged layers."
 msgstr ""
-"将漫画转换为<b>CBZ</b>的最简单方法是从各种网站获得漫画图像，然后使用<span "
-"class=\"external\">Kindle Comic Converter</span> (<a href=\"https://github."
-"com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>)转换它们。有一些有"
-"用的设置，如<b>自动旋转双页分割为横向，并应用抖动</b>，使墨水屏渲染的渐变平滑"
-"抖动，没有锯齿层。"
+"将漫画转换为<b>CBZ</b>的最简单方法是从各种网站获得漫画图片，然后使用<span "
+"class=\"external\">Kindle Comic Converter</span> (<a href="
+"\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>)"
+"转换它们。有一些有用的设置，如<b>自动旋转双页分割为横向，并应用抖动</b>，使墨"
+"水屏渲染的渐变平滑抖动，没有锯齿层。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3089-1
 msgid "Which resolution to use"
@@ -7109,9 +7009,9 @@ msgid ""
 "recommended because KOReader adds a dithering pass before scaling and this "
 "causes loss of quality."
 msgstr ""
-"通过将图像大小调整为电子阅读器屏幕尺寸，可以获得最佳效果。特定于屏幕的 "
+"通过将图片大小调整为电子阅读器屏幕尺寸，可以获得最佳效果。特定于屏幕的 "
 "<b>CBZ</b> 针对设备的确切屏幕尺寸，可防止在读取期间重新缩放。KOReader 在阅读"
-"时将图像缩放到屏幕尺寸，但不建议这样做，因为 KOReader 在缩放之前添加了抖动通"
+"时将图片缩放到屏幕尺寸，但不建议这样做，因为 KOReader 在缩放之前添加了抖动通"
 "道，这会导致质量损失。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3092-5
@@ -7130,12 +7030,12 @@ msgid ""
 msgstr ""
 "但是，如果您想在多台设备上使用手工制作的 <b>CBZ</b>，或者您想保留高分辨率以备"
 "将来使用，那么最好的选择可能是为您的最高分辨率设备制作 <b>CBZ</b>。或者选择可"
-"能与源分辨率匹配的“高”分辨率。<b>300 PPI</b> 或更高（高达 <b>450</b> 甚至 "
-"<b>600</b>），当然，除非来源较低。我们假设屏幕尺寸为 <b>8 英寸，1500×2000</"
-"b> 是一个不错的目标分辨率。对于较大的图像，您应该在您的设备上尝试一下，看看它"
-"是否可以处理它。例如，内存不足的旧 Kindle 可能会难以处理 <b>3000×4000</b> 等"
-"大小。如果您要自动化该过程，则可能需要考虑创建较低和较高质量的两个版本（例"
-"如，<b>200/400</b> 或 <b>300/600</b> DPI）。"
+"能与源分辨率匹配的“高”分辨率。<b>300 PPI</b> 或更高（高达 <b>450</b> 甚至 <b>"
+"600</b>），当然，除非来源较低。我们假设屏幕尺寸为 <b>8 英寸，1500×2000</b> 是"
+"一个不错的目标分辨率。对于较大的图片，您应该在您的设备上尝试一下，看看它是否"
+"可以处理它。例如，内存不足的旧 Kindle 可能会难以处理 <b>3000×4000</b> 等大小"
+"。如果您要自动化该过程，则可能需要考虑创建较低和较高质量的两个版本（例如，<b>"
+"200/400</b> 或 <b>300/600</b> DPI）。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-5
 msgid ""
@@ -7187,8 +7087,7 @@ msgstr ""
 msgid ""
 "Unpack the manga file. Now you should have a directory that contains only "
 "images (or subdirectories with images, no archives)"
-msgstr ""
-"解压漫画文件。现在，您应该有一个仅包含图像的目录（或包含图像的子目录，没有存"
+msgstr "解压漫画文件。现在，您应该有一个仅包含图片的目录（或包含图片的子目录，没有存"
 "档）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3107-9
@@ -7213,7 +7112,7 @@ msgstr "<b>跨页分割器：</b>此功能可检测双页，并允许您将其�
 #: user_guide/en.html%2Bhtml.body.div.p:3114-5
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
-msgstr "<b>放大：</b>放大比目标分辨率小的图像。"
+msgstr "<b>放大：</b>放大比目标分辨率小的图片。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3120-1
 #, fuzzy
@@ -7263,7 +7162,7 @@ msgid ""
 "rendered gradients will be smoothly dithered without jagged layers. This "
 "step will produce fine-tuned manga volumes which look better in KOReader."
 msgstr ""
-"使用<span class=\"external\">KCC</span>创建<b>CBZ</b>文件后，您可以对图像应用"
+"使用<span class=\"external\">KCC</span>创建<b>CBZ</b>文件后，您可以对图片应用"
 "额外的<b>抖动</b>。这样，eink渲染的渐变将平滑抖动，没有锯齿层。这一步将制作出"
 "在KOReader中看起来更好的微调漫画卷。"
 
@@ -7276,10 +7175,10 @@ msgid ""
 "class=\"external\">ImageMagick</span> and use it from the command line to "
 "process many images at once."
 msgstr ""
-"您可以使用<span class=\"external\">ImageMagick</span>来处理您的图像。<span "
-"class=\"external\">ImageMagick</span>，是一个功能强大的开源软件套件，用于显"
-"示、创建、转换、修改和编辑光栅图像。您可以下载<span "
-"class=\"external\">ImageMagick</span>，并从命令行使用它一次处理多个图像。"
+"您可以使用<span class=\"external\">ImageMagick</span>来处理您的图片。<span "
+"class=\"external\">ImageMagick</span>，是一个功能强大的开源软件套件，用于显示"
+"、创建、转换、修改和编辑光栅图片。您可以下载<span class=\"external\""
+">ImageMagick</span>，并从命令行使用它一次处理多个图片。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3140-9
 msgid ""
@@ -7323,14 +7222,14 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3146-9
 msgid ""
 "Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images."
-msgstr "运行<b>_magick_manga_ditherN_resize.bat</b>调整图像大小和抖动。"
+msgstr "运行<b>_magick_manga_ditherN_resize.bat</b>调整图片大小和抖动。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3147-9
 msgid ""
 "Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to "
 "pack all the processed images into a <b>CBZ</b> archive."
 msgstr ""
-"假设您安装了<b>7-Zip</b>，运行<b>_batch_archive.bat</b>将所有处理过的图像打包"
+"假设您安装了<b>7-Zip</b>，运行<b>_batch_archive.bat</b>将所有处理过的图片打包"
 "到<b>CBZ</b>存档中。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3152-1
@@ -7454,9 +7353,9 @@ msgid ""
 "different engine to get some other features. See <b>Viewing archive files</"
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
-"<span class=\"ui\">打开方式:</span>KOReader有不同的引擎来渲染不同的文件类"
-"型。 在某些情况下，您可以在不同的引擎中打开文件以获得其他一些功能。 请参阅下"
-"面的<b>查看存档文件</b>和<b>查看图像文件</b>部分。"
+"<span class=\"ui\">打开方式:</span>KOReader有不同的引擎来渲染不同的文件类型。"
+" 在某些情况下，您可以在不同的引擎中打开文件以获得其他一些功能。 请参阅下面的<"
+"b>查看存档文件</b>和<b>查看图片文件</b>部分。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3202-5
 msgid ""
@@ -7485,7 +7384,7 @@ msgid ""
 "refresh the book information with this menu item."
 msgstr ""
 "<span class=\"ui\">刷新缓存的书籍信息：</span>KOReader在将书籍的元数据和书籍"
-"封面添加到库中时缓存书籍的元数据和封面。 如果您在复制到设备后对图书进行了一些"
+"封面添加到库中时缓存书籍的元数据和封面。 如果您在复制到设备后对书籍进行了一些"
 "更改，则可能需要更新此信息。 如果您看到错误的封面或元数据，则可以使用此菜单项"
 "刷新书籍信息。"
 
@@ -7765,7 +7664,7 @@ msgid ""
 "better to use the default mode in which, the text file is rendered <b>as is</"
 "b> in a monospace font."
 msgstr ""
-"请注意，此功能可能会弄乱 ASCII 艺术绘图和基于空格字符的格式。如果您的图书具有"
+"请注意，此功能可能会弄乱 ASCII 艺术绘图和基于空格字符的格式。如果您的书籍具有"
 "这些功能，最好使用默认模式，在该模式下，文本文件以等宽字体按<b>原样</b>呈现。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3279-1
@@ -7804,9 +7703,9 @@ msgid ""
 "zip</b> extension, KOReader will assume that this archive contains images "
 "and try to open it like a <b>CBZ</b> file."
 msgstr ""
-"ZIP文件可以包含多种类型的文档，如html、txt或图像。<b>只有当您提示ZIP存档中的"
+"ZIP文件可以包含多种类型的文档，如html、txt或图片。<b>只有当您提示ZIP存档中的"
 "文件类型时，KOReader才能正确打开您的ZIP文件</b>。如果您只给文件一个<b>. zip</"
-"b>扩展名，KOReader将假定该存档包含图像，并尝试像<b>CBZ</b>文件一样打开它。"
+"b>扩展名，KOReader将假定该存档包含图片，并尝试像<b>CBZ</b>文件一样打开它。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3291-5
 msgid ""
@@ -7814,14 +7713,14 @@ msgid ""
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
 msgstr ""
-"<span class=\"ui\">默认大小写：</span>yourfilename<b>.zip</b>-假定为图像的zip"
+"<span class=\"ui\">默认大小写：</span>yourfilename<b>.zip</b>-假定为图片的zip"
 "文件（并由<span class=\"ui\">MuPDF 引擎</span>打开）"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3293-5
 msgid ""
 "If your zip file contains one of these types (instead of just images), "
 "please name it accordingly:"
-msgstr "如果您的zip文件包含这些类型之一（而不仅仅是图像），请相应地命名它:"
+msgstr "如果您的zip文件包含这些类型之一（而不仅仅是图片），请相应地命名它:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3296-9
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
@@ -7862,15 +7761,14 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3306-2
 msgid "Viewing images"
-msgstr "查看图像"
+msgstr "查看图片"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3308-5
 msgid ""
 "You can open image files with the image viewer instead of opening as a book. "
 "Files opened like this don’t show up in your history and have better scaling "
 "and rotation support."
-msgstr ""
-"您可以使用图像查看器打开图像文件，而不是作为书籍打开。像这样打开的文件不会出"
+msgstr "您可以使用图片查看器打开图片文件，而不是作为书籍打开。像这样打开的文件不会出"
 "现在您的历史中，并且具有更好的缩放和旋转支持。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3311-5
@@ -7891,7 +7789,7 @@ msgstr "点击<span class=\"ui\">打开方式...</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3313-5
 msgid "Tap <span class=\"ui\">Image viewer</span>"
-msgstr "点击<span class=\"ui\">图像查看器</span>"
+msgstr "点击<span class=\"ui\">图片查看器</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3316-2
 msgid "Viewing Markdown files"
@@ -7976,7 +7874,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3345-1
 msgctxt "user_guide/en.html+html.body.div.div:3345-1"
 msgid "Collections"
-msgstr "自定义书单"
+msgstr "书单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3347-5
 msgid ""
@@ -7987,10 +7885,10 @@ msgid ""
 "books accordingly. Of course you can also use folders to do this but using "
 "collections gives you more flexibility."
 msgstr ""
-"KOReader的<span class=\"ui\">自定义书单</span>功能可以让个人藏书库的管理更加"
-"高效。简单来说，自定义书单就是由用户创建的书籍清单。例如，可以创建标题分别为"
-"<b>Fiction</b>和<b>Non-Fiction</b>的书单，将对应的书籍编入其中。当然按文件夹"
-"存放书籍也可实现类似目的，但书单用起来更加灵活。"
+"KOReader的<span class=\"ui\">书单</span>功能可以让个人藏书库的管理更加高效。"
+"简单来说，书单就是由用户创建的书籍清单。例如，可以创建标题分别为<b>Fiction</b"
+">和<b>Non-Fiction</b>的书单，将对应的书籍编入其中。当然按文件夹存放书籍也可实"
+"现类似目的，但书单用起来更加灵活。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3348-5
 msgid ""
@@ -8025,11 +7923,11 @@ msgid ""
 "your books in order to use temporary <span class=\"ui\">profiles</span> for "
 "example.)"
 msgstr ""
-"<span class=\"ui\">配置文件</span> 可以应用于<span class=\"ui\">自定义书单</"
-"span>。如果对KOReader的<span class=\"ui\">配置文件</span>功能不熟悉，请查阅下"
-"文说明。（当然，<span class=\"ui\">配置文件</span>也可应用于文件夹，但<span "
-"class=\"ui\">自定义书单</span>无需移动书籍文件即可临时套用<span class=\"ui\">"
-"配置文件</span>。）"
+"<span class=\"ui\">配置文件</span> 可以应用于<span class=\"ui\">书单</span>。"
+"如果对KOReader的<span class=\"ui\">配置文件</span>功能不熟悉，请查阅下文说明"
+"。（当然，<span class=\"ui\">配置文件</span>也可应用于文件夹，但<span class="
+"\"ui\">书单</span>无需移动书籍文件即可临时套用<span class=\"ui\">配置文件</sp"
+"an>。）"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3355-5
 msgid ""
@@ -8062,8 +7960,7 @@ msgstr "创建并编辑书单"
 msgid ""
 "You can create collections from the <span class=\"ui\">Collections</span> "
 "dialog located here:"
-msgstr ""
-"若要创建书单，请按照下列路径找到<span class=\"ui\">自定义书单</span>对话框："
+msgstr "若要创建书单，请按照下列路径找到<span class=\"ui\">书单</span>对话框："
 
 #: user_guide/en.html%2Bhtml.body.div.div:3368-2
 msgid ""
@@ -8071,7 +7968,7 @@ msgid ""
 "style=\"width:26px;\"> / Collections"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:26px;\"> / 自定义书单"
+"style=\"width:26px;\"> / 书单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3370-2
 msgid ""
@@ -8125,7 +8022,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3384-1
 msgid "Adding books to your collections"
-msgstr "将书籍添加到自定义书单"
+msgstr "将书籍添加到书单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3386-2
 msgid ""
@@ -8177,7 +8074,7 @@ msgstr "点按右上角的<span class=\"ui\">对号</span>（✔️）标志"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3399-3
 msgid "Tap <span class=\"ui\">Collections</span>"
-msgstr "点按<span class=\"ui\">自定义书单</span>"
+msgstr "点按<span class=\"ui\">书单</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3402-2
 msgid ""
@@ -8202,11 +8099,11 @@ msgid ""
 "<b>science fiction</b> books are in a single folder, you can create a "
 "collection named <b>Science fiction</b> and add this folder at once."
 msgstr ""
-"该方法可以将一本或数本书籍添加到<span class=\"ui\">自定义书单</span>中。与在"
-"<span class=\"ui\">文件管理器</span>中操作不同，这种方法可以将<b>整个文件夹及"
-"下层文件夹内</b>的全部书籍一次性添加到书单。如果书籍文档已经按照文件夹分类，"
-"该方法将十分高效。例如，如果全部<b>科幻类</b>书籍都在同一个文件夹内，可以创建"
-"标题为<b>科幻题材</b>的书单，然后将该文件夹添加进去。"
+"该方法可以将一本或数本书籍添加到<span class=\"ui\">书单</span>中。与在<span "
+"class=\"ui\">文件管理器</span>中操作不同，这种方法可以将<b>整个文件夹及下层文"
+"件夹内</b>的全部书籍一次性添加到书单。如果书籍文档已经按照文件夹分类，该方法"
+"将十分高效。例如，如果全部<b>科幻类</b>书籍都在同一个文件夹内，可以创建标题为"
+"<b>科幻题材</b>的书单，然后将该文件夹添加进去。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3412-2
 msgid ""
@@ -8222,7 +8119,7 @@ msgid ""
 "style=\"width:26px;\"> / Collections / Your collection name /"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:26px;\"> / 自定义书单 / 书单标题 /"
+"style=\"width:26px;\"> / 书单 / 书单标题 /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3417-3
 msgid ""
@@ -8275,17 +8172,17 @@ msgid ""
 "<span class=\"ui\">Collections</span> screen, you can long press on a book "
 "and choose <span class=\"ui\">Remove from collection</span>."
 msgstr ""
-"可以通过<span class=\"ui\">文件管理器</span>、<span class=\"ui\">阅读历史</"
-"span>视图或<span class=\"ui\">自定义书单</span>将书籍从书单中移除。在<span "
-"class=\"ui\">文件管理器</span>和<span class=\"ui\">阅读历史</span>视图中长按"
-"书籍，选择<span class=\"ui\">书单操作</span>，可以看到书籍所属的书单标题前有"
-"勾选标志。点击该标志取消勾选即可将书籍从对应书单中移除。另外在<span "
-"class=\"ui\">自定义书单</span>界面长按书籍选择<span class=\"ui\">从书单中移除"
-"</span>也可实现相同操作。"
+"可以通过<span class=\"ui\">文件管理器</span>、<span class=\"ui\">阅读历史</sp"
+"an>视图或<span class=\"ui\">书单</span>将书籍从书单中移除。在<span class="
+"\"ui\">文件管理器</span>和<span class=\"ui\">阅读历史</span>视图中长按书籍，"
+"选择<span class=\"ui\">书单操作</span>，可以看到书籍所属的书单标题前有勾选标"
+"志。点击该标志取消勾选即可将书籍从对应书单中移除。另外在<span class=\"ui\">书"
+"单</span>界面长按书籍选择<span class=\"ui\">从书单中移除</span>也可实现相同操"
+"作。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3430-1
 msgid "Arranging the books in your collections"
-msgstr "给自定义书单中的书籍排序"
+msgstr "给书单中的书籍排序"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3432-9
 msgid ""
@@ -8340,7 +8237,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3440-1
 msgid "Searching in collections"
-msgstr "在自定义书单中检索"
+msgstr "在书单中检索"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3442-9
 msgid ""
@@ -8359,9 +8256,8 @@ msgid ""
 "\"> / Collections search"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:26px;\"> / 自定义书单 / <img loading=\"lazy\" "
-"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:26px;"
-"\"> / 在书单中检索"
+"style=\"width:26px;\"> / 书单 / <img loading=\"lazy\" class=\"img_inline\" "
+"src=\"pictures/top_hamburger.svg\" style=\"width:26px;\"> / 在书单中检索"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3446-9
 msgid ""
@@ -8375,8 +8271,8 @@ msgid ""
 "class=\"ui\">collections</span> from the <span class=\"ui\">file browser</"
 "span>. It is <b>not available</b> from the reading screen."
 msgstr ""
-"这种搜索仅在通过<span class=\"ui\">文件管理器</span>打开<span class=\"ui\">自"
-"定义书单</span>时才可用，在阅读视图下<b>不可用</b>。"
+"这种搜索仅在通过<span class=\"ui\">文件管理器</span>打开<span class=\"ui\">书"
+"单</span>时才可用，在阅读视图下<b>不可用</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3450-13
 msgid ""
@@ -8395,10 +8291,10 @@ msgid ""
 "to tap and enter the collection. This is especially important if you are "
 "also searching in the book texts because it is a slow operation."
 msgstr ""
-"搜索功能会因当前所处的<span class=\"ui\">自定义书单</span>窗口层级而不同。当"
-"处于浏览全部书单的根目录视图下，搜索范围将包含全部书单。若要在特定书单内搜"
-"索，请点按进入该书单后再执行搜索操作。如果同时检索了书籍内文，这种区别将十分"
-"关键，因为那是一项颇为耗时的操作。"
+"搜索功能会因当前所处的<span class=\"ui\">书单</span>窗口层级而不同。当处于浏"
+"览全部书单的根目录视图下，搜索范围将包含全部书单。若要在特定书单内搜索，请点"
+"按进入该书单后再执行搜索操作。如果同时检索了书籍内文，这种区别将十分关键，因"
+"为那是一项颇为耗时的操作。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3455-9
 msgid ""
@@ -8571,7 +8467,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3504-1
 msgid "Using Collections with Profiles"
-msgstr "将配置文件应用到自定义书单"
+msgstr "将配置文件应用到书单"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3506-5
 msgid ""
@@ -8629,9 +8525,9 @@ msgid ""
 "<span class=\"ui\">Collections</span>."
 msgstr ""
 "配置文件可以手动套用，但<span class=\"ui\">自动套用</span>特性才是该功能的强"
-"大之处。该特性可以在指定情况下自动套用特定配置档，请点击<a href=\"#L2-"
-"profileautoexec\">自动套用配置</a>前往对应章节了解。此处仅介绍在<span "
-"class=\"ui\">自定义书单</span>中自动套用配置的功能。"
+"大之处。该特性可以在指定情况下自动套用特定配置档，请点击<a href="
+"\"#L2-profileautoexec\">自动套用配置</a>前往对应章节了解。此处仅介绍在<span "
+"class=\"ui\">书单</span>中自动套用配置的功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3522-9
 msgid ""
@@ -8730,9 +8626,9 @@ msgid ""
 "pasted. It can especially be useful for reading old scanned books. It can "
 "also optimize the images for a smaller file size."
 msgstr ""
-"<a href=\"https://github.com/ocrmypdf/OCRmyPDF\">OCRmyPDF</a>是一款为扫描版"
-"PDF文档添加OCR文本层的命令行软件，使处理后的文档可以检索及复制粘贴。在阅读扫"
-"描版旧书时格外有用。它也可用于压缩图像文件大小。"
+"<a href=\"https://github.com/ocrmypdf/OCRmyPDF\">OCRmyPDF</a>是一款为扫描版PD"
+"F文档添加OCR文本层的命令行软件，使处理后的文档可以检索及复制粘贴。在阅读扫描"
+"版旧书时格外有用。它也可用于压缩图片文件大小。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3544-5
 msgid ""
@@ -8882,8 +8778,8 @@ msgid ""
 "accompanying .sdr folder outside of KOReader file browser, you will lose "
 "metadata of those books without any warning."
 msgstr ""
-"如果您在KOReader文件浏览器之外通过其他方式移动/重命名图书文件或其附带的.sdr文"
-"件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些图书的元数据。"
+"如果您在KOReader文件浏览器之外通过其他方式移动/重命名书籍文件或其附带的.sdr文"
+"件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些书籍的元数据。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3586-4
 msgid ""
@@ -8955,16 +8851,15 @@ msgid ""
 "KOReader file browser, you will lose metadata of those books without any "
 "warning."
 msgstr ""
-"如果您通过在KOReader文件浏览器之外移动/重命名移动/重命名库目录、图书文件或其"
-"附带的.sdr文件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些图书的元"
+"如果您通过在KOReader文件浏览器之外移动/重命名移动/重命名库目录、书籍文件或其"
+"附带的.sdr文件夹来重新组织您的库，您将在没有任何警告的情况下丢失这些书籍的元"
 "数据。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3606-3
 msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
-msgstr ""
-"由于您的图书元数据不在库文件夹中，因此库的任何同步或备份都不会包含它们。"
+msgstr "由于您的书籍元数据不在库文件夹中，因此库的任何同步或备份都不会包含它们。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3611-1
 msgid ""
@@ -9006,9 +8901,9 @@ msgid ""
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
 msgstr ""
-"在这种<b>HASHED</b>方法中，<b>.sdr</b>文件夹不是由书籍的文件路径/文件名标识"
-"的。相反，将使用部分<b>MD5哈希</b>将书籍链接到其设置。此哈希用作图书的唯一"
-"ID，并根据<b>图书文件的内容</b>计算。同样的哈希也用于命名其.sdr文件夹。"
+"在这种<b>HASHED</b>方法中，<b>.sdr</b>文件夹不是由书籍的文件路径/文件名标识的"
+"。相反，将使用部分<b>MD5哈希</b>将书籍链接到其设置。此哈希用作书籍的唯一ID，"
+"并根据<b>书籍文件的内容</b>计算。同样的哈希也用于命名其.sdr文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3620-2
 #, fuzzy
@@ -9165,7 +9060,7 @@ msgstr "<b>工作区：</b>只在四个角落"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3683-17
 msgid "SPREAD AND PINCH"
-msgstr "伸展和捏合"
+msgstr "张开和捏合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3684-9
 msgid "Same as zooming in and out on a phone or tablet."
@@ -9337,7 +9232,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - 转到最后的书
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
-msgstr "<span style=\"font-family: microns;\"></span> - 跳读全书"
+msgstr "<span style=\"font-family: microns;\"></span> - 快速翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
@@ -9454,21 +9349,18 @@ msgid "Favorites"
 msgstr "收藏"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3787-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:3340-1"
-#| msgid "Collections"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3787-17"
 msgid "Collections"
-msgstr "自定义书单"
+msgstr "书单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3788-17
 msgid "Collections search"
-msgstr "在自定义书单中搜索"
+msgstr "在书单中搜索"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3789-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3789-17"
 msgid "Dictionary lookup"
-msgstr "查询词典"
+msgstr "查词典"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3790-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3790-17"
@@ -9835,15 +9727,15 @@ msgstr "减小字号"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3898-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3898-17"
 msgid "Font size"
-msgstr "界面字体大小"
+msgstr "界面字号"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3899-17
 msgid "Word spacing"
-msgstr "词间距"
+msgstr "字/单词间距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3900-17
 msgid "Word expansion"
-msgstr "字间距"
+msgstr "字母间距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3901-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3901-17"
@@ -9860,11 +9752,11 @@ msgstr "字体微调"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3904-17
 msgid "Font kerning"
-msgstr "字体字距"
+msgstr "字偶间距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3905-17
 msgid "Two columns"
-msgstr "两栏"
+msgstr "双栏"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3906-17
 msgid "L/R margins"
@@ -9872,7 +9764,7 @@ msgstr "左右边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
 msgid "Sync T/B margins"
-msgstr "同步顶/底边距"
+msgstr "同步顶部/底部边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
 msgid "Top margin"
@@ -9913,11 +9805,11 @@ msgstr "内置字体"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3917-17
 msgid "Image scaling"
-msgstr "图像缩放"
+msgstr "图片缩放"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3918-17
 msgid "Invert images"
-msgstr "图像反色"
+msgstr "图片反色"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3922-5
 #, fuzzy
@@ -9933,7 +9825,7 @@ msgstr "设置文件视图"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-13
 msgid "Sort by"
-msgstr "排列依据"
+msgstr "排序依据"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3926-13
 msgid "Reverse sorting"
@@ -9941,7 +9833,7 @@ msgstr "倒序"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3927-13
 msgid "Folders and files mixed"
-msgstr "将文件夹与文件混合排列"
+msgstr "将文件夹与文件一起显示"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-13
 msgid "Show plus menu"
@@ -9978,7 +9870,7 @@ msgstr "返回上级文件夹"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3935-13
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3935-13"
 msgid "Go to page"
-msgstr "前往页码"
+msgstr "前往页面"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3936-13
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3936-13"
@@ -10035,16 +9927,13 @@ msgid "Turn pages"
 msgstr "翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3930-13"
-#| msgid "Go to page"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3953-17"
 msgid "Go to page"
-msgstr "前往页码"
+msgstr "前往页面"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
 msgid "Skim document"
-msgstr "跳读全书"
+msgstr "快速翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3955-17
 msgid "Previous bookmark"
@@ -10076,11 +9965,11 @@ msgstr "返回"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
 msgid "Back to previous location"
-msgstr "返回至前一位置"
+msgstr "返回前一位置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
 msgid "Forward to next location"
-msgstr "前进至后一位置"
+msgstr "前往后一位置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3963-17
 msgid "Follow nearest link"
@@ -10105,7 +9994,7 @@ msgstr "全文搜索"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
 msgid "Last fulltext search results"
-msgstr "之前的全文搜索结果"
+msgstr "上次的全文搜索结果"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3969-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3969-17"
@@ -10123,7 +10012,7 @@ msgstr "书籍地图（预览）"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3972-17
 msgid "Page browser"
-msgstr "书页速览"
+msgstr "页面预览"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3973-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3973-17"
@@ -10173,7 +10062,7 @@ msgstr "开/关 自定义目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
 msgid "Toggle custom hidden flows"
-msgstr "显示/隐藏 自定义的忽略页码范围"
+msgstr "切换自定义隐藏页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3985-17
 msgid "Set highlight action"
@@ -10200,16 +10089,13 @@ msgid "Export all notes in current book"
 msgstr "导出本书所有笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3991-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3932-13"
-#| msgid "Export all notes in all books in history"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3991-17"
 msgid "Export all notes in all books in history"
 msgstr "导出历史中所有书籍中的所有笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3992-17
 msgid "Move current book to archive"
-msgstr "将当前图书归档"
+msgstr "将当前书籍存档"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3993-17
 msgid "Reading statistics: current book"
@@ -10257,7 +10143,7 @@ msgstr "页面裁剪"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
 msgid "Margin"
-msgstr "页边距"
+msgstr "边距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4009-17
 msgid "Horizontal overlap"
@@ -10308,12 +10194,9 @@ msgid "Alignment"
 msgstr "对齐方式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3893-17"
-#| msgid "Font size"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4020-17"
 msgid "Font size"
-msgstr "界面字体大小"
+msgstr "字号"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Change font size"
@@ -10478,7 +10361,7 @@ msgstr "上下方向键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgid "Open selected book"
-msgstr "打开所选图书"
+msgstr "打开所选书籍"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4086-13
 msgctxt ""
@@ -10573,12 +10456,9 @@ msgid "Shift + Right"
 msgstr "同时按下Shift键及右方向键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4117-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3784-17"
-#| msgid "Dictionary lookup"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4117-13"
 msgid "Dictionary lookup"
-msgstr "查询词典"
+msgstr "查词典"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4118-13
 msgid "Ctrl + D (Alt + D on Kindles)"
@@ -10653,7 +10533,7 @@ msgstr "回车键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4150-17
 msgid "Image viewer (long-press on image)"
-msgstr "图像查看器（长按图像）"
+msgstr "图片查看器（长按图片）"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4153-13
 msgid "Zoom in"
@@ -10776,7 +10656,7 @@ msgstr "数字键1"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4205-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4205-13"
 msgid "Go to 11% of book"
-msgstr "转到图书的11%"
+msgstr "转到书籍的11%"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4206-13
 msgid "2"
@@ -10856,7 +10736,7 @@ msgstr "数字键0"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4242-17
 msgid "In Skim Document dialog"
-msgstr "在跳读全书对话框中"
+msgstr "在快速翻页对话框中"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4245-9
 #, fuzzy
@@ -10871,12 +10751,9 @@ msgid "Q"
 msgstr "字母键Q"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4249-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4200-13"
-#| msgid "Go to 11% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4249-9"
 msgid "Go to 11% of book"
-msgstr "转到图书的11%"
+msgstr "转到书籍的11%"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4250-9
 msgid "W"
@@ -10984,7 +10861,7 @@ msgstr "页面缩放"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:4286-63
 msgid "Only for PDF, DJVU and images"
-msgstr "（仅适用于 PDF、DJVU 和图像）"
+msgstr "（仅适用于 PDF、DJVU 和图片）"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4289-9
 msgid "Zoom to fit page"
@@ -11286,8 +11163,7 @@ msgstr ""
 msgid ""
 "<b>Incremental changes</b>, like brightness increase/decrease, bigger/"
 "smaller font size, previous/next pages or chapters, etc."
-msgstr ""
-"<b>增量更改</b>，如亮度增加/减少、较大/较小字体大小、上一页/下一页或章节等。"
+msgstr "<b>增量更改</b>，如亮度增加/减少、较大/较小字号、上一页/下一页或章节等。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4391-13
 msgid ""
@@ -11761,15 +11637,14 @@ msgid ""
 "this powerful feature of KOReader. Examples also include auto-execute "
 "conditions and <span class=\"ui\">collections</span> features:"
 msgstr ""
-"下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引"
-"玉。示例也包含了自动套用配置档的触发条件和<span class=\"ui\">自定义书单</"
-"span>功能："
+"下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引玉"
+"。示例也包含了自动套用配置档的触发条件和<span class=\"ui\">书单</span>功能："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4539-5
 msgid ""
 "Enable <b>two columns mode</b> when you turn your device to landscape "
 "orientation."
-msgstr "将设备转为横向时启用<b>两列模式</b>。"
+msgstr "将设备转为横向时启用<b>双栏模式</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4540-5
 msgid "Enable <b>night mode</b> when you turn your device upside down."
@@ -11797,9 +11672,7 @@ msgstr ""
 msgid ""
 "Trigger a profile to adjust typeface, font size and set two-column mode when "
 "opening a file for the first time from the <b>Periodicals</b> folder."
-msgstr ""
-"首次从<b>《期刊》</b>文件夹打开文件时，套用配置档以调整字体、字体大小并设置两"
-"列模式。"
+msgstr "首次从<b>期刊</b>文件夹打开文件时，套用配置档以调整字体、字号并设置双栏模式。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4544-5
 msgid ""
@@ -12240,9 +12113,8 @@ msgstr "<b>封面浏览器</b> - 允许文件浏览器和历史记录的封面�
 msgid ""
 "<b> Cover image </b> - Saves the cover image of the current book as a file "
 "(available on Android/PocketBook/reMarkable devices)"
-msgstr ""
-"<b>封面图像</b> - 将当前书籍的封面图像另存为文件（在Android/PockeBook/"
-"reMarkable设备上可用）"
+msgstr "<b>封面图片</b> - 将当前书籍的封面图片另存为文件（在Android/PockeBook/reMarka"
+"ble设备上可用）"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4659-9
 msgid ""
@@ -12308,9 +12180,9 @@ msgid ""
 "youtu.be/jeOHqI9SqOI?t=137\">How to Triple Your Reading Speed in 20 Minutes "
 "(Tim Ferriss)</a>"
 msgstr ""
-"<b> 感知扩展器 </b> - 允许使用周边视觉更快地阅读。查看此 YouTube 视频以了解其"
-"工作原理：<a href=\"https://youtu.be/jeOHqI9SqOI?t=137\">如何在 20 分钟内将阅"
-"读速度提高三倍（蒂姆·费里斯）</a>"
+"<b> 视觉扩展器 </b> - 允许您使用余光（周边视觉）更快地阅读。查看此 YouTube 视"
+"频以了解其工作原理：<a href=\"https://youtu.be/jeOHqI9SqOI?t=137\">如何在 20 "
+"分钟内将阅读速度提高三倍（蒂姆·费里斯）</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4669-9
 msgid ""
@@ -12672,7 +12544,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4756-1
 msgid "Changing your book cover"
-msgstr "更改图书封面"
+msgstr "更改书籍封面"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4757-1
 msgid "You can change your book cover from this menu:"
@@ -12700,7 +12572,7 @@ msgid ""
 "the book as cover."
 msgstr ""
 "有些书没有合适的书籍封面。或者他们的封面可能位于第二页，因此无法正确显示。或"
-"者封面可能不适合电子墨水（太亮或太暗）。或者您更喜欢将书中的一些图像设置为封"
+"者封面可能不适合电子墨水（太亮或太暗）。或者您更喜欢将书中的一些图片设置为封"
 "面。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4765-5
@@ -12713,9 +12585,9 @@ msgid ""
 "span> from the dialog."
 msgstr ""
 "在这种情况下，您可以快速截取屏幕截图并将其设置为当前书籍的封面。默认情况下，"
-"屏幕截图手势是<b>长对角线滑动</b>。此外<b>触摸相对的对角线角</b>截取屏幕截"
-"图。您可以在查看图像时使用第二个快捷方式。截取屏幕截图后，您可以从对话框中选"
-"择 <span class=\"ui\">设置为书籍封面</span>。"
+"屏幕截图手势是<b>长对角线滑动</b>。此外<b>触摸相对的对角线角</b>截取屏幕截图"
+"。您可以在查看图片时使用第二个快捷方式。截取屏幕截图后，您可以从对话框中选择 "
+"<span class=\"ui\">设置为书籍封面</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4767-5
 msgid "You can remove this custom book cover here:"
@@ -12735,7 +12607,7 @@ msgid ""
 "On the book information page, long-press on the <span class=\"ui\">Cover "
 "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgstr ""
-"在图书信息页面，长按<span class=\"ui\">封面图片</span>项，然后选择<span "
+"在书籍信息页面，长按<span class=\"ui\">封面图片</span>项，然后选择<span "
 "class=\"ui\">重置自定义</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4773-5
@@ -12744,8 +12616,8 @@ msgid ""
 "dialog, which you can access by long-pressing the filename in the <span "
 "class=\"ui\">File Browser</span>."
 msgstr ""
-"您还可以使用<span class=\"ui\">重置</span>对话框重置书本封面，您可以通过在"
-"<span class=\"ui\">文件浏览器</span>中长按文件名来访问该对话框。"
+"您还可以使用<span class=\"ui\">重置</span>对话框重置书籍封面，您可以通过在<sp"
+"an class=\"ui\">文件浏览器</span>中长按文件名来访问该对话框。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4775-5
 msgid ""
@@ -13269,7 +13141,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4932-5
 msgid "If the problematic book is a PDF:"
-msgstr "如果有问题的图书是 PDF："
+msgstr "如果有问题的书籍是 PDF："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4934-9
 msgid "PDF file itself might be <b>too big for your device memory</b>."
@@ -13283,9 +13155,9 @@ msgid ""
 "the opening and page turning because these large images has to be rescaled "
 "to fit on your screen and this process can be CPU intensive."
 msgstr ""
-"PDF文档<b>可能内嵌大尺寸图像文件</b>。即使带有正常文本层的文档（可选中并标"
-"注），仍可能叠加了另一个图像层（页面的整体扫描件）；这会拖慢文档打开及翻页速"
-"度，因为大尺寸图像需要被压缩到屏幕尺寸以供显示，而该过程非常消耗CPU算力。"
+"PDF文档<b>可能内嵌大尺寸图片文件</b>。即使带有正常文本层的文档（可选中并标注"
+"），仍可能叠加了另一个图片层（页面的整体扫描件）；这会拖慢文档打开及翻页速度"
+"，因为大尺寸图片需要被压缩到屏幕尺寸以供显示，而该过程非常消耗CPU算力。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4936-9
 msgid ""
@@ -13294,7 +13166,7 @@ msgid ""
 "this case KOReader has to calculate and draw all these elements which can "
 "take time."
 msgstr ""
-"PDF 文件可能包含许多需要精确定位的<b>单个元素</b>，例如包含大量图像和文本框的"
+"PDF 文件可能包含许多需要精确定位的<b>单个元素</b>，例如包含大量图片和文本框的"
 "杂志页面。在这种情况下，KOReader 必须计算和绘制所有这些元素，这可能需要时间。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4937-9
@@ -13328,7 +13200,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4945-5
 msgid "If the problematic book is an EPUB:"
-msgstr "如果有问题的图书是 EPUB："
+msgstr "如果有问题的书籍是 EPUB："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4948-9
 msgid ""
@@ -13340,11 +13212,11 @@ msgid ""
 "b> This will slow down opening the book, turning the pages and changing the "
 "appearance properties like font weight or line spacing."
 msgstr ""
-"EPUB 文件基本上由文本和图像组成，并带有一些规则来确定这些项目在屏幕上的格式。"
+"EPUB 文件基本上由文本和图片组成，并带有一些规则来确定这些项目在屏幕上的格式。"
 "在理想情况下，这是一个相当简单的过程，因此 EPUB 文件在 KOReader 中通常速度很"
 "快。<b>但是一些 EPUB 书籍添加了大量格式规则，KOReader 必须进行许多计算才能显"
-"示哪怕是一个句子。</b>这将减慢打开书籍、翻页和更改外观属性（如字体粗细或行"
-"距）的速度。"
+"示哪怕是一个句子。</b>这将减慢打开书籍、翻页和更改外观属性（如字体粗细或行距"
+"）的速度。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4950-9
 msgid ""
@@ -13391,8 +13263,7 @@ msgstr "如果一切都很慢："
 msgid ""
 "Reasons mentioned above is generally valid if only some of your books are "
 "slow. If all of your books are slow, your problem might be device related:"
-msgstr ""
-"如果只有部分书籍速度较慢，则上述原因通常是有效的。如果所有图书都运行缓慢，则"
+msgstr "如果只有部分书籍速度较慢，则上述原因通常是有效的。如果所有书籍都运行缓慢，则"
 "问题可能与设备有关："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4964-9
@@ -13666,12 +13537,12 @@ msgid ""
 msgstr ""
 "即使 KOReader 设置为<b>在每页完全刷新</b>，您仍然可能在翻页后看到一些重影/残"
 "留。这是电子墨水屏幕技术的局限性，可以在最新一代设备上观察到，尤其是在阅读混"
-"合内容（文本+图像）文档时。作为解决方法，您可以在翻页后再次手动刷新，以消除这"
+"合内容（文本+图片）文档时。作为解决方法，您可以在翻页后再次手动刷新，以消除这"
 "些伪影（<span class=\"ui\">默认为短对角线滑动</span>手势）。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5046-5
 msgid "Sleep cover problems"
-msgstr "合盖睡眠问题"
+msgstr "合盖休眠问题"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5047-9
 msgid ""
@@ -13682,18 +13553,18 @@ msgid ""
 "problematic. If you are having problems with your device waking up because "
 "of your cover, you can disable this feature via this menu:"
 msgstr ""
-"休眠皮套通常使用嵌入在皮套中的磁铁，通过触发设备中的传感器来启动唤醒和睡眠事"
+"休眠皮套通常使用嵌入在皮套中的磁铁，通过触发设备中的传感器来启动唤醒和休眠事"
 "件。该传感器有时可以称为<b>霍尔传感器</b>或<b>霍尔效应传感器</b>。在某些情况"
-"下，如未对准或磁性减弱，这种触发可能是有问题的。如果您的设备因皮套而无法唤"
-"醒，您可以通过以下菜单禁用此功能："
+"下，如未对准或磁性减弱，这种触发可能是有问题的。如果您的设备因皮套而无法唤醒"
+"，您可以通过以下菜单禁用此功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:5049-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Ignore all sleep cover events"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 阅读设备相关 / 禁止睡眠保护套触发功能"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 阅读设备相关 / 禁止休眠保护套触发功能"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5055-1
 msgid "Text indentation problems"
@@ -13739,10 +13610,10 @@ msgid ""
 "indent on P, spacing between P</b>. But it doesn’t look pretty when "
 "publishers haven’t done any styling."
 msgstr ""
-"如果您的图书存在上述缩进问题，您可以尝试切换到 <span class=\"ui\">HTML5 "
-"（html5.css）</span>，这种样式提供了一个基本样式表，就像 Web 浏览器在渲染时所"
-"做的那样： <b>text-align: left, no text-indent on P, spacing between P</b>。"
-"但是当出版商没有做任何样式时，它看起来并不漂亮。"
+"如果您的书籍存在上述缩进问题，您可以尝试切换到 <span class=\"ui\">HTML5 （htm"
+"l5.css）</span>，这种样式提供了一个基本样式表，就像 Web 浏览器在渲染时所做的"
+"那样： <b>text-align: left, no text-indent on P, spacing between P</b>。但是"
+"当出版商没有做任何样式时，它看起来并不漂亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5073-1
 msgid "Cleaning your book cover cache database"
