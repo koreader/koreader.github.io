@@ -1083,7 +1083,7 @@ line-height: 2rem;
 	
 <div class="L2-Sub-heading">按照个人偏好调整文本样式</div>
 	<ul>
-        <li>更换字体（包括用户自有的字体），调整字号、对比度、粗细、字偶间距、字/单词间距、字母间距、文本对齐方式、行间距、分栏版式、页边距等等<a href="#L1-customizingappearance" class="internalink"></a></li>
+        <li>更换字体（包括用户自有的字体），调整字号、对比度、粗细、字偶间距、字间距、字母间距、文本对齐方式、行间距、分栏版式、页边距等等<a href="#L1-customizingappearance" class="internalink"></a></li>
 
         <li>使用功能强大的内置<span class="ui">样式微调</span>工具或自行编写样式，实现对书籍渲染样式的精确控制<a href="#L2-styletweaks" class="internalink"></a></li>
 
@@ -1369,8 +1369,8 @@ line-height: 2rem;
     <ul>
         <li><b>点按</b>：删除前一个字符</li>
         <li><b>长按</b>：删除整行</li>
-        <li><b>左划</b>：删除光标左侧的单词</li>
-        <li><b>上划</b>：删除光标所在的整个单词</li>
+        <li><b>左划</b>：删除光标左侧的字</li>
+        <li><b>上划</b>：删除光标所在的整个字词</li>
     </ul>
 		
 	<p>详细信息请查阅对应<a href="https://github.com/koreader/koreader/wiki/Virtual-keyboard">维基页</a>。</p>
@@ -1556,7 +1556,7 @@ line-height: 2rem;
     <table align="center" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
         <td style="vertical-align: top; width: 8%;"><img loading="lazy" class="img_inline" src="pictures/appbar.pokeball.svg" style="width:100%;"></td>
-        <td><p style="text-indent: 0rem;"><span class="label_orange">宝可梦球图标</span> 当在某个单词上长按（有意或无意）时，该标志将会显示。KOReader提供包含常用选项的<b>长按</b>菜单，以及在<b>持续长按</b>超过三秒时的拓展菜单。该标志代表用户触发了这款拓展菜单。</p></td>
+        <td><p style="text-indent: 0rem;"><span class="label_orange">宝可梦球图标</span> 当在某个字上长按（有意或无意）时，该标志将会显示。KOReader提供包含常用选项的<b>长按</b>菜单，以及在<b>持续长按</b>超过三秒时的拓展菜单。该标志代表用户触发了这款拓展菜单。</p></td>
         </tr>
     </table>
 
@@ -1714,9 +1714,9 @@ line-height: 2rem;
     
     <img loading="lazy" src="pictures/bottom_menu_4.png" style="width:60%;">
 
-    <p><span class="ui">字/单词间距与字母间距</span> 两项设定是彼此关联的，它们共同决定文字在两端对齐下的样式。文本两端对齐时单词之间的间距会被拉大，以便每行文字的左右边缘都能与页面边缘对齐。由于每行中的字数不是相同的，两端对齐会使用挤压或拉伸文字来填充满一行。</p>
+    <p><span class="ui">字间距与字母间距</span> 两项设定是彼此关联的，它们共同决定文字在两端对齐下的样式。文本两端对齐时字之间的间距会被拉大，以便每行文字的左右边缘都能与页面边缘对齐。由于每行中的字数不是相同的，两端对齐会使用挤压或拉伸文字来填充满一行。</p>
 
-    <p><span class="ui">字/单词间距</span>：为容纳更多文字，一行文字中的<b>空白</b>允许被压缩的程度。该选项不会影响单词，只会改变字/单词间的间隔。</p>
+    <p><span class="ui">字间距</span>：为容纳更多文字，一行文字中的<b>空白</b>允许被压缩的程度。该选项不会影响字，只会改变字间的间隔。</p>
     
     <p><span class="ui">字母间距</span>：当一行文字中有太多空白时，将这些空白分拆到字母之间而使单词被拉伸的程度。 该选项将影响单词的样式。若不希望单词被拉伸，请将该选项设置为<span class="ui">无</span>。</p>
     
@@ -1843,8 +1843,8 @@ line-height: 2rem;
     </tr>
 
     <tr>
-        <td><p>KOReader 支持在 EPUB 和扫描的 PDF/DJVU 文档中进行<b>查词典</b>。要查看词典定义或翻译，只需点击并长按一个单词即可。</p>
-        <p>在单词上长按，弹出对话框可查找该词在当前书籍中的其它出现位置，或者查询维基百科。</p></td>
+        <td><p>KOReader 支持在 EPUB 和扫描的 PDF/DJVU 文档中进行<b>查词典</b>。要查看词典定义或翻译，只需点击并长按一个字即可。</p>
+        <p>在字词上长按，弹出对话框可查找该词在当前书籍中的其它出现位置，或者查询维基百科。</p></td>
     </tr>
     <tr>
         <td><p>如果你想查看当前日期，可以点击<span class="ui">顶部菜单</span>中的时钟图标。</p></td>
@@ -1955,7 +1955,7 @@ line-height: 2rem;
     <ol>
         <li>转到上一章开头/<b>转到本书扉页</b></li>
         <li>转到上一处书签/<b>转到本书第一处书签</b></li>
-        <li>在当前页添加书签/<b>打开书签对话框</b></li>
+        <li>将当前页添加为书签/<b>打开书签对话框</b></li>
         <li>转到下一处书签/<b>转到本书最后一处书签</b></li>
         <li>转到下一章开头/<b>跳到本书尾页</b></li>
         <li>按所示数字间隔回退（－）或快进（＋）页码</li>
@@ -2130,7 +2130,7 @@ line-height: 2rem;
     <p>启用自定义目录后，用户界面将出现新的菜单项，用以选择章节标题。可以从以下两种途径添加章节：</p>
 
     <ol>
-        <li><b>通过标注</b>：在阅读书籍时，滑动文段选中（像类似标注操作）、或在单词上长按。在弹出菜单中可见<span class="ui">创建目录章节</span>选项。点按该项，会出现对话框要求输入章节标题。前面选中的文段会被自动填入，可按照需要进行编辑。点按创建即可保存。</li>
+        <li><b>通过标注</b>：在阅读书籍时，滑动文段选中（像类似标注操作）、或在字词上长按。在弹出菜单中可见<span class="ui">创建目录章节</span>选项。点按该项，会出现对话框要求输入章节标题。前面选中的文段会被自动填入，可按照需要进行编辑。点按创建即可保存。</li>
         <li><b>从页面预览中添加</b>：按照下列路径进入页面预览</li>
     </ol>
 
@@ -2624,7 +2624,7 @@ line-height: 2rem;
 
     <p><span class="ui">选择并标注模式</span>更适合跨页的长段落标注。在该模式下无需用手指在屏幕上滑动即可完成标注，因此对阅读设备的触控灵敏度不佳，或用户较难控制手部运动的情况尤为有用。</p>
 
-    <div class="info"><span class="label_blue">说明</span> 如果开启了查阅字典功能，在长按某个单词时需要拖动才能启动该模式。</div>
+    <div class="info"><span class="label_blue">说明</span> 如果开启了查阅字典功能，在长按某个字词时需要拖动才能启动该模式。</div>
         
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点按及手势交互 / 在文字上长按 / 在词典中查询选中单字</div>
 
@@ -2645,7 +2645,7 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ 点按及手势交互 / 在文字上长按 / 标注对话框位置</div>
 
-    <div class="tip"><span class="label_green">说明</span> 若不需要上图所示的<b>单词长按菜单</b>，有更<b>简单</b>的方式进入该模式。在完全禁用长按单词的弹出菜单后，长按将直接进入<span class="ui">选择及标注</span>模式。这种方式更快捷，只需点按两次即可标注任意长度的文段。启用下列选项来使用该功能：
+    <div class="tip"><span class="label_green">说明</span> 若不需要上图所示的<b>字词长按菜单</b>，有更<b>简单</b>的方式进入该模式。在完全禁用长按字词的弹出菜单后，长按将直接进入<span class="ui">选择及标注</span>模式。这种方式更快捷，只需点按两次即可标注任意长度的文段。启用下列选项来使用该功能：
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点按及手势交互 / 在文字上长按 /选择并标注</div>
 
@@ -2674,13 +2674,13 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-editinghighlight">编辑标注</div>
 
-    <p>点按<b>不含笔记</b>的标注文段，可以看到包含<span class="ui">删除</span>及<span class="ui">添加笔记</span>选项的弹出菜单。菜单底部的按钮则用于扩展或缩减标注区域。</p>
+    <p>点按<b>不含笔记</b>的高亮文本，可以看到包含<span class="ui">删除</span>及<span class="ui">添加笔记</span>选项的弹出菜单。菜单底部的按钮则用于扩展或缩减标注区域。</p>
 
     <img loading="lazy" src="pictures/highlight_edit.png" style="width: 70%;">
 
     <div class="info"><span class="label_blue">说明</span> 该项调整仅对epub等可重排版格式生效。在PDF文档中扩展或缩减标注时，受限于PDF格式需要先整段删除再重新标注。</div>
 
-    <p>点按<b>附带笔记</b>的标注文段，可以看到如下所示的弹出菜单。点按<span class="ui">编辑标注</span>打开上图所示菜单，以便对标注及附带的笔记进行编辑：</p>
+    <p>点按<b>附带笔记</b>的高亮文本，可以看到如下所示的弹出菜单。点按<span class="ui">编辑标注</span>打开上图所示菜单，以便对标注及附带的笔记进行编辑：</p>
 
     <img loading="lazy" src="pictures/note_edit.png" style="width: 40%;">
 
@@ -2692,7 +2692,7 @@ line-height: 2rem;
     
 <div class="L3-Smaller-heading">编辑被标注的文段文本</div>
 
-    <p>除了添加笔记，KOReader还支持直接编辑<span class="ui">书签列表</span>中显示的被标注文本。在某些情况下，这可能比为标注添加笔记更实用。比如要标记包含多项日期的句子但其中一项日期有误，而要添加一条笔记来指出错误，得在笔记中明确写明。但如果可以直接编辑被标注文本，就可以直接在有误的日期后写上<b>「该日期需要再次核对」</b>。</p>
+    <p>除了添加笔记，KOReader还支持直接编辑<span class="ui">书签列表</span>中显示的高亮文本。在某些情况下，这可能比为标注添加笔记更实用。比如要标记包含多项日期的句子但其中一项日期有误，而要添加一条笔记来指出错误，得在笔记中明确写明。但如果可以直接编辑被标注文本，就可以直接在有误的日期后写上<b>「该日期需要再次核对」</b>。</p>
     
     <p>请注意，此编辑操作<b>不会改变</b>页面上显示的被标记文段，阅读时看到的仍是书籍原文。编辑内容要在<span class="ui">书签列表</span>界面查看；在导出标注时，被导出的文本会是编辑后的版本。</p>
     
@@ -3885,7 +3885,7 @@ line-height: 2rem;
                 <li>增大字号</li>
                 <li>减小字号</li>
                 <li>界面字号</li>
-                <li>字/单词间距</li>
+                <li>字间距</li>
                 <li>字母间距</li>
                 <li>对比度</li>
                 <li>字重</li>
@@ -3945,7 +3945,7 @@ line-height: 2rem;
                 <li>下一处书签</li>
                 <li>首条书签</li>
                 <li>末条书签</li>
-                <li>刚添加的书签</li>
+                <li>最新书签</li>
                 <li>返回</li>
                 <li>返回前一位置</li>
                 <li>前往后一位置</li>
@@ -4621,7 +4621,7 @@ line-height: 2rem;
 
             <li> <a href="https://github.com/omer-faruq/assistant.koplugin">Assistant——AI助理插件</a>：上述插件的分支版本，加入了更多诸如多模型接入选择、内置或自定义提示词等高阶功能。</li>
 
-            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Anki 插件</a>：KOReader 插件支持在内部词典中查找的单词生成 <b>Anki</b>（一种开源抽认卡软件）卡。</li>
+            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Anki 插件</a>：KOReader 插件支持在内部词典中查找的字词生成 <b>Anki</b>（一种开源抽认卡软件）卡。</li>
 
             <li><a href="https://github.com/stelzch/zotero.koplugin">Zotero插件</a>：这款插件可以直接在KOReader中访问用户的<span class="external">Zotero</span>（一款开源的参考引用管理软件）收藏。</li>
 
@@ -4813,7 +4813,7 @@ line-height: 2rem;
         
 
     <div class="L3-Smaller-heading">每页的行数/字数</div>
-        <p>如果您想知道当前页面上显示了多少行或单词，可以在以下位置查看：</p>
+        <p>如果您想知道当前页面上显示了多少行或字，可以在以下位置查看：</p>
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍相关信息</div>
 
