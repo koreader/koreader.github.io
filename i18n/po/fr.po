@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-13 21:04+0000\n"
-"PO-Revision-Date: 2025-10-13 13:07+0000\n"
+"PO-Revision-Date: 2025-10-14 06:48+0000\n"
 "Last-Translator: Clara DROLEZ <cldrolez@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/koreader/user-"
-"guide/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/koreader/"
+"user-guide/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,7 +150,6 @@ msgid "MENU PATHS (GREEN)"
 msgstr "PARCOURS DE MENU (VERT)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:881-17
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.div.table.tr.td.div:881-17user_guide/en."
 "html+html.body.div.div.table.tr.td.div:881-17"
@@ -159,7 +158,7 @@ msgid ""
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
 "Menu Principal / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Style de mise en évidence"
+"style=\"width:22px;\"> / Style de surlignage"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:884-17
 msgid "EXTERNAL APPS (PURPLE)"
@@ -1923,6 +1922,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Horaire fixe:</span> Dans ce mode, la chaleur de "
+"l'éclairage change en fonction du programme quotidien que vous définissez. "
+"Ce mode est <b>statique </b> et ne prend pas en compte la durée "
+"d'ensoleillement. Cet horaire reste le même tout au long de l'année."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1397-5
 msgid ""
@@ -1933,12 +1936,21 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Position du Soleil:</span> Cette option calcule la "
+"position du Soleil pour votre localisation grâce aux informations de "
+"<b>coordonnées</b> et d'<b>altitude</b> que vous entrez. La chaleur de "
+"l'éclairage est ajustée progressivement en fonction des informations "
+"relatives à la position du Soleil. Ce mode est <b>dynamique</b>. Le plug-in "
+"modifie le programme en fonction de la durée d'ensoleillement au cours de "
+"l'année."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1399-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Veuillez vous aider de cette image afin de vous familiariser avec les termes "
+"utilisés dans le plug-in :"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1403-5
 msgid "Fixed Schedule Mode"
@@ -1947,7 +1959,7 @@ msgstr "Mode horaire fixe"
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1406-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1406-3"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Accéder au menu du plug-in :"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1406-30
 #, fuzzy
@@ -1966,7 +1978,7 @@ msgstr ""
 msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
-msgstr ""
+msgstr "Appuyez sur  <span class=\"ui\">En fonction du programme fixe</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1410-3
 msgid ""
