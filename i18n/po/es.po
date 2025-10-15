@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-14 07:46+0000\n"
-"PO-Revision-Date: 2025-10-15 13:07+0000\n"
+"PO-Revision-Date: 2025-10-15 20:38+0000\n"
 "Last-Translator: Felipe Bustamante <felipe.bustamante@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
 "user-guide/es/>\n"
@@ -5147,7 +5147,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2275-9
 msgid "Spectral"
-msgstr ""
+msgstr "Spectral"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2276-9
 msgid "Vollkorn"
@@ -5171,7 +5171,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2284-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (Fuente de la guía del usuario que estás leyendo actualmente)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2287-5
 msgid "Monospace:"
@@ -5184,6 +5184,10 @@ msgid ""
 "find and compare many monospace fonts at <a href=\"https://www."
 "programmingfonts.org/\">programmingfonts.org</a>"
 msgstr ""
+"Si planeas usar tu propia fuente monospace , probablemente ya tengas una "
+"favorita, así que no te ofrecemos ejemplos. Pero puedes encontrar y comparar "
+"muchas fuentes monospace en <a href=\"https://www.programmingfonts.org/\""
+">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2290-2
 msgid ""
@@ -5193,6 +5197,12 @@ msgid ""
 "ligatures and character sets in non-Latin scripts like Greek, Hebrew or "
 "Chinese. You can access this feature via:"
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> KOReader puede generar un "
+"documento con texto de muestra renderizado con todas las fuentes instaladas "
+"en su dispositivo. Esto le permite comparar rápidamente el aspecto y las "
+"características de las fuentes, como las ligaduras y los conjuntos de "
+"caracteres en alfabetos no latinos como el griego, el hebreo o el chino. "
+"Puede acceder a esta función mediante:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2292-3
 #, fuzzy
@@ -5240,6 +5250,8 @@ msgid ""
 "Here you can increase or decrease the size of your Monospace font by "
 "adjusting its scaling as a percentage of the default size."
 msgstr ""
+"Aquí puede aumentar o disminuir el tamaño de su fuente Monospace ajustando "
+"su escala como un porcentaje del tamaño predeterminado."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2307-1
 msgid "Using different fonts in one document"
@@ -5257,6 +5269,16 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
+"En documentos basados en HTML/CSS, como los EPUB, los libros pueden "
+"especificar el uso de fuentes por familia en lugar de un nombre de fuente "
+"específico. Estas familias pueden ser: <b>Serif, Sans-Serif, Monospace, "
+"Cursive, Fantasy, Emoji, Fang Song y Math</b>. Por ejemplo, en un libro, el "
+"texto normal se puede mostrar en <b>Sans-Serif</b>, mientras que los "
+"diálogos se muestran en <b>Serif</b>. KOReader normalmente usa la fuente "
+"predeterminada para todas estas familias, excepto <b>Monospace</b> y "
+"<b>Math</b> (que se determina por el estilo de los nodos de texto, por "
+"ejemplo, <b>'familia--de-fuentes: serif'</b>). Si desea que estas familias "
+"se distingan, puede asignarles fuentes específicas aquí:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2311-5
 #, fuzzy
@@ -5297,12 +5319,22 @@ msgid ""
 "open your font selection menu and change the font like shown in the image "
 "below:"
 msgstr ""
+"Si cambias de fuente con frecuencia (por ejemplo, <b>monospace</b> para "
+"libros de programación y <b>serif</b> para novelas), existe una solución "
+"alternativa que facilita la tarea en lugar de tener que acceder al menú cada "
+"vez. Puedes crear perfiles para tus fuentes y todos los ajustes "
+"relacionados, como <span class=\"ui\">el interlineado, el contraste, la "
+"negrita</span>, etc., y añadirlos a un <span class=\"ui\">Menú rápido</"
+"span>. De esta forma, con un solo gesto, puedes abrir el menú de selección "
+"de fuentes y cambiar la fuente como se muestra en la imagen a continuación:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2325-5
 msgid ""
 "Check the <a href=\"#qmandprofiles\">QUICK MENU AND PROFILES</a> section of "
 "this guide to learn how to do this."
 msgstr ""
+"Consulta la sección <a href=\"#qmandprofiles\">MENÚ RÁPIDO Y PERFILES</a> de "
+"esta guía para aprender cómo hacer esto."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2330-1
 #, fuzzy
@@ -5317,7 +5349,7 @@ msgctxt ""
 "html+html.body.div.p:2332-5user_guide/en.html+html.body.div."
 "p:2332-5user_guide/en.html+html.body.div.p:2332-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANZADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-5
 msgid ""
@@ -5383,6 +5415,11 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> - Esta primera parte "
+"establece el ancho de los elementos <b>img</b> de destino en 10 píxeles. La "
+"declaración <b>!important</b> es una opción de anulación que garantiza que "
+"el valor de ancho prevalezca sobre cualquier otra declaración de <b>ancho</"
+"b> existente aplicada a estas imágenes."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2350-9
 msgid ""
@@ -5392,6 +5429,11 @@ msgid ""
 "height value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"<span class=\"ui\">width: 10px !important;</span> - Esta primera parte "
+"establece el ancho de los elementos <b>img</b> de destino en 10 píxeles. La "
+"declaración <b>!important</b> es una opción de anulación que garantiza que "
+"el valor de ancho prevalezca sobre cualquier otra declaración de <b>ancho</"
+"b> existente aplicada a estas imágenes."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2353-5
 msgid ""
@@ -5399,6 +5441,9 @@ msgid ""
 "10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their "
 "original style</b>."
 msgstr ""
+"En resumen, esta regla CSS está diseñada para establecer un <b>ancho y alto "
+"fijos de 10 píxeles</b> para todos los elementos <b>img</b> de su libro, "
+"<b>ignorando su estilo original</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2357-5
 #, fuzzy
@@ -5423,7 +5468,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2366-13
 msgid "Add some margin above the headings:"
-msgstr ""
+msgstr "Añade un poco de margen encima de los encabezados:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2367-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
@@ -5432,6 +5477,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2369-13
 msgid "Or if the book have too much margin above the headings, remove them:"
 msgstr ""
+"O si el libro tiene demasiados márgenes encima de los encabezados, "
+"elimínelos:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2370-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
@@ -5440,28 +5487,33 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2373-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
 msgstr ""
+"Añade un pequeño espacio entre párrafos para que el texto sea más legible:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2374-17
+#, fuzzy
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2376-13
 msgid "Disable all images in an EPUB:"
-msgstr ""
+msgstr "Deshabilitar todas las imágenes en un EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2377-17
+#, fuzzy
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Haga que las imágenes sean muy pequeñas en lugar de deshabilitarlas:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
+#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2382-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2385-13
 msgid ""
@@ -5469,17 +5521,25 @@ msgid ""
 "readable (<a href=\"https://github.com/koreader/koreader/"
 "issues/9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgstr ""
+"Haga que las secciones de bloques de código en los libros de informática "
+"sean más ordenadas y legibles (<a href="
+"\"https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126\""
+">Aquí puede ver un ejemplo</a>):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2387-17
+#, fuzzy
 msgid ""
 "pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2401-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Cómo agregar ajustes de estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2403-5
 msgid ""
@@ -5487,15 +5547,20 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
+"Bien, ya hemos visto qué son los <span class=\"ui\">ajustes de estilo</"
+"span>. Pero ¿cómo podemos usarlos? Hay tres tipos de <span class=\"ui\""
+">ajustes de estilo</span> en KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2407-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Ajustes de estilo integrados"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2409-5
 msgid ""
 "This heading is new, and the screenshot above and below. Anything to add?"
 msgstr ""
+"Este encabezado es nuevo, al igual que las capturas de pantalla de arriba y "
+"abajo. ¿Algo más que añadir?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2412-1
 msgid ""
@@ -5503,6 +5568,9 @@ msgid ""
 "just enable them from the menu to use them. You don't need to write any CSS "
 "code:"
 msgstr ""
+"Estos ajustes están incluidos en KOReader. Son los más fáciles de usar, ya "
+"que solo hay que activarlos desde el menú. No es necesario escribir código "
+"CSS:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2414-5
 #, fuzzy
@@ -5523,10 +5591,14 @@ msgid ""
 "or enable it for <b>all the books</b>, long-press on its name. A dialog will "
 "appear:"
 msgstr ""
+"Se dividen en varias categorías. Para aplicar una modificación solo al "
+"<b>libro actual</b>, marque la casilla. Si desea obtener más información "
+"sobre esta modificación o activarla para <b>todos los libros</b>, mantenga "
+"pulsado su nombre. Aparecerá un cuadro de diálogo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Esta área muestra el nombre y la descripción del ajuste"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2422-13
 msgid ""
@@ -5535,6 +5607,10 @@ msgid ""
 "<span class=\"ui\">Book-specific tweak</span> as explained under the next "
 "heading."
 msgstr ""
+"Este cuadro muestra el código CSS de la modificación. Puedes tocar esta área "
+"para copiar el código al portapapeles. Después, puedes pegarlo y modificarlo "
+"en la <span class=\"ui\">modificación específica de tu libro</span>, como se "
+"explica en el siguiente apartado."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2424-13
 msgid ""
@@ -5543,6 +5619,11 @@ msgid ""
 "span>. See the heading named <b>\"How to use tweaks efficiently\"</b> below "
 "for more info."
 msgstr ""
+"El botón <span class=\"ui\">Mostrar en la lista de acciones</span> te "
+"permite activar o desactivar este ajuste con un gesto o añadirlo a un <span "
+"class=\"ui\">Menú rápido</span>. Consulta el apartado <b>"
+"\"Cómo usar los ajustes de forma eficiente\"</b> a continuación para obtener "
+"más información."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2426-13
 msgid ""
@@ -5551,10 +5632,14 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"El botón <span class=\"ui\">Usar en todos los libros</span> activa esta "
+"modificación para todos tus libros. Aparecerá una <b>estrella (★)</b> junto "
+"a su nombre en el menú, lo que indica que esta modificación se aplicará a "
+"todos los libros. Puedes desactivarla siguiendo los mismos pasos."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Ajuste específico del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2431-9
 msgid ""
@@ -5566,12 +5651,21 @@ msgid ""
 "publisher), you can convert it to a <span class=\"ui\">user style tweak</"
 "span>, which we will explain next."
 msgstr ""
+"Como su nombre indica, este tipo de ajuste solo está activo en el libro en "
+"el que se creó. Esta función es más útil para probar los ajustes o si "
+"necesitas corregir algo en el libro actual y sabes que no lo necesitarás en "
+"otros. Después de crear este tipo de ajuste, si decides que también lo "
+"necesitarás en otros libros (es decir, de la misma editorial), puedes "
+"convertirlo en un ajuste de <span class=\"ui\">estilo de usuario</span>, "
+"como explicaremos a continuación."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2433-9
 msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Para crear un <span class=\"ui\">ajuste específico del libro</span>, utiliza "
+"el editor integrado que puedes encontrar aquí:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2435-9
 #, fuzzy
@@ -5593,10 +5687,16 @@ msgid ""
 "the <span class=\"ui\">Long-press for info</span> help. Also you can long-"
 "press on CSS items in this menu to see a description."
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> En el editor, tenemos un menú "
+"<span class=\"ui\">CSS</span> en la barra de herramientas inferior. Este "
+"menú contiene mucha sintaxis y propiedades CSS útiles. Al abrirlo, lea "
+"primero la ayuda sobre <span class=\"ui\">Mantener pulsado para obtener "
+"información</span>. También puede mantener pulsados los elementos CSS de "
+"este menú para ver una descripción."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2440-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Ajustes de estilo de usuario"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2442-9
 msgid ""
@@ -5604,14 +5704,18 @@ msgid ""
 "are created. Also unlike the previous type, they are not limited to a single "
 "book. They can be applied globally to all of your books."
 msgstr ""
+"Este grupo de ajustes se diferencia de los anteriores en su forma de "
+"creación. Además, a diferencia del anterior, no se limitan a un solo libro. "
+"Se pueden aplicar globalmente a todos tus libros."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2444-9
 msgid "Procedure is roughly like this, which we will explain in detail:"
 msgstr ""
+"El procedimiento es más o menos el siguiente, que explicaremos en detalle:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2447-13
 msgid "Create your user tweak file"
-msgstr ""
+msgstr "Crea tu archivo de ajustes de usuario"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2448-13
 #, fuzzy
@@ -5620,33 +5724,42 @@ msgstr "Optimización de manga para tu dispositivo lector móvil"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2449-13
 msgid "Enable your tweak from the menu"
-msgstr ""
+msgstr "Habilite su ajuste desde el menú"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2453-9
 msgid "1. Creating the user tweak file:"
-msgstr ""
+msgstr "1. Creación del archivo de ajuste del usuario:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2454-9
 msgid ""
 "A <span class=\"ui\">user style tweak</span> is actually a normal text file "
 "with a <b>.css</b> extension. You can create this file:"
 msgstr ""
+"Un <span class=\"ui\">ajuste de estilo de usuario</span> es en realidad un "
+"archivo de texto normal con la extensión <b>.css</b>. Puedes crear este "
+"archivo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2457-13
 msgid "On your computer"
-msgstr ""
+msgstr "En tu computadora"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2458-13
 msgid "On your device if it has a text editor (like Android OS based devices)"
 msgstr ""
+"En su dispositivo si tiene un editor de texto "
+"(como los dispositivos basados en el sistema operativo Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2459-13
 msgid "In KOReader's integrated text editor which you can find in plugins"
 msgstr ""
+"En el editor de texto integrado de KOReader que puedes encontrar en los "
+"complementos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2462-9
 msgid "You can copy / paste the examples we mentioned above to your file."
 msgstr ""
+"Puedes copiar y pegar los ejemplos que mencionamos anteriormente en tu "
+"archivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 #, fuzzy
@@ -5663,10 +5776,17 @@ msgid ""
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
 msgstr ""
+"Después de crear los archivos que contienen las reglas CSS, guárdelos o "
+"transfiéralos a la carpeta <span class=\"ui\">styletweaks</span> de su "
+"instalación de KOReader. Asigne nombres descriptivos a los archivos, ya que "
+"el nombre del archivo será el título del ajuste en el sistema de menús de "
+"KOReader. Puede usar guiones bajos \"<b>_</b>\" en los nombres de archivo; "
+"se considerarán espacios en el menú. <b>Debe reiniciar KOReader después de "
+"transferir los archivos para que pueda cargarlos.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. Habilitar el ajuste:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2472-9
 msgid "After the restart, open a book and go to this menu:"
@@ -5985,6 +6105,8 @@ msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
 msgstr ""
+"Para habilitar esta función y elegir un estilo de <span class=\"ui\""
+">Marcador de notas</span>, vaya a:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2602-5
 #, fuzzy
@@ -6008,11 +6130,11 @@ msgstr "Modos de subrayado en KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2608-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr ""
+msgstr "KOReader tiene dos modos de resaltado para diferentes casos de uso:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2613-1
 msgid "Normal mode"
-msgstr ""
+msgstr "Modo Normal"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2615-5
 msgid ""
@@ -6020,18 +6142,21 @@ msgid ""
 "your finger on a phone/tablet and more suitable if your highlights are "
 "shorter than one page."
 msgstr ""
+"El <span class=\"ui\">modo Normal</span> es similar a seleccionar un texto "
+"con el dedo en un teléfono o tableta y es más adecuado si los resaltados son "
+"más cortos que una página."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2618-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Mantenga presionada la palabra inicial"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2619-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Mueva su dedo hasta el final del pasaje"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2620-9
 msgid "Release finger"
-msgstr ""
+msgstr "Soltar el dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2623-5
 msgid ""
@@ -6039,6 +6164,9 @@ msgid ""
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
 msgstr ""
+"Al llegar al límite de la página, KOReader pasará la página para que puedas "
+"continuar resaltando <b>(solo en documentos EPUB/HTML)</b>. Puedes "
+"desactivar esta función desde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2625-5
 #, fuzzy
@@ -6054,7 +6182,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2629-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Modo seleccionar y resaltar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2631-5
 msgid ""
@@ -6074,6 +6202,9 @@ msgid ""
 "enabled, when you long-press a word, you have to drag your finger to "
 "initiate this mode."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Si tiene habilitada la búsqueda en el "
+"diccionario, cuando mantiene presionada una palabra, debe arrastrar el dedo "
+"para iniciar este modo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2635-5
 #, fuzzy
@@ -6097,6 +6228,9 @@ msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
 msgstr ""
+"Mantenga presionada (o arrastre si la búsqueda en el diccionario está "
+"habilitada como se describe arriba) la palabra inicial y aparecerá un menú "
+"emergente."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2645-5
 msgid ""
@@ -6107,18 +6241,29 @@ msgid ""
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
 msgstr ""
+"Pulsa <span class=\"ui\">Seleccionar</span> para entrar en el modo de "
+"resaltado. En este modo, verás un indicador en la esquina superior izquierda "
+"de la pantalla (puedes pulsarlo para obtener más información). Puedes "
+"cancelar el resaltado pulsando de nuevo el principio del resaltado. Puedes "
+"pasar de página con toques o deslizamientos y navegar libremente por el "
+"documento (Índice, Ojear, etc.) en este modo."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2646-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
 msgstr ""
+"Mantenga presionada (o arrastre si la búsqueda en el diccionario está "
+"habilitada como se describe arriba) la última palabra que desea resaltar; el "
+"menú aparecerá nuevamente."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2647-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
 msgstr ""
+"Toque <span class=\"ui\">Resaltar</span> esta vez para terminar de resaltar "
+"el pasaje."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2650-5
 msgid ""
@@ -6127,6 +6272,10 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
+"Este cuadro de diálogo normalmente se abre en el centro de la pantalla. Si "
+"desea que se abra más cerca de la ubicación resaltada, puede cambiar la "
+"opción <span class=\"ui\">centrar</span> a <span class=\"ui\">posición del "
+"gesto</span> (ubicada en la segunda página de este menú):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2652-5
 #, fuzzy
@@ -6149,6 +6298,13 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> Hay un método <b>más rápido</b> "
+"para este modo si no necesitas los <b>elementos de menú de pulsación "
+"prolongada</b> mostrados arriba. Puedes desactivar el menú emergente por "
+"completo para que, al mantener pulsada una palabra, accedas inmediatamente "
+"al modo <span class=\"ui\">Seleccionar y resaltar</span>. Este método es "
+"mucho más rápido y te permite resaltar cualquier longitud de texto con solo "
+"dos toques. Para usar este método, activa esta opción:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2656-5
 #, fuzzy
@@ -6173,6 +6329,15 @@ msgid ""
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> KOReader puede resaltar un pasaje "
+"con diferentes estilos. Si usa la opción <span class=\"ui\">Aclarar</span>, "
+"el fondo del texto será gris. Debido a las limitaciones de la tinta "
+"electrónica, las pantallas no pueden cambiar de blanco a gris directamente, "
+"por lo que la parte resaltada primero debe volverse negra y luego gris. Si "
+"desea evitar este parpadeo, puede elegir <span class=\"ui\">Invertido</span> "
+"como estilo de resaltado. En este modo, el fondo del texto será negro, por "
+"lo que puede configurarse sin parpadeo. Puede ajustar estas opciones de "
+"resaltado desde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2664-5
 #, fuzzy
@@ -6197,10 +6362,13 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> Puedes agregar varios resaltados "
+"y notas a la misma sección de texto. Si se superponen, al tocar un "
+"resaltado, aparecerá un menú para elegir el resaltado que deseas editar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2673-1
 msgid "Selecting punctuation while highlighting"
-msgstr ""
+msgstr "Seleccionar puntuación mientras se resalta"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2675-5
 msgid ""
@@ -6209,6 +6377,11 @@ msgid ""
 "word to the last word of a sentence, KOReader will automatically include the "
 "punctuation marks at the both ends of the sentence to your highlight."
 msgstr ""
+"Al resaltar, KOReader intenta incluir los signos de puntuación "
+"correspondientes alrededor de la selección. Por ejemplo, si resalta desde la "
+"primera hasta la última palabra de una oración, KOReader incluirá "
+"automáticamente los signos de puntuación de ambos extremos de la oración en "
+"el resaltado."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2678-5
 msgid ""
@@ -6236,6 +6409,10 @@ msgid ""
 "class=\"ui\">Add note</span> items are clear. Bottom row menu items are used "
 "to extend or shrink the highlight."
 msgstr ""
+"Al tocar un texto ya resaltado <b>(sin nota)</b>, verá este menú emergente. "
+"Los elementos <span class=\"ui\">Eliminar</span> y <span class=\"ui\">Añadir "
+"nota</span> están visibles. Los elementos de la fila inferior se utilizan "
+"para ampliar o reducir el resaltado."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2687-5
 msgid ""
@@ -6244,6 +6421,10 @@ msgid ""
 "on PDFs, you have to delete it and highlight again due to the limitations of "
 "the PDF format."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Este ajuste solo funciona en "
+"documentos reajustables como los EPUB. Si desea ampliar o reducir un "
+"resaltado en PDF, debe eliminarlo y volver a resaltarlo debido a las "
+"limitaciones del formato PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2689-5
 msgid ""
@@ -6252,6 +6433,10 @@ msgid ""
 "open the menu above where you can edit both the highlight and the contained "
 "note:"
 msgstr ""
+"Al pulsar sobre un texto ya resaltado <b>con una nota</b>, verá este menú "
+"emergente. Pulse <span class=\"ui\">Editar resaltado</span> para abrir el "
+"menú superior, donde podrá editar tanto el resaltado como la nota que "
+"contiene:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2693-5
 msgid ""
@@ -6260,6 +6445,10 @@ msgid ""
 "class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;"
 "\"> ) You can also filter by highlight style:"
 msgstr ""
+"En tu página de <span class=\"ui\">Marcadores</span> puedes filtrar la vista "
+"para ver solo un tipo de marcador presionando el ícono de menú ( <img class="
+"\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> ). "
+"También puedes filtrar por estilo de resaltado:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2699-1
 #, fuzzy
@@ -6278,6 +6467,15 @@ msgid ""
 "highlight, you can directly write <b>\"(this date needs to be checked)\"</b> "
 "next to the problematic date."
 msgstr ""
+"Además de añadir una nota, KOReader también permite editar el texto "
+"descttacado que se muestra en la <span class=\"ui\">lista de Marcadores</"
+"span>. En algunas situaciones, esto puede ser más útil que añadir una nota a "
+"un destacado. Por ejemplo, imagina que estás revisando un texto. ¿Quieres "
+"destacar una frase que contiene muchas fechas y una de ellas es incorrecta? "
+"Para añadir una nota que indique este error, debes especificar en la nota "
+"cuál es la incorrecta. Sin embargo, si editas el texto de un texto "
+"destacado, puedes escribir directamente <b>\"(esta fecha debe revisarse)\"</"
+"b> junto a la fecha problemática."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2703-5
 msgid ""
@@ -6287,10 +6485,15 @@ msgid ""
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
 msgstr ""
+"Tenga en cuenta que esta edición <b>no modifica</b> el contenido del libro "
+"ni el pasaje resaltado en la página. Seguirá viendo la misma frase destacada "
+"en el lector. Su edición será visible en la <span class=\"ui\">lista de "
+"marcadores</span>. Y cuando exporte sus destacados posteriormente, se "
+"exportará el texto editado."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2705-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Para editar un texto destacado, puedes:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2707-13
 #, fuzzy
@@ -6299,23 +6502,27 @@ msgstr "1. Export Highlights plugin"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2708-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Detalles</span> en el menú emergente"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2709-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
 msgstr ""
+"Toque <span class=\"ui\">Editar texto</span> en el cuadro de diálogo de "
+"detalles"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2713-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "También puedes hacerlo desde la ventana Marcadores:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2716-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgstr ""
+"Vaya a la <span class=\"ui\">lista de marcadores</span> mediante el menú o "
+"un gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2717-9
 msgid "Long press on the highlight you want to edit"
-msgstr ""
+msgstr "Mantenga presionado el destacado que desea editar"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2718-9
 #, fuzzy
@@ -6327,6 +6534,8 @@ msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
 msgstr ""
+"Cambie el texto en el cuadro de diálogo y presione el botón <span class="
+"\"ui\">Guardar</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2722-5
 msgid ""
@@ -6335,10 +6544,14 @@ msgid ""
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
+"Si desea <b>revertir</b> un texto editado al destacado original, siga los "
+"pasos anteriores y en el paso <b>3</b>, en lugar de <span class=\"ui\""
+">Editar texto</span>, presione el botón <span class=\"ui\">Restablecer "
+"texto</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2725-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
-msgstr ""
+msgstr "Cambiar cómo se muestran las notas agregadas en la Lista de marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2727-5
 msgid ""
@@ -6348,6 +6561,12 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
+"Normalmente, al abrir la lista de Marcadores, solo se muestra el contenido "
+"de tus destacados. Si agregaste una nota a un destacado, solo verás un ícono "
+"de lápiz en la lista de Marcadores. Puedes mantener presionado un elemento "
+"de esta lista para mostrar (y editar) la nota agregada. Si también quieres "
+"ver el texto de la nota en tu <span class=\"ui\">Lista de Marcadores</span>, "
+"puedes configurarlo desde aquí:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2729-5
 #, fuzzy
@@ -6361,19 +6580,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2731-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "Puedes elegir mostrar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2733-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr ""
+msgstr "<b>Solo</b> destacar texto (comportamiento predeterminado)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2734-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr ""
+msgstr "<b>Ambos</b> destacar el texto y la nota"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2735-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr ""
+msgstr "<b>Notifíqueme si hay uno</b>, de lo contrario destaca el texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2738-5
 msgid ""
@@ -6382,6 +6601,11 @@ msgid ""
 "layout, you can change the <span class=\"ui\">Max lines per bookmark</span> "
 "setting from here:"
 msgstr ""
+"<span class=\"label_green\">CONSEJO</span> Normalmente, el número de "
+"elementos en la ventana de marcadores es estático y se divide "
+"equitativamente. Si desea un diseño más flexible, puede cambiar la "
+"configuración <span class=\"ui\">Máximo de líneas por marcador</span> desde "
+"aquí:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2740-6
 #, fuzzy
@@ -6416,11 +6640,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2750-9
 msgid "<span class=\"ui\">Move to archive</span> plugin menu"
-msgstr ""
+msgstr "Menú del complemento <span class=\"ui\">Mover al archivo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2751-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Con un gesto o"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2752-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
@@ -6431,48 +6655,55 @@ msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
 msgstr ""
+"KOReader ofrece diferentes formas de exportar tus destacados y notas desde "
+"tu dispositivo lector:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2758-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Complemento Exportar Destacados"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2760-5
 msgid ""
 "This versatile plugin can export your highlights to <b>local files</b> or "
 "<b>online services</b>."
 msgstr ""
+"Este complemento versátil puede exportar sus destacados a <b>archivos "
+"locales</b> o <b>servicios en línea</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2765-5
 msgid "Local export"
-msgstr ""
+msgstr "Exportación Local"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2767-5
 msgid "You can export your highlights to your device in these file formats:"
 msgstr ""
+"Puedes exportar tus destacados a tu dispositivo en estos formatos de archivo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2769-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Texto (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2770-9
+#, fuzzy
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2771-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Reducción (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2772-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Notas de Kindle (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2773-9
+#, fuzzy
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2776-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "Puede elegir sus formatos de exportación preferidos:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2778-5
 #, fuzzy
@@ -6487,6 +6718,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:2780-5
 msgid "You can see the export location (and also change it if you want):"
 msgstr ""
+"Puedes ver la ubicación de exportación (y también cambiarla si lo deseas):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2782-5
 #, fuzzy
@@ -6500,7 +6732,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2786-5
 msgid "Online services"
-msgstr ""
+msgstr "Servicios en línea"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2788-5
 #, fuzzy
@@ -6514,6 +6746,8 @@ msgstr ""
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
 msgstr ""
+"<a href=\"https://joplinapp.org/\">Joplin</a> - una aplicación para tomar "
+"notas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2792-9
 msgid ""
