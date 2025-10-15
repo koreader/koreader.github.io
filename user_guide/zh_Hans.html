@@ -1028,7 +1028,7 @@ line-height: 2rem;
         <ul>
             <li><a href="#L2-quickmenu">快捷菜单</a></li>
             <li><a href="#L2-quickmenutips">快捷菜单相关技巧</a></li>
-            <li><a href="#L2-profiles">配置</a></li>
+            <li><a href="#L2-profiles">配置文件</a></li>
             <li><a href="#L2-profileautoexec">自动套用配置文件 <span class="microns"></span></a></li>
         </ul>
         </li>
@@ -1496,7 +1496,7 @@ line-height: 2rem;
         <li><b>副状态栏</b>：除了界面底部的默认<span class="ui">状态栏</span>，屏幕顶部还提供<span class="ui">副状态栏</span>可自行启用。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情</li>
         <li><b>页码参考</b>：如果书籍出版方提供了纸版书的页码，它们将在此处显示。请前往<a href="#L3-referencepages">页数计数及页码参考</a>章节了解详情</li>
         <li><b>标注样式</b>：KOreader提供如图所示的多种标注样式。若阅读设备配有彩色屏幕，用户还可使用彩色标注。点击<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情</li>
-        <li><b>旁注标志</b>：该标志出现在添加了旁注笔记的标注旁。KOReader提供多种样式的旁注标志。前往<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情</li>
+        <li><b>笔记标记</b>：该标志出现在添加了笔记的标注旁。KOReader提供多种样式的笔记标记。前往<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情</li>
     </ol>
 
 
@@ -1578,7 +1578,7 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading" id="L3-referencepages">页码计数及页码参考</div>
 
-    <p><b>epub、mobi、html</b>等文件格式属于可重排版文件，因此不存在固定的页码。这些文档的页码会随屏幕尺寸、显示方向等因素动态变化（而诸如<b>PDF</b>或<b>djvu</b>的文件格式则拥有固定的版面尺寸，因此页码也是确定的）。</p>
+    <p><b>epub、mobi、html</b>等文件格式属于可重排版文件，因此不存在固定的页码。这些文档的页码会随屏幕尺寸、设备方向等因素动态变化（而诸如<b>PDF</b>或<b>djvu</b>的文件格式则拥有固定的版面尺寸，因此页码也是确定的）。</p>
     
     <p>可重排版文档的文本字号被调大时，页码总数也会随之增加，因为每一页上能够显示的文字变少了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的标注文段可能在字体调整后跑到了 <b>第42页</b>上。</p>
 
@@ -2207,7 +2207,7 @@ line-height: 2rem;
 
     <p>在某些阅读器应用程序中，当您更改设置（例如用于书籍的字体）时，它会全局更改。 这意味着，如果你将默认字体更改为<b>Verdana</b>，你接下来打开的任何书籍，包括你已经在阅读的书籍，都将以这种Verdana字体显示。</p>
 
-    <p>KOReader的方法与此不同。我们保存每本书的外观设置。这使您可以灵活地更改当前书籍的设置，而不会影响其他书籍。例如，如果你有一些奇幻书籍，你可以将字体更改为中世纪风格的字体，这个改变将只应用于这些书籍。或者，您可以将一些书籍设置为以<b>横向</b>或<b>双列</b>模式打开。</p>
+    <p>KOReader的方法与此不同。我们保存每本书的外观设置。这使您可以灵活地更改当前书籍的设置，而不会影响其他书籍。例如，如果您有一些奇幻小说，你可以将字体更改为中世纪风格的字体，这个改变将只应用于这些书籍。或者，您可以将一些书籍设置为以<b>横向</b>或<b>双列</b>模式打开。</p>
 
     <p>要更改全局设置，请点击并按住<b>选项</b>或<b>菜单项</b>（字体粗细、行距等），将其值设置为<span class="ui">默认值</span>。正如我们上面所说，这个新值只影响从现在开始打开的书籍。以前打开的书籍将保留其设置。您可以将默认值标识为菜单中的<span class="ui">星号</span>（★）或指示器周围的<span class="ui">黑色边框</span>，如下所示：</p>
         
@@ -2306,9 +2306,9 @@ line-height: 2rem;
 	
 <div class="L3-Smaller-heading">在一本书籍中套用多种字体</div>
 
-    <p>在基于HTML/CSS的文档（如EPUB）中，书籍可以指定使用字体家族而不是特定的字体名称。 这些族可以是<b>Serif、Sans-Serif、Monospace、Cursive、Fantasy、Emoji、Fang Song和Math</b>。 例如，在一本书中，正常的文本可以用<b>无衬线字体</b>显示，而对话则用<b>衬线</b>字体显示。 KOReader通常对所有这些系列使用默认字体，但<b>Monospace</b>和<b>Math</b>除外（由文本节点的样式确定，例如<b>'font-family：serif'</b>）。 如果您希望这些系列看起来不同，您可以在这里为它们指定特定的字体：</p>
+    <p>在基于HTML/CSS的文档（如EPUB）中，书籍可以指定使用字体族而不是特定的字体名称。 这些字体族可以是<b>衬线体（Serif）、无衬线体（Sans-Serif）、等宽体（Monospace）、草书体（Cursive）、花体（Fantasy）、表情符号体（Emoji）、仿宋体（Fang Song）和数学体（Math）。</b>。 例如，在一本书中，正常的文本可以用<b>无衬线体</b>显示，而对话则用<b>衬线体</b>显示。 KOReader 通常对所有这些字体族使用默认字体，但<b>等宽体（Monospace）</b>和<b>数学体（Math）</b>除外（具体由文本节点的样式决定，例如<b>'font-family：serif'</b>）。 如果您希望这些字体族看起来更具区别性，您可以在这里为它们指定特定的字体：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 字体 / 字体字族</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 字体 / Font-family字体</div>
 
     <p>要更改当前书籍的系列字体，只需点击所需的字体名称。 如果您想为所有书籍设置此设置，请长按将其设置为<b>默认设置（★）</b>。 如果某本书滥用了此字体系列功能，以至于几乎不使用默认字体，则可以通过取消选中该关联来禁用该系列字体。</p>
     
@@ -2318,7 +2318,7 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">快速切换字体</div>
 
-	<p>如果你经常在字体之间切换（比如编程书籍用<b>等宽字体</b>，小说用<b>衬线字体</b>），有一个解决方案可以让你比每次都进入菜单更容易。 您可以为您的字体和所有字体相关设置（如<span class="ui">行距，对比度，粗体</span>等）创建配置档，并将这些配置档添加到<span class="ui">快捷菜单</span>中。 因此，只需一个手势，您就可以打开字体选择菜单，并更改字体，如下图所示：</p>
+	<p>如果你经常在字体之间切换（比如编程书籍用<b>等宽字体</b>，小说用<b>衬线字体</b>），有一个解决方案可以让你比每次都进入菜单更容易。 您可以为您的字体和所有字体相关设置（如<span class="ui">行距，对比度，粗体</span>等）创建配置文件，并将这些配置文件添加到<span class="ui">快捷菜单</span>中。 因此，只需一个手势，您就可以打开字体选择菜单，并更改字体，如下图所示：</p>
 
     <img loading="lazy" src="pictures/quickmenu_font_selection.png" style="width:40%;">
 
@@ -2558,7 +2558,7 @@ line-height: 2rem;
 
     <p>另外，如果当前设备配有彩色屏幕，还可使用不同颜色进行标注：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 标注相关 / 标注用色</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 标注 / 标注用色</div>
 
     <img loading="lazy" src="pictures/highlight_colors.png" style="width:40%;">
 
@@ -2567,7 +2567,7 @@ line-height: 2rem;
     <ul>
         <li>已经划下的标注段落可以改变用色；点按标注段落，在弹出菜单中选择<span class="ui">颜色</span>选项即可。</li>
 
-        <li>通过组合使用 <b>下划线</b>、<b>删除线</b>及颜色标注，可以创建一套强大的标注系统。例如，可以用<span style="text-decoration: line-through; font-weight: bold; color: red;">红色删除线</span>样式标注删除段落，或用<span style="text-decoration: underline; font-weight: bold; color: orange;">橙色下划线</span>样式标注重点，等等。</li>
+        <li>您可以将颜色与 <b>下划线</b>、<b>删除线</b>等不同的标注样式结合，可以创建一套强大的标注系统。例如，可以用<span style="text-decoration: line-through; font-weight: bold; color: red;">红色删除线</span>样式标注删除段落，或用<span style="text-decoration: underline; font-weight: bold; color: orange;">橙色下划线</span>样式标注重点，等等。</li>
     </ul>
 
 <div class="L3-Smaller-heading">设置默认标注样式</div>
@@ -2583,17 +2583,17 @@ line-height: 2rem;
 
     <br>
 
-    <p><b>旁注笔记：</b></p>
+    <p><b>笔记：</b></p>
     
-    <p>还可为标注添加笔记；只需点按一段标注，从弹出菜单中选择<span class="ui">添加笔记</span>。还可选择一种<span class="ui">笔记标志</span>标出包含笔记的标注。有三种样式可供选择——<span class="ui">下划线、批注线</span>和<span class="ui">旁注符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）：</p>
+    <p>还可为标注添加笔记；只需点按一段标注，从弹出菜单中选择<span class="ui">添加笔记</span>。还可选择一种<span class="ui">笔记标记</span>标出包含笔记的标注。有三种样式可供选择——<span class="ui">下划线、批注线</span>和<span class="ui">笔记符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）：</p>
 
 
 
     <img loading="lazy" src="pictures/note_marker.png" style="width: 70%;">
 
-    <p>请按下列路径启用该功能并选择一种<span class="ui">旁注标记</span>样式：</p>
+    <p>请按下列路径启用该功能并选择一种<span class="ui">笔记标记</span>样式：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 标注相关 / 旁注标记</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 标注样式 / 笔记标记</div>
 
 
     
@@ -2660,7 +2660,7 @@ line-height: 2rem;
     </div>
 
 
-    <div class="tip"><span class="label_green">说明</span> 同一文段可被多次标注及添加旁注。若多层标注重叠在一起，点按标注处会弹出菜单以供选择想要编辑的标注。
+    <div class="tip"><span class="label_green">说明</span> 同一文段可被多次标注及添加笔记。若多层标注重叠在一起，点按标注处会弹出菜单以供选择想要编辑的标注。
     </div>
 
   
@@ -2718,14 +2718,14 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">更改添加的笔记在书签列表中的显示方式</div>
 
-    <p>通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带旁注笔记，只会在书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记。若要在<span class="ui">书签列表</span>中同时展示笔记，可按照下列路径设置：</p>
+    <p>通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带笔记，只会在书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记。若要在<span class="ui">书签列表</span>中同时展示笔记，可按照下列路径设置：</p>
 
     <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 书签相关 / 书签界面中的展示元素</div>
 
     <p>有如下几种显示方式可供选择：</p>
     <ul>
         <li><b>仅显示</b>标注文段（默认设置）</li>
-        <li><b>同时显示</b>标注文段及旁注笔记</li>
+        <li><b>同时显示</b>标注文字及笔记</li>
         <li><b>存在笔记时仅显示笔记</b>，否则显示标注文段</li>
     </ul>
 
@@ -2769,7 +2769,7 @@ line-height: 2rem;
         
     <p>可以在下列菜单中选择想要使用的导出格式：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 导出标注 / 选择文件格式及服务</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 导出标注 / 选择文件格式及服务商</div>
 
     <p>可以在下列菜单中查看（或修改）导出文件存放目录：</p>
 
@@ -2798,8 +2798,8 @@ line-height: 2rem;
     
     <br>
 
-    <p>在选择导出格式后，可以在该插件菜单中导出<b>当前书籍</b>或<b>个人藏书库中全部书目</b>的旁注。</p>
-    <p>若想仅导出部分书目的旁注，可以在<span class="ui">文件管理器</span>中这样操作：</p>
+    <p>在选择导出格式后，可以在该插件菜单中导出<b>当前书籍</b>或<b>个人藏书库中全部书目</b>的笔记。</p>
+    <p>若想仅导出部分书目的笔记，可以在<span class="ui">文件管理器</span>中这样操作：</p>
     <ol>
         <li>在<span class="ui">文件管理器</span>中同时选中多本书籍</li>
         <li>点击右上角的菜单按钮（显示为复选标记）</li>
@@ -2926,7 +2926,7 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_pdf_2.png" style="width: 60%;">
 
-    <p><span class="ui">自动拉直</span>功能可以拉直有问题文档的页面，例如倾斜扫描的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图片</b>文件中可用。 要启用，请选择KOReader将尝试纠正的最大倾斜角度。 如果它不正确，你可能不得不选择一个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多个因素。</p>
+    <p><span class="ui">自动校直</span>功能可以拉直有问题文档的页面，例如倾斜扫描的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图片</b>文件中可用。 要启用此功能，请选择 KOReader 将尝试校正的最大倾斜角度。 如果未校正，您可能需要选择一个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多个因素。</p>
 
     
 
@@ -3053,7 +3053,7 @@ line-height: 2rem;
   
 <div class="L2-Sub-heading" id="L2-manganextfile">前往下一册</div>
     
-    <p>当翻到书籍尾页，KOReader将显示一个对话框，其中的<span class="ui">开启下册书籍</span>操作将打开当前书籍所在目录中名称排序挨着的另一本书。因此将一套丛书放进同个文件夹可以一本接一本顺序阅读，无需返回<span class="ui">文件管理器</span>操作。</p>
+    <p>当翻到书籍尾页，KOReader将显示一个对话框，其中的<span class="ui">开启下一本书籍</span>操作将打开当前书籍所在目录中名称排序挨着的另一本书。因此将一套丛书放进同个文件夹可以一本接一本顺序阅读，无需返回<span class="ui">文件管理器</span>操作。</p>
     
     <img loading="lazy" src="pictures/open_next_file.png" style="width: 60%;">
     
@@ -3228,7 +3228,7 @@ line-height: 2rem;
     <p><b>添加文件夹快捷方式：</b></p>
     <p>有两种方法可以将文件夹添加到<span class="ui">文件夹快捷方式</span>列表中：</p>
     <ol>
-        <li>当您在文件浏览器中时，点击右上角的<span class="ui">+（加号）菜单</span>按钮，然后点击<span class="ui">添加到文件夹快捷方式</span>项，并为此快捷方式输入描述性名称。<b>这将添加您当前所在的文件夹</b></li>
+        <li>当您在文件浏览器中时，点击右上角的<span class="ui">+（附加）菜单</span>按钮，然后点击<span class="ui">添加到文件夹快捷方式</span>项，并为此快捷方式输入描述性名称。<b>这将添加您当前所在的文件夹</b></li>
         <li>在文件浏览器中，长按文件夹名称可打开上下文菜单。点击<span class="ui">添加到文件夹快捷方式</span>项，然后为此快捷方式输入一个描述性名称。<b>这将添加您按下的文件夹</b></li>
     </ol>
 
@@ -3240,7 +3240,7 @@ line-height: 2rem;
     <p><b>查看文件夹快捷方式：</b></p>
     <p>您可以在阅读书籍时从<span class="ui">文件浏览器</span>或<span class="ui">阅读屏幕</span>打开<span class="ui">文件夹快捷</span>方式。</p>
     <ul>
-        <li><b>从文件浏览器：</b>右上角<span class="ui">+（加号）菜单</span>，然后选择<span class="ui">文件夹快捷方式</span>或指定手势。</li>
+        <li><b>从文件浏览器：</b>右上角<span class="ui">+（附加）菜单</span>，然后选择<span class="ui">文件夹快捷方式</span>或指定手势。</li>
         <li><b>从阅读屏幕：</b>通过为其分配手势。</li>
     </ul>
 
@@ -3421,7 +3421,7 @@ line-height: 2rem;
 
         <p>书单可能十分冗长，因此KOReader提供多种筛选方式以便更容易地找到要读的书籍。如前图所示，<b>方框2</b>和<b>方框3</b>标出了书籍筛选选项。<b>方框2</b>可以按照书籍阅读状态（未读、在读、已读、搁置）筛选；<b>方框3</b>可以通过书籍元数据（作者、丛书系列、语种、关键词）筛选。两种筛选方式还可组合使用，你也可以像这个例子一样组合这两组过滤器：<b>“向我展示这个集合中 Isaac Asimov<span class="ui">（按作者->Isaac Azimov）</span>编写的我还没有开始阅读的新书<span class="ui">（按状态->new）</span>。”</b></p>
         
-        <p>在<span class="ui">文件管理器</span>中长按某本书，可以更新书籍元数据或<span class="ui">查看书籍信息</span>。在弹出的对话框中长按任意项，可以编辑<b>作者</b>或<b>关键词</b>等书籍元数据。该操作也可通过<span class="external">Calibre</span>完成，这是一款便捷管理书籍元数据的第三方软件。</p>
+        <p>在<span class="ui">文件管理器</span>中长按某本书，可以更新书籍元数据或查看<span class="ui">书籍信息</span>。在弹出的对话框中长按任意项，可以编辑<b>作者</b>或<b>关键词</b>等书籍元数据。该操作也可通过<span class="external">Calibre</span>完成，这是一款便捷管理书籍元数据的第三方软件。</p>
 
         <div class="info"><span class="label_blue">说明</span> 请注意，<span class="external">Calibre</span>会改写书籍内部的元数据，因此将文件从<span class="external">Calibre</span>中导出后，修改过的元数据仍然有效；但KOReader不会修改书籍文件，而是将自定义的书籍元数据以独立文件的形式存储于与书籍关联的<b>.sdr文件夹</b>中，因此这些改动的元数据仅可使用KOReader查看。</div>
 
@@ -3507,7 +3507,7 @@ line-height: 2rem;
         
         <p>借助配置文件插件，只需执行单次操作即可完成这些调整。</p>
 
-        <p>配置文件可以手动套用，但<span class="ui">自动套用</span>特性才是该功能的强大之处。该特性可以在指定情况下自动套用特定配置档，请点击<a href="#L2-profileautoexec">自动套用配置</a>前往对应章节了解。此处仅介绍在<span class="ui">书单</span>中自动套用配置的功能。</p>
+        <p>配置文件可以手动套用，但<span class="ui">自动套用</span>特性才是该功能的强大之处。该特性可以在指定情况下自动套用特定配置文件，请点击<a href="#L2-profileautoexec">自动套用配置</a>前往对应章节了解。此处仅介绍在<span class="ui">书单</span>中自动套用配置的功能。</p>
 
         <p>简单来说，用户可以创建若干套配置文件，并且在打开特定书单中的书籍时自动套用。一些示例：</p>
 
@@ -3543,7 +3543,7 @@ line-height: 2rem;
 	<ul>
 		<li>书籍的显示设置</li>
 		<li>全书阅读进度</li>
-		<li>标注、书签及旁注笔记</li>
+		<li>标注、书签及笔记</li>
 	</ul>
 	
 	<p>在最近的一次更改中，我们添加了存储此元数据的新方法，以解决与设备之间同步相关的某些问题。目前有三种不同的方法来存储元数据，每种方法都有自己的优缺点。</p>
@@ -3647,7 +3647,7 @@ line-height: 2rem;
             </td>
             <td><p class="ui">点击 / 双击</p>
                 <p>用<b>一个</b>手指轻敲或双击</p>
-                <p><b>工作区：</b>屏幕上的任何地方</p>
+                <p><b>作用范围：</b>屏幕上的任何地方</p>
             </td>
         </tr>
 
@@ -3656,7 +3656,7 @@ line-height: 2rem;
             <td>
                 <p class="ui">点按</p>
                 <p>用<b>一个</b>手指轻点并按住</p>
-                <p><b>工作区：</b>只在四个角落</p>
+                <p><b>作用范围：</b>只在四个角落</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
@@ -3664,7 +3664,7 @@ line-height: 2rem;
             <td>
                 <p class="ui">双指点击</p>
         <p>用<b>两个</b>手指在同一时间轻轻敲击</p>
-        <p><b>工作区：</b>只在四个角落</p>
+        <p><b>作用范围：</b>只在四个角落</p>
             </td>
         </tr>
 
@@ -3672,26 +3672,26 @@ line-height: 2rem;
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
             <td><p class="ui">张开和捏合</p>
         <p>与在手机或平板电脑上放大和缩小相同。</p>
-        <p><b>工作区：</b>屏幕上的任何地方</p>
+        <p><b>作用范围：</b>屏幕上的任何地方</p>
         <div class="info"><span class="label_blue">说明</span> 该手势交互在部分设备型号上可能无法稳定生效。如果发生这种情况，请选择其它的交互手势。</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
             <td><p class="ui">单指滑动</p>
         <p>用<b>一个</b>手指轻扫动作</p>
-        <p><b>工作区：</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置 </p></td>
+        <p><b>作用范围：</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置 </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
             <td><p class="ui">双指滑动</p>
         <p>用<b>两个</b>手指在同一时间滑动动作</p>
-        <p><b>工作区：</b>屏幕上的任何地方</p></td>
+        <p><b>作用范围：</b>屏幕上的任何地方</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
             <td><p class="ui">多重滑动</p>
         <p>在不抬起手指的情况下连续完成多次滑动。例如，比如画字母 <b>U</b>（下-右-上）</p>
-        <p><b>工作区：</b>屏幕上的任何地方</p></td>
+        <p><b>作用范围：</b>屏幕上的任何地方</p></td>
         </tr>
         <tr>
             <td></td>
@@ -3716,7 +3716,7 @@ line-height: 2rem;
     <div class="L3-Smaller-heading">点击边角</div>
     
     <p><b>左上角</b>>切换翻页</p>
-    <p><b>右上角</b> > 切换书签</p>
+    <p><b>右上角</b> > 标记/取消书签</p>
     <p><b>同时点击对角</b>>截图</p>
 
     <hr>
@@ -3779,8 +3779,8 @@ line-height: 2rem;
                 <li>查询维基百科</li>
                 <li>呼出菜单</li>
                 <li>搜索菜单</li>
-                <li>打开当前文件夹中的下一册</li>
-                <li>打开当前文件夹中的上一册</li>
+                <li>打开当前文件夹中的下一个文件</li>
+                <li>打开当前文件夹中的上一个文件</li>
                 <li>笔记文件</li>
                 <li>屏幕截图</li>
                 <li>显示阅读进度</li>
@@ -3943,7 +3943,7 @@ line-height: 2rem;
                 <li>快速翻页</li>
                 <li>上一处书签</li>
                 <li>下一处书签</li>
-                <li>首条书签</li>
+                <li>首个书签</li>
                 <li>末条书签</li>
                 <li>最新书签</li>
                 <li>返回</li>
@@ -3959,9 +3959,9 @@ line-height: 2rem;
                 <li>书籍地图</li>
                 <li>书籍地图（预览）</li>
                 <li>页面预览</li>
-                <li>书签相关</li>
+                <li>书签</li>
                 <li>书签搜索</li>
-                <li>切换书签</li>
+                <li>标记/取消书签</li>
                 <li>书籍状态</li>
                 <li>书籍信息</li>
                 <li>书籍简介</li>
@@ -3988,7 +3988,7 @@ line-height: 2rem;
         <div class="L3-Smaller-heading" style="text-align: left;">固定布局文档</div>
             <ol>
                 <li>开/关 快捷跳页</li>
-                <li>开/关 书签跳页</li>
+                <li>开/关 标记/取消书签</li>
                 <li>开/关 页面重排</li>
                 <li>缩放模式</li>
                 <li>更改缩放比例</li>
@@ -3997,9 +3997,9 @@ line-height: 2rem;
                 <li>边距</li>
                 <li>水平重叠</li>
                 <li>垂直重叠</li>
-                <li>满屏显示</li>
-                <li>缩放为</li>
-                <li>页面分割的栏与节数量</li>
+                <li>适应</li>
+                <li>缩放设置为</li>
+                <li>页面分割的列数/行数</li>
                 <li>缩放比例</li>
                 <li>翻页方向</li>
                 <li>显示模式</li>
@@ -4017,7 +4017,7 @@ line-height: 2rem;
                 <li>强制 OCR</li>
                 <li>文字方向</li>
                 <li>文档列数</li>
-                <li>自动拉直</li>
+                <li>自动校直</li>
             </ol>
 
     </div>
@@ -4095,11 +4095,11 @@ line-height: 2rem;
             <td><b>Esc</b></td>
         </tr>
         <tr>
-            <td>书签相关</td>
+            <td>书签</td>
             <td><b>同时按下Shift键及左方向键</b></td>
         </tr>
         <tr>
-            <td>切换书签</td>
+            <td>标记/取消书签</td>
             <td><b>同时按下Shift键及右方向键</b></td>
         </tr>
         <tr>
@@ -4350,19 +4350,19 @@ line-height: 2rem;
 
         <div class="info"><span class="label_blue">说明</span> 如上所述，如果不打算在<span class="ui">快捷菜单</span>中添加多个选项，本章节可以直接跳过。</div>
 
-        <p><span class="ui">快捷菜单</span>本质上是一套<span class="ui">配置档</span>，只是以菜单形式显示在屏幕上。使用该功能须先对<span class="ui">配置档</span>有所了解。若是如此请继续阅读，否则请转至<span class="ui">配置档</span>一节（即下一节），创建一套包含若干项的<span class="ui">配置档</span>再回来继续阅读。</p>
+        <p><span class="ui">快捷菜单</span>本质上是一套<span class="ui">配置文件</span>，只是以菜单形式显示在屏幕上。使用该功能须先对<span class="ui">配置文件</span>有所了解。若是如此请继续阅读，否则请转至<span class="ui">配置文件</span>一节（即下一节），创建一套包含若干项的<span class="ui">配置文件</span>再回来继续阅读。</p>
         
-        <p>在继续之前，我们假设您已经按照上一段中的说明创建了<span class="ui">配置档</span>。现在，我们将把<span class="ui">配置档</span>转换为<span class="ui">快捷菜单</span>。</p>
+        <p>在继续之前，我们假设您已经按照上一段中的说明创建了<span class="ui">配置文件</span>。现在，我们将把<span class="ui">配置文件</span>转换为<span class="ui">快捷菜单</span>。</p>
 
-        <p><b>（1）</b>转到新创建的<span class="ui">配置档</span>，在下图所示的菜单中启用<span class="ui">显示在操作列表中</span>，这将使该<span class="ui">配置档</span>列入<span class="ui">手势交互管理</span>列表中。在同一菜单中启用<span class="ui">显示为快捷菜单</span>，这样该配置档会显示为菜单列表，而不是在后台静默执行。</p>
+        <p><b>（1）</b>转到新创建的<span class="ui">配置文件</span>，在下图所示的菜单中启用<span class="ui">显示在操作列表中</span>，这将使该<span class="ui">配置文件</span>列入<span class="ui">手势交互管理</span>列表中。在同一菜单中启用<span class="ui">显示为快捷菜单</span>，这样该配置文件会显示为菜单列表，而不是在后台静默执行。</p>
         
         <img loading="lazy" src="pictures/quickmenu_advanced.png" style="width:100%;">
 
-        <p><b>（2）</b>现在，我们需要一种访问菜单的方法。转到<span class="ui">交互手势管理器</span>，并从列表中选择一个手势以分配给菜单。假设我们想点击屏幕的一角来显示菜单。现在点按<span class="ui">在屏幕四角点按</span>，然后选择<span class="ui">左下角</span>。现在点击<span class="ui">常规</span>并转到第二页。您将发现您的<span class="ui">配置档</span>显示为「配置文件〇〇〇〇」，其中〇〇〇〇是您为此<span class="ui">配置档</span>指定的标题。点击其复选框，将您的配置档分配给该手势。</p>
+        <p><b>（2）</b>现在，我们需要一种访问菜单的方法。转到<span class="ui">交互手势管理器</span>，并从列表中选择一个手势以分配给菜单。假设我们想点击屏幕的一角来显示菜单。现在点按<span class="ui">在屏幕四角点按</span>，然后选择<span class="ui">左下角</span>。现在点击<span class="ui">常规</span>并转到第二页。您将发现您的<span class="ui">配置文件</span>显示为「配置文件X」，其中X是您为此<span class="ui">配置文件</span>指定的标题。点击其复选框，将您的配置文件分配给该手势。</p>
 
-        <p>完成所有步骤后，现在当您点击左下角时，应该会看到您的菜单。您可以通过转到其<span class="ui">配置档</span>页面来编辑菜单，您可以在其中添加或删除项目。此外，那里还有一个<span class="ui">排序</span>项，因此您可以更改菜单项的顺序。</p>
+        <p>完成所有步骤后，现在当您点击左下角时，应该会看到您的菜单。您可以通过转到其<span class="ui">配置文件</span>页面来编辑菜单，您可以在其中添加或删除项目。此外，那里还有一个<span class="ui">排序</span>项，因此您可以更改菜单项的顺序。</p>
 
-        <p> 如前所述，<span class="ui">快捷菜单</span>实际上是一套<span class="ui">配置档</span>。这意味着您可以有多个菜单。如果需要，可以创建另一个<span class="ui">配置档</span>，并按照相同的步骤创建另一菜单。</p>
+        <p> 如前所述，<span class="ui">快捷菜单</span>实际上是一套<span class="ui">配置文件</span>。这意味着您可以有多个菜单。如果需要，可以创建另一个<span class="ui">配置文件</span>，并按照相同的步骤创建另一菜单。</p>
 
 
 <div class="L2-Sub-heading" id="L2-quickmenutips">快捷菜单相关技巧</div>
@@ -4386,9 +4386,9 @@ line-height: 2rem;
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ 点按及手势交互 / 交互手势管理 / 「用户指定的手势」 / 保持快捷菜单开启</div>
 
-        <p>若已创建<b>基于配置档（高阶操作）</b>的快捷菜单，请在下列菜单中选择：</p>
+        <p>若已创建<b>基于配置文件（高阶操作）</b>的快捷菜单，请在下列菜单中选择：</p>
 
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;">/ 配置档 / 「用户指定的快捷菜单配置文件」 / 编辑行为 / 保持快捷菜单开启</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;">/ 配置文件 / 「用户指定的快捷菜单配置文件」 / 编辑行为 / 保持快捷菜单开启</div>
 
 
         <div class="L3-Smaller-heading">在手势位置打开快速菜单</div>
@@ -4402,9 +4402,9 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-profiles">配置</div>
+<div class="L2-Sub-heading" id="L2-profiles">配置文件</div>
         <p>
-        配置档本质上是一套操作集合（就像宏命令），可通过单个手势触发。</p>
+        配置文件本质上是一套操作集合（就像宏命令），可通过单个手势触发。</p>
 
         <p>例如在阅读某种类型的书籍时总会应用如下设置：</p>
         <ul>
@@ -4415,12 +4415,12 @@ line-height: 2rem;
         
         <p>借助配置文件插件，只需执行单次操作即可完成这些调整。</p>
         
-        <div class="info"><span class="label_blue">信息</span> 启用另一套配置档后，前一套配置档所执行的修改将<b>不可撤销</b>。例如，用户启用了一套配置档将字号从<b>20</b>改为<b>24</b>，然后又启用了另一套配置档调整了<b>屏幕前光</b>，此时字号将<b>保持为24</b>。KOReader没有退出或撤销配置档的操作选项。
+        <div class="info"><span class="label_blue">信息</span> 启用另一套配置文件后，前一套配置文件所执行的修改将<b>不可撤销</b>。例如，用户启用了一套配置文件将字号从<b>20</b>改为<b>24</b>，然后又启用了另一套配置文件调整了<b>屏幕前光</b>，此时字号将<b>保持为24</b>。KOReader没有退出或撤销配置文件的操作选项。
         </div>
 
-        <p>要创建配置档，首先确保<span class="ui">配置档</span>插件已激活。如果您在下面看不到它：</p>
+        <p>要创建配置文件，首先确保<span class="ui">配置文件</span>插件已激活。如果您在下面看不到它：</p>
         
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 配置档</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / 配置文件</div>
         
         <p>然后必须从以下位置打开：</p>
         
@@ -4428,34 +4428,34 @@ line-height: 2rem;
         
 
 
-<div class="L3-Smaller-heading">创建配置档</div>
+<div class="L3-Smaller-heading">创建配置文件</div>
 
         <p>
-        在<span class="ui">配置档</span>菜单中，轻触<span class="ui">新建</span>，并为配置档指定一个描述性标题。现在，您应该可以在菜单中看到新的配置档。点按后将看到左侧的屏幕。您还可以从此菜单中<span class="ui">删除、重命名</span>或<span class="ui">复制</span>配置档。</p>
+        在<span class="ui">配置文件</span>菜单中，轻触<span class="ui">新建</span>，并为配置文件指定一个描述性标题。现在，您应该可以在菜单中看到新的配置文件。点按后将看到左侧的屏幕。您还可以从此菜单中<span class="ui">删除、重命名</span>或<span class="ui">复制</span>配置文件。</p>
                 
         <img loading="lazy" src="pictures/profile_create.png" style="width:100%;;">
 
-        <p>当您点击<span class="ui">编辑操作</span>菜单项时，您将看到右侧的菜单。这与手势选择菜单相同，并且在许多类别中都有动作。这意味着您可以使用<span class="ui">配置档</span>执行任何<span class="ui">手势</span>动作。</p>
+        <p>当您点击<span class="ui">编辑操作</span>菜单项时，您将看到右侧的菜单。这与手势选择菜单相同，并且在许多类别中都有动作。这意味着您可以使用<span class="ui">配置文件</span>执行任何<span class="ui">手势</span>动作。</p>
 
-        <p>现在，您可以从所有这些类别中选择多个项目。激活该配置档时，将执行您在此处选择的操作。</p>
+        <p>现在，您可以从所有这些类别中选择多个项目。激活该配置文件时，将执行您在此处选择的操作。</p>
 
         
-<div class="L3-Smaller-heading">启用一套配置档</div>
+<div class="L3-Smaller-heading">启用一套配置文件</div>
 
-        <p>有许多方法可以激活配置档：</p>
+        <p>有许多方法可以激活配置文件：</p>
 
         <ol>
             <li>在<span class="ui">配置文件</span>菜单中，通过<b>长按</b>某套配置文件标题可以启用该配置文件</li>
-            <li>您可以使用手势激活配置档。为此，您必须从配置档的菜单中启用<span class="ui">显示在操作列表中</span>。现在，您可以通过以下方式选择它：
+            <li>您可以使用手势激活配置文件。为此，您必须从配置文件的菜单中启用<span class="ui">显示在操作列表中</span>。现在，您可以通过以下方式选择它：
 
-            <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点按及手势交互 / 交互手势管理 / “任意手势” / 通用类 / 配置档 「自定义标题」</div>
+            <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 点按及手势交互 / 交互手势管理 / “任意手势” / 通用类 / 配置文件 「自定义标题」</div>
             </li>
-            <li>您还可以根据某些条件<b>自动激活配置档</b>。请参阅下一个标题以了解如何使用此强大的功能。</li>
+            <li>您还可以根据某些条件<b>自动激活配置文件</b>。请参阅下一个标题以了解如何使用此强大的功能。</li>
         </ol>
 
-		<div class="L2-Sub-heading" id="L2-profileautoexec">自动套用配置档</div>
+		<div class="L2-Sub-heading" id="L2-profileautoexec">自动套用配置文件</div>
         
-		<p>配置档可依如上所述方式手动套用，但<span class="ui">自动套用</span>功能才能真正释放配置档的潜力。 使用此功能可以在满足某些触发条件和次级条件时自动套用配置档：</p>
+		<p>配置文件可依如上所述方式手动套用，但<span class="ui">自动套用</span>功能才能真正释放配置文件的潜力。 使用此功能可以在满足某些触发条件和次级条件时自动套用配置文件：</p>
 	
 			<table class="grid-table" align="center" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
 	
@@ -4463,13 +4463,13 @@ line-height: 2rem;
 				<td><b>触发条件</b></td><td><b>次级条件</b></td>
 			</tr>
 			<tr>
-				<td><span class="ui">KOReader 启动时</span><p>每次KOReader启动时套用此配置档。 请注意，该条件仅在KOReader启动页面设置为<span class="ui">文件管理器</span>或<span class="ui">上次阅读的书籍</span>时才会生效。</p></td><td>无</td>
+				<td><span class="ui">KOReader 启动时</span><p>每次KOReader启动时套用此配置文件。 请注意，该条件仅在KOReader启动页面设置为<span class="ui">文件管理器</span>或<span class="ui">上次阅读的书籍</span>时才会生效。</p></td><td>无</td>
 			</tr>
 			<tr>
-				<td><span class="ui">唤醒时</span> <p>每次设备唤醒时套用此配置档</p></td><td>无</td>
+				<td><span class="ui">唤醒时</span> <p>每次设备唤醒时套用此配置文件</p></td><td>无</td>
 			</tr>
 			<tr>
-				<td><span class="ui">改变屏幕显示方向时</span> <p>当屏幕旋转到指定方向时套用此配置档。</p>  <p><b>示例</b>：当设备横向时，更改为双列布局。当设备颠倒时，激活夜间模式。</p></td>
+				<td><span class="ui">改变屏幕显示方向时</span> <p>当屏幕旋转到指定方向时套用此配置文件。</p>  <p><b>示例</b>：当设备横向时，更改为双列布局。当设备颠倒时，激活夜间模式。</p></td>
 				<td>
 				<ul>
 				<li><span class="ui">向左旋转90°</span>（屏幕横向）</li>
@@ -4480,7 +4480,7 @@ line-height: 2rem;
 				</td>
 			</tr>
 			<tr>
-				<td><span class="ui">打开文件夹时</span> <p>在文件管理器中打开指定文件夹时套用此配置档。此项还可用于改变<span class="ui">文件管理器</span>的视图。例如当打开某文件夹时，将文件显示视图从<b>平铺</b>改为<b>详情</b>视图。</p></td>
+				<td><span class="ui">打开文件夹时</span> <p>在文件管理器中打开指定文件夹时套用此配置文件。此项还可用于改变<span class="ui">文件管理器</span>的视图。例如当打开某文件夹时，将文件显示视图从<b>平铺</b>改为<b>详情</b>视图。</p></td>
 				<td><ul>
 					<li><span class="ui">当目录路径包含</span>特定字词时</li>
 					<li><span class="ui">当目录路径不包含</span>特定字词时</li>
@@ -4489,11 +4489,11 @@ line-height: 2rem;
 			<tr>
 				<td><span class="ui">打开书籍时</span>
 					<p>当打开符合特定次级条件的书籍时，此项将会执行。</p>
-					<p>前四项次级条件是按照<b>或关系</b>匹配，因此满足其中任何一项即可套用该配置档。</p>
+					<p>前四项次级条件是按照<b>或关系</b>匹配，因此满足其中任何一项即可套用该配置文件。</p>
 					</td>
 					<td>
 					<ul>
-						<li>与<b>屏幕显示方向</b>条件组合</li>
+						<li>与<b>设备方向</b>条件组合</li>
 						<li>与<b>书籍元数据</b>条件组合</li>
 						<li>与<b>书籍文件路径</b>条件组合</li>
 						<li>与<b>书籍属于指定书单</b>条件组合</li>
@@ -4508,7 +4508,7 @@ line-height: 2rem;
 				</td>
 					<td>
 					<ul>
-						<li>与<b>屏幕显示方向</b>条件组合</li>
+						<li>与<b>设备方向</b>条件组合</li>
 						<li>与<b>书籍元数据</b>条件组合</li>
 						<li>与<b>书籍文件路径</b>条件组合</li>
 						<li>与<b>书籍属于指定书单</b>条件组合</li>
@@ -4520,24 +4520,24 @@ line-height: 2rem;
 	
 			<br><br>
 	
-			<p><b>配置档示例：</b></p>
+			<p><b>配置文件示例：</b></p>
 	
-			<p>下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引玉。示例也包含了自动套用配置档的触发条件和<span class="ui">书单</span>功能：</p>
+			<p>下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引玉。示例也包含了自动套用配置文件的触发条件和<span class="ui">书单</span>功能：</p>
 	
 			<ul>
 				<li>将设备转为横向时启用<b>双栏模式</b>。</li>
 				<li>将设备倒置时启用<b>夜间模式</b>。</li>
-				<li>将所有漫画添加到一份书单，然后创建一套配置档在打开书单内的漫画时自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的翻页点按及滑动手势。</li>
-				<li>将漫画书添加到套用配置档的书单，阅读该书单内的书籍时将页面刷新间隔降低到<span class="ui">逐页刷新</span>以避免残影。</li>
-				<li>首次从<b>期刊</b>文件夹打开文件时，套用配置档以调整字体、字号并设置双栏模式。</li>
+				<li>将所有漫画添加到一份书单，然后创建一套配置文件在打开书单内的漫画时自动套用，将翻页方向改为<b>从右向左</b>并交换左右两侧的翻页点按及滑动手势。</li>
+				<li>将漫画书添加到套用配置文件的书单，阅读该书单内的书籍时将页面刷新间隔降低到<span class="ui">逐页刷新</span>以避免残影。</li>
+				<li>首次从<b>期刊</b>文件夹打开文件时，套用配置文件以调整字体、字号并设置双栏模式。</li>
 				<li>将有问题的PDF文档编成一份书单，在阅读这些文档时套用配置触发<span class="ui">自动OCR</span>或者启动<span class="ui">页面重排模式</span>。</li>
 				<li>在<span class="ui">文件管理器</span>中打开特定文件夹时，切换视图为封面显示、详情列表等。</li>
 				<li>打开<b>《参考类书籍》</b>书单中的书籍时禁用阅读统计，并在关闭书籍时重新启用阅读统计。</li>
-				<li>在交互手势管理器中呼出<span class="ui">样式微调</span>菜单 ，可以创建一套配置档以根据指定条件启用或禁用对应样式。例如，可以创建一套<b>「禁用出版方版式 •并•且• 应用用户样式微调」</b>的配置档，根据书籍文件存放目录、被编入的书单或书籍元数据中包含的关键词等条件自动套用。 请查阅<a href="#L2-styletweaks">样式微调</a>一节详细了解。</li>
+				<li>在交互手势管理器中呼出<span class="ui">样式微调</span>菜单 ，可以创建一套配置文件以根据指定条件启用或禁用对应样式。例如，可以创建一套<b>「禁用出版方版式 •并•且• 应用用户样式微调」</b>的配置文件，根据书籍文件存放目录、被编入的书单或书籍元数据中包含的关键词等条件自动套用。 请查阅<a href="#L2-styletweaks">样式微调</a>一节详细了解。</li>
 			</ul>
 
         
-<div class="L3-Smaller-heading">配置档和快捷菜单的技术细节</div>
+<div class="L3-Smaller-heading">配置文件和快捷菜单的技术细节</div>
 
         <p><span class="label_red">！！专业操作！！</span></p>
     
@@ -4545,20 +4545,20 @@ line-height: 2rem;
         KOReader有<b>操作组/设置组</b>的概念，这种成套的操作组合可以通过两种方式创建:</p>
 
         <ol>
-            <li><span class="ui">「高阶操作」</span>编制成配置档（保存于<span class="ui">settings/profiles.lua</span>中）</li>
+            <li><span class="ui">「高阶操作」</span>编制成配置文件（保存于<span class="ui">settings/profiles.lua</span>中）</li>
             <li><span class="ui">「简单方法」</span>作为指定手势交互的操作项（保存于<span class="ui">settings/gestures.lua中）</span></li>
         </ol>
     
         <p>操作组合也可以通过两种不同的方式<b>执行</b>:</p>
         <ol>
-            <li>在触发后按照指定的顺序依次逐项执行（作为<span class="ui">配置档</span>）</li>
+            <li>在触发后按照指定的顺序依次逐项执行（作为<span class="ui">配置文件</span>）</li>
             <li>将其显示为<span class="ui">快速菜单</span></li>
         </ol>
         
         <p>对操作组合进行添加/删除及对<span class="ui">快捷菜单</span>项进行启用/排序都是通过相同的<span class="ui">操作菜单</span>完成。唯一的区别是，交互手势管理器中的操作菜单还有两个项目（忽略），导致<span class="ui">显示为快捷菜单</span>和<span class="ui">排序</span>这两个选项被挤到第二页上。</p>
 
 
-        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">说明</span> 可以将配置档文件备份并传输到其他设备。详情请参阅<a href="#backup">备份KOReader设置</a>一节。</p></div>
+        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">说明</span> 可以将配置文件文件备份并传输到其他设备。详情请参阅<a href="#backup">备份KOReader设置</a>一节。</p></div>
 
 
 
@@ -4655,15 +4655,15 @@ line-height: 2rem;
         <p>	<b> 新闻下载器 </b> - 检索 RSS 和 Atom 新闻条目并将它们保存为 HTML 文件。查看我们的 <a href="https://github.com/koreader/koreader/wiki/News-downloader">维基页面</a>了解作方法。</p>
         <p>	<b> OPDS </b> - 允许您从在线目录下载书籍	</p>
         <p>	<b> 视觉扩展器 </b> - 允许您使用余光（周边视觉）更快地阅读。查看此 YouTube 视频以了解其工作原理：<a href="https://youtu.be/jeOHqI9SqOI?t=137">如何在 20 分钟内将阅读速度提高三倍（蒂姆·费里斯）</a>	</p>
-        <p>	<b>配置档</b>——将多项设置整合成为一套可切换套用的配置档	</p>
+        <p>	<b>配置文件</b>——将多项设置整合成为一套可切换套用的配置文件	</p>
         <p>	<b>阅读进度同步</b> - 在多台KOReader阅读设备间同步阅读进度。请查阅<a href="https://github.com/koreader/koreader/wiki/Progress-sync">维基页</a>了解如何使用。
         </p>
         <p>	<b>来自剪贴板的QR</b> - 从剪贴板内容生成QR码	</p>
         <p>	<b> 阅读计时器 </b> - 在用户定义的时间后显示消息的倒计时计时器	</p>
         <p>	<b> 阅读统计 </b> - 计算阅读会话统计数据和阅读速度，用于章节/书籍剩余时间估计	</p>
         <p>	<b> SSH </b> - 允许通过 SSH 协议访问您的设备。您可以通过 FTP 应用程序甚至文件管理器（如果支持）进行访问。查看我们的 <a href="https://github.com/koreader/koreader/wiki/SSH">维基页面</a>了解操作方法。</p>
-        <p>	<b> 系统统计信息 </b> - 您可以通过以下插件通过此插件查看您的 CPU/内存/电池信息：</p>
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 帮助 / 系统统计数据</div>
+        <p>	<b> 系统统计 </b> - 您可以通过以下插件通过此插件查看您的 CPU/内存/电池信息：</p>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 帮助 / 系统统计</div>
         <p>	<b> 终端模拟器 </b> - 在设备上启动可以运行完整终端应用的 shell（命令提示符）	</p>
         <p>	<b> 文本编辑器 </b> - 用于创建和编辑纯文本文件的基本文本编辑器	</p>
         <p>	<b> 时间同步 </b> - 将设备时间与 NTP 服务器同步	</p>
@@ -4745,7 +4745,7 @@ line-height: 2rem;
 <div class="L3-Smaller-heading">更改书籍封面</div>
 <p>您可以从以下菜单更改书籍封面：</p>
 
-<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍相关信息 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 设置书籍封面</div>
+<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍信息 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 设置书籍封面</div>
 
 <div class="L3-Smaller-heading">从截图自定义书籍封面</div>
     <p>
@@ -4755,7 +4755,7 @@ line-height: 2rem;
 
     <p>您可以在此处删除此自定义书籍封面：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍相关信息</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍信息</div>
 
     <p>在书籍信息页面，长按<span class="ui">封面图片</span>项，然后选择<span class="ui">重置自定义</span>。</p>
 
@@ -4815,7 +4815,7 @@ line-height: 2rem;
     <div class="L3-Smaller-heading">每页的行数/字数</div>
         <p>如果您想知道当前页面上显示了多少行或字，可以在以下位置查看：</p>
 
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍相关信息</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 书籍信息</div>
 
 
 
@@ -4836,7 +4836,7 @@ line-height: 2rem;
         <div class="L3-Smaller-heading">检查详细的设备统计信息</div>
         <p>您可以通过此菜单项查看您的系统信息，例如 <b>CPU/磁盘空间/内存</b> 使用情况：</p>
         
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 帮助 / 系统统计数据</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / 帮助 / 系统统计</div>
 
 
 
@@ -4923,7 +4923,7 @@ line-height: 2rem;
         <li>PDF 文件本身对于<b>您的设备内存来说可能太大</b>。</li>
         <li>PDF文档<b>可能内嵌大尺寸图片文件</b>。即使带有正常文本层的文档（可选中并标注），仍可能叠加了另一个图片层（页面的整体扫描件）；这会拖慢文档打开及翻页速度，因为大尺寸图片需要被压缩到屏幕尺寸以供显示，而该过程非常消耗CPU算力。</li>
         <li>PDF 文件可能包含许多需要精确定位的<b>单个元素</b>，例如包含大量图片和文本框的杂志页面。在这种情况下，KOReader 必须计算和绘制所有这些元素，这可能需要时间。</li>
-        <li><span class="ui">自动拉直</span>功能（允许您调整页面的倾斜）也可能会减慢您的阅读器速度。</li>
+        <li><span class="ui">自动校直</span>功能（允许您调整页面的倾斜）也可能会减慢您的阅读器速度。</li>
         <li>如果您将<span class="ui">渲染质量</span>设置为<span class="ui">高</span>，而<span class="ui">重排</span>是<b>开</b>，文本将更令人愉悦，但它可能比<span class="ui">默认</span>慢得多（每页翻几秒钟），具体取决于您的文档。
 
             <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:22px;"> / 渲染质量</div>
