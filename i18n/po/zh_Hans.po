@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-14 07:46+0000\n"
-"PO-Revision-Date: 2025-10-14 06:48+0000\n"
+"PO-Revision-Date: 2025-10-15 13:07+0000\n"
 "Last-Translator: rerbin <rerbin@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -507,7 +507,7 @@ msgstr "快捷菜单相关技巧"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1031-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1031-13"
 msgid "Profiles"
-msgstr "配置"
+msgstr "配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1032-13
 msgid "Profile auto-execution <span class=\"microns\"></span>"
@@ -1367,12 +1367,9 @@ msgstr ""
 "使<span class=\"ui\">状态栏</span>显示或隐藏。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1293-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:935-17"
-#| msgid "Changing text appearance"
 msgctxt "user_guide/en.html+html.body.div.div:1293-5"
 msgid "Changing text appearance"
-msgstr "变更文本样式"
+msgstr "文本排版设置"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1296-5
 msgid "<b>Changing the font*</b>:"
@@ -1943,12 +1940,9 @@ msgstr ""
 "filebrowser\">对应章节</a>了解。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1478-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:943-17"
-#| msgid "Reading Screen"
 msgctxt "user_guide/en.html+html.body.div.div:1478-1"
 msgid "Reading Screen"
-msgstr "阅读界面"
+msgstr "阅读器"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1480-5
 msgid "<b>READING SCREEN</b> has two menus:"
@@ -2039,8 +2033,8 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
-"<b>旁注标志</b>：该标志出现在添加了旁注笔记的标注旁。KOReader提供多种样式的旁"
-"注标志。前往<a href=\"#L1-bookmarks\">书签、标注和笔记</a>章节了解详情"
+"<b>笔记标记</b>：该标志出现在添加了笔记的标注旁。KOReader提供多种样式的笔记标"
+"记。前往<a href=\"#L1-bookmarks\">书签、标注和笔记</a>章节了解详情"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1503-1
 msgid "Indicator icons"
@@ -2223,7 +2217,7 @@ msgid ""
 "page size)."
 msgstr ""
 "<b>epub、mobi、html</b>等文件格式属于可重排版文件，因此不存在固定的页码。这些"
-"文档的页码会随屏幕尺寸、显示方向等因素动态变化（而诸如<b>PDF</b>或<b>djvu</b>"
+"文档的页码会随屏幕尺寸、设备方向等因素动态变化（而诸如<b>PDF</b>或<b>djvu</b>"
 "的文件格式则拥有固定的版面尺寸，因此页码也是确定的）。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1583-5
@@ -2783,18 +2777,13 @@ msgstr ""
 "class=\"ui\">副状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1763-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:1609-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgctxt "user_guide/en.html+html.body.div.div:1763-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 状态栏 / 副状态栏"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 副状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1765-5
 msgid ""
@@ -3179,12 +3168,9 @@ msgstr ""
 "style=\"width:22px;\"> / 屏幕相关 / 电子墨水屏设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1899-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:953-9"
-#| msgid "MOVING THROUGH YOUR BOOK"
 msgctxt "user_guide/en.html+html.body.div.div:1899-1"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr "浏览您的书籍"
+msgstr "书籍导航"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1901-5
 msgid ""
@@ -3897,18 +3883,13 @@ msgid ""
 msgstr "通过下列路径可以找到<span class=\"ui\">创建副目录</span>功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2111-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:1988-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Settings / Alternative table of contents"
 msgctxt "user_guide/en.html+html.body.div.div:2111-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Alternative table of contents"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 设置 / 副目录"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 设置 / 副目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2113-5
 msgid ""
@@ -4265,9 +4246,6 @@ msgid "CUSTOMIZING TEXT APPEARANCE"
 msgstr "自定义文本样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2206-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:965-17"
-#| msgid "Default appearance settings"
 msgctxt "user_guide/en.html+html.body.div.div:2206-1"
 msgid "Default appearance settings"
 msgstr "默认样式设置"
@@ -4293,9 +4271,9 @@ msgid ""
 "column</b> mode."
 msgstr ""
 "KOReader的方法与此不同。我们保存每本书的外观设置。这使您可以灵活地更改当前书"
-"籍的设置，而不会影响其他书籍。例如，如果你有一些奇幻书籍，你可以将字体更改为"
-"中世纪风格的字体，这个改变将只应用于这些书籍。或者，您可以将一些书籍设置为以"
-"<b>横向</b>或<b>双列</b>模式打开。"
+"籍的设置，而不会影响其他书籍。例如，如果您有一些奇幻小说，你可以将字体更改为"
+"中世纪风格的字体，这个改变将只应用于这些书籍。或者，您可以将一些书籍设置为以<"
+"b>横向</b>或<b>双列</b>模式打开。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2212-5
 msgid ""
@@ -4470,12 +4448,9 @@ msgid ""
 msgstr "您可以从<span class=\"ui\">配置文件菜单</span>应用配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2260-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:1918-17"
-#| msgid "You can assign a gesture to it"
 msgctxt "user_guide/en.html+html.body.div.ul.li:2260-9"
 msgid "You can assign a gesture to it"
-msgstr "您可以为其指定一个手势"
+msgstr "您可以为其设置一个手势"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2261-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
@@ -4490,9 +4465,6 @@ msgstr ""
 "分。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2266-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li.li:966-17"
-#| msgid "Using your own fonts"
 msgctxt "user_guide/en.html+html.body.div.div:2266-1"
 msgid "Using your own fonts"
 msgstr "使用自有字体"
@@ -4646,21 +4618,22 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
-"在基于HTML/CSS的文档（如EPUB）中，书籍可以指定使用字体家族而不是特定的字体名"
-"称。 这些族可以是<b>Serif、Sans-Serif、Monospace、Cursive、Fantasy、Emoji、"
-"Fang Song和Math</b>。 例如，在一本书中，正常的文本可以用<b>无衬线字体</b>显"
-"示，而对话则用<b>衬线</b>字体显示。 KOReader通常对所有这些系列使用默认字体，"
-"但<b>Monospace</b>和<b>Math</b>除外（由文本节点的样式确定，例如<b>'font-"
-"family：serif'</b>）。 如果您希望这些系列看起来不同，您可以在这里为它们指定特"
-"定的字体："
+"在基于HTML/CSS的文档（如EPUB）中，书籍可以指定使用字体族而不是特定的字体名称"
+"。 这些字体族可以是<b>衬线体（Serif）、无衬线体（Sans-Serif）、等宽体（Monosp"
+"ace）、草书体（Cursive）、花体（Fantasy）、表情符号体（Emoji）、仿宋体（Fang "
+"Song）和数学体（Math）。</b>。 例如，在一本书中，正常的文本可以用<b>无衬线体<"
+"/b>显示，而对话则用<b>衬线体</b>显示。 KOReader 通常对所有这些字体族使用默认"
+"字体，但<b>等宽体（Monospace）</b>和<b>数学体（Math）</b>除外（具体由文本节点"
+"的样式决定，例如<b>'font-family：serif'</b>）。 如果您希望这些字体族看起来更"
+"具区别性，您可以在这里为它们指定特定的字体："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2311-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 字体 / 字体字族"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 字体 / Font-family字体"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2313-5
 msgid ""
@@ -4689,11 +4662,11 @@ msgid ""
 "open your font selection menu and change the font like shown in the image "
 "below:"
 msgstr ""
-"如果你经常在字体之间切换（比如编程书籍用<b>等宽字体</b>，小说用<b>衬线字体</"
-"b>），有一个解决方案可以让你比每次都进入菜单更容易。 您可以为您的字体和所有字"
-"体相关设置（如<span class=\"ui\">行距，对比度，粗体</span>等）创建配置档，并"
-"将这些配置档添加到<span class=\"ui\">快捷菜单</span>中。 因此，只需一个手势，"
-"您就可以打开字体选择菜单，并更改字体，如下图所示："
+"如果你经常在字体之间切换（比如编程书籍用<b>等宽字体</b>，小说用<b>衬线字体</b"
+">），有一个解决方案可以让你比每次都进入菜单更容易。 您可以为您的字体和所有字"
+"体相关设置（如<span class=\"ui\">行距，对比度，粗体</span>等）创建配置文件，"
+"并将这些配置文件添加到<span class=\"ui\">快捷菜单</span>中。 因此，只需一个手"
+"势，您就可以打开字体选择菜单，并更改字体，如下图所示："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2325-5
 msgid ""
@@ -5193,18 +5166,13 @@ msgstr ""
 "span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2490-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:2469-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgctxt "user_guide/en.html+html.body.div.div:2490-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / 样式微调 / 用户样式微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:26px;\"> / 样式微调 / 用户样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2494-9
 msgid ""
@@ -5310,9 +5278,6 @@ msgid "H1 { border-top: 2px solid black; }"
 msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2535-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:972-9"
-#| msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
 msgctxt "user_guide/en.html+html.body.div.div:2535-1"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
 msgstr "书签、标注与笔记"
@@ -5372,20 +5337,13 @@ msgstr ""
 "可以将喜欢的标注样式设为默认样式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2561-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/en."
-#| "html+html.body.div.div.table.tr.td.div:876-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.div:2561-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 标注样式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2565-5
 msgid ""
@@ -5398,8 +5356,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注相关 / 标注用色"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 标注 / 标注用色"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2571-5
 msgid "Some tips for color highlights:"
@@ -5422,10 +5380,10 @@ msgid ""
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
 msgstr ""
-"通过组合使用 <b>下划线</b>、<b>删除线</b>及颜色标注，可以创建一套强大的标注系"
-"统。例如，可以用<span style=\"text-decoration: line-through; font-weight: "
-"bold; color: red;\">红色删除线</span>样式标注删除段落，或用<span "
-"style=\"text-decoration: underline; font-weight: bold; color: orange;\">橙色"
+"您可以将颜色与 <b>下划线</b>、<b>删除线</b>等不同的标注样式结合，可以创建一套"
+"强大的标注系统。例如，可以用<span style=\"text-decoration: line-through; "
+"font-weight: bold; color: red;\">红色删除线</span>样式标注删除段落，或用<span"
+" style=\"text-decoration: underline; font-weight: bold; color: orange;\">橙色"
 "下划线</span>样式标注重点，等等。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2579-1
@@ -5456,7 +5414,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2592-5
 msgid "NOTES:"
-msgstr "旁注笔记："
+msgstr "笔记："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2594-5
 msgid ""
@@ -5468,29 +5426,25 @@ msgid ""
 "icon shown on the right side of the picture below):"
 msgstr ""
 "还可为标注添加笔记；只需点按一段标注，从弹出菜单中选择<span class=\"ui\">添加"
-"笔记</span>。还可选择一种<span class=\"ui\">笔记标志</span>标出包含笔记的标"
-"注。有三种样式可供选择——<span class=\"ui\">下划线、批注线</span>和<span "
-"class=\"ui\">旁注符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）："
+"笔记</span>。还可选择一种<span class=\"ui\">笔记标记</span>标出包含笔记的标注"
+"。有三种样式可供选择——<span class=\"ui\">下划线、批注线</span>和<span class="
+"\"ui\">笔记符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2600-5
 msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
-msgstr ""
-"请按下列路径启用该功能并选择一种<span class=\"ui\">旁注标记</span>样式："
+msgstr "请按下列路径启用该功能并选择一种<span class=\"ui\">笔记标记</span>样式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2602-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注相关 / 旁注标记"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 标注样式 / 笔记标记"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2606-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:974-17"
-#| msgid "Highlight modes of KOReader"
 msgctxt "user_guide/en.html+html.body.div.div:2606-1"
 msgid "Highlight modes of KOReader"
 msgstr "KOReader的标注模式"
@@ -5676,20 +5630,13 @@ msgstr ""
 "景变黑所以无需屏幕闪烁。请在下列路径中调整标注选项："
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2664-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/en."
-#| "html+html.body.div.div.table.tr.td.div:876-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.div.div:2664-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 标注样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2669-5
 msgid ""
@@ -5698,7 +5645,7 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
-"<span class=\"label_green\">说明</span> 同一文段可被多次标注及添加旁注。若多"
+"<span class=\"label_green\">说明</span> 同一文段可被多次标注及添加笔记。若多"
 "层标注重叠在一起，点按标注处会弹出菜单以供选择想要编辑的标注。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2673-1
@@ -5870,10 +5817,10 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
-"通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带旁注笔记，只会在"
-"书签列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的"
-"笔记。若要在<span class=\"ui\">书签列表</span>中同时展示笔记，可按照下列路径"
-"设置："
+"通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带笔记，只会在书签"
+"列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔记"
+"。若要在<span class=\"ui\">书签列表</span>中同时展示笔记，可按照下列路径设置"
+"："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2729-5
 msgid ""
@@ -5893,7 +5840,7 @@ msgstr "<b>仅显示</b>标注文段（默认设置）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2734-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr "<b>同时显示</b>标注文段及旁注笔记"
+msgstr "<b>同时显示</b>标注文字及笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2735-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
@@ -5919,9 +5866,6 @@ msgstr ""
 "style=\"width:26px;\"> / 设置 / 书签相关 / 每条书签的最大行数"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2744-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:976-17"
-#| msgid "Exporting highlights"
 msgctxt "user_guide/en.html+html.body.div.div:2744-1"
 msgid "Exporting highlights"
 msgstr "导出标注"
@@ -6003,8 +5947,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 导出标注 / 选择文件格式及服务"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / 导出标注 / 选择文件格式及服务商"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2780-5
 msgid "You can see the export location (and also change it if you want):"
@@ -6071,16 +6015,14 @@ msgstr ""
 msgid ""
 "After selecting your formats, you can export the notes for the <b>current "
 "book</b> or <b>all the books in your library</b> from the same plugin menu."
-msgstr ""
-"在选择导出格式后，可以在该插件菜单中导出<b>当前书籍</b>或<b>个人藏书库中全部"
-"书目</b>的旁注。"
+msgstr "在选择导出格式后，可以在该插件菜单中导出<b>当前书籍</b>或<b>个人藏书库中全部"
+"书目</b>的笔记。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2808-5
 msgid ""
 "If you want to export only some of the books in your library, you can do "
 "this from the <span class=\"ui\">File Browser</span>:"
-msgstr ""
-"若想仅导出部分书目的旁注，可以在<span class=\"ui\">文件管理器</span>中这样操"
+msgstr "若想仅导出部分书目的笔记，可以在<span class=\"ui\">文件管理器</span>中这样操"
 "作："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2810-9
@@ -6174,17 +6116,11 @@ msgstr ""
 "容。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2846-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:980-9"
-#| msgid "READING PDFS"
 msgctxt "user_guide/en.html+html.body.div.div:2846-1"
 msgid "READING PDFS"
 msgstr "阅读PDF文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2848-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:982-17"
-#| msgid "Reading large PDFs on a small screen"
 msgctxt "user_guide/en.html+html.body.div.div:2848-1"
 msgid "Reading large PDFs on a small screen"
 msgstr "在小尺寸屏幕上阅读大开本PDF文档"
@@ -6257,11 +6193,6 @@ msgid ""
 msgstr "这将使您的屏幕更宽，以便您的文档看起来足够大，可以舒适地阅读。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2877-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.ul.li.div:1292-36user_guide/en.html+html."
-#| "body.div.ul.li.div:1292-36"
-#| msgid "BOTTOM MENU /"
 msgctxt "user_guide/en.html+html.body.div.div:2877-5"
 msgid "BOTTOM MENU /"
 msgstr "底部菜单 /"
@@ -6280,18 +6211,13 @@ msgstr ""
 "这对漫画书尤其有用。首先从该菜单项启用<span class=\"ui\">列模式</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2886-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:2859-5"
-#| msgid ""
-#| "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-#| "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgctxt "user_guide/en.html+html.body.div.div:2886-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
-"底部菜单 / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:22px;\"> /"
+"底部菜单 / <img loading=\"lazy\" class=\"img_inline\" src="
+"\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2888-5
 msgid ""
@@ -6346,9 +6272,6 @@ msgstr ""
 "经裁剪、放大的完整页面。该模式下可以翻页。再次点击该标志可从该模式中退出。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2908-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:983-17"
-#| msgid "PDF Specific Bottom Menu Items"
 msgctxt "user_guide/en.html+html.body.div.div:2908-1"
 msgid "PDF Specific Bottom Menu Items"
 msgstr "PDF文档专有底部菜单项"
@@ -6427,11 +6350,11 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
-"<span class=\"ui\">自动拉直</span>功能可以拉直有问题文档的页面，例如倾斜扫描"
-"的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图片</b>文件中可用。 要启"
-"用，请选择KOReader将尝试纠正的最大倾斜角度。 如果它不正确，你可能不得不选择一"
-"个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多个"
-"因素。"
+"<span class=\"ui\">自动校直</span>功能可以拉直有问题文档的页面，例如倾斜扫描"
+"的PDF页面。 它在<b>PDF，DJVU，CBZ/CBT</b>文档和<b>图片</b>文件中可用。 要启用"
+"此功能，请选择 KOReader 将尝试校正的最大倾斜角度。 如果未校正，您可能需要选择"
+"一个更大的角度。 请注意，此功能<b>可能会减慢您的阅读器</b>速度，具体取决于多"
+"个因素。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2940-1
 msgid "Saving highlights into PDF"
@@ -6724,9 +6647,6 @@ msgstr ""
 "关联的<span class=\"ui\">.sdr文件夹</span>一并复制。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3010-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:985-17"
-#| msgid "OCR (Optical Character Recognition)"
 msgctxt "user_guide/en.html+html.body.div.div:3010-1"
 msgid "OCR (Optical Character Recognition)"
 msgstr "OCR (光学字符识别)"
@@ -6779,12 +6699,9 @@ msgid "READING COMICS AND MANGA"
 msgstr "阅读漫画"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3031-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:992-17"
-#| msgid "Adjusting the page refresh interval"
 msgctxt "user_guide/en.html+html.body.div.div:3031-5"
 msgid "Adjusting the page refresh interval"
-msgstr "调整页面刷新间隔"
+msgstr "调整翻页刷新频率"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3033-5
 msgid ""
@@ -6886,12 +6803,9 @@ msgstr ""
 "class=\"ui\">打开方式</span>，并选择<span class=\"ui\">MuPDF</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3061-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:994-17"
-#| msgid "Jump to the next file"
 msgctxt "user_guide/en.html+html.body.div.div:3061-1"
 msgid "Jump to the next file"
-msgstr "前往下一册"
+msgstr "转到下一个文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3063-5
 msgid ""
@@ -6901,9 +6815,9 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
-"当翻到书籍尾页，KOReader将显示一个对话框，其中的<span class=\"ui\">开启下册书"
-"籍</span>操作将打开当前书籍所在目录中名称排序挨着的另一本书。因此将一套丛书放"
-"进同个文件夹可以一本接一本顺序阅读，无需返回<span class=\"ui\">文件管理器</"
+"当翻到书籍尾页，KOReader将显示一个对话框，其中的<span class=\"ui\">开启下一本"
+"书籍</span>操作将打开当前书籍所在目录中名称排序挨着的另一本书。因此将一套丛书"
+"放进同个文件夹可以一本接一本顺序阅读，无需返回<span class=\"ui\">文件管理器</"
 "span>操作。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3067-5
@@ -6940,12 +6854,9 @@ msgstr ""
 "有文件。 KOReader会跳过你已经读过的那些书籍。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:995-17"
-#| msgid "Optimizing manga for reader"
 msgctxt "user_guide/en.html+html.body.div.div:3077-1"
 msgid "Optimizing manga for reader"
-msgstr "预处理漫画文档以适配阅读设备"
+msgstr "为阅读器优化漫画"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3079-5
 msgid ""
@@ -7124,12 +7035,9 @@ msgid ""
 msgstr "<b>放大：</b>放大比目标分辨率小的图片。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3120-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:996-17"
-#| msgid "Other manga tips"
 msgctxt "user_guide/en.html+html.body.div.div:3120-1"
 msgid "Other manga tips"
-msgstr "漫画相关的其它技巧"
+msgstr "其他漫画阅读技巧"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3124-1
 msgid "Immersive mode in KOReader"
@@ -7152,14 +7060,6 @@ msgid "Extra step for smooth gradients"
 msgstr "平滑渐变的额外步骤"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3132-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:3132-5"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -7246,14 +7146,6 @@ msgid "Reversing the page turn direction for authentic Japanese manga"
 msgstr "反转翻页方向，制作正宗的日本漫画"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3154-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:3154-5"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -7292,12 +7184,9 @@ msgstr ""
 "后，当您从上述目录打开文件时，您的滑动和点击区域将被交换。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3178-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1003-3"
-#| msgid "MANAGING YOUR LIBRARY"
 msgctxt "user_guide/en.html+html.body.div.div:3178-1"
 msgid "MANAGING YOUR LIBRARY"
-msgstr "管理藏书库"
+msgstr "管理书库"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3182-1
 msgid "File Browser Usage"
@@ -7557,9 +7446,9 @@ msgid ""
 "shortcuts</span> item and enter a descriptive name for this shortcut. "
 "<b>This will add the folder you are currently in.</b>"
 msgstr ""
-"当您在文件浏览器中时，点击右上角的<span class=\"ui\">+（加号）菜单</span>按"
-"钮，然后点击<span class=\"ui\">添加到文件夹快捷方式</span>项，并为此快捷方式"
-"输入描述性名称。<b>这将添加您当前所在的文件夹</b>"
+"当您在文件浏览器中时，点击右上角的<span class=\"ui\">+（附加）菜单</span>按钮"
+"，然后点击<span class=\"ui\">添加到文件夹快捷方式</span>项，并为此快捷方式输"
+"入描述性名称。<b>这将添加您当前所在的文件夹</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3242-9
 msgid ""
@@ -7607,8 +7496,8 @@ msgid ""
 "menu</span> then choosing <span class=\"ui\">Folder shortcuts</span> or "
 "assigning a gesture."
 msgstr ""
-"<b>从文件浏览器：</b>右上角<span class=\"ui\">+（加号）菜单</span>，然后选择"
-"<span class=\"ui\">文件夹快捷方式</span>或指定手势。"
+"<b>从文件浏览器：</b>右上角<span class=\"ui\">+（附加）菜单</span>，然后选择<"
+"span class=\"ui\">文件夹快捷方式</span>或指定手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3254-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
@@ -7624,9 +7513,6 @@ msgstr ""
 "span>部分。您可以在本指南的相关部分学习如何设置手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3263-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1006-5"
-#| msgid "Viewing other file types"
 msgctxt "user_guide/en.html+html.body.div.div:3263-1"
 msgid "Viewing other file types"
 msgstr "浏览其它格式的文件"
@@ -7782,17 +7668,11 @@ msgstr ""
 "现在您的历史中，并且具有更好的缩放和旋转支持。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3311-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3279-5"
-#| msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgctxt "user_guide/en.html+html.body.div.ol.li:3311-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr "在<span class=\"ui\">文件浏览器</span>长按文件名"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3312-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3280-5"
-#| msgid "Tap <span class=\"ui\">Open with…</span>"
 msgctxt "user_guide/en.html+html.body.div.ol.li:3312-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
 msgstr "点击<span class=\"ui\">打开方式...</span>"
@@ -8224,11 +8104,10 @@ msgid ""
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
 msgstr ""
-"在<span class=\"ui\">文件管理器</span>中长按某本书，可以更新书籍元数据或"
-"<span class=\"ui\">查看书籍信息</span>。在弹出的对话框中长按任意项，可以编辑"
-"<b>作者</b>或<b>关键词</b>等书籍元数据。该操作也可通过<span "
-"class=\"external\">Calibre</span>完成，这是一款便捷管理书籍元数据的第三方软"
-"件。"
+"在<span class=\"ui\">文件管理器</span>中长按某本书，可以更新书籍元数据或查看<"
+"span class=\"ui\">书籍信息</span>。在弹出的对话框中长按任意项，可以编辑<b>作"
+"者</b>或<b>关键词</b>等书籍元数据。该操作也可通过<span class=\"external\">Cal"
+"ibre</span>完成，这是一款便捷管理书籍元数据的第三方软件。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3436-9
 msgid ""
@@ -8423,35 +8302,20 @@ msgid "How to disconnect a folder from your collection:"
 msgstr "将书单与文件夹断开关联的方法："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3495-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3473-9"
-#| msgid ""
-#| "Go to the <span class=\"ui\">Collections</span> screen that is seen in "
-#| "the image above."
 msgctxt "user_guide/en.html+html.body.div.ol.li:3495-9"
 msgid ""
 "Go to the <span class=\"ui\">Collections</span> screen that is seen in the "
 "image above."
-msgstr "前往如上图所示的<span class=\"ui\">书单列表</span>界面。"
+msgstr "前往如上图所示的<span class=\"ui\">书单</span>界面。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3496-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3474-9"
-#| msgid ""
-#| "Long-press on the collection name which you want to connect folders "
-#| "<b>(1)</b>."
 msgctxt "user_guide/en.html+html.body.div.ol.li:3496-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr "长按想要关联到文件夹的书单标题<b>①</b>。"
+msgstr "长按想要关联文件夹的书单名称<b>①</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3497-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3475-9"
-#| msgid ""
-#| "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
-#| "<b>(2)</b>."
 msgctxt "user_guide/en.html+html.body.div.ol.li:3497-9"
 msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
@@ -8459,10 +8323,6 @@ msgid ""
 msgstr "在弹出菜单中选择<span class=\"ui\">关联文件夹</span><b>②</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3498-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ol.li:3476-9"
-#| msgid ""
-#| "<span class=\"ui\">List of connected folders screen</span> will open."
 msgctxt "user_guide/en.html+html.body.div.ol.li:3498-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
 msgstr "此时会显示<span class=\"ui\">已关联的文件夹</span>列表。"
@@ -8535,8 +8395,8 @@ msgid ""
 "<span class=\"ui\">Collections</span>."
 msgstr ""
 "配置文件可以手动套用，但<span class=\"ui\">自动套用</span>特性才是该功能的强"
-"大之处。该特性可以在指定情况下自动套用特定配置档，请点击<a href=\"#L2-"
-"profileautoexec\">自动套用配置</a>前往对应章节了解。此处仅介绍在<span "
+"大之处。该特性可以在指定情况下自动套用特定配置文件，请点击<a href="
+"\"#L2-profileautoexec\">自动套用配置</a>前往对应章节了解。此处仅介绍在<span "
 "class=\"ui\">书单</span>中自动套用配置的功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3522-9
@@ -8576,12 +8436,9 @@ msgstr ""
 "class=\"ui\">自动OCR</span>或者启动<span class=\"ui\">页面重排模式</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3532-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1008-5"
-#| msgid "Optimizing EPUB/PDF documents for your reader"
 msgctxt "user_guide/en.html+html.body.div.div:3532-1"
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr "预处理EPUB和PDF文档以适配阅读设备"
+msgstr "为您的阅读器优化 EPUB/PDF 文档"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3534-5
 msgid ""
@@ -8658,14 +8515,6 @@ msgid "Book metadata storage options"
 msgstr "书籍元数据存储选项"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3550-2
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:3550-2"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -8689,7 +8538,7 @@ msgstr "全书阅读进度"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3556-3
 msgid "Highlights, bookmarks and notes"
-msgstr "标注、书签及旁注笔记"
+msgstr "标注、书签及笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3559-2
 msgid ""
@@ -8826,11 +8675,6 @@ msgstr ""
 "旁边的库目录下。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3597-2
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:3571-2user_guide/en.html+html.body.div."
-#| "p:3571-2"
-#| msgid "Benefits"
 msgctxt "user_guide/en.html+html.body.div.p:3597-2"
 msgid "Benefits"
 msgstr "好处"
@@ -8845,11 +8689,6 @@ msgstr ""
 "计算机浏览库时，它们不会打乱您对库目录的查看。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3602-2
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:3578-2user_guide/en.html+html.body.div."
-#| "p:3578-2"
-#| msgid "Negatives"
 msgctxt "user_guide/en.html+html.body.div.p:3602-2"
 msgid "Negatives"
 msgstr "坏处"
@@ -8917,11 +8756,6 @@ msgstr ""
 "ID，并根据<b>书籍文件的内容</b>计算。同样的哈希也用于命名其.sdr文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3620-2
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:3571-2user_guide/en.html+html.body.div."
-#| "p:3571-2"
-#| msgid "Benefits"
 msgctxt "user_guide/en.html+html.body.div.p:3620-2"
 msgid "Benefits"
 msgstr "好处"
@@ -8962,11 +8796,6 @@ msgstr ""
 "以在设备之间同步注释和进度。这在其他方法中是不可能的。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3629-3
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:3578-2user_guide/en.html+html.body.div."
-#| "p:3578-2"
-#| msgid "Negatives"
 msgctxt "user_guide/en.html+html.body.div.p:3629-3"
 msgid "Negatives"
 msgstr "坏处"
@@ -8992,12 +8821,9 @@ msgstr ""
 "导航速度。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3642-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1013-5"
-#| msgid "GESTURES AND KEYBOARD SHORTCUTS"
 msgctxt "user_guide/en.html+html.body.div.div:3642-1"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr "手势交互与键盘快捷键"
+msgstr "手势与键盘快捷键"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3644-5
 msgid ""
@@ -9009,12 +8835,9 @@ msgstr ""
 "向方面存在限制。这些限制如下所示。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3647-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1015-13"
-#| msgid "Gesture Types"
 msgctxt "user_guide/en.html+html.body.div.div:3647-5"
 msgid "Gesture Types"
-msgstr "交互手势的种类"
+msgstr "手势类型"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3649-5
 msgid ""
@@ -9038,7 +8861,7 @@ msgctxt ""
 "html+html.body.div.table.tr.td.p:3660-17user_guide/en.html+html.body.div."
 "table.tr.td.p:3660-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr "<b>工作区：</b>屏幕上的任何地方"
+msgstr "<b>作用范围：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3667-17
 msgid "TAP AND HOLD"
@@ -9051,7 +8874,7 @@ msgstr "用<b>一个</b>手指轻点并按住"
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3669-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3669-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr "<b>工作区：</b>只在四个角落"
+msgstr "<b>作用范围：</b>只在四个角落"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3675-17
 msgid "TWO FINGER TAP"
@@ -9062,12 +8885,9 @@ msgid "Single tap with <b>TWO</b> fingers at the same time"
 msgstr "用<b>两个</b>手指在同一时间轻轻敲击"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3677-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3664-17"
-#| msgid "<b>WORKS:</b> Only on four corners"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3677-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr "<b>工作区：</b>只在四个角落"
+msgstr "<b>作用范围：</b>只在四个角落"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3683-17
 msgid "SPREAD AND PINCH"
@@ -9078,15 +8898,9 @@ msgid "Same as zooming in and out on a phone or tablet."
 msgstr "与在手机或平板电脑上放大和缩小相同。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3685-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.table.tr.td.p:3655-17user_guide/en."
-#| "html+html.body.div.table.tr.td.p:3655-17user_guide/en.html+html.body.div."
-#| "table.tr.td.p:3655-17"
-#| msgid "<b>WORKS:</b> Anywhere on the screen"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr "<b>工作区：</b>屏幕上的任何地方"
+msgstr "<b>作用范围：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3686-9
 msgid ""
@@ -9110,7 +8924,7 @@ msgstr "用<b>一个</b>手指轻扫动作"
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
-msgstr "<b>工作区：</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置"
+msgstr "<b>作用范围：</b>屏幕边缘（水平和垂直）除四角（对角线）之外的任何位置"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3696-17
 msgid "TWO FINGER SWIPE"
@@ -9121,15 +8935,9 @@ msgid "Swiping motion with <b>TWO</b> fingers at the same time"
 msgstr "用<b>两个</b>手指在同一时间滑动动作"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.table.tr.td.p:3655-17user_guide/en."
-#| "html+html.body.div.table.tr.td.p:3655-17user_guide/en.html+html.body.div."
-#| "table.tr.td.p:3655-17"
-#| msgid "<b>WORKS:</b> Anywhere on the screen"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3698-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr "<b>工作区：</b>屏幕上的任何地方"
+msgstr "<b>作用范围：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3702-17
 msgid "MULTISWIPE"
@@ -9143,15 +8951,9 @@ msgstr ""
 "在不抬起手指的情况下连续完成多次滑动。例如，比如画字母 <b>U</b>（下-右-上）"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3705-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.table.tr.td.p:3655-17user_guide/en."
-#| "html+html.body.div.table.tr.td.p:3655-17user_guide/en.html+html.body.div."
-#| "table.tr.td.p:3655-17"
-#| msgid "<b>WORKS:</b> Anywhere on the screen"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3705-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr "<b>工作区：</b>屏幕上的任何地方"
+msgstr "<b>作用范围：</b>屏幕上的任何地方"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3709-17
 msgid ""
@@ -9162,12 +8964,9 @@ msgstr ""
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1016-13"
-#| msgid "Predefined Gestures"
 msgctxt "user_guide/en.html+html.body.div.div:3715-1"
 msgid "Predefined Gestures"
-msgstr "内置的手势交互"
+msgstr "预设手势"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3716-5
 msgid ""
@@ -9194,7 +8993,7 @@ msgstr "<b>左上角</b>>切换翻页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3730-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr "<b>右上角</b> > 切换书签"
+msgstr "<b>右上角</b> > 标记/取消书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3731-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
@@ -9213,9 +9012,6 @@ msgid "<b>Right Side</b> > Go +10 pages"
 msgstr "<b>右侧</b>>前翻10页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3741-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-17"
-#| msgid "ONE FINGER SWIPE"
 msgctxt "user_guide/en.html+html.body.div.div.div:3741-5"
 msgid "ONE FINGER SWIPE"
 msgstr "单指滑动"
@@ -9296,12 +9092,9 @@ msgid "<span style=\"font-family: microns;\"></span> - Favorites"
 msgstr "<span style=\"font-family: microns;\"></span> - 收藏"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3769-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1017-13"
-#| msgid "Gesture Categories"
 msgctxt "user_guide/en.html+html.body.div.div:3769-1"
 msgid "Gesture Categories"
-msgstr "手势交互分类"
+msgstr "手势类别"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3770-5
 msgid ""
@@ -9388,11 +9181,11 @@ msgstr "搜索菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
 msgid "Open next file in last book folder"
-msgstr "打开当前文件夹中的下一册"
+msgstr "打开当前文件夹中的下一个文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3794-17
 msgid "Open previous file in last book folder"
-msgstr "打开当前文件夹中的上一册"
+msgstr "打开当前文件夹中的上一个文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
 msgid "Notebook file"
@@ -9823,9 +9616,6 @@ msgid "Invert images"
 msgstr "图片反色"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3922-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3777-17"
-#| msgid "File browser"
 msgctxt "user_guide/en.html+html.body.div.div.div:3922-5"
 msgid "File browser"
 msgstr "文件管理器"
@@ -9859,9 +9649,6 @@ msgid "Refresh content"
 msgstr "刷新内容"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3931-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:3229-1"
-#| msgid "Folder shortcuts"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3931-13"
 msgid "Folder shortcuts"
 msgstr "文件夹快捷方式"
@@ -9956,7 +9743,7 @@ msgstr "下一处书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
 msgid "First bookmark"
-msgstr "首条书签"
+msgstr "首个书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Last bookmark"
@@ -9967,9 +9754,6 @@ msgid "Latest bookmark"
 msgstr "最新书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3931-13"
-#| msgid "Back"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3960-17"
 msgid "Back"
 msgstr "返回"
@@ -10028,7 +9812,7 @@ msgstr "页面预览"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3973-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3973-17"
 msgid "Bookmarks"
-msgstr "书签相关"
+msgstr "书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3974-17
 msgid "Bookmark search"
@@ -10037,7 +9821,7 @@ msgstr "书签搜索"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3975-17"
 msgid "Toggle bookmark"
-msgstr "切换书签"
+msgstr "标记/取消书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
 msgid "Book status"
@@ -10130,7 +9914,7 @@ msgstr "开/关 快捷跳页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Toggle bookmark flipping"
-msgstr "开/关 书签跳页"
+msgstr "开/关 标记/取消书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Toggle reflow"
@@ -10166,15 +9950,15 @@ msgstr "垂直重叠"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4011-17
 msgid "Fit"
-msgstr "满屏显示"
+msgstr "适应"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4012-17
 msgid "Zoom to"
-msgstr "缩放为"
+msgstr "缩放设置为"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4013-17
 msgid "Number of columns/rows to split page"
-msgstr "页面分割的栏与节数量"
+msgstr "页面分割的列数/行数"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Zoom factor"
@@ -10193,12 +9977,9 @@ msgid "Page gap"
 msgstr "页面间隙"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3908-17"
-#| msgid "Line spacing"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4018-17"
 msgid "Line spacing"
-msgstr "行距"
+msgstr "行间距"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
 msgid "Alignment"
@@ -10222,9 +10003,6 @@ msgid "Reflow"
 msgstr "页面重排"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3896-17"
-#| msgid "Contrast"
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4024-17"
 msgid "Contrast"
 msgstr "对比度"
@@ -10255,7 +10033,7 @@ msgstr "文档列数"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4031-17
 msgid "Auto straighten"
-msgstr "自动拉直"
+msgstr "自动校直"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4039-1
 msgid "Keyboard Shortcuts"
@@ -10398,32 +10176,20 @@ msgid "Reading mode"
 msgstr "在阅读界面中"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4097-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4068-13"
-#| msgid "Open top menu"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4097-13"
 msgid "Open top menu"
 msgstr "打开顶部菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4098-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4069-13"
-#| msgid "F1"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4098-13"
 msgid "F1"
-msgstr "F1功能键"
+msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
 msgid "Open bottom menu"
 msgstr "打开底部菜单"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4102-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td:4081-13user_guide/en."
-#| "html+html.body.div.div.table.tr.td:4081-13user_guide/en.html+html.body."
-#| "div.div.table.tr.td:4081-13"
-#| msgid "Enter"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4102-13"
 msgid "Enter"
 msgstr "回车键"
@@ -10433,34 +10199,23 @@ msgid "Back/exit application"
 msgstr "返回/退出应用程序"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4106-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td:4085-13user_guide/en."
-#| "html+html.body.div.div.table.tr.td:4085-13"
-#| msgid "Esc"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4106-13"
 msgid "Esc"
 msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4109-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3968-17"
-#| msgid "Bookmarks"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4109-13"
 msgid "Bookmarks"
-msgstr "书签相关"
+msgstr "书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4110-13
 msgid "Shift + Left"
 msgstr "同时按下Shift键及左方向键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4113-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3970-17"
-#| msgid "Toggle bookmark"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4113-13"
 msgid "Toggle bookmark"
-msgstr "切换书签"
+msgstr "标记/取消书签"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4114-13
 msgid "Shift + Right"
@@ -10476,9 +10231,6 @@ msgid "Ctrl + D (Alt + D on Kindles)"
 msgstr "同时按下Ctrl键及D字母键<br>（在 Kindle 上为 Alt + D）"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4121-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3785-17"
-#| msgid "Wikipedia lookup"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4121-13"
 msgid "Wikipedia lookup"
 msgstr "查询维基百科"
@@ -10488,9 +10240,6 @@ msgid "Ctrl + W"
 msgstr "同时按下Ctrl键及W字母键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4125-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3962-17"
-#| msgid "Fulltext search"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4125-13"
 msgid "Fulltext search"
 msgstr "全文搜索"
@@ -10532,12 +10281,6 @@ msgid "Open selected page link"
 msgstr "打开所选页面链接"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4146-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td:4081-13user_guide/en."
-#| "html+html.body.div.div.table.tr.td:4081-13user_guide/en.html+html.body."
-#| "div.div.table.tr.td:4081-13"
-#| msgid "Enter"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4146-13"
 msgid "Enter"
 msgstr "回车键"
@@ -10579,12 +10322,6 @@ msgid "Start/stop highlighting"
 msgstr "开始/结束 标注"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4170-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td:4081-13user_guide/en."
-#| "html+html.body.div.div.table.tr.td:4081-13user_guide/en.html+html.body."
-#| "div.div.table.tr.td:4081-13"
-#| msgid "Enter"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4170-13"
 msgid "Enter"
 msgstr "回车键"
@@ -10610,11 +10347,6 @@ msgid "Exit highlighting mode"
 msgstr "退出标注模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4182-13
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td:4085-13user_guide/en."
-#| "html+html.body.div.div.table.tr.td:4085-13"
-#| msgid "Esc"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4182-13"
 msgid "Esc"
 msgstr "Esc"
@@ -10632,9 +10364,6 @@ msgid "Left-Right / Up-Down<br>Page Up-Page Down"
 msgstr "上下方向键、左右方向键<br>或上下翻页键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4193-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3964-17"
-#| msgid "Table of contents"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4193-13"
 msgid "Table of contents"
 msgstr "目录"
@@ -10644,9 +10373,6 @@ msgid "Shift + Up"
 msgstr "同时按下Shift键及上方向键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4197-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3965-17"
-#| msgid "Book map"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4197-13"
 msgid "Book map"
 msgstr "书籍地图"
@@ -10750,9 +10476,6 @@ msgid "In Skim Document dialog"
 msgstr "在快速翻页对话框中"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4245-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4196-13"
-#| msgid "Go to the beginning"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4245-9"
 msgid "Go to the beginning"
 msgstr "转到开头"
@@ -10771,9 +10494,6 @@ msgid "W"
 msgstr "字母键W"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4253-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4204-13"
-#| msgid "Go to 22% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4253-9"
 msgid "Go to 22% of book"
 msgstr "转到书的 22%"
@@ -10783,9 +10503,6 @@ msgid "E"
 msgstr "字母键E"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4257-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4208-13"
-#| msgid "Go to 33% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4257-9"
 msgid "Go to 33% of book"
 msgstr "转到书的 33%"
@@ -10795,9 +10512,6 @@ msgid "R"
 msgstr "字母键R"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4261-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4212-13"
-#| msgid "Go to 44% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4261-9"
 msgid "Go to 44% of book"
 msgstr "转到书的 44%"
@@ -10807,9 +10521,6 @@ msgid "T"
 msgstr "字母键T"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4265-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4216-13"
-#| msgid "Go to 55% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4265-9"
 msgid "Go to 55% of book"
 msgstr "转到书的 55%"
@@ -10819,9 +10530,6 @@ msgid "Y"
 msgstr "字母键Y"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4269-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4220-13"
-#| msgid "Go to 66% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4269-9"
 msgid "Go to 66% of book"
 msgstr "转到书的 66%"
@@ -10831,9 +10539,6 @@ msgid "U"
 msgstr "字母键U"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4273-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4224-13"
-#| msgid "Go to 77% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4273-9"
 msgid "Go to 77% of book"
 msgstr "转到书的 77%"
@@ -10843,9 +10548,6 @@ msgid "I"
 msgstr "字母键I"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4277-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4228-13"
-#| msgid "Go to 88% of book"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4277-9"
 msgid "Go to 88% of book"
 msgstr "转到书的 88%"
@@ -10855,12 +10557,9 @@ msgid "O"
 msgstr "字母键O"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4281-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4232-13"
-#| msgid "Go to the end"
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4281-9"
 msgid "Go to the end"
-msgstr "转到结尾"
+msgstr "转到末尾"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4282-9
 msgid "P"
@@ -10923,17 +10622,11 @@ msgid "Shift + D"
 msgstr "同时按下Shift键及D字母键"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4319-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1022-9"
-#| msgid "QUICK MENU AND PROFILES"
 msgctxt "user_guide/en.html+html.body.div.div:4319-5"
 msgid "QUICK MENU AND PROFILES"
 msgstr "快捷菜单及配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4322-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1024-13"
-#| msgid "Quick Menu"
 msgctxt "user_guide/en.html+html.body.div.div:4322-5"
 msgid "Quick Menu"
 msgstr "快捷菜单"
@@ -11077,10 +10770,10 @@ msgid ""
 "class=\"ui\">Profiles</span> heading (next section), create a <span "
 "class=\"ui\">Profile</span> with some items and come back here."
 msgstr ""
-"<span class=\"ui\">快捷菜单</span>本质上是一套<span class=\"ui\">配置档</"
-"span>，只是以菜单形式显示在屏幕上。使用该功能须先对<span class=\"ui\">配置档"
-"</span>有所了解。若是如此请继续阅读，否则请转至<span class=\"ui\">配置档</"
-"span>一节（即下一节），创建一套包含若干项的<span class=\"ui\">配置档</span>再"
+"<span class=\"ui\">快捷菜单</span>本质上是一套<span class=\"ui\">配置文件</sp"
+"an>，只是以菜单形式显示在屏幕上。使用该功能须先对<span class=\"ui\">配置文件<"
+"/span>有所了解。若是如此请继续阅读，否则请转至<span class=\"ui\">配置文件</sp"
+"an>一节（即下一节），创建一套包含若干项的<span class=\"ui\">配置文件</span>再"
 "回来继续阅读。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4366-9
@@ -11090,9 +10783,9 @@ msgid ""
 "will turn our <span class=\"ui\">Profile</span> into a <span "
 "class=\"ui\">Quick Menu</span>."
 msgstr ""
-"在继续之前，我们假设您已经按照上一段中的说明创建了<span class=\"ui\">配置档</"
-"span>。现在，我们将把<span class=\"ui\">配置档</span>转换为<span "
-"class=\"ui\">快捷菜单</span>。"
+"在继续之前，我们假设您已经按照上一段中的说明创建了<span class=\"ui\">配置文件"
+"</span>。现在，我们将把<span class=\"ui\">配置文件</span>转换为<span class="
+"\"ui\">快捷菜单</span>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4368-9
 msgid ""
@@ -11103,11 +10796,11 @@ msgid ""
 "class=\"ui\">Show as Quick Menu</span> (also in the image below) so your "
 "profile will be shown as a menu instead of being silently executed."
 msgstr ""
-"<b>（1）</b>转到新创建的<span class=\"ui\">配置档</span>，在下图所示的菜单中"
-"启用<span class=\"ui\">显示在操作列表中</span>，这将使该<span class=\"ui\">配"
-"置档</span>列入<span class=\"ui\">手势交互管理</span>列表中。在同一菜单中启用"
-"<span class=\"ui\">显示为快捷菜单</span>，这样该配置档会显示为菜单列表，而不"
-"是在后台静默执行。"
+"<b>（1）</b>转到新创建的<span class=\"ui\">配置文件</span>，在下图所示的菜单"
+"中启用<span class=\"ui\">显示在操作列表中</span>，这将使该<span class=\"ui\">"
+"配置文件</span>列入<span class=\"ui\">手势交互管理</span>列表中。在同一菜单中"
+"启用<span class=\"ui\">显示为快捷菜单</span>，这样该配置文件会显示为菜单列表"
+"，而不是在后台静默执行。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4372-9
 msgid ""
@@ -11125,9 +10818,9 @@ msgstr ""
 "管理器</span>，并从列表中选择一个手势以分配给菜单。假设我们想点击屏幕的一角来"
 "显示菜单。现在点按<span class=\"ui\">在屏幕四角点按</span>，然后选择<span "
 "class=\"ui\">左下角</span>。现在点击<span class=\"ui\">常规</span>并转到第二"
-"页。您将发现您的<span class=\"ui\">配置档</span>显示为「配置文件〇〇〇〇」，"
-"其中〇〇〇〇是您为此<span class=\"ui\">配置档</span>指定的标题。点击其复选"
-"框，将您的配置档分配给该手势。"
+"页。您将发现您的<span class=\"ui\">配置文件</span>显示为「配置文件X」，其中X"
+"是您为此<span class=\"ui\">配置文件</span>指定的标题。点击其复选框，将您的配"
+"置文件分配给该手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4374-9
 msgid ""
@@ -11137,10 +10830,10 @@ msgid ""
 "there is a <span class=\"ui\">Sort</span> item there so you can change the "
 "order of your menu items."
 msgstr ""
-"完成所有步骤后，现在当您点击左下角时，应该会看到您的菜单。您可以通过转到其"
-"<span class=\"ui\">配置档</span>页面来编辑菜单，您可以在其中添加或删除项目。"
-"此外，那里还有一个<span class=\"ui\">排序</span>项，因此您可以更改菜单项的顺"
-"序。"
+"完成所有步骤后，现在当您点击左下角时，应该会看到您的菜单。您可以通过转到其<sp"
+"an class=\"ui\">配置文件</span>页面来编辑菜单，您可以在其中添加或删除项目。此"
+"外，那里还有一个<span class=\"ui\">排序</span>项，因此您可以更改菜单项的顺序"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4376-9
 msgid ""
@@ -11150,8 +10843,8 @@ msgid ""
 "steps to create another menu if you want."
 msgstr ""
 "如前所述，<span class=\"ui\">快捷菜单</span>实际上是一套<span class=\"ui\">配"
-"置档</span>。这意味着您可以有多个菜单。如果需要，可以创建另一个<span "
-"class=\"ui\">配置档</span>，并按照相同的步骤创建另一菜单。"
+"置文件</span>。这意味着您可以有多个菜单。如果需要，可以创建另一个<span class="
+"\"ui\">配置文件</span>，并按照相同的步骤创建另一菜单。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4379-1
 msgid "Quick menu tips"
@@ -11208,7 +10901,7 @@ msgstr ""
 msgid ""
 "Or from this menu, if you have a <b>Profiles based – (Advanced method)</b> "
 "Quick Menu:"
-msgstr "若已创建<b>基于配置档（高阶操作）</b>的快捷菜单，请在下列菜单中选择："
+msgstr "若已创建<b>基于配置文件（高阶操作）</b>的快捷菜单，请在下列菜单中选择："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4402-9
 msgid ""
@@ -11216,9 +10909,9 @@ msgid ""
 "style=\"width:22px;\">/ Profiles / “Your Quick Menu profile” / Edit "
 "actions / Keep Quick Menu open"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\">/ 配置档 / 「用户指定的快捷菜单配置文件」 / 编辑行为 / "
-"保持快捷菜单开启"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\">/ 配置文件 / 「用户指定的快捷菜单配置文件」 / 编辑行为 / 保持"
+"快捷菜单开启"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4405-9
 msgid "Opening Quick Menu at the gesture position"
@@ -11254,63 +10947,42 @@ msgstr ""
 "法）后，该选项才会出现在快捷菜单中。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4416-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1026-13"
-#| msgid "Profiles"
 msgctxt "user_guide/en.html+html.body.div.div:4416-1"
 msgid "Profiles"
-msgstr "配置"
+msgstr "配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4417-9
 msgid ""
 "A profile is basically a collection of actions that can be triggered with a "
 "single gesture (like a macro)."
-msgstr "配置档本质上是一套操作集合（就像宏命令），可通过单个手势触发。"
+msgstr "配置文件本质上是一套操作集合（就像宏命令），可通过单个手势触发。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4420-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.p:3506-9"
-#| msgid ""
-#| "As an example, imagine that when reading some type of books, you always:"
 msgctxt "user_guide/en.html+html.body.div.p:4420-9"
 msgid ""
 "As an example, imagine that when reading some type of books, you always:"
-msgstr "例如在阅读某种类型的书籍时总会应用如下设置："
+msgstr "例如，想象一下，当阅读某一类型的书籍时，您总是："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4422-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:3508-13"
-#| msgid "Rotate the screen to landscape orientation"
 msgctxt "user_guide/en.html+html.body.div.ul.li:4422-13"
 msgid "Rotate the screen to landscape orientation"
-msgstr "将屏幕切换到横向显示模式"
+msgstr "将屏幕旋转为横向"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4423-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:3509-13"
-#| msgid "Increase the font size and contrast and"
 msgctxt "user_guide/en.html+html.body.div.ul.li:4423-13"
 msgid "Increase the font size and contrast and"
 msgstr "增大字号及对比度，并且"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4424-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:3510-13"
-#| msgid "Turn the screen light on"
 msgctxt "user_guide/en.html+html.body.div.ul.li:4424-13"
 msgid "Turn the screen light on"
 msgstr "打开屏幕前光"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4427-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.p:3513-9"
-#| msgid ""
-#| "With the profiles plugin, you can do all these at once with a single "
-#| "action."
 msgctxt "user_guide/en.html+html.body.div.p:4427-9"
 msgid ""
 "With the profiles plugin, you can do all these at once with a single action."
-msgstr "借助配置文件插件，只需执行单次操作即可完成这些调整。"
+msgstr "使用配置文件插件，您可以通过一个动作同时完成所有这些操作。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4429-9
 msgid ""
@@ -11321,26 +10993,25 @@ msgid ""
 "Your font size <b>stays at 24</b> after activating the second profile. "
 "Because profiles in KOReader doesn’t have an exit or reverse action."
 msgstr ""
-"<span class=\"label_blue\">信息</span> 启用另一套配置档后，前一套配置档所执行"
-"的修改将<b>不可撤销</b>。例如，用户启用了一套配置档将字号从<b>20</b>改为"
-"<b>24</b>，然后又启用了另一套配置档调整了<b>屏幕前光</b>，此时字号将<b>保持为"
-"24</b>。KOReader没有退出或撤销配置档的操作选项。"
+"<span class=\"label_blue\">信息</span> 启用另一套配置文件后，前一套配置文件所"
+"执行的修改将<b>不可撤销</b>。例如，用户启用了一套配置文件将字号从<b>20</b>改"
+"为<b>24</b>，然后又启用了另一套配置文件调整了<b>屏幕前光</b>，此时字号将<b>保"
+"持为24</b>。KOReader没有退出或撤销配置文件的操作选项。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4432-9
 msgid ""
 "To create a profile first be sure that <span class=\"ui\">Profiles</span> "
 "plugin is activated. If you don’t see it under:"
-msgstr ""
-"要创建配置档，首先确保<span class=\"ui\">配置档</span>插件已激活。如果您在下"
-"面看不到它："
+msgstr "要创建配置文件，首先确保<span class=\"ui\">配置文件</span>插件已激活。如果您"
+"在下面看不到它："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4434-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 配置档"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / 配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4436-9
 msgid "then you have to turn it on from:"
@@ -11357,7 +11028,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4442-1
 msgid "Creating a profile"
-msgstr "创建配置档"
+msgstr "创建配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4444-9
 msgid ""
@@ -11367,10 +11038,10 @@ msgid ""
 "You can also <span class=\"ui\">Delete, Rename</span> or <span "
 "class=\"ui\">Duplicate</span> a profile from this menu."
 msgstr ""
-"在<span class=\"ui\">配置档</span>菜单中，轻触<span class=\"ui\">新建</"
-"span>，并为配置档指定一个描述性标题。现在，您应该可以在菜单中看到新的配置档。"
-"点按后将看到左侧的屏幕。您还可以从此菜单中<span class=\"ui\">删除、重命名</"
-"span>或<span class=\"ui\">复制</span>配置档。"
+"在<span class=\"ui\">配置文件</span>菜单中，轻触<span class=\"ui\">新建</span"
+">，并为配置文件指定一个描述性标题。现在，您应该可以在菜单中看到新的配置文件。"
+"点按后将看到左侧的屏幕。您还可以从此菜单中<span class=\"ui\">删除、重命名</sp"
+"an>或<span class=\"ui\">复制</span>配置文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4449-9
 msgid ""
@@ -11381,24 +11052,23 @@ msgid ""
 "class=\"ui\">Profile</span>."
 msgstr ""
 "当您点击<span class=\"ui\">编辑操作</span>菜单项时，您将看到右侧的菜单。这与"
-"手势选择菜单相同，并且在许多类别中都有动作。这意味着您可以使用<span "
-"class=\"ui\">配置档</span>执行任何<span class=\"ui\">手势</span>动作。"
+"手势选择菜单相同，并且在许多类别中都有动作。这意味着您可以使用<span class="
+"\"ui\">配置文件</span>执行任何<span class=\"ui\">手势</span>动作。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4451-9
 msgid ""
 "You can now select several items from all these categories. The actions you "
 "selected here will be performed when you activate this profile."
-msgstr ""
-"现在，您可以从所有这些类别中选择多个项目。激活该配置档时，将执行您在此处选择"
-"的操作。"
+msgstr "现在，您可以从所有这些类别中选择多个项目。激活该配置文件时，将执行您在此处选"
+"择的操作。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4454-1
 msgid "Activating a profile"
-msgstr "启用一套配置档"
+msgstr "启用一套配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4456-9
 msgid "There are many ways to activate a profile:"
-msgstr "有许多方法可以激活配置档："
+msgstr "有许多方法可以激活配置文件："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4459-13
 msgid ""
@@ -11414,8 +11084,8 @@ msgid ""
 "<span class=\"ui\">Show in action list</span> from the profile’s menu. Now "
 "you can select it via:"
 msgstr ""
-"您可以使用手势激活配置档。为此，您必须从配置档的菜单中启用<span class=\"ui\">"
-"显示在操作列表中</span>。现在，您可以通过以下方式选择它："
+"您可以使用手势激活配置文件。为此，您必须从配置文件的菜单中启用<span class="
+"\"ui\">显示在操作列表中</span>。现在，您可以通过以下方式选择它："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4462-13
 msgid ""
@@ -11423,21 +11093,20 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
 "GESTURE” / General / Profile “Your profile name”"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 点按及手势交互 / 交互手势管理 / “任意手势” / 通用"
-"类 / 配置档 「自定义标题」"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 点按及手势交互 / 交互手势管理 / “任意手势” / 通用类 / 配置"
+"文件 「自定义标题」"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4464-13
 msgid ""
 "You can also activate a profile <b>automatically</b> depending on some "
 "conditions. See the next heading to learn how to use this powerful feature."
-msgstr ""
-"您还可以根据某些条件<b>自动激活配置档</b>。请参阅下一个标题以了解如何使用此强"
-"大的功能。"
+msgstr "您还可以根据某些条件<b>自动激活配置文件</b>。请参阅下一个标题以了解如何使用此"
+"强大的功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4467-3
 msgid "Profile auto-execution"
-msgstr "自动套用配置档"
+msgstr "自动套用配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4469-3
 msgid ""
@@ -11446,9 +11115,9 @@ msgid ""
 "Using this feature, you can trigger a profile depending on some conditions "
 "and sub-conditions:"
 msgstr ""
-"配置档可依如上所述方式手动套用，但<span class=\"ui\">自动套用</span>功能才能"
-"真正释放配置档的潜力。 使用此功能可以在满足某些触发条件和次级条件时自动套用配"
-"置档："
+"配置文件可依如上所述方式手动套用，但<span class=\"ui\">自动套用</span>功能才"
+"能真正释放配置文件的潜力。 使用此功能可以在满足某些触发条件和次级条件时自动套"
+"用配置文件："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4474-5
 msgid "Trigger"
@@ -11468,9 +11137,9 @@ msgid ""
 "when KOReader is starting with the <span class=\"ui\">File browser</span> or "
 "<span class=\"ui\">Last file</span>."
 msgstr ""
-"每次KOReader启动时套用此配置档。 请注意，该条件仅在KOReader启动页面设置为"
-"<span class=\"ui\">文件管理器</span>或<span class=\"ui\">上次阅读的书籍</"
-"span>时才会生效。"
+"每次KOReader启动时套用此配置文件。 请注意，该条件仅在KOReader启动页面设置为<s"
+"pan class=\"ui\">文件管理器</span>或<span class=\"ui\">上次阅读的书籍</span>"
+"时才会生效。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4477-242
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4477-242"
@@ -11483,7 +11152,7 @@ msgstr "唤醒时"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4480-42
 msgid "Run this profile every time device wakes up"
-msgstr "每次设备唤醒时套用此配置档"
+msgstr "每次设备唤醒时套用此配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4480-97
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4480-97"
@@ -11496,7 +11165,7 @@ msgstr "改变屏幕显示方向时"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4483-43
 msgid "Run this profile when screen rotates to the selected rotation(s)."
-msgstr "当屏幕旋转到指定方向时套用此配置档。"
+msgstr "当屏幕旋转到指定方向时套用此配置文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4483-117
 msgid ""
@@ -11532,9 +11201,9 @@ msgid ""
 "span>. For example when you enter a certain folder you can change the "
 "display mode from <b>mosaic</b> to <b>detailed</b> view."
 msgstr ""
-"在文件管理器中打开指定文件夹时套用此配置档。此项还可用于改变<span "
-"class=\"ui\">文件管理器</span>的视图。例如当打开某文件夹时，将文件显示视图从"
-"<b>平铺</b>改为<b>详情</b>视图。"
+"在文件管理器中打开指定文件夹时套用此配置文件。此项还可用于改变<span class="
+"\"ui\">文件管理器</span>的视图。例如当打开某文件夹时，将文件显示视图从<b>平铺"
+"</b>改为<b>详情</b>视图。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4496-6
 msgid "<span class=\"ui\">If folder path contains</span> a certain text"
@@ -11558,13 +11227,13 @@ msgstr "当打开符合特定次级条件的书籍时，此项将会执行。"
 msgid ""
 "First 4 sub-conditions are <b>OR</b> matching, so any one of them is enough "
 "to trigger the profile execution."
-msgstr ""
-"前四项次级条件是按照<b>或关系</b>匹配，因此满足其中任何一项即可套用该配置档。"
+msgstr "前四项次级条件是按照<b>或关系</b>匹配，因此满足其中任何一项即可套用该配置文件"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4507-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4507-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr "与<b>屏幕显示方向</b>条件组合"
+msgstr "与<b>设备方向</b>条件组合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4508-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4508-7"
@@ -11600,48 +11269,33 @@ msgstr ""
 "文档时启用/禁用读取统计信息，以将其从统计信息中排除。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4522-7
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4502-7"
-#| msgid "Combined with <b>device orientation</b>"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4522-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr "与<b>屏幕显示方向</b>条件组合"
+msgstr "与<b>设备方向</b>条件组合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4523-7
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4503-7"
-#| msgid "Combined with <b>book metadata</b>"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4523-7"
 msgid "Combined with <b>book metadata</b>"
 msgstr "与<b>书籍元数据</b>条件组合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4524-7
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4504-7"
-#| msgid "Combined with <b>book file path</b>"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4524-7"
 msgid "Combined with <b>book file path</b>"
 msgstr "与<b>书籍文件路径</b>条件组合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4525-7
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4505-7"
-#| msgid "Combined with <b>collections book is included in</b>"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4525-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr "与<b>书籍属于指定书单</b>条件组合"
+msgstr "与<b>书籍所属书单</b>结合"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4526-7
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4506-7"
-#| msgid "Combined with <b>book is being opened for the first time</b>"
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4526-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr "与<b>首次打开该书籍</b>条件组合"
+msgstr "与<b>首次打开该书籍</b>结合"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4534-4
 msgid "Profile examples:"
-msgstr "配置档示例："
+msgstr "配置文件示例："
 
 #: user_guide/en.html%2Bhtml.body.div.p:4536-4
 msgid ""
@@ -11649,9 +11303,9 @@ msgid ""
 "this powerful feature of KOReader. Examples also include auto-execute "
 "conditions and <span class=\"ui\">collections</span> features:"
 msgstr ""
-"下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引"
-"玉。示例也包含了自动套用配置档的触发条件和<span class=\"ui\">书单</span>功"
-"能："
+"下面是一些由本项目开发者提供的例子，为用户如何使用KOReader的强大功能抛砖引玉"
+"。示例也包含了自动套用配置文件的触发条件和<span class=\"ui\">书单</span>功能"
+"："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4539-5
 msgid ""
@@ -11669,8 +11323,8 @@ msgid ""
 "page turn direction to <b>Right-To-Left</b> and inverts the page turn taps "
 "and swipes when you open a manga book from this collection."
 msgstr ""
-"将所有漫画添加到一份书单，然后创建一套配置档在打开书单内的漫画时自动套用，将"
-"翻页方向改为<b>从右向左</b>并交换左右两侧的翻页点按及滑动手势。"
+"将所有漫画添加到一份书单，然后创建一套配置文件在打开书单内的漫画时自动套用，"
+"将翻页方向改为<b>从右向左</b>并交换左右两侧的翻页点按及滑动手势。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4542-5
 msgid ""
@@ -11678,15 +11332,15 @@ msgid ""
 "decrease the screen refresh interval to <span class=\"ui\">every page</span> "
 "to avoid ghosting."
 msgstr ""
-"将漫画书添加到套用配置档的书单，阅读该书单内的书籍时将页面刷新间隔降低到"
-"<span class=\"ui\">逐页刷新</span>以避免残影。"
+"将漫画书添加到套用配置文件的书单，阅读该书单内的书籍时将页面刷新间隔降低到<sp"
+"an class=\"ui\">逐页刷新</span>以避免残影。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4543-5
 msgid ""
 "Trigger a profile to adjust typeface, font size and set two-column mode when "
 "opening a file for the first time from the <b>Periodicals</b> folder."
-msgstr ""
-"首次从<b>期刊</b>文件夹打开文件时，套用配置档以调整字体、字号并设置双栏模式。"
+msgstr "首次从<b>期刊</b>文件夹打开文件时，套用配置文件以调整字体、字号并设置双栏模式"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4544-5
 msgid ""
@@ -11723,24 +11377,16 @@ msgid ""
 "href=\"#L2-styletweaks\">style tweaks</a> section of the guide for more info."
 msgstr ""
 "在交互手势管理器中呼出<span class=\"ui\">样式微调</span>菜单 ，可以创建一套配"
-"置档以根据指定条件启用或禁用对应样式。例如，可以创建一套<b>「禁用出版方版式 •"
-"并•且• 应用用户样式微调」</b>的配置档，根据书籍文件存放目录、被编入的书单或书"
-"籍元数据中包含的关键词等条件自动套用。 请查阅<a href=\"#L2-styletweaks\">样式"
-"微调</a>一节详细了解。"
+"置文件以根据指定条件启用或禁用对应样式。例如，可以创建一套<b>「禁用出版方版式"
+" •并•且• 应用用户样式微调」</b>的配置文件，根据书籍文件存放目录、被编入的书单"
+"或书籍元数据中包含的关键词等条件自动套用。 请查阅<a href=\"#L2-styletweaks\">"
+"样式微调</a>一节详细了解。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4551-1
 msgid "Technical details of Profiles and Quick Menu"
-msgstr "配置档和快捷菜单的技术细节"
+msgstr "配置文件和快捷菜单的技术细节"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4553-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:4553-9"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -11757,8 +11403,8 @@ msgid ""
 "As a profile (which is explained as the <span class=\"ui\">Advanced Method</"
 "span> and stored in <span class=\"ui\">settings/profiles.lua</span>)"
 msgstr ""
-"<span class=\"ui\">「高阶操作」</span>编制成配置档（保存于<span "
-"class=\"ui\">settings/profiles.lua</span>中）"
+"<span class=\"ui\">「高阶操作」</span>编制成配置文件（保存于<span class="
+"\"ui\">settings/profiles.lua</span>中）"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4560-13
 msgid ""
@@ -11777,8 +11423,7 @@ msgstr "操作组合也可以通过两种不同的方式<b>执行</b>:"
 msgid ""
 "Applying each action in the (sorted) order when triggered (as a <span "
 "class=\"ui\">Profile</span>)"
-msgstr ""
-"在触发后按照指定的顺序依次逐项执行（作为<span class=\"ui\">配置档</span>）"
+msgstr "在触发后按照指定的顺序依次逐项执行（作为<span class=\"ui\">配置文件</span>）"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4566-13
 msgid "Showing it as a <span class=\"ui\">Quick Menu</span>"
@@ -11804,24 +11449,18 @@ msgid ""
 "profiles to another device. Please see <a href=\"#backup\">Backup your "
 "KOReader settings</a> section."
 msgstr ""
-"<span class=\"label_blue\">说明</span> 可以将配置档文件备份并传输到其他设备。"
-"详情请参阅<a href=\"#backup\">备份KOReader设置</a>一节。"
+"<span class=\"label_blue\">说明</span> 可以将配置文件文件备份并传输到其他设备"
+"。详情请参阅<a href=\"#backup\">备份KOReader设置</a>一节。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4578-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1031-5"
-#| msgid "PLUGINS AND USER PATCHES"
 msgctxt "user_guide/en.html+html.body.div.div:4578-9"
 msgid "PLUGINS AND USER PATCHES"
 msgstr "插件与用户补丁"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4579-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1033-13"
-#| msgid "Plugin types"
 msgctxt "user_guide/en.html+html.body.div.div:4579-9"
 msgid "Plugin types"
-msgstr "插件种类"
+msgstr "插件类型"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4580-9
 msgid ""
@@ -11861,32 +11500,19 @@ msgid "You can enable/disable them via:"
 msgstr "您可以通过以下方式启用/禁用它们:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4597-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4433-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / More tools / Plugin management"
 msgctxt "user_guide/en.html+html.body.div.div:4597-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / More tools / Plugin management"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 更多工具 / 插件管理"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / 更多工具 / 插件管理"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4601-9
 msgid "Contrib"
 msgstr "社区贡献插件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4602-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:4602-9"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -11934,14 +11560,6 @@ msgid "External"
 msgstr "外部插件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4619-9
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:4619-9"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -11952,11 +11570,6 @@ msgid ""
 msgstr "这些是独立于KOReader团队开发的插件。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4624-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:4603-13"
-#| msgid ""
-#| "They have to be installed <b>manually</b> and then activated from the "
-#| "plugins menu."
 msgctxt "user_guide/en.html+html.body.div.ul.li:4624-13"
 msgid ""
 "They have to be installed <b>manually</b> and then activated from the "
@@ -11964,9 +11577,6 @@ msgid ""
 msgstr "它们必须<b>手动</b>安装，然后从插件菜单激活。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4625-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.ul.li:4604-13"
-#| msgid "They should be updated <b>manually</b>."
 msgctxt "user_guide/en.html+html.body.div.ul.li:4625-13"
 msgid "They should be updated <b>manually</b>."
 msgstr "它们应当被<b>手动更新</b>。"
@@ -12048,9 +11658,6 @@ msgstr ""
 "目。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4646-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1034-13"
-#| msgid "List of internal plugins"
 msgctxt "user_guide/en.html+html.body.div.div:4646-9"
 msgid "List of internal plugins"
 msgstr "内置插件列表"
@@ -12203,7 +11810,7 @@ msgstr ""
 msgid ""
 "<b> Profiles </b> - Allows combining multiple settings to make switchable "
 "profiles"
-msgstr "<b>配置档</b>——将多项设置整合成为一套可切换套用的配置档"
+msgstr "<b>配置文件</b>——将多项设置整合成为一套可切换套用的配置文件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4670-9
 msgid ""
@@ -12247,9 +11854,7 @@ msgstr ""
 msgid ""
 "<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this "
 "plugin under:"
-msgstr ""
-"<b> 系统统计信息 </b> - 您可以通过以下插件通过此插件查看您的 CPU/内存/电池信"
-"息："
+msgstr "<b> 系统统计 </b> - 您可以通过以下插件通过此插件查看您的 CPU/内存/电池信息："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4677-9
 msgctxt "user_guide/en.html+html.body.div.div:4677-9"
@@ -12258,7 +11863,7 @@ msgid ""
 "style=\"width:22px;\"> / Help / System statistics"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / 帮助 / 系统统计数据"
+"style=\"width:22px;\"> / 帮助 / 系统统计"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4678-9
 msgid ""
@@ -12298,14 +11903,6 @@ msgid "Controlling your reader from another device - HTTP Inspector Plugin"
 msgstr "从另一台设备控制您的阅读器 - HTTP Inspector 插件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4686-3
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:4686-3"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -12351,22 +11948,11 @@ msgstr ""
 "t=359837\">MobileRead 论坛上阅读此插件的示例用例</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4701-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1035-13"
-#| msgid "User patches"
 msgctxt "user_guide/en.html+html.body.div.div:4701-9"
 msgid "User patches"
 msgstr "用户补丁"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4703-3
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en.html+html."
-#| "body.div.p:2327-5user_guide/en.html+html.body.div.p:2327-5user_guide/en."
-#| "html+html.body.div.p:2327-5user_guide/en.html+html.body.div."
-#| "p:2327-5user_guide/en.html+html.body.div.p:2327-5"
-#| msgid "!!! ADVANCED"
 msgctxt "user_guide/en.html+html.body.div.p:4703-3"
 msgid "!!! ADVANCED"
 msgstr "！！专业操作！！"
@@ -12421,9 +12007,6 @@ msgstr ""
 "span>目录中"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4716-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ol.li:3824-17"
-#| msgid "Restart KOReader"
 msgctxt "user_guide/en.html+html.body.div.ol.li:4716-13"
 msgid "Restart KOReader"
 msgstr "重启 KOReader"
@@ -12504,9 +12087,6 @@ msgid ""
 msgstr "如果用户补丁有问题，可以通过删除补丁文件来恢复到以前的配置。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4744-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1039-5"
-#| msgid "TIPS"
 msgctxt "user_guide/en.html+html.body.div.div:4744-1"
 msgid "TIPS"
 msgstr "使用技巧"
@@ -12572,8 +12152,8 @@ msgid ""
 "src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Set cover image"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / 书籍相关信息 / <img class=\"img_inline\" "
-"src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / 设置书籍封面"
+"style=\"width:22px;\"> / 书籍信息 / <img class=\"img_inline\" src="
+"\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / 设置书籍封面"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4761-1
 msgid "Custom book cover from a screenshot"
@@ -12615,7 +12195,7 @@ msgid ""
 "style=\"width:22px;\"> / Book information"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / 书籍相关信息"
+"style=\"width:22px;\"> / 书籍信息"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4771-5
 msgid ""
@@ -12805,18 +12385,13 @@ msgid ""
 msgstr "如果您想知道当前页面上显示了多少行或字，可以在以下位置查看："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4829-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4764-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-#| "style=\"width:22px;\"> / Book information"
 msgctxt "user_guide/en.html+html.body.div.div:4829-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / 书籍相关信息"
+"style=\"width:22px;\"> / 书籍信息"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4833-5
 msgid "Optimizing your battery life"
@@ -12878,18 +12453,13 @@ msgstr ""
 "您可以通过此菜单项查看您的系统信息，例如 <b>CPU/磁盘空间/内存</b> 使用情况："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4850-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4672-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-#| "style=\"width:22px;\"> / Help / System statistics"
 msgctxt "user_guide/en.html+html.body.div.div:4850-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / System statistics"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / 帮助 / 系统统计数据"
+"style=\"width:22px;\"> / 帮助 / 系统统计"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4855-9
 msgid "Keeping an eye on your memory usage"
@@ -12932,9 +12502,6 @@ msgstr ""
 "style=\"width:22px;\"> / 阅读设备相关 / 设备状态提醒"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4869-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1046-5"
-#| msgid "TROUBLESHOOTING"
 msgctxt "user_guide/en.html+html.body.div.div:4869-1"
 msgid "TROUBLESHOOTING"
 msgstr "疑难解答"
@@ -13188,8 +12755,7 @@ msgstr ""
 msgid ""
 "<span class=\"ui\">Auto straighten</span> feature (which allows you to "
 "adjust the tilt of the page) might also slow down your reader."
-msgstr ""
-"<span class=\"ui\">自动拉直</span>功能（允许您调整页面的倾斜）也可能会减慢您"
+msgstr "<span class=\"ui\">自动校直</span>功能（允许您调整页面的倾斜）也可能会减慢您"
 "的阅读器速度。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4938-9
@@ -13695,9 +13261,6 @@ msgstr ""
 "备需要对全部页面重新渲染。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5096-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:1048-5"
-#| msgid "REACH US"
 msgctxt "user_guide/en.html+html.body.div.div:5096-1"
 msgid "REACH US"
 msgstr "联系我们"
