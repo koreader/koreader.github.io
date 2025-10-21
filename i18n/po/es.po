@@ -3,10 +3,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-21 13:09+0000\n"
-"PO-Revision-Date: 2025-10-21 13:07+0000\n"
+"PO-Revision-Date: 2025-10-21 21:13+0000\n"
 "Last-Translator: Felipe Bustamante <felipe.bustamante@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1028,7 +1028,7 @@ msgstr "Recorta los márgenes de forma automática o manual"
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
 msgstr ""
-"<b>Reflujo</b> de documentos para extraer texto y facilitar la lectura en "
+"<b>}Ajustar texto</b> de documentos para extraerlo y facilitar la lectura en "
 "pantallas pequeñas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1176-9
@@ -1525,9 +1525,10 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
-"<span class=\"label_blue\">INFORMACIÓN</span> *La selección de letra solo "
-"está disponible en documentos con reflujo (EPUB, HTML, DOCX, RTF, TXT…). Los "
-"documentos de diseño fijo como PDF/DJVU no son compatibles."
+"<span class=\"label_blue\">INFORMACIÓN</span> *La selección de fuente solo "
+"está disponible en documentos con ajuste de texto "
+"(EPUB, HTML, DOCX, RTF, TXT…). Los documentos de diseño fijo como PDF/DJVU "
+"no son compatibles."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1309-1
 msgid "Controlling the backlight / frontlight"
@@ -2391,7 +2392,7 @@ msgid ""
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
 "Y estás en una vista con zoom distinto de 100% (columna, fila o manual) o en "
-"el <span class=\"ui\">modo de reflujo</span>"
+"el <span class=\"ui\">modo de ajuste de texto</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2415,7 +2416,7 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
-"Naturalmente tipos de documentos como <b>epub, mobi, html</b> no tienen "
+"Naturalmente, tipos de documentos como <b>epub, mobi, html</b> no tienen "
 "números de página fijos porque son documentos ajustables. Esto significa que "
 "se pueden ajustar según el tamaño de la pantalla y la orientación del "
 "dispositivo (a diferencia de los archivos <b>pdf</b> o <b>djvu</b> que "
@@ -3053,7 +3054,7 @@ msgid ""
 "status bar</span> via:"
 msgstr ""
 "<span class=\"ui\">Barra de estado alternativa</span> activa una barra de "
-"estado alternativa que está disponible sólo en documentos reajustables "
+"estado alternativa que está disponible solo en documentos ajustables "
 "(EPUB, HTML, DOCX, RTF, TXT…). Tras activarla aquí, puedes configurar la "
 "<span class=\"ui\">barra de estado alternativa</span> a través de:"
 
@@ -3117,7 +3118,7 @@ msgstr "<b>Documentos con diseño fijo</b> (pdf, djvu, archivos de imagen...)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1783-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr "<b>Documentos reajustables</b> (epub, html, docx, rtf, txt…)."
+msgstr "<b>Documentos Ajustables</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1786-5
 msgid ""
@@ -5010,13 +5011,13 @@ msgid ""
 "from metadata, font names are not important when copying to your device. "
 "Installed fonts will be available after restarting KOReader.</b>"
 msgstr ""
-"Al iniciarse, KOReader recopila las fuentes disponibles de <b>font metadata/"
-"info</b> y las clasifica por familia y grosores. Esto significa que puedes "
-"añadir diferentes grosores y variantes de una fuente y KOReader intentará "
-"usar la más adecuada. <b>Dado que la información de la familia de fuentes se "
-"obtiene de los metadatos, los nombres de las fuentes no son importantes al "
-"copiarlas a tu dispositivo. Las fuentes instaladas estarán disponibles tras "
-"reiniciar KOReader.</b>"
+"Al iniciarse, KOReader recopila las fuentes disponibles de <b>metadatos de "
+"fuentes/info</b> y las clasifica por familia y grosores. Esto significa que "
+"puedes añadir diferentes grosores y variantes de una fuente y KOReader "
+"intentará usar la más adecuada. <b>Dado que la información de la familia de "
+"fuentes se obtiene de los metadatos, los nombres de las fuentes no son "
+"importantes al copiarlas a tu dispositivo. Las fuentes instaladas estarán "
+"disponibles tras reiniciar KOReader.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2272-5
 msgid ""
@@ -5821,7 +5822,7 @@ msgstr ""
 "Puedes verlo en la imagen de ejemplo anterior, junto al ajuste de estilo "
 "<b>Ajustar márgenes</b>. Este ajuste se ha añadido a la lista de acciones. "
 "Lo encontrarás en la categoría <span class=\"ui\">Administrador de gestos > "
-"Documentos reajustables</span>. Se encuentra al final de la lista."
+"Documentos Ajustables</span>. Se encuentra al final de la lista."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2509-9
 msgid "2. You can add a tweak to your Quick Menu"
@@ -6354,8 +6355,8 @@ msgid ""
 "the PDF format."
 msgstr ""
 "<span class=\"label_blue\">INFO</span> Este ajuste solo funciona en "
-"documentos reajustables como los EPUB. Si deseas ampliar o reducir un "
-"subrayado en PDF, debes eliminar y volver a subrayarlo debido a las "
+"documentos ajustables como los EPUB. Si deseas ampliar o reducir un "
+"destacado en PDF, debes eliminar y volver a destacarlo debido a las "
 "limitaciones del formato PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2689-5
@@ -6846,7 +6847,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2854-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
-msgstr "<b>1. Puedes habilitar el</b> <span class=\"ui\">Reflujo</span>"
+msgstr "<b>1. Puedes habilitar el</b> <span class=\"ui\">Ajuste de texto</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2856-5
 msgid ""
@@ -6854,7 +6855,7 @@ msgid ""
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
 "MENÚ INFERIOR / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Reflujo"
+"style=\"width:22px;\"> / Ajusre de Texto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2858-5
 msgid ""
@@ -6863,10 +6864,10 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
-"Reflujo intenta extraer el texto del documento (si está disponible) y "
-"formatearlo como una sola columna. Los resultados suelen ser satisfactorios. "
-"También puedes configurarlo como <b>predeterminado</b> manteniendo pulsado "
-"en él."
+"El ajuste de texto intenta extraer el texto del documento "
+"(si está disponible) y formatearlo como una sola columna. Los resultados "
+"suelen ser satisfactorios. También puedes configurarlo como "
+"<b>predeterminado</b> manteniendo pulsado en él."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2862-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
@@ -7000,11 +7001,11 @@ msgid ""
 msgstr ""
 "<span class=\"label_green\">CONSEJO</span> Al leer un documento PDF, si está "
 "en una vista ampliada distinta al 100% (columna, fila o manual) o en el "
-"<span class=\"ui\">modo de reflujo</span>, puede tocar la esquina superior "
-"izquierda de la pantalla para acceder al <span class=\"ui\">modo de volteo</"
-"span>. Este modo muestra temporalmente la página completa sin recortar, "
-"ajustada a la pantalla. Puede pasar las páginas en este modo. Para salir, "
-"toque este icono."
+"<span class=\"ui\">modo de ajuste de texto</span>, puede tocar la esquina "
+"superior izquierda de la pantalla para acceder al <span class=\"ui\">modo de "
+"volteo</span>. Este modo muestra temporalmente la página completa sin "
+"recortar, ajustada a la pantalla. Puede pasar las páginas en este modo. Para "
+"salir, toque este icono."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2908-1
 msgctxt "user_guide/en.html+html.body.div.div:2908-1"
@@ -7043,13 +7044,13 @@ msgid ""
 "your document. If your PDF/DJVU files are slow, this is the first setting "
 "you should check."
 msgstr ""
-"<span class=\"ui\">Calidad de renderizado</span> <b>(solo activo en el modo "
-"Reflujo)</b> establece la calidad del procesamiento y la salida de "
-"extracción de texto e imágenes. <span class=\"ui\">Alto</span> es más "
-"agradable, pero puede ser mucho más lento (varios segundos para pasar la "
-"página) que <span class=\"ui\">default</span> dependiendo de su documento. "
-"Si sus archivos PDF/DJVU son lentos, esta es la primera configuración que "
-"debe verificar."
+"<span class=\"ui\">Calidad de renderizado</span> <b>"
+"(solo activo en el modo ajuste de texto)</b> establece la calidad del "
+"procesamiento y la salida de extracción de texto e imágenes. <span class="
+"\"ui\">Alto</span> es más agradable, pero puede ser mucho más lento "
+"(varios segundos para pasar la página) que <span class=\"ui\">default</span> "
+"dependiendo de su documento. Si sus archivos PDF/DJVU son lentos, esta es la "
+"primera configuración que debe verificar."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2923-5
 msgid ""
@@ -7073,18 +7074,19 @@ msgid ""
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
 "languages like Arabic and Hebrew."
 msgstr ""
-"<span class=\"ui\">Dirección de escritura</span> <b>(solo activo en modo "
-"Reflujo)</b> establece la dirección del documento original. Establezca esto "
-"en <b>RTL</b> para idiomas como árabe y hebreo."
+"<span class=\"ui\">Dirección de escritura</span> <b>"
+"(solo activo en modo ajuste de texto)</b> establece la dirección del "
+"documento original. Establezca esto en <b>RTL</b> para idiomas como árabe y "
+"hebreo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2929-5
 msgid ""
 "<span class=\"ui\">Document columns</span> <b>(only active in Reflow mode)</"
 "b> sets the number of text columns in the original document."
 msgstr ""
-"<span class=\"ui\">Columnas del documento</span> <b>(solo activas en el modo "
-"Reflujo)</b> establece el número de columnas de texto en el documento "
-"original."
+"<span class=\"ui\">Columnas del documento</span> <b>"
+"(solo activas en el modo ajuste de texto)</b> establece el número de "
+"columnas de texto en el documento original."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2935-5
 msgid ""
@@ -7775,15 +7777,15 @@ msgstr ""
 "quieres conservar la alta resolución para futuras revisiones, la mejor "
 "opción podría ser crear el <b>CBZ</b> para tu dispositivo con la resolución "
 "más alta. O bien elija una resolución \"alta\" arbitraria, posiblemente una "
-"que coincida con la letra. <b>300 PPP</b> o superior (hasta <b>450</b> o "
-"incluso <b>600</b>), a menos que la letra sea inferior claro. Si asumimos un "
-"tamaño de pantalla de <b>8\", 1500×2000</b> es una buena resolución. Para "
-"imágenes más grandes deberías probarlo en tu dispositivo y ver si es "
-"compatible. Los Kindles antiguos con poca memoria pueden tener dificultades "
-"con tamaños como por ejemplo <b>3000×4000</b>. Si el proceso está "
-"automatizando, podría valer la pena considerar crear dos versiones, una de "
-"menor y otra de mayor calidad (por ejemplo a <b>200/400</b> y <b>300/600</b> "
-"ppp)."
+"que coincida con la letra. <b>300 PPP</b> o superior "
+"(hasta <b>450</b> o incluso <b>600</b>), a menos que la letra sea inferior. "
+"Si asumimos un tamaño de pantalla de <b>8\", 1500×2000</b> es una buena "
+"resolución. Para imágenes más grandes deberías probarlo en tu dispositivo y "
+"ver si es compatible. Los Kindles antiguos con poca memoria pueden tener "
+"dificultades con tamaños como por ejemplo <b>3000×4000</b>. Si el proceso "
+"está automatizado, podría valer la pena considerar crear dos versiones, una "
+"de menor y otra de mayor calidad "
+"(por ejemplo, de<b>200/400</b> y <b>300/600</b> ppp)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-5
 msgid ""
@@ -9448,8 +9450,8 @@ msgid ""
 "is activated with a profile."
 msgstr ""
 "Puede agregar sus archivos PDF problemáticos a una colección, de modo que "
-"cuando los abra, <span class=\"ui\">OCR automático</span> o <span "
-"class=\"ui\">modo de flujo</span> se active con un perfil."
+"cuando los abra, <span class=\"ui\">OCR automático</span> o <span class="
+"\"ui\">modo de ajuste de texto</span> se active con un perfil."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3532-1
 msgctxt "user_guide/en.html+html.body.div.div:3532-1"
@@ -9463,11 +9465,11 @@ msgid ""
 "for the small screens of e-readers. But for best results, you may want to "
 "convert your documents into more flexible EPUB format."
 msgstr ""
-"KOReader puede redistribuir documentos PDF (esta opción se puede encontrar "
-"en el menú inferior mientras se lee un documento de diseño fijo como PDF) "
-"para hacerlos adecuados para las pantallas pequeñas de los lectores "
-"electrónicos. Pero para obtener mejores resultados, es posible que desees "
-"convertir tus documentos a un formato EPUB más flexible."
+"KOReader puede ajustar el texto de documentos PDF (esta opción se puede "
+"encontrar en el menú inferior mientras se lee un documento de diseño fijo "
+"como PDF) para hacerlos adecuados para las pantallas pequeñas de los "
+"lectores electrónicos. Pero para obtener mejores resultados, es posible que "
+"desees convertir tus documentos a un formato EPUB más flexible."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3536-5
 msgid ""
@@ -10139,7 +10141,7 @@ msgstr ""
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
 msgstr ""
 "<span style=\"font-family: microns;\"></span> - Activar o desactivar "
-"reflujo"
+"ajuste de texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
@@ -10239,7 +10241,7 @@ msgstr "Buscar en historial"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3786-17
 msgid "Favorites"
-msgstr "Reiniciar el dispositivo"
+msgstr "Favoritos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3787-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3787-17"
@@ -10270,11 +10272,11 @@ msgstr "Buscar en el menú"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
 msgid "Open next file in last book folder"
-msgstr "Abrir el siguiente archivo de la última carpeta"
+msgstr "Abrir el siguiente archivo en la carpeta del último libro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3794-17
 msgid "Open previous file in last book folder"
-msgstr "Abrir el anterior archivo de la última carpeta"
+msgstr "Abrir archivo anterior en la carpeta del último libro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
 msgid "Notebook file"
@@ -10330,7 +10332,7 @@ msgstr "Estadísticas de lectura: por intervalos de tiempo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
 msgid "Reading statistics: show calendar view"
-msgstr "Estadísticas de lectura: vista de calendario"
+msgstr "Estadísticas de lectura: mostrar vista de calendario"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
 msgid "Reading statistics: show today's timeline"
@@ -10358,7 +10360,7 @@ msgstr "Subir cola Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3815-17
 msgid "Wallabag statuses upload"
-msgstr "Subir estados a Wallabag"
+msgstr "Subir estados de Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3817-17
 msgid "Reading progress"
@@ -10399,7 +10401,7 @@ msgstr "Salir de KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Toggle long-press on corners"
-msgstr "Conmutar pulsación prolongada en las esquinas"
+msgstr "Activar o desactivar la pulsación prolongada en las esquinas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
 msgid "Enable touch input"
@@ -10439,7 +10441,7 @@ msgstr "Girar 90° en sentido antihorario"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3841-17
 msgid "Toggle Fullscreen"
-msgstr "Conmutar pantalla completa"
+msgstr "Cambiar a pantalla completa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3842-17
 msgid "Show network info"
@@ -10503,7 +10505,7 @@ msgstr "Mostrar diálogo Iluminación"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3865-17
 msgid "Toggle frontlight"
-msgstr "Conmutar luz frontal"
+msgstr "Activar o desactivar la luz frontal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3866-17
 msgid "Set frontlight brightness"
@@ -10547,11 +10549,11 @@ msgstr "Word spacing"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
 msgid "Full refresh rate (not in night mode)"
-msgstr "Expansión de palabras"
+msgstr "Frecuencia de actualización completa (no en modo nocturno)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
 msgid "Full refresh rate (in night mode)"
-msgstr "Contraste"
+msgstr "Frecuencia de actualización completa (en modo nocturno)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
 msgid "Always flash on chapter boundaries"
@@ -10575,7 +10577,7 @@ msgstr "Siempre parpadear en páginas con imágenes"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3883-17
 msgid "Toggle flashing on pages with images"
-msgstr "Conmutar parpadeo en páginas con imágenes"
+msgstr "Activar o desactivar el parpadeo en páginas con imágenes"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3884-17
 msgid "Auto warmth off"
@@ -10604,11 +10606,11 @@ msgstr "Margen inferior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3893-9
 msgid "Reflowable documents"
-msgstr "Documentos reajustables"
+msgstr "Documentos con ajuste de texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3895-17
 msgid "Font face"
-msgstr "Tipo de letra"
+msgstr "Tipo de fuente"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3896-17
 msgid "Increase font size"
@@ -10780,7 +10782,7 @@ msgstr "Lector"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-17
 msgid "Show bottom menu"
-msgstr "Índice"
+msgstr "Mostrar menú inferior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3945-17
 msgid "Toggle status bar"
@@ -10800,7 +10802,7 @@ msgstr "Siguiente capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-17
 msgid "First page"
-msgstr "Marcadores"
+msgstr "Primera página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3950-17
 msgid "Last page"
@@ -10959,7 +10961,7 @@ msgstr "Cambiar acción de subrayado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
 msgid "Cycle highlight style"
-msgstr "Factor de ampliación"
+msgstr "Estilo de destacado de ciclo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 msgid "Save book metadata"
@@ -10980,7 +10982,7 @@ msgstr "Exportar todas las notas de todos los libros del historial"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3992-17
 msgid "Move current book to archive"
-msgstr "Dirección"
+msgstr "Mover el libro actual al archivador"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3993-17
 msgid "Reading statistics: current book"
@@ -11000,15 +11002,15 @@ msgstr "Documentos de diseño fijo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle page flipping"
-msgstr "Reflow"
+msgstr "Activar o desactivar el cambio de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Toggle bookmark flipping"
-msgstr "Contraste"
+msgstr "Activar o desactivar el cambio de marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Toggle reflow"
-msgstr "Eliminar marca de agua"
+msgstr "Activar o desactivar ajuste de texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgid "Zoom mode"
@@ -11024,7 +11026,7 @@ msgstr "Conmutar zoom a viñeta"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
 msgid "Page crop"
-msgstr "OCR forzado"
+msgstr "Recorte de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
 msgid "Margin"
@@ -11090,7 +11092,7 @@ msgstr "Espacio entre palabras"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Reflow"
-msgstr "Redistribución del texto"
+msgstr "Ajuste de texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4024-17"
@@ -12516,7 +12518,7 @@ msgid ""
 msgstr ""
 "Agregue sus PDF problemáticos a una colección, de modo que cuando los abra, "
 "el <span class=\"ui\">OCR automático</span> o el <span class=\"ui\">modo de "
-"reflujo</span> se activen con un perfil."
+"ajuste de texto</span> se activen con un perfil."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4545-5
 msgid ""
@@ -12891,7 +12893,7 @@ msgid ""
 "<b> Auto power save </b> - Puts the device into standby, suspend or power "
 "off after specified periods of inactivity"
 msgstr ""
-"<b>Ahorro automático de energía</b>: Pone el dispositivo en modo de espera, "
+"<b>Ahorro automático de energía</b> - Pone el dispositivo en modo de espera, "
 "suspensión o apagado después de períodos específicos de inactividad"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4651-9
@@ -12990,7 +12992,7 @@ msgid ""
 "<b> Japanese support </b> - Japanese language support for KOReader that "
 "extends built-in dictionary and selection system"
 msgstr ""
-"<b>Compatibilidad con japonés</b>: compatibilidad con el japonés para "
+"<b>Compatibilidad con japonés</b> - compatibilidad con el japonés para "
 "KOReader que amplía el diccionario integrado y el sistema de selección"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4664-9
@@ -14114,10 +14116,10 @@ msgid ""
 "your document."
 msgstr ""
 "Si configura su <span class=\"ui\">CALIDAD DE PRESENTACIÓN</span> en <span "
-"class=\"ui\">ALTA</span> mientras que <span class=\"ui\">REFLUJO</span> está "
-"<b>ON</b>, el texto será más agradable pero puede ser mucho más lento (hasta "
-"varios segundos por vuelta de página) que <span class=\"ui\">POR DEFECTO</"
-"span> dependiendo de su documento."
+"class=\"ui\">ALTA</span> mientras el <span class=\"ui\">MODO DE AJUSTE DE "
+"TEXTO</span> está <b>ACTIVADO</b>, el texto será más agradable pero puede "
+"ser mucho más lento (hasta varios segundos por vuelta de página) que <span "
+"class=\"ui\">POR DEFECTO</span> dependiendo de su documento."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4940-13
 msgid ""
@@ -14157,7 +14159,7 @@ msgid ""
 "probably won't look nice or readable."
 msgstr ""
 "<span class=\"label_blue\">INFO</span> KOReader no admite <b>EPUB de diseño "
-"fijo</b>. Se abrirán, pero se representarán como EPUB ajustables y "
+"fijo</b>. Se abrirán, pero se representarán como EPUB con ajuste de texto y "
 "probablemente no se verán bonitos ni legibles."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4953-9
