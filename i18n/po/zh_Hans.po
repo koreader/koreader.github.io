@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-21 21:16+0000\n"
-"PO-Revision-Date: 2025-10-20 04:53+0000\n"
-"Last-Translator: Boyuan Xu <xbywhiteboat@gmail.com>\n"
+"PO-Revision-Date: 2025-10-23 17:03+0000\n"
+"Last-Translator: rerbin <rerbin@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -671,8 +671,8 @@ msgid ""
 "styletweaks\" class=\"internalink\"></a>"
 msgstr ""
 "使用功能强大的内置<span class=\"ui\">样式微调</span>工具或自行编写样式，实现"
-"对书籍渲染样式的精确控制<a href=\"#L2-styletweaks\" class=\"internalink\"></"
-"a>"
+"对书籍渲染样式的精确控制<a href=\"#L2-styletweaks\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1090-9
 msgid ""
@@ -831,8 +831,8 @@ msgid ""
 "don't like the one that comes with your book <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"如果不满意书籍自带目录，可自动或手工创建副目录替代之<a href=\"#L2-toctools\" "
-"class=\"internalink\"></a>"
+"如果不满意书籍自带目录，可自动或手工创建替代性目录替代之<a href="
+"\"#L2-toctools\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1136-9
 msgid ""
@@ -2002,9 +2002,9 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
-"<b>副状态栏</b>：除了界面底部的默认<span class=\"ui\">状态栏</span>，屏幕顶部"
-"还提供<span class=\"ui\">副状态栏</span>可自行启用。请前往<a href=\"#L2-"
-"statusbar\">状态栏</a>章节了解详情"
+"<b>顶部状态栏</b>：除了界面底部的默认<span class=\"ui\">状态栏</span>，屏幕顶"
+"部还提供<span class=\"ui\">顶部状态栏</span>可自行启用。请前往<a href="
+"\"#L2-statusbar\">状态栏</a>章节了解详情"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1497-9
 msgid ""
@@ -2095,9 +2095,9 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
-"在此阶段，文档仅有<b>局部</b>渲染。页码计数、脚注等受影响数据是<b>不准确</b>"
-"的。用户可快速预览设置后的文本样式并进一步调整。在此阶段用户仍可翻页及使用注"
-"释链接跳转阅读位置。"
+"在此阶段，文档仅有<b>局部</b>渲染。页码计数、页脚信息等受影响数据是<b>不准确<"
+"/b>的。用户可快速预览设置后的文本样式并进一步调整。在此阶段用户仍可翻页及使用"
+"注释链接跳转阅读位置。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1531-17
 msgid ""
@@ -2242,7 +2242,7 @@ msgid ""
 msgstr ""
 "KOReader支持<b>页码参考</b>功能，出版方可利用该功能将纸版书的页码写入电子版书"
 "籍中。启用该功能后，KOReader不会自行计算书籍页码，而是展示由出版方提供的<b>内"
-"置页码</b>。这使得<span class=\"ui\">状态栏</span>中显示的页码可以与纸质版保"
+"置页码</b>。这使得<span class=\"ui\">状态栏</span>中显示的页码可以与印刷版保"
 "持一致。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1587-5
@@ -2317,9 +2317,9 @@ msgid ""
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
 "KOReader有两块状态栏，一条是默认启用的<span class=\"ui\">底部状态栏</span>；"
-"另一条是<span class=\"ui\">副状态栏</span>，启用后将出现在页面顶部。<span "
-"class=\"ui\">副状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格"
-"式可用。"
+"另一条是<span class=\"ui\">顶部状态栏</span>，启用后将出现在页面顶部。<span "
+"class=\"ui\">顶部状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件"
+"格式可用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1608-5
 msgid ""
@@ -2329,23 +2329,23 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
-"<span class=\"ui\">底部状态栏</span>是新加的，正在持续维护中。<span "
-"class=\"ui\">副状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。"
-"如有需要，可通过下列路径启用<span class=\"ui\">副状态栏</span>："
+"<span class=\"ui\">底部状态栏</span>是新加的，正在持续维护中。<span class="
+"\"ui\">顶部状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有"
+"需要，可通过下列路径启用<span class=\"ui\">顶部状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1610-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
-"底部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 副状态栏"
+"底部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 顶部状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1612-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
-msgstr "<span class=\"ui\">副状态栏</span>可通过如下菜单进行配置："
+msgstr "<span class=\"ui\">顶部状态栏</span>可通过如下菜单进行配置："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1614-5
 msgctxt "user_guide/en.html+html.body.div.div:1614-5"
@@ -2353,8 +2353,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 状态栏 / 副状态栏"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 顶部状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1616-5
 msgid ""
@@ -2398,8 +2398,8 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 状态栏 / 配置显示标志 / 显示所有勾选的标志"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 配置项目 / 显示所有勾选的标志"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1632-5
 msgid ""
@@ -2412,7 +2412,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1634-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr "手势备选菜单 /阅读器相关 / 状态栏开关"
+msgstr "手势选择菜单 /阅读器相关 / 状态栏开关"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1636-5
 msgid "Sorting the status bar items:"
@@ -2424,8 +2424,8 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 状态栏 / 配置显示的标志 / 调整标志排布"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 配置显示的标志 / 状态栏项目排序"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1642-1
 msgid "Using \"Custom Text\" item for status bar alignment"
@@ -2505,7 +2505,7 @@ msgstr "也可通过指定一种手势交互，在全书进度条和章节进度
 
 #: user_guide/en.html%2Bhtml.body.div.div:1666-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
-msgstr "手势备选菜单 / 阅读器相关 / 章节进度条开关"
+msgstr "手势选择菜单 / 阅读器相关 / 章节进度条开关"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1672-1
 msgctxt "user_guide/en.html+html.body.div.div:1672-1"
@@ -2535,8 +2535,7 @@ msgid ""
 "<span class=\"ui\">TYPESETTING:</span> This menu contains items that allows "
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
-msgstr ""
-"<span class=\"ui\">版面设置</span>：此页菜单包含用于调整书籍版式的选项，如<b>"
+msgstr "<span class=\"ui\">版面设置</span>：此页菜单包含用于调整书籍版式的选项，如<b>"
 "字体设置、样式微调</b>等"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1683-9
@@ -2772,9 +2771,9 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
-"<span class=\"ui\">副状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版格"
-"式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span "
-"class=\"ui\">副状态栏</span>："
+"<span class=\"ui\">顶部状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版"
+"格式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span "
+"class=\"ui\">顶部状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1763-5
 msgctxt "user_guide/en.html+html.body.div.div:1763-5"
@@ -2782,8 +2781,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 状态栏 / 副状态栏"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / 状态栏 / 顶部状态栏"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1765-5
 msgid ""
@@ -2802,8 +2801,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style Tweaks"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 样式微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1769-5
 msgid ""
@@ -3481,8 +3480,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Alternative table of contents"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 设置 / 副目录"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 设置 / 替代性目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1995-5
 msgid ""
@@ -3810,7 +3809,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2087-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr "书籍地图及页面预览拥有可替换主题"
+msgstr "书籍地图及页面预览拥有备选主题"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2089-5
 msgid ""
@@ -3867,20 +3866,20 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
-"请注意<span class=\"ui\">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</"
-"b>，因为创建副目录功能依赖于文档的HTML标签。<span class=\"ui\">自定义目录</"
-"span>及<span class=\"ui\">自定义隐藏页</span>功能则可用于所有文件格式。"
+"请注意<span class=\"ui\">替代性目录</span>无法应用于PDF、DJVU等<b>固定版面文"
+"档</b>，因为创建替代性目录功能依赖于文档的HTML标签。<span class=\"ui\">自定义"
+"目录</span>及<span class=\"ui\">自定义隐藏页</span>功能则可用于所有文件格式。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2106-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr "自动创建目录：副目录"
+msgstr "自动创建目录：替代性目录"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2108-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
-msgstr "通过下列路径可以找到<span class=\"ui\">创建副目录</span>功能："
+msgstr "通过下列路径可以找到<span class=\"ui\">创建替代性目录</span>功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2111-5
 msgctxt "user_guide/en.html+html.body.div.div:2111-5"
@@ -3888,8 +3887,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Alternative table of contents"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / 设置 / 副目录"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" style="
+"\"width:22px;\"> / 设置 / 替代性目录"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2113-5
 msgid ""
@@ -3910,23 +3909,23 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
-"<span class=\"ui\">创建副目录</span>功能会尝试利用书籍的章节标题（epub文档中"
-"的<b>H1</b>到<b>H6</b>HTML标签）自动生成目录。如果书籍不包含任何标题，该功能"
-"会尝试根据文档分段（epub文档中的独立HTML文件）生成目录。"
+"<span class=\"ui\">创建替代性目录</span>功能会尝试利用书籍的章节标题（epub文"
+"档中的<b>H1</b>到<b>H6</b>HTML标签）自动生成目录。如果书籍不包含任何标题，该"
+"功能会尝试根据文档分段（epub文档中的独立HTML文件）生成目录。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2117-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
-msgstr "可以在下列菜单中选择副目录所包含（或忽略）哪些章节标题层级："
+msgstr "可以在下列菜单中选择替代性目录所包含（或忽略）哪些章节标题层级："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2119-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Miscellaneous / Alternative ToC hints"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 样式微调 / 杂项 / 副目录层级标记"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 样式微调 / 杂项 / 替代性目录标记"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
@@ -4697,9 +4696,9 @@ msgid ""
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
 msgstr ""
-"KOReader 的样式调整功能允许您修改 KOReader 显示书籍的方式。 我们不会在这里进"
-"行完整的CSS课程。 我们只想向你展示一些基本的东西，这样当你看到一个样式调整"
-"时，你至少会有一个大致的概念。"
+"KOReader 的样式微调功能允许您修改 KOReader 显示书籍的方式。 我们不会在这里进"
+"行完整的CSS课程。 我们只想向你展示一些基本的东西，这样当你看到一个样式微调时"
+"，你至少会有一个大致的概念。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2336-5
 msgid "What is a style tweak?"
@@ -4715,7 +4714,7 @@ msgid ""
 "publisher that is embedded in your book."
 msgstr ""
 "我们可以将EPUB文档描述为<b>HTML文件+一些CSS规则</b>。 这些CSS规则决定了书的不"
-"同部分（标题，粗体文本，引用等） 通过<span class=\"ui\">样式调整</span>，您可"
+"同部分（标题，粗体文本，引用等） 通过<span class=\"ui\">样式微调</span>，您可"
 "以通过添加新规则和/或覆盖书籍中嵌入的出版商编写的规则来更改书籍的呈现方式。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
@@ -4794,14 +4793,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2357-5
 msgid "Some useful examples of style tweaks"
-msgstr "一些有用的样式调整示例"
+msgstr "一些有用的样式微调示例"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2359-5
 msgid ""
 "These are some useful style tweaks that you can use directly or modify "
 "according to your liking. Next heading explains how to use them in KOReader."
-msgstr ""
-"这些是一些有用的样式调整，您可以直接使用或根据自己的喜好进行修改。下一个标题"
+msgstr "这些是一些有用的样式微调，您可以直接使用或根据自己的喜好进行修改。下一个标题"
 "解释了如何在KOReader中使用它们。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2362-13
@@ -4877,7 +4875,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2401-5
 msgid "How to add style tweaks"
-msgstr "如何添加样式调整"
+msgstr "如何添加样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2403-5
 msgid ""
@@ -4885,12 +4883,12 @@ msgid ""
 "how can we use them? There are three types of <span class=\"ui\">style "
 "tweaks</span> in KOReader:"
 msgstr ""
-"好的，现在我们已经了解了什么是 <span class=\"ui\"> 样式的调整</span>。但我们"
-"如何使用它们呢？KOReader 中有三种类型的 <span class=\"ui\"> 样式调整</span>："
+"好的，现在我们已经了解了什么是 <span class=\"ui\"> 样式微调</span>。但我们如"
+"何使用它们呢？KOReader 中有三种类型的 <span class=\"ui\"> 样式微调</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2407-5
 msgid "1. Built-in style tweaks"
-msgstr "1. 内置样式调整"
+msgstr "1. 内置样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2409-5
 msgid ""
@@ -4911,8 +4909,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / 样式微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:26px;\"> / 样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2416-5
 msgid ""
@@ -4937,7 +4935,7 @@ msgid ""
 "heading."
 msgstr ""
 "此框显示了调整的CSS代码。您可以点击此区域将代码复制到剪贴板。然后，您可以在您"
-"的<span class=\"ui\">书籍特定调整</span>中粘贴和修改此代码，如下一标题所述。"
+"的<span class=\"ui\">仅本书调整</span>中粘贴和修改此代码，如下一标题所述。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2424-13
 msgid ""
@@ -4963,7 +4961,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2430-5
 msgid "2. Book-specific tweak"
-msgstr "2.针对书籍的调整"
+msgstr "2.仅本书调整"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2431-9
 msgid ""
@@ -4978,7 +4976,7 @@ msgstr ""
 "正如你从它的名字中猜到的，这种类型的调整只对你创建它们的书有效。这个功能对于"
 "测试你的调整更有用，或者如果你需要在当前的书上修复一些东西，并且你知道你不需"
 "要在其他书上使用它。创建这种类型的调整后，如果您决定在其他书籍上也需要它（即"
-"来自同一出版商），您可以将其转换为<span class=\"ui\">用户样式调整</span>，我"
+"来自同一出版商），您可以将其转换为<span class=\"ui\">用户样式微调</span>，我"
 "们将在下面解释。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2433-9
@@ -4994,8 +4992,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / 样式微调 / 用于当前书籍的微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:26px;\"> / 样式微调 / 仅本书调整"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2437-24
 msgid ""
@@ -5012,7 +5010,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2440-5
 msgid "3. User style tweaks"
-msgstr "3.用户样式调整"
+msgstr "3.用户样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2442-9
 msgid ""
@@ -5081,11 +5079,10 @@ msgid ""
 "<b>You need to restart KOReader after transferring your files so it can load "
 "them.</b>"
 msgstr ""
-"创建包含CSS规则的文件后，将其保存或传输到KOReader安装下的<span "
-"class=\"ui\">styletweaks</span>文件夹中。 为文件指定描述性名称，因为文件名将"
-"是KOReader菜单系统中调整的标题。 您可以在文件名中使用下划线“<b>_</b>“，它们将"
-"在菜单中被视为空格。 <b>您需要在传输文件后重新启动KOReader，以便它可以加载它"
-"们。</b>"
+"创建包含CSS规则的文件后，将其保存或传输到KOReader安装下的<span class=\"ui\">s"
+"tyletweaks</span>文件夹中。 为文件指定描述性名称，因为文件名将是KOReader菜单"
+"系统中微调的标题。 您可以在文件名中使用下划线“<b>_</b>“，它们将在菜单中被视为"
+"空格。 <b>您需要在传输文件后重新启动KOReader，以便它可以加载它们。</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid "2. Enabling the tweak:"
@@ -5101,8 +5098,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / 样式微调 / 用户样式微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:26px;\"> / 样式微调 / 用户样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2476-9
 msgid ""
@@ -5129,7 +5126,7 @@ msgid ""
 "enabled for all the books <b>(★)</b>."
 msgstr ""
 "在上图中，我在KOReader安装下的<span class=\"ui\">styletweaks</span>文件夹中有"
-"3个样式调整文件。第一个被禁用，因为复选框为空。第二个选项仅对本书启用，因为复"
+"3个样式微调文件。第一个被禁用，因为复选框为空。第二个选项仅对本书启用，因为复"
 "选框已标记，但没有星号。第三个选项适用于所有书籍<b>（★）</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2482-9
@@ -5153,7 +5150,7 @@ msgid ""
 "to modify <b>paragraphs</b>, <b>links</b> etc. This modular system allows "
 "you to enable tweaks depending on your document."
 msgstr ""
-"在创建<span class=\"ui\">用户样式调整</span>时，您可以创建多个调整文件，每个"
+"在创建<span class=\"ui\">用户样式微调</span>时，您可以创建多个调整文件，每个"
 "文件都修改了书的某些部分，如上图所示。您可以有一个文件用于<b>标题</b>，其他文"
 "件用于修改<b>段落</b>、<b>链接</b>等。这个模块化系统允许您根据文档进行调整。"
 
@@ -5161,8 +5158,7 @@ msgstr ""
 msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
-msgstr ""
-"正如我们上面所说的，您可以从这个菜单位置切换<span class=\"ui\">用户样式调整</"
+msgstr "正如我们上面所说的，您可以从这个菜单位置切换<span class=\"ui\">用户样式微调</"
 "span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2490-9
@@ -5171,14 +5167,14 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / 样式微调 / 用户样式微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:26px;\"> / 样式微调 / 用户样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2494-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
-msgstr "此外，我们还有更简单的方法来切换你的样式调整，而不是每次都去菜单。"
+msgstr "此外，我们还有更简单的方法来切换你的样式微调，而不是每次都去菜单。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2496-9
 msgid "1. You can assign a gesture to a tweak"
@@ -5196,7 +5192,7 @@ msgstr ""
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
-msgstr "转到<span class=\"ui\">用户样式调整</span>菜单，长按样式调整"
+msgstr "转到<span class=\"ui\">用户样式微调</span>菜单，长按样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2501-17
 msgid ""
@@ -5242,9 +5238,9 @@ msgid ""
 "gesture. This way, with a simple gesture you can access all your style "
 "tweaks and activate them as needed."
 msgstr ""
-"你甚至可以将这两种方法结合起来，为你的风格调整创建一个特殊的<span "
-"class=\"ui\">快速菜单</span>，然后将其分配给一个手势。这样，只需一个简单的手"
-"势，您就可以访问所有的样式调整，并根据需要激活它们。"
+"你甚至可以将这两种方法结合起来，为你的风格调整创建一个特殊的<span class="
+"\"ui\">快速菜单</span>，然后将其分配给一个手势。这样，只需一个简单的手势，您"
+"就可以访问所有的样式微调，并根据需要激活它们。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2516-5
 msgid "Finding elements for modifying"
@@ -5286,8 +5282,7 @@ msgstr "书签、标注与笔记"
 msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
-msgstr ""
-"KOReader提供了多种选项，可以像纸质书一样做记号。书签页面的多项设定可以在下列"
+msgstr "KOReader提供了多种选项，可以像印刷书一样做记号。书签页面的多项设定可以在下列"
 "路径变更："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2541-6
@@ -5307,9 +5302,8 @@ msgid ""
 "You can add (and remove) a bookmark by pressing the upper right corner. This "
 "is the equivalent of folding the corner of a page on a real book and shows a "
 "similar icon when you enable it."
-msgstr ""
-"可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将纸质书的书页折起一"
-"角，并且会显示类似形状的标志。"
+msgstr "可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将印刷书的书页折起一角"
+"，并且会显示类似形状的标志。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2552-5
 msgid "HIGHLIGHTS:"
@@ -7779,9 +7773,9 @@ msgid ""
 "collections gives you more flexibility."
 msgstr ""
 "KOReader的<span class=\"ui\">书单</span>功能可以让个人藏书库的管理更加高效。"
-"简单来说，书单就是由用户创建的书籍清单。例如，可以创建标题分别为<b>Fiction</"
-"b>和<b>Non-Fiction</b>的书单，将对应的书籍编入其中。当然按文件夹存放书籍也可"
-"实现类似目的，但书单用起来更加灵活。"
+"简单来说，书单就是由用户创建的书籍清单。例如，可以创建标题分别为<b>文学</b>和"
+"<b>非文学</b>的书单，将对应的书籍编入其中。当然按文件夹存放书籍也可实现类似目"
+"的，但书单用起来更加灵活。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3348-5
 msgid ""
@@ -12647,7 +12641,7 @@ msgstr "设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4900-9
 msgid "styletweaks"
-msgstr "样式调整"
+msgstr "样式微调"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4904-9
 msgid "Files:"
@@ -12934,16 +12928,15 @@ msgid ""
 "tr, td { display:block; }</span> book-specific style tweak to:"
 msgstr ""
 "如果你有上面问题部分提到的<b>“内容包装在表格中”</b>的问题，你可以将这个<span "
-"class=\"ui\">table, tr, td { display:block; }</span>书籍特定的样式调整添加"
-"到："
+"class=\"ui\">table, tr, td { display:block; }</span>仅本书样式调整添加到："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4984-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 样式微调 / 当前书籍微调"
+"顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 样式微调 / 仅本书调整"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4987-9
 msgid ""
