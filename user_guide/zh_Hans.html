@@ -1131,7 +1131,7 @@ line-height: 2rem;
 
         <li><span class="ui">书签浏览器</span>让浏览标注与笔记易如反掌<a href="#L1-bookmarks" class="internalink"></a></li>
 
-        <li>如果不满意书籍自带目录，可自动或手工创建副目录替代之<a href="#L2-toctools" class="internalink"></a></li>
+        <li>如果不满意书籍自带目录，可自动或手工创建替代性目录替代之<a href="#L2-toctools" class="internalink"></a></li>
 
         <li>隐藏或排除如<b>附录、索引和备注</b>等部分，以获得更准确的页数统计<a href="#L2-hiddenflows" class="internalink"></a></li>
 	</ul>
@@ -1493,7 +1493,7 @@ line-height: 2rem;
     <ol>
         <li><b>指示标志</b>：这些标志说明某些状态及当前进程，将在特定阶段出现在屏幕左上角。实际显示中这类标志的尺寸会更小，此处仅放大以供识别。接下来的一节详细介绍了各标志对应的功能：<a href="#L2-indicators">指示标志</a></li>
         <li><b>状态栏</b>：该区域显示诸多与当前阅读书籍及KOreader相关的信息，可灵活自定义。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情</li>
-        <li><b>副状态栏</b>：除了界面底部的默认<span class="ui">状态栏</span>，屏幕顶部还提供<span class="ui">副状态栏</span>可自行启用。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情</li>
+        <li><b>顶部状态栏</b>：除了界面底部的默认<span class="ui">状态栏</span>，屏幕顶部还提供<span class="ui">顶部状态栏</span>可自行启用。请前往<a href="#L2-statusbar">状态栏</a>章节了解详情</li>
         <li><b>页码参考</b>：如果书籍出版方提供了纸版书的页码，它们将在此处显示。请前往<a href="#L3-referencepages">页数计数及页码参考</a>章节了解详情</li>
         <li><b>标注样式</b>：KOreader提供如图所示的多种标注样式。若阅读设备配有彩色屏幕，用户还可使用彩色标注。点击<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情</li>
         <li><b>笔记标记</b>：该标志出现在添加了笔记的标注旁。KOReader提供多种样式的笔记标记。前往<a href="#L1-bookmarks">书签、标注和笔记</a>章节了解详情</li>
@@ -1524,7 +1524,7 @@ line-height: 2rem;
     <table align="center" style="border-collapse: collapse; width: 80%; table-layout: fixed;">
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td style="vertical-align: top; padding: 1rem; width: 10%;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_1.svg" style="width:80px;"></td>
-            <td><p>在此阶段，文档仅有<b>局部</b>渲染。页码计数、脚注等受影响数据是<b>不准确</b>的。用户可快速预览设置后的文本样式并进一步调整。在此阶段用户仍可翻页及使用注释链接跳转阅读位置。</p></td>
+            <td><p>在此阶段，文档仅有<b>局部</b>渲染。页码计数、页脚信息等受影响数据是<b>不准确</b>的。用户可快速预览设置后的文本样式并进一步调整。在此阶段用户仍可翻页及使用注释链接跳转阅读位置。</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td style="vertical-align: top; padding: 1rem;"><img loading="lazy" class="img_inline" src="pictures/partial_rendering_2.svg" style="width:80px;"></td>
@@ -1582,7 +1582,7 @@ line-height: 2rem;
     
     <p>可重排版文档的文本字号被调大时，页码总数也会随之增加，因为每一页上能够显示的文字变少了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的标注文段可能在字体调整后跑到了 <b>第42页</b>上。</p>
 
-    <p>KOReader支持<b>页码参考</b>功能，出版方可利用该功能将纸版书的页码写入电子版书籍中。启用该功能后，KOReader不会自行计算书籍页码，而是展示由出版方提供的<b>内置页码</b>。这使得<span class="ui">状态栏</span>中显示的页码可以与纸质版保持一致。 </p>
+    <p>KOReader支持<b>页码参考</b>功能，出版方可利用该功能将纸版书的页码写入电子版书籍中。启用该功能后，KOReader不会自行计算书籍页码，而是展示由出版方提供的<b>内置页码</b>。这使得<span class="ui">状态栏</span>中显示的页码可以与印刷版保持一致。 </p>
 
     <p>页码参考的用处：</p>
     <ul>
@@ -1603,15 +1603,15 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-statusbar">状态栏</div>
 
-    <p>KOReader有两块状态栏，一条是默认启用的<span class="ui">底部状态栏</span>；另一条是<span class="ui">副状态栏</span>，启用后将出现在页面顶部。<span class="ui">副状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。</p>
+    <p>KOReader有两块状态栏，一条是默认启用的<span class="ui">底部状态栏</span>；另一条是<span class="ui">顶部状态栏</span>，启用后将出现在页面顶部。<span class="ui">顶部状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件格式可用。</p>
     
-    <p><span class="ui">底部状态栏</span>是新加的，正在持续维护中。<span class="ui">副状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，可通过下列路径启用<span class="ui">副状态栏</span>：</p>
+    <p><span class="ui">底部状态栏</span>是新加的，正在持续维护中。<span class="ui">顶部状态栏</span>来自KOReader早期版本遗留，因此不会再有功能扩展。如有需要，可通过下列路径启用<span class="ui">顶部状态栏</span>：</p>
  
-    <div class="menu-breadcrumbs">底部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 副状态栏</div>
+    <div class="menu-breadcrumbs">底部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 顶部状态栏</div>
 
-    <p><span class="ui">副状态栏</span>可通过如下菜单进行配置：</p>
+    <p><span class="ui">顶部状态栏</span>可通过如下菜单进行配置：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 副状态栏</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 顶部状态栏</div>
 
     <p>本节接下来的说明将围绕<span class="ui">底部状态栏</span>。</p>
     
@@ -1625,17 +1625,17 @@ line-height: 2rem;
 
     <p>状态栏上可显示多项标志，但默认仅显示一项；点击状态栏可循环显示不同标志。若要同时显示多项标志，请按照下列路径操作：</p>
     
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 配置显示标志 / 显示所有勾选的标志</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 配置项目 / 显示所有勾选的标志</div>
 
 <br>
 
     <p>启用该选项后，状态栏无法通过点按隐藏。此时若要隐藏状态栏，需要指定一种手势交互来操作：</p>
 
-    <div class="menu-breadcrumbs">手势备选菜单 /阅读器相关 / 状态栏开关</div>
+    <div class="menu-breadcrumbs">手势选择菜单 /阅读器相关 / 状态栏开关</div>
 
     <p><b>为状态栏显示的标志排序：</b></p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 配置显示的标志 / 调整标志排布</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 配置显示的标志 / 状态栏项目排序</div>
 
     <br>
 
@@ -1663,7 +1663,7 @@ line-height: 2rem;
 
     <p>也可通过指定一种手势交互，在全书进度条和章节进度条间切换。该选项位于：</p>
 
-    <div class="menu-breadcrumbs">手势备选菜单 / 阅读器相关 / 章节进度条开关</div>
+    <div class="menu-breadcrumbs">手势选择菜单 / 阅读器相关 / 章节进度条开关</div>
 
 
 
@@ -1758,9 +1758,9 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_menu_6.png" style="width:60%;">
 
-    <p><span class="ui">副状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版格式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span class="ui">副状态栏</span>：</p>
+    <p><span class="ui">顶部状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版格式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span class="ui">顶部状态栏</span>：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 副状态栏</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / 状态栏 / 顶部状态栏</div>
     
     <p><span class="ui">内嵌样式</span>及<span class="ui">内嵌字体</span>决定KOReader是否使用出版方在书籍中内置的排版样式和字体来渲染页面。这些选项通常是开关形式，可通过下列路径更精细地调整页面表现：</p>
 
@@ -1990,7 +1990,7 @@ line-height: 2rem;
     <p>如果您的文档没有目录，您可以启用<span class="ui">替代目录</span>。启用此设置后，KOReader 将根据文档标题（如果可用）或EPUB中的单个HTML文件构建目录。长按此菜单项可获取更多信息：
     </p>
     
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 副目录</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 替代性目录</div>
     
     <p>您可以在本指南的相关部分找到 KOReader 中可用的<b>目录</b>工具的更多信息：<a href="#toctools">目录工具</a></p>
 
@@ -2084,7 +2084,7 @@ line-height: 2rem;
     </ol>
 
 
-<div class="L3-Smaller-heading">书籍地图及页面预览拥有可替换主题</div>
+<div class="L3-Smaller-heading">书籍地图及页面预览拥有备选主题</div>
     
     <p>
     通过汉堡状菜单键还可为书籍地图和页面预览套用不同底纹的<b>备选主题</b>。该主题对章节标题交替上色，使章节边界在<span class="ui">书籍地图</span>和<span class="ui">页面预览</span>中更易识别。但该主题使用的灰色会触发e-ink全屏刷新，可能会干扰阅读。请自行尝试是否需要启用。</p>
@@ -2100,23 +2100,23 @@ line-height: 2rem;
     
     <p> KOReader的一些功能可以在阅读这类目录有问题的书籍时提供帮助。</p>
     
-    <p>请注意<span class="ui">副目录</span>无法应用于PDF、DJVU等<b>固定版面文档</b>，因为创建副目录功能依赖于文档的HTML标签。<span class="ui">自定义目录</span>及<span class="ui">自定义隐藏页</span>功能则可用于所有文件格式。</p>
+    <p>请注意<span class="ui">替代性目录</span>无法应用于PDF、DJVU等<b>固定版面文档</b>，因为创建替代性目录功能依赖于文档的HTML标签。<span class="ui">自定义目录</span>及<span class="ui">自定义隐藏页</span>功能则可用于所有文件格式。</p>
 
 
-<div class="L3-Smaller-heading">自动创建目录：副目录</div>
+<div class="L3-Smaller-heading">自动创建目录：替代性目录</div>
 
     <p>
-    通过下列路径可以找到<span class="ui">创建副目录</span>功能：</p>
+    通过下列路径可以找到<span class="ui">创建替代性目录</span>功能：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 副目录</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / 设置 / 替代性目录</div>
 
     <div class="info"><span class="label_blue">信息</span> epub文档本质上是包含一个或多个HTML文件的ZIP压缩档。整本书可能仅包含单个巨型HTML文件，或者每章节被拆分为独立HTML文件（这种结构更好）。</div>
         
-    <p><span class="ui">创建副目录</span>功能会尝试利用书籍的章节标题（epub文档中的<b>H1</b>到<b>H6</b>HTML标签）自动生成目录。如果书籍不包含任何标题，该功能会尝试根据文档分段（epub文档中的独立HTML文件）生成目录。</p>
+    <p><span class="ui">创建替代性目录</span>功能会尝试利用书籍的章节标题（epub文档中的<b>H1</b>到<b>H6</b>HTML标签）自动生成目录。如果书籍不包含任何标题，该功能会尝试根据文档分段（epub文档中的独立HTML文件）生成目录。</p>
     
-    <p>可以在下列菜单中选择副目录所包含（或忽略）哪些章节标题层级：</p>
+    <p>可以在下列菜单中选择替代性目录所包含（或忽略）哪些章节标题层级：</p>
 
-    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调 / 杂项 / 副目录层级标记</div>
+    <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调 / 杂项 / 替代性目录标记</div>
 
 
 
@@ -2331,10 +2331,10 @@ line-height: 2rem;
 
     <p><span class="label_red">！！专业操作！！</span></p>
 
-    <p>KOReader 的样式调整功能允许您修改 KOReader 显示书籍的方式。 我们不会在这里进行完整的CSS课程。 我们只想向你展示一些基本的东西，这样当你看到一个样式调整时，你至少会有一个大致的概念。</p>
+    <p>KOReader 的样式微调功能允许您修改 KOReader 显示书籍的方式。 我们不会在这里进行完整的CSS课程。 我们只想向你展示一些基本的东西，这样当你看到一个样式微调时，你至少会有一个大致的概念。</p>
     
     <div class="L3-Smaller-heading">什么是样式调整？</div>
-    <p>我们可以将EPUB文档描述为<b>HTML文件+一些CSS规则</b>。 这些CSS规则决定了书的不同部分（标题，粗体文本，引用等） 通过<span class="ui">样式调整</span>，您可以通过添加新规则和/或覆盖书籍中嵌入的出版商编写的规则来更改书籍的呈现方式。</p>
+    <p>我们可以将EPUB文档描述为<b>HTML文件+一些CSS规则</b>。 这些CSS规则决定了书的不同部分（标题，粗体文本，引用等） 通过<span class="ui">样式微调</span>，您可以通过添加新规则和/或覆盖书籍中嵌入的出版商编写的规则来更改书籍的呈现方式。</p>
     
     <p>让我们看看这个例子<span class="ui">样式调整</span>：</p>
 
@@ -2354,9 +2354,9 @@ line-height: 2rem;
     
 
 
-    <div class="L3-Smaller-heading">一些有用的样式调整示例</div>
+    <div class="L3-Smaller-heading">一些有用的样式微调示例</div>
     
-    <p>这些是一些有用的样式调整，您可以直接使用或根据自己的喜好进行修改。下一个标题解释了如何在KOReader中使用它们。</p>
+    <p>这些是一些有用的样式微调，您可以直接使用或根据自己的喜好进行修改。下一个标题解释了如何在KOReader中使用它们。</p>
         
         <ul>
             <li><b>在书籍中的每个标题上方添加分隔线:</b>
@@ -2392,13 +2392,13 @@ line-height: 2rem;
 
 
 
-    <div class="L2-Sub-heading">如何添加样式调整</div>
+    <div class="L2-Sub-heading">如何添加样式微调</div>
 
-    <p>好的，现在我们已经了解了什么是 <span class="ui"> 样式的调整</span>。但我们如何使用它们呢？KOReader 中有三种类型的 <span class="ui"> 样式调整</span>：</p>
+    <p>好的，现在我们已经了解了什么是 <span class="ui"> 样式微调</span>。但我们如何使用它们呢？KOReader 中有三种类型的 <span class="ui"> 样式微调</span>：</p>
 
         <img loading="lazy" src="pictures/styletweaks_main.png" style="width:450px;">
 
-    <div class="L3-Smaller-heading">1. 内置样式调整</div>
+    <div class="L3-Smaller-heading">1. 内置样式微调</div>
 
     <p><span class="highlight">新建标题，上下截图。还有需要添加的吗？</span></p>
     
@@ -2413,7 +2413,7 @@ line-height: 2rem;
 
         <ol>
             <li>此区域显示参数的名称和说明</li>
-            <li>此框显示了调整的CSS代码。您可以点击此区域将代码复制到剪贴板。然后，您可以在您的<span class="ui">书籍特定调整</span>中粘贴和修改此代码，如下一标题所述。</li>
+            <li>此框显示了调整的CSS代码。您可以点击此区域将代码复制到剪贴板。然后，您可以在您的<span class="ui">仅本书调整</span>中粘贴和修改此代码，如下一标题所述。</li>
 
             <li><span class="ui">在动作列表中显示</span>按钮允许您使用手势切换此调整，或将其添加到<span class="ui">快速菜单</span>中。有关更多信息，请参阅下面的标题<b>“如何有效使用调整”</b>。 </li>
 
@@ -2421,17 +2421,17 @@ line-height: 2rem;
         </ol>
 
 
-    <div class="L3-Smaller-heading">2.针对书籍的调整</div>
-        <p>正如你从它的名字中猜到的，这种类型的调整只对你创建它们的书有效。这个功能对于测试你的调整更有用，或者如果你需要在当前的书上修复一些东西，并且你知道你不需要在其他书上使用它。创建这种类型的调整后，如果您决定在其他书籍上也需要它（即来自同一出版商），您可以将其转换为<span class="ui">用户样式调整</span>，我们将在下面解释。</p>
+    <div class="L3-Smaller-heading">2.仅本书调整</div>
+        <p>正如你从它的名字中猜到的，这种类型的调整只对你创建它们的书有效。这个功能对于测试你的调整更有用，或者如果你需要在当前的书上修复一些东西，并且你知道你不需要在其他书上使用它。创建这种类型的调整后，如果您决定在其他书籍上也需要它（即来自同一出版商），您可以将其转换为<span class="ui">用户样式微调</span>，我们将在下面解释。</p>
 
         <p>要创建<span class="ui">仅用于此书的调整</span>，请使用您可以在此处找到的集成编辑器：</p>
 
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 用于当前书籍的微调</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 仅本书调整</div>
 
         <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">提示</span> 编辑器底部工具栏有 <span class="ui">CSS</span>菜单，内置多种常用CSS语法和特性。在打开该菜单前，请先阅读<span class="ui">长按获取说明</span>帮助。另外，长按菜单中的CSS项可阅读其功能描述。</p></div>
 
 
-    <div class="L3-Smaller-heading">3.用户样式调整</div>
+    <div class="L3-Smaller-heading">3.用户样式微调</div>
 
         <p>这组调整在创建方式上与之前的调整不同。与之前的类型不同，它们也不限于一本书。它们可以在全局范围内应用于您的所有书籍。</p>
 
@@ -2458,7 +2458,7 @@ line-height: 2rem;
         <br>
 
         <p><b>2. 将文件传输到您的设备：</b></p>
-        <p>创建包含CSS规则的文件后，将其保存或传输到KOReader安装下的<span class="ui">styletweaks</span>文件夹中。 为文件指定描述性名称，因为文件名将是KOReader菜单系统中调整的标题。 您可以在文件名中使用下划线“<b>_</b>“，它们将在菜单中被视为空格。 <b>您需要在传输文件后重新启动KOReader，以便它可以加载它们。</b></p>
+        <p>创建包含CSS规则的文件后，将其保存或传输到KOReader安装下的<span class="ui">styletweaks</span>文件夹中。 为文件指定描述性名称，因为文件名将是KOReader菜单系统中微调的标题。 您可以在文件名中使用下划线“<b>_</b>“，它们将在菜单中被视为空格。 <b>您需要在传输文件后重新启动KOReader，以便它可以加载它们。</b></p>
 
         <br>
 
@@ -2471,27 +2471,27 @@ line-height: 2rem;
 
         <img loading="lazy" src="pictures/user_styletweaks_activation.png" style="width:400px;">
 
-        <p>在上图中，我在KOReader安装下的<span class="ui">styletweaks</span>文件夹中有3个样式调整文件。第一个被禁用，因为复选框为空。第二个选项仅对本书启用，因为复选框已标记，但没有星号。第三个选项适用于所有书籍<b>（★）</b>。</p>
+        <p>在上图中，我在KOReader安装下的<span class="ui">styletweaks</span>文件夹中有3个样式微调文件。第一个被禁用，因为复选框为空。第二个选项仅对本书启用，因为复选框已标记，但没有星号。第三个选项适用于所有书籍<b>（★）</b>。</p>
 
         <p>您可能会注意到，在第一个调整旁边还有一个<span class="ui">直角三角形图标</span>。这意味着可以使用手势激活此调整。这将在下一个标题中解释。</p>
 
         <div class="L3-Smaller-heading">如何有效地使用微调</div>
 
-        <p>在创建<span class="ui">用户样式调整</span>时，您可以创建多个调整文件，每个文件都修改了书的某些部分，如上图所示。您可以有一个文件用于<b>标题</b>，其他文件用于修改<b>段落</b>、<b>链接</b>等。这个模块化系统允许您根据文档进行调整。</p>
+        <p>在创建<span class="ui">用户样式微调</span>时，您可以创建多个调整文件，每个文件都修改了书的某些部分，如上图所示。您可以有一个文件用于<b>标题</b>，其他文件用于修改<b>段落</b>、<b>链接</b>等。这个模块化系统允许您根据文档进行调整。</p>
 
-        <p>正如我们上面所说的，您可以从这个菜单位置切换<span class="ui">用户样式调整</span>：</p>
+        <p>正如我们上面所说的，您可以从这个菜单位置切换<span class="ui">用户样式微调</span>：</p>
 
         <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / 样式微调 / 用户样式微调</div>
 
     <br>
 
-        <p>此外，我们还有更简单的方法来切换你的样式调整，而不是每次都去菜单。</p>
+        <p>此外，我们还有更简单的方法来切换你的样式微调，而不是每次都去菜单。</p>
         
         <p><b>1.您可以将手势指定给调整</b></p>
         <p>为此，首先我们必须将我们的<span class="ui">用户样式调整</span>添加到手势操作列表中：</p>
            
             <ul>
-                <li>转到<span class="ui">用户样式调整</span>菜单，长按样式调整</li>
+                <li>转到<span class="ui">用户样式微调</span>菜单，长按样式微调</li>
                 <li>在对话框中，按下按钮<span class="ui">显示在操作列表中</span></li>
                 <li>菜单中样式调整旁边将出现一个<span class="ui">直角三角形图标</span></li>
             </ul>
@@ -2504,7 +2504,7 @@ line-height: 2rem;
 
         <p>要在<span class="ui">快速菜单</span>中添加调整，首先必须将其添加到上述标题中描述的操作列表中。然后，您可以按照本指南<a href="#quickmenu">快速菜单</a>部分的说明进行操作。 </p>
 
-        <p>你甚至可以将这两种方法结合起来，为你的风格调整创建一个特殊的<span class="ui">快速菜单</span>，然后将其分配给一个手势。这样，只需一个简单的手势，您就可以访问所有的样式调整，并根据需要激活它们。</p>
+        <p>你甚至可以将这两种方法结合起来，为你的风格调整创建一个特殊的<span class="ui">快速菜单</span>，然后将其分配给一个手势。这样，只需一个简单的手势，您就可以访问所有的样式微调，并根据需要激活它们。</p>
 
 
     <div class="L3-Smaller-heading">查找要修改的元素</div>
@@ -2529,7 +2529,7 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-bookmarks">书签、标注与笔记</div>
 
     <p>
-    KOReader提供了多种选项，可以像纸质书一样做记号。书签页面的多项设定可以在下列路径变更：</p>
+    KOReader提供了多种选项，可以像印刷书一样做记号。书签页面的多项设定可以在下列路径变更：</p>
 
 
     	<div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / 设置 / 书签相关</div>
@@ -2539,7 +2539,7 @@ line-height: 2rem;
 
     <p><b>阅读位置书签：</b></p>
     
-    <p>可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将纸质书的书页折起一角，并且会显示类似形状的标志。</p>
+    <p>可通过点按屏幕右上角来添加（或移除）书签。该操作类似于将印刷书的书页折起一角，并且会显示类似形状的标志。</p>
 
     <br>
 
@@ -3334,7 +3334,7 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-collections">书单</div>
 
-    <p>KOReader的<span class="ui">书单</span>功能可以让个人藏书库的管理更加高效。简单来说，书单就是由用户创建的书籍清单。例如，可以创建标题分别为<b>Fiction</b>和<b>Non-Fiction</b>的书单，将对应的书籍编入其中。当然按文件夹存放书籍也可实现类似目的，但书单用起来更加灵活。</p>
+    <p>KOReader的<span class="ui">书单</span>功能可以让个人藏书库的管理更加高效。简单来说，书单就是由用户创建的书籍清单。例如，可以创建标题分别为<b>文学</b>和<b>非文学</b>的书单，将对应的书籍编入其中。当然按文件夹存放书籍也可实现类似目的，但书单用起来更加灵活。</p>
     <p>使用书单整理书目对比文件夹的一些优势：</p>
     <ul>
         <li>将书籍编入书单并不会移动书籍文件位置，因此存放在不同文件夹中的多本书籍可以被编入同一份书单。</li>
@@ -4886,7 +4886,7 @@ line-height: 2rem;
             <b>文件夹：</b>
     <ul>
         <li>设置</li>
-        <li>样式调整</li>
+        <li>样式微调</li>
     </ul>
         </div>
 
@@ -4968,9 +4968,9 @@ line-height: 2rem;
         
         <li>如果您具备 HTML 和 CSS 知识，您可以直接从 KOReader 检查 HTML 和 CSS 文件，并自行判断它们的质量或不必要的复杂性。为此，您可以长按某些文本并在弹出菜单中选择 <span class="ui">查看 HTML</span>。</li>
         
-        <li>如果你有上面问题部分提到的<b>“内容包装在表格中”</b>的问题，你可以将这个<span class="ui">table, tr, td { display:block; }</span>书籍特定的样式调整添加到：
+        <li>如果你有上面问题部分提到的<b>“内容包装在表格中”</b>的问题，你可以将这个<span class="ui">table, tr, td { display:block; }</span>仅本书样式调整添加到：
         
-        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调 / 当前书籍微调</div>
+        <div class="menu-breadcrumbs">顶部菜单 / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / 样式微调 / 仅本书调整</div>
         </li>
 
         <li><span class="external">Calibre</span> 的电子书编辑器可以检查 EPUB 文件是否存在问题，并具有修复某些问题的工具。
