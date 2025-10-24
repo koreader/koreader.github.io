@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-24 16:00+0000\n"
-"PO-Revision-Date: 2025-10-25 17:02+0000\n"
-"Last-Translator: Pedro Schneider "
-"<162492569+PedroSchneider1@users.noreply.github.com>\n"
+"PO-Revision-Date: 2025-10-25 17:03+0000\n"
+"Last-Translator: Diego <doi@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -7505,22 +7504,30 @@ msgid ""
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
 "lights section / Full screen refresh rate"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Gerenciador de gestos / Seção de tela e "
+"luzes / Taxa de atualização de tela cheia"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3043-1
 msgid "Panel zoom feature"
-msgstr ""
+msgstr "Recurso de zoom do painel"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3045-5
 msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
 msgstr ""
+"Este recurso facilita a leitura de livros de histórias em quadrinhos em "
+"telas menores. Você pode ativá-lo enquanto lê um documento <b>PDF, DJVU, CBZ "
+"ou CBT</b> por meio de:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3047-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Zoom do painel (manga/quadrinhos)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3049-5
 msgid ""
@@ -7528,6 +7535,9 @@ msgid ""
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
 msgstr ""
+"Quando esta opção está habilitada, o KOReader tenta encontrar os limites dos "
+"painéis retangulares na tela. Se você pressionar e segurar um painel, o "
+"KOReader amplia e mostra apenas esse painel."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3051-5
 msgid ""
@@ -7539,10 +7549,19 @@ msgid ""
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
 msgstr ""
+"Como você pode imaginar, esse recurso funciona melhor com quadrinhos que têm "
+"bordas de painel bem definidas. Além disso, não há <b>virar a página</b> "
+"neste modo para pular para o próximo painel devido a esse problema de "
+"bordas. Você precisa fechar o painel ampliado e pressionar longamente o "
+"próximo. Para fazer isso, basta <span class=\"ui\">deslizar para baixo</"
+"span> neste painel ampliado. Você também pode usar qualquer <span class="
+"\"ui\">gesto de deslizar múltiplos</span> "
+"(qualquer combinação de cima, baixo, esquerda, direita) para sair desta "
+"visualização."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3053-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "O procedimento pode ser visto abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3057-5
 msgid ""
@@ -7551,6 +7570,11 @@ msgid ""
 "<span class=\"ui\">File Browser</span> long-tap on the file name, tap <span "
 "class=\"ui\">Open with…</span> and select <span class=\"ui\">MuPDF</span>."
 msgstr ""
+"Se quiser usar esse recurso com outros tipos de arquivo, como EPUB, FB2, "
+"HTML ou arquivos de imagem, você deve abrir o arquivo com um mecanismo "
+"diferente: no <span class=\"ui\">Explorador de Arquivos</span>, toque "
+"longamente no nome do arquivo, toque em <span class=\"ui\">Abrir com…</span> "
+"e selecione <span class=\"ui\">MuPDF</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3061-1
 msgctxt "user_guide/en.html+html.body.div.div:3061-1"
@@ -7565,6 +7589,12 @@ msgid ""
 "can put your series in separate directories and read them one after another "
 "without going back to the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Ao chegar à última página de um livro, o KOReader exibe uma caixa de "
+"diálogo. Nessa caixa de diálogo, há uma ação <span class=\"ui\">Abrir "
+"próximo arquivo</span> que abrirá o próximo arquivo no mesmo diretório do "
+"livro atual. Assim, você pode colocar suas séries em diretórios separados e "
+"lê-las uma após a outra sem precisar retornar ao <span class=\"ui\""
+">Explorador de Arquivos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3067-5
 msgid ""
@@ -7575,16 +7605,25 @@ msgid ""
 "it from the <span class=\"ui\">File Browser</span> by long-pressing on the "
 "file. After copying them to your device, you can:"
 msgstr ""
+"Ao abrir o próximo arquivo, o KOReader ignora os arquivos que você marcou "
+"como <b>concluídos</b>. Esse recurso é útil, por exemplo, quando você tem "
+"uma pasta com arquivos de mangá e já leu alguns deles. Você pode marcar um "
+"arquivo como concluído na caixa de diálogo de fim de livro mostrada acima. "
+"Você também pode marcá-lo no <span class=\"ui\">Explorador de Arquivos</"
+"span>, mantendo o arquivo pressionado. Depois de copiá-los para o seu "
+"dispositivo, você pode:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3070-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
-msgstr ""
+msgstr "Abrir o <span class=\"ui\">Explorador de arquivos</span> no KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3071-5
 msgid ""
 "Long press on the ones you already finished and tap <span class=\"ui\">Mark "
 "as finished</span>"
 msgstr ""
+"Pressionar e segurar os que você já terminou e tocar em <span class=\"ui\""
+">Marcar como concluído</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3074-5
 msgid ""
@@ -7592,11 +7631,14 @@ msgid ""
 "file</span> at the end of the book. KOReader will skip the ones you have "
 "already read."
 msgstr ""
+"Agora você pode ler todos os arquivos tocando em <span class=\"ui\">Abrir "
+"próximo arquivo</span> no final do livro. O KOReader pulará os que você já "
+"leu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3077-1
 msgctxt "user_guide/en.html+html.body.div.div:3077-1"
 msgid "Optimizing manga for reader"
-msgstr "Otimizando mangá para o leitor"
+msgstr "Otimização de mangá para o leitor"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3079-5
 msgid ""
@@ -7604,10 +7646,14 @@ msgid ""
 "that can make your experience better. Preparing your own manga files is the "
 "best solution if you're not satisfied with how comics look on your device."
 msgstr ""
+"Se você gosta de ler mangás no seu dispositivo e-ink, aqui estão algumas "
+"dicas que podem melhorar sua experiência. Preparar seus próprios arquivos de "
+"mangá é a melhor solução se você não estiver satisfeito com a aparência dos "
+"quadrinhos no seu dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3082-1
 msgid "Which file type to use"
-msgstr ""
+msgstr "Qual tipo de arquivo usar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3083-5
 msgid ""
@@ -7618,6 +7664,13 @@ msgid ""
 "this <a href=\"https://github.com/koreader/koreader/"
 "issues/9163#issuecomment-1146637205\">GitHub issue</a>."
 msgstr ""
+"Tipos de arquivo como MOBI e EPUB não são adequados para lidar "
+"essencialmente com conteúdo de imagem (por exemplo, mangás/quadrinhos). O "
+"suporte a <b>MOBI</b> no KOReader é mínimo ou inexistente, e as prioridades "
+"de renderização de texto do <b>EPUB</b> podem causar problemas ao exibir "
+"imagens de página inteira. Para mais detalhes técnicos, visite este <a href="
+"\"https://github.com/koreader/koreader/issues/9163#issuecomment-1146637205\""
+">tópico do GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3085-5
 msgid ""
@@ -7628,6 +7681,13 @@ msgid ""
 "comic. KOReader can also open <b>CBT</b> files, which are similar to <b>CBZ</"
 "b> files but use <b>TAR</b> archive format."
 msgstr ""
+"Sua melhor opção é criar um arquivo <b>CBZ</b>, que funciona melhor no "
+"KOReader. Um arquivo com extensão <b>.cbz</b> é um arquivo zip "
+"(sem compactação) que é uma coleção de imagens. Ele salva várias imagens, "
+"geralmente arquivos <b>.png</b> ou <b>.jpeg</b>, organizadas em páginas da "
+"história em quadrinhos. O KOReader também pode abrir arquivos <b>CBT</b>, "
+"que são semelhantes aos arquivos <b>CBZ</b>, mas usam o formato de arquivo "
+"<b>TAR</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3087-5
 msgid ""
@@ -7639,10 +7699,18 @@ msgid ""
 "applying dithering</b> so that eink-rendered gradients are smoothly dithered "
 "without jagged layers."
 msgstr ""
+"A maneira mais fácil de converter um mangá para <b>CBZ</b> é obtê-lo como "
+"imagens de vários sites e, em seguida, convertê-lo usando o <span class="
+"\"external\">Kindle Comic Converter</span> (<a href="
+"\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>)"
+". Existem algumas configurações úteis, como <b>girar automaticamente a "
+"divisão de duas páginas para o modo paisagem e aplicar pontilhamento</b> "
+"para que os gradientes renderizados sejam pontilhados suavemente, sem "
+"camadas irregulares."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3089-1
 msgid "Which resolution to use"
-msgstr ""
+msgstr "Qual resolução usar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3090-5
 msgid ""
@@ -7653,6 +7721,13 @@ msgid ""
 "recommended because KOReader adds a dithering pass before scaling and this "
 "causes loss of quality."
 msgstr ""
+"Os melhores resultados podem ser alcançados redimensionando suas imagens "
+"exatamente para o tamanho da tela do seu e-reader. Um <b>CBZ</b> específico, "
+"que se adapta ao tamanho exato da tela do dispositivo, impede o "
+"redimensionamento durante a leitura. O KOReader reduz suas imagens para o "
+"tamanho da tela durante a leitura, mas isso não é recomendado, pois o "
+"KOReader aplica uma passagem de pontilhamento antes do redimensionamento, o "
+"que causa perda de qualidade."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3092-5
 msgid ""
@@ -7668,6 +7743,19 @@ msgid ""
 "automating the process, it might be worth considering creating both a lower "
 "and higher quality version (e.g., at <b>200/400</b> or <b>300/600</b> DPI)."
 msgstr ""
+"Mas se você quiser usar sua <b>CBZ</b> feita à mão em mais de um dispositivo "
+"ou quiser preservar a alta resolução para futuras impressões, sua melhor "
+"opção pode ser criar a <b>CBZ</b> para o seu dispositivo de maior resolução. "
+"Ou escolher uma resolução \"alta\" arbitrária, possivelmente uma que "
+"corresponda à fonte. <b>300 PPI</b> ou melhor "
+"(até <b>450</b> ou até <b>600</b>), a menos que a fonte seja inferior, é "
+"claro. Supondo que um tamanho de tela de <b>8\", 1500×2000</b> seja uma boa "
+"resolução alvo, para imagens maiores, você deve testar no seu dispositivo e "
+"ver se ele suporta. Kindles antigos com pouca memória, especialmente, podem "
+"ter dificuldades com tamanhos como <b>3000×4000</b>, por exemplo. Se você "
+"estiver automatizando o processo, pode valer a pena considerar criar uma "
+"versão de qualidade inferior e superior "
+"(por exemplo, a <b>200/400</b> ou <b>300/600</b> DPI)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3094-5
 msgid ""
@@ -7676,6 +7764,11 @@ msgid ""
 "change page turning direction even though the file was created with right-to-"
 "left reading. Users can switch this via:"
 msgstr ""
+"<span class=\"label_blue\">INFORMAÇÃO</span> O KOReader não analisa o "
+"atributo <b>spine page-progression-direction=\"rtl\"</b> dos livros. "
+"Portanto, ele não altera a direção de virada de página, mesmo que o arquivo "
+"tenha sido criado com leitura da direita para a esquerda. Os usuários podem "
+"alternar isso por meio de:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3096-5
 msgid ""
@@ -7683,14 +7776,18 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Page turns / Invert page turn "
 "tap and swipes / buttons"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Virada de página / Inverter toques e "
+"deslizes de virada de página / botões"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3099-1
 msgid "Advanced preparation of manga"
-msgstr ""
+msgstr "Configuração avançada para mangá"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3101-5
 msgid "The following is an example procedure to process one manga file:"
 msgstr ""
+"A seguir está um procedimento de exemplo para processar um arquivo de mangá:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3104-9
 msgid ""
@@ -7698,18 +7795,25 @@ msgid ""
 "<a href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
 "kcc</a>"
 msgstr ""
+"Baixe o <span class=\"external\">Kindle Comic Converter (KCC)</span> em <a "
+"href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
+"kcc</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3105-9
 msgid ""
 "Download your manga from the source of your choosing (i.e. <span "
 "class=\"external\">HakuNeko</span>)"
 msgstr ""
+"Baixe seu mangá da fonte de sua escolha "
+"(por exemplo, o <span class=\"external\">HakuNeko</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3106-9
 msgid ""
 "Unpack the manga file. Now you should have a directory that contains only "
 "images (or subdirectories with images, no archives)"
 msgstr ""
+"Descompacte o arquivo do mangá. Agora você deve ter um diretório que contém "
+"apenas imagens (ou subdiretórios com imagens, sem arquivos)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3107-9
 msgid ""
@@ -7717,30 +7821,37 @@ msgid ""
 "directory will produce a single <b>CBZ</b> file, so if you want to make "
 "several volumes at once, select multiple directories at once"
 msgstr ""
+"Processe este diretório com o <span class=\"external\">KCC</span>. Cada "
+"diretório produzirá um único arquivo <b>CBZ</b>, portanto, se você quiser "
+"criar vários volumes de uma vez, selecione vários diretórios simultaneamente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3110-5
 msgid "Some useful settings of <span class=\"external\">KCC</span>:"
-msgstr ""
+msgstr "Algumas configurações úteis do <span class=\"external\">KCC</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3112-5
 msgid ""
 "<b>Spread splitter:</b> This feature detects double pages and allows you to "
 "rotate or cut them in two."
 msgstr ""
+"<b>Divisor de páginas:</b> Este recurso detecta páginas duplas e permite que "
+"você as gire ou corte em duas."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3114-5
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
 msgstr ""
+"<b>Aumento de escala:</b> Amplie imagens que sejam menores que a resolução "
+"desejada."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3120-1
 msgctxt "user_guide/en.html+html.body.div.div:3120-1"
 msgid "Other manga tips"
-msgstr "Outras dicas de mangá"
+msgstr "Outras dicas para mangá"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3124-1
 msgid "Immersive mode in KOReader"
-msgstr ""
+msgstr "Modo imersivo no KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3126-5
 msgid ""
@@ -7750,15 +7861,20 @@ msgid ""
 "hide the bottom progress bar while reading your manga in KOReader. So you "
 "will have an immersive full screen view of your manga without obstructions."
 msgstr ""
+"Se você quiser aproveitar seu mangá de uma forma mais imersiva, certifique-"
+"se de selecionar exatamente a mesma resolução da tela do seu dispositivo no "
+"<b>KCC</b> ao criar seu arquivo <b>CBZ</b>. Você também pode ocultar a barra "
+"de progresso inferior enquanto lê seu mangá no KOReader. Assim, você terá "
+"uma visualização imersiva em tela cheia do seu mangá, sem obstruções."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3130-1
 msgid "Extra step for smooth gradients"
-msgstr ""
+msgstr "Etapa extra para gradientes suaves"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3132-5
 msgctxt "user_guide/en.html+html.body.div.p:3132-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANÇADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3134-5
 msgid ""
@@ -7767,6 +7883,11 @@ msgid ""
 "rendered gradients will be smoothly dithered without jagged layers. This "
 "step will produce fine-tuned manga volumes which look better in KOReader."
 msgstr ""
+"Após usar o <span class=\"external\">KCC</span> para criar um arquivo "
+"<b>CBZ</b>, você pode aplicar <b>pontilhamento</b> adicional às imagens. "
+"Dessa forma, os gradientes renderizados serão pontilhados suavemente, sem "
+"camadas irregulares. Esta etapa produzirá volumes de mangá com ajuste fino, "
+"que terão melhor aparência no KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3137-5
 msgid ""
@@ -7777,12 +7898,20 @@ msgid ""
 "class=\"external\">ImageMagick</span> and use it from the command line to "
 "process many images at once."
 msgstr ""
+"Você pode usar o <span class=\"external\">ImageMagick</span> para processar "
+"suas imagens. O <span class=\"external\">ImageMagick</span> é um poderoso "
+"pacote de software de código aberto para exibir, criar, converter, modificar "
+"e editar imagens em pixels. Você pode baixar o <span class=\"external\""
+">ImageMagick</span> e usá-lo na linha de comando para processar várias "
+"imagens de uma só vez."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3140-9
 msgid ""
 "Unpack the prepared <b>CBZ</b> file that you created with <span "
 "class=\"external\">KCC</span>,"
 msgstr ""
+"Descompacte o arquivo <b>CBZ</b> preparado que você criou com o <span class="
+"\"external\">KCC</span>,"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3141-9
 msgid ""
@@ -7791,16 +7920,23 @@ msgid ""
 "class=\"external\">Yandex Disk</span>) which contains two <b>batch files (."
 "BAT)</b> and a <b>GIF</b> color template."
 msgstr ""
+"Baixe o seguinte arquivo <a href=\"https://disk.yandex.com/d/glEebjmPYYp7og\""
+">dither_pack.zip</a> "
+"(localizado no <span class=\"external\">Yandex Disk</span>) que contém dois "
+"<b>arquivos em lote (.BAT)</b> e um modelo de cor <b>GIF</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3142-9
 msgid "Extract these three files next to your images that will be processed"
 msgstr ""
+"Extraia esses três arquivos ao lado das suas imagens que serão processadas"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3143-9
 msgid ""
 "Edit the <b>_magick_manga_ditherN_resize.bat</b> and change the resolution "
 "to your device resolution (in both places in the <b>BAT</b> file)."
 msgstr ""
+"Edite o <b>_magick_manga_ditherN_resize.bat</b> e altere a resolução para a "
+"resolução do seu dispositivo (em ambos os lugares no arquivo <b>BAT</b>)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.p:3144-9
 msgid ""
@@ -7808,46 +7944,60 @@ msgid ""
 "images in the directory with the processed ones. So make sure that you have "
 "a copy of them in some other directory if you want to keep the originals."
 msgstr ""
+"<span class=\"label_red\">AVISO</span> O próximo passo substituirá todas as "
+"imagens no diretório pelas processadas. Portanto, certifique-se de ter uma "
+"cópia delas em outro diretório se quiser manter as originais."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3146-9
 msgid ""
 "Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images."
 msgstr ""
+"Execute <b>_magick_manga_ditherN_resize.bat</b> para redimensionar e "
+"pontilhar as imagens."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3147-9
 msgid ""
 "Assuming you have <b>7-Zip</b> installed, run <b>_batch_archive.bat</b> to "
 "pack all the processed images into a <b>CBZ</b> archive."
 msgstr ""
+"Supondo que você tenha o <b>7-Zip</b> instalado, execute "
+"<b>_batch_archive.bat</b> para compactar todas as imagens processadas em um "
+"arquivo <b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3152-1
 msgid "Reversing the page turn direction for authentic Japanese manga"
 msgstr ""
+"Invertendo a direção da virada de página para mangás japoneses autênticos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3154-5
 msgctxt "user_guide/en.html+html.body.div.p:3154-5"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANÇADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3156-5
 msgid ""
 "You can make KOReader turn pages from <b>Left to Right</b>, so that swipes "
 "and tap zones are swapped. To enable this, add the following lines:"
 msgstr ""
+"Você pode fazer o KOReader virar as páginas da <b>Esquerda para a Direita</"
+"b>, para que as zonas de deslizes e toque sejam trocadas. Para habilitar "
+"isso, adicione as seguintes linhas:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3160-5
 msgid ""
 "[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
 "true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 msgstr ""
+"[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
+"true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3169-5
 msgid "to this file:"
-msgstr ""
+msgstr "para este arquivo:"
 
 #: user_guide/en.html%2Bhtml.body.div:3169-21
 msgid "/koreader/settings/directory_defaults.lua"
-msgstr ""
+msgstr "/koreader/settings/directory_defaults.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3173-5
 msgid ""
@@ -7855,15 +8005,18 @@ msgid ""
 "directory containing your mangas. After this change, when you open a file "
 "from the mentioned directory, your swipes and tap zones will be swapped."
 msgstr ""
+"onde <b>/storage/emulated/0/Books/manga</b> é o caminho absoluto para o "
+"diretório que contém seus mangás. Após essa alteração, ao abrir um arquivo "
+"do diretório mencionado, suas zonas de deslizar e tocar serão trocadas."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3178-1
 msgctxt "user_guide/en.html+html.body.div.div:3178-1"
 msgid "MANAGING YOUR LIBRARY"
-msgstr "GERENCIAR SUA BIBLIOTECA"
+msgstr "GERENCIANDO SUA BIBLIOTECA"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3182-1
 msgid "File Browser Usage"
-msgstr ""
+msgstr "Uso do Explorador de Arquivos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3184-5
 msgid ""
@@ -7872,10 +8025,14 @@ msgid ""
 "KOReader. You will do all your file and folder operations here. You can "
 "access it from the reading screen by:"
 msgstr ""
+"Você verá a interface do <span class=\"ui\">Explorador de arquivos</span> ao "
+"executar o KOReader pela primeira vez. É uma das duas interfaces principais "
+"do KOReader. Você realizará todas as suas operações com arquivos e pastas "
+"aqui. Você pode acessá-la na tela de leitura:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3186-5
 msgid "TOP MENU /"
-msgstr ""
+msgstr "MENU SUPERIOR /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3192-5
 msgid ""
@@ -7886,10 +8043,17 @@ msgid ""
 "or sorted via the <span class=\"ui\">TOP MENU</span> by swiping down from "
 "the top part of the screen."
 msgstr ""
+"Por padrão, o <span class=\"ui\">explorador de arquivos</span> exibe sua "
+"pasta <span class=\"ui\">INÍCIO</span>, que é a pasta principal da sua "
+"biblioteca. Você pode alterar isso <b>pressionando longamente em qualquer "
+"pasta</b>. Você pode alterar as diversas opções do <span class=\"ui\""
+">explorador de arquivos</span>, como a forma como os livros são exibidos ou "
+"classificados, por meio do <span class=\"ui\">MENU SUPERIOR</span>, "
+"deslizando de cima para baixo na tela."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3194-5
 msgid "Circled items in the image are explained below:"
-msgstr ""
+msgstr "Os itens circulados na imagem são explicados abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3196-5
 msgid ""
@@ -7897,6 +8061,10 @@ msgid ""
 "properties of your document like <b>reading progress, bookmarks, custom "
 "cover image</b> etc. which you can choose in a following dialog."
 msgstr ""
+"<span class=\"ui\">REINICIAR:</span> Esta opção permite que você redefina "
+"algumas propriedades do seu documento, como <b>progresso da leitura, "
+"marcadores, imagem de capa personalizada</b> , etc., que você pode escolher "
+"na caixa de diálogo a seguir."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3198-5
 msgid ""
@@ -7904,6 +8072,10 @@ msgid ""
 "<span class=\"ui\">reset</span> dialog and double check which items are "
 "marked, otherwise you can reset everything related to your book accidentally."
 msgstr ""
+"<span class=\"label_red\">AVISO</span> Tenha muito cuidado ao usar a caixa "
+"de diálogo <span class=\"ui\">redefinir</span> e verifique novamente quais "
+"itens estão marcados, caso contrário, você pode redefinir tudo relacionado "
+"ao seu livro acidentalmente."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3200-5
 msgid ""
@@ -7912,6 +8084,11 @@ msgid ""
 "different engine to get some other features. See <b>Viewing archive files</"
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
+"<span class=\"ui\">ABRIR COM:</span> O KOReader possui diferentes mecanismos "
+"para renderizar diferentes tipos de arquivo. Em alguns casos, você pode "
+"abrir um arquivo em um mecanismo diferente para obter outros recursos. "
+"Consulte as seções <b>Visualizando arquivos compactados</b> e "
+"<b>Visualizando arquivos de imagem</b> logo abaixo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3202-5
 msgid ""
@@ -7919,6 +8096,10 @@ msgid ""
 "disable the cover for this book (it may have wrong cover or cover is not "
 "very readable on the e-ink screen) you can select this."
 msgstr ""
+"<span class=\"ui\">IGNORAR CAPA:</span> Se por algum motivo você quiser "
+"desabilitar a capa deste livro "
+"(a capa pode estar errada ou a capa não está muito legível na tela e-ink), "
+"você pode selecionar isso."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3204-5
 msgid ""
@@ -7926,6 +8107,9 @@ msgid ""
 "correct, name field may show useless information. Select this option to show "
 "the file name instead of metadata."
 msgstr ""
+"<span class=\"ui\">IGNORAR METADADOS:</span> Se os metadados do seu livro "
+"não estiverem corretos, o campo de nome poderá exibir informações inúteis. "
+"Selecione esta opção para exibir o nome do arquivo em vez dos metadados."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3206-5
 msgid ""
@@ -7935,10 +8119,16 @@ msgid ""
 "might need to be updated. If you see wrong cover or metadata, you can "
 "refresh the book information with this menu item."
 msgstr ""
+"<span class=\"ui\">ATUALIZAR INFORMAÇÕES DO LIVRO EM CACHE:</span> O "
+"KOReader armazena em cache os metadados e a capa de um livro quando você o "
+"adiciona à sua biblioteca. Se você fizer alguma alteração no livro após "
+"copiá-lo para o seu dispositivo, essas informações podem precisar ser "
+"atualizadas. Se você encontrar capa ou metadados incorretos, pode atualizar "
+"as informações do livro com este item de menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3210-1
 msgid "Working on multiple files"
-msgstr ""
+msgstr "Trabalhando em vários arquivos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3212-5
 msgid ""
@@ -7948,6 +8138,12 @@ msgid ""
 "there are three different ways of selecting files for bulk operations in the "
 "<span class=\"ui\">file browser</span>:"
 msgstr ""
+"O <span class=\"ui\">Explorador de arquivos</span> permite que você execute "
+"algumas operações (como copiar, mover, excluir e exportar destaques) em "
+"vários arquivos ao mesmo tempo. Para este procedimento, primeiro você "
+"precisa selecionar os arquivos. Atualmente, existem três maneiras diferentes "
+"de selecionar arquivos para operações em massa no <span class=\"ui\""
+">explorador de arquivos</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3214-5
 msgid ""
@@ -7959,6 +8155,14 @@ msgid ""
 "your screen. You can choose what to do with these files from the dialog. Or "
 "exit the selection mode from the same dialog."
 msgstr ""
+"<b>- No primeiro método</b>, pressione e segure o nome de um arquivo e "
+"escolha <span class=\"ui\">Selecionar</span> na caixa de diálogo pop-up. "
+"Isso ativará o <span class=\"ui\">Modo de seleção</span>. Agora você pode "
+"tocar em outros arquivos para adicioná-los à seleção. Ao terminar de "
+"selecionar seus arquivos, toque no <span class=\"ui\">ícone de marca de "
+"seleção</span> no <b>canto superior direito</b> da tela. Você pode escolher "
+"o que fazer com esses arquivos na caixa de diálogo. Ou sair do modo de "
+"seleção na mesma caixa de diálogo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3216-5
 msgid ""
@@ -7968,6 +8172,11 @@ msgid ""
 "class=\"ui\">Selection mode</span> and rest is the same as the first method "
 "above."
 msgstr ""
+"<b>- No segundo método</b>, pressione o <span class=\"ui\">ícone + (mais)</"
+"span> no <b>canto superior direito</b> e escolha <span class=\"ui\""
+">Selecionar arquivos</span> na caixa de diálogo. Isso ativará o <span class="
+"\"ui\">Modo de seleção</span> e o restante será igual ao primeiro método "
+"acima."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3218-5
 msgid ""
@@ -7977,6 +8186,11 @@ msgid ""
 "want to move all files in your collection authored by Tolkien, to a new "
 "folder. Steps for this action will be:"
 msgstr ""
+"<b>- No terceiro método</b>, você pode selecionar seus arquivos com base em "
+"uma <span class=\"ui\"> Pesquisa de arquivos</span>. Isso é útil se você "
+"precisar realizar uma operação em vários arquivos distribuídos em pastas "
+"diferentes. Por exemplo, você deseja mover todos os arquivos da sua coleção "
+"do Tolkien para uma nova pasta. Os passos para esta ação serão:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3221-9
 msgid ""
@@ -7984,6 +8198,9 @@ msgid ""
 "class=\"ui\">Search tab</span> (with the magnifier icon) and choose <span "
 "class=\"ui\">File search</span>."
 msgstr ""
+"No <span class=\"ui\">Menu superior</span>, pressione a <span class=\"ui\""
+">guia Pesquisar</span> (com o ícone de lupa) e escolha <span class=\"ui\""
+">Pesquisa de arquivos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3222-9
 msgid ""
@@ -7992,6 +8209,11 @@ msgid ""
 "in book metadata</span> if you want KOReader to look in book's metadata. "
 "Otherwise KOReader will only look at the file names for the word you entered."
 msgstr ""
+"Marque a opção <span class=\"ui\">Incluir subpastas</span> se quiser "
+"pesquisar também dentro das pastas. Você pode marcar <span class=\"ui\""
+">Pesquisar também nos metadados do livro</span> se quiser que o KOReader "
+"procure nos metadados do livro. Caso contrário, o KOReader buscará a palavra "
+"digitada apenas nos nomes dos arquivos."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3223-9
 msgid ""
@@ -7999,6 +8221,9 @@ msgid ""
 "span> or your <span class=\"ui\">Current folder</span> by pressing on the "
 "respective button."
 msgstr ""
+"Você pode iniciar a pesquisa na sua <span class=\"ui\">Pasta inicial</span> "
+"da biblioteca ou na sua <span class=\"ui\">Pasta atual</span> pressionando o "
+"botão respectivo."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3224-9
 msgid ""
@@ -8007,6 +8232,10 @@ msgid ""
 "span> at the <b>top left corner</b> of the screen to enter the <span "
 "class=\"ui\">Selection mode</span>."
 msgstr ""
+"Após a conclusão da pesquisa, você verá uma lista de arquivos "
+"(se o termo de busca for encontrado, é claro). Agora você pode tocar no "
+"<span class=\"ui\">ícone ≡</span> no <b>canto superior esquerdo</b> da tela "
+"para entrar no <span class=\"ui\">Modo de seleção</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3225-9
 msgid ""
@@ -8015,6 +8244,10 @@ msgid ""
 "screen. You will see a dialog which contains <span class=\"ui\">Select in "
 "file browser</span>. Select this option."
 msgstr ""
+"Toque em todos os arquivos nos quais deseja realizar operações e toque no "
+"<span class=\"ui\">Ícone de marca de seleção</span> no <b>canto superior "
+"esquerdo</b> da tela. Você verá uma caixa de diálogo contendo <span class="
+"\"ui\">Selecionar no explorador de arquivos</span>. Selecione esta opção."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3226-9
 msgid ""
@@ -8022,6 +8255,9 @@ msgid ""
 "files you selected in the <span class=\"ui\">Search dialog</span> will also "
 "be selected here."
 msgstr ""
+"Agora você estará de volta ao <span class=\"ui\">Explorador de arquivos</"
+"span> e os arquivos selecionados na <span class=\"ui\">Caixa de diálogo de "
+"pesquisa</span> também serão selecionados aqui."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3227-9
 msgid ""
@@ -8029,6 +8265,9 @@ msgid ""
 "corner</b> of your screen. Now you can choose what to do with these files "
 "from the dialog."
 msgstr ""
+"Toque no <span class=\"ui\">Ícone de marca de seleção</span> no <b>canto "
+"superior direito</b> da tela. Agora você pode escolher o que fazer com esses "
+"arquivos na caixa de diálogo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3234-1
 msgctxt "user_guide/en.html+html.body.div.div:3234-1"
@@ -8043,16 +8282,24 @@ msgid ""
 "assign a folder shortcut to this <b>Archived</b> folder and access it "
 "quickly even while reading a book."
 msgstr ""
+"O KOReader permite que você adicione suas pastas favoritas a um menu de "
+"atalhos de pastas de acesso rápido. Por exemplo, se você tiver uma pasta "
+"<b>Arquivo</b> na sua biblioteca em "
+"<b>Início>Artigos>Científicos>Arquivados</b>, você pode atribuir um atalho "
+"de pasta a essa pasta <b>Arquivados</b> e acessá-la rapidamente, mesmo "
+"enquanto lê um livro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3238-5
 msgid "Adding a folder shortcut:"
-msgstr ""
+msgstr "Adicionando um atalho de pasta:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3239-5
 msgid ""
 "There are two ways of adding a folder to your <span class=\"ui\">Folder "
 "shortcuts</span> list:"
 msgstr ""
+"Há duas maneiras de adicionar uma pasta à sua lista de <span class=\"ui\""
+">Atalhos de pasta</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3241-9
 msgid ""
@@ -8061,6 +8308,10 @@ msgid ""
 "shortcuts</span> item and enter a descriptive name for this shortcut. "
 "<b>This will add the folder you are currently in.</b>"
 msgstr ""
+"Quando estiver no Explorador de Arquivos, toque no botão <span class=\"ui\">+"
+" (mais) menu</span> do canto direito, depois toque no item <span class=\"ui\""
+">Adicionar aos atalhos de pasta</span> e insira um nome descritivo para este "
+"atalho. <b>Isso adicionará a pasta em que você está no momento.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3242-9
 msgid ""
@@ -8069,22 +8320,32 @@ msgid ""
 "enter a descriptive name for this shortcut. <b>This will add the folder you "
 "pressed on.</b>"
 msgstr ""
+"No Explorador de Arquivos, pressione e segure o nome de uma pasta para abrir "
+"o menu de contexto. Toque no item <span class=\"ui\">Adicionar aos atalhos "
+"de pasta</span> e insira um nome descritivo para este atalho. <b>Isso "
+"adicionará a pasta na qual você pressionou.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3245-5
 msgid ""
 "Folders which are in your <span class=\"ui\">Folder shortcuts</span> list "
 "will have a <b>star (★)</b> in the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"As pastas que estão na sua lista de <span class=\"ui\">Atalhos de pasta</"
+"span> terão uma <b>estrela (★)</b> no <span class=\"ui\">Explorador de "
+"arquivos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3247-5
 msgid ""
 "You can remove a folder from the shortcuts in the same way, by long-pressing "
 "on it and selecting <span class=\"ui\">Remove from folder shortcuts</span>."
 msgstr ""
+"Você pode remover uma pasta dos atalhos da mesma maneira, pressionando-a "
+"longamente e selecionando <span class=\"ui\">Remover dos atalhos de "
+"pasta</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3250-5
 msgid "Viewing your folder shortcuts:"
-msgstr ""
+msgstr "Visualizando seus atalhos de pasta:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3251-5
 msgid ""
@@ -8092,6 +8353,9 @@ msgid ""
 "class=\"ui\">File Browser</span> or <span class=\"ui\">Reading screen</span> "
 "while reading a book."
 msgstr ""
+"Você pode abrir seus <span class=\"ui\">Atalhos de pasta</span> no <span "
+"class=\"ui\">Explorador de arquivos</span> ou na <span class=\"ui\">Tela de "
+"leitura</span> enquanto lê um livro."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3253-9
 msgid ""
@@ -8099,6 +8363,9 @@ msgid ""
 "menu</span> then choosing <span class=\"ui\">Folder shortcuts</span> or "
 "assigning a gesture."
 msgstr ""
+"<b>No Explorador de arquivos:</b> Canto superior direito <span class=\"ui\""
+">menu + (mais)</span> e, em seguida, escolha <span class=\"ui\">Atalhos de "
+"pasta</span> ou atribua um gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3254-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
