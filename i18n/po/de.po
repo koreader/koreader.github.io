@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-23 17:05+0000\n"
-"PO-Revision-Date: 2025-10-21 21:13+0000\n"
-"Last-Translator: Tamara <alberti.tamara@gmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/koreader/user-"
-"guide/de/>\n"
+"PO-Revision-Date: 2025-10-24 15:59+0000\n"
+"Last-Translator: Guulinus <guulinusui@gmail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/koreader/"
+"user-guide/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -405,10 +405,9 @@ msgid "Editing highlights <span class=\"microns\"></span>"
 msgstr "Markierungen editieren<span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:981-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:981-17"
 msgid "Exporting highlights"
-msgstr "1. Export Highlights plugin"
+msgstr "Highlights exportieren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:985-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:985-9"
@@ -538,12 +537,9 @@ msgid "Profile auto-execution <span class=\"microns\"></span>"
 msgstr "Profil automatisch-ausführen <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1036-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1036-5"
 msgid "PLUGINS AND USER PATCHES"
-msgstr ""
-"Contrib <span class=\"warning\"><span class=\"label_red\">!!! ADVANCED</"
-"span></span>"
+msgstr "PLUGINS UND BENUTZER-PATCHES"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1038-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1038-13"
@@ -637,14 +633,14 @@ msgstr ""
 "transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1073-9
-#, fuzzy
 msgid ""
 "<b>Cloud storage</b> (<span class=\"external\">Dropbox</span>/FTP/Webdav) "
 "with suitable accounts <a href=\"#L2-transferring\" class=\"internalink\"></"
 "a>"
 msgstr ""
-"Mit dem <b>News-Downloader Plugin</b> kannst du RSS- und Atom-"
-"Nachrichteneinträge als HTML-Dateien auf dein Gerät herunterladen"
+"<b>Cloud-Speicher</b> (<span class=\"external\">Dropbox</span>/FTP/Webdav) "
+"mit geeigneten Konten <a href=\"#L2-transferring\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1075-9
 msgid ""
@@ -776,9 +772,8 @@ msgstr ""
 "b> and <b>kalendarische Ansicht</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1108-1
-#, fuzzy
 msgid "Export your notes and highlights flexibly"
-msgstr "1. Export Highlights plugin"
+msgstr "Exportieren Sie Ihre Notizen und Markierungen flexibel"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1110-9
 msgid ""
@@ -809,12 +804,14 @@ msgid "Arrange and browse your library easily"
 msgstr "Einfaches Organisieren und Durchstöbern der eigenen Bibliothek"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1117-9
-#, fuzzy
 msgid ""
 "Powerful <b>File Browser</b> where you can copy, move, rename, create, "
 "delete files and folders and perform bulk operations <a href=\"#L2-"
 "filebrowser\" class=\"internalink\"></a>"
-msgstr "<b>Verlauf</b>, der die zuletzt aufgerufenen Bücher anzeigt"
+msgstr ""
+"Leistungsstarker <b>Dateibrowser</b>, mit dem Sie Dateien und Ordner "
+"kopieren, verschieben, umbenennen, erstellen, löschen und Massenvorgänge "
+"ausführen können <a href=\"#L2-filebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1119-9
 msgid ""
@@ -840,21 +837,23 @@ msgid "Fly through your book with powerful tools"
 msgstr "Erkunde Deine Bücher mit leistungsfähigen Tools"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1126-9
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Skim widget</span> to quickly jump between pages, "
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
-"<b>Lesezeichen-Browser</b> zum einfachen Navigieren zwischen deinen "
-"Highlights"
+"<span class=\"ui\">Skim-Widget</span> zum schnellen Springen zwischen "
+"Seiten, Kapiteln und Lesezeichen <a href=\"#L2-skimwidget\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1128-9
-#, fuzzy
 msgid ""
 "Unique <span class=\"ui\">Book map</span> to see a bird’s eye map of your "
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
-msgstr "Automatisches oder manuelles Erstellen eines Inhaltsverzeichnisses"
+msgstr ""
+"Einzigartige <span class=\"ui\">Buchkarte</span>, um eine Vogelperspektive "
+"Ihres Buches mit all Ihren Notizen und Markierungen anzuzeigen <a href="
+"\"#L2-bookmap\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1130-9
 msgid ""
