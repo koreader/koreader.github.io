@@ -7,9 +7,9 @@
 
 import re
 import requests
+import sys
 
-print('''
-<!DOCTYPE html>
+print('''<!DOCTYPE html>
 <title>KOReader logo gallery</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
@@ -72,11 +72,34 @@ ignore_tag_list = (
 
 # Automatically grab all the logos.
 r = requests.get(f'https://api.github.com/repos/{repo}/releases?per_page=100')
-releases = [ 
-  (t['html_url'], t['tag_name'], t['name'], re.search(r'https://.*\.(jpg|png)', t['body'])[0]) 
-  for t in r.json()
-  if not t['tag_name'] in ignore_tag_list and ('jpg' in t['body'] or 'png' in t['body'])
-][::-1]
+if r.status_code != 200:
+  print(f'Error: GitHub API returned status {r.status_code}')
+  sys.exit(1)
+
+def find_image_url(body):
+  """Try several heuristics to find an image URL in release body."""
+  if not body:
+    return None
+  # Markdown: ![alt](https://...)
+  m = re.search(r'!\[[^\]]*\]\((https://[^)\s]+)\)', body)
+  if m:
+    return m.group(1)
+  # HTML: <img src="https://...">
+  m = re.search(r'<img[^>]+src=(?:["\'])?(https://[^\s"\'>]+)', body)
+  if m:
+    return m.group(1)
+  return None
+
+releases = []
+for t in r.json():
+  tag = t.get('tag_name')
+  if not tag or tag in ignore_tag_list:
+    continue
+  img = find_image_url(t.get('body') or '')
+  if not img:
+    continue
+  releases.append((t.get('html_url'), tag, t.get('name') or tag, img))
+releases = releases[::-1]
 
 print('<ul class="thumbnail-grid">')
 
