@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-25 21:11+0000\n"
-"PO-Revision-Date: 2025-10-25 21:08+0000\n"
+"PO-Revision-Date: 2025-10-26 19:43+0000\n"
 "Last-Translator: Denilson Sousa <deni.sousa09@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
@@ -689,10 +689,10 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
-"Mude fontes (incluindo suas próprias), tamanho de fonte, contraste, negrito, "
-"espaçamento entre caracteres, espaçamento entre palavras, expansão de "
-"palavras, alinhamento do texto, espaçamento de linhas, layout das colunas. "
-"margens...<a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
+"Alterar fontes (incluindo as suas), tamanho da fonte, contraste, negrito, "
+"kerning, espaçamento entre palavras, expansão de palavras, alinhamento do "
+"texto, espaçamento entre linhas, layout de colunas, margens... <a href="
+"\"#L1-customizingappearance\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1088-9
 msgid ""
@@ -3009,15 +3009,15 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
-"A <span class=\"ui\">Sugestão de fonte</span> ajusta seu texto para máxima "
-"legibilidade de acordo com a grade de pixels da sua tela. <span "
-"class=\"ui\">nativa</span> usa as instruções de sugestão internas da fonte, "
-"<span class=\"ui\">automático</span> usa o algoritmo de sugestão do "
-"FreeType. <span class=\"ui\">automática</span> é uma opção mais segura, pois "
-"os arquivos de fonte que você instalou podem ter instruções de sugestão "
-"problemáticas. Além disso, <span class=\"ui\">automático</span> lida melhor "
-"com texto <b>CJK</b>. Você pode tentar configurações diferentes para ver "
-"qual fica melhor no seu dispositivo."
+"<span class=\"ui\">Hinting da fonte</span> ajusta seu texto para máxima "
+"legibilidade de acordo com a grade de pixels da sua tela. <span class=\"ui\""
+">nativo</span> usa as instruções de hinting internas da fonte, enquanto "
+"<span class=\"ui\">auto</span> utiliza o algoritmo de hinting do FreeType. "
+"<span class=\"ui\">Auto</span> é uma escolha mais segura, pois fontes que "
+"você instalou podem ter instruções de hinting problemáticas. Além disso, "
+"<span class=\"ui\">auto</span> lida melhor com textos em <b>CJK</b>. Você "
+"pode testar diferentes configurações para ver qual fica melhor no seu "
+"dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1752-5
 msgid ""
@@ -3029,14 +3029,14 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
-"O <span class=\"ui\">Espaçamento de caracteres</span> ajusta o espaçamento "
-"entre as letras para obter um resultado visualmente agradável. O padrão é a "
-"opção <span class=\"ui\">melhor</span>, que pode ser <b>mais lenta</b> ao "
-"abrir arquivos (dependendo do seu dispositivo), mas <b>tem melhor suporte "
-"para ligaduras</b> (veja a imagem abaixo para um exemplo), glifos <b>árabes</"
-"b> unidos e alguns outros scripts. Se o seu dispositivo for lento, você pode "
-"tentar <span class=\"ui\">bom</span>, que é mais rápido e ainda pode parecer "
-"correto com textos em alfabeto latino ocidental."
+"<span class=\"ui\">Kerning da fonte</span> ajusta o espaçamento entre letras "
+"para um resultado visualmente agradável. A opção padrão é <span class=\"ui\""
+">ótimo</span>, que pode ser <b>mais lenta</b> ao abrir arquivos "
+"(dependendo do seu dispositivo), mas <b>oferece melhor suporte a ligaduras</"
+"b> (veja a imagem abaixo como exemplo), glifos <b>árabes</b> conectados e "
+"alguns outros scripts. Se seu dispositivo for lento, você pode tentar <span "
+"class=\"ui\">bom</span>, que é mais rápida e ainda pode parecer correta em "
+"textos ocidentais em alfabeto latino."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1761-5
 msgid ""
@@ -9299,7 +9299,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3504-1
 msgid "Using Collections with Profiles"
-msgstr ""
+msgstr "Usando Coleções com Perfis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3506-5
 msgid ""
@@ -9308,23 +9308,29 @@ msgid ""
 "span> yet, here is a description from our <a href=\"#L2-profiles\">Profiles</"
 "a> section:"
 msgstr ""
+"Suas coleções podem ser usadas com o recurso de <span class=\"ui\">perfis</"
+"span> do KOReader. Se você ainda não conhece os <span class=\"ui\">perfis</"
+"span>, aqui está uma descrição da nossa seção <a href=\"#L2-profiles\""
+">Perfis</a>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3508-5
 msgid ""
 "A <span class=\"ui\">profile</span> is basically a set of actions that can "
 "be triggered with a single gesture (like a macro)."
 msgstr ""
+"Um <span class=\"ui\">perfil</span> é basicamente um conjunto de ações que "
+"podem ser ativadas com um único gesto (como uma macro)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3511-9
 msgctxt "user_guide/en.html+html.body.div.p:3511-9"
 msgid ""
 "As an example, imagine that when reading some type of books, you always:"
-msgstr ""
+msgstr "Como exemplo, imagine que, ao ler certos tipos de livros, você sempre:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3513-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3513-13"
 msgid "Rotate the screen to landscape orientation"
-msgstr ""
+msgstr "Gira a tela para a orientação paisagem"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3514-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3514-13"
@@ -9334,7 +9340,7 @@ msgstr "Aumentar o tamanho da fonte e o contraste e"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3515-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3515-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "Liga a luz da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3518-9
 msgctxt "user_guide/en.html+html.body.div.p:3518-9"
@@ -9353,12 +9359,22 @@ msgid ""
 "auto-execution</a>. For now we will just explain one trigger condition here: "
 "<span class=\"ui\">Collections</span>."
 msgstr ""
+"Você pode executar um perfil manualmente, mas o verdadeiro potencial dos "
+"perfis é liberado com o recurso de <span class=\"ui\">execução automática</"
+"span>. Com esse recurso, é possível ativar um perfil dependendo de certas "
+"condições. Aqui está o link para a seção correspondente do guia: <a href="
+"\"#L2-profileautoexec\">Execução automática de perfis</a>. Por enquanto, "
+"vamos explicar apenas uma condição de ativação aqui: <span class=\"ui\""
+">Coleções</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3522-9
 msgid ""
 "Basically you can create some profiles and set them to auto-execute if an "
 "opened book is in some specific collection. Some useful examples:"
 msgstr ""
+"Basicamente, você pode criar alguns perfis e configurá-los para execução "
+"automática se o livro aberto estiver em uma coleção específica. Alguns "
+"exemplos úteis:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3525-13
 msgid ""
@@ -9366,6 +9382,10 @@ msgid ""
 "to switch the page turn direction to <b>Right-To-Left</b> and to invert page "
 "turn taps and swipes when you open a manga book from this collection."
 msgstr ""
+"Você pode adicionar todos os seus mangás a uma coleção <b>Mangá</b> e criar "
+"um perfil para alterar a direção da virada de página para <b>Direita-para-"
+"Esquerda</b> e inverter os toques e gestos de virada de página ao abrir um "
+"livro de mangá dessa coleção."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3526-13
 msgid ""
@@ -9373,6 +9393,9 @@ msgid ""
 "decrease the screen refresh interval to <span class=\"ui\">every page</span> "
 "to avoid ghosting."
 msgstr ""
+"Você pode adicionar seus quadrinhos a uma coleção, que pode acionar um "
+"perfil para reduzir o intervalo de atualização da tela a <span class=\"ui\""
+">cada página</span>, evitando efeitos de ghosting."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3527-13
 msgid ""
@@ -9409,6 +9432,10 @@ msgid ""
 "(<b>EPUB, Kindle</b> focused) and <span class=\"external\">K2pdfopt</span> "
 "(<b>PDF</b> focused)."
 msgstr ""
+"As aplicações mais usadas para converter ou otimizar seus documentos para "
+"dispositivos de leitura móvel são <span class=\"external\">Calibre</span> "
+"(focado em <b>EPUB, Kindle</b>) e <span class=\"external\">K2pdfopt</span> "
+"(focado em <b>PDF</b>)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3538-5
 msgid ""
@@ -9417,6 +9444,10 @@ msgid ""
 "you to edit e-books (and fix problems) in the most popular e-book formats, "
 "EPUB and Kindle."
 msgstr ""
+"O <a href=\"https://calibre-ebook.com/\">Calibre</a> pode converter seus "
+"documentos entre vários formatos. Ele também possui um editor integrado que "
+"permite editar e-books (e corrigir problemas) nos formatos de e-book mais "
+"populares, EPUB e Kindle."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3540-5
 msgid ""
@@ -9426,6 +9457,11 @@ msgid ""
 "be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation "
 "tool."
 msgstr ""
+"O <a href=\"https://www.willus.com/k2pdfopt/\">K2pdfopt</a> otimiza arquivos "
+"PDF/DJVU para leitores de e-books e smartphones. Funciona bem em arquivos "
+"PDF/DJVU com múltiplas colunas e pode reorganizar o texto mesmo em PDFs "
+"digitalizados. Também pode ser usado como uma ferramenta geral para copiar, "
+"recortar, redimensionar ou aplicar OCR em PDFs."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3542-5
 msgid ""
@@ -9435,6 +9471,12 @@ msgid ""
 "pasted. It can especially be useful for reading old scanned books. It can "
 "also optimize the images for a smaller file size."
 msgstr ""
+"O <a href=\"https://github.com/ocrmypdf/OCRmyPDF\">OCRmyPDF</a> é um "
+"aplicativo de linha de comando que pode adicionar uma camada de texto OCR a "
+"arquivos PDF digitalizados (contendo apenas imagens sem texto), permitindo "
+"que sejam pesquisados ou copiados. É especialmente útil para leitura de "
+"livros antigos digitalizados. Também pode otimizar as imagens para reduzir o "
+"tamanho do arquivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3544-5
 msgid ""
@@ -9452,12 +9494,12 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3548-1
 msgid "Book metadata storage options"
-msgstr ""
+msgstr "Opções de armazenamento de metadados dos livros"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3550-2
 msgctxt "user_guide/en.html+html.body.div.p:3550-2"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANÇADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3552-2
 msgid ""
@@ -9465,18 +9507,21 @@ msgid ""
 "same directory as your book file. We call this <b>metadata</b> and it "
 "includes:"
 msgstr ""
+"O KOReader armazena configurações e informações extras relacionadas aos seus "
+"livros no mesmo diretório do arquivo do livro. Chamamos isso de "
+"<b>metadados</b>, que incluem:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3554-3
 msgid "Visual settings for the book"
-msgstr ""
+msgstr "Configurações visuais do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3555-3
 msgid "Book reading progress"
-msgstr ""
+msgstr "Progresso de leitura do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3556-3
 msgid "Highlights, bookmarks and notes"
-msgstr ""
+msgstr "Destaques, marcadores e notas"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3559-2
 msgid ""
@@ -9485,16 +9530,22 @@ msgid ""
 "are three different methods to store the metadata and each method has its "
 "own benefits/negatives."
 msgstr ""
+"Em uma mudança recente, adicionamos novas formas de armazenar esses "
+"metadados para resolver certos problemas relacionados à sincronização entre "
+"dispositivos. Atualmente, existem três métodos diferentes para armazenar os "
+"metadados, e cada método possui suas vantagens e desvantagens."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3561-2
 msgid "You can change this setting from this menu:"
-msgstr ""
+msgstr "Você pode alterar essa configuração a partir deste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3563-2
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:26px;\"> / Documento / Localização dos metadados do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3566-21
 msgid ""
@@ -9503,16 +9554,25 @@ msgid ""
 "making any changes. Otherwise there is a risk of losing your book settings, "
 "progress and annotations."
 msgstr ""
+"<span class=\"label_red\">AVISO</span> Recomendamos fortemente ler a seção "
+"abaixo para entender as diferenças e como cada método funciona antes de "
+"fazer qualquer alteração. Caso contrário, há risco de perder as "
+"configurações do livro, o progresso e as anotações."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3570-1
 msgid "1. Individual metadata folders next to the book files - DEFAULT SETTING"
 msgstr ""
+"1. Pastas de metadados individuais ao lado dos arquivos do livro – "
+"CONFIGURAÇÃO PADRÃO"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3572-3
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: book folder"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:26px;\"> / Documento / Localização dos metadados do livro: pasta do "
+"livro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3574-2
 msgid ""
@@ -9523,17 +9583,25 @@ msgid ""
 "contains the files for your settings, annotations and book progress for this "
 "book."
 msgstr ""
+"Este é o método <b>padrão</b> usado em uma instalação nova do KOReader. "
+"Neste método, ao copiar <b>Alice no País das Maravilhas.epub</b> para o seu "
+"dispositivo e abri-lo pela primeira vez, uma pasta chamada <span class=\"ui\""
+">Alice no País das Maravilhas.sdr</span> será criada no mesmo diretório. "
+"Essa pasta contém os arquivos das suas configurações, anotações e progresso "
+"de leitura deste livro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3576-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3576-2user_guide/en.html+html.body.div."
 "p:3576-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Vantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3578-4
 msgid "You can manually backup and restore the settings for each book."
 msgstr ""
+"Você pode fazer backup e restaurar manualmente as configurações de cada "
+"livro."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3579-4
 msgid ""
@@ -9541,19 +9609,24 @@ msgid ""
 "<b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized "
 "alongside your books."
 msgstr ""
+"Ao realizar a sincronização de diretórios ou backups com um sistema como "
+"<b>Syncthing</b> ou <b>Dropbox</b>, suas configurações serão sincronizadas "
+"junto com seus livros."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3580-4
 msgid ""
 "You can rename the parent directories where your book resides, this doesn't "
 "confuse KOReader."
 msgstr ""
+"Você pode renomear os diretórios onde o seu livro está localizado sem causar "
+"problemas ao KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3583-2
 msgctxt ""
 "user_guide/en.html+html.body.div.p:3583-2user_guide/en.html+html.body.div."
 "p:3583-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Desvantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3585-4
 msgid ""
@@ -9577,7 +9650,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3591-1
 msgid "2. Metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "2. Diretórios de metadados dentro de um único diretório do KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3593-2
 msgid ""
@@ -9585,6 +9658,9 @@ msgid ""
 "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
 "docsettings"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:26px;\"> / Documento / Localização dos metadados do livro: .../"
+"koreader/docsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3595-1
 msgid ""
@@ -9593,11 +9669,15 @@ msgid ""
 "directory <b>which is under the KOReader main directory structure</b>, "
 "instead of your library directory, next to the book files."
 msgstr ""
+"Este método é essencialmente o mesmo que o padrão acima. A diferença é que, "
+"neste método, todas as pastas <b>.sdr</b> dos seus livros ficarão em um "
+"único diretório <b>dentro da estrutura principal do KOReader</b>, em vez de "
+"ficarem na sua biblioteca, ao lado dos arquivos dos livros."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3597-2
 msgctxt "user_guide/en.html+html.body.div.p:3597-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Vantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3599-3
 msgid ""
@@ -9613,7 +9693,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:3602-2
 msgctxt "user_guide/en.html+html.body.div.p:3602-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Desvantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3604-3
 msgid ""
@@ -9632,11 +9712,15 @@ msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
 msgstr ""
+"Como os metadados dos seus livros não estarão nas pastas da sua biblioteca, "
+"qualquer sincronização ou backup da biblioteca não os incluirá."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3611-1
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
 msgstr ""
+"3. Diretórios de metadados HASHED individuais em um único diretório do "
+"KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3613-2
 msgid ""
@@ -9644,6 +9728,9 @@ msgid ""
 "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
 "hashdocsettings"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:26px;\"> / Documento / Localização dos metadados do livro: .../"
+"koreader/hashdocsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3615-2
 msgid ""
@@ -9673,11 +9760,17 @@ msgid ""
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
 msgstr ""
+"Neste método com <b>HASH</b>, as pastas <b>.sdr</b> não são identificadas "
+"pelo caminho ou nome do arquivo do livro. Em vez disso, é usado um <b>hash "
+"MD5 parcial</b> para vincular os livros às suas configurações. Esse hash "
+"funciona como um ID exclusivo do livro e é calculado com base no <b>conteúdo "
+"do arquivo do livro</b>. O mesmo hash também é usado para nomear a pasta "
+".sdr correspondente."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3620-2
 msgctxt "user_guide/en.html+html.body.div.p:3620-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Vantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3622-4
 msgid ""
@@ -9711,11 +9804,19 @@ msgid ""
 "your annotations and progress synchronized across your devices. This isn't "
 "possible with other methods."
 msgstr ""
+"Neste método, o KOReader associa a mesma pasta <b>.sdr</b> a todas as cópias "
+"do livro, mesmo que essas cópias estejam em dispositivos diferentes. Por "
+"exemplo, se você estiver usando <b>Syncthing</b>, este método permite "
+"sincronizar a sua pasta <span class=\"ui\">/hashdocsettings</span> junto com "
+"os arquivos dos livros, entre vários dispositivos que tenham o KOReader "
+"instalado. Apesar dos caminhos relativos diferentes desses livros em cada "
+"dispositivo, você ainda consegue sincronizar suas anotações e o progresso de "
+"leitura entre os dispositivos. Isso não é possível com os outros métodos."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3629-3
 msgctxt "user_guide/en.html+html.body.div.p:3629-3"
 msgid "Negatives"
-msgstr ""
+msgstr "Desvantagens"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3631-4
 msgid ""
@@ -9725,6 +9826,12 @@ msgid ""
 "method). In this case KOReader wouldn't be able to recognize the book so "
 "these books will lose their metadata."
 msgstr ""
+"Qualquer operação que modifique o arquivo diretamente "
+"(como adicionar destaques em PDFs ou baixar do <b>Calibre</b>) irá alterar o "
+"arquivo, fazendo com que seu <b>ID MD5 mude</b> "
+"(diferente de renomear ou mover, que é seguro com este método). Nesse caso, "
+"o KOReader não conseguirá reconhecer o livro, e esses livros perderão seus "
+"metadados."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3633-4
 msgid ""
@@ -9746,6 +9853,9 @@ msgid ""
 "gestures have limitations regarding where on the screen they can be used and "
 "which directions are supported. These limitations are indicated below."
 msgstr ""
+"Existem vários tipos de gestos que você pode usar para controlar o KOReader. "
+"Alguns gestos possuem limitações quanto à área da tela em que podem ser "
+"usados e às direções suportadas. Essas limitações estão indicadas abaixo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3647-5
 msgctxt "user_guide/en.html+html.body.div.div:3647-5"
@@ -9757,14 +9867,17 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Some devices support only single "
 "touch so multi-finger gestures <b>are not available</b> on them."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Alguns dispositivos suportam apenas "
+"toque único, portanto gestos com múltiplos dedos <b>não estão disponíveis</"
+"b> neles."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3658-17
 msgid "TAP / DOUBLE TAP"
-msgstr ""
+msgstr "TOQUE / DUPLO TOQUE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3659-17
 msgid "Single or double tap with <b>ONE</b> finger"
-msgstr ""
+msgstr "Toque simples ou duplo com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3660-17
 msgctxt ""
@@ -9772,46 +9885,46 @@ msgctxt ""
 "html+html.body.div.table.tr.td.p:3660-17user_guide/en.html+html.body.div."
 "table.tr.td.p:3660-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Em qualquer área da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3667-17
 msgid "TAP AND HOLD"
-msgstr ""
+msgstr "TOQUE E SEGURE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3668-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "Toque e segure com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3669-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3669-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Apenas nos quatro cantos"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3675-17
 msgid "TWO FINGER TAP"
-msgstr ""
+msgstr "TOQUE COM DOIS DEDOS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3676-9
 msgid "Single tap with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Toque simultâneo com <b>DOIS</b> dedos"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3677-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3677-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Apenas nos quatro cantos"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3683-17
 msgid "SPREAD AND PINCH"
-msgstr ""
+msgstr "ESTENDER E PINÇAR"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3684-9
 msgid "Same as zooming in and out on a phone or tablet."
-msgstr ""
+msgstr "Igual ao gesto de dar zoom em um celular ou tablet."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3685-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Em qualquer área da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3686-9
 msgid ""
@@ -9819,55 +9932,65 @@ msgid ""
 "depending on your device. If that’s the case please choose another gesture "
 "type."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Este gesto pode funcionar de forma "
+"menos confiável dependendo do seu dispositivo. Se for o caso, escolha outro "
+"tipo de gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3690-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3690-17"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "DESLIZE COM UM DEDO"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3691-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "Movimento de deslizar com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3692-9
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
 msgstr ""
+"<b>FUNCIONA:</b> Bordas da tela (HORIZONTAL e VERTICAL) Em qualquer lugar, "
+"exceto nas bordas (DIAGONAL)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3696-17
 msgid "TWO FINGER SWIPE"
-msgstr ""
+msgstr "DESLIZE COM DOIS DEDOS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3697-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Movimento de deslizar com <b>DOIS</b> dedos simultaneamente"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3698-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Em qualquer área da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3702-17
 msgid "MULTISWIPE"
-msgstr ""
+msgstr "MULTIDESLIZE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3703-9
 msgid ""
 "More than one swipe done after each other without lifting your finger. For "
 "example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)"
 msgstr ""
+"Mais de um deslize realizado consecutivamente sem levantar o dedo. Por "
+"exemplo, como desenhar a letra <b>U</b> (BAIXO-DIREITA-CIMA)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3705-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3705-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA:</b> Em qualquer área da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3709-17
 msgid ""
 "Icons by <b>Econceptive</b> from the <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 msgstr ""
+"Ícones por <b>Econceptive</b> do <a href="
+"\"https://thenounproject.com/econceptive/collection/touch-gesture/\">Noun "
+"Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-1
 msgctxt "user_guide/en.html+html.body.div.div:3715-1"
@@ -9879,78 +10002,86 @@ msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
 msgstr ""
+"Esta tabela mostra os gestos que acompanham o KOReader. Você pode alterar "
+"esses gestos de acordo com suas preferências através de:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3720-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Gesture Manager"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Gerenciador de Gestos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3727-5
 msgid "CORNER TAP"
-msgstr ""
+msgstr "TOQUE NOS CANTOS"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3729-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>Canto Superior Esquerdo</b> > Alternar virada de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3730-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr ""
+msgstr "<b>Canto Superior Direito</b> > Alternar marcador"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3731-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
-msgstr ""
+msgstr "<b>Cantos diagonais opostos ao mesmo tempo</b> > Fazer captura de tela"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3735-5
 msgid "DOUBLE TAP"
-msgstr ""
+msgstr "TOQUE DUPLO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3736-5
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr ""
+msgstr "<b>Lado Esquerdo</b> > Retroceder 10 páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3737-5
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr ""
+msgstr "<b>Lado Direito</b> > Avançar 10 páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3741-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3741-5"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "DESLIZE COM UM DEDO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3742-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr ""
+msgstr "<b>Deslize diagonal curto</b> > Atualização total da tela"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr ""
+msgstr "<b>Deslize diagonal longo</b> > Fazer captura de tela"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3747-5
 msgid "MULTISWIPES"
-msgstr ""
+msgstr "MULTIDESLIZES"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3748-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Voltar para a localização "
+"anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Ir para o marcador mais "
+"recente"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Folhear o documento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Índice"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3753-5
 msgid ""
@@ -9965,36 +10096,37 @@ msgstr "<span style=\"font-family: microns;\"></span> - Alternar refluxo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Status do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Ir para a página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3758-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Voltar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3759-5
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Capítulo anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3760-5
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Próximo capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3761-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Abrir documento anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3762-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Favoritos"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3769-1
 msgctxt "user_guide/en.html+html.body.div.div:3769-1"
@@ -10009,6 +10141,12 @@ msgid ""
 "here. These actions can also be used in your own <span class=\"ui\">Quick "
 "Menu</span>. Please check the relevant section in the guide for more info."
 msgstr ""
+"Esta é uma lista de todas as ações que você pode atribuir a um gesto usando "
+"o menu <span class=\"ui\">Gerenciador de Gestos</span>. Você pode usar a "
+"função de busca do seu navegador (geralmente <b>Ctrl+F</b>) para localizar "
+"uma ação aqui. Essas ações também podem ser usadas no seu próprio <span "
+"class=\"ui\">Menu Rápido</span>. Consulte a seção correspondente do guia "
+"para mais informações."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3773-5
 msgid ""
@@ -10021,6 +10159,14 @@ msgid ""
 "class=\"ui\">pass through</span>=<b>another handler might act on it</b>, "
 "<span class=\"ui\">nothing</span>=<b>swallow the action</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Ao escolher uma ação para um gesto, "
+"você verá um item especial na lista chamado <span class=\"ui\">ignorar</"
+"span>. Essa ação é usada para manter o comportamento padrão do gesto, como a "
+"seleção de texto ao pressionar longamente próximo aos cantos. Se quiser "
+"desativar um gesto para evitar ações acidentais, escolha <span class=\"ui\""
+">nada</span> como ação. Em outras palavras, <span class=\"ui\">ignorar</"
+"span>=<b>outro manipulador pode agir sobre ele</b>, <span class=\"ui\">nada</"
+"span>=<b>ignorar a ação</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3779-9
 msgid "General"
@@ -10176,15 +10322,15 @@ msgstr "Alternar o servidor SSH"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3819-17
 msgid "Statistics calendar view"
-msgstr ""
+msgstr "Visualização do calendário de estatísticas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3820-17
 msgid "Statistics today’s timeline"
-msgstr ""
+msgstr "Linha do tempo das estatísticas de hoje"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3821-17
 msgid "Synchronize book statistics"
-msgstr ""
+msgstr "Sincronizar estatísticas dos livros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3825-9
 msgid "Device"
@@ -10221,7 +10367,7 @@ msgstr "Alternar toque na tela"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3835-17
 msgid "Invert page turn buttons"
-msgstr ""
+msgstr "Inverter botões de virar página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
 msgid "Rotation"
@@ -10237,11 +10383,11 @@ msgstr "Inverter rotação"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3839-17
 msgid "Rotate by 90 CW"
-msgstr ""
+msgstr "Girar 90° no sentido horário"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
 msgid "Rotate by 90 CCW"
-msgstr ""
+msgstr "Girar 90° no sentido anti-horário"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3841-17
 msgid "Toggle Fullscreen"
@@ -10269,7 +10415,7 @@ msgstr "Iniciar armazenamento USB"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3849-17
 msgid "Suspend"
-msgstr ""
+msgstr "Suspender"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3850-17
 msgid "Reboot the device"
@@ -10443,43 +10589,43 @@ msgstr "Contraste"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3902-17
 msgid "Font weight"
-msgstr ""
+msgstr "Peso da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3903-17
 msgid "Font hinting"
-msgstr ""
+msgstr "Hinting da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3904-17
 msgid "Font kerning"
-msgstr ""
+msgstr "Kerning da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3905-17
 msgid "Two columns"
-msgstr ""
+msgstr "Duas colunas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3906-17
 msgid "L/R margins"
-msgstr ""
+msgstr "Margens E/D"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3907-17
 msgid "Sync T/B margins"
-msgstr ""
+msgstr "Sincronizar margens S/I"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
 msgid "Top margin"
-msgstr ""
+msgstr "Margem superior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Bottom margin"
-msgstr ""
+msgstr "Margem inferior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3910-17
 msgid "View mode (page-continuous)"
-msgstr ""
+msgstr "Modo de visualização (páginas contínuas)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3911-17
 msgid "Render mode"
-msgstr ""
+msgstr "Modo de renderização"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3912-17
 msgid "Zoom"
@@ -10496,19 +10642,19 @@ msgstr "Barra de status alternativa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3915-17
 msgid "Embedded style"
-msgstr ""
+msgstr "Estilo incorporado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3916-17
 msgid "Embedded fonts"
-msgstr ""
+msgstr "Fontes incorporadas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3917-17
 msgid "Image scaling"
-msgstr ""
+msgstr "Escala de imagens"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3918-17
 msgid "Invert images"
-msgstr ""
+msgstr "Inverter imagens"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3922-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3922-5"
@@ -10801,7 +10947,7 @@ msgstr "Obter progresso de outros dispositivos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3999-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "Documentos de layout fixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle page flipping"
@@ -10829,7 +10975,7 @@ msgstr "Alternar o zoom do painel"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
 msgid "Page crop"
-msgstr ""
+msgstr "Recorte de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
 msgid "Margin"
@@ -10865,11 +11011,11 @@ msgstr "Direção"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4016-17
 msgid "View mode"
-msgstr ""
+msgstr "Modo de visualização"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Page gap"
-msgstr ""
+msgstr "Espaço entre páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4018-17"
@@ -10891,7 +11037,7 @@ msgstr "Alterar tamanho da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Word gap"
-msgstr ""
+msgstr "Espaço entre as palavras"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Reflow"
@@ -10908,11 +11054,11 @@ msgstr "Remover marca d'água"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Render quality"
-msgstr ""
+msgstr "Qualidade de renderização"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4027-17
 msgid "Document language"
-msgstr ""
+msgstr "Idioma do documento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4028-17
 msgid "Forced OCR"
@@ -10920,19 +11066,19 @@ msgstr "Forçar OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4029-17
 msgid "Writing direction"
-msgstr ""
+msgstr "Direção de escrita"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4030-17
 msgid "Document columns"
-msgstr ""
+msgstr "Colunas do documento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4031-17
 msgid "Auto straighten"
-msgstr ""
+msgstr "Alinhamento automático"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4039-1
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Atalhos do teclado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4041-1
 msgid ""
@@ -10944,30 +11090,41 @@ msgid ""
 "an extra menu named <span class=\"ui\">Keyboard Shortcuts</span> which you "
 "can access here:"
 msgstr ""
+"Se você possui um dispositivo com teclado, como <b>Kindle 2</b> e <b>Kindle "
+"3</b>, incluindo teclados Bluetooth e emuladores, é possível usar as teclas "
+"do teclado, os botões do dispositivo e os atalhos para controlar o KOReader. "
+"O <b>Kindle 4</b> também é compatível, embora não tenha teclado completo, "
+"ele ainda possui botões suficientes para funcionar neste contexto. Nesses "
+"dispositivos, o KOReader habilitará um menu extra chamado <span class=\"ui\""
+">Atalhos de teclado</span>, que você pode acessar aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4043-1
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Navigation / Physical buttons / Keyboard shortcuts"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:26px;\"> / Navegação / Botões físicos / Atalhos de teclado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4045-1
 msgid ""
 "This menu is very similar to the <span class=\"ui\">Gesture Manager</span> "
 "interface. In this menu:"
 msgstr ""
+"Este menu é muito semelhante à interface do <span class=\"ui\">Gerenciador "
+"de Gestos</span>. Neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4047-9
 msgid "You can see the shortcuts that are available on your device"
-msgstr ""
+msgstr "Você pode ver os atalhos disponíveis no seu dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4048-9
 msgid "You can see the predefined actions for some shortcuts"
-msgstr ""
+msgstr "Você pode ver as ações predefinidas para alguns atalhos"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4049-9
 msgid "You can assign actions to the available shortcuts"
-msgstr ""
+msgstr "Você pode atribuir ações aos atalhos disponíveis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4053-5
 msgid ""
@@ -10975,11 +11132,15 @@ msgid ""
 "available for keyboard shortcut assignment. Which means you can control "
 "nearly all the functions of KOReader with these shortcuts."
 msgstr ""
+"Todas as ações do <span class=\"ui\">Gerenciador de Gestos</span> também "
+"estão disponíveis para atribuição a atalhos de teclado. Isso significa que "
+"você pode controlar quase todas as funções do KOReader com esses atalhos."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4055-5
 msgid ""
 "In the table below, you can see the default key and shortcut assignments:"
 msgstr ""
+"Na tabela abaixo, você pode ver as teclas e atalhos atribuídos por padrão:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4060-21
 msgid ""
@@ -10988,6 +11149,10 @@ msgid ""
 "available on all screens, modes and platforms. On Kindle 4, it is "
 "<b>Keyboard + Menu</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> A tecla universal de <span class="
+"\"ui\">captura de tela</span> é <b>Alt + Shift + G</b>. Ela está disponível "
+"em todas as telas, modos e plataformas. No Kindle 4, é <b>Tecla do teclado + "
+"Menu</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4062-21
 msgid ""
@@ -10996,6 +11161,10 @@ msgid ""
 "+ (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/"
 "DOWN/LEFT/RIGHT)</b> on your Kindle 4."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Se você possui um Kindle 4, a tecla "
+"<b>SHIFT</b> na tabela abaixo está mapeada para o botão <b>TECLADO</b>. "
+"Assim, os atalhos <b>Shift + (CIMA/BAIXO/ESQUERDA/DIREITA)</b> são mapeados "
+"para <b>Botão do teclado + (CIMA/BAIXO/ESQUERDA/DIREITA)</b> no seu Kindle 4."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4069-17
 msgid "File browser mode"
@@ -11004,16 +11173,16 @@ msgstr "Modo Navegador de arquivos"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4073-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "Abrir menu superior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4074-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4074-13"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4077-13
 msgid "Navigate to home"
-msgstr ""
+msgstr "Ir para a tela inicial"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4078-13
 msgid "Home"
@@ -11021,15 +11190,15 @@ msgstr "Início"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4081-13
 msgid "Move in file list"
-msgstr ""
+msgstr "Mover na lista de arquivos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4082-13
 msgid "Up / Down"
-msgstr ""
+msgstr "Cima / Baixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgid "Open selected book"
-msgstr ""
+msgstr "Abrir livro selecionado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4086-13
 msgctxt ""
@@ -11037,11 +11206,11 @@ msgctxt ""
 "html+html.body.div.div.table.tr.td:4086-13user_guide/en.html+html.body.div."
 "div.table.tr.td:4086-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4089-13
 msgid "Exit application"
-msgstr ""
+msgstr "Sair do aplicativo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4090-13
 msgctxt ""
@@ -11052,17 +11221,17 @@ msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4094-17
 msgid "Reading mode"
-msgstr ""
+msgstr "Modo de leitura"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4097-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4097-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "Abrir menu superior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4098-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4098-13"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
 msgid "Open bottom menu"
@@ -11071,11 +11240,11 @@ msgstr "Abrir menu inferior"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4102-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4102-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4105-13
 msgid "Back/exit application"
-msgstr ""
+msgstr "Voltar/saie do aplicativo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4106-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4106-13"
@@ -11089,7 +11258,7 @@ msgstr "Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4110-13
 msgid "Shift + Left"
-msgstr ""
+msgstr "Shift + Left"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4113-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4113-13"
@@ -11098,7 +11267,7 @@ msgstr "Alternar marcador"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4114-13
 msgid "Shift + Right"
-msgstr ""
+msgstr "Shift + Right"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4117-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4117-13"
@@ -11107,7 +11276,7 @@ msgstr "Pesquisar no dicionário"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4118-13
 msgid "Ctrl + D (Alt + D on Kindles)"
-msgstr ""
+msgstr "Ctrl + D (Alt + D nos Kindles)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4121-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4121-13"
@@ -11116,7 +11285,7 @@ msgstr "Pesquisar na Wikipédia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4122-13
 msgid "Ctrl + W"
-msgstr ""
+msgstr "Ctrl + W"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4125-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4125-13"
@@ -11125,15 +11294,15 @@ msgstr "Pesquisar no texto completo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4126-13
 msgid "Ctrl + S"
-msgstr ""
+msgstr "Ctrl + S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4129-13
 msgid "File search lookup"
-msgstr ""
+msgstr "Busca de arquivo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4130-13
 msgid "Ctrl + F"
-msgstr ""
+msgstr "Ctrl + F"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4134-17
 msgid "Links"
@@ -11141,77 +11310,77 @@ msgstr "Links"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4137-13
 msgid "Select next page link"
-msgstr ""
+msgstr "Selecionar o link da próxima página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4138-13
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4141-13
 msgid "Select previous page link"
-msgstr ""
+msgstr "Selecionar o link da página anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4142-13
 msgid "Shift+Tab"
-msgstr ""
+msgstr "Shift+Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4145-13
 msgid "Open selected page link"
-msgstr ""
+msgstr "Abrir o link da página selecionada"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4146-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4146-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4150-17
 msgid "Image viewer (long-press on image)"
-msgstr ""
+msgstr "Visualizador de imagens (pressione e segure na imagem)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4153-13
 msgid "Zoom in"
-msgstr ""
+msgstr "Aumentar zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4154-13
 msgid "Page Down"
-msgstr ""
+msgstr "Descer página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4157-13
 msgid "Zoom out"
-msgstr ""
+msgstr "Reduzir zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4158-13
 msgid "Page Up"
-msgstr ""
+msgstr "Subir página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4162-17
 msgid "Highlighting"
-msgstr ""
+msgstr "Destacando"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4165-13
 msgid "Enter highlighting mode"
-msgstr ""
+msgstr "Entrar no modo de destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4166-13
 msgid "H"
-msgstr ""
+msgstr "H"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4169-13
 msgid "Start/stop highlighting"
-msgstr ""
+msgstr "Iniciar/parar destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4170-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4170-13"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4173-13
 msgid "Move highlight indicator"
-msgstr ""
+msgstr "Mover indicador de destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4174-13
 msgid "Left/Right<br>Up/Down"
-msgstr ""
+msgstr "Left/Right<br>Up/Down"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4177-13
 msgid "Move indicator faster"
@@ -12878,6 +13047,10 @@ msgid ""
 "style=\"font-family: microns;\"></span> multiswipe gesture. You can also "
 "define any other gesture for this of course."
 msgstr ""
+"Você também pode usar o <span class=\"ui\">Histórico</span> para alternar "
+"rapidamente entre documentos. A tela de histórico pode ser aberta com o "
+"gesto de multideslize <span style=\"font-family: microns;\"></span>. "
+"Claro, você também pode definir qualquer outro gesto para isso."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4756-1
 msgid "Changing your book cover"
@@ -13037,6 +13210,9 @@ msgid ""
 "Choose any gesture (including the complex ones with custom multiswipes) and "
 "make it your <b>\"unlock\"</b> gesture by going to:"
 msgstr ""
+"Escolha qualquer gesto "
+"(inclusive os complexos com multideslizes personalizados) e defina-o como "
+"seu gesto de <b>\"desbloqueio\"</b> acessando:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4811-13
 msgid ""
