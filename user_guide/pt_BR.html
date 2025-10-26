@@ -1083,7 +1083,7 @@ line-height: 2rem;
 	
 <div class="L2-Sub-heading">Ajuste a aparência do texto como quiser</div>
 	<ul>
-        <li>Mude fontes (incluindo suas próprias), tamanho de fonte, contraste, negrito, espaçamento entre caracteres, espaçamento entre palavras, expansão de palavras, alinhamento do texto, espaçamento de linhas, layout das colunas. margens...<a href="#L1-customizingappearance" class="internalink"></a></li>
+        <li>Alterar fontes (incluindo as suas), tamanho da fonte, contraste, negrito, kerning, espaçamento entre palavras, expansão de palavras, alinhamento do texto, espaçamento entre linhas, layout de colunas, margens... <a href="#L1-customizingappearance" class="internalink"></a></li>
 
         <li>Use poderosos <span class="ui">style tweaks</span>inclusos ou escreva seus próprios para mudar como seus livros são renderizados precisamente <a href="#L2-styletweaks" class="internalink"></a></li>
 
@@ -1747,9 +1747,9 @@ line-height: 2rem;
     </div>
 
 
-    <p>A <span class="ui">Sugestão de fonte</span> ajusta seu texto para máxima legibilidade de acordo com a grade de pixels da sua tela. <span class="ui">nativa</span> usa as instruções de sugestão internas da fonte, <span class="ui">automático</span> usa o algoritmo de sugestão do FreeType. <span class="ui">automática</span> é uma opção mais segura, pois os arquivos de fonte que você instalou podem ter instruções de sugestão problemáticas. Além disso, <span class="ui">automático</span> lida melhor com texto <b>CJK</b>. Você pode tentar configurações diferentes para ver qual fica melhor no seu dispositivo.</p>
+    <p><span class="ui">Hinting da fonte</span> ajusta seu texto para máxima legibilidade de acordo com a grade de pixels da sua tela. <span class="ui">nativo</span> usa as instruções de hinting internas da fonte, enquanto <span class="ui">auto</span> utiliza o algoritmo de hinting do FreeType. <span class="ui">Auto</span> é uma escolha mais segura, pois fontes que você instalou podem ter instruções de hinting problemáticas. Além disso, <span class="ui">auto</span> lida melhor com textos em <b>CJK</b>. Você pode testar diferentes configurações para ver qual fica melhor no seu dispositivo.</p>
     
-    <p>O <span class="ui">Espaçamento de caracteres</span> ajusta o espaçamento entre as letras para obter um resultado visualmente agradável. O padrão é a opção <span class="ui">melhor</span>, que pode ser <b>mais lenta</b> ao abrir arquivos (dependendo do seu dispositivo), mas <b>tem melhor suporte para ligaduras</b> (veja a imagem abaixo para um exemplo), glifos <b>árabes</b> unidos e alguns outros scripts. Se o seu dispositivo for lento, você pode tentar <span class="ui">bom</span>, que é mais rápido e ainda pode parecer correto com textos em alfabeto latino ocidental.</p>
+    <p><span class="ui">Kerning da fonte</span> ajusta o espaçamento entre letras para um resultado visualmente agradável. A opção padrão é <span class="ui">ótimo</span>, que pode ser <b>mais lenta</b> ao abrir arquivos (dependendo do seu dispositivo), mas <b>oferece melhor suporte a ligaduras</b> (veja a imagem abaixo como exemplo), glifos <b>árabes</b> conectados e alguns outros scripts. Se seu dispositivo for lento, você pode tentar <span class="ui">bom</span>, que é mais rápida e ainda pode parecer correta em textos ocidentais em alfabeto latino.</p>
 
     
     <img loading="lazy" src="pictures/kerning_ligatures.png" style="width:40%;">
@@ -3491,29 +3491,29 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Using Collections with Profiles</div>
+<div class="L3-Smaller-heading">Usando Coleções com Perfis</div>
 
-    <p>Your collections can be used with the <span class="ui">profiles</span> feature of KOReader. If you don't know about <span class="ui">profiles</span> yet, here is a description from our <a href="#L2-profiles">Profiles</a> section:</p>
+    <p>Suas coleções podem ser usadas com o recurso de <span class="ui">perfis</span> do KOReader. Se você ainda não conhece os <span class="ui">perfis</span>, aqui está uma descrição da nossa seção <a href="#L2-profiles">Perfis</a>:</p>
 
     <p>
-        A <span class="ui">profile</span> is basically a set of actions that can be triggered with a single gesture (like a macro).</p>
+        Um <span class="ui">perfil</span> é basicamente um conjunto de ações que podem ser ativadas com um único gesto (como uma macro).</p>
 
-        <p>As an example, imagine that when reading some type of books, you always:</p>
+        <p>Como exemplo, imagine que, ao ler certos tipos de livros, você sempre:</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
+            <li>Gira a tela para a orientação paisagem</li>
             <li>Aumentar o tamanho da fonte e o contraste e</li>
-            <li>Turn the screen light on</li>
+            <li>Liga a luz da tela</li>
         </ul>
         
         <p>Com o plugin de perfis, você pode fazer tudo isso de uma só vez com uma única ação.</p>
 
-        <p>You can run a profile manually but real power of profiles can be unleashed with its <span class="ui">auto-execute</span> feature. Using this feature, you can trigger a profile depending on some conditions. Here is the link to the relevant section of the guide: <a href="#L2-profileautoexec">Profile auto-execution</a>. For now we will just explain one trigger condition here: <span class="ui">Collections</span>.</p>
+        <p>Você pode executar um perfil manualmente, mas o verdadeiro potencial dos perfis é liberado com o recurso de <span class="ui">execução automática</span>. Com esse recurso, é possível ativar um perfil dependendo de certas condições. Aqui está o link para a seção correspondente do guia: <a href="#L2-profileautoexec">Execução automática de perfis</a>. Por enquanto, vamos explicar apenas uma condição de ativação aqui: <span class="ui">Coleções</span>.</p>
 
-        <p>Basically you can create some profiles and set them to auto-execute if an opened book is in some specific collection. Some useful examples:</p>
+        <p>Basicamente, você pode criar alguns perfis e configurá-los para execução automática se o livro aberto estiver em uma coleção específica. Alguns exemplos úteis:</p>
 
         <ul>
-            <li>You can add all your manga to a <b>Manga</b> collection and make a profile to switch the page turn direction to <b>Right-To-Left</b> and to invert page turn taps and swipes when you open a manga book from this collection.</li>
-            <li>You can add your comic books to a collection, which can trigger a profile to decrease the screen refresh interval to <span class="ui">every page</span> to avoid ghosting.</li>
+            <li>Você pode adicionar todos os seus mangás a uma coleção <b>Mangá</b> e criar um perfil para alterar a direção da virada de página para <b>Direita-para-Esquerda</b> e inverter os toques e gestos de virada de página ao abrir um livro de mangá dessa coleção.</li>
+            <li>Você pode adicionar seus quadrinhos a uma coleção, que pode acionar um perfil para reduzir o intervalo de atualização da tela a <span class="ui">cada página</span>, evitando efeitos de ghosting.</li>
             <li>Você pode adicionar seus PDFs problemáticos a uma coleção, para que, ao abri-los, o <span class="ui">Auto OCR</span> ou o <span class="ui">Modo Refluxo</span> seja ativado com um perfil.</li>
         </ul>
 
@@ -3523,54 +3523,54 @@ line-height: 2rem;
 
     <p>O KOReader pode refluir documentos PDF (essa opção pode ser encontrada no menu inferior ao ler um documento com layout fixo, como PDF) para torná-los adequados às pequenas telas de e-readers. Mas, para melhores resultados, você pode querer converter seus documentos para o formato EPUB, que é mais flexível.</p>
 
-    <p>Most widely used applications for converting or optimizing your document for your mobile reading device are <span class="external">Calibre</span> (<b>EPUB, Kindle</b> focused) and <span class="external">K2pdfopt</span> (<b>PDF</b> focused).</p>
+    <p>As aplicações mais usadas para converter ou otimizar seus documentos para dispositivos de leitura móvel são <span class="external">Calibre</span> (focado em <b>EPUB, Kindle</b>) e <span class="external">K2pdfopt</span> (focado em <b>PDF</b>).</p>
 
-    <p><a href="https://calibre-ebook.com/">Calibre</a> can convert your documents between many formats. It also has a built-in editor that allows you to edit e-books (and fix problems) in the most popular e-book formats, EPUB and Kindle. </p>
+    <p>O <a href="https://calibre-ebook.com/">Calibre</a> pode converter seus documentos entre vários formatos. Ele também possui um editor integrado que permite editar e-books (e corrigir problemas) nos formatos de e-book mais populares, EPUB e Kindle. </p>
 
-    <p><a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> optimizes PDF/DJVU files for mobile e-readers and smartphones. It works well on multi-column PDF/DJVU files and can re-flow text even on scanned PDF files. It can also be used as a general PDF copying/cropping/re-sizing/OCR-ing manipulation tool.</p>
+    <p>O <a href="https://www.willus.com/k2pdfopt/">K2pdfopt</a> otimiza arquivos PDF/DJVU para leitores de e-books e smartphones. Funciona bem em arquivos PDF/DJVU com múltiplas colunas e pode reorganizar o texto mesmo em PDFs digitalizados. Também pode ser usado como uma ferramenta geral para copiar, recortar, redimensionar ou aplicar OCR em PDFs.</p>
 
-    <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> is a command line application which can add an OCR text layer to scanned PDF files (containing only images without text), allowing them to be searched or copy-pasted. It can especially be useful for reading old scanned books. It can also optimize the images for a smaller file size.</p>
+    <p>O <a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> é um aplicativo de linha de comando que pode adicionar uma camada de texto OCR a arquivos PDF digitalizados (contendo apenas imagens sem texto), permitindo que sejam pesquisados ou copiados. É especialmente útil para leitura de livros antigos digitalizados. Também pode otimizar as imagens para reduzir o tamanho do arquivo.</p>
 
     <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> é uma extensão de navegador para <b>Mozilla Firefox, Google Chrome</b> e <b>Microsoft Edge</b>. Esta extensão permite salvar uma página da web como um <b>único arquivo .html</b> com todos os recursos (imagens, folhas de estilo, scripts) incorporados.</p>
 
 
 
-<div class="L2-Sub-heading" id="L2-metadatastorage">Book metadata storage options</div>
+<div class="L2-Sub-heading" id="L2-metadatastorage">Opções de armazenamento de metadados dos livros</div>
 
 	<p><span class="label_red">!!! AVANÇADO</span></p>
 
-	<p>KOReader stores settings and extra information related to your books in the same directory as your book file. We call this <b>metadata</b> and it includes:</p>
+	<p>O KOReader armazena configurações e informações extras relacionadas aos seus livros no mesmo diretório do arquivo do livro. Chamamos isso de <b>metadados</b>, que incluem:</p>
 	<ul>
-		<li>Visual settings for the book</li>
-		<li>Book reading progress</li>
-		<li>Highlights, bookmarks and notes</li>
+		<li>Configurações visuais do livro</li>
+		<li>Progresso de leitura do livro</li>
+		<li>Destaques, marcadores e notas</li>
 	</ul>
 	
-	<p>In a recent change, we added new ways of storing this metadata to solve certain problems related to synchronization between devices. Currently there are three different methods to store the metadata and each method has its own benefits/negatives.</p>
+	<p>Em uma mudança recente, adicionamos novas formas de armazenar esses metadados para resolver certos problemas relacionados à sincronização entre dispositivos. Atualmente, existem três métodos diferentes para armazenar os metadados, e cada método possui suas vantagens e desvantagens.</p>
 
-	<p>You can change this setting from this menu:</p>
+	<p>Você pode alterar essa configuração a partir deste menu:</p>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location</div>
+	<div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Documento / Localização dos metadados do livro</div>
 
 	
-	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> We strongly advise reading the section below to understand the differences and how each method works before making any changes. Otherwise there is a risk of losing your book settings, progress and annotations.</p></div>
+	<div class="warning"><p style="text-indent: 0rem;"><span class="label_red">AVISO</span> Recomendamos fortemente ler a seção abaixo para entender as diferenças e como cada método funciona antes de fazer qualquer alteração. Caso contrário, há risco de perder as configurações do livro, o progresso e as anotações.</p></div>
 
 
 
-<div class="L3-Smaller-heading">1. Individual metadata folders next to the book files - DEFAULT SETTING</div>
+<div class="L3-Smaller-heading">1. Pastas de metadados individuais ao lado dos arquivos do livro – CONFIGURAÇÃO PADRÃO</div>
 
-		<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: book folder</div>
+		<div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Documento / Localização dos metadados do livro: pasta do livro</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>Este é o método <b>padrão</b> usado em uma instalação nova do KOReader. Neste método, ao copiar <b>Alice no País das Maravilhas.epub</b> para o seu dispositivo e abri-lo pela primeira vez, uma pasta chamada <span class="ui">Alice no País das Maravilhas.sdr</span> será criada no mesmo diretório. Essa pasta contém os arquivos das suas configurações, anotações e progresso de leitura deste livro.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Vantagens</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>Você pode fazer backup e restaurar manualmente as configurações de cada livro.</li>
+			<li>Ao realizar a sincronização de diretórios ou backups com um sistema como <b>Syncthing</b> ou <b>Dropbox</b>, suas configurações serão sincronizadas junto com seus livros.</li>
+			<li>Você pode renomear os diretórios onde o seu livro está localizado sem causar problemas ao KOReader.</li>
 		</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Desvantagens</span></b></p>
 		<ul>
 			<li>Se você reorganizar sua biblioteca movendo/renomeando os arquivos dos livros ou a pasta .sdr correspondente fora do Navegador de arquivos do KOReader, você perderá os metadados desses livros sem nenhum aviso.</li>
 			<li>Essas pastas <b>.sdr</b> ficarão visíveis quando você navegar pelos diretórios da sua biblioteca com outro navegador de arquivos ou no computador, o que pode deixar a visualização confusa.</li>
@@ -3578,47 +3578,47 @@ line-height: 2rem;
 	
 
 
-<div class="L3-Smaller-heading">2. Metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">2. Diretórios de metadados dentro de um único diretório do KOReader</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/docsettings</div>
+	<div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Documento / Localização dos metadados do livro: .../koreader/docsettings</div>
 
-<p>This method is essentially same as the default one above. The difference is, in this method, all <b>.sdr</b> folders of your books will be under a single directory <b>which is under the KOReader main directory structure</b>, instead of your library directory, next to the book files.</p>
+<p>Este método é essencialmente o mesmo que o padrão acima. A diferença é que, neste método, todas as pastas <b>.sdr</b> dos seus livros ficarão em um único diretório <b>dentro da estrutura principal do KOReader</b>, em vez de ficarem na sua biblioteca, ao lado dos arquivos dos livros.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Vantagens</span></b></p>
 	<ul>
 		<li>As pastas <b>.sdr</b> dos livros serão visíveis e usadas apenas pelo KOReader. Elas não atrapalharão a visualização dos diretórios da sua biblioteca quando você navegar por eles com outro navegador de arquivos ou no computador.</li>
 	</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Desvantagens</span></b></p>
 	<ul>
 		<li>Se você reorganizar sua biblioteca movendo/renomeando os diretórios da biblioteca, os arquivos dos livros ou a pasta .sdr correspondente fora do Navegador de arquivos do KOReader, você perderá os metadados desses livros sem nenhum aviso.</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>Como os metadados dos seus livros não estarão nas pastas da sua biblioteca, qualquer sincronização ou backup da biblioteca não os incluirá.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">3. Diretórios de metadados HASHED individuais em um único diretório do KOReader</div>
 
-	<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Document / Book metadata location: .../koreader/hashdocsettings</div>
+	<div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Documento / Localização dos metadados do livro: .../koreader/hashdocsettings</div>
 
 	<p>Este método é semelhante ao anterior, pois as pastas <b>.sdr</b> ficarão em um diretório interno. Mas ele foi desenvolvido para contornar as limitações do método anterior. Normalmente, se você renomear um livro fora do KOReader (usando o gerenciador/leitor nativo do dispositivo ou um computador conectado), o nome da pasta <b>.sdr</b> não corresponderá mais e os metadados desse livro serão perdidos. <b>Se você usar apenas o Navegador de arquivos do KOReader para operações com arquivos, isso é tratado automaticamente, sem consequências.</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>Neste método com <b>HASH</b>, as pastas <b>.sdr</b> não são identificadas pelo caminho ou nome do arquivo do livro. Em vez disso, é usado um <b>hash MD5 parcial</b> para vincular os livros às suas configurações. Esse hash funciona como um ID exclusivo do livro e é calculado com base no <b>conteúdo do arquivo do livro</b>. O mesmo hash também é usado para nomear a pasta .sdr correspondente.</p>
 		
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Vantagens</span></b></p>
 		<ul>
 			<li>As pastas <b>.sdr</b> dos livros serão visíveis e usadas apenas pelo KOReader. Elas não atrapalharão a visualização dos diretórios da sua biblioteca quando você navegar por eles com outro navegador de arquivos ou no computador.</li>
 
 			<li>Você pode renomear, mover e copiar seus livros com outro navegador de arquivos ou no computador. O KOReader ainda reconhecerá os livros após essas operações.</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>Neste método, o KOReader associa a mesma pasta <b>.sdr</b> a todas as cópias do livro, mesmo que essas cópias estejam em dispositivos diferentes. Por exemplo, se você estiver usando <b>Syncthing</b>, este método permite sincronizar a sua pasta <span class="ui">/hashdocsettings</span> junto com os arquivos dos livros, entre vários dispositivos que tenham o KOReader instalado. Apesar dos caminhos relativos diferentes desses livros em cada dispositivo, você ainda consegue sincronizar suas anotações e o progresso de leitura entre os dispositivos. Isso não é possível com os outros métodos.</li>
 		</ul>
 
-		<p><b><span class="label_red">Negatives</span></b></p>
+		<p><b><span class="label_red">Desvantagens</span></b></p>
 		<ul>
-			<li>Any operations that modify the file directly (such as writing highlights into PDFs or downloading from <b>Calibre</b>) will change the file so its <b>MD5 ID will change</b> (unlike renaming or moving which is safe with this method). In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+			<li>Qualquer operação que modifique o arquivo diretamente (como adicionar destaques em PDFs ou baixar do <b>Calibre</b>) irá alterar o arquivo, fazendo com que seu <b>ID MD5 mude</b> (diferente de renomear ou mover, que é seguro com este método). Nesse caso, o KOReader não conseguirá reconhecer o livro, e esses livros perderão seus metadados.</li>
 
 			<li>O cálculo dos IDs dos arquivos pode deixar a navegação do <span class="ui">Navegador de arquivos</span> mais lenta ao explorar diretórios maiores.</li>
 		</ul>
@@ -3632,11 +3632,11 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-gestures">GESTOS E ATALHOS DE TECLADO</div>
 
     <p>
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.</p>
+    Existem vários tipos de gestos que você pode usar para controlar o KOReader. Alguns gestos possuem limitações quanto à área da tela em que podem ser usados e às direções suportadas. Essas limitações estão indicadas abaixo.</p>
 
     <div class="L2-Sub-heading" id="L2-gesturetypes">Tipos de Gestos</div>
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch so multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">INFO</span> Alguns dispositivos suportam apenas toque único, portanto gestos com múltiplos dedos <b>não estão disponíveis</b> neles.</div>
 
 
 
@@ -3645,57 +3645,57 @@ line-height: 2rem;
             <td style="width: 25%;">
                 <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
             </td>
-            <td><p class="ui">TAP / DOUBLE TAP</p>
-                <p>Single or double tap with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">TOQUE / DUPLO TOQUE</p>
+                <p>Toque simples ou duplo com <b>UM</b> dedo</p>
+                <p><b>FUNCIONA:</b> Em qualquer área da tela</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TAP AND HOLD</p>
-                <p>Single tap and hold with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">TOQUE E SEGURE</p>
+                <p>Toque e segure com <b>UM</b> dedo</p>
+                <p><b>FUNCIONA:</b> Apenas nos quatro cantos</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TWO FINGER TAP</p>
-        <p>Single tap with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">TOQUE COM DOIS DEDOS</p>
+        <p>Toque simultâneo com <b>DOIS</b> dedos</p>
+        <p><b>FUNCIONA:</b> Apenas nos quatro cantos</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
-            <td><p class="ui">SPREAD AND PINCH</p>
-        <p>Same as zooming in and out on a phone or tablet.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div></td>
+            <td><p class="ui">ESTENDER E PINÇAR</p>
+        <p>Igual ao gesto de dar zoom em um celular ou tablet.</p>
+        <p><b>FUNCIONA:</b> Em qualquer área da tela</p>
+        <div class="info"><span class="label_blue">INFO</span> Este gesto pode funcionar de forma menos confiável dependendo do seu dispositivo. Se for o caso, escolha outro tipo de gesto.</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
-            <td><p class="ui">ONE FINGER SWIPE</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p></td>
+            <td><p class="ui">DESLIZE COM UM DEDO</p>
+        <p>Movimento de deslizar com <b>UM</b> dedo</p>
+        <p><b>FUNCIONA:</b> Bordas da tela (HORIZONTAL e VERTICAL) Em qualquer lugar, exceto nas bordas (DIAGONAL) </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
-            <td><p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">DESLIZE COM DOIS DEDOS</p>
+        <p>Movimento de deslizar com <b>DOIS</b> dedos simultaneamente</p>
+        <p><b>FUNCIONA:</b> Em qualquer área da tela</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
-            <td><p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">MULTIDESLIZE</p>
+        <p>Mais de um deslize realizado consecutivamente sem levantar o dedo. Por exemplo, como desenhar a letra <b>U</b> (BAIXO-DIREITA-CIMA)</p>
+        <p><b>FUNCIONA:</b> Em qualquer área da tela</p></td>
         </tr>
         <tr>
             <td></td>
-            <td><p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
+            <td><p>Ícones por <b>Econceptive</b> do <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
         </tr>
     </table>
 
@@ -3703,52 +3703,52 @@ line-height: 2rem;
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">Gestos Pré-definidos</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    Esta tabela mostra os gestos que acompanham o KOReader. Você pode alterar esses gestos de acordo com suas preferências através de:</p>
 
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Gesture Manager</div>
+    <div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Gerenciador de Gestos</div>
 
 
     <div class="centering-div">
 
     <br>
 
-    <div class="L3-Smaller-heading">CORNER TAP</div>
+    <div class="L3-Smaller-heading">TOQUE NOS CANTOS</div>
     
-    <p><b>Top Left Corner</b> > Toggle page flipping</p>
-    <p><b>Top Right Corner</b> > Toggle bookmark</p>
-    <p><b>Opposing diagonal corners at the same time</b> > Take screenshot</p>
+    <p><b>Canto Superior Esquerdo</b> > Alternar virada de página</p>
+    <p><b>Canto Superior Direito</b> > Alternar marcador</p>
+    <p><b>Cantos diagonais opostos ao mesmo tempo</b> > Fazer captura de tela</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">DOUBLE TAP</div>
-    <p><b>Left Side</b> > Go -10 pages</p>
-    <p><b>Right Side</b> > Go +10 pages</p>
+    <div class="L3-Smaller-heading">TOQUE DUPLO</div>
+    <p><b>Lado Esquerdo</b> > Retroceder 10 páginas</p>
+    <p><b>Lado Direito</b> > Avançar 10 páginas</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">ONE FINGER SWIPE</div>
-    <p><b>Short diagonal swipe</b> > Full screen refresh</p>
-    <p><b>Long diagonal swipe</b> > Take screenshot</p>
+    <div class="L3-Smaller-heading">DESLIZE COM UM DEDO</div>
+    <p><b>Deslize diagonal curto</b> > Atualização total da tela</p>
+    <p><b>Deslize diagonal longo</b> > Fazer captura de tela</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">MULTISWIPES</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
-    <p><span style="font-family: microns;"></span> - Skim document</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
-    <p><span style="font-family: microns;"></span> - Table of contents</p>
+    <div class="L3-Smaller-heading">MULTIDESLIZES</div>
+    <p><span style="font-family: microns;"></span> - Voltar para a localização anterior</p>
+    <p><span style="font-family: microns;"></span> - Ir para o marcador mais recente</p>
+    <p><span style="font-family: microns;"></span> - Folhear o documento</p>
+    <p><span style="font-family: microns;"></span> - Marcadores</p>
+    <p><span style="font-family: microns;"></span> - Índice</p>
     <p><span style="font-family: microns;"></span> - Mostrar caixa de diálogo de luz frontal</p>
     <p><span style="font-family: microns;"></span> - Alternar refluxo</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
-    <p><span style="font-family: microns;"></span> - Next chapter</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
-    <p><span style="font-family: microns;"></span> - Favorites</p>
+    <p><span style="font-family: microns;"></span> - Histórico</p>
+    <p><span style="font-family: microns;"></span> - Status do livro</p>
+    <p><span style="font-family: microns;"></span> - Ir para a página</p>
+    <p><span style="font-family: microns;"></span> - Voltar</p>
+    <p><span style="font-family: microns;"></span> - Capítulo anterior</p>
+    <p><span style="font-family: microns;"></span> - Próximo capítulo</p>
+    <p><span style="font-family: microns;"></span> - Abrir documento anterior</p>
+    <p><span style="font-family: microns;"></span> - Favoritos</p>
 
     </div>
 
@@ -3757,9 +3757,9 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">Categorias de Gestos</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        Esta é uma lista de todas as ações que você pode atribuir a um gesto usando o menu <span class="ui">Gerenciador de Gestos</span>. Você pode usar a função de busca do seu navegador (geralmente <b>Ctrl+F</b>) para localizar uma ação aqui. Essas ações também podem ser usadas no seu próprio <span class="ui">Menu Rápido</span>. Consulte a seção correspondente do guia para mais informações.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> When chooosing an action for a gesture, you will see a special item in the list named <span class="ui">pass through</span>. This action is used to keep the default behavior of that gesture, like text selection when long pressing near the corners. If you want to disable a gesture to avoid accidental actions, choose <span class="ui">nothing</span> as the action. In other words <span class="ui">pass through</span>=<b>another handler might act on it</b>, <span class="ui">nothing</span>=<b>swallow the action</b>.</div>
+    <div class="info"><span class="label_blue">INFO</span> Ao escolher uma ação para um gesto, você verá um item especial na lista chamado <span class="ui">ignorar</span>. Essa ação é usada para manter o comportamento padrão do gesto, como a seleção de texto ao pressionar longamente próximo aos cantos. Se quiser desativar um gesto para evitar ações acidentais, escolha <span class="ui">nada</span> como ação. Em outras palavras, <span class="ui">ignorar</span>=<b>outro manipulador pode agir sobre ele</b>, <span class="ui">nada</span>=<b>ignorar a ação</b>.</div>
 
 
     <div class="centering-div">
@@ -3805,9 +3805,9 @@ line-height: 2rem;
                 
                 <li>Progresso de leitura</li>
                 <li>Alternar o servidor SSH</li>
-                <li>Statistics calendar view</li>
-                <li>Statistics today’s timeline</li>
-                <li>Synchronize book statistics</li>
+                <li>Visualização do calendário de estatísticas</li>
+                <li>Linha do tempo das estatísticas de hoje</li>
+                <li>Sincronizar estatísticas dos livros</li>
             </ol>
 
 
@@ -3821,12 +3821,12 @@ line-height: 2rem;
                 <li>Habilitar toque na tela</li>
                 <li>Desativar toque na tela</li>
                 <li>Alternar toque na tela</li>
-                <li>Invert page turn buttons</li>
+                <li>Inverter botões de virar página</li>
                 <li>Rotação</li>
                 <li>Alternar orientação</li>
                 <li>Inverter rotação</li>
-                <li>Rotate by 90 CW</li>
-                <li>Rotate by 90 CCW</li>
+                <li>Girar 90° no sentido horário</li>
+                <li>Girar 90° no sentido anti-horário</li>
                 <li>Alternar tela cheia</li>
                 <li>Mostrar informações de rede</li>
                 <li>Estatísticas da bateria</li>
@@ -3835,7 +3835,7 @@ line-height: 2rem;
                 
 
                 <li>Iniciar armazenamento USB</li>
-                <li>Suspend</li>
+                <li>Suspender</li>
                 <li>Reiniciar o dispositivo</li>
                 <li>Desligar</li>
                 <li>Alternar repetição de tecla</li>
@@ -3888,23 +3888,23 @@ line-height: 2rem;
                 <li>Espaçamento entre palavras</li>
                 <li>Expansão de palavras</li>
                 <li>Contraste</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
+                <li>Peso da fonte</li>
+                <li>Hinting da fonte</li>
+                <li>Kerning da fonte</li>
+                <li>Duas colunas</li>
+                <li>Margens E/D</li>
+                <li>Sincronizar margens S/I</li>
+                <li>Margem superior</li>
+                <li>Margem inferior</li>
+                <li>Modo de visualização (páginas contínuas)</li>
+                <li>Modo de renderização</li>
                 <li>Zoom</li>
                 <li>Espaçamento entre linhas</li>
                 <li>Barra de status alternativa</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Estilo incorporado</li>
+                <li>Fontes incorporadas</li>
+                <li>Escala de imagens</li>
+                <li>Inverter imagens</li>
             </ol>
 
         
@@ -3985,7 +3985,7 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Documentos de layout fixo</div>
             <ol>
                 <li>Alternar virada de página</li>
                 <li>Alternar a navegação de marcadores</li>
@@ -3993,7 +3993,7 @@ line-height: 2rem;
                 <li>Modo de zoom</li>
                 <li>Ajustar o nível de zoom</li>
                 <li>Alternar o zoom do painel</li>
-                <li>Page crop</li>
+                <li>Recorte de página</li>
                 <li>Margem</li>
                 <li>Sobreposição horizontal</li>
                 <li>Sobreposição vertical</li>
@@ -4002,22 +4002,22 @@ line-height: 2rem;
                 <li>Número de colunas/linhas para dividir a página</li>
                 <li>Nível de zoom</li>
                 <li>Direção</li>
-                <li>View mode</li>
-                <li>Page gap</li>
+                <li>Modo de visualização</li>
+                <li>Espaço entre páginas</li>
                 <li>Espaçamento entre linhas</li>
                 <li>Alinhamento</li>
                 <li>Tamanho da fonte</li>
                 <li>Alterar tamanho da fonte</li>
-                <li>Word gap</li>
+                <li>Espaço entre as palavras</li>
                 <li>Refluxo</li>
                 <li>Contraste</li>
                 <li>Remover marca d'água</li>
-                <li>Render quality</li>
-                <li>Document language</li>
+                <li>Qualidade de renderização</li>
+                <li>Idioma do documento</li>
                 <li>Forçar OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
-                <li>Auto straighten</li>
+                <li>Direção de escrita</li>
+                <li>Colunas do documento</li>
+                <li>Alinhamento automático</li>
             </ol>
 
     </div>
@@ -4025,30 +4025,30 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Keyboard Shortcuts</div>
+<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Atalhos do teclado</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>Se você possui um dispositivo com teclado, como <b>Kindle 2</b> e <b>Kindle 3</b>, incluindo teclados Bluetooth e emuladores, é possível usar as teclas do teclado, os botões do dispositivo e os atalhos para controlar o KOReader. O <b>Kindle 4</b> também é compatível, embora não tenha teclado completo, ele ainda possui botões suficientes para funcionar neste contexto. Nesses dispositivos, o KOReader habilitará um menu extra chamado <span class="ui">Atalhos de teclado</span>, que você pode acessar aqui:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navigation / Physical buttons / Keyboard shortcuts</div>
+<div class="menu-breadcrumbs">MENU SUPERIOR / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Navegação / Botões físicos / Atalhos de teclado</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>Este menu é muito semelhante à interface do <span class="ui">Gerenciador de Gestos</span>. Neste menu:</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>Você pode ver os atalhos disponíveis no seu dispositivo</li>
+        <li>Você pode ver as ações predefinidas para alguns atalhos</li>
+        <li>Você pode atribuir ações aos atalhos disponíveis</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p>Todas as ações do <span class="ui">Gerenciador de Gestos</span> também estão disponíveis para atribuição a atalhos de teclado. Isso significa que você pode controlar quase todas as funções do KOReader com esses atalhos.</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>Na tabela abaixo, você pode ver as teclas e atalhos atribuídos por padrão:</p>
 
 
     
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Universal <span class="ui">screenshot</span> key is <b>Alt + Shift + G</b>. It is available on all screens, modes and platforms. On Kindle 4, it is <b>Keyboard + Menu</b>.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> A tecla universal de <span class="ui">captura de tela</span> é <b>Alt + Shift + G</b>. Ela está disponível em todas as telas, modos e plataformas. No Kindle 4, é <b>Tecla do teclado + Menu</b>.</p></div>
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> If you have a Kindle 4, <b>SHIFT</b> key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift + (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/DOWN/LEFT/RIGHT)</b> on your Kindle 4.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Se você possui um Kindle 4, a tecla <b>SHIFT</b> na tabela abaixo está mapeada para o botão <b>TECLADO</b>. Assim, os atalhos <b>Shift + (CIMA/BAIXO/ESQUERDA/DIREITA)</b> são mapeados para <b>Botão do teclado + (CIMA/BAIXO/ESQUERDA/DIREITA)</b> no seu Kindle 4.</p></div>
 
 
     <div class="centering-div">
@@ -4059,31 +4059,31 @@ line-height: 2rem;
         </tr>
 
         <tr>
-            <td>Open top menu</td>
+            <td>Abrir menu superior</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
-            <td>Navigate to home</td>
+            <td>Ir para a tela inicial</td>
             <td><b>Início</b></td>
         </tr>
         <tr>
-            <td>Move in file list</td>
-            <td><b>Up / Down</b></td>
+            <td>Mover na lista de arquivos</td>
+            <td><b>Cima / Baixo</b></td>
         </tr>
         <tr>
-            <td>Open selected book</td>
+            <td>Abrir livro selecionado</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>Sair do aplicativo</td>
             <td><b>Esc</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Reading mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Modo de leitura</div></td><td></td>
         </tr>
         <tr>
-            <td>Open top menu</td>
+            <td>Abrir menu superior</td>
             <td><b>F1</b></td>
         </tr>
         <tr>
@@ -4091,7 +4091,7 @@ line-height: 2rem;
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Back/exit application</td>
+            <td>Voltar/saie do aplicativo</td>
             <td><b>Esc</b></td>
         </tr>
         <tr>
@@ -4104,7 +4104,7 @@ line-height: 2rem;
         </tr>
         <tr>
             <td>Pesquisar no dicionário</td>
-            <td><b>Ctrl + D (Alt + D on Kindles)</b></td>
+            <td><b>Ctrl + D (Alt + D nos Kindles)</b></td>
         </tr>
         <tr>
             <td>Pesquisar na Wikipédia</td>
@@ -4115,7 +4115,7 @@ line-height: 2rem;
             <td><b>Ctrl + S</b></td>
         </tr>
         <tr>
-            <td>File search lookup</td>
+            <td>Busca de arquivo</td>
             <td><b>Ctrl + F</b></td>
         </tr>
 
@@ -4123,43 +4123,43 @@ line-height: 2rem;
             <td><div class="L3-Smaller-heading">Links</div></td><td></td>
         </tr>
             <tr>
-            <td>Select next page link</td>
+            <td>Selecionar o link da próxima página</td>
             <td><b>Tab</b></td>
         </tr>
         <tr>
-            <td>Select previous page link</td>
+            <td>Selecionar o link da página anterior</td>
             <td><b>Shift+Tab</b></td>
         </tr>
         <tr>
-            <td>Open selected page link</td>
+            <td>Abrir o link da página selecionada</td>
             <td><b>Enter</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Image viewer (long-press on image)</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Visualizador de imagens (pressione e segure na imagem)</div></td><td></td>
         </tr>
             <tr>
-            <td>Zoom in</td>
-            <td><b>Page Down</b></td>
+            <td>Aumentar zoom</td>
+            <td><b>Descer página</b></td>
         </tr>
         <tr>
-            <td>Zoom out</td>
-            <td><b>Page Up</b></td>
+            <td>Reduzir zoom</td>
+            <td><b>Subir página</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Highlighting</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Destacando</div></td><td></td>
         </tr>
         <tr>
-            <td>Enter highlighting mode</td>
+            <td>Entrar no modo de destaque</td>
             <td><b>H</b></td>
         </tr>
         <tr>
-            <td>Start/stop highlighting</td>
+            <td>Iniciar/parar destaque</td>
             <td><b>Enter</b></td>
         </tr>
         <tr>
-            <td>Move highlight indicator</td>
+            <td>Mover indicador de destaque</td>
             <td><b>Left/Right<br>Up/Down</b></td>
         </tr>
         <tr>
@@ -4406,11 +4406,11 @@ line-height: 2rem;
         <p>
         A profile is basically a collection of actions that can be triggered with a single gesture (like a macro).</p>
 
-        <p>As an example, imagine that when reading some type of books, you always:</p>
+        <p>Como exemplo, imagine que, ao ler certos tipos de livros, você sempre:</p>
         <ul>
-            <li>Rotate the screen to landscape orientation</li>
+            <li>Gira a tela para a orientação paisagem</li>
             <li>Aumentar o tamanho da fonte e o contraste e</li>
-            <li>Turn the screen light on</li>
+            <li>Liga a luz da tela</li>
         </ul>
         
         <p>Com o plugin de perfis, você pode fazer tudo isso de uma só vez com uma única ação.</p>
@@ -4740,7 +4740,7 @@ line-height: 2rem;
 
 <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Gesture manager / “ANY GESTURE” / General / Open Previous Document</div>
 
-<p>Also you can use the <span class="ui">History</span> dialog to switch between documents quickly. The history screen can be opened with the <span style="font-family: microns;"></span> multiswipe gesture. You can also define any other gesture for this of course.</p>
+<p>Você também pode usar o <span class="ui">Histórico</span> para alternar rapidamente entre documentos. A tela de histórico pode ser aberta com o gesto de multideslize <span style="font-family: microns;"></span>. Claro, você também pode definir qualquer outro gesto para isso.</p>
     
 <div class="L3-Smaller-heading">Changing your book cover</div>
 <p>You can change your book cover from this menu:</p>
@@ -4796,7 +4796,7 @@ line-height: 2rem;
         We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:</p>
     
     <ol>
-        <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your <b>"unlock"</b> gesture by going to:
+        <li>Escolha qualquer gesto (inclusive os complexos com multideslizes personalizados) e defina-o como seu gesto de <b>"desbloqueio"</b> acessando:
             <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Gesture manager / "your selected gesture" / Device / Exit screensaver</div>
         </li>
         <li>And then enable this option:
