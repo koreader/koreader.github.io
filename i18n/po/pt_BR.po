@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 19:45+0000\n"
 "PO-Revision-Date: 2025-10-27 20:03+0000\n"
-"Last-Translator: Diego <doi@outlook.com>\n"
+"Last-Translator: gabyzinhavs <gabyzinhavs@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -13006,13 +13006,14 @@ msgstr ""
 "mensagem depois de um tempo definido pelo usuário"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4674-9
+#, fuzzy
 msgid ""
 "<b> Reading statistics </b> - Calculates reading sessions statistics and "
 "reading speed for use in chapter/book remaining time estimations"
 msgstr ""
-"<b> Reading statistics </b> - Calcula estatísticas de sessões de leitura e "
-"velocidade de leitura para uso em estimativas de tempo restante de capítulos/"
-"livros"
+"<b> Estatísticas de leitura </b> - Calcula estatísticas de sessões de "
+"leitura e velocidade de leitura para uso em estimativas de tempo restante de "
+"capítulos/livros"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4675-9
 msgid ""
@@ -13049,7 +13050,7 @@ msgid ""
 "<b> Terminal emulator </b> - Starts a shell (command prompt) on your device "
 "that can run full terminal apps"
 msgstr ""
-"<b> Terminal emulator </b> - Inicia um shell (prompt de comando) no seu "
+"<b> Emulador de terminal </b> - Inicia um shell (prompt de comando) no seu "
 "dispositivo que pode executar aplicativos de terminal completos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4679-9
@@ -13057,21 +13058,23 @@ msgid ""
 "<b> Text editor </b> - A basic text editor to create and edit plain text "
 "files"
 msgstr ""
-"<b> Text editor </b> - Um editor de texto básico para criar e editar "
+"<b> Editor de texto </b> - Um editor de texto básico para criar e editar "
 "arquivos de texto simples"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4680-9
 msgid "<b> Time sync </b> - Synchronizes the device time with NTP servers"
 msgstr ""
-"<b> Time sync </b> - Sincroniza o horário do dispositivo com servidores NTP"
+"<b> Sincronização de tempo</b> - Sincroniza o horário do dispositivo com "
+"servidores NTP"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4681-9
 msgid ""
 "<b> Tweak document settings </b> - Allows tweaking settings of a document "
 "before it is loaded based on external factors"
 msgstr ""
-"<b> Tweak document settings </b> - Permite ajustar as configurações de um "
-"documento antes de carregá-lo com base em fatores externos"
+"<b> Configurações de ajuste de documento</b> - Permite ajustar as "
+"configurações de um documento antes de carregá-lo com base em fatores "
+"externos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4682-9
 msgid ""
@@ -13222,38 +13225,47 @@ msgid "Names starting with:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4731-13
+#, fuzzy
 msgid "<b>0</b> - Executed very early and only once after an update"
 msgstr ""
+"<b>0</b> - Executados bem cedo e apenas uma vez depois de uma atualização"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4732-13
 msgid ""
 "<b>1</b> - Excuted very early on every start of KOReader (but after 0 if "
 "applicable)"
 msgstr ""
+"<b>1</b> - Executados bem cedo e toda vez que o KOReader é iniciado "
+"(mas depois de 0 se aplicável)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4733-13
 msgid ""
 "<b>2</b> - Executed after <span class=\"ui\">UIManager</span> is ready on "
 "every start of KOReader"
 msgstr ""
+"<b>2</b> - Executados depois que <span class=\"ui\">UIManager</span> está "
+"pronto toda vez que o KOReader é iniciado"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4734-13
 msgid "<b>3-7</b> - Reserved"
-msgstr ""
+msgstr "<b>3-7</b> - Reservado"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4735-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
 msgstr ""
+"<b>8</b> - Executado antes de sair e depois que configurações são salvas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4736-13
 msgid "<b>9</b> - Executed right before exit"
-msgstr ""
+msgstr "<b>9</b> - Executado exatamente antes de sair"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4739-9
 msgid ""
 "If you have a problem with a user patch, you can revert to your previous "
 "configuration by removing the patch file."
 msgstr ""
+"Se você tem um problema com um patch de usuário, você pode reverter para sua "
+"configuração anterior ao remover o arquivo do patch."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4744-1
 msgctxt "user_guide/en.html+html.body.div.div:4744-1"
@@ -13262,11 +13274,11 @@ msgstr "DICAS"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4747-1
 msgid "Reading Tips"
-msgstr ""
+msgstr "Dicas de leitura"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4749-1
 msgid "Switching between documents quickly"
-msgstr ""
+msgstr "Alternando entre documentos rapidamente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4750-1
 msgid ""
@@ -13294,6 +13306,9 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
 "GESTURE” / General / Open Previous Document"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Gerenciador de gestos / “QUALQUER GESTO”"
+" / Geral / Abrir o documento anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4754-1
 msgid ""
@@ -13309,11 +13324,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4756-1
 msgid "Changing your book cover"
-msgstr ""
+msgstr "Alterando a capa do seu livro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4757-1
 msgid "You can change your book cover from this menu:"
-msgstr ""
+msgstr "Você pode mudar a capa do seu livro nesse menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4759-1
 msgid ""
@@ -13321,10 +13336,14 @@ msgid ""
 "style=\"width:22px;\"> / Book information / <img class=\"img_inline\" "
 "src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Set cover image"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Informações do livro / <img class=\"img_inline\" "
+"src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Definir imagem "
+"de capa"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4761-1
 msgid "Custom book cover from a screenshot"
-msgstr ""
+msgstr "Capa de livro customizada com uma captura de tela"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4762-5
 msgid ""
@@ -13333,8 +13352,13 @@ msgid ""
 "suitable for e-ink (too light or dark). Or you prefer to set some image from "
 "the book as cover."
 msgstr ""
+"Alguns livros não têm capas próprias. Ou eles podem ter suas capas na "
+"segunda página e não são exibidas corretamente. Ou talvez a capa não é "
+"adequada para e-ink (muito clara ou muito escura). Ou você prefere definir "
+"uma imagem do livro como a capa."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4765-5
+#, fuzzy
 msgid ""
 "In situations like this you can quickly take a screenshot and set it as the "
 "current book’s cover. Screenshot gesture is a <b>long diagonal swipe</b> by "
@@ -13343,10 +13367,16 @@ msgid ""
 "taking your screenshot you can select <span class=\"ui\">Set as book cover</"
 "span> from the dialog."
 msgstr ""
+"Nessa situações você pode rapidamente fazer uma captura de tela e a definir "
+"como a capa do livro atual. O gesto de captura de tela é um <b>deslize longo "
+"diagonal</b> por padrão. Também pode <b>tocar cantos opostos diagonais</b> "
+"para fazer uma captura. Você pode usar esse segundo atalho quando visualiza "
+"uma imagem. Depois de fazer sua captura você pode selecionar <span class="
+"\"ui\">Definir como capa do livro</span> no diálogo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4767-5
 msgid "You can remove this custom book cover here:"
-msgstr ""
+msgstr "Você pode remover essa capa personalizada aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4769-5
 msgctxt "user_guide/en.html+html.body.div.div:4769-5"
@@ -13358,10 +13388,13 @@ msgstr ""
 "style=\"width:22px;\"> / Informações do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4771-5
+#, fuzzy
 msgid ""
 "On the book information page, long-press on the <span class=\"ui\">Cover "
 "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgstr ""
+"Na página de informações do livro, segure no item <span class=\"ui\">Imagem "
+"de capa</span> e selecione <span class=\"ui\">Redefinir capa</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4773-5
 msgid ""
@@ -13380,10 +13413,15 @@ msgid ""
 "class=\"ui\">Custom cover image</span> item is checked otherwise you can "
 "reset everything related to your book accidentally."
 msgstr ""
+"<span class=\"label_red\">ATENÇÃO</span> Tenha muito cuidado quando usar "
+"esse diálogo <span class=\"ui\">Redefinir</span> e tenha certeza que apenas "
+"o item <span class=\"ui\">Imagem de capa personalizada</span> está "
+"selecionado ou você pode redefinir tudo relacionado ao seu livro "
+"acidentalmente."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4779-1
 msgid "Avoiding opening links accidentally"
-msgstr ""
+msgstr "Evite abrir links acidentalmente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4780-1
 msgid ""
@@ -13391,12 +13429,17 @@ msgid ""
 "turning the page or using other gestures, you can turn off <span "
 "class=\"ui\">Following links by tapping</span> via this menu item:"
 msgstr ""
+"Se seu documento tem links e você está acidentalmente clicando neles "
+"enquanto vira a página ou usa outros gestos, você pode desativar <span class="
+"\"ui\">Seguir links com toque</span> por esse item no menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4782-1
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Links / Tap to follow links"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Links / Toque para seguir links"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4784-1
 msgid ""
