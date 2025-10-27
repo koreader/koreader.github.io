@@ -13945,7 +13945,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4928-1
 msgid "My book is slow"
-msgstr ""
+msgstr "Meu livro está lento"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4930-5
 msgid ""
@@ -13954,14 +13954,21 @@ msgid ""
 "turning is immediate. Here we will talk about the reasons if your book feels "
 "very slow when opening, page turning or adjusting its appearance."
 msgstr ""
+"O KOReader é otimizado para funcionar rapidamente, mesmo no hardware "
+"limitado dos leitores de e-books. Geralmente, livros com milhares de páginas "
+"podem ser abertos em segundos e a virada de página é imediata. Aqui, "
+"falaremos sobre os motivos pelos quais seu livro parece muito lento ao "
+"abrir, virar a página ou ajustar sua aparência."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4932-5
 msgid "If the problematic book is a PDF:"
-msgstr ""
+msgstr "Se o livro problemático for um PDF:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4934-9
 msgid "PDF file itself might be <b>too big for your device memory</b>."
 msgstr ""
+"O arquivo PDF em si pode ser <b>muito grande para a memória do seu "
+"dispositivo</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4935-9
 msgid ""
@@ -13971,6 +13978,12 @@ msgid ""
 "the opening and page turning because these large images has to be rescaled "
 "to fit on your screen and this process can be CPU intensive."
 msgstr ""
+"Arquivos PDF <b>podem conter arquivos de imagem muito grandes</b>. Mesmo em "
+"documentos com uma camada de texto normal "
+"(que você pode selecionar e destacar), pode haver outra camada de imagem "
+"incorporada (geralmente uma digitalização da página). Isso torna a abertura "
+"e a virada de página mais lentas, pois essas imagens grandes precisam ser "
+"redimensionadas para caber na tela, e esse processo pode exigir muito da CPU."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4936-9
 msgid ""
@@ -13979,12 +13992,19 @@ msgid ""
 "this case KOReader has to calculate and draw all these elements which can "
 "take time."
 msgstr ""
+"Um arquivo PDF pode conter <b>muitos elementos individuais</b> que precisam "
+"de posicionamento preciso, como uma página de revista com muitas imagens e "
+"caixas de texto. Nesse caso, o KOReader precisa calcular e desenhar todos "
+"esses elementos, o que pode levar tempo."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4937-9
 msgid ""
 "<span class=\"ui\">Auto straighten</span> feature (which allows you to "
 "adjust the tilt of the page) might also slow down your reader."
 msgstr ""
+"O recurso <span class=\"ui\">Alinhamento automático</span> "
+"(que permite ajustar a inclinação da página) também pode deixar o leitor "
+"mais lento."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4938-9
 msgid ""
@@ -13995,20 +14015,24 @@ msgid ""
 "your document."
 msgstr ""
 "Se você definir sua <span class=\"ui\">QUALIDADE DE RENDERIZAÇÃO</span> para "
-"<span class=\"ui\">ALTA</span> enquanto o <span class=\"ui\">REFLUXO</span> "
-"estiver <b>ATIVADO</b>, o texto ficará mais agradável, mas pode ser muito "
-"mais lento (até vários segundos por virada de página) do que o <span "
-"class=\"ui\">PADRÃO</span>, dependendo do seu documento."
+"<span class=\"ui\">ALTA</span> enquanto o <span class=\"ui\""
+">REDIMENSIONAMENTO</span> estiver <b>ATIVADO</b>, o texto ficará mais "
+"agradável, mas pode ser muito mais lento "
+"(até vários segundos por virada de página) do que o <span class=\"ui\""
+">PADRÃO</span>, dependendo do seu documento."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4940-13
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:22px;\"> / Render Quality"
 msgstr ""
+"MENU INFERIOR / <img class=\"img_inline\" src="
+"\"pictures/bottom_contrast.svg\" style=\"width:22px;\"> / Qualidade de "
+"renderização"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4945-5
 msgid "If the problematic book is an EPUB:"
-msgstr ""
+msgstr "Se o livro problemático for um EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4948-9
 msgid ""
@@ -14020,6 +14044,14 @@ msgid ""
 "b> This will slow down opening the book, turning the pages and changing the "
 "appearance properties like font weight or line spacing."
 msgstr ""
+"Arquivos EPUB são basicamente compostos de texto e imagens, com algumas "
+"regras para determinar como esses itens são formatados na tela. Em condições "
+"ideais, esse é um processo bastante simples, então os arquivos EPUB "
+"geralmente são rápidos no KOReader. <b>Mas alguns livros EPUB adicionam um "
+"grande número de regras de formatação, forçando o KOReader a fazer muitos "
+"cálculos apenas para exibir uma única frase.</b> Isso tornará a abertura do "
+"livro mais lenta, a virada de páginas e a alteração de propriedades de "
+"aparência, como espessura da fonte ou espaçamento entre linhas."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4950-9
 msgid ""
@@ -14027,9 +14059,9 @@ msgid ""
 "layout EPUBs</b>. They will open, but will render as reflowable EPUBs and "
 "probably won't look nice or readable."
 msgstr ""
-"<span class=\"label_blue\">INFO</span> O KOReader não oferece suporte a "
-"<b>EPUBs com layout fixo</b>. Eles serão abertos, mas serão renderizados "
-"como EPUBs refluíveis e provavelmente não ficarão bonitos ou legíveis."
+"<span class=\"label_blue\">INFORMAÇÃO</span> O KOReader não oferece suporte "
+"a <b>EPUBs com layout fixo</b>. Eles serão abertos, mas serão renderizados "
+"como EPUBs redimensionáveis, e provavelmente não ficarão bonitos ou legíveis."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4953-9
 msgid ""
@@ -14041,6 +14073,13 @@ msgid ""
 "KOReader still has to calculate the whole book instead of only the current "
 "chapter."
 msgstr ""
+"Arquivos EPUB são arquivos ZIP que contêm arquivos HTML. Alguns livros podem "
+"ser um único arquivo HTML, enquanto outros podem ser compostos de vários "
+"arquivos HTML, como cada capítulo do livro sendo um arquivo HTML separado. "
+"<b>Se o seu livro for apenas um arquivo HTML, a renderização parcial não "
+"funcionará.</b> Portanto, as alterações na aparência serão mais lentas do "
+"que em livros com capítulos divididos, pois, para cada alteração, o KOReader "
+"ainda precisa calcular o livro inteiro, em vez de apenas o capítulo atual."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4955-9
 msgid ""
@@ -14049,30 +14088,40 @@ msgid ""
 "if a cell (containing many paragraphs) spans 50 pages, this will make page "
 "turning quite slow. See below for the solution."
 msgstr ""
+"Outro caso raro de lentidão é quando o conteúdo é encapsulado em uma <b>tag "
+"de tabela HTML</b>. O KOReader precisa renderizar/desenhar cada célula a "
+"cada virada de página, portanto, se uma célula (contendo muitos parágrafos) "
+"ocupar 50 páginas, a virada de página ficará bastante lenta. Veja a solução "
+"abaixo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4959-5
 msgid "If everything is slow:"
-msgstr ""
+msgstr "Se tudo estiver lento:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4961-5
 msgid ""
 "Reasons mentioned above is generally valid if only some of your books are "
 "slow. If all of your books are slow, your problem might be device related:"
 msgstr ""
+"Os motivos mencionados acima geralmente são válidos se apenas alguns dos "
+"seus livros estiverem lentos. Se todos os seus livros estiverem lentos, o "
+"problema pode estar relacionado ao dispositivo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4964-9
 msgid "Very slow CPU or low RAM."
-msgstr ""
+msgstr "CPU muito lenta ou pouca memória RAM."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4965-9
 msgid ""
 "Your flash memory (where your books reside) might be degrading, which is "
 "generally due to the old age of the device."
 msgstr ""
+"Sua memória flash (onde seus livros ficam) pode estar degradada, o que "
+"geralmente ocorre devido à idade avançada do dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4966-9
 msgid "You are running out of storage space."
-msgstr ""
+msgstr "Você está ficando sem espaço de armazenamento."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4967-9
 msgid ""
@@ -14080,10 +14129,13 @@ msgid ""
 "interfering with the operation of KOReader or some background processes "
 "might be using your system resources."
 msgstr ""
+"Se você estiver usando um dispositivo baseado em Android, seu sistema "
+"operacional Android pode estar interferindo na operação do KOReader ou "
+"alguns processos em segundo plano podem estar usando os recursos do sistema."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4971-5
 msgid "SOLUTIONS:"
-msgstr ""
+msgstr "SOLUÇÕES:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4973-5
 msgid ""
@@ -14092,12 +14144,19 @@ msgid ""
 "version of it. Or if another file type is available for download, like EPUB "
 "instead of PDF (or reverse) you can try that format."
 msgstr ""
+"Infelizmente, não há muitas soluções para arquivos PDF defeituosos. "
+"Geralmente, a melhor solução para PDFs e EPUBs problemáticos é tentar "
+"encontrar uma versão melhor. Ou, se outro tipo de arquivo estiver disponível "
+"para download, como EPUB em vez de PDF (ou o contrário), você pode tentar "
+"esse formato."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4975-5
 msgid ""
 "Following solutions are for EPUB files and they might require advanced "
 "knowledge:"
 msgstr ""
+"As soluções a seguir são para arquivos EPUB e podem exigir conhecimento "
+"avançado:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4978-9
 msgid ""
@@ -14106,6 +14165,10 @@ msgid ""
 "(of course, you'll probably lose any nice formatting, but you'll know what "
 "is the culprit)."
 msgstr ""
+"Você pode definir <span class=\"ui\">Estilos Incorporados</span> como "
+"<b>DESLIGADO</b> no menu inferior para ver se ignorar todas as folhas de "
+"estilo do documento torna o processo mais rápido (claro, você provavelmente "
+"perderá qualquer formatação interessante, mas saberá qual é o culpado)."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4980-9
 msgid ""
@@ -14114,6 +14177,10 @@ msgid ""
 "complexity by yourself. To do this, you can long-press on some text and "
 "choose <span class=\"ui\">View HTML</span> in the popup menu."
 msgstr ""
+"Se você tiver conhecimento de HTML e CSS, poderá inspecionar os arquivos "
+"HTML e CSS diretamente do KOReader e avaliar sua qualidade ou complexidade "
+"desnecessária. Para isso, pressione e segure algum texto e escolha <span "
+"class=\"ui\">Exibir HTML</span> no menu pop-up."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4982-9
 msgid ""
@@ -14121,24 +14188,35 @@ msgid ""
 "above in the problems section, you can add this <span class=\"ui\">table, "
 "tr, td { display:block; }</span> book-specific style tweak to:"
 msgstr ""
+"Se você tiver o problema de <b>“conteúdo encapsulado em uma tabela”</b>, "
+"conforme mencionado acima na seção de problemas, você pode adicionar este "
+"ajuste de estilo específico do livro <span class=\"ui\">table, tr, td { "
+"display:block; }</span> para:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4984-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Ajustes de estilo / Ajuste específico do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4987-9
 msgid ""
 "<span class=\"external\">Calibre</span>’s e-book editor can check EPUB files "
 "for problems and has tools to fix some of the problems."
 msgstr ""
+"O editor de e-books do <span class=\"external\">Calibre</span> pode "
+"verificar se há problemas em arquivos EPUB e tem ferramentas para corrigir "
+"alguns deles."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4988-9
 msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Você pode baixar o <span class=\"external\">Calibre</span> <a href="
+"\"https://calibre-ebook.com/\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4990-9
 msgid ""
@@ -14146,6 +14224,9 @@ msgid ""
 "class=\"external\">Calibre</span> <a href=\"https://manual.calibre-ebook.com/"
 "edit.html#checking-the-book\">here</a>."
 msgstr ""
+"Você pode ver as instruções para a ferramenta <b>Checar livro </b> do <span "
+"class=\"external\">Calibre</span> <a href="
+"\"https://manual.calibre-ebook.com/edit.html#checking-the-book\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4992-9
 msgid ""
