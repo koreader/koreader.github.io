@@ -13848,48 +13848,56 @@ msgid ""
 "installation directory. Then you can overwrite them after a clean "
 "installation to restore your settings:"
 msgstr ""
+"Em casos raros, se você quiser fazer backup e restaurar o KOReader com todas "
+"as suas configurações, você pode fazer backup dessas pastas e arquivos no "
+"diretório de instalação do KOReader. Depois, você pode sobrescrevê-los após "
+"uma instalação limpa para restaurar suas configurações:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4896-9
 msgid "Folders:"
-msgstr ""
+msgstr "Pastas:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4899-9
 msgid "settings"
-msgstr ""
+msgstr "configurações"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4900-9
 msgid "styletweaks"
-msgstr ""
+msgstr "styletweaks"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4904-9
 msgid "Files:"
-msgstr ""
+msgstr "Arquivos:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4907-17
 msgid "data/cr3.ini"
-msgstr ""
+msgstr "data/cr3.ini"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4908-17
 msgid "defaults.persistent.lua"
-msgstr ""
+msgstr "defaults.persistent.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4909-17
 msgid "history.lua"
-msgstr ""
+msgstr "history.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4910-17
+#, fuzzy
 msgid "settings.reader.lua"
-msgstr ""
+msgstr "settings.reader.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4911-17
+#, fuzzy
 msgid "settings/profiles.lua"
-msgstr ""
+msgstr "settings/profiles.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4912-17
 msgid ""
 "Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if "
 "they exist)</b>"
 msgstr ""
+"Arquivos nos diretórios <b>data/dict/</b> e <b>/data/tessdata/</b> <b>"
+"(se existirem)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4917-5
 msgid ""
@@ -13898,10 +13906,14 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
+"<span class=\"label_blue\">INFORMAÇÃO</span> As configurações e os destaques "
+"individuais do seu livro são mantidos no mesmo diretório que os seus livros, "
+"em uma pasta com o <b>mesmo nome do seu livro</b>. Você pode fazer backup "
+"dessas pastas separadamente, se desejar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4921-1
 msgid "My Progress Sync doesn't synchronize my progress"
-msgstr ""
+msgstr "O meu Progress Sync não sincroniza meu progresso"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4923-9
 msgid ""
@@ -13927,6 +13939,9 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / Progress sync / Document matching method"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:26px;\"> / Progress sync / Método de correspondência de "
+"documentos"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4928-1
 msgid "My book is slow"
