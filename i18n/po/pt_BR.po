@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 19:45+0000\n"
 "PO-Revision-Date: 2025-10-27 20:03+0000\n"
-"Last-Translator: gabyzinhavs <gabyzinhavs@proton.me>\n"
+"Last-Translator: Diego <doi@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -844,10 +844,9 @@ msgid ""
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"<a href=\"#L2-bookmap\" class=\"internalink\"><span class=\"ui\">Mapa do "
-"livro</span> exclusivo para ver um mapa panorâmico do seu livro, incluindo "
-"todas as suas notas e destaques <a href=\"#L2-bookmap\" class=\"internalink\""
-"></a>"
+"<span class=\"ui\">Mapa do livro</span> exclusivo para ver um mapa "
+"panorâmico do seu livro, incluindo todas as suas notas e destaques <a href="
+"\"#L2-bookmap\" class=\"internlink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1130-9
 msgid ""
@@ -1320,8 +1319,8 @@ msgid ""
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings"
 msgstr ""
-"MENU SUPERIOR (no Navegador de Arquivos) / <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Configurações / "
+"MENU SUPERIOR (no Explorador de Arquivos) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Configurações / "
 "Configurações do mosaico e da lista detalhada"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1261-5
@@ -1744,7 +1743,7 @@ msgstr "<b>Tocar:</b> Deleta um caractere"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1371-9
 msgid "<b>Long-press:</b> Delete the whole line"
-msgstr "<b>Segurar:</b> Deleta a linha toda"
+msgstr "<b>Toque longo:</b> Deleta a linha toda"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1372-9
 msgid "<b>Swipe left:</b> Delete part of the word left of the cursor"
@@ -11256,7 +11255,7 @@ msgstr "Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4110-13
 msgid "Shift + Left"
-msgstr "Shift + Left"
+msgstr "Shift + Esquerda"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4113-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4113-13"
@@ -12238,7 +12237,6 @@ msgid "On wake-up"
 msgstr "Ao despertar"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4480-42
-#, fuzzy
 msgid "Run this profile every time device wakes up"
 msgstr "Execute esse perfil toda vez que o dispositivo é desbloqueado"
 
@@ -12284,7 +12282,6 @@ msgid "<span class=\"ui\">180°</span> (upside down)"
 msgstr "<span class=\"ui\">180°</span> (invertida)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4494-5
-#, fuzzy
 msgid "On showing folder"
 msgstr "Ao exibir a pasta"
 
@@ -12314,7 +12311,6 @@ msgid "On book opening"
 msgstr "Ao abrir um livro"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4502-6
-#, fuzzy
 msgid ""
 "This trigger is executed when you open a book (optionally) combined with "
 "specific sub-conditions."
@@ -13386,7 +13382,6 @@ msgstr ""
 "uma imagem do livro como a capa."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4765-5
-#, fuzzy
 msgid ""
 "In situations like this you can quickly take a screenshot and set it as the "
 "current book’s cover. Screenshot gesture is a <b>long diagonal swipe</b> by "
@@ -13917,12 +13912,10 @@ msgid "history.lua"
 msgstr "history.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4910-17
-#, fuzzy
 msgid "settings.reader.lua"
 msgstr "settings.reader.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4911-17
-#, fuzzy
 msgid "settings/profiles.lua"
 msgstr "settings/profiles.lua"
 
@@ -14450,7 +14443,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5046-5
 msgid "Sleep cover problems"
-msgstr "Problemas com a capa usada no modo de descanso"
+msgstr "Problemas com capas inteligentes"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5047-9
 msgid ""
@@ -14461,16 +14454,25 @@ msgid ""
 "problematic. If you are having problems with your device waking up because "
 "of your cover, you can disable this feature via this menu:"
 msgstr ""
+"As capas inteligentes geralmente usam um ímã embutido que ativa os eventos "
+"de despertar e dormir por meio do acionamento de um sensor no seu "
+"dispositivo. Às vezes, esse sensor pode ser chamado de <b>sensor Hall</b> ou "
+"<b>sensor de efeito Hall</b>. Em alguns casos, como ímãs desalinhados ou "
+"fracos, esse acionamento pode ser problemático. Se você estiver com "
+"problemas para despertar o seu dispositivo por causa da capa, pode desativar "
+"esse recurso neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5049-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Ignore all sleep cover events"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Dispositivo / Ignorar todos os eventos de capa inteligente"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5055-1
 msgid "Text indentation problems"
-msgstr ""
+msgstr "Problemas de recuo de texto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5057-5
 msgid ""
@@ -14493,6 +14495,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:24px;\"> / Style"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:24px;\"> / Estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5063-9
 msgid ""
@@ -14500,6 +14504,10 @@ msgid ""
 "stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better "
 "for unstyled books, and might make styled books more readable."
 msgstr ""
+"O padrão <span class=\"ui\">HTML/EPUB (epub.css)</span> é nossa folha de "
+"estilo voltada para livros, com <b>alinhamento de texto: justificado, recuo "
+"de primeira linha em P</b>. É melhor para livros sem estilo e pode tornar os "
+"livros estilizados mais legíveis."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5065-9
 msgid ""
@@ -14509,6 +14517,12 @@ msgid ""
 "indent on P, spacing between P</b>. But it doesn’t look pretty when "
 "publishers haven’t done any styling."
 msgstr ""
+"Você pode tentar mudar para <span class=\"ui\">HTML5 (html5.css)</span> se o "
+"seu livro apresentar problemas de recuo, como mencionado acima. Este estilo "
+"fornece uma folha de estilo base, como os navegadores da web fazem ao "
+"renderizar: <b>alinhamento de texto: à esquerda, sem recuo de primeira linha "
+"em P, espaçamento entre</b>. Mas não fica bonito quando as editoras não "
+"fazem nenhuma estilização."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5073-1
 msgid "Cleaning your book cover cache database"
@@ -14533,8 +14547,8 @@ msgid ""
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings / Book info cache management"
 msgstr ""
-"MENU SUPERIOR (no Navegador de arquivos) / <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Configurações / "
+"MENU SUPERIOR (no Explorador de arquivos) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Configurações / "
 "Configurações de mosaico e da lista detalhada / Gerenciamento do cache de "
 "informações do livro"
 
@@ -14565,8 +14579,8 @@ msgid ""
 "top_tools.svg\" style=\"width:22px;\"> / More tools / Developer options / "
 "Clear caches"
 msgstr ""
-"MENU SUPERIOR (no Navegador de arquivos) / <img class=\"img_inline\" "
-"src=\"pictures/top_tools.svg\" style=\"width:22px;\"> / Mais ferramentas / "
+"MENU SUPERIOR (no explorador de arquivos) / <img class=\"img_inline\" src="
+"\"pictures/top_tools.svg\" style=\"width:22px;\"> / Mais ferramentas / "
 "Opções de desenvolvedor / Limpar caches"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5088-5
@@ -14593,6 +14607,11 @@ msgid ""
 "GitHub account which is free. Click this link to open our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub Issues</a> page."
 msgstr ""
+"O KOReader usa o <span class=\"external\">GitHub</span> como base do "
+"projeto. Você pode relatar problemas ou sugestões em nossa página do GitHub. "
+"Você só precisa de uma conta gratuita no GitHub. Clique neste link para "
+"abrir nossa página <a href=\"https://github.com/koreader/koreader/issues\""
+">Problemas no GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5105-9
 msgid ""
@@ -14601,12 +14620,16 @@ msgid ""
 "existing issue about the same topic. You can also check other opened issues "
 "to have an idea about the process."
 msgstr ""
+"Na página <b>Issues</b>, clique no botão <b>Novo Ticket</b>. Mas antes de "
+"fazer isso, sugerimos usar a barra de pesquisa para verificar se já existe "
+"um problema sobre o mesmo tópico. Você também pode verificar outros "
+"problemas abertos para ter uma ideia do processo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5107-9
 msgid ""
 "When you click the <b>New Issue</b> button you will be presented with two "
 "options:"
-msgstr "Ao clicar no botão <b>New Issue</b>, você verá duas opções:"
+msgstr "Ao clicar no botão <b>Novo Ticket</b>, você verá duas opções:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5111-9
 msgid ""
@@ -14659,23 +14682,23 @@ msgid ""
 "Find other KOReader users on <a href=\"https://www.mobileread.com/forums/"
 "forumdisplay.php?f=276\">MobileRead forums</a>"
 msgstr ""
-"Encontre outros usuários do KOReader nos fóruns do <a href=\"https://www."
-"mobileread.com/forums/forumdisplay.php?f=276\">MobileRead</a>"
+"Encontrar outros usuários do KOReader nos fóruns do <a href="
+"\"https://www.mobileread.com/forums/forumdisplay.php?f=276\">MobileRead</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5135-3
 msgid ""
 "Reach us at <a href=\"https://gitter.im/koreader/koreader\">Gitter chat</a>"
 msgstr ""
-"Entre em contato pelo <a href=\"https://gitter.im/koreader/koreader\">Gitter "
-"Chat</a>"
+"Entrar em contato pelo <a href=\"https://gitter.im/koreader/koreader\""
+">Gitter Chat</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5140-3
 msgid ""
 "Support the project via <a href=\"https://liberapay.com/"
 "KOReader\">Liberapay</a>"
 msgstr ""
-"Suporte o projeto via <a href=\"https://liberapay.com/KOReader\">Liberapay</"
-"a>"
+"Dar suporte ao projeto via <a href=\"https://liberapay.com/KOReader\""
+">Liberapay</a>"
 
 #~ msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:949-17"
 #~ msgid "Bottom Menu Items"
