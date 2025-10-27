@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 19:45+0000\n"
 "PO-Revision-Date: 2025-10-27 20:03+0000\n"
-"Last-Translator: Diego <doi@outlook.com>\n"
+"Last-Translator: gabyzinhavs <gabyzinhavs@proton.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -835,8 +835,8 @@ msgid ""
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
 "<span class=\"ui\">Navegação rápida</span> para pular rapidamente entre "
-"páginas, capítulos e marcadores <a href=\"#L2-skimwidget\" "
-"class=\"internlink\"></a>"
+"páginas, capítulos e marcadores <a href=\"#L2-skimwidget\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1128-9
 msgid ""
@@ -844,9 +844,10 @@ msgid ""
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"<span class=\"ui\">Mapa do livro</span> exclusivo para ver um mapa "
-"panorâmico do seu livro, incluindo todas as suas notas e destaques <a "
-"href=\"#L2-bookmap\" class=\"internlink\"></a>"
+"<a href=\"#L2-bookmap\" class=\"internalink\"><span class=\"ui\">Mapa do "
+"livro</span> exclusivo para ver um mapa panorâmico do seu livro, incluindo "
+"todas as suas notas e destaques <a href=\"#L2-bookmap\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1130-9
 msgid ""
@@ -1003,7 +1004,7 @@ msgid ""
 "<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 msgstr ""
 "Defina <b>alarmes de limite de carga</b> da bateria para evitar descarga "
-"profunda/sobrecarga <a href=\"#L2-devicetips\" class=\"internallink\"></a>"
+"profunda/sobrecarga <a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1166-9
 msgid ""
@@ -1045,8 +1046,8 @@ msgid ""
 "class=\"internalink\"></a>"
 msgstr ""
 "Diferentes tipos de zoom e direções de fluxo de página para ler facilmente "
-"<b>documentos com várias colunas</b> como artigos científicos <a href=\"#L2-"
-"readingpdfs\" class=\"internlink\"></a>"
+"<b>documentos com várias colunas</b> como artigos científicos <a href="
+"\"#L2-readingpdfs\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1180-9
 msgid ""
@@ -12157,7 +12158,7 @@ msgid ""
 "You can activate a profile with a <b>long press</b> on its name from this "
 "same <span class=\"ui\">Profiles</span> menu"
 msgstr ""
-"Você pode ativar um perfil com um <b>toque longo</b> em seu nome neste mesmo "
+"Você pode ativar um perfil com um <b>toque longo</b> em seu nome no mesmo "
 "menu <span class=\"ui\">Perfis</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4460-13
@@ -13370,7 +13371,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4761-1
 msgid "Custom book cover from a screenshot"
-msgstr "Capa de livro customizada com uma captura de tela"
+msgstr "Capa de livro personalizada com uma captura de tela"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4762-5
 msgid ""
@@ -13466,7 +13467,7 @@ msgid ""
 "style=\"width:22px;\"> / Taps and Gestures / Links / Tap to follow links"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / Toques e gestos / Links / Toque para seguir links"
+"\"width:22px;\"> / Toques e gestos / Links / Toque para seguir os links"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4784-1
 msgid ""
@@ -13476,10 +13477,15 @@ msgid ""
 "enable <span class=\"ui\">Allow larger tap area around links</span> from the "
 "same menu."
 msgstr ""
+"Depois de desativar essa configuração, para seguir um link você precisará "
+"dar um toque longo nele e selecionar <span class=\"ui\">Ir para o link</"
+"span> pelo menu pop-up. Se seu problema é o oposto e você quer facilitar o "
+"toque em links, você pode ativar <span class=\"ui\">Permitir maior área de "
+"toque ao redor de links</span> pelo mesmo menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4788-1
 msgid "Reading statistics after midnight"
-msgstr ""
+msgstr "Estatísticas de leitura após meia-noite"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4789-1
 msgid ""
@@ -13490,6 +13496,13 @@ msgid ""
 "<span class=\"ui\">Calendar view</span>; it does not apply to any of the "
 "other statistics reports. You can set this time at:"
 msgstr ""
+"Nas estatísticas de leitura você pode mudar o início do dia usado para "
+"cálculos. Isso é útil se por exemplo você está lendo depois da meia-noite e "
+"quer sua sessão de leitura contada como hoje ao invés do dia seguinte. Isso "
+"se aplica apenas a <span class=\"ui\">Linha do tempo de hoje</span> e "
+"opcionalmente a <span class=\"ui\">Visualização em calendário</span>; isso "
+"não se aplica a nenhum outro relatório de estatísticas. Você pode definir "
+"esse horário em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4791-1
 msgid ""
@@ -13497,30 +13510,37 @@ msgid ""
 "style=\"width:22px;\"> / Reading statistics / Settings / Daily timeline "
 "starts at..."
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Estatísticas de leitura / Configurações / A linha "
+"do tempo diária começa às..."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4796-1
 msgid "Device Tips"
-msgstr ""
+msgstr "Dicas do dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4798-1
 msgid "Updating KOReader"
-msgstr ""
+msgstr "Atualizando o KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4799-5
 msgid ""
 "KOReader can update itself over Wi-Fi. You can trigger the check via this "
 "menu item:"
 msgstr ""
+"O KOReader pode atualizar sozinho pelo Wi-Fi. Você pode iniciar a "
+"verificação por essa opção no menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4802-1
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Update / Check for update"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Atualizar / Verificar se há atualizações"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4805-1
 msgid "Adding a password lock to KOReader"
-msgstr ""
+msgstr "Adicionando um bloqueio com senha no KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4806-5
 msgid ""
@@ -13529,6 +13549,10 @@ msgid ""
 "KOReader to keep the screensaver on the screen until you enter a chosen "
 "gesture. To achieve this:"
 msgstr ""
+"Nós não temos uma opção direta pra isso no KOReader. Mas existe uma solução "
+"alternativa para alcançar esse tipo de funcionalidade de bloqueio de tela. "
+"Você pode definir o KOReader para manter o descanso de tela na tela até você "
+"realizar um gesto definido. Para isso:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4810-9
 msgid ""
@@ -13547,7 +13571,7 @@ msgid ""
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
 "\"width:22px;\"> / Toques e gestos / Gerenciador de gestos / "
-"\"seu gesto selecionado\" / Dispositivo / Sair do protetor de tela"
+"\"seu gesto selecionado\" / Dispositivo / Sair da tela de descanso"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4813-9
 msgid "And then enable this option:"
@@ -13560,9 +13584,9 @@ msgid ""
 "screensaver on screen after wakeup / Until 'Exit screensaver' gesture"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / Tela / Protetor de tela / Configurações / Manter o "
-"protetor de tela na tela após a ativação / Até o gesto 'Sair do protetor de "
-"tela'"
+"\"width:22px;\"> / Tela / Tela de descanso / Papel de parede / Adiar "
+"atualização da tela após reativação / Até o gesto de 'sair da tela de "
+"descanso'"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4820-5
 msgid "Automatic screen dimming"
@@ -13642,7 +13666,8 @@ msgid ""
 "style=\"width:22px;\"> / Device Status Alerts / Battery Level"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / Alertas de status do dispositivo / Nível da bateria"
+"\"width:22px;\"> / Dispositivo / Alertas de estado do dispositivo / Nível da "
+"bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-5
 msgid "Checking your battery consumption details"
@@ -13708,7 +13733,8 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / KOReader memory usage"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / Barra de status / Uso de memória do KOReader"
+"\"width:22px;\"> / Barra de estado / Itens da barra de estado / Uso de "
+"memória do KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4860-9
 msgid ""
@@ -13772,10 +13798,10 @@ msgid ""
 "continuously added. Nightly releases are intended for a narrow group of "
 "testers and developers, so they might be less stable."
 msgstr ""
-"<span class=\"label_red\">NIGHTLY</span><b></b> Estas versões são compiladas "
-"<b>diariamente</b> do KOReader, com otimizações e correções adicionadas "
-"continuamente. Os lançamentos noturnos são destinados a um grupo restrito de "
-"testadores e desenvolvedores, portanto, podem ser menos estáveis."
+"<span class=\"label_red\">NIGHTLY</span><b></b> Estas são as versões "
+"compiladas <b>diariamente</b> do KOReader, com otimizações e correções "
+"adicionadas continuamente. Os lançamentos noturnos são destinados a um grupo "
+"restrito de testadores e desenvolvedores, portanto, podem ser menos estáveis."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4881-5
 msgid ""
@@ -13827,6 +13853,10 @@ msgid ""
 "discussion page: <a href=\"https://github.com/koreader/koreader/"
 "issues/11068\">FAQ: How to track latest nightly builds</a>"
 msgstr ""
+"Essa seção foi apenar uma introdução geral ao tópico. Para informações "
+"detalhadas e pedir ajuda para versões nightly, você pode visitar a página de "
+"discussão: <a href=\"https://github.com/koreader/koreader/issues/11068\">FAQ:"
+" How to track latest nightly builds</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4890-20
 msgid ""
@@ -13836,10 +13866,15 @@ msgid ""
 "installation. Open source applications like <b>Shelter</b> and <b>Island</b> "
 "can help you with this."
 msgstr ""
+"<span class=\"label_green\">DICA</span> Se você está usando o KOReader em um "
+"dispositivo Android, você pode usar a função <b>Perfil de Trabalho</b> do "
+"sistema Android para testar versões Nightly sem afetar sua instalação "
+"principal do KOReader. Aplicações Open source como <b>Shelter</b> e "
+"<b>Island</b> podem te ajudar com isso."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4892-3
 msgid "Backup your KOReader settings"
-msgstr ""
+msgstr "Fazer backup das suas configurações do KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4893-9
 msgid ""
@@ -13906,14 +13941,14 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
-"<span class=\"label_blue\">INFORMAÇÃO</span> As configurações e os destaques "
+"<span class=\"label_blue\">INFO</span> As configurações e os destaques "
 "individuais do seu livro são mantidos no mesmo diretório que os seus livros, "
 "em uma pasta com o <b>mesmo nome do seu livro</b>. Você pode fazer backup "
 "dessas pastas separadamente, se desejar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4921-1
 msgid "My Progress Sync doesn't synchronize my progress"
-msgstr "O meu Progress Sync não sincroniza meu progresso"
+msgstr "O meu Sincronização de progresso não sincroniza meu progresso"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4923-9
 msgid ""
@@ -13940,8 +13975,8 @@ msgid ""
 "style=\"width:26px;\"> / Progress sync / Document matching method"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:26px;\"> / Progress sync / Método de correspondência de "
-"documentos"
+"style=\"width:26px;\"> / Sincronização de progresso / Método de comparação "
+"de documentos"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4928-1
 msgid "My book is slow"
@@ -14180,7 +14215,7 @@ msgstr ""
 "Se você tiver conhecimento de HTML e CSS, poderá inspecionar os arquivos "
 "HTML e CSS diretamente do KOReader e avaliar sua qualidade ou complexidade "
 "desnecessária. Para isso, pressione e segure algum texto e escolha <span "
-"class=\"ui\">Exibir HTML</span> no menu pop-up."
+"class=\"ui\">Ver HTML</span> no menu pop-up."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4982-9
 msgid ""
@@ -14362,8 +14397,8 @@ msgid ""
 "style=\"width:22px;\"> / Taps and Gestures / Gesture intervals / Tap interval"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
-"\"width:22px;\"> / Toques e Gestos / Intervalos de Gestos / Intervalo de "
-"Toque"
+"\"width:22px;\"> / Toques e gestos / Intervalos de gestos / Intervalo de "
+"toque"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5028-5
 msgid ""
