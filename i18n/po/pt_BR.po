@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 19:45+0000\n"
 "PO-Revision-Date: 2025-10-27 20:03+0000\n"
-"Last-Translator: gabyzinhavs <gabyzinhavs@proton.me>\n"
+"Last-Translator: Diego <doi@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -13082,6 +13082,10 @@ msgid ""
 "individual EPUB files. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/Wallabag\">wiki page</a> for more info."
 msgstr ""
+"<b>Wallabag</b> - Baixa os artigos mais recentes de um servidor Wallabag "
+"como arquivos EPUB individuais. Confira nossa <a href="
+"\"https://github.com/koreader/koreader/wiki/Wallabag\">página wiki</a> para "
+"mais informações."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4684-3
 msgid "Controlling your reader from another device - HTTP Inspector Plugin"
@@ -13090,7 +13094,7 @@ msgstr "Controlando o seu leitor de outro dispositivo - Plugin HTTP Inspector"
 #: user_guide/en.html%2Bhtml.body.div.p:4686-3
 msgctxt "user_guide/en.html+html.body.div.p:4686-3"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANÇADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4689-3
 msgid ""
@@ -13144,7 +13148,7 @@ msgstr "Patches de usuário"
 #: user_guide/en.html%2Bhtml.body.div.p:4703-3
 msgctxt "user_guide/en.html+html.body.div.p:4703-3"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! AVANÇADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4705-9
 msgid ""
@@ -13154,6 +13158,11 @@ msgid ""
 "one yourself (if you have the necessary extensive knowledge about the "
 "KOReader internals)."
 msgstr ""
+"Patches de usuário são pequenos arquivos escritos na linguagem <b>Lua</b>. "
+"Eles podem alterar a funcionalidade do KOReader sem modificar sua instalação "
+"permanentemente. Eles podem ser escritos por desenvolvedores, outros "
+"usuários ou você mesmo pode criar um (se tiver o conhecimento necessário "
+"sobre os componentes internos do KOReader)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4708-9
 msgid ""
@@ -13164,10 +13173,17 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/issues?"
 "q=+label%3A%22User+patch+available%22\">link</a>."
 msgstr ""
+"Você pode encontrar uma lista atualizada de <span class=\"ui\">Patches de "
+"usuário</span> em nosso <a href="
+"\"https://github.com/koreader/koreader/wiki/User-patches\">wiki</a> e nos "
+"<b>tópicos do GitHub</b> marcados com a tag <span class=\"ui\">User patch "
+"available</span>. Você pode vê-los seguindo este <a href=\"https://"
+"github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22\""
+">link</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4711-9
 msgid "Basic usage – Adding an already written patch to your KOReader:"
-msgstr ""
+msgstr "Uso básico – Adicionando um patch já escrito ao seu KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4714-13
 msgid ""
@@ -13175,21 +13191,26 @@ msgid ""
 "class=\"ui\">koreader directory</span> on your device (On Android this "
 "folder is located on the SD-card)"
 msgstr ""
+"Crie um diretório chamado <span class=\"ui\">patches</span> no <span class="
+"\"ui\">diretório koreader</span> no seu dispositivo "
+"(no Android, essa pasta está localizada no cartão SD)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4715-13
 msgid ""
 "Download and put the patch file with <b>.lua</b> extension in this <span "
 "class=\"ui\">patches</span> directory"
 msgstr ""
+"Baixe e coloque o arquivo de patch com extensão <b>.lua</b> neste diretório "
+"<span class=\"ui\">patches</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4716-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:4716-13"
 msgid "Restart KOReader"
-msgstr "Reiniciar o KOReader"
+msgstr "Reinicie o KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4720-9
 msgid "Patch manager"
-msgstr ""
+msgstr "Gerenciador de patches"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4722-9
 msgid ""
@@ -13208,7 +13229,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4724-9
 msgid "Naming the patch"
-msgstr ""
+msgstr "Nomeando o patch"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4726-9
 msgid ""
@@ -13219,32 +13240,38 @@ msgid ""
 "&lt;10010)</b>. If you are just downloading an already made patch you don’t "
 "need to change the file name."
 msgstr ""
+"A ordem de execução de um patch é determinada pelo primeiro dígito do número "
+"no nome do patch. Por exemplo: <span class=\"ui\">2-TOC-title-patch.lua</"
+"span>. Se houver vários patches começando com o mesmo dígito, a ordem de "
+"execução será a ordem natural <b>(1<10<11<12<13<…&lt;109<…&lt;10010)</b>. Se "
+"você estiver apenas baixando um patch já pronto, não precisa alterar o nome "
+"do arquivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4728-9
 msgid "Names starting with:"
-msgstr ""
+msgstr "Nomes que começam com:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4731-13
-#, fuzzy
 msgid "<b>0</b> - Executed very early and only once after an update"
 msgstr ""
-"<b>0</b> - Executados bem cedo e apenas uma vez depois de uma atualização"
+"<b>0</b> - Executados muito no início e apenas uma vez depois de uma "
+"atualização"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4732-13
 msgid ""
 "<b>1</b> - Excuted very early on every start of KOReader (but after 0 if "
 "applicable)"
 msgstr ""
-"<b>1</b> - Executados bem cedo e toda vez que o KOReader é iniciado "
-"(mas depois de 0 se aplicável)"
+"<b>1</b> - Executados muito no início e toda vez que o KOReader é iniciado "
+"(mas depois de 0, se aplicável)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4733-13
 msgid ""
 "<b>2</b> - Executed after <span class=\"ui\">UIManager</span> is ready on "
 "every start of KOReader"
 msgstr ""
-"<b>2</b> - Executados depois que <span class=\"ui\">UIManager</span> está "
-"pronto toda vez que o KOReader é iniciado"
+"<b>2</b> - Executados depois que o <span class=\"ui\">UIManager</span> está "
+"pronto, toda vez que o KOReader é iniciado"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4734-13
 msgid "<b>3-7</b> - Reserved"
@@ -13291,14 +13318,14 @@ msgid ""
 "<b>Alt+Tab</b> feature on the desktop computers. You can find this feature "
 "under:"
 msgstr ""
-"Se você precisa alternar entre dois documentos (ao compará-los, por "
-"exemplo), há uma forma mais rápida do que passar pelo <span "
-"class=\"ui\">Navegador de arquivos</span>. O KOReader pode abrir o último "
-"documento com um gesto (<b><span style=\"font-family: microns;\"></span> "
-"multiswipe</b>). Se você definir a ação de um gesto como <span "
-"class=\"ui\">Abrir documento anterior</span>, é possível alternar "
-"rapidamente entre dois documentos, de forma similar ao recurso <b>Alt+Tab</"
-"b> em computadores. Você pode encontrar este recurso em:"
+"Se você precisa alternar entre dois documentos (ao compará-los, por exemplo)"
+", há uma forma mais rápida do que passar pelo <span class=\"ui\">Explorador "
+"de arquivos</span>. O KOReader pode abrir o último documento com um gesto "
+"(<b><span style=\"font-family: microns;\"></span> multideslize</b>). Se "
+"você definir a ação de um gesto como <span class=\"ui\">Abrir documento "
+"anterior</span>, é possível alternar rapidamente entre dois documentos, de "
+"forma similar ao recurso <b>Alt+Tab</b> em computadores. Você pode encontrar "
+"este recurso em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4752-1
 msgid ""
@@ -13518,10 +13545,13 @@ msgid ""
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / \"your "
 "selected gesture\" / Device / Exit screensaver"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Gerenciador de gestos / "
+"\"seu gesto selecionado\" / Dispositivo / Sair do protetor de tela"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4813-9
 msgid "And then enable this option:"
-msgstr ""
+msgstr "E então habilite esta opção:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4814-13
 msgid ""
@@ -13529,10 +13559,14 @@ msgid ""
 "style=\"width:22px;\"> / Screen / Screensaver / Settings / Keep the "
 "screensaver on screen after wakeup / Until 'Exit screensaver' gesture"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tela / Protetor de tela / Configurações / Manter o "
+"protetor de tela na tela após a ativação / Até o gesto 'Sair do protetor de "
+"tela'"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4820-5
 msgid "Automatic screen dimming"
-msgstr ""
+msgstr "Escurecimento de tela automático"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4821-9
 msgid ""
@@ -13548,16 +13582,20 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Automatic dimmer"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tela / Dimmer automático"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4826-5
 msgid "Line/word count of a page"
-msgstr ""
+msgstr "Contagem de linhas/palavras de uma página"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4827-9
 msgid ""
 "If you want to know how many lines or words are being shown on the current "
 "page you can see it at:"
 msgstr ""
+"Se você quiser saber quantas linhas ou palavras estão sendo exibidas na "
+"página atual, você pode ver em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4829-9
 msgctxt "user_guide/en.html+html.body.div.div:4829-9"
@@ -13570,7 +13608,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4833-5
 msgid "Optimizing your battery life"
-msgstr ""
+msgstr "Otimizando a vida útil da bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4835-9
 msgid ""
@@ -13581,42 +13619,60 @@ msgid ""
 "means you start charging your device when the battery goes down to 20% and "
 "unplug when it reaches 80% (or 25%-75% if you are extra cautious)."
 msgstr ""
+"Baterias de íons de lítio sofrem maior degradação nos extremos de seus "
+"níveis de carga. Para minimizar essa degradação e prolongar a vida útil da "
+"bateria, você pode limitar o nível mínimo de descarga a <b>20%</b> e o nível "
+"máximo de carga a <b>80%</b> "
+"(como em veículos elétricos e alguns celulares mais novos). Isso significa "
+"que você começa a carregar o dispositivo quando a bateria chega a 20% e o "
+"desliga quando chega a 80% (ou 25% a 75%, se você for extremamente cauteloso)"
+"."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4837-9
 msgid ""
 "KOReader can warn you by showing an alert when charge level reaches your "
 "defined limits:"
 msgstr ""
+"O KOReader pode avisá-lo mostrando um alerta quando o nível de carga atingir "
+"seus limites definidos:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4839-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device Status Alerts / Battery Level"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Alertas de status do dispositivo / Nível da bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-5
 msgid "Checking your battery consumption details"
-msgstr ""
+msgstr "Verificando os detalhes do consumo da bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4843-9
 msgid "You can see your detailed battery usage statistics via this menu item:"
 msgstr ""
+"Você pode ver estatísticas detalhadas de uso da bateria por meio deste item "
+"de menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4845-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / More Tools / Battery Statistics"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Mais ferramentas / Estatísticas da bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4847-9
 msgid "Checking detailed device statistics"
-msgstr ""
+msgstr "Verificando estatísticas detalhadas do dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4848-9
 msgid ""
 "You can see your system information like <b>CPU/DISK SPACE/RAM</b> usage via "
 "this menu item:"
 msgstr ""
+"Você pode ver informações do sistema, como uso de <b>CPU/ESPAÇO EM DISCO/"
+"RAM</b>, por meio deste item de menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4850-9
 msgctxt "user_guide/en.html+html.body.div.div:4850-9"
@@ -13625,11 +13681,11 @@ msgid ""
 "style=\"width:22px;\"> / Help / System statistics"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / Help / Estatísticas do sistema"
+"style=\"width:22px;\"> / Ajuda / Estatísticas do sistema"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4855-9
 msgid "Keeping an eye on your memory usage"
-msgstr ""
+msgstr "Monitorando o uso da sua memória"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4856-9
 msgid ""
@@ -13639,24 +13695,36 @@ msgid ""
 "indicator to your <span class=\"ui\">STATUS BAR</span> and restart KOReader "
 "if this value gets high, to avoid crashes or reboots."
 msgstr ""
+"Em dispositivos Kindle mais antigos, alguns de nossos usuários relataram "
+"travamentos devido à memória limitada. O uso de memória do KOReader pode "
+"aumentar se você abrir muitos arquivos em uma sessão. Especialmente os PDFs "
+"aumentam essa quantidade. Você pode adicionar um indicador de memória à sua "
+"<span class=\"ui\">BARRA DE STATUS</span> e reiniciar o KOReader se esse "
+"valor ficar alto, para evitar travamentos ou reinicializações."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4858-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / KOReader memory usage"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de status / Uso de memória do KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4860-9
 msgid ""
 "Also you can configure KOReader to restart automatically if memory usage "
 "reaches a threshold via:"
 msgstr ""
+"Você também pode configurar o KOReader para reiniciar automaticamente se o "
+"uso de memória atingir um limite via:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4861-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Device Status Alerts"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Dispositivo / Alertas de status do dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4869-1
 msgctxt "user_guide/en.html+html.body.div.div:4869-1"
