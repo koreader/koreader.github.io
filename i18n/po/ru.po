@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-26 19:45+0000\n"
-"PO-Revision-Date: 2025-10-16 21:07+0000\n"
-"Last-Translator: blossombl <tooornik@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/ru/>\n"
+"PO-Revision-Date: 2025-10-27 20:02+0000\n"
+"Last-Translator: Ilya Kotelnikov <ilya.i.kotelnikov@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -51,11 +52,11 @@ msgstr "Переведено больше 80%"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:831-9
 msgid "🇨🇳 Chinese (Simplified Han script)"
-msgstr "Китайский (упрощённое письмо Хань)"
+msgstr "🇨🇳 Китайский (упрощённое письмо Хань)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:832-9
 msgid "🇳🇱 Dutch"
-msgstr "Голландский"
+msgstr "🇳🇱 Голландский"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:833-9
 msgid "🇮🇹 Italian"
@@ -67,11 +68,11 @@ msgstr "🇷🇸 Сербский"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:836-9
 msgid "🇸🇰 Slovak"
-msgstr "Словацкий"
+msgstr "🇸🇰 Словацкий"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:837-9
 msgid "🇮🇳 Tamil"
-msgstr "Тамильский"
+msgstr "🇮🇳 Тамильский"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:838-9
 msgid "🇺🇦 Ukrainian"
@@ -181,11 +182,8 @@ msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
-"<span class=\"label_red\">!!! ПРОДВИНУТЫЙ</span> У меня тег <b>ПРОДВИНУТЫЙ</"
-"b>. Если вы видите меня в теме, это означает, что вам необходимо обладать "
-"определенной степенью технических знаний, таких как работа с файловой "
-"системой, знание CSS, установка внешних файлов и т. д. в зависимости от "
-"процедуры."
+"<span class=\"label_red\">ПРЕДУПРЕЖДЕНИЕ</span> Я блок с предупреждениями. Я "
+"объясняю детали, когда вам необходимо быть особенно осторожными."
 
 #: user_guide/en.html%2Bhtml.body.div.div:897-5
 msgid ""
@@ -621,37 +619,35 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1068-1
 msgid "Transfer your reading materials in different ways"
-msgstr ""
+msgstr "Перенос ваших материалов для чтения разными способами"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1071-9
-#, fuzzy
 msgid ""
 "<b>USB mass storage</b> mode for supporting devices <a href=\"#L2-"
 "transferring\" class=\"internalink\"></a>"
 msgstr ""
-"С помощью плагина <span class=\"external\">Calibre</span> вы можете по Wi-Fi "
-"отправлять книги из библиотеки Calibre прямо на свои устройства с KOReader'ом"
+"Режим <b>записывающего устройства USB</b> для поддерживаемых устройств <a "
+"href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1073-9
-#, fuzzy
 msgid ""
 "<b>Cloud storage</b> (<span class=\"external\">Dropbox</span>/FTP/Webdav) "
 "with suitable accounts <a href=\"#L2-transferring\" class=\"internalink\"></"
 "a>"
 msgstr ""
-"С помощью плагина <b>загрузки новостей</b> вы можете загружать на свои "
-"устройства новостные ленты RSS и Atom в виде HTML-файлов"
+"<b>Облачное хранилище</b> "
+"(<span class=\"external\">Dropbox</span>/FTP/Webdav) с подходящими "
+"аккаунтами <a href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1075-9
-#, fuzzy
 msgid ""
 "KOReader can act as an <b>SSH server</b>, so you can use an SFTP application "
 "or your file manager to directly transfer files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"С помощью плагина Wallabag вы можете получать статьи из своей учетной записи "
-"Wallabag (серверная служба для последующего чтения, такая как <span "
-"class=\"external\">Pocket</span>)"
+"KOReader может выступать в качестве <b>SSH сервера</b>, так что вы можете "
+"использовать SFTP приложение или ваш файловый менеджер, чтобы напрямую "
+"передавать файлы <a href=\"#L2-pluginslist\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1077-9
 msgid ""
@@ -659,6 +655,9 @@ msgid ""
 "from your Calibre Library directly to your KOReader devices over wifi <a "
 "href=\"#L2-transferring\" class=\"internalink\"></a>"
 msgstr ""
+"С помощью плагина <span class=\"external\">Calibre</span> вы можете "
+"отправлять книги из библиотеки Calibre прямо на свои устройства с "
+"KOReader'ом по Wi-Fi <a href=\"#L2-transferring\" class=\"internalink\">⚙</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1079-9
 msgid ""
@@ -666,6 +665,9 @@ msgid ""
 "entries to your device as HTML files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"С помощью плагина <b>загрузки новостей</b> вы можете загружать на свои "
+"устройства новостные ленты RSS и Atom в виде HTML-файлов <a href="
+"\"#L2-pluginslist\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1081-9
 msgid ""
@@ -674,10 +676,14 @@ msgid ""
 "class=\"external\">Pocket</span>) <a href=\"#L2-transferring\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"С помощью плагина Wallabag вы можете получать статьи из своей учетной записи "
+"Wallabag (серверная служба для последующего чтения, такая как <span class="
+"\"external\">Pocket</span>) <a href=\"#L2-transferring\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1084-1
 msgid "Adjust the appearance of text as you wish"
-msgstr ""
+msgstr "Менять внешний вид текста по своему желанию"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1086-9
 msgid ""
@@ -1143,6 +1149,9 @@ msgid ""
 "XPS, FB2, PDB, CHM and MD</b> files. It can also open <b>ZIP</b> archives "
 "and show image files."
 msgstr ""
+"KOReader поддерживает файлы форматов <b>PDF, EPUB, DJVU, MOBI, CBZ, CBT, "
+"DOCX, RTF, HTML, TXT, XPS, FB2, PDB, CHM и MD</b>. Он также может открывать "
+"<b>ZIP</b> архивы и показывать файлы с изображениями."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1218-5
 msgid ""
@@ -1150,12 +1159,18 @@ msgid ""
 "may need to restart KOReader to index the transferred documents (or refresh "
 "directory if you have Pocketbook/Android)."
 msgstr ""
+"Существует много способов перенести документы на ваше устройство. Обратите "
+"внимание, что вам может понадобиться перезапустить KOReader, чтобы "
+"проиндексировать перенесенные документы "
+"(или обновить папку, если у вас Pocketbook/Android)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1220-5
 msgid ""
 "In addition to transferring files the same way you would with the built-in "
 "reader application, other options are available depending on your device:"
 msgstr ""
+"Помимо переноса файлов тем же способом, как и со встроенным приложением для "
+"чтения, альтернативные опции доступны в зависимости от вашего устройства:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1223-9
 msgid ""
@@ -1170,16 +1185,18 @@ msgid ""
 "menu shown below. Process is explained via <span class=\"ui\">info</span> "
 "buttons in the menu while adding accounts:"
 msgstr ""
+"<b>Облачное хранилище (<span class=\"external\">Dropbox</span>/FTP/Webdav):</"
+"b> Для использования этой функции необходимо добавить аккаунты для сервера "
+"облачного хранилища с помощью меню, показанного ниже. Процесс объяснен через "
+"кнопки <span class=\"ui\">инфо</span> в меню во время добавления аккаунтов:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1227-9
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / Cloud storage"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) / <img class=\"img_inline\" src="
+"\"pictures/top_tools.svg\" style=\"width:22px;\"> / Облачное хранилище"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1230-9
 msgid ""
@@ -1406,16 +1423,12 @@ msgid "<b>Changing the font*</b>:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1296-35
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Шрифт"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1297-5
 msgid "Make the font bigger"
@@ -1442,16 +1455,12 @@ msgid "Invert the colors on screen (white on black)"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1299-60
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Night Mode"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ночной режим"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1302-5
 msgid ""
@@ -1853,14 +1862,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1437-1
 msgid "Night Mode"
-msgstr ""
-"This feature turns your frontlight on at sunset and turns it off at sunrise "
-"according to your <span class=\"ui\">Currently active parameters</span> in "
-"this plugin. You can override this change by manually turning your "
-"frontlight on/off. On the next sunrise/sunset, <span "
-"class=\"ui\">AutoWarmth</span> will toggle it again if it is necessary. You "
-"can activate it by selecting <span class=\"ui\">Frontlight off during the "
-"day</span> menu item in this plugin."
+msgstr "Ночной режим"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1439-5
 msgid ""
@@ -2917,8 +2919,9 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
-"Если вы желаете изменить размер пользовательского интерфейса, для этого "
-"существует настройка <span class=\"ui\">DPI</span>:"
+"KOReader поддерживает <b>поиск в словаре</b> в документах формата EPUB и "
+"отсканированных PDF/DJVU документах. Чтобы увидеть словарное определение или "
+"перевод, необходимо просто нажать на слово и удерживать."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1847-9
 msgid ""
@@ -2963,14 +2966,8 @@ msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
-"<b>Прокрутка при выпуске</b>. Этот тип прокрутки больше подходит для экранов "
-"с электронными чернилами. Потому что, в отличие от других типов прокрутки, "
-"этот режим не обновляет страницу постоянно во время прокрутки. Он работает "
-"как <span class=\"ui\">классическая прокрутка</span>, но промежуточные этапы "
-"не отображаются. Итак, вы прокручиваете пальцем, а когда отпускаете, "
-"страница переходит в это положение. Это особенно полезно, <b>перемещать и "
-"настраивать вид</b>, если ваша книга содержит изображения или таблицы, и вы "
-"хотите увидеть их все."
+"<b>Классическая прокрутка:</b> Этот режим работает совершенно так же, как "
+"прокрутка на вашем телефоне/планшете."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1865-9
 msgid ""
@@ -2990,10 +2987,18 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>Прокрутка при выпуске:</b> Этот тип прокрутки больше подходит для экранов "
+"с электронными чернилами. Потому что, в отличие от других типов прокрутки, "
+"этот режим не обновляет страницу постоянно во время прокрутки. Он работает "
+"как <span class=\"ui\">классическая прокрутка</span>, но промежуточные этапы "
+"не отображаются. Таким образом, вы прокручиваете пальцем, а когда "
+"отпускаете, страница переходит в это положение. Это особенно полезно, чтобы "
+"<b>перемещать и настраивать вид</b>, если ваша книга содержит изображения "
+"или таблицы, и вы хотите увидеть их все."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1872-1
 msgid "Go back to previous location"
-msgstr ""
+msgstr "Вернуться к предыдущему местоположению"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1874-5
 msgid ""
@@ -3008,14 +3013,12 @@ msgstr ""
 "style=\"width:26px;\"> → Вернуться к предыдущему местоположению"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1876-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go back to previous location"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Вернуться к предыдущему местоположению"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1878-5
 #, fuzzy
