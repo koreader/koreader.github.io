@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 14:13+0000\n"
-"PO-Revision-Date: 2025-10-31 14:12+0000\n"
+"PO-Revision-Date: 2025-11-01 17:51+0000\n"
 "Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
@@ -733,8 +733,8 @@ msgid ""
 "Adjust your frontlight color warmth automatically <a href=\"#L2-autowarmth\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"Zmień kolor podświetlania przedniego automatycznie <a href=\"#L2-"
-"autowarmth\" class=\"internalink\"></a>"
+"Zmień kolor oświetlania przedniego automatycznie <a href=\"#L2-autowarmth\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1095-1
 msgid "Take notes and make highlights while reading"
@@ -1401,6 +1401,13 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
+"Na powyższym obrazku, przedstawione jest domyślne rozmieszczenie stref "
+"dotykowaych KOReadera. By wyświetlić <span class=\"ui\">górne menu</span> "
+"lub <span class=\"ui\">dolne menu</span> stuknij we wskazane strefy. Możesz "
+"również przesunąć w dół z górnej strefy by wyświetlić <span class=\"ui\""
+">górne menu</span>.Na niedotykowaych urządzeniach jak na przykład Kindle 4 "
+"możesz otworzyć <span class=\"ui\">dolne menu</span> poprzez nacisnięcie "
+"przycisku odpowiadającego za akcję <b>WPROWADZ/OK</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1278-5
 msgid ""
@@ -1411,6 +1418,12 @@ msgid ""
 "<b>most recently used menu tab</b>. And last area opens the <b>last menu "
 "tab</b>."
 msgstr ""
+"<span class=\"label_green\">WSKAZÓWKA</span> Jak przedstawiono na obrazku "
+"powyżej, <span class=\"ui\">górne menu</span> jest podzielone na 3 obszary. "
+"Jeśli przesuniesz w dół pierwszą 1/3 górnej krawędzi, <span class=\"ui\""
+">górne menu</span> otwiera <b>pierwszą zakładkę menu</b>.Kolejna 1/3 menu "
+"(środkowa) otwiera <b>ostatnio używaną zakladkę menu</b>. Ostatnia 1/3 menu "
+"otwiera <b>ostatnią zakładkę menu </b> ."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1280-5
 msgid ""
@@ -1419,12 +1432,18 @@ msgid ""
 "span> and <span class=\"ui\">bottom menu</span> at the same time via this "
 "menu:"
 msgstr ""
+"Jeśli chcesz otworzyć oba menu w tym samym czasie, możesz ustawić by obszar "
+"<span class=\"ui\">górnego menu</span> otwierał naraz <span class=\"ui\""
+">górne </span> jak i <span class=\"ui\">dolne menu</span>, ustawisz to w tym "
+"menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1282-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Activate Menu"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Stuknięcia i Gesty / Aktywuj Menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1285-5
 msgid ""
@@ -1432,12 +1451,17 @@ msgid ""
 "type of gestures including <b>TAP, DOUBLE TAP, TWO FINGER TAP</b> and <b>TAP "
 "and HOLD</b>."
 msgstr ""
+"<span class=\"ui\">Krawędziowe strefy dotykowe</span> mogą być użyte dla "
+"różnego rodzaju gestów w tym <b>STUKNIĘCIE, PODWÓJNIE STUKNIĘCIE, STUKNIĘCIE "
+"DWOMA PLACAMI </b> i <b> STUKNIĘCIE I PRZYTRZYMANIE</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1287-5
 msgid ""
 "<b>PREVIOUS PAGE</b> and <b>NEXT PAGE</b> zones can also be used for "
 "<b>DOUBLE TAP</b> gestures at the same time."
 msgstr ""
+"Strefy <b>POPRZEDNIA STRONA</b> i <b> NASTĘPNA STRONA</b> mogą być również "
+"użyte jako gesty <b>PODWÓJNEGO STUKNIĘCIA</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1289-5
 msgid ""
@@ -1446,60 +1470,59 @@ msgid ""
 "all items are visible, tapping will show and hide the <span "
 "class=\"ui\">status bar</span>."
 msgstr ""
+"Strefa dotykowa<span class=\"ui\">Paska Stanu</span>po kliknięciu zmienia "
+"wyświetlane elementy na <span class=\"ui\">Pasku Stanu</span> jeśli chociaż "
+"jeden element jest widoczny. Jeśli wszystkie elementy są widoczne, "
+"stuknięcie wyświetla bądź ukrywa <span class=\"ui\">Pasek Stanu</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1293-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:935-17"
-#| msgid "Changing text appearance"
 msgctxt "user_guide/en.html+html.body.div.div:1293-5"
 msgid "Changing text appearance"
 msgstr "Zmiana wyglądu tekstu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1296-5
-#, fuzzy
 msgid "<b>Changing the font*</b>:"
-msgstr "<b>Changing the Czcionka*</b>:"
+msgstr "<b>Zmiana Czcionki*</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1296-35
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Czcionka"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1297-5
-#, fuzzy
 msgid "Make the font bigger"
-msgstr "Make the Czcionka bigger"
+msgstr "Powiększanie czcionki"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1297-36
-#, fuzzy
 msgctxt ""
 "user_guide/en.html+html.body.div.ul.li.div:1297-36user_guide/en.html+html."
 "body.div.ul.li.div:1297-36"
 msgid "BOTTOM MENU /"
-msgstr "BOTTOM Menu /"
+msgstr "DOLNE MENU /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1298-5
-#, fuzzy
 msgid "Make the font bolder"
-msgstr "Make the Czcionka bolder"
+msgstr "Pogrubianie czcionki"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1298-36
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ul.li.div:1298-36"
 msgid "BOTTOM MENU /"
-msgstr "BOTTOM Menu /"
+msgstr "DOLNE MENU /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1299-5
-#, fuzzy
 msgid "Invert the colors on screen (white on black)"
-msgstr "Invert the colors Włączony Ekran (white Włączony black)"
+msgstr "Odwracanie kolorów na ekranie (białe na czarnym)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1299-60
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Night Mode"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1302-5
 msgid ""
@@ -1509,6 +1532,10 @@ msgid ""
 "section dedicated to <a href=\"#L1-customizingappearance\">CUSTOMIZING TEXT "
 "APPEARANCE</a>"
 msgstr ""
+"Możesz również zmienić inne opcje formatowania z <span class=\"ui\">DOLNEGO "
+"MENU</span>by dostosować wygląd tekstu.To są oczywiście wstępne wskazówki na "
+"dobry początek. Mamy pełną sekcje dedykowaną <a href="
+"\"#L1-customizingappearance\">DOSTOSOWYWANIU WYGLĄDU TEKSTU</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1304-5
 msgid ""
@@ -1516,11 +1543,14 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
+"<span class=\"label_blue\">INFO</span>*Wybieranie czcionki jest możliwe "
+"tylko na dostosowujących się do urządzenia formatach dokumentów "
+"(EPUB, HTML, DOCX, RTF, TXT…).Sztywno zdefiniowane formaty takie jak PDF/"
+"DJVU nie są wspierane."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1309-1
-#, fuzzy
 msgid "Controlling the backlight / frontlight"
-msgstr "Controlling the backlight / frontlight"
+msgstr "Sterowanie podświetleniem tylnim / oświetleniem przednim"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1311-5
 msgid ""
@@ -1528,28 +1558,36 @@ msgid ""
 "(normal white LEDs+orange ones) you can control them separately from this "
 "dialog. You can also define a gesture for this dialog:"
 msgstr ""
+"Możesz sterować podświetleniem ekranu poprzez to menu. Jeśli twoje "
+"urządzenie posiada ciepłe światło( zwykłe białe LEDy+pomarańczowe) możesz "
+"sterować nimi osobno z tego okna. Możesz też przypisać gesty do tego okna:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1313-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Frontlight"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Oświetlenie przednie"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1317-1
-#, fuzzy
 msgid "Changing the screen displayed while sleeping"
-msgstr "Changing the Ekran displayed while sleeping"
+msgstr "Zmiana wygaszacza ekranu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1319-2
 msgid ""
 "You can choose a book cover or a custom image as screensaver via this menu:"
 msgstr ""
+"Możesz wybrać okładkę książki lub dowolny wybrany obrazek jako wygaszacz "
+"ekranu poprzez to menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1321-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ekran/ Wygaszacz"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1323-5
 msgid ""
@@ -1557,12 +1595,18 @@ msgid ""
 "look best). Transfer the files from your computer into any folder on your "
 "device. And choose this folder as your screensaver folder via this menu:"
 msgstr ""
+"Możesz użyć plików JPG/PNG jako wygaszacza "
+"(należycie wyszumione, szare grafiki wyglądają najlepiej).Przenieś pliki z "
+"komputera na dowolny folder na czytniku i wybierz go jako folder wygaszaczy "
+"ekranu poprzez to menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1325-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver / Settings"
 msgstr ""
+"GŁÓWNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ekran/ Wygaszacz/ Ustawienia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1327-5
 msgid ""
@@ -1570,14 +1614,15 @@ msgid ""
 "php?p=3728291&postcount=17\">Mobileread forum post</a> for advanced "
 "information about preparing screensaver images."
 msgstr ""
+"Po bardziej zaawanoswane informacje na temat przygotowywania grafik pod "
+"wygaszacz ekranu zajrzyj do <a href="
+"\"https://www.mobileread.com/forums/showpost.php?p=3728291&postcount=17\""
+">Postu na Forum Mobileread</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1331-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:936-17"
-#| msgid "Keyboard Usage And Tips"
 msgctxt "user_guide/en.html+html.body.div.div:1331-1"
 msgid "Keyboard Usage And Tips"
-msgstr "Użycie klawiatury i wskazówki"
+msgstr "Używanie Klawiatury i Wskazówki"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1333-5
 msgid ""
@@ -1585,40 +1630,49 @@ msgid ""
 "shortcuts</span>, click <a href=\"#L2-keyboardshortcuts\">here</a> to go "
 "that section. This heading only explains the keyboard usage."
 msgstr ""
+"Jeśli szukasz inforamcji na temat <span class=\"ui\">skrótów klawiszowych </"
+"span>, kliknij <a href=\"#L2-keyboardshortcuts\">tutaj</a>by iść do tej "
+"sekcji. Ten nagłówek wyjaśnia tylko użytkowanie klawiatury w KOReaderze."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1336-3
 msgid ""
 "Tap outside the input field to close the keyboard, tap the input field to "
 "show the keyboard again"
 msgstr ""
+"Stuknij poza pole wprowadzania by zamknąć klawiaturę, stuknij w pole "
+"wprowadzania by wyświetlić klawiaturę ponownie"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1337-3
 msgid ""
 "<b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase "
 "if you are already in <b>shift</b> mode)"
 msgstr ""
+"<b>Przesuń w górę</b> na klawiszu by wyświetlić małą wersję tej litery "
+"(lub wielką jeśli już jesteś w trybie <b>shifta</b>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1338-3
-#, fuzzy
 msgid "You can change the appearance of the keyboard:"
-msgstr "You can change the appearance of the keyboard:"
+msgstr "Możesz zmienić wygląd klawiatury:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1339-4
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard settings"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Urządzenie/ Klawiatura/ Ustwaienia Klawiatury"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1340-3
-#, fuzzy
 msgid "You can select more than one layout:"
-msgstr "You can select more than one Układ:"
+msgstr "Możes wybrać więcej niż jeden układ:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1341-4
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard layout"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Urządzenie / Klawiatura / Układ Klawiatury"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1342-3
 msgid ""
@@ -1626,11 +1680,13 @@ msgid ""
 "loading=\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" "
 "style=\"width:22px;\"> icon on the keyboard"
 msgstr ""
+"Możesz przechodzić pomiędzy wybranymi układami poprzez stuknięcie w <img "
+"loading=\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" "
+"style=\"width:22px;\"> ikonę na klawiaturze"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1347-1
-#, fuzzy
 msgid "Entering extra characters"
-msgstr "Entering extra characters"
+msgstr "Wprowadzenie dodatkowych znaków"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1349-5
 msgid ""
@@ -1638,6 +1694,10 @@ msgid ""
 "key. Most frequently used extra characters are shown below. You can tap and "
 "hold the key in the <b>gray box</b> to get the surrounding characters:"
 msgstr ""
+"Klawiatura KOReadera daje możliwość wprowadzania specialnych znaków po "
+"przytrzymaniu klawisza. Najbardziej popularne w użytku znaki zostały "
+"przedstawione poniżej. Możesz też przytrzymać klawisz na <b>szarym tle</b>by "
+"otrzymać okoliczne znaki:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1353-5
 msgid ""
@@ -1649,11 +1709,22 @@ msgid ""
 "swipe on the keys. Once you get used to the locations of the extra "
 "characters, you can enter them much quicker this way."
 msgstr ""
+"Oprócz wyskakującego okienka po dłuższym przytrzymaniu, możesz również "
+"wprowadzać te znaki poprzez gest przesunięcia na klawiszach. W przykładzie "
+"poniżej, poprzez gest przesunięcia w górę na klawiszu<b>a</b> można "
+"wprowadzić <b>wielką literę A</b> lub przez przesunięcie w innych kierunkach "
+"wprowadzać znaki specialne. Miej na uwadze, że przykład zilustrowany niżej "
+"jest w formie okienka dla lepszej demonstracji. Nie musisz otwierać tego "
+"okienka, możesz bezpośrednio przesuwać po klawiszach. Kiedy już zapoznasz "
+"się z umiejscowieniem specialnych znaków, możesz je wpisywać znacznie "
+"szybciej w ten sposób."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1357-5
 msgid ""
 "If this feature interferes with your usage, you can disable it by unchecking:"
 msgstr ""
+"Jeśli ta funkcja przeszkadza ci w uzytkowaniu urządzenia, możesz ją wyłączyć "
+"poprzez odznaczenie:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1359-5
 msgid ""
@@ -1661,54 +1732,59 @@ msgid ""
 "style=\"width:22px;\">/ Device / Keyboard / Swipe to input additional "
 "characters"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\">/ Urządzenie / Klawiatura / Przesuń by wprowadzać dodatkowe "
+"znaki"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1361-5
 msgid ""
 "Additionally there are some shortcuts for easier text manipulation. You can "
 "<b>tap and hold</b> these keys for extra actions:"
 msgstr ""
+"Dodatkowo poniżej przedstawiono kilka skrótów dla łatwiejszego manipulowania "
+"tekstem. Możesz <b>przytrzymać</b> te klawisze po więcej akcji:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1363-9
-#, fuzzy
 msgid "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
-msgstr "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
+msgstr "<b>Strzałka w Lewo</b> - Umiszcza kursor na początku linijki"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1364-9
-#, fuzzy
 msgid "<b>Right Arrow</b> - Moves the cursor to the end of the line"
-msgstr "<b>Right Arrow</b> - Moves the cursor to the end of the line"
+msgstr "<b>Strzałka w Prawo</b> -Umieszcza kursor na koniec linijki"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1367-5
 msgid ""
 "Also <span class=\"ui\">backspace</span> key behaves different when you make "
 "swipe gestures on it:"
 msgstr ""
+"Także klawisz <span class=\"ui\">backspace</span> zachowuje się innaczej "
+"kiedy wykonasz na nim gest przesunięcia:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1370-9
-#, fuzzy
 msgid "<b>Tap:</b> Delete a character"
-msgstr "<b>Tap:</b> Usuń a character"
+msgstr "<b>Stuknięcie:</b> Usuwa znak"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1371-9
-#, fuzzy
 msgid "<b>Long-press:</b> Delete the whole line"
-msgstr "<b>Long-press:</b> Usuń the whole line"
+msgstr "<b>Przytrzymanie:</b> Usuwa całą linijkę"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1372-9
 #, fuzzy
 msgid "<b>Swipe left:</b> Delete part of the word left of the cursor"
-msgstr "<b>Swipe left:</b> Usuń part of the word left of the cursor"
+msgstr "<b>Przesunięcie w lewo:</b> Usuwa częśc słowa na lewo od kursora"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1373-9
-#, fuzzy
 msgid "<b>Swipe up:</b> Delete the whole word"
-msgstr "<b>Swipe up:</b> Usuń the whole word"
+msgstr "<b>Przesunięcie w górę:</b> Usuwa całe słowo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1376-2
 msgid ""
 "For more information, you can check the <a href=\"https://github.com/"
 "koreader/koreader/wiki/Virtual-keyboard\">related wiki page</a>."
 msgstr ""
+"Po więcej informacji , odwiedź <a href="
+"\"https://github.com/koreader/koreader/wiki/Virtual-keyboard\">powiązaną "
+"stronę wiki </a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1378-5
 msgid ""
@@ -1717,14 +1793,15 @@ msgid ""
 "it in our <a href=\"https://github.com/koreader/koreader/wiki/Chinese-"
 "keyboard\">wiki</a>."
 msgstr ""
+"KOReader również wspiera chińską klawiaturę kreskową dla wprowadzania "
+"uproszczonych i tradycyjnych chińskich znaków.Możesz znaleźć więcej "
+"informacji na ten temat w naszej <a href="
+"\"https://github.com/koreader/koreader/wiki/Chinese-keyboard\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1382-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:937-17"
-#| msgid "Auto Warmth And Night Mode"
 msgctxt "user_guide/en.html+html.body.div.div:1382-1"
 msgid "Auto Warmth And Night Mode"
-msgstr "Automatyczna temperatura oświetleniowi i tryb nocny"
+msgstr "Automatyczna Barwa Światła i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1384-5
 msgid ""
