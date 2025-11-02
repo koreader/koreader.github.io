@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-01 17:52+0000\n"
-"PO-Revision-Date: 2025-11-01 17:51+0000\n"
-"Last-Translator: Kamil Graczyk <graczyk53@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/pl/>\n"
+"PO-Revision-Date: 2025-11-03 09:51+0000\n"
+"Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
@@ -293,7 +293,7 @@ msgstr "Użycie klawiatury i wskazówki"
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:942-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:942-17"
 msgid "Auto Warmth And Night Mode"
-msgstr "Automatyczna temperatura oświetleniowi i tryb nocny"
+msgstr "Automatyczna Temperatura Światła i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:946-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:946-9"
@@ -1797,7 +1797,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1382-1
 msgctxt "user_guide/en.html+html.body.div.div:1382-1"
 msgid "Auto Warmth And Night Mode"
-msgstr "Automatyczna Barwa Światła i Tryb Nocny"
+msgstr "Automatyczna Temperatura Światła i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1384-5
 msgid ""
@@ -1809,18 +1809,29 @@ msgid ""
 "class=\"ui\">only night mode control</span> mode, so you can adjust the "
 "other one manually."
 msgstr ""
+"Ta wtyczka pozwala na dostosowanie barwy oświetlenia przedniego w "
+"urządzeniach z wbudowanym <b>naturalnym (żółtym/pomarańczowym) światłem</b> "
+"i ustawianie <span class=\"ui\">trybu nocnego</span>(odwrócone kolory "
+"wyświetlania -<b>biały tekst na czarnym tle</b>automatycznie w zależności od "
+"harmonogramu. Wtyczka może kontrolować obie te opcje lub możesz wybrać by "
+"kontrolowała<span class=\"ui\"> tylko barwę</span> bądź <span class=\"ui\""
+">tylko tryb nocny</span> a ty drugą z nich manualnie."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1386-5
 msgid ""
 "This plugin comes enabled as default when you install KOReader. If for some "
 "reason it is not in the menu, you can enable it here:"
 msgstr ""
+"Wtyczka jest włączona domyślnie po zainstalowaniu KOReadera. Jeśli z "
+"jakiejkolwiek przyczyny nie ma jej w menu, możesz włączyć ją tutaj:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1388-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / More tools / Auto Warmth and Night Mode"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" style="
+"\"width:22px;\"> / Więcej narzędzi / Auto Barwa i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1390-5
 msgid ""
@@ -1829,12 +1840,17 @@ msgid ""
 "in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</"
 "b> option is set to <b>Disabled</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Jeśli posiadasz urządzenie PocketBook "
+"i pasek regulacji oświetlenia i barwy nie działa w KOReaderze, upewnij się, "
+"że w czytniku PocketBook (który wchodzi w skład urządzenia) opcja<b> "
+"SmartLight-Auto</b>jest ustawiona na <b>Wyłącz</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1393-5
 msgid ""
 "You can adjust the warmth of your screen frontlight automatically in two "
 "different ways:"
 msgstr ""
+"Możesz dostosować barwę oświetlenia ekranu automatycznie na dwa sposoby:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1395-5
 msgid ""
@@ -1843,6 +1859,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Zdefiniowany harmonogram</span> w tym trybie barwa "
+"oświetlenia zmienia się w zależności od harmonogramu dna, który "
+"wprowadziłeś. Ten tryb jest <b>statyczny</b>, nie bierze pod uwagę długości "
+"dnia. Harmonogram pozostaje niezmienny przez cały rok."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1397-5
 msgid ""
@@ -1853,51 +1873,54 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Pozycja Słońca:</span>Ta opcja oblicza pozycję Słońca w "
+"twojej lokalizacji w oparciu o informacje na temat <b>współrzędnych</b> i "
+"<b> wysokości nad poziomem morza</b>, które podano. Barwa światła jest "
+"dostosowywana stopniowo zgodnie z obliczoną pozycją Słońca. Ten tryb jest "
+"<b>dynamiczny</b>.Tak jak długość dnia zmienia się w przeciągu roku, tak też "
+"wtyczka dopasowuje się do harmonogramu wschodu i zachodu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1399-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Rzuć okiem na poniższą grafikę by zaznajomić się z terminami podanymi we "
+"wtyczce:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1403-5
-#, fuzzy
 msgid "Fixed Schedule Mode"
-msgstr "Fixed Schedule Tryb"
+msgstr "Tryb Stałego Harmonogramu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1406-3
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:1406-3"
 msgid "Go to the plugin menu:"
-msgstr "Go to the wtyczka Menu:"
+msgstr "Wejdź do menu wtyczki:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1406-30
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/"
-#| "en.html+html.body.div.div.table.tr.td.div:876-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1406-30"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"MENU GÓRNE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Styl wyróżnienia"
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Auto Barwa i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1408-3
 msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Stuknij w <span class=\"ui\">Aktywuj</span> , następnie w <span class=\"ui\""
+">Zgodnie ze stałym harmonogramem</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1410-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Cofnij się do poprzedniego menu i stuknij w <span class=\"ui\">Ustawienia "
+"Stałego Harmonogramu</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1412-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1412-3"
@@ -1905,39 +1928,34 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Ustaw harmonogram zmiany barwy światła poprzez wprowadzenie godziny dla "
+"różnych pór dnia. Wspomóż się obrazkiem powyżej dla zrozumienia tych pór."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1417-1
-#, fuzzy
 msgid "Sun’s Position Mode"
-msgstr "Sun’s Position Tryb"
+msgstr "Tryb Pozycji Słońca"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:1420-13"
 msgid "Go to the plugin menu:"
-msgstr "Go to the wtyczka Menu:"
+msgstr "Wejdź do menu wtyczki:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1421-17
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/"
-#| "en.html+html.body.div.div.table.tr.td.div:876-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1421-17"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"MENU GÓRNE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Styl wyróżnienia"
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Auto Barwa i Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1423-13
 msgid ""
 "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
 "class=\"ui\">According to the sun's position</span>"
 msgstr ""
+"Stuknij w<span class=\"ui\">Aktywuj</span>, następnie w <span class=\"ui\""
+">Zgodnie z pozycją Słońca</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1425-13
 msgid ""
@@ -1945,12 +1963,17 @@ msgid ""
 "menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> "
 "(optional) correctly and give a <b>name</b> to your location."
 msgstr ""
+"Cofnij się do poprzedniego menu i stuknij w <span class=\"ui\">Ustawienia "
+"Lokacji</span>.Ustaw swoje <b>współrzędne</b>(niezbędne) i <b>wysokość "
+"n.p.m.</b>(opcjonalne) poprawnie i nadaj <b>nazwę</b> swojej lokacji."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1427-13
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Warmth and night mode "
 "settings</span> menu item"
 msgstr ""
+"Wróć do poprzedniego menu i stuknij w <span class=\"ui\">Ustawienia Barwy i "
+"Trybu Nocnego</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1429-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1429-13"
@@ -1958,17 +1981,20 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Ustaw harmonogram zmiany barwy światła poprzez wprowadzenie godziny dla "
+"różnych pór dnia. Wspomóż się obrazkiem powyżej dla zrozumienia tych pór."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1432-5
 msgid ""
 "You can see your current schedule via <span class=\"ui\">Currently active "
 "parameters</span> menu option."
 msgstr ""
+"Możesz sprawdzić swój obecny harmonogram w opcji <span class=\"ui\""
+">Aktualnie Aktywne Parametry</span> w menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1437-1
-#, fuzzy
 msgid "Night Mode"
-msgstr "Night Tryb"
+msgstr "Tryb Nocny"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1439-5
 msgid ""
@@ -1980,6 +2006,13 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Podczas ustawiania procentów ciepła światła dla różnych odstępów czasowych, "
+"można również ustawić ten interwał na <span class=\"ui\">Tryb Nocny</span>, "
+"który odwraca kolory na ekranie kiedy się on zaczyna. Możesz aktywować tą "
+"funkcję jeśli minimalna wartość jasności światła jest nadal zbyt jasna lub "
+"jeśli wolisz ciemny motyw. By ją włączyć, w dialogu poniżej, stuknij w "
+"kratkę<span class=\"ui\">Tryb Nocny</span> następnie w <span class=\"ui\""
+">Ustaw</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1441-5
 msgid ""
@@ -1987,11 +2020,13 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"Kiedy to zrobisz <b>ikona księżyca</b> pojawi się w menu obok tego "
+"interwału. By wyłączyć tryb nocny, po prostu odznacz kratkę<span class=\"ui\""
+">Tryb Nocny</span> w tym interwale."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1447-1
-#, fuzzy
 msgid "Frontlight auto on/off"
-msgstr "Frontlight Automatyczny Włączony/Wyłączony"
+msgstr "Automatyczne oświetlenie wł / wył"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1449-5
 msgid ""
@@ -2003,27 +2038,32 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Ta funkcja włącza oświetlenie przy zachodzie Słońca i wyłącza przy wschodzie "
+"zgodnie z <span class=\"ui\">Aktualnymi Aktywnymi Parametrami</span> we "
+"wtyczce. Możesz nadpisać tę zmianę, ręcznie włączając lub wyłączając "
+"oświetlenie. Przy następnym zachodzie/wschodzie<span class=\"ui\">Auto "
+"Barwa</span> załączy ją znowu jeśli jest to konieczne. Można aktywować ją "
+"zaznaczając <span class=\"ui\">Oświetlenie wył</span> w trakcie dnia."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1453-1
-#, fuzzy
 msgid "Faster warmth transitions"
-msgstr "Szybsze przejścia ciepłoty"
+msgstr "Szybsza zmiana barwy"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1455-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
+"Jeśli chcesz by ciepła barwa oświetlenia zmieniała się szybciej niż "
+"stopniowo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1457-9
-#, fuzzy
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr "Set the Tryb to <b>Fixed schedule</b> following the instructions above"
+msgstr "Ustaw tryb <b>Stałego Harmonogramu</b> według instrukcji powyżej"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1458-9
-#, fuzzy
 msgid "And adjust the settings similar to the image below:"
-msgstr "And adjust the Ustawienia similar to the Obraz below:"
+msgstr "I dostosuj ustawienia podobnie jak na obrazu poniżej:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1463-5
 msgid ""
@@ -2032,11 +2072,12 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
+"Jak można dostrzec w ustawieniach powyżej, jest tylko minuta różnicy "
+"pomiędzy przejściem dzień-noc. W związku z tym zmiana barwy oświetlenia "
+"następuje z <b>0 do 100 (i na odwrót w zaledwie minutę</b> Można oczywiście "
+"zwiększyć przerwę czasową by wydłużyć to przejście."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1471-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:941-9"
-#| msgid "LEARNING THE USER INTERFACE"
 msgctxt "user_guide/en.html+html.body.div.div:1471-1"
 msgid "LEARNING THE USER INTERFACE"
 msgstr "NAUKA INTERFEJSU UŻYTKOWNIKA"
@@ -2047,6 +2088,9 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"KOReader ma prosty, głównie czarno-biały interfejs użytkownika, ponieważ "
+"gradient i różne odcienie szarości mogą spowodować miganie i duplikowanie "
+"obrazu na ekranach e-ink, co może pogorszyć komfort czytania."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1475-5
 msgid ""
