@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 09:53+0000\n"
-"PO-Revision-Date: 2025-10-31 14:03+0000\n"
+"PO-Revision-Date: 2025-11-04 09:35+0000\n"
 "Last-Translator: Monstrinha <monstrinha@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_PT/>\n"
@@ -1562,8 +1562,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver"
 msgstr ""
-"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Ecrã / Protetor de Ecrã"
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ecrã / Ecrã de Suspensão"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1323-5
 msgid ""
@@ -1819,12 +1819,19 @@ msgid ""
 "in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</"
 "b> option is set to <b>Disabled</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Se tiver um dispositivo PocketBook e "
+"a luz frontal ou o controlo deslizante de temperatura não estiverem a "
+"funcionar no KOReader, certifique-se de que no leitor PocketBook "
+"(que acompanha o seu dispositivo) a opção <b>SmartLight-Auto</b> está "
+"definida para <b>Desativada</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1393-5
 msgid ""
 "You can adjust the warmth of your screen frontlight automatically in two "
 "different ways:"
 msgstr ""
+"Pode ajustar a temperatura da cor da luz frontal do seu ecrã automaticamente "
+"de duas formas diferentes:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1395-5
 msgid ""
@@ -1833,6 +1840,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Programação fixa:</span> Neste modo, a temperatura da cor "
+"da luz frontal altera-se de acordo com a programação diária que introduziu. "
+"Este modo é <b>estático</b>, não tem em conta a duração da luz do dia. A "
+"programação mantém-se a mesma durante todo o ano."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1397-5
 msgid ""
@@ -1843,12 +1854,20 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Posição do Sol:</span> Esta opção calcula a posição do "
+"Sol na sua localização de acordo com as informações das <b>coordenadas</b> e "
+"a <b>altitude</b> que introduziu. A temperatura da cor da luz frontal é "
+"ajustada gradualmente de acordo com estes dados calculados da posição do "
+"Sol. Este modo é <b>dinâmico</b>. À medida que a duração da luz do dia muda "
+"ao longo do ano, o plugin ajusta a programação em conformidade."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1399-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Primeiro, dê uma vista de olhos a esta imagem para se familiarizar com os "
+"termos utilizados no plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1403-5
 msgid "Fixed Schedule Mode"
@@ -1873,6 +1892,8 @@ msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Toque no item de menu Activar e, em seguida, toque em <span class=\"ui\">De "
+"acordo com a programação fixa</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1410-3
 msgid ""
@@ -1894,7 +1915,7 @@ msgstr "Modo de Posição do Sol"
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1420-13"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Vá até o menu de plugins:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1421-17
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1421-17"
@@ -2028,7 +2049,7 @@ msgstr "Ecrã de Leitura"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1480-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "<b>ECRÃ DE LEITURA</b> tem dois menus:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1483-3
 msgid ""
@@ -2257,7 +2278,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1587-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Benefícios dos números de pagina referência:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1589-9
 msgid ""
@@ -2356,7 +2377,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1618-1
 msgid "Configuring the status bar"
-msgstr ""
+msgstr "A configurar barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1620-2
 msgid ""
@@ -2398,7 +2419,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1636-5
 msgid "Sorting the status bar items:"
-msgstr ""
+msgstr "Organização dos itens da barra de estado:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1638-5
 msgid ""
@@ -2691,8 +2712,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Barra de estado / Alternatica de barra de estado"
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de Estado / Barra de Estado Elternativa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1765-5
 msgid ""
@@ -2939,7 +2960,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1872-1
 msgid "Go back to previous location"
-msgstr ""
+msgstr "Voltar à localização anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1874-5
 msgid ""
@@ -3079,7 +3100,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1929-1
 msgid "Using the Skim Widget"
-msgstr ""
+msgstr "A utilizar navegação rápida"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1931-5
 msgid ""
@@ -3245,7 +3266,7 @@ msgstr "navegação por capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1987-9
 msgid "reading time left estimates"
-msgstr ""
+msgstr "Estimativas de tempo de leitura restante"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1989-5
 msgid "These options are in the same menu."
@@ -3367,7 +3388,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2029-13
 msgid "Triangle shows your current page."
-msgstr ""
+msgstr "Triângulo mostra a página atual."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2030-13
 msgid "Vertical scrollbar shows your current view level."
@@ -3803,7 +3824,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2177-5
 msgid "Working with the hidden sections:"
-msgstr ""
+msgstr "Trabalhar com secções escondidas:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2179-5
 msgid ""
@@ -4002,7 +4023,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2241-1
 msgid "Creating different groups of settings"
-msgstr ""
+msgstr "Criar grupos diferentes de definições"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2243-5
 msgid ""
@@ -4015,7 +4036,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2245-5
 msgid "For example you can create:"
-msgstr ""
+msgstr "Por exemplo, pode criar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2248-9
 msgid ""
@@ -4271,7 +4292,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2336-5
 msgid "What is a style tweak?"
-msgstr ""
+msgstr "O que é uma alteração de estilo?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2337-5
 msgid ""
@@ -4418,7 +4439,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2401-5
 msgid "How to add style tweaks"
-msgstr ""
+msgstr "Como adicionar alterações de estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2403-5
 msgid ""
@@ -4429,7 +4450,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2407-5
 msgid "1. Built-in style tweaks"
-msgstr ""
+msgstr "1. Ajustes de estilo incorporados"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2409-5
 msgid ""
@@ -4523,7 +4544,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2440-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Alterações dos estilos de utilizador"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2442-9
 msgid ""
@@ -4538,11 +4559,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2447-13
 msgid "Create your user tweak file"
-msgstr ""
+msgstr "Crie o seu ficheiro de alterações de estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2448-13
 msgid "Transfer it to your device"
-msgstr ""
+msgstr "Transfira para o seu dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2449-13
 msgid "Enable your tweak from the menu"
@@ -4591,7 +4612,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2471-9
 msgid "2. Enabling the tweak:"
-msgstr ""
+msgstr "2. Activar a alteração:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2472-9
 msgid "After the restart, open a book and go to this menu:"
@@ -4635,7 +4656,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2484-9
 msgid "How to use tweaks efficiently"
-msgstr ""
+msgstr "Como usar as suas alterações efetivamente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2486-9
 msgid ""
@@ -4724,7 +4745,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2516-5
 msgid "Finding elements for modifying"
-msgstr ""
+msgstr "Encontrar elementos para modificar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2518-5
 msgid ""
@@ -4819,7 +4840,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2571-5
 msgid "Some tips for color highlights:"
-msgstr ""
+msgstr "Algumas dicas para destaques coloridos:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2574-9
 msgid ""
@@ -4839,7 +4860,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2579-1
 msgid "Setting the defaults for highlights"
-msgstr ""
+msgstr "Definir o padrão para destaques"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2585-9
 msgid ""
@@ -4908,7 +4929,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2618-9
 msgid "Long-press on the starting word"
-msgstr ""
+msgstr "Premir continuamente no inicio da palavra"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2619-9
 msgid "Move your finger to the end of the passage"
@@ -4934,7 +4955,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2629-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Modo de destaque e selecção"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2631-5
 msgid ""
@@ -5054,7 +5075,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2673-1
 msgid "Selecting punctuation while highlighting"
-msgstr ""
+msgstr "A seleccionar pontuação enquanto destaca"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2675-5
 msgid ""
@@ -5142,7 +5163,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2707-13
 msgid "Tap on the highlight"
-msgstr ""
+msgstr "Toque no destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2708-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
@@ -5203,11 +5224,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2731-5
 msgid "You can choose to show:"
-msgstr ""
+msgstr "Pode escolher mostrar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2733-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr ""
+msgstr "<b>Apenas</b> texto destacado (comportamento padrão)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2734-9
 msgid "<b>Both</b> highlight text and the note"
@@ -5251,7 +5272,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2751-9
 msgid "With a gesture or"
-msgstr ""
+msgstr "Com um gesto ou"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2752-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
@@ -5265,7 +5286,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2758-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Plugin Exporte de Destaques"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2760-5
 msgid ""
@@ -5517,7 +5538,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2877-5
 msgctxt "user_guide/en.html+html.body.div.div:2877-5"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "MENU INFERIOR /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2881-2
 msgid ""
@@ -5651,7 +5672,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2940-1
 msgid "Saving highlights into PDF"
-msgstr ""
+msgstr "A guardar destaques num PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2942-5
 msgid ""
@@ -5716,19 +5737,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2958-13
 msgid "✅ Chrome Browser (All platforms)"
-msgstr ""
+msgstr "✅ Chrome Browser (plataformas todas)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2959-13
 msgid "✅ Deepin Reader (Linux)"
-msgstr ""
+msgstr "✅ Deepin Reader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2960-13
 msgid "✅ Firefox Browser (All platforms)"
-msgstr ""
+msgstr "✅ Firefox Browser (Plataformas todas)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2961-13
 msgid "✅ Ghostscript (All platforms)"
-msgstr ""
+msgstr "✅ Ghostscript (platformas todas)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2962-13
 msgid "✅ MuPDF (Windows/Android)"
@@ -5740,7 +5761,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2964-13
 msgid "❌ Adobe Acrobat Reader"
-msgstr ""
+msgstr "❌ Adobe Acrobat Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2965-13
 msgid "❌ Evince (Linux)"
@@ -5752,11 +5773,11 @@ msgstr "❌ Foxit Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2967-13
 msgid "❌ LibreOffice Draw (as editor)"
-msgstr ""
+msgstr "❌ LibreOffice Draw (como editor)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2968-13
 msgid "❌ Moon Reader (Android)"
-msgstr ""
+msgstr "❌ Moon Reader (Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2969-13
 msgid "❌ Okular (Linux)"
@@ -5927,7 +5948,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3029-1
 msgid "READING COMICS AND MANGA"
-msgstr ""
+msgstr "LER COMICS E MANGA"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3031-5
 msgctxt "user_guide/en.html+html.body.div.div:3031-5"
@@ -5954,7 +5975,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3037-5
 msgid "This action is under:"
-msgstr ""
+msgstr "Esta acção está sob:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3039-5
 msgid ""
@@ -5999,7 +6020,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3053-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "Procedimento pode ser visto abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3057-5
 msgid ""
@@ -6064,7 +6085,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3082-1
 msgid "Which file type to use"
-msgstr ""
+msgstr "Que tipo de ficheiro usar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3083-5
 msgid ""
@@ -6099,7 +6120,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3089-1
 msgid "Which resolution to use"
-msgstr ""
+msgstr "Que resolução usar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3090-5
 msgid ""
@@ -6143,7 +6164,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3099-1
 msgid "Advanced preparation of manga"
-msgstr ""
+msgstr "Preparação avançada de manga"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3101-5
 msgid "The following is an example procedure to process one manga file:"
@@ -6197,7 +6218,7 @@ msgstr "Outras dicas para manga"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3124-1
 msgid "Immersive mode in KOReader"
-msgstr ""
+msgstr "Modo imersivo no KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3126-5
 msgid ""
@@ -6210,7 +6231,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3130-1
 msgid "Extra step for smooth gradients"
-msgstr ""
+msgstr "Passo extra para gradiente suave"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3132-5
 msgctxt "user_guide/en.html+html.body.div.p:3132-5"
@@ -6395,7 +6416,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3210-1
 msgid "Working on multiple files"
-msgstr ""
+msgstr "Trabalhar em múltiplos ficheiros"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3212-5
 msgid ""
@@ -6503,7 +6524,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3238-5
 msgid "Adding a folder shortcut:"
-msgstr ""
+msgstr "Adicionar atalho para pasta:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3239-5
 msgid ""
@@ -6541,7 +6562,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3250-5
 msgid "Viewing your folder shortcuts:"
-msgstr ""
+msgstr "Ver atalhos para pastas:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3251-5
 msgid ""
@@ -6628,11 +6649,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3285-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3285-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Abrir com…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3286-5
 msgid "Tap <span class=\"ui\">Archive viewer</span>"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Visualizador de Arquivo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3289-5
 msgid ""
@@ -6662,11 +6683,11 @@ msgstr "<b>LivroFiccional</b> - nomedoseuficheiro.<b>fb2.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3297-9
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
-msgstr ""
+msgstr "<b>HTML</b> - oseuficheiro.htm.zip / oseuficheiro.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3298-9
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
-msgstr ""
+msgstr "<b>Ficheiro de logs</b> - oseuficheiro.<b>log.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3299-9
 msgid "<b>Markdown</b> - yourfilename.<b>md.zip</b>"
@@ -6674,11 +6695,11 @@ msgstr "<b>Markdown</b> - seu nome do ficheiro.<b>md.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3300-9
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
-msgstr ""
+msgstr "<b>Formato de texto enriquecido</b> - oseuficheiro.<b>rtf.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3301-9
 msgid "<b>Plain text</b> - yourfilename.<b>txt.zip</b>"
-msgstr ""
+msgstr "<b>Texto simples</b> - seuficheiro.<b>txt.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3304-5
 msgid ""
@@ -6708,11 +6729,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3312-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3312-5"
 msgid "Tap <span class=\"ui\">Open with…</span>"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Abrir com…</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3313-5
 msgid "Tap <span class=\"ui\">Image viewer</span>"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Visualizador de imagem</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3316-2
 msgid "Viewing Markdown files"
@@ -6830,7 +6851,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3357-9
 msgid "<b>Genres:</b> Fiction, non-fiction, memoir..."
-msgstr ""
+msgstr "<b>Géneros:</b> Ficção, não Ficção, memoir..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3358-9
 msgid ""
@@ -6847,7 +6868,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3365-1
 msgid "Creating and modifying collections"
-msgstr ""
+msgstr "Criar e modificar colecções"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3366-5
 msgid ""
@@ -6901,7 +6922,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3384-1
 msgid "Adding books to your collections"
-msgstr ""
+msgstr "Adicionar livros às suas colecções"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3386-2
 msgid ""
@@ -6930,7 +6951,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3395-3
 msgid "Long press on a book"
-msgstr ""
+msgstr "Premir continuamente o seu livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3396-3
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
@@ -6958,7 +6979,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3406-2
 msgid "2. From the Collections menu"
-msgstr ""
+msgstr "2. A partir do menu de Colecções"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3407-2
 msgid ""
@@ -7010,7 +7031,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3424-1
 msgid "Removing books from your collections"
-msgstr ""
+msgstr "Remover os livros das suas colecções"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3426-9
 msgid ""
@@ -7119,7 +7140,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3459-1
 msgid "Automatically synchronizing collections with folders"
-msgstr ""
+msgstr "Sincronizar pasta de colecções automaticamente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3461-5
 msgid ""
@@ -7149,7 +7170,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3468-9
 msgid "When showing the collection"
-msgstr ""
+msgstr "Ao mostrar colecção"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3469-9
 msgid "On program start"
@@ -7248,7 +7269,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3504-1
 msgid "Using Collections with Profiles"
-msgstr ""
+msgstr "Usar colecções com perfis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3506-5
 msgid ""
@@ -7283,7 +7304,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3515-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3515-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "Ligue a luz de ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3518-9
 msgctxt "user_guide/en.html+html.body.div.p:3518-9"
@@ -7386,7 +7407,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3548-1
 msgid "Book metadata storage options"
-msgstr ""
+msgstr "Opções de armazenamento de metadados dos livros"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3550-2
 msgctxt "user_guide/en.html+html.body.div.p:3550-2"
@@ -7402,7 +7423,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3554-3
 msgid "Visual settings for the book"
-msgstr ""
+msgstr "Definições visuais para o livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3555-3
 msgid "Book reading progress"
@@ -7410,7 +7431,7 @@ msgstr "Progresso da leitura do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3556-3
 msgid "Highlights, bookmarks and notes"
-msgstr ""
+msgstr "Destaques, marcadores e notas"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3559-2
 msgid ""
@@ -7662,7 +7683,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3658-17
 msgid "TAP / DOUBLE TAP"
-msgstr ""
+msgstr "TOQUE / DUPLO TOQUE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3659-17
 msgid "Single or double tap with <b>ONE</b> finger"
@@ -7674,7 +7695,7 @@ msgctxt ""
 "en.html+html.body.div.table.tr.td.p:3660-17user_guide/"
 "en.html+html.body.div.table.tr.td.p:3660-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA</b> em qualquer parte do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3667-17
 msgid "TAP AND HOLD"
@@ -7687,7 +7708,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3669-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3669-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>FUNCIONA</b> apenar nos quatro cantos"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3675-17
 msgid "TWO FINGER TAP"
@@ -7700,7 +7721,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3677-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3677-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>FUNCIONA</b> apenar nos quatro cantos"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3683-17
 msgid "SPREAD AND PINCH"
@@ -7713,7 +7734,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3685-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3685-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA</b> em qualquer parte do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3686-9
 msgid ""
@@ -7725,11 +7746,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3690-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3690-17"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "DESLIZE DE UM DEDO"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3691-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "Deslizar com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3692-9
 msgid ""
@@ -7748,7 +7769,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3698-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA</b> em qualquer parte do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3702-17
 msgid "MULTISWIPE"
@@ -7763,7 +7784,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3705-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3705-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>FUNCIONA</b> em qualquer parte do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3709-17
 msgid ""
@@ -7819,7 +7840,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.div:3741-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3741-5"
 msgid "ONE FINGER SWIPE"
-msgstr ""
+msgstr "DESLIZE DE UM DEDO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3742-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
@@ -7848,7 +7869,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3751-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
@@ -7865,7 +7886,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
@@ -7877,7 +7898,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3758-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Voltar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3759-5
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
@@ -7894,7 +7915,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3762-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Favoritos"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3769-1
 msgctxt "user_guide/en.html+html.body.div.div:3769-1"
@@ -8000,19 +8021,19 @@ msgstr "Pesquisa de metadados do Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3799-17
 msgid "Browse all calibre tags"
-msgstr ""
+msgstr "Ver todas as etiquetas Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3800-17
 msgid "Browse all calibre series"
-msgstr ""
+msgstr "Ver todas as séries Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3801-17
 msgid "Browse all calibre authors"
-msgstr ""
+msgstr "Ver todos os autores Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3802-17
 msgid "Browse all calibre titles"
-msgstr ""
+msgstr "Ver todos os títulos Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3803-17
 msgid "Calibre wireless connect"
@@ -8028,19 +8049,19 @@ msgstr "Estatísticas de leitura: alternar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
 msgid "Reading statistics: show progress"
-msgstr ""
+msgstr "Estatísticas de leitura: mostrar progresso"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
 msgid "Reading statistics: show time range"
-msgstr ""
+msgstr "Estatísticas de leitura: mostrar range de tempo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
 msgid "Reading statistics: show calendar view"
-msgstr ""
+msgstr "Estatísticas de leitura: mostrar calendário"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
 msgid "Reading statistics: show today's timeline"
-msgstr ""
+msgstr "Estatísticas de leitura: mostrar linha do tempo de hoje"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3810-17
 msgid "Reading statistics: synchronize"
@@ -8048,7 +8069,7 @@ msgstr "Estatísticas de Leitura: sincronizar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3811-17
 msgid "Text editor: open last file"
-msgstr ""
+msgstr "Editor de texto: abrir ultimo ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
 msgid "Open vocabulary builder"
@@ -8105,7 +8126,7 @@ msgstr "Sair KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Toggle long-press on corners"
-msgstr ""
+msgstr "Alternar toque continuo dos cantos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
 msgid "Enable touch input"
@@ -8121,7 +8142,7 @@ msgstr "Alterar utilização do toque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3835-17
 msgid "Invert page turn buttons"
-msgstr ""
+msgstr "Inverter botões de virar de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3836-17
 msgid "Rotation"
@@ -8137,11 +8158,11 @@ msgstr "Inverter rotação"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3839-17
 msgid "Rotate by 90 CW"
-msgstr ""
+msgstr "Rodar 90° sentido do relógio"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3840-17
 msgid "Rotate by 90 CCW"
-msgstr ""
+msgstr "Rodar 90° contra relógio"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3841-17
 msgid "Toggle Fullscreen"
@@ -8164,7 +8185,6 @@ msgid "Terminal emulator"
 msgstr "Emulador de terminal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3848-17
-#, fuzzy
 msgid "Start USB storage"
 msgstr "Iniciar armazenamento USB"
 
@@ -8250,7 +8270,7 @@ msgstr "Recarregamento total do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3875-17
 msgid "Full refresh rate (always)"
-msgstr ""
+msgstr "Taxa de atualização completa (sempre)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
 msgid "Full refresh rate (not in night mode)"
@@ -8262,11 +8282,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
 msgid "Always flash on chapter boundaries"
-msgstr ""
+msgstr "Flashar sempre no limite de capítulos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
 msgid "Toggle flashing on chapter boundaries"
-msgstr ""
+msgstr "Alternar flashe no limite dos capítulos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3880-17
 msgid "Never flash on chapter's 2nd page"
@@ -8290,23 +8310,23 @@ msgstr "Desligar temperatura de cor automática"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3885-17
 msgid "Auto warmth use sun position"
-msgstr ""
+msgstr "Usar posição do sol para temperatura de cor automática"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3886-17
 msgid "Auto warmth use schedule"
-msgstr ""
+msgstr "Usar cronograma para temperatura de cor automática"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3887-17
 msgid "Auto warmth use closer midnight"
-msgstr ""
+msgstr "Temperatura de cor automática ao aproximar da meia-noite"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3888-17
 msgid "Auto warmth use closer noon"
-msgstr ""
+msgstr "Temperatura de cor automática ao aproximar do meio-dia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3889-17
 msgid "Auto warmth cycle through modes"
-msgstr ""
+msgstr "Alternar entre modos para temperatura de cor"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3893-9
 msgid "Reflowable documents"
@@ -8430,7 +8450,7 @@ msgstr "Inverter ordenação"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3927-13
 msgid "Folders and files mixed"
-msgstr ""
+msgstr "Pastas e ficheiros misturados"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-13
 msgid "Show plus menu"
@@ -8455,7 +8475,7 @@ msgstr "Pesquisa Ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3933-13
 msgid "Last file search results"
-msgstr ""
+msgstr "Resultados da última pesquisa de ficheiros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3934-13
 msgid "Folder up"
@@ -8464,7 +8484,7 @@ msgstr "Pasta anterior"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3935-13
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3935-13"
 msgid "Go to page"
-msgstr ""
+msgstr "Ir para a página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3936-13
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3936-13"
@@ -8494,7 +8514,7 @@ msgstr "Alternar barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3946-17
 msgid "Toggle chapter progress bar"
-msgstr ""
+msgstr "Alternar barra de progresso do capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-17
 msgid "Previous chapter"
@@ -8523,7 +8543,7 @@ msgstr "Virar páginas"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3953-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3953-17"
 msgid "Go to page"
-msgstr ""
+msgstr "Ir para a página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3954-17
 msgid "Skim document"
@@ -8556,11 +8576,11 @@ msgstr "Voltar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
 msgid "Back to previous location"
-msgstr ""
+msgstr "Voltar ao local anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
 msgid "Forward to next location"
-msgstr ""
+msgstr "Avançar até local seguinte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3963-17
 msgid "Follow nearest link"
@@ -8568,11 +8588,11 @@ msgstr "Seguir a ligação mais próxima"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3964-17
 msgid "Follow nearest internal link"
-msgstr ""
+msgstr "Seguir a ligação interno mais próxima"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3965-17
 msgid "Add current location to history"
-msgstr ""
+msgstr "Adicionar a localização atual ao histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3966-17
 msgid "Clear location history"
@@ -8585,7 +8605,7 @@ msgstr "Pesquisa de texto integral"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
 msgid "Last fulltext search results"
-msgstr ""
+msgstr "Últimos resultados de pesquisa em texto integral"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3969-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3969-17"
@@ -8645,7 +8665,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3982-17
 msgid "Toggle page turn direction"
-msgstr ""
+msgstr "Alternar sentido de rotação da página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3983-17
 msgid "Toggle custom TOC"
@@ -8653,23 +8673,23 @@ msgstr "Alternar índice personalizado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
 msgid "Toggle custom hidden flows"
-msgstr ""
+msgstr "Alternar fluxos ocultos personalizados"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3985-17
 msgid "Set highlight action"
-msgstr ""
+msgstr "Definir acção de destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3986-17
 msgid "Cycle highlight action"
-msgstr ""
+msgstr "Alternar ação de destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
 msgid "Cycle highlight style"
-msgstr ""
+msgstr "Alternar estilo do destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 msgid "Save book metadata"
-msgstr ""
+msgstr "Guardar metadados do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
 msgid "Export annotations"
@@ -8686,31 +8706,31 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3992-17
 msgid "Move current book to archive"
-msgstr ""
+msgstr "Mover livro atual para o arquivamento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3993-17
 msgid "Reading statistics: current book"
-msgstr ""
+msgstr "Estatísticas de leitura: livro atual"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3994-17
 msgid "Push progress from this device"
-msgstr ""
+msgstr "enviar progresso deste dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3995-17
 msgid "Pull progress from other devices"
-msgstr ""
+msgstr "Obter o progresso de outros dispositivos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3999-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "Documentos de layout fixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle page flipping"
-msgstr ""
+msgstr "Alternar passagem de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Toggle bookmark flipping"
-msgstr ""
+msgstr "Alternar o marcador de livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Toggle reflow"
@@ -8722,11 +8742,11 @@ msgstr "Modo zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Change zoom factor"
-msgstr ""
+msgstr "Alterar fator de ampliação"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 msgid "Toggle panel zoom"
-msgstr ""
+msgstr "Alternar ampliação de painel"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
 msgid "Page crop"
@@ -8788,7 +8808,7 @@ msgstr "Tamanho da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Change font size"
-msgstr ""
+msgstr "Alterar tamanho da fonte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Word gap"
@@ -8900,12 +8920,12 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4069-17
 msgid "File browser mode"
-msgstr ""
+msgstr "Modo Navegador de Ficheiros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4073-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4073-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "Abrir menu superior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4074-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4074-13"
@@ -8914,7 +8934,7 @@ msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4077-13
 msgid "Navigate to home"
-msgstr ""
+msgstr "Navegar para página inicial"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4078-13
 msgid "Home"
@@ -8922,15 +8942,15 @@ msgstr "Página Inicial"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4081-13
 msgid "Move in file list"
-msgstr ""
+msgstr "Mover para lista de ficheiros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4082-13
 msgid "Up / Down"
-msgstr ""
+msgstr "Cima / Baixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4085-13
 msgid "Open selected book"
-msgstr ""
+msgstr "Abrir livro seleccionado"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4086-13
 msgctxt ""
@@ -8958,7 +8978,7 @@ msgstr "Modo de leitura"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4097-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4097-13"
 msgid "Open top menu"
-msgstr ""
+msgstr "Abrir menu superior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4098-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4098-13"
@@ -8967,7 +8987,7 @@ msgstr "F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4101-13
 msgid "Open bottom menu"
-msgstr ""
+msgstr "Abrir menu inferior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4102-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4102-13"
@@ -8990,7 +9010,7 @@ msgstr "Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4110-13
 msgid "Shift + Left"
-msgstr ""
+msgstr "­Shift + Esquerda"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4113-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4113-13"
@@ -8999,7 +9019,7 @@ msgstr "Alternar marcador"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4114-13
 msgid "Shift + Right"
-msgstr ""
+msgstr "Shift + Direita"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4117-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4117-13"
@@ -9017,7 +9037,7 @@ msgstr "Pesquisa na Wikipédia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4122-13
 msgid "Ctrl + W"
-msgstr ""
+msgstr "Ctrl + W"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4125-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4125-13"
@@ -9026,15 +9046,15 @@ msgstr "Pesquisa de texto integral"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4126-13
 msgid "Ctrl + S"
-msgstr ""
+msgstr "Ctrl + S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4129-13
 msgid "File search lookup"
-msgstr ""
+msgstr "Consulta de pesquisa de ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4130-13
 msgid "Ctrl + F"
-msgstr ""
+msgstr "Ctrl + F"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4134-17
 msgid "Links"
@@ -9042,7 +9062,7 @@ msgstr "Links"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4137-13
 msgid "Select next page link"
-msgstr ""
+msgstr "Seleccionar link da página seguinte"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4138-13
 msgid "Tab"
@@ -9050,7 +9070,7 @@ msgstr "Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4141-13
 msgid "Select previous page link"
-msgstr ""
+msgstr "Seleccionar link da página anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4142-13
 msgid "Shift+Tab"
@@ -9058,7 +9078,7 @@ msgstr "Shift+Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4145-13
 msgid "Open selected page link"
-msgstr ""
+msgstr "Abrir link da página seleccionada"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4146-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4146-13"
@@ -9067,7 +9087,7 @@ msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4150-17
 msgid "Image viewer (long-press on image)"
-msgstr ""
+msgstr "Visializador de imagem (manter premida a imagem)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4153-13
 msgid "Zoom in"
@@ -9091,7 +9111,7 @@ msgstr "Sublinhar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4165-13
 msgid "Enter highlighting mode"
-msgstr ""
+msgstr "Entrar modo Destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4166-13
 msgid "H"
@@ -9108,7 +9128,7 @@ msgstr "Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4173-13
 msgid "Move highlight indicator"
-msgstr ""
+msgstr "Mover indicador de destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4174-13
 msgid "Left/Right<br>Up/Down"
@@ -9116,7 +9136,7 @@ msgstr "Esquerda/Direita<br>Cima/Baixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4177-13
 msgid "Move indicator faster"
-msgstr ""
+msgstr "Mover indicador mais rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4178-13
 msgid "Shift +<br>Left/Right/Up/Down"
@@ -9124,7 +9144,7 @@ msgstr "Shift +<br>Esquerda/Direita/Cima/Baixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4181-13
 msgid "Exit highlighting mode"
-msgstr ""
+msgstr "Sair modo Destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4182-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4182-13"
@@ -9133,7 +9153,7 @@ msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4186-17
 msgid "Navigating the book"
-msgstr ""
+msgstr "Navegando pelo livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4189-13
 msgid "Page turn"
@@ -9141,7 +9161,7 @@ msgstr "Virar página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4190-13
 msgid "Left-Right / Up-Down<br>Page Up-Page Down"
-msgstr ""
+msgstr "Esquerda-Direita / Cima-Baixo<br>Página acima-Página abaixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4193-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4193-13"
@@ -9150,7 +9170,7 @@ msgstr "Índice"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4194-13
 msgid "Shift + Up"
-msgstr ""
+msgstr "Shift + Cima"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4197-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4197-13"
@@ -9159,12 +9179,12 @@ msgstr "Mapa do Livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4198-13
 msgid "Shift + Down"
-msgstr ""
+msgstr "Shift + Baixo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4201-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4201-13"
 msgid "Go to the beginning"
-msgstr ""
+msgstr "Ir para início"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4202-13
 msgid "1"
@@ -9173,7 +9193,7 @@ msgstr "1"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4205-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4205-13"
 msgid "Go to 11% of book"
-msgstr ""
+msgstr "Ir para 11% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4206-13
 msgid "2"
@@ -9182,7 +9202,7 @@ msgstr "2"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4209-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4209-13"
 msgid "Go to 22% of book"
-msgstr ""
+msgstr "Ir para 22% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4210-13
 msgid "3"
@@ -9191,7 +9211,7 @@ msgstr "3"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4213-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4213-13"
 msgid "Go to 33% of book"
-msgstr ""
+msgstr "Ir para 33% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4214-13
 msgid "4"
@@ -9200,7 +9220,7 @@ msgstr "4"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4217-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4217-13"
 msgid "Go to 44% of book"
-msgstr ""
+msgstr "Ir para 44% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4218-13
 msgid "5"
@@ -9209,7 +9229,7 @@ msgstr "5"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4221-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4221-13"
 msgid "Go to 55% of book"
-msgstr ""
+msgstr "Ir para 55% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4222-13
 msgid "6"
@@ -9218,7 +9238,7 @@ msgstr "6"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4225-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4225-13"
 msgid "Go to 66% of book"
-msgstr ""
+msgstr "Ir para 66% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4226-13
 msgid "7"
@@ -9227,7 +9247,7 @@ msgstr "7"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4229-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4229-13"
 msgid "Go to 77% of book"
-msgstr ""
+msgstr "Ir para 77% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4230-13
 msgid "8"
@@ -9236,7 +9256,7 @@ msgstr "8"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4233-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4233-13"
 msgid "Go to 88% of book"
-msgstr ""
+msgstr "Ir para 88% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4234-13
 msgid "9"
@@ -9245,7 +9265,7 @@ msgstr "9"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4237-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4237-13"
 msgid "Go to the end"
-msgstr ""
+msgstr "Ir para o fim"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4238-13
 msgid "0"
@@ -9253,12 +9273,12 @@ msgstr "0"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4242-17
 msgid "In Skim Document dialog"
-msgstr ""
+msgstr "No diálogo da navegação rápida do documento"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4245-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4245-9"
 msgid "Go to the beginning"
-msgstr ""
+msgstr "Ir para início"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4246-9
 msgid "Q"
@@ -9267,7 +9287,7 @@ msgstr "Q"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4249-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4249-9"
 msgid "Go to 11% of book"
-msgstr ""
+msgstr "Ir para 11% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4250-9
 msgid "W"
@@ -9276,7 +9296,7 @@ msgstr "W"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4253-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4253-9"
 msgid "Go to 22% of book"
-msgstr ""
+msgstr "Ir para 22% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4254-9
 msgid "E"
@@ -9285,7 +9305,7 @@ msgstr "E"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4257-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4257-9"
 msgid "Go to 33% of book"
-msgstr ""
+msgstr "Ir para 33% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4258-9
 msgid "R"
@@ -9294,7 +9314,7 @@ msgstr "R"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4261-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4261-9"
 msgid "Go to 44% of book"
-msgstr ""
+msgstr "Ir para 44% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4262-9
 msgid "T"
@@ -9303,7 +9323,7 @@ msgstr "T"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4265-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4265-9"
 msgid "Go to 55% of book"
-msgstr ""
+msgstr "Ir para 55% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4266-9
 msgid "Y"
@@ -9312,7 +9332,7 @@ msgstr "Y"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4269-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4269-9"
 msgid "Go to 66% of book"
-msgstr ""
+msgstr "Ir para 66% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4270-9
 msgid "U"
@@ -9321,7 +9341,7 @@ msgstr "U"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4273-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4273-9"
 msgid "Go to 77% of book"
-msgstr ""
+msgstr "Ir para 77% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4274-9
 msgid "I"
@@ -9330,7 +9350,7 @@ msgstr "I"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4277-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4277-9"
 msgid "Go to 88% of book"
-msgstr ""
+msgstr "Ir para 88% do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4278-9
 msgid "O"
@@ -9339,7 +9359,7 @@ msgstr "O"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4281-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4281-9"
 msgid "Go to the end"
-msgstr ""
+msgstr "Ir para o fim"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4282-9
 msgid "P"
@@ -9355,7 +9375,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4289-9
 msgid "Zoom to fit page"
-msgstr ""
+msgstr "Ampliar para caber página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4290-9
 msgid "A"
@@ -9363,7 +9383,7 @@ msgstr "A"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4293-9
 msgid "Zoom to fit page width"
-msgstr ""
+msgstr "Ampliar para caber largura da página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4294-9
 msgid "S"
@@ -9371,7 +9391,7 @@ msgstr "S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4297-9
 msgid "Zoom to fit page height"
-msgstr ""
+msgstr "Ampliar para caber altura da página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4298-9
 msgid "D"
@@ -9379,27 +9399,27 @@ msgstr "D"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4301-9
 msgid "Zoom to fit content"
-msgstr ""
+msgstr "Ampliar para caber conteúdo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4302-9
 msgid "Shift + A"
-msgstr ""
+msgstr "Shift + A"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4305-9
 msgid "Zoom to fit content width"
-msgstr ""
+msgstr "Ampliar para caber largura do conteúdo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4306-9
 msgid "Shift + S"
-msgstr ""
+msgstr "Shift + S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4309-9
 msgid "Zoom to fit content height"
-msgstr ""
+msgstr "Ampliar para caber altura do conteúdo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4310-9
 msgid "Shift + D"
-msgstr ""
+msgstr "Shift + D"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4319-5
 msgctxt "user_guide/en.html+html.body.div.div:4319-5"
@@ -9446,7 +9466,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4334-9
 msgid "An example Quick Menu:"
-msgstr ""
+msgstr "Um exemplo de menu rápido:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4339-9
 msgid ""
@@ -9576,7 +9596,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4379-1
 msgid "Quick menu tips"
-msgstr ""
+msgstr "Dicas Menu Rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4381-1
 msgid "Keeping the menu open after use"
@@ -9683,7 +9703,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4424-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4424-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "Ligue a luz de ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4427-9
 msgctxt "user_guide/en.html+html.body.div.p:4427-9"
@@ -9728,7 +9748,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4442-1
 msgid "Creating a profile"
-msgstr ""
+msgstr "Criando um perfil"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4444-9
 msgid ""
@@ -9756,7 +9776,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4454-1
 msgid "Activating a profile"
-msgstr ""
+msgstr "Activando um perfil"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4456-9
 msgid "There are many ways to activate a profile:"
@@ -9810,7 +9830,7 @@ msgstr "Subcondições"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4477-5
 msgid "On KOReader start"
-msgstr ""
+msgstr "Ao iniciar KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4477-48
 msgid ""
@@ -9853,23 +9873,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4486-5
 msgid "<span class=\"ui\">Left 90°</span> (landscape)"
-msgstr ""
+msgstr "<span class=\"ui\">90° esquerda</span> (paisagem)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4487-5
 msgid "<span class=\"ui\">0°</span> (normal)"
-msgstr ""
+msgstr "<span class=\"ui\">0°</span> (normal)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4488-5
 msgid "<span class=\"ui\">Right 90°</span> (landscape)"
-msgstr ""
+msgstr "<span class=\"ui\">90° direita</span> (paisagem)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4489-5
 msgid "<span class=\"ui\">180°</span> (upside down)"
-msgstr ""
+msgstr "<span class=\"ui\">180°</span> (ao contrário)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4494-5
 msgid "On showing folder"
-msgstr ""
+msgstr "Ao exibir pasta"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4494-49
 msgid ""
@@ -9889,7 +9909,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4501-5
 msgid "On book opening"
-msgstr ""
+msgstr "Ao abrir livro"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4502-6
 msgid ""
@@ -9906,12 +9926,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4507-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4507-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr ""
+msgstr "Combinado com<b>orientação do dispositivo</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4508-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4508-7"
 msgid "Combined with <b>book metadata</b>"
-msgstr ""
+msgstr "Combinado com<b>metadados do livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4509-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4509-7"
@@ -9930,7 +9950,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4516-5
 msgid "On book closing"
-msgstr ""
+msgstr "Ao fechar livro"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4517-6
 msgid ""
@@ -9942,12 +9962,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4522-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4522-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr ""
+msgstr "Combinado com<b>orientação do dispositivo</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4523-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4523-7"
 msgid "Combined with <b>book metadata</b>"
-msgstr ""
+msgstr "Combinado com<b>metadados do livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4524-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4524-7"
@@ -10136,7 +10156,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4595-9
 msgid "You can enable/disable them via:"
-msgstr ""
+msgstr "Pode os ativar/desativar através:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4597-9
 msgctxt "user_guide/en.html+html.body.div.div:4597-9"
@@ -10586,7 +10606,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4724-9
 msgid "Naming the patch"
-msgstr ""
+msgstr "Nomeando o patch"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4726-9
 msgid ""
@@ -10600,7 +10620,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4728-9
 msgid "Names starting with:"
-msgstr ""
+msgstr "Nomes a começar com:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4731-13
 msgid "<b>0</b> - Executed very early and only once after an update"
@@ -10620,7 +10640,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4734-13
 msgid "<b>3-7</b> - Reserved"
-msgstr ""
+msgstr "<b>3-7</b> - Reservado"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4735-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
@@ -10647,7 +10667,7 @@ msgstr "Dicas de leitura"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4749-1
 msgid "Switching between documents quickly"
-msgstr ""
+msgstr "Trocar entre documentos rápidamente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4750-1
 msgid ""
@@ -10678,7 +10698,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4756-1
 msgid "Changing your book cover"
-msgstr ""
+msgstr "Trocar a capa do seu livro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4757-1
 msgid "You can change your book cover from this menu:"
@@ -10749,7 +10769,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4779-1
 msgid "Avoiding opening links accidentally"
-msgstr ""
+msgstr "Evitando a abertura de links acidentalmente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4780-1
 msgid ""
@@ -10775,7 +10795,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4788-1
 msgid "Reading statistics after midnight"
-msgstr ""
+msgstr "Estatísticas de leitura pós meia-noite"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4789-1
 msgid ""
@@ -10841,7 +10861,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4813-9
 msgid "And then enable this option:"
-msgstr ""
+msgstr "Em seguida ative esta opção:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4814-13
 msgid ""
@@ -10852,7 +10872,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4820-5
 msgid "Automatic screen dimming"
-msgstr ""
+msgstr "Escurecer ecrã automático"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4821-9
 msgid ""
@@ -10868,7 +10888,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4826-5
 msgid "Line/word count of a page"
-msgstr ""
+msgstr "Contagem de Linhas/palavras de uma página"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4827-9
 msgid ""
@@ -10887,7 +10907,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4833-5
 msgid "Optimizing your battery life"
-msgstr ""
+msgstr "Otimizar vida da sua bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4835-9
 msgid ""
@@ -10913,7 +10933,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-5
 msgid "Checking your battery consumption details"
-msgstr ""
+msgstr "A confirmar detalhes de consumo da sua bateria"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4843-9
 msgid "You can see your detailed battery usage statistics via this menu item:"
@@ -10927,7 +10947,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4847-9
 msgid "Checking detailed device statistics"
-msgstr ""
+msgstr "A confirmar estatísticas detalhadas do dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4848-9
 msgid ""
@@ -10994,7 +11014,7 @@ msgstr "Versões noturnas"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4875-1
 msgid "KOReader has two different versions:"
-msgstr ""
+msgstr "KOReader tem duas versões:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4877-9
 msgid ""
@@ -11061,7 +11081,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4892-3
 msgid "Backup your KOReader settings"
-msgstr ""
+msgstr "Faça uma cópia de segurança das suas definições do KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4893-9
 msgid ""
@@ -11144,7 +11164,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4928-1
 msgid "My book is slow"
-msgstr ""
+msgstr "O meu livro é lento"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4930-5
 msgid ""
@@ -11243,7 +11263,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4959-5
 msgid "If everything is slow:"
-msgstr ""
+msgstr "Se tudo for lento:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4961-5
 msgid ""
@@ -11361,7 +11381,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:5000-5
 msgid "Opening an issue:"
-msgstr ""
+msgstr "A abrir um pedido:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5001-5
 msgid ""
@@ -11405,7 +11425,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5015-1
 msgid "My status bar disappeared"
-msgstr ""
+msgstr "A minha barra de estado desapareceu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5017-5
 msgid ""
@@ -11466,7 +11486,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5046-5
 msgid "Sleep cover problems"
-msgstr ""
+msgstr "Problemas com capa de suspensão"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5047-9
 msgid ""
@@ -11486,7 +11506,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5055-1
 msgid "Text indentation problems"
-msgstr ""
+msgstr "Problemas de indentação no texto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5057-5
 msgid ""
@@ -11541,7 +11561,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5083-1
 msgid "Clearing file cache"
-msgstr ""
+msgstr "A limpar cache do ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5084-5
 msgid ""
