@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 09:41+0000\n"
-"PO-Revision-Date: 2025-11-04 09:39+0000\n"
+"PO-Revision-Date: 2025-11-05 09:52+0000\n"
 "Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
@@ -2334,7 +2334,7 @@ msgstr ""
 "np. każdy rozdział książki jest oddzielnym plikiem .html.<b>Jeśli twoja "
 "książka jest pojedynczym plikiem .html, częściowe renderowanie może nie "
 "zadziałać, ponieważ dla każdej zmiany KOReader nadal musi wykonać obliczenia "
-"dla całej książki</b>."
+"dla całej książki.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1552-13
 msgid ""
@@ -2350,6 +2350,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Ikona Zaznaczania</span>Ta ikona wyświetla się "
+"kiedy jesteś w<span class=\"ui\">Trybie Zaznaczania i wyróżniania</"
+"span>.KOReader ma dodatkowy tryb zaznaczenia tekstu, który pozwala zacząć "
+"zaznaczanie i przewracać strony by wykonać długie zaznaczenie rozciągające "
+"się na kilka stron. Możesz przeczytać o tym więcej w sekcji <a href="
+"\"#bookmarks\">ZAKŁADKI, ZAZNACZANIE I NOTATKI</a> tego poradnika. Kiedy "
+"rozpoczniesz zaznaczenie w tym trybie, widoczna ikona w rogu będzie "
+"przypominać Ci o tym, że nadal znajdujesz się w tym trybie. Ikona znika gdy "
+"zakończysz zaznaczanie tekstu poprzez <b>określenie końca fragmentu</b> lub "
+"<b>anulowanie zaznaczenia</b>(ponowne stuknięcie na początek zaznaczenia lub "
+"na tę <span class=\"ui\">ikonę</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1559-13
 msgid ""
@@ -2359,23 +2370,31 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">ikona Pokeballa</span>Ta ikona pojawia się po "
+"dłuższym naciśnięciu na słowo(umyślnie lub przypadkowo). KOReader ma menu "
+"<b>dłuższego naciśnięcia</b> i dodatkowe menu<b> bardzo długiego "
+"naciśnięcia</b> przy przytrzymaniu powyżej 3 sekund. Ikona oznacza,że "
+"aktywowano właśnie to bardzo długie menu."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1566-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">ikona tryb Przewrotu</span>Ta ikona wyświetla "
+"się po stuknięciu w lewy górny róg ekranu jeśli:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1568-17
-#, fuzzy
 msgid "You are reading a PDF document"
-msgstr "You are Czytanie a PDF Dokument"
+msgstr "Czytasz dokument PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1569-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"i jesteś w widoku przybliżenia (zoomu) innym niż 100%"
+"(kolumna, rząd lub manual) lub w <span class=\"ui\">trybie skali</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2383,11 +2402,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"Ten tryb tymczasowo wyświetla całą stronę bez przycięć, zeskalowaną pod "
+"rozmiar ekranu. Możesz przewracać strony w tym trybie. By wyjść z niego, "
+"stuknij w tę ikonę."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1579-1
-#, fuzzy
 msgid "Page numbering and reference page numbers"
-msgstr "Strona numbering and reference page numbers"
+msgstr "Numerowanie stron i żródłowe numery stron"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1581-5
 msgid ""
@@ -2397,6 +2418,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"Dokumenty typu <b>EPUBU, MOBI, HTML</b> nie mają sztywno określonych numerów "
+"stron, ponieważ są to skalowalne dokumenty. Co oznacza, że dostosowują się "
+"do rozmiaru ekranu urządzenia i orientacji w jakiej jest urządzenie.(w "
+"przeciwieństwie do na przykład plików <b>PDF</b> czy też <b>DJVU</b>, któe "
+"mają jasno określone rozmiary stron i numerację)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1583-5
 msgid ""
@@ -2405,6 +2431,11 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Jeśli powiększysz rozmiar czcionki w skalowalnym dokumencie, numeracja stron "
+"też się zwiększy, z powodu miejszej ilości tekstu jaki jest w stanie się "
+"zmieścić na stronę. TO czasami może powodowac problemy, gdyż zaznaczenie na "
+"<b>stronie 28</b>może znaleźć się na <b>stronie 42</b> po zmianie rozmiaru "
+"czcionki."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1585-5
 msgid ""
@@ -2415,17 +2446,24 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"KOReader wspiera funkcję<b>żródłowych numerów stron</b>, która pozwala "
+"wydawcom na umieszczenie numerów stron z wydrukowanych wersji książki prosto "
+"na wersję cyfrową. W momencie włączenia tej funkcji, KOReader nie oblicza "
+"numerów stron sam, zamast tego pokazuje <b>wbudowne numery stron</b> od "
+"wydawcy. Co oznacza, że numery stron, które widzisz na <span class=\"ui\""
+">Pasku Stanu</span> są takie same jak w wersji drukowanej."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1587-5
-#, fuzzy
 msgid "Benefits of reference page numbers:"
-msgstr "Benefits of reference Strona numbers:"
+msgstr "Zalety żródłówej numeracji stron:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1589-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"Żródłowa numeracja stron pozwala na precyzyjne cytowanie fragmentów dzięki "
+"takiemu samemu numerowaniu stron co w wersji drukowanej."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1590-9
 msgid ""
@@ -2433,6 +2471,9 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"Żródłowa numeracja stron może wspomóc w nawigowaniu, szczególnie czytelników "
+"zaznajomionych z drukowaną wersją książki. Pomaga w bardziej precyzyjnym "
+"znajdowaniu cytatów czy fragmentów w wersji cyfrowej."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1591-9
 msgid ""
@@ -2442,6 +2483,12 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"W związku z tym, że książki cyfrowe mogą byc odczytywane na różnorakich "
+"urządzeniach i platformach, z różnym rozmiarem czcionki i ustawieniami "
+"wyświetlania, numeracja stron może się znacznie różnić między nimi. Żródłowa "
+"numeracja stron daje stały punkt odniesienia, w przypadku czytania tej samej "
+"książki na innych urządzeniach takich jak czytnik ebooków czy telefon w tym "
+"samym czasie."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1594-5
 #, fuzzy
