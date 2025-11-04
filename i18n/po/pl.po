@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 09:53+0000\n"
-"PO-Revision-Date: 2025-11-03 09:51+0000\n"
+"PO-Revision-Date: 2025-11-04 09:35+0000\n"
 "Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
@@ -143,7 +143,7 @@ msgstr "CZĘŚCI KOREADER (NIEBIESKI)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:876-13
 msgid "Status bar, Book map…"
-msgstr "Belka statusu, Mapa książki…"
+msgstr "Pasek Stanu, Mapa książki…"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:879-17
 msgid "MENU PATHS (GREEN)"
@@ -1472,7 +1472,7 @@ msgstr ""
 "Strefa dotykowa<span class=\"ui\">Paska Stanu</span>po kliknięciu zmienia "
 "wyświetlane elementy na <span class=\"ui\">Pasku Stanu</span> jeśli chociaż "
 "jeden element jest widoczny. Jeśli wszystkie elementy są widoczne, "
-"stuknięcie wyświetla bądź ukrywa <span class=\"ui\">Pasek Stanu</span>."
+"stuknięcie wyświetla, bądź ukrywa <span class=\"ui\">Pasek Stanu</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1293-5
 msgctxt "user_guide/en.html+html.body.div.div:1293-5"
@@ -1874,8 +1874,8 @@ msgid ""
 "schedule accordingly."
 msgstr ""
 "<span class=\"ui\">Pozycja Słońca:</span>Ta opcja oblicza pozycję Słońca w "
-"twojej lokalizacji w oparciu o informacje na temat <b>współrzędnych</b> i "
-"<b> wysokości nad poziomem morza</b>, które podano. Barwa światła jest "
+"twojej lokacji w oparciu o informacje na temat <b>współrzędnych</b> i "
+"<b>wysokości nad poziomem morza</b>, które podano. Barwa światła jest "
 "dostosowywana stopniowo zgodnie z obliczoną pozycją Słońca. Ten tryb jest "
 "<b>dynamiczny</b>.Tak jak długość dnia zmienia się w przeciągu roku, tak też "
 "wtyczka dopasowuje się do harmonogramu wschodu i zachodu."
@@ -2054,7 +2054,7 @@ msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
-"Jeśli chcesz by ciepła barwa oświetlenia zmieniała się szybciej niż "
+"Jeśli chcesz by ciepła barwa oświetlenia zmieniała się szybciej a nie "
 "stopniowo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1457-9
@@ -2100,6 +2100,11 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"KOReader ma 2 główne interfejsy: <span class=\"ui\">Ekran Czytania</span> i "
+"<span class=\"ui\">Przeglądarkę Plików</span>. W tej części skupimy się na "
+"<span class=\"ui\">ekranie czytania</span>.<span class=\"ui\">Przeglądarka "
+"Plików</span> jest wyjaśniona w <a href=\"#L2-filebrowser\">tej sekcji</a> "
+"poradnika."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1478-1
 #, fuzzy
@@ -2110,9 +2115,8 @@ msgid "Reading Screen"
 msgstr "Ekran czytania"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1480-5
-#, fuzzy
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr "<b>Czytanie Ekran</b> has two menus:"
+msgstr "<b>EKRAN CZYTANIA</b> ma dwa menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1483-3
 msgid ""
@@ -2120,6 +2124,9 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"<span class=\"ui\">GÓRNE MENU</span> zawiera zakładki powiązane z ogólną "
+"obsługą KOReadera. Pozwala na dostęp do książek, preferencje KOReadera, "
+"wtyczki itd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1484-3
 msgid ""
@@ -2128,12 +2135,19 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"<span class=\"ui\">DOLNE MENU</span> jest skupione wokół "
+"opcji<b>formatowania dokumentów</b> takich jak grubość czcionki,rozmiar, "
+"odległość między linijkami itd. W celu dostosowania wyglądu tekstu, w "
+"znacznej większości przypadków wystarczy posługiwać się <span class=\"ui\""
+">DOLNYM MENU</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1492-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"Na obrazku wyżej są ukazane elementy, które są widoczne na ekranie podczas "
+"czytania książki:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2143,6 +2157,11 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>ikony wskaźnikowe</b>Te ikony informują o konkretnych trwających "
+"procesach i stanach. Są widoczne w lewym górnym rogu ekranu podczas "
+"konkretnych operacji. Normalnie one są mniejsze ale dla klarowności tutaj są "
+"większe, Kolejny nagłówek wyjaśnia te ikony szczegółowo:<a href="
+"\"#L2-indicators\">IKONY WSKAŹNIKOWE</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1495-9
 msgid ""
@@ -2150,6 +2169,9 @@ msgid ""
 "various information about your book and KOReader. Click here to go to the "
 "section: Click here for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>PASEK STATUSU</b>To jest mocno konfigurowalna strefa gdzie można zobaczyć "
+"różne informacje na temat książki i KOReadera. Kliknij tutaj po więcej "
+"informacji: <a href=\"#L2-statusbar\">PASEK STATUSU</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1496-9
 msgid ""
@@ -2158,6 +2180,10 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Alternatywny Pasek Stanu</b>Oprócz domyślnego <span class=\"ui\">Paska "
+"Stanu</span> jest również <span class=\"ui\">Alt Pasek Stanu</span> który "
+"wyświetla się na górze strony jeśli jest włączony. Po więcej informacji "
+"kliknij tutaj:<a href=\"#L2-statusbar\">Pasek Stanu</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1497-9
 msgid ""
@@ -2166,6 +2192,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b> Źródłowe numery stron:</b> Jeśli wydawca książki zawarł numery stron z "
+"papierowej wersji książki w pliku to będziesz widzieć je właśnie w ten "
+"sposób. Kliknij tutaj po więcej informacji:<a href=\"#L3-referencepages\""
+">Numerowanie stron i źródłowe numerowanie stron</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1498-9
 msgid ""
@@ -2174,6 +2204,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Typy Zaznaczeń:</b>Można tu zobaczyć inne typy zaznaczeń tekstu. Możesz "
+"również tworzyć kolorowe zaznaczenia jeśli twoje urządzenie ma odpowiedni "
+"ekran,by takie wyświetlać. Kliknij tutaj by przejść do sekcji na ten temat: "
+"<a href=\"#L1-bookmarks\">Zakładki, Zaznaczenia i Notatki</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1499-9
 msgid ""
@@ -2181,11 +2215,13 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Marker Notatek</b>Ikona markera wyświetla się gdy dodasz notatkę do "
+"zaznaczeń. Są różne rodzaje markerów notatek. Kliknij tutaj po więcej "
+"informacji: <a href=\"#L1-bookmarks\">Zakładki, Zaznaczenia i Notatki</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1503-1
-#, fuzzy
 msgid "Indicator icons"
-msgstr "Ikony wskaźników"
+msgstr "Ikony Wskaźnikowe"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1505-5
 msgid ""
@@ -2193,6 +2229,9 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"KOReader posiada kilka wskaźników, które informują o konkretnych trwających "
+"procesach i stanach jak można zauważyć na obrazku powyżej. Znajdziesz je w "
+"lewym górnym rogu ekranu podczas określonych operacji."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1511-17
 msgid ""
@@ -2201,6 +2240,10 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Ikony częściowego załadowania</span> Ta grupa "
+"ikon jest związana z procedurą częściowego załadowania i prawdopodobnie "
+"będziesz je widzieć częściej niż inne. Wyświetlają się w momencie zmiany "
+"ustawień na <span class=\"ui\">dolnym menu</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1513-13
 msgid ""
@@ -2210,12 +2253,19 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Ta funkcja pozwala na podgląd zmian wyglądu tekstu znacznie szybciej dzięki "
+"załadowaniu tylko aktualnego rozdziału zamiast całej książki.Obracanie "
+"ekranu również jest szybsze dzięki tej funkcji. Opcja jest <b>WŁĄCZONA</"
+"b>domyślnie. W razie konieczności może zostać wyłączona dla książki "
+"(po stuknięciu) lub globalnie (po przytrzymaniu) na:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1515-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Dokument / Włącz renderowanie częściowe"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1517-13
 msgid ""
@@ -2223,6 +2273,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Po potwierdzeniu zmian cała książka musi zostać załadowana ponownie więc "
+"jest to procedura w wielu krokach. Te ikony pokazują stan załadowania jak "
+"wyjaśniono poniżej:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1527-17
 msgid ""
@@ -2230,12 +2283,18 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"W tym stanie, dokument jest <b>częściowo</b> załadowany. Numery stron, "
+"przypisy i wiele innych rzeczy są <b>niedokładne</b>. Możesz zobaczyć jak te "
+"ustawienia wyglądają i dostosować je później. Możesz też przewracać strony, "
+"i skakać po załącznikach w tym stanie."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1531-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Pełne załadowanie następuje w <b>tle</b>.Ciągle możesz przewracać strony, "
+"skakać po załącznikach, zmieniać ustawienia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
@@ -2244,12 +2303,19 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"Załadowano w pełni książkę.ale <b>nie jest jeszcze to widoczne</b> bo "
+"KOReader czeka by urządzenie przeszło w <b>tryb bezczynności</b> by "
+"załadować resztę książki (bezczynność = nie używanie urządzenia). Możesz "
+"nadal przewracać strony, skakać po załącznikach i zmieniać ustawienia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1540-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Urządzenie było bezczynne przez chwilę a więc KOReader załadował cały "
+"dokument. Na tym etapie KOReader jest<b>zablokowany</b> by uniemożliwić "
+"interakcje."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1544-5
 msgid ""
