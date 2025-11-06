@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-06 06:51+0000\n"
-"PO-Revision-Date: 2025-10-31 14:02+0000\n"
+"PO-Revision-Date: 2025-11-07 07:51+0000\n"
 "Last-Translator: PPV <ppv@duck.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
-"guide/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/koreader/"
+"user-guide/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1210,19 +1211,26 @@ msgid ""
 "operating system supports. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/SSH\">wiki</a> for how-to and also see the warning box below."
 msgstr ""
+"<b>Доступ через SSH/SFTP.</b> KOReader может действовать как <b>SSH-сервер</"
+"b>, к которому можно получить доступ с компьютера, чтобы передать файлы "
+"(работает на Kobo, Kindle, Cervantes). Можно использовать программу SFTP "
+"(например, <span class=\"external\">Filezilla</span>) или получить доступ "
+"через файловый менеджер, если операционная система компьютера это "
+"поддерживает. Узнать, как это сделать, можно <a href="
+"\"https://github.com/koreader/koreader/wiki/SSH\">в вики</a>, а также "
+"посмотрите нижеприведённый блок с предупреждением."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1232-9
-#, fuzzy
 msgid ""
 "<b>Calibre transfer:</b> With the <span class=\"external\">Calibre plugin</"
 "span> you can send documents from your Calibre Library directly to your "
 "KOReader devices via a wifi connection. Check our <a href=\"https://"
 "github.com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
-"<b> Wallabag </b> - Downloads the latest articles from a Wallabag server as "
-"individual EPUB files. Check the wiki page for more info: <a href=\"https://"
-"github.com/koreader/koreader/wiki/Wallabag\">https://github.com/koreader/"
-"koreader/wiki/Wallabag</a>"
+"<b>Передача из Calibre:</b> С помощью <span class=\"external\">плагина "
+"Calibre</span> вы можете отправлять документы из библиотеки Calibre прямо на "
+"устройства KOReader через Wi-Fi. Инструкции по использованию см. в нашей <a "
+"href=\"https://github.com/koreader/koreader/wiki/calibre\">вики</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1234-9
 msgid ""
@@ -1230,6 +1238,10 @@ msgid ""
 "b> news entries as HTML files. Check <a href=\"https://github.com/koreader/"
 "koreader/wiki/News-downloader\">wiki</a> for how-to."
 msgstr ""
+"<b>Загрузчик новостей:</b> с помощью этого плагина вы можете загружать "
+"новостные записи <b>RSS и Atom</b> в виде HTML-файлов. Инструкции по "
+"использованию см. в <a href="
+"\"https://github.com/koreader/koreader/wiki/News-downloader\">вики</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1236-9
 msgid ""
@@ -1238,6 +1250,10 @@ msgid ""
 "like Pocket. Check <a href=\"https://github.com/koreader/koreader/wiki/"
 "Wallabag\">wiki</a> page for more info."
 msgstr ""
+"<b>Wallabag:</b> С помощью этого плагина вы можете загружать статьи из <span "
+"class=\"external\">Wallabag</span>, серверного сервиса для отложенного "
+"чтения, подобного Pocket. Дополнительную информацию см. на странице <a href="
+"\"https://github.com/koreader/koreader/wiki/Wallabag\">вики</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1239-24
 msgid ""
@@ -1246,36 +1262,48 @@ msgid ""
 "device. But if you are using a local wifi and turn on your device wifi for a "
 "short time, this risk is negligible."
 msgstr ""
+"<span class=\"label_red\">ПРЕДУПРЕЖДЕНИЕ</span> Будьте осторожны, если "
+"решите использовать функцию SSH без пароля, так как это открывает свободный "
+"доступ к вашему устройству. Но если вы используете локальную сеть Wi-Fi и "
+"включаете Wi-Fi на своём устройстве на короткое время, этот риск "
+"незначителен."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1243-1
 msgid "Accessing your books"
-msgstr ""
+msgstr "Доступ к вашим книгам"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1245-5
 msgid "Following methods are available for accessing your books:"
-msgstr ""
+msgstr "Для доступа к вашим книгам доступны следующие методы:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1247-5
 msgid ""
 "<span class=\"ui\">File Browser</span> - Dedicated section is here: <a "
 "href=\"#L2-filebrowser\">File Browser usage</a>"
 msgstr ""
+"<span class=\"ui\">Файловый менеджер</span> — специальный раздел находится "
+"здесь: <a href=\"#L2-filebrowser\">Использование файлового менеджера</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1248-5
 msgid ""
 "<span class=\"ui\">Favorites</span> - A list which you can add your books by "
 "long pressing on them in the <span class=\"ui\">File Browser</span>"
 msgstr ""
+"<span class=\"ui\">Избранное</span> — список, в который вы можете добавлять "
+"книги, нажав и удерживая их в <span class=\"ui\">файловом менеджере</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1249-5
 msgid "<span class=\"ui\">History</span> - List of books you opened"
-msgstr ""
+msgstr "<span class=\"ui\">История</span> - Список книг, которые вы открывали"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1250-5
 msgid ""
 "<span class=\"ui\">Collections</span> - Personalized book lists you created. "
 "Dedicated section is here: <a href=\"#L2-collections\">Collections</a>"
 msgstr ""
+"<span class=\"ui\">Коллекции</span> — персонализированные списки книг, "
+"созданные вами. Специальный раздел находится здесь: <a href="
+"\"#L2-collections\">Коллекции</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1253-5
 msgid "You can change how these screens look from:"
@@ -1283,14 +1311,12 @@ msgstr ""
 "Если вы желаете изменить число предметов, показываемых на этих экранах, см.:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1255-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Display mode"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в Файловом Менеджере) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Режим отображения"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1257-5
 msgid ""
@@ -1302,15 +1328,14 @@ msgstr ""
 "книгу, не проходя через <span class=\"ui\">Просмотр файлов</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1259-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в Файловом Менеджере) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Настройки / Настройки "
+"мозаики и подробного списка"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1261-5
 msgid ""
@@ -1319,6 +1344,10 @@ msgid ""
 "class=\"ui\">Favorites</span> with a gesture and open another book without "
 "going through the <span class=\"ui\">File Browser</span>."
 msgstr ""
+"Вы можете назначить жесты для каждого из этих диалогов. Например, во время "
+"чтения книги вы можете получить доступ к своим <span class=\"ui\">Истории</"
+"span> или <span class=\"ui\">Избранному</span> с помощью жеста и открыть "
+"другую книгу, не заходя в <span class=\"ui\">Файловый Менеджер</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1262-5
 msgid ""
@@ -1326,6 +1355,9 @@ msgid ""
 "<b>filename</b> or <b>book metadata</b> from the upper left hamburger menu "
 "button."
 msgstr ""
+"Вы можете искать книгу на экране <span class=\"ui\">История</span> по "
+"<b>имени файла</b> или <b>метаданным книги</b> с помощью кнопки меню в левом "
+"верхнем углу."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1263-5
 msgid ""
@@ -1333,21 +1365,19 @@ msgid ""
 "or <span class=\"ui\">History</span> screen instead of <span "
 "class=\"ui\">File Browser</span> via:"
 msgstr ""
+"Вы также можете настроить KOReader так, чтобы он запускался с экраном <span "
+"class=\"ui\">Избранное</span> или <span class=\"ui\">История</span> вместо "
+"экрана <span class=\"ui\">Файлового Менеджера</span> через:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1266-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Start with"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в Файловом Менеджере) / <img class=\"img_inline\" src="
+"\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Начать с"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1272-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:934-5"
-#| msgid "Tap zones"
 msgctxt "user_guide/en.html+html.body.div.div:1272-1"
 msgid "Tap zones"
 msgstr "Зоны касания"
@@ -1362,6 +1392,13 @@ msgid ""
 "class=\"ui\">bottom menu</span> by pressing the button that corresponds to "
 "the <b>ENTER/OK</b> action."
 msgstr ""
+"На изображении выше вы можете увидеть расположение зон касания по умолчанию "
+"в KOReader. Чтобы отобразить <span class=\"ui\">ВЕРХНЕЕ МЕНЮ</span> или "
+"<span class=\"ui\">НИЖНЕЕ МЕНЮ</span>, вы можете коснуться указанных зон. Вы "
+"также можете провести пальцем вниз по верхней зоне, чтобы отобразить <span "
+"class=\"ui\">ВЕРХНЕЕ МЕНЮ</span>. На устройствах без сенсорного экрана, "
+"таких как Kindle 4, вы можете открыть <span class=\"ui\">НИЖНЕЕ МЕНЮ</span>, "
+"нажав кнопку, соответствующую действию <b>ENTER/OK</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1278-5
 msgid ""
@@ -1372,6 +1409,12 @@ msgid ""
 "<b>most recently used menu tab</b>. And last area opens the <b>last menu "
 "tab</b>."
 msgstr ""
+"<span class=\"label_green\">СОВЕТ</span> Как показано на изображении выше, "
+"зона открытия <span class=\"ui\">ВЕРХНЕГО МЕНЮ</span> разделена на 3 "
+"области. Если провести пальцем вниз по первой трети верхнего края, откроется "
+"<span class=\"ui\">ВЕРХНЕЕ МЕНЮ</span> с <b>первой вкладкой меню</b>. Вторая "
+"треть открывает <b>вкладку меню, использованную последней</b>. И последняя "
+"область открывает <b>последнюю вкладку меню</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1280-5
 msgid ""
@@ -1380,17 +1423,18 @@ msgid ""
 "span> and <span class=\"ui\">bottom menu</span> at the same time via this "
 "menu:"
 msgstr ""
+"Если вы хотите открыть оба меню одновременно, вы можете настроить зону <span "
+"class=\"ui\">ВЕРХНЕГО МЕНЮ</span> так, чтобы одновременно открывались как "
+"<span class=\"ui\">ВЕРХНЕЕ МЕНЮ</span>, так и <span class=\"ui\">НИЖНЕЕ "
+"МЕНЮ</span> через это меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1282-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Activate Menu"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Касания и жесты / Активировать меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1285-5
 msgid ""
@@ -1398,12 +1442,17 @@ msgid ""
 "type of gestures including <b>TAP, DOUBLE TAP, TWO FINGER TAP</b> and <b>TAP "
 "and HOLD</b>."
 msgstr ""
+"<span class=\"ui\">Угловые зоны касания</span> могут использоваться для "
+"многих различных типов жестов, включая <b>КАСАНИЕ, ДВОЙНОЕ КАСАНИЕ, КАСАНИЕ "
+"ДВУМЯ ПАЛЬЦАМИ</b> и <b>КАСАНИЕ И УДЕРЖАНИЕ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1287-5
 msgid ""
 "<b>PREVIOUS PAGE</b> and <b>NEXT PAGE</b> zones can also be used for "
 "<b>DOUBLE TAP</b> gestures at the same time."
 msgstr ""
+"Зоны <b>ПРЕДЫДУЩАЯ СТРАНИЦА</b> и <b>СЛЕДУЮЩАЯ СТРАНИЦА</b> также можно "
+"использовать для жестов <b>ДВОЙНОЕ КАСАНИЕ</b> одновременно."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1289-5
 msgid ""
@@ -1412,18 +1461,19 @@ msgid ""
 "all items are visible, tapping will show and hide the <span "
 "class=\"ui\">status bar</span>."
 msgstr ""
+"Зону <span class=\"ui\">Статусной строки</span> можно нажать, чтобы "
+"переключаться между элементами <span class=\"ui\">статусной строки</span>, "
+"если виден только один элемент. Если видны все элементы, нажатие приведёт к "
+"отображению и скрытию <span class=\"ui\">статусной строки</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1293-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:935-17"
-#| msgid "Changing text appearance"
 msgctxt "user_guide/en.html+html.body.div.div:1293-5"
 msgid "Changing text appearance"
 msgstr "Изменение внешнего вида текста"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1296-5
 msgid "<b>Changing the font*</b>:"
-msgstr ""
+msgstr "<b>Изменение шрифта*</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1296-35
 msgid ""
@@ -1435,23 +1485,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1297-5
 msgid "Make the font bigger"
-msgstr ""
+msgstr "Сделать шрифт крупнее"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1297-36
 msgctxt ""
 "user_guide/en.html+html.body.div.ul.li.div:1297-36user_guide/"
 "en.html+html.body.div.ul.li.div:1297-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "НИЖНЕЕ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1298-5
 msgid "Make the font bolder"
-msgstr ""
+msgstr "Сделать шрифт жирнее"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1298-36
 msgctxt "user_guide/en.html+html.body.div.ul.li.div:1298-36"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "НИЖНЕЕ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1299-5
 msgid "Invert the colors on screen (white on black)"
