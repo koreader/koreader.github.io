@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-05 09:53+0000\n"
-"PO-Revision-Date: 2025-11-05 09:51+0000\n"
+"PO-Revision-Date: 2025-11-06 06:48+0000\n"
 "Last-Translator: rerbin <rerbin@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -125,7 +125,7 @@ msgstr ""
 msgid ""
 "Parts of the text in this guide are color coded according to their "
 "categories:"
-msgstr "本指南的不同文段依照其分类标注了不同颜色："
+msgstr "本指南的不同内容依照其分类标注了不同颜色："
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:874-17
 msgid "PARTS OF KOREADER (BLUE)"
@@ -404,7 +404,7 @@ msgstr "PDF文档专有底部菜单项"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:989-17
 msgid "Saving highlights into PDF <span class=\"microns\"></span>"
-msgstr "将标注文段保存为PDF文档 <span class=\"microns\"></span>"
+msgstr "将标注内容保存为PDF文档 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:990-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:990-17"
@@ -698,8 +698,8 @@ msgid ""
 "Highlight text with different styles and colors, place bookmarks <a "
 "href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
-"用不同的样式和颜色标注文段、放置书签 <a href=\"#L1-bookmarks\" "
-"class=\"internalink\"></a>"
+"用不同的样式和颜色标注文段、添加书签 <a href=\"#L1-bookmarks\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1099-9
 msgid ""
@@ -975,7 +975,7 @@ msgstr "自动或手动裁剪页边空白"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1174-9
 msgid ""
 "<b>Reflow</b> documents to extract text and read easier on a small screen"
-msgstr "对文档进行<b>页面重排</b>以便在小尺寸屏幕上更方便地阅读及提取文段"
+msgstr "<b>重排文档</b>以提取文字，以便在小屏幕上更轻松阅读"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1176-9
 msgid ""
@@ -1433,8 +1433,8 @@ msgid ""
 "reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). Fixed-layout documents "
 "like PDF/DJVU are not supported."
 msgstr ""
-"<span class=\"label_blue\">说明</span> ※字体替换及样式调整仅对非固定版式的文"
-"档生效（如EPUB、HTML、DOCX、RTF、TXT）；不支持PDF和DJVU等固定版式文档。"
+"<span class=\"label_blue\">说明</span> *字体选择功能仅适用于 可重排文档（如EP"
+"UB、HTML、DOCX、RTF、TXT）；不支持PDF和DJVU等固定版式文档。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1309-1
 msgid "Controlling the backlight / frontlight"
@@ -2013,8 +2013,8 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
-"<b>页码参考</b>：如果书籍出版方提供了纸版书的页码，它们将在此处显示。请前往"
-"<a href=\"#L3-referencepages\">页数计数及页码参考</a>章节了解详情"
+"<b>页码参考</b>：如果出版方提供了印刷版书籍的页码，它们将在此处显示。请前往<a"
+" href=\"#L3-referencepages\">页数计数及页码参考</a>章节了解详情"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1498-9
 msgid ""
@@ -2157,7 +2157,7 @@ msgid ""
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
 "<span class=\"label_orange\">标注模式图标</span> 进入<span class=\"ui\">选择"
-"并标注模式</span>时，该图标将会显示。KOReader拥有独立的标注模式，以实现跨多页"
+"与标注模式</span>时，该图标将会显示。KOReader拥有独立的标注模式，以实现跨多页"
 "的标注。请前往<a href=\"#bookmarks\">书签、标注和笔记</a>一节了解详情。当开始"
 "标注操作后，该图标将显示于屏幕左上角，提醒用户当前仍处于标注模式下。当用户<b>"
 "选择到文段末尾</b>自动结束标注操作时或用户<b>取消标注</b>（通过再次点击标注的"
@@ -2216,9 +2216,9 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
-"<b>epub、mobi、html</b>等文件格式属于可重排版文件，因此不存在固定的页码。这些"
-"文档的页码会随屏幕尺寸、设备方向等因素动态变化（而诸如<b>PDF</b>或<b>djvu</b>"
-"的文件格式则拥有固定的版面尺寸，因此页码也是确定的）。"
+"<b>epub、mobi、html</b>等文件格式属于可重排文档。这些文档的页码会随屏幕尺寸、"
+"设备方向等因素自动调整，因此不存在固定的页码（而诸如<b>PDF</b>或<b>djvu</b>的"
+"文件格式则拥有固定的版面尺寸，因此页码也是确定的）。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1583-5
 msgid ""
@@ -2227,9 +2227,9 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
-"可重排版文档的文本字号被调大时，页码总数也会随之增加，因为每一页上能够显示的"
-"文字变少了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的标注文段可能在"
-"字体调整后跑到了 <b>第42页</b>上。"
+"可重排文档的文本字号被调大时，页码数也会随之增加，因为每页能够显示的文字变少"
+"了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的标注内容可能在字体调整"
+"后跑到了 <b>第42页</b>上。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1585-5
 msgid ""
@@ -2240,8 +2240,8 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
-"KOReader支持<b>页码参考</b>功能，出版方可利用该功能将纸版书的页码写入电子版书"
-"籍中。启用该功能后，KOReader不会自行计算书籍页码，而是展示由出版方提供的<b>内"
+"KOReader支持<b>页码参考</b>功能，出版方可利用该功能将印刷版书籍的页码写入电子"
+"版中。启用该功能后，KOReader不会自行计算书籍页码，而是展示由出版方提供的<b>内"
 "置页码</b>。这使得<span class=\"ui\">状态栏</span>中显示的页码可以与印刷版保"
 "持一致。"
 
@@ -2253,16 +2253,15 @@ msgstr "页码参考的用处："
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
-msgstr "因为与纸版书保持一致，页码参考能够在引用时提供精确页码。"
+msgstr "因为与印刷版保持一致，页码参考能够在引用时提供精确页码。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1590-9
 msgid ""
 "Reference page numbers can aid in navigation, especially for readers who are "
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
-msgstr ""
-"页码参考有助于定位指定页面，对熟悉纸版书的读者尤其有用。这使得用户可以更便捷"
-"地在数字版作品中找到特定文段或引言。"
+msgstr "页码参考有助于定位指定页面，对熟悉印刷版书籍的读者尤其有用。这使得用户可以更"
+"便捷地在电子书中找到特定文段或引言。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1591-9
 msgid ""
@@ -2272,9 +2271,9 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
-"数字版书籍可在各类设备及平台上阅读，由于显示设置和字号选择等因素各有不同，显"
-"示的页码可能天差地别。当同时在电子墨水屏阅读器和手机等不同设备上阅读同一本"
-"书，页码参考可作为一致性参照点。"
+"电子书可在各类设备及平台上阅读，由于显示设置和字号选择等因素各有不同，显示的"
+"页码可能天差地别。当同时在电子墨水屏阅读器和手机等不同设备上阅读同一本书，页"
+"码参考可作为一致性参照点。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1594-5
 msgid "You can enable this feature from:"
@@ -2317,9 +2316,9 @@ msgid ""
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
 "KOReader有两块状态栏，一条是默认启用的<span class=\"ui\">底部状态栏</span>；"
-"另一条是<span class=\"ui\">顶部状态栏</span>，启用后将出现在页面顶部。<span "
-"class=\"ui\">顶部状态栏</span>仅对epub、html、docx、rtf、txt等可重排版的文件"
-"格式可用。"
+"另一条是备选的<span class=\"ui\">顶部状态栏</span>，启用后将出现在页面顶部。"
+"<span class=\"ui\">顶部状态栏</span>仅对epub、html、docx、rtf、txt等可重排文"
+"件格式可用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1608-5
 msgid ""
@@ -2772,9 +2771,9 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
-"<span class=\"ui\">顶部状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排版"
-"格式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span "
-"class=\"ui\">顶部状态栏</span>："
+"<span class=\"ui\">顶部状态栏</span>是对EPUB、HTML、DOCX、RTF、TXT等可重排格"
+"式的文档启用一块补充状态栏。启用该功能后，可通过下列路径详细配置<span class="
+"\"ui\">顶部状态栏</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1763-5
 msgctxt "user_guide/en.html+html.body.div.div:1763-5"
@@ -2828,11 +2827,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1782-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr "<b>固定版面文档</b> PDF、djvu、图片文件等"
+msgstr "<b>固定版式文档</b> PDF、djvu、图片文件等"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1783-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr "<b>支持重排版的文档</b> epub、html、docx、rtf、txt等。"
+msgstr "<b>可重排文档</b> epub、html、docx、rtf、txt等。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1786-5
 msgid ""
@@ -3837,9 +3836,8 @@ msgid ""
 "Some of the digital books you come across might not have a proper table of "
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
-msgstr ""
-"有些书籍文档不包含目录（<b>ToC</b>）。根据对书籍预处理的不同，可能会遇到下列"
-"目录相关问题："
+msgstr "一些电子书可能没有合适的目录（<b>ToC</b>）。根据书籍的制作情况，可能会遇到下"
+"列目录相关问题："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2097-9
 msgid ""
@@ -3867,7 +3865,7 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
-"请注意<span class=\"ui\">替代性目录</span>无法应用于PDF、DJVU等<b>固定版面文"
+"请注意<span class=\"ui\">替代性目录</span>无法应用于PDF、DJVU等<b>固定版式文"
 "档</b>，因为创建替代性目录功能依赖于文档的HTML标签。<span class=\"ui\">自定义"
 "目录</span>及<span class=\"ui\">自定义隐藏页</span>功能则可用于所有文件格式。"
 
@@ -5699,8 +5697,8 @@ msgid ""
 "on PDFs, you have to delete it and highlight again due to the limitations of "
 "the PDF format."
 msgstr ""
-"<span class=\"label_blue\">说明</span> 该项调整仅对epub等可重排版格式生效。在"
-"PDF文档中扩展或缩减标注时，受限于PDF格式需要先整段删除再重新标注。"
+"<span class=\"label_blue\">说明</span> 该项调整仅对epub等可重排格式生效。在PD"
+"F文档中扩展或缩减标注时，受限于PDF格式需要先整段删除再重新标注。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2689-5
 msgid ""
@@ -8455,7 +8453,7 @@ msgid ""
 "for the small screens of e-readers. But for best results, you may want to "
 "convert your documents into more flexible EPUB format."
 msgstr ""
-"KOReader可对PDF文档进行页面重排（该选项在阅读PDF等固定版面文档时出现在底部菜"
+"KOReader可对PDF文档进行页面重排（该选项在阅读PDF等固定版式文档时出现在底部菜"
 "单中），使其适合在小尺寸屏幕的阅读设备上阅读。但为了更好的阅读效果，可能需要"
 "用户预先将文档转换为版式更加灵活的EPUB文件格式。"
 
@@ -9522,7 +9520,7 @@ msgstr "按照模式自动切换对应色温设置"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3893-9
 msgid "Reflowable documents"
-msgstr "可重排文件"
+msgstr "可重排文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3895-17
 msgid "Font face"
@@ -9914,7 +9912,7 @@ msgstr "从其他设备拉取阅读进度"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3999-9
 msgid "Fixed layout documents"
-msgstr "固定布局文档"
+msgstr "固定版式文档"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Toggle page flipping"
@@ -12822,9 +12820,9 @@ msgid ""
 "layout EPUBs</b>. They will open, but will render as reflowable EPUBs and "
 "probably won't look nice or readable."
 msgstr ""
-"<span class=\"label_blue\">说明</span> KOReader不支持<b>固定版面的EPUB文档</"
-"b>。这类文档仍可在KOReader中打开，但会作为可重排版EPUB格式渲染，页面样式可能"
-"不甚美观或难以阅读。"
+"<span class=\"label_blue\">说明</span> KOReader不支持<b>固定版式EPUB文档</b>"
+"。这类文档仍可在KOReader中打开，但会作为可重排EPUB渲染，版面可能会错乱或难以"
+"阅读。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4953-9
 msgid ""
@@ -13058,9 +13056,8 @@ msgid ""
 "information please click here <a href=\"#L2-readingscreen\">Reading Screen</"
 "a> to go to the relevant section."
 msgstr ""
-"这些小数字称为<b>参考页码</b>。简而言之，它们是你的书的印刷版本的真实页码。有"
-"关详细信息，请单击此处<a href=\"#L2-readingscreen\">阅读屏幕</a>转至相关部"
-"分。"
+"这些小数字称为<b>参考页码</b>。简而言之，它们是你的书的印刷版的真实页码。有关"
+"详细信息，请单击此处<a href=\"#L2-readingscreen\">阅读屏幕</a>转至相关部分。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5015-1
 msgid "My status bar disappeared"
