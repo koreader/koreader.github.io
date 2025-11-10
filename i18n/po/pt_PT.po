@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-09 20:52+0000\n"
-"PO-Revision-Date: 2025-11-05 09:51+0000\n"
+"PO-Revision-Date: 2025-11-10 22:51+0000\n"
 "Last-Translator: Monstrinha <monstrinha@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_PT/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1775,7 +1775,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1382-1
 msgctxt "user_guide/en.html+html.body.div.div:1382-1"
 msgid "Auto Warmth And Night Mode"
-msgstr "Auto Aquecimento e Modo Noturno"
+msgstr "Aquecimento Automático e Modo Noturno"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1384-5
 msgid ""
@@ -1854,9 +1854,9 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
-"<span class=\"ui\">Posição do Sol:</span> Esta opção calcula a posição do "
-"Sol na sua localização de acordo com as informações das <b>coordenadas</b> e "
-"a <b>altitude</b> que introduziu. A temperatura da cor da luz frontal é "
+"<span class=\"ui\">Posição Solar:</span> Esta opção calcula a posição do Sol "
+"na sua localização de acordo com as informações das <b>coordenadas</b> e a "
+"<b>altitude</b> que introduziu. A temperatura da cor da luz frontal é "
 "ajustada gradualmente de acordo com estes dados calculados da posição do "
 "Sol. Este modo é <b>dinâmico</b>. À medida que a duração da luz do dia muda "
 "ao longo do ano, o plugin ajusta a programação em conformidade."
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1403-5
 msgid "Fixed Schedule Mode"
-msgstr "Modo de agendamento fixo"
+msgstr "Modo de Programação Fixa"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1406-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1406-3"
@@ -1892,14 +1892,16 @@ msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
-"Toque no item de menu Activar e, em seguida, toque em <span class=\"ui\">De "
-"acordo com a programação fixa</span>"
+"Precione Activar e, em seguida, em <span class=\"ui\">De acordo com a "
+"Programação fixa</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1410-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Volte ao menu anterior e clique em <span class=\"ui\">Definições de "
+"Programação fixa</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1412-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1412-3"
@@ -1907,10 +1909,13 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Defina o seu horário de transição de temperatura configurando aqui os "
+"horários para cada item. Consulte a imagem acima para obter uma explicação "
+"dos itens."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1417-1
 msgid "Sun’s Position Mode"
-msgstr "Modo de Posição do Sol"
+msgstr "Modo de Posição Solar"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1420-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1420-13"
@@ -1931,6 +1936,8 @@ msgid ""
 "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
 "class=\"ui\">According to the sun's position</span>"
 msgstr ""
+"Clique <span class=\"ui\">Activar</span> no menu e depois <span class=\"ui\""
+">De acordo com a posição solar</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1425-13
 msgid ""
@@ -1938,13 +1945,16 @@ msgid ""
 "menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> "
 "(optional) correctly and give a <b>name</b> to your location."
 msgstr ""
+"Navegue para o menu anterior e clique em <span class=\"ui\">Definições de "
+"Localização</span>. Defina correctamente as suas <b>coordenadas</b> "
+"(necessário) e <b>altitude</b> (opcional) e <b>nomeie</b> a sua localização."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1427-13
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Warmth and night mode "
 "settings</span> menu item"
 msgstr ""
-"Volte ao menu anterior e toque em <span class=\"ui\">Definições do modo "
+"Volte ao menu anterior e clique em <span class=\"ui\">Definições do modo "
 "noturno e de aquecimento</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1429-13
@@ -1962,6 +1972,8 @@ msgid ""
 "You can see your current schedule via <span class=\"ui\">Currently active "
 "parameters</span> menu option."
 msgstr ""
+"Pode ver a Programação atual através do menu <span class=\"ui\">Parâmetros "
+"activos atuais</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1437-1
 msgid "Night Mode"
@@ -1977,6 +1989,13 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Ao definir as percentagens de luz quente para intervalos diferentes, também "
+"pode definir este intervalo para o <span class=\"ui\">Modo Noturno</span>, "
+"que inverte as cores do ecrã quando este intervalo começa. Se a sua luz "
+"frontal mínima ainda estiver muito clara ou se preferir um fundo de página "
+"escuro, pode ativar esta funcionalidade. Para ativar isto, na caixa de "
+"diálogo abaixo, clique na caixa de seleção <span class=\"ui\">Modo noturno</"
+"span> e em <span class=\"ui\">Definir</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1441-5
 msgid ""
@@ -1984,6 +2003,9 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"Ao fazê-lo, um <b>ícone de lua</b> aparecerá no menu junto a esse intervalo. "
+"Para desativar o modo noturno, basta desativar a caixa de seleção <span "
+"class=\"ui\">Modo noturno</span> nesse intervalo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1447-1
 msgid "Frontlight auto on/off"
@@ -1999,6 +2021,13 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Esta funcionalidade liga a sua luz frontal ao pôr do sol e desliga-se ao "
+"nascer do sol de acordo com os seus <span class=\"ui\">parâmetros atualmente "
+"ativos</span> neste plugin. Pode substituir esta alteração ligando/"
+"desligando manualmente a luz frontal. No próximo nascer/pôr do sol, <span "
+"class=\"ui\">Aquecimento automático</span> irá voltar a alterná-lo se for "
+"necessário. Pode ativá-lo selecionando o item de menu <span class=\"ui\">Luz "
+"frontal desligado durante o dia</span> neste plugin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1453-1
 msgid "Faster warmth transitions"
@@ -2009,14 +2038,16 @@ msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
+"Se pretende que o calor da luz frontal mude rapidamente em vez de uma "
+"mudança mais gradual:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1457-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "Defina o modo para <b>Programação fixa</b> seguindo as instruções acima"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1458-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "E ajuste as definições seguindo a imagem abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1463-5
 msgid ""
@@ -2025,6 +2056,10 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
+"Como pode ver nas definições acima, existe apenas uma diferença de um minuto "
+"entre a transição dia-noite. Assim, o calor do ecrã vai de <b>0 a 100 "
+"(ou inverso) em apenas um minuto</b>. Pode aumentar esta separação de tempo "
+"para prolongar a duração da transição."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1471-1
 msgctxt "user_guide/en.html+html.body.div.div:1471-1"
@@ -2037,6 +2072,10 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"O KOReader tem uma interface simples, principalmente a preto e branco, "
+"porque os gradientes e os diferentes tons de cinzento podem causar flashes e "
+"efeitos fantasma nos ecrãs de tinta eletrónica, o que pode prejudicar a "
+"experiência de leitura."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1475-5
 msgid ""
@@ -2046,6 +2085,11 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"O KOReader possui 2 interfaces principais: <span class=\"ui\">ecrã de "
+"leitura</span> e <span class=\"ui\">explorador de ficheiros</span>. "
+"Explicaremos aqui o <span class=\"ui\">ecrã de leitura</span>. <span class="
+"\"ui\">Explorador de ficheiros</span> é explicado <a href=\"#L2-filebrowser\""
+">nesta secção</a> do guia."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1478-1
 msgctxt "user_guide/en.html+html.body.div.div:1478-1"
@@ -2062,6 +2106,9 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"<span class=\"ui\">MENU SUPERIOR</span> inclui itens relacionados com a "
+"utilização geral do KOReader. Onde pode aceder aos seus livros, preferências "
+"do KOReader, plugins etc."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1484-3
 msgid ""
@@ -2070,12 +2117,18 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"<span class=\"ui\">MENU INFERIOR</span> concentra-se nas opções para "
+"<b>formatação de documentos</b>, como a espessura/tamanho da letra, o "
+"espaçamento entre linhas, etc. Ao ajustar a aparência do texto, irá "
+"interagir principalmente com o <span class=\"ui\">MENU INFERIOR</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1492-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"A imagem acima mostra os elementos que pode ver no ecrã do leitor ao ler um "
+"livro:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1494-9
 msgid ""
@@ -2085,6 +2138,12 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>Ícones indicadores:</b> Estes ícones informam sobre determinados "
+"processos em curso e estados. Poderá ver-los no canto superior esquerdo do "
+"ecrã durante determinadas operações. Normalmente são mais pequenos, mas aqui "
+"mostramos-los maiores para maior clareza. O próximo capitulo explica estes "
+"ícones indicadores em detalhe: <a href=\"#L2-indicators\">Ícones "
+"indicadores</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1495-9
 msgid ""
@@ -2092,6 +2151,9 @@ msgid ""
 "various information about your book and KOReader. Click here to go to the "
 "section: Click here for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Barra de estado:</b>Esta área é altamente configurável onde pode ver "
+"diversas informações sobre o seu livro e o KOReader. Clique aqui para ir "
+"para a secção: <a href=\"#L2-statusbar\">Barra de estado</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1496-9
 msgid ""
@@ -2100,6 +2162,10 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Barra de estado alternativa:</b> Para além da <span class=\"ui\">barra de "
+"estado</span> predefinida, temos uma <span class=\"ui\">barra de estado "
+"alternativa</span> que aparece no topo da página se a ativar. Clique aqui "
+"para obter detalhes: <a href=\"#L2-statusbar\">Barra de estado</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1497-9
 msgid ""
@@ -2108,6 +2174,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Números de páginas de referência:</b> se a editora do seu livro tiver "
+"incluído os números de página da versão impressa do livro, irá vê-los assim. "
+"Clique aqui para mais informações: <a href=\"#L3-referencepages\">Numeração "
+"de páginas e números de páginas de referência</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1498-9
 msgid ""
@@ -2116,6 +2186,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Tipos de destaque:</b> pode ver aqui os diferentes tipos de destaque. "
+"Além disso, pode fazer destaques coloridos se o seu dispositivo tiver um "
+"ecrã adequado. Clique aqui para ir para a secção: <a href=\"#L1-bookmarks\""
+">Marcadores, Destaques e Notas</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1499-9
 msgid ""
@@ -2123,6 +2197,10 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Marcador de notas:</b> o ícone do marcador de notas aparece quando "
+"adiciona uma nota a um destaque. Temos diferentes tipos de marcadores de "
+"notas. Clique aqui para mais informações: <a href=\"#L1-bookmarks\""
+">Marcadores, Destaques e Notas</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1503-1
 msgid "Indicator icons"
@@ -2134,6 +2212,9 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"O KOReader possui alguns indicadores para o informar sobre determinados "
+"processos em curso e estados, como pode ver na imagem acima. Pode ver-los no "
+"canto superior esquerdo do ecrã durante determinadas operações."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1511-17
 msgid ""
@@ -2142,6 +2223,11 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Ícones de renderização parcial</span> Este "
+"grupo de ícones pertence ao procedimento de renderização parcial e "
+"provavelmente verá estes ícones com mais frequência do que os outros. Estes "
+"ícones são visiveis quando altera as definições no <span class=\"ui\">menu "
+"inferior</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1513-13
 msgid ""
@@ -2151,12 +2237,20 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Esta funcionalidade permite visualizar as alterações na aparência do texto "
+"muito mais rapidamente, renderizando apenas o capítulo atual em vez do livro "
+"inteiro. Além disso, rodar a orientação do ecrã é agora muito mais rápido "
+"graças a ela. Esta funcionalidade está <b>ATIVADA</b> por predefinição. Se "
+"necessário, pode ser desativado para cada livro individualmente "
+"(com um toque) ou globalmente (com um toque longo) em:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1515-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Documento / Habilitar renderização parcial"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1517-13
 msgid ""
@@ -2164,6 +2258,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Após confirmar as suas alterações o livro todo tem de ser renderizado "
+"novamente, por isso isto é um processo de múltiplos passos. Estes ícones "
+"mostram o estado do processo de renderização como explicado abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1527-17
 msgid ""
@@ -2171,12 +2268,18 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"Neste estado, o documento é <b>parcialmente</b> renderizado. A contagem de "
+"páginas, a informação de rodapé e outras informações são <b>imprecisas</b>. "
+"Pode ver o comportamento das alterações às definições e ajustá-las ainda "
+"mais. Também pode virar páginas e saltar links."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1531-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Uma renderização completa está a acontecer em <b>fundo</b>. Pode ainda virar "
+"páginas, saltar links, alterar configurações."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
@@ -2185,12 +2288,19 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"A renderização completa foi feita, mas <b>ainda não foi aplicada</b> porque "
+"o KOReader está à espera que fique <b>suspenso</b> para recarregar o resto "
+"do livro (suspenso=não interargir com o dispositivo). Pode ainda virar "
+"páginas, saltar links, alterar configurações."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1540-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Esteve suspenso durante algum tempo, então o KOReader está a recarregar o "
+"documento inteiro. Neste passo o KOReader é <b>bloqueado</b> para evitar a "
+"interacção."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1544-5
 msgid ""
@@ -2202,6 +2312,14 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> A renderização parcial só é possível "
+"se o seu EPUB for composto por múltiplos fragmentos. Os ficheiros EPUB são "
+"basicamente ficheiros .zip que contêm outros ficheiros. Alguns livros podem "
+"ser um único ficheiro .html, enquanto outros podem ser compostos por vários "
+"ficheiros .html, como se cada capítulo do livro fosse um ficheiro .html "
+"separado. <b>Se o seu livro for apenas um ficheiro .html, a renderização "
+"parcial não funcionará, porque para cada alteração o KOReader terá de "
+"calcular o livro inteiro.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1552-13
 msgid ""
@@ -2217,6 +2335,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Ícone de Destaque</span> Este ícone aparece "
+"quando se encontra no <span class=\"ui\">modo de seleção e destaque</span>. "
+"O KOReader possui um modo de destaque adicional que permite iniciar um "
+"destaque e virar as páginas, para fazer destaques longos que podem abranger "
+"várias páginas. Pode ler sobre isso na secção <a href=\"#bookmarks\""
+">MARCADORES, DESTAQUES E NOTAS</a> deste guia. Quando inicia um destaque "
+"neste modo, este ícone é mostrado no canto para o lembrar que ainda está no "
+"modo de destaque. Desaparece quando termina o destaque <b>selecionando o "
+"final da passagem</b> ou quando <b>cancela o destaque</b> (tocando novamente "
+"no início do seu destaque ou neste <span class=\"ui\">ícone de "
+"destaque</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1559-13
 msgid ""
@@ -2226,12 +2355,20 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Ícone de bola Pokémon</span> Este ícone aparece "
+"quando pressiona uma palavra durante muito tempo "
+"(intencionalmente ou acidentalmente). O KOReader tem um menu normal de "
+"<b>pressão longa</b>. E um menu adicional de <b>pressão demasiado longa</b> "
+"quando mantém o dedo pressionado durante mais de 3 segundos. Este ícone "
+"significa que ativou este menu de toque longo."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1566-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Ícone do modo Folhear</span> Este ícone aparece "
+"quando toca no canto superior esquerdo se:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1568-17
 msgid "You are reading a PDF document"
@@ -2242,6 +2379,8 @@ msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"E está numa vista ampliada diferente de 100% (coluna, linha ou manual) ou no "
+"<span class=\"ui\">modo de refluxo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2249,6 +2388,9 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"Este modo apresenta temporariamente a página inteira sem cortes, "
+"dimensionada para caber no ecrã. Pode virar as páginas neste modo. Para sair "
+"deste modo, toque neste ícone."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1579-1
 msgid "Page numbering and reference page numbers"
@@ -2262,6 +2404,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"Tipos de documentos como <b>epub, mobi, html</b> não têm, naturalmente, "
+"números de página fixos porque são documentos refluíveis. Ou seja, estes "
+"documentos podem ser ajustados de acordo com o tamanho do ecrã e orientação "
+"do dispositivo (ao contrário dos <b>PDF's</b> ou <b>djvu</b> por exemplo, "
+"que têm um tamanho de página fixo)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1583-5
 msgid ""
@@ -2270,6 +2417,10 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Se aumentar o tamanho da letra de um documento refluível, a contagem de "
+"páginas também aumentará, porque agora caberá menos texto numa única página. "
+"Por vezes, isto causa problemas porque um destaque que fez na <b>página 38</"
+"b> pode estar na <b>página 42</b> após o ajuste da fonte."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1585-5
 msgid ""
@@ -2280,6 +2431,13 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"O KOReader suporta a funcionalidade <b>Números de página de referência</b>, "
+"que permite aos editores incorporar números de páginas de livros impressos "
+"diretamente na versão do e-book. Quando ativa esta funcionalidade, o "
+"KOReader não calcula os números das páginas sozinho. Em vez disso, mostra os "
+"<b>números de páginas incorporadas</b> do editor. Isto significa que o "
+"número da página que vê na <span class=\"ui\">barra de estado</span> "
+"corresponde à versão impressa do livro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1587-5
 msgid "Benefits of reference page numbers:"
@@ -2290,6 +2448,8 @@ msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"Os números das páginas de referência permitem citações precisas, combinando "
+"os números das páginas que se encontram nas versões impressas."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1590-9
 msgid ""
@@ -2297,6 +2457,10 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"Os números de página de referência podem ajudar na navegação, especialmente "
+"para os leitores familiarizados com a versão impressa de um livro. Pode "
+"ajudá-lo a encontrar passagens ou citações específicas mais facilmente na "
+"versão digital."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1591-9
 msgid ""
@@ -2306,6 +2470,12 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"Uma vez que os livros digitais podem ser lidos em vários dispositivos e "
+"plataformas, cada um com o seu próprio tamanho de letra e definições de "
+"visualização, os números de página apresentados podem variar "
+"significativamente. Os números de página de referência fornecem um ponto de "
+"referência consistente ao ler o mesmo livro ao mesmo tempo em diferentes "
+"dispositivos, como o leitor eletrónico e o telefone."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1594-5
 msgid "You can enable this feature from:"
@@ -2316,6 +2486,9 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Páginas de referência / Utilizar números de página "
+"de referência"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1598-5
 msgid ""
@@ -2323,12 +2496,17 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Se também marcar a opção <span class=\"ui\">Mostrar etiquetas de páginas de "
+"referência na margem</span> no mesmo menu, estes números de página são "
+"mostrados ao lado do texto numa fonte pequena."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1600-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Note que este menu só aparece se existirem <b>Números de páginas de "
+"referência</b> incorporados no seu livro."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1604-1
 msgctxt "user_guide/en.html+html.body.div.div:1604-1"
@@ -2343,6 +2521,11 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"O KOReader tem duas barras de estado, uma <span class=\"ui\">barra de estado "
+"inferior</span> que está activa por defeito. E uma <span class=\"ui\">barra "
+"de estado alternativa</span> que aparece no topo da página se a activar. "
+"Esta <span class=\"ui\">barra de estado alternativa</span> apenas está "
+"disponível em documentos refluíveis (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1608-5
 msgid ""
@@ -2352,18 +2535,28 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"<span class=\"ui\">Barra de estado inferior</span> é a mais recente e é "
+"mantida ativamente. <span class=\"ui\">Barra de estado alternativa</span> é "
+"o remanescente das versões anteriores do KOReader, por isso, não lhe estamos "
+"a adicionar novas funcionalidades. Mas ainda pode ativar esta <span class="
+"\"ui\">barra de estado alternativa</span> se a considerar útil. Pode "
+"habilitá-la em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1610-5
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
+"MENU INFERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de estado alternativa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1612-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"Pode configurar a <span class=\"ui\">Barra de estado alternativa</span> "
+"neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1614-5
 msgctxt "user_guide/en.html+html.body.div.div:1614-5"
@@ -2379,6 +2572,8 @@ msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"As instruções no resto desta secção são para a <span class=\"ui\">barra de "
+"estado inferior</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1618-1
 msgid "Configuring the status bar"
@@ -2390,12 +2585,17 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Pode configurar a barra de estado inferior neste menu. Sinta-se à vontade "
+"para explorar o submenu <span class=\"ui\">DEFINIÇÕES</span> para "
+"personalizar a sua barra de estado como desejar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1622-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de Estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1626-5
 msgid ""
@@ -2403,6 +2603,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"Existem muitos itens que pode mostrar na barra de estado. Mas, por defeito, "
+"apenas um é mostrado de cada vez e é necessário tocar na barra de estado "
+"para alternar entre eles. Se quiser mostrar todos os itens de uma só vez, "
+"ative-o aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1628-5
 msgid ""
@@ -2410,6 +2614,9 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de estado / Configurar itens / Mostrar todos os "
+"itens seleccionados de uma só vez"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1632-5
 msgid ""
@@ -2417,10 +2624,13 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Se tiver ativado a opção acima, não poderá ocultar a barra de estado tocando "
+"nela. Se quiser ocultá-la, deve atribuir aqui um gesto para ocultar/mostrar "
+"a barra de estado:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1634-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Menu de seleção de gestos / Leitor / Alternar barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1636-5
 msgid "Sorting the status bar items:"
@@ -2432,10 +2642,15 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de estado / Configurar itens / Organizar itens na "
+"barra de estado"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1642-1
 msgid "Using \"Custom Text\" item for status bar alignment"
 msgstr ""
+"Utilização do item \"Texto Personalizado\" para alinhamento da barra de "
+"estado"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1643-5
 msgid ""
@@ -2444,16 +2659,22 @@ msgid ""
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
+"Existe um item especial na barra de estado chamado <span class=\"ui\">Texto "
+"personalizado</span>. Este item pode mostrar um texto escolhido na barra de "
+"estado. Também pode utilizar esta funcionalidade para criar um separador "
+"entre os itens da barra de estado, como pode ver no exemplo abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1648-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Primeiro ative esta opção com um toque curto neste menu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1650-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de estado / Texto personalizado: ‘KOReader’"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1653-9
 msgid ""
@@ -2461,12 +2682,18 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Mantenha-o pressionado para abrir as suas definições. Introduza um caractere "
+"<b>\"espaço\"</b> na primeira caixa e introduza o número de repetições na "
+"segunda caixa, que determinará a largura do seu separador."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1656-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"Pode escolher outro caractere como separador. Também pode mover este item "
+"como outros itens da barra de estado para alterar a sua ordem e ajustar os "
+"seus grupos."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1658-1
 msgid "Chapter progress bar"
@@ -2482,6 +2709,13 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"A <span class=\"ui\">barra de progresso</span> na <span class=\"ui\">barra "
+"de estado</span> mostra normalmente o seu progresso no livro. Mas também "
+"pode mostrar o seu progresso no <b>capítulo atual</b>. Isto pode ser útil, "
+"por exemplo, se um livro tiver muitos capítulos curtos. Neste caso, pode ser "
+"difícil ver o seu progresso no capítulo atual, pelo que a <span class=\"ui\""
+">barra de estado do capítulo</span> pode ser mais informativa. Pode ativar o "
+"recurso neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1662-5
 msgid ""
@@ -2489,16 +2723,22 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Progress Bar / Show chapter-progress "
 "bar instead"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barra de Estado / Barra de Progresso / Mostrar barra de "
+"progresso do capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1664-5
 msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"Além disso, pode atribuir um gesto para alternar entre as barras de "
+"progresso normal e de capítulo. Pode encontrar esta ação em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1666-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr ""
+"Menu de seleção de gestos / Leitor / Alternar barra de progresso do capítulo"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1672-1
 msgctxt "user_guide/en.html+html.body.div.div:1672-1"
@@ -2511,6 +2751,9 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Aqui daremos apenas uma visão geral dos itens na estrutura do <span class="
+"\"ui\">menu superior</span> para que se possa familiarizar com o menu. "
+"Informações detalhadas estão disponíveis nas secções relacionadas deste guia."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1679-9
 msgid ""
@@ -2518,6 +2761,9 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">NAVEGAÇÃO:</span> Este menu contém itens que lhe permitem "
+"navegar no livro que está a ler no momento. <b>Índice, marcadores, mapa do "
+"livro...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1681-9
 msgid ""
@@ -2525,24 +2771,35 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">CONFIGURAÇÕES:</span> Este menu contém itens que permitem "
+"alterar o aspecto do seu livro. <b>Definições de tipos de letra, ajustes de "
+"estilo...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1683-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">DEFINIÇÕES:</span> Este menu contém definições para o "
+"KOReader e para o seu dispositivo. <b>Definições de tinta electrónica, luz, "
+"gestos...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1685-9
 msgid ""
 "<span class=\"ui\">TOOLS:</span> This menu contains plugins that can expand "
 "the functionality of KOReader."
 msgstr ""
+"<span class=\"ui\">FERRAMENTAS:</span> Este menu contém plugins que podem "
+"expandir a funcionalidade do KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1687-9
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
+"<span class=\"ui\">PESQUISA:</span> Este menu contém itens relacionados com "
+"a pesquisas e procuras. <b>Pesquisa de texto, dicionário, tradução, "
+"Wikipédia...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1689-9
 msgid ""
@@ -2550,6 +2807,9 @@ msgid ""
 "class=\"ui\">file browser</span> which is the interface for managing your "
 "library."
 msgstr ""
+"<span class=\"ui\">NAVEGADOR DE FICHEIROS:</span> Este botão abre o <span "
+"class=\"ui\">navegador de ficheiros</span> que é a interface para gerir a "
+"sua biblioteca."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1691-9
 msgid ""
@@ -2557,6 +2817,10 @@ msgid ""
 "books like <b>history, favorites, collections</b>. Also <b>book information</"
 "b>, <b>update</b> and <b>exit</b> items are under this menu."
 msgstr ""
+"<span class=\"ui\">PRINCIPAL:</span> Este menu contém ferramentas para "
+"aceder aos seus livros como <b>histórico, favoritos, coleções</b>. Além "
+"disso, os itens <b>informações do livro</b>, <b>atualizar</b> e <b>sair</b> "
+"estão neste menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1698-1
 msgctxt "user_guide/en.html+html.body.div.div:1698-1"
@@ -2568,6 +2832,8 @@ msgid ""
 "<span class=\"label_green\">TIP</span> If you long tap on their names, you "
 "can see an explanation of these items"
 msgstr ""
+"<span class=\"label_green\">DICA</span> Se manter pressionado os itens "
+"poderá ver uma explicação dos mesmos"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1705-5
 msgid ""
@@ -2578,12 +2844,21 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">Modo de visualização:</span> Se mudar para o modo <span "
+"class=\"ui\">contínuo</span>, pode fazer scroll no documento como uma página "
+"Web. Este modo é mais adequado para tipos de ecrã que não sejam e-ink "
+"(LCD, OLED). No modo contínuo <b>perde as margens superior e inferior</b> e "
+"o texto pode ser cortado na primeira e última linha do ecrã. Para resolver "
+"este problema pode ativar a <span class=\"ui\">Sobreposição de "
+"páginas</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1707-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Page Overlap"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Sobreposição de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1709-5
 msgid ""
@@ -2594,6 +2869,13 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">Modo de renderização:</span> Esta opção determina a forma "
+"como o seu documento será renderizado pelo KOReader. O padrão é <span class="
+"\"ui\">WEB</span> e geralmente não precisa de alterar esta definição. Quando "
+"um livro (ou página web guardada) é demasiado complicado "
+"(larguras ou margens especificadas, margens negativas, flutuações, etc.) e o "
+"layout tem mau aspeto ou transborda o ecrã, pode tentar outros modos de "
+"renderização."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1711-5
 msgid ""
@@ -2603,6 +2885,11 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\">Zoom (dpi):</span> Esta definição pode ser considerada um "
+"<b>fator geral de zoom</b> para o documento (exceto o tamanho da letra). A "
+"96 dpi (que é a definição predefinida), as imagens do documento são "
+"renderizadas nas suas dimensões originais. Basicamente irá utilizar esta "
+"definição se quiser <b>aumentar as imagens sem aumentar o texto</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1717-5
 msgid ""
@@ -2613,6 +2900,12 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"As definições de <span class=\"ui\">Espaçamento e expansão de palavras</"
+"span> estão relacionadas e determinam o aspeto do seu texto quando se "
+"justifica. Ao justificar o texto, é adicionado espaço entre as palavras para "
+"que ambas as margens de cada linha fiquem alinhadas. Como a contagem de "
+"palavras nas linhas não é sempre igual, no alinhamento justificado, o texto "
+"é comprimido ou expandido para preencher a linha."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1719-5
 msgid ""
@@ -2620,6 +2913,10 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Espaçamento entre palavras:</span> quanto os caracteres "
+"de <b>espaço</b> numa linha de texto podem ser comprimidos para acomodar "
+"mais palavras. Esta definição não afeta as palavras, apenas altera o espaço "
+"entre elas."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1721-5
 msgid ""
@@ -2628,12 +2925,19 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Expansão de palavras:</span> Se tiver muito espaço em "
+"branco numa linha, o quanto desse estaço pode ser distribuído nas palavras, "
+"expandindo-as. Esta definição afeta a aparência das palavras. Se não quiser "
+"que as suas palavras se expandam, defina como <span class=\"ui\">none</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1723-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Pode experimentar diferentes definições até que o texto lhe pareça agradável "
+"e, em seguida, defini-las como predefinição através das suas respetivas "
+"caixas de diálogo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1730-5
 msgid ""
@@ -2643,10 +2947,15 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Contraste</span> e <span class=\"ui\">espessura da fonte</"
+"span> são duas opções que pode utilizar para tornar o seu texto mais "
+"carregado (ou mais claro). Pode obter a mesma aparência com qualquer uma "
+"destas opções, mas utilizar métodos diferentes para a alcançar. Pode, "
+"também, usar os dois ao mesmo tempo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1732-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "As diferenças entre eles pode ser resumida em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1735-9
 msgid "CONTRAST"
@@ -2655,14 +2964,15 @@ msgstr "CONTRASTE"
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1737-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
 msgstr ""
+"<b>+</b> Não altera a largura da letra, o comprimento do livro mantém-se"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>+</b>Não é necessário renderizar novamente o documento, mais rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1739-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>-</b> Pode ficar mal em ecrãs LCD ou com baixo DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1741-9
 msgid "FONT WEIGHT"
@@ -2671,10 +2981,12 @@ msgstr "ESPESSURA DA FONTE"
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1743-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
 msgstr ""
+"<b>+</b> Utilizará tipos de letra com espessura adequada se os tiver "
+"instalados"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1744-13
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>+</b> Fica melhor em ecrãs LCD ou com baixo DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1745-13
 msgid "<b>-</b> Has to re-render fonts, slower"
@@ -2691,6 +3003,15 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\">Sugestão de fonte</span> ajusta o seu texto para uma "
+"legibilidade máxima de acordo com a grelha de pixéis do ecrã. O <span class="
+"\"ui\">nativo</span> utiliza instruções de dicas internas da fonte, o <span "
+"class=\"ui\">auto</span> utiliza o algoritmo de dicas do FreeType. <span "
+"class=\"ui\">Auto</span> é uma escolha mais segura porque os ficheiros de "
+"fontes que instalou podem ter instruções de dicas problemáticas. Além disso, "
+"<span class=\"ui\">auto</span> lida melhor com texto <b>CJK</b>. Pode "
+"experimentar diferentes configurações para ver qual delas fica melhor no seu "
+"dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1752-5
 msgid ""
@@ -2702,6 +3023,14 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"<span class=\"ui\">Kerning de tipos de letra</span> ajusta o espaçamento "
+"entre letras para obter um resultado visualmente agradável. Por definição é "
+"a <span class=\"ui\">melhor</span> opção, pode ser <b>mais lenta</b> ao "
+"abrir ficheiros (dependendo do seu dispositivo) mas <b>tem melhor suporte "
+"para ligações</b> (veja a imagem abaixo para um exemplo), juntou glifos em "
+"<b>árabe</b> e alguns outros scripts. Se o seu dispositivo for lento, pode "
+"tentar <span class=\"ui\">bom</span>, que é mais rápido e ainda pode parecer "
+"correto com texto em escrita latina ocidental."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1761-5
 msgid ""
@@ -2710,6 +3039,10 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
+"<span class=\"ui\">Barra de Estado Alternativa</span> ativa uma barra de "
+"estado alternativa que apenas está disponível em documentos refluíveis "
+"(EPUB, HTML, DOCX, RTF, TXT…). Depois de a ativar aqui, pode configurar "
+"<span class=\"ui\">barra de estado alternativa</span> a partir de:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1763-5
 msgctxt "user_guide/en.html+html.body.div.div:1763-5"
@@ -2728,12 +3061,19 @@ msgid ""
 "on/off switches. You can achieve more fine tuned tweaks for your document "
 "via:"
 msgstr ""
+"<span class=\"ui\">Estilo incorporado</span> e <span class=\"ui\">fontes "
+"incorporadas</span> determinam se os estilos e fontes incorporados da "
+"editora no documento serão utilizados (ou ignorados) para renderizar o "
+"documento. Estes são interruptores gerais de ligar/desligar. Pode obter "
+"ajustes mais precisos no seu documento através de:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1767-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style Tweaks"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Ajustes de Estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1769-5
 msgid ""
@@ -2741,6 +3081,9 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
+"<span class=\"ui\">Escala de imagens</span> determina a forma como as "
+"imagens do seu documento são renderizadas. <span class=\"ui\">Melhor</span> "
+"parece mais agradável, mas é mais lento."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1778-1
 msgid "User Interface Tips"
@@ -2751,14 +3094,16 @@ msgid ""
 "KOReader’s user interface and options can change depending on the file type "
 "you open. There are two main categories of documents:"
 msgstr ""
+"A interface de utilizador e as opções do KOReader podem mudar dependendo do "
+"tipo de ficheiro que abre. Existem duas categorias principais de documentos:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1782-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr ""
+msgstr "<b>Documentos com layout fixo</b> (pdf, djvu, imagens...)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1783-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr ""
+msgstr "<b> Documentos refluiveis</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1786-5
 msgid ""
@@ -2767,46 +3112,63 @@ msgid ""
 "items quickly. If you remember the name of a menu item but don't remember "
 "where it is, you can use this feature:"
 msgstr ""
+"O KOReader possui muitas funcionalidades, pelo que o seu sistema de menu "
+"reflete essa complexidade. Temos uma funcionalidade de <span class=\"ui\""
+">Pesquisa de menu</span> para encontrar itens de menu rapidamente. Se se "
+"lembra do nome de um item de menu, mas não se lembra onde está, pode "
+"utilizar esta funcionalidade:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1788-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Menu search"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Ajuda / Pesquisar menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1790-5
 msgid ""
 "Also you can assign this feature to a gesture or add it to your <a "
 "href=\"#L2-quickmenu\">Quick Menu</a> for faster access."
 msgstr ""
+"Além disso, pode atribuir esta funcionalidade a um gesto ou adicioná-la ao "
+"seu <a href=\"#L2-quickmenu\">Menu Rápido</a> para um acesso mais rápido."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1795-13
 msgid ""
 "On the <span class=\"ui\">bottom menu</span> if you tap and hold an option’s "
 "name, you can see its explanation."
 msgstr ""
+"No <span class=\"ui\">menu inferior</span>, se tocar e segurar o nome de uma "
+"opção, pode ver a sua explicação."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1799-13
 msgid "You can change the interface language via:"
-msgstr ""
+msgstr "Pode mudar a linguagem através de:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.div:1799-59
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Language"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Idioma"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1805-13
 msgid ""
 "If you want to change the size of user interface, there is a <span "
 "class=\"ui\">DPI</span> setting for that:"
 msgstr ""
+"Se pretender alterar o tamanho da interface do utilizador, existe uma "
+"definição de <span class=\"ui\">DPI</span> para isso:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1807-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screen DPI"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Ecrã / DPI do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1809-13
 msgid ""
@@ -2816,6 +3178,11 @@ msgid ""
 "span> setting in the bottom bar. That one is related to the documents only. "
 "You can find the explanation in the next section."
 msgstr ""
+"Pode escolher um valor no menu ou selecionar <span class=\"ui\">Dpi "
+"personalizado</span> para introduzir um valor para o ajuste: <b>DPI mais "
+"elevado = Interface maior</b>. Note que também existe uma definição de <span "
+"class=\"ui\">Zoom (dpi) </span> na barra inferior. Este está relacionado "
+"apenas com os documentos. Pode encontrar a explicação na próxima secção."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1813-13
 msgid ""
@@ -2826,6 +3193,14 @@ msgid ""
 "<span class=\"ui\">star</span> (★) in the menu or as a <span "
 "class=\"ui\">black border</span> around the indicators as seen below:"
 msgstr ""
+"Se tocar e segurar uma <b>opção</b> ou <b>item de menu</b> "
+"(espessura da fonte, espaçamento entre linhas, etc.), pode definir o seu "
+"valor como <span class=\"ui\">PREDEFINIDO</span>. O novo valor só será "
+"aplicado aos livros abertos a partir da seleção do mesmo. Os livros abertos "
+"anteriormente manterão as suas definições. Pode identificar os valores "
+"predifinidos com uma <span class=\"ui\">estrela</span> (★) no menu ou com "
+"uma <span class=\"ui\">borda preta</span> à volta dos indicadores, como "
+"mostra abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1820-13
 msgid ""
@@ -2834,6 +3209,11 @@ msgid ""
 "<span class=\"ui\">Bookmarks</span> window. You can use any multi swipe "
 "gesture to close this one)"
 msgstr ""
+"Pode <b>fechar</b> caixas de diálogo de ecrã inteiro "
+"(<span class=\"ui\">Histórico, Índice, Leitura de estatísticas</span> etc.) "
+"<b>deslizando para baixo</b>. (Exceto a janela <span class=\"ui\""
+">Marcadores</span>, para esta pode utilizar qualquer gesto de deslizamento "
+"para a fechar)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1823-13
 msgid ""
@@ -2844,6 +3224,11 @@ msgid ""
 "take a screenshot with the <span class=\"ui\">Alt + Shift + G</span> "
 "shortcut."
 msgstr ""
+"Pode fazer uma <span class=\"ui\">captura de ecrã</span> <b>deslizando o "
+"dedo prelongadamente e na diagonal</b> ou <b>tocar nos cantos diagonais "
+"opostos</b>. Pode utilizar este segundo gesto, por exemplo, ao visualizar "
+"uma imagem. Além disso, se o seu dispositivo tiver um teclado, pode fazer "
+"uma captura de ecrã com o atalho <span class=\"ui\">Alt + Shift + G</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1826-13
 msgid ""
@@ -2851,6 +3236,10 @@ msgid ""
 "page</b> action which you can assign to any gesture. It is in the <b>Reader</"
 "b> category of the <span class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"Se pretender abrir uma página aleatória de um livro, temos uma ação "
+"<b>Saltar para uma página aleatória</b> que pode atribuir a qualquer gesto. "
+"Encontra-se na categoria <b>Leitor</b> do <span class=\"ui\">Gestor de "
+"Gestos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1830-9
 msgid ""
@@ -2858,18 +3247,24 @@ msgid ""
 "<b>tap and hold</b> on arrow buttons to change the value in bigger "
 "increments."
 msgstr ""
+"Nas janelas que contenham botões de seta de ajuste como a acima, pode "
+"<b>manter premidos</b> os mesmos para alterar o valor em incrementos maiores."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1831-9
 msgid ""
 "You can <b>close</b> this type of dialog (non-full screen) by tapping "
 "outside of its window."
 msgstr ""
+"Pode <b>fechar</b> este tipo de caixa de diálogo (não em ecrã inteiro) "
+"tocando fora da janela."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1832-9
 msgid ""
 "You can <b>move</b> this type of dialog by holding its window title and "
 "dragging."
 msgstr ""
+"Pode <b>mover</b> este tipo de diálogo segurando o título da janela e "
+"arrastando."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1833-9
 msgid ""
@@ -2877,6 +3272,9 @@ msgid ""
 "holding the <b>window title</b> (when you want to see the text under it "
 "while adjusting a value)."
 msgstr ""
+"Pode tornar este tipo de caixa de diálogo <b>semitransparente</b> tocando e "
+"mantendo premido o <b>título da janela</b> "
+"(quando quiser ver o texto por baixo da janela enquanto ajusta um valor)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1837-13
 msgid ""
@@ -2885,18 +3283,27 @@ msgid ""
 "presents you a screen that looks like our <span class=\"ui\">File Browser</"
 "span>. If you want to create a new folder while choosing:"
 msgstr ""
+"<b>Criar novas pastas - </b>Em situações em que é necessário escolher um "
+"local (armazenamento na nuvem, mover para arquivo de plugins, plugin de "
+"exportação), o KOReader apresenta um ecrã que se parece com o nosso <span "
+"class=\"ui\">Navegador de Ficheiros</span>. Se pretende criar uma nova pasta "
+"ao escolher:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1839-17
 msgid ""
 "First navigate to the folder from the <span class=\"ui\">Folder chooser "
 "screen</span>"
 msgstr ""
+"Primeiro navegue até à pasta no <span class=\"ui\">ecrã do seletor de "
+"pastas</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p.ol.li:1840-17
 msgid ""
 "Then <b>long-press</b> the <span class=\"ui\">Home icon</span> shown at the "
 "upper-left corner of this screen"
 msgstr ""
+"Em seguida, <b>mantenha premido</b> o <span class=\"ui\">ícone Da Página "
+"Inicial</span> apresentado no canto superior esquerdo do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1846-13
 msgid ""
@@ -2904,18 +3311,26 @@ msgid ""
 "documents. To see the dictionary definition or translation, just tap and "
 "hold a word."
 msgstr ""
+"O KOReader suporta <b>pesquisa no dicionário</b> em EPUB e documentos PDF/"
+"DJVU digitalizados. Para ver a definição ou tradução do dicionário, basta "
+"tocar e segurar uma palavra."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1847-9
 msgid ""
 "Pressing and holding a word brings up a dialog where you can also search the "
 "selection in the document for more occurrences or look it up on Wikipedia."
 msgstr ""
+"Premir e manter uma palavra abre uma caixa de diálogo onde também pode "
+"pesquisar mais ocorrências na seleção do documento ou procurá-la na "
+"Wikipédia."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1850-13
 msgid ""
 "If you want to check the current date you can tap on the clock in the <span "
 "class=\"ui\">TOP MENU</span>."
 msgstr ""
+"Se pretender verificar a data actual, pode tocar no relógio no <span class="
+"\"ui\">MENU SUPERIOR</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1854-1
 msgid "Scrolling types"
@@ -2924,12 +3339,15 @@ msgstr "Tipos de Scroll"
 #: user_guide/en.html%2Bhtml.body.div.p:1856-5
 msgid "KOReader has three types of touch scrolling. You can access this from:"
 msgstr ""
+"O KOReader possui três tipos de scroll por toque. Pode aceder a eles em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1858-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Scrolling"
 msgstr ""
+"MENU SUPERIOR/ <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Toques e gestos / Scroll"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1860-5
 msgid ""
@@ -2937,12 +3355,17 @@ msgid ""
 "class=\"ui\">Continuous mode</span> from the <span class=\"ui\">Bottom menu</"
 "span> to be able to use scrolling."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Deve ativar o <span class=\"ui\">Modo "
+"Contínuo</span> no <span class=\"ui\">menu inferior</span> para poder "
+"utilizar o Scroll."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1863-9
 msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
+"<b>Scroll clássico:</b> Este modo funciona exatamente como o scroll do seu "
+"telemóvel/tablet."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1865-9
 msgid ""
@@ -2951,6 +3374,10 @@ msgid ""
 "without lifting your finger. Scrolling amount is proportional to the "
 "distance you move your finger after you initiated scrolling."
 msgstr ""
+"<b>Scroll Turbo:</b> Este modo permite deslizar mais rapidamente do que o "
+"<span class=\"ui\">scroll clássico</span>. Além disso, pode percorrer várias "
+"páginas sem levantar o dedo. A quantidade de scroll é proporcional à "
+"distância que move o dedo após iniciar a interação."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1867-9
 msgid ""
@@ -2962,6 +3389,14 @@ msgid ""
 "position. This is especially useful <b>to reposition and adjust the view</b> "
 "if your book contains pictures or tables and you want to see all of it."
 msgstr ""
+"<b>Scroll ao largar:</b> Este tipo de scroll é mais adequado para ecrãs e-"
+"ink. Porque, ao contrário de outros tipos de scroll, este modo não atualiza "
+"a sua página continuamente durante a interação. Funciona como o <span class="
+"\"ui\">Scroll clássico</span> mas os passos intermédios não são mostrados. "
+"Portanto, quando se faz o deslize com o dedo e depois se solta, a página "
+"salta para essa posição. Isto é especialmente útil <b>para reposicionar e "
+"ajustar a visualização</b> se o seu livro contém imagens ou tabelas e "
+"pretende ver tudo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1872-1
 msgid "Go back to previous location"
@@ -2976,12 +3411,20 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
+"Esta funcionalidade útil funciona como o botão <b>Voltar</b> do seu browser. "
+"Quando navega para outra parte do livro utilizando o <span class=\"ui\""
+">widget de navegação, lista de marcadores, mapa do livro</span> etc. o "
+"KOReader lembra a localização anterior. Isto é útil, por exemplo, se "
+"carregar num link ou referência interna, com um toque pode voltar ao lugar "
+"de onde veio. Pode aceder a esse recurso em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1876-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go back to previous location"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Voltar ao local anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1878-5
 msgid ""
@@ -2990,10 +3433,15 @@ msgid ""
 "assign this to another gesture if you want (like tapping a corner) or add it "
 "to your <span class=\"ui\">Quick Menu</span>."
 msgstr ""
+"Além disso, também pode avançar, no mesmo menu. Esta característica é "
+"atribuída ao gesto de deslizamento múltiplo <span style=\"font-family: "
+"microns;\"></span>. Pode atribuir isto a outro gesto se desejar "
+"(como tocar num canto) ou adicioná-lo ao seu <span class=\"ui\">Menu "
+"Rápido</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1882-1
 msgid "Prevent flashing on pages with images and in the menu"
-msgstr ""
+msgstr "Evite atualizações nas páginas com imagens e no menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1884-5
 msgid ""
@@ -3003,6 +3451,11 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
+"O KOReader executa normalmente uma actualização completa nas páginas que "
+"contêm imagens (que pode observar como um flash preto). O motivo é eliminar "
+"os resíduos da página anterior. Mas isto pode não ser necessário dependendo "
+"do seu dispositivo e das preferências pessoais. Pode desativar este "
+"comportamento de atualização automática aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1886-5
 msgid ""
@@ -3010,18 +3463,25 @@ msgid ""
 "style=\"width:24px;\"> / Screen / E-ink Settings / Full refresh rate / "
 "Always flash on pages with images"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Ecrã / Definições de E-ink / Taxa de actualização total / "
+"Atualizar sempre páginas com imagens"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1888-5
 msgid ""
 "Also you can disable black flashing of user interface from here if it "
 "disturbs you:"
 msgstr ""
+"Além disso, pode desativar o flash preto da interface do utilizador aqui se "
+"isso o incomodar:"
 
 #: user_guide/en.html%2Bhtml.body.div.p.div:1890-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / E-ink Settings"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear. svg\" style="
+"\"width:22px;\"> / Ecrã E-ink/ Definições E-ink"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1899-1
 msgctxt "user_guide/en.html+html.body.div.div:1899-1"
@@ -3033,6 +3493,8 @@ msgid ""
 "There are different ways of moving through your document in KOReader with "
 "their own strengths. You can use the:"
 msgstr ""
+"Existem diferentes formas de navegar pelo seu documento no KOReader, cada um "
+"com os seus próprios pontos fortes. Pode usar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1904-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1904-3"
@@ -3059,12 +3521,16 @@ msgid ""
 "<span class=\"ui\">Skim Widget</span> is a very functional navigation tool. "
 "You can use it to:"
 msgstr ""
+"<span class=\"ui\">Widget de Navegação</span> é uma ferramenta de navegação "
+"muito funcional. Pode usá-lo para:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1913-13
 msgid ""
 "Jump to any part of your book by directly tapping on the <span "
 "class=\"ui\">progress bar</span> or entering the page number"
 msgstr ""
+"Vá para qualquer parte do seu livro tocando diretamente na <span class=\"ui\""
+">barra de progresso</span> ou introduzindo o número da página"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1914-13
 msgid "Navigate between chapters"
@@ -3083,6 +3549,8 @@ msgid ""
 "With a long-tap on the <span class=\"ui\">Status Bar</span> area at the "
 "bottom of your screen"
 msgstr ""
+"Com um toque longo na <span class=\"ui\">Barra de Estado</span> na parte "
+"inferior do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1922-17
 msgid "From this menu:"
@@ -3093,15 +3561,17 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Skim document"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Leitura Superficial do Documento"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1923-17
 msgctxt "user_guide/en.html+html.body.div.ul.li:1923-17"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Pode assignar um gestor para isso"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1924-17
 msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Pode adicioná-lo ao seu <span class=\"ui\">Menu Rápido</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1929-1
 msgid "Using the Skim Widget"
@@ -3113,6 +3583,9 @@ msgid ""
 "have two different <span class=\"ui\">Skim Widget</span>s. They have the "
 "same functions, only their size is different:"
 msgstr ""
+"Primeiro, vamos dar uma vista de olhos ao diagrama abaixo. Verá que temos "
+"dois <span class=\"ui\">Widget de Navegação rápida</span> diferentes. Ambos "
+"com as mesmas funções, apenas o tamanho é diferente:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1934-9
 msgid ""
@@ -3121,6 +3594,10 @@ msgid ""
 "<span class=\"ui\">compact skim widget</span> so buttons are more "
 "comfortable to press. This widget opens at the <b>center of the screen</b>."
 msgstr ""
+"<b>WIDGET NAVEGAÇÃO COMPLETA:</b> Este é o <span class=\"ui\">widget de "
+"navegação</span> padrão que verá ao instalar o KOReader. É maior do que o "
+"<span class=\"ui\">widget de navegação compacta</span>, por isso, os botões "
+"são mais confortáveis de premir. Este widget abre no <b>centro do ecrã</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1936-9
 msgid ""
@@ -3130,6 +3607,11 @@ msgid ""
 "or bottom of the screen</b>, it doesn't obstruct the page as much as the "
 "default widget."
 msgstr ""
+"<b>WIBGET DE NAVEGAÇÃO COMPACTO:</b> Esta é a versão mais simplificada do "
+"<span class=\"ui\">widget de navegação</span> padrão. Pode ser mais útil se "
+"estiver a fazer destaques, por exemplo. Como este widget é mais pequeno e "
+"abre na <b>parte superior ou inferior do ecrã</b>, não obstrui tanto a "
+"página como o widget padrão."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1943-9
 msgid ""
@@ -3137,12 +3619,17 @@ msgid ""
 "can do this by choosing <span class=\"ui\">Top</span> or <span "
 "class=\"ui\">Bottom</span> from this menu:"
 msgstr ""
+"Se pretender utilizar o <span class=\"ui\">widget de nevegação compacta</"
+"span>, pode fazê-lo escolhendo <span class=\"ui\">Topo</span> ou <span class="
+"\"ui\">Fundo</span> neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1945-9
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Navigation / Skim dialog position:"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear. svg\" style="
+"\"width:22px;\"> / Navegação / Posição do Widget de Navegação:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1947-24
 msgid ""
@@ -3152,6 +3639,12 @@ msgid ""
 "area on the widget. But semi-transparency is triggered only in its initial "
 "position. Once moved, long-pressing moves it back to the initial position."
 msgstr ""
+"<span class=\"label_green\">DICA</span> Ambos os widgets de navegação são "
+"móveis. Pode movê-los premindo uma área vazia do widget e arrastando. Além "
+"disso, pode tornar estas caixas de diálogo semitransparentes mantendo "
+"pressionada uma área vazia do widget. Mas a semitransparência é acionada "
+"apenas na sua posição inicial. Uma vez movido, se o pressionar continuamente "
+"isso move-o de volta para a posição inicial."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1949-5
 msgid ""
@@ -3162,40 +3655,52 @@ msgid ""
 "class=\"label_blue\">BLUE</span> function. If you press longer, it will "
 "perform the <span class=\"label_orange\">ORANGE</span> function."
 msgstr ""
+"Voltando ao diagrama. Pode ver que em alguns botões existem duas descrições "
+"em cores diferentes:<b>azul e laranja</b>. Isto significa que este botão tem "
+"duas funções: uma ação de <b>toque</b> e uma ação de <b>manter premido</b>. "
+"Se premir normalmente, executará a função <span class=\"label_blue\">AZUL</"
+"span>. Se pressionar durante mais tempo, executará a função <span class="
+"\"label_orange\">LARANJA</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1953-5
 msgid "Explanations of the numbered items (long-press action in bold):"
-msgstr ""
+msgstr "Explicações dos itens numerados (pressão longa a negrito):"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1956-9
 msgid ""
 "Jump to the beginning of the previous chapter / <b>Jump to the first page of "
 "the book</b>"
 msgstr ""
+"Ir para o início do capítulo anterior / <b>Saltar para a primeira página do "
+"livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1957-9
 msgid ""
 "Jump to the previous bookmark / <b>Jump to the first bookmark in the book</b>"
 msgstr ""
+"Ir para o marcador anterior / <b>Ir para o primeiro marcador do livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1958-9
 msgid "Bookmark current page / <b>Open bookmarks dialog</b>"
-msgstr ""
+msgstr "Marcar página atual/ <b>Abrir dialogo de Marcadores</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1959-9
 msgid ""
 "Jump to the next bookmark / <b>Jump to the last bookmark in the book</b>"
 msgstr ""
+"Ir para o marcador seguinte / <b>Saltar para o último marcador do livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1960-9
 msgid ""
 "Jump to the beginning of the next chapter / <b>Jump to the last page of the "
 "book</b>"
 msgstr ""
+"Ir para o início do capítulo seguinte / <b>Saltar para a última página do "
+"livro</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1961-9
 msgid "Jump backward (-) or forward (+) this many pages"
-msgstr ""
+msgstr "Recuar (-) ou avançar (+) este número de páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1962-9
 msgid ""
@@ -3206,6 +3711,12 @@ msgid ""
 "want to check some other part of the book quickly and return to your reading "
 "where you left."
 msgstr ""
+"Este número mostra o número da página atual. Se tocar nele, será aberta uma "
+"caixa de diálogo, permitindo-lhe introduzir um número da página para onde "
+"quer ir ou percentagem para ir diretamente. <b>Se manter premido, voltará à "
+"página onde abriu o <span class=\"ui\">widget de navegação</span>.</b> Isto "
+"é útil, por exemplo, se quiser verificar outra parte do livro rápidamente e "
+"voltar à leitura a partir do ponto onde parou."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1963-9
 msgid ""
@@ -3216,6 +3727,12 @@ msgid ""
 "the place where you started reading this book in the current session. This "
 "arrows reset when you switch between books."
 msgstr ""
+"Esta é a <span class=\"ui\">barra de progresso</span>. As linhas finas marca "
+"o início dos capítulos. Pode tocar na <span class=\"ui\">barra de progresso</"
+"span> para ir para essa parte do livro. As setas pequenas são <span class="
+"\"ui\">setas de início de sessão</span> que marcam o local onde começou a "
+"ler este livro na sessão atual. Estas setas são repostas quando altera o "
+"livro."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1964-9
 msgid ""
@@ -3225,6 +3742,11 @@ msgid ""
 "useful for example if you want to check some other part of the book quickly "
 "and return to your reading where you left."
 msgstr ""
+"Este botão no <span class=\"ui\">widget de navegação compacto</span> "
+"funciona da mesma forma que a função de manter premido o item <b>número 7</"
+"b>. Leva-o de volta à página onde abriu o <span class=\"ui\">widget de "
+"navegação</span>. Isto é útil, por exemplo, se quiser verificar rapidamente "
+"alguma outra parte do livro e voltar à leitura a partir do ponto onde parou."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1967-20
 msgid ""
@@ -3233,6 +3755,10 @@ msgid ""
 "to any gesture. It is in the <b>Reader</b> category of the <span "
 "class=\"ui\">Gesture Manager</span>."
 msgstr ""
+"<span class=\"label_green\">DICA</span> Se pretender abrir uma página "
+"aleatória de um livro, temos uma acção <b>Saltar para uma página aleatória</"
+"b> que pode atribuir a qualquer gesto. Encontra-se na categoria <b>Leitor</"
+"b> do <span class=\"ui\">Gestor de Gestos</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1971-1
 msgid "Chapter Marks"
@@ -3243,6 +3769,9 @@ msgid ""
 "KOReader can show chapter boundaries from your documents on the <span "
 "class=\"ui\">SKIM WIDGET</span> and <span class=\"ui\">PROGRESS BAR</span>."
 msgstr ""
+"O KOReader pode mostrar os limites dos capítulos dos seus documentos no "
+"<span class=\"ui\">WIDGET DE NAVEGAÇÃO</span> e na <span class=\"ui\">BARRA "
+"DE PROGRESSO</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1977-5
 msgid ""
@@ -3250,20 +3779,27 @@ msgid ""
 "crowded like the example above. You can change the depth of visible ToC mark "
 "levels via:"
 msgstr ""
+"Se o seu documento tiver muitos títulos, as marcas dos capítulos podem "
+"parecer apinhadas, como no exemplo acima. Pode alterar os tipos de titulo "
+"apresentados no índice através:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1979-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Progress Bars"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Definições / Barras de progresso"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1983-5
 msgid "You can also use this reduced ToC for:"
-msgstr ""
+msgstr "Pode também utilizar este índice reduzido para:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1985-9
 msgid "chapter titles (if it is shown on <span class=\"ui\">Status Bar</span>)"
 msgstr ""
+"títulos dos capítulos "
+"(se for apresentado na <span class=\"ui\">barra de estado</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1986-9
 msgid "chapter navigation"
@@ -3275,7 +3811,7 @@ msgstr "Estimativas de tempo de leitura restante"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1989-5
 msgid "These options are in the same menu."
-msgstr ""
+msgstr "Estas opções estão no mesmo menu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1990-5
 msgid ""
@@ -3285,6 +3821,10 @@ msgid ""
 "from individual HTML files in the EPUB. Long press on this menu item for "
 "extra info:"
 msgstr ""
+"Se o seu documento não tiver Índice, pode ativar <span class=\"ui\">ÍNDICE "
+"ALTERNATIVO</span>. Quando esta definição estiver ativa, o KOReader criará "
+"um Índice a partir dos títulos (se disponíveis) ou a partir de ficheiros "
+"HTML individuais no EPUB. Mantenha premido para obter informações adicionais:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1993-5
 msgctxt "user_guide/en.html+html.body.div.div:1993-5"
@@ -3301,6 +3841,9 @@ msgid ""
 "KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
 "OF CONTENTS TOOLS</a>"
 msgstr ""
+"Pode encontrar mais informações sobre as ferramentas de <b>índice</b> "
+"disponíveis no KOReader nesta secção relevante do guia: <a href=\"#toctools\""
+">FERRAMENTAS DE ÍNDICE</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1999-1
 msgctxt "user_guide/en.html+html.body.div.div:1999-1"
@@ -3315,6 +3858,11 @@ msgid ""
 "hard to track your progress. Book Map can show you which parts of the book "
 "you have already read, at a glance."
 msgstr ""
+"O mapa do livro é uma funcionalidade poderosa e exclusiva do KOReader que "
+"pode ser muito útil para obter uma visão geral de um livro. Por exemplo, se "
+"estiver a ler um livro de forma não linear, saltando algumas partes para as "
+"ler mais tarde, seria difícil acompanhar o seu progresso. O Mapa do Livro "
+"pode mostrar-lhe rápidamente que partes do livro já leu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2003-5
 msgid "Additionally you can:"
@@ -3325,28 +3873,36 @@ msgid ""
 "See how much time you have spent on each page (if <span class=\"ui\">Reading "
 "Statistics</span> plugin is enabled)"
 msgstr ""
+"Veja quanto tempo passou em cada página (se o plugin <span class=\"ui\""
+">Leitura de estatísticas</span> estiver ativado)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2006-9
 msgid "Check which pages have bookmark, highlights and notes"
-msgstr ""
+msgstr "Verifique que páginas têm marcadores, destaques e notas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2007-9
 msgid ""
 "Navigate directly to any part of the book like the <span class=\"ui\">SKIM "
 "WIDGET</span>"
 msgstr ""
+"Navegue diretamente para qualquer parte do livro com o <span class=\"ui\""
+">WIDGET DE NAVEGAÇÃO RÁPIDA</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2010-5
 msgid ""
 "You can access Book Map via menu and you can also assign a gesture for "
 "quicker access:"
 msgstr ""
+"Pode aceder ao Mapa do Livro através do menu e também pode atribuir um gesto "
+"para acesso rápido:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2012-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Book map"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Mapa do Livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2016-1
 msgid "Book map controls"
@@ -3362,6 +3918,14 @@ msgid ""
 "class=\"ui\">X</span> on the upper right corner or with any multiswipe "
 "gesture (<b>UP-DOWN, LEFT-RIGHT</b> etc.)."
 msgstr ""
+"Quando abre o <span class=\"ui\">Mapa do Livro</span> pela primeira vez "
+"enquanto lê um livro, este estará no modo <span class=\"ui\">Visualização em "
+"grelha</span>, ajustando todos os capítulos num único ecrã para fornecer a "
+"melhor visão geral inicial do conteúdo do livro. Para obter informações "
+"detalhadas sobre a sua utilização, toque no ícone de informações no canto "
+"superior esquerdo. Pode fechar o Mapa do Livro tocando em <span class=\"ui\""
+">X</span> no canto superior direito ou com qualquer gesto de deslizamento "
+"múltiplo (<b>CIMA-BAIXO, ESQUERDA-DIREITA</b> etc.)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2023-13
 msgid "Chapter boundaries"
@@ -3371,14 +3935,16 @@ msgstr "Limites do capítulo"
 msgid ""
 "Black bars indicate read pages. Higher bars means more time spent in page."
 msgstr ""
+"As barras pretas indicam páginas lidas. Barras mais altas significam mais "
+"tempo passado na página."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2025-13
 msgid "Bookmark icon shows bookmarked pages as the name says."
-msgstr ""
+msgstr "O ícone do Marcador, como o nome indica, mostra as páginas marcadas."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2026-13
 msgid "Striped square icon shows pages with highlights."
-msgstr ""
+msgstr "Ícone quadrado com linhas mostra paginas com destaques."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2027-13
 msgid "Pencil icon shows pages with notes."
@@ -3390,6 +3956,9 @@ msgid ""
 "class=\"ui\">Go back to previous location</span> from the menu, you will "
 "jump back here in order."
 msgstr ""
+"Os números circulados mostram as suas localizações anteriores. Ao escolher "
+"<span class=\"ui\">Voltar ao local anterior</span> no menu, voltará a cada "
+"um por ordem."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2029-13
 msgid "Triangle shows your current page."
@@ -3397,17 +3966,19 @@ msgstr "Triângulo mostra a página atual."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2030-13
 msgid "Vertical scrollbar shows your current view level."
-msgstr ""
+msgstr "A barra lateral mostra o nivel atual de visão."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2031-13
 msgid "Vertical scrollbar shows your current page width level."
-msgstr ""
+msgstr "A barra de vertical mostra o nível atual de largura da página."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2035-5
 msgid ""
 "You can customize <span class=\"ui\">Book Map</span> by changing these "
 "options:"
 msgstr ""
+"Pode personalizar o <span class=\"ui\">Mapa do Livro</span> alterando estas "
+"opções:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2036-5
 msgid ""
@@ -3416,6 +3987,10 @@ msgid ""
 "width of columns indicating pages and observe how it changes the scale of "
 "the map."
 msgstr ""
+"- Experimente primeiro deslizar o dedo para a <span class=\"ui\">ESQUERDA</"
+"span> e <span class=\"ui\">DIREITA</span> ao longo da margem inferior do "
+"ecrã para alterar a largura das colunas que indicam as páginas e observe "
+"como isso altera a escala do mapa."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2038-5
 msgid ""
@@ -3423,6 +3998,10 @@ msgid ""
 "span> along the left edge of the screen to change chapter title depth and "
 "switch to the <span class=\"ui\">Flat View</span>. See examples below."
 msgstr ""
+"- De seguida, tente deslizar <span class=\"ui\">PARA CIMA</span> e <span "
+"class=\"ui\">PARA BAIXO</span> ao longo da margem esquerda do ecrã para "
+"alterar a profundidade do título do capítulo e mudar para a <span class="
+"\"ui\">Visualização plana</span>. Veja exemplos abaixo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2040-5
 msgid ""
@@ -3432,6 +4011,12 @@ msgid ""
 "scrollbar between views. If you want to switch back to the default view, you "
 "can long-press the info icon at the upper left corner."
 msgstr ""
+"Além da <span class=\"ui\">Visualização em grelha</span> acima, aqui pode "
+"ver a <span class=\"ui\">Visualização plana</span> à esquerda e a "
+"Visualização em grelha sem títulos de capítulo à direita. Observe a mudança "
+"da barra vertical esquerda entre as visualizações. Se quiser voltar à "
+"visualização predefinida, pode manter pressionado o ícone de informação no "
+"canto superior esquerdo."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2049-1
 msgid "Book map options"
@@ -3442,18 +4027,24 @@ msgid ""
 "When you tap the menu icon on the <b>Book map</b> screen you are presented "
 "with the menu above. Menu options are explained below:"
 msgstr ""
+"Ao tocar no ícone do menu no ecrã <b>Mapa do Livro</b>, verá o menu acima. "
+"As opções do menu são explicadas abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2056-9
 msgid ""
 "<span class=\"ui\">About book map:</span> Short explanation of Book map "
 "usage and icon descriptions."
 msgstr ""
+"<span class=\"ui\">Sobre o mapa do livro:</span> Breve explicação sobre a "
+"utilização do mapa do livro e descrições dos ícones."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2057-9
 msgid ""
 "<span class=\"ui\">Available gestures:</span> Gestures you can use to change "
 "the settings of Book map instead of using this menu."
 msgstr ""
+"<span class=\"ui\">Gestos disponíveis:</span> Gestos que pode utilizar para "
+"alterar as definições do Mapa do livro em vez de utilizar este menu."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2058-9
 msgid ""
@@ -3464,6 +4055,13 @@ msgid ""
 "depending on factors like your screen size, touch screen sensitivity, tap "
 "accuracy etc. you might end up in adjacent pages."
 msgstr ""
+"<span class=\"ui\">Navegador de páginas ao tocar:</span> Se esta opção "
+"estiver seleccionada, quando toca numa página do mapa do Livro, é aberto o "
+"<span class=\"ui\">Navegador de páginas</span>. Este mostra uma visão geral "
+"da área selecionada. Se desativar esta opção, um toque no mapa do livro leva-"
+"o diretamente para essa página. Mas lembre-se, dependendo de fatores como o "
+"tamanho do ecrã, a sensibilidade do ecrã táctil, a precisão do toque, etc., "
+"pode acabar em páginas adjacentes."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2059-9
 msgid ""
@@ -3471,24 +4069,33 @@ msgid ""
 "your Book map view, tapping this switches between the <b>default view</b> "
 "and your <b>customized view</b>."
 msgstr ""
+"<span class=\"ui\">Alternar visualizações atuais/iniciais:</span> Se tiver "
+"personalizado a visualização do mapa do livro, tocar aqui alterna entre a "
+"<b>visualização predefinida</b> e a <b>visualização personalizada</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2060-9
 msgid ""
 "<span class=\"ui\">Switch grid/flat views:</span> Switch between separate "
 "chapters or continuous chapters views."
 msgstr ""
+"<span class=\"ui\">Alternar visualizações em grelha/planas:</span> Alternar "
+"visualização entre capítulos separados ou capítulos contínuos."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2061-9
 msgid ""
 "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
 "chapter levels."
 msgstr ""
+"<span class=\"ui\">Níveis de capítulo:</span> Altere a profundidade dos "
+"níveis de capítulo/subcapítulo."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2062-9
 msgid ""
 "<span class=\"ui\">Page slot width:</span> Make each page slot wider or "
 "narrower."
 msgstr ""
+"<span class=\"ui\">Largura do slot de página:</span> Torne cada slot de "
+"página mais largo ou mais estreito."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2063-9
 msgid ""
@@ -3497,6 +4104,10 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
+"<span class=\"ui\">Marcadores de 10 páginas:</span> À medida que aumenta "
+"este valor, primeiro irá adicionar marcadores a cada <b>10<sup>a</sup> "
+"página</b>, depois torná-los maiores e, eventualmente, adicionar marcadores "
+"a cada <b>5<sup>a</sup> página</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2067-1
 msgctxt "user_guide/en.html+html.body.div.div:2067-1"
@@ -3510,6 +4121,11 @@ msgid ""
 "class=\"ui\">Page Browser</span> by tapping on the <span class=\"ui\">Book "
 "Map</span> or from the menu. You can also assign a gesture for easier access."
 msgstr ""
+"O Navegador de páginas pode ser utilizado para navegar entre páginas como "
+"num álbum de fotografias, mostrando as miniaturas das páginas em grelha. "
+"Pode abrir o <span class=\"ui\">Navegador de páginas</span> tocando no <span "
+"class=\"ui\">Mapa do livro</span> ou no menu. Também pode atribuir um gesto "
+"para facilitar o acesso."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2071-5
 msgctxt ""
@@ -3529,6 +4145,11 @@ msgid ""
 "span> on this screen to see these explanations. A long-press on the same "
 "button adds/removes chapter titles from the bottom strip."
 msgstr ""
+"A utilização do <span class=\"ui\">Navegador de páginas</span> é explicada "
+"abaixo. Também pode tocar no <span class=\"ui\"> icon do menu de "
+"hambúrgueres no canto superior esquerdo</span> neste ecrã para ver estas "
+"explicações. Um toque longo no mesmo botão adiciona/remove títulos de "
+"capítulos da faixa inferior."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2078-9
 msgid ""
@@ -3551,7 +4172,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2081-9
 msgid "Tap any page to open that page in reading view."
-msgstr ""
+msgstr "Toque em qualquer página para a abrir em modo leitura."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2082-9
 msgid ""
@@ -3567,7 +4188,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2087-1
 msgid "Alternative theme for Book map and Page Browser"
-msgstr ""
+msgstr "Tema alternativo para Mapa do Livro e Navegador de página"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2089-5
 msgid ""
@@ -3622,7 +4243,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2106-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "Criação automática de um índice: ÍNDICE ALTERNATIVO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2108-5
 msgid ""
@@ -3670,7 +4291,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2123-1
 msgid "Manually creating a table of contents: CUSTOM TABLE OF CONTENTS"
-msgstr ""
+msgstr "Criação manual de um índice: ÍNDICE PERSONALIZADO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2125-5
 msgid ""
@@ -3705,7 +4326,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2134-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
-msgstr ""
+msgstr "<b>No navegador de páginas:</b> Abra o Navegador de Páginas através"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2138-5
 msgctxt "user_guide/en.html+html.body.div.div:2138-5"
@@ -3764,6 +4385,17 @@ msgid ""
 "class=\"ui\">Custom hidden flows</span> feature of KOReader allows you to "
 "exclude these kind of parts of your book."
 msgstr ""
+"Alguns livros ou documentos podem conter notas de rodapé longas ou secções "
+"bibliográficas. Como, por exemplo, um livro científico com 250 páginas, mas "
+"as últimas 50 páginas são Apêndices, Índice e Referências. Normalmente estas "
+"páginas são incluídas na barra de progresso e nos cálculos do tempo de "
+"leitura, pois fazem parte do livro. Mas geralmente estas secções existem "
+"como referência e não são lidas completamente, pelo que pode querer eliminá-"
+"las para tornar a contagem de páginas restantes e as estimativas de tempo "
+"mais precisas. Ou talvez tenha um livro de antologia que contém algumas "
+"histórias que já leu. A funcionalidade <span class=\"ui\">Fluxos ocultos "
+"personalizados</span> do KOReader permite-lhe eliminar estas partes do seu "
+"livro."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2154-5
 msgid ""
@@ -3773,7 +4405,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2160-5
 msgid "How to exclude a section by creating a hidden flow:"
-msgstr ""
+msgstr "Como eliminar uma secção criando um fluxo oculto:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2163-9
 msgid "Go to the first page of the section you want to exclude"
@@ -3961,7 +4593,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2218-1
 msgid "Applying current defaults to an already opened book"
-msgstr ""
+msgstr "A aplicar as definições padrão atuais a um livro já aberto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2220-5
 msgid ""
@@ -4019,6 +4651,8 @@ msgstr ""
 msgid ""
 "You can save your changes as <span class=\"ui\">defaults</span> by choosing:"
 msgstr ""
+"Pode guardar as suas alterações como <span class=\"ui\">predefinição</span> "
+"escolhendo:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2237-5
 msgid ""
@@ -4085,16 +4719,16 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2259-9
 msgid ""
 "You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
-msgstr ""
+msgstr "Pode aplicar o perfil no <span class=\"ui\">menu Perfis</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2260-9
 msgctxt "user_guide/en.html+html.body.div.ul.li:2260-9"
 msgid "You can assign a gesture to it"
-msgstr ""
+msgstr "Pode assignar um gestor para isso"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2261-9
 msgid "You can show it in your <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Pode mostrá-lo no seu <span class=\"ui\">Menu Rápido</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2264-5
 msgid ""
@@ -4163,7 +4797,7 @@ msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2284-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (fonte do guia do utilizador que está a ler neste momento)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2287-5
 msgid "Monospace:"
@@ -4311,12 +4945,12 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2339-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
-msgstr ""
+msgstr "Vejamos isto num exemplo de <span class=\"ui\">ajuste de estilo</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2341-5
 msgctxt "user_guide/en.html+html.body.div.p:2341-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2342-5
 msgid ""
@@ -4328,7 +4962,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2344-5
 msgid "Now lets explain this tweak item by item:"
-msgstr ""
+msgstr "Vamos explicar esta alteração item a item:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2347-9
 msgid ""
@@ -4380,11 +5014,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2362-13
 msgid "Add a separator line above each heading in a book:"
-msgstr ""
+msgstr "Adicione uma linha separadora por cima de cada título de um livro:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2363-17
 msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2366-13
 msgid "Add some margin above the headings:"
@@ -4392,7 +5026,7 @@ msgstr "Adicionar margem acima dos cabeçalhos:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2367-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2369-13
 msgid "Or if the book have too much margin above the headings, remove them:"
@@ -4400,7 +5034,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2370-17
 msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2373-13
 msgid "Add a small gap between paragraphs to make the text more readable:"
@@ -4421,12 +5055,12 @@ msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2380-13
 msgid "Make images very small instead of disabling them:"
-msgstr ""
+msgstr "Fazer imagens muito pequenas em vez de as desabilitar:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2382-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2382-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2385-13
 msgid ""
@@ -4474,6 +5108,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Ajustes de Estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2416-5
 msgid ""
@@ -4485,7 +5121,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2421-13
 msgid "This area shows the name and description of the tweak"
-msgstr ""
+msgstr "Esta área mostra o nome e a descrição do ajuste"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2422-13
 msgid ""
@@ -4602,7 +5238,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2466-9
 msgid "2. Transferring the file to your device:"
-msgstr ""
+msgstr "2. A transferir o ficheiro para o seu dispositivo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2467-9
 msgid ""
@@ -4621,7 +5257,7 @@ msgstr "2. Activar a alteração:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2472-9
 msgid "After the restart, open a book and go to this menu:"
-msgstr ""
+msgstr "Após reiniciar, abra um livro e aceda a este menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2474-9
 msgctxt "user_guide/en.html+html.body.div.div:2474-9"
@@ -4695,7 +5331,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2496-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. Pode atribuir um gesto a um ajuste"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2497-9
 msgid ""
@@ -4730,7 +5366,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2509-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. Pode adicionar um ajuste ao seu Menu Rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2511-9
 msgid ""
@@ -4764,7 +5400,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2520-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2522-5
 msgid "instead of this:"
@@ -4772,7 +5408,7 @@ msgstr "em vez disso:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2524-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2535-1
 msgctxt "user_guide/en.html+html.body.div.div:2535-1"
@@ -4790,6 +5426,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Definições / Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2546-5
 msgid "BOOKMARKS:"
@@ -4920,6 +5558,7 @@ msgstr "Modos de destaque do KOReader"
 #: user_guide/en.html%2Bhtml.body.div.p:2608-5
 msgid "KOReader has two highlighting modes for different use cases:"
 msgstr ""
+"O KOReader possui dois modos de destaque para diferentes casos de utilização:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2613-1
 msgid "Normal mode"
@@ -4938,7 +5577,7 @@ msgstr "Premir continuamente no inicio da palavra"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2619-9
 msgid "Move your finger to the end of the passage"
-msgstr ""
+msgstr "Desloque o dedo para o final da passagem"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2620-9
 msgid "Release finger"
@@ -5016,6 +5655,8 @@ msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
 msgstr ""
+"Toque em <span class=\"ui\">Destacar</span> desta vez para terminar de "
+"destacar a passagem."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2650-5
 msgid ""
@@ -5152,6 +5793,15 @@ msgid ""
 "highlight, you can directly write <b>\"(this date needs to be checked)\"</b> "
 "next to the problematic date."
 msgstr ""
+"Para além de adicionar uma nota, o KOReader permite também editar o próprio "
+"texto destacado que é mostrado na sua <span class=\"ui\">lista de "
+"Marcadores</span>. Em algumas situações isto pode ser mais útil do que "
+"adicionar uma nota a um destaque. Por exemplo, imagine que está a rever um "
+"texto onde pretende destacar uma frase que contém muitas datas e uma das "
+"datas está errada. Quando quiser adicionar uma nota para apontar este erro, "
+"precisa de especificar na sua nota qual está errada. Mas se editar o texto "
+"de um destaque, pode escrever diretamente <b>"
+"\"(esta data necessita de ser verificada)\"</b> perto da data problemática."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2703-5
 msgid ""
@@ -5164,7 +5814,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2705-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Para editar o texto destacado, pode:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2707-13
 msgid "Tap on the highlight"
@@ -5172,27 +5822,29 @@ msgstr "Toque no destaque"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2708-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "Toque <span class=\"ui\">Detalhes</span> no menu pop-up"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2709-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
-msgstr ""
+msgstr "Tapoque <span class=\"ui\">Editar texto</span> no diálogo de detalhes"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2713-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "Também pode fazer isso na janela de Marcadores:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2716-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgstr ""
+"Aceda à <span class=\"ui\">lista de Marcadores</span> através do menu ou do "
+"gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2717-9
 msgid "Long press on the highlight you want to edit"
-msgstr ""
+msgstr "Mantenha pressionado o destaque que pretende editar"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2718-9
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr ""
+msgstr "Clique <span class=\"ui\">Editar texto</span> no menu"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2719-9
 msgid ""
@@ -5241,7 +5893,7 @@ msgstr "Destacar <b>ambos</b> o texto e a nota"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2735-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr ""
+msgstr "<b>Nota, se houver uma</b>, caso contrário, destacar texto"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2738-5
 msgid ""
@@ -5329,7 +5981,7 @@ msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2776-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "Pode escolher formatos de exportação preferidos dos:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2778-5
 msgid ""
@@ -5353,35 +6005,42 @@ msgstr "Serviços on-line"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2788-5
 msgid "You can also export to these services over the network:"
-msgstr ""
+msgstr "Pode também exportar para estes serviços através da rede:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2791-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
-msgstr ""
+msgstr "<a href=\"https://joplinapp.org/\">Joplin</a> - uma aplicação de notas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2792-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
 msgstr ""
+"<a href=\"https://readwise.io/\">Readwise</a> - uma aplicação online para "
+"marcadores/destaques"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2793-9
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
 msgstr ""
+"<a href=\"https://github.com/usememos/memos\">Memos</a> - um centro de "
+"memorandos de código aberto auto-hospedado"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2794-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
 msgstr ""
+"<a href=\"https://flomoapp.com\">Flomo</a> - um serviço online de tirar notas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2796-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
 msgstr ""
+"<a href=\"https://www.xmnote.com/\">XMNote</a> - um organizador de "
+"Marcadores Android em chinês"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2803-5
 msgid ""
@@ -5405,6 +6064,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2810-9
 msgid "Select multiple books in the <span class=\"ui\">File Browser</span>"
 msgstr ""
+"Seleccionar múltiplos livros no <span class=\"ui\">Explorador de "
+"Ficheiros</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2811-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
@@ -5412,7 +6073,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2812-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
-msgstr ""
+msgstr "Seleccione <span class=\"ui\">Exportar destaques</span> no menu visível"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2815-5
 msgid ""
@@ -5498,6 +6159,8 @@ msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
+"MENU INFERIOR / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
+"style=\"width:22px;\"> / Refluxo"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2858-5
 msgid ""
@@ -5509,7 +6172,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2862-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
-msgstr ""
+msgstr "<b>2. Pode habilitar </b> <span class=\"ui\">Zoom do Conteúdo</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2864-5
 msgctxt "user_guide/en.html+html.body.div.div:2864-5"
@@ -5697,6 +6360,15 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
+"Se estiver a realçar um documento PDF, o KOReader também pode guardá-los "
+"diretamente no ficheiro PDF. Isto pode ser útil em determinadas situações "
+"porque, com este método, os seus destaques passam a fazer parte do ficheiro "
+"PDF. Isto significa que pode vê-los noutras aplicações ou plataformas sem "
+"instalar o KOReader. Por exemplo, se enviar um ficheiro com destaques para "
+"outro utilizador, este não necessita de instalar o KOReader para ver os seus "
+"destaques. Pode simplesmente enviar o ficheiro PDF com os seus destaques "
+"guardados e o outro utilizador poderá abrir e visualizar os destaques com um "
+"leitor de PDF <b>compatível</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2945-24
 msgid ""
@@ -5717,7 +6389,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2951-5
 msgid "Which PDF readers can show these highlights?"
-msgstr ""
+msgstr "Que leitor de PDF consegue mostrar estes destaques?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2952-5
 msgid ""
@@ -5762,7 +6434,7 @@ msgstr "✅ MuPDF (Windows/Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2963-13
 msgid "⚠️ Zathura (if MuPDF plugin is enabled)"
-msgstr ""
+msgstr "⚠️ Zathura (se o plugin MuPDF está habilitado)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2964-13
 msgid "❌ Adobe Acrobat Reader"
@@ -5803,6 +6475,7 @@ msgstr "❌ Xreader (Linux)"
 #: user_guide/en.html%2Bhtml.body.div.div:2976-9
 msgid "Important information about saving PDF highlights feature"
 msgstr ""
+"Informação importante sobre a funcionalidade de guardar destaques em PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2977-9
 msgid ""
@@ -5928,13 +6601,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3014-5
 msgid "To use this feature you need to:"
-msgstr ""
+msgstr "Para usar esta funcionalidade deve:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3016-9
 msgid ""
 "Install <span class=\"external\">Tesseract</span> language data to your "
 "KOReader"
 msgstr ""
+"Instale a linguagem de dados <span class=\"external\">Tesseract</span> no "
+"seu KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3017-9
 msgid ""
@@ -6004,6 +6679,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Zoom do painel (manga/banda desenhada)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3049-5
 msgid ""
@@ -6061,7 +6738,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3070-5
 msgid "Open the <span class=\"ui\">File Browser</span> in KOReader"
-msgstr ""
+msgstr "Abrir <span class=\"ui\">Explorador de Ficheiros</span> no KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3071-5
 msgid ""
@@ -6194,6 +6871,9 @@ msgid ""
 "<a href=\"https://github.com/ciromattia/kcc\">https://github.com/ciromattia/"
 "kcc</a>"
 msgstr ""
+"Descarregue o <span class=\"external\">Kindle Comic Converter (KCC)</span> "
+"em <a href=\"https://github.com/ciromattia/kcc\">https://github.com/"
+"ciromattia/kcc</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3105-9
 msgid ""
@@ -6228,6 +6908,8 @@ msgstr ""
 msgid ""
 "<b>Upscaling:</b> Enlarge images that is smaller than your target resolution."
 msgstr ""
+"<b>Upscaling:</b> amplia as imagens mais pequenas do que a resolução "
+"desejada."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3120-1
 msgctxt "user_guide/en.html+html.body.div.div:3120-1"
@@ -6279,6 +6961,8 @@ msgid ""
 "Unpack the prepared <b>CBZ</b> file that you created with <span "
 "class=\"external\">KCC</span>,"
 msgstr ""
+"Descomprima o ficheiro preparado <b>CBZ</b> que criou com <span class="
+"\"external\">KCC</span>,"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3141-9
 msgid ""
@@ -6309,6 +6993,8 @@ msgstr ""
 msgid ""
 "Run <b>_magick_manga_ditherN_resize.bat</b> to resize and dither the images."
 msgstr ""
+"Corra <b>_magick_manga_ditherN_resize.bat</b> para redimensionar e pontilhar "
+"as imagens."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3147-9
 msgid ""
@@ -6318,7 +7004,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3152-1
 msgid "Reversing the page turn direction for authentic Japanese manga"
-msgstr ""
+msgstr "Inverter a direção de virar página para mangá japonês autêntico"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3154-5
 msgctxt "user_guide/en.html+html.body.div.p:3154-5"
@@ -6336,6 +7022,8 @@ msgid ""
 "[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
 "true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 msgstr ""
+"[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
+"true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3169-5
 msgid "to this file:"
@@ -6385,7 +7073,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3194-5
 msgid "Circled items in the image are explained below:"
-msgstr ""
+msgstr "Itens circulados na imagem estão explicados abaixo:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3196-5
 msgid ""
@@ -6598,7 +7286,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3254-9
 msgid "<b>From the reading screen:</b> By assigning a gesture to it."
-msgstr ""
+msgstr "<b>No ecrã de leitura:</b> Atribuindo-lhe um gesto."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3257-5
 msgid ""
@@ -6663,6 +7351,8 @@ msgstr ""
 msgctxt "user_guide/en.html+html.body.div.ol.li:3284-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr ""
+"No <span class=\"ui\">Navegador de ficheiros</span> mantenha pressionado o "
+"nome do ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3285-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3285-5"
@@ -6743,6 +7433,8 @@ msgstr ""
 msgctxt "user_guide/en.html+html.body.div.ol.li:3311-5"
 msgid "In <span class=\"ui\">File Browser</span> long-press the file name"
 msgstr ""
+"No <span class=\"ui\">Navegador de ficheiros</span> mantenha pressionado o "
+"nome do ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3312-5
 msgctxt "user_guide/en.html+html.body.div.ol.li:3312-5"
@@ -6759,7 +7451,7 @@ msgstr "Ver Ficheiros Markdown"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3318-5
 msgid "KOReader provides two options for reading Markdown documents."
-msgstr ""
+msgstr "O KOReader oferece duas opções para a leitura de documentos Markdown."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3320-9
 msgid ""
@@ -6835,6 +7527,8 @@ msgstr ""
 msgid ""
 "Some advantages of collections compared to the folder based organization:"
 msgstr ""
+"Algumas vantagens das coleções em comparação com a organização baseada em "
+"pastas:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3350-9
 msgid ""
@@ -6875,14 +7569,17 @@ msgstr "<b>Géneros:</b> Ficção, não Ficção, memoir..."
 msgid ""
 "<b>Book status:</b> Currently reading, want to read, next, did not finish..."
 msgstr ""
+"<b>Estado do livro:</b> Atualmente a ler, quero ler, próximo, não terminei..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3359-9
 msgid "<b>Series:</b> Lord of the Rings, Harry Potter..."
-msgstr ""
+msgstr "<b>Series:</b> Senhor dos Anéis, Harry Potter..."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3360-9
 msgid "<b>Document type:</b> Books, scientific articles, web articles..."
 msgstr ""
+"<b>Tipos de documento:</b> Livros, artigos científicos, artigos da "
+"Internet..."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3365-1
 msgid "Creating and modifying collections"
@@ -6899,6 +7596,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:26px;\"> / Collections"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:26px;\"> / Colecções"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3370-2
 msgid ""
@@ -6950,7 +7649,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3390-2
 msgid "1. From the File Browser and History screen"
-msgstr ""
+msgstr "1. Do Explorador de Ficheiros e Histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3391-2
 msgid ""
@@ -6973,7 +7672,7 @@ msgstr "Premir continuamente o seu livro"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3396-3
 msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
-msgstr ""
+msgstr "Escolher <span class=\"ui\">Seleccionar</span> no menu pop-up"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3397-3
 msgid "Select other books"
@@ -6983,6 +7682,8 @@ msgstr "Selecione outros livros"
 msgid ""
 "Tap the <span class=\"ui\">checkmark</span> (✔️) icon at the top-right corner"
 msgstr ""
+"Toque no ícone <span class=\"ui\">marca de verificação</span> (✔️) no canto "
+"superior direito"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3399-3
 msgid "Tap <span class=\"ui\">Collections</span>"
@@ -7081,6 +7782,16 @@ msgid ""
 "Asimov)</span> that I haven't started yet <span class=\"ui\">(Filter by "
 "status -> New)</span>.\"</b>"
 msgstr ""
+"As coleções podem estar muito cheias, mas o KOReader permite-lhe encontrar "
+"os seus livros facilmente, fornecendo muitas opções de filtragem. Se olhar "
+"para a imagem acima, poderá ver as opções de filtragem na <b>Caixa 2</b> e "
+"na <b>Caixa 3</b>. A <b>Caixa 2</b> permite filtrar por estado do livro "
+"(novo, a ler, terminado, em pausa) e a <b>Caixa 3</b> permite filtrar por "
+"metadados do livro (autor, série, idioma, palavras-chave). E também pode "
+"combinar estes dois filtros como neste exemplo: <b>\"Mostre-me os novos "
+"livros desta colecção que foram escritos por Isaac Asimov <span class=\"ui\">"
+"(Filtrar por autores -> Isaac Asimov)</span> que ainda não comecei <span "
+"class=\"ui\">(Filtrar por estado -> Novo)</span>.\"</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3434-9
 msgid ""
@@ -7180,11 +7891,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3466-9
 msgid "When connecting a folder to a collection"
-msgstr ""
+msgstr "Quando conecta uma pasta a uma colecção"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3467-9
 msgid "When including subfolders of a connected folder"
-msgstr ""
+msgstr "Quando inclui uma sub-pasta de uma pasta conectada"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3468-9
 msgid "When showing the collection"
@@ -7196,7 +7907,7 @@ msgstr "Ao iniciar o programa"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3473-5
 msgid "How to connect a folder to your collection:"
-msgstr ""
+msgstr "Como conectar uma pasta à sua colecção:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3478-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3478-9"
@@ -7218,11 +7929,14 @@ msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
 msgstr ""
+"Selecione <span class=\"ui\">Conectar pastas</span> no menu de pop-up <b>(2)"
+"</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3481-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3481-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
 msgstr ""
+"O <span class=\"ui\">ecrã da lista de pastas conectadas</span> será aberto."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3482-9
 msgid ""
@@ -7251,7 +7965,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3492-5
 msgid "How to disconnect a folder from your collection:"
-msgstr ""
+msgstr "Como desconectar uma pasta da sua colecção:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3495-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3495-9"
@@ -7273,11 +7987,14 @@ msgid ""
 "Select <span class=\"ui\">Connect folders</span> from the pop-up menu "
 "<b>(2)</b>."
 msgstr ""
+"Selecione <span class=\"ui\">Conectar pastas</span> no menu de pop-up <b>(2)"
+"</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3498-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3498-9"
 msgid "<span class=\"ui\">List of connected folders screen</span> will open."
 msgstr ""
+"O <span class=\"ui\">ecrã da lista de pastas conectadas</span> será aberto."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3499-9
 msgid ""
@@ -7317,7 +8034,7 @@ msgstr "Rodar ecrã para paisagem"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3514-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3514-13"
 msgid "Increase the font size and contrast and"
-msgstr ""
+msgstr "Aumentar tamanho da fonte e contraste"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3515-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:3515-13"
@@ -7461,7 +8178,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:3561-2
 msgid "You can change this setting from this menu:"
-msgstr ""
+msgstr "Pode alterar esta configuração neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3563-2
 msgid ""
@@ -7507,6 +8224,8 @@ msgstr "Benefícios"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3578-4
 msgid "You can manually backup and restore the settings for each book."
 msgstr ""
+"Pode fazer cópias de segurança e restaurar manualmente as definições de cada "
+"livro."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3579-4
 msgid ""
@@ -7544,7 +8263,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3591-1
 msgid "2. Metadata directories under a single KOReader directory"
-msgstr ""
+msgstr "2. Diretórios de metadados num único diretório KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3593-2
 msgid ""
@@ -7596,6 +8315,7 @@ msgstr ""
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
 msgstr ""
+"3. Diretórios individuais de metadados HASHED num único diretório KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3613-2
 msgid ""
@@ -7705,7 +8425,7 @@ msgstr "TOQUE / DUPLO TOQUE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3659-17
 msgid "Single or double tap with <b>ONE</b> finger"
-msgstr ""
+msgstr "Toque ou duplo toque com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3660-17
 msgctxt ""
@@ -7721,7 +8441,7 @@ msgstr "TOQUE E SEGURE"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3668-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "Toque ou manter pressionado com <b>UM</b> dedo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3669-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3669-17"
@@ -7734,7 +8454,7 @@ msgstr "TOQUE COM DOIS DEDOS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3676-9
 msgid "Single tap with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Toque único com <b>DOIS</b> dedos ao mesmo tempo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3677-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3677-9"
@@ -7775,6 +8495,8 @@ msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
 msgstr ""
+"<b> FUNCIONA:</b> Bordas do ecrã (HORIZONTAL e VERTICAL) Em qualquer lugar, "
+"excepto nas margens (DIAGONAL)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3696-17
 msgid "TWO FINGER SWIPE"
@@ -7782,7 +8504,7 @@ msgstr "DESLIZAR COM DOIS DEDOS"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3697-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Movimento de deslizar com <b>DOIS</b> dedos ao mesmo tempo"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3698-9"
@@ -7809,6 +8531,9 @@ msgid ""
 "Icons by <b>Econceptive</b> from the <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 msgstr ""
+"Ícones de <b>Econceptive</b> do projeto <a href="
+"\"https://thenounproject.com/econceptive/collection/touch-gesture/\">Noun "
+"Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3715-1
 msgctxt "user_guide/en.html+html.body.div.div:3715-1"
@@ -7826,6 +8551,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Gesture Manager"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Gestor de Gestos"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3727-5
 msgid "CORNER TAP"
@@ -7833,7 +8560,7 @@ msgstr "TOQUE CANTO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3729-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>Canto superior esquerdo</b> Alternar virar de página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3730-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
@@ -7841,7 +8568,7 @@ msgstr "<b>Canto Superior Direito</b> > Alterar marcador"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3731-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
-msgstr ""
+msgstr "<b>Cantos diagonais opostos ao mesmo tempo</b> > Captura de ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3735-5
 msgid "DOUBLE TAP"
@@ -7862,7 +8589,7 @@ msgstr "DESLIZE DE UM DEDO"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3742-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr ""
+msgstr "<b>Deslize diagonal curto</b> Atualização total do ecrã"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
@@ -7876,10 +8603,12 @@ msgstr "MULTISWIPES"
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Voltar para local anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Ir para Marcadores recentes"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
@@ -7892,12 +8621,14 @@ msgstr "<span style=\"font-family: microns;\"></span> - Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3752-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Índice"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3753-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Show frontlight dialog"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Mostrar diálogo da luz "
+"frontal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3754-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
@@ -7913,7 +8644,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - Estado do livro"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3757-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Ir para a página"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3758-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
@@ -7931,6 +8662,7 @@ msgstr "<span style=\"font-family: microns;\"></span> - Capitulo seguin
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Abrir documento anterior"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3762-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
@@ -8016,11 +8748,11 @@ msgstr "Pesquisa Menu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3793-17
 msgid "Open next file in last book folder"
-msgstr ""
+msgstr "Abrir ficheiro seguinte da última pasta de livros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3794-17
 msgid "Open previous file in last book folder"
-msgstr ""
+msgstr "Abrir ficheiro anterior da última pasta de livros"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
 msgid "Notebook file"
@@ -8293,7 +9025,7 @@ msgstr "Taxa de atualização completa (sempre)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3876-17
 msgid "Full refresh rate (not in night mode)"
-msgstr ""
+msgstr "Taxa de atualização total (sem estar e modo noturno)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
 msgid "Full refresh rate (in night mode)"
@@ -8513,7 +9245,7 @@ msgstr "Voltar"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3937-13
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3937-13"
 msgid "Export all notes in all books in history"
-msgstr ""
+msgstr "Exportar todas as notas de todos os livros no histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3938-13
 msgid "OPDS catalog"
@@ -8721,7 +9453,7 @@ msgstr "Exportar todas as notas do livro atual"
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3991-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3991-17"
 msgid "Export all notes in all books in history"
-msgstr ""
+msgstr "Exportar todas as notas de todos os livros no histórico"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3992-17
 msgid "Move current book to archive"
@@ -8899,15 +9631,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4047-9
 msgid "You can see the shortcuts that are available on your device"
-msgstr ""
+msgstr "Pode ver os atalhos disponíveis no seu dispositivo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4048-9
 msgid "You can see the predefined actions for some shortcuts"
-msgstr ""
+msgstr "Pode ver as ações predefinidas para alguns atalhos"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4049-9
 msgid "You can assign actions to the available shortcuts"
-msgstr ""
+msgstr "Pode atribuir ações aos atalhos disponíveis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4053-5
 msgid ""
@@ -9047,7 +9779,7 @@ msgstr "Pesquisa no dicionário"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4118-13
 msgid "Ctrl + D (Alt + D on Kindles)"
-msgstr ""
+msgstr "Ctrl + D (Alt + D no Kindle)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4121-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4121-13"
@@ -9506,7 +10238,7 @@ msgstr "Método fácil"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4346-17
 msgid "Go to <span class=\"ui\">Gesture Manager</span> menu via:"
-msgstr ""
+msgstr "Ir para menu de <span class=\"ui\">Gestão de gestos</span> através de:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4347-21
 msgid ""
@@ -9669,7 +10401,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4405-9
 msgid "Opening Quick Menu at the gesture position"
-msgstr ""
+msgstr "A abrir Menu Rápido na posição do gesto"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4407-9
 msgid ""
@@ -9717,7 +10449,7 @@ msgstr "Rodar ecrã para paisagem"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4423-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4423-13"
 msgid "Increase the font size and contrast and"
-msgstr ""
+msgstr "Aumentar tamanho da fonte e contraste"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4424-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4424-13"
@@ -9751,10 +10483,12 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Perfis"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4436-9
 msgid "then you have to turn it on from:"
-msgstr ""
+msgstr "depois tem que ativar em:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4438-9
 msgctxt "user_guide/en.html+html.body.div.div:4438-9"
@@ -9799,7 +10533,7 @@ msgstr "Activando um perfil"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4456-9
 msgid "There are many ways to activate a profile:"
-msgstr ""
+msgstr "Existem muitas formas de ativar um perfil:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4459-13
 msgid ""
@@ -9869,7 +10603,7 @@ msgstr "Ao desbloquear"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4480-42
 msgid "Run this profile every time device wakes up"
-msgstr ""
+msgstr "Execute este perfil sempre que o dispositivo desbloqueado"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4480-97
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4480-97"
@@ -9882,7 +10616,7 @@ msgstr "Ao rodar"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4483-43
 msgid "Run this profile when screen rotates to the selected rotation(s)."
-msgstr ""
+msgstr "Execute este perfil quando o ecrã rodar para a orientação selecionada."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4483-117
 msgid ""
@@ -9921,10 +10655,13 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4496-6
 msgid "<span class=\"ui\">If folder path contains</span> a certain text"
 msgstr ""
+"<span class=\"ui\">Se o caminho da pasta contém</span> um determinado texto"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4497-6
 msgid "<span class=\"ui\">If folder path doesn't contain</span> a certain text"
 msgstr ""
+"<span class=\"ui\">Se o caminho da pasta não contêm</span> um determinado "
+"texto"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4501-5
 msgid "On book opening"
@@ -9960,12 +10697,12 @@ msgstr "Combinado com <b>caminho do ficheiro do livro</b>"
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4510-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4510-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr ""
+msgstr "Combinado com <b>livro de Colecções está incluído no</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4511-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4511-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr ""
+msgstr "Combinado com <b>o livro está a ser aberto pela primeira vez</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4516-5
 msgid "On book closing"
@@ -9996,12 +10733,12 @@ msgstr "Combinado com <b>caminho do ficheiro do livro</b>"
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4525-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4525-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr ""
+msgstr "Combinado com <b>livro de Colecções está incluído no</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4526-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4526-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr ""
+msgstr "Combinado com <b>o livro está a ser aberto pela primeira vez</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4534-4
 msgid "Profile examples:"
@@ -10022,7 +10759,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4540-5
 msgid "Enable <b>night mode</b> when you turn your device upside down."
-msgstr ""
+msgstr "Ative o <b>modo noturno</b> ao virar o dispositivo ao contrário."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4541-5
 msgid ""
@@ -10075,7 +10812,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4551-1
 msgid "Technical details of Profiles and Quick Menu"
-msgstr ""
+msgstr "Detalhes técnicos dos perfis e Menu Rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4553-9
 msgctxt "user_guide/en.html+html.body.div.p:4553-9"
@@ -10104,6 +10841,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4563-9
 msgid "This set can also be <b>executed</b> in two different ways:"
 msgstr ""
+"Este conjunto também pode ser <b>executado</b> de duas formas diferentes:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4565-13
 msgid ""
@@ -10113,7 +10851,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4566-13
 msgid "Showing it as a <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "A mostrar como um <span class=\"ui\">Menu Rápido</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4569-9
 msgid ""
@@ -10155,15 +10893,15 @@ msgstr "Interno"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4585-9
 msgid "Internal plugins are part of the core program."
-msgstr ""
+msgstr "Os plug-ins internos fazem parte do programa principal."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4589-13
 msgid "They are directly accessible from the KOReader plugins menu."
-msgstr ""
+msgstr "Podem ser acedidos diretamente no menu de plug-ins do KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4590-13
 msgid "They <b>don’t need</b> installation. You can enable them from the menu."
-msgstr ""
+msgstr "<b>Não precisam</b> de instalação. Pode ativá-los no menu."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4591-13
 msgid "They are checked by our developers so they are <b>considered safe</b>."
@@ -10171,7 +10909,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4592-13
 msgid "They are <b>automatically updated</b> when you update KOReader."
-msgstr ""
+msgstr "São <b>atualizados automaticamente</b> quando atualiza o KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4595-9
 msgid "You can enable/disable them via:"
@@ -10395,7 +11133,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4661-9
 msgid "<b> Gestures </b> - Provide gesture support for KOReader"
-msgstr ""
+msgstr "<b> Gestos </b> - Fornece suporte de gestos para o KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4662-3
 msgid ""
@@ -10522,6 +11260,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4684-3
 msgid "Controlling your reader from another device - HTTP Inspector Plugin"
 msgstr ""
+"Controlar o seu leitor a partir de outro dispositivo - Plugin HTTP Inspector"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4686-3
 msgctxt "user_guide/en.html+html.body.div.p:4686-3"
@@ -10664,6 +11403,7 @@ msgstr "<b>3-7</b> - Reservado"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4735-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
 msgstr ""
+"<b>8</b> - Executado antes de sair e antes de as definições serem guardadas"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4736-13
 msgid "<b>9</b> - Executed right before exit"
@@ -10721,7 +11461,7 @@ msgstr "Trocar a capa do seu livro"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4757-1
 msgid "You can change your book cover from this menu:"
-msgstr ""
+msgstr "Pode alterar a capa do seu livro neste menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4759-1
 msgid ""
@@ -10754,7 +11494,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4767-5
 msgid "You can remove this custom book cover here:"
-msgstr ""
+msgstr "Pode remover a capa de livro personalizada aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4769-5
 msgctxt "user_guide/en.html+html.body.div.div:4769-5"
@@ -10985,7 +11725,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4855-9
 msgid "Keeping an eye on your memory usage"
-msgstr ""
+msgstr "A monitorizar o uso da memória"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4856-9
 msgid ""
@@ -11151,6 +11891,8 @@ msgid ""
 "Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if "
 "they exist)</b>"
 msgstr ""
+"Ficheiros nos diretórios <b>data/dict/</b> e <b>/data/tessdata/</b> <b>"
+"(se existirem)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4917-5
 msgid ""
@@ -11162,7 +11904,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4921-1
 msgid "My Progress Sync doesn't synchronize my progress"
-msgstr ""
+msgstr "O meu Sincronismo de Progresso não sincroniza o meu progresso"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4923-9
 msgid ""
@@ -11195,7 +11937,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4932-5
 msgid "If the problematic book is a PDF:"
-msgstr ""
+msgstr "Se o livro com problemas é um PDF:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4934-9
 msgid "PDF file itself might be <b>too big for your device memory</b>."
@@ -11238,10 +11980,13 @@ msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:22px;\"> / Render Quality"
 msgstr ""
+"MENU INFERIOR / <img class=\"img_inline\" src="
+"\"pictures/bottom_contrast.svg\" style=\"width:22px;\"> / Qualidade de "
+"renderização"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4945-5
 msgid "If the problematic book is an EPUB:"
-msgstr ""
+msgstr "Se o livro com problemas é um EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4948-9
 msgid ""
@@ -11302,7 +12047,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4966-9
 msgid "You are running out of storage space."
-msgstr ""
+msgstr "Espaço de armazenamento a acabar."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4967-9
 msgid ""
@@ -11369,6 +12114,8 @@ msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Pode descarregar o <span class=\"external\">Calibre</span> <a href="
+"\"https://calibre-ebook.com/\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4990-9
 msgid ""
@@ -11391,12 +12138,16 @@ msgid ""
 "You can download the <b>command line version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck\">here</a>."
 msgstr ""
+"Pode descarregar a <b>versão da linha de comandos</b> <a href="
+"\"https://github.com/w3c/epubcheck\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:4996-9
 msgid ""
 "Or download a <b>graphical user interface version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck/wiki/GUI\">here</a>."
 msgstr ""
+"Ou descarregue uma <b>versão da interface gráfica do utilizador</b> <a href="
+"\"https://github.com/w3c/epubcheck/wiki/GUI\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5000-5
 msgid "Opening an issue:"
@@ -11479,7 +12230,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5034-1
 msgid "KOReader can't write to the SD card"
-msgstr ""
+msgstr "KOReader não consegue escrever no cartão SD"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5036-9
 msgid ""
@@ -11542,6 +12293,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:24px;\"> / Style"
 msgstr ""
+"MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:24px;\"> / Estilo"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5063-9
 msgid ""
