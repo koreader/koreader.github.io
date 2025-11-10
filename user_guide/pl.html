@@ -1631,7 +1631,7 @@ line-height: 2rem;
 
     <p>Jeśli właczysz opcję widoczną powyżej, nie ma możliwości ukrycia paska stanu poprzez stkunięcie w niego. Jeśli chcesz go ukryć należy przypisać gest przełączania paska stanu tutaj:</p>
 
-    <div class="menu-breadcrumbs">Menu wyboru gestów / Czytanie / Przełącz pasek stanu</div>
+    <div class="menu-breadcrumbs">Menu wyboru gestów / Czytnik / Przełącz pasek stanu</div>
 
     <p><b>Sortowanie elementów paska stanu:</b></p>
 
@@ -1714,42 +1714,42 @@ line-height: 2rem;
     
     <img loading="lazy" src="pictures/bottom_menu_4.png" style="width:60%;">
 
-    <p>Ustawienia<span class="ui">odstępu między słowami i rozszerzanie wyrazów</span> są zwiazane z wyglądem tekstu, gdy jest on wyjustowany. Kiedy justujesz tekst, przerwa jest dodana między słowami, by oba krawędzie każdej linijki były zrównane z marginesami. Ponieważ liczba słów w linijkach jest różna, w wyjustowanym układzie tekst musi zostać skompresowany lub rozszerzony by wypełnić linijkę.</p>
+    <p>Ustawienia<span class="ui">odstępu między słowami i rozszerzanie wyrazów</span> są związane z wyglądem tekstu, gdy jest on wyjustowany. Kiedy justujesz tekst, przerwa jest dodana między słowami, by oba krawędzie każdej linijki były zrównane z marginesami. Ponieważ liczba słów w linijkach jest różna, w wyjustowanym układzie tekst musi zostać skompresowany lub rozszerzony by wypełnić linijkę.</p>
 
-    <p><span class="ui">Word spacing:</span> How much the <b>space</b> characters in a line of text can be compressed to fit more words. This setting doesn’t affect words, it only changes the space between them.</p>
+    <p><span class="ui">Odstęp miedzy słowami:</span> Jak bardzo <b>odstęp</b> między literami w linijce tekstu może zostać skompresowany by zmieścić więcej słów. To ustawienie nie ma wpływu na tekst, zmienia jedynie przerwę miedzy nimi.</p>
     
-    <p><span class="ui">Word expansion:</span> If you have too much white space in a line, how much of that can be distributed into the words by expanding them. This setting affects the appearance of words. If you don’t want your words to expand, set this to <span class="ui">none</span>.</p>
+    <p><span class="ui">Rozszerzanie słów:</span> Jeśli jest za dużo przestrzeni w linijce, jak wiele z tego miejsca może zostać oddane dla słów poprzez rozszerzanie ich. To ustawienie wpływa na wygląd tekstu. Jeśli nie chcesz by słowa się rozszerzały, ustaw tą opcję na <span class="ui">wcale</span>.</p>
     
-    <p>You can experiment with different settings until the text looks pleasing to you, then set them as defaults via their respective dialogs.</p>
+    <p>Możesz poeksperymentować z różnymi ustawieniami dopóki tekst wygląda odpowiednio dla ciebie, wtedy ustaw je jak domyślne dzięki ichniejszym okienkom dialogowym.</p>
 
     
     <hr>
     
     <img loading="lazy" src="pictures/bottom_menu_5.png" style="width:60%;">
 
-    <p><span class="ui">Contrast</span> and <span class="ui">Font weight</span> are two options that you can use to make your text bolder (or lighter). You can achieve the same appearance with either of these options but they use different methods to achieve it. Of course you can use them both at the same time.</p>
+    <p><span class="ui">Kontrast</span> i <span class="ui">Waga czcionki</span> są dwiema opcjami, które mogą pogrubić lub wyszczuplić tekst. Możesz uzyskać ten sam efekt dzięki jakiejkolwiek z tych opcji ale używają one do tego innych metod. Oczywiście możesz używać je obie naraz.</p>
 
-    <p>The differences between them can be summarized as:</p>
+    <p>Różnica między nimi może być podsumowana tak:</p>
 
     <div class="double-container">
         <div>
-            <span class="ui">CONTRAST</span>
-            <p><b>+</b> Doesn’t change font width, book length stays the same</p>
-            <p><b>+</b> Doesn’t need to re-render document, faster</p>
-            <p><b>-</b> Might look bad on LCD or low DPI screens</p>
+            <span class="ui">KONTRAST</span>
+            <p><b>+</b>Nie zmienia szerokości czcionki, długość książki pozostaje bez zmian</p>
+            <p><b>+</b> Nie potrzebuje ponownego zładowania dokumentu, działa szybciej</p>
+            <p><b>-</b> Może wyglądać źle na ekranach LCD lub z małym DPI</p>
         </div>
         <div>
-            <span class="ui">FONT WEIGHT</span>
-            <p><b>+</b> Will use proper weighted fonts if you have them installed</p>
-            <p><b>+</b> Looks better on LCD or low DPI screens</p>
-            <p><b>-</b> Has to re-render fonts, slower</p>
+            <span class="ui">WAGA CZCIONKI</span>
+            <p><b>+</b>Będzie używać odpowiedniej wagi czcionek jeśli masz je zainstalowane</p>
+            <p><b>+</b> Wygląda lepiej na ekranach LCD i o małym DPI</p>
+            <p><b>-</b> Potrzebuje ponownie załadować czcionki, działa wolniej</p>
         </div>
     </div>
 
 
-    <p><span class="ui">Font hinting</span> adjusts your text for maximum readability according to your screen’s pixel grid. <span class="ui">native</span> uses font’s internal hinting instructions, <span class="ui">auto</span> uses FreeType’s hinting algorithm. <span class="ui">auto</span> is a safer choice because font files that you installed may have problematic hinting instructions. Also <span class="ui">auto</span> handles <b>CJK</b> text better. You can try different settings to see which one looks better on your device.</p>
+    <p><span class="ui">Podpowiadanie czcionki</span> dostosowuje tekst dla maksymalnej czytelności w zależności od układu pikseli na ekranie.<span class="ui">natywne</span> używa wewnętrznych instrukcji czcionki,<span class="ui">auto</span> używa algorytmu FreeType.<span class="ui">auto</span> jest bezpieczniejszym wyborem, bo pliki czcionek mogą mieć problematyczne instrukcje podpowiedzi. <span class="ui">auto</span> radzi sobie z lepiej tekstem <b>CJK</b>. Możesz sprawdzić różne ustawienia by zobaczyć, które z nich wygląda lepiej na twoim urządzeniu.</p>
     
-    <p><span class="ui">Font kerning</span> adjusts the spacing between letters to achieve a visually pleasing result. Default is <span class="ui">best</span> option, which might be <b>slower</b> when opening files (depending on your device) but <b>has better support for ligatures</b> (see picture below for an example), joined <b>Arabic</b> glyphs and some other scripts. If your device is slow, you can try <span class="ui">good</span> which is faster and may still look correct with western latin-script text.</p>
+    <p><span class="ui">Kerning czcionki</span> reguluje odległość między znakami by uzyskać przyjemny wizualnie efekt. Domyślnie jest ustawione na opcję <span class="ui">najlepszy</span>, która może być <b>wolniejsza</b> podczas otwierania plików (w zależności od urządzenia) ale <b>ma lepsze wsparcie dla ligatur</b> (spójrz na obrazek poniżej dla przykładu), połączonych <b> Arabskich</b> glifów i kilka innych pism. Jeśli urządzenie jest wolne, możesz spróbować opcję <span class="ui">dobry</span>, która jest szybsza i wciąż może wyglądać poprawnie na zachodnio łacińskich tekstach.</p>
 
     
     <img loading="lazy" src="pictures/kerning_ligatures.png" style="width:40%;">
@@ -1758,7 +1758,7 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_menu_6.png" style="width:60%;">
 
-    <p><span class="ui">Alt status bar</span> enables an alternative status bar which is available only in reflowable documents (EPUB, HTML, DOCX, RTF, TXT…). After enabling it here, you can configure <span class="ui">alt status bar</span> via:</p>
+    <p><span class="ui">Alt pasek stanu</span> włącza alternatywny pasek stanu, który jest dostępny tylko dla dostosowujących się dokumentów (EPUB, HTML, DOCX, RTF, TXT...).Po włączeniu tej opcji, możesz skonfigurować <span class="ui">alt pasek stanu</span> poprzez:</p>
 
     <div class="menu-breadcrumbs">GÓRNE MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Pasek Stanu / Alt Pasek Stanu</div>
     
