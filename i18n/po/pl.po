@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-09 20:52+0000\n"
-"PO-Revision-Date: 2025-11-08 20:04+0000\n"
+"PO-Revision-Date: 2025-11-10 22:51+0000\n"
 "Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
-"guide/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/koreader/"
+"user-guide/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.15-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
@@ -2639,7 +2639,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1634-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr "Menu wyboru gestów / Czytanie / Przełącz pasek stanu"
+msgstr "Menu wyboru gestów / Czytnik / Przełącz pasek stanu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1636-5
 msgid "Sorting the status bar items:"
@@ -2906,7 +2906,7 @@ msgid ""
 "expanded to fill the line."
 msgstr ""
 "Ustawienia<span class=\"ui\">odstępu między słowami i rozszerzanie wyrazów</"
-"span> są zwiazane z wyglądem tekstu, gdy jest on wyjustowany. Kiedy "
+"span> są związane z wyglądem tekstu, gdy jest on wyjustowany. Kiedy "
 "justujesz tekst, przerwa jest dodana między słowami, by oba krawędzie każdej "
 "linijki były zrównane z marginesami. Ponieważ liczba słów w linijkach jest "
 "różna, w wyjustowanym układzie tekst musi zostać skompresowany lub "
@@ -2918,6 +2918,10 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Odstęp miedzy słowami:</span> Jak bardzo <b>odstęp</b> "
+"między literami w linijce tekstu może zostać skompresowany by zmieścić "
+"więcej słów. To ustawienie nie ma wpływu na tekst, zmienia jedynie przerwę "
+"miedzy nimi."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1721-5
 msgid ""
@@ -2926,12 +2930,19 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Rozszerzanie słów:</span> Jeśli jest za dużo przestrzeni "
+"w linijce, jak wiele z tego miejsca może zostać oddane dla słów poprzez "
+"rozszerzanie ich. To ustawienie wpływa na wygląd tekstu. Jeśli nie chcesz by "
+"słowa się rozszerzały, ustaw tą opcję na <span class=\"ui\">wcale</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1723-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Możesz poeksperymentować z różnymi ustawieniami dopóki tekst wygląda "
+"odpowiednio dla ciebie, wtedy ustaw je jak domyślne dzięki ichniejszym "
+"okienkom dialogowym."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1730-5
 msgid ""
@@ -2941,51 +2952,48 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Kontrast</span> i <span class=\"ui\">Waga czcionki</span> "
+"są dwiema opcjami, które mogą pogrubić lub wyszczuplić tekst. Możesz uzyskać "
+"ten sam efekt dzięki jakiejkolwiek z tych opcji ale używają one do tego "
+"innych metod. Oczywiście możesz używać je obie naraz."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1732-5
-#, fuzzy
 msgid "The differences between them can be summarized as:"
-msgstr "The differences between them can be summarized as:"
+msgstr "Różnica między nimi może być podsumowana tak:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1735-9
-#, fuzzy
 msgid "CONTRAST"
-msgstr "Kontrast"
+msgstr "KONTRAST"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1737-13
-#, fuzzy
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
-msgstr "<b>+</b> Doesn’t change Czcionka width, Książka length stays the same"
+msgstr ""
+"<b>+</b>Nie zmienia szerokości czcionki, długość książki pozostaje bez zmian"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1738-13
-#, fuzzy
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr "<b>+</b> Doesn’t need to re-render Dokument, faster"
+msgstr "<b>+</b> Nie potrzebuje ponownego zładowania dokumentu, działa szybciej"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1739-13
-#, fuzzy
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
-msgstr "<b>-</b> Might look bad Włączony LCD or low DPI screens"
+msgstr "<b>-</b> Może wyglądać źle na ekranach LCD lub z małym DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1741-9
-#, fuzzy
 msgid "FONT WEIGHT"
-msgstr "Czcionka WEIGHT"
+msgstr "WAGA CZCIONKI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1743-13
-#, fuzzy
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
-msgstr "<b>+</b> Will use proper weighted fonts if you have them installed"
+msgstr ""
+"<b>+</b>Będzie używać odpowiedniej wagi czcionek jeśli masz je zainstalowane"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1744-13
-#, fuzzy
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
-msgstr "<b>+</b> Looks better Włączony LCD or low DPI screens"
+msgstr "<b>+</b> Wygląda lepiej na ekranach LCD i o małym DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1745-13
-#, fuzzy
 msgid "<b>-</b> Has to re-render fonts, slower"
-msgstr "<b>-</b> Has to re-render fonts, slower"
+msgstr "<b>-</b> Potrzebuje ponownie załadować czcionki, działa wolniej"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1750-5
 msgid ""
@@ -2998,6 +3006,14 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\">Podpowiadanie czcionki</span> dostosowuje tekst dla "
+"maksymalnej czytelności w zależności od układu pikseli na ekranie.<span "
+"class=\"ui\">natywne</span> używa wewnętrznych instrukcji czcionki,<span "
+"class=\"ui\">auto</span> używa algorytmu FreeType.<span class=\"ui\">auto</"
+"span> jest bezpieczniejszym wyborem, bo pliki czcionek mogą mieć "
+"problematyczne instrukcje podpowiedzi. <span class=\"ui\">auto</span> radzi "
+"sobie z lepiej tekstem <b>CJK</b>. Możesz sprawdzić różne ustawienia by "
+"zobaczyć, które z nich wygląda lepiej na twoim urządzeniu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1752-5
 msgid ""
@@ -3009,6 +3025,15 @@ msgid ""
 "device is slow, you can try <span class=\"ui\">good</span> which is faster "
 "and may still look correct with western latin-script text."
 msgstr ""
+"<span class=\"ui\">Kerning czcionki</span> reguluje odległość między znakami "
+"by uzyskać przyjemny wizualnie efekt. Domyślnie jest ustawione na opcję "
+"<span class=\"ui\">najlepszy</span>, która może być <b>wolniejsza</b> "
+"podczas otwierania plików (w zależności od urządzenia) ale <b>ma lepsze "
+"wsparcie dla ligatur</b> (spójrz na obrazek poniżej dla przykładu), "
+"połączonych <b> Arabskich</b> glifów i kilka innych pism. Jeśli urządzenie "
+"jest wolne, możesz spróbować opcję <span class=\"ui\">dobry</span>, która "
+"jest szybsza i wciąż może wyglądać poprawnie na zachodnio łacińskich "
+"tekstach."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1761-5
 msgid ""
@@ -3017,22 +3042,19 @@ msgid ""
 "TXT…). After enabling it here, you can configure <span class=\"ui\">alt "
 "status bar</span> via:"
 msgstr ""
+"<span class=\"ui\">Alt pasek stanu</span> włącza alternatywny pasek stanu, "
+"który jest dostępny tylko dla dostosowujących się dokumentów "
+"(EPUB, HTML, DOCX, RTF, TXT...).Po włączeniu tej opcji, możesz skonfigurować "
+"<span class=\"ui\">alt pasek stanu</span> poprzez:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1763-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:876-17user_guide/"
-#| "en.html+html.body.div.div.table.tr.td.div:876-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.div:1763-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"MENU GÓRNE / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Styl wyróżnienia"
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> /Pasek Stanu / Alt Pasek Stanu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1765-5
 msgid ""
