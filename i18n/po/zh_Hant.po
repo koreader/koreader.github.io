@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-11 05:13+0000\n"
-"PO-Revision-Date: 2025-11-11 05:12+0000\n"
-"Last-Translator: Jungyushen <zyshen94@gmail.com>\n"
+"PO-Revision-Date: 2025-11-12 14:52+0000\n"
+"Last-Translator: Ben <ben.cuhk@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -146,6 +146,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"頂層選單 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" style="
+"\"width:22px;\"> / 標注樣式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:884-17
 msgid "EXTERNAL APPS (PURPLE)"
@@ -164,19 +166,22 @@ msgstr "在這個手冊裡，我們有不同的提示來提示或警示你："
 msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
-msgstr ""
+msgstr "<span class=\"label_red\">警告</span>這是用以提醒用戶需要格外留神的警告訊息欄"
+"位。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:897-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> I am an info box. I give contextual "
 "information or extra explanations."
-msgstr ""
+msgstr "<span class=\"label_blue\">說明</span>這是用以提供用戶額外資訊的說明訊息欄位"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:899-5
 msgid ""
 "<span class=\"label_green\">TIP</span> I am a tip box. I contain tips that "
 "makes your life easier when using KOReader."
-msgstr ""
+msgstr "<span class=\"label_green\">提示</span>這是用以提供用戶方便使用KOReader的提示"
+"訊息欄位。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:901-5
 msgid ""
@@ -185,6 +190,9 @@ msgid ""
 "technical knowledge like working with a file system, CSS knowledge, "
 "installation of external files etc. depending on the procedure."
 msgstr ""
+"<span class=\"label_red\">!!! 進階內容</span>這是一個標注 <b>進階內容</b> 的"
+"標籤。如果你在某個主題中看到此標籤，代表視乎程序內容，你需要對例如檔案系統操"
+"作、CSS、外部檔案安裝等技術具一定程度的了解。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:905-2
 msgid ""
@@ -210,7 +218,7 @@ msgstr "在論壇或 GitHub 議題與討論中，以你的知識幫助他人"
 
 #: user_guide/en.html%2Bhtml.body.div.p:912-9
 msgid "Check <a href=\"#L1-reachus\">Reach us</a> section for the links."
-msgstr ""
+msgstr "請查看<a href=\"#L1-reachus\">聯繫我們</a>部分以獲得相闗連結。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:916-9
 msgid "Guide last update: 2025-03-25"
@@ -225,6 +233,8 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Newly added or updated sections since "
 "the last guide release are marked with a <span class=\"microns\"></span>"
 msgstr ""
+"<span class=\"label_blue\">說明</span>新納入或變更的部分皆以 <span class="
+"\"microns\"></span> 標注"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:934-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:934-9"
@@ -273,7 +283,7 @@ msgstr "閱讀畫面"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:949-17
 msgid "Indicator icons <span class=\"microns\"></span>"
-msgstr ""
+msgstr "各種標誌圖案 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:950-17
 #, fuzzy
@@ -450,45 +460,45 @@ msgstr "最佳化你的閱讀器上的EPUB/PDF檔案"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1014-5
 msgid "Book metadata storage options <span class=\"microns\"></span>"
-msgstr ""
+msgstr "書籍元數據儲存選項 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1018-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1018-5"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "手勢及鍵盤快捷鍵"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1020-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1020-13"
 msgid "Gesture Types"
-msgstr ""
+msgstr "手勢輸入"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1021-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1021-13"
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "預設手勢"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1022-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1022-13"
 msgid "Gesture Categories"
-msgstr ""
+msgstr "手勢種類"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1023-13
 msgid "Keyboard Shortcuts <span class=\"microns\"></span>"
-msgstr ""
+msgstr "鍵盤快捷鍵 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1027-9
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1027-9"
 msgid "QUICK MENU AND PROFILES"
-msgstr ""
+msgstr "快捷選單及設定檔"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1029-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1029-13"
 msgid "Quick Menu"
-msgstr ""
+msgstr "快捷選單"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1030-13
 msgid "Quick Menu tips"
-msgstr ""
+msgstr "快捷選單提示"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1031-13
 #, fuzzy
@@ -498,7 +508,7 @@ msgstr "設定檔"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1032-13
 msgid "Profile auto-execution <span class=\"microns\"></span>"
-msgstr ""
+msgstr "自動執行設定檔 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1036-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1036-5"
@@ -508,45 +518,45 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1038-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1038-13"
 msgid "Plugin types"
-msgstr ""
+msgstr "插件種類"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1039-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1039-13"
 msgid "List of internal plugins"
-msgstr ""
+msgstr "內置插件清單"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1040-13
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1040-13"
 msgid "User patches"
-msgstr ""
+msgstr "用戶補丁"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1044-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1044-5"
 msgid "TIPS"
-msgstr ""
+msgstr "貼士"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1046-13
 msgid "Reading tips"
-msgstr ""
+msgstr "閱讀貼士"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1047-13
 msgid "Device tips"
-msgstr ""
+msgstr "設備貼士"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1051-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1051-5"
 msgid "TROUBLESHOOTING"
-msgstr ""
+msgstr "排解疑難"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1053-5
 msgctxt "user_guide/en.html+html.body.div.div.ul.li:1053-5"
 msgid "REACH US"
-msgstr ""
+msgstr "聯繫我們"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1062-1
 msgctxt "user_guide/en.html+html.body.div.div:1062-1"
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
-msgstr ""
+msgstr "KOREADER 可以用來做什麼？"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1064-2
 msgid ""
@@ -557,6 +567,10 @@ msgid ""
 "<a href=\"#L1-whatcanyoudo\" class=\"internalink\"></a> links to go to the "
 "mentioned sections."
 msgstr ""
+"KOReader 是一個精悍的應用程式，你能隨心所欲去設定它。這部分提供了一個目錄式的"
+"指南作為開場白，特別為新用家上手而設。透過這些 <a href=\"#L1-whatcanyoudo\" "
+"class=\"internalink\"></a> 連結，你將了解用家能用 KOReader 來做什麼和如何實"
+"現。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1066-5
 msgid ""
@@ -567,16 +581,23 @@ msgid ""
 "Remarkable Cervantes Sony Android Linux MacOS Open reader) but this is not "
 "that nice to pronounce, so we choose to keep it simple :)"
 msgstr ""
+"<span class=\"label_blue\">說明</span> KOReader 這個名字源於最初的計劃：為 "
+"<b>K</b>indle / <b>K</b>obo 而設的開放式 (<b>O</b>pen) 閱讀器 (Reader)。有賴"
+"於多年以來發展和成長，現在它簡稱大概變成 <b>KKPRCSALMOReader</b>才對 (Kindle "
+"Kobo Pocketbook Remarkable Cervantes Sony Android Linux MacOS Open reader) 。"
+"話雖如此，我們還是簡單就好，避免閱讀障礙(•◡•)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1068-1
 msgid "Transfer your reading materials in different ways"
-msgstr ""
+msgstr "以不同方式傳輸你的書籍"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1071-9
 msgid ""
 "<b>USB mass storage</b> mode for supporting devices <a href=\"#L2-"
 "transferring\" class=\"internalink\"></a>"
 msgstr ""
+"在支援的設備使用 <b>USB 大容量儲存裝置</b> 模式 <a href=\"#L2-transferring\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1073-9
 msgid ""
@@ -584,6 +605,9 @@ msgid ""
 "with suitable accounts <a href=\"#L2-transferring\" class=\"internalink\"></"
 "a>"
 msgstr ""
+"透過相應的 <b>雲端儲存空間</b> "
+"(<span class=\"external\">Dropbox</span>/FTP/Webdav) 帳戶 <a href="
+"\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1075-9
 msgid ""
@@ -591,6 +615,8 @@ msgid ""
 "or your file manager to directly transfer files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"使 KOReader 作為 <b>SSH 伺服器</b>，並利用 SFTP 或檔案管理應用程式直接傳輸檔"
+"案 <a href=\"#L2-pluginslist\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1077-9
 msgid ""
@@ -598,6 +624,9 @@ msgid ""
 "from your Calibre Library directly to your KOReader devices over wifi <a "
 "href=\"#L2-transferring\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"external\">Calibre</span> 插件能把你的 Calibre 書庫書籍透過無線"
+"網絡傳送到 KOReader 設備 <a href=\"#L2-transferring\" class=\"internalink\""
+"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1079-9
 msgid ""
@@ -605,6 +634,8 @@ msgid ""
 "entries to your device as HTML files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"<b>News downloader 插件</b> 能下載 RSS 和 Atom 新聞到你的設備並生成 HTML 檔案"
+" <a href=\"#L2-pluginslist\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1081-9
 msgid ""
@@ -613,6 +644,9 @@ msgid ""
 "class=\"external\">Pocket</span>) <a href=\"#L2-transferring\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Wallabag 插件可以把文章透過你 Wallabag 帳號 (從例如 <span class=\"external\">"
+"Pocket</span> 這類「容後再閱」的服務)下載 <a href=\"#L2-transferring\" class="
+"\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1084-1
 msgid "Adjust the appearance of text as you wish"
