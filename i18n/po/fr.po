@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-17 04:51+0000\n"
 "PO-Revision-Date: 2025-11-18 05:51+0000\n"
-"Last-Translator: tony <the.real.iron.boy@gmail.com>\n"
+"Last-Translator: Jean Pierre <jpv69005@gmx.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/koreader/"
 "user-guide/fr/>\n"
 "Language: fr\n"
@@ -2113,7 +2113,6 @@ msgid "Faster warmth transitions"
 msgstr "Transitions plus rapides de chaleur du rétroéclairage"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1455-5
-#, fuzzy
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
@@ -2128,7 +2127,6 @@ msgstr ""
 "Réglez le mode sur <b>Horaire fixe<b/> en suivant les instructions ci-dessus"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1458-9
-#, fuzzy
 msgid "And adjust the settings similar to the image below:"
 msgstr "Et ajustez les réglages comme l'image ci-dessous :"
 
@@ -2289,10 +2287,14 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Marqueur de note :</b> L'icône du marqueur de note apparaît lorsque vous "
+"ajoutez une note à une surbrillance. Il existe différents types de marqueurs "
+"de note. Cliquez ici pour plus d'informations : <a href=\"#L1-bookmarks\""
+">Signets, Surbrillance et Notes</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1503-1
 msgid "Indicator icons"
-msgstr ""
+msgstr "Icônes indicatrices"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1505-5
 msgid ""
@@ -2340,6 +2342,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:24px;\"> / Document / Enable partial renderings"
 msgstr ""
+"MENU SUPÉRIEUR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:24px;\"> / Document / Activer les rendus partiels"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1517-13
 msgid ""
@@ -2347,6 +2351,9 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"Après avoir confirmé vos modifications, l'ensemble du livre doit être ré-"
+"affiché. Il s'agit donc d'une procédure en plusieurs étapes. Ces icônes "
+"indiquent l'état d'avancement du rendu, comme expliqué ci-dessous :"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1527-17
 msgid ""
@@ -2354,12 +2361,19 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"À ce stade, le document est rendu <b>partiellement</b>. Le nombre de pages, "
+"les informations en pied de page et de nombreux autres éléments sont "
+"<b>inexacts</b>. Vous pouvez voir à quoi ressemblent les nouveaux paramètres "
+"et les ajuster davantage. Vous pouvez également tourner les pages et "
+"utiliser les liens de saut dans cet état."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1531-17
 msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
+"Un rendu complet est en cours en <b>arrière-plan</b>. Vous pouvez toujours "
+"tourner les pages, cliquer sur les liens et modifier les paramètres."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1535-17
 msgid ""
@@ -2368,12 +2382,19 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"Le rendu complet est terminé, mais <b>pas encore appliqué</b> car KOReader "
+"attend que vous soyez <b>inactif</b> pour recharger le reste du livre "
+"(inactif = ne pas interagir avec l'appareil). Vous pouvez toujours tourner "
+"les pages, accéder aux liens, modifier les paramètres."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1540-17
 msgid ""
 "You've been idle for a while so KOReader is now reloading the whole "
 "document. At this step KOReader is <b>blocked</b> to prevent interaction."
 msgstr ""
+"Vous êtes resté inactif pendant un certain temps, KOReader est donc en train "
+"de recharger l'intégralité du document. À cette étape, KOReader est "
+"<b>bloqué</b> afin d'empêcher toute interaction."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1544-5
 msgid ""
@@ -2385,6 +2406,14 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Le rendu partiel n'est possible que "
+"si votre EPUB est composé de plusieurs fragments. Les fichiers EPUB sont "
+"essentiellement des archives .zip qui contiennent des fichiers .html. "
+"Certains livres peuvent être constitués d'un seul fichier .html, tandis que "
+"d'autres peuvent être composés de plusieurs fichiers .html, chaque chapitre "
+"du livre étant un fichier .html distinct. <b>Si votre livre n'est qu'un seul "
+"fichier .html, le rendu partiel ne peut pas fonctionner, car pour chaque "
+"modification, KOReader doit toujours calculer l'ensemble du livre.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1552-13
 msgid ""
@@ -2400,6 +2429,20 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Icône de surlignage</span> Cette icône "
+"s'affiche lorsque vous êtes en mode <span class=\"ui\">Sélectionner et "
+"surligner</span>. KOReader dispose d'un mode de surlignage supplémentaire "
+"qui vous permet de commencer un surlignage et de tourner les pages pour "
+"créer des surlignages longs pouvant s'étendre sur plusieurs pages. Vous "
+"pouvez en savoir plus à ce sujet dans la section <a href=\"#bookmarks\""
+">MARQUE-PAGES, SURBRILLENCE ET NOTES</a> de ce guide. Lorsque vous commencez "
+"une mise en surbrillance dans ce mode, cette icône s'affiche dans le coin "
+"pour vous rappeler que vous êtes toujours en mode de mise en surbrillance. "
+"Elle disparaît lorsque vous terminez votre mise en surbrillance en "
+"<b>sélectionnant la fin du passage</b> ou lorsque vous <b>annulez la mise en "
+"surbrillance</b> (en appuyant à nouveau sur le début de votre mise en "
+"surbrillance ou sur cette <span class=\"ui\">icône de mise en "
+"surbrillance</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1559-13
 msgid ""
@@ -2409,12 +2452,20 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Icône Pokemon Ball</span> Cette icône apparaît "
+"lorsque vous appuyez longuement sur un mot "
+"(intentionnellement ou accidentellement). KOReader dispose d'un menu <b>long "
+"appui</b> normal. Et d'un menu supplémentaire <b>très long appui</b> lorsque "
+"vous maintenez votre doigt appuyé pendant plus de 3 secondes. Cette icône "
+"signifie que vous avez activé ce menu très long appui."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1566-13
 msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Icône du mode Flip</span> Cette icône apparaît "
+"lorsque vous appuyez sur le coin supérieur gauche si :"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1568-17
 msgid "You are reading a PDF document"
@@ -2425,6 +2476,8 @@ msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"Et vous êtes dans un affichage zoomé autre que 100 % "
+"(colonne, ligne ou manuel) ou dans le <span class=\"ui\">mode refusion</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2476,10 +2529,18 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"KOReader prend en charge la fonctionnalité <b>Numéros de page de référence</"
+"b> qui permet aux éditeurs d'intégrer les numéros de page des livres "
+"imprimés directement dans la version électronique. Lorsque vous activez "
+"cette fonctionnalité, KOReader ne calcule pas lui-même les numéros de page. "
+"Au lieu de cela, il affiche les <b>numéros de page intégrés</b> fournis par "
+"l'éditeur. Cela signifie que le numéro de page que vous voyez dans votre "
+"<span class=\"ui\">barre d'état</span> correspond à la version imprimée du "
+"livre."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1587-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Avantages des numéros de page de référence :"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1589-9
 msgid ""
@@ -2543,8 +2604,8 @@ msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
-"Notez que ce menu n'apparait seulement qui si est inscrit<b>Numéros de page "
-"de référence</b>dans votre livre."
+"<span class=\"ui\">Notez que ce menu n’apparaît seulement qui si est "
+"inscrit<b>Numéros de page de référence</b>dans votre livre."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1604-1
 #, fuzzy
@@ -2618,10 +2679,12 @@ msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Les instructions fournies dans le reste de cette section concernent la <span "
+"class=\"ui\">barre d'état inférieure</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1618-1
 msgid "Configuring the status bar"
-msgstr ""
+msgstr "Configuration de la barre d'état"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1620-2
 msgid ""
@@ -2629,12 +2692,17 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Vous pouvez configurer la barre d'état inférieure à partir de ce menu. "
+"N'hésitez pas à explorer le sous-menu <span class=\"ui\">PARAMÈTRES</span> "
+"pour personnaliser votre barre d'état comme vous le souhaitez."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1622-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
+"MENU SUPÉRIEUR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barre d'état"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1626-5
 msgid ""
@@ -2642,6 +2710,10 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"De nombreux éléments peuvent être affichés dans la barre d'état. Mais par "
+"défaut, un seul élément est affiché à la fois et vous devez appuyer sur la "
+"barre d'état pour passer d'un élément à l'autre. Si vous souhaitez afficher "
+"tous les éléments à la fois, activez cette option ici :"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1628-5
 msgid ""
@@ -2649,6 +2721,9 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
+"MENU SUPÉRIEUR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barre d'état / Configurer les éléments / Afficher tous "
+"les éléments sélectionnés en même temps"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1632-5
 msgid ""
@@ -2656,14 +2731,17 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Si vous avez activé l'option ci-dessus, vous ne pouvez pas masquer la barre "
+"d'état en appuyant dessus. Si vous souhaitez la masquer, vous devez "
+"attribuer ici un geste pour activer/désactiver la barre d'état :"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1634-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Menu de sélection des gestes / Lecteur / Basculer la barre d'état"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1636-5
 msgid "Sorting the status bar items:"
-msgstr ""
+msgstr "Tri des éléments de la barre d'état :"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1638-5
 msgid ""
@@ -2671,10 +2749,15 @@ msgid ""
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
+"MENU PRINCIPAL / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barre d'état / Configurer les éléments / Organiser les "
+"éléments dans la barre d'état"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1642-1
 msgid "Using \"Custom Text\" item for status bar alignment"
 msgstr ""
+"Utilisation de l'élément « Texte personnalisé » pour l'alignement de la "
+"barre d'état"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1643-5
 msgid ""
@@ -2683,16 +2766,23 @@ msgid ""
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
+"Il existe un élément spécial dans la barre d'état appelé <span class=\"ui\""
+">Texte personnalisé</span>. Cet élément permet d'afficher le texte de votre "
+"choix dans la barre d'état. Vous pouvez également utiliser cette "
+"fonctionnalité pour créer un séparateur entre les éléments de la barre "
+"d'état, comme vous pouvez le voir dans l'exemple ci-dessous :"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1648-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Activez d'abord cette option en appuyant brièvement dessus dans ce menu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1650-13
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgstr ""
+"MENU SUPÉRIEUR / <img class=\"img_inline\" src=\"pictures/gear.svg\" style="
+"\"width:22px;\"> / Barre d'état / Texte personnalisé : « KOReader »"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1653-9
 msgid ""
@@ -2700,16 +2790,23 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Appuyez ensuite longuement dessus à nouveau pour ouvrir ses paramètres. "
+"Entrez un caractère <b>« espace »</b> dans la première case et entrez le "
+"nombre de répétitions dans la deuxième case, ce qui déterminera la largeur "
+"de votre séparateur."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1656-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"Vous pouvez choisir un autre caractère comme séparateur. Vous pouvez "
+"également déplacer cet élément comme les autres éléments de la barre d'état "
+"afin de modifier son ordre et d'ajuster vos groupes."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1658-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Barre de progression du chapitre"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1660-5
 msgid ""
@@ -2734,10 +2831,15 @@ msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"Vous pouvez également attribuer un geste pour basculer entre les barres de "
+"progression normales et celles des chapitres. Vous trouverez cette action "
+"sous :"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1666-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
 msgstr ""
+"Menu de sélection des gestes / Lecteur / Basculer la barre de progression du "
+"chapitre"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1672-1
 #, fuzzy
