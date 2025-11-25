@@ -252,7 +252,7 @@ def parse_args():
     ap = argparse.ArgumentParser(description="Unfuzzy entries whose msgctxt only changed by small numeric line offset shifts.")
     ap.add_argument("po_file", help="Input .po file")
     ap.add_argument("-o", "--output", help="Output file (default: overwrite input)")
-    ap.add_argument("--line-shift-threshold", type=int, default=14, help="Maximum allowed line offset delta per pair (default: 14; set 0 to disable).")
+    ap.add_argument("--line-shift-threshold", type=int, default=20, help="Maximum allowed line offset delta per pair (default: 20; set 0 to disable).")
     ap.add_argument("--dry-run", action="store_true", help="Do not modify; just report")
     ap.add_argument("--debug-line-shift", action="store_true", help="Verbose debug output for line shift heuristic decisions.")
     ap.add_argument("--no-backup", action="store_true", help="Do not create .bak when overwriting")
