@@ -7,7 +7,7 @@ jobs:
       image: ghcr.io/linuxserver/calibre
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install HTML Tidy
         run: |
