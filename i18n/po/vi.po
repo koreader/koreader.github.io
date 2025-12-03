@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-02 05:03+0000\n"
-"PO-Revision-Date: 2025-12-02 05:02+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-03 06:00+0000\n"
+"Last-Translator: tran <tronghieu512@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/koreader/user-"
 "guide/vi/>\n"
 "Language: vi\n"
@@ -59,7 +59,7 @@ msgstr "🇳🇱 Tiếng Hà Lan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:835-9
 msgid "🇫🇷 French"
-msgstr "🇫🇷 Tiếng Pháp"
+msgstr "🇫🇷Tiếng Pháp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:837-9
 msgid "🇮🇹 Italian"
@@ -5320,7 +5320,7 @@ msgstr "Làm cho hình ảnh rất nhỏ thay vì vô hiệu hóa chúng:"
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2395-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2395-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2398-13
 msgid ""
@@ -5338,6 +5338,9 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2414-5
 msgid "How to add style tweaks"
@@ -5775,7 +5778,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2533-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2535-5
 msgid "instead of this:"
@@ -5783,7 +5786,7 @@ msgstr "thay vì thế này:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2537-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2548-1
 msgctxt "user_guide/en.html+html.body.div.div:2548-1"
@@ -6412,7 +6415,7 @@ msgstr "<b>Cả</b> làm nổi bật văn bản và ghi chú"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2748-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr "<b>Lưu ý nếu có</b>, nếu không hãy tô sáng văn bản"
+msgstr "<b>Ghi chú nếu có</b>, nếu không thì đánh dấu đoạn văn bản"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2751-5
 msgid ""
@@ -6471,112 +6474,118 @@ msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
 msgstr ""
+"KOReader cung cấp nhiều cách khác nhau để xuất những đoạn đánh dấu và ghi "
+"chú của bạn từ thiết bị đọc sách:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2771-1
 msgid "1. Export Highlights plugin"
-msgstr ""
+msgstr "1. Plugin Xuất Đoạn Đánh Dấu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2773-5
 msgid ""
 "This versatile plugin can export your highlights to <b>local files</b> or "
 "<b>online services</b>."
 msgstr ""
+"Plugin đa năng này có thể xuất những đoạn đánh dấu của bạn sang <b>tệp cục "
+"bộ</b> hoặc <b>dịch vụ trực tuyến</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2778-5
 msgid "Local export"
-msgstr ""
+msgstr "Xuất cục bộ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2780-5
 msgid "You can export your highlights to your device in these file formats:"
 msgstr ""
+"Bạn có thể xuất những đoạn đánh dấu của mình sang thiết bị bằng các định "
+"dạng tệp sau:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2782-9
 msgid "Text (.txt)"
-msgstr ""
+msgstr "Văn bản (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2783-9
 msgid "HTML (.html)"
-msgstr ""
+msgstr "HTML (.html)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2784-9
 msgid "Markdown (.md)"
-msgstr ""
+msgstr "Markdown (.md)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2785-9
 msgid "Kindle Clippings (.txt)"
-msgstr ""
+msgstr "Kindle Clippings (.txt)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2786-9
 msgid "JSON (.json)"
-msgstr ""
+msgstr "JSON (.json)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2789-5
 msgid "You can choose your preferred export formats from:"
-msgstr ""
+msgstr "Bạn có thể chọn các định dạng xuất ưa thích của mình từ:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2791-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"TRÌNH ĐƠN TRÊN CÙNG / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Xuất Đoạn Đánh Dấu / Chọn định dạng "
+"và dịch vụ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2793-5
 msgid "You can see the export location (and also change it if you want):"
-msgstr ""
+msgstr "Bạn có thể xem vị trí xuất (và cũng có thể thay đổi nếu bạn muốn):"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2795-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose export folder"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"TRÌNH ĐƠN TRÊN CÙNG / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Xuất Đoạn Đánh Dấu / Chọn thư mục "
+"xuất"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2799-5
 msgid "Online services"
-msgstr ""
+msgstr "Dịch vụ trực tuyến"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2801-5
-#, fuzzy
 msgid "You can also export to these services over the network:"
-msgstr ""
-"You can find more info about the <b>table of contents</b> tools available in "
-"KOReader in this relevant section of the guide: <a href=\"#toctools\">TABLE "
-"OF CONTENTS TOOLS</a>"
+msgstr "Bạn cũng có thể xuất sang các dịch vụ này qua mạng:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2804-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
-msgstr ""
+msgstr "<a href=\"https://joplinapp.org/\">Joplin</a> - ứng dụng ghi chú"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2805-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
 msgstr ""
+"<a href=\"https://readwise.io/\">Readwise</a> - ứng dụng đánh dấu/đoạn nổi "
+"bật trực tuyến"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2806-9
 msgid ""
 "<a href=\"https://github.com/usememos/memos\">Memos</a> - a self-hosted open "
 "source memo hub"
 msgstr ""
+"<a href=\"https://github.com/usememos/memos\">Memos</a> - một trung tâm ghi "
+"nhớ (memo hub) mã nguồn mở tự lưu trữ"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2807-9
 msgid ""
 "<a href=\"https://flomoapp.com\">Flomo</a> - an online note taking service"
-msgstr ""
+msgstr "<a href=\"https://flomoapp.com\">Flomo</a> - dịch vụ ghi chú trực tuyến"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2809-9
 msgid ""
 "<a href=\"https://www.xmnote.com/\">XMNote</a> - an Android bookmark "
 "organizer in Chinese language"
 msgstr ""
+"<a href=\"https://www.xmnote.com/\">XMNote</a> - công cụ tổ chức đánh dấu "
+"trang Android bằng tiếng Trung"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2816-5
 msgid ""
@@ -6584,30 +6593,39 @@ msgid ""
 "<a href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki "
 "page</a>."
 msgstr ""
+"Bạn có thể tìm thấy hướng dẫn cài đặt chi tiết cho các dịch vụ này trên <a "
+"href=\"https://github.com/koreader/koreader/wiki/Highlight-export\">wiki "
+"page</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2820-5
 msgid ""
 "After selecting your formats, you can export the notes for the <b>current "
 "book</b> or <b>all the books in your library</b> from the same plugin menu."
 msgstr ""
+"Sau khi chọn các định dạng, bạn có thể xuất ghi chú cho <b>sách hiện tại</b> "
+"hoặc <b>tất cả sách trong thư viện</b> của bạn từ cùng một trình đơn plugin."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2821-5
 msgid ""
 "If you want to export only some of the books in your library, you can do "
 "this from the <span class=\"ui\">File Browser</span>:"
 msgstr ""
+"Nếu bạn chỉ muốn xuất một số sách trong thư viện, bạn có thể thực hiện điều "
+"này từ <span class=\"ui\">Trình duyệt tập tin</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2823-9
 msgid "Select multiple books in the <span class=\"ui\">File Browser</span>"
-msgstr ""
+msgstr "Chọn nhiều sách trong <span class=\"ui\">Trình duyệt tập tin</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2824-9
 msgid "Tap on the menu button (shown as a check mark) at the top right corner"
 msgstr ""
+"Chạm vào nút trình đơn (hiển thị dưới dạng dấu kiểm) ở góc trên bên phải"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2825-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
 msgstr ""
+"Chọn <span class=\"ui\">Xuất đoạn đánh dấu</span> từ trình đơn được hiển thị"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-5
 msgid ""
@@ -6615,16 +6633,18 @@ msgid ""
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
 "Normally KOReader exports all of them. You can choose from:"
 msgstr ""
+"<span class=\"label_green\">MẸO</span> Bạn cũng có thể chỉ xuất một số kiểu "
+"đoạn đánh dấu sau: <b>làm sáng, gạch chân, gạch ngang, đảo ngược</b>. Thông "
+"thường KOReader xuất tất cả các kiểu. Bạn có thể chọn từ:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2830-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"TRÌNH ĐƠN TRÊN CÙNG / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Xuất Đoạn Đánh Dấu / Chọn kiểu đoạn "
+"đánh dấu"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-5
 msgid ""
@@ -6633,10 +6653,14 @@ msgid ""
 "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
 msgstr ""
+"<span class=\"label_green\">MẸO</span> Bạn có thể gán hành động xuất cho cử "
+"chỉ để truy cập nhanh hơn. Bạn có thể tìm thấy chúng trong danh mục <span "
+"class=\"ui\">Trình đọc</span> của <span class=\"ui\">Trình quản lý cử chỉ</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2839-1
 msgid "2. Using KoHighlights"
-msgstr ""
+msgstr "2. Sử dụng KoHighlights"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2841-5
 msgid ""
@@ -6646,10 +6670,15 @@ msgid ""
 "github.com/noembryo/KoHighlights\">GitHub project page</a> for download and "
 "instructions."
 msgstr ""
+"<span class=\"external\">KoHighlights</span> là một chương trình bên ngoài "
+"mà bạn có thể cài đặt trên máy tính của mình. Nó có thể truy cập các ghi chú "
+"và đoạn đánh dấu sách của bạn khi bạn cắm trình đọc vào máy tính của mình. "
+"Kiểm tra <a href=\"https://github.com/noembryo/KoHighlights\">trang dự án "
+"GitHub</a> để tải xuống và xem hướng dẫn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2846-1
 msgid "3. Using Calibre"
-msgstr ""
+msgstr "3. Sử dụng Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2848-5
 msgid ""
@@ -6661,6 +6690,13 @@ msgid ""
 "application. Check the <a href=\"https://calibre-ebook.com/\">project page</"
 "a> for download and instructions."
 msgstr ""
+"<span class=\"external\">Calibre</span> là một chương trình bên ngoài mà bạn "
+"có thể cài đặt trên máy tính của mình. Bạn có thể nhập các đoạn đánh dấu vào "
+"cơ sở dữ liệu <span class=\"external\">Calibre</span> của mình bằng plugin "
+"<span class=\"external\">KOReader Sync</span> của nó. Bạn có thể cài đặt "
+"plugin được đề cập ngay trong ứng dụng <span class=\"external\">Calibre</"
+"span>. Kiểm tra <a href=\"https://calibre-ebook.com/\">trang dự án</a> để "
+"tải xuống và xem hướng dẫn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2852-9
 msgid ""
@@ -6670,19 +6706,18 @@ msgid ""
 "highlights, notes and user options (formatting properties etc.) related to "
 "that document. You can manually backup/restore these directories."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Khi bạn mở một tài liệu trong "
+"KOReader, nó sẽ tạo một thư mục cùng tên với tài liệu bên cạnh tài liệu đó. "
+"Thư mục này chứa một tệp .LUA bao gồm tất cả các đoạn đánh dấu, ghi chú và "
+"tùy chọn người dùng (thuộc tính định dạng, v.v.) liên quan đến tài liệu đó. "
+"Bạn có thể sao lưu/khôi phục các thư mục này theo cách thủ công."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:985-9"
-#| msgid "READING PDFS"
 msgctxt "user_guide/en.html+html.body.div.div:2859-1"
 msgid "READING PDFS"
 msgstr "ĐỌC PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2861-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:987-17"
-#| msgid "Reading large PDFs on a small screen"
 msgctxt "user_guide/en.html+html.body.div.div:2861-1"
 msgid "Reading large PDFs on a small screen"
 msgstr "Đọc tệp PDF lớn trên màn hình nhỏ"
@@ -6693,22 +6728,23 @@ msgid ""
 "optimized for bigger page sizes (generally A4 or Letter) on your smaller "
 "screen device:"
 msgstr ""
+"KOReader cung cấp cho bạn nhiều cách để đọc tài liệu PDF/DJVU được tối ưu "
+"hóa cho kích thước trang lớn hơn (thường là A4 hoặc Letter) trên thiết bị "
+"màn hình nhỏ của bạn:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2867-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
 msgstr ""
+"<b>1. Bạn có thể bật </b><span class=\"ui\">Reflow (Điều chỉnh lại bố cục)</"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2869-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"TRÌNH ĐƠN DƯỚI CÙNG / <img class=\"img_inline\" src=\"pictures/"
+"bottom_font.svg\" style=\"width:22px;\"> / Reflow (Điều chỉnh lại bố cục)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2871-5
 msgid ""
@@ -6717,43 +6753,45 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
+"Reflow cố gắng trích xuất phần văn bản từ tài liệu của bạn (nếu có) và định "
+"dạng nó thành một cột duy nhất. Kết quả thường là thỏa đáng. Bạn cũng có thể "
+"đặt tính năng này làm <b>mặc định</b> bằng cách chạm và giữ vào nó."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2875-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
 msgstr ""
+"<b>2. Bạn có thể bật</b> <span class=\"ui\">Phóng to theo nội dung</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2877-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2877-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"TRÌNH ĐƠN DƯỚI CÙNG / <img loading=\"lazy\" class=\"img_inline\" "
+"src=\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2882-5
-#, fuzzy
 msgid ""
 "With this option KOReader tries to crop margins from your document so text "
 "can look bigger on your screen. You can set <span class=\"ui\">fit</span> to "
 "<span class=\"ui\">width</span> in the same menu which will try to fit only "
 "page width instead of whole page, so your text will look bigger."
 msgstr ""
-"This is especially helpful with comic books. First enable <span "
-"class=\"ui\">COLUMN MODE</span> from this menu item:"
+"Với tùy chọn này, KOReader cố gắng cắt bớt lề khỏi tài liệu của bạn để văn "
+"bản có thể trông to hơn trên màn hình của bạn. Bạn có thể đặt <span "
+"class=\"ui\">fit (vừa)</span> thành <span class=\"ui\">width (chiều rộng)</"
+"span> trong cùng một trình đơn, thao tác này sẽ cố gắng làm cho trang vừa "
+"với chiều rộng thay vì toàn bộ trang, nhờ đó văn bản của bạn sẽ trông lớn "
+"hơn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2886-5
-#, fuzzy
 msgid ""
 "<b>3. You can try to use your device in </b><span class=\"ui\">Landscape "
 "orientation</span>"
 msgstr ""
-"⇓ BOTTOM MENU → <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
-"bottom_fit.svg\" style=\"width:26px;\"> →"
+"<b>3. Bạn có thể thử sử dụng thiết bị của mình theo </b><span class=\"ui\">"
+"hướng ngang</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2888-5
 msgid ""
@@ -6766,38 +6804,40 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2890-5
 msgctxt "user_guide/en.html+html.body.div.div:2890-5"
 msgid "BOTTOM MENU /"
-msgstr ""
+msgstr "TRÌNH ĐƠN DƯỚI CÙNG /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2894-2
 msgid ""
 "4. You can zoom to 100 percent size and instead scroll the screen to read "
 "different parts"
 msgstr ""
+"4. Bạn có thể phóng to đến kích cỡ 100 phần trăm và cuộn màn hình để đọc các "
+"phần khác nhau"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2897-5
 msgid ""
 "This is especially helpful with comic books. First enable <span "
 "class=\"ui\">column mode</span> from this menu item:"
 msgstr ""
+"Điều này đặc biệt hữu ích với truyện tranh. Trước tiên, hãy bật <span "
+"class=\"ui\">chế độ cột</span> từ mục trình đơn này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2899-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2899-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"TRÌNH ĐƠN DƯỚI CÙNG / <img loading=\"lazy\" class=\"img_inline\" "
+"src=\"pictures/bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2901-5
 msgid ""
 "Then select an appropriate flow direction for your document from the same "
 "menu:"
 msgstr ""
+"Sau đó, chọn hướng dòng chảy phù hợp cho tài liệu của bạn từ cùng một trình "
+"đơn:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2907-9
 msgid ""
@@ -6805,18 +6845,25 @@ msgid ""
 "scroll down until the end of page reading left column then go to right upper "
 "side to continue reading right column:"
 msgstr ""
+"Ví dụ: nếu bạn đang đọc một bài báo có hai cột, bạn sẽ cuộn xuống cho đến "
+"hết trang đọc cột bên trái, sau đó chuyển sang phía trên bên phải để tiếp "
+"tục đọc cột bên phải:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2910-9
 msgid ""
 "Or if you are reading a comic book, you will want to go <b>“right / down "
 "left / right”</b> in a zigzag pattern:"
 msgstr ""
+"Hoặc nếu bạn đang đọc một cuốn truyện tranh, bạn sẽ muốn đi theo kiểu zigzag "
+"<b>“phải / xuống trái / phải”</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2913-9
 msgid ""
 "For a Japanese comic book (right-to-left panel order) this might be the "
 "reverse:"
 msgstr ""
+"Đối với truyện tranh Nhật Bản (thứ tự ô truyện từ phải sang trái) thì điều "
+"này có thể ngược lại:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2917-5
 msgid ""
@@ -6825,6 +6872,10 @@ msgid ""
 "menu to fit the text on your screen better. Feel free to experiment with "
 "these settings."
 msgstr ""
+"Trong chế độ này, bạn cũng có thể điều chỉnh <span class=\"ui\">Chồng chéo "
+"Ngang/Dọc</span> và <span class=\"ui\">Số lượng Cột</span> từ cùng một trình "
+"đơn để giúp văn bản vừa vặn hơn trên màn hình của bạn. Hãy thoải mái thử "
+"nghiệm với các cài đặt này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2919-5
 msgid ""
@@ -6835,14 +6886,18 @@ msgid ""
 "displays the full page without cropping, scaled to fit your screen. You can "
 "turn the pages in this mode. To exit, tap on this icon."
 msgstr ""
+"<span class=\"label_green\">MẸO</span> Khi đọc tài liệu PDF, nếu bạn đang ở "
+"chế độ xem đã phóng to (khác 100% như cột, hàng hoặc thủ công) hoặc ở <span "
+"class=\"ui\">chế độ reflow (điều chỉnh lại bố cục)</span>, bạn có thể chạm "
+"vào góc trên bên trái màn hình để vào <span class=\"ui\">chế độ lật</span>. "
+"Chế độ này tạm thời hiển thị toàn bộ trang mà không cắt xén, được điều chỉnh "
+"tỷ lệ để vừa với màn hình của bạn. Bạn có thể lật trang trong chế độ này. Để "
+"thoát, hãy chạm vào biểu tượng này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2921-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:988-17"
-#| msgid "PDF Specific Bottom Menu Items"
 msgctxt "user_guide/en.html+html.body.div.div:2921-1"
 msgid "PDF Specific Bottom Menu Items"
-msgstr "Các mục menu dưới dành riêng cho PDF"
+msgstr "Các Mục Trình đơn Dưới cùng Cụ thể cho PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2926-5
 msgid ""
@@ -6850,6 +6905,10 @@ msgid ""
 "document. Be aware that same contrast value applies to both text and images "
 "in your document. If you set it very high, your images may become too dark."
 msgstr ""
+"Cài đặt <span class=\"ui\">Độ tương phản</span> điều chỉnh mức độ màu đen "
+"trong tài liệu của bạn. Lưu ý rằng cùng một giá trị độ tương phản sẽ áp dụng "
+"cho cả văn bản và hình ảnh trong tài liệu của bạn. Nếu bạn đặt giá trị quá "
+"cao, hình ảnh của bạn có thể trở nên quá tối."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2928-5
 msgid ""
@@ -6858,6 +6917,10 @@ msgid ""
 "convert a grayscale or color document to black & white to produce more "
 "contrast for easier reading."
 msgstr ""
+"<span class=\"ui\">Dewatermark (Xóa hình mờ)</span> loại bỏ hình mờ khỏi tài "
+"liệu được hiển thị. Nó cũng có thể được sử dụng để loại bỏ nền xám. Tính "
+"năng này có thể chuyển đổi tài liệu thang độ xám hoặc màu sang đen & trắng "
+"để tạo độ tương phản cao hơn, giúp đọc dễ dàng hơn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2930-5
 msgid ""
@@ -6868,18 +6931,28 @@ msgid ""
 "your document. If your PDF/DJVU files are slow, this is the first setting "
 "you should check."
 msgstr ""
+"<span class=\"ui\">Chất lượng hiển thị</span> <b>(chỉ hoạt động ở chế độ "
+"Reflow)</b> đặt chất lượng xử lý và xuất văn bản và hình ảnh được trích "
+"xuất. <span class=\"ui\">High (Cao)</span> mang lại kết quả dễ nhìn hơn "
+"nhưng có thể chậm hơn nhiều (vài giây để lật trang) so với <span "
+"class=\"ui\">default (mặc định)</span> tùy thuộc vào tài liệu của bạn. Nếu "
+"tệp PDF/DJVU của bạn chậm, đây là cài đặt đầu tiên bạn nên kiểm tra."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2936-5
 msgid ""
 "<span class=\"ui\">Document language</span> sets the language that will be "
 "used by the OCR engine."
 msgstr ""
+"<span class=\"ui\">Ngôn ngữ tài liệu</span> đặt ngôn ngữ sẽ được công cụ OCR "
+"sử dụng."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2938-5
 msgid ""
 "<span class=\"ui\">Forced OCR</span> as the name says, forces the use of OCR "
 "even if the document has a text layer."
 msgstr ""
+"<span class=\"ui\">Forced OCR (Buộc OCR)</span> như tên gọi, buộc sử dụng "
+"OCR ngay cả khi tài liệu có lớp văn bản."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2940-5
 msgid ""
@@ -6887,12 +6960,17 @@ msgid ""
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
 "languages like Arabic and Hebrew."
 msgstr ""
+"<span class=\"ui\">Hướng viết</span> <b>(chỉ hoạt động ở chế độ Reflow)</b> "
+"đặt hướng của tài liệu gốc. Đặt thành <b>RTL (Từ phải sang trái)</b> cho các "
+"ngôn ngữ như Ả Rập và Do Thái."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2942-5
 msgid ""
 "<span class=\"ui\">Document columns</span> <b>(only active in Reflow mode)</"
 "b> sets the number of text columns in the original document."
 msgstr ""
+"<span class=\"ui\">Cột tài liệu</span> <b>(chỉ hoạt động ở chế độ Reflow)</"
+"b> đặt số lượng cột văn bản trong tài liệu gốc."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2948-5
 msgid ""
@@ -6904,11 +6982,17 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
+"Tính năng <span class=\"ui\">Tự động làm thẳng</span> có thể làm thẳng các "
+"trang của một tài liệu có vấn đề, ví dụ như các trang PDF được quét bị "
+"nghiêng. Tính năng này khả dụng trong các tài liệu <b>PDF, DJVU, CBZ/CBT</b> "
+"và các tệp <b>hình ảnh</b>. Để bật, hãy chọn góc nghiêng tối đa mà KOReader "
+"sẽ cố gắng sửa. Nếu không được sửa, bạn có thể phải chọn một góc lớn hơn. "
+"Lưu ý rằng tính năng này <b>có thể làm chậm trình đọc của bạn</b> tùy thuộc "
+"vào một số yếu tố."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2953-1
-#, fuzzy
 msgid "Saving highlights into PDF"
-msgstr "Vertical overlap"
+msgstr "Lưu đoạn đánh dấu vào PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2955-5
 msgid ""
@@ -6916,6 +7000,9 @@ msgid ""
 "highlights</span> feature of KOReader which is explained in a previous "
 "section."
 msgstr ""
+"Để lưu các đoạn đánh dấu của mình, bạn có thể sử dụng tính năng <span "
+"class=\"ui\">Xuất đoạn đánh dấu</span> của KOReader đã được giải thích ở "
+"phần trước."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2956-5
 msgid ""
@@ -6928,6 +7015,14 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
+"Nếu bạn đang tạo đoạn đánh dấu trên tài liệu PDF, KOReader cũng có thể lưu "
+"chúng trực tiếp vào tệp PDF. Điều này có thể hữu ích trong một số trường hợp "
+"vì với phương pháp này, đoạn đánh dấu của bạn trở thành một phần của tệp "
+"PDF. Điều này có nghĩa là bạn có thể xem chúng trên các ứng dụng hoặc nền "
+"tảng khác mà không cần cài đặt KOReader. Ví dụ: nếu bạn gửi một tệp có đoạn "
+"đánh dấu cho người dùng khác, họ không cần phải cài đặt KOReader để xem đoạn "
+"đánh dấu của bạn. Bạn chỉ cần gửi tệp PDF đã lưu đoạn đánh dấu của bạn và họ "
+"có thể mở và xem chúng bằng một trình đọc PDF <b>tương thích</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2958-24
 msgid ""
@@ -6939,20 +7034,26 @@ msgid ""
 "class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
+"<span class=\"label_red\">CẢNH BÁO</span> Nếu bạn đang sử dụng plugin <span "
+"class=\"ui\">Đồng bộ hóa tiến trình</span>, việc lưu đoạn đánh dấu PDF sẽ "
+"làm thay đổi tệp của bạn, do đó quá trình đồng bộ hóa của bạn sẽ bị lỗi. Nếu "
+"bạn có kế hoạch sử dụng cả hai tính năng, trong cài đặt của plugin <span "
+"class=\"ui\">Đồng bộ hóa tiến trình</span>, hãy thay đổi <span class=\"ui\">"
+"Phương pháp khớp tài liệu</span> thành <span class=\"ui\">Tên tệp</span> "
+"thay vì khớp <span class=\"ui\">Nhị phân</span> mặc định:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p.div:2959-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Progress sync / Document matching method"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"TRÌNH ĐƠN TRÊN CÙNG / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Đồng bộ hóa tiến trình / Phương "
+"pháp khớp tài liệu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2964-5
 msgid "Which PDF readers can show these highlights?"
-msgstr ""
+msgstr "Những trình đọc PDF nào có thể hiển thị các đoạn đánh dấu này?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2965-5
 msgid ""
@@ -6965,6 +7066,15 @@ msgid ""
 "see them. And ⚠️ means the application needs some plugin to show them. List "
 "is ordered alphabetically within categories."
 msgstr ""
+"Các trình đọc PDF thường phụ thuộc vào một số thư viện chuẩn để hiển thị tệp "
+"PDF. Hai thư viện PDF nổi tiếng nhất là <b>MuPDF</b> và <b>Poppler</b>. "
+"KOReader sử dụng thư viện <b>MuPDF</b>, vì vậy các đoạn đánh dấu được ghi "
+"vào PDF trong KOReader hiện không hiển thị trên các trình đọc PDF sử dụng "
+"thư viện <b>Poppler</b>. Bạn có thể tìm thấy danh sách khả năng tương thích "
+"dưới đây. ✅ nghĩa là bạn có thể thấy các đoạn đánh dấu KOReader của mình "
+"trong ứng dụng này, ❌ nghĩa là bạn không thể thấy chúng. Và ⚠️ nghĩa là ứng "
+"dụng cần một số plugin để hiển thị chúng. Danh sách được sắp xếp theo thứ tự "
+"bảng chữ cái trong từng danh mục."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2967-32
 msgid ""
@@ -6974,70 +7084,75 @@ msgid ""
 "opening the file on your intended reader to check if the highlight is "
 "visible."
 msgstr ""
+"<span class=\"label_red\">CẢNH BÁO</span> Danh sách này chưa đầy đủ và có "
+"thể không được cập nhật. Vì vậy, chúng tôi đề nghị bạn tự kiểm tra khả năng "
+"tương thích. Đơn giản chỉ cần tạo một đoạn đánh dấu trong KOReader, ghi nó "
+"vào tệp PDF và thử mở tệp trên trình đọc mà bạn định sử dụng để kiểm tra xem "
+"đoạn đánh dấu có hiển thị hay không."
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2971-13
 msgid "✅ Chrome Browser (All platforms)"
-msgstr ""
+msgstr "✅ Trình duyệt Chrome (Tất cả các nền tảng)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2972-13
 msgid "✅ Deepin Reader (Linux)"
-msgstr ""
+msgstr "✅ Deepin Reader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2973-13
 msgid "✅ Firefox Browser (All platforms)"
-msgstr ""
+msgstr "✅ Trình duyệt Firefox (Tất cả các nền tảng)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2974-13
 msgid "✅ Ghostscript (All platforms)"
-msgstr ""
+msgstr "✅ Ghostscript (Tất cả các nền tảng)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2975-13
 msgid "✅ MuPDF (Windows/Android)"
-msgstr ""
+msgstr "✅ MuPDF (Windows/Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2976-13
 msgid "⚠️ Zathura (if MuPDF plugin is enabled)"
-msgstr ""
+msgstr "⚠️ Zathura (nếu plugin MuPDF được bật)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2977-13
 msgid "❌ Adobe Acrobat Reader"
-msgstr ""
+msgstr "❌ Adobe Acrobat Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2978-13
 msgid "❌ Evince (Linux)"
-msgstr ""
+msgstr "❌ Evince (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2979-13
 msgid "❌ Foxit Reader"
-msgstr ""
+msgstr "❌ Foxit Reader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2980-13
 msgid "❌ LibreOffice Draw (as editor)"
-msgstr ""
+msgstr "❌ LibreOffice Draw (với vai trò trình chỉnh sửa)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2981-13
 msgid "❌ Moon Reader (Android)"
-msgstr ""
+msgstr "❌ Moon Reader (Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2982-13
 msgid "❌ Okular (Linux)"
-msgstr ""
+msgstr "❌ Okular (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2983-13
 msgid "❌ SumatraPDF (Windows)"
-msgstr ""
+msgstr "❌ SumatraPDF (Windows)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2984-13
 msgid "❌ Xpdf (Linux)"
-msgstr ""
+msgstr "❌ Xpdf (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2985-13
 msgid "❌ Xreader (Linux)"
-msgstr ""
+msgstr "❌ Xreader (Linux)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2989-9
 msgid "Important information about saving PDF highlights feature"
-msgstr ""
+msgstr "Thông tin quan trọng về tính năng lưu đoạn đánh dấu PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2990-9
 msgid ""
@@ -7045,6 +7160,9 @@ msgid ""
 "you are planning to use this feature, you should understand how it works in "
 "order to avoid frustrating situations."
 msgstr ""
+"Vì việc tạo đoạn đánh dấu để sử dụng sau này có thể tốn nhiều công sức, nếu "
+"bạn đang có kế hoạch sử dụng tính năng này, bạn nên hiểu cách thức hoạt động "
+"của nó để tránh những tình huống gây khó chịu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2992-9
 msgid ""
@@ -7055,10 +7173,17 @@ msgid ""
 "but it can't know where they are in the file, so it can't modify them. "
 "Please continue reading for more information about this."
 msgstr ""
+"<b>TÓM TẮT NHANH:</b> Nếu bạn muốn có thể xóa hoặc xuất các đoạn đánh dấu "
+"PDF của mình sau này, bạn phải sao chép <span class=\"ui\">thư mục .sdr</"
+"span> liên kết với sách của bạn khi bạn sao lưu hoặc sao chép sách sang các "
+"thiết bị khác. Không có thư mục này, KOReader vẫn có thể hiển thị các đoạn "
+"đánh dấu đã lưu nhưng nó không thể biết chúng nằm ở đâu trong tệp, vì vậy nó "
+"không thể sửa đổi chúng. Vui lòng tiếp tục đọc để biết thêm thông tin về "
+"điều này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2996-9
 msgid "How normal highlights work in KOReader"
-msgstr ""
+msgstr "Cách hoạt động của các đoạn đánh dấu thông thường trong KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2998-9
 msgid ""
@@ -7071,10 +7196,18 @@ msgid ""
 "folder</span> which is associated with your book, you will lose your "
 "highlights."
 msgstr ""
+"Khi bạn tạo một đoạn đánh dấu trong KOReader, cho dù tài liệu là EPUB hay "
+"PDF, đoạn đánh dấu này sẽ được ghi vào một tệp cài đặt. Ví dụ: nếu bạn đang "
+"đọc <b>Alice in Wonderland.epub</b>, bạn sẽ có một thư mục tên là <span "
+"class=\"ui\">Alice in Wonderland.sdr</span> trong cùng thư mục với sách của "
+"bạn. Các đoạn đánh dấu của bạn sẽ được giữ trong một tệp thuộc <span "
+"class=\"ui\">thư mục .sdr</span> này. Điều này có nghĩa là, nếu bạn xóa "
+"<span class=\"ui\">thư mục .sdr</span> được liên kết với sách của mình, bạn "
+"sẽ mất các đoạn đánh dấu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3002-9
 msgid "How PDF highlights work in KOReader"
-msgstr ""
+msgstr "Cách hoạt động của các đoạn đánh dấu PDF trong KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3003-9
 msgid ""
@@ -7086,6 +7219,14 @@ msgid ""
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
 msgstr ""
+"Tính năng đánh dấu PDF hoạt động hơi khác so với mô tả ở trên. Như chúng tôi "
+"đã đề cập trước đây, khi bạn lưu các đoạn đánh dấu PDF của mình, chúng sẽ "
+"được ghi trực tiếp vào tệp PDF, nghĩa là chúng trở thành một phần của chính "
+"tệp đó. Đó là lý do tại sao bạn có thể gửi tệp PDF này cho người dùng khác "
+"và họ có thể xem các đoạn đánh dấu bằng trình đọc PDF tương thích. Họ sẽ "
+"không cần <span class=\"ui\">thư mục .sdr</span> của bạn, vốn chứa bản ghi "
+"các đoạn đánh dấu của bạn, vì giờ đây các đoạn đánh dấu đã được nhúng trực "
+"tiếp vào tệp PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3005-9
 msgid ""
@@ -7093,6 +7234,9 @@ msgid ""
 "on an example. Imagine that you are reading a PDF book on your <b>e-reader</"
 "b> with KOReader:"
 msgstr ""
+"Hãy giải thích vấn đề có thể phát sinh khi bạn sử dụng tính năng này, thông "
+"qua một ví dụ. Hãy tưởng tượng bạn đang đọc một cuốn sách PDF trên <b>máy "
+"đọc sách điện tử</b> của mình với KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3008-13
 msgid ""
@@ -7100,6 +7244,9 @@ msgid ""
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
 msgstr ""
+"Bạn đang tạo các đoạn đánh dấu và tùy chọn <span class=\"ui\">Lưu đoạn đánh "
+"dấu vào PDF</span> được bật, do đó khi bạn tạo các đoạn đánh dấu này, "
+"KOReader sẽ lưu chúng vào tệp PDF của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3009-13
 msgid ""
@@ -7108,12 +7255,18 @@ msgid ""
 "you didn't copy the <span class=\"ui\">.sdr folder</span>, only the PDF "
 "file)."
 msgstr ""
+"Bạn muốn tiếp tục đọc sách trên <b>điện thoại</b> của mình với KOReader, vì "
+"vậy bạn sao chép tệp PDF này từ <b>máy đọc sách điện tử</b> sang <b>điện "
+"thoại</b> (nhưng bạn đã không sao chép <span class=\"ui\">thư mục .sdr</span>"
+", chỉ sao chép tệp PDF)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3010-13
 msgid ""
 "When you open the book on your <b>phone</b> with KOReader, you will see that "
 "your highlights are still there."
 msgstr ""
+"Khi bạn mở sách trên <b>điện thoại</b> bằng KOReader, bạn sẽ thấy các đoạn "
+"đánh dấu của mình vẫn còn ở đó."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3013-9
 msgid ""
@@ -7122,6 +7275,10 @@ msgid ""
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
 msgstr ""
+"Bây giờ, tình hình trên cả hai thiết bị của bạn trông có vẻ giống hệt nhau. "
+"KOReader trên cả <b>máy đọc sách điện tử</b> và <b>điện thoại</b> của bạn "
+"đều hiển thị tệp PDF với cùng các đoạn đánh dấu. Nhưng nó chỉ <b>trông có "
+"vẻ</b> giống nhau, thực ra có một sự khác biệt lớn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3015-9
 msgid ""
@@ -7130,6 +7287,10 @@ msgid ""
 "class=\"ui\">.sdr folder</span>. But KOReader on your phone doesn't have "
 "this knowledge. It only has the PDF file."
 msgstr ""
+"KOReader trên <b>máy đọc sách điện tử</b> của bạn biết được đoạn đánh dấu "
+"nào trong tệp PDF này được tạo bởi KOReader vì nó có <span class=\"ui\">thư "
+"mục .sdr</span>. Nhưng KOReader trên điện thoại của bạn không có kiến thức "
+"này. Nó chỉ có tệp PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3017-9
 msgid ""
@@ -7644,15 +7805,15 @@ msgstr ""
 "b>… mà bạn có thể chọn trong hộp thoại tiếp theo."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3211-5
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> Be very careful when using the "
 "<span class=\"ui\">reset</span> dialog and double check which items are "
 "marked, otherwise you can reset everything related to your book accidentally."
 msgstr ""
-"<span class=\"ui\">IGNORE METADATA:</span> Nếu siêu dữ liệu sách của bạn "
-"không chính xác, trường tên có thể hiển thị thông tin vô ích. Chọn tùy chọn "
-"này để hiển thị tên tệp thay vì siêu dữ liệu."
+"<span class=\"label_red\">CẢNH BÁO</span> Hãy hết sức cẩn thận khi sử dụng "
+"hộp thoại <span class=\"ui\">Đặt lại</span> và kiểm tra kỹ các mục được đánh "
+"dấu, nếu không bạn có thể vô tình đặt lại toàn bộ nội dung liên quan đến "
+"sách của mình."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3213-5
 msgid ""
@@ -7661,12 +7822,10 @@ msgid ""
 "different engine to get some other features. See <b>Viewing archive files</"
 "b> and <b>Viewing image files</b> sections just below."
 msgstr ""
-"<span class=\"ui\">REFRESH CACHED BOOK INFORMATION:</span> KOReader lưu trữ "
-"siêu dữ liệu và bìa sách của sách khi bạn thêm sách vào thư viện của mình. "
-"Nếu bạn thực hiện một số thay đổi đối với sách sau khi sao chép vào thiết bị "
-"của mình, thông tin này có thể cần được cập nhật. Nếu bạn thấy bìa hoặc siêu "
-"dữ liệu không chính xác, bạn có thể làm mới. thông tin cuốn sách với mục "
-"menu này."
+"<span class=\"ui\">MỞ BẰNG:</span> KOReader có nhiều bộ máy khác nhau để "
+"hiển thị các loại tệp khác nhau. Trong một số trường hợp, bạn có thể mở tệp "
+"bằng một bộ máy khác để có thêm các tính năng. Xem các mục <b>Xem tệp nén</"
+"b> và <b>Xem tệp hình ảnh</b> ngay bên dưới."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3215-5
 msgid ""
@@ -7674,6 +7833,9 @@ msgid ""
 "disable the cover for this book (it may have wrong cover or cover is not "
 "very readable on the e-ink screen) you can select this."
 msgstr ""
+"<span class=\"ui\">BỎ QUA ẢNH BÌA:</span> Nếu vì lý do nào đó bạn muốn tắt "
+"ảnh bìa của sách này (ví dụ ảnh bìa sai hoặc hiển thị không rõ trên màn hình "
+"e-ink), bạn có thể chọn tùy chọn này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3217-5
 msgid ""
@@ -7681,6 +7843,9 @@ msgid ""
 "correct, name field may show useless information. Select this option to show "
 "the file name instead of metadata."
 msgstr ""
+"<span class=\"ui\">BỎ QUA SIÊU DỮ LIỆU:</span> Nếu siêu dữ liệu của sách "
+"không chính xác, trường tên có thể hiển thị thông tin vô ích. Chọn tùy chọn "
+"này để hiển thị tên tệp thay vì siêu dữ liệu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3219-5
 msgid ""
@@ -7690,6 +7855,11 @@ msgid ""
 "might need to be updated. If you see wrong cover or metadata, you can "
 "refresh the book information with this menu item."
 msgstr ""
+"<span class=\"ui\">LÀM MỚI THÔNG TIN SÁCH TRONG BỘ NHỚ ĐỆM:</span> KOReader "
+"sẽ lưu trữ siêu dữ liệu và bìa sách khi bạn thêm sách vào thư viện. Nếu bạn "
+"thực hiện một số thay đổi đối với sách sau khi sao chép vào thiết bị, thông "
+"tin này có thể cần được cập nhật. Nếu bạn thấy bìa hoặc siêu dữ liệu hiển "
+"thị sai, bạn có thể làm mới thông tin sách bằng mục menu này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3223-1
 msgid "Working on multiple files"
@@ -10158,23 +10328,23 @@ msgstr "Forced OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Margin"
-msgstr "Writing direction"
+msgstr "Lề"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Horizontal overlap"
-msgstr "Auto straighten"
+msgstr "Độ chồng chéo ngang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Vertical overlap"
-msgstr "Document columns"
+msgstr "Độ chồng chéo dọc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgid "Fit"
-msgstr ""
+msgstr "Vừa vặn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4025-17
 msgid "Zoom to"
-msgstr ""
+msgstr "Thu phóng tới"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Number of columns/rows to split page"
@@ -10182,7 +10352,7 @@ msgstr "Số cột/hàng để chia trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4027-17
 msgid "Zoom factor"
-msgstr ""
+msgstr "Hệ số phóng to"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4028-17
 #, fuzzy
@@ -10223,9 +10393,8 @@ msgid "Word gap"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4036-17
-#, fuzzy
 msgid "Reflow"
-msgstr "Quét chữ (Reflow)"
+msgstr "Sắp xếp lại"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4037-17
 #, fuzzy
@@ -10247,9 +10416,8 @@ msgid "Document language"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4041-17
-#, fuzzy
 msgid "Forced OCR"
-msgstr "Ép OCR"
+msgstr "Buộc OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4042-17
 msgid "Writing direction"
