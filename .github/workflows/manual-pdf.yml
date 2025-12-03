@@ -16,7 +16,7 @@ jobs:
         run: weasyprint --full-fonts user_guide/index.html koreader_user_guide.pdf
 
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: KOReader Manual PDF
           path: koreader_user_guide.pdf
