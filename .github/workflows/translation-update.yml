@@ -22,18 +22,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
       - name: Set up Git identity
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      - name: Install translate-toolkit and gettext
+      - name: Install translate-toolkit
         run: |
-          sudo apt-get update
-          sudo apt-get install -y translate-toolkit gettext
+          python -m pip install --upgrade pip
+          pip install translate-toolkit # needs at least 3.17.3, released 2025-12-03
 
-      - name: Create translations directory if it doesn't exist
-        run: mkdir -p i18n/po
+      - name: Install gettext (cached)
+        uses: awalsh128/cache-apt-pkgs-action@v1
+        with:
+          packages: gettext
+          version: 1.0
 
       - name: Extract translatable strings from HTML
         run: |
