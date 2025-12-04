@@ -1041,7 +1041,7 @@ line-height: 2rem;
         <ul>
             <li><a href="#L2-quickmenu">Quick Menu</a></li>
             <li><a href="#L2-quickmenutips">Mẹo menu nhanh</a></li>
-            <li><a href="#L2-profiles">Profiles</a></li>
+            <li><a href="#L2-profiles">Hồ sơ</a></li>
             <li><a href="#L2-profileautoexec">Hồ sơ tự động thực hiện <span class="microns"></span></a></li>
         </ul>
         </li>
@@ -3008,23 +3008,23 @@ line-height: 2rem;
 
         <p>KOReader trên <b>máy đọc sách điện tử</b> của bạn biết được đoạn đánh dấu nào trong tệp PDF này được tạo bởi KOReader vì nó có <span class="ui">thư mục .sdr</span>. Nhưng KOReader trên điện thoại của bạn không có kiến thức này. Nó chỉ có tệp PDF.</p>
 
-        <p>Difference arises when you try to delete the pdf highlights or export them. Your <b>e-reader</b> can both delete these PDF highlights and export them. But your <b>phone</b> KOReader can't, because as we said, it doesn't have the <span class="ui">.sdr folder</span> of your book so the highlights in the book look like a part of the original book from its point of view.</p>
+        <p>Sự khác biệt phát sinh khi bạn cố gắng xóa hoặc xuất các điểm nổi bật của PDF. <b>Máy đọc sách điện tử</b> của bạn có thể xóa và xuất các điểm nổi bật này. Nhưng KOReader trên điện thoại thì không, vì như đã nói, nó không có thư mục <span class="ui">.sdr</span> của sách, nên các điểm nổi bật trong sách trông giống như một phần của sách gốc.</p>
 
-        <p>So in short, if you want to be able to delete or export your PDF highlights later, you have to copy the <span class="ui">.sdr folder</span> associated with your book when you backup or copy your book to other devices.</p>
+        <p>Tóm lại, nếu bạn muốn xóa hoặc xuất các điểm nổi bật trong PDF sau này, bạn phải sao chép <span class="ui">.sdr</span> thư mục được liên kết với sách của mình khi bạn sao lưu hoặc sao chép sách sang các thiết bị khác.</p>
 
 
 
 <div class="L2-Sub-heading" id="L2-ocr">Nhận dạng ký tự quang học</div>
     <p>
-    <b>OCR (Optical Character Recognition)</b> is the process of extracting text from images. In KOReader context, it is generally used for extracting text from scanned book pages in PDF files. KOReader relies on <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a> for this task.</p>
+    <b>OCR (Nhận dạng Ký tự Quang học)</b> là quá trình trích xuất văn bản từ hình ảnh. Trong ngữ cảnh KOReader, nó thường được sử dụng để trích xuất văn bản từ các trang sách được quét trong tệp PDF. KOReader sử dụng <a href="https://github.com/tesseract-ocr/tessdoc">Công cụ OCR Nguồn Mở Tesseract</a> cho tác vụ này.</p>
     
-    <p>To use this feature you need to:</p>
+    <p>Để sử dụng tính năng này, bạn cần:</p>
     <ol>
-        <li>Install <span class="external">Tesseract</span> language data to your KOReader</li>
-        <li>Add newly installed languages to koreader/defaults.lua configuration file (necessary only if your language is other than English or Chinese)</li>
+        <li>Cài đặt dữ liệu ngôn ngữ <span class="external">Tesseract</span> vào KOReader của bạn</li>
+        <li>Thêm ngôn ngữ mới cài đặt vào tệp cấu hình koreader/defaults.lua (chỉ cần thiết nếu ngôn ngữ của bạn không phải là tiếng Anh hoặc tiếng Trung)</li>
     </ol>
     
-    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in our <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">related wiki page</a>.</div>
+    <div class="info"><span class="label_blue">THÔNG TIN</span> Các nút trên menu OCR <b>sẽ không hoạt động</b> cho đến khi bạn cài đặt các tệp Tesseract cần thiết. Chi tiết về quy trình này có thể được tìm thấy trong <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">trang wiki liên quan</a> của chúng tôi.</div>
 
 
 
@@ -3032,31 +3032,31 @@ line-height: 2rem;
 
 <!-- ANCHOR READING COMICS AND MANGA -->
 
-<div class="L1-Chapter-heading" id="L1-manga">READING COMICS AND MANGA</div>
+<div class="L1-Chapter-heading" id="L1-manga">ĐỌC TRUYỆN TRANH VÀ MANGA</div>
 
     <div class="L2-Sub-heading" id="L2-mangarefresh">Adjusting the page refresh interval</div>
 
-    <p>Comic books generally need more frequent page refreshes than the pure text content. For normal text, you can set your page refresh interval to high numbers without problem. But images can leave more residue and cause ghosting, especially depending on the panel of your e-reader.</p>
+    <p>Truyện tranh thường cần làm mới trang thường xuyên hơn so với nội dung văn bản thuần túy. Đối với văn bản thông thường, bạn có thể đặt khoảng thời gian làm mới trang ở mức cao mà không gặp vấn đề gì. Tuy nhiên, hình ảnh có thể để lại nhiều cặn bẩn hơn và gây ra hiện tượng bóng mờ, đặc biệt tùy thuộc vào bảng điều khiển của máy đọc sách điện tử.</p>
 
-    <p>KOReader allows you to assign any gesture to switch to different refresh rates. For example you can set <b>swipe up left edge</b> for <span class="ui">every page</span> refresh when reading comics and set <b>swipe down left edge</b> for <span class="ui">every x page</span> refresh for text only books. So when you open a comic, you can switch to more frequent refresh with a simple tap or swipe (or vice versa).</p>
+    <p>KOReader cho phép bạn chỉ định bất kỳ cử chỉ nào để chuyển đổi giữa các tốc độ làm mới khác nhau. Ví dụ: bạn có thể thiết lập <b>vuốt lên cạnh trái</b> để làm mới <span class="ui">mỗi trang</span> khi đọc truyện tranh và thiết lập <b>vuốt xuống cạnh trái</b> để làm mới <span class="ui">mỗi x trang</span> đối với sách chỉ có văn bản. Vì vậy, khi mở truyện tranh, bạn có thể chuyển sang chế độ làm mới thường xuyên hơn chỉ bằng một thao tác chạm hoặc vuốt đơn giản (hoặc ngược lại).</p>
         
-    <p>This action is under:</p>
+    <p>Hành động này nằm trong:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and Gestures / Gesture manager / Screen and lights section / Full screen refresh rate</div>
+    <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và Cử chỉ / Trình quản lý Cử chỉ / Phần Màn hình và Đèn / Tốc độ làm mới toàn màn hình</div>
 
 
 
-<div class="L2-Sub-heading" id="L2-panelzoom">Panel zoom feature</div>
+<div class="L2-Sub-heading" id="L2-panelzoom">Tính năng thu phóng bảng điều khiển</div>
     
-    <p>This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:</p>
+    <p>Tính năng này giúp việc đọc truyện tranh trên màn hình nhỏ dễ dàng hơn. Bạn có thể bật tính năng này khi đang đọc tài liệu <b>PDF, DJVU, CBZ hoặc CBT</b> thông qua:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Panel Zoom (manga/comic)</div>
+    <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Phóng to bảng điều khiển (manga/truyện tranh)</div>
 
-    <p>When this option is enabled, KOReader tries to find the boundaries of rectangular panels on the screen. If you long-press on a panel, KOReader zooms in and shows just that panel.</p>
+    <p>Khi tùy chọn này được bật, KOReader sẽ cố gắng tìm ranh giới của các ô hình chữ nhật trên màn hình. Nếu bạn nhấn và giữ một ô, KOReader sẽ phóng to và chỉ hiển thị ô đó.</p>
         
-    <p>As you can guess, this feature works best with comics that has clean panel boundaries. Also there is no <b>page turn</b> in this mode to jump to the next panel due to this boundary problem. You have to close the zoomed in panel and long-press on the next one. To do this, just <span class="ui">swipe down</span> this zoomed in panel. Also you can use any <span class="ui">multiswipe gesture</span> (any combination of up, down, left, right) to exit this view.</p>
+    <p>Như bạn có thể đoán, tính năng này hoạt động tốt nhất với truyện tranh có đường viền khung rõ ràng. Ngoài ra, do vấn đề về đường viền này, chế độ này không cho phép <b>lật trang</b> để chuyển sang khung tiếp theo. Bạn phải đóng khung đã phóng to và nhấn giữ vào khung tiếp theo. Để thực hiện việc này, chỉ cần <span class="ui">vuốt xuống</span> khung đã phóng to này. Bạn cũng có thể sử dụng bất kỳ <span class="ui">cử chỉ vuốt nhiều lần</span> nào (bất kỳ tổ hợp nào lên, xuống, trái, phải) để thoát khỏi chế độ xem này.</p>
         
-    <p>Procedure can be seen below:</p>
+    <p>Quy trình có thể được xem bên dưới:</p>
     
     <img loading="lazy" src="pictures/panel_zoom.png" style="width: 70%;">
     
@@ -3804,17 +3804,17 @@ line-height: 2rem;
                 <li>Duyệt tất cả các tiêu đề calibre</li>
                 <li>Kết nối không dây Calibre</li>
                 <li>Ngắt kết nối không dây Calibre</li>
-                <li>Reading statistics: toggle</li>
-                <li>Reading statistics: show progress</li>
-                <li>Reading statistics: show time range</li>
-                <li>Reading statistics: show calendar view</li>
-                <li>Reading statistics: show today's timeline</li>
+                <li>Đọc số liệu thống kê: chuyển đổi</li>
+                <li>Đọc số liệu thống kê: hiển thị tiến trình</li>
+                <li>Đọc số liệu thống kê: hiển thị phạm vi thời gian</li>
+                <li>Thống kê đọc: hiển thị chế độ xem lịch</li>
+                <li>Thống kê đọc: hiển thị dòng thời gian hôm nay</li>
                 <li>Reading statistics: synchronize</li>
                 <li>Text editor: open last file</li>
-                <li>Open vocabulary builder</li>
+                <li>Mở trình xây dựng từ vựng</li>
                 <li>Wallabag retrieval</li>
-                <li>Wallabag queue upload</li>
-                <li>Wallabag statuses upload</li>
+                <li>Tải lên hàng đợi Wallabag</li>
+                <li>Tải lên trạng thái Wallabag</li>
                 
                 <li>Exit screensaver</li>
                 <li>Bật/Tắt máy chủ SSH</li>
@@ -3991,7 +3991,7 @@ line-height: 2rem;
                 <li>Xuất chú thích</li>
                 <li>Xuất tất cả ghi chú trong sổ hiện tại</li>
                 <li>Export all notes in all books in history</li>
-                <li>Direction</li>
+                <li>Di chuyển sách hiện tại vào kho lưu trữ</li>
                 <li>Reading statistics: current book</li>
                 <li>Push progress from this device</li>
                 <li>Pull progress from other devices</li>
@@ -4415,7 +4415,7 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-profiles">Profiles</div>
+<div class="L2-Sub-heading" id="L2-profiles">Hồ sơ</div>
         <p>
         A profile is basically a collection of actions that can be triggered with a single gesture (like a macro).</p>
 
