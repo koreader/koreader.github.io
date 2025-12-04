@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-03 22:24+0200\n"
 "PO-Revision-Date: 2025-12-04 18:35+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: tran <tronghieu512@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/koreader/user-"
 "guide/vi/>\n"
 "Language: vi\n"
@@ -28,7 +28,7 @@ msgstr "Chuyển đến tiêu đề tiếp theo"
 
 #: user_guide/en.html%2Bhtml.body.button:755-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.button[title]:757-5
 msgid "Back to Table of Contents"
@@ -36,7 +36,7 @@ msgstr "Quay lại Mục lục"
 
 #: user_guide/en.html%2Bhtml.body.button:757-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:822-5
 msgid ""
@@ -572,9 +572,6 @@ msgid "Quick Menu tips"
 msgstr "Mẹo menu nhanh"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1044-13
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1044-13"
-#| msgid "Profiles"
 msgid "Profiles"
 msgstr "Hồ sơ"
 
@@ -7444,6 +7441,11 @@ msgid ""
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
 msgstr ""
+"Sự khác biệt phát sinh khi bạn cố gắng xóa hoặc xuất các điểm nổi bật của "
+"PDF. <b>Máy đọc sách điện tử</b> của bạn có thể xóa và xuất các điểm nổi bật "
+"này. Nhưng KOReader trên điện thoại thì không, vì như đã nói, nó không có "
+"thư mục <span class=\"ui\">.sdr</span> của sách, nên các điểm nổi bật trong "
+"sách trông giống như một phần của sách gốc."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3019-9
 msgid ""
@@ -7451,14 +7453,14 @@ msgid ""
 "later, you have to copy the <span class=\"ui\">.sdr folder</span> associated "
 "with your book when you backup or copy your book to other devices."
 msgstr ""
+"Tóm lại, nếu bạn muốn xóa hoặc xuất các điểm nổi bật trong PDF sau này, bạn "
+"phải sao chép <span class=\"ui\">.sdr</span> thư mục được liên kết với sách "
+"của mình khi bạn sao lưu hoặc sao chép sách sang các thiết bị khác."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3023-1
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1003-17"
-#| msgid "OCR (Optical Character Recognition)"
 msgctxt "user_guide/en.html:L2-ocr"
 msgid "OCR (Optical Character Recognition)"
-msgstr "Nhận dạng ký tự quang học"
+msgstr "OCR (Nhận dạng ký tự quang học)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3024-5
 msgid ""
@@ -7468,22 +7470,31 @@ msgid ""
 "github.com/tesseract-ocr/tessdoc\">Tesseract Open Source OCR Engine</a> for "
 "this task."
 msgstr ""
+"<b>OCR (Nhận dạng Ký tự Quang học)</b> là quá trình trích xuất văn bản từ "
+"hình ảnh. Trong ngữ cảnh KOReader, nó thường được sử dụng để trích xuất văn "
+"bản từ các trang sách được quét trong tệp PDF. KOReader sử dụng <a "
+"href=\"https://github.com/tesseract-ocr/tessdoc\">Công cụ OCR Nguồn Mở "
+"Tesseract</a> cho tác vụ này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3027-5
 msgid "To use this feature you need to:"
-msgstr ""
+msgstr "Để sử dụng tính năng này, bạn cần:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3029-9
 msgid ""
 "Install <span class=\"external\">Tesseract</span> language data to your "
 "KOReader"
 msgstr ""
+"Cài đặt dữ liệu ngôn ngữ <span class=\"external\">Tesseract</span> vào "
+"KOReader của bạn"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3030-9
 msgid ""
 "Add newly installed languages to koreader/defaults.lua configuration file "
 "(necessary only if your language is other than English or Chinese)"
 msgstr ""
+"Thêm ngôn ngữ mới cài đặt vào tệp cấu hình koreader/defaults.lua (chỉ cần "
+"thiết nếu ngôn ngữ của bạn không phải là tiếng Anh hoặc tiếng Trung)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3034-5
 msgid ""
@@ -7493,15 +7504,17 @@ msgid ""
 "koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
 "pages\">related wiki page</a>."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Các nút trên menu OCR <b>sẽ "
+"không hoạt động</b> cho đến khi bạn cài đặt các tệp Tesseract cần thiết. Chi "
+"tiết về quy trình này có thể được tìm thấy trong <a href=\"https://"
+"github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-"
+"scanned-pages\">trang wiki liên quan</a> của chúng tôi."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3042-1
 msgid "READING COMICS AND MANGA"
-msgstr ""
+msgstr "ĐỌC TRUYỆN TRANH VÀ MANGA"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3044-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1010-17"
-#| msgid "Adjusting the page refresh interval"
 msgctxt "user_guide/en.html:L2-mangarefresh"
 msgid "Adjusting the page refresh interval"
 msgstr "Điều chỉnh khoảng thời gian làm mới trang"
@@ -7513,6 +7526,11 @@ msgid ""
 "numbers without problem. But images can leave more residue and cause "
 "ghosting, especially depending on the panel of your e-reader."
 msgstr ""
+"Truyện tranh thường cần làm mới trang thường xuyên hơn so với nội dung văn "
+"bản thuần túy. Đối với văn bản thông thường, bạn có thể đặt khoảng thời gian "
+"làm mới trang ở mức cao mà không gặp vấn đề gì. Tuy nhiên, hình ảnh có thể "
+"để lại nhiều cặn bẩn hơn và gây ra hiện tượng bóng mờ, đặc biệt tùy thuộc "
+"vào bảng điều khiển của máy đọc sách điện tử."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3048-5
 msgid ""
@@ -7523,45 +7541,48 @@ msgid ""
 "text only books. So when you open a comic, you can switch to more frequent "
 "refresh with a simple tap or swipe (or vice versa)."
 msgstr ""
+"KOReader cho phép bạn chỉ định bất kỳ cử chỉ nào để chuyển đổi giữa các tốc "
+"độ làm mới khác nhau. Ví dụ: bạn có thể thiết lập <b>vuốt lên cạnh trái</b> "
+"để làm mới <span class=\"ui\">mỗi trang</span> khi đọc truyện tranh và thiết "
+"lập <b>vuốt xuống cạnh trái</b> để làm mới <span class=\"ui\">mỗi x trang</"
+"span> đối với sách chỉ có văn bản. Vì vậy, khi mở truyện tranh, bạn có thể "
+"chuyển sang chế độ làm mới thường xuyên hơn chỉ bằng một thao tác chạm hoặc "
+"vuốt đơn giản (hoặc ngược lại)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3050-5
 msgid "This action is under:"
-msgstr ""
+msgstr "Hành động này nằm trong:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3052-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
 "lights section / Full screen refresh rate"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"MENU CHÍNH / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Chạm và Cử chỉ / Trình quản lý Cử chỉ / Phần Màn "
+"hình và Đèn / Tốc độ làm mới toàn màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3056-1
-#, fuzzy
 msgid "Panel zoom feature"
-msgstr "Render quality"
+msgstr "Tính năng thu phóng bảng điều khiển"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3058-5
 msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
 msgstr ""
+"Tính năng này giúp việc đọc truyện tranh trên màn hình nhỏ dễ dàng hơn. Bạn "
+"có thể bật tính năng này khi đang đọc tài liệu <b>PDF, DJVU, CBZ hoặc CBT</"
+"b> thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3060-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Panel Zoom (manga/comic)"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"MENU CHÍNH / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Phóng to bảng điều khiển (manga/truyện tranh)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3062-5
 msgid ""
@@ -7569,6 +7590,9 @@ msgid ""
 "rectangular panels on the screen. If you long-press on a panel, KOReader "
 "zooms in and shows just that panel."
 msgstr ""
+"Khi tùy chọn này được bật, KOReader sẽ cố gắng tìm ranh giới của các ô hình "
+"chữ nhật trên màn hình. Nếu bạn nhấn và giữ một ô, KOReader sẽ phóng to và "
+"chỉ hiển thị ô đó."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3064-5
 msgid ""
@@ -7580,10 +7604,17 @@ msgid ""
 "<span class=\"ui\">multiswipe gesture</span> (any combination of up, down, "
 "left, right) to exit this view."
 msgstr ""
+"Như bạn có thể đoán, tính năng này hoạt động tốt nhất với truyện tranh có "
+"đường viền khung rõ ràng. Ngoài ra, do vấn đề về đường viền này, chế độ này "
+"không cho phép <b>lật trang</b> để chuyển sang khung tiếp theo. Bạn phải "
+"đóng khung đã phóng to và nhấn giữ vào khung tiếp theo. Để thực hiện việc "
+"này, chỉ cần <span class=\"ui\">vuốt xuống</span> khung đã phóng to này. Bạn "
+"cũng có thể sử dụng bất kỳ <span class=\"ui\">cử chỉ vuốt nhiều lần</span> "
+"nào (bất kỳ tổ hợp nào lên, xuống, trái, phải) để thoát khỏi chế độ xem này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3066-5
 msgid "Procedure can be seen below:"
-msgstr ""
+msgstr "Quy trình có thể được xem bên dưới:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3070-5
 msgid ""
@@ -9737,26 +9768,23 @@ msgstr "Ngắt kết nối không dây Calibre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3818-17
 msgid "Reading statistics: toggle"
-msgstr ""
+msgstr "Đọc số liệu thống kê: chuyển đổi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3819-17
-#, fuzzy
 msgid "Reading statistics: show progress"
-msgstr "Exit screensaver"
+msgstr "Đọc số liệu thống kê: hiển thị tiến trình"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3820-17
 msgid "Reading statistics: show time range"
-msgstr ""
+msgstr "Đọc số liệu thống kê: hiển thị phạm vi thời gian"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3821-17
-#, fuzzy
 msgid "Reading statistics: show calendar view"
-msgstr "Toggle accelerometer"
+msgstr "Thống kê đọc: hiển thị chế độ xem lịch"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3822-17
-#, fuzzy
 msgid "Reading statistics: show today's timeline"
-msgstr "Rotation"
+msgstr "Thống kê đọc: hiển thị dòng thời gian hôm nay"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3823-17
 msgid "Reading statistics: synchronize"
@@ -9768,7 +9796,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3825-17
 msgid "Open vocabulary builder"
-msgstr ""
+msgstr "Mở trình xây dựng từ vựng"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3826-17
 #, fuzzy
@@ -9777,11 +9805,11 @@ msgstr "Truy xuất wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3827-17
 msgid "Wallabag queue upload"
-msgstr ""
+msgstr "Tải lên hàng đợi Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3828-17
 msgid "Wallabag statuses upload"
-msgstr ""
+msgstr "Tải lên trạng thái Wallabag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3830-17
 msgid "Reading progress"
@@ -10439,7 +10467,7 @@ msgstr "Xuất tất cả ghi chú trong tất cả các cuốn sách trong lị
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
 msgid "Move current book to archive"
-msgstr "Direction"
+msgstr "Di chuyển sách hiện tại vào kho lưu trữ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 msgid "Reading statistics: current book"
