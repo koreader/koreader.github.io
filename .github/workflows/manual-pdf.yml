@@ -1,8 +1,35 @@
 name: Manual to PDF
 on: [pull_request, push]
 jobs:
-  convert:
+  discover:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Discover language HTML files
+        id: langs
+        run: |
+          set -euo pipefail
+          # Find language-specific HTML files (exclude index.html) and emit single-line JSON array of langs
+          langs_json="$(
+            find user_guide -maxdepth 1 -name '*.html' ! -name 'index.html' -print0 \
+              | xargs -0 -n1 -I{} bash -lc 'basename "{}" .html' \
+              | jq -R . | jq -s -c .
+          )"
+          echo "Found languages: ${langs_json}"
+          printf 'langs=%s\n' "$langs_json" >> "$GITHUB_OUTPUT"
+
+    outputs:
+      langs: ${{ steps.langs.outputs.langs }}
+
+  convert:
+    needs: discover
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: ${{ fromJSON(needs.discover.outputs.langs) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -14,10 +41,15 @@ jobs:
           version: 1.0
 
       - name: Convert HTML to PDF
-        run: weasyprint --full-fonts user_guide/index.html koreader_user_guide.pdf
+        run: |
+          set -euo pipefail
+          f="user_guide/${{ matrix.lang }}.html"
+          out="koreader_user_guide_${{ matrix.lang }}.pdf"
+          echo "Converting $f -> $out"
+          weasyprint --full-fonts "$f" "$out"
 
       - name: Upload
         uses: actions/upload-artifact@v5
         with:
-          name: KOReader Manual PDF
-          path: koreader_user_guide.pdf
+          name: KOReader Manual PDF - ${{ matrix.lang }}
+          path: koreader_user_guide_${{ matrix.lang }}.pdf
