@@ -7,10 +7,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Install WeasyPrint
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y weasyprint
+      - name: Install WeasyPrint (cached)
+        uses: awalsh128/cache-apt-pkgs-action@v1
+        with:
+          packages: weasyprint
+          version: 1.0
 
       - name: Convert HTML to PDF
         run: weasyprint --full-fonts user_guide/index.html koreader_user_guide.pdf
