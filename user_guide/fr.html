@@ -2351,16 +2351,16 @@ line-height: 2rem;
     
     <p>Voyons cela à l'aide d'un exemple <span class="ui">modification de style</span> :</p>
 
-    <p><b><span class="label_blue">img { largeur : 10px !important ; hauteur : 10px !important }</span></b></p>
+    <p><b><span class="label_blue" data-translate-ignore>img { largeur : 10px !important ; hauteur : 10px !important }</span></b></p>
     <p>En langage clair, cette règle dit : <b>« Ignorez leur taille d'origine et donnez à toutes les images de ce livre une largeur et une hauteur de 10 pixels. »</b> Ainsi, si vous ajoutez cette modification de style à KOReader, toutes les images de votre livre s'afficheront en petit format.</p>
 
     <p>Expliquons maintenant cette modification point par point :</p>
 
     <ul>
-        <li><span class="ui">img</span> - Il s'agit d'un sélecteur CSS qui cible tous les éléments <b>img</b> (image) du livre.</li>
-        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - Il s'agit du bloc de déclaration. Il contient les styles qui seront appliqués aux éléments <b>img</b> sélectionnés.</li>
-        <li><span class="ui">width: 10px !important;</span> - Cette première partie définit la largeur des éléments <b>img</b> ciblés à 10 pixels. La déclaration <b>!important</b> est un commutateur de remplacement qui garantit que votre valeur de largeur a priorité sur toute autre déclaration <b>width</b> existante appliquée à ces images.</li>
-        <li><span class="ui">height: 10px !important;</span> - Cette partie définit la hauteur des éléments <b>img</b> ciblés à 10 pixels. Là encore, la déclaration <b>!important</b> est un commutateur de remplacement qui garantit que votre valeur de hauteur prévaut sur toute autre déclaration <b>height</b> existante appliquée à ces images.</li>
+        <li><span class="ui" data-translate-ignore>img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
+        <li><span class="ui" data-translate-ignore>{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class="ui" data-translate-ignore>width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
+        <li><span class="ui" data-translate-ignore>height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
     </ul>
 
     <p>En résumé, cette règle CSS est conçue pour définir une <b>largeur et une hauteur fixes de 10 pixels</b> pour tous les éléments <b>img</b> de votre livre, <b>en ignorant leur style d'origine</b>.</p>
@@ -2372,34 +2372,25 @@ line-height: 2rem;
     <p>Voici quelques modifications de style utiles que vous pouvez utiliser directement ou modifier selon vos préférences. La rubrique suivante explique comment les utiliser dans KOReader.</p>
         
         <ul>
-            <li><b>Ajouter une ligne de séparation au-dessus de chaque titre dans un livre :</b>
-                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            <li><b>Add a separator line above each heading in a book:</b> <p data-translate-ignore>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Ajoutez une marge au-dessus des titres :</b>
-                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+            <li><b>Add some margin above the headings:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Ou si le livre comporte trop de marges au-dessus des titres, supprimez-les :</b>
-                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            <li><b>Or if the book have too much margin above the headings, remove them:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Ajoutez un petit espace entre les paragraphes pour rendre le texte plus lisible :</b>
-                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+            <li><b>Add a small gap between paragraphs to make the text more readable:</b> <p data-translate-ignore>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Désactiver toutes les images dans un EPUB :</b>
-                <p>img { affichage : none !important ; }</p>
+            <li><b>Disable all images in an EPUB:</b> <p data-translate-ignore>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Réduisez la taille des images au lieu de les désactiver :</b>
-                <p>img { largeur : 10px !important ; hauteur : 10px !important }</p>
+                <b>Make images very small instead of disabling them:</b> <p data-translate-ignore>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Rendez les sections de code dans les livres d'informatique plus claires et plus lisibles (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Vous pouvez voir un exemple ici</a>) :</b>
-                <p>
-                        pre,code { taille de police : 0,6em !important ; hauteur de ligne : 1,8em !important ; couleur d'arrière-plan : #eee !important ; marge : 1em 0 !important ; remplissage : 1em 0 !important ; }
-                </p>
+                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b> <p data-translate-ignore> pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; } </p>
             </li>
         </ul>
 

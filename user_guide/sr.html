@@ -2351,16 +2351,16 @@ line-height: 2rem;
     
     <p>Хајде да ово видимо на примеру <span class="ui">дотеривања стила</span>:</p>
 
-    <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p><b><span class="label_blue" data-translate-ignore>img { width: 10px !important; height: 10px !important }</span></b></p>
     <p>Простим језиком, ово правило каже: <b>„Игнориши њихову оригиналну величину и учини све слике у овој књизи 10 пиксела широке и 10 пиксела високе.”</b> Дакле, ако у KOReader додате ово дотеривање стила, све слике у вашој књизи ће се приказивати малецке.</p>
 
     <p>Хајде сада да ово дотеривање објаснимо ставку по ставку:</p>
 
     <ul>
-        <li><span class="ui">img</span> - Ово је CSS селектор који циља на све <b>img</b> (image–слика) елементе у књизи.</li>
-        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - Ово је декларација блока. Садржи стилове који ће се применити на изабране <b>img</b> елементе.</li>
-        <li><span class="ui">width: 10px !important;</span> - Овај први део поставља ширину циљаних <b>img</b> елемената на 10 пиксела. Декларација <b>!important</b> је прекидач за преиначавање који обезбеђује да ваша вредност ширине има предност над било којим постојећим <b>width</b> декларацијама примењеним на ове слике.</li>
-        <li><span class="ui">height: 10px !important;</span> - Овај део поставља висину циљаних <b>img</b> елемената на 10 пиксела. Поново, декларација <b>!important</b> је прекидач за преиначавање који обезбеђује да ваша вредност висине има предност над било којим постојећим <b>height</b> декларацијама примењеним на ове слике.</li>
+        <li><span class="ui" data-translate-ignore>img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
+        <li><span class="ui" data-translate-ignore>{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class="ui" data-translate-ignore>width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
+        <li><span class="ui" data-translate-ignore>height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
     </ul>
 
     <p>Укратко, ово CSS правило је дизајнирано тако да постави <b>фиксну ширину и висину од 10 пиксела</b> свим <b>img</b> елементима у вашој књизи, <b>игноришући њихов оригинални стил</b>.</p>
@@ -2372,34 +2372,25 @@ line-height: 2rem;
     <p>Ово су нека корисна дотеривања стила која можете да употребите директно или да их измените по својој жељи. Наредни наслов вам објашњава како да их користите у KOReader читачу.</p>
         
         <ul>
-            <li><b>Додавање граничне линије изнад сваког наслова у књизи:</b>
-                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            <li><b>Add a separator line above each heading in a book:</b> <p data-translate-ignore>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Додавање мало маргине изнад наслова:</b>
-                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+            <li><b>Add some margin above the headings:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Или ако књига има превелике маргине изнад наслова, уклањају се:</b>
-                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            <li><b>Or if the book have too much margin above the headings, remove them:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Додавање малог размака између пасуса да би се текст лакше читао:</b>
-                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+            <li><b>Add a small gap between paragraphs to make the text more readable:</b> <p data-translate-ignore>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Искључивање свих слика у EPUB:</b>
-                <p>img { display: none !important; }</p>
+            <li><b>Disable all images in an EPUB:</b> <p data-translate-ignore>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Уместо да се искључе, слике се приказују у врло малим димензијама:</b>
-                <p>img { width: 10px !important; height: 10px !important }</p>
+                <b>Make images very small instead of disabling them:</b> <p data-translate-ignore>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Одељци блокова кода у књигама из компјутерске науке постају чистији и читљивији (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Овде можете видети пример</a>):</b>
-                <p>
-                        pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
-                </p>
+                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b> <p data-translate-ignore> pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; } </p>
             </li>
         </ul>
 
