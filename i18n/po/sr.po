@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-07 10:31+0000\n"
+"POT-Creation-Date: 2025-12-07 10:39+0000\n"
 "PO-Revision-Date: 2025-12-04 18:35+0000\n"
 "Last-Translator: eevan78 <ivan.pesic@gmail.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
@@ -5161,7 +5161,9 @@ msgstr ""
 "Хајде да ово видимо на примеру <span class=\"ui\">дотеривања стила</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
-msgctxt "user_guide/en.html+html.body.div.p:2354-5"
+#, fuzzy
+#| msgctxt "user_guide/en.html+html.body.div.p:2354-5"
+#| msgid "img { width: 10px !important; height: 10px !important }"
 msgid "img { width: 10px !important; height: 10px !important }"
 msgstr "img { width: 10px !important; height: 10px !important }"
 
@@ -5182,30 +5184,46 @@ msgid "Now lets explain this tweak item by item:"
 msgstr "Хајде сада да ово дотеривање објаснимо ставку по ставку:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2360-9
+#, fuzzy
+#| msgid ""
+#| "<span class=\"ui\">img</span> - This is a CSS selector that targets all "
+#| "<b>img</b> (image) elements in the book."
 msgid ""
-"<span class=\"ui\">img</span> - This is a CSS selector that targets all "
-"<b>img</b> (image) elements in the book."
+"<span class=\"ui\" data-translate-ignore>img</span> - This is a CSS selector "
+"that targets all <b>img</b> (image) elements in the book."
 msgstr ""
 "<span class=\"ui\">img</span> - Ово је CSS селектор који циља на све <b>img</"
 "b> (image–слика) елементе у књизи."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2361-9
+#, fuzzy
+#| msgid ""
+#| "<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
+#| "span> - This is the declaration block. It contains the styles which will "
+#| "be applied to the selected <b>img</b> elements."
 msgid ""
-"<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
-"span> - This is the declaration block. It contains the styles which will be "
-"applied to the selected <b>img</b> elements."
+"<span class=\"ui\" data-translate-ignore>{ width: 10px !important; height: "
+"10px !important; }</span> - This is the declaration block. It contains the "
+"styles which will be applied to the selected <b>img</b> elements."
 msgstr ""
 "<span class=\"ui\">{ width: 10px !important; height: 10px !important; }</"
 "span> - Ово је декларација блока. Садржи стилове који ће се применити на "
 "изабране <b>img</b> елементе."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2362-9
+#, fuzzy
+#| msgid ""
+#| "<span class=\"ui\">width: 10px !important;</span> - This first part sets "
+#| "the width of the targeted <b>img</b> elements to 10 pixels. The <b>!"
+#| "important</b> declaration is an override switch which ensures that your "
+#| "width value takes precedence over any other existing <b>width</b> "
+#| "declaration applied to these images."
 msgid ""
-"<span class=\"ui\">width: 10px !important;</span> - This first part sets the "
-"width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</"
-"b> declaration is an override switch which ensures that your width value "
-"takes precedence over any other existing <b>width</b> declaration applied to "
-"these images."
+"<span class=\"ui\" data-translate-ignore>width: 10px !important;</span> - "
+"This first part sets the width of the targeted <b>img</b> elements to 10 "
+"pixels. The <b>!important</b> declaration is an override switch which "
+"ensures that your width value takes precedence over any other existing "
+"<b>width</b> declaration applied to these images."
 msgstr ""
 "<span class=\"ui\">width: 10px !important;</span> - Овај први део поставља "
 "ширину циљаних <b>img</b> елемената на 10 пиксела. Декларација <b>!"
@@ -5214,12 +5232,19 @@ msgstr ""
 "примењеним на ове слике."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2363-9
+#, fuzzy
+#| msgid ""
+#| "<span class=\"ui\">height: 10px !important;</span> - This part sets the "
+#| "height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!"
+#| "important</b> declaration is an override switch which ensures that your "
+#| "height value takes precedence over any other existing <b>height</b> "
+#| "declaration applied to these images."
 msgid ""
-"<span class=\"ui\">height: 10px !important;</span> - This part sets the "
-"height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!"
-"important</b> declaration is an override switch which ensures that your "
-"height value takes precedence over any other existing <b>height</b> "
-"declaration applied to these images."
+"<span class=\"ui\" data-translate-ignore>height: 10px !important;</span> - "
+"This part sets the height of the targeted <b>img</b> elements to 10 pixels. "
+"Again, the <b>!important</b> declaration is an override switch which ensures "
+"that your height value takes precedence over any other existing <b>height</"
+"b> declaration applied to these images."
 msgstr ""
 "<span class=\"ui\">height: 10px !important;</span> - Овај део поставља "
 "висину циљаних <b>img</b> елемената на 10 пиксела. Поново, декларација <b>!"
@@ -5251,75 +5276,61 @@ msgstr ""
 "користите у KOReader читачу."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2375-13
-msgid "Add a separator line above each heading in a book:"
-msgstr "Додавање граничне линије изнад сваког наслова у књизи:"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2376-17
-msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
-msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
+msgid ""
+"<b>Add a separator line above each heading in a book:</b> <p data-translate-"
+"ignore>H1, H2, H3, H4 { border-top: 2px solid black; }</p>"
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2379-13
-msgid "Add some margin above the headings:"
-msgstr "Додавање мало маргине изнад наслова:"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2380-17
-msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
+msgid ""
+"<b>Add some margin above the headings:</b> <p data-translate-ignore>H1, H2, "
+"H3, H4 { margin-top: 2em !important; }</p>"
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2382-13
-msgid "Or if the book have too much margin above the headings, remove them:"
+#, fuzzy
+#| msgid "Or if the book have too much margin above the headings, remove them:"
+msgid ""
+"<b>Or if the book have too much margin above the headings, remove them:</b> "
+"<p data-translate-ignore>H1, H2, H3, H4 { margin-top: 0 !important; }</p>"
 msgstr "Или ако књига има превелике маргине изнад наслова, уклањају се:"
 
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2383-17
-msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
-msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
-
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2386-13
-msgid "Add a small gap between paragraphs to make the text more readable:"
-msgstr "Додавање малог размака између пасуса да би се текст лакше читао:"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2387-17
 msgid ""
-"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
+"<b>Add a small gap between paragraphs to make the text more readable:</b> <p "
+"data-translate-ignore>p + p { margin-top: 0.5em !important; margin-bottom: "
+"0.5em !important; }</p>"
 msgstr ""
-"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2389-13
-msgid "Disable all images in an EPUB:"
-msgstr "Искључивање свих слика у EPUB:"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2390-17
-msgid "img { display: none !important; }"
-msgstr "img { display: none !important; }"
+msgid ""
+"<b>Disable all images in an EPUB:</b> <p data-translate-ignore>img "
+"{ display: none !important; }</p>"
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2393-13
-msgid "Make images very small instead of disabling them:"
-msgstr "Уместо да се искључе, слике се приказују у врло малим димензијама:"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2395-17
-msgctxt "user_guide/en.html+html.body.div.ul.li.p:2395-17"
-msgid "img { width: 10px !important; height: 10px !important }"
-msgstr "img { width: 10px !important; height: 10px !important }"
+msgid ""
+"<b>Make images very small instead of disabling them:</b> <p data-translate-"
+"ignore>img { width: 10px !important; height: 10px !important }</p>"
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2398-13
+#, fuzzy
+#| msgid ""
+#| "Make the code block sections in computer science books tidier and more "
+#| "readable (<a href=\"https://github.com/koreader/koreader/issues/"
+#| "9261#issuecomment-2508866126\">Here you can see an example</a>):"
 msgid ""
-"Make the code block sections in computer science books tidier and more "
+"<b>Make the code block sections in computer science books tidier and more "
 "readable (<a href=\"https://github.com/koreader/koreader/issues/"
-"9261#issuecomment-2508866126\">Here you can see an example</a>):"
+"9261#issuecomment-2508866126\">Here you can see an example</a>):</b> <p data-"
+"translate-ignore> pre,code { font-size: 0.6em !important; line-height: "
+"1.8em !important; background-color: #eee !important; margin: 1em 0 !"
+"important; padding: 1em 0 !important; } </p>"
 msgstr ""
 "Одељци блокова кода у књигама из компјутерске науке постају чистији и "
 "читљивији (<a href=\"https://github.com/koreader/koreader/issues/"
 "9261#issuecomment-2508866126\">Овде можете видети пример</a>):"
-
-#: user_guide/en.html%2Bhtml.body.div.ul.li.p:2400-17
-msgid ""
-"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
-"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
-"important; }"
-msgstr ""
-"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
-"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
-"important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2414-5
 msgid "How to add style tweaks"
@@ -14511,6 +14522,51 @@ msgid ""
 msgstr ""
 ". . .да подржите пројекат преко <a href=\"https://liberapay.com/"
 "KOReader\">Liberapay</a>"
+
+#~ msgid "Add a separator line above each heading in a book:"
+#~ msgstr "Додавање граничне линије изнад сваког наслова у књизи:"
+
+#~ msgid "H1, H2, H3, H4 { border-top: 2px solid black; }"
+#~ msgstr "H1, H2, H3, H4 { border-top: 2px solid black; }"
+
+#~ msgid "Add some margin above the headings:"
+#~ msgstr "Додавање мало маргине изнад наслова:"
+
+#~ msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
+#~ msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
+
+#~ msgid "H1, H2, H3, H4 { margin-top: 0 !important; }"
+#~ msgstr "H1, H2, H3, H4 { margin-top: 0 !important; }"
+
+#~ msgid "Add a small gap between paragraphs to make the text more readable:"
+#~ msgstr "Додавање малог размака између пасуса да би се текст лакше читао:"
+
+#~ msgid ""
+#~ "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
+#~ msgstr ""
+#~ "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
+
+#~ msgid "Disable all images in an EPUB:"
+#~ msgstr "Искључивање свих слика у EPUB:"
+
+#~ msgid "img { display: none !important; }"
+#~ msgstr "img { display: none !important; }"
+
+#~ msgid "Make images very small instead of disabling them:"
+#~ msgstr "Уместо да се искључе, слике се приказују у врло малим димензијама:"
+
+#~ msgctxt "user_guide/en.html+html.body.div.ul.li.p:2395-17"
+#~ msgid "img { width: 10px !important; height: 10px !important }"
+#~ msgstr "img { width: 10px !important; height: 10px !important }"
+
+#~ msgid ""
+#~ "pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+#~ "background-color: #eee !important; margin: 1em 0 !important; padding: 1em "
+#~ "0 !important; }"
+#~ msgstr ""
+#~ "pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+#~ "background-color: #eee !important; margin: 1em 0 !important; padding: 1em "
+#~ "0 !important; }"
 
 #~ msgctxt "user_guide/en.html+html.body.div.div.ol.li:4033-17"
 #~ msgid "Font size"
