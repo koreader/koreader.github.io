@@ -2351,16 +2351,16 @@ line-height: 2rem;
     
     <p>Let's see this on an example <span class="ui">style tweak</span>:</p>
 
-    <p><b><span class="label_blue" data-translate-ignore>img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
     <p>In plain language this rule says: <b>"Ignore their original size and make all the images in this book 10 pixels wide and 10 pixels high."</b> So if you add this style tweak to KOReader, all the images in your book will be shown tiny.</p>
 
     <p>Now lets explain this tweak item by item:</p>
 
     <ul>
-        <li><span class="ui" data-translate-ignore>img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
-        <li><span class="ui" data-translate-ignore>{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
-        <li><span class="ui" data-translate-ignore>width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
-        <li><span class="ui" data-translate-ignore>height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
+        <li><span class="ui">img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
+        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class="ui">width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
+        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
     </ul>
 
     <p>In summary, this CSS rule is designed to set a <b>fixed width and height of 10 pixels</b> for all <b>img</b> elements in your book, <b>ignoring their original style</b>.</p>
@@ -2372,25 +2372,34 @@ line-height: 2rem;
     <p>These are some useful style tweaks that you can use directly or modify according to your liking. Next heading explains how to use them in KOReader.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b> <p data-translate-ignore>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            <li><b>Add a separator line above each heading in a book:</b>
+                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+            <li><b>Add some margin above the headings:</b>
+                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b> <p data-translate-ignore>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b> <p data-translate-ignore>img { display: none !important; }</p>
+            <li><b>Disable all images in an EPUB:</b>
+                <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b> <p data-translate-ignore>img { width: 10px !important; height: 10px !important }</p>
+                <b>Make images very small instead of disabling them:</b>
+                <p>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b> <p data-translate-ignore> pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; } </p>
+                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <p>
+                        pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
+                </p>
             </li>
         </ul>
 

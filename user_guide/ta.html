@@ -2351,16 +2351,16 @@ line-height: 2rem;
     
     <p>இதை ஒரு எடுத்துக்காட்டு <span class="Ui"> பாணி ட்யூக் </span>:</p>
 
-    <p><b><span class="label_blue" data-translate-ignore>img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
     <p>எளிய மொழியில் இந்த விதி கூறுகிறது: <b> "அவற்றின் அசல் அளவைப் புறக்கணித்து, இந்த புத்தகத்தில் உள்ள அனைத்து படங்களையும் 10 படப்புள்ளிகள் அகலமாகவும் 10 படப்புள்ளிகள் உயரமாகவும் செய்யுங்கள்." </B> எனவே இந்த பாணி மாற்றத்தை கொரியடருடன் சேர்த்தால், உங்கள் புத்தகத்தில் உள்ள அனைத்து படங்களும் சிறியதாகக் காட்டப்படும்.</p>
 
     <p>இப்போது இந்த மாற்ற உருப்படியை உருப்படி மூலம் விளக்கலாம்:</p>
 
     <ul>
-        <li><span class="ui" data-translate-ignore>img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
-        <li><span class="ui" data-translate-ignore>{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
-        <li><span class="ui" data-translate-ignore>width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
-        <li><span class="ui" data-translate-ignore>height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
+        <li><span class="ui">img</span> - This is a CSS selector that targets all <b>img</b> (image) elements in the book.</li>
+        <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - This is the declaration block. It contains the styles which will be applied to the selected <b>img</b> elements.</li>
+        <li><span class="ui">width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
+        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
     </ul>
 
     <p>சுருக்கமாக, இந்த சிஎச்எச் விதி <b> நிலையான அகலம் மற்றும் 10 படப்புள்ளிகள் </b> இன் உயரத்தை அமைக்க வடிவமைக்கப்பட்டுள்ளது </b> உங்கள் புத்தகத்தில் உள்ள அனைத்து <b> img </b> கூறுகளும், <b> அவற்றின் அசல் பாணியை புறக்கணித்து </b>.</p>
@@ -2372,25 +2372,34 @@ line-height: 2rem;
     <p>இவை சில பயனுள்ள பாணி மாற்றங்கள், அவை உங்கள் விருப்பப்படி நீங்கள் நேரடியாகப் பயன்படுத்தலாம் அல்லது மாற்றலாம். அடுத்த தலைப்பு அவற்றை கொரியாடரில் எவ்வாறு பயன்படுத்துவது என்பதை விளக்குகிறது.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b> <p data-translate-ignore>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            <li><b>Add a separator line above each heading in a book:</b>
+                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+            <li><b>Add some margin above the headings:</b>
+                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b> <p data-translate-ignore>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b> <p data-translate-ignore>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b> <p data-translate-ignore>img { display: none !important; }</p>
+            <li><b>Disable all images in an EPUB:</b>
+                <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b> <p data-translate-ignore>img { width: 10px !important; height: 10px !important }</p>
+                <b>Make images very small instead of disabling them:</b>
+                <p>img { width: 10px !important; height: 10px !important }</p>
             </li>
 
             <li>
-                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b> <p data-translate-ignore> pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; } </p>
+                <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
+                <p>
+                        pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
+                </p>
             </li>
         </ul>
 
