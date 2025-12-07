@@ -2351,7 +2351,7 @@ line-height: 2rem;
     
     <p>Chúng ta hãy xem xét ví dụ về <span class="ui">điều chỉnh kiểu</span>:</p>
 
-    <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p><b><span class="label_blue">img { chiều rộng: 10px !quan trọng; chiều cao: 10px !quan trọng }</span></b></p>
     <p>Nói một cách đơn giản, quy tắc này có nghĩa là: <b>"Bỏ qua kích thước gốc và làm cho tất cả hình ảnh trong cuốn sách này rộng 10 pixel và cao 10 pixel."</b> Vì vậy, nếu bạn thêm điều chỉnh kiểu này vào KOReader, tất cả hình ảnh trong sách của bạn sẽ được hiển thị ở dạng nhỏ.</p>
 
     <p>Bây giờ chúng ta hãy giải thích từng mục tinh chỉnh này:</p>
@@ -2372,33 +2372,33 @@ line-height: 2rem;
     <p>Đây là một số tùy chỉnh hữu ích về kiểu dáng mà bạn có thể sử dụng trực tiếp hoặc chỉnh sửa theo ý thích. Tiêu đề tiếp theo sẽ giải thích cách sử dụng chúng trong KOReader.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b>
-                <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
+            <li><b>Thêm một dòng phân cách phía trên mỗi tiêu đề trong một cuốn sách:</b>
+                <p>H1, H2, H3, H4 { border-top: 2px solid black; } /* Viền trên: 2px nét liền màu đen */</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b>
-                <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
+            <li><b>Thêm một chút lề phía trên tiêu đề:</b>
+                <p>H1, H2, H3, H4 { margin-top: 2em !important; } /* Khoảng cách trên: 2em !important */</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b>
-                <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
+            <li><b>Or if the book has too much margin above the headings, remove them:</b>
+                <p>H1, H2, H3, H4 { margin-top: 0 !important; } /* Khoảng cách trên: 0 !important */</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
-                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
+            <li><b>Thêm một khoảng cách nhỏ giữa các đoạn văn để làm cho văn bản dễ đọc hơn:</b>
+                <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; } /* Đoạn văn liền kề: khoảng cách trên 0.5em !important; khoảng cách dưới 0.5em !important */</p></li>
 
-            <li><b>Disable all images in an EPUB:</b>
-                <p>img { display: none !important; }</p>
+            <li><b>Vô hiệu hóa tất cả hình ảnh trong EPUB:</b>
+                <p>img { display: none !important; } /* Ẩn toàn bộ hình ảnh: !important */</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b>
-                <p>img { width: 10px !important; height: 10px !important }</p>
+                <b>Làm cho hình ảnh rất nhỏ thay vì vô hiệu hóa chúng:</b>
+                <p>img { chiều rộng: 10px !quan trọng; chiều cao: 10px !quan trọng }</p>
             </li>
 
             <li>
                 <b>Make the code block sections in computer science books tidier and more readable (<a href="https://github.com/koreader/koreader/issues/9261#issuecomment-2508866126">Here you can see an example</a>):</b>
                 <p>
-                        pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; }
+                        pre,code { font-size: 0.6em !important; line-height: 1.8em !important; background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !important; } /* Khối mã: cỡ chữ 0.6em !important; chiều cao dòng 1.8em !important; màu nền #eee !important; lề 1em 0 !important; khoảng đệm 1em 0 !important */
                 </p>
             </li>
         </ul>

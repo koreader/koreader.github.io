@@ -2351,7 +2351,7 @@ line-height: 2rem;
     
     <p>Veamos esto en un ejemplo de <span class="ui">ajuste de estilo</span>:</p>
 
-    <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
+    <p><b><span class="label_blue">img { anchura: 10px !importante; altura: 10px !importante }</span></b></p>
     <p>En lenguaje sencillo, esta regla dice: <b>"Ignore su tamaño original y haga que todas las imágenes de este libro tengan 10 píxeles de ancho y 10 píxeles de alto".</b> Entonces, si agrega este ajuste de estilo a KOReader, todas las imágenes de su libro se mostrarán pequeñas.</p>
 
     <p>Ahora vamos a explicar este ajuste elemento por elemento:</p>
@@ -2372,27 +2372,27 @@ line-height: 2rem;
     <p>Estos son algunos ajustes de estilo útiles que puedes usar directamente o modificar a tu gusto. El siguiente apartado explica cómo usarlos en KOReader.</p>
         
         <ul>
-            <li><b>Add a separator line above each heading in a book:</b>
+            <li><b>Agregue una línea separadora encima de cada encabezado de un libro:</b>
                 <p>H1, H2, H3, H4 { border-top: 2px solid black; }</p>
             </li>
 
-            <li><b>Add some margin above the headings:</b>
+            <li><b>Añade un poco de margen encima de los encabezados:</b>
                 <p>H1, H2, H3, H4 { margin-top: 2em !important; }</p></li>
 
-            <li><b>Or if the book have too much margin above the headings, remove them:</b>
+            <li><b>Or if the book has too much margin above the headings, remove them:</b>
                 <p>H1, H2, H3, H4 { margin-top: 0 !important; }</p>
             </li>
 
-            <li><b>Add a small gap between paragraphs to make the text more readable:</b>
+            <li><b>Añade un pequeño espacio entre párrafos para que el texto sea más legible:</b>
                 <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }</p></li>
 
-            <li><b>Disable all images in an EPUB:</b>
+            <li><b>Deshabilitar todas las imágenes en un EPUB:</b>
                 <p>img { display: none !important; }</p>
             </li>
 
             <li>
-                <b>Make images very small instead of disabling them:</b>
-                <p>img { width: 10px !important; height: 10px !important }</p>
+                <b>Haga que las imágenes sean muy pequeñas en lugar de deshabilitarlas:</b>
+                <p>img { anchura: 10px !importante; altura: 10px !importante }</p>
             </li>
 
             <li>
