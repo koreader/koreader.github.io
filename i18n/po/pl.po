@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-07 22:05+0000\n"
-"PO-Revision-Date: 2025-11-27 06:00+0000\n"
-"Last-Translator: Piotras <piotrswiatkiewicz00@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 05:00+0000\n"
+"Last-Translator: df13 <upstate_mineral_6y@icloud.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
 "guide/pl/>\n"
 "Language: pl\n"
@@ -520,14 +520,12 @@ msgid "Profile auto-execution <span class=\"microns\"></span>"
 msgstr "Automatyczne uruchomianie profilu <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1049-5
-#, fuzzy
 msgid "PLUGINS AND USER PATCHES"
-msgstr "WTYCZKI I POPRAWKI UŻYTKOWNIKA"
+msgstr "WTYCZKI I POPRAWKI UŻYTKOWNIKÓW"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1051-13
-#, fuzzy
 msgid "Plugin types"
-msgstr "Typy wtyczek"
+msgstr "Rodzaje wtyczek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1052-13
 #, fuzzy
@@ -535,9 +533,8 @@ msgid "List of internal plugins"
 msgstr "Lista wewnętrznych wtyczek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1053-13
-#, fuzzy
 msgid "User patches"
-msgstr "Poprawki użytkownika"
+msgstr "Poprawki użytkowników"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1057-5
 #, fuzzy
@@ -1235,17 +1232,16 @@ msgstr ""
 "więcej informacji."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1252-24
-#, fuzzy
 msgid ""
 "<span class=\"label_red\">WARNING</span> Be careful if you decide to use the "
 "SSH feature without a password, because this allows open access to your "
 "device. But if you are using a local wifi and turn on your device wifi for a "
 "short time, this risk is negligible."
 msgstr ""
-"<span class=\"label_red\">OSTRZEŻENIE</span> Bądz ostrożny jeśli zdecydujesz "
-"się używać funkcji SSH bez hasła, ponieważ to pozwala na otwarty dostęp do "
-"twojego urządzenia. W przyapdku używania lokalnego wifi , ryzyko jest "
-"marginalne."
+"<span class=\"label_red\">OSTRZEŻENIE</span> Bądź ostrożny jeśli zdecydujesz "
+"się używać funkcji SSH bez hasła, pozwala to na otwarty dostęp do twojego "
+"urządzenia. W przypadku używania domowego wifi i włączania sieci WiiFi w "
+"urządzeniu tylko kiedy potrzebujesz, ryzyko jest marginalne."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1256-1
 msgid "Accessing your books"
@@ -1323,7 +1319,7 @@ msgid ""
 "going through the <span class=\"ui\">File Browser</span>."
 msgstr ""
 "Możesz przydzielać gesty dla każdego z tych dialogów. Na przykład podczas "
-"czytania książki, możesz wejść do sekcji <span class=\"ui\">Historia<</span> "
+"czytania książki, możesz wejść do sekcji <span class=\"ui\">Historia</span> "
 "lub <span class=\"ui\">Ulubione</span> gestem i otworzyć inną książkę bez "
 "konieczności wchodzenia do <span class=\"ui\">Przeglądarki Plików</span>."
 
@@ -1734,9 +1730,8 @@ msgid "<b>Long-press:</b> Delete the whole line"
 msgstr "<b>Przytrzymanie:</b> Usuwa całą linijkę"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1385-9
-#, fuzzy
 msgid "<b>Swipe left:</b> Delete part of the word left of the cursor"
-msgstr "<b>Przesunięcie w lewo:</b> Usuwa częśc słowa na lewo od kursora"
+msgstr "<b>Przesunięcie w lewo:</b> Usuwa część słowa na lewo od kursora"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1386-9
 msgid "<b>Swipe up:</b> Delete the whole word"
@@ -4209,24 +4204,33 @@ msgid ""
 "contents (<b>ToC</b>). Depending on the preparation of the book, you can "
 "experience these ToC problems:"
 msgstr ""
+"Niektóre z ebooków, które napotkasz, mogą nie mieć prawidłowego spisu treści "
+"(<b>Spis Treści</b>). W zależności od sposobu przygotowania książki mogą "
+"wystąpić następujące problemy związane ze Spisem Treści:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2110-9
 msgid ""
 "No ToC in the book, so you can’t jump between the chapters or see the "
 "remaining reading times"
 msgstr ""
+"W książce nie ma spisu treści, więc nie można przeskakiwać między "
+"rozdziałami ani sprawdzić pozostałego czasu czytania"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2111-9
 msgid ""
 "There is a ToC but it is not very useful because it has wrong or missing "
 "chapter titles"
 msgstr ""
+"Istnieje spis treści, ale nie jest on zbyt przydatny, ponieważ zawiera "
+"błędne lub brakujące tytuły rozdziałów"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2114-5
 msgid ""
 "KOReader has some features that you can use when reading books with a "
 "problematic table of contents section."
 msgstr ""
+"KOReader posiada kilka funkcji, z których można skorzystać podczas czytania "
+"książek z problematycznym spisem treści."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2116-5
 msgid ""
@@ -4236,17 +4240,25 @@ msgid ""
 "contents</span> and <span class=\"ui\">Custom hidden flows</span> features "
 "are available on all file types."
 msgstr ""
+"Należy pamiętać, że funkcja <span class=\"ui\">Alternatywny spis treści</"
+"span> nie jest dostępna w <b>dokumentach o stałym układzie</b>, takich jak "
+"PDF, DJVU itp., ponieważ do utworzenia spisu treści wymagane są tagi HTML. "
+"Funkcje <span class=\"ui\">Niestandardowy spis treści</span> i <span "
+"class=\"ui\">Niestandardowe ukryte przepływy</span> są dostępne we "
+"wszystkich typach plików."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2119-1
 msgid ""
 "Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS"
-msgstr ""
+msgstr "Automatyczne tworzenie spisu treści: ALTERNATYWNY SPIS TREŚCI"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2121-5
 msgid ""
 "First feature is the <span class=\"ui\">Alternative table of contents</span> "
 "which you can find in:"
 msgstr ""
+"Pierwszą funkcją jest <span class=\"ui\">Alternatywny spis treści</span>, "
+"który można znaleźć w:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2124-5
 #, fuzzy
@@ -4271,6 +4283,10 @@ msgid ""
 "for the whole book or it might contain separate chapters as individual HTML "
 "files (which is a better structure)."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Dokument EPUB to w zasadzie plik ZIP "
+"zawierający jeden lub więcej plików HTML. Twoja książka może być jednym "
+"dużym plikiem HTML obejmującym całą książkę lub może zawierać oddzielne "
+"rozdziały w postaci pojedynczych plików HTML (co jest lepszą strukturą)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2128-5
 msgid ""
@@ -4280,12 +4296,20 @@ msgid ""
 "to build a ToC from the document fragments (individual HTML files in your "
 "EPUB book) which will point to the beginning of each file."
 msgstr ""
+"<span class=\"ui\">Alternatywny spis treści</span> próbuje utworzyć spis "
+"treści na podstawie nagłówków w książce (tagi od <b>H1</b> do <b>H6</b> w "
+"plikach HTML w formacie EPUB). Jeśli książka nie zawiera żadnych nagłówków, "
+"spróbuje utworzyć spis treści na podstawie fragmentów dokumentu "
+"(poszczególnych plików HTML w książce EPUB), które będą wskazywać początek "
+"każdego pliku."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2130-5
 msgid ""
 "You can choose which heading levels to include (or ignore) in your ToC from "
 "this menu:"
 msgstr ""
+"Możesz wybrać, które poziomy nagłówków chcesz uwzględnić (lub pominąć) w "
+"twoim spisie treści z tego menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2132-5
 msgid ""
@@ -4305,12 +4329,18 @@ msgid ""
 "can’t have sub-chapters while using this feature. To create your own ToC, "
 "first enable:"
 msgstr ""
+"Funkcja niestandardowego spisu treści pozwala utworzyć własny spis treści na "
+"podstawie wybranych fragmentów książki. Spis treści może zawierać tylko "
+"jeden poziom, więc korzystając z tej funkcji nie można tworzyć "
+"podrozdziałów. Aby utworzyć własny spis treści, najpierw włącz:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2141-5
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom table of contents"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Ustawienia / Niestandardowy spis treści"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2143-5
 msgid ""
@@ -4318,6 +4348,9 @@ msgid ""
 "interface which allows you to select your chapters. You can add a chapter to "
 "your ToC from two places:"
 msgstr ""
+"Po włączeniu tej funkcji do interfejsu użytkownika zostaną dodane nowe "
+"pozycje menu, które umożliwiają wybór rozdziałów. Rozdział można dodać do "
+"spisu treści z dwóch miejsc:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2146-9
 msgid ""
@@ -4368,6 +4401,9 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Custom layout features / Edit mode"
 msgstr ""
+"GÓRNE MENU /<img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Ustawienia / Niestandardowe funkcje układ / Tryb "
+"edycji"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2159-5
 msgid ""
