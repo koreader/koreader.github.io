@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-07 22:05+0000\n"
 "PO-Revision-Date: 2025-12-09 05:00+0000\n"
-"Last-Translator: thymdat69 <hodat72@gmail.com>\n"
+"Last-Translator: tran <tronghieu512@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/koreader/user-"
 "guide/vi/>\n"
 "Language: vi\n"
@@ -9426,11 +9426,13 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:3589-2
 msgctxt "user_guide/en.html+html.body.div.p:3589-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Ưu điểm"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3591-4
 msgid "You can manually backup and restore the settings for each book."
 msgstr ""
+"Bạn có thể sao lưu và khôi phục cài đặt cho từng cuốn sách theo cách thủ "
+"công."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3592-4
 msgid ""
@@ -9438,17 +9440,22 @@ msgid ""
 "<b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized "
 "alongside your books."
 msgstr ""
+"Khi bạn thực hiện đồng bộ hóa hoặc sao lưu thư mục bằng hệ thống như <b>"
+"Syncthing</b> hoặc <b>Dropbox</b>, cài đặt của bạn sẽ được đồng bộ hóa cùng "
+"với sách của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3593-4
 msgid ""
 "You can rename the parent directories where your book resides, this doesn't "
 "confuse KOReader."
 msgstr ""
+"Bạn có thể đổi tên thư mục gốc nơi lưu trữ sách của bạn, điều này không gây "
+"nhầm lẫn cho KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3596-2
 msgctxt "user_guide/en.html+html.body.div.p:3596-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Hạn chế"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3598-4
 msgid ""
@@ -9481,7 +9488,7 @@ msgid ""
 "docsettings"
 msgstr ""
 "MENU CHÍNH / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Tài liệu / Vị trí siêu dữ liệu sách: .../koreader/"
+"style=\"width:26px;\"> / Tài liệu / Vị trí metadata sách: .../koreader/"
 "docsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3608-1
@@ -9499,7 +9506,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:3610-2
 msgctxt "user_guide/en.html+html.body.div.p:3610-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Ưu điểm"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3612-3
 msgid ""
@@ -9507,11 +9514,14 @@ msgid ""
 "won't clutter your view of your library directories when you browse your "
 "library with another file browser or from your computer."
 msgstr ""
+"Các thư mục <b>.sdr</b> của sách sẽ chỉ hiển thị và được sử dụng bởi "
+"KOReader. Chúng sẽ không làm rối tầm nhìn của bạn trong các thư mục thư viện "
+"khi bạn duyệt thư viện bằng trình quản lý tệp khác hoặc từ máy tính của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3615-2
 msgctxt "user_guide/en.html+html.body.div.p:3615-2"
 msgid "Negatives"
-msgstr ""
+msgstr "Hạn chế"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3617-3
 msgid ""
@@ -9520,17 +9530,25 @@ msgid ""
 "KOReader file browser, you will lose metadata of those books without any "
 "warning."
 msgstr ""
+"Nếu bạn sắp xếp lại thư viện bằng cách di chuyển/đổi tên các thư mục thư "
+"viện, tệp sách hoặc thư mục .sdr đi kèm bên ngoài trình duyệt tệp của "
+"KOReader, bạn sẽ mất dữ liệu metadata của những cuốn sách đó mà không có bất "
+"kỳ cảnh báo nào."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3619-3
 msgid ""
 "Since your book metadata will not be in your library folders, any "
 "synchronization or backups of your library will not include them."
 msgstr ""
+"Vì dữ liệu metadata của sách sẽ không nằm trong các thư mục thư viện, nên "
+"bất kỳ việc đồng bộ hoặc sao lưu thư viện nào cũng sẽ không bao gồm chúng."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3624-1
 msgid ""
 "3. Individual HASHED metadata directories under a single KOReader directory"
 msgstr ""
+"Các thư mục metadata riêng biệt (được đặt tên bằng giá trị băm) trong một "
+"thư mục KOReader duy nhất"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3626-2
 msgid ""
@@ -9570,11 +9588,17 @@ msgid ""
 "for the book and it is calculated based on the <b>contents of the book file</"
 "b>. Also same hash is used for naming its .sdr folder."
 msgstr ""
+"Trong phương pháp <b>HASHED</b> này, các thư mục <b>.sdr</b> không được xác "
+"định bằng đường dẫn/tên tệp của sách. Thay vào đó, một phần <b>MD5 hash</b> "
+"sẽ được sử dụng để liên kết sách với các thiết lập của nó. Mã hash này được "
+"dùng như một ID duy nhất cho sách và được tính toán dựa trên <b>nội dung của "
+"tệp sách</b>. Đồng thời, cùng mã hash này cũng được dùng để đặt tên cho thư "
+"mục .sdr của sách."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3633-2
 msgctxt "user_guide/en.html+html.body.div.p:3633-2"
 msgid "Benefits"
-msgstr ""
+msgstr "Ưu điểm"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3635-4
 msgid ""
@@ -9582,6 +9606,9 @@ msgid ""
 "won't clutter your view of your library directories when you browse your "
 "library directories with another file browser or from your computer."
 msgstr ""
+"Các thư mục <b>.sdr</b> của sách sẽ chỉ hiển thị và được sử dụng bởi "
+"KOReader. Chúng sẽ không làm rối tầm nhìn của bạn trong các thư mục thư viện "
+"khi bạn duyệt bằng trình quản lý tệp khác hoặc từ máy tính của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3637-4
 msgid ""
@@ -9589,6 +9616,9 @@ msgid ""
 "your computer. KOReader will still recognize the books after these "
 "operations."
 msgstr ""
+"Bạn có thể đổi tên, di chuyển và sao chép sách bằng trình quản lý tệp khác "
+"hoặc từ máy tính của mình. KOReader vẫn sẽ nhận diện được các sách sau những "
+"thao tác này."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3639-4
 msgid ""
@@ -9601,11 +9631,19 @@ msgid ""
 "your annotations and progress synchronized across your devices. This isn't "
 "possible with other methods."
 msgstr ""
+"Trong phương pháp này, KOReader sẽ liên kết cùng một thư mục <b>.sdr</b> với "
+"tất cả các bản sao của sách, ngay cả khi những bản sao này nằm trên các "
+"thiết bị khác nhau. Ví dụ, nếu bạn sử dụng <b>Syncthing</b>, phương pháp này "
+"cho phép bạn đồng bộ thư mục <span class=\"ui\">/hashdocsettings</span> cùng "
+"với các tệp sách, trên nhiều thiết bị đều có cài đặt KOReader. Mặc dù đường "
+"dẫn tương đối của các sách trên mỗi thiết bị có thể khác nhau, bạn vẫn có "
+"thể đồng bộ ghi chú và tiến trình đọc của mình trên tất cả các thiết bị. "
+"Điều này không thể thực hiện được với các phương pháp khác."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3642-3
 msgctxt "user_guide/en.html+html.body.div.p:3642-3"
 msgid "Negatives"
-msgstr ""
+msgstr "Hạn chế"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3644-4
 msgid ""
@@ -9615,12 +9653,19 @@ msgid ""
 "method). In this case KOReader wouldn't be able to recognize the book so "
 "these books will lose their metadata."
 msgstr ""
+"Bất kỳ thao tác nào chỉnh sửa trực tiếp tệp (chẳng hạn như ghi chú nổi bật "
+"vào PDF hoặc tải xuống từ <b>Calibre</b>) sẽ làm thay đổi tệp, khiến <b>ID "
+"MD5</b> của nó thay đổi (khác với việc đổi tên hoặc di chuyển vốn an toàn "
+"với phương pháp này). Trong trường hợp này, KOReader sẽ không thể nhận diện "
+"được sách và những sách đó sẽ mất dữ liệu metadata."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3646-4
 msgid ""
 "Calculating file IDs may slow down <span class=\"ui\">File browser</span> "
 "navigation when browsing larger directories."
 msgstr ""
+"Việc tính toán ID tệp có thể làm chậm quá trình điều hướng <span "
+"class=\"ui\">Trình duyệt tệp</span> khi duyệt các thư mục lớn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3655-1
 msgctxt "user_guide/en.html:L1-gestures"
@@ -9633,6 +9678,9 @@ msgid ""
 "gestures have limitations regarding where on the screen they can be used and "
 "which directions are supported. These limitations are indicated below."
 msgstr ""
+"Có nhiều loại thao tác cử chỉ mà bạn có thể sử dụng để điều khiển KOReader. "
+"Một số cử chỉ có giới hạn về vị trí trên màn hình nơi chúng có thể được sử "
+"dụng và hướng thao tác được hỗ trợ. Những giới hạn này được chỉ ra bên dưới."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3660-5
 msgctxt "user_guide/en.html:L2-gesturetypes"
@@ -9644,51 +9692,51 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Some devices support only single "
 "touch so multi-finger gestures <b>are not available</b> on them."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Một số thiết bị chỉ hỗ trợ chạm "
+"đơn, vì vậy các thao tác đa ngón tay <b>không khả dụng</b> trên chúng."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3671-17
 msgid "TAP / DOUBLE TAP"
-msgstr ""
+msgstr "CHẠM MỘT LẦN/ CHẠM HAI LẦN"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3672-17
 msgid "Single or double tap with <b>ONE</b> finger"
-msgstr ""
+msgstr "Chạm một lần hoặc chạm hai lần bằng <b>MỘT</b> ngón tay"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3673-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3673-17"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3680-17
 msgid "TAP AND HOLD"
-msgstr ""
+msgstr "CHẠM VÀ GIỮ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3681-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "Chạm một lần và giữ bằng <b>MỘT</b> ngón tay"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3682-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3682-17"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Chỉ ở bốn góc màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3688-17
 msgid "TWO FINGER TAP"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "CHẠM HAI NGÓN TAY"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3689-9
 msgid "Single tap with <b>TWO</b> fingers at the same time"
-msgstr ""
-"<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
-"(DIAGONAL)"
+msgstr "Chạm một lần bằng <b>HAI</b> ngón tay cùng lúc"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3690-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3690-9"
 msgid "<b>WORKS:</b> Only on four corners"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Chỉ ở bốn góc màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3696-17
 msgid "SPREAD AND PINCH"
-msgstr "Swiping motion with <b>TWO</b> fingers at the same time"
+msgstr "CHỤM VÀ TÁCH NGÓN TAY"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3697-9
 msgid "Same as zooming in and out on a phone or tablet."
@@ -9698,7 +9746,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3698-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3698-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:3699-9
 msgid ""
@@ -9706,6 +9754,9 @@ msgid ""
 "depending on your device. If that’s the case please choose another gesture "
 "type."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Cử chỉ này có thể hoạt động kém "
+"ổn định tùy theo thiết bị của bạn. Nếu gặp trường hợp đó, vui lòng chọn loại "
+"cử chỉ khác."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3703-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3703-17"
@@ -9714,47 +9765,53 @@ msgstr "VUỐT BẰNG MỘT NGÓN TAY"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3704-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "Thao tác vuốt bằng <b>MỘT</b> ngón tay"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3705-9
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
 msgstr ""
+"<b>HOẠT ĐỘNG:</b> Các cạnh màn hình (NGANG và DỌC) — Bất kỳ vị trí nào ngoại "
+"trừ cạnh (CHÉO)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3709-17
 msgid "TWO FINGER SWIPE"
-msgstr ""
+msgstr "VUỐT HAI NGÓN TAY"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3710-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Thao tác vuốt bằng <b>HAI</b> ngón tay cùng lúc"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3711-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3711-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3715-17
 msgid "MULTISWIPE"
-msgstr ""
+msgstr "VUỐT NHIỀU LẦN"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3716-9
 msgid ""
 "More than one swipe done after each other without lifting your finger. For "
 "example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)"
 msgstr ""
+"Nhiều thao tác vuốt liên tiếp mà không nhấc ngón tay. Ví dụ như vẽ chữ <b>U</"
+"b> (Xuống – Sang phải – Lên)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3718-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3718-9"
 msgid "<b>WORKS:</b> Anywhere on the screen"
-msgstr ""
+msgstr "<b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3722-17
 msgid ""
 "Icons by <b>Econceptive</b> from the <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 msgstr ""
+"Biểu tượng bởi <b>Econceptive</b> từ <a href=\"https://thenounproject.com/"
+"econceptive/collection/touch-gesture/\">Noun Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3728-1
 msgctxt "user_guide/en.html:L2-predefinedgestures"
@@ -9766,6 +9823,8 @@ msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
 msgstr ""
+"Bảng này hiển thị các thao tác cảm ứng đi kèm với KOReader. Bạn có thể thay "
+"đổi các thao tác này theo ý thích của mình thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3733-5
 msgid ""
@@ -9781,27 +9840,27 @@ msgstr "CHẠM GÓC"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3742-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>Góc trên bên trái</b> > Bật/tắt lật trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr ""
+msgstr "<b>Góc trên bên phải</b> > Bật/tắt đánh dấu trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3744-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
-msgstr ""
+msgstr "<b>Hai góc chéo đối diện cùng lúc</b> > Chụp màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3748-5
 msgid "DOUBLE TAP"
-msgstr ""
+msgstr "CHẠM HAI LẦN"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr "<b>↓ ↑</b> - Skim document"
+msgstr "<b>Cạnh trái</b> > Lùi 10 trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr "<b>↑ ←</b> - Bookmarks"
+msgstr "<b>Cạnh phải</b> > Tiến 10 trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3754-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3754-5"
@@ -9810,78 +9869,83 @@ msgstr "VUỐT BẰNG MỘT NGÓN TAY"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr "<b>↑ ↓ ↑</b> - Previous chapter"
+msgstr "<b>Vuốt chéo ngắn</b> > Làm mới toàn màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr "<b>↓ ↑ ↓</b> - Next chapter"
+msgstr "<b>Vuốt chéo dài</b> > Chụp màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3760-5
 msgid "MULTISWIPES"
-msgstr ""
+msgstr "VUỐT LIÊN TIẾP"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3761-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Back to previous location"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Quay lại vị trí trước đó"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3762-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to latest bookmark"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Đi tới dấu trang mới nhất"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3763-5
 msgid "<span style=\"font-family: microns;\"></span> - Skim document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Duyệt nhanh tài liệu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3764-5
 msgid "<span style=\"font-family: microns;\"></span> - Bookmarks"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Dấu trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3765-5
 msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Mục lục"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3766-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Show frontlight dialog"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Hiển thị hộp thoại đèn nền"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3767-5
 msgid "<span style=\"font-family: microns;\"></span> - Toggle reflow"
 msgstr ""
+"<span style=\"font-family: microns;\"></span> - Bật/tắt chế độ tái định "
+"dạng (reflow)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3768-5
 msgid "<span style=\"font-family: microns;\"></span> - History"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Lịch sử"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3769-5
 msgid "<span style=\"font-family: microns;\"></span> - Book status"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Trạng thái sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3770-5
 msgid "<span style=\"font-family: microns;\"></span> - Go to page"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Đi tới trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3771-5
 msgid "<span style=\"font-family: microns;\"></span> - Back"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Quay lại"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3772-5
 msgid "<span style=\"font-family: microns;\"></span> - Previous chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Chương trước"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3773-5
 msgid "<span style=\"font-family: microns;\"></span> - Next chapter"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Chương tiếp theo"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3774-5
 msgid ""
 "<span style=\"font-family: microns;\"></span> - Open previous document"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Mở tài liệu trước đó"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3775-5
 msgid "<span style=\"font-family: microns;\"></span> - Favorites"
-msgstr ""
+msgstr "<span style=\"font-family: microns;\"></span> - Yêu thích"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3782-1
 msgctxt "user_guide/en.html:L2-gesturecategories"
@@ -9896,6 +9960,12 @@ msgid ""
 "here. These actions can also be used in your own <span class=\"ui\">Quick "
 "Menu</span>. Please check the relevant section in the guide for more info."
 msgstr ""
+"Đây là danh sách tất cả các hành động mà bạn có thể gán cho một thao tác "
+"vuốt trong menu <span class=\"ui\">Trình quản lý thao tác vuốt</span>. Bạn "
+"có thể sử dụng chức năng tìm kiếm của trình duyệt (thường là <b>Ctrl+F</b>) "
+"để tìm một hành động tại đây. Những hành động này cũng có thể được sử dụng "
+"trong <span class=\"ui\">Menu nhanh</span> của riêng bạn. Vui lòng xem phần "
+"liên quan trong hướng dẫn để biết thêm thông tin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3786-5
 msgid ""
@@ -9908,6 +9978,15 @@ msgid ""
 "class=\"ui\">pass through</span>=<b>another handler might act on it</b>, "
 "<span class=\"ui\">nothing</span>=<b>swallow the action</b>."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Khi chọn một hành động cho thao "
+"tác vuốt, bạn sẽ thấy một mục đặc biệt trong danh sách có tên <span "
+"class=\"ui\">pass through</span>. Hành động này được dùng để giữ nguyên hành "
+"vi mặc định của thao tác đó, ví dụ như chọn văn bản khi nhấn giữ gần các "
+"góc. Nếu bạn muốn vô hiệu hóa một thao tác vuốt để tránh hành động xảy ra "
+"ngoài ý muốn, hãy chọn <span class=\"ui\">nothing</span> làm hành động. Nói "
+"cách khác: <span class=\"ui\">pass through</span> = <b>trình xử lý khác có "
+"thể thực hiện</b>, <span class=\"ui\">nothing</span> = <b>nuốt hành động "
+"(không thực hiện gì)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3792-9
 msgid "General"
@@ -10295,7 +10374,7 @@ msgstr "Tự động điều chỉnh độ ấm chuyển đổi qua các chế �
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3906-9
 msgid "Reflowable documents"
-msgstr ""
+msgstr "Tài liệu tái định dạng"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
 msgid "Font face"
@@ -10329,43 +10408,43 @@ msgstr "Tương phản"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3915-17
 msgid "Font weight"
-msgstr ""
+msgstr "Độ đậm font chữ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3916-17
 msgid "Font hinting"
-msgstr ""
+msgstr "Làm rõ phông chữ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3917-17
 msgid "Font kerning"
-msgstr ""
+msgstr "Khoảng cách các ký tự"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3918-17
 msgid "Two columns"
-msgstr ""
+msgstr "2 cột"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3919-17
 msgid "L/R margins"
-msgstr ""
+msgstr "Lề Trái/Phải"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3920-17
 msgid "Sync T/B margins"
-msgstr ""
+msgstr "Căn lề trên/dưới"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3921-17
 msgid "Top margin"
-msgstr ""
+msgstr "Lề trên"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3922-17
 msgid "Bottom margin"
-msgstr ""
+msgstr "Lề dưới"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3923-17
 msgid "View mode (page-continuous)"
-msgstr ""
+msgstr "Chế độ xem (trang liên tục)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3924-17
 msgid "Render mode"
-msgstr ""
+msgstr "Chế độ render"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-17
 msgid "Zoom"
@@ -10382,19 +10461,19 @@ msgstr "Thanh trạng thái thay thế"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-17
 msgid "Embedded style"
-msgstr ""
+msgstr "Kiểu nhúng"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3929-17
 msgid "Embedded fonts"
-msgstr ""
+msgstr "Kiểu nhúng"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3930-17
 msgid "Image scaling"
-msgstr ""
+msgstr "Co giãn ảnh"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3931-17
 msgid "Invert images"
-msgstr ""
+msgstr "Đảo ngược màu ảnh"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3935-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3935-5"
@@ -10687,7 +10766,7 @@ msgstr "Kéo tiến độ từ thiết bị khác"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4012-9
 msgid "Fixed layout documents"
-msgstr ""
+msgstr "Tài liệu bố cục cố định"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Toggle page flipping"
@@ -10751,11 +10830,11 @@ msgstr "Đường dẫn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4029-17
 msgid "View mode"
-msgstr ""
+msgstr "Chế độ xem"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4030-17
 msgid "Page gap"
-msgstr ""
+msgstr "Khoảng cách Trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4031-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4031-17"
@@ -10794,7 +10873,7 @@ msgstr "Xóa chữ ký"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4039-17
 msgid "Render quality"
-msgstr "Chất lượng kết xuất"
+msgstr "Chất lượng render"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4040-17
 msgid "Document language"
@@ -10810,15 +10889,15 @@ msgstr "Hướng viết"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4043-17
 msgid "Document columns"
-msgstr ""
+msgstr "Cột tài liệu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4044-17
 msgid "Auto straighten"
-msgstr ""
+msgstr "Tự động làm thẳng"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4052-1
 msgid "Keyboard Shortcuts"
-msgstr "Các phím tắt"
+msgstr "Phím Tắt"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4054-1
 msgid ""
@@ -10830,6 +10909,12 @@ msgid ""
 "an extra menu named <span class=\"ui\">Keyboard Shortcuts</span> which you "
 "can access here:"
 msgstr ""
+"Nếu bạn có thiết bị với bàn phím như <b>Kindle 2</b> và <b>Kindle 3</b>, bao "
+"gồm cả bàn phím Bluetooth và trình giả lập, bạn có thể dùng phím bàn phím, "
+"nút thiết bị và phím tắt để điều khiển KOReader. <b>Kindle 4</b> cũng được "
+"hỗ trợ, dù không có bàn phím đầy đủ nhưng vẫn có đủ nút để sử dụng trong ngữ "
+"cảnh này. Trên các thiết bị này, KOReader sẽ bật thêm một menu có tên <span "
+"class=\"ui\">Phím tắt bàn phím</span> mà bạn có thể truy cập tại đây:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4056-1
 msgid ""
@@ -10844,10 +10929,12 @@ msgid ""
 "This menu is very similar to the <span class=\"ui\">Gesture Manager</span> "
 "interface. In this menu:"
 msgstr ""
+"Menu này rất giống với giao diện <span class=\"ui\">Trình quản lý thao tác</"
+"span>. Trong menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4060-9
 msgid "You can see the shortcuts that are available on your device"
-msgstr "Bạn có thể thấy các phím tắt có sẵn trên thiết bị của bạn"
+msgstr "Bạn có thể xem các phím tắt có sẵn trên thiết bị của mình"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4061-9
 msgid "You can see the predefined actions for some shortcuts"
@@ -10863,11 +10950,14 @@ msgid ""
 "available for keyboard shortcut assignment. Which means you can control "
 "nearly all the functions of KOReader with these shortcuts."
 msgstr ""
+"Tất cả các thao tác trong <span class=\"ui\">Trình quản lý thao tác</span> "
+"cũng có sẵn để gán phím tắt. Điều này có nghĩa là bạn có thể điều khiển hầu "
+"hết các chức năng của KOReader bằng các phím tắt này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4068-5
 msgid ""
 "In the table below, you can see the default key and shortcut assignments:"
-msgstr ""
+msgstr "Trong bảng dưới đây, bạn có thể xem các phím và phím tắt mặc định:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4073-21
 msgid ""
@@ -10876,6 +10966,9 @@ msgid ""
 "available on all screens, modes and platforms. On Kindle 4, it is "
 "<b>Keyboard + Menu</b>."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Phím <span class=\"ui\">chụp màn "
+"hình</span> chung là <b>Alt + Shift + G</b>. Nó khả dụng trên mọi màn hình, "
+"chế độ và nền tảng. Trên Kindle 4, phím này là <b>Keyboard + Menu</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4075-21
 msgid ""
@@ -10884,10 +10977,14 @@ msgid ""
 "+ (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/"
 "DOWN/LEFT/RIGHT)</b> on your Kindle 4."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Nếu bạn dùng Kindle 4, phím <b>"
+"SHIFT</b> trong bảng dưới đây được ánh xạ sang nút <b>KEYBOARD</b> của bạn. "
+"Vì vậy, các phím tắt <b>Shift + (LÊN/XUỐNG/TRÁI/PHẢI)</b> sẽ được ánh xạ "
+"thành <b>Nút Keyboard + (LÊN/XUỐNG/TRÁI/PHẢI)</b> trên Kindle 4."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4082-17
 msgid "File browser mode"
-msgstr ""
+msgstr "Chế độ duyệt tệp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4086-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4086-13"
@@ -10909,20 +11006,20 @@ msgstr "Thư mục chính"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4094-13
 msgid "Move in file list"
-msgstr ""
+msgstr "Di chuyển trong danh sách tệp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4095-13
 msgid "Up / Down"
-msgstr ""
+msgstr "Lên / Xuống"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4098-13
 msgid "Open selected book"
-msgstr ""
+msgstr "Mở sách đã chọn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4099-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4099-13"
 msgid "Enter"
-msgstr ""
+msgstr "Phím Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4102-13
 msgid "Exit application"
@@ -10935,7 +11032,7 @@ msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4107-17
 msgid "Reading mode"
-msgstr ""
+msgstr "Chế độ đọc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4110-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4110-13"
@@ -10945,7 +11042,7 @@ msgstr "Mở menu trên cùng"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4111-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4111-13"
 msgid "F1"
-msgstr ""
+msgstr "Phím F1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4114-13
 msgid "Open bottom menu"
@@ -10954,7 +11051,7 @@ msgstr "Mở menu dưới cùng"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4115-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4115-13"
 msgid "Enter"
-msgstr "Enter"
+msgstr "Phím Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4118-13
 msgid "Back/exit application"
@@ -10972,7 +11069,7 @@ msgstr "Dấu trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4123-13
 msgid "Shift + Left"
-msgstr ""
+msgstr "Shift + Trái"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4126-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4126-13"
@@ -10981,7 +11078,7 @@ msgstr "Bật/Tắt đánh dấu trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4127-13
 msgid "Shift + Right"
-msgstr ""
+msgstr "Shift + Phải"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4130-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4130-13"
@@ -10990,7 +11087,7 @@ msgstr "Tra cứu từ điển"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4131-13
 msgid "Ctrl + D (Alt + D on Kindles)"
-msgstr ""
+msgstr "Ctrl + D (Alt + D trên Kindle)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4134-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4134-13"
@@ -10999,7 +11096,7 @@ msgstr "Tra cứu Wikipedia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4135-13
 msgid "Ctrl + W"
-msgstr ""
+msgstr "Ctrl + W (Đóng tài liệu)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4138-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4138-13"
@@ -11008,15 +11105,15 @@ msgstr "Tìm kiếm toàn văn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4139-13
 msgid "Ctrl + S"
-msgstr ""
+msgstr "Ctrl + S (Lưu trạng thái)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4142-13
 msgid "File search lookup"
-msgstr ""
+msgstr "Tra cứu tệp (tìm kiếm tệp)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4143-13
 msgid "Ctrl + F"
-msgstr ""
+msgstr "Ctrl + F (Tìm kiếm trong tài liệu)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4147-17
 msgid "Links"
@@ -11024,11 +11121,11 @@ msgstr "Liên kết"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4150-13
 msgid "Select next page link"
-msgstr ""
+msgstr "Chọn liên kết trang kế tiếp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4151-13
 msgid "Tab"
-msgstr ""
+msgstr "Phím Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4154-13
 msgid "Select previous page link"
@@ -11036,20 +11133,20 @@ msgstr "Chọn liên kết trang trước"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4155-13
 msgid "Shift+Tab"
-msgstr ""
+msgstr "Shift+Tab"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4158-13
 msgid "Open selected page link"
-msgstr ""
+msgstr "Mở liên kết trang đã chọn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4159-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4159-13"
 msgid "Enter"
-msgstr ""
+msgstr "Phím Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4163-17
 msgid "Image viewer (long-press on image)"
-msgstr ""
+msgstr "Trình xem ảnh (nhấn giữ trên ảnh)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4166-13
 msgid "Zoom in"
@@ -11069,7 +11166,7 @@ msgstr "Trang lên"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4175-17
 msgid "Highlighting"
-msgstr ""
+msgstr "Tô sáng (đánh dấu đoạn văn bản)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4178-13
 msgid "Enter highlighting mode"
@@ -11077,7 +11174,7 @@ msgstr "Vào chế độ tô sáng"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4179-13
 msgid "H"
-msgstr ""
+msgstr "Phím H (Trợ giúp/Help)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4182-13
 msgid "Start/stop highlighting"
@@ -11086,7 +11183,7 @@ msgstr "Bắt đầu/dừng tô sáng"
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4183-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4183-13"
 msgid "Enter"
-msgstr ""
+msgstr "Phím Enter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4186-13
 msgid "Move highlight indicator"
@@ -11094,15 +11191,15 @@ msgstr "Di chuyển chỉ báo nổi bật"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4187-13
 msgid "Left/Right<br>Up/Down"
-msgstr ""
+msgstr "Trái / Phải — Lên / Xuống"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4190-13
 msgid "Move indicator faster"
-msgstr ""
+msgstr "Di chuyển chỉ báo nhanh hơn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4191-13
 msgid "Shift +<br>Left/Right/Up/Down"
-msgstr ""
+msgstr "Shift + Trái/Phải/Lên/Xuống"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4194-13
 msgid "Exit highlighting mode"
@@ -11115,7 +11212,7 @@ msgstr "Esc"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4199-17
 msgid "Navigating the book"
-msgstr ""
+msgstr "Điều hướng trong sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4202-13
 msgid "Page turn"
@@ -11132,7 +11229,7 @@ msgstr "Mục lục"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4207-13
 msgid "Shift + Up"
-msgstr ""
+msgstr "Shift + Lên"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4210-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4210-13"
@@ -11141,7 +11238,7 @@ msgstr "Bản đồ sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4211-13
 msgid "Shift + Down"
-msgstr ""
+msgstr "Shift + Xuống"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4214-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4214-13"
@@ -11150,7 +11247,7 @@ msgstr "Đi đến đầu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4215-13
 msgid "1"
-msgstr ""
+msgstr "Phím số 1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4218-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4218-13"
@@ -11159,7 +11256,7 @@ msgstr "Đi tới 11% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4219-13
 msgid "2"
-msgstr ""
+msgstr "Phím số 2"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4222-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4222-13"
@@ -11168,7 +11265,7 @@ msgstr "Đi tới 22% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4223-13
 msgid "3"
-msgstr ""
+msgstr "Phím số 3"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4226-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4226-13"
@@ -11177,7 +11274,7 @@ msgstr "Đi tới 33% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4227-13
 msgid "4"
-msgstr ""
+msgstr "Phím số 4"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4230-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4230-13"
@@ -11186,7 +11283,7 @@ msgstr "Đi tới 44% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4231-13
 msgid "5"
-msgstr ""
+msgstr "Phím số 5"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4234-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4234-13"
@@ -11195,7 +11292,7 @@ msgstr "Đi đến 55% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4235-13
 msgid "6"
-msgstr ""
+msgstr "Phím số 6"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4238-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4238-13"
@@ -11204,7 +11301,7 @@ msgstr "Đi tới 66% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4239-13
 msgid "7"
-msgstr ""
+msgstr "Phím số 7"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4242-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4242-13"
@@ -11213,7 +11310,7 @@ msgstr "Đi tới 77% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4243-13
 msgid "8"
-msgstr ""
+msgstr "Phím số 8"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4246-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4246-13"
@@ -11222,7 +11319,7 @@ msgstr "Đi tới 88% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4247-13
 msgid "9"
-msgstr ""
+msgstr "Phím số 9"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4250-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4250-13"
@@ -11231,11 +11328,11 @@ msgstr "Đi đến cuối"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4251-13
 msgid "0"
-msgstr ""
+msgstr "Phím số 0"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4255-17
 msgid "In Skim Document dialog"
-msgstr ""
+msgstr "Trong hộp thoại Duyệt nhanh tài liệu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4258-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4258-9"
@@ -11244,7 +11341,7 @@ msgstr "Đi đến đầu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4259-9
 msgid "Q"
-msgstr ""
+msgstr "Phím Q"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4262-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4262-9"
@@ -11253,7 +11350,7 @@ msgstr "Đi tới 11% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4263-9
 msgid "W"
-msgstr ""
+msgstr "Phím W"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4266-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4266-9"
@@ -11262,7 +11359,7 @@ msgstr "Đi tới 22% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4267-9
 msgid "E"
-msgstr ""
+msgstr "Phím E"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4270-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4270-9"
@@ -11271,7 +11368,7 @@ msgstr "Đi tới 33% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4271-9
 msgid "R"
-msgstr ""
+msgstr "Phím R"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4274-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4274-9"
@@ -11280,7 +11377,7 @@ msgstr "Đi tới 44% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4275-9
 msgid "T"
-msgstr ""
+msgstr "Phím T"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4278-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4278-9"
@@ -11289,7 +11386,7 @@ msgstr "Đi đến 55% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4279-9
 msgid "Y"
-msgstr ""
+msgstr "Phím Y"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4282-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4282-9"
@@ -11298,7 +11395,7 @@ msgstr "Đi tới 66% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4283-9
 msgid "U"
-msgstr ""
+msgstr "Phím U"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4286-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4286-9"
@@ -11307,7 +11404,7 @@ msgstr "Đi tới 77% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4287-9
 msgid "I"
-msgstr ""
+msgstr "Phím I"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4290-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4290-9"
@@ -11316,7 +11413,7 @@ msgstr "Đi tới 88% của cuốn sách"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4291-9
 msgid "O"
-msgstr ""
+msgstr "Phím O"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4294-9
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4294-9"
@@ -11325,15 +11422,15 @@ msgstr "Đi đến cuối"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4295-9
 msgid "P"
-msgstr ""
+msgstr "Phím P"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4299-13
 msgid "Page zooming"
-msgstr ""
+msgstr "Thu phóng trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:4299-63
 msgid "Only for PDF, DJVU and images"
-msgstr ""
+msgstr "Chỉ dành cho PDF, DJVU và hình ảnh"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4302-9
 msgid "Zoom to fit page"
@@ -11341,47 +11438,47 @@ msgstr "Phóng to để vừa với trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4303-9
 msgid "A"
-msgstr ""
+msgstr "Phím A"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4306-9
 msgid "Zoom to fit page width"
-msgstr ""
+msgstr "Thu phóng vừa với chiều rộng trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4307-9
 msgid "S"
-msgstr ""
+msgstr "Phím S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4310-9
 msgid "Zoom to fit page height"
-msgstr ""
+msgstr "Thu phóng vừa với chiều cao trang"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4311-9
 msgid "D"
-msgstr ""
+msgstr "Phím D"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4314-9
 msgid "Zoom to fit content"
-msgstr ""
+msgstr "Thu phóng vừa với nội dung"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4315-9
 msgid "Shift + A"
-msgstr ""
+msgstr "Phím Shift + A"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4318-9
 msgid "Zoom to fit content width"
-msgstr ""
+msgstr "Thu phóng vừa với chiều rộng nội dung"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4319-9
 msgid "Shift + S"
-msgstr ""
+msgstr "Phím Shift + S"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4322-9
 msgid "Zoom to fit content height"
-msgstr ""
+msgstr "Thu phóng vừa với chiều cao nội dung"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4323-9
 msgid "Shift + D"
-msgstr ""
+msgstr "Phím Shift + D"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4332-5
 msgctxt "user_guide/en.html:L1-qmandprofiles"
@@ -11401,16 +11498,22 @@ msgid ""
 "single swipe. You can even have a menu longer than your screen, it is "
 "scrollable."
 msgstr ""
+"<span class=\"ui\">Menu nhanh</span> là một tính năng mới của KOReader cho "
+"phép bạn có một menu cá nhân hóa, dễ truy cập như trong hình minh họa bên "
+"dưới. Bạn có thể gán menu này cho một cử chỉ và mở nó chỉ với một lần vuốt. "
+"Bạn thậm chí có thể tạo menu dài hơn màn hình của mình, nó có thể cuộn được."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4339-9
 msgid ""
 "Basically, any action you can assign a gesture can be added to the <span "
 "class=\"ui\">Quick Menu</span>. Its advantages are:"
 msgstr ""
+"Về cơ bản, bất kỳ hành động nào bạn có thể gán cho một cử chỉ đều có thể "
+"được thêm vào <span class=\"ui\">Menu nhanh</span>. Các ưu điểm của nó là:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4342-13
 msgid "You don’t need to memorize lots of gestures for every action."
-msgstr ""
+msgstr "Bạn không cần phải ghi nhớ quá nhiều cử chỉ cho từng hành động."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4343-13
 msgid ""
@@ -11418,6 +11521,9 @@ msgid ""
 "hassle to find it in the menu system. You can add this kind of rarely used "
 "actions to this menu instead."
 msgstr ""
+"Một số hành động ít khi dùng có thể không đáng để gán cho một cử chỉ, nhưng "
+"lại khá phiền phức nếu phải tìm trong hệ thống menu. Bạn có thể thêm những "
+"hành động ít dùng này vào menu này thay thế."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4344-13
 msgid ""
@@ -11425,10 +11531,13 @@ msgid ""
 "favorite actions to this menu so they don’t even need to go into the menu "
 "system while using KOReader."
 msgstr ""
+"Nếu bạn đang cài đặt KOReader cho người thân hoặc bạn bè, bạn có thể thêm "
+"những hành động yêu thích của họ vào menu này để họ thậm chí không cần phải "
+"vào hệ thống menu khi sử dụng KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4347-9
 msgid "An example Quick Menu:"
-msgstr ""
+msgstr "Ví dụ về Menu nhanh:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4352-9
 msgid ""
@@ -11442,14 +11551,23 @@ msgid ""
 "while using the <b>Easy method</b>, you have to re-create your menu under "
 "the new gesture."
 msgstr ""
+"Có hai cách để tạo <span class=\"ui\">Menu nhanh</span>: <b>Dễ</b> và <b>"
+"Nâng cao</b>. Nếu bạn chỉ cần một menu, <b>Phương pháp dễ</b> là đủ cho bạn. "
+"Nếu bạn muốn hiển thị các menu khác nhau với các cử chỉ khác nhau, bạn cần "
+"sử dụng <b>Phương pháp nâng cao</b>. Một ưu điểm khác của <b>Phương pháp "
+"nâng cao</b> là việc gán lại cử chỉ dễ dàng hơn. Nếu bạn muốn thay đổi cử "
+"chỉ cho menu của mình, bạn có thể dễ dàng chuyển nó sang một cử chỉ khác "
+"bằng menu <b>Phương pháp nâng cao</b>. Nếu bạn muốn sử dụng một cử chỉ khác "
+"khi dùng <b>Phương pháp dễ</b>, bạn sẽ phải tạo lại menu của mình dưới cử "
+"chỉ mới."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4356-9
 msgid "Easy method"
-msgstr ""
+msgstr "Phương pháp dễ"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4359-17
 msgid "Go to <span class=\"ui\">Gesture Manager</span> menu via:"
-msgstr ""
+msgstr "Đi tới menu <span class=\"ui\">Quản lý cử chỉ</span> thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4360-21
 msgid ""
@@ -11461,13 +11579,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4361-17
 msgid "Decide a gesture for opening your menu and tap on it."
-msgstr ""
+msgstr "Quyết định một cử chỉ để mở menu của bạn và chạm vào nó."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4362-17
 msgid ""
 "Choose the actions you want to see in your menu from the gesture "
 "configuration menu. You can select many actions at once of course."
 msgstr ""
+"Chọn các hành động bạn muốn hiển thị trong menu từ menu cấu hình cử chỉ. Tất "
+"nhiên, bạn có thể chọn nhiều hành động cùng lúc."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4363-17
 msgid ""
@@ -11476,22 +11596,30 @@ msgid ""
 "Quick Menu</span> item on the second page as you can see <b>in the picture "
 "below</b>."
 msgstr ""
+"Sau khi chọn tất cả các hành động của bạn, bạn sẽ yêu cầu KOReader coi cử "
+"chỉ này như một menu. Bạn thực hiện điều này bằng cách bật mục <span "
+"class=\"ui\">Hiển thị như Menu nhanh</span> ở trang thứ hai như bạn có thể "
+"thấy <b>trong hình bên dưới</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4364-17
 msgid ""
 "You can sort your menu items with the <span class=\"ui\">Sort</span> option "
 "just below it."
 msgstr ""
+"Bạn có thể sắp xếp các mục trong menu của mình bằng tùy chọn <span "
+"class=\"ui\">Sắp xếp</span> ngay bên dưới."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4366-9
 msgid ""
 "Now you can launch your menu with the gesture you selected. If you want to "
 "change the menu items, you can open the gesture page and add/remove items."
 msgstr ""
+"Bây giờ bạn có thể mở menu bằng cử chỉ mà bạn đã chọn. Nếu muốn thay đổi các "
+"mục trong menu, bạn có thể mở trang cử chỉ và thêm hoặc xóa các mục."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4373-1
 msgid "Advanced method"
-msgstr ""
+msgstr "Phương pháp nâng cao"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4375-9
 msgid ""
@@ -11499,6 +11627,9 @@ msgid ""
 "planning to add more than one <span class=\"ui\">Quick Menu</span> you don’t "
 "need this section."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Như đã nói ở trên, nếu bạn không "
+"định thêm nhiều hơn một <span class=\"ui\">Menu nhanh</span> thì bạn không "
+"cần đến phần này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4377-9
 msgid ""
@@ -11509,6 +11640,12 @@ msgid ""
 "class=\"ui\">Profiles</span> heading (next section), create a <span "
 "class=\"ui\">Profile</span> with some items and come back here."
 msgstr ""
+"<span class=\"ui\">Menu nhanh</span> thực chất là một <span class=\"ui\">Hồ "
+"sơ</span> xuất hiện trên màn hình của bạn dưới dạng một menu. Vì vậy trước "
+"tiên bạn cần tìm hiểu về <span class=\"ui\">Hồ sơ</span>. Nếu bạn đã biết "
+"cách sử dụng chúng, bạn có thể tiếp tục đọc, nếu không hãy chuyển đến phần "
+"<span class=\"ui\">Hồ sơ</span> (phần tiếp theo), tạo một <span class=\"ui\">"
+"Hồ sơ</span> với một số mục và quay lại đây."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4379-9
 msgid ""
@@ -11517,6 +11654,10 @@ msgid ""
 "will turn our <span class=\"ui\">Profile</span> into a <span "
 "class=\"ui\">Quick Menu</span>."
 msgstr ""
+"Trước khi tiếp tục, chúng tôi giả định rằng bạn đã tạo một <span "
+"class=\"ui\">Hồ sơ</span> như đã hướng dẫn trong đoạn trước. Bây giờ chúng "
+"ta sẽ chuyển <span class=\"ui\">Hồ sơ</span> của mình thành một <span "
+"class=\"ui\">Menu nhanh</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4381-9
 msgid ""
@@ -11527,6 +11668,13 @@ msgid ""
 "class=\"ui\">Show as Quick Menu</span> (also in the image below) so your "
 "profile will be shown as a menu instead of being silently executed."
 msgstr ""
+"<b>1.</b> Đi tới <span class=\"ui\">Hồ sơ</span> mới tạo của bạn và bật "
+"<span class=\"ui\">Hiển thị trong danh sách hành động</span> (như minh họa "
+"trong hình bên dưới). Điều này sẽ giúp <span class=\"ui\">Hồ sơ</span> của "
+"bạn hiển thị trong <span class=\"ui\">Quản lý cử chỉ</span>. Đồng thời bật "
+"<span class=\"ui\">Hiển thị như Menu nhanh</span> (cũng trong hình bên dưới) "
+"để hồ sơ của bạn được hiển thị dưới dạng menu thay vì được thực thi một cách "
+"âm thầm."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4385-9
 msgid ""
@@ -11540,6 +11688,15 @@ msgid ""
 "class=\"ui\">Profile</span>. Tap on its checkbox to assign your profile to "
 "this gesture."
 msgstr ""
+"<b>2.</b> Bây giờ chúng ta cần một cách để truy cập menu. Vào <span "
+"class=\"ui\">Quản lý cử chỉ</span> và chọn một cử chỉ từ danh sách để gán "
+"cho menu của chúng ta. Giả sử chúng ta muốn chạm vào góc màn hình để hiển "
+"thị menu. Hãy chạm vào <span class=\"ui\">Chạm góc</span> rồi chọn <span "
+"class=\"ui\">Góc dưới bên trái</span>. Sau đó chạm vào <span class=\"ui\">"
+"Chung</span> và đi đến trang thứ hai. Bạn sẽ thấy hồ sơ của mình dưới dạng "
+"<span class=\"ui\">Hồ sơ x</span> trong đó x là tên bạn đã đặt cho <span "
+"class=\"ui\">Hồ sơ</span> này. Chạm vào ô chọn của nó để gán hồ sơ của bạn "
+"cho cử chỉ này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4387-9
 msgid ""
@@ -11561,14 +11718,18 @@ msgid ""
 "You can create another <span class=\"ui\">Profile</span> and follow the same "
 "steps to create another menu if you want."
 msgstr ""
+"Như đã nói, một <span class=\"ui\">Menu nhanh</span> thực chất là một <span "
+"class=\"ui\">Hồ sơ</span>. Điều này có nghĩa là bạn có thể có nhiều hơn một "
+"menu. Bạn có thể tạo thêm một <span class=\"ui\">Hồ sơ</span> khác và làm "
+"theo các bước tương tự để tạo thêm một menu nếu muốn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4392-1
 msgid "Quick menu tips"
-msgstr ""
+msgstr "Mẹo menu nhanh"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4394-1
 msgid "Keeping the menu open after use"
-msgstr ""
+msgstr "Giữ menu mở sau khi sử dụng"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4396-9
 msgid ""
@@ -11585,6 +11746,8 @@ msgid ""
 "<b>Incremental changes</b>, like brightness increase/decrease, bigger/"
 "smaller font size, previous/next pages or chapters, etc."
 msgstr ""
+"<b>Thay đổi tăng dần</b>, như tăng/giảm độ sáng, phóng to/thu nhỏ cỡ chữ, "
+"chuyển về/trang tiếp theo hoặc chương trước/sau, v.v."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4404-13
 msgid ""
@@ -11592,12 +11755,16 @@ msgid ""
 "simultaneously), like <b>turning on wifi</b> and after that <b>starting the "
 "SSH server</b>"
 msgstr ""
+"<b>Nhóm các tùy chọn mà bạn kích hoạt lần lượt</b> (nhưng không đồng thời), "
+"ví dụ như <b>bật wifi</b> và sau đó <b>khởi động máy chủ SSH</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4409-9
 msgid ""
 "You can enable this option from the following menu if you have a <b>Gesture "
 "Manager based (Easy method)</b> Quick Menu:"
 msgstr ""
+"Bạn có thể bật tùy chọn này từ menu sau nếu bạn có <b>Menu nhanh dựa trên "
+"Quản lý cử chỉ (Phương pháp dễ)</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4411-9
 msgid ""
@@ -11614,6 +11781,8 @@ msgid ""
 "Or from this menu, if you have a <b>Profiles based – (Advanced method)</b> "
 "Quick Menu:"
 msgstr ""
+"Hoặc từ menu này, nếu bạn có <b>Menu nhanh dựa trên Hồ sơ – (Phương pháp "
+"nâng cao)</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4415-9
 msgid ""
@@ -11627,7 +11796,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4418-9
 msgid "Opening Quick Menu at the gesture position"
-msgstr ""
+msgstr "Mở Menu nhanh tại vị trí cử chỉ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4420-9
 msgid ""
@@ -11636,6 +11805,10 @@ msgid ""
 "open your menu at the gesture position. This way, menu will be closer to "
 "your finger and easier to access. To use this feature enable this option:"
 msgstr ""
+"Thông thường Menu nhanh sẽ mở ở giữa màn hình. Nếu bạn đang sử dụng máy đọc "
+"sách bằng một tay, bạn có thể bật một thiết lập để menu mở ngay tại vị trí "
+"cử chỉ. Như vậy, menu sẽ gần ngón tay của bạn hơn và dễ truy cập hơn. Để sử "
+"dụng tính năng này, hãy bật tùy chọn sau:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4422-9
 msgid ""
@@ -11652,6 +11825,8 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> This is available only in a Quick "
 "Menu which is created via Gesture Manager (Easy method above)."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Tùy chọn này chỉ khả dụng trong "
+"Menu nhanh được tạo thông qua Quản lý cử chỉ (Phương pháp dễ ở trên)."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4429-1
 msgctxt "user_guide/en.html:L2-profiles"
@@ -11663,17 +11838,19 @@ msgid ""
 "A profile is basically a collection of actions that can be triggered with a "
 "single gesture (like a macro)."
 msgstr ""
+"Một hồ sơ về cơ bản là một tập hợp các hành động có thể được kích hoạt bằng "
+"một cử chỉ duy nhất (giống như một macro)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4433-9
 msgctxt "user_guide/en.html+html.body.div.p:4433-9"
 msgid ""
 "As an example, imagine that when reading some type of books, you always:"
-msgstr ""
+msgstr "Ví dụ, hãy tưởng tượng rằng khi đọc một số loại sách, bạn luôn:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4435-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4435-13"
 msgid "Rotate the screen to landscape orientation"
-msgstr ""
+msgstr "Xoay màn hình sang chế độ ngang"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4436-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4436-13"
@@ -11683,7 +11860,7 @@ msgstr "Tăng kích thước phông chữ và độ tương phản và"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4437-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4437-13"
 msgid "Turn the screen light on"
-msgstr ""
+msgstr "Bật đèn màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4440-9
 msgctxt "user_guide/en.html+html.body.div.p:4440-9"
@@ -11702,12 +11879,20 @@ msgid ""
 "Your font size <b>stays at 24</b> after activating the second profile. "
 "Because profiles in KOReader doesn’t have an exit or reverse action."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Khi bạn kích hoạt một hồ sơ "
+"khác, các thay đổi được thực hiện trong hồ sơ đầu tiên <b>sẽ không bị đảo "
+"ngược</b>. Ví dụ: bạn kích hoạt một hồ sơ đặt cỡ chữ từ <b>20</b> lên <b>24</"
+"b>. Sau đó bạn kích hoạt một hồ sơ khác điều chỉnh <b>đèn nền</b>. Cỡ chữ "
+"của bạn <b>vẫn giữ ở mức 24</b> sau khi kích hoạt hồ sơ thứ hai. Bởi vì các "
+"hồ sơ trong KOReader không có hành động thoát hoặc đảo ngược."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4445-9
 msgid ""
 "To create a profile first be sure that <span class=\"ui\">Profiles</span> "
 "plugin is activated. If you don’t see it under:"
 msgstr ""
+"Để tạo một hồ sơ, trước tiên hãy chắc chắn rằng plugin <span class=\"ui\">Hồ "
+"sơ</span> đã được kích hoạt. Nếu bạn không thấy nó trong phần:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4447-9
 msgid ""
@@ -11719,7 +11904,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4449-9
 msgid "then you have to turn it on from:"
-msgstr ""
+msgstr "sau đó bạn phải bật nó từ:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4451-9
 msgctxt "user_guide/en.html+html.body.div.div:4451-9"
@@ -11732,7 +11917,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4455-1
 msgid "Creating a profile"
-msgstr ""
+msgstr "Tạo một hồ sơ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4457-9
 msgid ""
@@ -11742,6 +11927,11 @@ msgid ""
 "You can also <span class=\"ui\">Delete, Rename</span> or <span "
 "class=\"ui\">Duplicate</span> a profile from this menu."
 msgstr ""
+"Trong menu <span class=\"ui\">Hồ sơ</span>, hãy chạm vào <span class=\"ui\">"
+"Mới</span> và đặt một tên mô tả cho hồ sơ của bạn. Bây giờ bạn sẽ thấy hồ sơ "
+"mới xuất hiện trong menu. Chạm vào nó và bạn sẽ thấy màn hình ở phía bên "
+"trái. Bạn cũng có thể <span class=\"ui\">Xóa, Đổi tên</span> hoặc <span "
+"class=\"ui\">Nhân bản</span> một hồ sơ từ menu này."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4462-9
 msgid ""
@@ -11751,20 +11941,27 @@ msgid ""
 "any <span class=\"ui\">Gesture</span> action using a <span "
 "class=\"ui\">Profile</span>."
 msgstr ""
+"Khi bạn chạm vào mục menu <span class=\"ui\">Chỉnh sửa hành động</span>, bạn "
+"sẽ thấy menu ở bên phải. Đây chính là menu lựa chọn cử chỉ và có các hành "
+"động trong nhiều danh mục khác nhau. Điều này có nghĩa là bạn có thể thực "
+"hiện bất kỳ hành động <span class=\"ui\">Cử chỉ</span> nào bằng cách sử dụng "
+"một <span class=\"ui\">Hồ sơ</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4464-9
 msgid ""
 "You can now select several items from all these categories. The actions you "
 "selected here will be performed when you activate this profile."
 msgstr ""
+"Bây giờ bạn có thể chọn nhiều mục từ tất cả các danh mục này. Những hành "
+"động bạn đã chọn sẽ được thực hiện khi bạn kích hoạt hồ sơ này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4467-1
 msgid "Activating a profile"
-msgstr ""
+msgstr "Kích hoạt một hồ sơ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4469-9
 msgid "There are many ways to activate a profile:"
-msgstr ""
+msgstr "Có nhiều cách để kích hoạt một hồ sơ:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4472-13
 msgid ""
@@ -11780,6 +11977,9 @@ msgid ""
 "<span class=\"ui\">Show in action list</span> from the profile’s menu. Now "
 "you can select it via:"
 msgstr ""
+"Bạn có thể kích hoạt một hồ sơ bằng cách sử dụng cử chỉ. Để làm điều này, "
+"bạn phải bật tùy chọn <span class=\"ui\">Hiển thị trong danh sách hành động</"
+"span> từ menu của hồ sơ. Sau đó, bạn có thể chọn nó thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4475-13
 msgid ""
@@ -11796,10 +11996,12 @@ msgid ""
 "You can also activate a profile <b>automatically</b> depending on some "
 "conditions. See the next heading to learn how to use this powerful feature."
 msgstr ""
+"Bạn cũng có thể kích hoạt một hồ sơ <b>tự động</b> dựa trên một số điều "
+"kiện. Xem phần tiếp theo để tìm hiểu cách sử dụng tính năng mạnh mẽ này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4480-3
 msgid "Profile auto-execution"
-msgstr ""
+msgstr "Tự động thực thi hồ sơ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4482-3
 msgid ""
@@ -11808,14 +12010,18 @@ msgid ""
 "Using this feature, you can trigger a profile depending on some conditions "
 "and sub-conditions:"
 msgstr ""
+"Bạn có thể chạy một hồ sơ thủ công như đã giải thích ở trên, nhưng sức mạnh "
+"thực sự của hồ sơ được khai thác thông qua tính năng <span class=\"ui\">tự "
+"động thực thi</span>. Với tính năng này, bạn có thể kích hoạt một hồ sơ dựa "
+"trên một số điều kiện và điều kiện phụ:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4487-5
 msgid "Trigger"
-msgstr ""
+msgstr "Kích hoạt"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4487-28
 msgid "Sub-conditions"
-msgstr ""
+msgstr "Điều kiện phụ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4490-5
 msgid "On KOReader start"
@@ -11827,24 +12033,27 @@ msgid ""
 "when KOReader is starting with the <span class=\"ui\">File browser</span> or "
 "<span class=\"ui\">Last file</span>."
 msgstr ""
+"Chạy hồ sơ này mỗi khi KOReader khởi động. Lưu ý rằng điều này chỉ khả thi "
+"khi KOReader khởi động với <span class=\"ui\">Trình duyệt tệp</span> hoặc "
+"<span class=\"ui\">Tệp cuối cùng</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4490-242
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4490-242"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4493-5
 msgid "On wake-up"
-msgstr ""
+msgstr "Khi thiết bị thức dậy"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4493-42
 msgid "Run this profile every time device wakes up"
-msgstr ""
+msgstr "Chạy hồ sơ này mỗi khi thiết bị thức dậy"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4493-97
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4493-97"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4496-5
 msgid "On rotation"
@@ -11852,17 +12061,19 @@ msgstr "khi xoay"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4496-43
 msgid "Run this profile when screen rotates to the selected rotation(s)."
-msgstr ""
+msgstr "Chạy hồ sơ này khi màn hình xoay sang các hướng đã chọn."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4496-117
 msgid ""
 "<b>Examples:</b> Change to double column layout when device rotates to "
 "landscape. Activate night mode when device rotates upside down."
 msgstr ""
+"<b>Ví dụ:</b> Chuyển sang bố cục hai cột khi thiết bị xoay sang ngang. Kích "
+"hoạt chế độ ban đêm khi thiết bị xoay sang lộn ngược."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4499-5
 msgid "<span class=\"ui\">Left 90°</span> (landscape)"
-msgstr ""
+msgstr "<span class=\"ui\">Xoay trái 90°</span> (ngang)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4500-5
 msgid "<span class=\"ui\">0°</span> (normal)"
@@ -11878,7 +12089,7 @@ msgstr "<span class=\"ui\">180°</span> (ngược lại)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4507-5
 msgid "On showing folder"
-msgstr ""
+msgstr "Khi hiển thị thư mục"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4507-49
 msgid ""
@@ -11887,59 +12098,71 @@ msgid ""
 "span>. For example when you enter a certain folder you can change the "
 "display mode from <b>mosaic</b> to <b>detailed</b> view."
 msgstr ""
+"Chạy hồ sơ này khi bạn vào thư mục trong trình duyệt tệp. Bạn có thể dùng "
+"trigger này để thay đổi chế độ hiển thị của <span class=\"ui\">trình duyệt "
+"tệp</span>. Ví dụ, khi bạn vào một thư mục nhất định, bạn có thể thay đổi "
+"chế độ hiển thị từ <b>khảm</b> sang <b>chi tiết</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4509-6
 msgid "<span class=\"ui\">If folder path contains</span> a certain text"
 msgstr ""
+"<span class=\"ui\">Nếu đường dẫn thư mục chứa</span> một đoạn văn bản nhất "
+"định"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4510-6
 msgid "<span class=\"ui\">If folder path doesn't contain</span> a certain text"
 msgstr ""
+"<span class=\"ui\">Nếu đường dẫn thư mục không chứa</span> một đoạn văn bản "
+"nhất định"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4514-5
 msgid "On book opening"
-msgstr ""
+msgstr "Khi mở sách"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4515-6
 msgid ""
 "This trigger is executed when you open a book (optionally) combined with "
 "specific sub-conditions."
 msgstr ""
+"Trigger này sẽ được thực thi khi bạn mở một cuốn sách (có thể tùy chọn) kết "
+"hợp với các điều kiện phụ cụ thể."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4516-6
 msgid ""
 "First 4 sub-conditions are <b>OR</b> matching, so any one of them is enough "
 "to trigger the profile execution."
 msgstr ""
+"4 điều kiện phụ đầu tiên được so khớp theo <b>OR</b>, vì vậy chỉ cần một "
+"trong số chúng đúng là đủ để kích hoạt việc thực thi hồ sơ."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4520-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4520-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr ""
+msgstr "Kết hợp với <b>hướng thiết bị</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4521-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4521-7"
 msgid "Combined with <b>book metadata</b>"
-msgstr ""
+msgstr "Kết hợp với <b>siêu dữ liệu sách</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4522-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4522-7"
 msgid "Combined with <b>book file path</b>"
-msgstr ""
+msgstr "Kết hợp với <b>đường dẫn tệp sách</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4523-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4523-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr ""
+msgstr "Kết hợp với <b>bộ sưu tập mà sách được bao gồm</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4524-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4524-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr ""
+msgstr "Kết hợp với <b>sách được mở lần đầu tiên</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4529-5
 msgid "On book closing"
-msgstr ""
+msgstr "Khi đóng sách"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4530-6
 msgid ""
@@ -11947,35 +12170,38 @@ msgid ""
 "use this for example enabling/disabling reading statistics when you open "
 "certain documents to exclude them from your stats."
 msgstr ""
+"Tùy chọn này giống như trên nhưng nó sẽ được kích hoạt khi bạn đóng sách. "
+"Bạn có thể dùng nó, ví dụ, để bật/tắt thống kê đọc khi mở một số tài liệu "
+"nhất định nhằm loại trừ chúng khỏi thống kê của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4535-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4535-7"
 msgid "Combined with <b>device orientation</b>"
-msgstr ""
+msgstr "Kết hợp với <b>hướng thiết bị</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4536-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4536-7"
 msgid "Combined with <b>book metadata</b>"
-msgstr ""
+msgstr "Kết hợp với <b>siêu dữ liệu sách</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4537-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4537-7"
 msgid "Combined with <b>book file path</b>"
-msgstr ""
+msgstr "Kết hợp với <b>đường dẫn tệp sách</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4538-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4538-7"
 msgid "Combined with <b>collections book is included in</b>"
-msgstr ""
+msgstr "Kết hợp với <b>bộ sưu tập mà sách nằm trong</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:4539-7
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.ul.li:4539-7"
 msgid "Combined with <b>book is being opened for the first time</b>"
-msgstr ""
+msgstr "Kết hợp với <b>sách được mở lần đầu tiên</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4547-4
 msgid "Profile examples:"
-msgstr ""
+msgstr "Ví dụ về hồ sơ:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4549-4
 msgid ""
@@ -11983,16 +12209,20 @@ msgid ""
 "this powerful feature of KOReader. Examples also include auto-execute "
 "conditions and <span class=\"ui\">collections</span> features:"
 msgstr ""
+"Dưới đây là một số ví dụ về hồ sơ từ các nhà phát triển của chúng tôi để "
+"giúp bạn có thêm ý tưởng về cách sử dụng tính năng mạnh mẽ này của KOReader. "
+"Các ví dụ cũng bao gồm các điều kiện tự động thực thi và tính năng <span "
+"class=\"ui\">bộ sưu tập</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4552-5
 msgid ""
 "Enable <b>two columns mode</b> when you turn your device to landscape "
 "orientation."
-msgstr ""
+msgstr "Bật <b>chế độ hai cột</b> khi bạn xoay thiết bị sang hướng ngang."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4553-5
 msgid "Enable <b>night mode</b> when you turn your device upside down."
-msgstr ""
+msgstr "Bật <b>chế độ ban đêm</b> khi bạn xoay thiết bị ngược xuống."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4554-5
 msgid ""
@@ -12000,6 +12230,9 @@ msgid ""
 "page turn direction to <b>Right-To-Left</b> and inverts the page turn taps "
 "and swipes when you open a manga book from this collection."
 msgstr ""
+"Thêm tất cả manga của bạn vào một bộ sưu tập. Sau đó tạo một hồ sơ để chuyển "
+"hướng lật trang sang <b>Từ-phải-sang-trái</b> và đảo ngược thao tác chạm "
+"cùng vuốt lật trang khi bạn mở một cuốn manga từ bộ sưu tập này."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4555-5
 msgid ""
@@ -12007,12 +12240,17 @@ msgid ""
 "decrease the screen refresh interval to <span class=\"ui\">every page</span> "
 "to avoid ghosting."
 msgstr ""
+"Thêm truyện tranh của bạn vào một bộ sưu tập, bộ sưu tập này có thể kích "
+"hoạt một hồ sơ để giảm khoảng thời gian làm mới màn hình xuống <span "
+"class=\"ui\">mỗi trang</span> nhằm tránh hiện tượng bóng mờ."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4556-5
 msgid ""
 "Trigger a profile to adjust typeface, font size and set two-column mode when "
 "opening a file for the first time from the <b>Periodicals</b> folder."
 msgstr ""
+"Kích hoạt một hồ sơ để điều chỉnh kiểu chữ, cỡ chữ và bật chế độ hai cột khi "
+"mở một tệp lần đầu tiên từ thư mục <b>Định kỳ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4557-5
 msgid ""
@@ -12020,18 +12258,25 @@ msgid ""
 "class=\"ui\">Auto OCR</span> or <span class=\"ui\">Reflow mode</span> is "
 "activated with a profile."
 msgstr ""
+"Thêm các tệp PDF gặp vấn đề của bạn vào một bộ sưu tập, để khi bạn mở chúng "
+"thì <span class=\"ui\">Tự động OCR</span> hoặc <span class=\"ui\">Chế độ tái "
+"dòng</span> sẽ được kích hoạt bằng một hồ sơ."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4558-5
 msgid ""
 "Switch display mode (covers, detailed list etc.) of <span class=\"ui\">file "
 "browser</span> when you enter certain folders."
 msgstr ""
+"Chuyển chế độ hiển thị (bìa, danh sách chi tiết, v.v.) của <span "
+"class=\"ui\">trình duyệt tệp</span> khi bạn vào một số thư mục nhất định."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4559-5
 msgid ""
 "Toggle off reading statistics when opening a book from a <b>Reference Books</"
 "b> collection. Toggle statistics back on when closing the book."
 msgstr ""
+"Tắt thống kê đọc khi mở một cuốn sách từ bộ sưu tập <b>Sách tham khảo</b>. "
+"Bật lại thống kê khi đóng sách."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4560-5
 msgid ""
@@ -12042,27 +12287,38 @@ msgid ""
 "collection or by a keyword in the metadata of the book. See the <a "
 "href=\"#L2-styletweaks\">style tweaks</a> section of the guide for more info."
 msgstr ""
+"Nếu bạn hiển thị <span class=\"ui\">tinh chỉnh kiểu dáng</span> trong trình "
+"quản lý cử chỉ, bạn có thể tạo một hồ sơ để bật hoặc tắt chúng dựa trên một "
+"số điều kiện nhất định. Ví dụ, bạn có thể kích hoạt hồ sơ <b>\"tắt kiểu dáng "
+"của nhà xuất bản VÀ áp dụng tinh chỉnh kiểu dáng của tôi\"</b> dựa trên vị "
+"trí/bộ sưu tập của sách hoặc bằng một từ khóa trong siêu dữ liệu của sách. "
+"Xem phần <a href=\"#L2-styletweaks\">tinh chỉnh kiểu dáng</a> trong hướng "
+"dẫn để biết thêm thông tin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4564-1
 msgid "Technical details of Profiles and Quick Menu"
-msgstr ""
+msgstr "Chi tiết kỹ thuật của Profiles và Quick Menu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4566-9
 msgctxt "user_guide/en.html+html.body.div.p:4566-9"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! NÂNG CAO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4568-9
 msgid ""
 "In KOReader we have <b>a set of actions/settings</b> and this set can be "
 "created in two ways:"
 msgstr ""
+"Trong KOReader chúng ta có <b>một tập hợp hành động/cài đặt</b> và tập hợp "
+"này có thể được tạo theo hai cách:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4572-13
 msgid ""
 "As a profile (which is explained as the <span class=\"ui\">Advanced Method</"
 "span> and stored in <span class=\"ui\">settings/profiles.lua</span>)"
 msgstr ""
+"Dưới dạng hồ sơ (được giải thích là <span class=\"ui\">Phương pháp nâng cao</"
+"span> và được lưu trong <span class=\"ui\">settings/profiles.lua</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4573-13
 msgid ""
@@ -12070,20 +12326,25 @@ msgid ""
 "class=\"ui\">Easy Method</span> and stored in <span class=\"ui\">settings/"
 "gestures.lua)</span>"
 msgstr ""
+"Dưới dạng danh sách các hành động được gán cho một cử chỉ (được giải thích "
+"là <span class=\"ui\">Phương pháp dễ dàng</span> và được lưu trong <span "
+"class=\"ui\">settings/gestures.lua</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4576-9
 msgid "This set can also be <b>executed</b> in two different ways:"
-msgstr ""
+msgstr "Tập hợp này cũng có thể được <b>thực thi</b> theo hai cách khác nhau:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4578-13
 msgid ""
 "Applying each action in the (sorted) order when triggered (as a <span "
 "class=\"ui\">Profile</span>)"
 msgstr ""
+"Áp dụng từng hành động theo thứ tự (đã sắp xếp) khi được kích hoạt (dưới "
+"dạng <span class=\"ui\">Hồ sơ</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4579-13
 msgid "Showing it as a <span class=\"ui\">Quick Menu</span>"
-msgstr ""
+msgstr "Hiển thị dưới dạng <span class=\"ui\">Trình đơn nhanh</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4582-9
 msgid ""
@@ -12107,6 +12368,9 @@ msgid ""
 "profiles to another device. Please see <a href=\"#backup\">Backup your "
 "KOReader settings</a> section."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Bạn có thể sao lưu và chuyển hồ "
+"sơ của mình sang thiết bị khác. Vui lòng xem phần <a href=\"#backup\">Sao "
+"lưu cài đặt KOReader</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4591-9
 msgctxt "user_guide/en.html:L1-plugins"
@@ -12124,34 +12388,39 @@ msgid ""
 "which extends the capabilities of the base program. KOReader has 3 "
 "categories of plugins:"
 msgstr ""
+"Plugin là những chương trình nhỏ trong KOReader, tương tự như tiện ích bổ "
+"sung của trình duyệt, giúp mở rộng khả năng của chương trình gốc. KOReader "
+"có 3 loại plugin:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4597-9
 msgid "Internal"
-msgstr ""
+msgstr "nội bộ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4598-9
 msgid "Internal plugins are part of the core program."
-msgstr ""
+msgstr "Plugin nội bộ là một phần của chương trình lõi."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4602-13
 msgid "They are directly accessible from the KOReader plugins menu."
-msgstr ""
+msgstr "Chúng có thể được truy cập trực tiếp từ trình đơn plugin của KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4603-13
 msgid "They <b>don’t need</b> installation. You can enable them from the menu."
-msgstr ""
+msgstr "Chúng <b>không cần</b> cài đặt. Bạn có thể bật chúng từ trình đơn."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4604-13
 msgid "They are checked by our developers so they are <b>considered safe</b>."
 msgstr ""
+"Chúng được các nhà phát triển của chúng tôi kiểm tra nên được <b>xem là an "
+"toàn</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4605-13
 msgid "They are <b>automatically updated</b> when you update KOReader."
-msgstr ""
+msgstr "Chúng sẽ được <b>tự động cập nhật</b> khi bạn cập nhật KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4608-9
 msgid "You can enable/disable them via:"
-msgstr ""
+msgstr "Bạn có thể bật/tắt chúng thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4610-9
 msgctxt "user_guide/en.html+html.body.div.div:4610-9"
@@ -12164,18 +12433,20 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4614-9
 msgid "Contrib"
-msgstr ""
+msgstr "cộng đồng"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4615-9
 msgctxt "user_guide/en.html+html.body.div.p:4615-9"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! NÂNG CAO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4617-9
 msgid ""
 "This group contains non-official plugins which are not part of the core "
 "logic of KOReader."
 msgstr ""
+"Nhóm này bao gồm các plugin không chính thức, không phải là một phần của "
+"logic lõi của KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4621-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4621-13"
@@ -12196,6 +12467,8 @@ msgid ""
 "They are checked by our developers <b>at the time they were added to our "
 "repository</b> so they are considered safe."
 msgstr ""
+"Chúng được các nhà phát triển của chúng tôi kiểm tra <b>tại thời điểm chúng "
+"được thêm vào kho lưu trữ</b> nên được xem là an toàn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4626-9
 msgid ""
@@ -12205,20 +12478,25 @@ msgid ""
 "class=\"ui\">koreader/plugins</span> folder on your device. But please check "
 "the plugin’s page for other possible instructions."
 msgstr ""
+"Bạn có thể truy cập chúng từ <a href=\"https://github.com/koreader/contrib\">"
+"trang này</a>. Thông thường, chúng được cài đặt bằng cách tải về thư mục của "
+"plugin từ trang trên và sao chép vào thư mục <span class=\"ui\">koreader/"
+"plugins</span> trên thiết bị của bạn. Tuy nhiên, vui lòng kiểm tra trang của "
+"plugin để biết thêm các hướng dẫn khác có thể có."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4631-9
 msgid "External"
-msgstr ""
+msgstr "Bên ngoài"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4632-9
 msgctxt "user_guide/en.html+html.body.div.p:4632-9"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! NÂNG CAO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4633-9
 msgid ""
 "These are plugins that are developed independently from the KOReader team."
-msgstr ""
+msgstr "Đây là các plugin được phát triển độc lập với nhóm KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4637-13
 msgctxt "user_guide/en.html+html.body.div.ul.li:4637-13"
@@ -12239,6 +12517,8 @@ msgid ""
 "They are <b>NOT</b> checked by our developers so be aware that there might "
 "be risks using them."
 msgstr ""
+"Chúng <b>KHÔNG</b> được các nhà phát triển của chúng tôi kiểm tra, vì vậy "
+"hãy lưu ý rằng có thể có rủi ro khi sử dụng chúng."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4642-9
 msgid ""
@@ -12255,6 +12535,10 @@ msgid ""
 "this plugin to simplify, explain, discuss or translate text to other "
 "languages."
 msgstr ""
+"<a href=\"https://github.com/drewbaumann/AskGPT\">Plugin AskGPT:</a> Bạn có "
+"thể đặt câu hỏi cho <b>ChatGPT</b> về các phần trong sách của mình. Bạn cũng "
+"có thể dùng plugin này để đơn giản hóa, giải thích, thảo luận hoặc dịch văn "
+"bản sang các ngôn ngữ khác."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4646-13
 msgid ""
@@ -12262,6 +12546,10 @@ msgid ""
 "Helper plugin:</a> A fork of the plugin above with more advanced features "
 "like multiple AI providers and built-in/custom prompts."
 msgstr ""
+"<a href=\"https://github.com/omer-faruq/assistant.koplugin\">Assistant: "
+"Plugin Trợ lý AI:</a> Một nhánh (fork) của plugin ở trên với các tính năng "
+"nâng cao hơn như hỗ trợ nhiều nhà cung cấp AI và các prompt tích hợp/tùy "
+"chỉnh."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4648-13
 msgid ""
@@ -12269,6 +12557,9 @@ msgid ""
 "KOReader plugin enabling <b>Anki</b> (an open-source flashcard software) "
 "card generations for words looked up in the internal dictionary."
 msgstr ""
+"<a href=\"https://github.com/Ajatt-Tools/anki.koplugin\">Plugin Anki:</a> "
+"Plugin KOReader cho phép tạo thẻ <b>Anki</b> (phần mềm flashcard mã nguồn "
+"mở) cho các từ được tra cứu trong từ điển nội bộ."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4650-13
 msgid ""
@@ -12276,6 +12567,9 @@ msgid ""
 "This addon allows you to browse your <span class=\"external\">Zotero</span> "
 "(an open-source reference management software) collections from KOReader."
 msgstr ""
+"<a href=\"https://github.com/stelzch/zotero.koplugin\">Plugin Zotero:</a> "
+"Tiện ích này cho phép bạn duyệt các bộ sưu tập <span class=\"external\">"
+"Zotero</span> (phần mềm quản lý tài liệu tham khảo mã nguồn mở) từ KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4652-13
 msgid ""
@@ -12285,6 +12579,12 @@ msgid ""
 "work on other devices according to the author). This makes it possible to "
 "sync files between your e-reader and computer/phone automatically."
 msgstr ""
+"<a href=\"https://github.com/jasonchoimtt/koreader-syncthing\">Plugin "
+"Syncthing:</a> Tiện ích này cho phép bạn chạy chương trình đồng bộ tệp ngang "
+"hàng <b>Syncthing</b> trên KOReader (chỉ được thử nghiệm trên thiết bị Kobo "
+"nhưng theo tác giả có thể hoạt động trên các thiết bị khác). Điều này giúp "
+"bạn có thể đồng bộ tệp giữa máy đọc sách và máy tính/điện thoại của mình một "
+"cách tự động."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4655-9
 msgid ""
@@ -12292,6 +12592,10 @@ msgid ""
 "q=koplugin&type=repositories\">this link</a> to open a search page on <span "
 "class=\"external\">Github</span> to discover more KOReader plugin projects."
 msgstr ""
+"Bạn cũng có thể nhấp vào <a href=\"https://github.com/"
+"search?q=koplugin&type=repositories\">liên kết này</a> để mở trang tìm kiếm "
+"trên <span class=\"external\">Github</span> và khám phá thêm các dự án "
+"plugin KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4659-9
 msgctxt "user_guide/en.html:L2-pluginslist"
@@ -12329,6 +12633,8 @@ msgid ""
 "<b> Autosuspend </b> - Suspend device after chosen period of inactivity "
 "(available on all e-ink devices except android os)"
 msgstr ""
+"<b> Tự động treo </b> - Treo thiết bị sau khoảng thời gian không hoạt động "
+"đã chọn (có sẵn trên tất cả thiết bị e-ink ngoại trừ hệ điều hành Android)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4665-9
 msgid ""
@@ -12373,46 +12679,61 @@ msgid ""
 "<b> Cover browser </b> - Allows cover display modes for file browser and "
 "history"
 msgstr ""
+"<b> Trình duyệt bìa </b> - Cho phép các chế độ hiển thị bìa trong trình "
+"duyệt tệp và lịch sử"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4671-9
 msgid ""
 "<b> Cover image </b> - Saves the cover image of the current book as a file "
 "(available on Android/PocketBook/reMarkable devices)"
 msgstr ""
+"<b> Hình bìa </b> - Lưu hình bìa của sách hiện tại dưới dạng tệp (có sẵn "
+"trên các thiết bị Android/PocketBook/reMarkable)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4672-9
 msgid ""
 "<b> Export highlights </b> - Export highlights and notes to local files or "
 "to Joplin (a note taking application)"
 msgstr ""
+"<b> Xuất nổi bật </b> - Xuất các đoạn nổi bật và ghi chú ra tệp cục bộ hoặc "
+"sang Joplin (một ứng dụng ghi chú)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4673-9
 msgid ""
 "<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) "
 "of highlight from your library"
 msgstr ""
+"<b> Trình huấn luyện thẻ nhớ </b> - Hiển thị thẻ nhớ bằng cách sử dụng "
+"phương pháp lặp lại ngắt quãng (SM2) từ các đoạn nổi bật trong thư viện của "
+"bạn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4674-9
 msgid "<b> Gestures </b> - Provide gesture support for KOReader"
-msgstr ""
+msgstr "<b> Cử chỉ </b> - Cung cấp hỗ trợ thao tác bằng cử chỉ cho KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4675-3
 msgid ""
 "<b>HTTP Inspector</b> - Allows you to control your device from another "
 "device over wifi - <b>See below for more info</b>"
 msgstr ""
+"<b>HTTP Inspector</b> - Cho phép bạn điều khiển thiết bị của mình từ một "
+"thiết bị khác qua wifi - <b>Xem thêm thông tin bên dưới</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4676-9
 msgid ""
 "<b> Japanese support </b> - Japanese language support for KOReader that "
 "extends built-in dictionary and selection system"
 msgstr ""
+"<b> Hỗ trợ tiếng Nhật </b> - Hỗ trợ ngôn ngữ tiếng Nhật cho KOReader, mở "
+"rộng từ điển tích hợp và hệ thống chọn văn bản"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4677-9
 msgid ""
 "<b> Keep alive </b> - Keeps the device awake to prevent automatic WiFi "
 "disconnects"
 msgstr ""
+"<b> Duy trì hoạt động </b> - Giữ thiết bị luôn bật để tránh việc WiFi tự "
+"động ngắt kết nối"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4678-9
 msgid "<b> Move to archive </b> - Moves current document to archive folder"
@@ -12426,6 +12747,9 @@ msgid ""
 "them as HTML files. Check our <a href=\"https://github.com/koreader/koreader/"
 "wiki/News-downloader\">wiki page</a> for how-to."
 msgstr ""
+"<b> Trình tải tin tức </b> - Lấy các mục tin tức từ RSS và Atom và lưu chúng "
+"dưới dạng tệp HTML. Xem <a href=\"https://github.com/koreader/koreader/wiki/"
+"News-downloader\">trang wiki</a> của chúng tôi để biết cách thực hiện."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4680-9
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
@@ -12438,6 +12762,10 @@ msgid ""
 "youtu.be/jeOHqI9SqOI?t=137\">How to Triple Your Reading Speed in 20 Minutes "
 "(Tim Ferriss)</a>"
 msgstr ""
+"<b> Mở rộng nhận thức </b> - Cho phép sử dụng tầm nhìn ngoại vi để đọc nhanh "
+"hơn. Xem video YouTube này để biết cách hoạt động: <a href=\"https://"
+"youtu.be/jeOHqI9SqOI?t=137\">Cách tăng gấp ba tốc độ đọc trong 20 phút (Tim "
+"Ferriss)</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4682-9
 msgid ""
@@ -12453,6 +12781,9 @@ msgid ""
 "KOReader devices. Check our <a href=\"https://github.com/koreader/koreader/"
 "wiki/Progress-sync\">wiki page</a> for how-to."
 msgstr ""
+"<b> Đồng bộ tiến trình </b> - Đồng bộ tiến trình đọc của bạn trên các thiết "
+"bị KOReader khác nhau. Xem <a href=\"https://github.com/koreader/koreader/"
+"wiki/Progress-sync\">trang wiki</a> của chúng tôi để biết cách thực hiện."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4685-9
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
@@ -12463,12 +12794,16 @@ msgid ""
 "<b> Read timer </b> - A countdown timer to display a message after a user "
 "defined time"
 msgstr ""
+"<b> Hẹn giờ đọc </b> - Bộ đếm ngược để hiển thị thông báo sau khoảng thời "
+"gian do người dùng xác định"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4687-9
 msgid ""
 "<b> Reading statistics </b> - Calculates reading sessions statistics and "
 "reading speed for use in chapter/book remaining time estimations"
 msgstr ""
+"<b> Thống kê đọc </b> - Tính toán thống kê các phiên đọc và tốc độ đọc để "
+"ước lượng thời gian còn lại của chương/sách"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4688-9
 msgid ""
@@ -12477,12 +12812,18 @@ msgid ""
 "our <a href=\"https://github.com/koreader/koreader/wiki/SSH\">wiki page</a> "
 "for how-to."
 msgstr ""
+"<b> SSH </b> - Cho phép truy cập vào thiết bị của bạn qua giao thức SSH. Bạn "
+"có thể truy cập bằng các ứng dụng FTP hoặc thậm chí bằng trình quản lý tệp "
+"nếu được hỗ trợ. Xem <a href=\"https://github.com/koreader/koreader/wiki/"
+"SSH\">trang wiki</a> của chúng tôi để biết cách thực hiện."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4689-9
 msgid ""
 "<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this "
 "plugin under:"
 msgstr ""
+"<b> Thống kê hệ thống </b> - Bạn có thể xem thông tin CPU/RAM/PIN của mình "
+"thông qua plugin này tại:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4690-9
 msgctxt "user_guide/en.html+html.body.div.div:4690-9"
@@ -12498,22 +12839,30 @@ msgid ""
 "<b> Terminal emulator </b> - Starts a shell (command prompt) on your device "
 "that can run full terminal apps"
 msgstr ""
+"<b> Trình giả lập terminal </b> - Khởi chạy một shell (dòng lệnh) trên thiết "
+"bị của bạn có thể chạy đầy đủ các ứng dụng terminal"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4692-9
 msgid ""
 "<b> Text editor </b> - A basic text editor to create and edit plain text "
 "files"
 msgstr ""
+"<b> Trình soạn thảo văn bản </b> - Trình soạn thảo văn bản cơ bản để tạo và "
+"chỉnh sửa các tệp văn bản thuần túy"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4693-9
 msgid "<b> Time sync </b> - Synchronizes the device time with NTP servers"
 msgstr ""
+"<b> Đồng bộ thời gian </b> - Đồng bộ thời gian của thiết bị với các máy chủ "
+"NTP"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4694-9
 msgid ""
 "<b> Tweak document settings </b> - Allows tweaking settings of a document "
 "before it is loaded based on external factors"
 msgstr ""
+"<b> Tùy chỉnh thiết lập tài liệu </b> - Cho phép điều chỉnh các thiết lập "
+"của tài liệu trước khi được tải dựa trên các yếu tố bên ngoài"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4695-9
 msgid ""
@@ -12521,15 +12870,19 @@ msgid ""
 "individual EPUB files. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/Wallabag\">wiki page</a> for more info."
 msgstr ""
+"<b> Wallabag </b> - Tải về các bài viết mới nhất từ máy chủ Wallabag dưới "
+"dạng các tệp EPUB riêng lẻ. Xem <a href=\"https://github.com/koreader/"
+"koreader/wiki/Wallabag\">trang wiki</a> của chúng tôi để biết thêm thông tin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4697-3
 msgid "Controlling your reader from another device - HTTP Inspector Plugin"
 msgstr ""
+"<b> Điều khiển thiết bị đọc từ thiết bị khác </b> - Plugin HTTP Inspector"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4699-3
 msgctxt "user_guide/en.html+html.body.div.p:4699-3"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! NÂNG CAO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4702-3
 msgid ""
@@ -12539,28 +12892,41 @@ msgid ""
 "control your reader device. But be aware of these points when using this "
 "plugin:"
 msgstr ""
+"Plugin này cho phép bạn điều khiển thiết bị của mình từ một thiết bị khác "
+"qua wifi. Nó hoạt động bằng cách chạy một máy chủ HTTP đơn giản trên thiết "
+"bị, cung cấp một trang chứa các điều khiển của KOReader. Bạn có thể truy cập "
+"trang này qua mạng và điều khiển thiết bị đọc của mình. Nhưng hãy lưu ý "
+"những điểm sau khi sử dụng plugin này:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4705-4
 msgid "This is an experimental plugin so <b>use this at your own risk</b>"
 msgstr ""
+"Đây là một plugin thử nghiệm nên <b>hãy tự chịu trách nhiệm khi sử dụng</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4706-4
 msgid ""
 "This plugin is enabled by default, but the server is <b>NOT</b> started by "
 "default. You can start it manually or set it to <b>auto start</b>."
 msgstr ""
+"Plugin này được bật theo mặc định, nhưng máy chủ <b>KHÔNG</b> được khởi động "
+"theo mặc định. Bạn có thể khởi động thủ công hoặc đặt chế độ <b>tự động khởi "
+"động</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4707-4
 msgid ""
 "You should run this plugin <b>only on trusted networks</b>, as it is highly "
 "insecure (no HTTPS, no access restriction, no authentication)"
 msgstr ""
+"Bạn chỉ nên chạy plugin này <b>trên các mạng đáng tin cậy</b>, vì nó rất "
+"thiếu an toàn (không có HTTPS, không có giới hạn truy cập, không có xác thực)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4710-3
 msgid ""
 "You can read an example use case for this plugin on the <a href=\"https://"
 "www.mobileread.com/forums/showthread.php?t=359837\">MobileRead forum</a>"
 msgstr ""
+"Bạn có thể đọc một ví dụ về cách sử dụng plugin này trên <a href=\"https://"
+"www.mobileread.com/forums/showthread.php?t=359837\">diễn đàn MobileRead</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4714-9
 msgctxt "user_guide/en.html:L2-userpatches"
@@ -12570,7 +12936,7 @@ msgstr "Bản vá người dùng"
 #: user_guide/en.html%2Bhtml.body.div.p:4716-3
 msgctxt "user_guide/en.html+html.body.div.p:4716-3"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! NÂNG CAO"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4718-9
 msgid ""
@@ -12580,6 +12946,11 @@ msgid ""
 "one yourself (if you have the necessary extensive knowledge about the "
 "KOReader internals)."
 msgstr ""
+"Các bản vá do người dùng tạo là những tệp nhỏ được viết bằng ngôn ngữ <b>"
+"Lua</b>. Chúng có thể thay đổi chức năng của KOReader mà không cần chỉnh sửa "
+"cài đặt của bạn một cách vĩnh viễn. Các bản vá này có thể được viết bởi nhà "
+"phát triển, những người dùng khác hoặc chính bạn (nếu bạn có đủ kiến thức "
+"chuyên sâu về nội bộ KOReader)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4721-9
 msgid ""
@@ -12590,10 +12961,16 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/issues?"
 "q=+label%3A%22User+patch+available%22\">link</a>."
 msgstr ""
+"Bạn có thể tìm danh sách hiện tại các <span class=\"ui\">bản vá do người "
+"dùng tạo</span> trong <a href=\"https://github.com/koreader/koreader/wiki/"
+"User-patches\">wiki</a> của chúng tôi và trong <b>danh sách GitHub issues</"
+"b> được đánh dấu với thẻ <span class=\"ui\">User patch available</span>. Bạn "
+"có thể xem chúng bằng cách theo liên kết này <a href=\"https://github.com/"
+"koreader/koreader/issues?q=+label%3A%22User+patch+available%22\">link</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4724-9
 msgid "Basic usage – Adding an already written patch to your KOReader:"
-msgstr ""
+msgstr "Sử dụng cơ bản – Thêm một bản vá đã được viết sẵn vào KOReader của bạn:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4727-13
 msgid ""
@@ -12601,12 +12978,17 @@ msgid ""
 "class=\"ui\">koreader directory</span> on your device (On Android this "
 "folder is located on the SD-card)"
 msgstr ""
+"Tạo một thư mục có tên <span class=\"ui\">patches</span> bên trong <span "
+"class=\"ui\">thư mục koreader</span> trên thiết bị của bạn (Trên Android, "
+"thư mục này nằm trên thẻ SD)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4728-13
 msgid ""
 "Download and put the patch file with <b>.lua</b> extension in this <span "
 "class=\"ui\">patches</span> directory"
 msgstr ""
+"Tải xuống và đặt tệp bản vá với phần mở rộng <b>.lua</b> vào thư mục <span "
+"class=\"ui\">patches</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4729-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:4729-13"
@@ -12615,7 +12997,7 @@ msgstr "Khởi động lại KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4733-9
 msgid "Patch manager"
-msgstr ""
+msgstr "Trình quản lý bản vá"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4735-9
 msgid ""
@@ -12625,10 +13007,15 @@ msgid ""
 "of your user patches and enable/disable them. You can tap <span "
 "class=\"ui\">About patch manager</span> menu item to see more info."
 msgstr ""
+"Khi bạn tạo thư mục patches như đã hướng dẫn, một plugin mới có tên <span "
+"class=\"ui\">Patch Management</span> sẽ xuất hiện trong menu plugin sau khi "
+"khởi động lại KOReader. Với plugin này, bạn có thể xem danh sách và trạng "
+"thái của các bản vá do người dùng tạo và bật/tắt chúng. Bạn có thể chạm vào "
+"mục menu <span class=\"ui\">About patch manager</span> để xem thêm thông tin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4737-9
 msgid "Naming the patch"
-msgstr ""
+msgstr "Đặt tên cho bản vá"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4739-9
 msgid ""
@@ -12639,44 +13026,56 @@ msgid ""
 "&lt;10010)</b>. If you are just downloading an already made patch you don’t "
 "need to change the file name."
 msgstr ""
+"Thứ tự thực thi của một bản vá được xác định bởi chữ số đầu tiên trong tên "
+"bản vá. Ví dụ: <span class=\"ui\">2-TOC-title-patch.lua</span>. Nếu có nhiều "
+"bản vá bắt đầu bằng cùng một chữ số, thứ tự thực thi sẽ theo thứ tự tăng dần "
+"<b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>. Nếu bạn chỉ "
+"tải xuống một bản vá đã được viết sẵn thì không cần thay đổi tên tệp."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4741-9
 msgid "Names starting with:"
-msgstr ""
+msgstr "Tên bắt đầu với:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4744-13
 msgid "<b>0</b> - Executed very early and only once after an update"
-msgstr ""
+msgstr "<b>0</b> - Được thực thi rất sớm và chỉ một lần sau khi cập nhật"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4745-13
 msgid ""
 "<b>1</b> - Excuted very early on every start of KOReader (but after 0 if "
 "applicable)"
 msgstr ""
+"<b>1</b> - Được thực thi rất sớm mỗi khi KOReader khởi động (nhưng sau 0 nếu "
+"có áp dụng)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4746-13
 msgid ""
 "<b>2</b> - Executed after <span class=\"ui\">UIManager</span> is ready on "
 "every start of KOReader"
 msgstr ""
+"<b>2</b> - Được thực thi sau khi <span class=\"ui\">UIManager</span> sẵn "
+"sàng mỗi khi KOReader khởi động"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4747-13
 msgid "<b>3-7</b> - Reserved"
-msgstr ""
+msgstr "<b>3-7</b> - Dành riêng"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4748-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
 msgstr ""
+"<b>8</b> - Được thực thi trước khi thoát và trước khi các thiết lập được lưu"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4749-13
 msgid "<b>9</b> - Executed right before exit"
-msgstr ""
+msgstr "<b>9</b> - Được thực thi ngay trước khi thoát"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4752-9
 msgid ""
 "If you have a problem with a user patch, you can revert to your previous "
 "configuration by removing the patch file."
 msgstr ""
+"Nếu bạn gặp sự cố với một bản vá do người dùng tạo, bạn có thể quay lại cấu "
+"hình trước đó bằng cách xóa tệp bản vá."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4757-1
 msgctxt "user_guide/en.html:L1-tips"
@@ -12689,9 +13088,7 @@ msgstr "Mẹo đọc"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4762-1
 msgid "Switching between documents quickly"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and Gestures → Links → Tap to follow links"
+msgstr "Chuyển đổi nhanh giữa các tài liệu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4763-1
 msgid ""
@@ -12704,6 +13101,13 @@ msgid ""
 "<b>Alt+Tab</b> feature on the desktop computers. You can find this feature "
 "under:"
 msgstr ""
+"Nếu bạn cần chuyển đổi giữa hai tài liệu (ví dụ khi so sánh chúng), có một "
+"cách nhanh hơn thay vì phải đi qua <span class=\"ui\">Trình duyệt tệp</span>"
+". KOReader có thể mở tài liệu cuối cùng bằng một thao tác cử chỉ (<b><span "
+"style=\"font-family: microns;\"></span> multiswipe</b>). Nếu bạn định "
+"nghĩa hành động của cử chỉ là <span class=\"ui\">Mở tài liệu trước đó</span>"
+", bạn có thể chuyển đổi nhanh giữa hai tài liệu tương tự như tính năng <b>"
+"Alt+Tab</b> trên máy tính để bàn. Bạn có thể tìm thấy tính năng này trong:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4765-1
 msgid ""
@@ -12722,14 +13126,19 @@ msgid ""
 "style=\"font-family: microns;\"></span> multiswipe gesture. You can also "
 "define any other gesture for this of course."
 msgstr ""
+"Bạn cũng có thể sử dụng hộp thoại <span class=\"ui\">Lịch sử</span> để "
+"chuyển đổi nhanh giữa các tài liệu. Màn hình lịch sử có thể được mở bằng "
+"thao tác cử chỉ multiswipe <span style=\"font-family: microns;\"></span>. "
+"Tất nhiên, bạn cũng có thể định nghĩa bất kỳ cử chỉ nào khác cho thao tác "
+"này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4769-1
 msgid "Changing your book cover"
-msgstr ""
+msgstr "Thay đổi bìa sách của bạn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4770-1
 msgid "You can change your book cover from this menu:"
-msgstr ""
+msgstr "Bạn có thể thay đổi bìa sách của mình từ menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4772-1
 msgid ""
@@ -12737,10 +13146,13 @@ msgid ""
 "style=\"width:22px;\"> / Book information / <img class=\"img_inline\" "
 "src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Set cover image"
 msgstr ""
+"MENU CHÍNH / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Thông tin sách / <img class=\"img_inline\" "
+"src=\"pictures/top_hamburger.svg\" style=\"width:22px;\"> / Đặt ảnh bìa"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4774-1
 msgid "Custom book cover from a screenshot"
-msgstr ""
+msgstr "Tùy chỉnh bìa sách từ ảnh chụp màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4775-5
 msgid ""
@@ -12749,6 +13161,10 @@ msgid ""
 "suitable for e-ink (too light or dark). Or you prefer to set some image from "
 "the book as cover."
 msgstr ""
+"Một số sách không đi kèm với bìa sách đúng chuẩn. Hoặc bìa của chúng nằm ở "
+"trang thứ hai nên không hiển thị đúng cách. Hoặc có thể bìa không phù hợp "
+"với màn hình e-ink (quá sáng hoặc quá tối). Hoặc bạn muốn đặt một hình ảnh "
+"nào đó từ trong sách làm bìa."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4778-5
 msgid ""
@@ -12759,10 +13175,16 @@ msgid ""
 "taking your screenshot you can select <span class=\"ui\">Set as book cover</"
 "span> from the dialog."
 msgstr ""
+"Trong những tình huống như vậy, bạn có thể nhanh chóng chụp ảnh màn hình và "
+"đặt nó làm bìa cho sách hiện tại. Cử chỉ chụp màn hình mặc định là <b>vuốt "
+"chéo dài</b>. Ngoài ra, <b>chạm vào hai góc chéo đối diện</b> cũng sẽ chụp "
+"ảnh màn hình. Bạn có thể dùng phím tắt thứ hai này khi đang xem một hình "
+"ảnh. Sau khi chụp ảnh màn hình, bạn có thể chọn <span class=\"ui\">Đặt làm "
+"bìa sách</span> từ hộp thoại."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4780-5
 msgid "You can remove this custom book cover here:"
-msgstr ""
+msgstr "Bạn có thể xóa bìa sách tùy chỉnh tại đây:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4782-5
 msgctxt "user_guide/en.html+html.body.div.div:4782-5"
@@ -12770,7 +13192,7 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information"
 msgstr ""
-"MENU HÀNG ĐẦU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"MENU CHÍNH / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Thông tin sách"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4784-5
@@ -12778,6 +13200,8 @@ msgid ""
 "On the book information page, long-press on the <span class=\"ui\">Cover "
 "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgstr ""
+"Trên trang thông tin sách, hãy nhấn giữ vào mục <span class=\"ui\">Ảnh bìa</"
+"span> rồi chọn <span class=\"ui\">Đặt lại tùy chỉnh</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4786-5
 msgid ""
@@ -12803,7 +13227,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4792-1
 msgid "Avoiding opening links accidentally"
-msgstr ""
+msgstr "Tránh mở liên kết một cách vô tình"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4793-1
 msgid ""
@@ -12811,6 +13235,9 @@ msgid ""
 "turning the page or using other gestures, you can turn off <span "
 "class=\"ui\">Following links by tapping</span> via this menu item:"
 msgstr ""
+"Nếu tài liệu của bạn có liên kết và bạn vô tình chạm vào chúng khi lật trang "
+"hoặc sử dụng các cử chỉ khác, bạn có thể tắt <span class=\"ui\">Theo liên "
+"kết bằng cách chạm</span> thông qua mục menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4795-1
 msgid ""
@@ -12829,10 +13256,15 @@ msgid ""
 "enable <span class=\"ui\">Allow larger tap area around links</span> from the "
 "same menu."
 msgstr ""
+"Sau khi tắt thiết lập này, để theo liên kết bạn cần nhấn giữ vào liên kết và "
+"chọn <span class=\"ui\">Theo liên kết</span> từ menu bật lên. Nếu bạn gặp "
+"vấn đề ngược lại và muốn việc chạm vào liên kết dễ dàng hơn, bạn có thể bật "
+"<span class=\"ui\">Cho phép vùng chạm lớn hơn quanh liên kết</span> từ cùng "
+"menu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4801-1
 msgid "Reading statistics after midnight"
-msgstr ""
+msgstr "Thống kê đọc sau nửa đêm"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4802-1
 msgid ""
@@ -12843,6 +13275,12 @@ msgid ""
 "<span class=\"ui\">Calendar view</span>; it does not apply to any of the "
 "other statistics reports. You can set this time at:"
 msgstr ""
+"Trong thống kê đọc, bạn có thể thay đổi thời điểm bắt đầu ngày được dùng cho "
+"việc tính toán. Điều này hữu ích nếu bạn đọc sau nửa đêm, ví dụ, và muốn "
+"phiên đọc của mình được tính là hôm nay thay vì ngày hôm sau. Thiết lập này "
+"chỉ áp dụng cho <span class=\"ui\">Chế độ xem dòng thời gian theo ngày</"
+"span> và tùy chọn cho <span class=\"ui\">Chế độ xem lịch</span>; nó không áp "
+"dụng cho bất kỳ báo cáo thống kê nào khác. Bạn có thể đặt thời gian này tại:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4804-1
 msgid ""
@@ -12856,17 +13294,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4809-1
 msgid "Device Tips"
-msgstr ""
+msgstr "Mẹo thiết bị"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4811-1
 msgid "Updating KOReader"
-msgstr ""
+msgstr "Cập nhật KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4812-5
 msgid ""
 "KOReader can update itself over Wi-Fi. You can trigger the check via this "
 "menu item:"
 msgstr ""
+"KOReader có thể tự cập nhật qua Wi-Fi. Bạn có thể kích hoạt việc kiểm tra "
+"thông qua mục menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4815-1
 msgid ""
@@ -12878,7 +13318,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4818-1
 msgid "Adding a password lock to KOReader"
-msgstr ""
+msgstr "Thêm khóa mật khẩu cho KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4819-5
 msgid ""
@@ -12887,12 +13327,19 @@ msgid ""
 "KOReader to keep the screensaver on the screen until you enter a chosen "
 "gesture. To achieve this:"
 msgstr ""
+"Trong KOReader không có tùy chọn trực tiếp cho việc này. Nhưng có một cách "
+"khắc phục để đạt được chức năng màn hình khóa tương tự. Bạn có thể thiết lập "
+"KOReader để giữ nguyên màn hình bảo vệ cho đến khi bạn nhập một cử chỉ đã "
+"chọn. Để thực hiện điều này:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4823-9
 msgid ""
 "Choose any gesture (including the complex ones with custom multiswipes) and "
 "make it your <b>\"unlock\"</b> gesture by going to:"
 msgstr ""
+"Chọn bất kỳ cử chỉ nào (bao gồm cả những cử chỉ phức tạp với thao tác vuốt "
+"nhiều lần tùy chỉnh) và đặt nó làm cử chỉ <b>\"mở khóa\"</b> của bạn bằng "
+"cách vào:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4824-13
 msgid ""
@@ -12906,7 +13353,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4826-9
 msgid "And then enable this option:"
-msgstr ""
+msgstr "Và sau đó bật tùy chọn này:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4827-13
 msgid ""
@@ -12921,13 +13368,16 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4833-5
 msgid "Automatic screen dimming"
-msgstr ""
+msgstr "Tự động làm mờ màn hình"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4834-9
 msgid ""
 "KOReader can dim your frontlight to preserve battery if your device is idle "
 "for a while. You can turn on and adjust this feature via:"
 msgstr ""
+"KOReader có thể làm mờ đèn trước để tiết kiệm pin nếu thiết bị của bạn không "
+"hoạt động trong một thời gian. Bạn có thể bật và điều chỉnh tính năng này "
+"thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4836-9
 msgid ""
@@ -12949,6 +13399,8 @@ msgid ""
 "If you want to know how many lines or words are being shown on the current "
 "page you can see it at:"
 msgstr ""
+"Nếu bạn muốn biết có bao nhiêu dòng hoặc từ đang được hiển thị trên trang "
+"hiện tại, bạn có thể xem tại:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-9
 msgctxt "user_guide/en.html+html.body.div.div:4842-9"
@@ -12961,7 +13413,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4846-5
 msgid "Optimizing your battery life"
-msgstr ""
+msgstr "Tối ưu hóa thời lượng pin"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4848-9
 msgid ""
@@ -12972,12 +13424,19 @@ msgid ""
 "means you start charging your device when the battery goes down to 20% and "
 "unplug when it reaches 80% (or 25%-75% if you are extra cautious)."
 msgstr ""
+"Pin Li-ion bị suy giảm nhiều hơn ở các mức sạc cực đoan. Để giảm thiểu sự "
+"suy giảm này và kéo dài tuổi thọ pin, bạn có thể giới hạn mức xả tối thiểu ở "
+"<b>20%</b> và mức sạc tối đa ở <b>80%</b> (như trong xe điện và một số điện "
+"thoại đời mới). Điều này có nghĩa là bạn bắt đầu sạc thiết bị khi pin giảm "
+"xuống 20% và rút sạc khi đạt 80% (hoặc 25%-75% nếu bạn cẩn thận hơn)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4850-9
 msgid ""
 "KOReader can warn you by showing an alert when charge level reaches your "
 "defined limits:"
 msgstr ""
+"KOReader có thể cảnh báo bạn bằng cách hiển thị thông báo khi mức pin đạt "
+"đến giới hạn mà bạn đã đặt:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4852-9
 msgid ""
@@ -12989,11 +13448,12 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4855-5
 msgid "Checking your battery consumption details"
-msgstr ""
+msgstr "Kiểm tra chi tiết mức tiêu thụ pin"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4856-9
 msgid "You can see your detailed battery usage statistics via this menu item:"
 msgstr ""
+"Bạn có thể xem thống kê chi tiết về mức sử dụng pin thông qua mục menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4858-9
 msgid ""
@@ -13005,13 +13465,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4860-9
 msgid "Checking detailed device statistics"
-msgstr ""
+msgstr "Kiểm tra chi tiết thống kê thiết bị"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4861-9
 msgid ""
 "You can see your system information like <b>CPU/DISK SPACE/RAM</b> usage via "
 "this menu item:"
 msgstr ""
+"Bạn có thể xem thông tin hệ thống của mình như mức sử dụng <b>CPU/DUNG LƯỢNG "
+"Ổ ĐĨA/RAM</b> thông qua mục menu này:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4863-9
 msgctxt "user_guide/en.html+html.body.div.div:4863-9"
@@ -13024,7 +13486,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4868-9
 msgid "Keeping an eye on your memory usage"
-msgstr ""
+msgstr "Theo dõi mức sử dụng bộ nhớ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4869-9
 msgid ""
@@ -13034,6 +13496,12 @@ msgid ""
 "indicator to your <span class=\"ui\">STATUS BAR</span> and restart KOReader "
 "if this value gets high, to avoid crashes or reboots."
 msgstr ""
+"Trên các thiết bị Kindle đời cũ, một số người dùng đã báo cáo tình trạng "
+"treo máy do bộ nhớ hạn chế. Mức sử dụng bộ nhớ của KOReader có thể tăng lên "
+"nếu bạn mở nhiều tệp trong cùng một phiên. Đặc biệt các tệp PDF làm tăng mức "
+"sử dụng này. Bạn có thể thêm chỉ báo bộ nhớ vào <span class=\"ui\">THANH "
+"TRẠNG THÁI</span> và khởi động lại KOReader nếu giá trị này tăng cao, để "
+"tránh treo hoặc khởi động lại thiết bị."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4871-9
 msgid ""
@@ -13048,6 +13516,8 @@ msgid ""
 "Also you can configure KOReader to restart automatically if memory usage "
 "reaches a threshold via:"
 msgstr ""
+"Bạn cũng có thể cấu hình KOReader để tự động khởi động lại nếu mức sử dụng "
+"bộ nhớ đạt đến một ngưỡng nhất định thông qua:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4874-9
 msgid ""
@@ -13069,14 +13539,18 @@ msgid ""
 "KOReader section of the <b>Mobileread</b> forum. Please see the <a "
 "href=\"#L1-reachus\">last section</a> of this guide for details."
 msgstr ""
+"Nếu bạn không tìm thấy giải pháp cho vấn đề của mình trong hướng dẫn này, "
+"bạn có thể mở một issue về nó trên trang <b>GitHub</b> của dự án hoặc đăng "
+"một bài viết trong mục KOReader của diễn đàn <b>Mobileread</b>. Vui lòng xem "
+"<a href=\"#L1-reachus\">phần cuối</a> của hướng dẫn này để biết chi tiết."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4887-1
 msgid "Nightly versions"
-msgstr ""
+msgstr "Các phiên bản Nightly"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4888-1
 msgid "KOReader has two different versions:"
-msgstr ""
+msgstr "KOReader có hai phiên bản khác nhau:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4890-9
 msgid ""
@@ -13086,6 +13560,11 @@ msgid ""
 "released on <b>November 2024</b>. This is generally a <b>monthly</b> "
 "release, but sometimes can take longer."
 msgstr ""
+"<span class=\"label_green\">ỔN ĐỊNH</span> Đây là phiên bản chính mà bạn có "
+"thể tìm thấy trên trang <b>Releases</b> của dự án GitHub. Nó được đặt tên "
+"như sau: <b>\"KOReader 2024.11\"</b> có nghĩa là phiên bản cụ thể này được "
+"phát hành vào <b>Tháng 11 năm 2024</b>. Đây thường là bản phát hành <b>hàng "
+"tháng</b>, nhưng đôi khi có thể lâu hơn."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4891-9
 msgid ""
@@ -13094,6 +13573,10 @@ msgid ""
 "continuously added. Nightly releases are intended for a narrow group of "
 "testers and developers, so they might be less stable."
 msgstr ""
+"<span class=\"label_red\">NIGHTLY</span><b></b> Đây là các phiên bản được "
+"biên dịch <b>hàng ngày</b> của KOReader với các tối ưu hóa và bản sửa lỗi "
+"được bổ sung liên tục. Các bản phát hành Nightly được dành cho một nhóm nhỏ "
+"người thử nghiệm và nhà phát triển, vì vậy chúng có thể kém ổn định hơn."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4894-5
 msgid ""
@@ -13101,12 +13584,17 @@ msgid ""
 "should use. But in some specific cases you might need to use a <b>nightly</"
 "b> version:"
 msgstr ""
+"Thông thường, nếu bạn là người dùng phổ thông thì phiên bản <b>ổn định</b> "
+"là phiên bản bạn nên sử dụng. Nhưng trong một số trường hợp cụ thể, bạn có "
+"thể cần dùng phiên bản <b>nightly</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4896-9
 msgid ""
 "Your device is very new (a recently released Kobo model for example) and "
 "KOReader support has just been added in a recent nightly."
 msgstr ""
+"Thiết bị của bạn rất mới (ví dụ như một mẫu Kobo vừa phát hành gần đây) và "
+"hỗ trợ cho KOReader chỉ vừa mới được thêm vào trong một bản nightly gần đây."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4897-9
 msgid ""
@@ -13114,6 +13602,9 @@ msgid ""
 "not released yet. And you don't want to wait for the <b>stable</b> version "
 "to have this fix."
 msgstr ""
+"Có một lỗi hoặc vấn đề cụ thể trên thiết bị của bạn đã được sửa nhưng chưa "
+"được phát hành. Và bạn không muốn chờ đến phiên bản <b>ổn định</b> mới có "
+"bản sửa lỗi này."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4898-9
 msgid ""
@@ -13123,6 +13614,11 @@ msgid ""
 "previous <b>stable</b> release but <b>nightly</b> would be newer so might "
 "have more features and fixes."
 msgstr ""
+"Sau khi cập nhật KOReader, bạn nhận thấy một tính năng mà bạn đang sử dụng "
+"đã bị loại bỏ. Bạn không muốn mất tính năng này, vì vậy bạn có thể cài đặt "
+"phiên bản nightly vẫn còn tính năng đó. Tất nhiên bạn cũng có thể quay lại "
+"phiên bản <b>ổn định</b> trước đó, nhưng <b>nightly</b> sẽ mới hơn nên có "
+"thể có thêm nhiều tính năng và bản sửa lỗi."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4901-5
 msgid ""
@@ -13131,6 +13627,10 @@ msgid ""
 "discussion page: <a href=\"https://github.com/koreader/koreader/issues/"
 "11068\">FAQ: How to track latest nightly builds</a>"
 msgstr ""
+"Phần này chỉ là phần giới thiệu tổng quan về chủ đề. Để biết thông tin chi "
+"tiết và hỏi thêm về các phiên bản nightly, bạn có thể truy cập trang thảo "
+"luận: <a href=\"https://github.com/koreader/koreader/issues/11068\">FAQ: "
+"Cách theo dõi các bản dựng nightly mới nhất</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4903-20
 msgid ""
@@ -13140,10 +13640,15 @@ msgid ""
 "installation. Open source applications like <b>Shelter</b> and <b>Island</b> "
 "can help you with this."
 msgstr ""
+"<span class=\"label_green\">MẸO</span> Nếu bạn đang sử dụng KOReader trên "
+"thiết bị Android, bạn có thể dùng tính năng <b>Work Profile</b> của hệ điều "
+"hành Android để thử nghiệm các phiên bản Nightly mà không ảnh hưởng đến cài "
+"đặt KOReader chính của bạn. Các ứng dụng mã nguồn mở như <b>Shelter</b> và "
+"<b>Island</b> có thể giúp bạn thực hiện điều này."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4905-3
 msgid "Backup your KOReader settings"
-msgstr ""
+msgstr "Sao lưu cài đặt KOReader của bạn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4906-9
 msgid ""
@@ -13152,48 +13657,54 @@ msgid ""
 "installation directory. Then you can overwrite them after a clean "
 "installation to restore your settings:"
 msgstr ""
+"Trong một số trường hợp hiếm hoi khi bạn muốn sao lưu và khôi phục KOReader "
+"cùng với tất cả các cài đặt của mình, bạn có thể sao lưu các thư mục và tệp "
+"này trong thư mục cài đặt KOReader. Sau đó, bạn có thể ghi đè chúng sau khi "
+"cài đặt sạch để khôi phục lại các cài đặt của mình:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4909-9
 msgid "Folders:"
-msgstr ""
+msgstr "Thư mục:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4912-9
 msgid "settings"
-msgstr ""
+msgstr "cài đặt"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4913-9
 msgid "styletweaks"
-msgstr ""
+msgstr "tinh chỉnh giao diện"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:4917-9
 msgid "Files:"
-msgstr ""
+msgstr "Tệp:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4920-17
 msgid "data/cr3.ini"
-msgstr ""
+msgstr "data/cr3.ini"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4921-17
 msgid "defaults.persistent.lua"
-msgstr ""
+msgstr "defaults.persistent.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4922-17
 msgid "history.lua"
-msgstr ""
+msgstr "history.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4923-17
 msgid "settings.reader.lua"
-msgstr ""
+msgstr "settings.reader.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4924-17
 msgid "settings/profiles.lua"
-msgstr ""
+msgstr "settings/profiles.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4925-17
 msgid ""
 "Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if "
 "they exist)</b>"
 msgstr ""
+"Các tệp trong thư mục <b>data/dict/</b> và <b>data/tessdata/</b> <b>(nếu có)"
+"</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4930-5
 msgid ""
@@ -13202,6 +13713,10 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
+"<span class=\"label_blue\">THÔNG TIN</span> Các cài đặt riêng cho từng sách "
+"và phần đánh dấu (highlight) của bạn được lưu trong cùng thư mục với sách, "
+"trong một thư mục có <b>cùng tên với sách của bạn</b>. Bạn có thể sao lưu "
+"riêng các thư mục này nếu muốn."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4934-1
 msgid "My Progress Sync doesn't synchronize my progress"
@@ -13217,6 +13732,13 @@ msgid ""
 "<span class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
+"Điều này có thể do tính năng <span class=\"ui\">Ghi highlight vào PDF</span> "
+"của KOReader nếu bạn đã bật nó. Việc lưu highlight trong PDF sẽ làm thay đổi "
+"tệp của bạn nên quá trình đồng bộ sẽ thất bại. Nếu bạn dự định sử dụng cả "
+"hai tính năng, trong phần cài đặt của plugin <span class=\"ui\">Progress "
+"Sync</span>, hãy thay đổi <span class=\"ui\">Phương thức đối chiếu tài liệu</"
+"span> thành <span class=\"ui\">Tên tệp</span> thay vì mặc định là <span "
+"class=\"ui\">Nhị phân</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4938-9
 msgid ""
@@ -13237,6 +13759,11 @@ msgid ""
 "turning is immediate. Here we will talk about the reasons if your book feels "
 "very slow when opening, page turning or adjusting its appearance."
 msgstr ""
+"KOReader được tối ưu để hoạt động nhanh ngay cả trên phần cứng hạn chế của "
+"máy đọc sách điện tử. Thông thường, những cuốn sách có hàng nghìn trang có "
+"thể được mở chỉ trong vài giây và việc lật trang diễn ra tức thì. Ở đây "
+"chúng ta sẽ nói về những nguyên nhân khiến sách của bạn có thể cảm thấy rất "
+"chậm khi mở, lật trang hoặc điều chỉnh cách hiển thị."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4945-5
 msgid "If the problematic book is a PDF:"
@@ -13254,6 +13781,12 @@ msgid ""
 "the opening and page turning because these large images has to be rescaled "
 "to fit on your screen and this process can be CPU intensive."
 msgstr ""
+"Tệp PDF <b>có thể chứa các tệp hình ảnh rất lớn</b>. Ngay cả trong những tài "
+"liệu có lớp văn bản bình thường (mà bạn có thể chọn và highlight), vẫn có "
+"thể tồn tại một lớp hình ảnh khác được nhúng vào (thường là bản scan của "
+"trang). Điều này làm chậm quá trình mở và lật trang vì các hình ảnh lớn phải "
+"được thu nhỏ để vừa với màn hình của bạn, và quá trình này có thể tiêu tốn "
+"nhiều CPU."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4949-9
 msgid ""
@@ -13262,6 +13795,10 @@ msgid ""
 "this case KOReader has to calculate and draw all these elements which can "
 "take time."
 msgstr ""
+"Tệp PDF có thể có <b>rất nhiều thành phần riêng lẻ</b> cần được định vị "
+"chính xác, chẳng hạn như một trang tạp chí với nhiều hình ảnh và hộp văn "
+"bản. Trong trường hợp này, KOReader phải tính toán và vẽ tất cả các thành "
+"phần đó, điều này có thể mất thời gian."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4950-9
 msgid ""
@@ -13277,6 +13814,11 @@ msgid ""
 "seconds per page turn) than <span class=\"ui\">DEFAULT</span> depending on "
 "your document."
 msgstr ""
+"Nếu bạn đặt <span class=\"ui\">CHẤT LƯỢNG RENDER</span> thành <span "
+"class=\"ui\">CAO</span> trong khi <span class=\"ui\">TÁI DÒNG (REFLOW)</"
+"span> đang <b>BẬT</b>, văn bản sẽ hiển thị đẹp hơn nhưng có thể chậm hơn "
+"nhiều (mất đến vài giây cho mỗi lần lật trang) so với <span class=\"ui\">MẶC "
+"ĐỊNH</span>, tùy thuộc vào tài liệu của bạn."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4953-13
 msgid ""
@@ -13300,6 +13842,14 @@ msgid ""
 "b> This will slow down opening the book, turning the pages and changing the "
 "appearance properties like font weight or line spacing."
 msgstr ""
+"Tệp EPUB về cơ bản được tạo thành từ văn bản và hình ảnh với một số quy tắc "
+"để xác định cách các thành phần này được định dạng trên màn hình. Trong điều "
+"kiện lý tưởng, đây là một quá trình khá đơn giản nên các tệp EPUB thường "
+"chạy nhanh trong KOReader. <b>Nhưng một số sách EPUB lại thêm rất nhiều quy "
+"tắc định dạng khiến KOReader phải thực hiện nhiều phép tính chỉ để hiển thị "
+"một câu đơn giản.</b> Điều này sẽ làm chậm quá trình mở sách, lật trang và "
+"thay đổi các thuộc tính hiển thị như độ đậm của font chữ hoặc khoảng cách "
+"dòng."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4963-9
 msgid ""
@@ -13318,6 +13868,13 @@ msgid ""
 "KOReader still has to calculate the whole book instead of only the current "
 "chapter."
 msgstr ""
+"Tệp EPUB là các tệp ZIP chứa các tệp HTML. Một số sách có thể chỉ là một tệp "
+"HTML duy nhất, trong khi những sách khác có thể được tạo thành từ nhiều tệp "
+"HTML, chẳng hạn như mỗi chương của sách là một tệp HTML riêng. <b>Nếu sách "
+"của bạn chỉ là một tệp HTML duy nhất, việc render từng phần sẽ không hoạt "
+"động.</b> Vì vậy, các thay đổi về hiển thị sẽ chậm hơn so với sách được chia "
+"thành nhiều chương, bởi vì với mỗi thay đổi, KOReader vẫn phải tính toán cho "
+"toàn bộ cuốn sách thay vì chỉ chương hiện tại."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4968-9
 msgid ""
@@ -13326,6 +13883,10 @@ msgid ""
 "if a cell (containing many paragraphs) spans 50 pages, this will make page "
 "turning quite slow. See below for the solution."
 msgstr ""
+"Một trường hợp hiếm gặp khác gây chậm là khi nội dung được bao bọc trong <b>"
+"thẻ bảng HTML </b>. KOReader phải render/vẽ từng ô trong mỗi lần lật trang, "
+"vì vậy nếu một ô (chứa nhiều đoạn văn) kéo dài đến 50 trang, việc lật trang "
+"sẽ trở nên rất chậm. Xem giải pháp bên dưới."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4972-5
 msgid "If everything is slow:"
