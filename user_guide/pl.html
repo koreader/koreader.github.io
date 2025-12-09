@@ -1046,11 +1046,11 @@ line-height: 2rem;
         </ul>
         </li>
 
-    <li><a href="#L1-plugins">PLUGINS AND USER PATCHES</a>
+    <li><a href="#L1-plugins">WTYCZKI I POPRAWKI UŻYTKOWNIKÓW</a>
         <ul>
-            <li><a href="#L2-plugintypes">Plugin types</a></li>
+            <li><a href="#L2-plugintypes">Rodzaje wtyczek</a></li>
             <li><a href="#L2-pluginslist">List of internal plugins</a></li>
-            <li><a href="#L2-userpatches">User patches</a></li>
+            <li><a href="#L2-userpatches">Poprawki użytkowników</a></li>
         </ul>
     </li>
 
@@ -1249,7 +1249,7 @@ line-height: 2rem;
         <li><b>Wallabag:</b> Z tą wtyczką możesz odzyskiwać artykuły z <span class="external">Wallabag</span>, serwisu typu przeczytaj-później (read-it-later) podobnego do Pocket, na bazie serwera. Sprawdz naszą <a href="https://github.com/koreader/koreader/wiki/Wallabag">wiki</a> po więcej informacji.</li>
     </ol>
 
-    <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">WARNING</span> Be careful if you decide to use the SSH feature without a password, because this allows open access to your device. But if you are using a local wifi and turn on your device wifi for a short time, this risk is negligible.</p></div>
+    <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">OSTRZEŻENIE</span> Bądź ostrożny jeśli zdecydujesz się używać funkcji SSH bez hasła, pozwala to na otwarty dostęp do twojego urządzenia. W przypadku używania domowego wifi i włączania sieci WiiFi w urządzeniu tylko kiedy potrzebujesz, ryzyko jest marginalne.</p></div>
 
 
     
@@ -1271,7 +1271,7 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">GÓRNE MENU (w Przeglądarce Plików) / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:22px;"> / Ustawienia/ Mozaiczna i szczegółowa lista</div>
 
-    <p>Możesz przydzielać gesty dla każdego z tych dialogów. Na przykład podczas czytania książki, możesz wejść do sekcji <span class="ui">Historia<</span> lub <span class="ui">Ulubione</span> gestem i otworzyć inną książkę bez konieczności wchodzenia do <span class="ui">Przeglądarki Plików</span>.</p>
+    <p>Możesz przydzielać gesty dla każdego z tych dialogów. Na przykład podczas czytania książki, możesz wejść do sekcji <span class="ui">Historia</span> lub <span class="ui">Ulubione</span> gestem i otworzyć inną książkę bez konieczności wchodzenia do <span class="ui">Przeglądarki Plików</span>.</p>
     <p>Możesz przeszukiwać książkę w sekcji <span class="ui">Historia</span> po<b>nazwie pliku</b>lub<b>metadanych książki</b> z lewego górnego menu (trzy poziome kreski).</p>
     <p>Możesz też ustawić by KOReader jako ekran startowy wyświetlał <span class="ui">Ulubione</span>lub<span class="ui">Historię</span> zamiast <span class="ui">Przeglądarki Plików</span> poprzez:</p>
 
@@ -1382,7 +1382,7 @@ line-height: 2rem;
     <ul>
         <li><b>Stuknięcie:</b> Usuwa znak</li>
         <li><b>Przytrzymanie:</b> Usuwa całą linijkę</li>
-        <li><b>Swipe left:</b> Delete part of the word left of the cursor</li>
+        <li><b>Przesunięcie w lewo:</b> Usuwa część słowa na lewo od kursora</li>
         <li><b>Przesunięcie w górę:</b> Usuwa całe słowo</li>
     </ul>
 		
@@ -2105,29 +2105,29 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-toctools">Narzędzia spisu treści</div>
     <p>
-    Some of the digital books you come across might not have a proper table of contents (<b>ToC</b>). Depending on the preparation of the book, you can experience these ToC problems:</p>
+    Niektóre z ebooków, które napotkasz, mogą nie mieć prawidłowego spisu treści (<b>Spis Treści</b>). W zależności od sposobu przygotowania książki mogą wystąpić następujące problemy związane ze Spisem Treści:</p>
     <ul>
-        <li>No ToC in the book, so you can’t jump between the chapters or see the remaining reading times</li>
-        <li>There is a ToC but it is not very useful because it has wrong or missing chapter titles</li>
+        <li>W książce nie ma spisu treści, więc nie można przeskakiwać między rozdziałami ani sprawdzić pozostałego czasu czytania</li>
+        <li>Istnieje spis treści, ale nie jest on zbyt przydatny, ponieważ zawiera błędne lub brakujące tytuły rozdziałów</li>
     </ul>
     
-    <p> KOReader has some features that you can use when reading books with a problematic table of contents section.</p>
+    <p> KOReader posiada kilka funkcji, z których można skorzystać podczas czytania książek z problematycznym spisem treści.</p>
     
-    <p>Note that <span class="ui">Alternative table of contents</span> is not available on <b>fixed layout documents</b> like PDF, DJVU etc. because it requires HTML tags to create a ToC. <span class="ui">Custom table of contents</span> and <span class="ui">Custom hidden flows</span> features are available on all file types.</p>
+    <p>Należy pamiętać, że funkcja <span class="ui">Alternatywny spis treści</span> nie jest dostępna w <b>dokumentach o stałym układzie</b>, takich jak PDF, DJVU itp., ponieważ do utworzenia spisu treści wymagane są tagi HTML. Funkcje <span class="ui">Niestandardowy spis treści</span> i <span class="ui">Niestandardowe ukryte przepływy</span> są dostępne we wszystkich typach plików.</p>
 
 
-<div class="L3-Smaller-heading">Automatically creating a table of contents: ALTERNATIVE TABLE OF CONTENTS</div>
+<div class="L3-Smaller-heading">Automatyczne tworzenie spisu treści: ALTERNATYWNY SPIS TREŚCI</div>
 
     <p>
-    First feature is the <span class="ui">Alternative table of contents</span> which you can find in:</p>
+    Pierwszą funkcją jest <span class="ui">Alternatywny spis treści</span>, który można znaleźć w:</p>
 
     <div class="menu-breadcrumbs">GÓRNE MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Ustawienia / Alternatywny spis treści</div>
 
-    <div class="info"><span class="label_blue">INFO</span> An EPUB document is basically a ZIP file containing one or more HTML files. Your book might be one big HTML file for the whole book or it might contain separate chapters as individual HTML files (which is a better structure).</div>
+    <div class="info"><span class="label_blue">INFO</span> Dokument EPUB to w zasadzie plik ZIP zawierający jeden lub więcej plików HTML. Twoja książka może być jednym dużym plikiem HTML obejmującym całą książkę lub może zawierać oddzielne rozdziały w postaci pojedynczych plików HTML (co jest lepszą strukturą).</div>
         
-    <p><span class="ui">Alternative table of contents</span> tries to create a ToC from the headings in your book (<b>H1</b> to <b>H6</b> tags in the HTML files in your EPUB). If your book doesn’t contain any headings, it will try to build a ToC from the document fragments (individual HTML files in your EPUB book) which will point to the beginning of each file.</p>
+    <p><span class="ui">Alternatywny spis treści</span> próbuje utworzyć spis treści na podstawie nagłówków w książce (tagi od <b>H1</b> do <b>H6</b> w plikach HTML w formacie EPUB). Jeśli książka nie zawiera żadnych nagłówków, spróbuje utworzyć spis treści na podstawie fragmentów dokumentu (poszczególnych plików HTML w książce EPUB), które będą wskazywać początek każdego pliku.</p>
     
-    <p>You can choose which heading levels to include (or ignore) in your ToC from this menu:</p>
+    <p>Możesz wybrać, które poziomy nagłówków chcesz uwzględnić (lub pominąć) w twoim spisie treści z tego menu:</p>
 
     <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Style tweaks / Miscellaneous / Alternative ToC hints</div>
 
@@ -2136,11 +2136,11 @@ line-height: 2rem;
 <div class="L3-Smaller-heading">Manually creating a table of contents: CUSTOM TABLE OF CONTENTS</div>
 
     <p>
-    Custom table of contents feature allows you to create your own ToC from the selected parts of your book. This ToC can contain only one level so you can’t have sub-chapters while using this feature. To create your own ToC, first enable:</p>
+    Funkcja niestandardowego spisu treści pozwala utworzyć własny spis treści na podstawie wybranych fragmentów książki. Spis treści może zawierać tylko jeden poziom, więc korzystając z tej funkcji nie można tworzyć podrozdziałów. Aby utworzyć własny spis treści, najpierw włącz:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / Settings / Custom table of contents</div>
+    <div class="menu-breadcrumbs">GÓRNE MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / Ustawienia / Niestandardowy spis treści</div>
         
-    <p>Once you enable this feature, new menu items will be added to the user interface which allows you to select your chapters. You can add a chapter to your ToC from two places:</p>
+    <p>Po włączeniu tej funkcji do interfejsu użytkownika zostaną dodane nowe pozycje menu, które umożliwiają wybór rozdziałów. Rozdział można dodać do spisu treści z dwóch miejsc:</p>
 
     <ol>
         <li><b>From a highlight:</b> While reading a book, select a text like you are highlighting it or long press on a word. In the popup menu you will see the <span class="ui">Start TOC chapter</span> item. When you press on it, you will see a dialog asking you to enter your chapter title. The text you selected will be already entered in the dialog. Edit your title if necessary and press create.</li>
@@ -2154,7 +2154,7 @@ line-height: 2rem;
     
     <p>When you are done creating your ToC and don’t want to see these extra buttons, you can disable them by unchecking:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / Settings / Custom layout features / Edit mode</div>
+    <div class="menu-breadcrumbs">GÓRNE MENU /<img class="img_inline" src="pictures/top_bookmark.svg" style="width:22px;"> / Ustawienia / Niestandardowe funkcje układ / Tryb edycji</div>
     
     <p>Creating this ToC will not alter your original ToC which comes with your book. You can clear your <b>Custom table of contents</b> from this same menu (in case you want to create a new one). And you can disable this feature completely in the same way you enabled it, if you want to return to the original ToC. Note that if you disable this feature after creating a custom ToC to return to the original one, your custom ToC will not be deleted. You can still switch between the original and your custom ToC.</p>
 
@@ -4577,8 +4577,8 @@ line-height: 2rem;
 
 <!-- ANCHOR PLUGINS AND USER PATCHES -->
 
-        <div class="L1-Chapter-heading" id="L1-plugins">PLUGINS AND USER PATCHES</div>
-        <div class="L2-Sub-heading" id="L2-plugintypes">Plugin types</div>
+        <div class="L1-Chapter-heading" id="L1-plugins">WTYCZKI I POPRAWKI UŻYTKOWNIKÓW</div>
+        <div class="L2-Sub-heading" id="L2-plugintypes">Rodzaje wtyczek</div>
         <p>
         Plugins are small KOReader programs that are similar to browser add-ons which extends the capabilities of the base program. KOReader has 3 categories of plugins:</p>
 
@@ -4700,7 +4700,7 @@ line-height: 2rem;
 
 
 
-        <div class="L2-Sub-heading" id="L2-userpatches">User patches</div>
+        <div class="L2-Sub-heading" id="L2-userpatches">Poprawki użytkowników</div>
 
 		<p><span class="label_red">!!! ADVANCED</span></p>
 

@@ -2386,12 +2386,12 @@ line-height: 2rem;
             <li><b>Thêm một khoảng cách nhỏ giữa các đoạn văn để làm cho văn bản dễ đọc hơn:</b>
                 <p>p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; } /* Đoạn văn liền kề: khoảng cách trên 0.5em !important; khoảng cách dưới 0.5em !important */</p></li>
 
-            <li><b>Vô hiệu hóa tất cả hình ảnh trong EPUB:</b>
+            <li><b>Vô hiệu hóa mọi hình ảnh trong EPUB:</b>
                 <p>img { display: none !important; } /* Ẩn toàn bộ hình ảnh: !important */</p>
             </li>
 
             <li>
-                <b>Làm cho hình ảnh rất nhỏ thay vì vô hiệu hóa chúng:</b>
+                <b>Làm hình ảnh rất nhỏ thay vì vô hiệu hóa chúng:</b>
                 <p>img { chiều rộng: 10px !quan trọng; chiều cao: 10px !quan trọng }</p>
             </li>
 
@@ -3576,14 +3576,14 @@ line-height: 2rem;
 
 	<p>Đây là phương pháp <b>mặc định</b> được sử dụng trên một cài đặt mới của KOReader. Trong phương pháp này, khi bạn sao chép <b>Alice in Wonderland.epub</b> vào thiết bị và mở nó lần đầu tiên, một thư mục có tên <span class="ui">Alice in Wonderland.sdr</span> sẽ được tạo trong cùng thư mục. Thư mục này chứa các tệp cho thiết lập, ghi chú và tiến trình đọc sách của bạn cho cuốn sách này.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Ưu điểm</span></b></p>
 		<ul>
-			<li>You can manually backup and restore the settings for each book.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
-			<li>You can rename the parent directories where your book resides, this doesn't confuse KOReader.</li>
+			<li>Bạn có thể sao lưu và khôi phục cài đặt cho từng cuốn sách theo cách thủ công.</li>
+			<li>Khi bạn thực hiện đồng bộ hóa hoặc sao lưu thư mục bằng hệ thống như <b>Syncthing</b> hoặc <b>Dropbox</b>, cài đặt của bạn sẽ được đồng bộ hóa cùng với sách của bạn.</li>
+			<li>Bạn có thể đổi tên thư mục gốc nơi lưu trữ sách của bạn, điều này không gây nhầm lẫn cho KOReader.</li>
 		</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Hạn chế</span></b></p>
 		<ul>
 			<li>Nếu bạn sắp xếp lại thư viện bằng cách di chuyển/đổi tên các tệp sách hoặc thư mục .sdr đi kèm bên ngoài trình duyệt tệp của KOReader, bạn sẽ mất siêu dữ liệu của những cuốn sách đó mà không có bất kỳ cảnh báo nào.</li>
 			<li>Các thư mục <b>.sdr</b> này sẽ hiển thị khi bạn duyệt thư mục thư viện bằng một trình duyệt tệp khác hoặc từ máy tính của bạn, điều này có thể làm rối giao diện của bạn.</li>
@@ -3593,47 +3593,47 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">2. Thư mục siêu dữ liệu trong một thư mục KOReader duy nhất</div>
 
-	<div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Tài liệu / Vị trí siêu dữ liệu sách: .../koreader/docsettings</div>
+	<div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Tài liệu / Vị trí metadata sách: .../koreader/docsettings</div>
 
 <p>Phương pháp này về cơ bản giống với phương pháp mặc định ở trên. Điểm khác biệt là trong phương pháp này, tất cả các thư mục <b>.sdr</b> của sách sẽ nằm trong một thư mục duy nhất <b>nằm trong cấu trúc thư mục chính của KOReader</b>, thay vì trong thư mục thư viện, cạnh các tệp sách.</p>
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Ưu điểm</span></b></p>
 	<ul>
-		<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library with another file browser or from your computer.</li>
+		<li>Các thư mục <b>.sdr</b> của sách sẽ chỉ hiển thị và được sử dụng bởi KOReader. Chúng sẽ không làm rối tầm nhìn của bạn trong các thư mục thư viện khi bạn duyệt thư viện bằng trình quản lý tệp khác hoặc từ máy tính của bạn.</li>
 	</ul>
 
-	<p><b><span class="label_red">Negatives</span></b></p>
+	<p><b><span class="label_red">Hạn chế</span></b></p>
 	<ul>
-		<li>If you reorganize your library by moving/renaming the moving/renaming library directories, book files or their accompanying .sdr folder outside of KOReader file browser, you will lose metadata of those books without any warning.</li>
+		<li>Nếu bạn sắp xếp lại thư viện bằng cách di chuyển/đổi tên các thư mục thư viện, tệp sách hoặc thư mục .sdr đi kèm bên ngoài trình duyệt tệp của KOReader, bạn sẽ mất dữ liệu metadata của những cuốn sách đó mà không có bất kỳ cảnh báo nào.</li>
 
-		<li>Since your book metadata will not be in your library folders, any synchronization or backups of your library will not include them.</li>
+		<li>Vì dữ liệu metadata của sách sẽ không nằm trong các thư mục thư viện, nên bất kỳ việc đồng bộ hoặc sao lưu thư viện nào cũng sẽ không bao gồm chúng.</li>
 	</ul>
 
 
 
-<div class="L3-Smaller-heading">3. Individual HASHED metadata directories under a single KOReader directory</div>
+<div class="L3-Smaller-heading">Các thư mục metadata riêng biệt (được đặt tên bằng giá trị băm) trong một thư mục KOReader duy nhất</div>
 
 	<div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Tài liệu / Vị trí siêu dữ liệu sách: .../koreader/hashdocsettings</div>
 
 	<p>Phương pháp này tương tự như phương pháp trước vì các thư mục <b>.sdr</b> sẽ nằm trong một thư mục nội bộ. Nhưng phương pháp này được phát triển để khắc phục những hạn chế của phương pháp trước. Bởi vì, thông thường nếu bạn đổi tên một cuốn sách bên ngoài KOReader (bằng trình quản lý tệp/ứng dụng đọc gốc của thiết bị hoặc từ máy tính kết nối), tên thư mục <b>.sdr</b> của nó sẽ không còn khớp và siêu dữ liệu cho cuốn sách đó sẽ bị mất. <b>Nếu bạn chỉ sử dụng Trình duyệt Tệp của KOReader cho các thao tác tệp, điều này sẽ được xử lý tự động nên sẽ không có hậu quả nào.</b></p>
 	
-	<p>In this <b>HASHED</b> method, <b>.sdr</b> folders are not identified by the filepath/filename of the book. Instead, a partial <b>MD5 hash</b> will be used to link the books to their settings. This hash is used as a unique ID for the book and it is calculated based on the <b>contents of the book file</b>. Also same hash is used for naming its .sdr folder.</p>
+	<p>Trong phương pháp <b>HASHED</b> này, các thư mục <b>.sdr</b> không được xác định bằng đường dẫn/tên tệp của sách. Thay vào đó, một phần <b>MD5 hash</b> sẽ được sử dụng để liên kết sách với các thiết lập của nó. Mã hash này được dùng như một ID duy nhất cho sách và được tính toán dựa trên <b>nội dung của tệp sách</b>. Đồng thời, cùng mã hash này cũng được dùng để đặt tên cho thư mục .sdr của sách.</p>
 		
 
-	<p><b><span class="label_green">Benefits</span></b></p>
+	<p><b><span class="label_green">Ưu điểm</span></b></p>
 		<ul>
-			<li>Book <b>.sdr</b> folders will only be visible to and used by KOReader. They won't clutter your view of your library directories when you browse your library directories with another file browser or from your computer.</li>
+			<li>Các thư mục <b>.sdr</b> của sách sẽ chỉ hiển thị và được sử dụng bởi KOReader. Chúng sẽ không làm rối tầm nhìn của bạn trong các thư mục thư viện khi bạn duyệt bằng trình quản lý tệp khác hoặc từ máy tính của bạn.</li>
 
-			<li>You can rename, move, and copy your books with another file browser or from your computer. KOReader will still recognize the books after these operations.</li>
+			<li>Bạn có thể đổi tên, di chuyển và sao chép sách bằng trình quản lý tệp khác hoặc từ máy tính của mình. KOReader vẫn sẽ nhận diện được các sách sau những thao tác này.</li>
 
-			<li>In this method, KOReader associates the same <b>.sdr</b> folder with all copies of the book, even if these copies are on different devices. For example if you are using <b>Syncthing</b>, this method enables you to sync your <span class="ui">/hashdocsettings</span> folder alongside your book files, across many devices that all have KOReader installed. Despite the different relative paths of those books on each device, you can still get your annotations and progress synchronized across your devices. This isn't possible with other methods.</li>
+			<li>Trong phương pháp này, KOReader sẽ liên kết cùng một thư mục <b>.sdr</b> với tất cả các bản sao của sách, ngay cả khi những bản sao này nằm trên các thiết bị khác nhau. Ví dụ, nếu bạn sử dụng <b>Syncthing</b>, phương pháp này cho phép bạn đồng bộ thư mục <span class="ui">/hashdocsettings</span> cùng với các tệp sách, trên nhiều thiết bị đều có cài đặt KOReader. Mặc dù đường dẫn tương đối của các sách trên mỗi thiết bị có thể khác nhau, bạn vẫn có thể đồng bộ ghi chú và tiến trình đọc của mình trên tất cả các thiết bị. Điều này không thể thực hiện được với các phương pháp khác.</li>
 		</ul>
 
-		<p><b><span class="label_red">Negatives</span></b></p>
+		<p><b><span class="label_red">Hạn chế</span></b></p>
 		<ul>
-			<li>Any operations that modify the file directly (such as writing highlights into PDFs or downloading from <b>Calibre</b>) will change the file so its <b>MD5 ID will change</b> (unlike renaming or moving which is safe with this method). In this case KOReader wouldn't be able to recognize the book so these books will lose their metadata.</li>
+			<li>Bất kỳ thao tác nào chỉnh sửa trực tiếp tệp (chẳng hạn như ghi chú nổi bật vào PDF hoặc tải xuống từ <b>Calibre</b>) sẽ làm thay đổi tệp, khiến <b>ID MD5</b> của nó thay đổi (khác với việc đổi tên hoặc di chuyển vốn an toàn với phương pháp này). Trong trường hợp này, KOReader sẽ không thể nhận diện được sách và những sách đó sẽ mất dữ liệu metadata.</li>
 
-			<li>Calculating file IDs may slow down <span class="ui">File browser</span> navigation when browsing larger directories.</li>
+			<li>Việc tính toán ID tệp có thể làm chậm quá trình điều hướng <span class="ui">Trình duyệt tệp</span> khi duyệt các thư mục lớn.</li>
 		</ul>
 
 
@@ -3645,11 +3645,11 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-gestures">CỬ CHỈ VÀ PHÍM TẮT BÀN PHÍM</div>
 
     <p>
-    There are many types of gestures you can use to control KOReader. Some gestures have limitations regarding where on the screen they can be used and which directions are supported. These limitations are indicated below.</p>
+    Có nhiều loại thao tác cử chỉ mà bạn có thể sử dụng để điều khiển KOReader. Một số cử chỉ có giới hạn về vị trí trên màn hình nơi chúng có thể được sử dụng và hướng thao tác được hỗ trợ. Những giới hạn này được chỉ ra bên dưới.</p>
 
     <div class="L2-Sub-heading" id="L2-gesturetypes">Các loại cử chỉ</div>
 
-    <div class="info"><span class="label_blue">INFO</span> Some devices support only single touch so multi-finger gestures <b>are not available</b> on them.</div>
+    <div class="info"><span class="label_blue">THÔNG TIN</span> Một số thiết bị chỉ hỗ trợ chạm đơn, vì vậy các thao tác đa ngón tay <b>không khả dụng</b> trên chúng.</div>
 
 
 
@@ -3658,57 +3658,57 @@ line-height: 2rem;
             <td style="width: 25%;">
                 <img loading="lazy" src="pictures/gesture_tap.png" style="width:100px;">
             </td>
-            <td><p class="ui">TAP / DOUBLE TAP</p>
-                <p>Single or double tap with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Anywhere on the screen</p>
+            <td><p class="ui">CHẠM MỘT LẦN/ CHẠM HAI LẦN</p>
+                <p>Chạm một lần hoặc chạm hai lần bằng <b>MỘT</b> ngón tay</p>
+                <p><b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_tapandhold.png" style="width:100px;"></td>
             <td>
-                <p class="ui">TAP AND HOLD</p>
-                <p>Single tap and hold with <b>ONE</b> finger</p>
-                <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">CHẠM VÀ GIỮ</p>
+                <p>Chạm một lần và giữ bằng <b>MỘT</b> ngón tay</p>
+                <p><b>HOẠT ĐỘNG:</b> Chỉ ở bốn góc màn hình</p>
             </td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingertap.png" style="width:100px;"></td>
             <td>
-                <p class="ui">Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL)</p>
-        <p><b>WORKS:</b> Only on four corners</p>
+                <p class="ui">CHẠM HAI NGÓN TAY</p>
+        <p>Chạm một lần bằng <b>HAI</b> ngón tay cùng lúc</p>
+        <p><b>HOẠT ĐỘNG:</b> Chỉ ở bốn góc màn hình</p>
             </td>
         </tr>
 
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_pinch.png" style="width:100px;"></td>
-            <td><p class="ui">Swiping motion with <b>TWO</b> fingers at the same time</p>
+            <td><p class="ui">CHỤM VÀ TÁCH NGÓN TAY</p>
         <p>Tương tự như thao tác phóng to và thu nhỏ trên điện thoại hoặc máy tính bảng.</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p>
-        <div class="info"><span class="label_blue">INFO</span> This gesture may work less reliably depending on your device. If that’s the case please choose another gesture type.</div></td>
+        <p><b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình</p>
+        <div class="info"><span class="label_blue">THÔNG TIN</span> Cử chỉ này có thể hoạt động kém ổn định tùy theo thiết bị của bạn. Nếu gặp trường hợp đó, vui lòng chọn loại cử chỉ khác.</div></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_swipe.png" style="width:100px;"></td>
             <td><p class="ui">VUỐT BẰNG MỘT NGÓN TAY</p>
-        <p>Swiping motion with <b>ONE</b> finger</p>
-        <p><b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges (DIAGONAL) </p></td>
+        <p>Thao tác vuốt bằng <b>MỘT</b> ngón tay</p>
+        <p><b>HOẠT ĐỘNG:</b> Các cạnh màn hình (NGANG và DỌC) — Bất kỳ vị trí nào ngoại trừ cạnh (CHÉO) </p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_twofingerswipe.png" style="width:100px;"></td>
-            <td><p class="ui">TWO FINGER SWIPE</p>
-        <p>Swiping motion with <b>TWO</b> fingers at the same time</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">VUỐT HAI NGÓN TAY</p>
+        <p>Thao tác vuốt bằng <b>HAI</b> ngón tay cùng lúc</p>
+        <p><b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình</p></td>
         </tr>
         <tr style="border-bottom: 1px solid #ff8a46 !important; ">
             <td><img loading="lazy" src="pictures/gesture_multiswipe.png" style="width:100px;"></td>
-            <td><p class="ui">MULTISWIPE</p>
-        <p>More than one swipe done after each other without lifting your finger. For example like drawing the letter <b>U</b> (DOWN-RIGHT-UP)</p>
-        <p><b>WORKS:</b> Anywhere on the screen</p></td>
+            <td><p class="ui">VUỐT NHIỀU LẦN</p>
+        <p>Nhiều thao tác vuốt liên tiếp mà không nhấc ngón tay. Ví dụ như vẽ chữ <b>U</b> (Xuống – Sang phải – Lên)</p>
+        <p><b>HOẠT ĐỘNG:</b> Ở bất kỳ vị trí nào trên màn hình</p></td>
         </tr>
         <tr>
             <td></td>
-            <td><p>Icons by <b>Econceptive</b> from the <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
+            <td><p>Biểu tượng bởi <b>Econceptive</b> từ <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
         </tr>
     </table>
 
@@ -3716,7 +3716,7 @@ line-height: 2rem;
     
 <div class="L2-Sub-heading" id="L2-predefinedgestures">Cử chỉ được xác định trước</div>
     <p>
-    This table shows the gestures that comes with KOReader. You can change these gestures according to your preferences via:</p>
+    Bảng này hiển thị các thao tác cảm ứng đi kèm với KOReader. Bạn có thể thay đổi các thao tác này theo ý thích của mình thông qua:</p>
 
 
     <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Trình quản lý cử chỉ</div>
@@ -3728,40 +3728,40 @@ line-height: 2rem;
 
     <div class="L3-Smaller-heading">CHẠM GÓC</div>
     
-    <p><b>Top Left Corner</b> > Toggle page flipping</p>
-    <p><b>Top Right Corner</b> > Toggle bookmark</p>
-    <p><b>Opposing diagonal corners at the same time</b> > Take screenshot</p>
+    <p><b>Góc trên bên trái</b> > Bật/tắt lật trang</p>
+    <p><b>Góc trên bên phải</b> > Bật/tắt đánh dấu trang</p>
+    <p><b>Hai góc chéo đối diện cùng lúc</b> > Chụp màn hình</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">DOUBLE TAP</div>
-    <p><b>↓ ↑</b> - Skim document</p>
-    <p><b>↑ ←</b> - Bookmarks</p>
+    <div class="L3-Smaller-heading">CHẠM HAI LẦN</div>
+    <p><b>Cạnh trái</b> > Lùi 10 trang</p>
+    <p><b>Cạnh phải</b> > Tiến 10 trang</p>
 
     <hr>
 
     <div class="L3-Smaller-heading">VUỐT BẰNG MỘT NGÓN TAY</div>
-    <p><b>↑ ↓ ↑</b> - Previous chapter</p>
-    <p><b>↓ ↑ ↓</b> - Next chapter</p>
+    <p><b>Vuốt chéo ngắn</b> > Làm mới toàn màn hình</p>
+    <p><b>Vuốt chéo dài</b> > Chụp màn hình</p>
 
     <hr>
 
-    <div class="L3-Smaller-heading">MULTISWIPES</div>
-    <p><span style="font-family: microns;"></span> - Back to previous location</p>
-    <p><span style="font-family: microns;"></span> - Go to latest bookmark</p>
-    <p><span style="font-family: microns;"></span> - Skim document</p>
-    <p><span style="font-family: microns;"></span> - Bookmarks</p>
-    <p><span style="font-family: microns;"></span> - Table of contents</p>
-    <p><span style="font-family: microns;"></span> - Show frontlight dialog</p>
-    <p><span style="font-family: microns;"></span> - Toggle reflow</p>
-    <p><span style="font-family: microns;"></span> - History</p>
-    <p><span style="font-family: microns;"></span> - Book status</p>
-    <p><span style="font-family: microns;"></span> - Go to page</p>
-    <p><span style="font-family: microns;"></span> - Back</p>
-    <p><span style="font-family: microns;"></span> - Previous chapter</p>
-    <p><span style="font-family: microns;"></span> - Next chapter</p>
-    <p><span style="font-family: microns;"></span> - Open previous document</p>
-    <p><span style="font-family: microns;"></span> - Favorites</p>
+    <div class="L3-Smaller-heading">VUỐT LIÊN TIẾP</div>
+    <p><span style="font-family: microns;"></span> - Quay lại vị trí trước đó</p>
+    <p><span style="font-family: microns;"></span> - Đi tới dấu trang mới nhất</p>
+    <p><span style="font-family: microns;"></span> - Duyệt nhanh tài liệu</p>
+    <p><span style="font-family: microns;"></span> - Dấu trang</p>
+    <p><span style="font-family: microns;"></span> - Mục lục</p>
+    <p><span style="font-family: microns;"></span> - Hiển thị hộp thoại đèn nền</p>
+    <p><span style="font-family: microns;"></span> - Bật/tắt chế độ tái định dạng (reflow)</p>
+    <p><span style="font-family: microns;"></span> - Lịch sử</p>
+    <p><span style="font-family: microns;"></span> - Trạng thái sách</p>
+    <p><span style="font-family: microns;"></span> - Đi tới trang</p>
+    <p><span style="font-family: microns;"></span> - Quay lại</p>
+    <p><span style="font-family: microns;"></span> - Chương trước</p>
+    <p><span style="font-family: microns;"></span> - Chương tiếp theo</p>
+    <p><span style="font-family: microns;"></span> - Mở tài liệu trước đó</p>
+    <p><span style="font-family: microns;"></span> - Yêu thích</p>
 
     </div>
 
@@ -3770,9 +3770,9 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-gesturecategories">Danh mục cử chỉ</div>
     <p>
-        This is a list of every action that you can assign to a gesture using the <span class="ui">Gesture Manager</span> menu. You can use the search function of your browser (generally <b>Ctrl+F</b>) to search for an action here. These actions can also be used in your own <span class="ui">Quick Menu</span>. Please check the relevant section in the guide for more info.</p>
+        Đây là danh sách tất cả các hành động mà bạn có thể gán cho một thao tác vuốt trong menu <span class="ui">Trình quản lý thao tác vuốt</span>. Bạn có thể sử dụng chức năng tìm kiếm của trình duyệt (thường là <b>Ctrl+F</b>) để tìm một hành động tại đây. Những hành động này cũng có thể được sử dụng trong <span class="ui">Menu nhanh</span> của riêng bạn. Vui lòng xem phần liên quan trong hướng dẫn để biết thêm thông tin.</p>
 
-    <div class="info"><span class="label_blue">INFO</span> When chooosing an action for a gesture, you will see a special item in the list named <span class="ui">pass through</span>. This action is used to keep the default behavior of that gesture, like text selection when long pressing near the corners. If you want to disable a gesture to avoid accidental actions, choose <span class="ui">nothing</span> as the action. In other words <span class="ui">pass through</span>=<b>another handler might act on it</b>, <span class="ui">nothing</span>=<b>swallow the action</b>.</div>
+    <div class="info"><span class="label_blue">THÔNG TIN</span> Khi chọn một hành động cho thao tác vuốt, bạn sẽ thấy một mục đặc biệt trong danh sách có tên <span class="ui">pass through</span>. Hành động này được dùng để giữ nguyên hành vi mặc định của thao tác đó, ví dụ như chọn văn bản khi nhấn giữ gần các góc. Nếu bạn muốn vô hiệu hóa một thao tác vuốt để tránh hành động xảy ra ngoài ý muốn, hãy chọn <span class="ui">nothing</span> làm hành động. Nói cách khác: <span class="ui">pass through</span> = <b>trình xử lý khác có thể thực hiện</b>, <span class="ui">nothing</span> = <b>nuốt hành động (không thực hiện gì)</b>.</div>
 
 
     <div class="centering-div">
@@ -3892,7 +3892,7 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading">Reflowable documents</div>
+        <div class="L3-Smaller-heading">Tài liệu tái định dạng</div>
             <ol>
                 <li>Kiểu phông chữ</li>
                 <li>Tăng cỡ chữ</li>
@@ -3901,23 +3901,23 @@ line-height: 2rem;
                 <li>khoảng cách chữ</li>
                 <li>Tăng khoảng cách từ</li>
                 <li>Tương phản</li>
-                <li>Font weight</li>
-                <li>Font hinting</li>
-                <li>Font kerning</li>
-                <li>Two columns</li>
-                <li>L/R margins</li>
-                <li>Sync T/B margins</li>
-                <li>Top margin</li>
-                <li>Bottom margin</li>
-                <li>View mode (page-continuous)</li>
-                <li>Render mode</li>
+                <li>Độ đậm font chữ</li>
+                <li>Làm rõ phông chữ</li>
+                <li>Khoảng cách các ký tự</li>
+                <li>2 cột</li>
+                <li>Lề Trái/Phải</li>
+                <li>Căn lề trên/dưới</li>
+                <li>Lề trên</li>
+                <li>Lề dưới</li>
+                <li>Chế độ xem (trang liên tục)</li>
+                <li>Chế độ render</li>
                 <li>Phóng to</li>
                 <li>Khoảng cách dòng</li>
                 <li>Thanh trạng thái thay thế</li>
-                <li>Embedded style</li>
-                <li>Embedded fonts</li>
-                <li>Image scaling</li>
-                <li>Invert images</li>
+                <li>Kiểu nhúng</li>
+                <li>Kiểu nhúng</li>
+                <li>Co giãn ảnh</li>
+                <li>Đảo ngược màu ảnh</li>
             </ol>
 
         
@@ -3998,7 +3998,7 @@ line-height: 2rem;
             </ol>
 
 
-        <div class="L3-Smaller-heading" style="text-align: left;">Fixed layout documents</div>
+        <div class="L3-Smaller-heading" style="text-align: left;">Tài liệu bố cục cố định</div>
             <ol>
                 <li>Bật/Tắt lật trang</li>
                 <li>Bật/Tắt lật nhanh đánh dấu trang</li>
@@ -4015,22 +4015,22 @@ line-height: 2rem;
                 <li>Số cột/hàng để chia trang</li>
                 <li>Hệ số phóng to</li>
                 <li>Đường dẫn</li>
-                <li>View mode</li>
-                <li>Page gap</li>
+                <li>Chế độ xem</li>
+                <li>Khoảng cách Trang</li>
                 <li>Khoảng cách dòng</li>
                 <li>Căn chỉnh</li>
                 <li data-translate-context="Gesture action">Cỡ chữ</li>
                 <li>Thay đổi cỡ chữ</li>
-                <li>Word gap</li>
+                <li>Khoảng cách chữ</li>
                 <li>Sắp xếp lại</li>
                 <li>Tương phản</li>
                 <li>Xóa chữ ký</li>
-                <li>Render quality</li>
-                <li>Document language</li>
+                <li>Chất lượng render</li>
+                <li>Ngôn ngữ tài liệu</li>
                 <li>Buộc OCR</li>
-                <li>Writing direction</li>
-                <li>Document columns</li>
-                <li>Auto straighten</li>
+                <li>Hướng viết</li>
+                <li>Cột tài liệu</li>
+                <li>Tự động làm thẳng</li>
             </ol>
 
     </div>
@@ -4038,37 +4038,37 @@ line-height: 2rem;
 
 
 
-<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Keyboard Shortcuts</div>
+<div class="L2-Sub-heading" id="L2-keyboardshortcuts">Phím Tắt</div>
     
-<p>If you have a device with a keyboard like <b>Kindle 2</b> and <b>Kindle 3</b>, including Bluetooth keyboards and emulators, you can use the keyboard keys, device buttons and shortcuts to control KOReader. <b>Kindle 4</b> is supported too, which lacks a full keyboard but still has enough buttons to make it functional in this context. On these devices, KOReader will enable an extra menu named <span class="ui">Keyboard Shortcuts</span> which you can access here:</p>
+<p>Nếu bạn có thiết bị với bàn phím như <b>Kindle 2</b> và <b>Kindle 3</b>, bao gồm cả bàn phím Bluetooth và trình giả lập, bạn có thể dùng phím bàn phím, nút thiết bị và phím tắt để điều khiển KOReader. <b>Kindle 4</b> cũng được hỗ trợ, dù không có bàn phím đầy đủ nhưng vẫn có đủ nút để sử dụng trong ngữ cảnh này. Trên các thiết bị này, KOReader sẽ bật thêm một menu có tên <span class="ui">Phím tắt bàn phím</span> mà bạn có thể truy cập tại đây:</p>
 
 <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Điều hướng / Nút vật lý / Phím tắt</div>
     
-<p>This menu is very similar to the <span class="ui">Gesture Manager</span> interface. In this menu:</p>
+<p>Menu này rất giống với giao diện <span class="ui">Trình quản lý thao tác</span>. Trong menu này:</p>
     <ul>
-        <li>You can see the shortcuts that are available on your device</li>
-        <li>You can see the predefined actions for some shortcuts</li>
-        <li>You can assign actions to the available shortcuts</li>
+        <li>Bạn có thể xem các phím tắt có sẵn trên thiết bị của mình</li>
+        <li>Bạn có thể thấy các hành động được thiết lập sẵn của một số phím tắt</li>
+        <li>Bạn có thể gán hành động của các phím tắt có sẵn</li>
     </ul>
 
     
-    <p>All of the actions in the <span class="ui">Gesture Manager</span> is also available for keyboard shortcut assignment. Which means you can control nearly all the functions of KOReader with these shortcuts.</p>
+    <p>Tất cả các thao tác trong <span class="ui">Trình quản lý thao tác</span> cũng có sẵn để gán phím tắt. Điều này có nghĩa là bạn có thể điều khiển hầu hết các chức năng của KOReader bằng các phím tắt này.</p>
 
-    <p>In the table below, you can see the default key and shortcut assignments:</p>
+    <p>Trong bảng dưới đây, bạn có thể xem các phím và phím tắt mặc định:</p>
 
 
     
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> Universal <span class="ui">screenshot</span> key is <b>Alt + Shift + G</b>. It is available on all screens, modes and platforms. On Kindle 4, it is <b>Keyboard + Menu</b>.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">THÔNG TIN</span> Phím <span class="ui">chụp màn hình</span> chung là <b>Alt + Shift + G</b>. Nó khả dụng trên mọi màn hình, chế độ và nền tảng. Trên Kindle 4, phím này là <b>Keyboard + Menu</b>.</p></div>
 
-    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> If you have a Kindle 4, <b>SHIFT</b> key in the table below is mapped to your <b>KEYBOARD</b> button. So <b>Shift + (UP/DOWN/LEFT/RIGHT)</b> shortcuts are mapped to <b>Keyboard button + (UP/DOWN/LEFT/RIGHT)</b> on your Kindle 4.</p></div>
+    <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">THÔNG TIN</span> Nếu bạn dùng Kindle 4, phím <b>SHIFT</b> trong bảng dưới đây được ánh xạ sang nút <b>KEYBOARD</b> của bạn. Vì vậy, các phím tắt <b>Shift + (LÊN/XUỐNG/TRÁI/PHẢI)</b> sẽ được ánh xạ thành <b>Nút Keyboard + (LÊN/XUỐNG/TRÁI/PHẢI)</b> trên Kindle 4.</p></div>
 
 
     <div class="centering-div">
 
         <table class="grid-table" style="width: 65%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
         <tr>
-            <td><div class="L3-Smaller-heading">File browser mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Chế độ duyệt tệp</div></td><td></td>
         </tr>
 
         <tr>
@@ -4080,20 +4080,20 @@ line-height: 2rem;
             <td><b>Thư mục chính</b></td>
         </tr>
         <tr>
-            <td>Move in file list</td>
-            <td><b>Up / Down</b></td>
+            <td>Di chuyển trong danh sách tệp</td>
+            <td><b>Lên / Xuống</b></td>
         </tr>
         <tr>
-            <td>Open selected book</td>
-            <td><b>Enter</b></td>
+            <td>Mở sách đã chọn</td>
+            <td><b>Phím Enter</b></td>
         </tr>
         <tr>
-            <td>Exit application</td>
+            <td>Thoát ứng dụng</td>
             <td><b>Esc</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Reading mode</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Chế độ đọc</div></td><td></td>
         </tr>
         <tr>
             <td>Mở menu trên cùng</td>
@@ -4101,55 +4101,55 @@ line-height: 2rem;
         </tr>
         <tr>
             <td>Mở menu dưới cùng</td>
-            <td><b>Enter</b></td>
+            <td><b>Phím Enter</b></td>
         </tr>
         <tr>
-            <td>quay lại / thoát ứng dụng</td>
+            <td>quay lại/thoát ứng dụng</td>
             <td><b>Esc</b></td>
         </tr>
         <tr>
             <td>Dấu Trang</td>
-            <td><b>Shift + Left</b></td>
+            <td><b>Shift + Trái</b></td>
         </tr>
         <tr>
             <td>Bật/Tắt đánh dấu trang</td>
-            <td><b>Shift + Right</b></td>
+            <td><b>Shift + Phải</b></td>
         </tr>
         <tr>
             <td>Tra cứu từ điển</td>
-            <td><b>Ctrl + D (Alt + D on Kindles)</b></td>
+            <td><b>Ctrl + D (Alt + D trên Kindle)</b></td>
         </tr>
         <tr>
             <td>Tra cứu Wikipedia</td>
-            <td><b>Ctrl + W</b></td>
+            <td><b>Ctrl + W (Đóng tài liệu)</b></td>
         </tr>
         <tr>
             <td>Tìm kiếm toàn văn</td>
-            <td><b>Ctrl + S</b></td>
+            <td><b>Ctrl + S (Lưu trạng thái)</b></td>
         </tr>
         <tr>
-            <td>File search lookup</td>
-            <td><b>Ctrl + F</b></td>
+            <td>Tra cứu tệp (tìm kiếm tệp)</td>
+            <td><b>Ctrl + F (Tìm kiếm trong tài liệu)</b></td>
         </tr>
 
         <tr>
             <td><div class="L3-Smaller-heading">Liên kết</div></td><td></td>
         </tr>
             <tr>
-            <td>Select next page link</td>
-            <td><b>Tab</b></td>
+            <td>Chọn liên kết trang kế tiếp</td>
+            <td><b>Phím Tab</b></td>
         </tr>
         <tr>
             <td>Chọn liên kết trang trước</td>
             <td><b>Shift+Tab</b></td>
         </tr>
         <tr>
-            <td>Open selected page link</td>
-            <td><b>Enter</b></td>
+            <td>Mở liên kết trang đã chọn</td>
+            <td><b>Phím Enter</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Image viewer (long-press on image)</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Trình xem ảnh (nhấn giữ trên ảnh)</div></td><td></td>
         </tr>
             <tr>
             <td>Phóng to</td>
@@ -4161,23 +4161,23 @@ line-height: 2rem;
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Highlighting</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Tô sáng (đánh dấu đoạn văn bản)</div></td><td></td>
         </tr>
         <tr>
             <td>Vào chế độ tô sáng</td>
-            <td><b>H</b></td>
+            <td><b>Phím H (Trợ giúp/Help)</b></td>
         </tr>
         <tr>
             <td>Bắt đầu/dừng tô sáng</td>
-            <td><b>Enter</b></td>
+            <td><b>Phím Enter</b></td>
         </tr>
         <tr>
             <td>Di chuyển chỉ báo nổi bật</td>
-            <td><b>Left/Right<br>Up/Down</b></td>
+            <td><b>Trái / Phải — Lên / Xuống</b></td>
         </tr>
         <tr>
-            <td>Move indicator faster</td>
-            <td><b>Shift +<br>Left/Right/Up/Down</b></td>
+            <td>Di chuyển chỉ báo nhanh hơn</td>
+            <td><b>Shift + Trái/Phải/Lên/Xuống</b></td>
         </tr>
         <tr>
             <td>Thoát khỏi chế độ tô sáng</td>
@@ -4185,7 +4185,7 @@ line-height: 2rem;
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">Navigating the book</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Điều hướng trong sách</div></td><td></td>
         </tr>
         <tr>
             <td>Lật trang</td>
@@ -4193,123 +4193,123 @@ line-height: 2rem;
         </tr>
         <tr>
             <td>Mục lục</td>
-            <td><b>Shift + Up</b></td>
+            <td><b>Shift + Lên</b></td>
         </tr>
         <tr>
             <td>Bản đồ sách</td>
-            <td><b>Shift + Down</b></td>
+            <td><b>Shift + Xuống</b></td>
         </tr>
         <tr>
             <td>Đi đến đầu</td>
-            <td><b>1</b></td>
+            <td><b>Phím số 1</b></td>
         </tr>
         <tr>
             <td>Đi tới 11% của cuốn sách</td>
-            <td><b>2</b></td>
+            <td><b>Phím số 2</b></td>
         </tr>
         <tr>
             <td>Đi tới 22% của cuốn sách</td>
-            <td><b>3</b></td>
+            <td><b>Phím số 3</b></td>
         </tr>
         <tr>
             <td>Đi tới 33% của cuốn sách</td>
-            <td><b>4</b></td>
+            <td><b>Phím số 4</b></td>
         </tr>
         <tr>
             <td>Đi tới 44% của cuốn sách</td>
-            <td><b>5</b></td>
+            <td><b>Phím số 5</b></td>
         </tr>
         <tr>
             <td>Đi đến 55% của cuốn sách</td>
-            <td><b>6</b></td>
+            <td><b>Phím số 6</b></td>
         </tr>
         <tr>
             <td>Đi tới 66% của cuốn sách</td>
-            <td><b>7</b></td>
+            <td><b>Phím số 7</b></td>
         </tr>
         <tr>
             <td>Đi tới 77% của cuốn sách</td>
-            <td><b>8</b></td>
+            <td><b>Phím số 8</b></td>
         </tr>
         <tr>
             <td>Đi tới 88% của cuốn sách</td>
-            <td><b>9</b></td>
+            <td><b>Phím số 9</b></td>
         </tr>
         <tr>
             <td>Đi đến cuối</td>
-            <td><b>0</b></td>
+            <td><b>Phím số 0</b></td>
         </tr>
 
         <tr>
-            <td><div class="L3-Smaller-heading">In Skim Document dialog</div></td><td></td>
+            <td><div class="L3-Smaller-heading">Trong hộp thoại Duyệt nhanh tài liệu</div></td><td></td>
         </tr>
     <tr>
         <td>Đi đến đầu</td>
-        <td><b>Q</b></td>
+        <td><b>Phím Q</b></td>
     </tr>
     <tr>
         <td>Đi tới 11% của cuốn sách</td>
-        <td><b>W</b></td>
+        <td><b>Phím W</b></td>
     </tr>
     <tr>
         <td>Đi tới 22% của cuốn sách</td>
-        <td><b>E</b></td>
+        <td><b>Phím E</b></td>
     </tr>
     <tr>
         <td>Đi tới 33% của cuốn sách</td>
-        <td><b>R</b></td>
+        <td><b>Phím R</b></td>
     </tr>
     <tr>
         <td>Đi tới 44% của cuốn sách</td>
-        <td><b>T</b></td>
+        <td><b>Phím T</b></td>
     </tr>
     <tr>
         <td>Đi đến 55% của cuốn sách</td>
-        <td><b>Y</b></td>
+        <td><b>Phím Y</b></td>
     </tr>
     <tr>
         <td>Đi tới 66% của cuốn sách</td>
-        <td><b>U</b></td>
+        <td><b>Phím U</b></td>
     </tr>
     <tr>
         <td>Đi tới 77% của cuốn sách</td>
-        <td><b>I</b></td>
+        <td><b>Phím I</b></td>
     </tr>
     <tr>
         <td>Đi tới 88% của cuốn sách</td>
-        <td><b>O</b></td>
+        <td><b>Phím O</b></td>
     </tr>
     <tr>
         <td>Đi đến cuối</td>
-        <td><b>P</b></td>
+        <td><b>Phím P</b></td>
     </tr>
 
     <tr>
-        <td><div class="L3-Smaller-heading">Page zooming</div><p style="font-size: 0.9rem;">Only for PDF, DJVU and images</p></td><td></td>
+        <td><div class="L3-Smaller-heading">Thu phóng trang</div><p style="font-size: 0.9rem;">Chỉ dành cho PDF, DJVU và hình ảnh</p></td><td></td>
     </tr>
     <tr>
         <td>Phóng to để vừa với trang</td>
-        <td><b>A</b></td>
+        <td><b>Phím A</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit page width</td>
-        <td><b>S</b></td>
+        <td>Thu phóng vừa với chiều rộng trang</td>
+        <td><b>Phím S</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit page height</td>
-        <td><b>D</b></td>
+        <td>Thu phóng vừa với chiều cao trang</td>
+        <td><b>Phím D</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content</td>
-        <td><b>Shift + A</b></td>
+        <td>Thu phóng vừa với nội dung</td>
+        <td><b>Phím Shift + A</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content width</td>
-        <td><b>Shift + S</b></td>
+        <td>Thu phóng vừa với chiều rộng nội dung</td>
+        <td><b>Phím Shift + S</b></td>
     </tr>
     <tr>
-        <td>Zoom to fit content height</td>
-        <td><b>Shift + D</b></td>
+        <td>Thu phóng vừa với chiều cao nội dung</td>
+        <td><b>Phím Shift + D</b></td>
     </tr>
 </table>
 
@@ -4323,101 +4323,101 @@ line-height: 2rem;
 
     <div class="L2-Sub-heading" id="L2-quickmenu">Menu nhanh</div>
     <p>
-        <span class="ui">Quick Menu</span> is a recent feature of KOReader which allows you to have a quickly accessible personalized menu as in the example image below. You can assign this menu to a gesture and access it with a single swipe. You can even have a menu longer than your screen, it is scrollable.</p>
+        <span class="ui">Menu nhanh</span> là một tính năng mới của KOReader cho phép bạn có một menu cá nhân hóa, dễ truy cập như trong hình minh họa bên dưới. Bạn có thể gán menu này cho một cử chỉ và mở nó chỉ với một lần vuốt. Bạn thậm chí có thể tạo menu dài hơn màn hình của mình, nó có thể cuộn được.</p>
 
-        <p>Basically, any action you can assign a gesture can be added to the <span class="ui">Quick Menu</span>. Its advantages are:</p>
+        <p>Về cơ bản, bất kỳ hành động nào bạn có thể gán cho một cử chỉ đều có thể được thêm vào <span class="ui">Menu nhanh</span>. Các ưu điểm của nó là:</p>
 
         <ol>
-            <li>You don’t need to memorize lots of gestures for every action.</li>
-            <li>Some infrequent actions may not worth a gesture but it can be too much hassle to find it in the menu system. You can add this kind of rarely used actions to this menu instead.</li>
-            <li>If you are installing KOReader for a relative or friend, you can add their favorite actions to this menu so they don’t even need to go into the menu system while using KOReader.</li>
+            <li>Bạn không cần phải ghi nhớ quá nhiều cử chỉ cho từng hành động.</li>
+            <li>Một số hành động ít khi dùng có thể không đáng để gán cho một cử chỉ, nhưng lại khá phiền phức nếu phải tìm trong hệ thống menu. Bạn có thể thêm những hành động ít dùng này vào menu này thay thế.</li>
+            <li>Nếu bạn đang cài đặt KOReader cho người thân hoặc bạn bè, bạn có thể thêm những hành động yêu thích của họ vào menu này để họ thậm chí không cần phải vào hệ thống menu khi sử dụng KOReader.</li>
         </ol>
         
-        <p><b>An example Quick Menu:</b></p>
+        <p><b>Ví dụ về Menu nhanh:</b></p>
 
         <img loading="lazy" src="pictures/quickmenu_example.png" style="width: 60%;">
 
         
-        <p>There are two methods of creating a <span class="ui">Quick Menu</span>: <b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</b> should be enough for you. If you want to show different menus with different gestures you need to use <b>Advanced method</b>. Another advantage of <b>Advanced method</b> is easier gesture reassignment. If you want to change the gesture for your menu, you can easily move it to another gesture with the <b>Advanced method</b> menu. If you want to use another gesture while using the <b>Easy method</b>, you have to re-create your menu under the new gesture.</p>
+        <p>Có hai cách để tạo <span class="ui">Menu nhanh</span>: <b>Dễ</b> và <b>Nâng cao</b>. Nếu bạn chỉ cần một menu, <b>Phương pháp dễ</b> là đủ cho bạn. Nếu bạn muốn hiển thị các menu khác nhau với các cử chỉ khác nhau, bạn cần sử dụng <b>Phương pháp nâng cao</b>. Một ưu điểm khác của <b>Phương pháp nâng cao</b> là việc gán lại cử chỉ dễ dàng hơn. Nếu bạn muốn thay đổi cử chỉ cho menu của mình, bạn có thể dễ dàng chuyển nó sang một cử chỉ khác bằng menu <b>Phương pháp nâng cao</b>. Nếu bạn muốn sử dụng một cử chỉ khác khi dùng <b>Phương pháp dễ</b>, bạn sẽ phải tạo lại menu của mình dưới cử chỉ mới.</p>
 
 
 
-        <div class="L3-Smaller-heading">Easy method</div>
+        <div class="L3-Smaller-heading">Phương pháp dễ</div>
 
             <ol>
-                <li>Go to <span class="ui">Gesture Manager</span> menu via:
+                <li>Đi tới menu <span class="ui">Quản lý cử chỉ</span> thông qua:
                     <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và Cử chỉ / Trình quản lý Cử chỉ</div></li>
-                <li>Decide a gesture for opening your menu and tap on it.</li>
-                <li>Choose the actions you want to see in your menu from the gesture configuration menu. You can select many actions at once of course.</li>
-                <li>After selecting all your actions, you will tell KOReader to treat this gesture as a menu. You achieve this by enabling <span class="ui">Show as Quick Menu</span> item on the second page as you can see <b>in the picture below</b>.</li>
-                <li>You can sort your menu items with the <span class="ui">Sort</span> option just below it.</li>
+                <li>Quyết định một cử chỉ để mở menu của bạn và chạm vào nó.</li>
+                <li>Chọn các hành động bạn muốn hiển thị trong menu từ menu cấu hình cử chỉ. Tất nhiên, bạn có thể chọn nhiều hành động cùng lúc.</li>
+                <li>Sau khi chọn tất cả các hành động của bạn, bạn sẽ yêu cầu KOReader coi cử chỉ này như một menu. Bạn thực hiện điều này bằng cách bật mục <span class="ui">Hiển thị như Menu nhanh</span> ở trang thứ hai như bạn có thể thấy <b>trong hình bên dưới</b>.</li>
+                <li>Bạn có thể sắp xếp các mục trong menu của mình bằng tùy chọn <span class="ui">Sắp xếp</span> ngay bên dưới.</li>
             </ol>
-        <p>Now you can launch your menu with the gesture you selected. If you want to change the menu items, you can open the gesture page and add/remove items.</p>
+        <p>Bây giờ bạn có thể mở menu bằng cử chỉ mà bạn đã chọn. Nếu muốn thay đổi các mục trong menu, bạn có thể mở trang cử chỉ và thêm hoặc xóa các mục.</p>
 
     
         <img loading="lazy" src="pictures/quickmenu_easy.png" style="width:60%;">
         
 
 
-<div class="L3-Smaller-heading">Advanced method</div>
+<div class="L3-Smaller-heading">Phương pháp nâng cao</div>
 
-        <div class="info"><span class="label_blue">INFO</span> As we said above, if you are not planning to add more than one <span class="ui">Quick Menu</span> you don’t need this section.</div>
+        <div class="info"><span class="label_blue">THÔNG TIN</span> Như đã nói ở trên, nếu bạn không định thêm nhiều hơn một <span class="ui">Menu nhanh</span> thì bạn không cần đến phần này.</div>
 
-        <p>This <span class="ui">Quick Menu</span> is actually a <span class="ui">Profile</span> which appears on your screen as a menu. So first you have to learn about <span class="ui">Profiles</span>. If you already know how to use them, you can continue reading, otherwise jump to the <span class="ui">Profiles</span> heading (next section), create a <span class="ui">Profile</span> with some items and come back here.</p>
+        <p><span class="ui">Menu nhanh</span> thực chất là một <span class="ui">Hồ sơ</span> xuất hiện trên màn hình của bạn dưới dạng một menu. Vì vậy trước tiên bạn cần tìm hiểu về <span class="ui">Hồ sơ</span>. Nếu bạn đã biết cách sử dụng chúng, bạn có thể tiếp tục đọc, nếu không hãy chuyển đến phần <span class="ui">Hồ sơ</span> (phần tiếp theo), tạo một <span class="ui">Hồ sơ</span> với một số mục và quay lại đây.</p>
         
-        <p>Before continuing, we assume that you already created a <span class="ui">Profile</span> as instructed in the previous paragraph. Now we will turn our <span class="ui">Profile</span> into a <span class="ui">Quick Menu</span>.</p>
+        <p>Trước khi tiếp tục, chúng tôi giả định rằng bạn đã tạo một <span class="ui">Hồ sơ</span> như đã hướng dẫn trong đoạn trước. Bây giờ chúng ta sẽ chuyển <span class="ui">Hồ sơ</span> của mình thành một <span class="ui">Menu nhanh</span>.</p>
 
-        <p><b>1.</b> Go to your newly created <span class="ui">Profile</span> and enable <span class="ui">Show in action list</span> (shown in the image below). This will make your <span class="ui">Profile</span> visible in the <span class="ui">Gesture Manager</span>. Also enable <span class="ui">Show as Quick Menu</span> (also in the image below) so your profile will be shown as a menu instead of being silently executed.</p>
+        <p><b>1.</b> Đi tới <span class="ui">Hồ sơ</span> mới tạo của bạn và bật <span class="ui">Hiển thị trong danh sách hành động</span> (như minh họa trong hình bên dưới). Điều này sẽ giúp <span class="ui">Hồ sơ</span> của bạn hiển thị trong <span class="ui">Quản lý cử chỉ</span>. Đồng thời bật <span class="ui">Hiển thị như Menu nhanh</span> (cũng trong hình bên dưới) để hồ sơ của bạn được hiển thị dưới dạng menu thay vì được thực thi một cách âm thầm.</p>
         
         <img loading="lazy" src="pictures/quickmenu_advanced.png" style="width:100%;">
 
-        <p><b>2.</b> Now we need a way to access our menu. Go to the <span class="ui">Gesture Manager</span> and choose a gesture from the list to assign to our menu. Let’s say we want to tap the corner of the screen to show menu. Now tap on <span class="ui">Tap corner</span> then choose <span class="ui">Bottom left</span>. Now tap on <span class="ui">General</span> and go to the second page. You will find your profile as <span class="ui">Profile x</span> where x is the name you gave to this <span class="ui">Profile</span>. Tap on its checkbox to assign your profile to this gesture.</p>
+        <p><b>2.</b> Bây giờ chúng ta cần một cách để truy cập menu. Vào <span class="ui">Quản lý cử chỉ</span> và chọn một cử chỉ từ danh sách để gán cho menu của chúng ta. Giả sử chúng ta muốn chạm vào góc màn hình để hiển thị menu. Hãy chạm vào <span class="ui">Chạm góc</span> rồi chọn <span class="ui">Góc dưới bên trái</span>. Sau đó chạm vào <span class="ui">Chung</span> và đi đến trang thứ hai. Bạn sẽ thấy hồ sơ của mình dưới dạng <span class="ui">Hồ sơ x</span> trong đó x là tên bạn đã đặt cho <span class="ui">Hồ sơ</span> này. Chạm vào ô chọn của nó để gán hồ sơ của bạn cho cử chỉ này.</p>
 
         <p>Sau tất cả các bước, giờ bạn sẽ thấy menu khi chạm vào góc dưới bên trái. Bạn có thể chỉnh sửa menu bằng cách vào trang <span class="ui">Hồ sơ</span>, nơi bạn có thể thêm hoặc xóa các mục. Ngoài ra còn có mục <span class="ui">Sắp xếp</span> để bạn có thể thay đổi thứ tự các mục menu.</p>
 
-        <p> As we said, a <span class="ui">Quick Menu</span> is actually a <span class="ui">Profile</span>. Which means you can have more than one menu. You can create another <span class="ui">Profile</span> and follow the same steps to create another menu if you want.</p>
+        <p> Như đã nói, một <span class="ui">Menu nhanh</span> thực chất là một <span class="ui">Hồ sơ</span>. Điều này có nghĩa là bạn có thể có nhiều hơn một menu. Bạn có thể tạo thêm một <span class="ui">Hồ sơ</span> khác và làm theo các bước tương tự để tạo thêm một menu nếu muốn.</p>
 
 
-<div class="L2-Sub-heading" id="L2-quickmenutips">Quick menu tips</div>
+<div class="L2-Sub-heading" id="L2-quickmenutips">Mẹo menu nhanh</div>
 
-<div class="L3-Smaller-heading">Keeping the menu open after use</div>
+<div class="L3-Smaller-heading">Giữ menu mở sau khi sử dụng</div>
     
         <p>
         Thông thường, sau khi chọn một mục trong Menu Nhanh, menu sẽ biến mất khỏi màn hình. Đôi khi bạn có thể muốn giữ menu mở sau khi chọn một mục. Điều này cho phép bạn điều chỉnh các cài đặt như ví dụ sau:</p>
         
         <ul>
             <li>
-            <b>Incremental changes</b>, like brightness increase/decrease, bigger/smaller font size, previous/next pages or chapters, etc.
+            <b>Thay đổi tăng dần</b>, như tăng/giảm độ sáng, phóng to/thu nhỏ cỡ chữ, chuyển về/trang tiếp theo hoặc chương trước/sau, v.v.
             </li>
 
             <li>
-            <b>Group of options that you activate in succession</b> (but not simultaneously), like <b>turning on wifi</b> and after that <b>starting the SSH server</b>
+            <b>Nhóm các tùy chọn mà bạn kích hoạt lần lượt</b> (nhưng không đồng thời), ví dụ như <b>bật wifi</b> và sau đó <b>khởi động máy chủ SSH</b>
             </li>
         </ul>
 
-        <p>You can enable this option from the following menu if you have a <b>Gesture Manager based (Easy method)</b> Quick Menu:</p>
+        <p>Bạn có thể bật tùy chọn này từ menu sau nếu bạn có <b>Menu nhanh dựa trên Quản lý cử chỉ (Phương pháp dễ)</b>:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ Chạm và Cử chỉ / Trình quản lý Cử chỉ / “Cử chỉ Menu Nhanh của bạn” / Giữ Menu Nhanh mở</div>
 
-        <p>Or from this menu, if you have a <b>Profiles based – (Advanced method)</b> Quick Menu:</p>
+        <p>Hoặc từ menu này, nếu bạn có <b>Menu nhanh dựa trên Hồ sơ – (Phương pháp nâng cao)</b>:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;">/ Hồ sơ / “Hồ sơ Menu nhanh của bạn” / Chỉnh sửa hành động / Giữ Menu nhanh mở</div>
 
 
-        <div class="L3-Smaller-heading">Opening Quick Menu at the gesture position</div>
+        <div class="L3-Smaller-heading">Mở Menu nhanh tại vị trí cử chỉ</div>
     
-        <p>Normally Quick Menu opens centered at the middle of the screen. If you are using your e-reader with one hand, you can activate a setting which will open your menu at the gesture position. This way, menu will be closer to your finger and easier to access. To use this feature enable this option:</p>
+        <p>Thông thường Menu nhanh sẽ mở ở giữa màn hình. Nếu bạn đang sử dụng máy đọc sách bằng một tay, bạn có thể bật một thiết lập để menu mở ngay tại vị trí cử chỉ. Như vậy, menu sẽ gần ngón tay của bạn hơn và dễ truy cập hơn. Để sử dụng tính năng này, hãy bật tùy chọn sau:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ Chạm và Cử chỉ / Trình quản lý Cử chỉ / “Cử chỉ Menu Nhanh của Bạn” / Neo Menu Nhanh vào vị trí cử chỉ</div>
 
-        <div class="info"><span class="label_blue">INFO</span> This is available only in a Quick Menu which is created via Gesture Manager (Easy method above).
+        <div class="info"><span class="label_blue">THÔNG TIN</span> Tùy chọn này chỉ khả dụng trong Menu nhanh được tạo thông qua Quản lý cử chỉ (Phương pháp dễ ở trên).
         </div>
 
 
 
 <div class="L2-Sub-heading" id="L2-profiles">Hồ sơ</div>
         <p>
-        A profile is basically a collection of actions that can be triggered with a single gesture (like a macro).</p>
+        Một hồ sơ về cơ bản là một tập hợp các hành động có thể được kích hoạt bằng một cử chỉ duy nhất (giống như một macro).</p>
 
         <p>Ví dụ, hãy tưởng tượng rằng khi đọc một số loại sách, bạn luôn:</p>
         <ul>
@@ -4428,64 +4428,64 @@ line-height: 2rem;
         
         <p>Với plugin hồ sơ, bạn có thể thực hiện tất cả những điều này cùng lúc chỉ với một hành động.</p>
         
-        <div class="info"><span class="label_blue">INFO</span> When you activate another profile, changes made in the first profile <b>will not be reversed</b>. For example, you activate a profile which sets your font size from <b>20</b> to <b>24</b>. Then you activate another profile that adjusts your <b>frontlight</b>. Your font size <b>stays at 24</b> after activating the second profile. Because profiles in KOReader doesn’t have an exit or reverse action.
+        <div class="info"><span class="label_blue">THÔNG TIN</span> Khi bạn kích hoạt một hồ sơ khác, các thay đổi được thực hiện trong hồ sơ đầu tiên <b>sẽ không bị đảo ngược</b>. Ví dụ: bạn kích hoạt một hồ sơ đặt cỡ chữ từ <b>20</b> lên <b>24</b>. Sau đó bạn kích hoạt một hồ sơ khác điều chỉnh <b>đèn nền</b>. Cỡ chữ của bạn <b>vẫn giữ ở mức 24</b> sau khi kích hoạt hồ sơ thứ hai. Bởi vì các hồ sơ trong KOReader không có hành động thoát hoặc đảo ngược.
         </div>
 
-        <p>To create a profile first be sure that <span class="ui">Profiles</span> plugin is activated. If you don’t see it under:</p>
+        <p>Để tạo một hồ sơ, trước tiên hãy chắc chắn rằng plugin <span class="ui">Hồ sơ</span> đã được kích hoạt. Nếu bạn không thấy nó trong phần:</p>
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Hồ sơ</div>
         
-        <p>then you have to turn it on from:</p>
+        <p>sau đó bạn phải bật nó từ:</p>
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Thêm công cụ / Quản lý plugin</div>
         
 
 
-<div class="L3-Smaller-heading">Creating a profile</div>
+<div class="L3-Smaller-heading">Tạo một hồ sơ</div>
 
         <p>
-        In <span class="ui">Profiles</span> menu tap <span class="ui">New</span> and give a descriptive name for your profile. Now you should see your new profile in the menu. Tap on it and you will see the screen on the left side. You can also <span class="ui">Delete, Rename</span> or <span class="ui">Duplicate</span> a profile from this menu.</p>
+        Trong menu <span class="ui">Hồ sơ</span>, hãy chạm vào <span class="ui">Mới</span> và đặt một tên mô tả cho hồ sơ của bạn. Bây giờ bạn sẽ thấy hồ sơ mới xuất hiện trong menu. Chạm vào nó và bạn sẽ thấy màn hình ở phía bên trái. Bạn cũng có thể <span class="ui">Xóa, Đổi tên</span> hoặc <span class="ui">Nhân bản</span> một hồ sơ từ menu này.</p>
                 
         <img loading="lazy" src="pictures/profile_create.png" style="width:100%;;">
 
-        <p>When you tap on <span class="ui">Edit actions</span> menu item you will see the menu on the right. This is the same menu as the gesture selection menu and there are actions in many categories. Which means you can perform any <span class="ui">Gesture</span> action using a <span class="ui">Profile</span>.</p>
+        <p>Khi bạn chạm vào mục menu <span class="ui">Chỉnh sửa hành động</span>, bạn sẽ thấy menu ở bên phải. Đây chính là menu lựa chọn cử chỉ và có các hành động trong nhiều danh mục khác nhau. Điều này có nghĩa là bạn có thể thực hiện bất kỳ hành động <span class="ui">Cử chỉ</span> nào bằng cách sử dụng một <span class="ui">Hồ sơ</span>.</p>
 
-        <p>You can now select several items from all these categories. The actions you selected here will be performed when you activate this profile.</p>
+        <p>Bây giờ bạn có thể chọn nhiều mục từ tất cả các danh mục này. Những hành động bạn đã chọn sẽ được thực hiện khi bạn kích hoạt hồ sơ này.</p>
 
         
-<div class="L3-Smaller-heading">Activating a profile</div>
+<div class="L3-Smaller-heading">Kích hoạt một hồ sơ</div>
 
-        <p>There are many ways to activate a profile:</p>
+        <p>Có nhiều cách để kích hoạt một hồ sơ:</p>
 
         <ol>
             <li>Bạn có thể kích hoạt một hồ sơ bằng cách <b>nhấn và giữ</b> tên của hồ sơ đó từ cùng menu <span class="ui">Hồ sơ</span> này</li>
-            <li>You can activate a profile using a gesture. For this, you have to enable <span class="ui">Show in action list</span> from the profile’s menu. Now you can select it via:
+            <li>Bạn có thể kích hoạt một hồ sơ bằng cách sử dụng cử chỉ. Để làm điều này, bạn phải bật tùy chọn <span class="ui">Hiển thị trong danh sách hành động</span> từ menu của hồ sơ. Sau đó, bạn có thể chọn nó thông qua:
 
             <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và cử chỉ / Trình quản lý cử chỉ / “BẤT KỲ CỬ CHỈ NÀO” / Chung / Hồ sơ “Tên hồ sơ của bạn”</div>
             </li>
-            <li>You can also activate a profile <b>automatically</b> depending on some conditions. See the next heading to learn how to use this powerful feature.</li>
+            <li>Bạn cũng có thể kích hoạt một hồ sơ <b>tự động</b> dựa trên một số điều kiện. Xem phần tiếp theo để tìm hiểu cách sử dụng tính năng mạnh mẽ này.</li>
         </ol>
 
-		<div class="L2-Sub-heading" id="L2-profileautoexec">Profile auto-execution</div>
+		<div class="L2-Sub-heading" id="L2-profileautoexec">Tự động thực thi hồ sơ</div>
         
-		<p>You can run a profile manually as explained above but real power of profiles can be unleashed with its <span class="ui">auto-execute</span> feature. Using this feature, you can trigger a profile depending on some conditions and sub-conditions:</p>
+		<p>Bạn có thể chạy một hồ sơ thủ công như đã giải thích ở trên, nhưng sức mạnh thực sự của hồ sơ được khai thác thông qua tính năng <span class="ui">tự động thực thi</span>. Với tính năng này, bạn có thể kích hoạt một hồ sơ dựa trên một số điều kiện và điều kiện phụ:</p>
 	
 			<table class="grid-table" align="center" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
 	
 			<tr>
-				<td><b>Trigger</b></td><td><b>Sub-conditions</b></td>
+				<td><b>Kích hoạt</b></td><td><b>Điều kiện phụ</b></td>
 			</tr>
 			<tr>
-				<td><span class="ui">khi bắt đầu KOReader</span><p>Run this profile every time KOReader starts. Note that this is only possible when KOReader is starting with the <span class="ui">File browser</span> or <span class="ui">Last file</span>.</p></td><td>-</td>
+				<td><span class="ui">khi bắt đầu KOReader</span><p>Chạy hồ sơ này mỗi khi KOReader khởi động. Lưu ý rằng điều này chỉ khả thi khi KOReader khởi động với <span class="ui">Trình duyệt tệp</span> hoặc <span class="ui">Tệp cuối cùng</span>.</p></td><td>-</td>
 			</tr>
 			<tr>
-				<td><span class="ui">On wake-up</span> <p>Run this profile every time device wakes up</p></td><td>-</td>
+				<td><span class="ui">Khi thiết bị thức dậy</span> <p>Chạy hồ sơ này mỗi khi thiết bị thức dậy</p></td><td>-</td>
 			</tr>
 			<tr>
-				<td><span class="ui">khi xoay</span> <p>Run this profile when screen rotates to the selected rotation(s).</p>  <p><b>Examples:</b> Change to double column layout when device rotates to landscape. Activate night mode when device rotates upside down.</p></td>
+				<td><span class="ui">khi xoay</span> <p>Chạy hồ sơ này khi màn hình xoay sang các hướng đã chọn.</p>  <p><b>Ví dụ:</b> Chuyển sang bố cục hai cột khi thiết bị xoay sang ngang. Kích hoạt chế độ ban đêm khi thiết bị xoay sang lộn ngược.</p></td>
 				<td>
 				<ul>
-				<li><span class="ui">Left 90°</span> (landscape)</li>
+				<li><span class="ui">Xoay trái 90°</span> (ngang)</li>
 				<li><span class="ui">0°</span> (bình thường)</li>
 				<li><span class="ui">Phải 90°</span> (phong cảnh)</li>
 				<li><span class="ui">180°</span> (ngược lại)</li>
@@ -4493,39 +4493,39 @@ line-height: 2rem;
 				</td>
 			</tr>
 			<tr>
-				<td><span class="ui">On showing folder</span> <p>Run this profile when you enter this folder in file browser. You can use this trigger to change the display mode of <span class="ui">file browser</span>. For example when you enter a certain folder you can change the display mode from <b>mosaic</b> to <b>detailed</b> view.</p></td>
+				<td><span class="ui">Khi hiển thị thư mục</span> <p>Chạy hồ sơ này khi bạn vào thư mục trong trình duyệt tệp. Bạn có thể dùng trigger này để thay đổi chế độ hiển thị của <span class="ui">trình duyệt tệp</span>. Ví dụ, khi bạn vào một thư mục nhất định, bạn có thể thay đổi chế độ hiển thị từ <b>khảm</b> sang <b>chi tiết</b>.</p></td>
 				<td><ul>
-					<li><span class="ui">If folder path contains</span> a certain text</li>
-					<li><span class="ui">If folder path doesn't contain</span> a certain text</li>
+					<li><span class="ui">Nếu đường dẫn thư mục chứa</span> một đoạn văn bản nhất định</li>
+					<li><span class="ui">Nếu đường dẫn thư mục không chứa</span> một đoạn văn bản nhất định</li>
 				</ul></td>
 			</tr>
 			<tr>
-				<td><span class="ui">On book opening</span>
-					<p>This trigger is executed when you open a book (optionally) combined with specific sub-conditions.</p>
-					<p>First 4 sub-conditions are <b>OR</b> matching, so any one of them is enough to trigger the profile execution.</p>
+				<td><span class="ui">Khi mở sách</span>
+					<p>Trigger này sẽ được thực thi khi bạn mở một cuốn sách (có thể tùy chọn) kết hợp với các điều kiện phụ cụ thể.</p>
+					<p>4 điều kiện phụ đầu tiên được so khớp theo <b>OR</b>, vì vậy chỉ cần một trong số chúng đúng là đủ để kích hoạt việc thực thi hồ sơ.</p>
 					</td>
 					<td>
 					<ul>
-						<li>Combined with <b>device orientation</b></li>
-						<li>Combined with <b>book metadata</b></li>
-						<li>Combined with <b>book file path</b></li>
-						<li>Combined with <b>collections book is included in</b></li>
-						<li>Combined with <b>book is being opened for the first time</b></li>
+						<li>Kết hợp với <b>hướng thiết bị</b></li>
+						<li>Kết hợp với <b>siêu dữ liệu sách</b></li>
+						<li>Kết hợp với <b>đường dẫn tệp sách</b></li>
+						<li>Kết hợp với <b>bộ sưu tập mà sách được bao gồm</b></li>
+						<li>Kết hợp với <b>sách được mở lần đầu tiên</b></li>
 					</ul>
 					</td>
 			</tr>
 			<tr>
-				<td><span class="ui">On book closing</span>
-					<p>This option is same as above but it triggers when you close a book. You can use this for example enabling/disabling reading statistics when you open certain documents to exclude them from your stats.</p>
+				<td><span class="ui">Khi đóng sách</span>
+					<p>Tùy chọn này giống như trên nhưng nó sẽ được kích hoạt khi bạn đóng sách. Bạn có thể dùng nó, ví dụ, để bật/tắt thống kê đọc khi mở một số tài liệu nhất định nhằm loại trừ chúng khỏi thống kê của bạn.</p>
 					
 				</td>
 					<td>
 					<ul>
-						<li>Combined with <b>device orientation</b></li>
-						<li>Combined with <b>book metadata</b></li>
-						<li>Combined with <b>book file path</b></li>
-						<li>Combined with <b>collections book is included in</b></li>
-						<li>Combined with <b>book is being opened for the first time</b></li>
+						<li>Kết hợp với <b>hướng thiết bị</b></li>
+						<li>Kết hợp với <b>siêu dữ liệu sách</b></li>
+						<li>Kết hợp với <b>đường dẫn tệp sách</b></li>
+						<li>Kết hợp với <b>bộ sưu tập mà sách được bao gồm</b></li>
+						<li>Kết hợp với <b>sách được mở lần đầu tiên</b></li>
 					</ul>
 					</td>
 			</tr>
@@ -4533,45 +4533,45 @@ line-height: 2rem;
 	
 			<br><br>
 	
-			<p><b>Profile examples:</b></p>
+			<p><b>Ví dụ về hồ sơ:</b></p>
 	
-			<p>Here are some profile examples from our devs to give you ideas about using this powerful feature of KOReader. Examples also include auto-execute conditions and <span class="ui">collections</span> features:</p>
+			<p>Dưới đây là một số ví dụ về hồ sơ từ các nhà phát triển của chúng tôi để giúp bạn có thêm ý tưởng về cách sử dụng tính năng mạnh mẽ này của KOReader. Các ví dụ cũng bao gồm các điều kiện tự động thực thi và tính năng <span class="ui">bộ sưu tập</span>:</p>
 	
 			<ul>
-				<li>Enable <b>two columns mode</b> when you turn your device to landscape orientation.</li>
-				<li>Enable <b>night mode</b> when you turn your device upside down.</li>
-				<li>Add all your manga to a collection. Then create a profile which switches the page turn direction to <b>Right-To-Left</b> and inverts the page turn taps and swipes when you open a manga book from this collection.</li>
-				<li>Add your comic books to a collection, which can trigger a profile to decrease the screen refresh interval to <span class="ui">every page</span> to avoid ghosting.</li>
-				<li>Trigger a profile to adjust typeface, font size and set two-column mode when opening a file for the first time from the <b>Periodicals</b> folder.</li>
-				<li>Add your problematic PDFs to a collection, so when you open them <span class="ui">Auto OCR</span> or <span class="ui">Reflow mode</span> is activated with a profile.</li>
-				<li>Switch display mode (covers, detailed list etc.) of <span class="ui">file browser</span> when you enter certain folders.</li>
-				<li>Toggle off reading statistics when opening a book from a <b>Reference Books</b> collection. Toggle statistics back on when closing the book.</li>
-				<li>If you expose the <span class="ui">style tweaks</span> in the gesture manager, you can create a profile to enable or disable them based on certain conditions. For example you can trigger a <b>"disable publisher styles AND apply my user style tweaks"</b> profile based on the book's location/collection or by a keyword in the metadata of the book. See the <a href="#L2-styletweaks">style tweaks</a> section of the guide for more info.</li>
+				<li>Bật <b>chế độ hai cột</b> khi bạn xoay thiết bị sang hướng ngang.</li>
+				<li>Bật <b>chế độ ban đêm</b> khi bạn xoay thiết bị ngược xuống.</li>
+				<li>Thêm tất cả manga của bạn vào một bộ sưu tập. Sau đó tạo một hồ sơ để chuyển hướng lật trang sang <b>Từ-phải-sang-trái</b> và đảo ngược thao tác chạm cùng vuốt lật trang khi bạn mở một cuốn manga từ bộ sưu tập này.</li>
+				<li>Thêm truyện tranh của bạn vào một bộ sưu tập, bộ sưu tập này có thể kích hoạt một hồ sơ để giảm khoảng thời gian làm mới màn hình xuống <span class="ui">mỗi trang</span> nhằm tránh hiện tượng bóng mờ.</li>
+				<li>Kích hoạt một hồ sơ để điều chỉnh kiểu chữ, cỡ chữ và bật chế độ hai cột khi mở một tệp lần đầu tiên từ thư mục <b>Định kỳ</b>.</li>
+				<li>Thêm các tệp PDF gặp vấn đề của bạn vào một bộ sưu tập, để khi bạn mở chúng thì <span class="ui">Tự động OCR</span> hoặc <span class="ui">Chế độ tái dòng</span> sẽ được kích hoạt bằng một hồ sơ.</li>
+				<li>Chuyển chế độ hiển thị (bìa, danh sách chi tiết, v.v.) của <span class="ui">trình duyệt tệp</span> khi bạn vào một số thư mục nhất định.</li>
+				<li>Tắt thống kê đọc khi mở một cuốn sách từ bộ sưu tập <b>Sách tham khảo</b>. Bật lại thống kê khi đóng sách.</li>
+				<li>Nếu bạn hiển thị <span class="ui">tinh chỉnh kiểu dáng</span> trong trình quản lý cử chỉ, bạn có thể tạo một hồ sơ để bật hoặc tắt chúng dựa trên một số điều kiện nhất định. Ví dụ, bạn có thể kích hoạt hồ sơ <b>"tắt kiểu dáng của nhà xuất bản VÀ áp dụng tinh chỉnh kiểu dáng của tôi"</b> dựa trên vị trí/bộ sưu tập của sách hoặc bằng một từ khóa trong siêu dữ liệu của sách. Xem phần <a href="#L2-styletweaks">tinh chỉnh kiểu dáng</a> trong hướng dẫn để biết thêm thông tin.</li>
 			</ul>
 
         
-<div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu</div>
+<div class="L3-Smaller-heading">Chi tiết kỹ thuật của Profiles và Quick Menu</div>
 
         <p><span class="label_red">!!! NÂNG CAO</span></p>
     
         <p>
-        In KOReader we have <b>a set of actions/settings</b> and this set can be created in two ways:</p>
+        Trong KOReader chúng ta có <b>một tập hợp hành động/cài đặt</b> và tập hợp này có thể được tạo theo hai cách:</p>
 
         <ol>
-            <li>As a profile (which is explained as the <span class="ui">Advanced Method</span> and stored in <span class="ui">settings/profiles.lua</span>)</li>
-            <li>As a list of actions assigned to a gesture (which is explained as the <span class="ui">Easy Method</span> and stored in <span class="ui">settings/gestures.lua)</span></li>
+            <li>Dưới dạng hồ sơ (được giải thích là <span class="ui">Phương pháp nâng cao</span> và được lưu trong <span class="ui">settings/profiles.lua</span>)</li>
+            <li>Dưới dạng danh sách các hành động được gán cho một cử chỉ (được giải thích là <span class="ui">Phương pháp dễ dàng</span> và được lưu trong <span class="ui">settings/gestures.lua</span>)</li>
         </ol>
     
-        <p>This set can also be <b>executed</b> in two different ways:</p>
+        <p>Tập hợp này cũng có thể được <b>thực thi</b> theo hai cách khác nhau:</p>
         <ol>
-            <li>Applying each action in the (sorted) order when triggered (as a <span class="ui">Profile</span>)</li>
-            <li>Showing it as a <span class="ui">Quick Menu</span></li>
+            <li>Áp dụng từng hành động theo thứ tự (đã sắp xếp) khi được kích hoạt (dưới dạng <span class="ui">Hồ sơ</span>)</li>
+            <li>Hiển thị dưới dạng <span class="ui">Trình đơn nhanh</span></li>
         </ol>
         
         <p>Việc thêm/xóa hành động của một tập hợp và bật/sắp xếp <span class="ui">Menu Nhanh</span> được thực hiện thông qua cùng một <span class="ui">menu hành động</span>. Điểm khác biệt duy nhất là menu hành động trong Trình quản lý cử chỉ có thêm hai mục (Truyền qua), đó là lý do tại sao các mục <span class="ui">Hiển thị dưới dạng Menu Nhanh</span> và <span class="ui">Sắp xếp</span> lại nằm ở trang thứ hai.</p>
 
 
-        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">INFO</span> You can backup and transfer your profiles to another device. Please see <a href="#backup">Backup your KOReader settings</a> section.</p></div>
+        <div class="info"><p style="text-indent: 0rem;"><span class="label_blue">THÔNG TIN</span> Bạn có thể sao lưu và chuyển hồ sơ của mình sang thiết bị khác. Vui lòng xem phần <a href="#backup">Sao lưu cài đặt KOReader</a>.</p></div>
 
 
 
@@ -4580,68 +4580,68 @@ line-height: 2rem;
         <div class="L1-Chapter-heading" id="L1-plugins">PLUGIN VÀ BẢN VÁ NGƯỜI DÙNG</div>
         <div class="L2-Sub-heading" id="L2-plugintypes">Các loại plugin</div>
         <p>
-        Plugins are small KOReader programs that are similar to browser add-ons which extends the capabilities of the base program. KOReader has 3 categories of plugins:</p>
+        Plugin là những chương trình nhỏ trong KOReader, tương tự như tiện ích bổ sung của trình duyệt, giúp mở rộng khả năng của chương trình gốc. KOReader có 3 loại plugin:</p>
 
         
-        <div class="L3-Smaller-heading">Internal</div>
+        <div class="L3-Smaller-heading">nội bộ</div>
         <p>
-        Internal plugins are part of the core program.</p>
+        Plugin nội bộ là một phần của chương trình lõi.</p>
 
         <ul>
-            <li>They are directly accessible from the KOReader plugins menu.</li>
-            <li>They <b>don’t need</b> installation. You can enable them from the menu.</li>
-            <li>They are checked by our developers so they are <b>considered safe</b>.</li>
-            <li>They are <b>automatically updated</b> when you update KOReader.</li>
+            <li>Chúng có thể được truy cập trực tiếp từ trình đơn plugin của KOReader.</li>
+            <li>Chúng <b>không cần</b> cài đặt. Bạn có thể bật chúng từ trình đơn.</li>
+            <li>Chúng được các nhà phát triển của chúng tôi kiểm tra nên được <b>xem là an toàn</b>.</li>
+            <li>Chúng sẽ được <b>tự động cập nhật</b> khi bạn cập nhật KOReader.</li>
         </ul>
     
-        <p>You can enable/disable them via:</p>
+        <p>Bạn có thể bật/tắt chúng thông qua:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Thêm công cụ / Quản lý plugin</div>
 
 
 
-        <div class="L3-Smaller-heading">Contrib</div>
+        <div class="L3-Smaller-heading">cộng đồng</div>
         <p><span class="label_red">!!! NÂNG CAO</span></p>
 
         <p>
-        This group contains non-official plugins which are not part of the core logic of KOReader.</p>
+        Nhóm này bao gồm các plugin không chính thức, không phải là một phần của logic lõi của KOReader.</p>
 
         <ul>
             <li>Chúng phải được cài đặt <b>thủ công</b> và sau đó được kích hoạt từ menu plugin.</li>
             <li>Chúng phải được cập nhật <b>thủ công</b>.</li>
-            <li>They are checked by our developers <b>at the time they were added to our repository</b> so they are considered safe.</li>
+            <li>Chúng được các nhà phát triển của chúng tôi kiểm tra <b>tại thời điểm chúng được thêm vào kho lưu trữ</b> nên được xem là an toàn.</li>
         </ul>
     
         <p>
-            You can access them from <a href="https://github.com/koreader/contrib">this page</a>. Generally they are installed by downloading the plugin’s directory from the page above and copying it under <span class="ui">koreader/plugins</span> folder on your device. But please check the plugin’s page for other possible instructions.
+            Bạn có thể truy cập chúng từ <a href="https://github.com/koreader/contrib">trang này</a>. Thông thường, chúng được cài đặt bằng cách tải về thư mục của plugin từ trang trên và sao chép vào thư mục <span class="ui">koreader/plugins</span> trên thiết bị của bạn. Tuy nhiên, vui lòng kiểm tra trang của plugin để biết thêm các hướng dẫn khác có thể có.
         </p>
 
         
-        <div class="L3-Smaller-heading">External</div>
+        <div class="L3-Smaller-heading">Bên ngoài</div>
         <p><span class="label_red">!!! NÂNG CAO</span></p>
         <p>
-        These are plugins that are developed independently from the KOReader team.</p>
+        Đây là các plugin được phát triển độc lập với nhóm KOReader.</p>
 
         <ul>
             <li>Chúng phải được cài đặt <b>thủ công</b> và sau đó được kích hoạt từ menu plugin.</li>
             <li>Chúng phải được cập nhật <b>thủ công</b>.</li>
-            <li>They are <b>NOT</b> checked by our developers so be aware that there might be risks using them.</li>
+            <li>Chúng <b>KHÔNG</b> được các nhà phát triển của chúng tôi kiểm tra, vì vậy hãy lưu ý rằng có thể có rủi ro khi sử dụng chúng.</li>
         </ul>
                 
         <p>Một số ví dụ đáng chú ý về các plugin bên ngoài này có liên kết đến trang GitHub của chúng:</p>
         <ul>
-            <li> <a href="https://github.com/drewbaumann/AskGPT">AskGPT plugin:</a> You can ask questions to <b>ChatGPT</b> about parts of your book. You can also use this plugin to simplify, explain, discuss or translate text to other languages.</li>
+            <li> <a href="https://github.com/drewbaumann/AskGPT">Plugin AskGPT:</a> Bạn có thể đặt câu hỏi cho <b>ChatGPT</b> về các phần trong sách của mình. Bạn cũng có thể dùng plugin này để đơn giản hóa, giải thích, thảo luận hoặc dịch văn bản sang các ngôn ngữ khác.</li>
 
-            <li> <a href="https://github.com/omer-faruq/assistant.koplugin">Assistant: AI Helper plugin:</a> A fork of the plugin above with more advanced features like multiple AI providers and built-in/custom prompts.</li>
+            <li> <a href="https://github.com/omer-faruq/assistant.koplugin">Assistant: Plugin Trợ lý AI:</a> Một nhánh (fork) của plugin ở trên với các tính năng nâng cao hơn như hỗ trợ nhiều nhà cung cấp AI và các prompt tích hợp/tùy chỉnh.</li>
 
-            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Anki plugin:</a> KOReader plugin enabling <b>Anki</b> (an open-source flashcard software) card generations for words looked up in the internal dictionary.</li>
+            <li><a href="https://github.com/Ajatt-Tools/anki.koplugin">Plugin Anki:</a> Plugin KOReader cho phép tạo thẻ <b>Anki</b> (phần mềm flashcard mã nguồn mở) cho các từ được tra cứu trong từ điển nội bộ.</li>
 
-            <li><a href="https://github.com/stelzch/zotero.koplugin">Zotero plugin:</a> This addon allows you to browse your <span class="external">Zotero</span> (an open-source reference management software) collections from KOReader.</li>
+            <li><a href="https://github.com/stelzch/zotero.koplugin">Plugin Zotero:</a> Tiện ích này cho phép bạn duyệt các bộ sưu tập <span class="external">Zotero</span> (phần mềm quản lý tài liệu tham khảo mã nguồn mở) từ KOReader.</li>
 
-            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">Syncthing plugin:</a> This addon allows you to run <b>Syncthing</b> peer-to-peer file synchronization program on KOReader (tested only on Kobo devices but might work on other devices according to the author). This makes it possible to sync files between your e-reader and computer/phone automatically.</li>
+            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">Plugin Syncthing:</a> Tiện ích này cho phép bạn chạy chương trình đồng bộ tệp ngang hàng <b>Syncthing</b> trên KOReader (chỉ được thử nghiệm trên thiết bị Kobo nhưng theo tác giả có thể hoạt động trên các thiết bị khác). Điều này giúp bạn có thể đồng bộ tệp giữa máy đọc sách và máy tính/điện thoại của mình một cách tự động.</li>
         </ul>
     
-        <p>Also you can click <a href="https://github.com/search?q=koplugin&type=repositories">this link</a> to open a search page on <span class="external">Github</span> to discover more KOReader plugin projects.</p>
+        <p>Bạn cũng có thể nhấp vào <a href="https://github.com/search?q=koplugin&type=repositories">liên kết này</a> để mở trang tìm kiếm trên <span class="external">Github</span> và khám phá thêm các dự án plugin KOReader.</p>
 
 
 
@@ -4650,53 +4650,53 @@ line-height: 2rem;
         <p>	<b> Reading statistics </b> - Calculates reading sessions statistics and reading speed for use in chapter/book remaining time estimations	</p>
         <p>	<b> Tự động làm ấm và chế độ ban đêm</b> - Cho phép bạn điều chỉnh độ ấm của đèn pha trong các thiết bị có ánh sáng tự nhiên (vàng/cam) và tự động thiết lập Chế độ ban đêm theo lịch trình	</p>
         <p>	<b> Tự động tiết kiệm điện</b> - Đưa thiết bị vào chế độ chờ, tạm dừng hoặc tắt nguồn sau khoảng thời gian không hoạt động được chỉ định	</p>
-        <p>	<b> Autosuspend </b> - Suspend device after chosen period of inactivity (available on all e-ink devices except android os)	</p>
+        <p>	<b> Tự động treo </b> - Treo thiết bị sau khoảng thời gian không hoạt động đã chọn (có sẵn trên tất cả thiết bị e-ink ngoại trừ hệ điều hành Android)	</p>
         <p>	<b> Terminal emulator </b> - Starts a shell (command prompt) on your device that can run full terminal apps	</p>
         <p>	<b> Chương trình chạy nền</b> - Dịch vụ cho các plugin khác: Cho phép các tác vụ chạy thường xuyên ở chế độ nền.	</p>
         <p>	<b> Time sync </b> - Synchronizes the device time with NTP servers	</p>
         <p>	<b> Tweak document settings </b> - Allows tweaking settings of a document before it is loaded based on external factors	</p>
         <p>	<b> Calibre</b> - Bạn có thể gửi tài liệu từ thư viện Calibre trực tiếp đến thiết bị KOReader của mình qua kết nối WiFi. Xem <a href="https://github.com/koreader/koreader/wiki/calibre">trang wiki</a> của chúng tôi để biết cách thực hiện.</p>
-        <p>	<b> Cover browser </b> - Allows cover display modes for file browser and history	</p>
-        <p>	<b> Cover image </b> - Saves the cover image of the current book as a file (available on Android/PocketBook/reMarkable devices)	</p>
-        <p>	<b> Export highlights </b> - Export highlights and notes to local files or to Joplin (a note taking application)	</p>
-        <p>	<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) of highlight from your library	</p>
-        <p>	<b> Gestures </b> - Provide gesture support for KOReader	</p>
-		<p><b>HTTP Inspector</b> - Allows you to control your device from another device over wifi - <b>See below for more info</b></p>
-        <p>	<b> Japanese support </b> - Japanese language support for KOReader that extends built-in dictionary and selection system	</p>
-        <p>	<b> Keep alive </b> - Keeps the device awake to prevent automatic WiFi disconnects	</p>
+        <p>	<b> Trình duyệt bìa </b> - Cho phép các chế độ hiển thị bìa trong trình duyệt tệp và lịch sử	</p>
+        <p>	<b> Hình bìa </b> - Lưu hình bìa của sách hiện tại dưới dạng tệp (có sẵn trên các thiết bị Android/PocketBook/reMarkable)	</p>
+        <p>	<b> Xuất nổi bật </b> - Xuất các đoạn nổi bật và ghi chú ra tệp cục bộ hoặc sang Joplin (một ứng dụng ghi chú)	</p>
+        <p>	<b> Trình huấn luyện thẻ nhớ </b> - Hiển thị thẻ nhớ bằng cách sử dụng phương pháp lặp lại ngắt quãng (SM2) từ các đoạn nổi bật trong thư viện của bạn	</p>
+        <p>	<b> Cử chỉ </b> - Cung cấp hỗ trợ thao tác bằng cử chỉ cho KOReader	</p>
+		<p><b>HTTP Inspector</b> - Cho phép bạn điều khiển thiết bị của mình từ một thiết bị khác qua wifi - <b>Xem thêm thông tin bên dưới</b></p>
+        <p>	<b> Hỗ trợ tiếng Nhật </b> - Hỗ trợ ngôn ngữ tiếng Nhật cho KOReader, mở rộng từ điển tích hợp và hệ thống chọn văn bản	</p>
+        <p>	<b> Duy trì hoạt động </b> - Giữ thiết bị luôn bật để tránh việc WiFi tự động ngắt kết nối	</p>
         <p>	<b> Di chuyển đến kho lưu trữ</b> - Di chuyển tài liệu hiện tại đến thư mục lưu trữ	</p>
-        <p>	<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves them as HTML files. Check our <a href="https://github.com/koreader/koreader/wiki/News-downloader">wiki page</a> for how-to.</p>
+        <p>	<b> Trình tải tin tức </b> - Lấy các mục tin tức từ RSS và Atom và lưu chúng dưới dạng tệp HTML. Xem <a href="https://github.com/koreader/koreader/wiki/News-downloader">trang wiki</a> của chúng tôi để biết cách thực hiện.</p>
         <p>	<b> OPDS </b> - Cho phép bạn tải xuống sách từ các danh mục trực tuyến	</p>
-        <p>	<b> Perception expander </b> - Allows using peripheral vision to read more quickly. Check this YouTube video to see how it works: <a href="https://youtu.be/jeOHqI9SqOI?t=137">How to Triple Your Reading Speed in 20 Minutes (Tim Ferriss)</a>	</p>
+        <p>	<b> Mở rộng nhận thức </b> - Cho phép sử dụng tầm nhìn ngoại vi để đọc nhanh hơn. Xem video YouTube này để biết cách hoạt động: <a href="https://youtu.be/jeOHqI9SqOI?t=137">Cách tăng gấp ba tốc độ đọc trong 20 phút (Tim Ferriss)</a>	</p>
         <p>	<b> Hồ sơ </b> - Cho phép kết hợp nhiều thiết lập để tạo ra các hồ sơ có thể chuyển đổi	</p>
-        <p>	<b> Progress sync </b> - Synchronize your reading progress across different KOReader devices. Check our <a href="https://github.com/koreader/koreader/wiki/Progress-sync">wiki page</a> for how-to.
+        <p>	<b> Đồng bộ tiến trình </b> - Đồng bộ tiến trình đọc của bạn trên các thiết bị KOReader khác nhau. Xem <a href="https://github.com/koreader/koreader/wiki/Progress-sync">trang wiki</a> của chúng tôi để biết cách thực hiện.
         </p>
         <p>	<b> QR từ clipboard </b> - Tạo mã QR từ nội dung clipboard	</p>
-        <p>	<b> Read timer </b> - A countdown timer to display a message after a user defined time	</p>
-        <p>	<b> Reading statistics </b> - Calculates reading sessions statistics and reading speed for use in chapter/book remaining time estimations	</p>
-        <p>	<b> SSH </b> - Allows access to your device over SSH protocol. You can access via FTP applications or even your file manager if it supports. Check our <a href="https://github.com/koreader/koreader/wiki/SSH">wiki page</a> for how-to.</p>
-        <p>	<b> System statistics </b> - You can see your CPU/RAM/BATTERY info via this plugin under:</p>
+        <p>	<b> Hẹn giờ đọc </b> - Bộ đếm ngược để hiển thị thông báo sau khoảng thời gian do người dùng xác định	</p>
+        <p>	<b> Thống kê đọc </b> - Tính toán thống kê các phiên đọc và tốc độ đọc để ước lượng thời gian còn lại của chương/sách	</p>
+        <p>	<b> SSH </b> - Cho phép truy cập vào thiết bị của bạn qua giao thức SSH. Bạn có thể truy cập bằng các ứng dụng FTP hoặc thậm chí bằng trình quản lý tệp nếu được hỗ trợ. Xem <a href="https://github.com/koreader/koreader/wiki/SSH">trang wiki</a> của chúng tôi để biết cách thực hiện.</p>
+        <p>	<b> Thống kê hệ thống </b> - Bạn có thể xem thông tin CPU/RAM/PIN của mình thông qua plugin này tại:</p>
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Trợ giúp / Thống kê hệ thống</div>
-        <p>	<b> Terminal emulator </b> - Starts a shell (command prompt) on your device that can run full terminal apps	</p>
-        <p>	<b> Text editor </b> - A basic text editor to create and edit plain text files	</p>
-        <p>	<b> Time sync </b> - Synchronizes the device time with NTP servers	</p>
-        <p>	<b> Tweak document settings </b> - Allows tweaking settings of a document before it is loaded based on external factors	</p>
-        <p>	<b> Wallabag </b> - Downloads the latest articles from a Wallabag server as individual EPUB files. Check our <a href="https://github.com/koreader/koreader/wiki/Wallabag">wiki page</a> for more info.</p>
+        <p>	<b> Trình giả lập terminal </b> - Khởi chạy một shell (dòng lệnh) trên thiết bị của bạn có thể chạy đầy đủ các ứng dụng terminal	</p>
+        <p>	<b> Trình soạn thảo văn bản </b> - Trình soạn thảo văn bản cơ bản để tạo và chỉnh sửa các tệp văn bản thuần túy	</p>
+        <p>	<b> Đồng bộ thời gian </b> - Đồng bộ thời gian của thiết bị với các máy chủ NTP	</p>
+        <p>	<b> Tùy chỉnh thiết lập tài liệu </b> - Cho phép điều chỉnh các thiết lập của tài liệu trước khi được tải dựa trên các yếu tố bên ngoài	</p>
+        <p>	<b> Wallabag </b> - Tải về các bài viết mới nhất từ máy chủ Wallabag dưới dạng các tệp EPUB riêng lẻ. Xem <a href="https://github.com/koreader/koreader/wiki/Wallabag">trang wiki</a> của chúng tôi để biết thêm thông tin.</p>
 
-		<div class="L3-Smaller-heading">Controlling your reader from another device - HTTP Inspector Plugin</div>
+		<div class="L3-Smaller-heading"><b> Điều khiển thiết bị đọc từ thiết bị khác </b> - Plugin HTTP Inspector</div>
 
 		<p><span class="label_red">!!! NÂNG CAO</span></p>
 
 
-		<p>This plugin allows you to control your device from another device over wifi. It works by running a simple HTTP server on your device which serves a page containing KOReader controls. You can access this page over your network and control your reader device. But be aware of these points when using this plugin:</p>
+		<p>Plugin này cho phép bạn điều khiển thiết bị của mình từ một thiết bị khác qua wifi. Nó hoạt động bằng cách chạy một máy chủ HTTP đơn giản trên thiết bị, cung cấp một trang chứa các điều khiển của KOReader. Bạn có thể truy cập trang này qua mạng và điều khiển thiết bị đọc của mình. Nhưng hãy lưu ý những điểm sau khi sử dụng plugin này:</p>
 
 		<ul>
-			<li>This is an experimental plugin so <b>use this at your own risk</b></li>
-			<li>This plugin is enabled by default, but the server is <b>NOT</b> started by default. You can start it manually or set it to <b>auto start</b>.</li>
-			<li>You should run this plugin <b>only on trusted networks</b>, as it is highly insecure (no HTTPS, no access restriction, no authentication)</li>
+			<li>Đây là một plugin thử nghiệm nên <b>hãy tự chịu trách nhiệm khi sử dụng</b></li>
+			<li>Plugin này được bật theo mặc định, nhưng máy chủ <b>KHÔNG</b> được khởi động theo mặc định. Bạn có thể khởi động thủ công hoặc đặt chế độ <b>tự động khởi động</b>.</li>
+			<li>Bạn chỉ nên chạy plugin này <b>trên các mạng đáng tin cậy</b>, vì nó rất thiếu an toàn (không có HTTPS, không có giới hạn truy cập, không có xác thực)</li>
 		</ul>
 
-		<p>You can read an example use case for this plugin on the <a href="https://www.mobileread.com/forums/showthread.php?t=359837">MobileRead forum</a></p>
+		<p>Bạn có thể đọc một ví dụ về cách sử dụng plugin này trên <a href="https://www.mobileread.com/forums/showthread.php?t=359837">diễn đàn MobileRead</a></p>
 
 
 
@@ -4705,40 +4705,40 @@ line-height: 2rem;
 		<p><span class="label_red">!!! NÂNG CAO</span></p>
 
         <p>
-        User patches are small files written in <b>Lua</b> language. They can change the functionality of KOReader without modifying your installation permanently. They can be written by developers, other users or you can write one yourself (if you have the necessary extensive knowledge about the KOReader internals).</p>
+        Các bản vá do người dùng tạo là những tệp nhỏ được viết bằng ngôn ngữ <b>Lua</b>. Chúng có thể thay đổi chức năng của KOReader mà không cần chỉnh sửa cài đặt của bạn một cách vĩnh viễn. Các bản vá này có thể được viết bởi nhà phát triển, những người dùng khác hoặc chính bạn (nếu bạn có đủ kiến thức chuyên sâu về nội bộ KOReader).</p>
         
-        <p>You can find a current list of <span class="ui">User patches</span> in our <a href="https://github.com/koreader/koreader/wiki/User-patches">wiki</a> and in the <b>GitHub issues list</b> marked with the <span class="ui">User patch available</span> tag. You can see them by following this <a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">link</a>.</p>
+        <p>Bạn có thể tìm danh sách hiện tại các <span class="ui">bản vá do người dùng tạo</span> trong <a href="https://github.com/koreader/koreader/wiki/User-patches">wiki</a> của chúng tôi và trong <b>danh sách GitHub issues</b> được đánh dấu với thẻ <span class="ui">User patch available</span>. Bạn có thể xem chúng bằng cách theo liên kết này <a href="https://github.com/koreader/koreader/issues?q=+label%3A%22User+patch+available%22">link</a>.</p>
         
         
-        <div class="L3-Smaller-heading">Basic usage – Adding an already written patch to your KOReader:</div>
+        <div class="L3-Smaller-heading">Sử dụng cơ bản – Thêm một bản vá đã được viết sẵn vào KOReader của bạn:</div>
         
         <ol>
-            <li>Create a directory named <span class="ui">patches</span> under <span class="ui">koreader directory</span> on your device (On Android this folder is located on the SD-card)</li>
-            <li>Download and put the patch file with <b>.lua</b> extension in this <span class="ui">patches</span> directory</li>
+            <li>Tạo một thư mục có tên <span class="ui">patches</span> bên trong <span class="ui">thư mục koreader</span> trên thiết bị của bạn (Trên Android, thư mục này nằm trên thẻ SD)</li>
+            <li>Tải xuống và đặt tệp bản vá với phần mở rộng <b>.lua</b> vào thư mục <span class="ui">patches</span></li>
             <li>Khởi động lại KOReader</li>
         </ol>
 
         
-        <div class="L3-Smaller-heading">Patch manager</div>
+        <div class="L3-Smaller-heading">Trình quản lý bản vá</div>
 
-        <p>When you create a patches directory as instructed, a new plugin named <span class="ui">Patch Management</span> becomes available in the plugins menu after restarting KOReader. With this plugin you can see the list and status of your user patches and enable/disable them. You can tap <span class="ui">About patch manager</span> menu item to see more info.</p>
+        <p>Khi bạn tạo thư mục patches như đã hướng dẫn, một plugin mới có tên <span class="ui">Patch Management</span> sẽ xuất hiện trong menu plugin sau khi khởi động lại KOReader. Với plugin này, bạn có thể xem danh sách và trạng thái của các bản vá do người dùng tạo và bật/tắt chúng. Bạn có thể chạm vào mục menu <span class="ui">About patch manager</span> để xem thêm thông tin.</p>
         
-        <div class="L3-Smaller-heading">Naming the patch</div>
+        <div class="L3-Smaller-heading">Đặt tên cho bản vá</div>
 
-        <p>Execution order of a patch is determined by the first digit of the number in the patch name. For example: <span class="ui">2-TOC-title-patch.lua</span> If there are several patches starting with the same digit, the execution order is the natural order <b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>. If you are just downloading an already made patch you don’t need to change the file name.</p>
+        <p>Thứ tự thực thi của một bản vá được xác định bởi chữ số đầu tiên trong tên bản vá. Ví dụ: <span class="ui">2-TOC-title-patch.lua</span>. Nếu có nhiều bản vá bắt đầu bằng cùng một chữ số, thứ tự thực thi sẽ theo thứ tự tăng dần <b>(1&lt;10&lt;11&lt;12&lt;13&lt;…&lt;109&lt;…&lt;10010)</b>. Nếu bạn chỉ tải xuống một bản vá đã được viết sẵn thì không cần thay đổi tên tệp.</p>
 
-        <p> Names starting with:</p>
+        <p> Tên bắt đầu với:</p>
         
         <ul>
-            <li><b>0</b> - Executed very early and only once after an update</li>
-            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
-            <li><b>2</b> - Executed after <span class="ui">UIManager</span> is ready on every start of KOReader</li>
-            <li><b>3-7</b> - Reserved</li>
-            <li><b>8</b> - Executed before exit and before settings get saved</li>
-            <li><b>9</b> - Executed right before exit</li>
+            <li><b>0</b> - Được thực thi rất sớm và chỉ một lần sau khi cập nhật</li>
+            <li><b>1</b> - Được thực thi rất sớm mỗi khi KOReader khởi động (nhưng sau 0 nếu có áp dụng)</li>
+            <li><b>2</b> - Được thực thi sau khi <span class="ui">UIManager</span> sẵn sàng mỗi khi KOReader khởi động</li>
+            <li><b>3-7</b> - Dành riêng</li>
+            <li><b>8</b> - Được thực thi trước khi thoát và trước khi các thiết lập được lưu</li>
+            <li><b>9</b> - Được thực thi ngay trước khi thoát</li>
         </ul>
         
-        <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
+        <p>Nếu bạn gặp sự cố với một bản vá do người dùng tạo, bạn có thể quay lại cấu hình trước đó bằng cách xóa tệp bản vá.</p>
 
 
 <!-- ANCHOR TIPS -->
@@ -4748,29 +4748,29 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-readingtips">Mẹo đọc</div>
 
-<div class="L3-Smaller-heading">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and Gestures → Links → Tap to follow links</div>
-<p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class="ui">File Browser</span>. KOReader can open the last document with a gesture (<b><span style="font-family: microns;"></span> multiswipe</b>). If you define a gesture’s action as <span class="ui">Open previous document</span>, you can switch between two documents quickly similar to the <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
+<div class="L3-Smaller-heading">Chuyển đổi nhanh giữa các tài liệu</div>
+<p>Nếu bạn cần chuyển đổi giữa hai tài liệu (ví dụ khi so sánh chúng), có một cách nhanh hơn thay vì phải đi qua <span class="ui">Trình duyệt tệp</span>. KOReader có thể mở tài liệu cuối cùng bằng một thao tác cử chỉ (<b><span style="font-family: microns;"></span> multiswipe</b>). Nếu bạn định nghĩa hành động của cử chỉ là <span class="ui">Mở tài liệu trước đó</span>, bạn có thể chuyển đổi nhanh giữa hai tài liệu tương tự như tính năng <b>Alt+Tab</b> trên máy tính để bàn. Bạn có thể tìm thấy tính năng này trong:</p>
 
 <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và cử chỉ / Trình quản lý cử chỉ / “BẤT KỲ CỬ CHỈ NÀO” / Chung / Mở Tài liệu trước</div>
 
-<p>Also you can use the <span class="ui">History</span> dialog to switch between documents quickly. The history screen can be opened with the <span style="font-family: microns;"></span> multiswipe gesture. You can also define any other gesture for this of course.</p>
+<p>Bạn cũng có thể sử dụng hộp thoại <span class="ui">Lịch sử</span> để chuyển đổi nhanh giữa các tài liệu. Màn hình lịch sử có thể được mở bằng thao tác cử chỉ multiswipe <span style="font-family: microns;"></span>. Tất nhiên, bạn cũng có thể định nghĩa bất kỳ cử chỉ nào khác cho thao tác này.</p>
     
-<div class="L3-Smaller-heading">Changing your book cover</div>
-<p>You can change your book cover from this menu:</p>
+<div class="L3-Smaller-heading">Thay đổi bìa sách của bạn</div>
+<p>Bạn có thể thay đổi bìa sách của mình từ menu này:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Book information / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Set cover image</div>
+<div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Thông tin sách / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Đặt ảnh bìa</div>
 
-<div class="L3-Smaller-heading">Custom book cover from a screenshot</div>
+<div class="L3-Smaller-heading">Tùy chỉnh bìa sách từ ảnh chụp màn hình</div>
     <p>
-    Some books don’t come with proper book covers. Or they may have their cover on the second page so it doesn’t show up properly. Or maybe the cover is not suitable for e-ink (too light or dark). Or you prefer to set some image from the book as cover.</p>
+    Một số sách không đi kèm với bìa sách đúng chuẩn. Hoặc bìa của chúng nằm ở trang thứ hai nên không hiển thị đúng cách. Hoặc có thể bìa không phù hợp với màn hình e-ink (quá sáng hoặc quá tối). Hoặc bạn muốn đặt một hình ảnh nào đó từ trong sách làm bìa.</p>
 
-    <p>In situations like this you can quickly take a screenshot and set it as the current book’s cover. Screenshot gesture is a <b>long diagonal swipe</b> by default. Also <b>touching opposing diagonal corners</b> will take a screenshot. You can use this second shortcut when viewing an image. After taking your screenshot you can select <span class="ui">Set as book cover</span> from the dialog.</p>
+    <p>Trong những tình huống như vậy, bạn có thể nhanh chóng chụp ảnh màn hình và đặt nó làm bìa cho sách hiện tại. Cử chỉ chụp màn hình mặc định là <b>vuốt chéo dài</b>. Ngoài ra, <b>chạm vào hai góc chéo đối diện</b> cũng sẽ chụp ảnh màn hình. Bạn có thể dùng phím tắt thứ hai này khi đang xem một hình ảnh. Sau khi chụp ảnh màn hình, bạn có thể chọn <span class="ui">Đặt làm bìa sách</span> từ hộp thoại.</p>
 
-    <p>You can remove this custom book cover here:</p>
+    <p>Bạn có thể xóa bìa sách tùy chỉnh tại đây:</p>
 
-    <div class="menu-breadcrumbs">MENU HÀNG ĐẦU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Thông tin sách</div>
+    <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Thông tin sách</div>
 
-    <p>On the book information page, long-press on the <span class="ui">Cover image</span> item and then select <span class="ui">Reset custom</span>.</p>
+    <p>Trên trang thông tin sách, hãy nhấn giữ vào mục <span class="ui">Ảnh bìa</span> rồi chọn <span class="ui">Đặt lại tùy chỉnh</span>.</p>
 
     <p>Bạn cũng có thể đặt lại bìa sách bằng hộp thoại <span class="ui">Đặt lại</span>, bạn có thể truy cập bằng cách nhấn và giữ tên tệp trong <span class="ui">Trình duyệt tệp</span>.</p>
 
@@ -4778,88 +4778,88 @@ line-height: 2rem;
     <span class="label_red">CẢNH BÁO</span> Hãy hết sức cẩn thận khi sử dụng hộp thoại <span class="ui">Đặt lại</span> này và đảm bảo rằng chỉ chọn mục <span class="ui">Hình ảnh bìa tùy chỉnh</span>, nếu không, bạn có thể vô tình đặt lại mọi thứ liên quan đến cuốn sách của mình.
     </div>
 
-<div class="L3-Smaller-heading">Avoiding opening links accidentally</div>
-<p>If your document has links and you are accidentally tapping them while turning the page or using other gestures, you can turn off <span class="ui">Following links by tapping</span> via this menu item:</p>
+<div class="L3-Smaller-heading">Tránh mở liên kết một cách vô tình</div>
+<p>Nếu tài liệu của bạn có liên kết và bạn vô tình chạm vào chúng khi lật trang hoặc sử dụng các cử chỉ khác, bạn có thể tắt <span class="ui">Theo liên kết bằng cách chạm</span> thông qua mục menu này:</p>
 
 <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và Cử chỉ / Liên kết / Chạm để theo dõi liên kết</div>
 
-<p>After disabling this setting, to follow a link you have to long-tap on it and select <span class="ui">Follow link</span> from the popup menu. If you have the opposite problem and you want to make tapping links easier, you can enable <span class="ui">Allow larger tap area around links</span> from the same menu.</p>
+<p>Sau khi tắt thiết lập này, để theo liên kết bạn cần nhấn giữ vào liên kết và chọn <span class="ui">Theo liên kết</span> từ menu bật lên. Nếu bạn gặp vấn đề ngược lại và muốn việc chạm vào liên kết dễ dàng hơn, bạn có thể bật <span class="ui">Cho phép vùng chạm lớn hơn quanh liên kết</span> từ cùng menu.</p>
 
 
 
-<div class="L3-Smaller-heading">Reading statistics after midnight</div>
-<p>In reading statistics you can change the start of day used for calculations. This is useful if you are reading after midnight for example and want your reading session counted as today instead of the next day. This applies only to the <span class="ui">Day timeline view</span> and optionally to the <span class="ui">Calendar view</span>; it does not apply to any of the other statistics reports. You can set this time at:</p>
+<div class="L3-Smaller-heading">Thống kê đọc sau nửa đêm</div>
+<p>Trong thống kê đọc, bạn có thể thay đổi thời điểm bắt đầu ngày được dùng cho việc tính toán. Điều này hữu ích nếu bạn đọc sau nửa đêm, ví dụ, và muốn phiên đọc của mình được tính là hôm nay thay vì ngày hôm sau. Thiết lập này chỉ áp dụng cho <span class="ui">Chế độ xem dòng thời gian theo ngày</span> và tùy chọn cho <span class="ui">Chế độ xem lịch</span>; nó không áp dụng cho bất kỳ báo cáo thống kê nào khác. Bạn có thể đặt thời gian này tại:</p>
 
 <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Thống kê đọc / Cài đặt / Dòng thời gian hàng ngày bắt đầu lúc...</div>
 
 
 
 
-<div class="L2-Sub-heading" id="L2-devicetips">Device Tips</div>
+<div class="L2-Sub-heading" id="L2-devicetips">Mẹo thiết bị</div>
 
-<div class="L3-Smaller-heading">Updating KOReader</div>
-    <p>KOReader can update itself over Wi-Fi. You can trigger the check via this menu item:</p>
+<div class="L3-Smaller-heading">Cập nhật KOReader</div>
+    <p>KOReader có thể tự cập nhật qua Wi-Fi. Bạn có thể kích hoạt việc kiểm tra thông qua mục menu này:</p>
 
 
 <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Cập nhật / Kiểm tra bản cập nhật</div>
 
 
-<div class="L3-Smaller-heading">Adding a password lock to KOReader</div>
+<div class="L3-Smaller-heading">Thêm khóa mật khẩu cho KOReader</div>
     <p>
-        We don't have a direct option for this in KOReader. But there is a workaround to achieve this kind of lock screen functionality. You can set up KOReader to keep the screensaver on the screen until you enter a chosen gesture. To achieve this:</p>
+        Trong KOReader không có tùy chọn trực tiếp cho việc này. Nhưng có một cách khắc phục để đạt được chức năng màn hình khóa tương tự. Bạn có thể thiết lập KOReader để giữ nguyên màn hình bảo vệ cho đến khi bạn nhập một cử chỉ đã chọn. Để thực hiện điều này:</p>
     
     <ol>
-        <li>Choose any gesture (including the complex ones with custom multiswipes) and make it your <b>"unlock"</b> gesture by going to:
+        <li>Chọn bất kỳ cử chỉ nào (bao gồm cả những cử chỉ phức tạp với thao tác vuốt nhiều lần tùy chỉnh) và đặt nó làm cử chỉ <b>"mở khóa"</b> của bạn bằng cách vào:
             <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và cử chỉ / Trình quản lý cử chỉ / "cử chỉ bạn đã chọn" / Thiết bị / Thoát khỏi trình bảo vệ màn hình</div>
         </li>
-        <li>And then enable this option:
+        <li>Và sau đó bật tùy chọn này:
             <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Màn hình / Trình bảo vệ màn hình / Cài đặt / Giữ trình bảo vệ màn hình trên màn hình sau khi đánh thức / Cho đến khi cử chỉ 'Thoát trình bảo vệ màn hình'</div>
         </li>
     
     </ol>
 
 
-    <div class="L3-Smaller-heading">Automatic screen dimming</div>
-        <p>KOReader can dim your frontlight to preserve battery if your device is idle for a while. You can turn on and adjust this feature via:</p>
+    <div class="L3-Smaller-heading">Tự động làm mờ màn hình</div>
+        <p>KOReader có thể làm mờ đèn trước để tiết kiệm pin nếu thiết bị của bạn không hoạt động trong một thời gian. Bạn có thể bật và điều chỉnh tính năng này thông qua:</p>
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Màn hình / Tự động điều chỉnh độ sáng</div>
         
 
     <div class="L3-Smaller-heading">⇑ TOP MENU → <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> → Taps and gestures → Gesture manager → “ANY GESTURE” → General → Open Previous Document</div>
-        <p>If you want to know how many lines or words are being shown on the current page you can see it at:</p>
+        <p>Nếu bạn muốn biết có bao nhiêu dòng hoặc từ đang được hiển thị trên trang hiện tại, bạn có thể xem tại:</p>
 
-        <div class="menu-breadcrumbs">MENU HÀNG ĐẦU / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Thông tin sách</div>
+        <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Thông tin sách</div>
 
 
 
-    <div class="L3-Smaller-heading">Optimizing your battery life</div>
+    <div class="L3-Smaller-heading">Tối ưu hóa thời lượng pin</div>
 
-        <p>Li-ion batteries experience more degradation at the extreme ends of their charge levels. To minimize this degradation and extend your battery life, you can limit your minimum discharge level to <b>20%</b> and maximum charge level to <b>80%</b> (as in electric vehicles and some newer phones). Which means you start charging your device when the battery goes down to 20% and unplug when it reaches 80% (or 25%-75% if you are extra cautious).</p>
+        <p>Pin Li-ion bị suy giảm nhiều hơn ở các mức sạc cực đoan. Để giảm thiểu sự suy giảm này và kéo dài tuổi thọ pin, bạn có thể giới hạn mức xả tối thiểu ở <b>20%</b> và mức sạc tối đa ở <b>80%</b> (như trong xe điện và một số điện thoại đời mới). Điều này có nghĩa là bạn bắt đầu sạc thiết bị khi pin giảm xuống 20% và rút sạc khi đạt 80% (hoặc 25%-75% nếu bạn cẩn thận hơn).</p>
 
-        <p>KOReader can warn you by showing an alert when charge level reaches your defined limits:</p>
+        <p>KOReader có thể cảnh báo bạn bằng cách hiển thị thông báo khi mức pin đạt đến giới hạn mà bạn đã đặt:</p>
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Cảnh báo trạng thái thiết bị / Mức pin</div>
 
 
-    <div class="L3-Smaller-heading">Checking your battery consumption details</div>
-        <p>You can see your detailed battery usage statistics via this menu item:</p>
+    <div class="L3-Smaller-heading">Kiểm tra chi tiết mức tiêu thụ pin</div>
+        <p>Bạn có thể xem thống kê chi tiết về mức sử dụng pin thông qua mục menu này:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Công cụ khác / Thống kê pin</div>
         
-        <div class="L3-Smaller-heading">Checking detailed device statistics</div>
-        <p>You can see your system information like <b>CPU/DISK SPACE/RAM</b> usage via this menu item:</p>
+        <div class="L3-Smaller-heading">Kiểm tra chi tiết thống kê thiết bị</div>
+        <p>Bạn có thể xem thông tin hệ thống của mình như mức sử dụng <b>CPU/DUNG LƯỢNG Ổ ĐĨA/RAM</b> thông qua mục menu này:</p>
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Trợ giúp / Thống kê hệ thống</div>
 
 
 
 
-        <div class="L3-Smaller-heading">Keeping an eye on your memory usage</div>
-        <p>In older Kindle devices some of our users reported crashes due to limited memory. KOReader memory usage can go up if you open many files in one session. Especially PDF’s increase this amount. You can add a memory indicator to your <span class="ui">STATUS BAR</span> and restart KOReader if this value gets high, to avoid crashes or reboots.</p>
+        <div class="L3-Smaller-heading">Theo dõi mức sử dụng bộ nhớ</div>
+        <p>Trên các thiết bị Kindle đời cũ, một số người dùng đã báo cáo tình trạng treo máy do bộ nhớ hạn chế. Mức sử dụng bộ nhớ của KOReader có thể tăng lên nếu bạn mở nhiều tệp trong cùng một phiên. Đặc biệt các tệp PDF làm tăng mức sử dụng này. Bạn có thể thêm chỉ báo bộ nhớ vào <span class="ui">THANH TRẠNG THÁI</span> và khởi động lại KOReader nếu giá trị này tăng cao, để tránh treo hoặc khởi động lại thiết bị.</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Thanh trạng thái / Sử dụng bộ nhớ KOReader</div>
 
-        <p>Also you can configure KOReader to restart automatically if memory usage reaches a threshold via:</p>
+        <p>Bạn cũng có thể cấu hình KOReader để tự động khởi động lại nếu mức sử dụng bộ nhớ đạt đến một ngưỡng nhất định thông qua:</p>
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Thiết bị / Cảnh báo trạng thái thiết bị</div>
 
 
@@ -4870,74 +4870,74 @@ line-height: 2rem;
 
 <div class="L1-Chapter-heading" id="L1-troubleshooting">KHẮC PHỤC SỰ CỐ</div>
 
-    <p>If you can't find a solution to your problem in this guide, you can open an issue about it on the project's <b>GitHub</b> page or make a post in the KOReader section of the <b>Mobileread</b> forum. Please see the <a href="#L1-reachus">last section</a> of this guide for details.</p>
+    <p>Nếu bạn không tìm thấy giải pháp cho vấn đề của mình trong hướng dẫn này, bạn có thể mở một issue về nó trên trang <b>GitHub</b> của dự án hoặc đăng một bài viết trong mục KOReader của diễn đàn <b>Mobileread</b>. Vui lòng xem <a href="#L1-reachus">phần cuối</a> của hướng dẫn này để biết chi tiết.</p>
     
 
-<div class="L3-Smaller-heading">Nightly versions</div>
-<p>KOReader has two different versions:</p>
+<div class="L3-Smaller-heading">Các phiên bản Nightly</div>
+<p>KOReader có hai phiên bản khác nhau:</p>
     <ul>
-        <li><span class="label_green">STABLE</span> This version is the main one that you can find on the <b>Releases</b> page of the project GitHub. It is named like this: <b>"KOReader 2024.11"</b> which means this specific version is released on <b>November 2024</b>. This is generally a <b>monthly</b> release, but sometimes can take longer.</li>
-        <li><span class="label_red">NIGHTLY</span><b></b> These versions are the <b>daily</b> compiled versions of KOReader with optimizations and fixes continuously added. Nightly releases are intended for a narrow group of testers and developers, so they might be less stable.</li>
+        <li><span class="label_green">ỔN ĐỊNH</span> Đây là phiên bản chính mà bạn có thể tìm thấy trên trang <b>Releases</b> của dự án GitHub. Nó được đặt tên như sau: <b>"KOReader 2024.11"</b> có nghĩa là phiên bản cụ thể này được phát hành vào <b>Tháng 11 năm 2024</b>. Đây thường là bản phát hành <b>hàng tháng</b>, nhưng đôi khi có thể lâu hơn.</li>
+        <li><span class="label_red">NIGHTLY</span><b></b> Đây là các phiên bản được biên dịch <b>hàng ngày</b> của KOReader với các tối ưu hóa và bản sửa lỗi được bổ sung liên tục. Các bản phát hành Nightly được dành cho một nhóm nhỏ người thử nghiệm và nhà phát triển, vì vậy chúng có thể kém ổn định hơn.</li>
     </ul>
 
-    <p>Normally if you are an average user, <b>stable</b> version is the one you should use. But in some specific cases you might need to use a <b>nightly</b> version:</p>
+    <p>Thông thường, nếu bạn là người dùng phổ thông thì phiên bản <b>ổn định</b> là phiên bản bạn nên sử dụng. Nhưng trong một số trường hợp cụ thể, bạn có thể cần dùng phiên bản <b>nightly</b>:</p>
     <ul>
-        <li>Your device is very new (a recently released Kobo model for example) and KOReader support has just been added in a recent nightly.</li>
-        <li>There is a bug or problem specific to your device that is fixed already but not released yet. And you don't want to wait for the <b>stable</b> version to have this fix.</li>
-        <li>After updating KOReader, you notice that a feature which you were using is removed. You don't want to lose this feature, so you can install a nightly version that still has this feature. Of course you can also go back to the previous <b>stable</b> release but <b>nightly</b> would be newer so might have more features and fixes.</li>
+        <li>Thiết bị của bạn rất mới (ví dụ như một mẫu Kobo vừa phát hành gần đây) và hỗ trợ cho KOReader chỉ vừa mới được thêm vào trong một bản nightly gần đây.</li>
+        <li>Có một lỗi hoặc vấn đề cụ thể trên thiết bị của bạn đã được sửa nhưng chưa được phát hành. Và bạn không muốn chờ đến phiên bản <b>ổn định</b> mới có bản sửa lỗi này.</li>
+        <li>Sau khi cập nhật KOReader, bạn nhận thấy một tính năng mà bạn đang sử dụng đã bị loại bỏ. Bạn không muốn mất tính năng này, vì vậy bạn có thể cài đặt phiên bản nightly vẫn còn tính năng đó. Tất nhiên bạn cũng có thể quay lại phiên bản <b>ổn định</b> trước đó, nhưng <b>nightly</b> sẽ mới hơn nên có thể có thêm nhiều tính năng và bản sửa lỗi.</li>
     </ul>
 
-    <p>This section was just a general introduction to the topic. For detailed information and asking for help about nightly versions, you can visit the discussion page: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: How to track latest nightly builds</a></p>
+    <p>Phần này chỉ là phần giới thiệu tổng quan về chủ đề. Để biết thông tin chi tiết và hỏi thêm về các phiên bản nightly, bạn có thể truy cập trang thảo luận: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: Cách theo dõi các bản dựng nightly mới nhất</a></p>
 
-    <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">TIP</span> If you are using KOReader on an Android device, you can use the <b>Work Profile</b> feature of the Android OS to test the Nightly versions without affecting your main KOReader installation. Open source applications like <b>Shelter</b> and <b>Island</b> can help you with this.</p></div>
+    <div class="tip"><p style="text-indent: 0rem;"><span class="label_green">MẸO</span> Nếu bạn đang sử dụng KOReader trên thiết bị Android, bạn có thể dùng tính năng <b>Work Profile</b> của hệ điều hành Android để thử nghiệm các phiên bản Nightly mà không ảnh hưởng đến cài đặt KOReader chính của bạn. Các ứng dụng mã nguồn mở như <b>Shelter</b> và <b>Island</b> có thể giúp bạn thực hiện điều này.</p></div>
 	
-		<div class="L3-Smaller-heading" id="backup">Backup your KOReader settings</div>
-        <p>In rare cases that you want to backup and restore your KOReader with all your settings, you can backup these folders and files under the KOReader installation directory. Then you can overwrite them after a clean installation to restore your settings:</p>
+		<div class="L3-Smaller-heading" id="backup">Sao lưu cài đặt KOReader của bạn</div>
+        <p>Trong một số trường hợp hiếm hoi khi bạn muốn sao lưu và khôi phục KOReader cùng với tất cả các cài đặt của mình, bạn có thể sao lưu các thư mục và tệp này trong thư mục cài đặt KOReader. Sau đó, bạn có thể ghi đè chúng sau khi cài đặt sạch để khôi phục lại các cài đặt của mình:</p>
         
     <div class="double-container">
         <div>
-            <b>Folders:</b>
+            <b>Thư mục:</b>
     <ul>
-        <li>settings</li>
-        <li>styletweaks</li>
+        <li>cài đặt</li>
+        <li>tinh chỉnh giao diện</li>
     </ul>
         </div>
 
         <div>
-            <b>Files:</b>
+            <b>Tệp:</b>
             <ul>
                 <li>data/cr3.ini</li>
                 <li>defaults.persistent.lua</li>
                 <li>history.lua</li>
                 <li>settings.reader.lua</li>
                 <li>settings/profiles.lua</li>
-                <li>Files under <b>data/dict/</b> and <b>/data/tessdata/</b> directories <b>(if they exist)</b></li>
+                <li>Các tệp trong thư mục <b>data/dict/</b> và <b>data/tessdata/</b> <b>(nếu có)</b></li>
             </ul>
         </div>
     </div>
         
-    <div class="info"><span class="label_blue">INFO</span> Your individual book settings and highlights are kept in the same directory as your books in a folder with the <b>same name as your book</b>. You can backup these folders separately if you wish.</div>
+    <div class="info"><span class="label_blue">THÔNG TIN</span> Các cài đặt riêng cho từng sách và phần đánh dấu (highlight) của bạn được lưu trong cùng thư mục với sách, trong một thư mục có <b>cùng tên với sách của bạn</b>. Bạn có thể sao lưu riêng các thư mục này nếu muốn.</div>
 
 
 
 <div class="L3-Smaller-heading">My Progress Sync doesn't synchronize my progress</div>
 
-        <p> This might be caused by the <span class="ui">Write highlights into PDF</span> feature of KOReader if you enabled it. Saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class="ui">Progress Sync</span> plugin's settings, change the <span class="ui">Document matching method</span> to <span class="ui">Filename</span> instead of the default <span class="ui">Binary</span> matching:</p>
+        <p> Điều này có thể do tính năng <span class="ui">Ghi highlight vào PDF</span> của KOReader nếu bạn đã bật nó. Việc lưu highlight trong PDF sẽ làm thay đổi tệp của bạn nên quá trình đồng bộ sẽ thất bại. Nếu bạn dự định sử dụng cả hai tính năng, trong phần cài đặt của plugin <span class="ui">Progress Sync</span>, hãy thay đổi <span class="ui">Phương thức đối chiếu tài liệu</span> thành <span class="ui">Tên tệp</span> thay vì mặc định là <span class="ui">Nhị phân</span>:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Đồng bộ tiến trình / Phương pháp khớp tài liệu</div>
 
 
 <div class="L3-Smaller-heading">My book is slow</div>
 
-    <p> KOReader is optimized to work fast even on the limited hardware of e-book readers. Generally thousand page books can be opened in seconds and page turning is immediate. Here we will talk about the reasons if your book feels very slow when opening, page turning or adjusting its appearance.</p>
+    <p> KOReader được tối ưu để hoạt động nhanh ngay cả trên phần cứng hạn chế của máy đọc sách điện tử. Thông thường, những cuốn sách có hàng nghìn trang có thể được mở chỉ trong vài giây và việc lật trang diễn ra tức thì. Ở đây chúng ta sẽ nói về những nguyên nhân khiến sách của bạn có thể cảm thấy rất chậm khi mở, lật trang hoặc điều chỉnh cách hiển thị.</p>
 
     <p><b>If the problematic book is a PDF:</b></p>
     <ul>
         <li>PDF file itself might be <b>too big for your device memory</b>.</li>
-        <li>PDF file <b>might contain very large image files</b>. Even in documents with a normal text layer (which you can select and highlight) there might be another image layer embedded (generally a scan of the page). This slows down the opening and page turning because these large images has to be rescaled to fit on your screen and this process can be CPU intensive.</li>
-        <li>PDF file might have <b>lots of individual elements</b> that needs precise positioning, like a magazine page with lots of images and text boxes. In this case KOReader has to calculate and draw all these elements which can take time.</li>
+        <li>Tệp PDF <b>có thể chứa các tệp hình ảnh rất lớn</b>. Ngay cả trong những tài liệu có lớp văn bản bình thường (mà bạn có thể chọn và highlight), vẫn có thể tồn tại một lớp hình ảnh khác được nhúng vào (thường là bản scan của trang). Điều này làm chậm quá trình mở và lật trang vì các hình ảnh lớn phải được thu nhỏ để vừa với màn hình của bạn, và quá trình này có thể tiêu tốn nhiều CPU.</li>
+        <li>Tệp PDF có thể có <b>rất nhiều thành phần riêng lẻ</b> cần được định vị chính xác, chẳng hạn như một trang tạp chí với nhiều hình ảnh và hộp văn bản. Trong trường hợp này, KOReader phải tính toán và vẽ tất cả các thành phần đó, điều này có thể mất thời gian.</li>
         <li><span class="ui">Auto straighten</span> feature (which allows you to adjust the tilt of the page) might also slow down your reader.</li>
-        <li>If you set your <span class="ui">RENDER QUALITY</span> to <span class="ui">HIGH</span> while <span class="ui">REFLOW</span> is <b>ON</b>, text will be more pleasing but it can be much slower (up to several seconds per page turn) than <span class="ui">DEFAULT</span> depending on your document.
+        <li>Nếu bạn đặt <span class="ui">CHẤT LƯỢNG RENDER</span> thành <span class="ui">CAO</span> trong khi <span class="ui">TÁI DÒNG (REFLOW)</span> đang <b>BẬT</b>, văn bản sẽ hiển thị đẹp hơn nhưng có thể chậm hơn nhiều (mất đến vài giây cho mỗi lần lật trang) so với <span class="ui">MẶC ĐỊNH</span>, tùy thuộc vào tài liệu của bạn.
 
             <div class="menu-breadcrumbs">MENU DƯỚI / <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:22px;"> / Chất lượng hiển thị</div>
         </li>
@@ -4947,14 +4947,14 @@ line-height: 2rem;
     <p><b>If the problematic book is an EPUB:</b></p>
 
     <ul>
-        <li>EPUB files are basically composed of text and images with some rules to determine how these items are formatted on the screen. In ideal conditions, this is a fairly simple process so EPUB files are generally fast in KOReader. <b>But some EPUB books add a great number of formatting rules that KOReader has to do many calculations just to show even a single sentence.</b> This will slow down opening the book, turning the pages and changing the appearance properties like font weight or line spacing.
+        <li>Tệp EPUB về cơ bản được tạo thành từ văn bản và hình ảnh với một số quy tắc để xác định cách các thành phần này được định dạng trên màn hình. Trong điều kiện lý tưởng, đây là một quá trình khá đơn giản nên các tệp EPUB thường chạy nhanh trong KOReader. <b>Nhưng một số sách EPUB lại thêm rất nhiều quy tắc định dạng khiến KOReader phải thực hiện nhiều phép tính chỉ để hiển thị một câu đơn giản.</b> Điều này sẽ làm chậm quá trình mở sách, lật trang và thay đổi các thuộc tính hiển thị như độ đậm của font chữ hoặc khoảng cách dòng.
 
         <div class="info"><span class="label_blue">INFO</span> KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will render as reflowable EPUBs and probably won't look nice or readable.</div>
         </li>
 
-        <li>EPUB files are ZIP archives that contain HTML files. Some books can be a single HTML file while others may be composed of multiple HTML files like each chapter of the book is a separate HTML file. <b>If your book is only a single HTML file, partial rendering can not work.</b> So appearance changes will be slower than the divided chapter books, because for each change, KOReader still has to calculate the whole book instead of only the current chapter.</li>
+        <li>Tệp EPUB là các tệp ZIP chứa các tệp HTML. Một số sách có thể chỉ là một tệp HTML duy nhất, trong khi những sách khác có thể được tạo thành từ nhiều tệp HTML, chẳng hạn như mỗi chương của sách là một tệp HTML riêng. <b>Nếu sách của bạn chỉ là một tệp HTML duy nhất, việc render từng phần sẽ không hoạt động.</b> Vì vậy, các thay đổi về hiển thị sẽ chậm hơn so với sách được chia thành nhiều chương, bởi vì với mỗi thay đổi, KOReader vẫn phải tính toán cho toàn bộ cuốn sách thay vì chỉ chương hiện tại.</li>
 
-        <li>Another rare case of slowness is when the content is wrapped in a <b>HTML table tag</b>. KOReader has to render/draw each cell on each page turn, so if a cell (containing many paragraphs) spans 50 pages, this will make page turning quite slow. See below for the solution.</li>
+        <li>Một trường hợp hiếm gặp khác gây chậm là khi nội dung được bao bọc trong <b>thẻ bảng HTML </b>. KOReader phải render/vẽ từng ô trong mỗi lần lật trang, vì vậy nếu một ô (chứa nhiều đoạn văn) kéo dài đến 50 trang, việc lật trang sẽ trở nên rất chậm. Xem giải pháp bên dưới.</li>
     </ul>
 
 
