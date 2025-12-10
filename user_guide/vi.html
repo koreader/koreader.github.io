@@ -4920,23 +4920,23 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">My Progress Sync doesn't synchronize my progress</div>
+<div class="L3-Smaller-heading">Tính năng Đồng bộ tiến độ của tôi không đồng bộ tiến độ học tập</div>
 
         <p> Điều này có thể do tính năng <span class="ui">Ghi highlight vào PDF</span> của KOReader nếu bạn đã bật nó. Việc lưu highlight trong PDF sẽ làm thay đổi tệp của bạn nên quá trình đồng bộ sẽ thất bại. Nếu bạn dự định sử dụng cả hai tính năng, trong phần cài đặt của plugin <span class="ui">Progress Sync</span>, hãy thay đổi <span class="ui">Phương thức đối chiếu tài liệu</span> thành <span class="ui">Tên tệp</span> thay vì mặc định là <span class="ui">Nhị phân</span>:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_tools.svg" style="width:26px;"> / Đồng bộ tiến trình / Phương pháp khớp tài liệu</div>
 
 
-<div class="L3-Smaller-heading">My book is slow</div>
+<div class="L3-Smaller-heading">Cuốn sách của tôi chậm</div>
 
     <p> KOReader được tối ưu để hoạt động nhanh ngay cả trên phần cứng hạn chế của máy đọc sách điện tử. Thông thường, những cuốn sách có hàng nghìn trang có thể được mở chỉ trong vài giây và việc lật trang diễn ra tức thì. Ở đây chúng ta sẽ nói về những nguyên nhân khiến sách của bạn có thể cảm thấy rất chậm khi mở, lật trang hoặc điều chỉnh cách hiển thị.</p>
 
-    <p><b>If the problematic book is a PDF:</b></p>
+    <p><b>Nếu cuốn sách có vấn đề là file PDF:</b></p>
     <ul>
-        <li>PDF file itself might be <b>too big for your device memory</b>.</li>
+        <li>Tệp PDF có thể <b>quá lớn so với bộ nhớ thiết bị của bạn</b>.</li>
         <li>Tệp PDF <b>có thể chứa các tệp hình ảnh rất lớn</b>. Ngay cả trong những tài liệu có lớp văn bản bình thường (mà bạn có thể chọn và highlight), vẫn có thể tồn tại một lớp hình ảnh khác được nhúng vào (thường là bản scan của trang). Điều này làm chậm quá trình mở và lật trang vì các hình ảnh lớn phải được thu nhỏ để vừa với màn hình của bạn, và quá trình này có thể tiêu tốn nhiều CPU.</li>
         <li>Tệp PDF có thể có <b>rất nhiều thành phần riêng lẻ</b> cần được định vị chính xác, chẳng hạn như một trang tạp chí với nhiều hình ảnh và hộp văn bản. Trong trường hợp này, KOReader phải tính toán và vẽ tất cả các thành phần đó, điều này có thể mất thời gian.</li>
-        <li><span class="ui">Auto straighten</span> feature (which allows you to adjust the tilt of the page) might also slow down your reader.</li>
+        <li>Tính năng <span class="ui">Tự động làm thẳng</span> (cho phép bạn điều chỉnh độ nghiêng của trang) cũng có thể làm chậm tốc độ đọc của bạn.</li>
         <li>Nếu bạn đặt <span class="ui">CHẤT LƯỢNG RENDER</span> thành <span class="ui">CAO</span> trong khi <span class="ui">TÁI DÒNG (REFLOW)</span> đang <b>BẬT</b>, văn bản sẽ hiển thị đẹp hơn nhưng có thể chậm hơn nhiều (mất đến vài giây cho mỗi lần lật trang) so với <span class="ui">MẶC ĐỊNH</span>, tùy thuộc vào tài liệu của bạn.
 
             <div class="menu-breadcrumbs">MENU DƯỚI / <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:22px;"> / Chất lượng hiển thị</div>
@@ -4944,12 +4944,12 @@ line-height: 2rem;
     </ul>
 
 
-    <p><b>If the problematic book is an EPUB:</b></p>
+    <p><b>Nếu cuốn sách có vấn đề là EPUB:</b></p>
 
     <ul>
         <li>Tệp EPUB về cơ bản được tạo thành từ văn bản và hình ảnh với một số quy tắc để xác định cách các thành phần này được định dạng trên màn hình. Trong điều kiện lý tưởng, đây là một quá trình khá đơn giản nên các tệp EPUB thường chạy nhanh trong KOReader. <b>Nhưng một số sách EPUB lại thêm rất nhiều quy tắc định dạng khiến KOReader phải thực hiện nhiều phép tính chỉ để hiển thị một câu đơn giản.</b> Điều này sẽ làm chậm quá trình mở sách, lật trang và thay đổi các thuộc tính hiển thị như độ đậm của font chữ hoặc khoảng cách dòng.
 
-        <div class="info"><span class="label_blue">INFO</span> KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will render as reflowable EPUBs and probably won't look nice or readable.</div>
+        <div class="info"><span class="label_blue">THÔNG TIN</span> KOReader không hỗ trợ <b>EPUB bố cục cố định</b>. Chúng sẽ mở được, nhưng sẽ hiển thị dưới dạng EPUB có thể điều chỉnh bố cục và có thể sẽ không đẹp mắt hoặc dễ đọc.</div>
         </li>
 
         <li>Tệp EPUB là các tệp ZIP chứa các tệp HTML. Một số sách có thể chỉ là một tệp HTML duy nhất, trong khi những sách khác có thể được tạo thành từ nhiều tệp HTML, chẳng hạn như mỗi chương của sách là một tệp HTML riêng. <b>Nếu sách của bạn chỉ là một tệp HTML duy nhất, việc render từng phần sẽ không hoạt động.</b> Vì vậy, các thay đổi về hiển thị sẽ chậm hơn so với sách được chia thành nhiều chương, bởi vì với mỗi thay đổi, KOReader vẫn phải tính toán cho toàn bộ cuốn sách thay vì chỉ chương hiện tại.</li>
@@ -4958,76 +4958,76 @@ line-height: 2rem;
     </ul>
 
 
-    <p><b>If everything is slow:</b></p>
+    <p><b>Nếu mọi thứ đều chậm chạp:</b></p>
 
-    <p>Reasons mentioned above is generally valid if only some of your books are slow. If all of your books are slow, your problem might be device related:</p>
+    <p>Những lý do nêu trên thường đúng nếu chỉ một số sách của bạn bị chậm. Nếu tất cả sách đều chậm, vấn đề có thể liên quan đến thiết bị:</p>
 
     <ul>
-        <li>Very slow CPU or low RAM.</li>
-        <li>Your flash memory (where your books reside) might be degrading, which is generally due to the old age of the device.</li>
-        <li>You are running out of storage space.</li>
-        <li>If you are using an Android based device, your Android OS might be interfering with the operation of KOReader or some background processes might be using your system resources.</li>
+        <li>CPU quá chậm hoặc RAM thấp.</li>
+        <li>Bộ nhớ flash (nơi lưu trữ sách) của bạn có thể bị xuống cấp, nguyên nhân thường là do thiết bị đã cũ.</li>
+        <li>Bạn sắp hết dung lượng lưu trữ.</li>
+        <li>Nếu bạn đang sử dụng thiết bị chạy hệ điều hành Android, hệ điều hành Android của bạn có thể đang gây trở ngại cho hoạt động của KOReader hoặc một số tiến trình nền có thể đang sử dụng tài nguyên hệ thống của bạn.</li>
     </ul>
 
     
-    <p><b>SOLUTIONS:</b></p>
+    <p><b>GIẢI PHÁP:</b></p>
     
-    <p>Unfortunately, for bad PDF files there are not many solutions. Generally best solution with problematic PDFs and EPUBs is trying to find a better version of it. Or if another file type is available for download, like EPUB instead of PDF (or reverse) you can try that format.</p>
+    <p>Thật không may, đối với các tệp PDF chất lượng kém thì không có nhiều giải pháp. Thông thường, giải pháp tốt nhất đối với các tệp PDF và EPUB gặp sự cố là tìm một phiên bản tốt hơn của chúng. Hoặc nếu có sẵn loại tệp khác để tải xuống, chẳng hạn như EPUB thay vì PDF (hoặc ngược lại), bạn có thể thử định dạng đó.</p>
 
-    <p>Following solutions are for EPUB files and they might require advanced knowledge:</p>
+    <p>Các giải pháp sau đây dành cho tệp EPUB và có thể yêu cầu kiến thức chuyên sâu:</p>
 
     <ul>
-        <li>You can set <span class="ui">Embedded Styles</span> to <b>OFF</b> in the bottom menu to see if ignoring all the document stylesheets makes it faster (of course, you'll probably lose any nice formatting, but you'll know what is the culprit).</li>
+        <li>Bạn có thể đặt <span class="ui">Kiểu nhúng</span> thành <b>TẮT</b> trong menu dưới cùng để xem liệu việc bỏ qua tất cả các bảng định kiểu tài liệu có làm cho nó nhanh hơn không (tất nhiên, bạn có thể sẽ mất bất kỳ định dạng đẹp nào, nhưng bạn sẽ biết nguyên nhân là gì).</li>
         
-        <li>If you have HTML and CSS knowledge, you can inspect the HTML and the CSS files directly from KOReader and judge their quality or unnecessary complexity by yourself. To do this, you can long-press on some text and choose <span class="ui">View HTML</span> in the popup menu.</li>
+        <li>Nếu bạn có kiến thức về HTML và CSS, bạn có thể kiểm tra trực tiếp các tệp HTML và CSS từ KOReader và tự đánh giá chất lượng hoặc độ phức tạp không cần thiết của chúng. Để làm điều này, bạn có thể nhấn giữ vào một đoạn văn bản và chọn <span class="ui">Xem HTML</span> trong menu bật lên.</li>
         
-        <li>If you have the <b>“content wrapped in a table”</b> problem as mentioned above in the problems section, you can add this <span class="ui">table, tr, td { display:block; }</span> book-specific style tweak to:
+        <li>Nếu bạn gặp sự cố <b>"nội dung được gói trong bảng"</b> như đã đề cập ở trên trong phần sự cố, bạn có thể thêm điều chỉnh kiểu <span class="ui">table, tr, td { display:block; }</span> dành riêng cho sách này vào:
         
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Điều chỉnh kiểu / Điều chỉnh theo từng cuốn sách</div>
         </li>
 
-        <li><span class="external">Calibre</span>’s e-book editor can check EPUB files for problems and has tools to fix some of the problems.
-        <p>You can download <span class="external">Calibre</span> from <a href="https://calibre-ebook.com/">here</a>.</p>
+        <li>Trình chỉnh sửa sách điện tử của <span class="external">Calibre</span> có thể kiểm tra các tệp EPUB để tìm ra vấn đề và có các công cụ để khắc phục một số vấn đề.
+        <p>Bạn có thể tải xuống <span class="external">Calibre</span> từ <a href="https://calibre-ebook.com/">tại đây</a>.</p>
 
-        <p>You can see the instructions for the <b>Check book tool</b> of <span class="external">Calibre</span> <a href="https://manual.calibre-ebook.com/edit.html#checking-the-book">here</a>.</p></li>
+        <p>Bạn có thể xem hướng dẫn sử dụng công cụ <b>Sổ séc</b> của <span class="external">Calibre</span> <a href="https://manual.calibre-ebook.com/edit.html#checking-the-book">tại đây</a>.</p></li>
         
-        <li><span class="external">EPUBCheck</span> application can check the validity of the EPUB files and detect many types of errors. You can read an example issue, where the problem is detected with <span class="external">EPUBCheck</span> <a href="https://github.com/koreader/koreader/issues/11268">here</a>.
+        <li>Ứng dụng <span class="external">EPUBCheck</span> có thể kiểm tra tính hợp lệ của các tệp EPUB và phát hiện nhiều loại lỗi. Bạn có thể đọc ví dụ về sự cố được phát hiện bằng <span class="external">EPUBCheck</span> <a href="https://github.com/koreader/koreader/issues/11268">tại đây</a>.
 
-        <p>You can download the <b>command line version</b> from <a href="https://github.com/w3c/epubcheck">here</a>.</p>
+        <p>Bạn có thể tải xuống <b>phiên bản dòng lệnh</b> từ <a href="https://github.com/w3c/epubcheck">đây</a>.</p>
 
-        <p>Or download a <b>graphical user interface version</b> from <a href="https://github.com/w3c/epubcheck/wiki/GUI">here</a>.</p></li>
+        <p>Hoặc tải xuống <b>phiên bản giao diện người dùng đồ họa</b> từ <a href="https://github.com/w3c/epubcheck/wiki/GUI">tại đây</a>.</p></li>
     </ul>
 
 
-    <p><b>Opening an issue:</b></p>
-    <p>If you are opening an issue about this problem, it is important for us to inspect the problematic file. You can share the file directly by dragging and dropping it on your GitHub message after compressing it as a ZIP file. If your book is an EPUB and you don’t want to share the file due to copyright or privacy issues, there is a plugin for <span class="external">Calibre</span> named <span class="external">ScrambleEbook</span> which you can access the download and instructions from this <a href="https://www.mobileread.com/forums/showthread.php?t=267998">Mobileread forum page</a>.</p>
+    <p><b>Mở một vấn đề:</b></p>
+    <p>Nếu bạn đang báo cáo sự cố này, điều quan trọng là chúng tôi cần kiểm tra tệp tin gây ra vấn đề. Bạn có thể chia sẻ tệp tin trực tiếp bằng cách kéo và thả nó vào tin nhắn GitHub của bạn sau khi nén nó thành tệp ZIP. Nếu sách của bạn là định dạng EPUB và bạn không muốn chia sẻ tệp tin do vấn đề bản quyền hoặc quyền riêng tư, có một plugin dành cho <span class="external">Calibre</span> có tên là <span class="external">ScrambleEbook</span> mà bạn có thể tải xuống và xem hướng dẫn tại<a href="https://www.mobileread.com/forums/showthread.php?t=267998"> trang diễn đàn Mobileread này</a>.</p>
     
     
-    <p>This plugin will read an un-DRM'd ebook file (EPUB/KEPUB/AZW3) and create a copy of the book with <b>its text replaced with random characters</b>. You can share this scrambled version with us in your issue thread. <b>Text of the book will not be readable and there won’t be any copyright violation</b> but we can still use this file for diagnostic purposes.</p>
+    <p>Plugin này sẽ đọc một tệp ebook không có DRM (EPUB/KEPUB/AZW3) và tạo một bản sao của sách với <b>nội dung được thay thế bằng các ký tự ngẫu nhiên</b>. Bạn có thể chia sẻ phiên bản mã hóa này với chúng tôi trong chủ đề thảo luận của bạn. <b>Nội dung của sách sẽ không thể đọc được và không vi phạm bản quyền</b>, nhưng chúng tôi vẫn có thể sử dụng tệp này cho mục đích chẩn đoán.</p>
     
-    <p>You can see this procedure in a real issue involving a very problematic EPUB file <a href="https://github.com/koreader/koreader/issues/11465">here</a>.</p>
+    <p>Bạn có thể xem quy trình này trong một sự cố thực tế liên quan đến tệp EPUB rất có vấn đề <a href="https://github.com/koreader/koreader/issues/11465">tại đây</a>.</p>
 
 
 
-    <div class="L3-Smaller-heading">I see small numbers on the side when reading a book</div>
-    <p>Those small numbers are called <b>Reference Page Numbers</b>. In short, they are the real page numbers from the printed version of your book. For more information please click here <a href="#L2-readingscreen">Reading Screen</a> to go to the relevant section.</p>
+    <div class="L3-Smaller-heading">Tôi thấy những con số nhỏ ở bên cạnh khi đọc một cuốn sách</div>
+    <p>Những con số nhỏ đó được gọi là <b>Số trang tham khảo</b>. Nói ngắn gọn, chúng là số trang thực tế từ phiên bản in của cuốn sách của bạn. Để biết thêm thông tin, vui lòng nhấp vào đây <a href="#L2-readingscreen">Màn hình đọc</a> để đến phần liên quan.</p>
 
 
     
-<div class="L3-Smaller-heading">My status bar disappeared</div>
+<div class="L3-Smaller-heading">Thanh trạng thái của tôi biến mất</div>
         
-    <p>Probably you tapped on the <span class="ui">STATUS BAR</span> touch zone at the bottom of the screen. You can bring it back by tapping the same zone.</p>
+    <p>Có thể bạn đã chạm vào vùng cảm ứng <span class="ui">THANH TRẠNG THÁI</span> ở cuối màn hình. Bạn có thể đưa nó trở lại bằng cách chạm vào cùng vùng đó.</p>
         
 
 
 
 
-<div class="L3-Smaller-heading">Sometimes my taps are registered as a long tap or double taps</div>
-    <p>This can happen in cases like shaking hands or device touch screen problems. If you have this problem, you can try to increase the <span class="ui">Tap interval</span>. By increasing this interval, you tell KOReader to ignore quick taps at the same location.</p>
+<div class="L3-Smaller-heading">Đôi khi các thao tác chạm của tôi được ghi nhận là chạm giữ lâu hoặc chạm hai lần</div>
+    <p>Điều này có thể xảy ra trong các trường hợp như rung tay hoặc sự cố màn hình cảm ứng thiết bị. Nếu bạn gặp phải vấn đề này, bạn có thể thử tăng <span class="ui">Khoảng thời gian chạm</span>. Bằng cách tăng khoảng thời gian này, bạn sẽ yêu cầu KOReader bỏ qua các lần chạm nhanh tại cùng một vị trí.</p>
 
     <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Chạm và Cử chỉ / Khoảng thời gian cử chỉ / Khoảng thời gian chạm</div>
 
-    <p>If your two consecutive taps are separated by a distance, this would not apply. So you can still quickly browse pages by tapping quickly alternatively with two fingers.</p>
+    <p>Nếu hai lần chạm liên tiếp của bạn cách nhau một khoảng, quy tắc này sẽ không áp dụng. Vì vậy, bạn vẫn có thể nhanh chóng duyệt các trang bằng cách chạm nhanh luân phiên bằng hai ngón tay.</p>
         
     
     
@@ -5041,9 +5041,9 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Ghosting and residue when turning pages</div>
+<div class="L3-Smaller-heading">Hiện tượng mờ nhòe và vết mực khi lật trang</div>
 
-        <p>Even if KOReader is set to <b>full refresh after every page</b>, you may still see some ghosting/residue after turning pages. This is a limitation of e-ink screen technology and can be observed on the latest generation devices, especially while reading mixed content (text+images) documents. As a workaround, you can refresh one more time manually after turning the page to get rid of these artifacts if they bother you (<span class="ui">short diagonal swipe</span> gesture by default).</p>
+        <p>Ngay cả khi KOReader được thiết lập để <b>làm mới hoàn toàn sau mỗi trang</b>, bạn vẫn có thể thấy một số vết mờ/dư âm sau khi lật trang. Đây là hạn chế của công nghệ màn hình e-ink và có thể quan sát thấy trên các thiết bị thế hệ mới nhất, đặc biệt là khi đọc các tài liệu có nội dung hỗn hợp (văn bản + hình ảnh). Để khắc phục, bạn có thể làm mới thêm một lần nữa theo cách thủ công sau khi lật trang để loại bỏ những hiện tượng này nếu chúng làm bạn khó chịu (<span class="ui">cử chỉ vuốt chéo ngắn</span> theo mặc định).</p>
         
     <div class="L3-Smaller-heading">Clearing file cache</div>
         <p>Vỏ bọc ngủ thường sử dụng nam châm tích hợp trong vỏ, cho phép thiết bị tự động đánh thức và ngủ bằng cách kích hoạt cảm biến trên thiết bị. Cảm biến này đôi khi có thể được gọi là <b>cảm biến Hall</b> hoặc <b>cảm biến hiệu ứng Hall</b>. Trong một số trường hợp, chẳng hạn như nam châm bị lệch hoặc yếu, việc kích hoạt này có thể gây ra sự cố. Nếu thiết bị của bạn gặp sự cố khi đánh thức do vỏ bọc, bạn có thể tắt tính năng này thông qua menu sau:</p>
@@ -5054,17 +5054,17 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Text indentation problems</div>
+<div class="L3-Smaller-heading">Các vấn đề về thụt lề văn bản</div>
 
-    <p>If you get miscentered titles, headings or separators, or unexpected text indentation, try switching the style for your document. <span class="ui">epub.css</span> to <span class="ui">html5.css</span>. This kind of problems happen because some publishers assume their books will only be read on <b>web browser engine based</b> readers, so they don't bother "resetting" the styles.</p>
+    <p>Nếu bạn gặp phải tình trạng tiêu đề, đề mục hoặc dấu phân cách bị lệch tâm, hoặc thụt lề văn bản không mong muốn, hãy thử thay đổi kiểu định dạng cho tài liệu của bạn từ <span class="ui">epub.css</span> sang <span class="ui">html5.css</span>. Loại sự cố này xảy ra vì một số nhà xuất bản cho rằng sách của họ chỉ được đọc trên các trình đọc <b>dựa trên trình duyệt web</b>, vì vậy họ không bận tâm đến việc "thiết lập lại" các kiểu định dạng.</p>
 
     <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_document.svg" style="width:24px;"> / Kiểu</div>
 
 
     <ul>
-        <li>Default <span class="ui">HTML/EPUB (epub.css)</span> is our book-oriented stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better for unstyled books, and might make styled books more readable.</li>
+        <li>Mặc định <span class="ui">HTML/EPUB (epub.css)</span> là bảng định kiểu hướng sách của chúng tôi, với <b>text-align: justify, text-indent on P</b>. Nó tốt hơn cho sách không định dạng và có thể làm cho sách định dạng dễ đọc hơn.</li>
 
-        <li>You can try switching to <span class="ui">HTML5 (html5.css)</span> if your book has indentation problems as mentioned above. This style provides a base stylesheet like web browsers do when rendering: <b>text-align: left, no text-indent on P, spacing between P</b>. But it doesn’t look pretty when publishers haven’t done any styling.</li>
+        <li>Bạn có thể thử chuyển sang <span class="ui">HTML5 (html5.css)</span> nếu sách của bạn gặp vấn đề về thụt lề như đã đề cập ở trên. Kiểu này cung cấp một bảng định kiểu cơ bản giống như các trình duyệt web khi hiển thị: <b>text-align: left, no text-indent on P, spacing between P</b>. Nhưng nó trông không đẹp mắt nếu nhà xuất bản chưa thực hiện bất kỳ việc định kiểu nào.</li>
     </ul>
             
 
@@ -5072,9 +5072,9 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Cleaning your book cover cache database</div>
+<div class="L3-Smaller-heading">Dọn dẹp cơ sở dữ liệu bộ nhớ đệm bìa sách của bạn</div>
 
-    <p>KOReader keeps a cache of your book covers to be able to show them quicker. In normal conditions this cache doesn’t get too big. If you remove lots of books or rename directories, you may want to clean up your book cover cache database to reclaim some space. You can do it from this menu:</p>
+    <p>KOReader lưu trữ ảnh bìa sách của bạn trong bộ nhớ đệm để có thể hiển thị chúng nhanh hơn. Trong điều kiện bình thường, bộ nhớ đệm này không quá lớn. Nếu bạn xóa nhiều sách hoặc đổi tên thư mục, bạn có thể muốn dọn dẹp cơ sở dữ liệu bộ nhớ đệm ảnh bìa sách để lấy lại dung lượng. Bạn có thể thực hiện việc này từ menu này:</p>
 
     <div class="menu-breadcrumbs">MENU CHÍNH (trong Trình duyệt tệp) / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:22px;"> / Cài đặt / Cài đặt danh sách chi tiết và khảm / Quản lý bộ nhớ đệm thông tin sách</div>
 
@@ -5082,12 +5082,12 @@ line-height: 2rem;
 
 
 
-<div class="L3-Smaller-heading">Clearing file cache</div>
-    <p>When you are reading a <b>PDF/DJVU</b> document, KOReader keeps a cache of the last page you have read. So when you reopen the book, it will be faster. But this cache can grow big if you are using KOReader for a long time and reading many PDF/DJVU documents. These cache files are kept under your KOReader installation directory under the <b>cache folder</b>. To clear this cache and reclaim the space you can go to:</p>
+<div class="L3-Smaller-heading">Xóa bộ nhớ đệm tệp</div>
+    <p>Khi bạn đọc tài liệu <b>PDF/DJVU</b>, KOReader sẽ lưu trữ bộ nhớ đệm của trang cuối cùng bạn đã đọc. Vì vậy, khi bạn mở lại sách, tốc độ sẽ nhanh hơn. Tuy nhiên, bộ nhớ đệm này có thể tăng lên đáng kể nếu bạn sử dụng KOReader trong thời gian dài và đọc nhiều tài liệu PDF/DJVU. Các tệp bộ nhớ đệm này được lưu trữ trong thư mục cài đặt KOReader của bạn, trong thư mục <b>cache</b>. Để xóa bộ nhớ đệm này và lấy lại dung lượng, bạn có thể vào:</p>
 
     <div class="menu-breadcrumbs">MENU CHÍNH (trong trình duyệt tệp) / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Thêm công cụ / Tùy chọn nhà phát triển / Xóa bộ nhớ đệm</div>
         
-    <div class="warning"><span class="label_red">WARNING</span> Clear this cache <b>only if you really need this space</b>. If you have enough space, clearing the cache will not provide any benefit. Instead, it will degrade the performance because your reader will have to render those pages again.</div>
+    <div class="warning"><span class="label_red">CẢNH BÁO</span> Chỉ xóa bộ nhớ đệm này <b>khi bạn thực sự cần dung lượng này</b>. Nếu bạn có đủ dung lượng, việc xóa bộ nhớ đệm sẽ không mang lại lợi ích gì. Thay vào đó, nó sẽ làm giảm hiệu suất vì trình đọc của bạn sẽ phải hiển thị lại các trang đó.</div>
         
 
 
@@ -5098,31 +5098,31 @@ line-height: 2rem;
 <div class="L1-Chapter-heading" id="L1-reachus">LIÊN HỆ VỚI CHÚNG TÔI</div>
 
         <p>
-        KOReader uses <span class="external">GitHub</span> as its project base. You can report problems or suggestions on our GitHub page. You just need a GitHub account which is free. Click this link to open our <a href="https://github.com/koreader/koreader/issues">GitHub Issues</a> page.</p>
+        KOReader sử dụng <span class="external">GitHub</span> làm nền tảng dự án. Bạn có thể báo cáo sự cố hoặc đề xuất trên trang GitHub của chúng tôi. Bạn chỉ cần một tài khoản GitHub miễn phí. Nhấp vào liên kết này để mở trang <a href="https://github.com/koreader/koreader/issues">Sự cố GitHub</a> của chúng tôi.</p>
 		
     
         
         <img loading="lazy" src="pictures/github_main.jpg" style="width:80%;">
 
-        <p>On the <b>Issues</b> page click the <b>New Issue</b> button. But before doing that, we suggest using the search bar to see if there is already an existing issue about the same topic. You can also check other opened issues to have an idea about the process.</p>
+        <p>Trên trang <b>Vấn đề</b>, hãy nhấp vào nút <b>Vấn đề Mới</b>. Tuy nhiên, trước khi thực hiện việc này, chúng tôi khuyên bạn nên sử dụng thanh tìm kiếm để xem đã có vấn đề nào về cùng chủ đề hay chưa. Bạn cũng có thể kiểm tra các vấn đề đã mở khác để nắm rõ quy trình.</p>
 
-        <p>When you click the <b>New Issue</b> button you will be presented with two options:</p>
+        <p>Khi bạn nhấp vào nút <b>Phát hành mới</b>, bạn sẽ thấy hai tùy chọn:</p>
         
         <img loading="lazy" src="pictures/github_issue.png" style="width:80%;">
         
-        <p>Click the appropriate one and follow the instructions on the page to report your problem or suggestion.</p>
+        <p>Hãy nhấp vào mục phù hợp và làm theo hướng dẫn trên trang để báo cáo sự cố hoặc đề xuất của bạn.</p>
         
-        <p>If you are reporting a bug, <b>verbose debug logs</b> are very helpful to determine the problem. You can enable them via:</p>
+        <p>Nếu bạn đang báo cáo lỗi, <b>nhật ký gỡ lỗi chi tiết</b> sẽ rất hữu ích để xác định vấn đề. Bạn có thể bật tính năng này thông qua:</p>
 
         <div class="menu-breadcrumbs">MENU CHÍNH / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / Trợ giúp / Báo cáo lỗi / Bật ghi nhật ký chi tiết</div>
 
-        <p>You can also find the version number of your KOReader and your device type from the same dialog for reporting.</p>
+        <p>Bạn cũng có thể tìm thấy số phiên bản của KOReader và loại thiết bị của mình từ cùng một hộp thoại báo cáo.</p>
 
-        <p>If you have a suggestion or question related to this <b>User Guide</b> you can write to the <a href="https://github.com/koreader/koreader/issues/11147">GitHub discussion thread</a></p>
+        <p>Nếu bạn có đề xuất hoặc câu hỏi liên quan đến <b>Hướng dẫn sử dụng</b> này, bạn có thể viết vào <a href="https://github.com/koreader/koreader/issues/11147">luồng thảo luận trên GitHub</a></p>
 
 
 		
-<div class="L2-Sub-heading">You can also . . .</div>
+<div class="L2-Sub-heading">Bạn cũng có thể...</div>
 
 	<div class="centering-div">
 		<table class="grid-table" style="width: 100%;  margin-left: auto; margin-right: auto; table-layout: fixed; border: none;">
@@ -5130,18 +5130,18 @@ line-height: 2rem;
 		<td style="width: 33%; border: none;"><img loading="lazy" class="img_inline" src="pictures/logo_mobileread.png" style="width:140px;">
 		<br>
 
-		Find other KOReader users on <a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">MobileRead forums</a>
+		Tìm những người dùng KOReader khác trên <a href="https://www.mobileread.com/forums/forumdisplay.php?f=276">diễn đàn MobileRead</a>
 
 		</td>
 
 		<td style="width: 33%; border: none;"><img loading="lazy" class="img_inline" src="pictures/logo_gitter.png" style="width:100px;">
 		<br>
-		Reach us at <a href="https://gitter.im/koreader/koreader">Gitter chat</a>
+		Liên hệ với chúng tôi qua <a href="https://gitter.im/koreader/koreader">Gitter chat</a>
 		</td>
 
 		<td style="width: 33%; border: none;"><img loading="lazy" class="img_inline" src="pictures/logo_liberapay.gif" style="width:80px;">
 		<br>
-		Support the project via <a href="https://liberapay.com/KOReader">Liberapay</a>
+		Hãy ủng hộ dự án thông qua <a href="https://liberapay.com/KOReader">Liberapay</a>
 		</td>
 		</tr>
 		</table>
