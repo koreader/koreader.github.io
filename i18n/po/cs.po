@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 21:01+0000\n"
-"PO-Revision-Date: 2025-12-10 13:39+0000\n"
-"Last-Translator: Adam Havránek <adamhavra@seznam.cz>\n"
+"PO-Revision-Date: 2025-12-18 07:00+0000\n"
+"Last-Translator: Marek <marek@pavelka.xyz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/koreader/user-"
 "guide/cs/>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -4323,9 +4323,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2343-1
-#, fuzzy
 msgid "Style tweaks"
-msgstr "Úpravy stylu"
+msgstr "Vylepšení stylů"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2345-5
 msgctxt "user_guide/en.html+html.body.div.p:2345-5"
@@ -8258,7 +8257,7 @@ msgstr "Suspend"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3798-17
 msgid "History search"
-msgstr "Restart KOReader"
+msgstr "Prohledávání historie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3799-17
 msgid "Favorites"
@@ -8296,14 +8295,12 @@ msgid "Menu search"
 msgstr "Vyhledat nabídku"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
-#, fuzzy
 msgid "Open next file in last book folder"
-msgstr "Otevření dalšího souboru v poslední složce knihy"
+msgstr "Otevřít další soubor v poslední složce knihy"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
-#, fuzzy
 msgid "Open previous file in last book folder"
-msgstr "Otevření předchozího souboru ve složce poslední knihy"
+msgstr "Otevřít předchozí soubor ve složce poslední knihy"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
 #, fuzzy
@@ -8434,9 +8431,8 @@ msgid "Device"
 msgstr "Zařízení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3841-17
-#, fuzzy
 msgid "Exit sleep screen"
-msgstr "Ukončit obrazovku uspaného zařízení"
+msgstr "Opustit obrazovku spánku"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3842-17
 #, fuzzy
@@ -8450,22 +8446,20 @@ msgid "Exit KOReader"
 msgstr "Ukončit KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
-#, fuzzy
 msgid "Toggle long-press on corners"
-msgstr "Přepínání dlouhých stisknutí na rozích"
+msgstr "Přepnout dlouhé stisknutí na rozích"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
-#, fuzzy
 msgid "Enable touch input"
-msgstr "Povolit dotekové ovládání"
+msgstr "Povolit dotykové ovládání"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3846-17
 msgid "Disable touch input"
-msgstr "Show frontlight dialog"
+msgstr "Zakázat dotykové ovládání"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3847-17
 msgid "Toggle touch input"
-msgstr "Přepnout dotykové zadávání"
+msgstr "Přepnout dotykové ovládání"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3848-17
 msgid "Invert page turn buttons"
@@ -8492,9 +8486,8 @@ msgid "Rotate by 90 CCW"
 msgstr "Set night mode"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3854-17
-#, fuzzy
 msgid "Toggle Fullscreen"
-msgstr "Přepínání „na celou obrazovku“"
+msgstr "Přepnout na celou obrazovku"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3855-17
 msgid "Show network info"
@@ -8533,11 +8526,11 @@ msgstr "Vypnout"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3865-17
 msgid "Toggle key repeat"
-msgstr "Increase frontlight brightness"
+msgstr "Přepnout opakování klávesy"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3866-17
 msgid "Toggle accelerometer"
-msgstr "Decrease frontlight brightness"
+msgstr "Přepnout akcelerometr"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3867-17
 msgid "Turn on Wi-Fi"
@@ -8549,7 +8542,7 @@ msgstr "Full refresh rate (always)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3869-17
 msgid "Toggle Wi-Fi"
-msgstr "Full refresh rate (not in night mode)"
+msgstr "Přepnout Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3874-9
 #, fuzzy
@@ -8557,14 +8550,12 @@ msgid "Screen and lights"
 msgstr "Obrazovka a osvětlení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
-#, fuzzy
 msgid "Show frontlight dialog"
-msgstr "Zobrazit dialog předního osvětlení"
+msgstr "Zobrazit dialogové okno předního osvětlení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
-#, fuzzy
 msgid "Toggle frontlight"
-msgstr "Přepínání předního osvětlení"
+msgstr "Přepnout přední osvětlení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
 #, fuzzy
@@ -8597,7 +8588,7 @@ msgstr "Set font"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3885-17
 msgid "Toggle night mode"
-msgstr "Increase font size"
+msgstr "Přepnout noční režim"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3886-17
 msgid "Set night mode"
@@ -8609,7 +8600,7 @@ msgstr "Set font size"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3888-17
 msgid "Full refresh rate (always)"
-msgstr "Word spacing"
+msgstr "Plná obnovovací frekvence (vždy)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3889-17
 msgid "Full refresh rate (not in night mode)"
@@ -8617,23 +8608,23 @@ msgstr "Plná obnovovací frekvence (ne v nočním režimu)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
 msgid "Full refresh rate (in night mode)"
-msgstr "Contrast"
+msgstr "Plná obnovovací frekvence (v nočním režimu)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3891-17
 msgid "Always flash on chapter boundaries"
-msgstr "Vždy probliknout na nové kapitole"
+msgstr "Vždy probliknout na hranicích kapitol"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3892-17
 msgid "Toggle flashing on chapter boundaries"
-msgstr "Font hinting"
+msgstr "Přepnout probliknutí na hranicích kapitol"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3893-17
 msgid "Never flash on chapter's 2nd page"
-msgstr "Font kerning"
+msgstr "Nikdy neproblikávat na 2. stránce kapitoly"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3894-17
 msgid "Toggle flashing on chapter's 2nd page"
-msgstr "Two columns"
+msgstr "Přepnout probliknutí na 2. stránce kapitoly"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3895-17
 msgid "Always flash on pages with images"
@@ -8676,9 +8667,8 @@ msgid "Reflowable documents"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3908-17
-#, fuzzy
 msgid "Font face"
-msgstr "Tvar písma"
+msgstr "Typ písma"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Increase font size"
@@ -8752,9 +8742,8 @@ msgid "Render mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-17
-#, fuzzy
 msgid "Zoom"
-msgstr "Zoomování"
+msgstr "Zvětšení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3926-17
 #, fuzzy
@@ -8879,7 +8868,7 @@ msgstr "Table of contents"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Toggle status bar"
-msgstr "Přepnout stavový řádek"
+msgstr "Přepnout stavovou lištu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 #, fuzzy
@@ -8919,7 +8908,7 @@ msgstr "Přejít na stránku"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3967-17
 msgid "Skim document"
-msgstr "Prohlédnout dokument"
+msgstr "Projet dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
 msgid "Previous bookmark"
@@ -8949,11 +8938,11 @@ msgstr "Zpět"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3974-17
 msgid "Back to previous location"
-msgstr "Set highlight action"
+msgstr "Zpět na předchozí umístění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
 msgid "Forward to next location"
-msgstr "Cycle highlight action"
+msgstr "Vpřed na další umístění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
 msgid "Follow nearest link"
@@ -8965,11 +8954,11 @@ msgstr "Přejít na nejbližší interní odkaz"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
 msgid "Add current location to history"
-msgstr "Přidat aktuální polohu do historie"
+msgstr "Přidat aktuální umístění do historie"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
 msgid "Clear location history"
-msgstr "Vymazat historii polohy"
+msgstr "Vymazat historii umístění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3980-17"
@@ -9010,9 +8999,8 @@ msgid "Bookmarks"
 msgstr "Záložky"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
-#, fuzzy
 msgid "Bookmark search"
-msgstr "Hledání záložky"
+msgstr "Hledání záložek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
 #, fuzzy
@@ -9041,17 +9029,16 @@ msgid "Translate current page"
 msgstr "Toggle panel zoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3994-17
-#, fuzzy
 msgid "Invert page turn taps and swipes"
-msgstr "Přehodit dotyk. ovl. pro otáčení stránek"
+msgstr "Invertovat klepnutí a přejetí pro otáčení stránek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3995-17
 msgid "Toggle page turn direction"
-msgstr "Page crop"
+msgstr "Přepnout směr otáčení stránek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3996-17
 msgid "Toggle custom TOC"
-msgstr "Margin"
+msgstr "Přepnout vlastní obsah"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3997-17
 msgid "Toggle custom hidden flows"
@@ -9059,15 +9046,15 @@ msgstr "Horizontal overlap"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Set highlight action"
-msgstr "Nastavit akci pro zvýraznění"
+msgstr "Nastavit akci zvýraznění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Cycle highlight action"
-msgstr "Fit"
+msgstr "Přepínat akci zvýraznění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
 msgid "Cycle highlight style"
-msgstr "Zoom factor"
+msgstr "Přepínat styl zvýraznění"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Save book metadata"
@@ -9114,23 +9101,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
 msgid "Toggle page flipping"
-msgstr "Reflow"
+msgstr "Přepnout listování stránkami"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4015-17
 msgid "Toggle bookmark flipping"
-msgstr "Contrast"
+msgstr "Přepnout listování záložkami"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4016-17
 msgid "Toggle reflow"
-msgstr "Dewatermark"
+msgstr "Přepnout přeformátování"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Zoom mode"
-msgstr "Režim zoomování"
+msgstr "Režim zvětšení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgid "Change zoom factor"
-msgstr "Render quality"
+msgstr "Změnit faktor zvětšení"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
 msgid "Toggle panel zoom"
