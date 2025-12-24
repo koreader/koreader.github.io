@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-21 21:00+0000\n"
-"PO-Revision-Date: 2025-12-21 21:00+0000\n"
-"Last-Translator: koffevar <koffevar@users.noreply.github.com>\n"
+"PO-Revision-Date: 2025-12-24 02:01+0000\n"
+"Last-Translator: Vlad <ok@mietovolk.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -29,7 +29,7 @@ msgstr "К следующему заголовку"
 
 #: user_guide/en.html%2Bhtml.body.button:755-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.button[title]:757-5
 msgid "Back to Table of Contents"
@@ -37,7 +37,7 @@ msgstr "Вернуться к оглавлению"
 
 #: user_guide/en.html%2Bhtml.body.button:757-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:822-5
 msgid ""
@@ -367,9 +367,6 @@ msgid "Excluding sections: Custom hidden flows"
 msgstr "Исключая разделы: Пользовательские скрытые потоки"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:981-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:981-9"
-#| msgid "CUSTOMIZING TEXT APPEARANCE"
 msgid "CUSTOMIZING TEXT APPEARANCE"
 msgstr "Настройка отображения текста"
 
@@ -434,9 +431,6 @@ msgid "Panel Zoom"
 msgstr "Масштабирование панели"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1012-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1012-17"
-#| msgid "Jump to the next file"
 msgid "Jump to the next file"
 msgstr "Перейти к следующему файлу"
 
@@ -670,6 +664,9 @@ msgid ""
 "your own ones to change how your books are rendered precisely <a href=\"#L2-"
 "styletweaks\" class=\"internalink\"></a>"
 msgstr ""
+"Используйте встроенные <span class=\"ui\">настройки стиля</span>, или "
+"используйте собственные, чтобы настроить точное отображение книг. <a "
+"href=\"#L2-styletweaks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1103-9
 msgid ""
@@ -1485,6 +1482,11 @@ msgid ""
 "section dedicated to <a href=\"#L1-customizingappearance\">CUSTOMIZING TEXT "
 "APPEARANCE</a>"
 msgstr ""
+"Также, вы можете изменить другие настройки форматирования в <span "
+"class=\"ui\">НИЖНЕМ МЕНЮ</span> , чтобы точно настроить вид вашего текста. "
+"Это всего лишь небольшие советы для начала. У нас есть целый раздел, "
+"посвященный  <a href=\"#L1-customizingappearance\">КАСТОМИЗАЦИИ ВИДА ТЕКСТА</"
+"a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1317-5
 msgid ""
@@ -1544,16 +1546,18 @@ msgid ""
 "look best). Transfer the files from your computer into any folder on your "
 "device. And choose this folder as your screensaver folder via this menu:"
 msgstr ""
+"Вы можете использовать файлы JPG/PNG как заставку (черно-белые изображения с "
+"правильным дитерингом смотрятся лучше всего). Переместите файлы из вашего "
+"компьютера в любую папку на вашем устройстве. И выберите эту папку как папку "
+"заставок через это меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1338-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver / Settings"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Экран / Затсавка / Настройки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1340-5
 msgid ""
@@ -1561,6 +1565,9 @@ msgid ""
 "showpost.php?p=3728291&postcount=17\">Mobileread forum post</a> for advanced "
 "information about preparing screensaver images."
 msgstr ""
+"Пожалуйста, ознакомьтесь с <a href=\"https://www.mobileread.com/forums/"
+"showpost.php?p=3728291&postcount=17\">постом на Mobileread</a> для получения "
+"дополнительной информации о подготовке изображений для заставок."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1344-1
 msgctxt "user_guide/en.html:L2-keyboard"
@@ -1573,36 +1580,41 @@ msgid ""
 "shortcuts</span>, click <a href=\"#L2-keyboardshortcuts\">here</a> to go "
 "that section. This heading only explains the keyboard usage."
 msgstr ""
+"Если вы ищите информацию о <span class=\"ui\">сочетаниях клавиш</span>, "
+"нажмите <a href=\"#L2-keyboardshortcuts\">сюда</a>, чтобы перейти в этот "
+"раздел. Эта статья только об использовании клавиатуры."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1349-3
 msgid ""
 "Tap outside the input field to close the keyboard, tap the input field to "
 "show the keyboard again"
 msgstr ""
+"Нажмите вне поля ввода, чтобы закрыть клавиатуру, нажмите на поле ввода, "
+"чтобы показать клавиатуру снова"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1350-3
 msgid ""
 "<b>Swipe up</b> keys to enter uppercase version of that letter (or lowercase "
 "if you are already in <b>shift</b> mode)"
 msgstr ""
+"<b>Смахните вверх</b> по клавише, чтобы ввести заглавную букву (или "
+"строчную, если вы уже в режме <b>shift</b>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1351-3
 msgid "You can change the appearance of the keyboard:"
 msgstr "Вид клавиатуры можно изменить:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1352-4
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard settings"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Устройство / Клавиатура / Настройки клавиатуры"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1353-3
 msgid "You can select more than one layout:"
-msgstr ""
+msgstr "Вы можете выбрать больше одного вида отображения:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1354-4
 #, fuzzy
@@ -1620,10 +1632,13 @@ msgid ""
 "loading=\"lazy\" class=\"img_inline\" src=\"pictures/keyboard_world.png\" "
 "style=\"width:22px;\"> icon on the keyboard"
 msgstr ""
+"Вы можете переключаться между выбранными видами отображения, нажав на иконку "
+"<img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
+"keyboard_world.png\" style=\"width:22px;\"> на клавиатуре"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1360-1
 msgid "Entering extra characters"
-msgstr ""
+msgstr "Ввод дополнительных символов"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1362-5
 msgid ""
@@ -1631,6 +1646,10 @@ msgid ""
 "key. Most frequently used extra characters are shown below. You can tap and "
 "hold the key in the <b>gray box</b> to get the surrounding characters:"
 msgstr ""
+"Клавиатура Koreader позволяет вводить дополнительные символы при долгом "
+"нажатии. Наиболее используемые символы показаны снизу. Вы можете "
+"использовать долгое нажатие по клавише, <b>выделенной серым</b>  чтобы "
+"открыть остальные символы:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1366-5
 msgid ""
@@ -1642,11 +1661,19 @@ msgid ""
 "swipe on the keys. Once you get used to the locations of the extra "
 "characters, you can enter them much quicker this way."
 msgstr ""
+"В дополнение к окну по долгому нажатию, также, вы можете ввести специальные "
+"символы по свайпу по клавише. В примере ниже, вы можете свайпнуть по клавише "
+"<b>а</b>, чтобы войти в <b>режим заглавных букв</b>, или свайпнуть в другом "
+"направлении, чтобы ввести символы, показанные ниже. Заметьте, что в примере "
+"ниже показано полное всплывающее окно для демонстрации. Вам не обязательно "
+"открывать это окно, вы можете напрямую свайпнуть по клавише. Как только вы "
+"привыкнете к расположению специальных символов на клавиатуре, вам станет их "
+"намного проще вводить."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1370-5
 msgid ""
 "If this feature interferes with your usage, you can disable it by unchecking:"
-msgstr ""
+msgstr "Если эта функция вам мешает, можете ее отключить, сняв галочку:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1372-5
 #, fuzzy
@@ -1664,6 +1691,9 @@ msgid ""
 "Additionally there are some shortcuts for easier text manipulation. You can "
 "<b>tap and hold</b> these keys for extra actions:"
 msgstr ""
+"Также, есть некоторые сокращения для более простого редактирования текста. "
+"Вы можете использовать <b>долгое нажатие</b> на этих клавишах для "
+"отображения дополнительных действий:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1376-9
 msgid "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
@@ -1678,6 +1708,8 @@ msgid ""
 "Also <span class=\"ui\">backspace</span> key behaves different when you make "
 "swipe gestures on it:"
 msgstr ""
+"Также, <span class=\"ui\">клавиша Backspace</span> ведет себя по другому, "
+"если по ней свайпнуть:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1383-9
 msgid "<b>Tap:</b> Delete a character"
@@ -1731,6 +1763,14 @@ msgid ""
 "class=\"ui\">only night mode control</span> mode, so you can adjust the "
 "other one manually."
 msgstr ""
+"Этот плагин помогает настроить теплоту подсветки на устройствах с <b>"
+"естественным (желтым/оранжевым) светом</b> и настроить <span class=\"ui\">"
+"ночной режим</span> (инвертированные цвета экрана - <b>белый текст на черном "
+"фоне</b>) автоматически, в соответствии с расписанием. Вы можете управлять и "
+"тем и тем автоматически, или выбрать только <span class=\"ui\">"
+"автоматическую настройку теплоты</span> или <span class=\"ui\"> только "
+"автоматическую настройку ночного режима</span>, чтобы вы могли настроить "
+"другую функцию вручную."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1399-5
 msgid ""
@@ -1778,6 +1818,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Установленное расписание:</span> В этом режиме теплота "
+"подсветки меняется в соответствии с расписанием, которое вы ввели. Этот "
+"режим <b>статичен</b>, он не опирается на длительность светового дня. "
+"Расписание остается одним и тем же в течение всего года."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1410-5
 msgid ""
@@ -1788,16 +1832,23 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Положение солнца:</span> Эта опция рассчитывает положение "
+"солнца в вашем месте нахождения в соответствии с введенными <b>координатами</"
+"b> и <b>высотой</b>. Теплота подсветки меняется постепенно в соответствии с "
+"положением солнца. Этот режим <b>динамический</b>. Плагин меняет расписание, "
+"учитывая изменение светового дня в течение года."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1412-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Для начала, посмотрите на это изображение, чтобы ознакомиться с терминами, "
+"используемыми в этом плагине:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1416-5
 msgid "Fixed Schedule Mode"
-msgstr ""
+msgstr "Режим установленого расписания"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1419-3
 #, fuzzy
@@ -1821,12 +1872,16 @@ msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Нажмите Активировать элемент меню, затем нажмите <span class=\"ui\">В "
+"соответствии с установленным расписанием</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1423-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Перейдите в предыдущее меню и нажмите на <span class=\"ui\">Настройки "
+"установленного расписания</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1425-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1425-3"
