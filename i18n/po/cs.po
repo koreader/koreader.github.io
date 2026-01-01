@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 16:17+0000\n"
-"PO-Revision-Date: 2025-12-29 16:16+0000\n"
+"PO-Revision-Date: 2026-01-02 01:01+0000\n"
 "Last-Translator: Adam Havránek <adamhavra@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/koreader/user-"
 "guide/cs/>\n"
@@ -1109,18 +1109,26 @@ msgid ""
 "may need to restart KOReader to index the transferred documents (or refresh "
 "directory if you have Pocketbook/Android)."
 msgstr ""
+"Existuje mnoho způsobů, jak přenést dokumenty do vašeho zařízení. Mějte na "
+"paměti, že pro indexaci přenesených dokumentů může být nutné KOReader "
+"restartovat (nebo obnovit adresář, pokud máte Pocketbook/Android)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1233-5
 msgid ""
 "In addition to transferring files the same way you would with the built-in "
 "reader application, other options are available depending on your device:"
 msgstr ""
+"Kromě přenosu souborů stejným způsobem, jako byste to udělali pomocí "
+"vestavěné aplikace čtečky, jsou dostupné další možnosti v závislosti na "
+"vašem zařízení:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1236-9
 msgid ""
 "<b>USB mass storage mode within KOReader:</b> This mode is available for "
 "KOBO and some CERVANTES devices."
 msgstr ""
+"<b>Režim USB mass storage v aplikaci KOReader:</b> Tento režim je k "
+"dispozici pro zařízení KOBO a některá zařízení CERVANTES."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1238-9
 msgid ""
@@ -1129,16 +1137,18 @@ msgid ""
 "menu shown below. Process is explained via <span class=\"ui\">info</span> "
 "buttons in the menu while adding accounts:"
 msgstr ""
+"<b>Cloudové úložiště (<span class=\"external\">Dropbox</span>/FTP/Webdav):</"
+"b> Chcete-li tuto funkci používat, musíte přidat účty pro cloudový úložný "
+"server pomocí níže zobrazeného menu. Postup je vysvětlen pomocí tlačítek "
+"<span class=\"ui\">info</span> v menu při přidávání účtů:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1240-9
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / Cloud storage"
 msgstr ""
-"⇑ TOP MENU (in File Browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Settings → Mosaic and detailed "
-"list settings"
+"HLAVNÍ NABÍDKA (v prohlížeči souborů) / <img class=\"img_inline\" "
+"src=\"pictures/top_tools.svg\" style=\"width:22px;\"> / Cloudové úložiště"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1243-9
 msgid ""
@@ -1149,19 +1159,25 @@ msgid ""
 "operating system supports. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/SSH\">wiki</a> for how-to and also see the warning box below."
 msgstr ""
+"<b>Přístup SSH/SFTP:</b> KOReader může fungovat jako <b>SSH server</b>, ke "
+"kterému se můžete připojit z počítače a přenášet soubory (k dispozici na "
+"Kobo, Kindle, Cervantes). Můžete použít aplikaci SFTP (například <span "
+"class=\"external\">Filezilla</span>) nebo se připojit přes správce souborů, "
+"pokud to váš operační systém podporuje. Podrobný návod najdete na naší <a "
+"href=\"https://github.com/koreader/koreader/wiki/SSH\">wiki</a> a také v "
+"níže uvedeném varovném rámečku."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1245-9
-#, fuzzy
 msgid ""
 "<b>Calibre transfer:</b> With the <span class=\"external\">Calibre plugin</"
 "span> you can send documents from your Calibre Library directly to your "
 "KOReader devices via a wifi connection. Check our <a href=\"https://"
 "github.com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
-"<b> Wallabag </b> - Downloads the latest articles from a Wallabag server as "
-"individual EPUB files. Check the wiki page for more info: <a href=\"https://"
-"github.com/koreader/koreader/wiki/Wallabag\">https://github.com/koreader/"
-"koreader/wiki/Wallabag</a>"
+"<b>Přenos Calibre:</b> Pomocí <span class=\"external\">pluginu Calibre</"
+"span> můžete odesílat dokumenty ze své knihovny Calibre přímo do zařízení "
+"KOReader přes wifi připojení. Návod najdete na naší <a href=\"https://"
+"github.com/koreader/koreader/wiki/calibre\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1247-9
 msgid ""
@@ -1169,6 +1185,9 @@ msgid ""
 "b> news entries as HTML files. Check <a href=\"https://github.com/koreader/"
 "koreader/wiki/News-downloader\">wiki</a> for how-to."
 msgstr ""
+"<b>Stahovač novinek:</b> S tímto pluginem můžete stahovat <b>RSS a Atom</b> "
+"novinky jako HTML soubory. Návod najdete na <a href=\"https://github.com/"
+"koreader/koreader/wiki/News-downloader\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1249-9
 msgid ""
@@ -1177,6 +1196,10 @@ msgid ""
 "like Pocket. Check <a href=\"https://github.com/koreader/koreader/wiki/"
 "Wallabag\">wiki</a> page for more info."
 msgstr ""
+"<b>Wallabag:</b> S tímto pluginem můžete načítat články ze <span "
+"class=\"external\">Wallabagu</span>, což je serverová služba pro odložení "
+"čtení podobná Pocketu. Více informací najdete na stránce <a href=\"https://"
+"github.com/koreader/koreader/wiki/Wallabag\">wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:1252-24
 msgid ""
@@ -1185,36 +1208,47 @@ msgid ""
 "device. But if you are using a local wifi and turn on your device wifi for a "
 "short time, this risk is negligible."
 msgstr ""
+"<span class=\"label_red\">UPOZORNĚNÍ</span> Pokud se rozhodnete používat "
+"funkci SSH bez hesla, buďte opatrní, protože tím umožníte otevřený přístup k "
+"vašemu zařízení. Pokud však používáte místní wifi a zapnete wifi na svém "
+"zařízení pouze na krátkou dobu, je toto riziko zanedbatelné."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1256-1
 msgid "Accessing your books"
-msgstr ""
+msgstr "Přístup k vašim knihám"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1258-5
 msgid "Following methods are available for accessing your books:"
-msgstr ""
+msgstr "K dispozici jsou následující způsoby přístupu k vašim knihám:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1260-5
 msgid ""
 "<span class=\"ui\">File Browser</span> - Dedicated section is here: <a "
 "href=\"#L2-filebrowser\">File Browser usage</a>"
 msgstr ""
+"<span class=\"ui\">Prohlížeč souborů</span> – Speciální sekce je zde: <a "
+"href=\"#L2-filebrowser\">Použití prohlížeče souborů</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1261-5
 msgid ""
 "<span class=\"ui\">Favorites</span> - A list which you can add your books by "
 "long pressing on them in the <span class=\"ui\">File Browser</span>"
 msgstr ""
+"<span class=\"ui\">Oblíbené</span> – seznam, do kterého můžete přidat své "
+"knihy dlouhým stisknutím v <span class=\"ui\">Prohlížeči souborů</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1262-5
 msgid "<span class=\"ui\">History</span> - List of books you opened"
-msgstr ""
+msgstr "<span class=\"ui\">Historie</span> - Seznam knih, které jste otevřeli"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1263-5
 msgid ""
 "<span class=\"ui\">Collections</span> - Personalized book lists you created. "
 "Dedicated section is here: <a href=\"#L2-collections\">Collections</a>"
 msgstr ""
+"<span class=\"ui\">Sbírky</span> – Osobní seznamy knih, které jste "
+"vytvořili. Speciální sekce se nachází zde: <a href=\"#L2-collections\">"
+"Sbírky</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1266-5
 msgid "You can change how these screens look from:"
@@ -1222,14 +1256,12 @@ msgstr ""
 "If you want to change how many items are visible on these screens, look here:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1268-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Display mode"
 msgstr ""
-"⇑ TOP MENU (in File Browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Settings → Mosaic and detailed "
-"list settings"
+"HLAVNÍ NABÍDKA (v prohlížeči souborů) / <img class=\"img_inline\" "
+"src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Režim zobrazení"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1270-5
 msgid ""
@@ -1241,15 +1273,14 @@ msgstr ""
 "going through the <span class=\"ui\">File Browser</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1272-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings"
 msgstr ""
-"⇑ TOP MENU (in File Browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_cabinet.svg\" style=\"width:26px;\"> → Settings → Mosaic and detailed "
-"list settings"
+"HLAVNÍ NABÍDKA (v prohlížeči souborů) / <img class=\"img_inline\" "
+"src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Nastavení / "
+"Nastavení mozaiky a podrobného seznamu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1274-5
 msgid ""
