@@ -22,7 +22,7 @@ jobs:
         run: ebook-convert user_guide/index.xhtml koreader_user_guide.epub
 
       - name: Upload
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: KOReader Manual EPUB
           path: koreader_user_guide.epub
