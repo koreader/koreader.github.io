@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-02 01:02+0000\n"
-"PO-Revision-Date: 2025-12-11 21:29+0000\n"
-"Last-Translator: \"P. Z.\" <thispersondoesnotexist00@gmail.com>\n"
+"PO-Revision-Date: 2026-01-06 00:22+0000\n"
+"Last-Translator: Sarun Peetasai <hamgmm@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/koreader/user-guide/"
 "th/>\n"
 "Language: th\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1907,24 +1907,29 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"ฟีเจอร์นี้จะทำการเปิดไฟหน้าจอเมื่อพระอาทิตย์ตก และปิดไฟหน้าจอเมื่อพระอาทิตย์ขึ้นตามที่กำหนดไ"
+"ว้<span class=\"ui\">ตัวเลือกปัจจุบัน</span>ในปลั๊กอินนี้ คุณสามารถตั้งค่าด้วยตัวคุณเองได้โดย เปิ"
+"ดและปิดไฟหน้าจอ เมื่อพระอาทิตย์ขึ้นและตกในวันถัดไป<span class=\"ui\"> AutoWarmth</span>"
+"จะทำการสลับอีกครั้งหากจำเป็น คุณสามารถเปิดการทำงานได้โดยเลือก<span class=\"ui\">ปิดไฟหน้"
+"าจอในระหว่างวัน</span>จากเมนูในปลั๊กอินนี้"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgid "Faster warmth transitions"
-msgstr ""
+msgstr "ให้แสงไฟโทนอุ่นไวขึ้น"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1468-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
-msgstr ""
+msgstr "หากคุณต้องการให้แสงไฟโทนอุ่นเปลี่ยนไวขึ้นแทนที่จะค่อยๆเปลี่ยน"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1470-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "เปลี่ยนโหมดเป็น<b>ตามตารางเวลา</b>ให้ทำตามคำแนะนำด้านบน"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1471-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "และ เปลี่ยนการตั้งค่าให้เหมือนภาพด้านล่าง:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1476-5
 msgid ""
@@ -1933,6 +1938,9 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
+"จากการตั้งค่าด้านบน การเปลี่ยนจากกลางวัน เป็นกลางคืนใช้เวลาเพียงหนึ่งนาที จอภาพจะทำเปลี่ยนเป็น"
+"แสงอุ่นจาก <b> 0 ถึง 100 (หรือกลับกัน) ในเวลาเพียงหนึ่งนาที</b> คุณสามารถเพิ่มเวลาที่ใช้ในการ"
+"เปลี่ยนให้นานขึ้นได้"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
@@ -1945,6 +1953,8 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"KOReader มีการออกแบบหน้าจอที่เรียบง่าย และเป็นสีขาวดำเนื่องจากการไล่สีเทาในหลายๆเฉดสีจะทำใ"
+"ห้จอกระพริบ หรือเกิดภาพซ้อนได้ซึ่งจะเป็นการกระทบต่อประสบการณ์ในการอ่าน"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1488-5
 msgid ""
@@ -1954,6 +1964,10 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"KOReader มี 2 หน้าจอการใช้งานหลัก: <span class=\"ui\">จอสำหรับอ่าน</span>และ<span "
+"class=\"ui\">หน้าจอสำหรับจัดการไฟล์</span> เราได้อธิบายเกี่ยว<span class=\"ui\">จอสำห"
+"รับอ่าน</span>ที่นี่ <span class=\"ui\">หน้าจอสำหรับจัดการไฟล์</span>ได้ถูกอธิบายใน<a "
+"href=\"#L2-filebrowser\">ส่วนนี้</a>ในคู่มือเล่มนี้"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1491-1
 msgctxt "user_guide/en.html:L2-readingscreen"
@@ -1962,7 +1976,7 @@ msgstr "ส่วนในการอ่าน"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1493-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "<b>หน้าจอสำหรับอ่าน</b>มี 2 เมนู:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1496-3
 msgid ""
@@ -1970,6 +1984,8 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"<span class=\"ui\">เมนูด้านบน</span>รวบรวมเกี่ยวกับเมนูที่เกี่ยวข้องกับความรู้ทั่วไปเกี่ยวกับ "
+"KOReader คูณสามารถเลือกหนังสือของคุณ การตั้งค่า หรือ ปลั๊กอินจากตรงนี้"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1497-3
 msgid ""
@@ -1978,12 +1994,16 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"<span class=\"ui\">เมนูด้านล่าง</span>จะเน้นที่ตัวเลือกสำหรับ<b>การจัดการหน้าเอกสาร</b>เ"
+"ช่น ความหนาของอักษร หรือขนาด รวมถึงช่องว่างระหว่างบรรทัด คุณจะพบว่าคุณจะใช้<span "
+"class=\"ui\">เมนูด้านล่าง</span>เป็นส่วนมากสำหรับการแก้ไขการแสดงผลตัวอักษรต่างๆ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1505-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"รูปภาพด้านบนแสดงส่วนประกอบต่างๆที่คุณจะเห็นบนเครื่องของคุณในระหว่างการอ่านหนังสือ:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1507-9
 msgid ""
@@ -1993,6 +2013,10 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>ไอคอนแสดงสถานะ:</b>ไอคอนพวกนี้จะแจ้งคุณถึงสิ่งที่ระบบกำลังดำเนินการอยู่ คุณจะพบเห็นไอคอนพ"
+"วกนี้ได้ บนจอทางด้านซ้ายบนของเครื่องในระหว่างที่ระบบกำลังดำเนินการ โดยทั่วไปแล้วไอคอนจะมีขนาด"
+"เล็กแต่ในคู่มือนี้เราได้ขยายให้ใหญ่ขึ้นเพื่อความชัดเจน ในหัวข้อถัดไปเราจะอธิบายถึงรายละเอียดของแต่ล"
+"ะไอคอน<a href=\"#L2-indicators\">ไอคอนแสดงสถานะ</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1508-9
 msgid ""
