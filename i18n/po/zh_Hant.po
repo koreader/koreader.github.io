@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-13 10:39+0000\n"
-"PO-Revision-Date: 2025-12-04 18:35+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-01-14 09:10+0000\n"
+"Last-Translator: Jack Hwang <jhwang.us@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.2-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -28,7 +28,7 @@ msgstr "跳至下一章節"
 
 #: user_guide/en.html%2Bhtml.body.button:755-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.button[title]:757-5
 msgid "Back to Table of Contents"
@@ -36,7 +36,7 @@ msgstr "返回目錄"
 
 #: user_guide/en.html%2Bhtml.body.button:757-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:822-5
 msgid ""
@@ -347,9 +347,6 @@ msgid "Excluding sections: Custom hidden flows"
 msgstr "排除章節：自訂隱藏頁"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:981-9
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li:981-9"
-#| msgid "CUSTOMIZING TEXT APPEARANCE"
 msgid "CUSTOMIZING TEXT APPEARANCE"
 msgstr "自訂文字外觀"
 
@@ -414,9 +411,6 @@ msgid "Panel Zoom"
 msgstr "分格縮放"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1012-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1012-17"
-#| msgid "Jump to the next file"
 msgid "Jump to the next file"
 msgstr "前往下一個檔案"
 
@@ -707,7 +701,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1121-1
 msgid "Export your notes and highlights flexibly"
-msgstr ""
+msgstr "匯出你的筆記跟標注"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1123-9
 msgid ""
@@ -729,7 +723,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1128-1
 msgid "Arrange and browse your library easily"
-msgstr ""
+msgstr "容易地匯出你的筆記跟標注"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1130-9
 msgid ""
@@ -827,7 +821,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1163-1
 msgid "Search, Lookup and Translation tools"
-msgstr ""
+msgstr "搜尋，檢索及翻譯工具"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1165-9
 msgid ""
@@ -837,7 +831,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1166-9
 msgid "Search in your bookmarks, highlights and notes"
-msgstr ""
+msgstr "在你的書籤、標注、筆記中搜尋"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1167-9
 msgid ""
@@ -847,7 +841,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1168-9
 msgid "Translate whole page at once between more than 130 languages"
-msgstr ""
+msgstr "馬上在130種以上的語言間翻譯整頁"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1169-9
 msgid ""
@@ -858,7 +852,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1172-1
 msgid "KOReader can control your device"
-msgstr ""
+msgstr "KOReader 能控制你的機子"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1174-9
 msgid ""
@@ -1402,7 +1396,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:1370-5
 msgid ""
 "If this feature interferes with your usage, you can disable it by unchecking:"
-msgstr ""
+msgstr "若此功能對您造成干擾，請取消勾選以下選項以將其停用："
 
 #: user_guide/en.html%2Bhtml.body.div.div:1372-5
 msgid ""
@@ -1799,6 +1793,8 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"如上圖所示，KOReader 提供了一些指標，讓您了解目前的運行程序與狀態。在執行特定"
+"操作時，這些圖示會出現在螢幕的左上角。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1524-17
 msgid ""
@@ -1829,6 +1825,8 @@ msgid ""
 "multi-step procedure. These icons shows the stage of rendering as explained "
 "below:"
 msgstr ""
+"確認變更後，整本書籍必須重新渲染，因此這是一個多步驟的程序。如下所述，這些圖"
+"示代表了目前渲染的進度階段："
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1540-17
 msgid ""
@@ -1948,13 +1946,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:1600-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "參考頁碼的好處："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1602-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
-msgstr ""
+msgstr "參考頁碼透過對應紙本印刷版的頁碼，實現了精確的引用功能。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1603-9
 msgid ""
@@ -1962,6 +1960,8 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"參考頁碼有助於導覽，對於熟悉紙本書籍內容的讀者來說尤其有用。它可以幫助您在電"
+"子版本中更輕鬆地找到特定的段落或引文。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1604-9
 msgid ""
