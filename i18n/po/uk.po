@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-08 21:10+0000\n"
-"PO-Revision-Date: 2025-12-20 19:00+0000\n"
+"PO-Revision-Date: 2026-02-09 22:09+0000\n"
 "Last-Translator: Vitalii <stopchan@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -2027,13 +2027,10 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
-"При запуску KOReader компілює доступні шрифти з <b>метаданих (інформації) "
-"шрифтів</b> та класифікує їх відповідно до сімейства шрифтів та товщини. Це "
-"значить, що можна додати шрифт різних товщин та варіантів, а KOReader буде "
-"намагатися використати найвідповідніший. Оскільки KOReader отримує "
-"інформацію про сімейство шрифтів з метаданих, назви файлів шрифтів при "
-"копіюванні на пристрій не важливі. Щойно встановлені шрифти стають "
-"доступними після перезапуску KOReader."
+"Як можна побачити у вищенаведених налаштуваннях, між переходом день-ніч "
+"тільки одна хвилина. Тож теплота підсвітки екрану змінюється <b>від 0 до 100 "
+"(або навпаки) всього за хвилину</b>. Щоб зробити перехід тривалішим, можна "
+"збільшити цей часовий інтервал."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
@@ -2374,10 +2371,10 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
-"Типи документів на кшталт <b>EPUB, MOBI, HTML</b>, звичайно ж, не має "
+"Типи документів на кшталт <b>epub, mobi, html</b>, звичайно ж, не має "
 "фіксованих номерів сторінок, бо вони є перекомпоновуваними документами. Це "
 "означає, що вигляд цих документів може бути пристосований до розміру й "
-"орієнтації екрану пристрою (на відміну від документів <b>PDF</b> та <b>DJVU</"
+"орієнтації екрану пристрою (на відміну від документів <b>pdf</b> та <b>djvu</"
 "b>, які мають фіксовані розміри сторінок)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1596-5
@@ -3067,12 +3064,11 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1795-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
 msgstr ""
-"<b>Документи з фіксованим компонуванням</b> (файли PDF, DJVU, зображення...)"
+"<b>Документи з фіксованим компонуванням</b> (файли pdf, djvu, зображення...)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1796-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
-msgstr ""
-"<b>Документи, які перекомпоновуються</b> (EPUB, HTML, DOCX, RTF, TXT…)."
+msgstr "<b>Документи, які перекомпоновуються</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1799-5
 msgid ""
@@ -8112,9 +8108,9 @@ msgid ""
 "class=\"ui\">Search tab</span> (with the magnifier icon) and choose <span "
 "class=\"ui\">File search</span>."
 msgstr ""
-"У <span class=\"ui\">ВЕРХНЬОМУ МЕНЮ</span> натисніть на <span "
-"class=\"ui\">вкладку Пошук</span> (зі значком лупи), а потім виберіть <span "
-"class=\"ui\">Пошук файлів</span>."
+"У <span class=\"ui\">Верхньому меню</span> натисніть на <span class=\"ui\">"
+"вкладку Пошук</span> (зі значком лупи), а потім виберіть <span class=\"ui\">"
+"Пошук файлів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3235-9
 msgid ""
@@ -8403,7 +8399,7 @@ msgid ""
 "If your zip file contains one of these types (instead of just images), "
 "please name it accordingly:"
 msgstr ""
-"Якщо ZIP-архів містить один з цих типів файлів (а не тільки зображення), "
+"Якщо zip-архів містить один з цих типів файлів (а не тільки зображення), "
 "його необхідно назвати належним чином, а саме:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3309-9
@@ -10055,7 +10051,7 @@ msgstr "Оглядач файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3796-17
 msgid "Open previous document"
-msgstr "Запустити USB-сховище"
+msgstr "Відкрити попередній документ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3797-17
 msgid "History"
