@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-22 12:10+0000\n"
-"PO-Revision-Date: 2025-12-07 22:04+0000\n"
+"PO-Revision-Date: 2026-02-25 03:09+0000\n"
 "Last-Translator: sonix-github <sonix.internet@gmail.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sk/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1797,9 +1797,9 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
-"<span class=\"ui\">PEVNÝ HARMONOGRAM:</span> V tomto režime sa farebná "
+"<span class=\"ui\">Pevný harmonogram:</span> V tomto režime sa farebná "
 "teplota predného svetla mení podľa denného plánu, ktorý ste zadali. Tento "
-"režim je <b>STATICKÝ</b>, nezohľadňuje dĺžku denného svetla. Harmonogram "
+"režim je <b>statický</b>, nezohľadňuje dĺžku denného svetla. Harmonogram "
 "zostáva rovnaký počas celého roka."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1410-5
@@ -1811,11 +1811,11 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
-"<span class=\"ui\">POLOHA SLNKA:</span> Táto možnosť vypočíta polohu Slnka "
-"vo vašej lokalite podľa informácií zadaných v <b>SÚRADNICIACH</b> a "
-"<b>NADMORSKEJ VÝŠKE</b>. Farebná teplota predného svetla sa upravuje "
-"postupne podľa týchto vypočítaných údajov o polohe Slnka. Tento režim je "
-"<b>DYNAMICKÝ</b>. Ako sa mení dĺžka denného svetla v priebehu roka, doplnok "
+"<span class=\"ui\">Poloha Slnka:</span> Táto možnosť vypočíta polohu Slnka "
+"vo vašej lokalite podľa informácií zadaných v <b>súradniciach</b> a <b>"
+"nadmorskej výške</b>. Farebná teplota predného svetla sa upravuje postupne "
+"podľa týchto vypočítaných údajov o polohe Slnka. Tento režim je <b>"
+"dynamický</b>. Ako sa mení dĺžka denného svetla v priebehu roka, doplnok "
 "podľa toho upraví harmonogram."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1412-5
@@ -2015,12 +2015,10 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
-"Pri spustení KOReader skompiluje dostupné písma z <b>font metadata/info</b> "
-"a klasifikuje ich podľa rodiny a váhy. To znamená, že môžete pridať rôzne "
-"váhy a varianty písma a KOReader sa pokúsi použiť ten najvhodnejší. Keďže "
-"informácie o rodine písiem preberá z metadát, názvy písem nie sú pri "
-"kopírovaní do zariadenia dôležité. Nainštalované písma budú dostupné po "
-"reštarte KOReader."
+"Ako vidíte v týchto nastaveniach vyššie, medzi prechodom dňa a noci je "
+"rozdiel iba jednej minúty. Takže farebná teplota obrazovky sa zmení z <b>0 "
+"na 100 (alebo naopak) za iba jednu minútu</b>. Tento časový odstup môžete "
+"predĺžiť, aby sa prechod predĺžil."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
@@ -4726,9 +4724,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:2237-5
 msgid ""
 "You can easily apply these changes to your already opened books by choosing:"
-msgstr ""
-"KOReader vás môže varovať zobrazením upozornenia, keď úroveň nabitia "
-"dosiahne vaše definované limity:"
+msgstr "Tieto zmeny môžete jednoducho použiť na už otvorené knihy výberom:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2239-5
 msgid ""
@@ -5033,7 +5029,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2320-1
 msgid "Using different fonts in one document"
-msgstr "Rýchla zmena písma"
+msgstr "Použitie rôznych písiem v jednom dokumente"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2322-5
 msgid ""
@@ -5083,7 +5079,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2332-1
 msgid "Changing font quickly"
-msgstr "POHYBOVANIE SA V KNIHE"
+msgstr "Rýchla zmena písma"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2334-2
 msgid ""
@@ -10050,7 +10046,7 @@ msgstr "Prehliadač súborov"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3796-17
 msgid "Open previous document"
-msgstr "Spustite úložisko USB"
+msgstr "Otvoriť predchádzajúci dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3797-17
 msgid "History"
@@ -10846,7 +10842,7 @@ msgstr "Jazyk dokumentu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
 msgid "Page crop"
-msgstr "Vynútené OCR"
+msgstr "Orezanie stránky"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
 msgid "Margin"
@@ -12706,7 +12702,8 @@ msgid ""
 "<b> Battery statistics </b> - Collects and displays battery usage statistics "
 "of your device"
 msgstr ""
-"<b> Synchronizácia času </b> – synchronizuje čas zariadenia so servermi NTP"
+"<b> Štatistiky batérie </b> – Zhromažďuje a zobrazuje štatistiky spotreby "
+"batérie Vášho zariadenia"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4668-9
 msgid "<b> Book shortcuts </b> - Allows adding a book shortcut to a gesture"
@@ -13140,10 +13137,7 @@ msgstr "Tipy na čítanie"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4762-1
 msgid "Switching between documents quickly"
-msgstr ""
-"⇑ VRCHNÉ MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Ťuknutia a gestá → Odkazy → Ťuknutím nasledovať "
-"odkazy"
+msgstr "Rýchle prepínanie medzi dokumentmi"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4763-1
 msgid ""
@@ -13447,10 +13441,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4839-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ VRCHNÉ MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Ťuknutia a gestá → Správca gest → „AKÉKOĽVEK GESTO“ "
-"→ Všeobecné → Otvoriť predchádzajúci dokument"
+msgstr "Počet riadkov/slov na strane"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4840-9
 msgid ""
