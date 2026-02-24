@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-22 12:10+0000\n"
-"PO-Revision-Date: 2026-02-02 20:01+0000\n"
-"Last-Translator: S A <gerwazy2014@gmail.com>\n"
+"PO-Revision-Date: 2026-02-25 03:09+0000\n"
+"Last-Translator: walti0 <ytwaltiyt@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
 "guide/pl/>\n"
 "Language: pl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -29,15 +29,16 @@ msgstr "Przejdź do następnego nagłówka"
 
 #: user_guide/en.html%2Bhtml.body.button:755-5
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.button[title]:757-5
 msgid "Back to Table of Contents"
 msgstr "Powrót do spisu treści"
 
 #: user_guide/en.html%2Bhtml.body.button:757-5
+#, fuzzy
 msgid ""
-msgstr ""
+msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:822-5
 msgid ""
@@ -4429,6 +4430,14 @@ msgid ""
 "ToC to return to the original one, your custom ToC will not be deleted. You "
 "can still switch between the original and your custom ToC."
 msgstr ""
+"Utworzenie tego spisu treści nie zmieni oryginalnego spisu treści "
+"dołączonego do książki. Możesz wyczyścić <b>Niestandardowy spis treści</b> z "
+"tego samego menu (jeśli chcesz utworzyć nowy). Możesz również całkowicie "
+"wyłączyć tę funkcję w taki sam sposób, w jaki ją włączyłeś, jeśli chcesz "
+"powrócić do oryginalnego spisu treści. Pamiętaj, że jeśli wyłączysz tę "
+"funkcję po utworzeniu niestandardowego spisu treści, aby powrócić do "
+"oryginalnego, niestandardowy spis nie zostanie usunięty. Nadal możesz "
+"przełączać się między oryginalnym a niestandardowym spisem treści."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2163-1
 msgctxt "user_guide/en.html:L2-hiddenflows"
@@ -4448,12 +4457,24 @@ msgid ""
 "class=\"ui\">Custom hidden flows</span> feature of KOReader allows you to "
 "exclude these kind of parts of your book."
 msgstr ""
+"Niektóre książki lub dokumenty mogą zawierać długie przypisy lub sekcje "
+"bibliograficzne. Na przykład książka naukowa, która ma 250 stron, ale "
+"ostatnie 50 to dodatki, indeks i bibliografia. Zazwyczaj strony te są "
+"uwzględniane na pasku postępu i w obliczeniach czasu czytania, ponieważ "
+"stanowią część książki. Zazwyczaj jednak sekcje te stanowią jedynie "
+"odniesienie i nie są czytane w całości, dlatego warto je pominąć, aby "
+"zwiększyć dokładność liczby pozostałych stron i oszacować czas czytania. "
+"Możesz też mieć antologię zawierającą przeczytane już opowiadania. Funkcja "
+"<span class=\"ui\">Niestandardowe ukryte przepływy</span> w KOReader pozwala "
+"na wykluczenie tego typu fragmentów książki."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2167-5
 msgid ""
 "Have a look at the image for an overview of the process. Steps will be "
 "explained after the image:"
 msgstr ""
+"Spójrz na obrazek, aby zobaczyć podgląd procesu. Po obrazku wyjaśnione "
+"zostaną poszczególne kroki:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2173-5
 #, fuzzy
@@ -4467,7 +4488,7 @@ msgstr "Go to the Pierwszy Strona of the section you want to exclude"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2177-9
 msgid "Open the <span class=\"ui\">Page browser</span> via:"
-msgstr ""
+msgstr "Otwórz <span class=\"ui\">Przeglądarkę stron</span> za pomocą:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:2179-13
 #, fuzzy
@@ -4491,12 +4512,17 @@ msgid ""
 "excluded section and select <span class=\"ui\">Start hidden flow here</span> "
 "item from the popup menu."
 msgstr ""
+"Naciśnij i przytrzymaj miniaturę strony, której chcesz użyć jako początku "
+"wykluczonej sekcji, i wybierz opcję <span class=\"ui\">Rozpocznij ukryty "
+"przepływ tutaj</span> z menu podręcznego."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2182-9
 msgid ""
 "You will see that the pages starting from your selection now have a gray "
 "hatched background."
 msgstr ""
+"Zobaczysz, że strony, które wybrałeś, będą teraz miały szare, zakreskowane "
+"tło."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2183-9
 msgid ""
@@ -4504,12 +4530,18 @@ msgid ""
 "from the <span class=\"ui\">Page browser</span> or using other ways like "
 "<span class=\"ui\">Book map, Skim widget</span> etc."
 msgstr ""
+"Przejdź teraz do ostatniej strony wykluczonej sekcji. Możesz tam przejść z "
+"<span class=\"ui\">Przeglądarki stron</span> lub w inny sposób, np. z <span "
+"class=\"ui\">Mapy książek, widżetu Skim</span> itp."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2184-9
 msgid ""
 "Once you are at the last page of your excluded section, open the <span "
 "class=\"ui\">Page browser</span> again (if you are not already in it)."
 msgstr ""
+"Gdy znajdziesz się na ostatniej stronie wykluczonej sekcji, otwórz ponownie "
+"<span class=\"ui\">Przeglądarkę stron</span> (jeśli jeszcze tego nie "
+"zrobiłeś)."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2185-9
 msgid ""
@@ -4519,6 +4551,11 @@ msgid ""
 "return to normal color, indicating the end of hidden flow and the beginning "
 "of regular flow."
 msgstr ""
+"Znajdź ostatnią stronę ukrytej sekcji i naciśnij i przytrzymaj <b>następną "
+"stronę</b>. Wybierz <span class=\"ui\">Uruchom ponownie zwykły przepływ "
+"tutaj</span> z menu podręcznego. Zobaczysz, że tło pozostałych stron powróci "
+"do normalnego koloru, wskazując koniec ukrytego przepływu i początek "
+"zwykłego przepływu."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2190-5
 #, fuzzy
@@ -4531,6 +4568,9 @@ msgid ""
 "behavior will be similar to the situation as if you removed a section of a "
 "paper book by cutting it out:"
 msgstr ""
+"Gdy utworzysz ukrytą sekcję przepływu, jak opisano powyżej, zachowanie "
+"KOReadera będzie podobne do sytuacji, w której usuniesz sekcję papierowej "
+"książki, wycinając ją:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2195-9
 msgid ""
@@ -4539,12 +4579,18 @@ msgid ""
 "the last page of <b>Chapter 9</b>. When you turn the page, you will see "
 "<b>Chapter 11</b>."
 msgstr ""
+"Te ukryte sekcje przepływu zostaną pominięte podczas przewracania stron. "
+"Załóżmy na przykład, że utworzyłeś ukryty przepływ dla <b>rozdziału 10</b>. "
+"Teraz jesteś na ostatniej stronie <b>rozdziału 9</b>. Po przewróceniu strony "
+"zobaczysz <b>rozdział 11</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2196-9
 msgid ""
 "Page numbering will continue as if these hidden flow sections <b>do not "
 "exist</b>."
 msgstr ""
+"Numeracja stron będzie kontynuowana tak, jakby te ukryte sekcje <b>nie "
+"istniały</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2197-9
 msgid ""
@@ -4553,6 +4599,10 @@ msgid ""
 "<b>time to read</b> calculations. But they will still be visible in the "
 "<span class=\"ui\">Skim widget</span>."
 msgstr ""
+"Te ukryte sekcje nie będą widoczne na <span class=\"ui\">pasku postępu</"
+"span> (ale przeczytaj wyjaśnienie poniżej) i nie będą uwzględniane w "
+"obliczeniach <b>czasu na przeczytanie</b>. Będą jednak nadal widoczne w "
+"<span class=\"ui\">widżecie Przeglądania</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2198-9
 msgid ""
@@ -4560,6 +4610,10 @@ msgid ""
 "will still work. Also you can still reach these sections from the <span "
 "class=\"ui\">Table of contents, Book map, Page browser, Skim widget</span>."
 msgstr ""
+"Bezpośrednie linki do stron zawartych w tych ukrytych sekcjach przepływu "
+"nadal będą działać. Dostęp do tych sekcji można również uzyskać za pomocą "
+"<span class=\"ui\">Spisu treści, Mapy książki, Przeglądarki stron, widżetu "
+"Skim</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2201-5
 msgid ""
@@ -4572,6 +4626,14 @@ msgid ""
 "other navigation tools, your Progress bar will go back to showing the whole "
 "book again (with your custom hidden flows again not visible)."
 msgstr ""
+"Jak wspomnieliśmy powyżej, Twoje ukryte przepływy zostaną wyłączone z <span "
+"class=\"ui\">paska postępu</span>. Jeśli jednak przejdziesz do jednej z "
+"ukrytych sekcji za pomocą którejkolwiek z powyższych metod, pasek postępu "
+"tymczasowo stanie się paskiem postępu tej ukrytej sekcji. Możesz to sobie "
+"wyobrazić jako powiększenie paska postępu do tej ukrytej sekcji przepływu. "
+"Jeśli wyjdziesz z tej ukrytej sekcji, obracając stronę na końcu lub używając "
+"innych narzędzi nawigacyjnych, pasek postępu ponownie wyświetli całą książkę "
+"(bez widocznych niestandardowych ukrytych przepływów)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2204-5
 #, fuzzy
@@ -4584,6 +4646,9 @@ msgid ""
 "class=\"ui\">Page browser</span> in the same way you created them. You can "
 "also clear all of them at once with the menu item:"
 msgstr ""
+"Można usunąć poszczególne ukryte sekcje przepływu z <span class=\"ui\">"
+"Przeglądarki stron</span> w taki sam sposób, w jaki je utworzono. Można "
+"również wyczyścić je wszystkie naraz za pomocą elementu menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2207-5
 msgid ""
@@ -4591,6 +4656,9 @@ msgid ""
 "style=\"width:22px;\"> / Settings / Custom layout features / Clear all "
 "marked pages"
 msgstr ""
+"GÓRNE MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Ustawienia / Niestandardowe funkcje układu / "
+"Wyczyść wszystkie zaznaczone strony"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2209-5
 msgid ""
