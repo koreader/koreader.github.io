@@ -49,7 +49,7 @@ jobs:
           weasyprint --full-fonts "$f" "$out"
 
       - name: Upload
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: KOReader Manual PDF - ${{ matrix.lang }}
           path: koreader_user_guide_${{ matrix.lang }}.pdf
