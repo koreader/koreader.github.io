@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-18 02:10+0000\n"
-"PO-Revision-Date: 2026-02-27 03:42+0000\n"
+"PO-Revision-Date: 2026-03-20 09:09+0000\n"
 "Last-Translator: rerbin <rerbin@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -125,10 +125,10 @@ msgid ""
 "make your life easier while learning how to use KOReader. Of course you can "
 "read this on your e-ink device too, but the experience will not be optimal."
 msgstr ""
-"本指南主要为彩色屏幕设计。如果你是初次阅读，强烈建议使用电脑、平板或手机浏"
-"览，因为本指南会使用不同颜色来标注KOReader软件界面的不同部分，色彩会使各类说"
-"明更易理解。当然，你仍可在电子墨水屏上阅读本指南，只是这些未对e-ink优化的内容"
-"可能体验不佳。"
+"本指南主要为彩色屏幕设计。如果你是初次阅读，强烈建议使用电脑、平板或手机浏览"
+"，因为本指南会使用不同颜色来高亮KOReader软件界面的不同部分，色彩会使各类说明"
+"更易理解。当然，你仍可在电子墨水屏上阅读本指南，只是这些未对e-ink优化的内容可"
+"能体验不佳。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:881-5
 msgid ""
@@ -145,7 +145,7 @@ msgstr ""
 msgid ""
 "Parts of the text in this guide are color coded according to their "
 "categories:"
-msgstr "本指南的不同内容依照其分类标注了不同颜色："
+msgstr "本指南的不同内容依照其分类使用了不同颜色："
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:887-17
 msgid "PARTS OF KOREADER (BLUE)"
@@ -166,7 +166,7 @@ msgid ""
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式"
+"style=\"width:22px;\"> / 高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:897-17
 msgid "EXTERNAL APPS (PURPLE)"
@@ -256,8 +256,8 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Newly added or updated sections since "
 "the last guide release are marked with a <span class=\"microns\"></span>"
 msgstr ""
-"<span class=\"label_blue\">说明</span> 新添加或变更过的章节将以 <span "
-"class=\"microns\"></span>标注"
+"<span class=\"label_blue\">说明</span> 新添加或变更过的章节标有 <span "
+"class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:947-9
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
@@ -365,19 +365,19 @@ msgstr "样式微调 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:990-9
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr "书签、标注与笔记"
+msgstr "书签、高亮与笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:992-17
 msgid "Highlight modes of KOReader"
-msgstr "KOReader 的标注模式"
+msgstr "KOReader 的高亮模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:993-5
 msgid "Editing highlights <span class=\"microns\"></span>"
-msgstr "编辑标注区 <span class=\"microns\"></span>"
+msgstr "编辑高亮区 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:994-17
 msgid "Exporting highlights"
-msgstr "导出标注"
+msgstr "导出高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:998-9
 msgid "READING PDFS"
@@ -393,7 +393,7 @@ msgstr "PDF 文档专有底部菜单项"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1002-17
 msgid "Saving highlights into PDF <span class=\"microns\"></span>"
-msgstr "将标注内容保存为PDF文档 <span class=\"microns\"></span>"
+msgstr "将高亮内容保存为PDF文档 <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1003-17
 msgid "OCR (Optical Character Recognition)"
@@ -658,14 +658,14 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1108-1
 msgid "Take notes and make highlights while reading"
-msgstr "阅读时做笔记和划标注"
+msgstr "阅读时做笔记和高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1110-9
 msgid ""
 "Highlight text with different styles and colors, place bookmarks <a "
 "href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
-"用不同的样式和颜色标注文段、添加书签 <a href=\"#L1-bookmarks\" "
+"用不同的样式和颜色高亮文段、添加书签 <a href=\"#L1-bookmarks\" "
 "class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1112-9
@@ -673,7 +673,7 @@ msgid ""
 "Two-tap mode for academic/longer highlights <a href=\"#L2-howtohighlight\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"适用于学术标注或长文段标注的双击模式<a href=\"#L2-howtohighlight\" "
+"适用于学术或长文段高亮的双击模式<a href=\"#L2-howtohighlight\" "
 "class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1114-9
@@ -700,7 +700,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1121-1
 msgid "Export your notes and highlights flexibly"
-msgstr "随心所欲地导出笔记和标注"
+msgstr "随心所欲地导出笔记和高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1123-9
 msgid ""
@@ -708,7 +708,7 @@ msgid ""
 "JSON or Kindle clippings format <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"将笔记和标注以文本、markdown、HTML、JSON或Kindle剪贴本格式导出<a href=\"#L2-"
+"将笔记和高亮以文本、markdown、HTML、JSON或Kindle剪贴本格式导出<a href=\"#L2-"
 "exportinghighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1125-9
@@ -774,7 +774,7 @@ msgid ""
 "class=\"internalink\"></a>"
 msgstr ""
 "借助独特的<span class=\"ui\">书籍地图</span>功能，鸟瞰书籍全貌和自己的笔记与"
-"标注<a href=\"#L2-bookmap\" class=\"internalink\"></a>"
+"高亮<a href=\"#L2-bookmap\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1143-9
 msgid ""
@@ -789,7 +789,7 @@ msgid ""
 "<span class=\"ui\">Bookmarks browser</span> to browse your highlights and "
 "notes easily <a href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
-"<span class=\"ui\">书签浏览器</span>让浏览标注与笔记易如反掌<a href=\"#L1-"
+"<span class=\"ui\">书签浏览器</span>让浏览高亮与笔记易如反掌<a href=\"#L1-"
 "bookmarks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1147-9
@@ -861,7 +861,7 @@ msgstr "通过选中文本或手动输入来检索书籍（支持<b>正则表达
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1166-9
 msgid "Search in your bookmarks, highlights and notes"
-msgstr "在书签、标注及笔记中检索"
+msgstr "在书签、高亮及笔记中检索"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1167-9
 msgid ""
@@ -974,7 +974,7 @@ msgid ""
 "Save your highlights directly into PDFs which allows you to see them without "
 "KOReader <a href=\"#L2-pdfhighlights\" class=\"internalink\"></a>"
 msgstr ""
-"将标注内容导出为PDF文件，以便在KOReader以外的环境中浏览<a href=\"#L2-"
+"将高亮内容导出为PDF文件，以便在KOReader以外的环境中浏览<a href=\"#L2-"
 "pdfhighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1197-9
@@ -1991,9 +1991,9 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
-"<b>标注样式：</b>KOreader 提供如图所示的多种标注样式。若阅读设备配有彩色屏"
-"幕，用户还可使用彩色标注。点击<a href=\"#L1-bookmarks\">书签、标注和笔记</a>"
-"章节了解详情"
+"<b>高亮样式：</b>KOreader 提供如图所示的多种高亮样式。若阅读设备配有彩色屏幕"
+"，用户还可使用彩色高亮。点击<a href=\"#L1-bookmarks\">书签、高亮和笔记</a>章"
+"节了解详情"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1512-9
 msgid ""
@@ -2001,8 +2001,8 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
-"<b>笔记标记：</b>该标志出现在添加了笔记的标注旁。KOReader 提供多种样式的笔记"
-"标记。前往<a href=\"#L1-bookmarks\">书签、标注和笔记</a>章节了解详情"
+"<b>笔记标记：</b>该标志出现在添加了笔记的高亮旁。KOReader 提供多种样式的笔记"
+"标记。前往<a href=\"#L1-bookmarks\">书签、高亮和笔记</a>章节了解详情"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1516-1
 msgid "Indicator icons"
@@ -2124,12 +2124,12 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
-"<span class=\"label_orange\">标注模式图标</span> 进入<span class=\"ui\">选择"
-"与标注模式</span>时，该图标将会显示。KOReader拥有独立的标注模式，以实现跨多页"
-"的标注。请前往<a href=\"#bookmarks\">书签、标注和笔记</a>一节了解详情。当开始"
-"标注操作后，该图标将显示于屏幕左上角，提醒用户当前仍处于标注模式下。当用户<b>"
-"选择到文段末尾</b>自动结束标注操作时或用户<b>取消标注</b>（通过再次点击标注的"
-"开头或该<span class=\"ui\">标注图标</span>）时，该图标就会消失。。"
+"<span class=\"label_orange\">高亮模式图标</span> 进入<span class=\"ui\">选择"
+"与高亮模式</span>时，该图标将会显示。KOReader拥有独立的高亮模式，以实现跨多页"
+"的高亮。请前往<a href=\"#bookmarks\">书签、高亮和笔记</a>一节了解详情。当开始"
+"高亮操作后，该图标将显示于屏幕左上角，提醒用户当前仍处于高亮模式下。当用户<b>"
+"选择到文段末尾</b>自动结束高亮操作时或用户<b>取消高亮</b>（通过再次点击高亮的"
+"开头或该<span class=\"ui\">高亮图标</span>）时，该图标就会消失。"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2196,7 +2196,7 @@ msgid ""
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
 "可重排文档的文本字号被调大时，页码数也会随之增加，因为每页能够显示的文字变少"
-"了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的标注内容可能在字体调整"
+"了。某些情况下这种变化会造成影响，比如<b>第38页</b>上的高亮内容可能在字体调整"
 "后跑到了 <b>第42页</b>上。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1598-5
@@ -3252,7 +3252,7 @@ msgid ""
 msgstr ""
 "<b>精简快速翻页工具</b>： 这是默认<span class=\"ui\">快速翻页工具</span>的精"
 "简版本。它的尺寸更小巧，会显示在<b>屏幕顶部或底部</b>，因此不像默认工具那样遮"
-"挡屏幕，在诸如标注文段时会更便于使用。"
+"挡屏幕，在诸如高亮文段时会更便于使用。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1956-9
 msgid ""
@@ -3491,7 +3491,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2019-9
 msgid "Check which pages have bookmark, highlights and notes"
-msgstr "检查哪些页面有书签、标注和笔记"
+msgstr "检查哪些页面有书签、高亮和笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2020-9
 msgid ""
@@ -3549,7 +3549,7 @@ msgstr "书签图标显示书签页面的名称。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2039-13
 msgid "Striped square icon shows pages with highlights."
-msgstr "块状条纹标志说明该页包含标注。"
+msgstr "块状条纹标志说明该页包含高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2040-13
 msgid "Pencil icon shows pages with notes."
@@ -3934,10 +3934,10 @@ msgid ""
 "selected will be already entered in the dialog. Edit your title if necessary "
 "and press create."
 msgstr ""
-"<b>通过标注</b>：在阅读书籍时，滑动文段选中（像类似标注操作）、或在文字上长"
-"按。在弹出菜单中可见<span class=\"ui\">创建目录章节</span>选项。点按该项，会"
-"出现对话框要求输入章节标题。前面选中的文段会被自动填入，可按照需要进行编辑。"
-"点按创建即可保存。"
+"<b>通过高亮</b>：在阅读书籍时，滑动文段选中（像类似高亮操作）、或在文字上长按"
+"。在弹出菜单中可见<span class=\"ui\">创建目录章节</span>选项。点按该项，会出"
+"现对话框要求输入章节标题。前面选中的文段会被自动填入，可按照需要进行编辑。点"
+"按创建即可保存。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2147-9
 msgid "<b>From the Page browser:</b> Open the Page browser via"
@@ -4307,7 +4307,7 @@ msgid ""
 "bookmarks</b> will be preserved."
 msgstr ""
 "点按该选项后，当前书籍设定将会回到上次配置的<b>默认值</b>。无需担心，该选项仅"
-"改变书籍样式，<b>阅读位置、标注、笔记和书签</b>会被保留。"
+"改变书籍样式，<b>阅读位置、高亮、笔记和书签</b>会被保留。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2244-1
 msgid "Saving current book settings as defaults"
@@ -5239,7 +5239,7 @@ msgstr "H1 { border-top: 2px solid black; }"
 #: user_guide/en.html%2Bhtml.body.div.div:2548-1
 msgctxt "user_guide/en.html:L1-bookmarks"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr "书签、标注与笔记"
+msgstr "书签、高亮与笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2550-5
 msgid ""
@@ -5272,7 +5272,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2565-5
 msgid "HIGHLIGHTS:"
-msgstr "文段标注："
+msgstr "文段高亮："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2567-5
 msgid ""
@@ -5282,7 +5282,7 @@ msgid ""
 "class=\"ui\">Underline, Strikeout</span> and <span class=\"ui\">Invert</"
 "span>."
 msgstr ""
-"有四种不同样式的标注可用使用。下图展示了一段普通文本及不同样式的标注：<span "
+"有四种不同样式的高亮可用使用。下图展示了一段普通文本及不同样式的高亮：<span "
 "class=\"ui\">浅色</span>（灰色背景）、<span class=\"ui\">下划线、删除线</"
 "span>及<span class=\"ui\">反色</span>。"
 
@@ -5292,8 +5292,8 @@ msgid ""
 "colored highlight markers. Or you can decide your favorite style and set it "
 "as default from this menu by long pressing:"
 msgstr ""
-"这些标注样式可以像不同颜色的标注马克笔一样叠加使用。另外，在下列菜单中长按，"
-"可以将喜欢的标注样式设为默认样式："
+"您可以同时使用所有这些样式，就像使用不同颜色的荧光笔一样。或者，您也可以在此"
+"菜单中通过长按来选定您最喜欢的样式并将其设为默认："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2574-5
 msgctxt "user_guide/en.html+html.body.div.div:2574-5"
@@ -5302,13 +5302,13 @@ msgid ""
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式"
+"style=\"width:22px;\"> / 高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2578-5
 msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
-msgstr "另外，如果当前设备配有彩色屏幕，还可使用不同颜色进行标注："
+msgstr "另外，如果当前设备配有彩色屏幕，还可使用不同颜色进行高亮："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2580-5
 msgid ""
@@ -5316,18 +5316,18 @@ msgid ""
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注 / 标注用色"
+"style=\"width:22px;\"> / 高亮 / 高亮用色"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2584-5
 msgid "Some tips for color highlights:"
-msgstr "使用多色标注时的技巧："
+msgstr "使用多色高亮时的技巧："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2587-9
 msgid ""
 "You can change the color of an existing highlight by tapping on it and "
 "choosing <span class=\"ui\">Color</span> from the popup menu."
 msgstr ""
-"已经划下的标注段落可以改变用色；点按标注段落，在弹出菜单中选择<span "
+"已经划下的高亮段落可以改变用色；点按高亮段落，在弹出菜单中选择<span "
 "class=\"ui\">颜色</span>选项即可。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2589-9
@@ -5339,21 +5339,21 @@ msgid ""
 "removals or <span style=\"text-decoration: underline; font-weight: bold; "
 "color: orange;\">orange underline</span> style for important points etc."
 msgstr ""
-"您可以将颜色与 <b>下划线</b>、<b>删除线</b>等不同的标注样式结合，可以创建一套"
-"强大的标注系统。例如，可以用<span style=\"text-decoration: line-through; "
-"font-weight: bold; color: red;\">红色删除线</span>样式标注删除段落，或用"
-"<span style=\"text-decoration: underline; font-weight: bold; color: orange;"
-"\">橙色下划线</span>样式标注重点，等等。"
+"您可以将颜色与 <b>下划线</b>、<b>删除线</b>等不同的高亮样式结合，可以创建一套"
+"强大的高亮系统。例如，可以用<span style=\"text-decoration: line-through; "
+"font-weight: bold; color: red;\">红色删除线</span>样式标记删除段落，或"
+"用<span style=\"text-decoration: underline; font-weight: bold; color: "
+"orange;\">橙色下划线</span>样式标记重点，等等。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2592-1
 msgid "Setting the defaults for highlights"
-msgstr "设置默认标注样式"
+msgstr "设置默认高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2598-9
 msgid ""
 "In the highlights menu you can long-press on a highlight type to set it as "
 "default (★)"
-msgstr "在标注菜单中，可以在某种样式上长按将其设置为默认项（★）"
+msgstr "在高亮菜单中，可以在某种样式上长按将其设置为默认项（★）"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2599-9
 msgid ""
@@ -5368,8 +5368,8 @@ msgid ""
 "highlights</span> option to make all the highlights in the current book "
 "same. <b>Be careful, there is no undo!</b>"
 msgstr ""
-"<span class=\"ui\">将当前样式及颜色应用于全部标注</span>选项可以将整本书中所"
-"有标注统一为一种样式。<b>请务必谨慎，该操作是不可逆的！</b>"
+"<span class=\"ui\">将当前样式及颜色应用于全部高亮</span>选项可以将整本书中所"
+"有高亮统一为一种样式。<b>请务必谨慎，该操作是不可逆的！</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2605-5
 msgid "NOTES:"
@@ -5384,9 +5384,9 @@ msgid ""
 "line</span> and <span class=\"ui\">Side mark</span> (which is the pencil "
 "icon shown on the right side of the picture below):"
 msgstr ""
-"还可为标注添加笔记；只需点按一段标注，从弹出菜单中选择<span class=\"ui\">添加"
-"笔记</span>。还可选择一种<span class=\"ui\">笔记标记</span>标出包含笔记的标"
-"注。有三种样式可供选择——<span class=\"ui\">下划线、批注线</span>和<span "
+"还可为高亮添加笔记；只需点按一段高亮，从弹出菜单中选择<span class=\"ui\">添加"
+"笔记</span>。还可选择一种<span class=\"ui\">笔记标记</span>标出包含笔记的高亮"
+"。有三种样式可供选择——<span class=\"ui\">下划线、批注线</span>和<span "
 "class=\"ui\">笔记符号</span>（一枚显示文段右侧的铅笔标志，如下图所示）："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2613-5
@@ -5402,20 +5402,20 @@ msgid ""
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式 / 笔记标记"
+"style=\"width:22px;\"> / 高亮样式 / 笔记标记"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2619-1
 msgctxt "user_guide/en.html:L2-howtohighlight"
 msgid "Highlight modes of KOReader"
-msgstr "KOReader 的标注模式"
+msgstr "KOReader 的高亮模式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2621-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr "KOReader提供两种不同的标注模式："
+msgstr "KOReader提供两种不同的高亮模式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2626-1
 msgid "Normal mode"
-msgstr "普通标注模式"
+msgstr "普通模式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2628-5
 msgid ""
@@ -5424,15 +5424,15 @@ msgid ""
 "shorter than one page."
 msgstr ""
 "<span class=\"ui\">普通模式</span>与在手机或平板电脑上用手指选择文本类似，适"
-"用于标注文段在同一页内的情况。"
+"用于高亮文段在同一页内的情况。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2631-9
 msgid "Long-press on the starting word"
-msgstr "在要标注文段的首字上长按"
+msgstr "在要高亮文段的首字上长按"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2632-9
 msgid "Move your finger to the end of the passage"
-msgstr "移动手指到要标注文段的末尾"
+msgstr "移动手指到要高亮文段的末尾"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2633-9
 msgid "Release finger"
@@ -5444,8 +5444,8 @@ msgid ""
 "continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
 "this feature from:"
 msgstr ""
-"当划到页面边界时，KOReader会自动翻页以保持标注连贯<b>（仅对EPUB和HTML文档有"
-"效）</b>。该功能可通过下列路径禁用："
+"当划到页面边界时，KOReader会自动翻页以保持高亮连贯<b>（仅对EPUB和HTML文档有效"
+"）</b>。该功能可通过下列路径禁用："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2638-5
 msgid ""
@@ -5459,7 +5459,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2642-1
 msgid "Select and highlight mode"
-msgstr "选择并标注模式"
+msgstr "选择并进入高亮模式"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2644-5
 msgid ""
@@ -5469,9 +5469,9 @@ msgid ""
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
 msgstr ""
-"<span class=\"ui\">选择并标注模式</span>更适合跨页的长段落标注。在该模式下无"
-"需用手指在屏幕上滑动即可完成标注，因此对阅读设备的触控灵敏度不佳，或用户较难"
-"控制手部运动的情况尤为有用。"
+"<span class=\"ui\">选择并进入高亮模式</span>更适合跨页的长段落高亮。在该模式"
+"下无需用手指在屏幕上滑动即可完成高亮，因此对阅读设备的触控灵敏度不佳，或用户"
+"较难控制手部运动的情况尤为有用。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2646-5
 msgid ""
@@ -5493,14 +5493,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2652-5
 msgid "How to highlight:"
-msgstr "划标注的方法："
+msgstr "高亮的方法："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2657-5
 msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the starting word, popup menu will show up."
-msgstr ""
-"在要标注文段的首字上长按（如果启用了查找字典功能则是对首字拖拽）呼出菜单。"
+msgstr "在要高亮文段的首字上长按（如果启用了查找字典功能则是对首字拖拽）呼出菜单。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2658-5
 msgid ""
@@ -5511,8 +5510,8 @@ msgid ""
 "can turn pages with taps/swipes and freely navigate the document (TOC, skim "
 "etc) in this mode."
 msgstr ""
-"点按<span class=\"ui\">多选</span>选项进入标注模式，此时屏幕左上角将出现一枚"
-"标志（可点击标志获得更多信息）。再次点按标注起始处可取消标注。在标注模式下可"
+"点按<span class=\"ui\">多选</span>选项进入高亮模式，此时屏幕左上角将出现一枚"
+"标志（可点击标志获得更多信息）。再次点按高亮起始处可取消高亮。在高亮模式下可"
 "使用点按或滑动翻页，并可使用目录或快速翻页工具前往任意页。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2659-5
@@ -5520,14 +5519,14 @@ msgid ""
 "Long-press (or drag if dictionary lookup is enabled as described above) on "
 "the ending word for your highlight, menu will show up again."
 msgstr ""
-"在标注的末字上长按菜单会再次显示；若启用了查询字典功能，则通过拖拽末字呼出菜"
+"在高亮的末字上长按菜单会再次显示；若启用了查询字典功能，则通过拖拽末字呼出菜"
 "单。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2660-5
 msgid ""
 "Tap <span class=\"ui\">Highlight</span> this time to finish highlighting the "
 "passage."
-msgstr "现在点按<span class=\"ui\">标注</span>即可完成对文段的标注。"
+msgstr "现在点按<span class=\"ui\">高亮</span>即可完成对文段的高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2663-5
 msgid ""
@@ -5536,9 +5535,9 @@ msgid ""
 "class=\"ui\">center</span> option here to <span class=\"ui\">gesture "
 "position</span> (located on the second page of this menu):"
 msgstr ""
-"通常情况下该对话框将显示在屏幕中间。如果希望对话框显示在标注位置附近，可以将"
-"菜单第二页的<span class=\"ui\">中间</span>选项改为<span class=\"ui\">手势位置"
-"</span>："
+"通常情况下该对话框将显示在屏幕中间。如果希望对话框显示在高亮位置附近，可以将"
+"菜单第二页的<span class=\"ui\">中间</span>选项改为<span class=\"ui\">手势位"
+"置</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2665-5
 msgid ""
@@ -5547,7 +5546,7 @@ msgid ""
 "dialog position"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\">/ 点按与手势 / 在文字上长按 / 标注对话框位置"
+"style=\"width:22px;\">/ 点按与手势 / 在文字上长按 / 高亮对话框位置"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2667-5
 msgid ""
@@ -5558,10 +5557,10 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
-"<span class=\"label_green\">说明</span> 若不需要上图所示的<b>文字长按菜单</"
-"b>，有更<b>简单</b>的方式进入该模式。在完全禁用长按文字的弹出菜单后，长按将直"
-"接进入<span class=\"ui\">选择及标注</span>模式。这种方式更快捷，只需点按两次"
-"即可标注任意长度的文段。启用下列选项来使用该功能："
+"<span class=\"label_green\">说明</span> 若不需要上图所示的<b>文字长按菜单</b>"
+"，有更<b>简单</b>的方式进入该模式。在完全禁用长按文字的弹出菜单后，长按将直接"
+"进入<span class=\"ui\">选择及高亮</span>模式。这种方式更快捷，只需点按两次即"
+"可高亮任意长度的文段。启用下列选项来使用该功能："
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2669-5
 msgid ""
@@ -5570,7 +5569,7 @@ msgid ""
 "highlight"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / 点按与手势 / 在文字上长按 /选择并标注"
+"style=\"width:22px;\"> / 点按与手势 / 在文字上长按 /选择并高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2675-5
 msgid ""
@@ -5583,11 +5582,11 @@ msgid ""
 "background will be black so it can be set without flashing. You can adjust "
 "these highlighting options from:"
 msgstr ""
-"<span class=\"label_green\">提示</span> KOReader可以标注包含不同样式的整篇文"
+"<span class=\"label_green\">提示</span> KOReader可以高亮包含不同样式的整篇文"
 "章。<span class=\"ui\">浅色</span>选项将使文段背景变为灰色。受限于e-ink技术特"
-"性屏幕无法直接从白切换为灰色，所以被标注的文段将先变黑然后再变灰。要避免这种"
-"屏幕闪烁，请选择<span class=\"ui\">反色</span>作为标注样式。该选项将使文段背"
-"景变黑所以无需屏幕闪烁。请在下列路径中调整标注选项："
+"性屏幕无法直接从白切换为灰色，所以被高亮的文段将先变黑然后再变灰。要避免这种"
+"屏幕闪烁，请选择<span class=\"ui\">反色</span>作为高亮样式。该选项将使文段背"
+"景变黑所以无需屏幕闪烁。请在下列路径中调整高亮选项："
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2677-5
 msgctxt "user_guide/en.html+html.body.div.div.div:2677-5"
@@ -5596,7 +5595,7 @@ msgid ""
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 标注样式"
+"style=\"width:22px;\"> / 高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2682-5
 msgid ""
@@ -5605,12 +5604,12 @@ msgid ""
 "a highlight you will be presented with a menu to choose which highlight you "
 "want to edit."
 msgstr ""
-"<span class=\"label_green\">说明</span> 同一文段可被多次标注及添加笔记。若多"
-"层标注重叠在一起，点按标注处会弹出菜单以供选择想要编辑的标注。"
+"<span class=\"label_green\">说明</span> 同一文段可被多次高亮及添加笔记。若多"
+"层高亮重叠在一起，点按高亮处会弹出菜单以供选择想要编辑的高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2686-1
 msgid "Selecting punctuation while highlighting"
-msgstr "标注时自动纳入标点"
+msgstr "高亮时自动纳入标点"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2688-5
 msgid ""
@@ -5619,8 +5618,8 @@ msgid ""
 "word to the last word of a sentence, KOReader will automatically include the "
 "punctuation marks at the both ends of the sentence to your highlight."
 msgstr ""
-"在进行标注操作时，KOReader会尝试将与选段相关的标点符号纳入标注。例如，当从头"
-"到尾标注一个句子时，KOReader会自动将句子两端的标点符号一并标注。"
+"在进行高亮操作时，KOReader会尝试将与选段相关的标点符号纳入高亮。例如，当从头"
+"到尾高亮一个句子时，KOReader会自动将句子两端的标点符号一并高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2691-5
 msgid ""
@@ -5631,13 +5630,13 @@ msgid ""
 "you can add these marks later by long pressing the <span "
 "class=\"ui\">Highlight edit</span> buttons."
 msgstr ""
-"但如果从句子中间开始标注，KOReader会认为用户只是想标注句子片段，因此<b>不会自"
-"动包含</b>句末标点。若要将标点包含在标注中，请在选择时选中<b>完整句子</b>。之"
-"后也可长按<span class=\"ui\">编辑标注</span>按钮补上标点符号。"
+"但如果从句子中间开始高亮，KOReader会认为用户只是想高亮句子片段，因此<b>不会自"
+"动包含</b>句末标点。若要将标点包含在高亮中，请在选择时选中<b>完整句子</b>。之"
+"后也可长按<span class=\"ui\">编辑高亮</span>按钮补上标点符号。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2694-1
 msgid "Editing highlights"
-msgstr "编辑标注"
+msgstr "编辑高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2696-5
 msgid ""
@@ -5646,9 +5645,9 @@ msgid ""
 "class=\"ui\">Add note</span> items are clear. Bottom row menu items are used "
 "to extend or shrink the highlight."
 msgstr ""
-"点按<b>不含笔记</b>的高亮文本，可以看到包含<span class=\"ui\">删除</span>及"
-"<span class=\"ui\">添加笔记</span>选项的弹出菜单。菜单底部的按钮则用于扩展或"
-"缩减标注区域。"
+"点按<b>不含笔记</b>的高亮文本，可以看到包含<span class=\"ui\">删除</span>"
+"及<span class=\"ui\">添加笔记</span>选项的弹出菜单。菜单底部的按钮则用于扩展"
+"或缩减高亮区域。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2700-5
 msgid ""
@@ -5658,7 +5657,7 @@ msgid ""
 "the PDF format."
 msgstr ""
 "<span class=\"label_blue\">说明</span> 该项调整仅对epub等可重排格式生效。在"
-"PDF文档中扩展或缩减标注时，受限于PDF格式需要先整段删除再重新标注。"
+"PDF文档中扩展或缩减高亮时，受限于PDF格式需要先整段删除再重新高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2702-5
 msgid ""
@@ -5668,8 +5667,8 @@ msgid ""
 "note:"
 msgstr ""
 "点按<b>附带笔记</b>的高亮文本，可以看到如下所示的弹出菜单。点按<span "
-"class=\"ui\">编辑标注</span>打开上图所示菜单，以便对标注及附带的笔记进行编"
-"辑："
+"class=\"ui\">编辑高亮</span>打开上图所示菜单，以便对高亮及附带的笔记进行编辑"
+"："
 
 #: user_guide/en.html%2Bhtml.body.div.p:2706-5
 msgid ""
@@ -5679,12 +5678,12 @@ msgid ""
 "\"> ) You can also filter by highlight style:"
 msgstr ""
 "在<span class=\"ui\">书签管理</span>界面，点按菜单按钮（<img "
-"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" style=\"width:22px;"
-"\">）可以筛选显示出某一类型的书签；也可按照标注样式筛选："
+"class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\">）可以筛选显示出某一类型的书签；也可按照高亮样式筛选："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2712-1
 msgid "Editing the text of a highlight"
-msgstr "编辑被标注的文段文本"
+msgstr "编辑被高亮的文段文本"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2714-5
 msgid ""
@@ -5699,9 +5698,9 @@ msgid ""
 "next to the problematic date."
 msgstr ""
 "除了添加笔记，KOReader还支持直接编辑<span class=\"ui\">书签列表</span>中显示"
-"的高亮文本。在某些情况下，这可能比为标注添加笔记更实用。比如要标记包含多项日"
+"的高亮文本。在某些情况下，这可能比为高亮添加笔记更实用。比如要标记包含多项日"
 "期的句子但其中一项日期有误，而要添加一条笔记来指出错误，得在笔记中明确写明。"
-"但如果可以直接编辑被标注文本，就可以直接在有误的日期后写上<b>「该日期需要再次"
+"但如果可以直接编辑被高亮文本，就可以直接在有误的日期后写上<b>「该日期需要再次"
 "核对」</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2716-5
@@ -5712,17 +5711,17 @@ msgid ""
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
 msgstr ""
-"请注意，此编辑操作<b>不会改变</b>页面上显示的被标记文段，阅读时看到的仍是书籍"
-"原文。编辑内容要在<span class=\"ui\">书签列表</span>界面查看；在导出标注时，"
+"请注意，此编辑操作<b>不会改变</b>页面上显示的被高亮文段，阅读时看到的仍是书籍"
+"原文。编辑内容要在<span class=\"ui\">书签列表</span>界面查看；在导出高亮时，"
 "被导出的文本会是编辑后的版本。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2718-5
 msgid "To edit a highlight text, you can:"
-msgstr "要编辑被标注的文本，请按如下步骤操作："
+msgstr "要编辑被高亮的文本，请按如下步骤操作："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2720-13
 msgid "Tap on the highlight"
-msgstr "点按标注文段"
+msgstr "点按高亮文段"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2721-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
@@ -5742,7 +5741,7 @@ msgstr "通过点按菜单或手势打开<span class=\"ui\">书签列表</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2730-9
 msgid "Long press on the highlight you want to edit"
-msgstr "长按想要编辑的被标注文段"
+msgstr "长按想要编辑的被高亮文段"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2731-9
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
@@ -5762,7 +5761,7 @@ msgid ""
 "span> button."
 msgstr ""
 "若要将编辑后的文本<b>撤回到</b>书籍原文，按上方所属步骤操作但在<b>第三步</b>"
-"时不要点按<span class=\"ui\">编辑被标注文本</span>，而是点按<span "
+"时不要点按<span class=\"ui\">编辑被高亮文本</span>，而是点按<span "
 "class=\"ui\">还原原始文本</span>按钮。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2738-1
@@ -5777,10 +5776,10 @@ msgid ""
 "list to show (and edit) the added note. If you want to see the note text too "
 "in your <span class=\"ui\">Bookmarks list</span> you can set it from here:"
 msgstr ""
-"通常情况下，书签列表中仅会列出用户对文段的标注。如果标注附带笔记，只会在书签"
-"列表中显示一枚铅笔标志。可以长按列表中的某一项标注以查看（并编辑）附带的笔"
-"记。若要在<span class=\"ui\">书签列表</span>中同时展示笔记，可按照下列路径设"
-"置："
+"通常情况下，书签列表中仅会列出用户对文段的高亮。如果高亮附带笔记，只会在书签"
+"列表中显示一枚铅笔标志。可以长按列表中的某一项高亮以查看（并编辑）附带的笔记"
+"。若要在<span class=\"ui\">书签列表</span>中同时展示笔记，可按照下列路径设置"
+"："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2742-5
 msgid ""
@@ -5796,15 +5795,15 @@ msgstr "有如下几种显示方式可供选择："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2746-9
 msgid "<b>Only</b> highlight text (default behavior)"
-msgstr "<b>仅显示</b>标注文段（默认设置）"
+msgstr "<b>仅显示</b>高亮文段（默认设置）"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2747-9
 msgid "<b>Both</b> highlight text and the note"
-msgstr "<b>同时显示</b>标注文字及笔记"
+msgstr "<b>同时显示</b>高亮文字及笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2748-9
 msgid "<b>Note if there is one</b>, otherwise highlight text"
-msgstr "<b>存在笔记时仅显示笔记</b>，否则显示标注文段"
+msgstr "<b>存在笔记时仅显示笔记</b>，否则显示高亮文段"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2751-5
 msgid ""
@@ -5828,7 +5827,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2757-1
 msgctxt "user_guide/en.html:L2-exportinghighlights"
 msgid "Exporting highlights"
-msgstr "导出标注"
+msgstr "导出高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2759-5
 msgid ""
@@ -5858,17 +5857,17 @@ msgstr "使用<span class=\"ui\">快捷菜单</span>中的入口"
 msgid ""
 "KOReader provides different ways of exporting your highlights and notes from "
 "your reader device:"
-msgstr "KOReader提供多种导出标注和笔记的方式："
+msgstr "KOReader提供多种导出高亮和笔记的方式："
 
 #: user_guide/en.html%2Bhtml.body.div.div:2771-1
 msgid "1. Export Highlights plugin"
-msgstr "一、使用导出标注插件"
+msgstr "1、使用导出高亮插件"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2773-5
 msgid ""
 "This versatile plugin can export your highlights to <b>local files</b> or "
 "<b>online services</b>."
-msgstr "这款多功能插件可以将标注导出为<b>本地文档</b>或上传到<b>云服务</b>。"
+msgstr "这款多功能插件可以将高亮导出为<b>本地文档</b>或上传到<b>云服务</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2778-5
 msgid "Local export"
@@ -5876,7 +5875,7 @@ msgstr "本地导出"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2780-5
 msgid "You can export your highlights to your device in these file formats:"
-msgstr "标注可被导出为以下几种文件格式："
+msgstr "高亮可被导出为以下几种文件格式："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2782-9
 msgid "Text (.txt)"
@@ -5908,7 +5907,7 @@ msgid ""
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 导出标注 / 选择文件格式及服务商"
+"style=\"width:22px;\"> / 导出高亮 / 选择文件格式及服务商"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2793-5
 msgid "You can see the export location (and also change it if you want):"
@@ -5920,7 +5919,7 @@ msgid ""
 "style=\"width:22px;\"> / Export Highlights / Choose export folder"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 导出标注 / 选择存放文件夹"
+"style=\"width:22px;\"> / 导出高亮 / 选择存放文件夹"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2799-5
 msgid "Online services"
@@ -5928,18 +5927,18 @@ msgstr "在线服务"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2801-5
 msgid "You can also export to these services over the network:"
-msgstr "还可通过网络将标注导出到下列服务平台："
+msgstr "还可通过网络将高亮导出到下列服务平台："
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2804-9
 msgid ""
 "<a href=\"https://joplinapp.org/\">Joplin</a> - a note taking application"
-msgstr "<a href=\"https://joplinapp.org/\">Joplin</a> - 一款笔记标注软件"
+msgstr "<a href=\"https://joplinapp.org/\">Joplin</a> - 一款笔记应用程序"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2805-9
 msgid ""
 "<a href=\"https://readwise.io/\">Readwise</a> - an online bookmarks/"
 "highlights application"
-msgstr "<a href=\"https://readwise.io/\">Readwise</a> - 一款在线书签及标注软件"
+msgstr "<a href=\"https://readwise.io/\">Readwise</a> - 一款在线书签及高亮软件"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2806-9
 msgid ""
@@ -5997,7 +5996,7 @@ msgstr "点击右上角的菜单按钮（显示为复选标记）"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2825-9
 msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
-msgstr "从菜单中选择<span class=\"ui\">导出标注</span>"
+msgstr "从菜单中选择<span class=\"ui\">导出高亮</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2828-5
 msgid ""
@@ -6006,7 +6005,7 @@ msgid ""
 "Normally KOReader exports all of them. You can choose from:"
 msgstr ""
 "<span class=\"label_green\">说明</span> 仅<b>浅色、下划线、删除线、反色</b>四"
-"种标注样式可被导出。通常情况下KOReader会将它们全部导出。也可在下列菜单中选择"
+"种高亮样式可被导出。通常情况下KOReader会将它们全部导出。也可在下列菜单中选择"
 "性导出："
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2830-5
@@ -6015,7 +6014,7 @@ msgid ""
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
 msgstr ""
 "顶部菜单 / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / 导出标注 / 选择标注样式"
+"style=\"width:22px;\"> / 导出高亮 / 选择高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-5
 msgid ""
@@ -6030,7 +6029,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2839-1
 msgid "2. Using KoHighlights"
-msgstr "二、使用KoHighlights"
+msgstr "2、使用KoHighlights"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2841-5
 msgid ""
@@ -6041,7 +6040,7 @@ msgid ""
 "instructions."
 msgstr ""
 "<span class=\"external\">KoHighlights</span>是安装于电脑中的外部软件。将阅读"
-"设备连接到电脑后，它可以自动读取标注和笔记。请前往该项目的<a href=\"https://"
+"设备连接到电脑后，它可以自动读取高亮和笔记。请前往该项目的<a href=\"https://"
 "github.com/noembryo/KoHighlights\">GitHub项目页</a>获取下载链接和使用说明。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2846-1
@@ -6059,8 +6058,8 @@ msgid ""
 "a> for download and instructions."
 msgstr ""
 "<span class=\"external\">Calibre</span>安装在电脑上的外部软件。借助<span "
-"class=\"external\">Calibre</span>的<span class=\"external\">KOReader同步插件"
-"</span>，可以将标注导入到Calibre数据库中。该插件要在<span "
+"class=\"external\">Calibre</span>的<span class=\"external\">KOReader同步插"
+"件</span>，可以将高亮导入到Calibre数据库中。该插件要在<span "
 "class=\"external\">Calibre</span>软件内启用。请前往Calibre的<a "
 "href=\"https://calibre-ebook.com/\">项目页</a>获取下载链接及使用说明。"
 
@@ -6073,9 +6072,9 @@ msgid ""
 "that document. You can manually backup/restore these directories."
 msgstr ""
 "<span class=\"label_blue\">说明</span> 在KOReader中开启某个文档后，文档所在目"
-"录中将生成一个同名文件夹；文件夹内有一个与文档关联的.LUA文件，包含了全部的标"
-"注、笔记和用户设置项（如文本格式设置）等。用户可手动备份及还原这个文件夹内"
-"容。"
+"录中将生成一个同名文件夹；文件夹内有一个与文档关联的.LUA文件，包含了全部的高"
+"亮、笔记和用户设置项（如文本格式设置）等。用户可手动备份及还原这个文件夹内容"
+"。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2859-1
 msgctxt "user_guide/en.html:L1-pdfs"
@@ -6322,15 +6321,14 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2953-1
 msgid "Saving highlights into PDF"
-msgstr "将标注文段保存为PDF文档"
+msgstr "将高亮文段保存为PDF文档"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2955-5
 msgid ""
 "For saving your highlights, you can use the <span class=\"ui\">Export "
 "highlights</span> feature of KOReader which is explained in a previous "
 "section."
-msgstr ""
-"可以使用前面章节介绍过的<span class=\"ui\">导出标注</span>功能来保存标注。"
+msgstr "可以使用前面章节介绍过的<span class=\"ui\">导出高亮</span>功能来保存高亮。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2956-5
 msgid ""
@@ -6343,10 +6341,10 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
-"当在PDF文档上做标注时，KOReader还会将标注直接保存到PDF文档中，该功能在某些情"
-"况下非常实用。标注会成为PDF文档的一部分，以便在其它软件或其它未安装KOReader的"
-"系统中查看。例如将包含标注的PDF文档发送给祂人后，对方无需安装KOReader即可阅读"
-"标注，只需使用<b>兼容标注功能</b>的PDF阅读软件打开即可。"
+"当在PDF文档上做高亮时，KOReader还会将高亮直接保存到PDF文档中，该功能在某些情"
+"况下非常实用。高亮会成为PDF文档的一部分，以便在其它软件或其它未安装KOReader的"
+"系统中查看。例如将包含高亮的PDF文档发送给祂人后，对方无需安装KOReader即可阅读"
+"高亮，只需使用<b>兼容高亮功能</b>的PDF阅读软件打开即可。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2958-24
 msgid ""
@@ -6359,7 +6357,7 @@ msgid ""
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
 "<span class=\"label_red\">警告</span> 若<span class=\"ui\">阅读进度同步</"
-"span>插件被启用，保存PDF标注将会修改文件，进而导致进度同步失败。若希望同时使"
+"span>插件被启用，保存PDF高亮将会修改文件，进而导致进度同步失败。若希望同时使"
 "用这两种功能，请将<span class=\"ui\">阅读进度同步</span>插件设置中的<span "
 "class=\"ui\">文档匹配方式</span>选项从默认的<span class=\"ui\">二进制值</"
 "span>改为<span class=\"ui\">文件名</span>："
@@ -6374,7 +6372,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2964-5
 msgid "Which PDF readers can show these highlights?"
-msgstr "哪些PDF阅读软件可以显示这些标注？"
+msgstr "哪些PDF阅读软件可以显示这些高亮？"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2965-5
 msgid ""
@@ -6388,9 +6386,9 @@ msgid ""
 "is ordered alphabetically within categories."
 msgstr ""
 "PDF软件通常倚赖某些标准库来渲染文档。常见的两种库是<b>MuPDF</b>和<b>Poppler</"
-"b>。KOReader使用了<b>MuPDF</b>库，因此由KOReader写入到PDF文档的标注暂时无法在"
+"b>。KOReader使用了<b>MuPDF</b>库，因此由KOReader写入到PDF文档的高亮暂时无法在"
 "使用<b>Poppler</b>库的阅读软件中查看。下方是兼容性测试列表✅代表该软件可以查"
-"看KOReader标注；❌代表该软件不支持查看。⚠️代表该软件需要安装额外的插件才可查"
+"看KOReader高亮；❌代表该软件不支持查看。⚠️代表该软件需要安装额外的插件才可查"
 "看。表中项目按字母顺序排列。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2967-32
@@ -6402,8 +6400,8 @@ msgid ""
 "visible."
 msgstr ""
 "<span class=\"label_red\">警告</span> 该清单并未罗列完全，且可能未及时更新，"
-"建议自行测试兼容性。只需在KOReader中做一处标注，将其写入PDF文档，然后在其它阅"
-"读软件中打开该文件，检查标记是否存在。"
+"建议自行测试兼容性。只需在KOReader中做一处高亮，将其写入PDF文档，然后在其它阅"
+"读软件中打开该文件，检查高亮是否存在。"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:2971-13
 msgid "✅ Chrome Browser (All platforms)"
@@ -6467,7 +6465,7 @@ msgstr "❌ Xreader（Linux平台）"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2989-9
 msgid "Important information about saving PDF highlights feature"
-msgstr "关于PDF文档标注功能的重要信息"
+msgstr "关于PDF文档高亮功能的重要信息"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2990-9
 msgid ""
@@ -6475,7 +6473,7 @@ msgid ""
 "you are planning to use this feature, you should understand how it works in "
 "order to avoid frustrating situations."
 msgstr ""
-"要让标注兼容其它阅读场景会相当费工夫；如果打算使用该功能，最好详细了解其工作"
+"要让高亮兼容其它阅读场景会相当费工夫；如果打算使用该功能，最好详细了解其工作"
 "原理以避免发生令人沮丧的情况。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2992-9
@@ -6487,14 +6485,14 @@ msgid ""
 "but it can't know where they are in the file, so it can't modify them. "
 "Please continue reading for more information about this."
 msgstr ""
-"<b>简单总结</b>：若希望PDF文档中的标注还可删除或导出，需要在备份或复制文档到"
+"<b>简单总结</b>：若希望PDF文档中的高亮还可删除或导出，需要在备份或复制文档到"
 "其它设备时连同文档关联的<span class=\"ui\">.sdr文件夹</span>一并复制。若此文"
-"件夹丢失，KOReader虽仍可查看已保存的标注，但无法再对标注进行编辑。请继续阅读"
+"件夹丢失，KOReader虽仍可查看已保存的高亮，但无法再对高亮进行编辑。请继续阅读"
 "下方章节进一步了解。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2996-9
 msgid "How normal highlights work in KOReader"
-msgstr "KOReader中普通标注的工作原理"
+msgstr "KOReader中普通高亮的工作原理"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2998-9
 msgid ""
@@ -6507,15 +6505,15 @@ msgid ""
 "folder</span> which is associated with your book, you will lose your "
 "highlights."
 msgstr ""
-"当用户在KOReader中标注文段，不管是在epub还是PDF文档中，这段标注会被写入一个设"
+"当用户在KOReader中高亮文段，不管是在epub还是PDF文档中，这段高亮会被写入一个设"
 "置文件。例如在阅读<b>Alice in Wonderland.epub</b>时，在书籍文件所在目录会生成"
-"一个名为<span class=\"ui\">Alice in Wonderland.sdr</span>的文件夹。标注数据会"
+"一个名为<span class=\"ui\">Alice in Wonderland.sdr</span>的文件夹。高亮数据会"
 "存储到这个<span class=\"ui\">.sdr文件夹</span>中的文件里。倘若这个与书籍关联"
-"的<span class=\"ui\">.sdr文件夹</span>被删除，书籍中的标注也会丢失。"
+"的<span class=\"ui\">.sdr文件夹</span>被删除，书籍中的高亮也会丢失。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3002-9
 msgid "How PDF highlights work in KOReader"
-msgstr "KOReader中PDF文档标注的工作原理"
+msgstr "KOReader中PDF文档高亮的工作原理"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3003-9
 msgid ""
@@ -6527,10 +6525,10 @@ msgid ""
 "class=\"ui\">.sdr folder</span> which contains a record of your highlights "
 "because now the highlights are embedded directly into the PDF file."
 msgstr ""
-"PDF文档的标注功能与上述说明有所不同。如前所述，保存PDF标注时，标注数据会被直"
+"PDF文档的高亮功能与上述说明有所不同。如前所述，保存PDF高亮时，高亮数据会被直"
 "接写入到PDF文档中，成为文档的一部分。这就是为何该PDF被发送给其它用户后对方可"
-"使用兼容的PDF阅读软件查看标注。对方无需获得包含了标注记录的关联<span "
-"class=\"ui\">.sdr文件夹</span>，因为标注已被直接嵌入PDF文档中。"
+"使用兼容的PDF阅读软件查看高亮。对方无需获得包含了高亮记录的关联<span "
+"class=\"ui\">.sdr文件夹</span>，因为高亮已被直接嵌入PDF文档中。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3005-9
 msgid ""
@@ -6547,8 +6545,8 @@ msgid ""
 "span> option is enabled, so as you make these highlights, KOReader saves "
 "them to your PDF file."
 msgstr ""
-"若<span class=\"ui\">将标注保存到PDF文档</span>选项开启，KOReader会在做下标注"
-"的同时将标注写入PDF文档。"
+"若<span class=\"ui\">将高亮保存到PDF文档</span>选项开启，KOReader会在做下高亮"
+"的同时将高亮写入PDF文档。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3009-13
 msgid ""
@@ -6565,7 +6563,7 @@ msgstr ""
 msgid ""
 "When you open the book on your <b>phone</b> with KOReader, you will see that "
 "your highlights are still there."
-msgstr "当用<b>手机上的</b>KOReader打开书籍，可以看到标注仍保留在书籍中。"
+msgstr "当用<b>手机上的</b>KOReader打开书籍，可以看到高亮仍保留在书籍中。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3013-9
 msgid ""
@@ -6575,7 +6573,7 @@ msgid ""
 "difference."
 msgstr ""
 "此时两处设备上的情况是一致的，<b>电子书阅读器</b>和<b>手机上</b>的KOReader都"
-"能查看PDF文档中的标注。但两者仅是<b>看起来</b>一样，实际却有很大不同。"
+"能查看PDF文档中的高亮。但两者仅是<b>看起来</b>一样，实际却有很大不同。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3015-9
 msgid ""
@@ -6584,7 +6582,7 @@ msgid ""
 "class=\"ui\">.sdr folder</span>. But KOReader on your phone doesn't have "
 "this knowledge. It only has the PDF file."
 msgstr ""
-"<b>电子书阅读器</b>上的KOReader知道此PDF文档中的哪些标注是由KOReader添加的，"
+"<b>电子书阅读器</b>上的KOReader知道此PDF文档中的哪些高亮是由KOReader添加的，"
 "因为它有关联的<span class=\"ui\">.sdr文件夹</span>。但手机上的KOReader则不知"
 "道这些信息，它只能读取PDF文档。"
 
@@ -6596,10 +6594,10 @@ msgid ""
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
 msgstr ""
-"在尝试删除或导出PDF标注时差异就更大了。<b>电子书阅读器</b>上的KOReader即可删"
-"除也可导出标注，但<b>手机上</b>的KOReader则不能。如前所述，它缺少文档关联的"
-"<span class=\"ui\">.sdr文件夹</span>，所以它无法区分哪部分是标注，而只能将标"
-"注视作原文的一部分。"
+"在尝试删除或导出PDF高亮时差异就更大了。<b>电子书阅读器</b>上的KOReader即可删"
+"除也可导出高亮，但<b>手机上</b>的KOReader则不能。如前所述，它缺少文档关联"
+"的<span class=\"ui\">.sdr文件夹</span>，所以它无法区分哪部分是高亮，而只能将"
+"高亮视作原文的一部分。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3019-9
 msgid ""
@@ -6607,7 +6605,7 @@ msgid ""
 "later, you have to copy the <span class=\"ui\">.sdr folder</span> associated "
 "with your book when you backup or copy your book to other devices."
 msgstr ""
-"所以简单来说，如果打算之后导出PDF标注，务必在备份或复制PDF文档到其它设备时将"
+"所以简单来说，如果打算之后导出PDF高亮，务必在备份或复制PDF文档到其它设备时将"
 "关联的<span class=\"ui\">.sdr文件夹</span>一并复制。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3023-1
@@ -7263,7 +7261,7 @@ msgid ""
 "<span class=\"ui\">file browser</span>:"
 msgstr ""
 "<span class=\"ui\">文件管理器</span>可同时对大量文件执行诸如复制、移动、删除"
-"和导出标注的多种操作。要使用该功能，首先要选择对应的文件。<span class=\"ui\">"
+"和导出高亮的多种操作。要使用该功能，首先要选择对应的文件。<span class=\"ui\">"
 "文件管理器</span>当前提供了三种进行批量操作的方式："
 
 #: user_guide/en.html%2Bhtml.body.div.p:3227-5
@@ -8503,7 +8501,7 @@ msgstr "全书阅读进度"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3569-3
 msgid "Highlights, bookmarks and notes"
-msgstr "标注、书签及笔记"
+msgstr "高亮、书签与笔记"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3572-2
 msgid ""
@@ -8534,8 +8532,8 @@ msgid ""
 "making any changes. Otherwise there is a risk of losing your book settings, "
 "progress and annotations."
 msgstr ""
-"<span class=\"label_red\">警告</span> 强烈建议在改动任何设置前阅读下面的章"
-"节，了解各选项的功能及工作原理。否则可能面临丢失书签、阅读进度及笔记的风险。"
+"<span class=\"label_red\">警告</span> 强烈建议在改动任何设置前阅读下面的章节"
+"，了解各选项的功能及工作原理。否则可能面临丢失书签、阅读进度及标注的风险。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3583-1
 msgid "1. Individual metadata folders next to the book files - DEFAULT SETTING"
@@ -8560,8 +8558,8 @@ msgid ""
 msgstr ""
 "这是KOReader新安装时使用的<b>默认</b>方法。在此方法中，当您将<b>Alice In "
 "Wonderland.epub</b>复制到设备并首次打开时，将在同一目录中创建一个名为<span "
-"class=\"ui\">Alice In Wonderland.sdr</span>的文件夹。此目录包含本书的设置、注"
-"释和书籍进度的文件。"
+"class=\"ui\">Alice In Wonderland.sdr</span>的文件夹。此目录包含本书的设置、标"
+"注和书籍进度的文件。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3589-2
 msgctxt "user_guide/en.html+html.body.div.p:3589-2"
@@ -8754,7 +8752,7 @@ msgstr ""
 "些副本位于不同的设备上。例如，如果您正在使用<b>Syncthing</b>，此方法使您能够"
 "在安装了KOReader的许多设备上同步您的<span class=\"ui\">/hashdocsettings</"
 "span>文件夹以及您的书籍文件。尽管这些书在每个设备上的相对路径不同，但您仍然可"
-"以在设备之间同步注释和进度。这在其他方法中是不可能的。"
+"以在设备之间同步标注和进度。这在其他方法中是不可能的。"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3642-3
 msgctxt "user_guide/en.html+html.body.div.p:3642-3"
@@ -8769,7 +8767,7 @@ msgid ""
 "method). In this case KOReader wouldn't be able to recognize the book so "
 "these books will lose their metadata."
 msgstr ""
-"任何直接修改文件的操作（如将标注写入PDF文档或从<b>Calibre</b>下载标注）都会使"
+"任何直接修改文件的操作（如将高亮写入PDF文档或从<b>Calibre</b>下载高亮）都会使"
 "文件发生变化，导致文件的<b>MD5校验值发生变化</b>（不过重命名文件或移动文件对"
 "此没有影响）。此时KOReader无法识别该书籍，因此该书籍的元数据将会丢失。"
 
@@ -9819,15 +9817,15 @@ msgstr "切换自定义隐藏页"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Set highlight action"
-msgstr "设置标注动作"
+msgstr "设置高亮动作"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
 msgid "Cycle highlight action"
-msgstr "重复标注动作"
+msgstr "轮换高亮动作"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
 msgid "Cycle highlight style"
-msgstr "重复标注样式"
+msgstr "轮换高亮样式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Save book metadata"
@@ -9835,7 +9833,7 @@ msgstr "保存书籍元数据"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Export annotations"
-msgstr "导出笔记"
+msgstr "导出标注"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Export all notes in current book"
@@ -10255,11 +10253,11 @@ msgstr "上翻页键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4175-17
 msgid "Highlighting"
-msgstr "标注"
+msgstr "高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4178-13
 msgid "Enter highlighting mode"
-msgstr "进入标注模式"
+msgstr "进入高亮模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4179-13
 msgid "H"
@@ -10267,7 +10265,7 @@ msgstr "H字母键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4182-13
 msgid "Start/stop highlighting"
-msgstr "开始/结束 标注"
+msgstr "开始/结束 高亮"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4183-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4183-13"
@@ -10276,7 +10274,7 @@ msgstr "回车键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4186-13
 msgid "Move highlight indicator"
-msgstr "移动标注光标"
+msgstr "移动高亮光标"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4187-13
 msgid "Left/Right<br>Up/Down"
@@ -10292,7 +10290,7 @@ msgstr "同时按下Shift键及方向键"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4194-13
 msgid "Exit highlighting mode"
-msgstr "退出标注模式"
+msgstr "退出高亮模式"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4195-13
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4195-13"
@@ -11697,15 +11695,14 @@ msgstr ""
 msgid ""
 "<b> Export highlights </b> - Export highlights and notes to local files or "
 "to Joplin (a note taking application)"
-msgstr ""
-"<b>导出标注</b>——将标注和笔记导出为本地文件或上传到Joplin（一款笔记软件）"
+msgstr "<b>导出高亮</b>——将高亮和笔记导出为本地文件或上传到Joplin（一款笔记软件）"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4673-9
 msgid ""
 "<b> Flashcard trainer </b> - Show flashcards using spaced repetition (SM2) "
 "of highlight from your library"
 msgstr ""
-"<b>抽记卡片练习</b>——将个人藏书库中的标注内容按照间隔重复记忆法（SM2）生成抽"
+"<b>抽记卡片练习</b>——将个人藏书库中的高亮内容按照间隔重复记忆法（SM2）生成抽"
 "记卡片"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4674-9
@@ -12631,7 +12628,7 @@ msgid ""
 "<b>same name as your book</b>. You can backup these folders separately if "
 "you wish."
 msgstr ""
-"<span class=\"label_blue\">说明</span> 每本书籍的设置及标注存储在书籍文档所在"
+"<span class=\"label_blue\">说明</span> 每本书籍的设置及高亮存储在书籍文档所在"
 "目录的<b>同名文件夹</b>中。如有需要可单独备份这些文件夹。"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4934-1
@@ -12648,11 +12645,11 @@ msgid ""
 "<span class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
-"这可能是由于启用了<span class=\"ui\">将标注写入PDF文档</span>功能。保存PDF标"
-"注会编辑文档数据进而导致同步失败。如果这两项功能都要使用，请在<span "
-"class=\"ui\">阅读进度同步</span>插件设置中，将<span class=\"ui\">文档匹配方式"
-"</span>从默认的<span class=\"ui\">二进制值匹配</span>改为<span class=\"ui\">"
-"文件名匹配</span>："
+"这可能是由于启用了<span class=\"ui\">将高亮写入PDF文档</span>功能。保存PDF高"
+"亮会编辑文档数据进而导致同步失败。如果这两项功能都要使用，请在<span "
+"class=\"ui\">阅读进度同步</span>插件设置中，将<span class=\"ui\">文档匹配方"
+"式</span>从默认的<span class=\"ui\">二进制值匹配</span>改为<span "
+"class=\"ui\">文件名匹配</span>："
 
 #: user_guide/en.html%2Bhtml.body.div.div:4938-9
 msgid ""
@@ -12693,9 +12690,9 @@ msgid ""
 "the opening and page turning because these large images has to be rescaled "
 "to fit on your screen and this process can be CPU intensive."
 msgstr ""
-"PDF文档<b>可能内嵌大尺寸图片文件</b>。即使带有正常文本层的文档（可选中并标"
-"注），仍可能叠加了另一个图片层（页面的整体扫描件）；这会拖慢文档打开及翻页速"
-"度，因为大尺寸图片需要被压缩到屏幕尺寸以供显示，而该过程非常消耗CPU算力。"
+"PDF文档<b>可能内嵌大尺寸图片文件</b>。即使带有正常文本层的文档（可选中并高亮"
+"），仍可能叠加了另一个图片层（页面的整体扫描件）；这会拖慢文档打开及翻页速度"
+"，因为大尺寸图片需要被压缩到屏幕尺寸以供显示，而该过程非常消耗CPU算力。"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4949-9
 msgid ""
