@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 07:13+0000\n"
 "PO-Revision-Date: 2026-04-17 08:10+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Adam <podli27yahoo@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
-msgstr "英語"
+msgstr "英文"
 
 #: user_guide/en.html%2Bhtml.head.title:8-1
 msgid "KOReader User Guide"
@@ -743,14 +743,13 @@ msgstr ""
 "class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1134-9
-#, fuzzy
 msgid ""
 "Add your books to your <span class=\"ui\">Favorites</span> for quick access "
 "or create your own <span class=\"ui\">Collections</span> with sorting and "
 "filtering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 msgstr ""
-"加入自己圖書到<span class=\"ui\">收藏夾</span>讓你快速閱讀，也能創造自己的"
-"<span class=\"ui\">文件夾</span>包括整理技能<a href=\"#L2-collections\" "
+"加入你的書籍至<span class=\"ui\">最愛</span>讓你快速存取或建立個人<span "
+"class=\"ui\">收藏</span>，還有排序和篩選功能<a href=\"#L2-collections\" "
 "class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1137-1
@@ -796,7 +795,7 @@ msgid ""
 "don't like the one that comes with your book <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 msgstr ""
-"自動或手動另建新的目錄，以防你不喜歡書本原來的目錄 <a href=\"#L2-toctools\" "
+"自動或手動另建替代目錄，以防你不喜歡書本原來的目錄 <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1149-9
@@ -1067,13 +1066,13 @@ msgstr ""
 msgid ""
 "In addition to transferring files the same way you would with the built-in "
 "reader application, other options are available depending on your device:"
-msgstr ""
+msgstr "除了可像向內置閲讀器一樣傳輸檔案，在不同裝置上，還有更多不同傳輸檔案的方式："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1236-9
 msgid ""
 "<b>USB mass storage mode within KOReader:</b> This mode is available for "
 "KOBO and some CERVANTES devices."
-msgstr ""
+msgstr "<b>KOReader 內置USB 大量儲存模式 </b> 此模式在KOBO和特定CERVANTES裝置上可用。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1238-9
 msgid ""
@@ -1082,12 +1081,17 @@ msgid ""
 "menu shown below. Process is explained via <span class=\"ui\">info</span> "
 "buttons in the menu while adding accounts:"
 msgstr ""
+"<b>雲端儲存 (<span class=\"external\">Dropbox</span>/FTP/Webdav):</b> 使用此"
+"功能前，需先在以下的目錄中新增雲端儲存伺服器的賬户。新增賬户時，可點擊目錄中"
+"的 <span class=\"ui\">資訊</span> 查看流程："
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1240-9
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / Cloud storage"
 msgstr ""
+"頂層目錄（檔案瀏覽器中）/ <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / 雲端儲存"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1243-9
 msgid ""
@@ -1098,6 +1102,11 @@ msgid ""
 "operating system supports. Check our <a href=\"https://github.com/koreader/"
 "koreader/wiki/SSH\">wiki</a> for how-to and also see the warning box below."
 msgstr ""
+"<b>SSH/SFTP 存取:</b> KOReader可用作 <b>SSH 伺服器</b>，以電腦存取即可傳輸檔"
+"案（在Kobo，Kindle，Cervantes上可用)。 你亦可以使用 SFTP 應用程式（例如 "
+"<span class=\"external\">Filezilla</span>），或如果你的作業系統支援，可透過檔"
+"案管理員存取伺服器。訪問我們的 <a href=\"https://github.com/koreader/"
+"koreader/wiki/SSH\">維基百科</a>查看教學，以及閲讀下方的警示格。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1245-9
 msgid ""
@@ -1106,6 +1115,10 @@ msgid ""
 "KOReader devices via a wifi connection. Check our <a href=\"https://"
 "github.com/koreader/koreader/wiki/calibre\">wiki</a> for how-to."
 msgstr ""
+"<b>Calibre 傳輸：</b> 使用<span class=\"external\">Calibre 插件</span>即可透"
+"過Wifi 連接從你的Calibre 藏書庫直接傳輸檔案至你的KOReader。訪問我們的 <a "
+"href=\"https://github.com/koreader/koreader/wiki/calibre\">維基百科</a> 查看"
+"教學。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1247-9
 msgid ""
@@ -1113,6 +1126,9 @@ msgid ""
 "b> news entries as HTML files. Check <a href=\"https://github.com/koreader/"
 "koreader/wiki/News-downloader\">wiki</a> for how-to."
 msgstr ""
+"<b>新聞下載器：</b> 使用插件即可下載 <b>RSS 和 Atom</b> 新聞的HTML檔案。訪問 "
+"<a href=\"https://github.com/koreader/koreader/wiki/News-downloader\">維基百"
+"科</a> 查看教學。"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1249-9
 msgid ""
@@ -1593,20 +1609,13 @@ msgid "Go to the plugin menu:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1419-30
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:881-17user_guide/"
-#| "en.html+html.body.div.div.table.tr.td.div:881-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1419-30"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"頂層選單 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 標注樣式"
+"頂層選單 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / 螢幕 / 自動暖色和夜間模式"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1421-3
 msgid ""
@@ -2447,20 +2456,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1776-5
-#, fuzzy
-#| msgctxt ""
-#| "user_guide/en.html+html.body.div.div.table.tr.td.div:881-17user_guide/"
-#| "en.html+html.body.div.div.table.tr.td.div:881-17"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlight style"
 msgctxt "user_guide/en.html+html.body.div.div:1776-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"頂層選單 / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / 標注樣式"
+"頂層選單 / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / 狀態欄 / 替代狀態欄"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1778-5
 msgid ""
@@ -2706,9 +2708,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1885-1
-#, fuzzy
 msgid "Go back to previous location"
-msgstr "返回跳轉前的位置"
+msgstr "返回上一個路徑"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1887-5
 msgid ""
