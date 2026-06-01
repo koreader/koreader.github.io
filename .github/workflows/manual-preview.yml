@@ -8,14 +8,20 @@ jobs:
     steps:
       - name: Manual HTML Preview English
         id: html_preview_en
-        uses: pavi2410/html-preview-action@v4
+        uses: pavi2410/html-preview-action@v5
         with:
-          html_file: 'user_guide/en.html'
+          html_file: user_guide/en.html
+          site_root: dist
+          upload: auto
+          job_summary: true
       - name: Manual HTML Preview Persian (RTL)
         id: html_preview_fa
-        uses: pavi2410/html-preview-action@v4
+        uses: pavi2410/html-preview-action@v5
         with:
-          html_file: 'user_guide/fa.html'
+          html_file: user_guide/fa.html
+          site_root: dist
+          upload: auto
+          job_summary: true
       - name: Create comment
         uses: actions/github-script@v9
         with:
@@ -25,5 +31,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview_en.outputs.url) }}, ${{ format('[RTL]({0})' steps.html_preview_fa.outputs.url) }}'
+              body: '${{ format('[Click here to preview HTML page in browser]({0})', steps.html_preview_en.outputs.url) }}, ${{ format('[RTL]({0})', steps.html_preview_fa.outputs.url) }}'
             })
