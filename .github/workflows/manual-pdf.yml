@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Discover language HTML files
         id: langs
@@ -32,7 +32,7 @@ jobs:
         lang: ${{ fromJSON(needs.discover.outputs.langs) }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install WeasyPrint (cached)
         uses: awalsh128/cache-apt-pkgs-action@v1
