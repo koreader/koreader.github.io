@@ -10,8 +10,8 @@ jobs:
         id: html_preview_en
         uses: pavi2410/html-preview-action@v5
         with:
-          html_file: user_guide/en.html
-          site_root: dist
+          html_file: en.html
+          site_root: user_guide
           upload: auto
           job_summary: true
       - name: Manual HTML Preview Persian (RTL)
