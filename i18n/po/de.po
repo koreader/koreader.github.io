@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-29 15:01+0000\n"
-"PO-Revision-Date: 2026-06-30 16:02+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-03 05:01+0000\n"
+"Last-Translator: Jamal Nasir <jamal.nasir1812@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/koreader/user-"
 "guide/de/>\n"
 "Language: de\n"
@@ -13,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.7.dev0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -1690,21 +1689,22 @@ msgid ""
 msgstr "Sollte das Feature bei der Nutzung stören, kannst du es abwählen mit:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1372-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\">/ Device / Keyboard / Swipe to input additional "
 "characters"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"⇑ HAUPT MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:26px;\"> → Weitere tools → Developer optionen "
+"→ Clear caches"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1374-5
 msgid ""
 "Additionally there are some shortcuts for easier text manipulation. You can "
 "<b>tap and hold</b> these keys for extra actions:"
 msgstr ""
+"Desweiteren gibt es einige Schnellwahlen zur einfacheren Text Bearbeitung. "
+"Du kannst diese Tasten <b>Halten</b> für extra Funktionen"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1376-9
 msgid "<b>Left Arrow</b> - Moves the cursor to the beginning of the line"
@@ -1798,6 +1798,8 @@ msgid ""
 "You can adjust the warmth of your screen frontlight automatically in two "
 "different ways:"
 msgstr ""
+"Sie können die Farbtemperatur der Bildschirmbeleuchtung auf zwei "
+"verschiedene Arten automatisch anpassen:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1408-5
 msgid ""
@@ -1806,6 +1808,10 @@ msgid ""
 "<b>static</b>, it doesn’t account for daylight length. The schedule stays "
 "the same all around the year."
 msgstr ""
+"<span class=\"ui\">Fester Zeitplan:</span> In diesem Modus ändert sich die "
+"Farbtemperatur Ihres Frontlichts entsprechend dem von Ihnen eingegebenen "
+"Tageszeitplan. Dieser Modus ist <b>statisch</b> und berücksichtigt nicht die "
+"Tageslichtdauer. Der Zeitplan bleibt das ganze Jahr über unverändert."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1410-5
 msgid ""
@@ -1816,45 +1822,55 @@ msgid ""
 "As the length of daylight changes around the year, plugin adjusts the "
 "schedule accordingly."
 msgstr ""
+"<span class=\"ui\">Sonnenstand:</span> Diese Option berechnet den "
+"Sonnenstand an Ihrem Standort anhand der von Ihnen eingegebenen <b>"
+"Koordinaten</b> und <b>Höhenangaben</b>. Die Wärme des Frontlichts wird "
+"schrittweise entsprechend dieser berechneten Sonnenstanddaten angepasst. "
+"Dieser Modus ist <b>dynamisch</b>. Da sich die Tageslichtdauer im Laufe des "
+"Jahres ändert, passt das Plugin den Zeitplan entsprechend an."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1412-5
 msgid ""
 "First have a look at this image to familiarize yourself with the terms used "
 "in the plugin:"
 msgstr ""
+"Schau dir zunächst dieses Bild an, um sich mit den im Plugin verwendeten "
+"Begriffen vertraut zu machen:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1416-5
 msgid "Fixed Schedule Mode"
-msgstr ""
+msgstr "Fester Zeitplanmodus"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1419-3
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:1419-3"
 msgid "Go to the plugin menu:"
-msgstr "Book status"
+msgstr "Rufe das Plugin-Menü auf:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1419-30
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1419-30"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"⇑ HAUPT MENU (im Dateibrowser) → <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:26px;\"> → Weitere tools → Developer optionen "
+"→ Clear caches"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1421-3
 msgid ""
 "Tap Activate menu item and then tap <span class=\"ui\">According to the "
 "fixed schedule</span>"
 msgstr ""
+"Tippen Sie auf den Menüpunkt „Aktivieren“ und anschließend auf <span "
+"class=\"ui\">Nach festem Zeitplan</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1423-3
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Fixed schedule settings</"
 "span> menu item"
 msgstr ""
+"Gehen Sie zurück zum vorherigen Menü und tippen Sie auf den Menüpunkt <span "
+"class=\"ui\">Einstellungen für feste Zeitpläne</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1425-3
 msgctxt "user_guide/en.html+html.body.div.ol.li:1425-3"
