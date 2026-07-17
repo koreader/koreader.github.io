@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-16 11:04+0000\n"
 "PO-Revision-Date: 2026-07-17 12:01+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -1621,7 +1620,7 @@ msgid ""
 "style=\"width:22px;\"> / Device / Keyboard / Keyboard layout"
 msgstr ""
 "ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Устройство / Клавиатура / Раскладка"
+"style=\"width:22px;\"> / Устройство / Клавиатура / Раскладка клавиатуры"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1355-3
 msgid ""
@@ -1971,7 +1970,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1460-1
 msgid "Frontlight auto on/off"
-msgstr ""
+msgstr "Автоматическое включение/выключение подсветки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1462-5
 msgid ""
@@ -2132,6 +2131,10 @@ msgid ""
 "highlight. We have different types of note markers. Click here for more "
 "info: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting and Notes</a>"
 msgstr ""
+"<b>Метка примечания:</b> Значок заметки показывается когда вы добавляете "
+"заметку к выделенному тексту. Имеются разные типы значков заметок. Больше "
+"информации находится здесь: <a href=\"#L1-bookmarks\">Закладки, Выделения и "
+"Заметки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1516-1
 msgid "Indicator icons"
@@ -2143,6 +2146,9 @@ msgid ""
 "and states as you can see in the image above. You will see them at the top "
 "left corner of your screen during certain operations."
 msgstr ""
+"KOReader имеет некоторые индикаторы, которыми информирует о текущих "
+"процессах и состояниях, как показано на рисунке выше. Вы увидите их в "
+"верхнем левом углу экрана во время выполнения определенных операций."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1524-17
 msgid ""
@@ -2741,6 +2747,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1752-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
 msgstr ""
+"<b>-</b> Может плохо выглядеть на LCD-экранах и экранах с низкой плотностью "
+"пикселей"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1754-9
 msgid "FONT WEIGHT"
@@ -5951,17 +5959,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2899-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2899-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"НИЖНЕЕ МЕНЮ / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
+"bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2901-5
 msgid ""
@@ -12152,28 +12156,29 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4997-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Подстройки стиля / Подстройка конкретной книги"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5000-9
 msgid ""
 "<span class=\"external\">Calibre</span>’s e-book editor can check EPUB files "
 "for problems and has tools to fix some of the problems."
 msgstr ""
+"<span class=\"external\">Calibre</span> - редактор электронных книг может "
+"проверять файлы EPUB на наличие проблем и имеет инструменты для исправления "
+"некоторых из них."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:5001-9
 msgid ""
 "You can download <span class=\"external\">Calibre</span> from <a "
 "href=\"https://calibre-ebook.com/\">here</a>."
 msgstr ""
+"Вы можете скачать <span class=\"external\">Calibre</span> от <a "
+"href=\"https://calibre-ebook.com/\">сюда</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:5003-9
 msgid ""
@@ -12181,6 +12186,9 @@ msgid ""
 "class=\"external\">Calibre</span> <a href=\"https://manual.calibre-ebook.com/"
 "edit.html#checking-the-book\">here</a>."
 msgstr ""
+"Посмотреть инструкцию по использованию инструмента <b>Check book</b> в <span "
+"class=\"external\">Calibre</span> вы можете <a href=\"https://manual.calibre-"
+"ebook.com/edit.html#checking-the-book\">здесь</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5005-9
 msgid ""
@@ -12190,18 +12198,26 @@ msgid ""
 "class=\"external\">EPUBCheck</span> <a href=\"https://github.com/koreader/"
 "koreader/issues/11268\">here</a>."
 msgstr ""
+"<span class=\"external\">EPUBCheck</span> - приложение, которое может "
+"проверять корректность EPUB-файлов и обнаруживать разные типы ошибок. Пример "
+"проблемы, обнаруженной с помощью <span class=\"external\">EPUBCheck</span> "
+"<a href=\"https://github.com/koreader/koreader/issues/11268\">здесь</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:5007-9
 msgid ""
 "You can download the <b>command line version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck\">here</a>."
 msgstr ""
+"Вы можете скачать <b>версию командной строки</b> от <a href=\"https://"
+"github.com/w3c/epubcheck\">сюда</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:5009-9
 msgid ""
 "Or download a <b>graphical user interface version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck/wiki/GUI\">here</a>."
 msgstr ""
+"или скачать <b>версию с графическим интерфейсом</b> от <a href=\"https://"
+"github.com/w3c/epubcheck/wiki/GUI\">сюда</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5013-5
 msgid "Opening an issue:"
@@ -12249,7 +12265,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5028-1
 msgid "My status bar disappeared"
-msgstr "Мой статус бар пропал"
+msgstr "У меня пропала строка состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5030-5
 msgid ""
@@ -12270,15 +12286,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5039-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Gesture intervals / Tap interval"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Интервалы жестов / Интервал "
+"касания"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5041-5
 msgid ""
@@ -12286,10 +12300,14 @@ msgid ""
 "apply. So you can still quickly browse pages by tapping quickly "
 "alternatively with two fingers."
 msgstr ""
+"Эта настройка не повлияет на два последовательных касания, выполненных на "
+"расстоянии друг от друга. Поэтому вы и дальше сможете быстро листать "
+"страницы быстрыми прикосновениями разными пальцами поочередно или одним "
+"пальцем в разных точках."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5047-1
 msgid "KOReader can't write to the SD card"
-msgstr "Cleaning your book cover cache database"
+msgstr "KOReader не может записывать данные на SD-карту"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5049-9
 msgid ""
@@ -12319,7 +12337,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5059-5
 msgid "Sleep cover problems"
-msgstr "Clearing file cache"
+msgstr "Проблемы с чехлами с функцией засыпания"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5060-9
 #, fuzzy
@@ -12339,14 +12357,13 @@ msgstr ""
 "cache and reclaim the space you can go to:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5062-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Ignore all sleep cover events"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Устройство / Игнорировать все события чехла с "
+"функцией засыпания"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5068-1
 msgid "Text indentation problems"
@@ -12363,16 +12380,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5072-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:24px;\"> / Style"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:24px;\"> / Стиль"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5076-9
 msgid ""
@@ -12380,6 +12393,10 @@ msgid ""
 "stylesheet, with <b>text-align: justify, text-indent on P</b>. It is better "
 "for unstyled books, and might make styled books more readable."
 msgstr ""
+"По умолчанию <span class=\"ui\">HTML/EPUB (epub.css)</span> — это наша "
+"таблица стилей для книг, где <b>text-align: justify, text-indent внутри P</b>"
+". Она лучше подходит для книг без стилей и может сделать более приятными для "
+"чтения книги со стилями."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:5078-9
 msgid ""
@@ -12392,7 +12409,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5086-1
 msgid "Cleaning your book cover cache database"
-msgstr ""
+msgstr "Очистка кэша базы данных обложек книг"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5088-5
 msgid ""
@@ -12403,15 +12420,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5090-5
-#, fuzzy
 msgid ""
 "TOP MENU (in File Browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:22px;\"> / Settings / Mosaic and detailed "
 "list settings / Book info cache management"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в файловом менеджере) / <img class=\"img_inline\" "
+"src=\"pictures/top_cabinet.svg\" style=\"width:22px;\"> / Настройки / "
+"Настройки мозаики и подробного списка / Управление кэшем информации о книгах"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5096-1
 msgid "Clearing file cache"
@@ -12428,15 +12444,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:5099-5
-#, fuzzy
 msgid ""
 "TOP MENU (in file browser) / <img class=\"img_inline\" src=\"pictures/"
 "top_tools.svg\" style=\"width:22px;\"> / More tools / Developer options / "
 "Clear caches"
 msgstr ""
-"⇑ ВЕРХНЕЕ МЕНЮ (в Просмотр Файлов) → <img class=\"img_inline\" "
-"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> → "
-"Настройки→Настройки мозаики и подробного перечня"
+"ВЕРХНЕЕ МЕНЮ (в менеджере файлов) / <img class=\"img_inline\" src=\"pictures/"
+"top_tools.svg\" style=\"width:22px;\"> / Прочие инструменты / Настройки "
+"разработчиков / Очистить кэши"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5101-5
 msgid ""
@@ -12458,6 +12473,11 @@ msgid ""
 "GitHub account which is free. Click this link to open our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub Issues</a> page."
 msgstr ""
+"KOReader использует <span class=\"external\">GitHub</span> в качестве "
+"проектной базы. Сообщать о проблемах или вносить предложения можно на нашей "
+"странице в GitHub. Вам понадобится всего лишь бесплатная учётная запись "
+"GitHub. Нажмите на эту ссылку, чтобы открыть нашу страницу <a href=\"https://"
+"github.com/koreader/koreader/issues\">GitHub Issues</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5118-9
 msgid ""
@@ -12471,37 +12491,40 @@ msgstr ""
 msgid ""
 "When you click the <b>New Issue</b> button you will be presented with two "
 "options:"
-msgstr ""
+msgstr "При нажатии кнопки <b>New Issue</b> вам будет предложено два варианта:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5124-9
 msgid ""
 "Click the appropriate one and follow the instructions on the page to report "
 "your problem or suggestion."
 msgstr ""
+"Нажмите на соответствующую кнопку и следуйте инструкциям на странице, чтобы "
+"сообщить о своей проблеме или внести предложение."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5126-9
 msgid ""
 "If you are reporting a bug, <b>verbose debug logs</b> are very helpful to "
 "determine the problem. You can enable them via:"
 msgstr ""
+"Если вы создаёте сообщение об ошибке, то будут полезны сведения из <b>"
+"подробного журнала отладки</b>. Вы можете включить его следующим способом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5128-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Report a bug / Enable verbose logging"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Справка / Сообщить об ошибке / Включить подробный "
+"журнал отладки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5130-9
 msgid ""
 "You can also find the version number of your KOReader and your device type "
 "from the same dialog for reporting."
 msgstr ""
+"Версию KOReader и тип устройства можно увидеть в том же диалоговом окне "
+"сообщения об ошибке."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5132-9
 msgid ""
@@ -12509,21 +12532,28 @@ msgid ""
 "can write to the <a href=\"https://github.com/koreader/koreader/issues/"
 "11147\">GitHub discussion thread</a>"
 msgstr ""
+"Если у вас есть предложение или вопрос, связанный с <b>Руководством "
+"пользователя</b>, вы можете написать в <a href=\"https://github.com/koreader/"
+"koreader/issues/11147\">этой теме обсуждений на GitHub</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5136-1
 msgid "You can also . . ."
-msgstr ""
+msgstr "Вы также можете ..."
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5141-3
 msgid ""
 "Find other KOReader users on <a href=\"https://www.mobileread.com/forums/"
 "forumdisplay.php?f=276\">MobileRead forums</a>"
 msgstr ""
+"Найдите других пользователей KOReader на <a href=\"https://"
+"www.mobileread.com/forums/forumdisplay.php?f=276\">форумах MobileRead</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5148-3
 msgid ""
 "Reach us at <a href=\"https://gitter.im/koreader/koreader\">Gitter chat</a>"
 msgstr ""
+"Связаться с нами через <a href=\"https://gitter.im/koreader/koreader\">чат "
+"Gitter</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:5153-3
 msgid ""
