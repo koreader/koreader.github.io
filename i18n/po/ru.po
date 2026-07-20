@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-19 17:03+0000\n"
 "PO-Revision-Date: 2026-07-20 18:01+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -1961,6 +1960,14 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"При настройке процентов теплоты подсветки для разных интервалов времени, для "
+"этих же промежутков можно также установить <span class=\"ui\">Ночной режим</"
+"span>, который инвертирует цвета экрана в начале этого временного интервала. "
+"Если минимальное значение яркости подсветки экрана всё ещё слишком яркое или "
+"если вам больше нравится тёмный фон страницы, тогда можно активировать эту "
+"функцию. Для этого в следующем диалоге установите галочку для параметра "
+"<span class=\"ui\">Ночной режим</span>, а затем <span class=\"ui\">"
+"Применить</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1454-5
 msgid ""
@@ -1968,6 +1975,9 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"После этого, в меню рядом с этим временным интервалом появится <b>значок "
+"луны</b>. Чтобы отключить ночной режим, снимите галочку с параметра <span "
+"class=\"ui\">Ночной режим</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1460-1
 msgid "Frontlight auto on/off"
@@ -1983,39 +1993,45 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Эта функция включает подсветку экрана на рассвете и выключает на закате в "
+"соответствии с <span class=\"ui\">Текущими активными параметрами</span> "
+"этого плагина. Ручное включение/выключение подсветки экрана имеет приоритет "
+"над этим параметром. Во время следующего восхода/заката параметр <span "
+"class=\"ui\">Автотеплота</span> снова переключится. Её можно активировать "
+"выбрав в плагине пункт меню <span class=\"ui\">Выключение подсветки днём</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgid "Faster warmth transitions"
-msgstr ""
+msgstr "Более быстрые переходы теплоты подсветки экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1468-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
 msgstr ""
+"Если нужно, чтобы температура подсветки экрана изменялась быстро, а не "
+"медленно:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1470-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "Выберите режим <b>Установленное расписание</b>, как это описано ниже"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1471-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "И настройте параметры подобно тому, как указано ниже:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1476-5
-#, fuzzy
 msgid ""
 "As you can see in these settings above, there is only a one minute "
 "difference between day-night transition. So the screen warmth goes from <b>0 "
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
-"When starting up, KOReader compiles the available fonts from the <b>font "
-"metadata/info</b> and classifies them according to family and weights. This "
-"means you can add different weights and variants of a font and KOReader will "
-"try to use the most suitable one. Since it takes font family information "
-"from metadata, font names are not important when copying to your device. "
-"Installed fonts will be available after restarting KOReader."
+"Как можно увидеть в вышеперечисленных настройках, между переходом день-ночь "
+"только одна минута. Поэтому теплота подсветки экрана меняется <b>от 0 до 100 "
+"(или наоборот) всего за минуту</b>. Чтобы сделать переход более длительным, "
+"можно увеличить этот временной интервал."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
@@ -2384,46 +2400,41 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Alt Status Bar"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"НИЖНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Альтернативная строка состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1625-5
 msgid ""
 "You can configure the <span class=\"ui\">Alt status bar</span> from this "
 "menu:"
 msgstr ""
+"Вы можете настроить <span class=\"ui\">альтернативную строку состояния</"
+"span> из этого меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1627-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:1627-5"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния / Альтернативная строка состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1629-5
 msgid ""
 "Instructions in the rest of this section are for the <span "
 "class=\"ui\">Bottom status bar</span>."
 msgstr ""
+"Инструкции в следующей части раздела относятся к <span class=\"ui\">Нижней "
+"строке состояния</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1631-1
-#, fuzzy
 msgid "Configuring the status bar"
-msgstr "Book map"
+msgstr "Настройка строки состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1633-2
 msgid ""
@@ -2433,16 +2444,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1635-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1639-5
 msgid ""
@@ -4387,35 +4394,35 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2286-5
 msgid "Serif:"
-msgstr "С засечками:"
+msgstr "С засечками (Serif):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2288-9
 msgid "Spectral"
-msgstr ""
+msgstr "Spectral"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2289-9
 msgid "Vollkorn"
-msgstr ""
+msgstr "Vollkorn"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2290-9
 msgid "EB Garamond"
-msgstr ""
+msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2293-5
 msgid "Sans Serif:"
-msgstr ""
+msgstr "Без засечек (Sans Serif):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2295-9
 msgid "Varela Round"
-msgstr ""
+msgstr "Varela Round"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2296-9
 msgid "Wix Madefor Text"
-msgstr ""
+msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2297-9
 msgid "Maven Pro (User guide font you are currently reading)"
-msgstr ""
+msgstr "Maven Pro (шрифт, используемый в англоязычной версии руководстве)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2300-5
 msgid "Monospace:"
@@ -4428,6 +4435,10 @@ msgid ""
 "find and compare many monospace fonts at <a href=\"https://"
 "www.programmingfonts.org/\">programmingfonts.org</a>"
 msgstr ""
+"Если вы планируете использовать собственный моноширинный шрифт, вероятно, у "
+"вас уже есть любимый, поэтому мы не приводим здесь никаких примеров. Но вы "
+"можете найти и сравнить множество моноширинных шрифтов на сайте <a "
+"href=\"https://www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2303-2
 msgid ""
@@ -4437,22 +4448,27 @@ msgid ""
 "ligatures and character sets in non-Latin scripts like Greek, Hebrew or "
 "Chinese. You can access this feature via:"
 msgstr ""
+"<span class=\"label_green\">СОВЕТ</span> KOReader может генерировать "
+"документ с образцом текста, написанным всеми шрифтами, установленными на "
+"устройстве. Это позволяет быстро сравнить вид и возможности шрифтов, как "
+"лигатуры и наборы символов в нелатинских алфавитах, например, греческом, "
+"иврите или китайском. Доступ к этой функции можно получить следующим "
+"способом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2305-3
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Generate font test document"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Device Status Alerts → Battery Level"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Шрифт / Настройки шрифта / Создать тестовый "
+"документ со шрифтами"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2310-1
 msgid "Monospace font scale"
-msgstr "Using different fonts in one document"
+msgstr "Масштабирование моноширинных шрифтов"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2312-5
-#, fuzzy
 msgid ""
 "If your book includes parts with <b>Monospace</b> fonts (like in programming "
 "books), Monospace text might look disproportional even if it is technically "
@@ -4460,34 +4476,33 @@ msgid ""
 "metrics. KOReader has an option that allows you to adjust the relative "
 "Monospace font size to fix this difference:"
 msgstr ""
-"In HTML/CSS based documents like EPUBs, books can specify to use fonts by "
-"family instead of a specific font name. These families can be <b>Serif, Sans-"
-"Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For "
-"example in a book, normal text can be shown in <b>Sans-serif</b> while "
-"dialogues are shown in <b>Serif</b> font. KOReader normally uses your "
-"default font for all these families except <b>Monospace</b> and <b>Math</b> "
-"(which is determined by the style of the text nodes, for example <b>'font-"
-"family: serif'</b>). If you want these families to look distinct, you can "
-"assign specific fonts for them here:"
+"Если ваши книги содержат <b>Моноширинные</b> шрифты (например, книги по "
+"программированию), то текст, набранный моноширинным шрифтом, может выглядеть "
+"непропорционально, даже если технически он имеет тот же размер, что и "
+"остальная часть книги. Это вызвано различиями в метрике шрифта. В KOReader "
+"есть параметр, позволяющий настроить относительный размер моноширинного "
+"шрифта, чтобы исправить эту непропорциональность:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2314-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Device Status Alerts → Battery Level"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Шрифт / Настройки шрифта / Масштабировать "
+"моноширинные шрифты"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2316-5
 msgid ""
 "Here you can increase or decrease the size of your Monospace font by "
 "adjusting its scaling as a percentage of the default size."
 msgstr ""
+"Здесь вы можете увеличить или уменьшить размер моноширинного шрифта, "
+"отрегулировав его масштабирование в процентах от исходного размера."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2320-1
 msgid "Using different fonts in one document"
-msgstr "Changing font quickly"
+msgstr "Использование разных шрифтов в одном документе"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2322-5
 msgid ""
@@ -4501,21 +4516,28 @@ msgid ""
 "family: serif'</b>). If you want these families to look distinct, you can "
 "assign specific fonts for them here:"
 msgstr ""
+"В документах, основанных на HTML/CSS, таких как EPUB, можно определить "
+"использование книгами шрифта не с конкретным названием, а из определённого "
+"семейства. Существуют следующие семейства шрифтов: <b>с засечками (Serif), "
+"без засечек (Sans Serif), моноширинные (Monospace), курсивные (Cursive), "
+"фэнтези (Fantasy), эмодзи (Emoji), FangSong и математические (Math)</b> "
+"Например, в книге обычный текст может быть показан шрифтом <b>без засечек</b>"
+", а диалоги - шрифтом <b>с засечками</b>. Обычно KOReader использует шрифт, "
+"установленный по умолчанию, для всех этих семейств, кроме <b>моноширинного</"
+"b> и <b>математического</b> (которые определяются стилем текстовых узлов, "
+"например: <b>'font-family: serif'</b>). Если вы хотите, чтобы эти семейства "
+"выглядели по-разному, специфические шрифты для них можно определить "
+"следующим способом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2324-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font-family fonts"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Шрифт / Семейство шрифтов"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2326-5
-#, fuzzy
 msgid ""
 "To change a family font for the current book just tap on the desired font "
 "name. If you want to set this for all your books, long-tap to set it as a "
@@ -4523,8 +4545,12 @@ msgid ""
 "where your default font is hardly used, you can disable that family font for "
 "this book by unchecking the association."
 msgstr ""
-"Check the <a href=\"#qmandprofiles\">QUICK MENU AND PROFILES</a> section of "
-"this guide to learn how to do this."
+"Чтобы изменить семейство шрифтов для текущей книги, просто коснитесь "
+"названия желаемого шрифта. Если хотите установит его для всех своих книг, "
+"удержите на нём палец, чтобы установить его как шрифт используемый <b>по "
+"умолчанию (★)</b>. Если в какой-либо книге эта функция использования "
+"семейства шрифтов используется слишком часто, тогда можно отключить это "
+"семейство шрифтов для данной книги, сняв галочку с соответствующей привязки."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2332-1
 msgid "Changing font quickly"
@@ -5080,18 +5106,16 @@ msgid ""
 "KOReader gives you options to interact with your book like you can do with a "
 "real book. Many settings of the bookmark window can be changed here:"
 msgstr ""
+"KOReader дает возможность взаимодействовать с книгой так же, как с бумажной. "
+"Многие настройки окна закладок можно изменить здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2554-6
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Настройки / Закладки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2559-5
 msgid "BOOKMARKS:"
@@ -5138,23 +5162,20 @@ msgid ""
 "Also if you have a device with a color screen, you can create highlights in "
 "different colors:"
 msgstr ""
+"Кроме того, если у вас устройство с цветным экраном, вы можете делать "
+"выделение разными цветами:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2580-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlights / Highlight color"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Выделения / Цвет выделения"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2584-5
-#, fuzzy
 msgid "Some tips for color highlights:"
-msgstr "1. Export Highlights plugin"
+msgstr "Некоторые подсказки о цветном выделении:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2587-9
 msgid ""
@@ -5216,16 +5237,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2615-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style / Note marker"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Стиль выделения / Метка примечания"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2619-1
 msgctxt "user_guide/en.html:L2-howtohighlight"
@@ -8071,15 +8088,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3626-2
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
 "hashdocsettings"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:26px;\"> / Документ / Хранилище метаданных книги: .../koreader/"
+"hashdocsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3628-2
 msgid ""
@@ -8167,11 +8183,11 @@ msgid ""
 "gestures have limitations regarding where on the screen they can be used and "
 "which directions are supported. These limitations are indicated below."
 msgstr ""
+"Для управления KOReader можно использовать множество типов жестов. Некоторые "
+"жесты имеют ограничения по месту применения на экране и поддерживаемым "
+"направлениям. Эти ограничения указаны ниже."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3660-5
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1033-13"
-#| msgid "Gesture Types"
 msgctxt "user_guide/en.html:L2-gesturetypes"
 msgid "Gesture Types"
 msgstr "Типы жестов"
@@ -8181,6 +8197,9 @@ msgid ""
 "<span class=\"label_blue\">INFO</span> Some devices support only single "
 "touch so multi-finger gestures <b>are not available</b> on them."
 msgstr ""
+"<span class=\"label_blue\">ИНФОРМАЦИЯ</span> Некоторые устройства "
+"поддерживают только одинарные касания, поэтому жесты несколькими пальцами на "
+"них <b>недоступны</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3671-17
 msgid "TAP / DOUBLE TAP"
@@ -8197,11 +8216,11 @@ msgstr "<b>РАБОТАЕТ:</b> в любом месте экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3680-17
 msgid "TAP AND HOLD"
-msgstr ""
+msgstr "КАСАНИЕ И УДЕРЖИВАНИЕ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3681-17
 msgid "Single tap and hold with <b>ONE</b> finger"
-msgstr ""
+msgstr "Касание и удерживание <b>ОДНИМ</b> пальцем"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3682-17
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3682-17"
@@ -8240,30 +8259,33 @@ msgid ""
 "depending on your device. If that’s the case please choose another gesture "
 "type."
 msgstr ""
+"<span class=\"label_blue\">ИНФОРМАЦИЯ</span> На некоторых устройствах этот "
+"жест может работать ненадежно. Если это произошло, выберите другой тип жеста."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3703-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3703-17"
 msgid "ONE FINGER SWIPE"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "ПРОВЕДЕНИЕ ОДНИМ ПАЛЬЦЕМ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3704-9
 msgid "Swiping motion with <b>ONE</b> finger"
-msgstr ""
+msgstr "Проведение по экрану <b>ОДНИМ</b> пальцем"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3705-9
 msgid ""
 "<b>WORKS:</b> Screen edges (HORIZONTAL and VERTICAL) Anywhere except edges "
 "(DIAGONAL)"
 msgstr ""
+"<b>РАБОТАЕТ:</b> Края экрана (ГОРИЗОНТАЛЬНО и ВЕРТИКАЛЬНО) в любом месте, "
+"кроме углов (ДИАГОНАЛЬНО)"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3709-17
 msgid "TWO FINGER SWIPE"
-msgstr ""
+msgstr "ПРОВЕДЕНИЕ ДВУМЯ ПАЛЬЦАМИ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3710-9
 msgid "Swiping motion with <b>TWO</b> fingers at the same time"
-msgstr ""
+msgstr "Проведение по экрану <b>ДВУМЯ</b> пальцами одновременно"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:3711-9
 msgctxt "user_guide/en.html+html.body.div.table.tr.td.p:3711-9"
@@ -8304,6 +8326,8 @@ msgid ""
 "This table shows the gestures that comes with KOReader. You can change these "
 "gestures according to your preferences via:"
 msgstr ""
+"В этой таблице показаны жесты, доступные в KOReader. Вы можете изменить их в "
+"соответствии со своими предпочтениями следующим образом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3733-5
 msgid ""
@@ -8314,51 +8338,46 @@ msgstr ""
 "style=\"width:22px;\"> / Менеджер жестов"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3740-5
-#, fuzzy
 msgid "CORNER TAP"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "КАСАНИЕ УГЛА"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3742-5
 msgid "<b>Top Left Corner</b> > Toggle page flipping"
-msgstr ""
+msgstr "<b>Верхний левый угол</b> > Переключить пролистывание страниц"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3743-5
 msgid "<b>Top Right Corner</b> > Toggle bookmark"
-msgstr ""
+msgstr "<b>Верхний правый угол</b> > Установить/Снять закладку"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3744-5
 msgid "<b>Opposing diagonal corners at the same time</b> > Take screenshot"
 msgstr ""
+"<b>Диагонально противоположные углы одновременно</b> > Сделать снимок экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3748-5
 msgid "DOUBLE TAP"
-msgstr "Двойное касание"
+msgstr "ДВОЙНОЕ КАСАНИЕ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
-#, fuzzy
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr "<b>↓ ↑</b> - Skim document"
+msgstr "<b>Левая сторона</b> > Перейти на –10 страниц"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
-#, fuzzy
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr "<b>↑ ←</b> - Bookmarks"
+msgstr "<b>Правая сторона</b> > Перейти на +10 страниц"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3754-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3754-5"
 msgid "ONE FINGER SWIPE"
-msgstr "Swiping motion with <b>ONE</b> finger"
+msgstr "ПРОВЕДЕНИЕ ОДНИМ ПАЛЬЦЕМ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
-#, fuzzy
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr "<b>↑ ↓ ↑</b> - Previous chapter"
+msgstr "<b>Короткий диагональный свайп</b> > Обновление всего экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
-#, fuzzy
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr "<b>↓ ↑ ↓</b> - Next chapter"
+msgstr "<b>Длинный диагональный свайп</b> > Сделать снимок экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3760-5
 msgid "MULTISWIPES"
@@ -11604,18 +11623,16 @@ msgid ""
 "KOReader can update itself over Wi-Fi. You can trigger the check via this "
 "menu item:"
 msgstr ""
+"KOReader может обновляться самостоятельно через Wi-Fi. Включить или "
+"отключить поиск обновлений можно в этом элементе меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4815-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Update / Check for update"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Обновить / Проверить наличие обновлений"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4818-1
 msgid "Adding a password lock to KOReader"
@@ -11652,63 +11669,56 @@ msgid "And then enable this option:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4827-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Screensaver / Settings / Keep the "
 "screensaver on screen after wakeup / Until 'Exit screensaver' gesture"
 msgstr ""
-"В версии 2023.03 KOReader получил возможность отрисовки при чтении "
-"документов EPUB. До этой версии, когда вы вносили такие изменения, как "
-"изменение размера шрифта, всю книгу приходилось визуализировать заново, "
-"чтобы можно было показать результат новых настроек. Это может занять много "
-"времени в зависимости от устройства и размера книги."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Экран / Заставка / Настройки / Оставлять заставку "
+"экрана после пробуждения / До жеста «Выйти из заставки экрана»"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4833-5
 msgid "Automatic screen dimming"
-msgstr "Автоматическое затемнение экрана"
+msgstr "Автоматическое снижение яркости экрана"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4834-9
 msgid ""
 "KOReader can dim your frontlight to preserve battery if your device is idle "
 "for a while. You can turn on and adjust this feature via:"
 msgstr ""
+"Если ваше устройство долгое время находится в режиме ожидания, KOReader "
+"может приглушать подсветку экрана для экономии заряда батареи. Вы можете "
+"включить и настроить эту функцию следующим образом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4836-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Automatic dimmer"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Экран / Автоматическое снижение яркости"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4839-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and gestures → Gesture manager → “ANY GESTURE” "
-"→ General → Open Previous Document"
+msgstr "Количество строк/слов на странице"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4840-9
 msgid ""
 "If you want to know how many lines or words are being shown on the current "
 "page you can see it at:"
 msgstr ""
+"Если вы хотите узнать, сколько строк или слов отображается на текущей "
+"странице, вы можете посмотреть это здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4842-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:4842-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Информация о книге"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4846-5
 msgid "Optimizing your battery life"
