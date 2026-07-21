@@ -2635,7 +2635,7 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">Select and highlight mode</div>
 
-    <p><span class="ui">Select and highlight mode</span> is more suitable for highlighting longer passages which cross page boundaries. It might also work better if you have touch screen sensitivity problems or motor control issues with your hands. Because in this highlight mode you don’t need to drag your finger along the screen.</p>
+    <p><span class="ui">Режим выбора и выделения</span> больше подходит для выделения больших отрывков, размещенных на двух и более страницах. Он также может лучше работать, если есть проблемы с чувствительностью сенсорного экрана или моторикой рук пользователя, поскольку в этом режиме нет необходимости проводить пальцем по экрану.</p>
 
     <div class="info"><span class="label_blue">INFO</span> If you have dictionary lookup enabled, when you long-press a word, you have to drag your finger to initiate this mode.</div>
         
@@ -2756,7 +2756,7 @@ line-height: 2rem;
     <ul>
         <li><span class="ui">Move to archive</span> plugin menu</li>
         <li>С жестом или</li>
-        <li>Text (.txt)</li>
+        <li>Через пункт <span class="ui">Быстрого меню</span></li>
     </ul>
 
     <p>KOReader provides different ways of exporting your highlights and notes from your reader device:</p>
@@ -2782,11 +2782,11 @@ line-height: 2rem;
         
     <p>Вы можете выбрать предпочтительные форматы экспорта следующим образом:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Export Highlights / Choose formats and services</div>
+    <div class="menu-breadcrumbs">ВЕРХНЕЕ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Экспорт выделений / Выбрать форматы и сервисы</div>
 
-    <p>You can see the export location (and also change it if you want):</p>
+    <p>Путь к папке экспорта файлов посмотреть, а также изменить, можно здесь:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Export Highlights / Choose export folder</div>
+    <div class="menu-breadcrumbs">ВЕРХНЕЕ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Экспорт выделений / Выбрать папку для экспорта</div>
     
     <br>
 
@@ -4476,7 +4476,7 @@ line-height: 2rem;
 				<td><b>Триггер</b></td><td><b>Дополнительные условия</b></td>
 			</tr>
 			<tr>
-				<td><span class="ui">On KOReader start</span><p>Run this profile every time KOReader starts. Note that this is only possible when KOReader is starting with the <span class="ui">File browser</span> or <span class="ui">Last file</span>.</p></td><td>-</td>
+				<td><span class="ui">При запуске KOReader</span><p>Запускать этот профиль каждый раз при запуске KOReader. Обратите внимание, что это возможно только тогда, когда KOReader запускается из <span class="ui">файлового менеджера</span> или <span class="ui">последнего файла</span>.</p></td><td>-</td>
 			</tr>
 			<tr>
 				<td><span class="ui">On wake-up</span> <p>Run this profile every time device wakes up</p></td><td>-</td>
@@ -4533,7 +4533,7 @@ line-height: 2rem;
 	
 			<br><br>
 	
-			<p><b>Profile examples:</b></p>
+			<p><b>Примеры профилей:</b></p>
 	
 			<p>Here are some profile examples from our devs to give you ideas about using this powerful feature of KOReader. Examples also include auto-execute conditions and <span class="ui">collections</span> features:</p>
 	
@@ -4552,7 +4552,7 @@ line-height: 2rem;
         
 <div class="L3-Smaller-heading">Technical details of Profiles and Quick Menu</div>
 
-        <p><span class="label_red">!!! ADVANCED</span></p>
+        <p><span class="label_red">!!! ДЛЯ ОПЫТНЫХ</span></p>
     
         <p>
         In KOReader we have <b>a set of actions/settings</b> and this set can be created in two ways:</p>
@@ -4730,15 +4730,15 @@ line-height: 2rem;
         <p> Имена, начинающиеся с:</p>
         
         <ul>
-            <li><b>0</b> - Executed very early and only once after an update</li>
-            <li><b>1</b> - Excuted very early on every start of KOReader (but after 0 if applicable)</li>
-            <li><b>2</b> - Executed after <span class="ui">UIManager</span> is ready on every start of KOReader</li>
-            <li><b>3-7</b> - Зарезервировано</li>
-            <li><b>8</b> - Executed before exit and before settings get saved</li>
-            <li><b>9</b> - Executed right before exit</li>
+            <li><b>0</b> – выполняются в первую очередь и только один раз после обновления</li>
+            <li><b>1</b> – выполняются первыми при каждом запуске KOReader (но после 0, если они должны выполниться)</li>
+            <li><b>2</b> – выполняются после готовности <span class="ui">UIManager</span> при каждом запуске KOReader</li>
+            <li><b>3-7</b> – зарезервировано</li>
+            <li><b>8</b> – выполняются перед выходом и перед сохранением настроек</li>
+            <li><b>9</b> – выполняются непосредственно перед выходом</li>
         </ul>
         
-        <p>If you have a problem with a user patch, you can revert to your previous configuration by removing the patch file.</p>
+        <p>Если у вас возникла проблема с пользовательским патчем, вы можете вернуться к предыдущей конфигурации приложения, удалив файл патча.</p>
 
 
 <!-- ANCHOR TIPS -->
@@ -4751,7 +4751,7 @@ line-height: 2rem;
 <div class="L3-Smaller-heading">Быстрое переключение между документами</div>
 <p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class="ui">File Browser</span>. KOReader can open the last document with a gesture (<b><span style="font-family: microns;"></span> multiswipe</b>). If you define a gesture’s action as <span class="ui">Open previous document</span>, you can switch between two documents quickly similar to the <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
 
-<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and gestures / Gesture manager / “ANY GESTURE” / General / Open Previous Document</div>
+<div class="menu-breadcrumbs">ВЕРХНЕЕ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Касания и жесты / Менеджер жестов / «ЛЮБОЙ ЖЕСТ» / Общее / Открыть предыдущий документ</div>
 
 <p>Also you can use the <span class="ui">History</span> dialog to switch between documents quickly. The history screen can be opened with the <span style="font-family: microns;"></span> multiswipe gesture. You can also define any other gesture for this of course.</p>
     
@@ -4772,7 +4772,7 @@ line-height: 2rem;
 
     <p>On the book information page, long-press on the <span class="ui">Cover image</span> item and then select <span class="ui">Reset custom</span>.</p>
 
-    <p>You can also reset the book cover with the <span class="ui">Reset</span> dialog, which you can access by long-pressing the filename in the <span class="ui">File Browser</span>.</p>
+    <p>Вы также можете сбросить обложку книги с помощью диалогового окна <span class="ui">Сбросить</span>. Это диалоговое окно можно открыть, удерживая нажатым название файла в <span class="ui">файловом менеджере</span>.</p>
 
     <div class="warning">
     <span class="label_red">WARNING</span> Be very careful when using this <span class="ui">Reset</span> dialog and be sure that only <span class="ui">Custom cover image</span> item is checked otherwise you can reset everything related to your book accidentally.
@@ -5046,7 +5046,7 @@ line-height: 2rem;
         <p>Even if KOReader is set to <b>full refresh after every page</b>, you may still see some ghosting/residue after turning pages. This is a limitation of e-ink screen technology and can be observed on the latest generation devices, especially while reading mixed content (text+images) documents. As a workaround, you can refresh one more time manually after turning the page to get rid of these artifacts if they bother you (<span class="ui">short diagonal swipe</span> gesture by default).</p>
         
     <div class="L3-Smaller-heading">Проблемы с чехлами с функцией засыпания</div>
-        <p>Sleep covers generally use a magnet embedded in the cover which enables wake up and sleep events via triggering a sensor in your device. This sensor can sometimes be mentioned as a <b>Hall sensor</b> or <b>Hall effect sensor</b>. In some cases like misaligned or weak magnets, this triggering can be problematic. If you are having problems with your device waking up because of your cover, you can disable this feature via this menu:</p>
+        <p>Обложки, которые переводят устройство в спящий режим и пробуждают его, используют встроенный магнит, который активирует события пробуждения и переход ко сну, срабатывая на датчике вашего устройства. Этот датчик иногда называют <b>датчиком Холла</b> или <b>датчиком эффекта Холла</b>. В некоторых случаях, как при несовпадении или размагничивания магнитов, активация события может быть проблематичной. Если возникают проблемы с выводом устройства из спящего режима, данную функцию можно отключить из этого меню:</p>
 
         <div class="menu-breadcrumbs">ВЕРХНЕЕ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Устройство / Игнорировать все события чехла с функцией засыпания</div>
         
