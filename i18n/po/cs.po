@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20 18:03+0000\n"
 "PO-Revision-Date: 2026-07-21 19:02+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Adam Havránek <adamhavra@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/koreader/user-"
 "guide/cs/>\n"
 "Language: cs\n"
@@ -1874,21 +1873,22 @@ msgid "Go to the plugin menu:"
 msgstr "Přejděte do nabídky pluginů:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1434-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li.div:1434-17"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Auto Warmth and Night Mode"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"HLAVNÍ NABÍDKA / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Obrazovka / Automatické nastavení teploty a noční "
+"režim"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1436-13
 msgid ""
 "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
 "class=\"ui\">According to the sun's position</span>"
 msgstr ""
+"Klepněte na položku nabídky <span class=\"ui\">Aktivovat</span> a poté "
+"klepněte na <span class=\"ui\">Podle polohy slunce</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1438-13
 msgid ""
@@ -1896,12 +1896,17 @@ msgid ""
 "menu item. Set your <b>coordinates</b> (necessary) and <b>altitude</b> "
 "(optional) correctly and give a <b>name</b> to your location."
 msgstr ""
+"Vraťte se do předchozího menu a klepněte na položku menu <span class=\"ui\">"
+"Nastavení polohy</span>. Správně zadejte <b>souřadnice</b> (povinné) a <b>"
+"nadmořskou výšku</b> (volitelné) a přiřaďte své poloze <b>název</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1440-13
 msgid ""
 "Go back to previous menu and tap <span class=\"ui\">Warmth and night mode "
 "settings</span> menu item"
 msgstr ""
+"Vraťte se do předchozího menu a klepněte na <span class=\"ui\">položku menu "
+"Nastavení tepla a nočního režimu</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1442-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1442-13"
@@ -1909,12 +1914,16 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Nastavte si harmonogram přepínání topení tak, že zde zadáte časy pro "
+"jednotlivé položky. Vysvětlení jednotlivých položek najdete na obrázku výše."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1445-5
 msgid ""
 "You can see your current schedule via <span class=\"ui\">Currently active "
 "parameters</span> menu option."
 msgstr ""
+"Aktuální rozvrh si můžete zobrazit pomocí položky nabídky <span class=\"ui\">"
+"Aktuálně aktivní parametry</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1450-1
 msgid "Night Mode"
@@ -1937,6 +1946,14 @@ msgid ""
 "<span class=\"ui\">Night mode</span> checkbox and tap <span "
 "class=\"ui\">Set</span>."
 msgstr ""
+"Při nastavování procentuálního podílu teplého světla pro jednotlivé "
+"intervaly můžete daný interval také nastavit na <span class=\"ui\">Noční "
+"režim</span>, který při zahájení daného intervalu invertuje barvy obrazovky. "
+"Pokud je vaše minimální jas předního osvětlení stále příliš vysoký nebo "
+"pokud dáváte přednost tmavému pozadí stránky, můžete tuto funkci aktivovat. "
+"Chcete-li ji zapnout, v níže uvedeném dialogovém okně zaškrtněte políčko "
+"<span class=\"ui\">Noční režim</span> a klepněte na <span class=\"ui\">"
+"Nastavit</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1454-5
 msgid ""
@@ -1944,10 +1961,13 @@ msgid ""
 "interval. To disable night mode, just disable the <span class=\"ui\">Night "
 "mode</span> checkbox in that interval."
 msgstr ""
+"Jakmile to uděláte, v nabídce vedle tohoto intervalu se zobrazí <b>ikona "
+"měsíce</b>. Chcete-li noční režim deaktivovat, stačí v daném intervalu "
+"zrušit zaškrtnutí políčka <span class=\"ui\">Noční režim</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1460-1
 msgid "Frontlight auto on/off"
-msgstr ""
+msgstr "Automatické zapnutí/vypnutí podsvícení"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1462-5
 msgid ""
@@ -1959,24 +1979,31 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Tato funkce zapíná podsvícení při západu slunce a vypíná ho při východu "
+"slunce podle vašich <span class=\"ui\">aktuálně aktivních parametrů</span> v "
+"tomto pluginu. Tuto změnu můžete přepsat ručním zapnutím nebo vypnutím "
+"podsvícení. Při příštím východu/západu slunce funkci <span class=\"ui\">"
+"AutoTeplota</span> v případě potřeby opět přepne. Tuto funkci můžete "
+"aktivovat výběrem položky nabídky <span class=\"ui\">Podsvícení vypnuté "
+"během dne</span> v tomto pluginu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgid "Faster warmth transitions"
-msgstr ""
+msgstr "Rychlejší změny teploty"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1468-5
 msgid ""
 "If you want your frontlight warmth to change quickly instead of a more "
 "gradual change:"
-msgstr ""
+msgstr "Pokud chcete, aby se teplota podsvícení měnila rychle, a ne postupně:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1470-9
 msgid "Set the mode to <b>Fixed schedule</b> following the instructions above"
-msgstr ""
+msgstr "Nastavte režim na <b>Pevný rozvrh</b> podle výše uvedených pokynů"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1471-9
 msgid "And adjust the settings similar to the image below:"
-msgstr ""
+msgstr "A proveďte nastavení podobně jako na obrázku níže:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1476-5
 msgid ""
@@ -2003,6 +2030,10 @@ msgid ""
 "gradients and different shades of gray can cause flashing and ghosting on e-"
 "ink screens which can degrade reading experience."
 msgstr ""
+"Aplikace KOReader má jednoduché, převážně černobílé uživatelské rozhraní, "
+"protože barevné přechody a různé odstíny šedé mohou na displejích s "
+"technologií e-ink způsobovat blikání a zdvojení obrazu, což může zhoršit "
+"zážitek ze čtení."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1488-5
 msgid ""
@@ -2012,6 +2043,10 @@ msgid ""
 "span> is explained under <a href=\"#L2-filebrowser\">this section</a> of the "
 "guide."
 msgstr ""
+"KOReader má dvě hlavní rozhraní: <span class=\"ui\">čtecí obrazovku</span> a "
+"<span class=\"ui\">prohlížeč souborů</span>. Zde si vysvětlíme <span "
+"class=\"ui\">čtecí obrazovku</span>. <span class=\"ui\">Prohlížeč souborů</"
+"span> je popsán v <a href=\"#L2-filebrowser\">této části</a> příručky."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1491-1
 msgctxt "user_guide/en.html:L2-readingscreen"
@@ -2020,7 +2055,7 @@ msgstr "Čtecí obrazovka"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1493-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "<b>ČTECÍ OBRAZOVKA</b> obsahuje dvě nabídky:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1496-3
 msgid ""
@@ -2028,6 +2063,9 @@ msgid ""
 "general usage of KOReader. You will access your books, KOReader preferences, "
 "plugins etc. here."
 msgstr ""
+"<span class=\"ui\">HLAVNÍ NABÍDKA</span> obsahuje položky související s "
+"obecným používáním aplikace KOReader. Odtud se dostanete ke svým knihám, "
+"nastavením aplikace KOReader, doplňkům atd."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1497-3
 msgid ""
@@ -2036,12 +2074,18 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
+"<span class=\"ui\">SPODNÍ MENU</span> se zaměřuje na možnosti <b>formátování "
+"dokumentu</b>, jako je tloušťka a velikost písma, řádkování atd. Při "
+"úpravách vzhledu textu budete nejčastěji pracovat právě s <span class=\"ui\">"
+"SPODNÍM MENU</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1505-5
 msgid ""
 "Image above shows the elements you can see on your reader screen when "
 "reading a book:"
 msgstr ""
+"Na obrázku výše jsou znázorněny prvky, které se při čtení knihy zobrazují na "
+"displeji čtečky:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1507-9
 msgid ""
