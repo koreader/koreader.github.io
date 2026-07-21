@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-20 18:03+0000\n"
 "PO-Revision-Date: 2026-07-21 19:02+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -5301,7 +5300,6 @@ msgid "Select and highlight mode"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2644-5
-#, fuzzy
 msgid ""
 "<span class=\"ui\">Select and highlight mode</span> is more suitable for "
 "highlighting longer passages which cross page boundaries. It might also work "
@@ -5309,9 +5307,11 @@ msgid ""
 "with your hands. Because in this highlight mode you don’t need to drag your "
 "finger along the screen."
 msgstr ""
-"When you reach page boundaries, KOReader will turn the page for you to "
-"continue highlighting <b>(only in EPUB/HTML documents)</b>. You can disable "
-"this feature from:"
+"<span class=\"ui\">Режим выбора и выделения</span> больше подходит для "
+"выделения больших отрывков, размещенных на двух и более страницах. Он также "
+"может лучше работать, если есть проблемы с чувствительностью сенсорного "
+"экрана или моторикой рук пользователя, поскольку в этом режиме нет "
+"необходимости проводить пальцем по экрану."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2646-5
 msgid ""
@@ -5659,7 +5659,7 @@ msgstr "С жестом или"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2765-9
 msgid "With a <span class=\"ui\">Quick Menu</span> entry"
-msgstr "Text (.txt)"
+msgstr "Через пункт <span class=\"ui\">Быстрого меню</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2768-5
 msgid ""
@@ -5712,28 +5712,24 @@ msgid "You can choose your preferred export formats from:"
 msgstr "Вы можете выбрать предпочтительные форматы экспорта следующим образом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2791-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose formats and services"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Экспорт выделений / Выбрать форматы и сервисы"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2793-5
 msgid "You can see the export location (and also change it if you want):"
-msgstr ""
+msgstr "Путь к папке экспорта файлов посмотреть, а также изменить, можно здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2795-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose export folder"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Экспорт выделений / Выбрать папку для экспорта"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2799-5
 msgid "Online services"
@@ -10513,9 +10509,8 @@ msgid "Sub-conditions"
 msgstr "Дополнительные условия"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4490-5
-#, fuzzy
 msgid "On KOReader start"
-msgstr "Руководство пользователя KOReader"
+msgstr "При запуске KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:4490-48
 msgid ""
@@ -10523,6 +10518,10 @@ msgid ""
 "when KOReader is starting with the <span class=\"ui\">File browser</span> or "
 "<span class=\"ui\">Last file</span>."
 msgstr ""
+"Запускать этот профиль каждый раз при запуске KOReader. Обратите внимание, "
+"что это возможно только тогда, когда KOReader запускается из <span "
+"class=\"ui\">файлового менеджера</span> или <span class=\"ui\">последнего "
+"файла</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td:4490-242
 msgctxt "user_guide/en.html+html.body.div.table.tr.td:4490-242"
@@ -10675,7 +10674,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4547-4
 msgid "Profile examples:"
-msgstr ""
+msgstr "Примеры профилей:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4549-4
 msgid ""
@@ -10750,7 +10749,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4566-9
 msgctxt "user_guide/en.html+html.body.div.p:4566-9"
 msgid "!!! ADVANCED"
-msgstr ""
+msgstr "!!! ДЛЯ ОПЫТНЫХ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4568-9
 msgid ""
@@ -11401,36 +11400,43 @@ msgstr "Имена, начинающиеся с:"
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4744-13
 msgid "<b>0</b> - Executed very early and only once after an update"
 msgstr ""
+"<b>0</b> – выполняются в первую очередь и только один раз после обновления"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4745-13
 msgid ""
 "<b>1</b> - Excuted very early on every start of KOReader (but after 0 if "
 "applicable)"
 msgstr ""
+"<b>1</b> – выполняются первыми при каждом запуске KOReader (но после 0, если "
+"они должны выполниться)"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4746-13
 msgid ""
 "<b>2</b> - Executed after <span class=\"ui\">UIManager</span> is ready on "
 "every start of KOReader"
 msgstr ""
+"<b>2</b> – выполняются после готовности <span class=\"ui\">UIManager</span> "
+"при каждом запуске KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4747-13
 msgid "<b>3-7</b> - Reserved"
-msgstr "<b>3-7</b> - Зарезервировано"
+msgstr "<b>3-7</b> – зарезервировано"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4748-13
 msgid "<b>8</b> - Executed before exit and before settings get saved"
-msgstr ""
+msgstr "<b>8</b> – выполняются перед выходом и перед сохранением настроек"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4749-13
 msgid "<b>9</b> - Executed right before exit"
-msgstr ""
+msgstr "<b>9</b> – выполняются непосредственно перед выходом"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4752-9
 msgid ""
 "If you have a problem with a user patch, you can revert to your previous "
 "configuration by removing the patch file."
 msgstr ""
+"Если у вас возникла проблема с пользовательским патчем, вы можете вернуться "
+"к предыдущей конфигурации приложения, удалив файл патча."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4757-1
 msgctxt "user_guide/en.html:L1-tips"
@@ -11459,16 +11465,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4765-1
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
 "GESTURE” / General / Open Previous Document"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Менеджер жестов / «ЛЮБОЙ ЖЕСТ» / "
+"Общее / Открыть предыдущий документ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4767-1
 msgid ""
@@ -11535,16 +11539,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4786-5
-#, fuzzy
 msgid ""
 "You can also reset the book cover with the <span class=\"ui\">Reset</span> "
 "dialog, which you can access by long-pressing the filename in the <span "
 "class=\"ui\">File Browser</span>."
 msgstr ""
-"<span class=\"external\">Calibre</span> can convert your documents between "
-"many formats. It also has a built-in editor that allows you to edit e-books "
-"(and fix problems) in the most popular e-book formats, EPUB and Kindle. <a "
-"href=\"https://calibre-ebook.com/\">https://calibre-ebook.com/</a>"
+"Вы также можете сбросить обложку книги с помощью диалогового окна <span "
+"class=\"ui\">Сбросить</span>. Это диалоговое окно можно открыть, удерживая "
+"нажатым название файла в <span class=\"ui\">файловом менеджере</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4788-5
 #, fuzzy
@@ -12360,7 +12362,6 @@ msgid "Sleep cover problems"
 msgstr "Проблемы с чехлами с функцией засыпания"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5060-9
-#, fuzzy
 msgid ""
 "Sleep covers generally use a magnet embedded in the cover which enables wake "
 "up and sleep events via triggering a sensor in your device. This sensor can "
@@ -12369,12 +12370,14 @@ msgid ""
 "problematic. If you are having problems with your device waking up because "
 "of your cover, you can disable this feature via this menu:"
 msgstr ""
-"When you are reading a <b>PDF/DJVU</b> document, KOReader keeps a cache of "
-"the last page you have read. So when you reopen the book, it will be faster. "
-"But this cache can grow big if you are using KOReader for a long time and "
-"reading many PDF/DJVU documents. These cache files are kept under your "
-"KOReader installation directory under the <b>cache folder</b>. To clear this "
-"cache and reclaim the space you can go to:"
+"Обложки, которые переводят устройство в спящий режим и пробуждают его, "
+"используют встроенный магнит, который активирует события пробуждения и "
+"переход ко сну, срабатывая на датчике вашего устройства. Этот датчик иногда "
+"называют <b>датчиком Холла</b> или <b>датчиком эффекта Холла</b>. В "
+"некоторых случаях, как при несовпадении или размагничивания магнитов, "
+"активация события может быть проблематичной. Если возникают проблемы с "
+"выводом устройства из спящего режима, данную функцию можно отключить из "
+"этого меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5062-9
 msgid ""
