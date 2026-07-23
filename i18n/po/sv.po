@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 19:03+0000\n"
-"PO-Revision-Date: 2026-07-21 19:23+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-23 16:13+0000\n"
+"Last-Translator: Mona Lisa <monalisa@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sv/>\n"
 "Language: sv\n"
@@ -111,15 +110,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:869-5
 msgid "Overall translation status of the user guide"
-msgstr ""
+msgstr "Användarguidens övergripande översättningsstatus"
 
 #: user_guide/en.html%2Bhtml.body.div.img[alt]:871-9
 msgid "Translation status"
-msgstr ""
+msgstr "Översättningsstatus"
 
 #: user_guide/en.html%2Bhtml.body.div.div:877-1
 msgid "Guide for this user guide :)"
-msgstr ""
+msgstr "Guide till den här användarguiden :)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:879-5
 msgid ""
@@ -129,6 +128,11 @@ msgid ""
 "make your life easier while learning how to use KOReader. Of course you can "
 "read this on your e-ink device too, but the experience will not be optimal."
 msgstr ""
+"Den här guiden är främst utformad för färgskärmar. Om du använder den för "
+"första gången rekommenderar vi starkt att du läser den på en dator, "
+"surfplatta eller mobiltelefon. Det blir enklare att lära sig KOReader när "
+"gränssnittets delar framhävs med färg. Du kan naturligtvis läsa guiden på en "
+"läsplatta med elektroniskt bläck, men upplevelsen blir inte optimal."
 
 #: user_guide/en.html%2Bhtml.body.div.p:881-5
 msgid ""
@@ -137,24 +141,28 @@ msgid ""
 "related to this user guide, you can write to this <a href=\"https://"
 "github.com/koreader/koreader/issues/11147\">GitHub discussion thread</a>."
 msgstr ""
+"Du kan använda webbläsarens sökfunktion för att hitta ett visst ämne eller "
+"nyckelord, vanligtvis med <b>Ctrl + F</b>. Om du har ett förslag eller en "
+"fråga om användarguiden kan du skriva i den här <a href=\"https://github.com/"
+"koreader/koreader/issues/11147\">diskussionstråden på GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:882-5
 msgid ""
 "Parts of the text in this guide are color coded according to their "
 "categories:"
-msgstr ""
+msgstr "Delar av texten i guiden är färgkodade efter kategori:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:887-17
 msgid "PARTS OF KOREADER (BLUE)"
-msgstr ""
+msgstr "DELAR AV KOREADER (BLÅTT)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:889-13
 msgid "Status bar, Book map…"
-msgstr ""
+msgstr "Statusrad, bokkarta …"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:892-17
 msgid "MENU PATHS (GREEN)"
-msgstr ""
+msgstr "MENYSÖKVÄGAR (GRÖNT)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:894-17
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td.div:894-17"
@@ -162,10 +170,12 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"ÖVRE MENYN / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Markeringsstil"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.p:897-17
 msgid "EXTERNAL APPS (PURPLE)"
-msgstr ""
+msgstr "EXTERNA APPAR (LILA)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:899-13
 msgid "Calibre, Readwise, KoHighlights..."
@@ -174,25 +184,31 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:906-5
 msgid ""
 "We also have different boxes throughout the guide to inform or warn you:"
-msgstr ""
+msgstr "I guiden används även olika rutor för information och varningar:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:908-5
 msgid ""
 "<span class=\"label_red\">WARNING</span> I am a warning box. I explain "
 "things when you need to be extra careful."
 msgstr ""
+"<span class=\"label_red\">VARNING</span> Jag är en varningsruta. Jag "
+"förklarar sådant som kräver särskild försiktighet."
 
 #: user_guide/en.html%2Bhtml.body.div.div:910-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> I am an info box. I give contextual "
 "information or extra explanations."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Jag är en informationsruta. Jag ger "
+"sammanhang eller ytterligare förklaringar."
 
 #: user_guide/en.html%2Bhtml.body.div.div:912-5
 msgid ""
 "<span class=\"label_green\">TIP</span> I am a tip box. I contain tips that "
 "makes your life easier when using KOReader."
 msgstr ""
+"<span class=\"label_green\">TIPS</span> Jag är en tipsruta. Jag innehåller "
+"tips som gör KOReader enklare att använda."
 
 #: user_guide/en.html%2Bhtml.body.div.div:914-5
 msgid ""
@@ -201,318 +217,327 @@ msgid ""
 "technical knowledge like working with a file system, CSS knowledge, "
 "installation of external files etc. depending on the procedure."
 msgstr ""
+"<span class=\"label_red\">!!! AVANCERAT</span> Jag är en <b>AVANCERAT</b>-"
+"märkning. När jag visas vid ett ämne krävs viss teknisk kunskap, exempelvis "
+"om filsystem, CSS eller installation av externa filer, beroende på åtgärden."
 
 #: user_guide/en.html%2Bhtml.body.div.p:918-2
 msgid ""
 "KOReader is developed and supported by volunteers all around the world. You "
 "can be a part of this project too by:"
 msgstr ""
+"KOReader utvecklas och stöds av volontärer från hela världen. Du kan också "
+"delta i projektet genom att:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:920-3
 msgid "Fixing bugs and implementing new features"
-msgstr ""
+msgstr "rätta fel och utveckla nya funktioner"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:921-3
 msgid ""
 "Translating the program into your language or improving an existing "
 "translation"
 msgstr ""
+"översätta programmet till ditt språk eller förbättra en befintlig "
+"översättning"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:922-3
 msgid ""
 "Helping others with your knowledge in the forums or on GitHub issues and "
 "discussions"
 msgstr ""
+"hjälpa andra med dina kunskaper i forum eller i ärenden och diskussioner på "
+"GitHub"
 
 #: user_guide/en.html%2Bhtml.body.div.p:925-9
 msgid "Check <a href=\"#L1-reachus\">Reach us</a> section for the links."
-msgstr ""
+msgstr "Länkarna finns i avsnittet <a href=\"#L1-reachus\">Kontakta oss</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:929-9
 msgid "Guide last update: 2025-03-25"
-msgstr ""
+msgstr "Guiden uppdaterades senast: 2025-03-25"
 
 #: user_guide/en.html%2Bhtml.body.div.div:939-1
 msgid "TABLE OF CONTENTS"
-msgstr ""
+msgstr "INNEHÅLLSFÖRTECKNING"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:943-5
 msgid ""
 "<span class=\"label_blue\">INFO</span> Newly added or updated sections since "
 "the last guide release are marked with a <span class=\"microns\"></span>"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Avsnitt som har lagts till eller "
+"uppdaterats sedan den senaste versionen av guiden markeras med <span "
+"class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:947-9
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
-msgstr ""
+msgstr "VAD KAN DU GÖRA MED KOREADER?"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:949-9
 msgid "BASIC USAGE INFORMATION"
-msgstr ""
+msgstr "GRUNDLÄGGANDE ANVÄNDNING"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:951-5
 msgid "Transferring books to your reader"
-msgstr ""
+msgstr "Överföra böcker till läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:952-5
 msgid "Tap zones"
-msgstr ""
+msgstr "Tryckzoner"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:953-17
 msgid "Changing text appearance"
-msgstr ""
+msgstr "Ändra textens utseende"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:954-17
 msgid "Keyboard Usage And Tips"
-msgstr ""
+msgstr "Användning av tangentbordet och tips"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:955-17
 msgid "Auto Warmth And Night Mode"
-msgstr ""
+msgstr "Automatisk färgtemperatur och nattläge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:959-9
 msgid "LEARNING THE USER INTERFACE"
-msgstr ""
+msgstr "LÄR KÄNNA ANVÄNDARGRÄNSSNITTET"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:961-17
 msgid "Reading Screen"
-msgstr ""
+msgstr "Läsvyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:962-17
 msgid "Indicator icons <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Indikatorikoner <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:963-17
-#, fuzzy
 msgid "Status bar"
 msgstr "Statusfält"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:964-17
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Alternativ i den övre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:965-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:965-17"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Alternativ i den nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:966-17
 msgid "User Interface Tips <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Tips för användargränssnittet <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:967-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:967-17"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Alternativ i den nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:971-9
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "NAVIGERA I BOKEN"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:973-17
 msgid "Skim Widget <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Snabbbläddraren <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:974-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:974-17"
 msgid "Book Map"
-msgstr ""
+msgstr "Bokkarta"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:975-17
 msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:975-17"
 msgid "Page Browser"
-msgstr ""
+msgstr "Sidbläddrare"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:976-17
 msgid "Table of Contents Tools"
-msgstr ""
+msgstr "Verktyg för innehållsförteckningen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:977-17
 msgid "Excluding sections: Custom hidden flows"
-msgstr ""
+msgstr "Utesluta avsnitt: anpassade dolda flöden"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:981-9
 msgid "CUSTOMIZING TEXT APPEARANCE"
-msgstr ""
+msgstr "ANPASSA TEXTENS UTSEENDE"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:983-17
 msgid "Default appearance settings"
-msgstr ""
+msgstr "Förvalda utseendeinställningar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li.li:984-17
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Använda egna teckensnitt"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li.li:985-5
 msgid "Style tweaks <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Stiljusteringar <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:990-9
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "BOKMÄRKEN, MARKERINGAR OCH ANTECKNINGAR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:992-17
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "KOReaders markeringslägen"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:993-5
 msgid "Editing highlights <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Redigera markeringar <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:994-17
 msgid "Exporting highlights"
-msgstr ""
+msgstr "Exportera markeringar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:998-9
 msgid "READING PDFS"
-msgstr ""
+msgstr "LÄSA PDF-FILER"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1000-17
 msgid "Reading large PDFs on a small screen"
-msgstr ""
+msgstr "Läsa stora PDF-filer på en liten skärm"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1001-17
 msgid "PDF Specific Bottom Menu Items"
-msgstr ""
+msgstr "PDF-specifika alternativ i den nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1002-17
 msgid "Saving highlights into PDF <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Spara markeringar i PDF-filer <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1003-17
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (optisk teckenigenkänning)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1008-9
 msgid "READING COMICS AND MANGA <span class=\"microns\"></span>"
-msgstr ""
+msgstr "LÄSA SERIER OCH MANGA <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1010-17
 msgid "Adjusting the page refresh interval"
-msgstr ""
+msgstr "Justera intervallet för skärmuppdatering"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1011-5
 msgid "Panel Zoom"
-msgstr ""
+msgstr "Panelzoom"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1012-17
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Gå till nästa fil"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1013-17
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Optimera manga för läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1014-17
 msgid "Other manga tips"
-msgstr ""
+msgstr "Andra tips för manga"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1021-3
 msgid "MANAGING YOUR LIBRARY"
-msgstr ""
+msgstr "HANTERA BIBLIOTEKET"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1023-5
-#, fuzzy
 msgid "File Browser usage"
-msgstr "Filhanteraranvändning"
+msgstr "Använda filhanteraren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1024-5
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Visa andra filtyper"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1025-5
 msgid "Collections <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Samlingar <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1026-5
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr ""
+msgstr "Optimera EPUB- och PDF-dokument för läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1027-5
 msgid "Book metadata storage options <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Lagringsalternativ för bokmetadata <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1031-5
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "GESTER OCH KORTKOMMANDON"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1033-13
 msgid "Gesture Types"
-msgstr ""
+msgstr "Gesttyper"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1034-13
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "Fördefinierade gester"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1035-13
 msgid "Gesture Categories"
-msgstr ""
+msgstr "Gestkategorier"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1036-13
 msgid "Keyboard Shortcuts <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Kortkommandon <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1040-9
 msgid "QUICK MENU AND PROFILES"
-msgstr ""
+msgstr "SNABBMENY OCH PROFILER"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1042-13
 msgid "Quick Menu"
-msgstr ""
+msgstr "Snabbmeny"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1043-13
 msgid "Quick Menu tips"
-msgstr ""
+msgstr "Tips för snabbmenyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1044-13
-#, fuzzy
 msgid "Profiles"
 msgstr "Profiler"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1045-13
 msgid "Profile auto-execution <span class=\"microns\"></span>"
-msgstr ""
+msgstr "Automatisk körning av profiler <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1049-5
 msgid "PLUGINS AND USER PATCHES"
-msgstr ""
+msgstr "INSTICKSMODULER OCH ANVÄNDARPATCHAR"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1051-13
 msgid "Plugin types"
-msgstr ""
+msgstr "Typer av insticksmoduler"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1052-13
 msgid "List of internal plugins"
-msgstr ""
+msgstr "Lista över interna insticksmoduler"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1053-13
 msgid "User patches"
-msgstr ""
+msgstr "Användarpatchar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1057-5
 msgid "TIPS"
-msgstr ""
+msgstr "TIPS"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1059-13
 msgid "Reading tips"
-msgstr ""
+msgstr "Lästips"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1060-13
 msgid "Device tips"
-msgstr ""
+msgstr "Enhetstips"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1064-5
 msgid "TROUBLESHOOTING"
-msgstr ""
+msgstr "FELSÖKNING"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1066-5
 msgid "REACH US"
-msgstr ""
+msgstr "KONTAKTA OSS"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1075-1
 msgctxt "user_guide/en.html:L1-whatcanyoudo"
 msgid "WHAT CAN YOU DO WITH KOREADER ?"
-msgstr ""
+msgstr "VAD KAN DU GÖRA MED KOREADER?"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1077-2
 msgid ""
@@ -523,6 +548,12 @@ msgid ""
 "<a href=\"#L1-whatcanyoudo\" class=\"internalink\"></a> links to go to the "
 "mentioned sections."
 msgstr ""
+"Trots sitt minimalistiska utseende är KOReader ett mycket kraftfullt och "
+"anpassningsbart program. Det här avsnittet fungerar som en praktiskt "
+"inriktad innehållsförteckning. För nya användare är det därför den bästa "
+"utgångspunkten. Här kan du läsa vad KOReader kan göra och följa länkarna <a "
+"href=\"#L1-whatcanyoudo\" class=\"internalink\"></a> till avsnitten som "
+"förklarar hur."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1079-5
 msgid ""
@@ -533,16 +564,24 @@ msgid ""
 "Remarkable Cervantes Sony Android Linux MacOS Open reader) but this is not "
 "that nice to pronounce, so we choose to keep it simple :)"
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Namnet KOReader kommer från "
+"projektets början: <b>K</b>indle/<b>K</b>obo <b>O</b>pen Reader. Programmet "
+"har naturligtvis vuxit så mycket under åren att en mer exakt förkortning "
+"numera skulle vara något i stil med <b>KKPRCSALMOReader</b> (Kindle Kobo "
+"Pocketbook Remarkable Cervantes Sony Android Linux MacOS Open reader). Det "
+"är dock inte särskilt lätt att uttala, så vi behåller det enkla namnet :)"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1081-1
 msgid "Transfer your reading materials in different ways"
-msgstr ""
+msgstr "Överför läsmaterial på olika sätt"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1084-9
 msgid ""
 "<b>USB mass storage</b> mode for supporting devices <a href=\"#L2-"
 "transferring\" class=\"internalink\"></a>"
 msgstr ""
+"<b>USB-masslagringsläge</b> på enheter som stöder det <a href=\"#L2-"
+"transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1086-9
 msgid ""
@@ -550,6 +589,8 @@ msgid ""
 "with suitable accounts <a href=\"#L2-transferring\" class=\"internalink\"></"
 "a>"
 msgstr ""
+"<b>Molnlagring</b> (<span class=\"external\">Dropbox</span>/FTP/WebDAV) med "
+"lämpliga konton <a href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1088-9
 msgid ""
@@ -557,6 +598,9 @@ msgid ""
 "or your file manager to directly transfer files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"KOReader kan fungera som en <b>SSH-server</b>, så att du kan överföra filer "
+"direkt med ett SFTP-program eller filhanteraren <a href=\"#L2-pluginslist\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1090-9
 msgid ""
@@ -564,6 +608,9 @@ msgid ""
 "from your Calibre Library directly to your KOReader devices over wifi <a "
 "href=\"#L2-transferring\" class=\"internalink\"></a>"
 msgstr ""
+"Med insticksmodulen <span class=\"external\">Calibre</span> kan du skicka "
+"böcker direkt från Calibre-biblioteket till dina KOReader-enheter via Wi-Fi "
+"<a href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1092-9
 msgid ""
@@ -571,6 +618,9 @@ msgid ""
 "entries to your device as HTML files <a href=\"#L2-pluginslist\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Med insticksmodulen <b>Nyhetshämtaren</b> kan du hämta RSS- och Atom-poster "
+"till enheten som HTML-filer <a href=\"#L2-pluginslist\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1094-9
 msgid ""
@@ -579,10 +629,13 @@ msgid ""
 "class=\"external\">Pocket</span>) <a href=\"#L2-transferring\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Med Wallabag-insticksmodulen kan du hämta artiklar från ditt Wallabag-konto, "
+"en serverbaserad läs-senare-tjänst som <span class=\"external\">Pocket</"
+"span> <a href=\"#L2-transferring\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1097-1
 msgid "Adjust the appearance of text as you wish"
-msgstr ""
+msgstr "Anpassa textens utseende efter dina önskemål"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1099-9
 msgid ""
@@ -590,6 +643,10 @@ msgid ""
 "word spacing, word expansion, text alignment, line spacing, column layout, "
 "margins... <a href=\"#L1-customizingappearance\" class=\"internalink\"></a>"
 msgstr ""
+"Ändra teckensnitt, även egna, teckenstorlek, kontrast, fetstil, kerning, "
+"ordavstånd, ordutvidgning, textjustering, radavstånd, kolumnlayout, "
+"marginaler med mera <a href=\"#L1-customizingappearance\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1101-9
 msgid ""
@@ -597,56 +654,72 @@ msgid ""
 "your own ones to change how your books are rendered precisely <a href=\"#L2-"
 "styletweaks\" class=\"internalink\"></a>"
 msgstr ""
+"Använd de kraftfulla inbyggda <span class=\"ui\">stiljusteringarna</span> "
+"eller skriv egna för att styra exakt hur böckerna återges <a href=\"#L2-"
+"styletweaks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1103-9
 msgid ""
 "Invert screen colors for <span class=\"ui\">night mode</span> manually or "
 "automatically <a href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 msgstr ""
+"Invertera skärmfärgerna för <span class=\"ui\">nattläge</span> manuellt "
+"eller automatiskt <a href=\"#L2-autowarmth\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1105-9
 msgid ""
 "Adjust your frontlight color warmth automatically <a href=\"#L2-autowarmth\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Justera frontbelysningens färgtemperatur automatiskt <a href=\"#L2-"
+"autowarmth\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1108-1
 msgid "Take notes and make highlights while reading"
-msgstr ""
+msgstr "Gör anteckningar och markeringar medan du läser"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1110-9
 msgid ""
 "Highlight text with different styles and colors, place bookmarks <a "
 "href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
+"Markera text med olika stilar och färger och lägg till bokmärken <a "
+"href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1112-9
 msgid ""
 "Two-tap mode for academic/longer highlights <a href=\"#L2-howtohighlight\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Tvåtrycksläge för akademiska eller längre markeringar <a href=\"#L2-"
+"howtohighlight\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1114-9
 msgid ""
 "Add notes using a customizable keyboard including diacritic modifiers <a "
 "href=\"#L2-keyboard\" class=\"internalink\"></a>"
 msgstr ""
+"Lägg till anteckningar med ett anpassningsbart tangentbord, inklusive "
+"diakritiska modifierare <a href=\"#L2-keyboard\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1116-9
 msgid ""
 "Take screenshots <a href=\"#L2-predefinedgestures\" class=\"internalink\"></"
 "a>"
 msgstr ""
+"Ta skärmbilder <a href=\"#L2-predefinedgestures\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1118-9
 msgid ""
 "Track your reading statistics including <b>reading progress</b>, <b>time "
 "range</b> and <b>calendar views</b>"
 msgstr ""
+"Följ din lässtatistik, inklusive <b>läsförlopp</b>, <b>tidsintervall</b> och "
+"<b>kalendervyer</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1121-1
 msgid "Export your notes and highlights flexibly"
-msgstr ""
+msgstr "Exportera anteckningar och markeringar flexibelt"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1123-9
 msgid ""
@@ -654,6 +727,9 @@ msgid ""
 "JSON or Kindle clippings format <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Exportera anteckningar och markeringar till enheten som text, Markdown, "
+"HTML, JSON eller i Kindle-urklippsformat <a href=\"#L2-exportinghighlights\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1125-9
 msgid ""
@@ -663,10 +739,14 @@ msgid ""
 "class=\"external\">XMNote</span> <a href=\"#L2-exportinghighlights\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Synkronisera med onlinetjänster som <span class=\"external\">Joplin</span>, "
+"<span class=\"external\">Readwise</span>, <span class=\"external\">Memos</"
+"span>, <span class=\"external\">Flomo</span> och <span class=\"external\">"
+"XMNote</span> <a href=\"#L2-exportinghighlights\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1128-1
 msgid "Arrange and browse your library easily"
-msgstr ""
+msgstr "Ordna och bläddra enkelt i biblioteket"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1130-9
 msgid ""
@@ -674,12 +754,17 @@ msgid ""
 "delete files and folders and perform bulk operations <a href=\"#L2-"
 "filebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"En kraftfull <b>filhanterare</b> där du kan kopiera, flytta, byta namn på, "
+"skapa och ta bort filer och mappar samt utföra massåtgärder <a href=\"#L2-"
+"filebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1132-9
 msgid ""
 "See your library as you like with many detailed and mosaic views <a "
 "href=\"#L2-filebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"Visa biblioteket som du vill med flera detalj- och mosaikvyer <a href=\"#L2-"
+"filebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1134-9
 msgid ""
@@ -687,16 +772,21 @@ msgid ""
 "or create your own <span class=\"ui\">Collections</span> with sorting and "
 "filtering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 msgstr ""
+"Lägg till böcker i <span class=\"ui\">Favoriter</span> för snabb åtkomst "
+"eller skapa egna <span class=\"ui\">Samlingar</span> med sortering och "
+"filtrering <a href=\"#L2-collections\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1137-1
 msgid "Fly through your book with powerful tools"
-msgstr ""
+msgstr "Navigera snabbt genom boken med kraftfulla verktyg"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1139-9
 msgid ""
 "<span class=\"ui\">Skim widget</span> to quickly jump between pages, "
 "chapters, bookmarks <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">Snabbbläddraren</span> för att snabbt hoppa mellan sidor, "
+"kapitel och bokmärken <a href=\"#L2-skimwidget\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1141-9
 msgid ""
@@ -704,18 +794,26 @@ msgid ""
 "book including all your notes and highlights <a href=\"#L2-bookmap\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Den unika <span class=\"ui\">bokkartan</span> ger en översikt över boken, "
+"inklusive alla anteckningar och markeringar <a href=\"#L2-bookmap\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1143-9
 msgid ""
 "<span class=\"ui\">Page browser</span> to move through pages like a film "
 "reel <a href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">Sidbläddraren</span> låter dig röra dig genom sidorna som "
+"i en filmremsa <a href=\"#L2-pagebrowser\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1145-9
 msgid ""
 "<span class=\"ui\">Bookmarks browser</span> to browse your highlights and "
 "notes easily <a href=\"#L1-bookmarks\" class=\"internalink\"></a>"
 msgstr ""
+"<span class=\"ui\">Bokmärkesbläddraren</span> gör det enkelt att bläddra "
+"bland markeringar och anteckningar <a href=\"#L1-bookmarks\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1147-9
 msgid ""
@@ -723,6 +821,9 @@ msgid ""
 "don't like the one that comes with your book <a href=\"#L2-toctools\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Skapa en alternativ innehållsförteckning automatiskt eller manuellt om du "
+"inte är nöjd med bokens befintliga <a href=\"#L2-toctools\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1149-9
 msgid ""
@@ -730,10 +831,13 @@ msgid ""
 "References</b> etc. for more accurate page counts <a href=\"#L2-"
 "hiddenflows\" class=\"internalink\"></a>"
 msgstr ""
+"Dölj och uteslut delar av boken, exempelvis <b>bilagor, register och "
+"referenser</b>, för mer korrekta sidantal <a href=\"#L2-hiddenflows\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1152-1
 msgid "Control KOReader like a virtuoso"
-msgstr ""
+msgstr "Styr KOReader som en virtuos"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1154-9
 msgid ""
@@ -741,6 +845,9 @@ msgid ""
 "aspect of KOReader with a tap or swipe <a href=\"#L2-gesturecategories\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Ett kraftfullt <b>gestsystem</b> med över 200 åtgärder låter dig styra alla "
+"delar av KOReader med ett tryck eller svep <a href=\"#L2-gesturecategories\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1156-9
 msgid ""
@@ -748,6 +855,9 @@ msgid ""
 "keyboard shortcuts to these actions <a href=\"#L2-keyboardshortcuts\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"Om du har ett inbyggt, trådanslutet eller Bluetooth-anslutet tangentbord kan "
+"du även tilldela kortkommandon till åtgärderna <a href=\"#L2-"
+"keyboardshortcuts\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1158-9
 msgid ""
@@ -755,36 +865,45 @@ msgid ""
 "class=\"ui\">Quick Menu</span> and access them with a tap or swipe <a "
 "href=\"#L2-quickmenu\" class=\"internalink\"></a>"
 msgstr ""
+"Du kan också skapa egna menyer med favoritåtgärder i <span class=\"ui\">"
+"Snabbmenyn</span> och öppna dem med ett tryck eller svep <a href=\"#L2-"
+"quickmenu\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1160-9
 msgid ""
 "Create <b>Profiles</b> to control every aspect of KOReader and automate "
 "actions <a href=\"#L2-profiles\" class=\"internalink\"></a>"
 msgstr ""
+"Skapa <b>profiler</b> för att styra alla delar av KOReader och automatisera "
+"åtgärder <a href=\"#L2-profiles\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1163-1
 msgid "Search, Lookup and Translation tools"
-msgstr ""
+msgstr "Sök-, uppslags- och översättningsverktyg"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1165-9
 msgid ""
 "Search the document by selecting or entering text (including <b>regular "
 "expressions</b>)"
 msgstr ""
+"Sök i dokumentet genom att markera eller skriva in text, även med <b>"
+"reguljära uttryck</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1166-9
 msgid "Search in your bookmarks, highlights and notes"
-msgstr ""
+msgstr "Sök i bokmärken, markeringar och anteckningar"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1167-9
 msgid ""
 "Lookup text in <span class=\"external\">Wikipedia</span> or in installed "
 "dictionaries and translate it by a long-tap"
 msgstr ""
+"Slå upp text i <span class=\"external\">Wikipedia</span> eller installerade "
+"ordlistor och översätt den genom att hålla ned"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1168-9
 msgid "Translate whole page at once between more than 130 languages"
-msgstr ""
+msgstr "Översätt en hel sida på en gång mellan fler än 130 språk"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1169-9
 msgid ""
@@ -792,38 +911,50 @@ msgid ""
 "class=\"external\">ChatGPT</span> (after installing the plugin) <a "
 "href=\"#L2-plugintypes\" class=\"internalink\"></a>"
 msgstr ""
+"Med det kraftfulla systemet för insticksmoduler kan du till och med "
+"diskutera texten med <span class=\"external\">ChatGPT</span> efter att "
+"insticksmodulen har installerats <a href=\"#L2-plugintypes\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1172-1
 msgid "KOReader can control your device"
-msgstr ""
+msgstr "KOReader kan styra enheten"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1174-9
 msgid ""
 "KOReader can update itself <a href=\"#L2-devicetips\" "
 "class=\"internalink\"></a>"
 msgstr ""
+"KOReader kan uppdatera sig självt <a href=\"#L2-devicetips\" "
+"class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1175-9
 msgid "Dim or turn off your <b>screen light</b> after a set interval"
-msgstr ""
+msgstr "Dämpa eller släck <b>skärmbelysningen</b> efter en angiven tid"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1176-9
 msgid ""
 "Set your page refresh intervals for different reading conditions <a "
 "href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 msgstr ""
+"Ange intervall för skärmuppdatering under olika läsförhållanden <a "
+"href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1177-9
 msgid ""
 "Set your own <b>screensaver</b> from many options like random images, book "
 "cover, reading, progress etc."
 msgstr ""
+"Välj en egen <b>skärmsläckare</b>, exempelvis slumpmässiga bilder, bokomslag "
+"eller läsförlopp"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1178-9
 msgid ""
 "Set battery <b>charge limit alarms</b> to prevent deep discharge/over charge "
 "<a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"Ange <b>larm för laddningsgränser</b> för att förhindra djupurladdning och "
+"överladdning <a href=\"#L2-devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1179-9
 msgid ""
@@ -831,6 +962,9 @@ msgid ""
 "optionally restart KOReader upon reaching this limit <a href=\"#L2-"
 "devicetips\" class=\"internalink\"></a>"
 msgstr ""
+"Ange en varning för minnesanvändning, vilket är användbart på enheter med "
+"mindre minne, och starta valfritt om KOReader när gränsen nås <a href=\"#L2-"
+"devicetips\" class=\"internalink\"></a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1183-1
 msgid "PDF documents are easier to read on e-ink with KOReader"
@@ -923,12 +1057,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1223-1
 msgctxt "user_guide/en.html:L1-basicreading"
 msgid "BASIC USAGE INFORMATION"
-msgstr ""
+msgstr "GRUNDLÄGGANDE ANVÄNDNING"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1227-1
 msgctxt "user_guide/en.html:L2-transferring"
 msgid "Transferring books to your reader"
-msgstr ""
+msgstr "Överföra böcker till läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1229-5
 msgid ""
@@ -1094,7 +1228,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1285-1
 msgctxt "user_guide/en.html:L2-tapzones"
 msgid "Tap zones"
-msgstr ""
+msgstr "Tryckzoner"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1289-5
 msgid ""
@@ -1155,7 +1289,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1306-5
 msgctxt "user_guide/en.html:L2-textappearance"
 msgid "Changing text appearance"
-msgstr ""
+msgstr "Ändra textens utseende"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1309-5
 msgid "<b>Changing the font*</b>:"
@@ -1266,7 +1400,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1344-1
 msgctxt "user_guide/en.html:L2-keyboard"
 msgid "Keyboard Usage And Tips"
-msgstr ""
+msgstr "Användning av tangentbordet och tips"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1346-5
 msgid ""
@@ -1401,7 +1535,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1395-1
 msgctxt "user_guide/en.html:L2-autowarmth"
 msgid "Auto Warmth And Night Mode"
-msgstr ""
+msgstr "Automatisk färgtemperatur och nattläge"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1397-5
 msgid ""
@@ -1613,7 +1747,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
 msgid "LEARNING THE USER INTERFACE"
-msgstr ""
+msgstr "LÄR KÄNNA ANVÄNDARGRÄNSSNITTET"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1486-5
 msgid ""
@@ -1634,7 +1768,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1491-1
 msgctxt "user_guide/en.html:L2-readingscreen"
 msgid "Reading Screen"
-msgstr ""
+msgstr "Läsvyn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1493-5
 msgid "<b>READING SCREEN</b> has two menus:"
@@ -1915,7 +2049,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-1
-#, fuzzy
 msgctxt "user_guide/en.html:L2-statusbar"
 msgid "Status bar"
 msgstr "Statusfält"
@@ -2086,7 +2219,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1685-1
 msgctxt "user_guide/en.html:L2-topexplained"
 msgid "Top Menu Items"
-msgstr ""
+msgstr "Alternativ i den övre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1687-5
 msgid ""
@@ -2144,7 +2277,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1711-1
 msgctxt "user_guide/en.html:L2-bottomexplained"
 msgid "Bottom Menu Items"
-msgstr ""
+msgstr "Alternativ i den nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1713-5
 msgid ""
@@ -2545,7 +2678,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1885-1
-#, fuzzy
 msgid "Go back to previous location"
 msgstr "Gå tillbaka till föregående plats"
 
@@ -2608,7 +2740,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:1912-1
 msgctxt "user_guide/en.html:L1-moving"
 msgid "MOVING THROUGH YOUR BOOK"
-msgstr ""
+msgstr "NAVIGERA I BOKEN"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1914-5
 msgid ""
@@ -2623,12 +2755,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1918-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1918-3"
 msgid "Book Map"
-msgstr ""
+msgstr "Bokkarta"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1919-3
 msgctxt "user_guide/en.html+html.body.div.ul.li:1919-3"
 msgid "Page Browser"
-msgstr ""
+msgstr "Sidbläddrare"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1922-1
 msgctxt "user_guide/en.html:L2-skimwidget"
@@ -2884,7 +3016,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2012-1
 msgctxt "user_guide/en.html:L2-bookmap"
 msgid "Book Map"
-msgstr ""
+msgstr "Bokkarta"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2014-5
 msgid ""
@@ -3080,7 +3212,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2080-1
 msgctxt "user_guide/en.html:L2-pagebrowser"
 msgid "Page Browser"
-msgstr ""
+msgstr "Sidbläddrare"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2081-5
 msgid ""
@@ -3158,7 +3290,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2106-1
 msgctxt "user_guide/en.html:L2-toctools"
 msgid "Table of Contents Tools"
-msgstr ""
+msgstr "Verktyg för innehållsförteckningen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2107-5
 msgid ""
@@ -3320,7 +3452,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2163-1
 msgctxt "user_guide/en.html:L2-hiddenflows"
 msgid "Excluding sections: Custom hidden flows"
-msgstr ""
+msgstr "Utesluta avsnitt: anpassade dolda flöden"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2165-5
 msgid ""
@@ -3492,12 +3624,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2217-1
 msgctxt "user_guide/en.html:L1-customizingappearance"
 msgid "CUSTOMIZING TEXT APPEARANCE"
-msgstr ""
+msgstr "ANPASSA TEXTENS UTSEENDE"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2219-1
 msgctxt "user_guide/en.html:L2-defaultappearance"
 msgid "Default appearance settings"
-msgstr ""
+msgstr "Förvalda utseendeinställningar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2221-5
 msgid ""
@@ -3674,7 +3806,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2279-1
 msgctxt "user_guide/en.html:L2-fonts"
 msgid "Using your own fonts"
-msgstr ""
+msgstr "Använda egna teckensnitt"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2281-5
 msgid ""
@@ -3841,7 +3973,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2343-1
-#, fuzzy
 msgid "Style tweaks"
 msgstr "Stiljusteringar"
 
@@ -4336,7 +4467,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2548-1
 msgctxt "user_guide/en.html:L1-bookmarks"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr ""
+msgstr "BOKMÄRKEN, MARKERINGAR OCH ANTECKNINGAR"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2550-5
 msgid ""
@@ -4387,6 +4518,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"ÖVRE MENYN / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Markeringsstil"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2578-5
 msgid ""
@@ -4472,7 +4605,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2619-1
 msgctxt "user_guide/en.html:L2-howtohighlight"
 msgid "Highlight modes of KOReader"
-msgstr ""
+msgstr "KOReaders markeringslägen"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2621-5
 msgid "KOReader has two highlighting modes for different use cases:"
@@ -4624,6 +4757,8 @@ msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Highlight style"
 msgstr ""
+"ÖVRE MENYN / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Markeringsstil"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2682-5
 msgid ""
@@ -4815,7 +4950,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2757-1
 msgctxt "user_guide/en.html:L2-exportinghighlights"
 msgid "Exporting highlights"
-msgstr ""
+msgstr "Exportera markeringar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2759-5
 msgid ""
@@ -5030,12 +5165,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2859-1
 msgctxt "user_guide/en.html:L1-pdfs"
 msgid "READING PDFS"
-msgstr ""
+msgstr "LÄSA PDF-FILER"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2861-1
 msgctxt "user_guide/en.html:L2-readingpdfs"
 msgid "Reading large PDFs on a small screen"
-msgstr ""
+msgstr "Läsa stora PDF-filer på en liten skärm"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2862-5
 msgid ""
@@ -5163,7 +5298,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:2921-1
 msgctxt "user_guide/en.html:L2-pdfbottom"
 msgid "PDF Specific Bottom Menu Items"
-msgstr ""
+msgstr "PDF-specifika alternativ i den nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2926-5
 msgid ""
@@ -5466,7 +5601,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3023-1
 msgctxt "user_guide/en.html:L2-ocr"
 msgid "OCR (Optical Character Recognition)"
-msgstr ""
+msgstr "OCR (optisk teckenigenkänning)"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3024-5
 msgid ""
@@ -5509,7 +5644,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3044-5
 msgctxt "user_guide/en.html:L2-mangarefresh"
 msgid "Adjusting the page refresh interval"
-msgstr ""
+msgstr "Justera intervallet för skärmuppdatering"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3046-5
 msgid ""
@@ -5589,7 +5724,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3074-1
 msgctxt "user_guide/en.html:L2-manganextfile"
 msgid "Jump to the next file"
-msgstr ""
+msgstr "Gå till nästa fil"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3076-5
 msgid ""
@@ -5630,7 +5765,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3090-1
 msgctxt "user_guide/en.html:L2-mangaprepare"
 msgid "Optimizing manga for reader"
-msgstr ""
+msgstr "Optimera manga för läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3092-5
 msgid ""
@@ -5770,7 +5905,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3133-1
 msgctxt "user_guide/en.html:L2-mangatips"
 msgid "Other manga tips"
-msgstr ""
+msgstr "Andra tips för manga"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3137-1
 msgid "Immersive mode in KOReader"
@@ -5893,7 +6028,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3191-1
 msgctxt "user_guide/en.html:L1-managinglibrary"
 msgid "MANAGING YOUR LIBRARY"
-msgstr ""
+msgstr "HANTERA BIBLIOTEKET"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3195-1
 msgid "File Browser Usage"
@@ -6065,7 +6200,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3247-1
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:3247-1"
 msgid "Folder shortcuts"
 msgstr "Mappgenvägar"
@@ -6149,7 +6283,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3276-1
 msgctxt "user_guide/en.html:L2-viewingfiletypes"
 msgid "Viewing other file types"
-msgstr ""
+msgstr "Visa andra filtyper"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3280-1
 msgid "Viewing text files"
@@ -6356,7 +6490,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:3358-1
-#, fuzzy
 msgctxt "user_guide/en.html:L2-collections"
 msgid "Collections"
 msgstr "Samlingar"
@@ -6910,7 +7043,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3545-1
 msgctxt "user_guide/en.html:L2-optimizing"
 msgid "Optimizing EPUB/PDF documents for your reader"
-msgstr ""
+msgstr "Optimera EPUB- och PDF-dokument för läsplattan"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3547-5
 msgid ""
@@ -7215,7 +7348,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3655-1
 msgctxt "user_guide/en.html:L1-gestures"
 msgid "GESTURES AND KEYBOARD SHORTCUTS"
-msgstr ""
+msgstr "GESTER OCH KORTKOMMANDON"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3657-5
 msgid ""
@@ -7227,7 +7360,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3660-5
 msgctxt "user_guide/en.html:L2-gesturetypes"
 msgid "Gesture Types"
-msgstr ""
+msgstr "Gesttyper"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3662-5
 msgid ""
@@ -7346,7 +7479,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3728-1
 msgctxt "user_guide/en.html:L2-predefinedgestures"
 msgid "Predefined Gestures"
-msgstr ""
+msgstr "Fördefinierade gester"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3729-5
 msgid ""
@@ -7471,7 +7604,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:3782-1
 msgctxt "user_guide/en.html:L2-gesturecategories"
 msgid "Gesture Categories"
-msgstr ""
+msgstr "Gestkategorier"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3783-5
 msgid ""
@@ -7499,64 +7632,55 @@ msgid "General"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3795-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3795-17"
 msgid "File browser"
 msgstr "Filhanteraren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3796-17
-#, fuzzy
 msgid "Open previous document"
 msgstr "Öppna föregående dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3797-17
-#, fuzzy
 msgid "History"
 msgstr "Historik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3798-17
 msgid "History search"
-msgstr ""
+msgstr "Ordboksinställningar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3799-17
-#, fuzzy
 msgid "Favorites"
 msgstr "Favoriter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3800-17
-#, fuzzy
 msgid "Collections"
 msgstr "Samlingar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3801-17
-#, fuzzy
 msgid "Collections search"
 msgstr "Sök i samlingar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3802-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3802-17"
 msgid "Dictionary lookup"
 msgstr "Ordboksuppslag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3803-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3803-17"
 msgid "Wikipedia lookup"
 msgstr "Wikipedia-uppslag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3804-17
-#, fuzzy
 msgid "Show menu"
 msgstr "Visa menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3805-17
 msgid "Menu search"
-msgstr ""
+msgstr "Filsökning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3806-17
 msgid "Open next file in last book folder"
-msgstr ""
+msgstr "Öppna senaste dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3807-17
 msgid "Open previous file in last book folder"
@@ -7564,97 +7688,95 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3808-17
 msgid "Notebook file"
-msgstr ""
+msgstr "Hemmapp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3809-17
 msgid "Screenshot"
-msgstr ""
+msgstr "Skärm"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3810-17
 msgid "Show ephemeris"
-msgstr ""
+msgstr "Visa kapitelmarkörer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3811-17
 msgid "Calibre metadata search"
-msgstr ""
+msgstr "Ignorera metadata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3812-17
 msgid "Browse all calibre tags"
-msgstr ""
+msgstr "Bläddra i etiketter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3813-17
 msgid "Browse all calibre series"
-msgstr ""
+msgstr "Bläddra i serier"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3814-17
 msgid "Browse all calibre authors"
-msgstr ""
+msgstr "Bläddra i etiketter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3815-17
 msgid "Browse all calibre titles"
-msgstr ""
+msgstr "Bläddra i serier"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3816-17
 msgid "Calibre wireless connect"
-msgstr ""
+msgstr "calibre trådlösanslutning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3817-17
 msgid "Calibre wireless disconnect"
-msgstr ""
+msgstr "calibre trådlösanslutning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3818-17
 msgid "Reading statistics: toggle"
-msgstr ""
+msgstr "Läsningsstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3819-17
 msgid "Reading statistics: show progress"
-msgstr ""
+msgstr "Läsningsstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3820-17
 msgid "Reading statistics: show time range"
-msgstr ""
+msgstr "Läsningsstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3821-17
 msgid "Reading statistics: show calendar view"
-msgstr ""
+msgstr "Växla till standardvy"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3822-17
 msgid "Reading statistics: show today's timeline"
-msgstr ""
+msgstr "Statistikinställningar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3823-17
 msgid "Reading statistics: synchronize"
-msgstr ""
+msgstr "Läsningsstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3824-17
 msgid "Text editor: open last file"
-msgstr ""
+msgstr "Inställningar för textredigerare"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3825-17
 msgid "Open vocabulary builder"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3826-17
-#, fuzzy
 msgid "Wallabag retrieval"
 msgstr "Wallabaghämtning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3827-17
 msgid "Wallabag queue upload"
-msgstr ""
+msgstr "Wallabaghämtning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3828-17
 msgid "Wallabag statuses upload"
-msgstr ""
+msgstr "Wallabag-inställningar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3830-17
-#, fuzzy
 msgid "Reading progress"
 msgstr "Läsnings framsteg"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3831-17
 msgid "Toggle SSH server"
-msgstr ""
+msgstr "Stoppa SSH-servern"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3832-17
 msgid "Statistics calendar view"
@@ -7669,40 +7791,37 @@ msgid "Synchronize book statistics"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3838-9
-#, fuzzy
 msgid "Device"
 msgstr "Enhet"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3841-17
 msgid "Exit sleep screen"
-msgstr ""
+msgstr "Tryck för att avsluta skärmsläckaren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3842-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3842-17"
 msgid "Restart KOReader"
 msgstr "Starta om KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3843-17
-#, fuzzy
 msgid "Exit KOReader"
 msgstr "Avsluta KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3844-17
 msgid "Toggle long-press on corners"
-msgstr ""
+msgstr "Långt tryck för att välja"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3845-17
 msgid "Enable touch input"
-msgstr ""
+msgstr "Växla rotationsriktning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3846-17
 msgid "Disable touch input"
-msgstr ""
+msgstr "Växla rotationsriktning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3847-17
 msgid "Toggle touch input"
-msgstr ""
+msgstr "Växla rotationsriktning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3848-17
 msgid "Invert page turn buttons"
@@ -7710,15 +7829,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3849-17
 msgid "Rotation"
-msgstr ""
+msgstr "Plats"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3850-17
 msgid "Toggle orientation"
-msgstr ""
+msgstr "Växla rotationsriktning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3851-17
 msgid "Invert rotation"
-msgstr ""
+msgstr "Ingen rotation"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3852-17
 msgid "Rotate by 90 CW"
@@ -7730,29 +7849,25 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3854-17
 msgid "Toggle Fullscreen"
-msgstr ""
+msgstr "Fullskärm"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3855-17
 msgid "Show network info"
-msgstr ""
+msgstr "Nätverksinformation"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3856-17
-#, fuzzy
 msgid "Battery statistics"
 msgstr "Batteristatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3857-17
-#, fuzzy
 msgid "System statistics"
 msgstr "Systemstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3858-17
-#, fuzzy
 msgid "Terminal emulator"
 msgstr "Terminalemulator"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3861-17
-#, fuzzy
 msgid "Start USB storage"
 msgstr "Starta USB-lagring"
 
@@ -7761,98 +7876,92 @@ msgid "Suspend"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3863-17
-#, fuzzy
 msgid "Reboot the device"
 msgstr "Starta om enheten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3864-17
-#, fuzzy
 msgid "Power off"
 msgstr "Avstängning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3865-17
 msgid "Toggle key repeat"
-msgstr ""
+msgstr "Växla rotationsriktning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3866-17
-#, fuzzy
 msgid "Toggle accelerometer"
 msgstr "Växla accelerometer"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3867-17
 msgid "Turn on Wi-Fi"
-msgstr ""
+msgstr "Slå på"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3868-17
 msgid "Turn off Wi-Fi"
-msgstr ""
+msgstr "Slå av"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3869-17
 msgid "Toggle Wi-Fi"
-msgstr ""
+msgstr "Toggle Wi-Fi"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3874-9
 msgid "Screen and lights"
-msgstr ""
+msgstr "Skärm"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3877-17
-#, fuzzy
 msgid "Show frontlight dialog"
 msgstr "Visa dialog för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3878-17
-#, fuzzy
 msgid "Toggle frontlight"
 msgstr "Växla framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3879-17
 msgid "Set frontlight brightness"
-msgstr ""
+msgstr "Öka ljusstyrka för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3880-17
 msgid "Increase frontlight brightness"
-msgstr ""
+msgstr "Öka ljusstyrka för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3881-17
 msgid "Decrease frontlight brightness"
-msgstr ""
+msgstr "Minska ljusstyrka för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3882-17
 msgid "Set frontlight warmth"
-msgstr ""
+msgstr "Öka värme för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3883-17
 msgid "Increase frontlight warmth"
-msgstr ""
+msgstr "Öka värme för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3884-17
 msgid "Decrease frontlight warmth"
-msgstr ""
+msgstr "Minska värme för framlampa"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3885-17
 msgid "Toggle night mode"
-msgstr ""
+msgstr "Växla läge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3886-17
 msgid "Set night mode"
-msgstr ""
+msgstr "Nattläge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3887-17
-#, fuzzy
 msgid "Full screen refresh"
 msgstr "Full uppdateringshastighet för skärm"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3888-17
 msgid "Full refresh rate (always)"
-msgstr ""
+msgstr "Full uppdateringshastighet"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3889-17
 msgid "Full refresh rate (not in night mode)"
-msgstr ""
+msgstr "Full uppdateringshastighet"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3890-17
 msgid "Full refresh rate (in night mode)"
-msgstr ""
+msgstr "Full uppdateringshastighet"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3891-17
 msgid "Always flash on chapter boundaries"
@@ -7879,30 +7988,26 @@ msgid "Toggle flashing on pages with images"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3897-17
-#, fuzzy
 msgid "Auto warmth off"
 msgstr "Autovärme av"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3898-17
-#, fuzzy
 msgid "Auto warmth use sun position"
 msgstr "Autovärme använd solposition"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3899-17
-#, fuzzy
 msgid "Auto warmth use schedule"
 msgstr "Autovärme använd schema"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3900-17
 msgid "Auto warmth use closer midnight"
-msgstr ""
+msgstr "Nattläge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3901-17
 msgid "Auto warmth use closer noon"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3902-17
-#, fuzzy
 msgid "Auto warmth cycle through modes"
 msgstr "Autovärme växla mellan lägen"
 
@@ -7916,11 +8021,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3909-17
 msgid "Increase font size"
-msgstr ""
+msgstr "Öka teckenstorleken med %1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3910-17
 msgid "Decrease font size"
-msgstr ""
+msgstr "Minska teckenstorleken med %1"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3911-17
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4033-17
@@ -7930,14 +8035,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3912-17
 msgid "Word spacing"
-msgstr ""
+msgstr "Ordlucka"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3913-17
 msgid "Word expansion"
-msgstr ""
+msgstr "Ordlucka"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3914-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3914-17"
 msgid "Contrast"
 msgstr "Kontrast"
@@ -7984,7 +8088,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3925-17
 msgid "Zoom"
-msgstr ""
+msgstr "Zooma för att passa sidan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3926-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3926-17"
@@ -7993,7 +8097,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3927-17
 msgid "Alt status bar"
-msgstr ""
+msgstr "Statusfält"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3928-17
 msgid "Embedded style"
@@ -8012,72 +8116,61 @@ msgid "Invert images"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3935-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.div:3935-5"
 msgid "File browser"
 msgstr "Filhanteraren"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3937-13
 msgid "Set display mode"
-msgstr ""
+msgstr "Visningsläge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3938-13
-#, fuzzy
 msgid "Sort by"
 msgstr "Sortera efter"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3939-13
-#, fuzzy
 msgid "Reverse sorting"
 msgstr "Omvänd sortering"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3940-13
-#, fuzzy
 msgid "Folders and files mixed"
 msgstr "Mappar och filer blandade"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3941-13
-#, fuzzy
 msgid "Show plus menu"
 msgstr "Visa plus-menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3942-13
 msgid "Toggle select mode"
-msgstr ""
+msgstr "Växla läge"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3943-13
 msgid "Refresh content"
-msgstr ""
+msgstr "Uppdatera"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3944-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3944-13"
 msgid "Folder shortcuts"
 msgstr "Mappgenvägar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3945-13
-#, fuzzy
 msgid "File search"
 msgstr "Filsökning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3946-13
-#, fuzzy
 msgid "Last file search results"
 msgstr "Senaste filsökningsresultaten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3947-13
-#, fuzzy
 msgid "Folder up"
 msgstr "Gå upp en mapp"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3948-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3948-13"
 msgid "Go to page"
 msgstr "Gå till sida"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3949-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3949-13"
 msgid "Back"
 msgstr "Bakåt"
@@ -8088,131 +8181,117 @@ msgid "Export all notes in all books in history"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3951-13
-#, fuzzy
 msgid "OPDS catalog"
 msgstr "OPDS-katalog"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3955-9
 msgid "Reader"
-msgstr ""
+msgstr "Läsa senare"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3957-17
-#, fuzzy
 msgid "Show bottom menu"
 msgstr "Visa nedre menyn"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3958-17
 msgid "Toggle status bar"
-msgstr ""
+msgstr "Statusfält"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3959-17
 msgid "Toggle chapter progress bar"
-msgstr ""
+msgstr "Visa förloppsindikator"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3960-17
-#, fuzzy
 msgid "Previous chapter"
 msgstr "Föregående kapitel"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3961-17
-#, fuzzy
 msgid "Next chapter"
 msgstr "Nästa kapitel"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3962-17
 msgid "First page"
-msgstr ""
+msgstr "Först öppnad"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3963-17
 msgid "Last page"
-msgstr ""
+msgstr "Senast öppnad"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3964-17
 msgid "Random page"
-msgstr ""
+msgstr "Lästa sidor"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3965-17
 msgid "Turn pages"
-msgstr ""
+msgstr "Aktuell sida (%1)"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3966-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3966-17"
 msgid "Go to page"
 msgstr "Gå till sida"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3967-17
-#, fuzzy
 msgid "Skim document"
 msgstr "Skumma dokument"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3968-17
 msgid "Previous bookmark"
-msgstr ""
+msgstr "Ta bort detta bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3969-17
 msgid "Next bookmark"
-msgstr ""
+msgstr "Byt namn på bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3970-17
 msgid "First bookmark"
-msgstr ""
+msgstr "Byt namn på bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3971-17
 msgid "Last bookmark"
-msgstr ""
+msgstr "Byt namn på bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3972-17
-#, fuzzy
 msgid "Latest bookmark"
 msgstr "Senaste bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3973-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3973-17"
 msgid "Back"
 msgstr "Bakåt"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3974-17
-#, fuzzy
 msgid "Back to previous location"
 msgstr "Tillbaka till föregående plats"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3975-17
 msgid "Forward to next location"
-msgstr ""
+msgstr "Gå tillbaka till föregående plats"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3976-17
-#, fuzzy
 msgid "Follow nearest link"
 msgstr "Följ närmaste länk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3977-17
-#, fuzzy
 msgid "Follow nearest internal link"
 msgstr "Följ närmaste interna länk"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3978-17
 msgid "Add current location to history"
-msgstr ""
+msgstr "Rensa platshistoriken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3979-17
-#, fuzzy
 msgid "Clear location history"
 msgstr "Rensa platshistoriken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3980-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3980-17"
 msgid "Fulltext search"
 msgstr "Heltextssökning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3981-17
 msgid "Last fulltext search results"
-msgstr ""
+msgstr "Heltextssökning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3982-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3982-17"
 msgid "Table of contents"
 msgstr "Innehållsförteckning"
@@ -8224,52 +8303,45 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3984-17
 msgid "Book map (overview)"
-msgstr ""
+msgstr "Bokomslag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3985-17
-#, fuzzy
 msgid "Page browser"
 msgstr "Sidbläddrare"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3986-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3986-17"
 msgid "Bookmarks"
 msgstr "Bokmärken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3987-17
 msgid "Bookmark search"
-msgstr ""
+msgstr "Sök bland bokmärken"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3988-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:3988-17"
 msgid "Toggle bookmark"
 msgstr "Växla bokmärke"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3989-17
-#, fuzzy
 msgid "Book status"
 msgstr "Bokstatus"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3990-17
-#, fuzzy
 msgid "Book information"
 msgstr "Bokinformation"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3991-17
-#, fuzzy
 msgid "Book description"
 msgstr "Bokbeskrivning"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3992-17
-#, fuzzy
 msgid "Book cover"
 msgstr "Bokomslag"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3993-17
 msgid "Translate current page"
-msgstr ""
+msgstr "Bokmärk aktuell sida"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3994-17
 msgid "Invert page turn taps and swipes"
@@ -8285,33 +8357,31 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3997-17
 msgid "Toggle custom hidden flows"
-msgstr ""
+msgstr "Växla återflöde"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3998-17
 msgid "Set highlight action"
-msgstr ""
+msgstr "Cykla genom markeringsåtgärd"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:3999-17
-#, fuzzy
 msgid "Cycle highlight action"
 msgstr "Cykla genom markeringsåtgärd"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4000-17
-#, fuzzy
 msgid "Cycle highlight style"
 msgstr "Cykla genom markeringsstil"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4001-17
 msgid "Save book metadata"
-msgstr ""
+msgstr "Ignorera metadata"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4002-17
 msgid "Export annotations"
-msgstr ""
+msgstr "Exportera anteckningar"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4003-17
 msgid "Export all notes in current book"
-msgstr ""
+msgstr "Exportera alla anteckningar i denna bok"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4004-17
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4004-17"
@@ -8319,21 +8389,18 @@ msgid "Export all notes in all books in history"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4005-17
-#, fuzzy
 msgid "Move current book to archive"
 msgstr "Flytta aktuell bok till arkiv"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4006-17
 msgid "Reading statistics: current book"
-msgstr ""
+msgstr "Återställ bokstatistik"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4007-17
-#, fuzzy
 msgid "Push progress from this device"
 msgstr "Skicka framsteg från den här enheten"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4008-17
-#, fuzzy
 msgid "Pull progress from other devices"
 msgstr "Hämta framsteg från andra enheter"
 
@@ -8342,55 +8409,52 @@ msgid "Fixed layout documents"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4014-17
-#, fuzzy
 msgid "Toggle page flipping"
 msgstr "Växla sidbläddring"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4015-17
 msgid "Toggle bookmark flipping"
-msgstr ""
+msgstr "Växla sidbläddring"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4016-17
-#, fuzzy
 msgid "Toggle reflow"
 msgstr "Växla återflöde"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4017-17
 msgid "Zoom mode"
-msgstr ""
+msgstr "Zooma för att passa sidan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4018-17
 msgid "Change zoom factor"
-msgstr ""
+msgstr "Ändra SSH-port"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4019-17
 msgid "Toggle panel zoom"
-msgstr ""
+msgstr "Växla återflöde"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4020-17
 msgid "Page crop"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4021-17
-#, fuzzy
 msgid "Margin"
 msgstr "Marginal"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4022-17
 msgid "Horizontal overlap"
-msgstr ""
+msgstr "Ignorera horisontella marignaler"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4023-17
 msgid "Vertical overlap"
-msgstr ""
+msgstr "Vertikal text"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4024-17
 msgid "Fit"
-msgstr ""
+msgstr "Fre"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4025-17
 msgid "Zoom to"
-msgstr ""
+msgstr "Zooma för att passa sidan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4026-17
 msgid "Number of columns/rows to split page"
@@ -8398,11 +8462,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4027-17
 msgid "Zoom factor"
-msgstr ""
+msgstr "Zooma för att passa sidan"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4028-17
 msgid "Direction"
-msgstr ""
+msgstr "Katalog:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4029-17
 msgid "View mode"
@@ -8418,31 +8482,27 @@ msgid "Line spacing"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4032-17
-#, fuzzy
 msgid "Alignment"
 msgstr "Justering"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4034-17
 msgid "Change font size"
-msgstr ""
+msgstr "Ställ in teckenstorlek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4035-17
 msgid "Word gap"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4036-17
-#, fuzzy
 msgid "Reflow"
 msgstr "Omforma flöde"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4037-17
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.ol.li:4037-17"
 msgid "Contrast"
 msgstr "Kontrast"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4038-17
-#, fuzzy
 msgid "Dewatermark"
 msgstr "Avvattenmärka"
 
@@ -8455,7 +8515,6 @@ msgid "Document language"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.ol.li:4041-17
-#, fuzzy
 msgid "Forced OCR"
 msgstr "Tvingad OCR"
 
@@ -8557,7 +8616,6 @@ msgid "Navigate to home"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4091-13
-#, fuzzy
 msgid "Home"
 msgstr "Hem"
 
@@ -8620,7 +8678,6 @@ msgid "Esc"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4122-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4122-13"
 msgid "Bookmarks"
 msgstr "Bokmärken"
@@ -8630,7 +8687,6 @@ msgid "Shift + Left"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4126-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4126-13"
 msgid "Toggle bookmark"
 msgstr "Växla bokmärke"
@@ -8640,7 +8696,6 @@ msgid "Shift + Right"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4130-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4130-13"
 msgid "Dictionary lookup"
 msgstr "Ordboksuppslag"
@@ -8650,7 +8705,6 @@ msgid "Ctrl + D (Alt + D on Kindles)"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4134-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4134-13"
 msgid "Wikipedia lookup"
 msgstr "Wikipedia-uppslag"
@@ -8660,7 +8714,6 @@ msgid "Ctrl + W"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4138-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4138-13"
 msgid "Fulltext search"
 msgstr "Heltextssökning"
@@ -8678,7 +8731,6 @@ msgid "Ctrl + F"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td.div:4147-17
-#, fuzzy
 msgid "Links"
 msgstr "Länkar"
 
@@ -8786,7 +8838,6 @@ msgid "Left-Right / Up-Down<br>Page Up-Page Down"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.table.tr.td:4206-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div.table.tr.td:4206-13"
 msgid "Table of contents"
 msgstr "Innehållsförteckning"
@@ -9047,12 +9098,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4332-5
 msgctxt "user_guide/en.html:L1-qmandprofiles"
 msgid "QUICK MENU AND PROFILES"
-msgstr ""
+msgstr "SNABBMENY OCH PROFILER"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4335-5
 msgctxt "user_guide/en.html:L2-quickmenu"
 msgid "Quick Menu"
-msgstr ""
+msgstr "Snabbmeny"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4336-5
 msgid ""
@@ -9297,7 +9348,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4429-1
-#, fuzzy
 msgctxt "user_guide/en.html:L2-profiles"
 msgid "Profiles"
 msgstr "Profiler"
@@ -9738,12 +9788,12 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4591-9
 msgctxt "user_guide/en.html:L1-plugins"
 msgid "PLUGINS AND USER PATCHES"
-msgstr ""
+msgstr "INSTICKSMODULER OCH ANVÄNDARPATCHAR"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4592-9
 msgctxt "user_guide/en.html:L2-plugintypes"
 msgid "Plugin types"
-msgstr ""
+msgstr "Typer av insticksmoduler"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4593-9
 msgid ""
@@ -9915,7 +9965,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4659-9
 msgctxt "user_guide/en.html:L2-pluginslist"
 msgid "List of internal plugins"
-msgstr ""
+msgstr "Lista över interna insticksmoduler"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4661-9
 msgid ""
@@ -10161,7 +10211,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4714-9
 msgctxt "user_guide/en.html:L2-userpatches"
 msgid "User patches"
-msgstr ""
+msgstr "Användarpatchar"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4716-3
 msgctxt "user_guide/en.html+html.body.div.p:4716-3"
@@ -10205,7 +10255,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4729-13
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.ol.li:4729-13"
 msgid "Restart KOReader"
 msgstr "Starta om KOReader"
@@ -10278,7 +10327,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4757-1
 msgctxt "user_guide/en.html:L1-tips"
 msgid "TIPS"
-msgstr ""
+msgstr "TIPS"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4760-1
 msgid "Reading Tips"
@@ -10611,7 +10660,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:4882-1
 msgctxt "user_guide/en.html:L1-troubleshooting"
 msgid "TROUBLESHOOTING"
-msgstr ""
+msgstr "FELSÖKNING"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4884-5
 msgid ""
@@ -11204,7 +11253,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.div:5109-1
 msgctxt "user_guide/en.html:L1-reachus"
 msgid "REACH US"
-msgstr ""
+msgstr "KONTAKTA OSS"
 
 #: user_guide/en.html%2Bhtml.body.div.p:5111-9
 msgid ""
