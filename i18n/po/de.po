@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 19:03+0000\n"
-"PO-Revision-Date: 2026-07-21 19:23+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-23 16:12+0000\n"
+"Last-Translator: Adam <flummijosh2006@duck.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/koreader/user-"
 "guide/de/>\n"
 "Language: de\n"
@@ -1754,6 +1753,11 @@ msgid ""
 "it in our <a href=\"https://github.com/koreader/koreader/wiki/Chinese-"
 "keyboard\">wiki</a>."
 msgstr ""
+"KOReader integriert auch die chinesische Strichfolge-Tastatur zur Eingabe "
+"von vereinfachten und traditionellen chinesischen Zeichen. Weitere "
+"Informationen dazu findest du in unserem <a href=\"[https://github.com/"
+"koreader/koreader/wiki/Chinese-keyboard](https://github.com/koreader/"
+"koreader/wiki/Chinese-keyboard)\">Wiki</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1395-1
 msgctxt "user_guide/en.html:L2-autowarmth"
@@ -1770,6 +1774,13 @@ msgid ""
 "class=\"ui\">only night mode control</span> mode, so you can adjust the "
 "other one manually."
 msgstr ""
+"Dieses Plugin ermöglicht es dir, die Farbtemperatur der Frontbeleuchtung auf "
+"Geräten mit <b>natürlichem (gelb/orangefarbenem) Licht</b> anzupassen und "
+"den <span class=\"ui\">Nachtmodus</span> (invertierte Bildschirmfarben – <b>"
+"weißer Text auf schwarzem Hintergrund</b>) nach einem Zeitplan automatisch "
+"zu aktivieren. Es kann beides steuern oder wahlweise <span class=\"ui\">nur "
+"die Farbtemperatur</span> oder <span class=\"ui\">nur den Nachtmodus</span> "
+"verwalten, sodass du die jeweils andere Funktion manuell einstellen kannst."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1399-5
 msgid ""
@@ -1795,6 +1806,11 @@ msgid ""
 "in the PocketBook reader (which comes with your device) <b>SmartLight-Auto</"
 "b> option is set to <b>Disabled</b>."
 msgstr ""
+"<span class=\"label_blue\">INFO</span> Wenn du ein PocketBook-Gerät "
+"verwendest und der Regler für die Frontbeleuchtung oder Farbtemperatur in "
+"KOReader nicht funktioniert, stelle bitte sicher, dass im PocketBook-Reader "
+"(der mit deinem Gerät geliefert wird) die Option <b>SmartLight-Auto</b> auf "
+"<b>Deaktiviert</b> gesetzt ist."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1406-5
 msgid ""
@@ -1881,6 +1897,9 @@ msgid ""
 "Set your warmth transition schedule by setting times for various items here. "
 "Refer to the image above for an explanation of items."
 msgstr ""
+"Lege hier den Zeitplan für den Übergang der Farbtemperatur fest, indem du "
+"die Zeiten für die einzelnen Einträge festlegst. Eine Erklärung der Einträge "
+"findest du in der Abbildung oben."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1430-1
 msgid "Sun’s Position Mode"
@@ -1889,7 +1908,7 @@ msgstr "Sonnenstandmous"
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1433-13
 msgctxt "user_guide/en.html+html.body.div.ol.li:1433-13"
 msgid "Go to the plugin menu:"
-msgstr ""
+msgstr "Gehe zum Plugin-Menü:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:1434-17
 #, fuzzy
@@ -1974,6 +1993,14 @@ msgid ""
 "can activate it by selecting <span class=\"ui\">Frontlight off during the "
 "day</span> menu item in this plugin."
 msgstr ""
+"Diese Funktion schaltet die Frontbeleuchtung bei Sonnenuntergang ein und bei "
+"Sonnenaufgang wieder aus – entsprechend den <span class=\"ui\">derzeit "
+"aktiven Einstellungen</span> dieses Plugins. Du kannst dieses Verhalten "
+"jederzeit übersteuern, indem du die Frontbeleuchtung manuell ein- oder "
+"ausschaltest. Beim nächsten Sonnenauf- oder -untergang schaltet <span "
+"class=\"ui\">AutoWarmth</span> die Frontbeleuchtung bei Bedarf erneut um. "
+"Aktivieren kannst du diese Funktion über den Menüpunkt <span class=\"ui\">"
+"Frontbeleuchtung tagsüber ausschalten</span> in diesem Plugin."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1466-1
 msgid "Faster warmth transitions"
@@ -2035,7 +2062,7 @@ msgstr "Lese-Bildschirm"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1493-5
 msgid "<b>READING SCREEN</b> has two menus:"
-msgstr ""
+msgstr "<b>LESEANSICHT</b> verfügt über zwei Menüs:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1496-3
 msgid ""
