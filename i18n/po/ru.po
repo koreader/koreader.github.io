@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 18:07+0000\n"
 "PO-Revision-Date: 2026-07-26 09:13+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Ostrenin Alexey <ostrenin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -2111,6 +2110,11 @@ msgid ""
 "them bigger for clarity. Next heading explains these indicator icons in "
 "detail: <a href=\"#L2-indicators\">Indicator icons</a>"
 msgstr ""
+"<b>Индикаторы:</b> Эти значки информируют вас о некоторых текущих процессах "
+"и состояниях. Во время определённых операций они отображаются в левом "
+"верхнем углу экрана. Обычно они меньше, но здесь для наглядности показаны "
+"увеличенными. В следующем разделе подробно объясняются эти индикаторы: <a "
+"href=\"#L2-indicators\">Индикаторы</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1508-9
 msgid ""
@@ -2118,6 +2122,9 @@ msgid ""
 "various information about your book and KOReader. Click here to go to the "
 "section: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Строка состояния:</b> Это полностью настраиваемая область, в которой "
+"отображается различная информация о книге и KOReader. Нажмите здесь, чтобы "
+"перейти к разделу: <a href=\"#L2-statusbar\">Строка состояния</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1509-9
 msgid ""
@@ -2184,6 +2191,11 @@ msgid ""
 "feature. This feature is <b>ENABLED</b> by default. If necessary, it can be "
 "disabled per book (with a tap), or globally (with a long-tap) on:"
 msgstr ""
+"Эта функция позволяет гораздо быстрее просматривать изменения внешнего вида "
+"текста, отображая только текущую главу, а не всю книгу. Благодаря этой "
+"функции поворот экрана также выполняется намного быстрее. По умолчанию "
+"функция <b>ВКЛЮЧЕНА</b>. При необходимости её можно отключить для отдельной "
+"книги (нажатием) или глобально (долгим нажатием) здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.div:1528-13
 msgid ""
@@ -2209,6 +2221,10 @@ msgid ""
 "info and many things are <b>innacurate</b>. You can see how the new settings "
 "look and adjust further. You can also turn pages, jump links in this state."
 msgstr ""
+"На этой стадии, документ <b>частично</b> отрисован. Количество страниц, "
+"информация колонтитула и многое другое <b>неточные</b>. Вы можете видеть как "
+"новые настройки выглядят и дополнительно корректированы. Вы так же можете "
+"перелистывать страницы и переходить по ссылкам."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1544-17
 msgid ""
@@ -2225,6 +2241,10 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
+"Рендеринг завершен, но <b>еще не применен</b> потому, что KOReader <b>"
+"бездействует</b> ожидая пока вы не перезагрузите всю книгу (бездейсвие= не "
+"требует взаимодейсвтия с книгой). Вы по прежнему можете перелистывать "
+"страницы, переходить по ссылкам, менять настройки."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1553-17
 msgid ""
@@ -2260,6 +2280,17 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
+"<span class=\"label_orange\">Знак выделения</span> Эта иконка высвечивается "
+"когда вы в <span class=\"ui\">Режиме выбора и выделения</span>. KOReader "
+"имеет дополнительный режим выделения текста, который позволяет вам начать "
+"выделять текст и переворачивать страницы для длинных выделений достигающих "
+"некольких страниц. Вы можете прочитать об этом в секции <a "
+"href=\"#bookmarks\">ЗАКЛАДКИ,ВЫДЕЛЕНИЕ ТЕКСТА И ЗАМЕТКИ</a> гайда. Когда вы "
+"выделяете текст в этом режиме, эта иконка отображается в углу экрана для "
+"напоминания вам о включенном режиме выделения текста. Пометка исчезает когда "
+"вы закончите выделение текста <b>выбирая конец выделения</b> или когда вы <b>"
+"отменяете выделение</b> ( повторным нажатием на начальную точку выделенного "
+"текста или на эту <span class=\"ui\">Иконку выделения</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -2275,16 +2306,21 @@ msgid ""
 "<span class=\"label_orange\">Flip mode icon</span> This icon shows up when "
 "you tap the top left corner if:"
 msgstr ""
+"<span class=\"label_orange\">Режим поворота</span> Эта иконка отображается "
+"когда вы нажимаете в левый верхний угол если:"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1581-17
 msgid "You are reading a PDF document"
-msgstr ""
+msgstr "Вы читаете PDF документ"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.ul.li:1582-17
 msgid ""
 "And you are in a zoomed in view other than 100% (column, row or manual) or "
 "in the <span class=\"ui\">reflow mode</span>"
 msgstr ""
+"И вы находитесь в режиме увеличенного масштаба, отличном от 100 % (по "
+"столбцам, по строкам или вручную), либо в <span class=\"ui\">режиме "
+"динамической компоновки</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1585-13
 msgid ""
@@ -2292,10 +2328,13 @@ msgid ""
 "your screen. You can turn the pages in this mode. To exit this mode, tap on "
 "this icon."
 msgstr ""
+"В этом режиме вся страница временно отображается без обрезки и "
+"масштабируется по размеру экрана. В этом режиме можно перелистывать "
+"страницы. Чтобы выйти из него, нажмите на этот значок."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1592-1
 msgid "Page numbering and reference page numbers"
-msgstr ""
+msgstr "Нумерация страниц и номера страниц со ссылками"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1594-5
 msgid ""
@@ -2305,6 +2344,11 @@ msgid ""
 "(unlike <b>pdfs</b> or <b>djvu</b> files for example, which have a fixed "
 "page size)."
 msgstr ""
+"У таких типов документов, как <b>epub, mobi, html</b>, естественно, нет "
+"фиксированных номеров страниц, поскольку это документы с динамической "
+"компоновкой. Это означает, что их можно адаптировать к размеру и ориентации "
+"экрана устройства (в отличие, например, от файлов <b>pdf</b> или <b>djvu</b>"
+", имеющих фиксированный размер страницы)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1596-5
 msgid ""
@@ -2313,6 +2357,11 @@ msgid ""
 "sometimes causes a problem because a highlight which you made on <b>page 38</"
 "b> might be on <b>page 42</b> after the font adjustment."
 msgstr ""
+"Если увеличить размер шрифта в документе с динамической компоновкой, "
+"количество страниц также увеличится, поскольку теперь на одной странице "
+"помещается меньше текста. Иногда это может вызвать проблему: выделенный вами "
+"фрагмент на <b>странице 38</b> после изменения размера шрифта может "
+"оказаться на <b>странице 42</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1598-5
 msgid ""
@@ -2323,16 +2372,25 @@ msgid ""
 "the publisher. This means, the page number you see in your <span "
 "class=\"ui\">Status bar</span> matches the print version of the book."
 msgstr ""
+"KOReader поддерживает функцию <b>номеров страниц из печатного издания</b>, "
+"которая позволяет издателям встраивать номера страниц печатных книг "
+"непосредственно в электронную версию. Когда вы включаете эту функцию, "
+"KOReader не рассчитывает номера страниц самостоятельно, а показывает <b>"
+"встроенные номера страниц</b> издателя. Это означает, что номер страницы, "
+"отображаемый в вашей <span class=\"ui\">строке состояния</span>, "
+"соответствует печатной версии книги."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1600-5
 msgid "Benefits of reference page numbers:"
-msgstr ""
+msgstr "Преимущества использования номеров страниц:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1602-9
 msgid ""
 "Reference page numbers enable accurate citations by matching the page "
 "numbers found in the printed versions."
 msgstr ""
+"Номера страниц из печатного издания позволяют точно цитировать текст, "
+"поскольку соответствуют номерам страниц в печатных версиях."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1603-9
 msgid ""
@@ -2340,6 +2398,9 @@ msgid ""
 "familiar with the print version of a book. It can help you find specific "
 "passages or quotes more easily in the digital version."
 msgstr ""
+"Номера страниц из печатного издания могут упростить навигацию, особенно для "
+"читателей, знакомых с бумажной версией книги. Они помогут быстрее находить "
+"нужные фрагменты или цитаты в цифровой версии."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1604-9
 msgid ""
@@ -2349,6 +2410,11 @@ msgid ""
 "reference when reading the same book on different devices like e-reader and "
 "phone at the same time."
 msgstr ""
+"Поскольку электронные книги можно читать на разных устройствах и платформах, "
+"каждое из которых имеет собственные настройки размера шрифта и отображения, "
+"показываемые номера страниц могут существенно различаться. Номера страниц из "
+"печатного издания служат единым ориентиром при одновременном чтении одной и "
+"той же книги на разных устройствах, например на ридере и телефоне."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1607-5
 msgid "You can enable this feature from:"
@@ -2370,12 +2436,17 @@ msgid ""
 "margin</span> option from the same menu, this page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
+"Если в том же меню также установить флажок <span class=\"ui\">Показывать "
+"номера страниц из печатного издания на полях</span>, эти номера страниц "
+"будут отображаться рядом с текстом мелким шрифтом."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1613-5
 msgid ""
 "Please note that this menu appears only if there are embedded <b>Reference "
 "page numbers</b> in your book."
 msgstr ""
+"Обратите внимание, что это меню отображается только в том случае, если в "
+"книге есть встроенные <b>номера страниц из печатного издания</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1617-1
 msgctxt "user_guide/en.html:L2-statusbar"
@@ -2390,6 +2461,12 @@ msgid ""
 "class=\"ui\">Alt status bar</span> is available only in reflowable documents "
 "(epub, html, docx, rtf, txt…)."
 msgstr ""
+"В KOReader есть две строки состояния: <span class=\"ui\">нижняя строка "
+"состояния</span>, которая включена по умолчанию, и <span class=\"ui\">"
+"альтернативная строка состояния</span>, которая отображается в верхней части "
+"страницы, если её включить. <span class=\"ui\">Альтернативная строка "
+"состояния</span> доступна только в документах с динамической компоновкой "
+"(epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1621-5
 msgid ""
@@ -2399,6 +2476,11 @@ msgid ""
 "But you can still enable this <span class=\"ui\">Alt status bar</span> if "
 "you find it useful. You can enable it from:"
 msgstr ""
+"<span class=\"ui\">Нижняя строка состояния</span> — более новая и активно "
+"поддерживается. <span class=\"ui\">Альтернативная строка состояния</span> "
+"сохранилась от ранних версий KOReader, поэтому мы не добавляем в неё новые "
+"функции. Но вы по-прежнему можете включить <span class=\"ui\">альтернативную "
+"строку состояния</span>, если считаете её полезной. Включить её можно здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1623-5
 msgid ""
@@ -2443,6 +2525,9 @@ msgid ""
 "the <span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar "
 "as you like."
 msgstr ""
+"Настроить нижнюю строку состояния можно в этом меню. Изучите подменю <span "
+"class=\"ui\">НАСТРОЙКИ</span>, чтобы настроить строку состояния по своему "
+"вкусу."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1635-5
 msgid ""
@@ -2458,17 +2543,20 @@ msgid ""
 "one is shown at a time and you have to tap on the status bar to cycle "
 "between them. If you want to show all items at once, enable it from here:"
 msgstr ""
+"В строке состояния можно отображать множество элементов. Но по умолчанию "
+"одновременно отображается только один, и для переключения между ними нужно "
+"нажимать на строку состояния. Если вы хотите отображать все элементы "
+"одновременно, включите эту опцию здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1641-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Configure items / Show all selected "
 "items at once"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния / Настроить элементы / Показывать "
+"все выбранные элементы одновременно"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1645-5
 msgid ""
@@ -2476,59 +2564,56 @@ msgid ""
 "it. If you want to hide it, you should assign a gesture here for toggling "
 "the status bar:"
 msgstr ""
+"Если вы включили указанную выше опцию, скрыть строку состояния нажатием на "
+"неё нельзя. Чтобы скрывать её, назначьте здесь жест для переключения строки "
+"состояния:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1647-5
 msgid "Gesture selection menu / Reader / Toggle status bar"
-msgstr ""
+msgstr "Меню выбора жеста / Читалка / Переключить строку состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1649-5
-#, fuzzy
 msgid "Sorting the status bar items:"
-msgstr "Book map"
+msgstr "Сортировка элементов строки состояния:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1651-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
 "status bar"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния / Настроить элементы / Расположить "
+"элементы в строке состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1655-1
 msgid "Using \"Custom Text\" item for status bar alignment"
 msgstr ""
+"Использование элемента «Произвольный текст» для выравнивания строки состояния"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1656-5
-#, fuzzy
 msgid ""
 "There is a special status bar item named <span class=\"ui\">Custom text</"
 "span>. This item can show your chosen text in the status bar. You can also "
 "use this feature to create a separator between the status bar items as you "
 "can see in the example below:"
 msgstr ""
-"В качестве разделителя можно выбрать другой символ. Вы также можете "
-"переместить этот элемент, как и другие элементы строки состояния, чтобы "
-"изменить его порядок."
+"В строке состояния есть специальный элемент под названием <span class=\"ui\">"
+"Произвольный текст</span>. Этот элемент позволяет отображать в строке "
+"состояния выбранный вами текст. Также его можно использовать для создания "
+"разделителя между элементами строки состояния, как показано в примере ниже:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1661-9
 msgid "First enable this option with a short press on it from this menu"
-msgstr ""
+msgstr "Сначала включите эту опцию коротким нажатием на неё в этом меню"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:1663-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния / Произвольный текст: ‘KOReader’"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1666-9
 msgid ""
@@ -2536,16 +2621,22 @@ msgid ""
 "character in the first box and enter the number of repetitions in the second "
 "box, which will determine how wide your separator will be."
 msgstr ""
+"Затем снова нажмите на него и удерживайте, чтобы открыть его настройки. "
+"Введите символ <b>«пробел»</b> в первое поле, а во второе — количество "
+"повторений, которое определит ширину разделителя."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1669-5
 msgid ""
 "You can choose another character as a separator. You can also move this item "
 "like other status bar items to change its order to adjust your groups."
 msgstr ""
+"В качестве разделителя можно выбрать другой символ. Также этот элемент можно "
+"перемещать, как и другие элементы строки состояния, чтобы изменить его "
+"порядок и настроить группы элементов."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1671-1
 msgid "Chapter progress bar"
-msgstr ""
+msgstr "Индикатор прогресса главы"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1673-5
 msgid ""
@@ -2557,27 +2648,35 @@ msgid ""
 "status bar</span> can be more informative here. You can enable the feature "
 "from this menu:"
 msgstr ""
+"<span class=\"ui\">Индикатор прогресса</span> в <span class=\"ui\">строке "
+"состояния</span> обычно показывает прогресс по всей книге. Но вместо этого "
+"он может показывать прогресс по <b>текущей главе</b>. Это может быть "
+"полезно, например, если в книге много коротких глав. В таком случае бывает "
+"трудно оценить прогресс в текущей главе, поэтому <span class=\"ui\">"
+"индикатор прогресса главы</span> может быть более информативным. Включить "
+"эту функцию можно в этом меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1675-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Progress Bar / Show chapter-progress "
 "bar instead"
 msgstr ""
-"⇑ TOP MENU (in file browser) → <img class=\"img_inline\" src=\"pictures/"
-"top_tools.svg\" style=\"width:26px;\"> → More tools → Developer options → "
-"Clear caches"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Строка состояния / Индикатор прогресса / Показывать "
+"индикатор прогресса главы вместо него"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1677-5
 msgid ""
 "Also you can assign a gesture to switch between normal and chapter progress "
 "bars. You can find this action under:"
 msgstr ""
+"Также можно назначить жест для переключения между обычным индикатором "
+"прогресса и индикатором прогресса главы. Это действие находится здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1679-5
 msgid "Gesture selection menu / Reader / Toggle chapter progress bar"
-msgstr ""
+msgstr "Меню выбора жеста / Читалка / Переключить индикатор прогресса главы"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1685-1
 msgctxt "user_guide/en.html:L2-topexplained"
@@ -2590,6 +2689,9 @@ msgid ""
 "class=\"ui\">top menu</span> structure to make you familiar with the menu. "
 "Detailed information is available under the related sections of this guide."
 msgstr ""
+"Здесь мы лишь кратко рассмотрим элементы структуры <span class=\"ui\">"
+"верхнего меню</span>, чтобы вы могли ознакомиться с ним. Подробная "
+"информация доступна в соответствующих разделах этого руководства."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1692-9
 msgid ""
@@ -2597,6 +2699,8 @@ msgid ""
 "you to navigate the book you are currently reading. <b>Table of contents, "
 "bookmarks, book map...</b>"
 msgstr ""
+"<span class=\"ui\">НАВИГАЦИЯ:</span> Это меню содержит пункты, позволяющие "
+"перемещаться по читаемой книге. <b>Оглавление, закладки, карта книги…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1694-9
 msgid ""
@@ -2604,12 +2708,16 @@ msgid ""
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
+"<span class=\"ui\">ВЁРСТКА:</span> Это меню содержит пункты, позволяющие "
+"изменять внешний вид книги. <b>Настройки шрифта, корректировка стиля…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1696-9
 msgid ""
 "<span class=\"ui\">SETTINGS:</span> This menu contains settings for KOReader "
 "and your device. <b>E-ink, light, gesture settings...</b>"
 msgstr ""
+"<span class=\"ui\">НАСТРОЙКИ:</span> Это меню содержит настройки KOReader и "
+"вашего устройства. <b>Настройки E Ink, подсветки, жестов…</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1698-9
 msgid ""
