@@ -1000,7 +1000,7 @@ line-height: 2rem;
                 <li><a href="#L2-readingpdfs">在小尺寸屏幕上阅读大开本 PDF 文档</a></li>
                 <li><a href="#L2-pdfbottom">PDF 文档专有底部菜单项</a></li>
                 <li><a href="#L2-pdfhighlights">将高亮内容保存为 PDF 文档 <span class="microns"></span></a></li>
-                <li><a href="#L2-ocr">OCR (光学字符识别)</a></li>
+                <li><a href="#L2-ocr">OCR（光学字符识别）</a></li>
 
             </ul>
         </li>
@@ -2993,35 +2993,35 @@ line-height: 2rem;
             
         <br>
 
-        <p><b>KOReader中PDF文档高亮的工作原理</b></p>
-        <p>PDF文档的高亮功能与上述说明有所不同。如前所述，保存PDF高亮时，高亮数据会被直接写入到PDF文档中，成为文档的一部分。这就是为何该PDF被发送给其它用户后对方可使用兼容的PDF阅读软件查看高亮。对方无需获得包含了高亮记录的关联<span class="ui">.sdr文件夹</span>，因为高亮已被直接嵌入PDF文档中。</p>
+        <p><b>KOReader 中 PDF 文档高亮的工作原理</b></p>
+        <p>PDF 文档的高亮功能与上述说明有所不同。如前所述，保存 PDF 高亮时，高亮数据会被直接写入到 PDF 文档中，成为文档的一部分。这就是为何该 PDF 被发送给其它用户后对方可使用兼容的 PDF 阅读软件查看高亮。对方无需获得包含了高亮记录的关联<span class="ui"> .sdr 文件夹</span>，因为高亮已被直接嵌入 PDF 文档中。</p>
 
-        <p>让我们通过一个例子来解释使用此功能时可能出现的问题。 想象一下，您正在使用KOReader在<b>电子阅读器</b>上阅读PDF书籍:</p>
+        <p>让我们通过一个例子来解释使用此功能时可能出现的问题。 想象一下，您正在使用 KOReader 在<b>电子阅读器</b>上阅读PDF书籍:</p>
 
         <ol>
-            <li>若<span class="ui">将高亮保存到PDF文档</span>选项开启，KOReader会在做下高亮的同时将高亮写入PDF文档。</li>
-            <li>你想继续用KOReader在你的<b>手机</b>上阅读这本书，所以你把这个PDF文件从你的<b>电子阅读器</b>复制到你的<b>手机</b>上（但是你没有复制<span class="ui">.sdr文件夹</span>，只有PDF文件）。</li>
-            <li>当用<b>手机上的</b>KOReader打开书籍，可以看到高亮仍保留在书籍中。</li>
+            <li>若<span class="ui">将高亮保存到 PDF 文档</span>选项开启，KOReader 会在做下高亮的同时将高亮写入 PDF 文档。</li>
+            <li>你想继续用 KOReader 在你的<b>手机</b>上阅读这本书，所以你把这个 PDF 文件从你的<b>电子阅读器</b>复制到你的<b>手机</b>上（但是你没有复制<span class="ui"> .sdr 文件夹</span>，只有 PDF 文件）。</li>
+            <li>当用<b>手机上的</b> KOReader 打开书籍，可以看到高亮仍保留在书籍中。</li>
         </ol>
 
-        <p>此时两处设备上的情况是一致的，<b>电子书阅读器</b>和<b>手机上</b>的KOReader都能查看PDF文档中的高亮。但两者仅是<b>看起来</b>一样，实际却有很大不同。</p>
+        <p>此时两处设备上的情况是一致的，<b>电子书阅读器</b>和<b>手机上</b>的 KOReader 都能查看 PDF 文档中的高亮。但两者仅是<b>看起来</b>一样，实际却有很大不同。</p>
 
-        <p><b>电子书阅读器</b>上的KOReader知道此PDF文档中的哪些高亮是由KOReader添加的，因为它有关联的<span class="ui">.sdr文件夹</span>。但手机上的KOReader则不知道这些信息，它只能读取PDF文档。</p>
+        <p><b>电子书阅读器</b>上的 KOReader 知道此 PDF 文档中的哪些高亮是由 KOReader 添加的，因为它有关联的<span class="ui"> .sdr 文件夹</span>。但手机上的 KOReader 则不知道这些信息，它只能读取 PDF 文档。</p>
 
-        <p>在尝试删除或导出PDF高亮时差异就更大了。<b>电子书阅读器</b>上的KOReader即可删除也可导出高亮，但<b>手机上</b>的KOReader则不能。如前所述，它缺少文档关联的<span class="ui">.sdr文件夹</span>，所以它无法区分哪部分是高亮，而只能将高亮视作原文的一部分。</p>
+        <p>在尝试删除或导出 PDF 高亮时差异就更大了。<b>电子书阅读器</b>上的 KOReader 即可删除也可导出高亮，但<b>手机上</b>的 KOReader 则不能。如前所述，它缺少文档关联的<span class="ui"> .sdr 文件夹</span>，所以它无法区分哪部分是高亮，而只能将高亮视作原文的一部分。</p>
 
-        <p>所以简单来说，如果打算之后导出PDF高亮，务必在备份或复制PDF文档到其它设备时将关联的<span class="ui">.sdr文件夹</span>一并复制。</p>
+        <p>所以简单来说，如果打算之后导出 PDF 高亮，务必在备份或复制PDF文档到其它设备时将关联的<span class="ui"> .sdr 文件夹</span>一并复制。</p>
 
 
 
 <div class="L2-Sub-heading" id="L2-ocr">OCR (光学字符识别)</div>
     <p>
-    <b>OCR（光学字符识别）</b>是从图片中提取文本的过程。 在KOReader上下文中，它通常用于从PDF文件中的扫描书页中提取文本。 KOReader依赖于<a href="https://github.com/tesseract-ocr/tessdoc">Tesseract开源OCR引擎</a>用于此任务。</p>
+    <b>OCR（光学字符识别）</b>是从图片中提取文本的过程。 在 KOReader 上下文中，它通常用于从 PDF 文件中的扫描书页中提取文本。 KOReader 依赖于<a href="https://github.com/tesseract-ocr/tessdoc"> Tesseract 开源 OCR 引擎</a>用于此任务。</p>
     
     <p>要使用此功能，您需要:</p>
     <ol>
-        <li>安装<span class="external">Tesseract</span>语言数据到您的KOReader</li>
-        <li>将新安装的语言添加到koreader/defaults.lua配置文件（仅当您的语言不是英语或中文时才需要）</li>
+        <li>安装 <span class="external">Tesseract</span> 语言数据到您的 KOReader</li>
+        <li>将新安装的语言添加到 koreader/defaults.lua 配置文件（仅当您的语言不是英语或中文时才需要）</li>
     </ol>
     
     <div class="info"><span class="label_blue">说明</span> 在 Tesseract 识别引擎的必要文件安装前，OCR 菜单中的各个按钮<b>不会响应</b>。详细的操作过程请前往<a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">维基页</a>阅读。</div>
