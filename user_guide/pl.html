@@ -868,7 +868,7 @@ line-height: 2rem;
 
     <p><b>Ogólny status tłumaczenia przewodnika użytkownika</b></p>
 
-        <img loading="lazy" src="https://hosted.weblate.org/widget/koreader/user-guide/multi-auto.svg" alt="Status tłumaczenia" style="width:60%;">
+        <img loading="lazy" src="https://hosted.weblate.org/widget/koreader/user-guide/multi-auto.svg" alt="Poziom przetłumaczenia" style="width:60%;">
 
 
 <br>
@@ -1037,7 +1037,7 @@ line-height: 2rem;
         </ul>
     </li>
 
-        <li><a href="#L1-qmandprofiles">QUICK MENU AND PROFILES</a>
+        <li><a href="#L1-qmandprofiles">PROSTE MENU I PROFILE</a>
         <ul>
             <li><a href="#L2-quickmenu">Szybkie Menu</a></li>
             <li><a href="#L2-quickmenutips">Wskazówki szybkiego menu</a></li>
@@ -1439,7 +1439,7 @@ line-height: 2rem;
 
             <li>Wróć do poprzedniego menu i stuknij w <span class="ui">Ustawienia Barwy i Trybu Nocnego</span></li>
 
-            <li>Set your warmth transition schedule by setting times for various items here. Refer to the image above for an explanation of items.</li>
+            <li>Ustaw harmonogram zmiany barwy światła poprzez wprowadzenie godziny dla różnych pór dnia. Obrazek pokazuje to dokładnie dla różnych pór dnia.</li>
         </ol>
  
     <p>Możesz sprawdzić swój obecny harmonogram w opcji <span class="ui">Aktualnie Aktywne Parametry</span> w menu.</p>
@@ -2286,18 +2286,18 @@ line-height: 2rem;
     <p><b>Szeryfowa:</b></p>
     <ul>
         <li><a href="https://fonts.google.com/specimen/Spectral">Spectral</a></li>
-        <li><a href="https://fonts.google.com/specimen/Vollkorn">Vollkorn</a></li>
-        <li><a href="https://fonts.google.com/specimen/EB+Garamond">EB Garamond</a></li>        
+        <li><a href="https://fonts.google.com/specimen/Vollkorn">Ziarnistość</a></li>
+        <li><a href="https://fonts.google.com/specimen/EB+Garamond">Font EB Garamond</a></li>        
     </ul>
         
     <p><b>Bezszeryfowa:</b></p>
     <ul>
-        <li><a href="https://fonts.google.com/specimen/Varela+Round">Varela Round</a></li>
-        <li><a href="https://fonts.google.com/specimen/Wix+Madefor+Text">Wix Madefor Text</a></li>
+        <li><a href="https://fonts.google.com/specimen/Varela+Round">Font Varela Round</a></li>
+        <li><a href="https://fonts.google.com/specimen/Wix+Madefor+Text">Font Wix Madefor Tekst</a></li>
         <li><a href="https://fonts.google.com/specimen/Maven+Pro">Maven Pro (Czcionka instrukcji obsługi, którą właśnie czytasz)</a></li>
     </ul>
 
-    <p><b>Monospace:</b></p>
+    <p><b>Stałoszerokościowy:</b></p>
     <p>Jeśli planujesz używać własnej czcionki o stałej szerokości, prawdopodobnie masz już swoją ulubioną, dlatego nie podajemy tutaj żadnych przykładów. Możesz jednak znaleźć i porównać wiele czcionek o stałej szerokości na stronie <a href="https://www.programmingfonts.org/">programmingfonts.org</a></p>
 
 	<div class="tip"><span class="label_green">WSKAZÓWKA</span> Program KOReader umożliwia wygenerowanie dokumentu zawierającego przykładowy tekst wyświetlany przy użyciu wszystkich czcionek zainstalowanych na urządzeniu. Pozwala to na szybkie porównanie wyglądu i funkcji czcionek, takich jak ligatury oraz zestawy znaków w alfabetach innych niż łaciński, np. greckim, hebrajskim czy chińskim. Dostęp do tej funkcji można uzyskać poprzez:
@@ -2321,7 +2321,7 @@ line-height: 2rem;
 
     <p>In HTML/CSS based documents like EPUBs, books can specify to use fonts by family instead of a specific font name. These families can be <b>Serif, Sans-Serif, Monospace, Cursive, Fantasy, Emoji, Fang Song and Math</b>. For example in a book, normal text can be shown in <b>Sans-serif</b> while dialogues are shown in <b>Serif</b> font. KOReader normally uses your default font for all these families except <b>Monospace</b> and <b>Math</b> (which is determined by the style of the text nodes, for example <b>'font-family: serif'</b>). If you want these families to look distinct, you can assign specific fonts for them here:</p>
 
-    <div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Font / Font-family fonts</div>
+    <div class="menu-breadcrumbs">GŁÓWNE MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Font / rodzina-fontów  fonty</div>
 
     <p>To change a family font for the current book just tap on the desired font name. If you want to set this for all your books, long-tap to set it as a <b>default (★)</b>. If a book abuses this font family feature to the point where your default font is hardly used, you can disable that family font for this book by unchecking the association.</p>
     
@@ -2349,7 +2349,7 @@ line-height: 2rem;
     <div class="L3-Smaller-heading">Czym jest modyfikacja stylu?</div>
     <p>We can describe an EPUB document as a <b>HTML file + some CSS rules</b>. These CSS rules determine how different parts of the book (headings, bold text, quotes etc.) will be shown on a reader app. With <span class="ui">style tweaks</span>, you can change how your book will be rendered by adding new rules and/or overriding the rules written by the publisher that is embedded in your book.</p>
     
-    <p>Let's see this on an example <span class="ui">style tweak</span>:</p>
+    <p>Zobacz to na przykładzie  <span class="ui">style tweak</span>:</p>
 
     <p><b><span class="label_blue">img { width: 10px !important; height: 10px !important }</span></b></p>
     <p>Mówiąc prostym językiem, zasada ta brzmi: <b>„Zignoruj ich pierwotny rozmiar i ustaw szerokość oraz wysokość wszystkich obrazów w tej książce na 10 pikseli.”</b> Jeśli więc wprowadzisz tę zmianę w stylach programu KOReader, wszystkie obrazy w książce będą wyświetlane w bardzo małym rozmiarze.</p>
