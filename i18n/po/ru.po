@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-29 12:03+0000\n"
 "PO-Revision-Date: 2026-07-29 20:13+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Relfot <bruce2hulk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -2090,9 +2089,9 @@ msgid ""
 "text appearance, you will mostly interact with the <span class=\"ui\">BOTTOM "
 "MENU</span>."
 msgstr ""
-"<span class=\"ui\">НИЖНЕЕ МЕНЮ</span> предназначено для настроек "
-"<b>форматирования документа</b>, таких как вес и размер шрифта, межстрочный "
-"интервал и др. Во время настройки отображения текста вы будите в основном "
+"<span class=\"ui\">НИЖНЕЕ МЕНЮ</span> предназначено для настроек <b>"
+"форматирования документа</b>, таких как вес и размер шрифта, межстрочный "
+"интервал и др. Во время настройки отображения текста вы будете в основном "
 "взаимодействовать с <span class=\"ui\">НИЖНИМ МЕНЮ</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1505-5
@@ -2134,6 +2133,11 @@ msgid ""
 "bar</span> which appears at the top of the page if you enable it. Click here "
 "for details: <a href=\"#L2-statusbar\">Status bar</a>"
 msgstr ""
+"<b>Изменить строку состояния:</b> В дополнение к стандартной <span "
+"class=\"ui\">Строке состояния</span>, также есть функция <span class=\"ui\">"
+"Изм строку состояния</span>, которая при включении отображается в верхней "
+"части страницы. Подробнее здесь: <a href=\"#L2-statusbar\">Строка состояния</"
+"a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1510-9
 msgid ""
@@ -2142,6 +2146,10 @@ msgid ""
 "like this. Click here for more info: <a href=\"#L3-referencepages\">Page "
 "numbering and reference page numbers</a>"
 msgstr ""
+"<b>Номера страниц печатного издания:</b> Если издатель вашей книги включил "
+"номера страниц из печатной версии, то вы увидите их таким образом. Подробнее "
+"здесь: <a href=\"#L3-referencepages\">Нумерация страниц и номера страниц "
+"печатного издания</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1511-9
 msgid ""
@@ -2150,6 +2158,10 @@ msgid ""
 "here to go to the section: <a href=\"#L1-bookmarks\">Bookmarks, Highlighting "
 "and Notes</a>"
 msgstr ""
+"<b>Типы выделения:</b> Здесь вы можете увидеть различные типы выделения. Вы "
+"также можете менять цвет выделения текста, если экран вашего устройства "
+"поддерживает цветное изображение. Нажмите здесь, чтобы перейти к разделу: <a "
+"href=\"#L1-bookmarks\">Закладки, Выделение и Заметки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1512-9
 msgid ""
@@ -2183,6 +2195,10 @@ msgid ""
 "these icons more frequently than the others. You see these icons when you "
 "change the settings on the <span class=\"ui\">bottom menu</span>."
 msgstr ""
+"<span class=\"label_orange\">Иконки частичного рендеринга</span> Эта группа "
+"иконок относится к процедуре частичного рендеринга, и, скорее всего, эти "
+"иконки будут встречаться вам чаще, чем любые другие. Вы будете видеть эти "
+"иконки при смене настроек в <span class=\"ui\">нижнем меню</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1526-13
 msgid ""
@@ -2266,6 +2282,14 @@ msgid ""
 "file, partial rendering can not work, because for each change KOReader still "
 "has to calculate the whole book.</b>"
 msgstr ""
+"<span class=\"label_blue\">ИНФО</span> Частичный рендеринг возможен только "
+"при условии, что ваш EPUB файл состоит из нескольких фрагментов. Файлы EPUB "
+"фактически являются .zip архивами, состоящими из .html файлов. Некоторые "
+"книги могут состоять из одного .html файла, в то время как другие - из "
+"нескольких, разделяя, например, каждую главу на отдельный .html файл. <b>"
+"Если ваша книга состоит только из одного .html файла, то частичный рендеринг "
+"невозможен, т.к. для каждого изменения KOReader будет необходимо "
+"просчитывать всю книгу.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1565-13
 msgid ""
@@ -2301,6 +2325,11 @@ msgid ""
 "press</b> menu when you hold your finger longer than 3 seconds. This icon "
 "means that you activated this very long press menu."
 msgstr ""
+"<span class=\"label_orange\">Иконка покебола</span> Эта иконка всплывает при "
+"долгом зажатии слова (специально или случайно). У KOReader есть обычное меню "
+"<b>долгого зажатия</b> , а также дополнительное меню <b>очень долгого "
+"зажатия</b>, когда вы держите палец на слове дольше 3-х секунд. Эта иконка "
+"означает, что вы открыли дополнительное меню очень долгого зажатия."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1579-13
 msgid ""
@@ -2335,7 +2364,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:1592-1
 msgid "Page numbering and reference page numbers"
-msgstr "Нумерация страниц и номера страниц со ссылками"
+msgstr "Нумерация страниц и номера страниц печатного издания"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1594-5
 msgid ""
@@ -2422,14 +2451,13 @@ msgid "You can enable this feature from:"
 msgstr "Вы можете включить эту функцию следующим образом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1609-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Страницы печатного издания / Использовать страницы "
+"печатного издания"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1611-5
 msgid ""
@@ -2726,12 +2754,16 @@ msgid ""
 "<span class=\"ui\">TOOLS:</span> This menu contains plugins that can expand "
 "the functionality of KOReader."
 msgstr ""
+"<span class=\"ui\">ИНСТРУМЕНТЫ:</span> Это меню содержит плагины, которые "
+"могут расширить функционал KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1700-9
 msgid ""
 "<span class=\"ui\">SEARCH:</span> This menu contains items related to search "
 "and lookup. <b>Text search, dictionary, translation, Wikipedia...</b>"
 msgstr ""
+"<span class=\"ui\">ПОИСК:</span> Это меню содержит элементы, относящиеся к "
+"поиску и просмотру. <b>Поиск по тексту, словарь, перевод, Википедия...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1702-9
 msgid ""
@@ -2739,6 +2771,9 @@ msgid ""
 "class=\"ui\">file browser</span> which is the interface for managing your "
 "library."
 msgstr ""
+"<span class=\"ui\">ФАЙЛОВЫЙ МЕНЕДЖЕР:</span> Эта кнопка открывает <span "
+"class=\"ui\">файловый менеджер</span> , который является интерфейсом для "
+"управления вашей библиотекой."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1704-9
 msgid ""
