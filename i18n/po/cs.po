@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-01 14:17+0000\n"
-"PO-Revision-Date: 2026-08-01 14:17+0000\n"
+"PO-Revision-Date: 2026-08-01 18:33+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/koreader/user-"
 "guide/cs/>\n"
@@ -2003,12 +2003,10 @@ msgid ""
 "to 100 (or reverse) in only one minute</b>. You can increase this time "
 "separation to make the transition duration longer."
 msgstr ""
-"When starting up, KOReader compiles the available fonts from the <b>font "
-"metadata/info</b> and classifies them according to family and weights. This "
-"means you can add different weights and variants of a font and KOReader will "
-"try to use the most suitable one. Since it takes font family information "
-"from metadata, font names are not important when copying to your device. "
-"Installed fonts will be available after restarting KOReader."
+"Jak vidíte v nastavení výše, mezi denním a nočním režimem je rozdíl pouze "
+"jedné minuty. Teplota předního osvětlení se tedy změní z <b>0 na 100 (nebo "
+"naopak) za pouhou minutu</b>. Prodloužením tohoto časového odstupu "
+"prodloužíte i dobu přechodu."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1484-1
 msgctxt "user_guide/en.html:L1-userinterface"
@@ -3279,13 +3277,8 @@ msgid ""
 "<b>Classic scrolling:</b> This mode works exactly like your phone/tablet "
 "scrolling."
 msgstr ""
-"<b>On-release scrolling:</b> This scrolling type is more suitable for e-ink "
-"screens. Because unlike other scrolling types, this mode doesn’t refresh "
-"your page continuously while scrolling. It works like <span "
-"class=\"ui\">classic scrolling</span> but intermediate steps are not shown. "
-"So you scroll with your finger and when you release, page jumps to that "
-"position. This is especially useful <b>to reposition and adjust the view</b> "
-"if your book contains pictures or tables and you want to see all of it."
+"<b>Klasické posouvání:</b> Tento režim funguje přesně jako posouvání na "
+"telefonu nebo tabletu."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1878-9
 msgid ""
@@ -3330,8 +3323,12 @@ msgid ""
 "or reference. With one tap you can go back to where you come from. You can "
 "access this feature from:"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:26px;\"> → Go back to previous location"
+"Tato užitečná funkce funguje jako tlačítko <b>Zpět</b> v prohlížeči. Když "
+"pomocí funkcí <span class=\"ui\">Dialog projíždění, Seznam záložek, Mapa "
+"knihy</span> apod. přejdete do jiné části knihy, KOReader si zapamatuje "
+"předchozí umístění. To se hodí například po otevření interního odkazu nebo "
+"reference. Jediným klepnutím se můžete vrátit na místo, odkud jste přišli. "
+"Funkci najdete zde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1889-5
 msgid ""
@@ -3365,9 +3362,10 @@ msgid ""
 "depending on your device and personal preferences. You can disable this auto-"
 "refresh behavior here:"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:24px;\"> → Screen → E-ink Settings → Full refresh rate → "
-"Always flash on pages with images"
+"KOReader obvykle provádí úplné obnovení stránek obsahujících obrázky "
+"(projeví se černým zábleskem). Důvodem je odstranění zbytků obrazu a duchů z "
+"předchozí stránky. V závislosti na zařízení a osobních preferencích to však "
+"nemusí být nutné. Toto automatické obnovení můžete zakázat zde:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1899-5
 msgid ""
@@ -4046,7 +4044,7 @@ msgid ""
 "button adds/removes chapter titles from the bottom strip."
 msgstr ""
 "Používání <span class=\"ui\">Prohlížeče stránek</span> je vysvětleno níže. "
-"Stejné vysvětlení zobrazíte také klepnutím na <span class=\"ui\">tlačítko "
+"Stejné vysvětlení zobrazíte také klepnutím na <span class=\"ui\"> tlačítko "
 "nabídky v levém horním rohu</span> této obrazovky. Dlouhým stisknutím téhož "
 "tlačítka přidáte nebo odeberete názvy kapitol ve spodním pruhu."
 
@@ -9738,11 +9736,11 @@ msgstr "DVOJITÉ KLEPNUTÍ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3749-5
 msgid "<b>Left Side</b> > Go -10 pages"
-msgstr "<b>↓ ↑</b> - Skim document"
+msgstr "<b>Levá strana</b> > Přejít o 10 stránek zpět"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3750-5
 msgid "<b>Right Side</b> > Go +10 pages"
-msgstr "<b>↑ ←</b> - Bookmarks"
+msgstr "<b>Pravá strana</b> > Přejít o 10 stránek vpřed"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3754-5
 msgctxt "user_guide/en.html+html.body.div.div.div:3754-5"
@@ -9751,11 +9749,11 @@ msgstr "PŘEJETÍ JEDNÍM PRSTEM"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3755-5
 msgid "<b>Short diagonal swipe</b> > Full screen refresh"
-msgstr "<b>↑ ↓ ↑</b> - Previous chapter"
+msgstr "<b>Krátký úhlopříčný tah</b> > Úplné obnovení obrazovky"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:3756-5
 msgid "<b>Long diagonal swipe</b> > Take screenshot"
-msgstr "<b>↓ ↑ ↓</b> - Next chapter"
+msgstr "<b>Dlouhý úhlopříčný tah</b> > Pořídit snímek obrazovky"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:3760-5
 msgid "MULTISWIPES"
@@ -12486,10 +12484,9 @@ msgid ""
 "in devices with natural (yellow/orange) light and set Night Mode "
 "automatically according to a schedule"
 msgstr ""
-"<b> SSH </b> - Allows access to your device over SSH protocol. You can "
-"access via FTP applications or even your file manager if it supports. Check "
-"the wiki page for how-to: <a href=\"https://github.com/koreader/koreader/"
-"wiki/SSH\">https://github.com/koreader/koreader/wiki/SSH</a>"
+"<b> Automatická teplota a noční režim </b> – Umožňuje na zařízeních s "
+"přirozeným (žlutým/oranžovým) světlem nastavit teplotu předního osvětlení a "
+"automaticky zapínat noční režim podle časového plánu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4663-9
 msgid ""
@@ -12609,8 +12606,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4678-9
 msgid "<b> Move to archive </b> - Moves current document to archive folder"
 msgstr ""
-"You can find a current list of <span class=\"ui\">User patches</span> in the "
-"related <b>GitHub</b> wiki page:"
+"<b> Přesunout do archivu </b> – Přesune aktuální dokument do složky archivu"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4679-9
 msgid ""
@@ -12624,7 +12620,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4680-9
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
-msgstr "https://github.com/koreader/koreader/wiki/User-patches"
+msgstr "<b> OPDS </b> – Umožňuje stahovat knihy z online katalogů"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4681-9
 msgid ""
@@ -12643,8 +12639,8 @@ msgid ""
 "<b> Profiles </b> - Allows combining multiple settings to make switchable "
 "profiles"
 msgstr ""
-"and in the <b>issues</b> list under the <span class=\"ui\">User patch "
-"available</span> tag:"
+"<b> Profily </b> – Umožňuje kombinovat více nastavení do profilů, mezi nimiž "
+"lze přepínat"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4683-9
 msgid ""
@@ -12658,9 +12654,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:4685-9
 msgid "<b> QR from clipboard </b> - Generates a QR code from clipboard content"
-msgstr ""
-"https://github.com/koreader/koreader/issues?"
-"q=+label%3A%22User+patch+available%22"
+msgstr "<b> QR ze schránky </b> – Vytvoří QR kód z obsahu schránky"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4686-9
 msgid ""
@@ -12956,9 +12950,7 @@ msgstr "Tipy pro čtení"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4762-1
 msgid "Switching between documents quickly"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and Gestures → Links → Tap to follow links"
+msgstr "Rychlé přepínání mezi dokumenty"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4763-1
 msgid ""
@@ -13081,10 +13073,9 @@ msgid ""
 "dialog, which you can access by long-pressing the filename in the <span "
 "class=\"ui\">File Browser</span>."
 msgstr ""
-"<span class=\"external\">Calibre</span> can convert your documents between "
-"many formats. It also has a built-in editor that allows you to edit e-books "
-"(and fix problems) in the most popular e-book formats, EPUB and Kindle. <a "
-"href=\"https://calibre-ebook.com/\">https://calibre-ebook.com/</a>"
+"Obálku knihy můžete také obnovit v dialogu <span class=\"ui\">Obnovit</span>"
+", který otevřete dlouhým stisknutím názvu souboru v <span class=\"ui\">"
+"Prohlížeči souborů</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4788-5
 msgid ""
@@ -13260,10 +13251,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4839-5
 msgid "Line/word count of a page"
-msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Taps and gestures → Gesture manager → “ANY GESTURE” "
-"→ General → Open Previous Document"
+msgstr "Počet řádků/slov na stránce"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4840-9
 msgid ""
@@ -13498,7 +13486,7 @@ msgstr ""
 "Tento oddíl představuje pouze obecný úvod. Podrobné informace a pomoc s "
 "nočními verzemi najdete v diskuzi <a href=\"https://github.com/koreader/"
 "koreader/issues/11068\">Časté dotazy: Jak sledovat nejnovější noční "
-"sestavení</a>."
+"sestavení</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:4903-20
 msgid ""
