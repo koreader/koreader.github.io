@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-02 11:24+0000\n"
 "PO-Revision-Date: 2026-08-03 12:02+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"Last-Translator: Dmitrii Polovinkin <dtpolovinkin@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -2792,18 +2791,12 @@ msgid "Bottom Menu Items"
 msgstr "Элементы нижнего меню"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1713-5
-#, fuzzy
 msgid ""
 "<span class=\"label_green\">TIP</span> If you long tap on their names, you "
 "can see an explanation of these items"
 msgstr ""
-"<span class=\"ui\">РЕЖИМ ПРОСМОТРА:</span> Если вы перейдете в режим <span "
-"class=\"ui\">НЕПРЕРЫВНЫЙ</span>, вы сможете прокручивать документ, как веб-"
-"страницу. Этот режим больше подходит для экранов без электронных чернил "
-"(LCD, OLED). В непрерывном режиме <b>вы теряете ВЕРХНЕЕ и НИЖНЕЕ ПОЛЯ</b>, "
-"поэтому текст можно обрезать в первой и последней строке экрана. Чтобы "
-"решить эту проблему, вы можете включить <span class=\"ui\">PAGE OVERLAP</"
-"span>:"
+"<span class=\"label_green\">ПОДСКАЗКА</span> Если вы зажмете их имена, то "
+"сможете посмотреть объяснение этих элементов"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1718-5
 msgid ""
@@ -2814,18 +2807,21 @@ msgid ""
 "the first and last line of screen. To solve this problem you can enable "
 "<span class=\"ui\">Page overlap</span>:"
 msgstr ""
+"<span class=\"ui\">Режим просмотра:</span> Если вы смените режим на <span "
+"class=\"ui\">непрерывный</span> , то сможете просматривать документ как веб-"
+"страницу. Этот режим больше подходит для устройств с экранами без "
+"электронных чернил (LCD, OLED). В режиме непрерывной прокрутки <b>не будет "
+"верхних и нижних отступов</b> поэтому текст может быть обрезан на первой и "
+"последней строке экрана. Чтобы решить эту проблему вы можете активировать "
+"<span class=\"ui\">Наложение страниц друг на друга</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1720-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Page Overlap"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:22px;\"> / Наложение страниц"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1722-5
 msgid ""
@@ -2836,6 +2832,13 @@ msgid ""
 "margins, floats etc.) and layout looks bad or overflow the screen, you can "
 "try other rendering modes."
 msgstr ""
+"<span class=\"ui\">Режим отображения:</span> Эта настройка определяет то, "
+"как ваш документ будет отображаться KOReader. Режим по умолчанию это <span "
+"class=\"ui\">ВЕБ</span> и обычно вам не нужно менять эту настройку. Когда "
+"книга (или сохраненная веб-страница) очень сложная (преднастроенная ширина "
+"страницы или отступ, отрицательные отступы, плавающие элементы и т.д.) и "
+"разметка страницы выглядит плохо или выходит за границы экрана, вы можете "
+"попробовать другие режимы отображения."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1724-5
 msgid ""
@@ -2845,6 +2848,12 @@ msgid ""
 "original dimensions. Basically you will use this setting if you want to "
 "<b>make images bigger without making the text bigger</b>."
 msgstr ""
+"<span class=\"ui\">Приближение (dpi):</span> Эту настройку можно "
+"рассматривать как <b>общий фактор приближения</b> для документа (кроме "
+"размера текста). При выставлении 96 dpi (настройка по умолчанию), "
+"изображения в документе отображаются в их исходных размерах. Вы можете "
+"использовать эту настройку чтобы <b>сделать изображения больше не увеличивая "
+"текст</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1730-5
 msgid ""
@@ -2855,6 +2864,12 @@ msgid ""
 "equal all the time, in justified alignment, text has to be compressed or "
 "expanded to fill the line."
 msgstr ""
+"Настройки<span class=\"ui\">Межсловное расстояние и Расширение слов</span> "
+"взаимосвязаны и определяют, как будет выглядеть текст при выравнивании по "
+"ширине. При выравнивании текста по ширине между словами добавляется пробел, "
+"чтобы оба края каждой строки были выровнены по обоим полям. Поскольку "
+"количество слов в строках не всегда одинаково, при выравнивании по ширине "
+"текст приходится сжимать или расширять, чтобы заполнить строку."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1732-5
 msgid ""
@@ -2862,6 +2877,9 @@ msgid ""
 "in a line of text can be compressed to fit more words. This setting doesn’t "
 "affect words, it only changes the space between them."
 msgstr ""
+"<span class=\"ui\">Интервал между словами:</span> Насколько можно сжать "
+"символы <b>пробела</b> в строке текста, чтобы в ней поместилось больше слов. "
+"Этот параметр не влияет на сами слова, а лишь изменяет расстояние между ними."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1734-5
 msgid ""
@@ -2870,12 +2888,19 @@ msgid ""
 "them. This setting affects the appearance of words. If you don’t want your "
 "words to expand, set this to <span class=\"ui\">none</span>."
 msgstr ""
+"<span class=\"ui\">Расширение слов:</span> Если в строке слишком много "
+"пробелов, какую их часть можно распределить по словам, расширив их. Этот "
+"параметр влияет на внешний вид слов. Если вы не хотите, чтобы слова "
+"расширялись, установите значение <span class=\"ui\">none</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1736-5
 msgid ""
 "You can experiment with different settings until the text looks pleasing to "
 "you, then set them as defaults via their respective dialogs."
 msgstr ""
+"Вы можете поэкспериментировать с различными настройками, пока текст не "
+"станет выглядеть так, как вам нравится, а затем установить их в качестве "
+"настроек по умолчанию через соответствующие диалоговые окна."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1743-5
 msgid ""
@@ -2885,10 +2910,15 @@ msgid ""
 "different methods to achieve it. Of course you can use them both at the same "
 "time."
 msgstr ""
+"<span class=\"ui\">Контраст</span> и <span class=\"ui\">Жирность шрифта</"
+"span> — это два параметра, с помощью которых можно сделать текст более "
+"жирным (или более тонким). С помощью любого из этих параметров можно "
+"добиться одинакового визуального эффекта, однако они используют для этого "
+"разные методы. Разумеется, их можно использовать одновременно."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1745-5
 msgid "The differences between them can be summarized as:"
-msgstr ""
+msgstr "Различия между ними можно обобщить следующим образом:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:1748-9
 msgid "CONTRAST"
@@ -2896,11 +2926,11 @@ msgstr "КОНТРАСТНОСТЬ"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1750-13
 msgid "<b>+</b> Doesn’t change font width, book length stays the same"
-msgstr ""
+msgstr "<b>+</b> Не меняет ширину шрифта, длина книги остается прежней"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1751-13
 msgid "<b>+</b> Doesn’t need to re-render document, faster"
-msgstr ""
+msgstr "<b>+</b> Не требует перерисовки документа, быстрее"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1752-13
 msgid "<b>-</b> Might look bad on LCD or low DPI screens"
@@ -2915,14 +2945,16 @@ msgstr "ТОЛЩИНА ШРИФТА"
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1756-13
 msgid "<b>+</b> Will use proper weighted fonts if you have them installed"
 msgstr ""
+"<b>+</b> Если у вас установлены шрифты с надлежащим начертанием, то они "
+"будут использоваться"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1757-13
 msgid "<b>+</b> Looks better on LCD or low DPI screens"
-msgstr ""
+msgstr "<b>+</b> Выглядит лучше на экранах типа LCD или экранах с маленьким DPI"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.p:1758-13
 msgid "<b>-</b> Has to re-render fonts, slower"
-msgstr ""
+msgstr "<b>-</b> Требует перерисовки шрифтов, медленнее"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1763-5
 msgid ""
@@ -2935,6 +2967,16 @@ msgid ""
 "class=\"ui\">auto</span> handles <b>CJK</b> text better. You can try "
 "different settings to see which one looks better on your device."
 msgstr ""
+"<span class=\"ui\">Хинтинг шрифтов</span> оптимизирует текст для "
+"максимальной читаемости с учетом пиксельной сетки вашего экрана. <span "
+"class=\"ui\">нативный</span> использует внутренние инструкции по хинтингу "
+"шрифта, <span class=\"ui\">автоматический</span> использует алгоритм "
+"хинтинга FreeType. <span class=\"ui\">автоматический</span> является более "
+"безопасным выбором, поскольку установленные вами файлы шрифтов могут "
+"содержать некорректные инструкции по коррекции. Кроме того, режим <span "
+"class=\"ui\">автоматический</span> лучше обрабатывает текст <b>CJK</b>. Вы "
+"можете попробовать разные настройки, чтобы определить, какая из них лучше "
+"смотрится на вашем устройстве."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1765-5
 msgid ""
@@ -2995,24 +3037,30 @@ msgid ""
 "document are rendered. <span class=\"ui\">Best</span> looks more pleasing "
 "but it is slower."
 msgstr ""
+"<span class=\"ui\">Масштабирование изображений</span> определяет, как "
+"отображаются изображения в вашем документе. <span class=\"ui\">Лучшая</span> "
+"выглядит более приятно, но работает медленнее."
 
 #: user_guide/en.html%2Bhtml.body.div.div:1791-1
 msgid "User Interface Tips"
-msgstr ""
+msgstr "Подсказки по Интерфейсу Пользователя"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1793-5
 msgid ""
 "KOReader’s user interface and options can change depending on the file type "
 "you open. There are two main categories of documents:"
 msgstr ""
+"Интерфейс KOReader и настройки могут меняться в зависимости от типа файла "
+"что вы открыли. Есть две основных категории документов:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1795-4
 msgid "<b>Fixed layout documents</b> (pdf, djvu, image files...)"
-msgstr ""
+msgstr "<b>Документы с фиксированной разметкой</b> (pdf, djvu, изображения...)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:1796-4
 msgid "<b>Reflowable documents</b> (epub, html, docx, rtf, txt…)."
 msgstr ""
+"<b>Документы с динамической разметкой</b> (epub, html, docx, rtf, txt…)."
 
 #: user_guide/en.html%2Bhtml.body.div.p:1799-5
 msgid ""
@@ -3021,18 +3069,18 @@ msgid ""
 "items quickly. If you remember the name of a menu item but don't remember "
 "where it is, you can use this feature:"
 msgstr ""
+"KOReader обладает множеством функций, поэтому его система меню отражает всю "
+"эту сложность. У нас есть <span class=\"ui\">Поиск по Меню </span> для "
+"быстрого нахождения элементов меню. Если вы помните название элемента меню, "
+"но не помните где он находится, вы можете использовать следующую функцию:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1801-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Help / Menu search"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
+"style=\"width:22px;\"> / Помощь / Поиск по меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:1803-5
 msgid ""
