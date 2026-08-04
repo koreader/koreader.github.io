@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-03 12:16+0000\n"
-"PO-Revision-Date: 2026-08-04 13:02+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-08-05 20:01+0000\n"
+"Last-Translator: Bartosz Kowalczuk <bedloxgra@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/koreader/user-"
 "guide/pl/>\n"
 "Language: pl\n"
@@ -37,7 +36,6 @@ msgid "Back to Table of Contents"
 msgstr "Powrót do spisu treści"
 
 #: user_guide/en.html%2Bhtml.body.button:757-5
-#, fuzzy
 msgid ""
 msgstr ""
 
@@ -434,9 +432,6 @@ msgid "Panel Zoom"
 msgstr "Powiększenie panelu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1012-17
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div.ul.li.ul.li:1012-17"
-#| msgid "Jump to the next file"
 msgid "Jump to the next file"
 msgstr "Przejdź do następnego pliku"
 
@@ -506,7 +501,6 @@ msgid "Quick Menu tips"
 msgstr "Wskazówki szybkiego menu"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1044-13
-#, fuzzy
 msgid "Profiles"
 msgstr "Profile"
 
@@ -523,7 +517,6 @@ msgid "Plugin types"
 msgstr "Rodzaje wtyczek"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li.ul.li:1052-13
-#, fuzzy
 msgid "List of internal plugins"
 msgstr "Lista wewnętrznych wtyczek"
 
@@ -532,7 +525,6 @@ msgid "User patches"
 msgstr "Poprawki użytkowników"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1057-5
-#, fuzzy
 msgid "TIPS"
 msgstr "WSKAZÓWKI"
 
@@ -545,12 +537,10 @@ msgid "Device tips"
 msgstr "Wskazówki odnośnie urządzenia"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1064-5
-#, fuzzy
 msgid "TROUBLESHOOTING"
 msgstr "ROZWIĄZYWANIE PROBLEMÓW"
 
 #: user_guide/en.html%2Bhtml.body.div.div.ul.li:1066-5
-#, fuzzy
 msgid "REACH US"
 msgstr "SKONTAKTUJ SIĘ Z NAMI"
 
@@ -5149,6 +5139,11 @@ msgid ""
 "want to show you the basics so when you see a style tweak, you will at least "
 "have a rough idea what it does."
 msgstr ""
+"Funkcja dostosowywania stylów w aplikacji KOReader pozwala modyfikować "
+"sposób wyświetlania książki przez tę aplikację. Nie będziemy tutaj "
+"przeprowadzać pełnego kursu z języka CSS. Chcemy jedynie przedstawić "
+"podstawy, abyś widząc opcję dostosowania stylu, miał przynajmniej ogólne "
+"pojęcie o tym, do czego służy."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2349-5
 msgid "What is a style tweak?"
@@ -5163,6 +5158,12 @@ msgid ""
 "rendered by adding new rules and/or overriding the rules written by the "
 "publisher that is embedded in your book."
 msgstr ""
+"Dokument EPUB można opisać jako plik HTML <b> + pewne reguły CSS</b>. Te "
+"reguły CSS określają, w jaki sposób różne elementy książki (nagłówki, "
+"pogrubiony tekst, cytaty itp.) będą wyświetlane w aplikacji do czytania. "
+"Dzięki <span class=\"ui\">modyfikacjom stylów</span> można zmienić sposób "
+"renderowania książki poprzez dodanie nowych reguł i/lub nadpisanie reguł "
+"określonych przez wydawcę, które są osadzone w książce."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2352-5
 msgid "Let's see this on an example <span class=\"ui\">style tweak</span>:"
