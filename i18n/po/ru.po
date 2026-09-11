@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-10 19:54+0000\n"
-"PO-Revision-Date: 2026-09-10 23:24+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-09-12 07:51+0000\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -14,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -2249,7 +2248,7 @@ msgid ""
 "A full rendering is happening in the <b>background</b>. You can still turn "
 "pages, jump links, change settings."
 msgstr ""
-"Полная отрисовка происходит в <b>фоновом режиме</b>. Вы по прежнему можете "
+"Полная отрисовка происходит в <b>фоновом режиме</b>. Вы по-прежнему можете "
 "перелистывать страницы, переходить по ссылкам, менять настройки."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1548-17
@@ -2259,10 +2258,11 @@ msgid ""
 "interacting with the device). You can still turn pages, jump links, change "
 "settings."
 msgstr ""
-"Рендеринг завершен, но <b>еще не применен</b> потому, что KOReader "
-"<b>бездействует</b> ожидая пока вы не перезагрузите всю книгу (бездейсвие= "
-"не требует взаимодейсвтия с книгой). Вы по прежнему можете перелистывать "
-"страницы, переходить по ссылкам, менять настройки."
+"Полный рендеринг завершён, но <b>ещё не применён</b>, потому что KOReader "
+"ожидает вашего <b>бездействия</b>, чтобы перезагрузить оставшуюся часть "
+"книги (бездействие = отсутствие взаимодействия с устройством). Вы по-"
+"прежнему можете перелистывать страницы, переходить по ссылкам, менять "
+"настройки."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1553-17
 msgid ""
@@ -2306,17 +2306,18 @@ msgid ""
 "highlight</b> (by tapping again on the beginning of your highlight or on "
 "this <span class=\"ui\">highlighting icon</span>)."
 msgstr ""
-"<span class=\"label_orange\">Знак выделения</span> Эта иконка высвечивается "
-"когда вы в <span class=\"ui\">Режиме выбора и выделения</span>. KOReader "
-"имеет дополнительный режим выделения текста, который позволяет вам начать "
-"выделять текст и переворачивать страницы для длинных выделений достигающих "
-"некольких страниц. Вы можете прочитать об этом в секции <a "
-"href=\"#bookmarks\">ЗАКЛАДКИ,ВЫДЕЛЕНИЕ ТЕКСТА И ЗАМЕТКИ</a> гайда. Когда вы "
-"выделяете текст в этом режиме, эта иконка отображается в углу экрана для "
-"напоминания вам о включенном режиме выделения текста. Пометка исчезает когда "
-"вы закончите выделение текста <b>выбирая конец выделения</b> или когда вы "
-"<b>отменяете выделение</b> ( повторным нажатием на начальную точку "
-"выделенного текста или на эту <span class=\"ui\">Иконку выделения</span>)."
+"<span class=\"label_orange\">Значок выделения</span> Этот значок "
+"высвечивается когда программа находится в <span class=\"ui\">Режиме выбора и "
+"выделения</span>. KOReader имеет дополнительный режим выделения текста, "
+"который позволяет вам начать выделять текст и переворачивать страницы для "
+"длинных выделений достигающих нескольких страниц. Вы можете прочитать об "
+"этом в разделе руководства: <a href=\"#bookmarks\">ЗАКЛАДКИ, ВЫДЕЛЕНИЕ "
+"ТЕКСТА И ЗАМЕТКИ</a>. Когда вы выделяете текст в этом режиме, этот значок "
+"отображается в углу экрана для напоминания о включённом режиме выделения "
+"текста. Пометка исчезает когда вы закончите выделение текста <b>выбирая "
+"конец выделения</b> или когда вы <b>отменяете выделение</b> (повторным "
+"нажатием на начальную точку выделенного текста или на это <span class=\"ui\">"
+"Значок выделения</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.table.tr.td.p:1572-13
 msgid ""
@@ -3669,7 +3670,10 @@ msgid ""
 "If your document has too many heading levels, your chapter marks can look "
 "crowded like the example above. You can change the depth of visible ToC mark "
 "levels via:"
-msgstr "These options are in the same menu."
+msgstr ""
+"Если в документе очень много уровней заголовков, то меток разделов может "
+"быть слишком много, как показано на образце выше. Глубину видимых меток "
+"разделов содержания можно изменить здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:1992-5
 msgid ""
@@ -4265,9 +4269,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2190-5
-#, fuzzy
 msgid "Working with the hidden sections:"
-msgstr "Removing and cleaning up hidden sections"
+msgstr "Работа со скрытыми разделами:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2192-5
 #, fuzzy
@@ -4322,9 +4325,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2204-5
-#, fuzzy
 msgid "Removing and cleaning up hidden sections:"
-msgstr "Removing and cleaning up hidden sections"
+msgstr "Удаление и очистка скрытых разделов:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2205-5
 msgid ""
@@ -4495,7 +4497,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2258-5
 msgid "For example you can create:"
-msgstr ""
+msgstr "Например, вы можете создать:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2261-9
 msgid ""
@@ -4517,7 +4519,9 @@ msgid ""
 "and <span class=\"ui\">embedded fonts</span> disabled for badly structured "
 "books"
 msgstr ""
-"You can apply the profile from the <span class=\"ui\">Profiles menu</span>"
+"Профиль <b>Без стилей</b>, в котором не будет использоваться <span "
+"class=\"ui\">встроенный стиль</span> и <span class=\"ui\">встроенные шрифты</"
+"span>, что удобно для плохо структурированных книг"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2266-5
 msgid ""
@@ -4526,13 +4530,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2268-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Profiles / New with current document settings"
 msgstr ""
-"⇑ TOP MENU → <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> → Device Status Alerts → Battery Level"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Профили / Новый с параметрами текущего документа"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2270-5
 msgid ""
@@ -4969,16 +4972,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2427-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Подстройка стиля"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2429-5
 msgid ""
@@ -5018,7 +5017,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2443-5
 msgid "2. Book-specific tweak"
-msgstr ""
+msgstr "2. Подстройка конкретной книги"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2444-9
 msgid ""
@@ -5036,18 +5035,16 @@ msgid ""
 "To create a <span class=\"ui\">book specific tweak</span>, use the "
 "integrated editor which you can find here:"
 msgstr ""
+"Чтобы создать <span class=\"ui\">подстройку конкретной книги</span>, "
+"воспользуйтесь интегрированным редактором, который можно найти здесь:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2448-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / Book-specific tweak"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Подстройка стиля / Подстройка конкретной книги"
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2450-24
 msgid ""
@@ -5060,7 +5057,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2453-5
 msgid "3. User style tweaks"
-msgstr ""
+msgstr "3. Подстройка стилей пользователя"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2455-9
 msgid ""
@@ -5113,9 +5110,8 @@ msgid "You can copy / paste the examples we mentioned above to your file."
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2479-9
-#, fuzzy
 msgid "2. Transferring the file to your device:"
-msgstr "Оптимизация манги для вашего мобильного устройства чтения"
+msgstr "2. Передача файла на ваше устройство:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2480-9
 msgid ""
@@ -5137,17 +5133,13 @@ msgid "After the restart, open a book and go to this menu:"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2487-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2487-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Подстройка стиля / Подстройка стилей пользователя"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2489-9
 msgid ""
@@ -5194,52 +5186,60 @@ msgid ""
 "As we said above, you can toggle <span class=\"ui\">user style tweaks</span> "
 "from this menu location:"
 msgstr ""
+"Как сказано выше, переключить <span class=\"ui\">подстройку стилей "
+"пользователя</span> можно из этого меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2503-9
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2503-9"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Style tweaks / User style tweaks"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
+"style=\"width:26px;\"> / Подстройка стиля / Подстройка стилей пользователя"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2507-9
 msgid ""
 "Also we have easier ways to toggle your style tweaks than going to the menu "
 "every time."
 msgstr ""
+"Кроме того, у нас есть более простые способы переключения между настройками "
+"стиля, чем каждый раз заходить в меню."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2509-9
 msgid "1. You can assign a gesture to a tweak"
-msgstr ""
+msgstr "1. Можно назначить жест на подстройку"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2510-9
 msgid ""
 "To do this, first we have to add our <span class=\"ui\">user style tweak</"
 "span> to the list of gesture actions:"
 msgstr ""
+"Для начала необходимо добавить <span class=\"ui\">подстройку стиля "
+"пользователя</span> в список действий жеста:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2513-17
 msgid ""
 "Go to the <span class=\"ui\">user style tweaks</span> menu and long-press on "
 "your style tweak"
 msgstr ""
+"Перейдите к меню <span class=\"ui\">подстрока стилей пользователя</span>, "
+"нажмите и удерживайте вашу подстройку стиля"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2514-17
 msgid ""
 "In the dialog press the button <span class=\"ui\">Show in action list</span>"
 msgstr ""
+"В диалоговом окне нажмите кнопку <span class=\"ui\">Показывать в списке "
+"действий</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2515-17
 msgid ""
 "A <span class=\"ui\">right triangle icon</span> will appear next to your "
 "style tweak in the menu"
 msgstr ""
+"В меню рядом с вашим изменением стиля появится <span class=\"ui\">значок "
+"прямоугольного треугольника</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2518-13
 msgid ""
@@ -5248,10 +5248,14 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
+"Его можно увидеть на приведенном выше изображении, возле подстройки стиля "
+"под названием <b>Adjust margins</b>. Теперь эта подстройка стиля добавлена в "
+"список действий. Вы можете найти её в категории <span class=\"ui\">Менеджер "
+"жестов > Документы с динамической вёрсткой</span>. Она будет в конце списка."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2522-9
 msgid "2. You can add a tweak to your Quick Menu"
-msgstr ""
+msgstr "2. Подстройку стиля можно добавить в Быстрое меню"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2524-9
 msgid ""
@@ -5285,20 +5289,20 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2533-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2535-5
 msgid "instead of this:"
-msgstr ""
+msgstr "вместо этого:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2537-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2548-1
 msgctxt "user_guide/en.html:L1-bookmarks"
 msgid "BOOKMARKS, HIGHLIGHTS AND NOTES"
-msgstr "Закладки, выделения и заметки"
+msgstr "ЗАКЛАДКИ, ВЫДЕЛЕНИЯ И ЗАМЕТКИ"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2550-5
 msgid ""
@@ -5329,7 +5333,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2565-5
 msgid "HIGHLIGHTS:"
-msgstr "ЛУЧШИЕ МОМЕНТЫ:"
+msgstr "ВЫДЕЛЕНИЯ:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2567-5
 msgid ""
@@ -5434,6 +5438,8 @@ msgid ""
 "To enable this feature and choose a <span class=\"ui\">Note marker</span> "
 "style, go to:"
 msgstr ""
+"Чтобы включить эту функцию и выбрать стиль <span class=\"ui\">Метка "
+"примечания</span>, перейдите к:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2615-5
 msgid ""
@@ -5450,7 +5456,7 @@ msgstr "Режимы выделения в KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2621-5
 msgid "KOReader has two highlighting modes for different use cases:"
-msgstr ""
+msgstr "KOReader имеет два режима выделения для использования в разных случаях:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2626-1
 msgid "Normal mode"
@@ -5483,20 +5489,18 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2638-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Auto-"
 "scroll when selection reaches a corner"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Долгое касание текста / "
+"Автопрокрутка при достижении выделением угла"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2642-1
 msgid "Select and highlight mode"
-msgstr ""
+msgstr "Режим выбора и выделение"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2644-5
 msgid ""
@@ -5520,16 +5524,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2648-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Dictionary "
 "on single word selection"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Долгое касание текста / Словарь "
+"по выбору одного слова"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2652-5
 #, fuzzy
@@ -5573,16 +5575,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2665-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\">/ Taps and Gestures / Long-press on text / Highlight "
 "dialog position"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\">/ Касания и жесты / Долгое касание текста / Положение "
+"диалога выделения"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2667-5
 msgid ""
@@ -5595,16 +5595,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2669-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Long-press on text / Select and "
 "highlight"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Долгое касание текста / Выбрать и "
+"выделить"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2675-5
 msgid ""
@@ -5787,14 +5785,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:2742-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:22px;\"> / Настройки / Закладки / Показывать в элементах"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2744-5
 msgid "You can choose to show:"
@@ -5821,16 +5817,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2753-6
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Settings / Bookmarks / Max lines per bookmark"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
+"style=\"width:26px;\"> / Настройки / Закладки / Максимум строк в закладке"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2757-1
 msgctxt "user_guide/en.html:L2-exportinghighlights"
@@ -6008,14 +6000,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2830-5
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:22px;\"> / Export Highlights / Choose highlight styles"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:22px;\"> / Экспорт выделений / Выбрать стиль выделения"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2834-5
 msgid ""
@@ -6081,19 +6071,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2867-5
 msgid "<b>1. You can enable </b><span class=\"ui\">Reflow</span>"
-msgstr ""
+msgstr "<b>1. Вы можете включить </b><span class=\"ui\">Перекомпоновку</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2869-5
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:22px;\"> / Reflow"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"НИЖНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
+"style=\"width:22px;\"> / Перекомпоновка"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2871-5
 msgid ""
@@ -6106,19 +6092,17 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:2875-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
 msgstr ""
+"<b>2. Вы можете включить</b> <span class=\"ui\">Масштабирование по "
+"содержимому</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2877-5
-#, fuzzy
 msgctxt "user_guide/en.html+html.body.div.div:2877-5"
 msgid ""
 "BOTTOM MENU / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
 "bottom_fit.svg\" style=\"width:22px;\"> /"
 msgstr ""
-"This powerful feature allows you to save all the <span class=\"ui\">BOTTOM "
-"MENU</span> settings + font type as a <b>profile</b>. This means you can "
-"have different group of settings for different conditions or book types "
-"which you can apply at once instead of changing the settings manually every "
-"time. For example you can create a:"
+"НИЖНЕЕ МЕНЮ / <img loading=\"lazy\" class=\"img_inline\" src=\"pictures/"
+"bottom_fit.svg\" style=\"width:22px;\"> /"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2882-5
 #, fuzzy
@@ -6144,8 +6128,8 @@ msgid ""
 "This will make your screen wider so your document may look big enough to "
 "read comfortably."
 msgstr ""
-"Then select an appropriate flow direction for your document from the same "
-"menu:"
+"Это сделает экран более широким, поэтому документ должен выглядеть "
+"достаточно большим для удобного чтения."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2890-5
 msgctxt "user_guide/en.html+html.body.div.div:2890-5"
