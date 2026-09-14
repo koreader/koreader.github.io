@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-13 08:53+0000\n"
-"PO-Revision-Date: 2026-09-13 09:08+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-09-14 09:51+0000\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ru/>\n"
 "Language: ru\n"
@@ -1588,7 +1587,7 @@ msgid ""
 "Tap outside the input field to close the keyboard, tap the input field to "
 "show the keyboard again"
 msgstr ""
-"Нажмите вне поля ввода, чтобы закрыть клавиатуру, нажмите на поле ввода, "
+"Коснитесь вне поля ввода, чтобы закрыть клавиатуру; коснитесь поля ввода, "
 "чтобы показать клавиатуру снова"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:1350-3
@@ -5724,43 +5723,47 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2718-5
 msgid "To edit a highlight text, you can:"
-msgstr ""
+msgstr "Чтобы отредактировать выделенный текст:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2720-13
-#, fuzzy
 msgid "Tap on the highlight"
-msgstr "1. Export Highlights plugin"
+msgstr "Нажмите на выделенный фрагмент"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2721-13
 msgid "Tap <span class=\"ui\">Details</span> from the popup menu"
-msgstr ""
+msgstr "В выпадающем меню нажмите <span class=\"ui\">Подробно</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2722-13
 msgid "Tap <span class=\"ui\">Edit text</span> from the details dialog"
 msgstr ""
+"В диалоговом окне «Подробно» нажмите <span class=\"ui\">Редактировать текст</"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2726-9
 msgid "Also you can do it from the Bookmarks window:"
-msgstr ""
+msgstr "Это также можно сделать в окне «Закладки»:"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2729-9
 msgid "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgstr ""
+"Перейдите в <span class=\"ui\">список закладок</span> через меню или жест"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2730-9
 msgid "Long press on the highlight you want to edit"
 msgstr ""
+"Нажмите и удерживайте выделенный фрагмент, который хотите отредактировать"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2731-9
-#, fuzzy
 msgid "Press <span class=\"ui\">Edit text</span> in the menu"
-msgstr "Text (.txt)"
+msgstr "Нажмите на пункт <span class=\"ui\">Редактировать текст</span> в меню"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:2732-9
 msgid ""
 "Change the text in the dialog and press the <span class=\"ui\">Save</span> "
 "button"
 msgstr ""
+"Измените текст в диалоговом окне и нажмите кнопку <span class=\"ui\">"
+"Сохранить</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2735-5
 msgid ""
@@ -5769,6 +5772,10 @@ msgid ""
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
+"Если требуется <b>вернуть</b> отредактированный текст в исходное состояние, "
+"выполните указанные выше действия, и на шаге <b>3</b> вместо <span "
+"class=\"ui\">Редактировать текст</span> нажмите <span class=\"ui\">Сбросить "
+"текст</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2738-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
@@ -10636,16 +10643,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li.div:4475-13
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
 "GESTURE” / General / Profile “Your profile name”"
 msgstr ""
-"<span class=\"label_green\">TIP</span> You can add multiple highlights and "
-"notes to the same section of text. If they are overlapping, when you tap on "
-"a highlight you will be presented with a menu to choose which highlight you "
-"want to edit."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:22px;\"> / Касания и жесты / Менеджер жестов / «ЛЮБОЙ ЖЕСТ» / "
+"Общее / Профиль «Название вашего профиля»"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4477-13
 msgid ""
@@ -12151,14 +12156,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.div:4938-9
-#, fuzzy
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / Progress sync / Document matching method"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"ВЕРХНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
+"style=\"width:26px;\"> / Синхронизация прогресса чтения / Метод "
+"сопоставления документов"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4941-1
 msgid "My book is slow"
@@ -12213,14 +12217,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4953-13
-#, fuzzy
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:22px;\"> / Render Quality"
 msgstr ""
-"You can configure bottom status bar from this menu. Feel free to explore the "
-"<span class=\"ui\">SETTINGS</span> sub-menu to customize your status bar as "
-"you like."
+"НИЖНЕЕ МЕНЮ / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
+"style=\"width:22px;\"> / Качество отрисовки"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4958-5
 msgid "If the problematic book is an EPUB:"
