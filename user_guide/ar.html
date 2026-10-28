@@ -2073,7 +2073,7 @@ line-height: 2rem;
         <li><span class="ui">تبديل عروض الشبكة/المسطحة:</span> التبديل بين عرض الفصول المنفصلة أو الفصول المتصلة.</li>
         <li><span class="ui">مستويات الفصول:</span> تغيير عمق مستويات الفصل/الفصل الفرعي.</li>
         <li><span class="ui">عرض خانة الصفحة:</span> جعل كل خانة صفحة أوسع أو أضيق.</li>
-        <li><span class="ui">10-page markers:</span> As you increase this value, first it will add markers to every <b>10<sup>th</sup> page</b>, then it will make them bigger and eventually it will add markers to every <b>5<sup>th</sup> page</b>.</li>
+        <li>علامات كل <span class="ui">10 صفحات:</span> مع زيادة هذه القيمة، ستتم أولاً إضافة علامات عند كل صفحة <b>عاشرة (<escape>10<sup>th</sup></escape>)</b>، ثم سيزداد حجم هذه العلامات، وفي النهاية ستتم إضافة علامات عند كل صفحة <b>خامسة (<escape>5<sup>th</sup></escape>)</b>.</li>
     </ul>
 
     
@@ -2253,7 +2253,7 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">إنشاء مجموعات مختلفة من الإعدادات</div>
 
-    <p>This powerful feature allows you to save all the <span class="ui">BOTTOM MENU</span> settings + font type as a <b>profile</b>. This means you can have different group of settings for different conditions or book types which you can apply at once instead of changing the settings manually every time.</p>
+    <p>تتيح لك هذه الميزة القوية حفظ جميع إعدادات <span class="ui">القائمة السفلية (BOTTOM MENU)</span>، بالإضافة إلى نوع الخط، في هيئة <b>ملف تعريف (profile)</b>. وهذا يعني إمكانية إعداد مجموعات مختلفة من الإعدادات لتناسب ظروفًا متنوعة أو أنواعًا مختلفة من الكتب، بحيث يمكنك تطبيقها دفعة واحدة بدلًا من تغيير الإعدادات يدويًا في كل مرة.</p>
 
     <p>على سبيل المثال، يمكنك إنشاء:</p>
 
@@ -2359,8 +2359,8 @@ line-height: 2rem;
     <ul>
         <li><span class="ui">img</span> - هذا هو محدد CSS الذي يستهدف جميع عناصر <b>img</b> (الصور) في الكتاب.</li>
         <li><span class="ui">{ width: 10px !important; height: 10px !important; }</span> - هذه هي كتلة التصريح. وهي تحتوي على الأنماط التي سيتم تطبيقها على عناصر <b>img</b> المختارة.</li>
-        <li><span class="ui">width: 10px !important;</span> - This first part sets the width of the targeted <b>img</b> elements to 10 pixels. The <b>!important</b> declaration is an override switch which ensures that your width value takes precedence over any other existing <b>width</b> declaration applied to these images.</li>
-        <li><span class="ui">height: 10px !important;</span> - This part sets the height of the targeted <b>img</b> elements to 10 pixels. Again, the <b>!important</b> declaration is an override switch which ensures that your height value takes precedence over any other existing <b>height</b> declaration applied to these images.</li>
+        <li>يحدّد الجزء الأول <span class="ui">width: 10px !important;</span> عرض عناصر <b>img</b> المستهدفة بـ 10 بكسلات. ويُعدّ التصريح <b>!important</b> أداةً لفرض الأولوية، إذ يضمن أن تكون قيمة العرض المحددة هنا هي المعتمدة، متقدّمةً على أي تصريح آخر موجود مسبقًا لخاصية <b>width</b> يُطبّق على هذه الصور.</li>
+        <li>يحدّد هذا الجزء ارتفاع عناصر <b>img</b> المستهدفة بـ 10 بكسلات باستخدام <span class="ui">height: 10px !important;</span>. وكما في المثال السابق، يُعدّ التصريح <b>!important</b> أداةً لفرض الأولوية، إذ يضمن أن تكون قيمة الارتفاع المحددة هنا هي المعتمدة، متقدّمةً على أي تصريح آخر موجود مسبقًا لخاصية <b>height</b> يُطبّق على هذه الصور.</li>
     </ul>
 
     <p>باختصار، صُممت قاعدة CSS هذه لتعيين <b>عرض وارتفاع ثابتين بقيمة 10 بكسل</b> لجميع عناصر <b>img</b> في كتابك، مع <b>تجاهل نمطها الأصلي</b>.</p>
@@ -2430,7 +2430,7 @@ line-height: 2rem;
 
             <li>يسمح لك زر <span class="ui">إظهار في قائمة الإجراءات</span> بتبديل هذا التعديل بواسطة ايماءة أو إضافته إلى <span class="ui">قائمة سريعة</span>. راجع العنوان المسمى <b>"كيفية استخدام التعديلات بكفاءة"</b> أدناه لمزيد من المعلومات. </li>
 
-            <li><span class="ui">Use on all books</span> button activate this tweak for all your books. A <b>star (★)</b> will appear next to its name in the menu, indicating that this tweak will be applied to all books. You can disable this with the same steps.</li>
+            <li><span class="ui">زر «تطبيق على جميع الكتب»</span> يفعّل هذا التعديل لجميع كتبك. ستظهر <b>نجمة (★)</b> بجوار اسمه في القائمة، للإشارة إلى أن هذا التعديل سيُطبّق على جميع الكتب. ويمكنك إلغاء تفعيله باتباع الخطوات نفسها.</li>
         </ol>
 
 
@@ -2509,7 +2509,7 @@ line-height: 2rem;
                 <li>ستظهر <span class="ui">أيقونة مثلث أيمن</span> بجانب تعديل النمط الخاص بك في القائمة</li>
             </ul>
 
-            <p>You can see it in the example image above, next to the <b>Adjust margins</b> style tweak. Now this style tweak is added to the actions list. You can find it under <span class="ui">Gesture Manager > Reflowable documents</span> category. It will be at the end of the list.</p>
+            <p>يمكنك ملاحظة ذلك في الصورة التوضيحية أعلاه، بجوار خيار تعديل النمط <b>ضبط الهوامش</b> (Adjust margins). لقد أُضيف الآن خيار تعديل النمط هذا إلى قائمة الإجراءات؛ حيث يمكنك العثور عليه ضمن فئة <span class="ui">إدارة الإيماءات > المستندات القابلة لإعادة التدفق</span> (Gesture Manager > Reflowable documents)، وسيظهر في نهاية القائمة.</p>
 
 <br>
 
@@ -2658,7 +2658,7 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/gear.svg" style="width:22px;">/ النقر والإيماءات / الضغط المطول على النص / موقع نافذة التمييز</div>
 
-    <div class="tip"><span class="label_green">TIP</span> There is a <b>faster</b> method for this mode if you don’t need <b>long-press menu items</b> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
+    <div class="tip"><span class="label_green">نصيحة</span> توجد طريقة <b>أسرع</b> لهذا الوضع إذا كنت لا تحتاج إلى <b>عناصر القائمة التي تظهر عند الضغط المطول</b> والموضحة أعلاه. يمكنك تعطيل القائمة المنبثقة تماماً، بحيث تنتقل مباشرةً إلى وضع <span class="ui">التحديد والتمييز</span> (Select and highlight) عند الضغط المطول على أي كلمة. تُعد هذه الطريقة أسرع بكثير، وتتيح لك تمييز أي قدر من النص بنقرتين فقط. لاستخدام هذه الطريقة، قم بتفعيل الخيار التالي:
 
     <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / النقر والإيماءات / الضغط المطول على النص / Select and highlight</div>
 
@@ -2707,7 +2707,7 @@ line-height: 2rem;
 
     <p>بالإضافة إلى إضافة ملاحظة، يتيح لك KOReader أيضًا تحرير النص المظلل نفسه الذي يظهر في <span class="ui">قائمة الإشارات المرجعية</span>. قد يكون هذا أكثر فائدة في بعض المواقف من إضافة ملاحظة إلى تمييز معين. على سبيل المثال، تخيل أنك تراجع نصًا ما؛ وتريد تمييز جملة تحتوي على تواريخ عديدة وأحد هذه التواريخ خاطئ. عندما تريد إضافة ملاحظة للإشارة إلى هذا الخطأ، ستحتاج إلى تحديد أي منها هو الخاطئ في ملاحظتك. ولكن إذا قمت بتحرير نص التمييز، يمكنك كتابة <b>"(يجب التحقق من هذا التاريخ)"</b> مباشرة بجانب التاريخ الإشكالي.</p>
     
-    <p>Note that this editing <b>doesn't change</b> the book content or the highlighted passage on the page. You will still see the same highlighted sentence in the reader. Your edit will be visible in the <span class="ui">Bookmarks list</span>. And when you export your highlights later, edited text will be the one that is exported.</p>
+    <p>يُرجى ملاحظة أن هذا التعديل <b>لا يغير</b> محتوى الكتاب أو النص المُظلَّل في الصفحة؛ إذ ستظل ترى الجملة المُظلَّلة ذاتها في القارئ. سيظهر تعديلك في <span class="ui">قائمة العلامات المرجعية</span>، وعند تصدير تظليلاتك لاحقاً، سيكون النص المُعدَّل هو الذي سيتم تصديره.</p>
     
     <p>لتعديل نص تم تحديده، يمكنك:</p>
         <ol>
@@ -2726,7 +2726,7 @@ line-height: 2rem;
         <li>قم بتغيير النص في مربع الحوار واضغط على زر <span class="ui">Save</span></li>
     </ol>
 
-    <p>If you want to <b>revert</b> an edited text to the original highlight, follow the steps above and at the step <b>3</b>, instead of <span class="ui">Edit text</span>, press the <span class="ui">Reset text</span> button.</p>
+    <p>إذا كنت ترغب في <b>إعادة</b> نص مُعدَّل إلى حالته الأصلية، فاتبع الخطوات المذكورة أعلاه، وفي الخطوة <b>3</b>، بدلاً من اختيار <span class="ui">تعديل النص (Edit text)</span>، اضغط على زر <span class="ui">إعادة تعيين النص (Reset text)</span>.</p>
 
 
 <div class="L3-Smaller-heading">تغيير كيفية عرض الملاحظات المضافة في قائمة الإشارات المرجعية</div>
@@ -2819,7 +2819,7 @@ line-height: 2rem;
         <li>اختر <span class="ui">تصدير التظليلات</span> من القائمة المعروضة</li>
     </ol>
 
-    <div class="tip"><span class="label_green">TIP</span> You can also export only some of these highlight styles: <b>lighten, underline, strikeout, invert</b>. Normally KOReader exports all of them. You can choose from:
+    <div class="tip"><span class="label_green">نصيحة</span> يمكنك أيضاً تصدير بعض أنماط التظليل فقط، وهي: <b>التفتيح (lighten)، والتسطير (underline)، والشطب (strikeout)، والعكس (invert)</b>. يقوم برنامج KOReader عادةً بتصدير جميع هذه الأنماط. يمكنك الاختيار من بينها:
 
     <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / تصدير التظليلات / اختيار أنماط التظليل</div>
     
@@ -2862,7 +2862,7 @@ line-height: 2rem;
 
     <div class="menu-breadcrumbs">القائمة السفلية / <img class="img_inline" src="pictures/bottom_font.svg" style="width:22px;"> / إعادة التنضيد</div>
 
-    <p>Reflow tries to extract the text portion from your document (if it is available) and format it as a single column. Results are generally satisfactory. You can also set this as a <b>default</b> by tapping and holding on it.</p>
+    <p>تعمل ميزة "إعادة التدفق" (Reflow) على استخراج النص من مستندك (إذا كان متاحاً) وتنسيقه في عمود واحد. وتكون النتائج مرضية بشكل عام. يمكنك أيضاً تعيين هذا الخيار كإعداد <b>افتراضي</b> من خلال النقر عليه مع الاستمرار.</p>
 
 	<br>
     
@@ -2931,7 +2931,7 @@ line-height: 2rem;
 
     <p><span class="ui">OCR القسري</span>، كما يوحي الاسم، يفرض استخدام تقنية التعرف الضوئي على الحروف حتى لو كانت الوثيقة تحتوي على طبقة نصية.</p>
 
-    <p><span class="ui">Writing direction</span> <b>(only active in Reflow mode)</b> sets the direction of original document. Set this to <b>RTL</b> for languages like Arabic and Hebrew.</p>
+    <p><span class="ui">اتجاه الكتابة</span> <b>(مُفعَّل فقط في وضع إعادة التدفق/Reflow)</b> يحدد اتجاه المستند الأصلي. اضبط هذا الخيار على <b>RTL</b> (من اليمين إلى اليسار) للغات مثل العربية والعبرية.</p>
 
     <p><span class="ui">أعمدة المستند</span> <b>(نشط فقط في وضع إعادة التنضيد)</b> يحدد عدد أعمدة النص في المستند الأصلي.</p>
         
@@ -2939,7 +2939,7 @@ line-height: 2rem;
 
     <img loading="lazy" src="pictures/bottom_pdf_2.png" style="width: 60%;">
 
-    <p><span class="ui">Auto straighten</span> feature can straighten the pages of a problematic document, for example pages of a PDF which are scanned with an angle. It is available in <b>PDF, DJVU, CBZ/CBT</b> documents and <b>image</b> files. To enable, choose the maximum tilt angle which KOReader will try to correct. If it doesn’t correct you might have to choose a bigger angle. Note that this feature <b>might slow down your reader</b> depending on several factors.</p>
+    <p>تتيح ميزة «التسوية التلقائية» (Auto straighten) تعديل استقامة صفحات المستندات التي تعاني من مشاكل؛ على سبيل المثال، صفحات ملفات PDF التي تم مسحها ضوئيًا بزاوية مائلة. تتوفر هذه الميزة في مستندات <b>PDF</b> و<b>DJVU</b> و<b>CBZ/CBT</b>، بالإضافة إلى ملفات <b>الصور</b>. لتفعيلها، حدد أقصى زاوية ميل يمكن لبرنامج KOReader محاولة تصحيحها؛ وإذا لم يتم تصحيح الميل، فقد تحتاج إلى اختيار زاوية أكبر. يرجى ملاحظة أن هذه الميزة <b>قد تؤدي إلى إبطاء أداء القارئ</b>، وذلك اعتمادًا على عدة عوامل.</p>
 
     
 
@@ -2947,7 +2947,7 @@ line-height: 2rem;
 <div class="L2-Sub-heading" id="L2-pdfhighlights">حفظ التظليلات في ملف PDF</div>
 
     <p>لحفظ التظليلات الخاصة بك، يمكنك استخدام ميزة <span class="ui">تصدير التظليلات</span> في KOReader والموضحة في قسم سابق.</p>
-    <p>If you are making your highlights on a PDF document, KOReader can also save them directly to the PDF file. This can be useful in certain situations because with this method, your highlights become a part of the PDF file. This means you can see them on other applications or platforms without installing KOReader. For example if you are sending a file with highlights to another user, they don't have to install KOReader to see your highlights. You can just send the PDF file with your highlights saved into it and they can open and see them with a <b>compatible</b> PDF reader.</p>
+    <p>إذا كنت تقوم بتحديد أجزاء من نص في ملف PDF، فإن برنامج KOReader يتيح لك حفظ هذه التحديدات مباشرةً داخل ملف الـ PDF نفسه. وتعد هذه الميزة مفيدة في حالات معينة؛ إذ تصبح التحديدات جزءاً لا يتجزأ من الملف، مما يعني إمكانية عرضها عبر تطبيقات أو منصات أخرى دون الحاجة إلى تثبيت KOReader. فعلى سبيل المثال، إذا أردت إرسال ملف يتضمن تحديداتك إلى مستخدم آخر، فلن يضطر ذلك الشخص إلى تثبيت KOReader ليتمكن من رؤيتها؛ إذ يكفي أن ترسل له ملف الـ PDF متضمناً التحديدات المحفوظة بداخله، ليتمكن هو بدوره من فتحه وعرضها باستخدام أي برنامج قارئ لملفات PDF <b>متوافق</b>.</p>
     
     <div class="warning"><p style="text-indent: 0rem;"><span class="label_red">تحذير</span> إذا كنت تستخدم إضافة <span class="ui">Progress Sync</span>، فإن حفظ تظليلات PDF سيغير ملفك وبالتالي ستفشل عملية المزامنة. إذا كنت تخطط لاستخدام كلتا الميزتين، فقم بتغيير <span class="ui">Document matching method</span> في إعدادات إضافة <span class="ui">Progress Sync</span> إلى <span class="ui">Filename</span> بدلاً من الخيار الافتراضي <span class="ui">Binary</span>:
         <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / مزامنة التقدم / طريقة مطابقة المستندات</div>
@@ -3004,11 +3004,11 @@ line-height: 2rem;
             <li>عندما تفتح الكتاب على <b>هاتفك</b> باستخدام KOReader، سترى أن تظليلاتك لا تزال موجودة.</li>
         </ol>
 
-        <p>Now the situation on both of your devices looks identical. Both your <b>e-reader</b> and <b>phone</b> KOReader shows the PDF file with the same highlights. But it only <b>looks</b> identical, actually there is a big difference.</p>
+        <p>أصبح الوضع على جهازيك متطابقًا ظاهريًا. يعرض كلٌّ من <b>قارئ الكتب الإلكتروني</b> والهاتف، عند استخدام KOReader، ملف PDF مع التمييزات النصية نفسها. لكن هذا التطابق ظاهري فقط؛ ففي الواقع، هناك فرق كبير بينهما.</p>
 
-        <p>KOReader on your <b>e-reader</b> has the knowledge of which highlights in this PDF file are made by KOReader because it has the <span class="ui">.sdr folder</span>. But KOReader on your phone doesn't have this knowledge. It only has the PDF file.</p>
+        <p>يعرف KOReader على <b>قارئ الكتب الإلكتروني</b> أيَّ التمييزات في ملف PDF أُنشئت باستخدام KOReader، وذلك بفضل وجود <span class="ui">مجلد ‎.sdr</span>. أما KOReader على هاتفك، فلا يملك هذه المعلومات؛ إذ لا يتوفر لديه سوى ملف PDF نفسه.</p>
 
-        <p>Difference arises when you try to delete the pdf highlights or export them. Your <b>e-reader</b> can both delete these PDF highlights and export them. But your <b>phone</b> KOReader can't, because as we said, it doesn't have the <span class="ui">.sdr folder</span> of your book so the highlights in the book look like a part of the original book from its point of view.</p>
+        <p>يظهر الفرق عندما تحاول حذف التمييزات النصية من ملف PDF أو تصديرها. يستطيع <b>قارئ الكتب الإلكتروني</b> حذف هذه التمييزات وتصديرها. أما KOReader على <b>الهاتف</b>، فلا يستطيع ذلك، لأنه، كما ذكرنا، لا يملك <span class="ui">مجلد ‎.sdr</span> الخاص بالكتاب. لذلك، يتعامل KOReader على الهاتف مع التمييزات الظاهرة في الملف كما لو كانت جزءًا من محتوى الكتاب الأصلي.</p>
 
         <p>باختصار، إذا كنت تريد أن تكون قادراً على حذف أو تصدير تظليلات PDF الخاصة بك لاحقاً، يجب عليك نسخ مجلد <span class="ui">.sdr</span> المرتبط بكتابك عندما تقوم بعمل نسخة احتياطية للكتاب أو نسخه إلى أجهزة أخرى.</p>
 
@@ -3024,7 +3024,7 @@ line-height: 2rem;
         <li>أضف اللغات المثبتة حديثًا إلى ملف تكوين koreader/defaults.lua (هذا ضروري فقط إذا كانت لغتك غير الإنجليزية أو الصينية)</li>
     </ol>
     
-    <div class="info"><span class="label_blue">INFO</span> Buttons on OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in our <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">related wiki page</a>.</div>
+    <div class="info"><span class="label_blue">معلومات</span> **لن تعمل الأزرار** الموجودة في قائمة التعرّف الضوئي على الحروف (OCR) حتى تثبّت ملفات Tesseract اللازمة. يمكنك الاطّلاع على تفاصيل هذه العملية في <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">صفحة الويكي ذات الصلة</a>.</div>
 
 
 
@@ -3048,7 +3048,7 @@ line-height: 2rem;
 
 <div class="L2-Sub-heading" id="L2-panelzoom">ميزة تكبير اللوحة</div>
     
-    <p>This feature makes reading comic books easier on smaller screens. You can enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:</p>
+    <p>تُسهّل هذه الميزة قراءة القصص المصوّرة على الشاشات الصغيرة. يمكنك تفعيلها أثناء قراءة مستند بصيغة <b>PDF أو DJVU أو CBZ أو CBT</b> باتباع الخطوات التالية:</p>
 
     <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / تكبير اللوحة (مانجا/كوميك)</div>
 
@@ -3296,10 +3296,10 @@ line-height: 2rem;
     <p>إذا كان ملف zip الخاص بك يحتوي على أحد هذه الأنواع (بدلاً من مجرد الصور)، فيرجى تسميته وفقاً لذلك:</p>
 
     <ul>
-        <li><b>FictionBook</b> - yourfilename.<b>fb2.zip</b></li>
-        <li><b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
+        <li><b>كتاب خيالي</b> - اسم الملف<b>fb2.zip</b></li>
+        <li><b>HTML (لغة ترميز النص التشعبي)</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b></li>
         <li><b>ملفات سجلات النص</b> - yourfilename.<b>log.zip</b></li>
-        <li><b>Markdown</b> - yourfilename.<b>md.zip</b></li>
+        <li><b>Markdown (لغة التنسيق Markdown)</b> - yourfilename.<b>md.zip</b></li>
         <li><b>تنسيق النص الغني</b> - yourfilename.<b>rtf.zip</b></li>
         <li><b>نص عادي</b> - yourfilename.<b>txt.zip</b></li>
     </ul>
@@ -3407,18 +3407,18 @@ line-height: 2rem;
     <br>
 
 	<p><b>2. من قائمة المجموعات</b></p>
-	<p>This method allows you to add single and multiple books to your <span class="ui">Collections</span>. Biggest difference from the <span class="ui">File browser</span> method is that you can add <b>whole folders and their subfolders</b> to your collections at once. This is very useful if your books are already arranged in folders. For example if all your <b>science fiction</b> books are in a single folder, you can create a collection named <b>Science fiction</b> and add this folder at once.</p>
+	<p>تتيح لك هذه الطريقة إضافة كتب فردية أو متعددة إلى <span class="ui">مجموعاتك</span> (Collections). ويكمن الاختلاف الأكبر عن طريقة <span class="ui">متصفح الملفات</span> (File browser) في إمكانية إضافة <b>مجلدات كاملة وما بداخلها من مجلدات فرعية</b> إلى مجموعاتك دفعة واحدة. وتعد هذه الميزة مفيدة للغاية إذا كانت كتبك منظمة بالفعل داخل مجلدات؛ فعلى سبيل المثال، إذا كانت جميع كتبك من نوع <b>الخيال العلمي</b> موجودة في مجلد واحد، يمكنك إنشاء مجموعة تحمل اسم <b>الخيال العلمي</b> وإضافة ذلك المجلد إليها مباشرةً.</p>
 
 	<img loading="lazy" src="pictures/collections_features.png" style="width:50%;">
 
 	
-	<p>In the image above, <b>Box 1</b> shows the book adding options. You can reach this menu from the collections screen's hamburger menu:</p>
+	<p>في الصورة أعلاه، يوضح <b>المربع 1</b> خيارات إضافة الكتب. يمكنك الوصول إلى هذه القائمة من خلال القائمة الجانبية (أيقونة الخطوط الأفقية الثلاثة) في شاشة المجموعات:</p>
 
 	<div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / المجموعات / اسم مجموعتك / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"></div>
 
 	<ul>
-		<li><span class="ui">Add all books from a folder:</span> As its name says, this options allows you to select a folder to add all the books in it to this collection. Note that this option <b>doesn't add the books in subfolders</b> of the chosen folder. For example if you select your <b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and <b>War Fiction</b> under it, they won't be added with this option.</li>
-		<li><span class="ui">Add all books from a folder and its subfolders:</span> This is the option that will <b>add all the subfolders</b> of your chosen folder. Be careful with this option because it will go down all the way while adding the books. So if you have many levels of nested folders, there might be too many books than you thought.</li>
+		<li><span class="ui">إضافة جميع الكتب من مجلد:</span> كما يشير الاسم، يتيح لك هذا الخيار تحديد مجلد لإضافة كافة الكتب الموجودة بداخله إلى هذه المجموعة. يرجى ملاحظة أن هذا الخيار <b>لا يضيف الكتب الموجودة في المجلدات الفرعية</b> التابعة للمجلد المختار؛ فعلى سبيل المثال، إذا قمت باختيار مجلد <b>الروايات الخيالية (Fiction)</b>، وكان بداخله مجلدات فرعية تحمل أسماء مثل <b>الخيال العلمي (Science Fiction)</b> أو <b>روايات الحروب (War Fiction)</b>، فلن تتم إضافة الكتب الموجودة في تلك المجلدات الفرعية باستخدام هذا الخيار.</li>
+		<li><span class="ui">إضافة جميع الكتب من مجلدٍ ما ومجلداته الفرعية:</span> يتيح لك هذا الخيار <b>إضافة كافة المجلدات الفرعية</b> الموجودة داخل المجلد الذي اخترته. توخَّ الحذر عند استخدام هذا الخيار؛ فهو يتوغل في جميع المستويات المتداخلة للمجلدات أثناء إضافة الكتب. لذا، إذا كان لديك العديد من المجلدات المتداخلة، فقد تجد أن عدد الكتب المضافة أكبر بكثير مما كنت تتوقع.</li>
 		<li><span class="ui">إضافة كتاب إلى المجموعة</span>: هذا هو الخيار الأساسي الذي سيسمح لك بإضافة كتاب واحد فقط.</li>
 	</ul>
 
@@ -3434,7 +3434,7 @@ line-height: 2rem;
 
         <p>قد تكون المجموعات مزدحمة للغاية، ولكن KOReader يتيح لك العثور على كتبك بسهولة من خلال توفير العديد من خيارات التصفية. إذا نظرت إلى الصورة أعلاه، يمكنك رؤية خيارات التصفية في <b>المربع 2</b> و<b>المربع 3</b>. يسمح لك <b>المربع 2</b> بالتصفية حسب حالة الكتاب (جديد، قيد القراءة، منتهي، قيد الانتظار) ويسمح لك <b>المربع 3</b> بالتصفية حسب بيانات الكتاب الوصفية (المؤلف، السلسلة، اللغة، الكلمات المفتاحية). كما يمكنك دمج هاتين المجموعتين من الفلاتر مثل هذا المثال: <b>"أظهر لي الكتب الجديدة في هذه المجموعة التي كتبها إسحاق أسيموف <span class="ui">(تصفية حسب المؤلفين -> إسحاق أسيموف)</span> والتي لم أبدأها بعد <span class="ui">(تصفية حسب الحالة -> جديد)</span>."</b></p>
         
-        <p>You can update the book metadata by long-pressing on the book in <span class="ui">File browser</span> and choosing <span class="ui">Book information</span> from the menu. In the popup window you can long-press on any field to change the metadata like <b>author</b> or <b>keywords</b>. You can also use <span class="external">Calibre</span> for this task, a third-party application which makes managing your book metadata much easier.</p>
+        <p>يمكنك تحديث البيانات الوصفية للكتاب عن طريق الضغط المطول على الكتاب في <span class="ui">متصفح الملفات</span> (File browser) واختيار <span class="ui">معلومات الكتاب</span> (Book information) من القائمة. وفي النافذة المنبثقة، يمكنك الضغط مطولاً على أي حقل لتعديل البيانات الوصفية، مثل <span class="ui">المؤلف</span> (author) أو <span class="ui">الكلمات المفتاحية</span> (keywords). كما يمكنك الاستعانة ببرنامج <span class="external">Calibre</span> -وهو تطبيق خارجي- لتسهيل عملية إدارة البيانات الوصفية لكتبك بشكل كبير.</p>
 
         <div class="info"><span class="label_blue">معلومات</span> يرجى الانتباه إلى أن <span class="external">Calibre</span> يغير البيانات الوصفية داخل الكتاب نفسه، لذا تكون البيانات الوصفية المتغيرة مرئية خارج تطبيق <span class="external">Calibre</span>. لكن KOReader لا يغير ملف الكتاب، بل يضيف فقط بيانات وصفية مخصصة كملف في مجلد <b>.sdr</b> الخاص بالكتاب، لذا تكون هذه البيانات الوصفية مرئية في KOReader فقط.</div>
 
@@ -3442,14 +3442,14 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">البحث في المجموعات</div>
 
-        <p>There are two types of search you can perform in collections: You can search for a phrase <b>in the book titles and metadata</b> or you can also search <b>inside the book texts</b>. You can open the search dialog from:</p>
+        <p>هناك نوعان من البحث يمكنك إجراؤهما ضمن المجموعات: يمكنك البحث عن عبارة <b>في عناوين الكتب والبيانات الوصفية</b>، أو يمكنك أيضاً البحث <b>داخل نصوص الكتب</b>. يمكنك فتح نافذة البحث من خلال:</p>
 
         <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / المجموعات / <img loading="lazy" class="img_inline" src="pictures/top_hamburger.svg" style="width:26px;"> / البحث في المجموعات</div>
 
         <p>إذا كنت ترغب في إجراء بحث <b>في نصوص الكتب</b>، يرجى وضع هذه النقاط في الاعتبار:</p>
 
         <ul>
-            <li>This type of search is only available if you open the <span class="ui">collections</span> from the <span class="ui">file browser</span>. It is <b>not available</b> from the reading screen.</li>
+            <li>لا يتوفر هذا النوع من البحث إلا إذا قمت بفتح <span class="ui">المجموعات</span> (collections) من خلال <span class="ui">متصفح الملفات</span> (file browser). وهو <b>غير متاح</b> من شاشة القراءة.</li>
             <li>قد يكون هذا البحث بطيئاً (حوالي ثانيتين لكل كتاب في المجموعة). لذا، إذا كانت مجموعتك مزدحمة، فقد يستغرق الأمر وقتاً طويلاً.</li>
         </ul>
 
@@ -3461,7 +3461,7 @@ line-height: 2rem;
 
 <div class="L3-Smaller-heading">مزامنة المجموعات مع المجلدات تلقائياً</div>
 
-    <p>After creating your collections and adding books to them, you will probably want to keep them in sync with some folders. For example imagine that you created a <b>Science Fiction</b> collection. And you also have a <b>SF</b> folder in your library where you put your science fiction books. If you want to make the <span class="ui">science fiction collection</span> update itself when you add a new file to this folder, you can do it with <span class="ui">connected folders</span> feature of the collections.</p>
+    <p>بعد إنشاء مجموعاتك وإضافة الكتب إليها، قد ترغب في إبقائها متزامنة مع بعض المجلدات. على سبيل المثال، لنفترض أنك أنشأت مجموعة <b>الخيال العلمي (Science Fiction)</b>، ولديك أيضًا مجلد باسم <b>SF</b> في مكتبتك تضع فيه كتب الخيال العلمي. إذا أردت أن تُحدّث <span class="ui">مجموعة الخيال العلمي</span> محتوياتها تلقائيًا عند إضافة ملف جديد إلى هذا المجلد، فيمكنك تحقيق ذلك باستخدام ميزة <span class="ui">المجلدات المرتبطة</span> في المجموعات.</p>
 
     <p>باستخدام هذه الميزة، يمكنك ربط مجلد واحد أو أكثر بمجموعتك. بعد ذلك، سيقوم KOReader بـ (إعادة) فحص المجلدات لإضافة أو إزالة الكتب من مجموعاتك في الحالات التالية:</p>
 
@@ -3479,7 +3479,7 @@ line-height: 2rem;
 
     <ol>
         <li>انتقل إلى شاشة <span class="ui">المجموعات</span> التي تظهر في الصورة أعلاه.</li>
-        <li>Long-press on the collection name which you want to connect folders <b>(1)</b>.</li>
+        <li>اضغط مطولاً على اسم المجموعة التي تود ربط المجلدات بها <b>(1)</b>.</li>
         <li>اختر <span class="ui">ربط المجلدات</span> من القائمة المنبثقة <b>(2)</b>.</li>
         <li>ستفتح <span class="ui">شاشة قائمة المجلدات المتصلة</span>.</li>
         <li>أضف مجلداً بالضغط على <span class="ui">أيقونة الزائد</span> في الزاوية العلوية اليسرى من تلك الشاشة، والتي ستفتح <span class="ui">شاشة اختيار المجلدات</span>.</li>
@@ -3496,7 +3496,7 @@ line-height: 2rem;
 
     <ol>
         <li>انتقل إلى شاشة <span class="ui">المجموعات</span> التي تظهر في الصورة أعلاه.</li>
-        <li>Long-press on the collection name which you want to connect folders <b>(1)</b>.</li>
+        <li>اضغط مطولاً على اسم المجموعة التي تود ربط المجلدات بها <b>(1)</b>.</li>
         <li>اختر <span class="ui">ربط المجلدات</span> من القائمة المنبثقة <b>(2)</b>.</li>
         <li>ستفتح <span class="ui">شاشة قائمة المجلدات المتصلة</span>.</li>
         <li>اضغط مطولاً على المجلد الذي تريد فصله واختر <span class="ui">فصل المجلد</span> من القائمة المنبثقة.</li>
@@ -3544,7 +3544,7 @@ line-height: 2rem;
 
     <p><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> هو تطبيق سطر أوامر يمكنه إضافة طبقة نص OCR إلى ملفات PDF الممسوحة ضوئيًا (التي تحتوي على صور فقط بدون نص)، مما يسمح بالبحث فيها أو نسخ ولصق النصوص. يمكن أن يكون مفيدًا بشكل خاص لقراءة الكتب القديمة الممسوحة ضوئيًا، كما يمكنه تحسين الصور للحصول على حجم ملف أصغر.</p>
 
-    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a <b>single .html file</b> with all the resources (images, stylesheets, scripts) embedded.</p>
+    <p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> هو إضافة للمتصفحات <b>Mozilla Firefox وGoogle Chrome وMicrosoft Edge</b>. تتيح لك هذه الإضافة حفظ صفحة ويب في <b>ملف HTML واحد</b> يتضمن جميع الموارد المضمّنة فيها، مثل الصور وأوراق الأنماط والبرامج النصية.</p>
 
 
 
@@ -3574,12 +3574,12 @@ line-height: 2rem;
 
 		<div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / المستند / موقع البيانات الوصفية للكتاب: مجلد الكتاب</div>
 
-	<p>This is the <b>default</b> method used on a new installation of KOReader. In this method, when you copy <b>Alice in Wonderland.epub</b> to your device and open it for the first time, a folder named <span class="ui">Alice in Wonderland.sdr</span> will be created in the same directory. This directory contains the files for your settings, annotations and book progress for this book.</p>
+	<p>هذه هي الطريقة <b>الافتراضية</b> المستخدمة عند تثبيت KOReader لأول مرة. وفقًا لهذه الطريقة، عندما تنسخ الملف <b>Alice in Wonderland.epub</b> إلى جهازك وتفتحه للمرة الأولى، سيتم إنشاء مجلد باسم <span class="ui">Alice in Wonderland.sdr</span> في المجلد نفسه. يحتوي هذا المجلد على ملفات الإعدادات والتعليقات التوضيحية وموضع القراءة الحالي الخاص بهذا الكتاب.</p>
 
 	<p><b><span class="label_green">المزايا</span></b></p>
 		<ul>
 			<li>يمكنك عمل نسخة احتياطية واستعادة الإعدادات لكل كتاب يدويًا.</li>
-			<li>When you perform directory synchronization or backups with a system like <b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized alongside your books.</li>
+			<li>عند إجراء مزامنة للمجلدات أو نسخ احتياطي باستخدام نظام مثل <b>Syncthing</b> أو <b>Dropbox</b>، ستتم مزامنة إعداداتك إلى جانب كتبك.</li>
 			<li>يمكنك إعادة تسمية المجلدات الأب التي يوجد بها كتابك، وهذا لن يربك KOReader.</li>
 		</ul>
 
@@ -4338,7 +4338,7 @@ line-height: 2rem;
         <img loading="lazy" src="pictures/quickmenu_example.png" style="width: 60%;">
 
         
-        <p>There are two methods of creating a <span class="ui">Quick Menu</span>: <b>Easy</b> and <b>Advanced</b>. If you need only one menu, <b>Easy method</b> should be enough for you. If you want to show different menus with different gestures you need to use <b>Advanced method</b>. Another advantage of <b>Advanced method</b> is easier gesture reassignment. If you want to change the gesture for your menu, you can easily move it to another gesture with the <b>Advanced method</b> menu. If you want to use another gesture while using the <b>Easy method</b>, you have to re-create your menu under the new gesture.</p>
+        <p>هناك طريقتان لإنشاء <span class="ui">قائمة سريعة (Quick Menu)</span>: الطريقة <b>البسيطة (Easy)</b> والطريقة <b>المتقدمة (Advanced)</b>. إذا كنت تحتاج إلى قائمة واحدة فقط، فستكون الطريقة <b>البسيطة</b> كافية. أما إذا كنت ترغب في عرض قوائم مختلفة باستخدام إيماءات مختلفة، فيجب عليك استخدام الطريقة <b>المتقدمة</b>. ومن مزايا الطريقة <b>المتقدمة</b> أيضاً أنها تتيح إعادة تعيين الإيماءات بسهولة؛ فإذا أردت تغيير الإيماءة المخصصة لقائمتك، يمكنك نقلها ببساطة إلى إيماءة أخرى من خلال قائمة الخيارات في الطريقة <b>المتقدمة</b>. في المقابل، إذا كنت تستخدم الطريقة <b>البسيطة</b> وأردت تغيير الإيماءة، فسيتعين عليك إعادة إنشاء القائمة من جديد وتخصيصها للإيماءة المطلوبة.</p>
 
 
 
@@ -4558,7 +4558,7 @@ line-height: 2rem;
         في KOReader، لدينا <b>مجموعة من الإجراءات/الإعدادات</b>، ويمكن إنشاء هذه المجموعة بطريقتين:</p>
 
         <ol>
-            <li>كـملف تعريف (والذي يتم شرحه كـ <span class="ui">الطريقة المتقدمة</span> ويتم تخزينه في <span class="ui">settings/profiles.lua</span>)</li>
+            <li>كملف تعريف (والذي يتم شرحه كـ <span class="ui">الطريقة المتقدمة</span> ويتم تخزينه في <span class="ui">settings/profiles.lua</span>)</li>
             <li>كقائمة من الإجراءات المخصصة لـ ايماءة (والتي يتم شرحها كـ <span class="ui">الطريقة السهلة</span> وتُخزن في <span class="ui">settings/gestures.lua</span>)</li>
         </ol>
     
@@ -4589,9 +4589,9 @@ line-height: 2rem;
 
         <ul>
             <li>يمكن الوصول إليها مباشرة من قائمة إضافات KOReader.</li>
-            <li>They <b>don’t need</b> installation. You can enable them from the menu.</li>
+            <li>هي <b>لا تحتاج</b> إلى تثبيت. يمكنك تفعيلها من القائمة.</li>
             <li>يتم فحصها من قبل مطورينا لذا فهي <b>تعتبر آمنة</b>.</li>
-            <li>They are <b>automatically updated</b> when you update KOReader.</li>
+            <li>يتم تحديثها <b>تلقائيًا</b> عند تحديث KOReader.</li>
         </ul>
     
         <p>يمكنك تفعيلها/تعطيلها عبر:</p>
@@ -4625,7 +4625,7 @@ line-height: 2rem;
         <ul>
             <li>يجب تثبيتها <b>يدوياً</b> ثم تفعيلها من قائمة الإضافات.</li>
             <li>يجب تحديثها <b>يدوياً</b>.</li>
-            <li>They are <b>NOT</b> checked by our developers so be aware that there might be risks using them.</li>
+            <li><b>لم يتم</b> فحصها من قِبل مطورينا، لذا يرجى العلم بأنه قد تكون هناك مخاطر عند استخدامها.</li>
         </ul>
                 
         <p>بعض الأمثلة البارزة لهذه الإضافات الخارجية مع روابط لصفحاتها على GitHub:</p>
@@ -4638,7 +4638,7 @@ line-height: 2rem;
 
             <li><a href="https://github.com/stelzch/zotero.koplugin">إضافة Zotero:</a> تسمح لك هذه الإضافة بتصفح مجموعاتك في <span class="external">Zotero</span> (وهو برنامج مفتوح المصدر لإدارة المراجع) من خلال KOReader.</li>
 
-            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">Syncthing plugin:</a> This addon allows you to run <b>Syncthing</b> peer-to-peer file synchronization program on KOReader (tested only on Kobo devices but might work on other devices according to the author). This makes it possible to sync files between your e-reader and computer/phone automatically.</li>
+            <li><a href="https://github.com/jasonchoimtt/koreader-syncthing">إضافة Syncthing:</a> تتيح لك هذه الإضافة تشغيل برنامج <b>Syncthing</b> —المخصص لمزامنة الملفات بنظام الند للند (peer-to-peer)— على تطبيق KOReader (جرت تجربتها على أجهزة Kobo فقط، لكن وفقاً للمطور، قد تعمل أيضاً على أجهزة أخرى). تُمكّنك هذه الإضافة من مزامنة الملفات تلقائياً بين جهاز القراءة الإلكتروني الخاص بك وحاسوبك أو هاتفك.</li>
         </ul>
     
         <p>يمكنك أيضًا النقر على <a href="https://github.com/search?q=koplugin&type=repositories">هذا الرابط</a> لفتح صفحة بحث على <span class="external">Github</span> لاكتشاف المزيد من مشاريع إضافات KOReader.</p>
@@ -4651,7 +4651,7 @@ line-height: 2rem;
         <p>	<b> وضع الدفء والوضع الليلي التلقائي </b> - يتيح لك ضبط دفء الإضاءة الأمامية في الأجهزة ذات الإضاءة الطبيعية (الصفراء/البرتقالية) وضبط الوضع الليلي تلقائيًا وفقًا لجدول زمني	</p>
         <p>	<b> توفير الطاقة التلقائي </b> - يضع الجهاز في وضع الاستعداد أو التعليق أو إيقاف التشغيل بعد فترات محددة من عدم النشاط	</p>
         <p>	<b> التعليق التلقائي </b> - تعليق الجهاز بعد فترة محددة من عدم النشاط (متاح على جميع أجهزة الحبر الإلكتروني باستثناء نظام تشغيل أندرويد)	</p>
-        <p>	<b> Autoturn </b> - Automatically turns the page after a set period of time	</p>
+        <p>	<b> تشغيل تلقائي </b> - تقليب الصفحة تلقائيًا بعد فترة زمنية محددة	</p>
         <p>	<b> مشغل الخلفية </b> - خدمة للإضافات الأخرى: يسمح بتشغيل المهام بانتظام في الخلفية.	</p>
         <p>	<b> إحصائيات البطارية </b> - يجمع ويعرض إحصائيات استخدام البطارية لجهازك	</p>
         <p>	<b> اختصارات الكتب </b> - يسمح بإضافة اختصار لكتاب إلى ايماءة	</p>
@@ -4735,7 +4735,7 @@ line-height: 2rem;
             <li><b>2</b> - يتم تنفيذه بعد أن يصبح <span class="ui">UIManager</span> جاهزاً عند كل بدء لتطبيق KOReader</li>
             <li><b>3-7</b> - محجوز</li>
             <li><b>8</b> - يتم تنفيذه قبل الخروج وقبل حفظ الإعدادات</li>
-            <li><b>9</b> - Executed right before exit</li>
+            <li><b>9</b> - يتم تنفيذه مباشرةً قبل الخروج</li>
         </ul>
         
         <p>إذا واجهت مشكلة في تصحيح مستخدم، يمكنك العودة إلى تكوينك السابق عن طريق إزالة ملف التصحيح.</p>
@@ -4749,7 +4749,7 @@ line-height: 2rem;
 <div class="L2-Sub-heading" id="L2-readingtips">نصائح القراءة</div>
 
 <div class="L3-Smaller-heading">التنقل السريع بين المستندات</div>
-<p>If you need to switch between two documents (when comparing them for example), there is a quicker way than going through the <span class="ui">File Browser</span>. KOReader can open the last document with a gesture (<b><span style="font-family: microns;"></span> multiswipe</b>). If you define a gesture’s action as <span class="ui">Open previous document</span>, you can switch between two documents quickly similar to the <b>Alt+Tab</b> feature on the desktop computers. You can find this feature under:</p>
+<p>إذا كنت بحاجة إلى التبديل بين مستندين (عند المقارنة بينهما، مثلًا)، فهناك طريقة أسرع من التنقّل عبر <span class="ui">متصفح الملفات</span>. يستطيع KOReader فتح المستند السابق باستخدام إيماءة (<b><span style="font-family: microns;"></span> تمرير متعدد (multiswipe)</b>). إذا عيّنت الإجراء <span class="ui">فتح المستند السابق</span> لإحدى الإيماءات، فستتمكن من التبديل بسرعة بين مستندين، بطريقة مشابهة لميزة <b>Alt+Tab</b> على أجهزة الكمبيوتر المكتبية. يمكنك العثور على هذه الميزة ضمن:</p>
 
 <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / النقرات والإيماءات / مدير الإيماءات / “ANY GESTURE” / عام / فتح المستند السابق</div>
 
@@ -4876,15 +4876,15 @@ line-height: 2rem;
 <div class="L3-Smaller-heading">نسخ Nightly</div>
 <p>يحتوي KOReader على نسختين مختلفتين:</p>
     <ul>
-        <li><span class="label_green">STABLE</span> This version is the main one that you can find on the <b>Releases</b> page of the project GitHub. It is named like this: <b>"KOReader 2024.11"</b> which means this specific version is released on <b>November 2024</b>. This is generally a <b>monthly</b> release, but sometimes can take longer.</li>
-        <li><span class="label_red">NIGHTLY</span><b></b> These versions are the <b>daily</b> compiled versions of KOReader with optimizations and fixes continuously added. Nightly releases are intended for a narrow group of testers and developers, so they might be less stable.</li>
+        <li><span class="label_green">مستقر</span> هذا هو الإصدار الرئيسي الذي يمكنك العثور عليه في صفحة <b>الإصدارات (Releases)</b> على GitHub الخاص بالمشروع. يُسمّى بهذا الشكل: <b>«KOReader 2024.11»</b>، ما يعني أن هذا الإصدار تحديدًا صدر في <b>نوفمبر 2024</b>. تصدر هذه الإصدارات عادةً بشكل <b>شهري</b>، ولكن قد يستغرق إصدار بعضها وقتًا أطول.</li>
+        <li><span class="label_red">ليلي (NIGHTLY)</span> هذه الإصدارات هي نسخ من KOReader تُبنى <b>يوميًا</b>، مع إضافة التحسينات والإصلاحات إليها باستمرار. وهي موجّهة أساسًا إلى فئة محدودة من المختبِرين والمطوّرين، لذا قد تكون أقل استقرارًا من الإصدارات المستقرة.</li>
     </ul>
 
-    <p>Normally if you are an average user, <b>stable</b> version is the one you should use. But in some specific cases you might need to use a <b>nightly</b> version:</p>
+    <p>عادةً، إذا كنت مستخدماً عادياً، فإن الإصدار <b>المستقر</b> (stable) هو ما ينبغي عليك استخدامه. ولكن في بعض الحالات المحددة، قد تحتاج إلى استخدام إصدار <b>تجريبي يومي</b> (nightly):</p>
     <ul>
         <li>جهازك جديد جدًا (طراز Kobo صدر حديثًا على سبيل المثال) وقد تمت إضافة دعم KOReader للتو في نسخة Nightly حديثة.</li>
-        <li>There is a bug or problem specific to your device that is fixed already but not released yet. And you don't want to wait for the <b>stable</b> version to have this fix.</li>
-        <li>After updating KOReader, you notice that a feature which you were using is removed. You don't want to lose this feature, so you can install a nightly version that still has this feature. Of course you can also go back to the previous <b>stable</b> release but <b>nightly</b> would be newer so might have more features and fixes.</li>
+        <li>هناك خلل أو مشكلة خاصة بجهازك، وقد تم إصلاحها بالفعل، لكن الإصلاح لم يُطرح بعد. وأنت لا ترغب في انتظار الإصدار <b>المستقر</b> (stable) للحصول على هذا الإصلاح.</li>
+        <li>بعد تحديث KOReader، قد تلاحظ اختفاء إحدى الميزات التي كنت تستخدمها. إذا كنت لا تريد الاستغناء عنها، فيمكنك تثبيت إصدار ليلي (Nightly) لا تزال هذه الميزة متوفرة فيه. وبالطبع، يمكنك أيضًا الرجوع إلى إصدار <b>مستقر (Stable)</b> سابق، لكن الإصدار الليلي سيكون أحدث، وقد يتضمن المزيد من الميزات والإصلاحات.</li>
     </ul>
 
     <p>كان هذا القسم مجرد مقدمة عامة للموضوع. للحصول على معلومات مفصلة وطلب المساعدة بشأن النسخ الليلية، يمكنك زيارة صفحة المناقشة: <a href="https://github.com/koreader/koreader/issues/11068">FAQ: How to track latest nightly builds</a></p>
@@ -4937,7 +4937,7 @@ line-height: 2rem;
         <li>قد يحتوي ملف PDF على <b>ملفات صور كبيرة جدًا</b>. حتى في المستندات التي تحتوي على طبقة نصية عادية (والتي يمكنك تحديدها وتظليلها)، قد تكون هناك طبقة صور أخرى مدمجة (عادةً ما تكون مسحًا ضوئيًا للصفحة). هذا يبطئ عملية الفتح وتقليب الصفحات لأن هذه الصور الكبيرة يجب إعادة تحجيمها لتناسب شاشتك، وهذه العملية قد تستهلك الكثير من موارد وحدة المعالجة المركزية.</li>
         <li>قد يحتوي ملف PDF على <b>الكثير من العناصر الفردية</b> التي تتطلب تحديدًا دقيقًا للموضع، مثل صفحة مجلة تحتوي على الكثير من الصور وصناديق النصوص. في هذه الحالة، يتعين على KOReader حساب ورسم كل هذه العناصر مما قد يستغرق وقتًا.</li>
         <li>قد تؤدي ميزة <span class="ui">التعديل التلقائي للمحاذاة</span> (التي تسمح لك بتعديل ميلان الصفحة) أيضًا إلى إبطاء جهاز القراءة الخاص بك.</li>
-        <li>If you set your <span class="ui">RENDER QUALITY</span> to <span class="ui">HIGH</span> while <span class="ui">REFLOW</span> is <b>ON</b>, text will be more pleasing but it can be much slower (up to several seconds per page turn) than <span class="ui">DEFAULT</span> depending on your document.
+        <li>إذا ضبطت <span class="ui">جودة العرض (RENDER QUALITY)</span> على <span class="ui">عالية (HIGH)</span> أثناء تفعيل <b>إعادة تدفّق النص (REFLOW)</b>، فسيصبح النص أكثر وضوحًا وجمالًا، لكن عرض الصفحات قد يصبح أبطأ بكثير مقارنةً بخيار <span class="ui">افتراضي (DEFAULT)</span>، وقد يستغرق الانتقال إلى الصفحة التالية عدة ثوانٍ، وذلك بحسب المستند الذي تقرؤه.
 
             <div class="menu-breadcrumbs">القائمة السفلية / <img class="img_inline" src="pictures/bottom_contrast.svg" style="width:22px;"> / جودة العرض</div>
         </li>
@@ -4993,9 +4993,9 @@ line-height: 2rem;
         
         <li>يمكن لتطبيق <span class="external">EPUBCheck</span> التحقق من صحة ملفات EPUB واكتشاف العديد من أنواع الأخطاء. يمكنك قراءة مثال لمشكلة تم اكتشافها باستخدام <span class="external">EPUBCheck</span> <a href="https://github.com/koreader/koreader/issues/11268">هنا</a>.
 
-        <p>You can download the <b>command line version</b> from <a href="https://github.com/w3c/epubcheck">here</a>.</p>
+        <p>يمكنك تنزيل <b>إصدار سطر الأوامر (Command Line)</b> من <a href="https://github.com/w3c/epubcheck">هنا</a>.</p>
 
-        <p>Or download a <b>graphical user interface version</b> from <a href="https://github.com/w3c/epubcheck/wiki/GUI">here</a>.</p></li>
+        <p>أو يمكنك تنزيل <b>إصدار بواجهة مستخدم رسومية (GUI)</b> من <a href="https://github.com/w3c/epubcheck/wiki/GUI">هنا</a>.</p></li>
     </ul>
 
 
@@ -5112,13 +5112,13 @@ line-height: 2rem;
         
         <p>انقر على الخيار المناسب واتبع التعليمات الموجودة في الصفحة للإبلاغ عن مشكلتك أو اقتراحك.</p>
         
-        <p>If you are reporting a bug, <b>verbose debug logs</b> are very helpful to determine the problem. You can enable them via:</p>
+        <p>إذا كنت بصدد الإبلاغ عن خطأ، فإن **سجلات التصحيح التفصيلية** (Verbose Debug Logs) تساعد كثيرًا في تحديد المشكلة. يمكنك تفعيلها من خلال المسار التالي:</p>
 
         <div class="menu-breadcrumbs">القائمة العلوية / <img class="img_inline" src="pictures/top_hamburger.svg" style="width:22px;"> / المساعدة / الإبلاغ عن خطأ / تفعيل تسجيل الأخطاء المفصل</div>
 
         <p>يمكنك أيضًا العثور على رقم إصدار KOReader ونوع جهازك من نفس مربع الحوار الخاص بالإبلاغ.</p>
 
-        <p>If you have a suggestion or question related to this <b>User Guide</b> you can write to the <a href="https://github.com/koreader/koreader/issues/11147">GitHub discussion thread</a></p>
+        <p>إذا كانت لديك أي اقتراحات أو أسئلة تتعلق بـ <b>دليل المستخدم</b> هذا، فيمكنك نشرها في <a href="https://github.com/koreader/koreader/issues/11147">نقاش المشروع على GitHub</a>.</p>
 
 
 		
