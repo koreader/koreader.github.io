@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-28 01:45+0000\n"
-"PO-Revision-Date: 2026-10-20 09:02+0000\n"
+"PO-Revision-Date: 2026-10-28 22:24+0000\n"
 "Last-Translator: \"Muaz.T\" <muazt@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/koreader/user-"
 "guide/ar/>\n"
@@ -3932,6 +3932,10 @@ msgid ""
 "them bigger and eventually it will add markers to every <b>5<sup>th</sup> "
 "page</b>."
 msgstr ""
+"علامات كل <span class=\"ui\">10 صفحات:</span> مع زيادة هذه القيمة، ستتم أولاً "
+"إضافة علامات عند كل صفحة <b>عاشرة (<escape>10<sup>th</sup></escape>)</b>، ثم "
+"سيزداد حجم هذه العلامات، وفي النهاية ستتم إضافة علامات عند كل صفحة <b>خامسة "
+"(<escape>5<sup>th</sup></escape>)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2080-1
 msgctxt "user_guide/en.html:L2-pagebrowser"
@@ -4653,6 +4657,11 @@ msgid ""
 "which you can apply at once instead of changing the settings manually every "
 "time."
 msgstr ""
+"تتيح لك هذه الميزة القوية حفظ جميع إعدادات <span class=\"ui\">القائمة "
+"السفلية (BOTTOM MENU)</span>، بالإضافة إلى نوع الخط، في هيئة <b>ملف تعريف "
+"(profile)</b>. وهذا يعني إمكانية إعداد مجموعات مختلفة من الإعدادات لتناسب "
+"ظروفًا متنوعة أو أنواعًا مختلفة من الكتب، بحيث يمكنك تطبيقها دفعة واحدة بدلًا من "
+"تغيير الإعدادات يدويًا في كل مرة."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2258-5
 msgid "For example you can create:"
@@ -5005,7 +5014,7 @@ msgstr "لنرَ هذا على مثال لـ <span class=\"ui\">تعديل نم�
 #: user_guide/en.html%2Bhtml.body.div.p:2354-5
 msgctxt "user_guide/en.html+html.body.div.p:2354-5"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2355-5
 msgid ""
@@ -5048,6 +5057,10 @@ msgid ""
 "takes precedence over any other existing <b>width</b> declaration applied to "
 "these images."
 msgstr ""
+"يحدّد الجزء الأول <span class=\"ui\">width: 10px !important;</span> عرض عناصر "
+"<b>img</b> المستهدفة بـ 10 بكسلات. ويُعدّ التصريح <b>!important</b> أداةً لفرض "
+"الأولوية، إذ يضمن أن تكون قيمة العرض المحددة هنا هي المعتمدة، متقدّمةً على أي "
+"تصريح آخر موجود مسبقًا لخاصية <b>width</b> يُطبّق على هذه الصور."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2363-9
 msgid ""
@@ -5057,6 +5070,11 @@ msgid ""
 "height value takes precedence over any other existing <b>height</b> "
 "declaration applied to these images."
 msgstr ""
+"يحدّد هذا الجزء ارتفاع عناصر <b>img</b> المستهدفة بـ 10 بكسلات باستخدام <span "
+"class=\"ui\">height: 10px !important;</span>. وكما في المثال السابق، يُعدّ "
+"التصريح <b>!important</b> أداةً لفرض الأولوية، إذ يضمن أن تكون قيمة الارتفاع "
+"المحددة هنا هي المعتمدة، متقدّمةً على أي تصريح آخر موجود مسبقًا لخاصية <b>"
+"height</b> يُطبّق على هذه الصور."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2366-5
 msgid ""
@@ -5093,7 +5111,7 @@ msgstr "إضافة بعض الهوامش فوق العناوين:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2380-17
 msgid "H1, H2, H3, H4 { margin-top: 2em !important; }"
-msgstr ""
+msgstr "H1, H2, H3, H4 { margin-top: 2em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2382-13
 msgid "Or if the book has too much margin above the headings, remove them:"
@@ -5111,6 +5129,7 @@ msgstr "أضف فجوة صغيرة بين الفقرات لجعل النص أك�
 msgid ""
 "p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 msgstr ""
+"p + p { margin-top: 0.5em !important; margin-bottom: 0.5em !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2389-13
 msgid "Disable all images in an EPUB:"
@@ -5118,7 +5137,7 @@ msgstr "تعطيل جميع الصور في ملف EPUB:"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2390-17
 msgid "img { display: none !important; }"
-msgstr ""
+msgstr "img { display: none !important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2393-13
 msgid "Make images very small instead of disabling them:"
@@ -5127,7 +5146,7 @@ msgstr "اجعل الصور صغيرة جدًا بدلاً من تعطيلها:"
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:2395-17
 msgctxt "user_guide/en.html+html.body.div.ul.li.p:2395-17"
 msgid "img { width: 10px !important; height: 10px !important }"
-msgstr ""
+msgstr "img { width: 10px !important; height: 10px !important }"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:2398-13
 msgid ""
@@ -5145,6 +5164,9 @@ msgid ""
 "background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 !"
 "important; }"
 msgstr ""
+"pre,code { font-size: 0.6em !important; line-height: 1.8em !important; "
+"background-color: #eee !important; margin: 1em 0 !important; padding: 1em 0 "
+"!important; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2414-5
 msgid "How to add style tweaks"
@@ -5233,6 +5255,9 @@ msgid ""
 "indicating that this tweak will be applied to all books. You can disable "
 "this with the same steps."
 msgstr ""
+"<span class=\"ui\">زر «تطبيق على جميع الكتب»</span> يفعّل هذا التعديل لجميع "
+"كتبك. ستظهر <b>نجمة (★)</b> بجوار اسمه في القائمة، للإشارة إلى أن هذا التعديل "
+"سيُطبّق على جميع الكتب. ويمكنك إلغاء تفعيله باتباع الخطوات نفسها."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2443-5
 msgid "2. Book-specific tweak"
@@ -5511,6 +5536,11 @@ msgid ""
 "it under <span class=\"ui\">Gesture Manager > Reflowable documents</span> "
 "category. It will be at the end of the list."
 msgstr ""
+"يمكنك ملاحظة ذلك في الصورة التوضيحية أعلاه، بجوار خيار تعديل النمط <b>ضبط "
+"الهوامش</b> (Adjust margins). لقد أُضيف الآن خيار تعديل النمط هذا إلى قائمة "
+"الإجراءات؛ حيث يمكنك العثور عليه ضمن فئة <span class=\"ui\">إدارة الإيماءات > "
+"المستندات القابلة لإعادة التدفق</span> (Gesture Manager > Reflowable "
+"documents)، وسيظهر في نهاية القائمة."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2522-9
 msgid "2. You can add a tweak to your Quick Menu"
@@ -5560,7 +5590,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.p:2533-5
 msgid "P.tit123 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "P.tit123 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2535-5
 msgid "instead of this:"
@@ -5568,7 +5598,7 @@ msgstr "بدلاً من هذا:"
 
 #: user_guide/en.html%2Bhtml.body.div.p:2537-5
 msgid "H1 { border-top: 2px solid black; }"
-msgstr ""
+msgstr "H1 { border-top: 2px solid black; }"
 
 #: user_guide/en.html%2Bhtml.body.div.div:2548-1
 msgctxt "user_guide/en.html:L1-bookmarks"
@@ -5910,6 +5940,12 @@ msgid ""
 "mode. This method is much faster and you can highlight any length of text "
 "with just two taps. To use this method enable this option:"
 msgstr ""
+"<span class=\"label_green\">نصيحة</span> توجد طريقة <b>أسرع</b> لهذا الوضع "
+"إذا كنت لا تحتاج إلى <b>عناصر القائمة التي تظهر عند الضغط المطول</b> والموضحة "
+"أعلاه. يمكنك تعطيل القائمة المنبثقة تماماً، بحيث تنتقل مباشرةً إلى وضع <span "
+"class=\"ui\">التحديد والتمييز</span> (Select and highlight) عند الضغط المطول "
+"على أي كلمة. تُعد هذه الطريقة أسرع بكثير، وتتيح لك تمييز أي قدر من النص "
+"بنقرتين فقط. لاستخدام هذه الطريقة، قم بتفعيل الخيار التالي:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2669-5
 msgid ""
@@ -6072,6 +6108,10 @@ msgid ""
 "class=\"ui\">Bookmarks list</span>. And when you export your highlights "
 "later, edited text will be the one that is exported."
 msgstr ""
+"يُرجى ملاحظة أن هذا التعديل <b>لا يغير</b> محتوى الكتاب أو النص المُظلَّل في الصفحة"
+"؛ إذ ستظل ترى الجملة المُظلَّلة ذاتها في القارئ. سيظهر تعديلك في <span "
+"class=\"ui\">قائمة العلامات المرجعية</span>، وعند تصدير تظليلاتك لاحقاً، سيكون "
+"النص المُعدَّل هو الذي سيتم تصديره."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2718-5
 msgid "To edit a highlight text, you can:"
@@ -6120,6 +6160,10 @@ msgid ""
 "class=\"ui\">Edit text</span>, press the <span class=\"ui\">Reset text</"
 "span> button."
 msgstr ""
+"إذا كنت ترغب في <b>إعادة</b> نص مُعدَّل إلى حالته الأصلية، فاتبع الخطوات "
+"المذكورة أعلاه، وفي الخطوة <b>3</b>، بدلاً من اختيار <span class=\"ui\">تعديل "
+"النص (Edit text)</span>، اضغط على زر <span class=\"ui\">إعادة تعيين النص "
+"(Reset text)</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2738-1
 msgid "Changing how the added notes are shown in the Bookmarks List"
@@ -6374,6 +6418,10 @@ msgid ""
 "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
 "Normally KOReader exports all of them. You can choose from:"
 msgstr ""
+"<span class=\"label_green\">نصيحة</span> يمكنك أيضاً تصدير بعض أنماط التظليل "
+"فقط، وهي: <b>التفتيح (lighten)، والتسطير (underline)، والشطب (strikeout)، "
+"والعكس (invert)</b>. يقوم برنامج KOReader عادةً بتصدير جميع هذه الأنماط. يمكنك "
+"الاختيار من بينها:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div:2830-5
 msgid ""
@@ -6484,6 +6532,9 @@ msgid ""
 "satisfactory. You can also set this as a <b>default</b> by tapping and "
 "holding on it."
 msgstr ""
+"تعمل ميزة \"إعادة التدفق\" (Reflow) على استخراج النص من مستندك (إذا كان "
+"متاحاً) وتنسيقه في عمود واحد. وتكون النتائج مرضية بشكل عام. يمكنك أيضاً تعيين "
+"هذا الخيار كإعداد <b>افتراضي</b> من خلال النقر عليه مع الاستمرار."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2875-2
 msgid "<b>2. You can enable</b> <span class=\"ui\">Zoom To Content</span>"
@@ -6678,6 +6729,9 @@ msgid ""
 "b> sets the direction of original document. Set this to <b>RTL</b> for "
 "languages like Arabic and Hebrew."
 msgstr ""
+"<span class=\"ui\">اتجاه الكتابة</span> <b>(مُفعَّل فقط في وضع إعادة التدفق/"
+"Reflow)</b> يحدد اتجاه المستند الأصلي. اضبط هذا الخيار على <b>RTL</b> (من "
+"اليمين إلى اليسار) للغات مثل العربية والعبرية."
 
 #: user_guide/en.html%2Bhtml.body.div.p:2942-5
 msgid ""
@@ -6697,6 +6751,13 @@ msgid ""
 "angle. Note that this feature <b>might slow down your reader</b> depending "
 "on several factors."
 msgstr ""
+"تتيح ميزة «التسوية التلقائية» (Auto straighten) تعديل استقامة صفحات "
+"المستندات التي تعاني من مشاكل؛ على سبيل المثال، صفحات ملفات PDF التي تم "
+"مسحها ضوئيًا بزاوية مائلة. تتوفر هذه الميزة في مستندات <b>PDF</b> و<b>DJVU</"
+"b> و<b>CBZ/CBT</b>، بالإضافة إلى ملفات <b>الصور</b>. لتفعيلها، حدد أقصى زاوية "
+"ميل يمكن لبرنامج KOReader محاولة تصحيحها؛ وإذا لم يتم تصحيح الميل، فقد تحتاج "
+"إلى اختيار زاوية أكبر. يرجى ملاحظة أن هذه الميزة <b>قد تؤدي إلى إبطاء أداء "
+"القارئ</b>، وذلك اعتمادًا على عدة عوامل."
 
 #: user_guide/en.html%2Bhtml.body.div.div:2953-1
 msgid "Saving highlights into PDF"
@@ -6722,6 +6783,14 @@ msgid ""
 "You can just send the PDF file with your highlights saved into it and they "
 "can open and see them with a <b>compatible</b> PDF reader."
 msgstr ""
+"إذا كنت تقوم بتحديد أجزاء من نص في ملف PDF، فإن برنامج KOReader يتيح لك حفظ "
+"هذه التحديدات مباشرةً داخل ملف الـ PDF نفسه. وتعد هذه الميزة مفيدة في حالات "
+"معينة؛ إذ تصبح التحديدات جزءاً لا يتجزأ من الملف، مما يعني إمكانية عرضها عبر "
+"تطبيقات أو منصات أخرى دون الحاجة إلى تثبيت KOReader. فعلى سبيل المثال، إذا "
+"أردت إرسال ملف يتضمن تحديداتك إلى مستخدم آخر، فلن يضطر ذلك الشخص إلى تثبيت "
+"KOReader ليتمكن من رؤيتها؛ إذ يكفي أن ترسل له ملف الـ PDF متضمناً التحديدات "
+"المحفوظة بداخله، ليتمكن هو بدوره من فتحه وعرضها باستخدام أي برنامج قارئ "
+"لملفات PDF <b>متوافق</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.div.p:2958-24
 msgid ""
@@ -6963,6 +7032,9 @@ msgid ""
 "highlights. But it only <b>looks</b> identical, actually there is a big "
 "difference."
 msgstr ""
+"أصبح الوضع على جهازيك متطابقًا ظاهريًا. يعرض كلٌّ من <b>قارئ الكتب الإلكتروني</b> "
+"والهاتف، عند استخدام KOReader، ملف PDF مع التمييزات النصية نفسها. لكن هذا "
+"التطابق ظاهري فقط؛ ففي الواقع، هناك فرق كبير بينهما."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3015-9
 msgid ""
@@ -6971,6 +7043,9 @@ msgid ""
 "class=\"ui\">.sdr folder</span>. But KOReader on your phone doesn't have "
 "this knowledge. It only has the PDF file."
 msgstr ""
+"يعرف KOReader على <b>قارئ الكتب الإلكتروني</b> أيَّ التمييزات في ملف PDF أُنشئت "
+"باستخدام KOReader، وذلك بفضل وجود <span class=\"ui\">مجلد ‎.sdr</span>. أما "
+"KOReader على هاتفك، فلا يملك هذه المعلومات؛ إذ لا يتوفر لديه سوى ملف PDF نفسه."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3017-9
 msgid ""
@@ -6980,6 +7055,11 @@ msgid ""
 "the <span class=\"ui\">.sdr folder</span> of your book so the highlights in "
 "the book look like a part of the original book from its point of view."
 msgstr ""
+"يظهر الفرق عندما تحاول حذف التمييزات النصية من ملف PDF أو تصديرها. يستطيع <b>"
+"قارئ الكتب الإلكتروني</b> حذف هذه التمييزات وتصديرها. أما KOReader على <b>"
+"الهاتف</b>، فلا يستطيع ذلك، لأنه، كما ذكرنا، لا يملك <span class=\"ui\">مجلد ‎"
+".sdr</span> الخاص بالكتاب. لذلك، يتعامل KOReader على الهاتف مع التمييزات "
+"الظاهرة في الملف كما لو كانت جزءًا من محتوى الكتاب الأصلي."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3019-9
 msgid ""
@@ -7037,6 +7117,11 @@ msgid ""
 "koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
 "pages\">related wiki page</a>."
 msgstr ""
+"<span class=\"label_blue\">معلومات</span> **لن تعمل الأزرار** الموجودة في "
+"قائمة التعرّف الضوئي على الحروف (OCR) حتى تثبّت ملفات Tesseract اللازمة. يمكنك "
+"الاطّلاع على تفاصيل هذه العملية في <a href=\"https://github.com/koreader/"
+"koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages\">صفحة "
+"الويكي ذات الصلة</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3042-1
 msgid "READING COMICS AND MANGA"
@@ -7098,6 +7183,8 @@ msgid ""
 "This feature makes reading comic books easier on smaller screens. You can "
 "enable it while you are reading a <b>PDF, DJVU, CBZ or CBT</b> document via:"
 msgstr ""
+"تُسهّل هذه الميزة قراءة القصص المصوّرة على الشاشات الصغيرة. يمكنك تفعيلها أثناء "
+"قراءة مستند بصيغة <b>PDF أو DJVU أو CBZ أو CBT</b> باتباع الخطوات التالية:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3060-5
 msgid ""
@@ -7541,6 +7628,8 @@ msgid ""
 "[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
 "true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 msgstr ""
+"[\"/storage/emulated/0/Books/manga\"] = {<br> [\"inverse_reading_order\"] = "
+"true,<br> [\"kopt_zoom_direction\"] = 0,<br> },"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3182-5
 msgid "to this file:"
@@ -7548,7 +7637,7 @@ msgstr "إلى هذا الملف:"
 
 #: user_guide/en.html%2Bhtml.body.div:3182-21
 msgid "/koreader/settings/directory_defaults.lua"
-msgstr ""
+msgstr "/koreader/settings/directory_defaults.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.p:3186-5
 msgid ""
@@ -8028,11 +8117,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3309-9
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
-msgstr ""
+msgstr "<b>كتاب خيالي</b> - اسم الملف<b>fb2.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3310-9
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
 msgstr ""
+"<b>HTML (لغة ترميز النص التشعبي)</b> - yourfilename.htm.zip / "
+"yourfilename.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3311-9
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
@@ -8040,7 +8131,7 @@ msgstr "<b>ملفات سجلات النص</b> - yourfilename.<b>log.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3312-9
 msgid "<b>Markdown</b> - yourfilename.<b>md.zip</b>"
-msgstr ""
+msgstr "<b>Markdown (لغة التنسيق Markdown)</b> - yourfilename.<b>md.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3313-9
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
@@ -8417,12 +8508,22 @@ msgid ""
 "<b>science fiction</b> books are in a single folder, you can create a "
 "collection named <b>Science fiction</b> and add this folder at once."
 msgstr ""
+"تتيح لك هذه الطريقة إضافة كتب فردية أو متعددة إلى <span class=\"ui\">"
+"مجموعاتك</span> (Collections). ويكمن الاختلاف الأكبر عن طريقة <span "
+"class=\"ui\">متصفح الملفات</span> (File browser) في إمكانية إضافة <b>مجلدات "
+"كاملة وما بداخلها من مجلدات فرعية</b> إلى مجموعاتك دفعة واحدة. وتعد هذه "
+"الميزة مفيدة للغاية إذا كانت كتبك منظمة بالفعل داخل مجلدات؛ فعلى سبيل المثال"
+"، إذا كانت جميع كتبك من نوع <b>الخيال العلمي</b> موجودة في مجلد واحد، يمكنك "
+"إنشاء مجموعة تحمل اسم <b>الخيال العلمي</b> وإضافة ذلك المجلد إليها مباشرةً."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3425-2
 msgid ""
 "In the image above, <b>Box 1</b> shows the book adding options. You can "
 "reach this menu from the collections screen's hamburger menu:"
 msgstr ""
+"في الصورة أعلاه، يوضح <b>المربع 1</b> خيارات إضافة الكتب. يمكنك الوصول إلى "
+"هذه القائمة من خلال القائمة الجانبية (أيقونة الخطوط الأفقية الثلاثة) في شاشة "
+"المجموعات:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3427-2
 msgid ""
@@ -8441,6 +8542,13 @@ msgid ""
 "<b>Fiction</b> folder and you have folders named <b>Science Fiction</b> and "
 "<b>War Fiction</b> under it, they won't be added with this option."
 msgstr ""
+"<span class=\"ui\">إضافة جميع الكتب من مجلد:</span> كما يشير الاسم، يتيح لك "
+"هذا الخيار تحديد مجلد لإضافة كافة الكتب الموجودة بداخله إلى هذه المجموعة. "
+"يرجى ملاحظة أن هذا الخيار <b>لا يضيف الكتب الموجودة في المجلدات الفرعية</b> "
+"التابعة للمجلد المختار؛ فعلى سبيل المثال، إذا قمت باختيار مجلد <b>الروايات "
+"الخيالية (Fiction)</b>، وكان بداخله مجلدات فرعية تحمل أسماء مثل <b>الخيال "
+"العلمي (Science Fiction)</b> أو <b>روايات الحروب (War Fiction)</b>، فلن تتم "
+"إضافة الكتب الموجودة في تلك المجلدات الفرعية باستخدام هذا الخيار."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3431-3
 msgid ""
@@ -8450,6 +8558,11 @@ msgid ""
 "while adding the books. So if you have many levels of nested folders, there "
 "might be too many books than you thought."
 msgstr ""
+"<span class=\"ui\">إضافة جميع الكتب من مجلدٍ ما ومجلداته الفرعية:</span> يتيح "
+"لك هذا الخيار <b>إضافة كافة المجلدات الفرعية</b> الموجودة داخل المجلد الذي "
+"اخترته. توخَّ الحذر عند استخدام هذا الخيار؛ فهو يتوغل في جميع المستويات "
+"المتداخلة للمجلدات أثناء إضافة الكتب. لذا، إذا كان لديك العديد من المجلدات "
+"المتداخلة، فقد تجد أن عدد الكتب المضافة أكبر بكثير مما كنت تتوقع."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3432-3
 msgid ""
@@ -8521,6 +8634,13 @@ msgid ""
 "can also use <span class=\"external\">Calibre</span> for this task, a third-"
 "party application which makes managing your book metadata much easier."
 msgstr ""
+"يمكنك تحديث البيانات الوصفية للكتاب عن طريق الضغط المطول على الكتاب في <span "
+"class=\"ui\">متصفح الملفات</span> (File browser) واختيار <span class=\"ui\">"
+"معلومات الكتاب</span> (Book information) من القائمة. وفي النافذة المنبثقة، "
+"يمكنك الضغط مطولاً على أي حقل لتعديل البيانات الوصفية، مثل <span class=\"ui\">"
+"المؤلف</span> (author) أو <span class=\"ui\">الكلمات المفتاحية</span> "
+"(keywords). كما يمكنك الاستعانة ببرنامج <span class=\"external\">Calibre</"
+"span> -وهو تطبيق خارجي- لتسهيل عملية إدارة البيانات الوصفية لكتبك بشكل كبير."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3449-9
 msgid ""
@@ -8548,6 +8668,9 @@ msgid ""
 "for a phrase <b>in the book titles and metadata</b> or you can also search "
 "<b>inside the book texts</b>. You can open the search dialog from:"
 msgstr ""
+"هناك نوعان من البحث يمكنك إجراؤهما ضمن المجموعات: يمكنك البحث عن عبارة <b>في "
+"عناوين الكتب والبيانات الوصفية</b>، أو يمكنك أيضاً البحث <b>داخل نصوص الكتب</"
+"b>. يمكنك فتح نافذة البحث من خلال:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:3457-9
 msgid ""
@@ -8575,6 +8698,9 @@ msgid ""
 "class=\"ui\">collections</span> from the <span class=\"ui\">file browser</"
 "span>. It is <b>not available</b> from the reading screen."
 msgstr ""
+"لا يتوفر هذا النوع من البحث إلا إذا قمت بفتح <span class=\"ui\">المجموعات</"
+"span> (collections) من خلال <span class=\"ui\">متصفح الملفات</span> (file "
+"browser). وهو <b>غير متاح</b> من شاشة القراءة."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3463-13
 msgid ""
@@ -8619,6 +8745,12 @@ msgid ""
 "itself when you add a new file to this folder, you can do it with <span "
 "class=\"ui\">connected folders</span> feature of the collections."
 msgstr ""
+"بعد إنشاء مجموعاتك وإضافة الكتب إليها، قد ترغب في إبقائها متزامنة مع بعض "
+"المجلدات. على سبيل المثال، لنفترض أنك أنشأت مجموعة <b>الخيال العلمي (Science "
+"Fiction)</b>، ولديك أيضًا مجلد باسم <b>SF</b> في مكتبتك تضع فيه كتب الخيال "
+"العلمي. إذا أردت أن تُحدّث <span class=\"ui\">مجموعة الخيال العلمي</span> "
+"محتوياتها تلقائيًا عند إضافة ملف جديد إلى هذا المجلد، فيمكنك تحقيق ذلك "
+"باستخدام ميزة <span class=\"ui\">المجلدات المرتبطة</span> في المجموعات."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3476-5
 msgid ""
@@ -8663,7 +8795,7 @@ msgctxt "user_guide/en.html+html.body.div.ol.li:3492-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
+msgstr "اضغط مطولاً على اسم المجموعة التي تود ربط المجلدات بها <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3493-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3493-9"
@@ -8729,7 +8861,7 @@ msgctxt "user_guide/en.html+html.body.div.ol.li:3509-9"
 msgid ""
 "Long-press on the collection name which you want to connect folders <b>(1)</"
 "b>."
-msgstr ""
+msgstr "اضغط مطولاً على اسم المجموعة التي تود ربط المجلدات بها <b>(1)</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:3510-9
 msgctxt "user_guide/en.html+html.body.div.ol.li:3510-9"
@@ -8934,6 +9066,10 @@ msgid ""
 "<b>single .html file</b> with all the resources (images, stylesheets, "
 "scripts) embedded."
 msgstr ""
+"<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</"
+"a> هو إضافة للمتصفحات <b>Mozilla Firefox وGoogle Chrome وMicrosoft Edge</b>. "
+"تتيح لك هذه الإضافة حفظ صفحة ويب في <b>ملف HTML واحد</b> يتضمن جميع الموارد "
+"المضمّنة فيها، مثل الصور وأوراق الأنماط والبرامج النصية."
 
 #: user_guide/en.html%2Bhtml.body.div.div:3561-1
 msgid "Book metadata storage options"
@@ -9020,6 +9156,11 @@ msgid ""
 "contains the files for your settings, annotations and book progress for this "
 "book."
 msgstr ""
+"هذه هي الطريقة <b>الافتراضية</b> المستخدمة عند تثبيت KOReader لأول مرة. وفقًا "
+"لهذه الطريقة، عندما تنسخ الملف <b>Alice in Wonderland.epub</b> إلى جهازك "
+"وتفتحه للمرة الأولى، سيتم إنشاء مجلد باسم <span class=\"ui\">Alice in "
+"Wonderland.sdr</span> في المجلد نفسه. يحتوي هذا المجلد على ملفات الإعدادات "
+"والتعليقات التوضيحية وموضع القراءة الحالي الخاص بهذا الكتاب."
 
 #: user_guide/en.html%2Bhtml.body.div.p:3589-2
 msgctxt "user_guide/en.html+html.body.div.p:3589-2"
@@ -9036,6 +9177,8 @@ msgid ""
 "<b>Syncthing</b> or <b>Dropbox</b>, your settings will be synchronized "
 "alongside your books."
 msgstr ""
+"عند إجراء مزامنة للمجلدات أو نسخ احتياطي باستخدام نظام مثل <b>Syncthing</b> "
+"أو <b>Dropbox</b>، ستتم مزامنة إعداداتك إلى جانب كتبك."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:3593-4
 msgid ""
@@ -11124,6 +11267,15 @@ msgid ""
 "while using the <b>Easy method</b>, you have to re-create your menu under "
 "the new gesture."
 msgstr ""
+"هناك طريقتان لإنشاء <span class=\"ui\">قائمة سريعة (Quick Menu)</span>: "
+"الطريقة <b>البسيطة (Easy)</b> والطريقة <b>المتقدمة (Advanced)</b>. إذا كنت "
+"تحتاج إلى قائمة واحدة فقط، فستكون الطريقة <b>البسيطة</b> كافية. أما إذا كنت "
+"ترغب في عرض قوائم مختلفة باستخدام إيماءات مختلفة، فيجب عليك استخدام الطريقة "
+"<b>المتقدمة</b>. ومن مزايا الطريقة <b>المتقدمة</b> أيضاً أنها تتيح إعادة "
+"تعيين الإيماءات بسهولة؛ فإذا أردت تغيير الإيماءة المخصصة لقائمتك، يمكنك نقلها "
+"ببساطة إلى إيماءة أخرى من خلال قائمة الخيارات في الطريقة <b>المتقدمة</b>. في "
+"المقابل، إذا كنت تستخدم الطريقة <b>البسيطة</b> وأردت تغيير الإيماءة، فسيتعين "
+"عليك إعادة إنشاء القائمة من جديد وتخصيصها للإيماءة المطلوبة."
 
 #: user_guide/en.html%2Bhtml.body.div.div:4356-9
 msgid "Easy method"
@@ -11871,7 +12023,7 @@ msgid ""
 "As a profile (which is explained as the <span class=\"ui\">Advanced Method</"
 "span> and stored in <span class=\"ui\">settings/profiles.lua</span>)"
 msgstr ""
-"كـملف تعريف (والذي يتم شرحه كـ <span class=\"ui\">الطريقة المتقدمة</span> "
+"كملف تعريف (والذي يتم شرحه كـ <span class=\"ui\">الطريقة المتقدمة</span> "
 "ويتم تخزينه في <span class=\"ui\">settings/profiles.lua</span>)"
 
 #: user_guide/en.html%2Bhtml.body.div.ol.li:4573-13
@@ -11958,7 +12110,7 @@ msgstr "يمكن الوصول إليها مباشرة من قائمة إضافا
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4603-13
 msgid "They <b>don’t need</b> installation. You can enable them from the menu."
-msgstr ""
+msgstr "هي <b>لا تحتاج</b> إلى تثبيت. يمكنك تفعيلها من القائمة."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4604-13
 msgid "They are checked by our developers so they are <b>considered safe</b>."
@@ -11966,7 +12118,7 @@ msgstr "يتم فحصها من قبل مطورينا لذا فهي <b>تعتبر
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4605-13
 msgid "They are <b>automatically updated</b> when you update KOReader."
-msgstr ""
+msgstr "يتم تحديثها <b>تلقائيًا</b> عند تحديث KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4608-9
 msgid "You can enable/disable them via:"
@@ -12062,6 +12214,8 @@ msgid ""
 "They are <b>NOT</b> checked by our developers so be aware that there might "
 "be risks using them."
 msgstr ""
+"<b>لم يتم</b> فحصها من قِبل مطورينا، لذا يرجى العلم بأنه قد تكون هناك مخاطر "
+"عند استخدامها."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4642-9
 msgid ""
@@ -12120,6 +12274,12 @@ msgid ""
 "work on other devices according to the author). This makes it possible to "
 "sync files between your e-reader and computer/phone automatically."
 msgstr ""
+"<a href=\"https://github.com/jasonchoimtt/koreader-syncthing\">إضافة "
+"Syncthing:</a> تتيح لك هذه الإضافة تشغيل برنامج <b>Syncthing</b> —المخصص "
+"لمزامنة الملفات بنظام الند للند (peer-to-peer)— على تطبيق KOReader (جرت "
+"تجربتها على أجهزة Kobo فقط، لكن وفقاً للمطور، قد تعمل أيضاً على أجهزة أخرى). "
+"تُمكّنك هذه الإضافة من مزامنة الملفات تلقائياً بين جهاز القراءة الإلكتروني الخاص "
+"بك وحاسوبك أو هاتفك."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4655-9
 msgid ""
@@ -12173,7 +12333,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.p:4665-9
 msgid ""
 "<b> Autoturn </b> - Automatically turns the page after a set period of time"
-msgstr ""
+msgstr "<b> تشغيل تلقائي </b> - تقليب الصفحة تلقائيًا بعد فترة زمنية محددة"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4666-9
 msgid ""
@@ -12580,7 +12740,7 @@ msgstr "<b>8</b> - يتم تنفيذه قبل الخروج وقبل حفظ ال�
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4749-13
 msgid "<b>9</b> - Executed right before exit"
-msgstr ""
+msgstr "<b>9</b> - يتم تنفيذه مباشرةً قبل الخروج"
 
 #: user_guide/en.html%2Bhtml.body.div.p:4752-9
 msgid ""
@@ -12614,6 +12774,13 @@ msgid ""
 "<b>Alt+Tab</b> feature on the desktop computers. You can find this feature "
 "under:"
 msgstr ""
+"إذا كنت بحاجة إلى التبديل بين مستندين (عند المقارنة بينهما، مثلًا)، فهناك "
+"طريقة أسرع من التنقّل عبر <span class=\"ui\">متصفح الملفات</span>. يستطيع "
+"KOReader فتح المستند السابق باستخدام إيماءة (<b><span style=\"font-family: "
+"microns;\"></span> تمرير متعدد (multiswipe)</b>). إذا عيّنت الإجراء <span "
+"class=\"ui\">فتح المستند السابق</span> لإحدى الإيماءات، فستتمكن من التبديل "
+"بسرعة بين مستندين، بطريقة مشابهة لميزة <b>Alt+Tab</b> على أجهزة الكمبيوتر "
+"المكتبية. يمكنك العثور على هذه الميزة ضمن:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:4765-1
 msgid ""
@@ -13052,6 +13219,11 @@ msgid ""
 "released on <b>November 2024</b>. This is generally a <b>monthly</b> "
 "release, but sometimes can take longer."
 msgstr ""
+"<span class=\"label_green\">مستقر</span> هذا هو الإصدار الرئيسي الذي يمكنك "
+"العثور عليه في صفحة <b>الإصدارات (Releases)</b> على GitHub الخاص بالمشروع. "
+"يُسمّى بهذا الشكل: <b>«KOReader 2024.11»</b>، ما يعني أن هذا الإصدار تحديدًا صدر "
+"في <b>نوفمبر 2024</b>. تصدر هذه الإصدارات عادةً بشكل <b>شهري</b>، ولكن قد "
+"يستغرق إصدار بعضها وقتًا أطول."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4891-9
 msgid ""
@@ -13060,6 +13232,10 @@ msgid ""
 "continuously added. Nightly releases are intended for a narrow group of "
 "testers and developers, so they might be less stable."
 msgstr ""
+"<span class=\"label_red\">ليلي (NIGHTLY)</span> هذه الإصدارات هي نسخ من "
+"KOReader تُبنى <b>يوميًا</b>، مع إضافة التحسينات والإصلاحات إليها باستمرار. وهي "
+"موجّهة أساسًا إلى فئة محدودة من المختبِرين والمطوّرين، لذا قد تكون أقل استقرارًا "
+"من الإصدارات المستقرة."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4894-5
 msgid ""
@@ -13067,6 +13243,9 @@ msgid ""
 "should use. But in some specific cases you might need to use a <b>nightly</"
 "b> version:"
 msgstr ""
+"عادةً، إذا كنت مستخدماً عادياً، فإن الإصدار <b>المستقر</b> (stable) هو ما ينبغي "
+"عليك استخدامه. ولكن في بعض الحالات المحددة، قد تحتاج إلى استخدام إصدار <b>"
+"تجريبي يومي</b> (nightly):"
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4896-9
 msgid ""
@@ -13082,6 +13261,8 @@ msgid ""
 "not released yet. And you don't want to wait for the <b>stable</b> version "
 "to have this fix."
 msgstr ""
+"هناك خلل أو مشكلة خاصة بجهازك، وقد تم إصلاحها بالفعل، لكن الإصلاح لم يُطرح بعد. "
+"وأنت لا ترغب في انتظار الإصدار <b>المستقر</b> (stable) للحصول على هذا الإصلاح."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li:4898-9
 msgid ""
@@ -13091,6 +13272,10 @@ msgid ""
 "previous <b>stable</b> release but <b>nightly</b> would be newer so might "
 "have more features and fixes."
 msgstr ""
+"بعد تحديث KOReader، قد تلاحظ اختفاء إحدى الميزات التي كنت تستخدمها. إذا كنت لا "
+"تريد الاستغناء عنها، فيمكنك تثبيت إصدار ليلي (Nightly) لا تزال هذه الميزة "
+"متوفرة فيه. وبالطبع، يمكنك أيضًا الرجوع إلى إصدار <b>مستقر (Stable)</b> سابق، "
+"لكن الإصدار الليلي سيكون أحدث، وقد يتضمن المزيد من الميزات والإصلاحات."
 
 #: user_guide/en.html%2Bhtml.body.div.p:4901-5
 msgid ""
@@ -13150,23 +13335,23 @@ msgstr "الملفات:"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4920-17
 msgid "data/cr3.ini"
-msgstr ""
+msgstr "data/cr3.ini"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4921-17
 msgid "defaults.persistent.lua"
-msgstr ""
+msgstr "defaults.persistent.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4922-17
 msgid "history.lua"
-msgstr ""
+msgstr "history.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4923-17
 msgid "settings.reader.lua"
-msgstr ""
+msgstr "settings.reader.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4924-17
 msgid "settings/profiles.lua"
-msgstr ""
+msgstr "settings/profiles.lua"
 
 #: user_guide/en.html%2Bhtml.body.div.div.div.ul.li:4925-17
 msgid ""
@@ -13281,6 +13466,11 @@ msgid ""
 "seconds per page turn) than <span class=\"ui\">DEFAULT</span> depending on "
 "your document."
 msgstr ""
+"إذا ضبطت <span class=\"ui\">جودة العرض (RENDER QUALITY)</span> على <span "
+"class=\"ui\">عالية (HIGH)</span> أثناء تفعيل <b>إعادة تدفّق النص (REFLOW)</b>"
+"، فسيصبح النص أكثر وضوحًا وجمالًا، لكن عرض الصفحات قد يصبح أبطأ بكثير مقارنةً "
+"بخيار <span class=\"ui\">افتراضي (DEFAULT)</span>، وقد يستغرق الانتقال إلى "
+"الصفحة التالية عدة ثوانٍ، وذلك بحسب المستند الذي تقرؤه."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.div:4953-13
 msgid ""
@@ -13495,12 +13685,16 @@ msgid ""
 "You can download the <b>command line version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck\">here</a>."
 msgstr ""
+"يمكنك تنزيل <b>إصدار سطر الأوامر (Command Line)</b> من <a href=\"https://"
+"github.com/w3c/epubcheck\">هنا</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.ul.li.p:5009-9
 msgid ""
 "Or download a <b>graphical user interface version</b> from <a href=\"https://"
 "github.com/w3c/epubcheck/wiki/GUI\">here</a>."
 msgstr ""
+"أو يمكنك تنزيل <b>إصدار بواجهة مستخدم رسومية (GUI)</b> من <a href=\"https://"
+"github.com/w3c/epubcheck/wiki/GUI\">هنا</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.p:5013-5
 msgid "Opening an issue:"
@@ -13841,6 +14035,8 @@ msgid ""
 "If you are reporting a bug, <b>verbose debug logs</b> are very helpful to "
 "determine the problem. You can enable them via:"
 msgstr ""
+"إذا كنت بصدد الإبلاغ عن خطأ، فإن **سجلات التصحيح التفصيلية** (Verbose Debug "
+"Logs) تساعد كثيرًا في تحديد المشكلة. يمكنك تفعيلها من خلال المسار التالي:"
 
 #: user_guide/en.html%2Bhtml.body.div.div:5128-9
 msgid ""
@@ -13865,6 +14061,9 @@ msgid ""
 "can write to the <a href=\"https://github.com/koreader/koreader/issues/"
 "11147\">GitHub discussion thread</a>"
 msgstr ""
+"إذا كانت لديك أي اقتراحات أو أسئلة تتعلق بـ <b>دليل المستخدم</b> هذا، فيمكنك "
+"نشرها في <a href=\"https://github.com/koreader/koreader/issues/11147\">نقاش "
+"المشروع على GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.div:5136-1
 msgid "You can also . . ."
