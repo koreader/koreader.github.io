@@ -7,8 +7,7 @@ Removes 'fuzzy' when either:
     (":<start>-<len>") and EACH corresponding <start> delta is within
     --line-shift-threshold, or
   - the previous and current msgid are equivalent after normalizing HTML
-    markup, HTML entities, leading section numbers, case, punctuation and
-    hyphenation/whitespace.
+    markup, HTML entities and whitespace.
 
 Usage examples:
     python unfuzzy_msgctxt.py i18n/po/nl.po --line-shift-threshold 8 --dry-run -v
@@ -38,16 +37,11 @@ def safe_print(*a, **kw):
 
 _LINE_OFFSET_RE = re.compile(r':(\d+)-(\d+)')
 _HTML_TAG_RE = re.compile(r'<[^>]*>')
-_SECTION_NUMBER_RE = re.compile(r'^\s*\d+(?:\.\d+)*[\s\u00a0]+')
 
 def _normalize_source(text: str) -> str:
-    """Normalize a msgid so changes that do not affect the wording are ignored."""
+    """Normalize a msgid so changes that do not affect the text are ignored."""
     text = html.unescape(text)
     text = _HTML_TAG_RE.sub('', text)
-    text = _SECTION_NUMBER_RE.sub('', text)
-    text = text.casefold()
-    text = re.sub(r'[-–—/]', ' ', text)
-    text = re.sub(r'[^\w\s]', '', text)
     return re.sub(r'\s+', ' ', text).strip()
 
 def _normalize_context(ctx: str) -> str:
@@ -293,18 +287,25 @@ def process_file(infile, outfile, dry_run, verbose, keep_backup, line_shift_thre
                 considered += 1
                 line_shift_passed, reason_code = evaluate_line_shift(prev_ctx, cur_ctx, line_shift_threshold)
 
+            normalized_prev = _normalize_source(prev_msgid) if prev_msgid is not None else None
+            normalized_cur = _normalize_source(cur_msgid) if cur_msgid is not None else None
             source_unchanged = (
-                prev_msgid is not None
-                and cur_msgid is not None
+                normalized_prev is not None
+                and normalized_cur is not None
                 and bool(msgstr)
-                and _normalize_source(prev_msgid) == _normalize_source(cur_msgid)
+                and normalized_prev == normalized_cur
+            )
+            source_changed = (
+                normalized_prev is not None
+                and normalized_cur is not None
+                and normalized_prev != normalized_cur
             )
             if source_unchanged:
                 if not (prev_ctx and cur_ctx):
                     considered += 1
                 reason_code = 'source_unchanged'
 
-            if line_shift_passed or source_unchanged:
+            if (line_shift_passed and not source_changed) or source_unchanged:
                 original_flag_line = out_lines[block_start]
                 new_flag_line = _strip_fuzzy_flag_line(original_flag_line)
                 out_lines[block_start] = new_flag_line
