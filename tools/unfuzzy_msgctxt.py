@@ -1,18 +1,26 @@
 #!/usr/bin/env python3
 """
-Unfuzzy PO entries whose msgctxt only changed by a small numeric line offset shift.
+Unfuzzy PO entries whose source text did not actually need retranslation.
 
-Removes 'fuzzy' flag when  previous and current msgctxt differ only by numeric line offsets (":<start>-<len>") and EACH corresponding <start> delta <= --line-shift-threshold.
+Removes 'fuzzy' when either:
+  - previous and current msgctxt differ only by numeric line offsets
+    (":<start>-<len>") and EACH corresponding <start> delta is within
+    --line-shift-threshold, or
+  - the previous and current msgid are equivalent after normalizing HTML
+    markup, HTML entities, leading section numbers, case, punctuation and
+    hyphenation/whitespace.
 
 Usage examples:
     python unfuzzy_msgctxt.py i18n/po/nl.po --line-shift-threshold 8 --dry-run -v
-    python unfuzzy_msgctxt.py i18n/po/nl.po --line-shift-threshold 10 -v
+    python unfuzzy_msgctxt.py i18n/po/nl.po --dry-run -v
+    python unfuzzy_msgctxt.py i18n/po/nl.po -v
 
 Exit codes:
     0 success
     1 file not found / parse error
 """
 import argparse
+import html
 import os
 import re
 import sys
@@ -29,6 +37,18 @@ def safe_print(*a, **kw):
             raise SystemExit(0)
 
 _LINE_OFFSET_RE = re.compile(r':(\d+)-(\d+)')
+_HTML_TAG_RE = re.compile(r'<[^>]*>')
+_SECTION_NUMBER_RE = re.compile(r'^\s*\d+(?:\.\d+)*[\s\u00a0]+')
+
+def _normalize_source(text: str) -> str:
+    """Normalize a msgid so changes that do not affect the wording are ignored."""
+    text = html.unescape(text)
+    text = _HTML_TAG_RE.sub('', text)
+    text = _SECTION_NUMBER_RE.sub('', text)
+    text = text.casefold()
+    text = re.sub(r'[-–—/]', ' ', text)
+    text = re.sub(r'[^\w\s]', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 def _normalize_context(ctx: str) -> str:
     """Normalize a msgctxt that may have been accidentally duplicated by concatenation.
@@ -176,6 +196,72 @@ def _collect_cur_ctx(block_lines):
                 break
     return ''.join(parts) if parts else None
 
+def _collect_prev_msgid(block_lines):
+    """Collect previous msgid from a block (multiline #| msgid)."""
+    prev_parts = []
+    collecting = False
+    pat_header = re.compile(r'^#\|\s*msgid\s+"(.*)"')
+    pat_cont = re.compile(r'^#\| "(.*)"')
+    for line in block_lines:
+        if not collecting and line.startswith('#| msgid'):
+            collecting = True
+            m = pat_header.match(line)
+            if m:
+                prev_parts.append(m.group(1))
+            continue
+        if collecting:
+            if line.startswith('#| "'):
+                m2 = pat_cont.match(line)
+                if m2:
+                    prev_parts.append(m2.group(1))
+            else:
+                break
+    return ''.join(prev_parts) if prev_parts else None
+
+def _collect_cur_msgid(block_lines):
+    """Collect current msgid (may span multiple literal lines)."""
+    pat_header = re.compile(r'^msgid\s+"(.*)"')
+    pat_cont = re.compile(r'^"(.*)"')
+    collecting = False
+    parts = []
+    for line in block_lines:
+        if not collecting and line.startswith('msgid '):
+            m = pat_header.match(line)
+            if m:
+                parts.append(m.group(1))
+            collecting = True
+            continue
+        if collecting:
+            if line.startswith('"'):
+                m2 = pat_cont.match(line)
+                if m2:
+                    parts.append(m2.group(1))
+            else:
+                break
+    return ''.join(parts) if parts else None
+
+def _collect_msgstr(block_lines):
+    """Collect current msgstr (may span multiple literal lines)."""
+    pat_header = re.compile(r'^msgstr\s+"(.*)"')
+    pat_cont = re.compile(r'^"(.*)"')
+    collecting = False
+    parts = []
+    for line in block_lines:
+        if not collecting and line.startswith('msgstr '):
+            m = pat_header.match(line)
+            if m:
+                parts.append(m.group(1))
+            collecting = True
+            continue
+        if collecting:
+            if line.startswith('"'):
+                m2 = pat_cont.match(line)
+                if m2:
+                    parts.append(m2.group(1))
+            else:
+                break
+    return ''.join(parts) if parts else None
+
 def process_file(infile, outfile, dry_run, verbose, keep_backup, line_shift_threshold):
     with open(infile, 'r', encoding='utf-8') as fh:
         lines = fh.readlines()
@@ -197,25 +283,43 @@ def process_file(infile, outfile, dry_run, verbose, keep_backup, line_shift_thre
 
             prev_ctx = _collect_prev_ctx(block)
             cur_ctx = _collect_cur_ctx(block)
+            prev_msgid = _collect_prev_msgid(block)
+            cur_msgid = _collect_cur_msgid(block)
+            msgstr = _collect_msgstr(block)
+
+            line_shift_passed = False
+            reason_code = None
             if prev_ctx and cur_ctx:
                 considered += 1
-                passed, reason_code = evaluate_line_shift(prev_ctx, cur_ctx, line_shift_threshold)
-                if passed:
-                    original_flag_line = out_lines[block_start]
-                    new_flag_line = _strip_fuzzy_flag_line(original_flag_line)
-                    out_lines[block_start] = new_flag_line
-                    modified += 1
-                    if verbose:
-                        safe_print(f'[UNFUZZ] line-shift msgctxt={cur_ctx[:80]}{"..." if len(cur_ctx)>80 else ""}')
-                else:
-                    if verbose:
-                        safe_print(f'[KEEP FUZZY] reason={reason_code} msgctxt={cur_ctx[:80]}{"..." if len(cur_ctx)>80 else ""}')
+                line_shift_passed, reason_code = evaluate_line_shift(prev_ctx, cur_ctx, line_shift_threshold)
+
+            source_unchanged = (
+                prev_msgid is not None
+                and cur_msgid is not None
+                and bool(msgstr)
+                and _normalize_source(prev_msgid) == _normalize_source(cur_msgid)
+            )
+            if source_unchanged:
+                if not (prev_ctx and cur_ctx):
+                    considered += 1
+                reason_code = 'source_unchanged'
+
+            if line_shift_passed or source_unchanged:
+                original_flag_line = out_lines[block_start]
+                new_flag_line = _strip_fuzzy_flag_line(original_flag_line)
+                out_lines[block_start] = new_flag_line
+                modified += 1
+                if verbose:
+                    identifier = cur_msgid if cur_msgid is not None else cur_ctx
+                    safe_print(f'[UNFUZZ] reason={reason_code} {identifier[:80]}{"..." if len(identifier)>80 else ""}')
+            elif verbose and prev_ctx and cur_ctx:
+                safe_print(f'[KEEP FUZZY] reason={reason_code} msgctxt={cur_ctx[:80]}{"..." if len(cur_ctx)>80 else ""}')
             i = block_end
         else:
             i += 1
 
     if dry_run:
-        safe_print(f'Dry run: {modified} / {considered} fuzzy contextual entries would be unfuzzed.')
+        safe_print(f'Dry run: {modified} / {considered} fuzzy entries would be unfuzzed.')
         return 0
 
     target = outfile or infile
@@ -245,11 +349,11 @@ def process_file(infile, outfile, dry_run, verbose, keep_backup, line_shift_thre
     except OSError as e:
         print(f'Error writing output {target}: {e}', file=sys.stderr)
         return 1
-    safe_print(f'Unfuzzed {modified} / {considered} fuzzy contextual entries. Written to {target}')
+    safe_print(f'Unfuzzed {modified} / {considered} fuzzy entries. Written to {target}')
     return 0
 
 def parse_args():
-    ap = argparse.ArgumentParser(description="Unfuzzy entries whose msgctxt only changed by small numeric line offset shifts.")
+    ap = argparse.ArgumentParser(description="Unfuzzy entries whose source text did not need retranslation.")
     ap.add_argument("po_file", help="Input .po file")
     ap.add_argument("-o", "--output", help="Output file (default: overwrite input)")
     ap.add_argument("--line-shift-threshold", type=int, default=20, help="Maximum allowed line offset delta per pair (default: 20; set 0 to disable).")
