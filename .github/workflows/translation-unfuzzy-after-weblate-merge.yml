@@ -43,17 +43,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run unfuzzy script
+      - name: Run PO fixup scripts
         run: |
             for f in i18n/po/*.po; do
               echo "Processing $f"
               python3 tools/unfuzzy_msgctxt.py "$f"
+              python3 tools/add_section_numbers.py "$f"
             done
             if git diff --quiet -- i18n/po; then
-              echo "No unfuzzy changes needed."
+              echo "No PO changes needed."
               echo "UNFUZZY_CHANGED=0" >> $GITHUB_ENV
             else
-              echo "Unfuzzy changes detected:"
+              echo "PO changes detected:"
               git --no-pager diff --name-only i18n/po
               echo "UNFUZZY_CHANGED=1" >> $GITHUB_ENV
             fi
@@ -64,5 +65,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
           git add i18n/po/*.po
-          git commit -m "CI: unfuzzy after Weblate translation update"
+          git commit -m "CI: fix PO entries after Weblate translation update"
           git push
