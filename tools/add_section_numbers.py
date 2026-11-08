@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Add leading section numbers to duplicate TOC/heading msgstr values.
+Add leading section numbers to numbered msgstr values.
 
-An entry is considered a TOC/heading duplicate when the same numbered msgid
-appears more than once in a PO file. For every such entry whose msgstr does
+For every entry whose msgid starts with a section number and whose msgstr does
 not already start with a number, the section number is prepended to msgstr.
-Fuzzy flags and all other entry data are left untouched, so fuzzy entries stay
-fuzzy and already-clean entries stay clean.
+This covers TOC/heading duplicates as well as numbered headings that appear
+only once. Fuzzy flags and all other entry data are left untouched, so fuzzy
+entries stay fuzzy and already-clean entries stay clean.
 
 Usage examples:
     python add_section_numbers.py i18n/po/nl.po --dry-run -v
@@ -124,33 +124,26 @@ def process_file(infile, outfile, dry_run, verbose):
             'fuzzy': _is_fuzzy(block),
         })
 
-    groups = {}
-    for entry in blocks:
-        groups.setdefault(entry['msgid'], []).append(entry)
-
     out_lines = lines[:]
     modified = 0
-    for msgid, entries in groups.items():
-        if len(entries) < 2:
+    for entry in blocks:
+        if _already_numbered(entry['msgstr']):
             continue
-        for entry in entries:
-            if _already_numbered(entry['msgstr']):
-                continue
-            block = entry['block']
-            offset = _msgstr_line_index(block)
-            if offset is None:
-                continue
-            line_index = entry['start'] + offset
-            original = out_lines[line_index]
-            prefix, quoted = original.split('msgstr ', 1)
-            out_lines[line_index] = prefix + 'msgstr "' + entry['number'] + ' ' + quoted[len('"'):]
-            modified += 1
-            if verbose:
-                state = 'fuzzy' if entry['fuzzy'] else 'clean'
-                safe_print(f'[NUMBER] {entry["number"]} ({state}) {msgid[:90]}')
+        block = entry['block']
+        offset = _msgstr_line_index(block)
+        if offset is None:
+            continue
+        line_index = entry['start'] + offset
+        original = out_lines[line_index]
+        prefix, quoted = original.split('msgstr ', 1)
+        out_lines[line_index] = prefix + 'msgstr "' + entry['number'] + ' ' + quoted[len('"'):]
+        modified += 1
+        if verbose:
+            state = 'fuzzy' if entry['fuzzy'] else 'clean'
+            safe_print(f'[NUMBER] {entry["number"]} ({state}) {entry["msgid"][:90]}')
 
     if dry_run:
-        safe_print(f'Dry run: {modified} duplicate entries would get section numbers.')
+        safe_print(f'Dry run: {modified} entries would get section numbers.')
         return 0
 
     target = outfile or infile
@@ -160,11 +153,11 @@ def process_file(infile, outfile, dry_run, verbose):
     except OSError as e:
         print(f'Error writing output {target}: {e}', file=sys.stderr)
         return 1
-    safe_print(f'Updated {modified} duplicate entries. Written to {target}')
+    safe_print(f'Updated {modified} entries. Written to {target}')
     return 0
 
 def parse_args():
-    ap = argparse.ArgumentParser(description="Add section numbers to duplicate TOC/heading translations.")
+    ap = argparse.ArgumentParser(description="Add section numbers to numbered translations.")
     ap.add_argument("po_file", help="Input .po file")
     ap.add_argument("-o", "--output", help="Output file (default: overwrite input)")
     ap.add_argument("--dry-run", action="store_true", help="Do not modify; just report")
