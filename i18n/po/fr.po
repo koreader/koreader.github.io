@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 08:51+0000\n"
-"PO-Revision-Date: 2026-11-08 21:11+0000\n"
-"Last-Translator: Automatic translation add-on <noreply-addon-"
-"autotranslate@weblate.org>\n"
+"PO-Revision-Date: 2026-11-09 10:09+0000\n"
+"Last-Translator: Jean Pierre <jpiebrig@users.noreply.hosted.weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/koreader/user-"
 "guide/fr/>\n"
 "Language: fr\n"
@@ -25,7 +24,7 @@ msgstr "Manuel d'utilisation de KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.button:996-5
 msgid "✕"
-msgstr ""
+msgstr "✕"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li:1000-6
 msgid "1 WHAT CAN YOU DO WITH KOREADER ?"
@@ -39,7 +38,7 @@ msgstr "2 INFORMATIONS D'UTILISATION DE BASE"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1006-7
 msgid "2.1 Transferring Documents"
-msgstr ""
+msgstr "2.1 Transfert de documents"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1007-7
 #, fuzzy
@@ -49,7 +48,7 @@ msgstr "2.2 Zones tactiles"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1008-7
 msgid "2.3 Changing Basic Settings"
-msgstr ""
+msgstr "2.3 Modification des paramètres de base"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1009-7
 #, fuzzy
@@ -93,7 +92,7 @@ msgstr "3.6 Conseils relatifs à l'interface utilisateur"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li:1025-6
 msgid "4 NAVIGATING YOUR DOCUMENT"
-msgstr ""
+msgstr "4 NAVIGATION DANS VOTRE DOCUMENT"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1027-7
 msgid "4.1 Skim Widget"
@@ -125,15 +124,15 @@ msgstr "4.6 Table des matières Outils"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1033-7
 msgid "4.7 Excluding Sections"
-msgstr ""
+msgstr "4.7 Exclusion de certaines sections"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li:1037-6
 msgid "5 FORMATTING YOUR E-BOOK"
-msgstr ""
+msgstr "5. MISE EN PAGE DE VOTRE LIVRE NUMÉRIQUE"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1039-7
 msgid "5.1 How To Save Settings"
-msgstr ""
+msgstr "5.1 Comment enregistrer les paramètres"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1040-7
 #, fuzzy
@@ -147,7 +146,7 @@ msgstr "5.3 Ajustements de style"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li:1045-6
 msgid "6 ANNOTATING DOCUMENTS"
-msgstr ""
+msgstr "6 ANNOTATION DES DOCUMENTS"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1047-7
 #, fuzzy
@@ -253,7 +252,7 @@ msgstr "9.3 Collections"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1078-7
 msgid "9.4 Optimizing Documents"
-msgstr ""
+msgstr "9.4 Optimisation des documents"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1079-7
 #, fuzzy
@@ -269,7 +268,7 @@ msgstr "9.6 Widget de survol <span class=\"microns\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1081-7
 msgid "9.7 Book Metadata Archive"
-msgstr ""
+msgstr "9.7 Archive des métadonnées des livres"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1082-7
 #, fuzzy
@@ -352,11 +351,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1114-7
 msgid "13.1 Plugins for Faster Reading"
-msgstr ""
+msgstr "13.1 Extensions pour une lecture plus rapide"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li.ul.li:1115-7
 msgid "13.2 Special Fonts"
-msgstr ""
+msgstr "13.2 Polices spéciales"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.ul.li:1119-6
 msgid "14 TIPS"
@@ -388,6 +387,13 @@ msgid ""
 "{ document.body.classList.toggle('dark'); localStorage.setItem('theme', "
 "this.checked ? 'dark' : 'light'); }); });"
 msgstr ""
+"document.addEventListener('DOMContentLoaded', function() { const "
+"themeSwitcher = document.getElementById('theme-switcher') ; const savedTheme "
+"= localStorage.getItem('theme') ; if (savedTheme === 'dark') { "
+"document.body.classList.add('dark') ; themeSwitcher.checked = true ; } "
+"themeSwitcher.addEventListener('change', function() { "
+"document.body.classList.toggle('dark') ; localStorage.setItem('theme', "
+"this.checked ? 'dark'  : 'light') ; }) ; }) ;"
 
 #: user_guide/en.html%2Bhtml.body.div.main.button:1153-5
 #, fuzzy
@@ -398,20 +404,20 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.button[title]:1165-7
 msgctxt "user_guide/en.html:prev-btn[title]"
 msgid "Browse new additions to the guide"
-msgstr ""
+msgstr "Découvrez les nouveautés du guide"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.button:1165-7
 msgid "⭐<span class=\"microns\" style=\"font-size: 1.3rem;\"></span>"
-msgstr ""
+msgstr "⭐<span class=\"microns\" style=\"font-size: 1.3rem;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.button[title]:1166-7
 msgctxt "user_guide/en.html:next-btn[title]"
 msgid "Browse new additions to the guide"
-msgstr ""
+msgstr "Découvrez les nouveautés du guide"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.button:1166-7
 msgid "⭐<span class=\"microns\" style=\"font-size: 1.3rem;\"></span>"
-msgstr ""
+msgstr "⭐<span class=\"microns\" style=\"font-size: 1.3rem;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.div:1171-7
 msgid ""
@@ -419,6 +425,9 @@ msgid ""
 "1.4rem;\">USER GUIDE</span><br><span style=\"color: #b17467; font-size: "
 "1.5rem;\">26.11</span>"
 msgstr ""
+"<span style=\"color: #65a9a2;\">KOREADER</span><br><span style=\"font-size: "
+"1.4rem;\">GUIDE D'UTILISATION</span><br><span style=\"color: #b17467; font-"
+"size: 1.5rem;\">26.11</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div:1174-6
 msgid ""
@@ -430,6 +439,14 @@ msgid ""
 "the animation property to restart the cycle dosPrompt.style.animation = "
 "'colorCycle 2s ease-in 1'; }); });"
 msgstr ""
+"document.addEventListener('DOMContentLoaded', function() { const dosPrompt = "
+"document.querySelector('.e-reader'); dosPrompt.addEventListener('click', "
+"function() { // 1. Supprimer la classe d'animation si elle existe (pour "
+"permettre de relancer l'animation) dosPrompt.style.animation = 'none'; // "
+"Forcer un rafraîchissement de la mise en page pour s'assurer que le "
+"navigateur détecte la suppression void dosPrompt.offsetWidth; // 2. "
+"Réappliquer la propriété d'animation pour relancer le cycle "
+"dosPrompt.style.animation = 'colorCycle 2s ease-in 1'; }); });"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.p:1195-6
 msgid ""
@@ -437,86 +454,89 @@ msgid ""
 "<b>KOReader User Guide</b>. We have also other languages, which are "
 "translated by volunteers:"
 msgstr ""
+"Vous consultez actuellement la version <b>Française</b> (principale) du <b>"
+"Guide de l'utilisateur de KOReader</b>. Nous proposons également d'autres "
+"langues, traduites par des bénévoles :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1199-7
 msgid "Català (Catalan)"
-msgstr ""
+msgstr "Català (Catalan)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1200-7
 msgid "Čeština (Czech)"
-msgstr ""
+msgstr "Čeština (Tchèque)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1201-7
 msgid "Español (Spanish)"
-msgstr ""
+msgstr "Español (Espagnol)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1202-7
 msgid "Français (French)"
-msgstr ""
+msgstr "Français (Français)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1203-7
 msgid "Gaeilge (Irish)"
-msgstr ""
+msgstr "Gaeilge (Irlandais)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1204-7
 msgid "Italiano (Italian)"
-msgstr ""
+msgstr "Italiano (Italien)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1205-7
 msgid "Lietuvių (Lithuanian)"
-msgstr ""
+msgstr "Lietuvių (Lithuanien)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1206-7
 msgid "Nederlands (Dutch)"
-msgstr ""
+msgstr "Nederlands (Néerlandais)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1207-7
 msgid "Português Brasil (Portuguese BR)"
-msgstr ""
+msgstr "Português Brasil (Portugais BR)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1208-7
 msgid "Português Portugal (Portuguese PT)"
-msgstr ""
+msgstr "Português Portugal (Portugais PT)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1209-7
 msgid "Slovenčina (Slovak)"
-msgstr ""
+msgstr "Slovenčina (Slovaque)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1210-7
 msgid "Slovenščina (Slovenian)"
-msgstr ""
+msgstr "Slovenščina (Slovenien)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1211-7
 msgid "Tiếng Việt (Vietnamese)"
-msgstr ""
+msgstr "Tiếng Việt (Vietnamien)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1212-7
 msgid "Български (Bulgarian)"
-msgstr ""
+msgstr "Български (Bulgare)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1213-7
 msgid "Српски (Serbian)"
-msgstr ""
+msgstr "Српски (Serbe)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1214-7
 msgid "Українська (Ukrainian)"
-msgstr ""
+msgstr "Українська (Ukrainien)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1215-7
 msgid "العربية (Arabic)"
-msgstr ""
+msgstr "العربية (Arabe)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1216-7
 msgid "தமிழ் (Tamil)"
-msgstr ""
+msgstr "தமிழ் (Tamoul)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1217-7
 msgid "简体中文 (Chinese Simp.)"
-msgstr ""
+msgstr "简体中文 (Chinois Simp.)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1218-7
 msgid "繁體中文 (Chinese Trad.)"
-msgstr ""
+msgstr "繁體中文 (Chinois Trad.)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.p:1222-6
 #, fuzzy
@@ -592,11 +612,13 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.div.p:1235-413
 msgid "This guide is written and<br>checked by humans"
-msgstr ""
+msgstr "Ce guide a été rédigé et <br>vérifié par des humains"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div:1240-6
 msgid "Explanation of different text colors and styles used in the guide"
 msgstr ""
+"Explication des différentes couleurs et styles de texte utilisés dans ce "
+"guide"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td.p:1245-24
 msgid ""
@@ -605,6 +627,11 @@ msgid ""
 "something on the screen that you can tap/select/set or some feature of the "
 "application:"
 msgstr ""
+"<span style=\"font-weight: bold;font-size: 1rem;\">Interface utilisateur "
+"KOReader (cases grises)</span> Ces éléments font toujours référence à des "
+"parties de KOReader. Il peut s'agir d'un élément à l'écran sur lequel vous "
+"pouvez appuyer/sélectionner/configurer, ou encore d'une fonctionnalité de "
+"l'application :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td.p:1249-8
 #, fuzzy
@@ -623,6 +650,9 @@ msgid ""
 "\">Menu paths (green)</span> These are the locations of settings and menu "
 "items in the KOReader menu system:"
 msgstr ""
+"<span style=\"color:var(--green-color); font-weight: bold;font-size: 1rem;\">"
+"Chemins d'accès (en vert)</span> Voici où sont les emplacements des "
+"paramètres et les éléments de menu dans le système de menus de KOReader :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td.div:1258-8
 msgid ""
@@ -640,6 +670,12 @@ msgid ""
 "because we want to emphasize that <b>these are not a part of KOReader "
 "project</b> so they are not under our control:"
 msgstr ""
+"<span style=\"color: var(--external-color); font-weight: bold;font-size: "
+"1rem;\">Applications et services externes (violet)</span> Il s'agit de "
+"services ou d'applications compatibles avec KOReader. Ils sont indiqués dans "
+"une couleur différente car nous tenons à souligner que <b>ces éléments ne "
+"font pas partie du projet KOReader</b> et ne relèvent donc pas de notre "
+"contrôle :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td:1266-43
 msgid "Calibre, Readwise, KoHighlights..."
@@ -651,6 +687,10 @@ msgid ""
 "1rem;\">Internal links (teal)</span> These links with a house icon at the "
 "end, take you to the other parts of this guide:"
 msgstr ""
+"<span style=\"color:var(--internal-link-color); font-weight: bold;font-size: "
+"1rem;\">Liens internes (bleu sarcelle)</span> Ces liens, signalés par une "
+"icône en forme de maison à la fin, vous permettent d'accéder aux autres "
+"sections de ce guide :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td:1274-92
 #, fuzzy
@@ -664,10 +704,13 @@ msgid ""
 "\">External links (blue)</span> These are regular links that go outside the "
 "guide:"
 msgstr ""
+"<span style=\"color:var(--blue-color); font-weight: bold;font-size: 1rem;\">"
+"Liens externes (en bleu)</span> Il s'agit de liens classiques qui renvoient "
+"vers des pages extérieures au guide :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td:1282-58
 msgid "Project Gutenberg"
-msgstr ""
+msgstr "Projet Gutenberg"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.p:1291-6
 #, fuzzy
@@ -791,6 +834,11 @@ msgid ""
 "a part of our project</b>. We advise you to be careful and only use these "
 "official sources for downloading KOReader:"
 msgstr ""
+"<span class=\"microns_warning\" title=\"Avertissement\"></span> Nous avons "
+"récemment remarqué sur Internet certaines pages consacrées à KOReader qui "
+"semblent « officielles », mais qui <b>ne font pas partie de notre projet</b>"
+". Nous vous conseillons de faire preuve de prudence et de n'utiliser que ces "
+"sources officielles pour télécharger KOReader :"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.ul.li:1333-8
 msgid ""
@@ -798,6 +846,10 @@ msgid ""
 "which you should see in your address bar right now. <b>Other domains "
 "including koreader.com are NOT US!</b>"
 msgstr ""
+"<a href=\"https://koreader.rocks/\">koreader.rocks</a> : Notre domaine "
+"officiel, que vous devriez voir s'afficher dans votre barre d'adresse en ce "
+"moment même. <b>Les autres domaines, notamment koreader.com, ne nous "
+"appartiennent PAS !</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.ul.li:1335-8
 msgid ""
@@ -805,6 +857,9 @@ msgid ""
 "This is where you can download the official releases for all operating "
 "systems and devices."
 msgstr ""
+"<a href=\"https://github.com/koreader/koreader\">Page GitHub de KOReader</a> "
+": c'est ici que vous pouvez télécharger les versions officielles pour tous "
+"les systèmes d'exploitation et tous les appareils."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div.ul.li:1337-8
 msgid ""
