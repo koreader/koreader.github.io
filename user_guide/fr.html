@@ -1173,8 +1173,20 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						</div>
 					</div>
 
-					<script>
-						document.addEventListener('DOMContentLoaded', function() { const dosPrompt = document.querySelector('.e-reader'); dosPrompt.addEventListener('click', function() { // 1. Supprimer la classe d'animation si elle existe (pour permettre de relancer l'animation) dosPrompt.style.animation = 'none'; // Forcer un rafraîchissement de la mise en page pour s'assurer que le navigateur détecte la suppression void dosPrompt.offsetWidth; // 2. Réappliquer la propriété d'animation pour relancer le cycle dosPrompt.style.animation = 'colorCycle 2s ease-in 1'; }); });
+					<script data-translate-ignore>
+						document.addEventListener('DOMContentLoaded', function() {
+							const dosPrompt = document.querySelector('.e-reader');
+
+							dosPrompt.addEventListener('click', function() {
+								// 1. Remove the animation class if it exists (to allow re-triggering)
+								dosPrompt.style.animation = 'none';
+								// Force a reflow to ensure the browser recognizes the removal
+								void dosPrompt.offsetWidth;
+
+								// 2. Reapply the animation property to restart the cycle
+								dosPrompt.style.animation = 'colorCycle 2s ease-in 1';
+							});
+					});
 					</script>
 
 					<br>
