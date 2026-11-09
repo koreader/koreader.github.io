@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-09 11:37+0000\n"
-"PO-Revision-Date: 2026-11-09 11:38+0000\n"
+"PO-Revision-Date: 2026-11-09 11:47+0000\n"
 "Last-Translator: gswang <gswang@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/koreader/user-guide/zh_Hans/>\n"
@@ -4507,9 +4507,8 @@ msgid ""
 "content can adapt (reflow) to fit the size of the screen or window that you "
 "are viewing the document in."
 msgstr ""
-"<b>EPUB，MOBI，AZW，HTML</b> 都属于这类文档。这类文档的版式并不固定。也就是"
-"说，文字及其他内容会自行调整（重排），以适配您阅读文档时所用屏幕或窗口的大"
-"小。"
+"<b>EPUB、MOBI、AZW、HTML</b> 都属于这类文档。这类文档的版式并不固定。也就是说"
+"，文字及其他内容会自行调整（重排），以适配您阅读文档时所用屏幕或窗口的大小。"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2896-6
 msgid ""
@@ -6185,10 +6184,10 @@ msgid ""
 msgstr ""
 "<span class=\"microns_warning\"></span> 如果你的字体还有其他变体，情况就可能"
 "变得复杂。假设你把一整个字体系列复制到了设备上，启动时 KOReader 读到了该字体"
-"的以下变体，顺序为：<b>Light，Thin，Normal，Medium，ExtraBlack，SemiBold，"
-"Bold，Black</b>。你可能以为 <b>Normal</b> 变体会被用作文档的正文字体（因为它"
+"的以下变体，顺序为：<b>Light、Thin、Normal、Medium、ExtraBlack、SemiBold、"
+"Bold、Black</b>。你可能以为 <b>Normal</b> 变体会被用作文档的正文字体（因为它"
 "的名字就叫 <b>Normal</b>），但 KOReader 实际会选用 <b>Light</b>，因为它是列表"
-"中第一个不带<b>粗体标记</b>的字体。而 <b>Thin，Normal</b> 和 <b>Medium</b> 变"
+"中第一个不带<b>粗体标记</b>的字体。而 <b>Thin、Normal</b> 和 <b>Medium</b> 变"
 "体会被忽略，因为 KOReader 已经为文档找到了一个“非粗体”字体。"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3525-6
@@ -6226,7 +6225,7 @@ msgid ""
 "used as the <b>regular font</b> (If your <b>Regular</b> font is too thin, "
 "just replace it with <b>Medium</b> weight if you have it)."
 msgstr ""
-"<b>Thin，Extra Light，Light，Normal，Medium</b> 中只保留一个：它会被用作<b>常"
+"<b>Thin、Extra Light、Light、Normal、Medium</b> 中只保留一个：它会被用作<b>常"
 "规字体</b>（如果你的 <b>Regular</b> 字体太细，且手头有 <b>Medium</b> 字重，换"
 "成它即可）。"
 
@@ -6235,7 +6234,7 @@ msgid ""
 "Keep only one of <b>Semi Bold, Bold, Extra Bold, Black, Extra Black</b>: It "
 "will be used as the <b>bold font</b>."
 msgstr ""
-"<b>Semi Bold，Bold，Extra Bold，Black，Extra Black</b> 中只保留一个：它会被用"
+"<b>Semi Bold、Bold、Extra Bold、Black、Extra Black</b> 中只保留一个：它会被用"
 "作<b>粗体字体</b>。"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3543-7
@@ -8756,10 +8755,9 @@ msgid ""
 "Euphoriyy/derainbowify.koplugin\">GitHub page</a> of this plugin."
 msgstr ""
 "受彩色电子墨水屏技术所限，阅读带有细密阴影或网点的黑白漫画时，可能会看到类似"
-"彩虹的彩色伪影。如果遇到此问题，可以用一款名为 <span "
-"class=\"external\">Derainbowify</span> 的 KOReader 插件解决。详细信息和安装说"
-"明见该插件的<a href=\"https://github.com/Euphoriyy/"
-"derainbowify.koplugin\">GitHub 页面</a>。"
+"彩虹的彩色伪影。如果遇到此问题，可以用一款名为 <span class=\"external\">"
+"Derainbowify</span> 的 KOReader 插件解决。详细信息和安装说明见该插件的 <a "
+"href=\"https://github.com/Euphoriyy/derainbowify.koplugin\">GitHub</a> 页面。"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4569-6
 msgid "Immersive mode in KOReader"
@@ -9386,8 +9384,8 @@ msgid ""
 "be a zip file of images (and opened by <span class=\"ui\">MuPDF engine</"
 "span>)"
 msgstr ""
-"<span class=\"ui\">默认情况</span>：你的文件名<b>.zip</b>，假定为图片的 ZIP "
-"压缩包（并由<span class=\"ui\"> MuPDF 引擎</span>打开）"
+"<span class=\"ui\">默认情况</span>：文件名<b>.zip</b>，假定为图片的 ZIP 压缩"
+"包（并由<span class=\"ui\"> MuPDF 引擎</span>打开）"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4829-6
 msgid ""
@@ -9397,27 +9395,27 @@ msgstr "如果你的 ZIP 压缩包含这些类型之一（而不仅仅是图片�
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4832-7
 msgid "<b>FictionBook</b> - yourfilename.<b>fb2.zip</b>"
-msgstr "<b>FB2格式（FictionBook）</b> - 你的文件名.<b>fb2.zip</b>"
+msgstr "<b>FB2格式（FictionBook）</b> - 文件名.<b>fb2.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4834-7
 msgid "<b>HTML</b> - yourfilename.htm.zip / yourfilename.<b>html.zip</b>"
-msgstr "<b>HTML</b> - 你的文件名.htm.zip / 你的文件名.<b>html.zip</b>"
+msgstr "<b>HTML</b> - 文件名.htm.zip / 文件名.<b>html.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4836-7
 msgid "<b>Text log files</b> - yourfilename.<b>log.zip</b>"
-msgstr "<b>文本日志文件</b> - 你的文件名.<b>log.zip</b>"
+msgstr "<b>文本日志文件</b> - 文件名.<b>log.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4838-7
 msgid "<b>Markdown</b> - yourfilename.<b>md.zip</b>"
-msgstr "<b>Markdown 文件</b> - 你的文件名.<b>md.zip</b>"
+msgstr "<b>Markdown 文件</b> - 文件名.<b>md.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4840-7
 msgid "<b>Rich Text Format</b> - yourfilename.<b>rtf.zip</b>"
-msgstr "<b>富文本格式</b> - 你的文件名.<b>rtf.zip</b>"
+msgstr "<b>富文本格式</b> - 文件名.<b>rtf.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4842-7
 msgid "<b>Plain text</b> - yourfilename.<b>txt.zip</b>"
-msgstr "<b>纯文本</b> - 你的文件名.<b>txt.zip</b>"
+msgstr "<b>纯文本</b> - 文件名.<b>txt.zip</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4846-6
 msgid ""
@@ -11636,7 +11634,7 @@ msgid ""
 "Icons by <b>Econceptive</b> from the <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 msgstr ""
-"图标由 <b>Econceptive</b> 创作，来自<a href=\"https://thenounproject.com/"
+"图标由 <b>Econceptive</b> 创作，来自 <a href=\"https://thenounproject.com/"
 "econceptive/collection/touch-gesture/\">Noun Project</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5698-6
