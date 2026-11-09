@@ -2425,7 +2425,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="L3-Smaller-heading">可重排文档</div>
 
-					<p><b>EPUB，MOBI，AZW，HTML</b> 都属于这类文档。这类文档的版式并不固定。也就是说，文字及其他内容会自行调整（重排），以适配您阅读文档时所用屏幕或窗口的大小。</p>
+					<p><b>EPUB、MOBI、AZW、HTML</b> 都属于这类文档。这类文档的版式并不固定。也就是说，文字及其他内容会自行调整（重排），以适配您阅读文档时所用屏幕或窗口的大小。</p>
 
 					<p>可以把这类文档想象成很长的文本文件或网页，它们本身自然没有分页。打开这类文档时，KOReader 会在首次打开时把这份长文档切分为<b>屏幕大小</b>的页来计算页码。因此，若在 10 英寸阅读器上打开文档，书的总页数会少于 6 英寸阅读器，因为更大的屏幕单页能容纳更多文字（每页字数越多 = 总页数越少）。</p>
 
@@ -2872,7 +2872,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="microns_info"></span> 如果在底部菜单中长按 <span class="ui">字重</span>标签，就会显示当前字体提供了哪些字重级别。</p>
 
-					<p><span class="microns_warning"></span> 如果你的字体还有其他变体，情况就可能变得复杂。假设你把一整个字体系列复制到了设备上，启动时 KOReader 读到了该字体的以下变体，顺序为：<b>Light，Thin，Normal，Medium，ExtraBlack，SemiBold，Bold，Black</b>。你可能以为 <b>Normal</b> 变体会被用作文档的正文字体（因为它的名字就叫 <b>Normal</b>），但 KOReader 实际会选用 <b>Light</b>，因为它是列表中第一个不带<b>粗体标记</b>的字体。而 <b>Thin，Normal</b> 和 <b>Medium</b> 变体会被忽略，因为 KOReader 已经为文档找到了一个“非粗体”字体。</p>
+					<p><span class="microns_warning"></span> 如果你的字体还有其他变体，情况就可能变得复杂。假设你把一整个字体系列复制到了设备上，启动时 KOReader 读到了该字体的以下变体，顺序为：<b>Light、Thin、Normal、Medium、ExtraBlack、SemiBold、Bold、Black</b>。你可能以为 <b>Normal</b> 变体会被用作文档的正文字体（因为它的名字就叫 <b>Normal</b>），但 KOReader 实际会选用 <b>Light</b>，因为它是列表中第一个不带<b>粗体标记</b>的字体。而 <b>Thin、Normal</b> 和 <b>Medium</b> 变体会被忽略，因为 KOReader 已经为文档找到了一个“非粗体”字体。</p>
 
 					<p>同样按这个列表，<b>ExtraBlack</b> 会被用作粗体字体，因为它是列表中第一个带有<b>粗体标记</b>的字体。而 <b>SemiBold, Bold, Black</b> 变体会被 KOReader 忽略，因为它已经找到了所需的“粗体”字体。</p>
 
@@ -2881,8 +2881,8 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 					<p>解决办法是只传入你希望使用的字体文件，例如：</p>
 
 					<ul>
-						<li><b>Thin，Extra Light，Light，Normal，Medium</b> 中只保留一个：它会被用作<b>常规字体</b>（如果你的 <b>Regular</b> 字体太细，且手头有 <b>Medium</b> 字重，换成它即可）。</li>
-						<li><b>Semi Bold，Bold，Extra Bold，Black，Extra Black</b> 中只保留一个：它会被用作<b>粗体字体</b>。</li>
+						<li><b>Thin、Extra Light、Light、Normal、Medium</b> 中只保留一个：它会被用作<b>常规字体</b>（如果你的 <b>Regular</b> 字体太细，且手头有 <b>Medium</b> 字重，换成它即可）。</li>
+						<li><b>Semi Bold、Bold、Extra Bold、Black、Extra Black</b> 中只保留一个：它会被用作<b>粗体字体</b>。</li>
 						<li>也可以额外加入同字重的斜体变体（例如 medium/medium-italic）。</li>
 					</ul>
 
@@ -3607,7 +3607,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 					<div class="L3-Smaller-heading">使用哪种分辨率</div>
 					<p>通过将图片大小调整为电子阅读器屏幕尺寸，可以获得最佳效果。特定于屏幕的 <b>CBZ</b> 针对设备的确切屏幕尺寸，可防止在读取期间重新缩放。KOReader 在阅读时将图片缩放到屏幕尺寸，但不建议这样做，因为 KOReader 在缩放之前添加了抖动通道，这会导致质量损失。</p>
 
-					<p>但是，如果你想在多台设备上使用手工制作的 <b>CBZ</b>，或者你想保留高分辨率以备将来使用，那么最好的选择可能是为你的最高分辨率设备制作 <b>CBZ</b>。或者选择可能与源分辨率匹配的"高"分辨率。<b>300 PPI</b> 或更高（<b>450</b> 甚至 <b>600</b>），当然，除非来源较低。我们假设屏幕尺寸为<b>8", 1500×2000</b>，这是一个不错的目标分辨率。对于较大的图片，你应该在你的设备上尝试一下，看看它是否可以处理它。例如，内存不足的旧 Kindle 可能会难以处理 <b>3000×4000</b> 等大小。如果你要自动化该过程，则可能需要考虑创建较低和较高质量的两个版本（例如 <b>200/400</b> 或 <b>300/600</b> DPI）。</p>
+					<p>但是，如果你想在多台设备上使用手工制作的 <b>CBZ</b>，或者你想保留高分辨率以备将来使用，那么最好的选择可能是为你的最高分辨率设备制作 <b>CBZ</b>。或者选择可能与源分辨率匹配的"高"分辨率。<b>300 PPI</b> 或更高（<b>450</b> 甚至 <b>600</b>），当然，除非来源较低。我们假设屏幕尺寸为<b>8"，1500×2000</b>，这是一个不错的目标分辨率。对于较大的图片，你应该在你的设备上尝试一下，看看它是否可以处理它。例如，内存不足的旧 Kindle 可能会难以处理 <b>3000×4000</b> 等大小。如果你要自动化该过程，则可能需要考虑创建较低和较高质量的两个版本（例如 <b>200/400</b> 或 <b>300/600</b> DPI）。</p>
 
 					<div class="info"><span class="microns_info" title="Contextual information"></span> KOReader 不会解析书籍的 <b>spine page-progression-direction="rtl"</b> 参数，因此即使书籍指定了从右向左阅读，软件中的翻页方向也不会改变。用户可通过下列路径手动切换：
 
@@ -3634,7 +3634,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="L3-Smaller-heading">消除彩色电子墨水屏上的彩虹纹</div>
 
-					<p>受彩色电子墨水屏技术所限，阅读带有细密阴影或网点的黑白漫画时，可能会看到类似彩虹的彩色伪影。如果遇到此问题，可以用一款名为 <span class="external">Derainbowify</span> 的 KOReader 插件解决。详细信息和安装说明见该插件的<a href="https://github.com/Euphoriyy/derainbowify.koplugin">GitHub 页面</a>。</p>
+					<p>受彩色电子墨水屏技术所限，阅读带有细密阴影或网点的黑白漫画时，可能会看到类似彩虹的彩色伪影。如果遇到此问题，可以用一款名为 <span class="external">Derainbowify</span> 的 KOReader 插件解决。详细信息和安装说明见该插件的 <a href="https://github.com/Euphoriyy/derainbowify.koplugin">GitHub</a> 页面。</p>
 
 					<div class="L3-Smaller-heading">KOReader 中的沉浸式模式</div>
 
@@ -3652,7 +3652,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<ol>
 						<li>解压缩<b>CBZ</b>文件，即之前用<span class="external">KCC</span>创建并准备好的那份，</li>
-						<li>下载以下文件<a href="https://disk.yandex.com/d/glEebjmPYYp7og">dither_pack.zip</a>（位于 <span class="external">Yandex Disk</span> 上），其中包含两个<b>批处理文件（.bat）</b>和一个 <b>GIF</b> 颜色模板。</li>
+						<li>下载以下文件 <a href="https://disk.yandex.com/d/glEebjmPYYp7og">dither_pack.zip</a>（位于 <span class="external">Yandex Disk</span> 上），其中包含两个<b>批处理文件（.bat）</b>和一个 <b>GIF</b> 颜色模板。</li>
 						<li>将这个三个文件放到你要处理的图片旁边</li>
 						<li>编辑 <b>_magick_manga_ditherN_resize.bat</b>，并将分辨率更改为你的设备分辨率（在 <b>bat</b> 文件的两个位置）。
 
@@ -3797,17 +3797,17 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>ZIP 压缩文件可以包含多种类型的文档，如 HTML、TXT 或图片。<b>只有当你提示 ZIP 压缩包中的文件类型时，KOReader 才能正确打开你的 ZIP 压缩包</b>。如果你只给文件一个 <b>.zip</b> 扩展名，KOReader 将假定该压缩包仅包含图片，并尝试像 <b>CBZ</b> 文件一样打开它。</p>
 
-					<p><span class="ui">默认情况</span>：你的文件名<b>.zip</b>，假定为图片的 ZIP 压缩包（并由<span class="ui"> MuPDF 引擎</span>打开）</p>
+					<p><span class="ui">默认情况</span>：文件名<b>.zip</b>，假定为图片的 ZIP 压缩包（并由<span class="ui"> MuPDF 引擎</span>打开）</p>
 
 					<p>如果你的 ZIP 压缩包含这些类型之一（而不仅仅是图片），请相应地命名它：</p>
 
 					<ul>
-						<li><b>FB2格式（FictionBook）</b> - 你的文件名.<b>fb2.zip</b></li>
-						<li><b>HTML</b> - 你的文件名.htm.zip / 你的文件名.<b>html.zip</b></li>
-						<li><b>文本日志文件</b> - 你的文件名.<b>log.zip</b></li>
-						<li><b>Markdown 文件</b> - 你的文件名.<b>md.zip</b></li>
-						<li><b>富文本格式</b> - 你的文件名.<b>rtf.zip</b></li>
-						<li><b>纯文本</b> - 你的文件名.<b>txt.zip</b></li>
+						<li><b>FB2格式（FictionBook）</b> - 文件名.<b>fb2.zip</b></li>
+						<li><b>HTML</b> - 文件名.htm.zip / 文件名.<b>html.zip</b></li>
+						<li><b>文本日志文件</b> - 文件名.<b>log.zip</b></li>
+						<li><b>Markdown 文件</b> - 文件名.<b>md.zip</b></li>
+						<li><b>富文本格式</b> - 文件名.<b>rtf.zip</b></li>
+						<li><b>纯文本</b> - 文件名.<b>txt.zip</b></li>
 					</ul>
 
 					<p>如果文档没有这样命名，则可能使用了错误的读取器/格式引擎，你将看到<span class="ui">此文件没有读取器引擎或文件无效</span>消息。你可以按照上述说明重命名此文件，也可以长按文件名，然后选择<span class="ui">打开方式…</span>选择正确的引擎。</p>
@@ -4400,7 +4400,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						</tr>
 						<tr>
 							<td></td>
-							<td><p>图标由 <b>Econceptive</b> 创作，来自<a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
+							<td><p>图标由 <b>Econceptive</b> 创作，来自 <a href="https://thenounproject.com/econceptive/collection/touch-gesture/">Noun Project</a></p></td>
 						</tr>
 					</table>
 
