@@ -1132,12 +1132,24 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 			<main class="content">
 
-				
-				<script>
-					document.addEventListener('DOMContentLoaded', function() { const themeSwitcher = document.getElementById('theme-switcher'); const savedTheme = localStorage.getItem('theme'); if (savedTheme === 'dark') { document.body.classList.add('dark'); themeSwitcher.checked = true; } themeSwitcher.addEventListener('change', function() { document.body.classList.toggle('dark'); localStorage.setItem('theme', this.checked ? 'dark' : 'light'); }); });
+				<!-- DARK THEME SWITCHING SCRIPT -->
+				<script data-translate-ignore>
+					document.addEventListener('DOMContentLoaded', function() {
+						const themeSwitcher = document.getElementById('theme-switcher');
+						const savedTheme = localStorage.getItem('theme');
+						if (savedTheme === 'dark') {
+							document.body.classList.add('dark');
+							themeSwitcher.checked = true;
+						}
+
+						themeSwitcher.addEventListener('change', function() {
+							document.body.classList.toggle('dark');
+							localStorage.setItem('theme', this.checked ? 'dark' : 'light');
+						});
+				});
 				</script>
 
-				
+				<!-- SIDEBAR TOGGLE BUTTON -->
 				<button id="sidebarToggleBtn"></button>
 
 				<!-- DARK THEME SWITCH BUTTON -->
