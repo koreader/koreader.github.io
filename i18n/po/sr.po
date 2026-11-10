@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-10 06:22+0000\n"
-"PO-Revision-Date: 2026-11-10 06:20+0000\n"
+"PO-Revision-Date: 2026-11-10 14:36+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -4820,10 +4820,8 @@ msgstr ""
 "вам се више свиђа."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2873-6
-#, fuzzy
-#| msgid "Page zooming"
 msgid "4.5 Page Numbering"
-msgstr "4.5 Зумирање странице"
+msgstr "4.5 Нумерисање страница"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2875-6
 msgid ""
@@ -4833,12 +4831,19 @@ msgid ""
 "numbering system of KOReader. You can come back to this chart while reading "
 "this section."
 msgstr ""
+"Бројеви страница у KOReader <span class=\"ui\">статусној линији</span> се "
+"понашају другачије у зависности од типа документа; неки су фиксни, док се "
+"други динамички подешавају. На слици испод, можете видети преглед система "
+"нумерисања страница у програму KOReader. Можете да се вратите на овај "
+"дијаграм док читате овај одељак."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2878-6
 msgid ""
 "As you can see, documents that KOReader is able to open, can be divided into "
 "two categories which we will explain below:"
 msgstr ""
+"Као што можете видети, документи које KOReader може да отвори могу да се "
+"поделе на две категорије, које ћемо да објаснимо испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2882-6
 msgid "1. Fixed-Layout Documents"
@@ -4853,6 +4858,12 @@ msgid ""
 "screen or big. The design that you see, is always an exact replica of a "
 "printed page."
 msgstr ""
+"<b>PDF, DjVu и CBR/CBZ</b> су примери овог типа докумената. Познати су и под "
+"именом <b>непресложиви</b>, ови документи имају статични распоред. То значи "
+"да је сваки елемент на страници (текст и слика) прецизно позициониран и да "
+"се његова позиција никада не мења, без обзира на то да ли га читате на малом "
+"или на великом екрану. Дизајн који видите је увек тачна реплика штампане "
+"странице."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2887-6
 msgid ""
@@ -4862,6 +4873,11 @@ msgid ""
 "class=\"ui\">Static page numbers</span> <b>don't change</b> with the type or "
 "screen size of the reader device."
 msgstr ""
+"Документи фиксног распореда имају само <span class=\"ui\">статичне бројеве "
+"страница</span>. Када у програму KOReader отворите овакву врсту документа, "
+"бројеви страница које видите у статусној линији припадају самом документу. "
+"<span class=\"ui\">Статични бројеви страница</span> се <b>не мењају</b> са "
+"типом или величином екрана уређаја за читање."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2891-6
 msgid "2. Reflowable Documents"
@@ -4874,6 +4890,10 @@ msgid ""
 "content can adapt (reflow) to fit the size of the screen or window that you "
 "are viewing the document in."
 msgstr ""
+"<b>EPUB, MOBI, AZW, HTML</b> су примери овог типа докумената. Распоред ових "
+"докумената није фиксан. Ово значи да текст и остали садржај може да се "
+"прилагоди (пресложи) тако да стане на величину екрана или прозора у којем се "
+"документ приказује."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2896-6
 msgid ""
@@ -4885,6 +4905,13 @@ msgid ""
 "pages than a 6-inch reader because more words can fit on a single page of "
 "bigger screen (more words per page = less pages in total)."
 msgstr ""
+"Ову врсту докумената можете да замислите као веома дугачке текст фајлове или "
+"веб странице, који природно немају преломе страница. Када отворите ове "
+"документе, KOReader израчунава бројеве страница приликом првог отварања тако "
+"што ове дугачке документе подели у странице <b>величине екрана</b>. Резултат "
+"овога је да ако документ отворите на 10-инчном читачу, ваша књига ће имати "
+"мање страница него на 6-инчном читачу јер на једну страницу већег екрана "
+"може да стане више речи (више речи по страници = мањи укупан број страница)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2899-6
 msgid ""
@@ -4893,10 +4920,13 @@ msgid ""
 "a bigger font size, less text will fit on the screen, increasing the total "
 "number of pages."
 msgstr ""
+"Ово такође значи да ако промените изглед текста, на пример, повећавајући "
+"фонт, промениће се и бројеви страница. Пошто ће са већим фонтом мање текста "
+"да стане на један екран, повећаће се укупан број страница."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2901-6
 msgid "Stable page numbers"
-msgstr "Фиксни бројеви страница"
+msgstr "Стабилни бројеви страница"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2903-6
 msgid ""
@@ -4906,6 +4936,12 @@ msgid ""
 "time, page 42 will always show the same content on both devices. But for an "
 "<b>EPUB</b> file, page 42 on one device will be different from the other."
 msgstr ""
+"Услед њихове променљиве природе, <b>бројеви страница у документу који може "
+"да се пресложи</b> нису баш корисни за референцирање. Када <b>PDF</b> фајл "
+"(који представља документ фиксног распореда) истовремено отворите у вашем е-"
+"читачу и на компјутеру, страница 42 ће увек приказивати исти садржај на оба "
+"уређаја. Али у случају <b>EPUB</b> фајла, страница 42 на једном уређају ће "
+"бити другачија од оне на другом."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2908-6
 msgid ""
@@ -4914,23 +4950,17 @@ msgid ""
 "class=\"ui\">stable page numbers</span> feature. There are two types of "
 "<b>stable page numbers</b> in KOReader:"
 msgstr ""
+"Онда бисте могли да питате: <b>„Да ли је у документу који може да се "
+"преслаже, као што је EPUB, могуће имати непроменљиве бројеве страница?”</b> "
+"Да, то је могуће уз фукционалност <span class=\"ui\">стабилних бројева "
+"страница</span>. У програму KOReader постоје два типа <b>стабилних бројева "
+"страница</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2915-6
-#, fuzzy
-#| msgid "Benefits of reference page numbers:"
 msgid "- Publisher page numbers:"
-msgstr "Предности референтних бројева страница:"
+msgstr "- Бројеви страница издавача:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2917-6
-#, fuzzy
-#| msgid ""
-#| "KOReader supports <b>Reference page numbers</b> feature which allows "
-#| "publishers to embed page numbers from printed books directly to the e-"
-#| "book version. When you enable this feature, KOReader doesn't calculate "
-#| "the page numbers itself. Instead, it shows you the <b>embedded page "
-#| "numbers</b> from the publisher. This means, the page number you see in "
-#| "your <span class=\"ui\">Status bar</span> matches the print version of "
-#| "the book."
 msgid ""
 "KOReader supports documents with <b>publisher page numbers</b> feature, "
 "which allows publishers to embed page numbers from printed books directly to "
@@ -4939,55 +4969,49 @@ msgid ""
 "numbers from the publisher. This means, the page number you see in your "
 "<span class=\"ui\">status bar</span> matches the print version of the book."
 msgstr ""
-"KOReader подржава функционалност <b>Референтних бројева страница</b> која "
-"омогућава издавачима да у електронску верзију књиге директно уграде бројеве "
-"страница из штампаних књига. Када укључите ову функцију, KOReader сам не "
-"израчунава бројеве страница. Уместо тога, он вам приказује <b>уграђене "
-"бројеве страница page</b> од издавача. Ово значи да се бројеви страница које "
-"видите у <span class=\"ui\">Статусној линији</span> подударају са штампаном "
-"верзијом књиге the."
+"KOReader подржава функционалност докумената са <b>бројевима страница "
+"издавача</b> која омогућава издавачима да у електронску верзију књиге "
+"директно уграде бројеве страница из штампаних књига. Када укључите ову "
+"функцију, KOReader сам не израчунава бројеве страница. Уместо тога, он вам "
+"приказује <b>уграђене</b> бројеве страница од издавача. Ово значи да се "
+"бројеви страница које видите у <span class=\"ui\">статусној линији</span> "
+"подударају са штампаном верзијом књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2922-6
 msgid "You can enable this feature from:"
 msgstr "Ови функционалност можете да укључите из:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2924-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Reference pages / Use reference page numbers"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Settings / Stable page numbers / Use stable page "
 "numbers"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Референтне странице / Користи референтне странице"
+"style=\"width:22px;\"> / Подешавања / Стабилни бројеви страница / Користи "
+"стабилне бројеве страница"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2927-6
-#, fuzzy
-#| msgid ""
-#| "If you also check the <span class=\"ui\">Show reference page labels in "
-#| "margin</span> option from the same menu, this page numbers will be shown "
-#| "next to the text in a small font."
 msgid ""
 "If you also check the <span class=\"ui\">Show stable page numbers in margin</"
 "span> option from the same menu, these publisher page numbers will be shown "
 "next to the text in a small font."
 msgstr ""
-"Ако у истом менију штиклирате и опцију <span class=\"ui\">Прикажи у маргини "
-"референтне бројеве страница</span>, ови бројеви страница ће се малим фонтом "
-"приказивати уз текст."
+"Ако у истом менију штиклирате и опцију <span class=\"ui\">Прикажи стабилне "
+"бројеве страница у маргини</span>, ови бројеви страница издавача ће се малим "
+"фонтом приказивати уз текст."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2932-6
 msgid "- Characters per page:"
-msgstr ""
+msgstr "- Карактера по страници:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2934-6
 msgid ""
 "What if your book doesn't have <b>publisher page numbers</b> (majority of "
 "them don't) but you still need stable page numbers?"
 msgstr ""
+"Шта ако ваша књига нема <b>бројеве страница издавача</b> (већина их нема), "
+"али ипак желите стабилне бројеве страница?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2937-6
 msgid ""
@@ -5000,6 +5024,14 @@ msgid ""
 "approximately 250 words is the single page of a standard <b>mass market "
 "paperback/PA5 format</b> book."
 msgstr ""
+"Онда можете да укључите <span class=\"ui\">карактера по страници</span> "
+"функционалност програма KOReader. Када користите ову функционалност, "
+"KOReader израчунава бројеве страница према дефинисаном броју <span "
+"class=\"ui\">карактера по страници</span> (уместо према величини вашег "
+"екрана). Тако, на пример, можете поставити да KOReader „броји <b>1500 "
+"карактера</b> као једну страницу” (подразумевана вредност овог подешавања, "
+"што је отприлике 250 речи у енглеском језику). А 250 речи је приближно једна "
+"страница књиге стандардног <b>paperback/PA5 формата за масовно тржиште</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2943-6
 msgid ""
@@ -5008,6 +5040,10 @@ msgid ""
 "class=\"ui\">characters per page</span> setting from the menu to simulate "
 "different book sizes."
 msgstr ""
+"Дакле, када укључите ову функционалност, број страница ће бити сличан броју "
+"страница реалне књиге штампане у поменутој величини. Наравно, ово подешавање "
+"<span class=\"ui\">карактера по страници</span> можете да подесите из менија "
+"и тако симулирате различите величине књига."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2946-6
 msgid ""
@@ -5016,49 +5052,56 @@ msgid ""
 "numbers</b> to the printed book so it would be easier to find a passage in "
 "the other version."
 msgstr ""
+"Ако имате штампану верзију књиге, вредност <span class=\"ui\">карактера по "
+"страници</span> можете да подесите тако да се подудара са <b>укупним бројем "
+"страница</b> штампане књиге, и тако олакшате проналажење пасажа у другој "
+"верзији."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2950-6
 msgid "Changes after enabling the stable page numbers feature"
-msgstr ""
+msgstr "Измене након укључивања функционалности стабилних бројева страница"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2952-6
 msgid ""
 "When you enable the <b>stable page numbers</b> for a document, these changes "
 "happen:"
 msgstr ""
+"Када у документу укључите <b>стабилне бројеве страница</b>, долази до "
+"следећих измена:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2956-7
 msgid ""
 "Your status bar switches to <b>stable page numbers</b> for the read/"
 "remaining/total page counts."
 msgstr ""
+"Ваша статусна линија прелази на <b>стабилне бројеве страница</b> за "
+"вредности прочитано/преостало/укупно страница."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2959-7
 msgid ""
 "<span class=\"ui\">File browser</span> shows <b>stable page numbers</b> for "
 "this document for the <b>total page count</b>."
 msgstr ""
+"<span class=\"ui\">Прегледач фајлова</span> приказује <b>стабилне бројеве "
+"страница</b> за <b>укупан број страница</b> овог документа."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2963-7
-#, fuzzy
-#| msgid ""
-#| "You can open your <span class=\"ui\">Folder shortcuts</span> from the "
-#| "<span class=\"ui\">File Browser</span> or <span class=\"ui\">Reading "
-#| "screen</span> while reading a book."
 msgid ""
 "<span class=\"ui\">Bookmarks</span>, <span class=\"ui\">Table of Contents</"
 "span> and <span class=\"ui\">Page browser</span> shows <b>stable page "
 "numbers.</b>"
 msgstr ""
-"<span class=\"ui\">Пречице директоријума</span> можете да отворите из <span "
-"class=\"ui\">Прегледача фајлова</span> или <span class=\"ui\">Екрана читања</"
-"span> док читате књигу."
+"<span class=\"ui\">Маркери</span>, <span class=\"ui\">Садржај</span> и <span "
+"class=\"ui\">Прегледач странца</span> приказују <b>стабилне бројеве "
+"страница.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2967-7
 msgid ""
 "If you export your highlights from this document, export file will have the "
 "<b>stable page numbers</b> for the highlight and note locations."
 msgstr ""
+"Ако из овог документа извезете истицања, фајл извоза ће за локације истицања "
+"и белешки имати <b>стабилне бројеве страница</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2971-6
 msgctxt "user_guide/en.html:L2-toctools"
@@ -5290,7 +5333,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3046-6
 msgctxt "user_guide/en.html:L2-hiddenflows"
 msgid "4.7 Excluding Sections"
-msgstr ""
+msgstr "4.7 Изузимање одељака"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3048-6
 msgid ""
@@ -5540,7 +5583,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3117-6
 msgctxt "user_guide/en.html:L1-formattingyourbook"
 msgid "5 FORMATTING YOUR E-BOOK"
-msgstr ""
+msgstr "5 ФОРМАТИРАЊЕ ВАШЕ Е-КЊИГЕ"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3119-6
 msgid ""
@@ -5548,6 +5591,9 @@ msgid ""
 "want to start reading probably. But before that, why not customize the "
 "appearance of your book to make it look really nice."
 msgstr ""
+"Након што сте научили основе програма KOReader у претходном одељку, сада "
+"вероватно желите почети да читате. Али пре тога, зашто да не прилагодите "
+"изглед своје књиге и постигнете да изгледа заиста лепо."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3121-6
 msgid ""
@@ -5556,10 +5602,14 @@ msgid ""
 "you familiar with the KOReader's <b>text appearance settings</b> so you can "
 "change them according to your taste later."
 msgstr ""
+"У овом одељку ћемо проћи „дигитално словослагање”, корак-по-корак, и учинимо "
+"да ваша е-књига изгледа више као штампана књига. Циљ овог туторијала је да "
+"вас упозна са <b>подешавањима изгледа текста</b> програма KOReader, тако да "
+"их касније можете подесити по вашем укусу."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3124-6
 msgid "Here are the steps:"
-msgstr ""
+msgstr "Ево корака:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3127-7
 msgid ""
@@ -5570,6 +5620,12 @@ msgid ""
 "b> and <b>sans-serif</b> (if you don't know what these mean, just click on "
 "the links to see the difference):"
 msgstr ""
+"<b>Пронађите леп фонт:</b> најпре нам је за књигу потребна фонт који даје "
+"изглед штамане књиге (а да је лако читљив на e-ink екрану). Ако имате неки "
+"оиљени фонт, употребите га. У супротном можете да преузмете неки од наших "
+"предлога испод. Имамо два фонта за два различита изгледа: <b>серифни (serif)"
+"</b> и <b>линеарни (sans-serif)</b> (ако не знате шта то значи, кликните на "
+"линкове да видите разлику):"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3133-8
 msgid ""
@@ -5578,6 +5634,10 @@ msgid ""
 "download it from <a href=\"https://fonts.google.com/specimen/"
 "Lusitana\">here</a>."
 msgstr ""
+"Ако волите <b>serif</b> фонтове, преузмите фонт <b>Lusitana</b>. То је "
+"елегантни класични серифни словни лик који је дизајниран за читање дугачких "
+"текстова. Можете да га преузмете <a href=\"https://fonts.google.com/specimen/"
+"Lusitana\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3136-8
 msgid ""
@@ -5585,6 +5645,10 @@ msgid ""
 "geometric sans typeface that prioritizes legibility. You can download it "
 "from <a href=\"https://fonts.google.com/specimen/Red+Hat+Text\">here</a>."
 msgstr ""
+"Ако волите <b>линеарне</b> фонтове, преузмите <b>Red Hat Text</b>. Ово је "
+"геометријски словни лик који на прво сместо ставља читљивост. Можете да га "
+"преузмете <a href=\"https://fonts.google.com/specimen/Red+Hat+Text\">овде</a>"
+"."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3140-7
 msgid ""
@@ -5594,6 +5658,11 @@ msgid ""
 "should restart KOReader after transferring the font so it can add the font "
 "to the <span class=\"ui\">font list</span>."
 msgstr ""
+"<b>Пренесите фонт на свој уређај:</b> ако не знате како, погледајте овај део "
+"упутства, па се вратите назад након копирања фонта на уређај: <a href=\"#L2-"
+"fonts\" class=\"internalink\">Употреба ваших фонтова</a>. Након преноса "
+"фонта би требало да поново покренете KOReader тако да нови фонт дода у <span "
+"class=\"ui\">листу фонтова</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3143-7
 msgid ""
@@ -5601,6 +5670,9 @@ msgid ""
 "Your newly added font should appear at the beginning of the font list. "
 "Select it:"
 msgstr ""
+"<b>Поставите свој нови фонт:</b> отворите књигу и идите на мени који видите "
+"испод. Ваш нови фонт би требало да се појави на почетку листе фонтова. "
+"Изаберите га:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3145-7
 msgid ""
@@ -5619,18 +5691,20 @@ msgid ""
 "means that there are no fonts embedded in this book so you can skip to the "
 "next step:"
 msgstr ""
+"<b>Искључите <span class=\"ui\">Уграђени фонтови</span>:</b> сада морамо да "
+"искључимо ову опцију тако што је поставимо на <span class=\"ui\">искљ.</span>"
+", па ће KOReader уместо фонта који је испоручен у књизи да користи фонт који "
+"смо изабрали. Ако је подешавање <b>посивљено</b> тако да не можете да га "
+"промените, онда у књигу није уграђен ниједан фонт, тако да можете прећи на "
+"наредни корак:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3152-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Alt Status Bar"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Embedded fonts"
 msgstr ""
 "МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Алтернативна статусна линија"
+"style=\"width:26px;\"> / Уграђени фонтови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3155-7
 msgid ""
@@ -5640,18 +5714,19 @@ msgid ""
 "span>. However, this is a personal preference, so you can set it to whatever "
 "looks best to you. Set the font size here:"
 msgstr ""
+"<b>Подесите опцију <span class=\"ui\">Величина фонта</span>:</b> сада ћемо "
+"да подесимо величину фонта. За фонт <b>Lusitana</b> <span class=\"ui\">22.0</"
+"span> је фина величина. За <b>Red Hat Text</b> можете да смањите на <span "
+"class=\"ui\">20.0</span>. Ипак, ово је ствар личног укуса, тако да можете да "
+"је подесте на вредност која је најбоља за вас. Поставите величину фонта овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3160-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-#| "style=\"width:22px;\"> / Reflow"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:26px;\"> / Font size"
 msgstr ""
 "МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Преслагање"
+"style=\"width:26px;\"> / Величина фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3163-7
 msgid ""
@@ -5664,18 +5739,22 @@ msgid ""
 "span>. You can set it more precisely by tapping the <span class=\"ui\">three "
 "dots</span> at the end of the setting line:"
 msgstr ""
+"<b>Подесите опцију <span class=\"ui\">Тежина фонта</span>:</b> ако KOReader "
+"користите на e-ink уређају, текст ће изгледати <b>мање црн</b> него на LCD/"
+"OLED екранима. У општем случају, фонтови нису посебно дизајнирани за e-ink "
+"екране, тако да ћемо то исправити тако што ћемо их потамнети опцијом <span "
+"class=\"ui\">Тежина фонта</span>. <span class=\"ui\">+1</span> је добро за "
+"почетак. Неким танким фонтовима би требало и <span class=\"ui\">+2</span>. "
+"Вредност можете прецизније да поставите тапом на <span class=\"ui\">три "
+"тачке</span> на крају линије за подешавање:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3169-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/"
-#| "bottom_contrast.svg\" style=\"width:22px;\"> / Render Quality"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:26px;\"> / Font weight"
 msgstr ""
-"МЕНИ НА ДНУ/ <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
-"style=\"width:22px;\"> / Квалитет исцртавања"
+"МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
+"style=\"width:26px;\"> / Тежина фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3172-7
 msgid ""
@@ -5687,18 +5766,21 @@ msgid ""
 "characters, can afford a tighter <span class=\"ui\">120 %</span>. Set it "
 "here:"
 msgstr ""
+"<b>Подесите опцију <span class=\"ui\">Проред</span>:</b> сада ћемо да "
+"подесимо <span class=\"ui\">Проред</span> који одређује вертикални размак "
+"између линија. Ово подешавање варира са различитим фонтовима, у зависности "
+"од геометрија карактера. За фонт <b>Lusitana</b> можете да га поставите на "
+"<span class=\"ui\">135 %</span>. <b>Red Hat Text</b>, са својим отворенијим "
+"карактерима, може да се користи са збијенијим <span class=\"ui\">120 %</span>"
+". Поставите га овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3177-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-#| "style=\"width:22px;\"> / Reflow"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_document.svg\" "
 "style=\"width:26px;\"> / Line Spacing"
 msgstr ""
-"МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Преслагање"
+"МЕНИ НА ДНУ / <img class=\"img_inline\" src=\"pictures/bottom_document.svg\" "
+"style=\"width:26px;\"> / Проред"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3180-7
 msgid ""
@@ -5707,6 +5789,11 @@ msgid ""
 "span> (empty white space around our text) as the last touch and finish our "
 "adjustments. Now open this menu and adjust the settings as you see below:"
 msgstr ""
+"<b>Подесите <span class=\"ui\">Маргине</span>:</b> сада би наш текст "
+"требалоа да изгледа прилично лепо. Сада ћемо да подесимо <span class=\"ui\">"
+"маргине</span> (празан простор око текста) као шлаг на торту и да завршимо "
+"наша подешавања. Отворите сада овај мени и подесите вереност као што видите "
+"испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3183-7
 msgctxt "user_guide/en.html+formattingyourbook.ol.li.div:68-1"
@@ -5714,51 +5801,41 @@ msgid "BOTTOM MENU /"
 msgstr "МЕНИ НА ДНУ /"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3185-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">L/R Margins</span>: Set to <span class=\"ui\">level 7</"
 "span>"
 msgstr ""
-"Тапните на ставку менија <span class=\"ui\">Активирај</span> па онда тапните "
-"на <span class=\"ui\">Сагласно са позицијом Сунца</span>"
+"<span class=\"ui\">Л/Д маргине</span>: поставите на <span class=\"ui\">ниво "
+"7</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3186-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Top Margin</span>: Set to <span class=\"ui\">level 6</"
 "span>"
 msgstr ""
-"Тапните на ставку менија <span class=\"ui\">Активирај</span> па онда тапните "
-"на <span class=\"ui\">Сагласно са позицијом Сунца</span>"
+"<span class=\"ui\">Горња маргина</span>: поставите на <span class=\"ui\">"
+"ниво 6</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3187-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Bottom Margin</span>: Set to <span class=\"ui\">level 6</"
 "span>"
 msgstr ""
-"Тапните на ставку менија <span class=\"ui\">Активирај</span> па онда тапните "
-"на <span class=\"ui\">Сагласно са позицијом Сунца</span>"
+"<span class=\"ui\">Доња маргина</span>: поставите на <span class=\"ui\">ниво "
+"6</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3191-6
 msgid ""
 "After all these settings, your book should look more like a printed book. "
 "You can make further adjustments to these settings if you wish."
 msgstr ""
+"Након свих ових подешавања, вашакњига би требало више да личи на штампану "
+"књигу. Ако желите, можете да додатно подесите ова подешавања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3193-6
 msgctxt "user_guide/en.html:L2-howtokeepsettings"
 msgid "5.1 How To Save Settings"
-msgstr ""
+msgstr "5.1 Како се чувају подешавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3195-6
 msgid ""
@@ -5766,14 +5843,11 @@ msgid ""
 "like this too?\"</b> No, not automatically. Because all these changes are "
 "<b>valid only for the current book</b>."
 msgstr ""
+"Након свих ових подешавања, можете да се упитате <b>„Да ли ће и моје остале "
+"књига да изгледају овако?”</b> Не, нећа аутоматски. Јер све ове измене <b>"
+"важе само за текућу књигу</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3198-6
-#, fuzzy
-#| msgid ""
-#| "In some reader applications, when you change a setting let's say the font "
-#| "used for books, it changes globally. Which means, if you change the "
-#| "default font to <b>Verdana</b>, any books you open next including the "
-#| "ones you are already reading will be shown in this Verdana font."
 msgid ""
 "In other reader applications, when you change a setting, let's say the font "
 "used for books, it changes <b>globally</b>. Which means, if you change the "
@@ -5781,10 +5855,11 @@ msgid ""
 "-including the ones that you are already reading- will be shown in this "
 "Verdana font."
 msgstr ""
-"У неким апликацијама читача, када промените подешавање, рецимо фонт који се "
-"користи за књигу, та промена важи глобално. Ово значи да ако подразумевани "
-"фонт промените на <b>Verdana</b>, свака књига коју након тога отворите, "
-"укључујући и оне које већ читате, биће приказана тим Verdana фонтом."
+"У остаилм апликацијама читача, када промените подешавање, рецимо фонт који "
+"се користи за књигу, та промена важи <b>глобално</b>. Ово значи да ако "
+"подразумевани фонт промените на <b>Verdana</b>, свака књига коју отворите "
+"након ове измене, укључујући и оне које већ читате, биће приказана тим "
+"Verdana фонтом."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3200-6
 msgid ""
@@ -5805,19 +5880,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3204-6
 msgid "So this is how KOReader works:"
-msgstr ""
+msgstr "Дакле, ово је начин на који функционише KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3207-7
 msgid ""
 "KOReader settings like font size, line spacing etc. have <b>default values</"
 "b>."
 msgstr ""
+"KOReader подешавања, као што је величина фонта, проред итд. имају <b>"
+"подразумеване вредности</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3208-7
 msgid ""
 "If you open a new book, KOReader refers to these <b>default values</b> to "
 "set the appearance of your book."
 msgstr ""
+"Ако отворите нову књигу, KOReader чита ове <b>подразумеване вредности</b> и "
+"према њима поставља изглед књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3210-7
 msgid ""
@@ -5825,16 +5904,21 @@ msgid ""
 "affect only this specific book. Because your changes won't modify the "
 "<b>default values</b>, so newly opened books won't be affected."
 msgstr ""
+"Када направите измене у књизи, као што је подешавање <b>величине текста</b>, "
+"оне утичу само на ту одређену књигу. Пошто ваше измене неће променити <b>"
+"подразумеване вредности</b>, онда оне неће утицати на новоотворене књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3211-7
 msgid ""
 "But you have the ability to save your changes as <b>defaults</b> and when "
 "you do this, they will be used for the newly opened books too."
 msgstr ""
+"Али постоји могућност да ваше измене сачувате као <b>подразумеване</b>, па "
+"када то урадите, оне ће се користи и за новоотворене књиге."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3217-6
 msgid "Let's see on an example:"
-msgstr ""
+msgstr "Хајде да видимо на примеру:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3219-6
 msgid ""
@@ -5847,36 +5931,43 @@ msgid ""
 "another book, its font weight will still be <b>0 (Default value)</b>, "
 "instead of <b>+1</b> as we have set before."
 msgstr ""
+"Током ове вежбе, повећали смо <span class=\"ui\">Тежину фонта</span> наше "
+"књиге на <span class=\"ui\">+1.00</span>. ОТворите сада мени <span "
+"class=\"ui\">Тежина фонта</span> и притисните <span class=\"ui\">три тачке</"
+"span> на крају линије подешавања <span class=\"ui\">Тежина фонта</span>. "
+"Отвориће се прозор дијалога и видећете следеће: <span class=\"ui\">"
+"Подразумевана вредност: +0.00</span>. То значи да кад отворите неку другу "
+"књигу, тежина фонта за њу ће и даље бити <b>0 (Подразумевана вредност)</b>, "
+"а не <b>+1</b>, као што смо поставили раније."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3226-6
 msgid ""
 "So to make a setting permanent, you have to set it as <b>default</b>. There "
 "are two methods in KOReader for setting these <b>default</b> values:"
 msgstr ""
+"Дакле, да би подешавање постало стално, морате да га поставите као <b>"
+"подразумевано</b>. У програму KOReader постоје два начина за постављање ових "
+"<b>подразумеваних</b> вредности:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3230-7
-#, fuzzy
-#| msgid "Saving current book settings as defaults"
 msgid "Setting individual settings as defaults"
-msgstr "Чување текућих подешавања књиге као подразумеваних"
+msgstr "Постављање појединачних подешавања као подразумеваних"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3231-7
-#, fuzzy
-#| msgid "Saving current book settings as defaults"
 msgid "Setting \"all of the settings\" as defaults at once"
-msgstr "Чување текућих подешавања књиге као подразумеваних"
+msgstr "Истовремено постављање „свих подешавања” као подразумеваних"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3234-6
-#, fuzzy
-#| msgid "Saving current book settings as defaults"
 msgid "1. Setting individual settings as defaults"
-msgstr "Чување текућих подешавања књиге као подразумеваних"
+msgstr "1. Постављање појединачних подешавања као подразумеваних"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3236-6
 msgid ""
 "Settings in KOReader generally can be set as default with a long-press. Have "
 "a look at the screenshot below:"
 msgstr ""
+"Подешавања у програму KOReader у општем случају дугим притиском могу да се "
+"поставе као подразумевана. Погледајте снимак екрана испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3240-6
 msgid ""
@@ -5885,44 +5976,43 @@ msgid ""
 "<span class=\"ui\">+1</span> normally, it will change only for this book. "
 "But if you long-press on it, you will see this dialog:"
 msgstr ""
+"На вредности са десне стране, означене плавом, може да се изврши дуги "
+"притисак, чиме се постављају као <b>подразумеване</b>. Рецимо да желите да "
+"подебљате текст. Ако извршите обичан притисак на <span class=\"ui\">+1</span>"
+", промена ће важити само за ову књигу. Али ако извршите дуги притисак, "
+"појавиће се следећи дијалог:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3245-6
-#, fuzzy
-#| msgid ""
-#| "Add a folder by pressing the <span class=\"ui\">PLUS icon</span> at the "
-#| "top left corner of that screen, which will open the <span "
-#| "class=\"ui\">Folder chooser screen</span>."
 msgid ""
 "If you press the <span class=\"ui\">Set as default</span> button, this book "
 "and the books that you will open in the future will have <span "
 "class=\"ui\">+1 font weight</span>."
 msgstr ""
-"Додајте фолдер притиском на <span class=\"ui\">ПЛУС икону</span> у горњем "
-"левом углу тог екрана, након чега ће се отворити <span class=\"ui\">екран "
-"Бирача фолдера</span>."
+"Ако притиснете дугме <span class=\"ui\">Постави као подразумевано</span>, "
+"ова књига, као и књиге које отворите касније, ће имати <span class=\"ui\">+1 "
+"тежину фонта</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3248-6
 msgid ""
 "This \"long-press to set as default\" rule works in menus too. For example "
 "when changing the font from the top menu:"
 msgstr ""
+"Ово „дуги притисак за постављање подразумеване вредности” функционише и за "
+"меније. На пример, када се мења фонт из менија на врху:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3251-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
-#| "chapter levels."
 msgid ""
 "<span class=\"ui\">short press</span> = change the font only for this book"
 msgstr ""
-"<span class=\"ui\">Нивои поглавља:</span> мења дубину нивоа поглавља/"
-"потпоглавља."
+"<span class=\"ui\">кратки притисак</span> = промена фонта само за ову књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3253-7
 msgid ""
 "<span class=\"ui\">long-press</span> = change the font for this book and all "
 "the future books"
 msgstr ""
+"<span class=\"ui\">дуги притисак</span> = промена фонта за ову и за све "
+"будуће књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3257-6
 msgid ""
@@ -5930,6 +6020,9 @@ msgid ""
 "or shown with a <span class=\"ui\">black border</span> around the indicators "
 "as seen below:"
 msgstr ""
+"Подразумеване вредности имају <span class=\"ui\">звездицу</span> (★) у "
+"систему менија, или се приказују са <span class=\"ui\">црним оквиром</span> "
+"око индикатора, као што се види испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3264-6
 msgid ""
@@ -5937,12 +6030,13 @@ msgid ""
 "already opened will keep their own settings. Changing defaults don't affect "
 "them."
 msgstr ""
+"<span class=\"microns_info\"></span> Упамтите да ће књиге које су већ "
+"отворене задржати своја подешавања. Промена подразумеваних вредности не "
+"утиче на њих."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3267-6
-#, fuzzy
-#| msgid "Saving current book settings as defaults"
 msgid "2. Setting \"all of the settings\" as defaults at once"
-msgstr "Чување текућих подешавања књиге као подразумеваних"
+msgstr "2. Истовремено постављање „свих подешавања” као подразумеваних"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3269-6
 msgid ""
@@ -5950,6 +6044,9 @@ msgid ""
 "defaults instead of one-by-one. This is useful if you make many changes to a "
 "book and you want all your books to look like this one."
 msgstr ""
+"Уместо једног по једног, такође имате могућност и да сва подешавања текуће "
+"књиге поставите као подразумевана. Ово је корисно ако направите много измена "
+"над књигом, па желите да све ваше књиге изгледају као та."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3271-6
 msgid ""
@@ -5960,17 +6057,14 @@ msgstr ""
 "span> када изаберете:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3274-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Save document settings as default"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Document settings / Save document settings as "
 "default"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Сачувај подешавања документа као подразумевана"
+"style=\"width:22px;\"> / Подешавања документа / Сачувај подешавања документа "
+"као подразумевана"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3277-6
 msgid ""
@@ -5978,6 +6072,9 @@ msgid ""
 "So all the books that you will open after pressing this menu item will look "
 "exactly like your current book."
 msgstr ""
+"Ово ће да препише сва подешавања са подешавањима текућег документа. Тако да "
+"ће све књиге које отворите након притиска на ову ставку менија изгледати "
+"потпуно исто као и текућа књига."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3279-6
 msgid ""
@@ -5986,19 +6083,20 @@ msgid ""
 "to any book now. Just open the book that you want to change, go to the same "
 "menu and press this item:"
 msgstr ""
+"А шта можемо да урадимо за већ отворене књиге? Па ако сте притиснули ставку "
+"менија изнад и поставили своје <b>нове подразумеване вредности</b>, онда "
+"једноставно можете да их примените на било коју књигу. Просто отворите књигу "
+"коју желите да измените, идите на исти мени и притисните ову ставку:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3281-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Reset document settings to default"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Document settings / Reset document settings to "
 "default"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Ресетуј подешавања документа на подразумевана"
+"style=\"width:22px;\"> / Подешавања документа / Ресетуј подешавања документа "
+"на подразумевана"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3284-6
 msgid ""
@@ -6014,19 +6112,21 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3288-6
 msgid "Applying a group of settings using profiles"
-msgstr ""
+msgstr "Примена групе подешавања коришћењем профила"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3290-6
 msgid "Ok, at this point you already know:"
-msgstr ""
+msgstr "ОК, до сада већ знате:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3293-7
 msgid "How to change the individual settings of the current book"
-msgstr ""
+msgstr "Како да промените појединачна подешавања текуће књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3294-7
 msgid "How to set your changes as <b>defaults</b> so all books can use them"
 msgstr ""
+"Како да измене поставите као <b>подразумеване вредности</b>, тако да их могу "
+"користити све књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3298-6
 msgid ""
