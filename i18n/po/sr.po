@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-10 14:53+0000\n"
-"PO-Revision-Date: 2026-11-10 14:36+0000\n"
+"PO-Revision-Date: 2026-11-11 15:03+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -4298,18 +4298,16 @@ msgid ""
 "You can reach this dialog from this menu too, which you can also assign a "
 "<span class=\"ui\">gesture</span> to reach:"
 msgstr ""
+"До овог дијалога такође можете да дођете и из следећег менија, а можете и да "
+"му доделите <span class=\"ui\">гестикулацију</span> за приступ:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:2681-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Book map"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go to page"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Мапа књиге"
+"style=\"width:22px;\"> / Иди на страну"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2687-6
 msgid "How to jump to your pinned page:"
@@ -6140,18 +6138,32 @@ msgid ""
 "to also change many settings like <span class=\"ui\">line spacing</span>, "
 "<span class=\"ui\">font weight</span>, <span class=\"ui\">margins</span> etc."
 msgstr ""
+"Сада ћемо обрадити још један случај употребе: замислите да сте по свом укусу "
+"изменили подразумеване вредности, тако да кад год отворите нову књигу, она "
+"изгледа тачно онако као желите. А недавно сте почели да читате серије епске "
+"фантастике. Одлучили сте да уроните у књиге, па сте за овај серијал "
+"инсталирали одличан <b>фонт средњевековног изгледа</b> (<a href=\"https://"
+"fonts.google.com/specimen/Eagle+Lake\">овде</a> се налази један фин, у "
+"случају да вам је заиста потребно нешто овако). Али пошто је то потпуно "
+"другачији фонт, такође сте морали да измените разна друга подешавања, као "
+"што су <span class=\"ui\">проред</span>, <span class=\"ui\">тежина фонта</"
+"span>, <span class=\"ui\">маргине</span> итд."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3303-6
 msgid ""
 "To change all these settings for these fantasy books, you have two options "
 "according to what we have learned:"
 msgstr ""
+"Ако желите да за ове књиге епске фантастике измените сва ова подешавања, "
+"према ономе што смо до сада научили, имате две опције:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3306-7
 msgid ""
 "You can change these settings for each book when you open them. This is very "
 "tedious, not a good solution."
 msgstr ""
+"Подешавања можете да измените за сваку књигу када је отворите. То је врло "
+"заморно, није баш добро решење."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3307-7
 msgid ""
@@ -6160,6 +6172,11 @@ msgid ""
 "newly opened books</b>, which we don't want. We only want to apply the "
 "medieval font settings to these few medieval books."
 msgstr ""
+"Можете да измените подешавања за једну књигу, па да употребите "
+"функционалност <span class=\"ui\">Сачувај подешавања документа као "
+"подразумевана</span>. Али ово ће да утиче на <b>све новоотворене књиге</b>, "
+"а то нијо оно што желимо. Средњевековни фонт желимо да применимо само на "
+"ових неколико средњевековних књига."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3311-6
 msgid ""
@@ -6167,12 +6184,18 @@ msgid ""
 "that allows us to save a book's settings and apply them to other books (you "
 "can think of this like copy & paste)."
 msgstr ""
+"На срећу, KOReader поседује функционалност под називом <span class=\"ui\">"
+"Профили</span> која нам омогућава да сачувамо подешавања књиге, па да их "
+"применимо на остале књиге (то можете да посматрате као копирање и "
+"налепљивање)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3314-6
 msgid ""
 "Now going back to our scenario, after adjusting all the settings for your "
 "medieval fantasy book go here:"
 msgstr ""
+"А сада назад на наш сценарио, након постављања свих подешавања за вашу "
+"средњевековну књигу фантастике, идите овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3316-6
 msgid ""
@@ -6191,38 +6214,29 @@ msgid ""
 "class=\"ui\">Profiles</span> menu. To use this, you can open any book and "
 "run this profile and all the saved settings will be applied."
 msgstr ""
+"Од вас ће се тражити да именујете овај профил. Можете да унесете нешто као "
+"што је <b>„Епска фантастика”</b> и да сачувате. На овај начин смо креирали "
+"профил под именом <b>Епска фантастика</b> у којем се налазе сва подешавања "
+"за текућу књигу. Сада можете видети овај новокреирани профил у менију <span "
+"class=\"ui\">Профили</span>. Да бисте га употребили, можете да отворите било "
+"коју књигу, покренете овај профил, па ће се применити сва сачувана "
+"подешавања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3324-6
-#, fuzzy
-#| msgid "You can enable this feature from:"
 msgid "You can run this profile from:"
-msgstr "Ови функционалност можете да укључите из:"
+msgstr "Овај профил можете да покренете из:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3327-7
-#, fuzzy
-#| msgid "With a <span class=\"ui\">Quick Menu</span> entry"
 msgid "<span class=\"ui\">Profiles menu</span> mentioned above"
-msgstr "Ставком <span class=\"ui\">Брзог менија</span>"
+msgstr "<span class=\"ui\">менија Профили</span> поменутог изнад"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3329-7
-#, fuzzy
-#| msgid ""
-#| "Take screenshots <a href=\"#L2-predefinedgestures\" "
-#| "class=\"internalink\"></a>"
 msgid "With a <a href=\"#L1-gestures\" class=\"internalink\">Gesture</a>"
-msgstr ""
-"Правите слике екрана <a href=\"#L2-predefinedgestures\" "
-"class=\"internalink\"></a>"
+msgstr "Са <a href=\"#L1-gestures\" class=\"internalink\">Гестикулацијом</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3330-7
-#, fuzzy
-#| msgid ""
-#| "KOReader can update itself <a href=\"#L2-devicetips\" "
-#| "class=\"internalink\"></a>"
 msgid "From a <a href=\"#L2-quickmenu\" class=\"internalink\">Quick Menu</a>"
-msgstr ""
-"KOReader може сам себе да ажурира <a href=\"#L2-devicetips\" "
-"class=\"internalink\"></a>"
+msgstr "Из <a href=\"#L2-quickmenu\" class=\"internalink\">Брзог менија</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3333-6
 msgid ""
@@ -6232,16 +6246,19 @@ msgid ""
 "will be automatically applied to it. Check the <a href=\"#L2-profiles\" "
 "class=\"internalink\">Profiles</a> section for more information."
 msgstr ""
+"<span class=\"microns_info\" title=\"Contextual information\"></span> "
+"Можете чак да поставите и <b>окидач</b> за овај профил, тако да кадгод "
+"отворите књигу из директоријума <b>„Епска фантастика”</b>, на њу се "
+"аутоматски примени овај профил. Погледајте одељак <a href=\"#L2-profiles\" "
+"class=\"internalink\">Профили</a> за више информација."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3339-6
 msgid "5.2 Using your own fonts"
 msgstr "5.2 Употреба ваших фонтова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3341-6
-#, fuzzy
-#| msgid "Adding a password lock to KOReader"
 msgid "Adding new fonts to KOReader"
-msgstr "Додавање лозинке за закључавање KOReader читача"
+msgstr "Додавање нових фонтова у KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3342-6
 msgid ""
@@ -6249,6 +6266,9 @@ msgid ""
 "b>, <b>status bar font</b> and even as the <b>user interface font</b> (with "
 "a user patch)."
 msgstr ""
+"У KOReader можете да додате сопствене фонтове, па да их користите као <b>"
+"фонт документа</b>, <b>фонт статусне линије</b>, па чак и као <b>фонт "
+"корисничког интерфејса</b> (помоћу корисничке закрпе)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3346-6
 msgid "KOReader supports these common font formats:"
