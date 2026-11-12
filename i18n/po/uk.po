@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 15:52+0000\n"
-"PO-Revision-Date: 2026-11-12 15:51+0000\n"
+"PO-Revision-Date: 2026-11-13 18:51+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.11.2.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -2537,15 +2537,6 @@ msgstr ""
 "документ. На цьому етапі KOReader <b>заблокований</b> для взаємодії з ним."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:1987-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> Partial rendering is only possible "
-#| "if your EPUB is composed of multiple fragments. EPUB files are "
-#| "basically .zip archives that contain .html files. Some books can be a "
-#| "single .html file while others may be composed of multiple .html files "
-#| "like each chapter of the book is a separate .html file. <b>If your book "
-#| "is only a single .html file, partial rendering can not work, because for "
-#| "each change KOReader still has to calculate the whole book.</b>"
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> "
 "Partial rendering is only possible if your EPUB is composed of multiple "
@@ -2555,14 +2546,14 @@ msgid ""
 "<b>If your book is only a single .html file, partial rendering can not work, "
 "because for each change KOReader still has to calculate the whole book.</b>"
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Це можливо лише якщо файл EPUB "
-"складається з багатьох фрагментів. Файли EPUB по суті є архівами .zip, які "
-"містять файли .html. Деякі книги можуть складаються з єдиного файлу .html, в "
-"той час як інші можуть складатися з багатьох файлів .html, в яких кожен "
-"розділ книги міститься в окремому файлі .html. <b>Якщо книга складається з "
-"єдиного файлу .html, тоді часткова візуалізація не працюватиме, оскільки при "
-"кожній зміні KOReader повинен заново здійснити обчислення для всієї книги.</"
-"b>"
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> Це "
+"можливо лише якщо файл EPUB складається з багатьох фрагментів. Файли EPUB по "
+"суті є архівами .zip, які містять файли .html. Деякі книги можуть "
+"складаються з єдиного файлу .html, в той час як інші можуть складатися з "
+"багатьох файлів .html, в яких кожен розділ книги міститься в окремому файлі "
+".html. <b>Якщо книга складається з єдиного файлу .html, тоді часткова "
+"візуалізація не працюватиме, оскільки при кожній зміні KOReader повинен "
+"заново здійснити обчислення для всієї книги.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:1995-12
 msgid ""
@@ -2815,48 +2806,39 @@ msgid ""
 "enabling the <span class=\"ui\">Lock width at minimum</span> option from its "
 "menu:"
 msgstr ""
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Якщо <span "
+"class=\"ui\">смуга поступу</span> та <span class=\"ui\">елементи смуги "
+"стану</span> відображаються в одному рядку, то буде помітно, що ширина смуги "
+"поступу буде змінюватися залежно від ширини інших елементів. Якщо вас це не "
+"влаштовує, можна встановити сталу ширину смуги стану, увімкнувши параметр "
+"<span class=\"ui\">Заблокувати ширину на мінімум</span> в меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:2089-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Progress Bar / Show chapter-"
-#| "progress bar instead"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Status bar / Progress bar / Lock width at minimum"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Панель стану / Смуга поступу / Натомість показати "
-"смугу поступу читання розділу"
+"style=\"width:22px;\"> / Панель стану / Смуга поступу / Заблокувати ширину "
+"на мінімум"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2092-6
-#, fuzzy
-#| msgid "Configuring the status bar"
 msgid "Changing the status bar font"
-msgstr "Налаштування панелі стану"
+msgstr "Зміна шрифту панелі стану"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2094-6
-#, fuzzy
-#| msgid "You can change this setting from this menu:"
 msgctxt "user_guide/en.html+userinterface.p:195-0"
 msgid "You can change the font of status bar items from here:"
-msgstr "Даний параметр можна змінити з цього меню:"
+msgstr "Змінити шрифт елементів панелі стану можна тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2096-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
-#| "status bar"
 msgctxt "user_guide/en.html+userinterface.div:197-0"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Status bar / Configure items / Item font"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Панель стану / Налаштувати елементи / Розташувати "
-"елементи на панелі стану"
+"style=\"width:22px;\"> / Панель стану / Налаштувати елементи / Шрифт елемента"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2099-6
 msgid ""
@@ -2867,12 +2849,16 @@ msgid ""
 "find here: <a href=\"#L2-fonts\" class=\"internalink\">Using your own fonts</"
 "a>"
 msgstr ""
+"Для панелі стану можна використати будь-який з встановлених шрифтів. Якщо "
+"бажаєте вмістити багато інформації, ми пропонуємо шрифт <b>DINish Condensed</"
+"b>, який можна завантажити з <a href=\"https://github.com/playbeing/dinish\">"
+"сторінки проєкту</a> і встановити його як описано тут: <a href=\"#L2-fonts\" "
+"class=\"internalink\">Використання власних шрифтів</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2103-6
-#, fuzzy
-#| msgid "Using \"Custom Text\" item for status bar alignment"
 msgid "Using \"dynamic filler\" item for status bar alignment"
-msgstr "Використання елементу «Власний текст» для вирівнювання панелі стану"
+msgstr ""
+"Використання елементу «Динамічне заповнення» для вирівнювання панелі стану"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2105-6
 msgid ""
@@ -2882,6 +2868,11 @@ msgid ""
 "items on both sides as you can see in the image below (<b>dynamic filler</b> "
 "is visualized as a blue rectangle):"
 msgstr ""
+"Панель стану KOReader'а має спеціальний елемент під назвою <span "
+"class=\"ui\">динамічне заповнення</span>. Коли цей невидимий елемент додано "
+"на панель стану, він розшириться, щоб заповнити доступний простір як надута "
+"куля, штовхаючи інші елементи в обидва боки, як показано на зображенні нижче "
+"(<b>динамічне заповнення</b> візуалізоване як синій прямокутник):"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2110-6
 msgid ""
@@ -2911,17 +2902,13 @@ msgid "First enable this option with a short press on it from this menu"
 msgstr "Спершу увімкніть цю функцію коротким дотиком до пункту меню"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.div:2123-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Custom text: ‘KOReader’"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status Bar / Status bar items / Custom text: "
 "‘KOReader’"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Панель стану / Власний текст: «KOReader»"
+"style=\"width:22px;\"> / Елементи панелі стану / Власний текст: «KOReader»"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2125-7
 msgid ""
@@ -2948,6 +2935,9 @@ msgid ""
 "class=\"ui\">dynamic filler</span> item explained above to adjust your "
 "layout further."
 msgstr ""
+"Щоб додатково налаштувати макет, цей елемент можна використовувати також в "
+"поєднанні з елементом <span class=\"ui\">динамічного заповнення</span>, про "
+"який написано вище."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2134-6
 msgid "Status bar presets"
@@ -4986,7 +4976,7 @@ msgid ""
 "next to the text in a small font."
 msgstr ""
 "Якщо в тому ж меню увімкнути також функцію <span class=\"ui\">Показувати "
-"номери сторінок джерела на полях</span>, ці номери сторінок будуть показані "
+"сталі номери сторінок на полях</span>, ці номери сторінок будуть показані "
 "дрібним шрифтом поруч з текстом."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2932-6
