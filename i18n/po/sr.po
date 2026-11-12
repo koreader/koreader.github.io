@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-11 15:04+0000\n"
-"PO-Revision-Date: 2026-11-11 15:03+0000\n"
+"PO-Revision-Date: 2026-11-12 15:51+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -359,7 +359,8 @@ msgid ""
 "translated by volunteers:"
 msgstr ""
 "Тренутно читате <b>српску</b> верзију <b>KOReader корисничког упутства</b>. "
-"Упутство имамо и осталим језицима, на које су га превели волонтери:"
+"Захваљујући волонтерима који су га превели, упутство имамо и на осталим "
+"језицима:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.ul.li:1199-7
 msgid "Català (Catalan)"
@@ -6272,19 +6273,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3346-6
 msgid "KOReader supports these common font formats:"
-msgstr ""
+msgstr "KOReader подржава следеће уобичајене формате фонтова:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3349-7
 msgid "TrueType - <b>.ttf</b> extension"
-msgstr ""
+msgstr "TrueType - <b>.ttf</b> екстензија"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3351-7
 msgid "OpenType - <b>.otf</b> extension"
-msgstr ""
+msgstr "OpenType - <b>.otf</b> екстензија"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3353-7
 msgid "Web Open Font Format - <b>.woff</b> and <b>.woff2</b> extension"
-msgstr ""
+msgstr "Web Open Font Format - <b>.woff</b> и <b>.woff2</b> екстензија"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3358-6
 msgid ""
@@ -6292,12 +6293,17 @@ msgid ""
 "class=\"ui\">/koreader/fonts/</span> folder on your device. Depending on "
 "your device, this copying procedure might differ. For example:"
 msgstr ""
+"Фајлови фонта са овим екстензијама могу директно да се копирају у фолдер "
+"<span class=\"ui\">/koreader/fonts/</span> на вашем уређају. У зависности "
+"уређаја, процедура копирања може да се разликује. На пример:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3362-7
 msgid ""
 "On <b>Kobo</b> devices complete path is <span class=\"ui\">/mnt/"
 "onboard/.adds/koreader/fonts</span>"
 msgstr ""
+"На <b>Kobo</b> уређајима, комплетна путања је <span class=\"ui\">/mnt/"
+"onboard/.adds/koreader/fonts</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3365-7
 msgid ""
@@ -6305,24 +6311,33 @@ msgid ""
 "class=\"ui\">/applications/koreader/fonts/</span> directory and copy your "
 "font there."
 msgstr ""
+"На <b>PocketBook</b> уређајима, направите директоријум за сваки фонт у "
+"директоријуму <span class=\"ui\">/applications/koreader/fonts/</span> и "
+"копирајте у њега свој фонт."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3369-7
 msgid ""
 "On <b>Android OS</b> based devices, you can copy your fonts to these "
 "directories:"
 msgstr ""
+"На уређајима базираним на <b>Android ОС</b>, своје фонтове можете да "
+"копирате у следеће директоријуме:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:3372-9
 msgid ""
 "<span class=\"ui\">Internal storage/Fonts</span> - General font directory "
 "for all Android apps"
 msgstr ""
+"<span class=\"ui\">Internal storage/Fonts</span> - Општи директоријум за "
+"фонтове који могу да користе све Android апликације"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:3374-9
 msgid ""
 "<span class=\"ui\">Internal storage/koreader/fonts</span> - KOReader "
 "specific font directory."
 msgstr ""
+"<span class=\"ui\">Internal storage/koreader/fonts</span> - Директоријум за "
+"фонтове специфичан за апликацију KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3378-7
 msgid ""
@@ -6332,19 +6347,20 @@ msgid ""
 "fonts</span> option from the same menu, KOReader can access all the fonts "
 "that are available to your operating system:"
 msgstr ""
+"На <b>Десктоп</b> верзији, своје фонтове можете да копирате на локацију коју "
+"видите у ставки менија приказаног испод: <span class=\"ui\">Отвори "
+"директоријум са фонтовима</span>. Такође, ако у ситом менију укључите опцију "
+"<span class=\"ui\">Укључи системске фонтове</span>, KOReader може да "
+"приступи свим фонтовима који постоје на вашем оперативном систему:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.div:3382-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Font / Font settings / Monospace fonts scaling"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Font / Font settings / Open fonts folder"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Фонт / Подешавања фонта / Скалирање фонтова фиксне "
-"ширине"
+"style=\"width:22px;\"> / Фонт / Подешавања фонта / Отвори директоријум са "
+"фонтовима"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3386-6
 msgid ""
@@ -6353,6 +6369,10 @@ msgid ""
 "copying your fonts to the mentioned directories, restart KOReader. New fonts "
 "should appear at the beginning of the font list:"
 msgstr ""
+"KOReader подржава поддиректоријуме за <span class=\"ui\">Fonts</span> "
+"директоријум, тако да фамилије фонтова можете да копирате као директоријуме "
+"у њему. Након копирања фонтова у поменуте директоријуме, поново покрените "
+"KOReader. Нови фонтови би требало да се појаве на врху листе фонтова:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3389-6
 msgctxt "user_guide/en.html+formattingyourbook.div:274-0"
@@ -6389,29 +6409,21 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3398-6
 msgid "Changing the status bar and user interface fonts"
-msgstr ""
+msgstr "Измена статусне линије у фонтови за кориснички интерфејс"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3400-6
-#, fuzzy
-#| msgid "You can change this setting from this menu:"
 msgctxt "user_guide/en.html+formattingyourbook.p:285-0"
 msgid "You can change the font of status bar items from here:"
-msgstr "Ово подешавање можете да измените из следећег менија:"
+msgstr "На следећем месту можете да промените фонт за ставке статусне линије:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3402-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
-#| "status bar"
 msgctxt "user_guide/en.html+formattingyourbook.div:287-0"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Status bar / Configure items / Item font"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Статусна линија / Конфигурисање ставки / Ређање "
-"ставки у статусној линији"
+"style=\"width:26px;\"> / Статусна линија / Конфигурисање ставки / Фонт ставке"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3405-6
 msgid ""
@@ -6421,6 +6433,11 @@ msgid ""
 "playbeing/dinish\">here</a> and install using the same procedure explained "
 "above."
 msgstr ""
+"За статусну линију можете да користите било који инсталирани фонт. Ако је "
+"потребно да прикажете доста информација уз одржавање читљивости, предлажемо "
+"фонт <b>DINish Condensed</b>. Можете да га преузмете <a href=\"https://"
+"github.com/playbeing/dinish\">овде</a> и да га инсталирате истом процедуром "
+"коју смо објаснили изнад."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3409-6
 msgid ""
@@ -6429,19 +6446,24 @@ msgid ""
 "Instructions are here: <a href=\"https://github.com/koreader/koreader/issues/"
 "14846\">User interface font changer patch</a>"
 msgstr ""
+"Ако желите да промените фонт KOReader корисничког интерфејса (менији и "
+"дијалози), то можете да урадите помоћу <span class=\"ui\">корисничке закрпе</"
+"span>. Упутство се налази овде: <a href=\"https://github.com/koreader/"
+"koreader/issues/14846\">User interface font changer patch</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3411-6
 msgid "Font suggestions for e-ink screens"
-msgstr ""
+msgstr "Предлози фонтова за e-ink екране"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3412-6
 msgid ""
 "These fonts look good on an e-ink screen due to their increased contrast:"
 msgstr ""
+"Следећи фонтови лепо изгледају на e-ink екрану јер имају повећани контраст:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:3416-41
 msgid "Serif suggestions"
-msgstr ""
+msgstr "Предлози за серифне"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3418-9
 msgid "Spectral"
@@ -6456,14 +6478,12 @@ msgid "EB Garamond"
 msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:3423-41
-#, fuzzy
-#| msgid "Sans Serif:"
 msgid "Sans Serif suggestions"
-msgstr "Линеарни:"
+msgstr "Предлози за линеарне"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3425-9
 msgid "Geologica (Current user guide font)"
-msgstr ""
+msgstr "Geologica (Тренутни фонт корисничког упутства)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3426-9
 msgid "Varela Round"
@@ -6475,7 +6495,7 @@ msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3428-9
 msgid "Google Sans Flex"
-msgstr ""
+msgstr "Google Sans Flex"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3433-6
 msgid ""
@@ -6483,6 +6503,10 @@ msgid ""
 "specialfonts\">Special Fonts</a> section that might be useful if you need a "
 "font that is specifically developed for better legibility, Dyslexia or ADHD."
 msgstr ""
+"У овом упутству имамо одељак <a class=\"internalink\" href=\"#L2-"
+"specialfonts\">Специјални фонтови</a> који може бити користан ако вам је "
+"потребан фонт који се специјално дизајниран за бољу читљивост, Dyslexia или "
+"ADHD."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3436-6
 msgid ""
@@ -6492,12 +6516,15 @@ msgid ""
 "fixes, enabling ligatures and opentype features that weren't properly "
 "implemented, etc."
 msgstr ""
+"Такође вам предлажемо да погледате пројекат <a href=\"https://github.com/"
+"Chairzard/WP-Fonts\">WP Fonts</a>. Он поседује највећу збирку бесплатних/"
+"фонтова отвореног кода за KOReader, са исправкама багова и осталим додацима, "
+"као што су исправке кернинга, укључивање лигатура и opentype функционалности "
+"која нису исправно имплментирана итд."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3440-6
-#, fuzzy
-#| msgid "Monospace font scale"
 msgid "Monospace suggestion"
-msgstr "Скалирање фонта фиксне ширине"
+msgstr "Предлози за фонтове фиксне ширине"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3441-6
 msgid ""
@@ -6512,18 +6539,12 @@ msgstr ""
 "www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3443-6
-#, fuzzy
-#| msgid ""
-#| "Here are some example fonts which look good on an e-ink screen. You can "
-#| "find more of them on the <a href=\"https://fonts.google.com\">Google "
-#| "Fonts</a> website:"
 msgid ""
 "You can also discover more fonts on the <a href=\"https://"
 "fonts.google.com\">Google Fonts</a> website."
 msgstr ""
-"Ево примера неких фонтова који лепо изгледају на e-ink екрану. Више њих "
-"можете да пронађете на <a href=\"https://fonts.google.com\">Google Fonts</a> "
-"веб сајту:"
+"Још фонтова можете да пронађете и на <a href=\"https://fonts.google.com\">"
+"Google Fonts</a> веб сајту."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3449-6
 msgid "Using different fonts in one document"
@@ -6648,6 +6669,8 @@ msgid ""
 "Technical details of KOReader font system and troubleshooting <span "
 "class=\"microns_warning\" title=\"Advanced topic\"></span>"
 msgstr ""
+"Технички детаљи KOReader фонт система и отклањање проблема <span "
+"class=\"microns_warning\" title=\"Напредна тема\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3488-6
 msgid ""
@@ -6655,17 +6678,11 @@ msgid ""
 "KOReader, this section can help you to understand how KOReader's font "
 "processing works:"
 msgstr ""
+"Ако имае проблема са тежинама фонта када додајете фонтове у KOReader, овај "
+"одељак вам може помоћи да разумете како функционише обрада фонтова у "
+"програму KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3491-7
-#, fuzzy
-#| msgid ""
-#| "When starting up, KOReader compiles the available fonts from the <b>font "
-#| "metadata/info</b> and classifies them according to family and weights. "
-#| "This means you can add different weights and variants of a font and "
-#| "KOReader will try to use the most suitable one. <b>Since it takes font "
-#| "family information from metadata, font names are not important when "
-#| "copying to your device. Installed fonts will be available after "
-#| "restarting KOReader.</b>"
 msgid ""
 "When starting up, KOReader compiles the available fonts by reading their "
 "embedded <b>font metadata/info</b> and classifies them according to family "
@@ -6673,13 +6690,11 @@ msgid ""
 "from the metadata included in the font, so <b>font names are not important</"
 "b> when copying to your device."
 msgstr ""
-"Када се покреће, KOReader сакупља доступне фонтове из <b>метаподатака/"
-"информација у фонту</b> и класификује их по фамилијама и тежинама. Ово значи "
-"да можете додати различите тежине и варијанте фонта и KOReader ће покушати "
-"да употреби најпогоднији. <b>Пошто информације о фамилији фонта узима из "
-"метаподатака, имена фајлова фонтова нису важна када их копирате на уређај. "
-"Инсталирани фонтови постају доступни након поновног покретања програма "
-"KOReader.</b>"
+"Када се покреће, KOReader сакупља доступне фонтове читајући уграђене <b>"
+"метаподатке/информације у фонту</b> и класификује их по фамилијама и "
+"тежинама. KOReader покушава да одреди <b>информације о фамилији фонта</b> из "
+"метаподатака који су део фонта, тако да </b>имена фајлова фонтова нису "
+"важна</b> када их копирате на уређај."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3496-7
 msgid ""
@@ -6687,32 +6702,41 @@ msgid ""
 "fit fonts in one of these 4 categories: <b>Regular, Bold, Italic & "
 "BoldItalic</b>. An ideal case looks like this:"
 msgstr ""
+"Ако имате више од једног фајла за фамилију фонтова, KOReader ће покушати да "
+"фонтове постави у једну од следеће четири категорије: <b>Regular, Bold, "
+"Italic & BoldItalic</b>. Идеални случај изгледа овако:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3498-9
 msgid ""
 "Luciole-Regular.ttf mapped to <span class=\"ui\">Font weight: 0</span> "
 "(Regular 400)"
 msgstr ""
+"Luciole-Regular.ttf се мапира у <span class=\"ui\">Тежина фонта: 0</span> "
+"(Regular 400)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3500-9
 msgid ""
 "Luciole-Bold.ttf mapped to <span class=\"ui\">Font weight: +3</span> (Bold "
 "700)"
 msgstr ""
+"Luciole-Bold.ttf се мапира у <span class=\"ui\">Тежина фонта: +3</span> "
+"(Bold 700)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3502-9
 msgid "Luciole-Regular-Italic.ttf"
-msgstr ""
+msgstr "Luciole-Regular-Italic.ttf"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3503-9
 msgid "Luciole-Bold-Italic.ttf"
-msgstr ""
+msgstr "Luciole-Bold-Italic.ttf"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul:3503-36
 msgid ""
 "If a font variation is not available, as well as for fractional adjustments, "
 "it will be synthesized from the nearest available weight."
 msgstr ""
+"Ако варијанта фонта није доступна, као и за децимална подешавања, "
+"синтетизоваће се из најближе доступне тежине."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3507-7
 msgid ""
@@ -6723,6 +6747,12 @@ msgid ""
 "<b>Bold</b> font, then KOReader will synthesize the <b>Regular</b> weight "
 "from this bold font.)"
 msgstr ""
+"Ако се ваш фонт испоручује само као један фајл и није <b>Bold</b>, KOReader "
+"ће га класификовати као (Regular 400) <span class=\"ui\">Тежина фонта: 0</"
+"span> и сам ће да синтетизује све остале тежине и варијанте. Другим речима, "
+"KOReader ће лажирати курзив и црни слог за овај фонт. (Ако је ваш једини "
+"фајл фонта <b>Bold</b> фонт, онда ће KOReader да синтетизује <b>Regular</b> "
+"тежину из овог фонта црног слога.)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3513-6
 msgid ""
@@ -6730,6 +6760,9 @@ msgid ""
 "class=\"ui\">Font weight</span> label in the bottom menu, it will tell you "
 "which weight classes your current font provides."
 msgstr ""
+"<span class=\"microns_info\"></span> Ако урадите дуги притисак на ознаку "
+"<span class=\"ui\">Тежина фонта</span> у менију на дну, видећете које класе "
+"тежине обезбеђује ваш текући фонт."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3517-6
 msgid ""
@@ -6744,6 +6777,16 @@ msgid ""
 "Normal</b> and <b>Medium</b> variants because it has already found a \"not "
 "bold\" font for the document."
 msgstr ""
+"<span class=\"microns_warning\"></span> Ако ваш фонт поседује и остале "
+"варијанте, ствари могу да постану збуњујуће. Рецимо да сте на свој уређај "
+"копирали фамилију фонтова. И након покретања, KOReader је прочитао следеће "
+"варијанте фонта: <b>Light, Thin, Normal, Medium, ExtraBlack, SemiBold, Bold, "
+"Black</b>, у овом редоследу. Очекивали бисте да се <b>Normal</b> варијанта "
+"користи као нормални фонт документа (јер је названа <b>Normal</b>), али "
+"KOReader ће да користи <b>Light</b> варијанту, јер је то први фонт у листи "
+"који нема <b>bold заставицу</b>. И игнорисаће <b>Thin, Normal</b> и <b>"
+"Medium</b> варијанте, јер је за документ већ пронашао фонт који „није црни "
+"слог”."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3525-6
 msgid ""
@@ -6752,6 +6795,10 @@ msgid ""
 "KOReader will ignore the <b>SemiBold, Bold, Black</b> variants, because "
 "KOReader has already found the \"bold\" it is looking for."
 msgstr ""
+"И поново, сагласно са овом листом, <b>ExtraBlack</b> ће се користити као "
+"фонт црног слога јер је то први фонт у листи са <b>bold заставицом</b>. И "
+"KOReader ће игнорисати <b>SemiBold, Bold, Black</b> варијанте, јер је већ "
+"пронашао „црни слог” који је тражио."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3529-6
 msgid ""
@@ -6761,12 +6808,17 @@ msgid ""
 "order of the fonts that are fed to KOReader is not under our control so "
 "\"first come is first served\"."
 msgstr ""
+"Као резиме овога изнад: копирали смо целу фамилију фонтова и очекивали да се "
+"изаберу варијанте <b>Normal</b> и <b>Bold</b>, али уместо њих, KOReader "
+"користи <b>Light</b> и <b>ExtraBlack</b> варијанте. До овога је дошло услед "
+"тога што немамо контролу редоследа испоручивања фонтова у KOReader, тако да "
+"се „опслужује први који наиђе”."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3535-6
 msgid ""
 "Solution is, transferring only the font files that you want to be used, like "
 "this:"
-msgstr ""
+msgstr "Решење је да пренесете само фонтове које желите да користите, овако:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3538-7
 msgid ""
@@ -6774,18 +6826,25 @@ msgid ""
 "used as the <b>regular font</b> (If your <b>Regular</b> font is too thin, "
 "just replace it with <b>Medium</b> weight if you have it)."
 msgstr ""
+"Задржите само један од <b>Thin, Extra Light, Light, Normal, Medium</b>: он "
+"ће се користити као <b>регуларни фонт</b> (ако је ваш <b>Regular</b> фонт "
+"сувише танак, просто га замените са <b>Medium</b> тежином, ако је имате)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3542-7
 msgid ""
 "Keep only one of <b>Semi Bold, Bold, Extra Bold, Black, Extra Black</b>: It "
 "will be used as the <b>bold font</b>."
 msgstr ""
+"Задржите само један од <b>Semi Bold, Bold, Extra Bold, Black, Extra Black</b>"
+": он ће се користи као <b>фонт црног слога</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3543-7
 msgid ""
 "You can also add italic variants of the same weight (i.e. medium/medium-"
 "italic)."
 msgstr ""
+"Можете такође и да додате курзивне варијанте исте тежине (тј. medium/medium-"
+"italic)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3546-6
 msgid ""
@@ -7436,7 +7495,7 @@ msgstr "H1 { border-top: 2px solid black; }"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3781-6
 msgctxt "user_guide/en.html:L1-annotating"
 msgid "6 ANNOTATING DOCUMENTS"
-msgstr ""
+msgstr "6 ОЗНАЧАВАЊЕ ДОКУМЕНАТА"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3783-6
 msgid ""
@@ -7617,10 +7676,8 @@ msgstr ""
 "style=\"width:22px;\"> / Истицања / Маркер белешке"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3861-6
-#, fuzzy
-#| msgid "Tap on the highlight"
 msgid "What you can do with your highlight?"
-msgstr "Тапнете на истицање"
+msgstr "Шта можете да урадите са својим истицањем?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3863-6
 msgid ""
@@ -7629,54 +7686,50 @@ msgid ""
 "you can reach another extended menu by tapping on the <span class=\"ui\">... "
 "(three dots)</span> button as shown below:"
 msgstr ""
+"Када истакнете део свог документа, можете да тапнете на истицање да вам се "
+"прикаже <span class=\"ui\">мени истицања</span>. Из овог менија можете да "
+"дођете до још једног проширеног менија, тапом на дугме <span class=\"ui\">"
+"... (три тачке)</span>, као што је приказано испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3868-6
 msgid "Using this extended menu you can:"
-msgstr ""
+msgstr "Користећи овај проширени мени, можете да:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3870-7
 msgid "<span class=\"ui\">Extend</span> your highlight to include more text"
 msgstr ""
+"<span class=\"ui\">Проширите</span> своје истицање тако да обухвати још "
+"текста"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3872-7
-#, fuzzy
-#| msgid "<span class=\"ui\">History</span> - List of books you opened"
 msgid "<span class=\"ui\">Copy</span> the text to clipboard to paste elsewhere"
-msgstr "<span class=\"ui\">Историја</span> - листа књига које сте отворили"
+msgstr ""
+"<span class=\"ui\">Копирате</span> текст у клипборд да бисте га налепили "
+"негде другде"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3874-7
-#, fuzzy
-#| msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
 msgid "<span class=\"ui\">Search</span> the text on Wikipedia"
-msgstr "Из искачућег менија изаберите <span class=\"ui\">Избор</span>"
+msgstr "<span class=\"ui\">Претражите</span> текст на Википедији"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3876-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">About book map:</span> Short explanation of Book map "
-#| "usage and icon descriptions."
 msgid "<span class=\"ui\">Look up</span> the text in an installed dictionary"
-msgstr ""
-"<span class=\"ui\">О мапи књиге:</span> кратко објашњење о начину на који се "
-"користи Мапа књиге, као и опис икона."
+msgstr "<span class=\"ui\">Претражите</span> тај текст у инсталираном речнику"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3878-7
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Translate</span> the text using the <span "
 "class=\"external\">Google Translate</span> service"
 msgstr ""
-"Тапните на ставку менија <span class=\"ui\">Активирај</span> па онда тапните "
-"на <span class=\"ui\">Сагласно са позицијом Сунца</span>"
+"<span class=\"ui\">Преводите</span> текст употребом <span class=\"external\">"
+"Google Translate</span> сервиса"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3881-7
 msgid ""
 "<span class=\"ui\">View HTML</span> source of the highlighted section, which "
 "is useful when writing a <span class=\"ui\">style tweak</span>"
 msgstr ""
+"<span class=\"ui\">Приказујете HTML</span> изор истакнутог одељка, што је "
+"корисно током пиања <span class=\"ui\">дотеривања стила</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3883-7
 msgid ""
@@ -7684,19 +7737,17 @@ msgid ""
 "text, to scan from another device with a camera and a QR-code reader "
 "application"
 msgstr ""
+"<span class=\"ui\">Генеришете QR кôд</span> који укључује истакнути текст, "
+"тако да се скенира другим уређајем са камером и апликацијом читача QR-кôда"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3885-7
-#, fuzzy
-#| msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
 msgid "<span class=\"ui\">Search</span> for the text in the book"
-msgstr "Из искачућег менија изаберите <span class=\"ui\">Избор</span>"
+msgstr "<span class=\"ui\">Претражујете</span> тај текст у књизи"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3889-6
-#, fuzzy
-#| msgid "Exit highlighting mode"
 msgctxt "user_guide/en.html:L2-howtohighlight"
 msgid "6.1 Highlight Modes"
-msgstr "6.1 Напусти режим истицања"
+msgstr "6.1 Режими истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3891-6
 msgid "KOReader has two highlighting modes for different use cases:"
@@ -7759,21 +7810,24 @@ msgid ""
 "these actions to a gesture or use them in your <span class=\"ui\">quick "
 "menu</span>. You can find them here:"
 msgstr ""
+"<span class=\"microns_tip\" title=\"Користан савет\"></span> <span "
+"class=\"ui\">Гестикулација дугог притиска на угао</span> може да изазове "
+"проблеме када желите да извршите дуги притисак на текст у близини углова. "
+"Имамо специјалне <span class=\"ui\">акције менаџера гестикулација</span> "
+"које вам омогућавају да <b>укључите/искључите</b> или <b>привремено "
+"онемогућите</b> гестикулације дугог притиска на угао. Ове акције можете да "
+"доделите гестикулацији, или да их користите у свом <span class=\"ui\">брзом "
+"менију</span>. Можете да их пронађете овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:3917-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
-#| "GESTURE” / General / Open Previous Document"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Gesture manager / \"ANY GESTURE\" / Device / "
 "Toggle┆Ignore long-press on corners"
 msgstr ""
-"МЕНИ НА ВРХУ/ <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама / "
-"„БИЛО КОЈА ГЕСТИКУЛАЦИЈА” / Опште / Отвори претходни документ"
+"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
+"style=\"width:26px;\"> / Управљач гестикулацијама / „БИЛО КОЈА ГЕСТИКУЛАЦИЈА"
+"” / Уређај / Укљ./Искљ.┆Игнориши дуге притиске на углове"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3920-6
 msgid "Select and highlight mode"
@@ -8382,18 +8436,13 @@ msgstr ""
 "span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4139-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> You can also export only some of "
-#| "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
-#| "Normally KOReader exports all of them. You can choose from:"
 msgid ""
 "<span class=\"microns_info\"></span> You can also export only chosen "
 "highlight styles: <b>lighten, underline, strikeout, invert</b>. Normally "
 "KOReader exports all of them. You can choose from:"
 msgstr ""
-"<span class=\"label_green\">САВЕТ</span> Такође можете да извезете само неке "
-"од ових стилова истицања: <b>посветљено, подвучено, прецртано, инвертовано</"
+"<span class=\"microns_info\"></span> Такође можете да извезете само "
+"изабране стилова истицања: <b>посветљено, подвучено, прецртано, инвертовано</"
 "b>. KOReader их обично извози све. Можете да изаберете из:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4142-6
@@ -8410,6 +8459,10 @@ msgid ""
 "exports from the plugin's menu (<span class=\"ui\">Set export filename</"
 "span>) to include date/time information and other useful info."
 msgstr ""
+"<span class=\"microns_info\"></span> Име фајла који се извози можете да "
+"прилагодите из менија додатка (<span class=\"ui\">Постави име фајла извоза</"
+"span>) тако да укључи информације о датуму/времену, као и остале корисне "
+"информације."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4148-6
 msgid ""
@@ -8484,11 +8537,9 @@ msgid "7 READING PDFS"
 msgstr "7 ЧИТАЊЕ PDF ДОКУМЕНАТА"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4182-6
-#, fuzzy
-#| msgid "Reading Tips"
 msgctxt "user_guide/en.html:L2-readingpdfs"
 msgid "7.1 PDF Reading Tips"
-msgstr "7.1 Савети за читање"
+msgstr "7.1 Савети за читање PDF докумената"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4183-6
 msgid ""
@@ -8756,11 +8807,9 @@ msgstr ""
 "фактора, ова функција <b>могла да успори читач</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4297-6
-#, fuzzy
-#| msgid "2. Using KoHighlights"
 msgctxt "user_guide/en.html:L2-savepdfhighlights"
 msgid "7.3 Saving PDF Highlights"
-msgstr "2. Употребом KoHighlights"
+msgstr "7.3 Чување PDF истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4299-6
 msgid ""
@@ -8799,6 +8848,10 @@ msgid ""
 "Browser, Foxit Reader, Ghostscript, LibreOffice, Moon Reader, MuPDF, Okular, "
 "Xpdf, Zathura."
 msgstr ""
+"Ова функционалност би требало да рада на свим PDF читачима. Тестирали смо и "
+"потврдили следеће : Adobe Acrobat Reader, Chrome Browser, Deepin Reader, "
+"Evince, Firefox Browser, Foxit Reader, Ghostscript, LibreOffice, Moon "
+"Reader, MuPDF, Okular, Xpdf, Zathura."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4306-6
 msgid ""
@@ -8989,10 +9042,8 @@ msgstr ""
 "када правите резервну копију или копирате књигу на друге уређаје."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4368-6
-#, fuzzy
-#| msgid "Exporting highlights"
 msgid "7.4 Importing PDF Highlights"
-msgstr "7.4 Извоз истицања"
+msgstr "7.4 Увоз PDF истицања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4370-6
 msgid ""
@@ -9000,12 +9051,13 @@ msgid ""
 "PDF applications. We can't give a list of compatible applications, but "
 "import feature generally works with popular PDF readers."
 msgstr ""
+"KOReader може да увезе истицања из PDF фајлова који су означени осталим PDF "
+"апликацијама. Не можемо да наведемо листу компатибилних апликација, али "
+"функционалност увоза у општем случају ради са популарним PDF читачима."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4372-6
-#, fuzzy
-#| msgid "Tap on the highlight"
 msgid "To import the highlights:"
-msgstr "Тапнете на истицање"
+msgstr "Да бисте увезли истицање:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4375-7
 msgid "Open your PDF file with KOReader"
