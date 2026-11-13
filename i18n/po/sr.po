@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-12 15:52+0000\n"
-"PO-Revision-Date: 2026-11-12 15:51+0000\n"
+"PO-Revision-Date: 2026-11-13 18:51+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.11.2.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -9610,6 +9610,12 @@ msgid ""
 "detailed info and install instructions on the <a href=\"https://github.com/"
 "Euphoriyy/derainbowify.koplugin\">GitHub page</a> of this plugin."
 msgstr ""
+"Услед технологије колор e-ink екрана, могуће је да када читате црно-беле "
+"стрипове/манге са финим сенчењем или тачкама видите артефакте боје који личе "
+"на дугу . Ако имате овај проблем, постоји KOReader додатак од називом <span "
+"class=\"external\">Derainbowify</span> који га решава. Детаљне информације и "
+"упутство за инсталацију можете да видите на <a href=\"https://github.com/"
+"Euphoriyy/derainbowify.koplugin\">GitHub страници</a> овог додатка."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4569-6
 msgid "Immersive mode in KOReader"
@@ -9634,6 +9640,8 @@ msgid ""
 "Extra step for smooth gradients <span class=\"microns_warning\" "
 "title=\"Advanced topic\"></span>"
 msgstr ""
+"Додатни корак за глатке градијенте <span class=\"microns_warning\" "
+"title=\"Напредна тема\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4579-6
 msgid ""
@@ -9881,13 +9889,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4680-6
 msgid "Showing hidden files and directories in File Browser"
-msgstr ""
+msgstr "Приказ скривених фајлова и директоријума у Прегледачу фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4681-6
 msgid ""
 "Normally, KOReader <b>file browser</b> doesn't show these two groups of "
 "files and directories:"
 msgstr ""
+"KOReader <b>прегледач фајлова</b> обично не приказује следеће две групе "
+"фајлова и директоријума:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4685-7
 msgid ""
@@ -9895,18 +9905,18 @@ msgid ""
 "start with a dot (.) character, like <span class=\"ui\">.screensavers</"
 "span>. If you want to see these directories and files, enable this option:"
 msgstr ""
+"<b>Скривени фајлови и директоријуми:</b> ово су фајлови и директоријуми који "
+"почињу тачком (.), као на пример, <span class=\"ui\">.screensavers</span>. "
+"Ако желите да видите ове директоријуме и фајлове, укључите следећу опцију:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4688-7
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:26px;\"> / Settings / Show hidden files"
 msgstr ""
-"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Подешавања / Маркери књиге/ Прикажи у ставкама"
+"(ПРЕГЛЕДАЧ ФАЈЛОВА) МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/"
+"top_cabinet.svg\" style=\"width:26px;\"> / Подешавања / Прикажи скривене "
+"фајлове"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4691-7
 msgid ""
@@ -9918,18 +9928,22 @@ msgid ""
 "the <span class=\"ui\">file browser</span>. If you want to see the "
 "unsupported file types too, you can enable this option:"
 msgstr ""
+"<b>Неподржане типове фајлова:</b> ово су типови фајлова које KOReader <b>не "
+"може директно да отвори</b>, као што су фонтови са <b>.ttf</b> екстензијом. "
+"KOReader може директно да отвори следеће типове фајлова: PDF, EPUB, DJVU, "
+"MOBI, CBR, CBZ, CBT, DOCX, RTF, HTML, HTMLZ, TXT, XPS, FB2, PDB, CHM и MD "
+"типове докумената, фајлове слика и ZIP/RAR архиве, тако да су у <span "
+"class=\"ui\">прегледачу фајлова</span> видљиви само ови фајлови. Ако желите "
+"да видите и неподржане типове фајлова, можете да укључите следећу опцију:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4695-7
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:26px;\"> / Settings / Bookmarks"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:26px;\"> / Settings / Show unsupported files"
 msgstr ""
-"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:26px;\"> / Подешавања / Маркери књиге"
+"(ПРЕГЛЕДАЧ ФАЈЛОВА) МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/"
+"top_cabinet.svg\" style=\"width:26px;\"> / Подешавања / Прикажи фајлове "
+"неподржаног типа"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4699-6
 msgid "Working on multiple files"
@@ -11205,7 +11219,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5153-6
 msgctxt "user_guide/en.html:L2-optimizing"
 msgid "9.4 Optimizing Documents"
-msgstr ""
+msgstr "9.4 Оптимизовање докумената"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5155-6
 msgid ""
@@ -11214,12 +11228,14 @@ msgid ""
 "down KOReader. Here we will give some tips for optimizing your document "
 "depending on the file type."
 msgstr ""
+"KOReader је дизајниран да ефикасно ради чак и на огрниченом хардверу читача "
+"е-књига. Али увек ће бити лоше форматираних докумената који успоравају "
+"KOReader. Овде ћемо вам дати неке савете за оптимизацију докумената, у "
+"зависности од типа фајла."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5159-6
-#, fuzzy
-#| msgid "Profiles"
 msgid "EPUB files"
-msgstr "Профили"
+msgstr "EPUB фајлови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5162-7
 msgid ""
@@ -11270,12 +11286,6 @@ msgstr ""
 "књигу, а не само текуће поглавље."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5171-7
-#, fuzzy
-#| msgid ""
-#| "Another rare case of slowness is when the content is wrapped in a <b>HTML "
-#| "table tag</b>. KOReader has to render/draw each cell on each page turn, "
-#| "so if a cell (containing many paragraphs) spans 50 pages, this will make "
-#| "page turning quite slow. See below for the solution."
 msgid ""
 "Another rare case of slowness is when the content is wrapped in a <b>HTML "
 "table tag</b>. KOReader has to render/draw each cell on each page turn, so "
@@ -11285,14 +11295,11 @@ msgstr ""
 "Још један редак случај мале брзине је када се садржај постави унутар <b>HTML "
 "table ознаке</b>. KOReader мора да исцрта сваку ћелију приликом сваког "
 "окретања странице, па ако се ћелија (која садржи много пасуса) простире на "
-"50 страница, то ће значајно да успори окретање странице. За решење, "
-"погледајте испод."
+"50 страница, то ће значајно да успори окретање странице."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5174-6
-#, fuzzy
-#| msgid "Collections"
 msgid "Solutions:"
-msgstr "Збирке"
+msgstr "Решења:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5177-7
 msgid ""
@@ -11394,14 +11401,12 @@ msgstr ""
 "github.com/w3c/epubcheck/wiki/GUI\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5210-6
-#, fuzzy
-#| msgid "Profiles"
 msgid "PDF files"
-msgstr "Профили"
+msgstr "PDF фајлови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5212-6
 msgid "PDF files can be slow because of these problems:"
-msgstr ""
+msgstr "PDF фајлови могу да буду спори услед следећих проблема:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5215-7
 msgid "PDF file itself might be <b>too big for your device memory</b>."
@@ -11467,12 +11472,6 @@ msgstr ""
 "style=\"width:22px;\"> / Квалитет исцртавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5235-6
-#, fuzzy
-#| msgid ""
-#| "Unfortunately, for bad PDF files there are not many solutions. Generally "
-#| "best solution with problematic PDFs and EPUBs is trying to find a better "
-#| "version of it. Or if another file type is available for download, like "
-#| "EPUB instead of PDF (or reverse) you can try that format."
 msgid ""
 "Unfortunately, for bad PDF files there are not many solutions. Generally "
 "best solution with problematic PDFs is trying to find a better version of "
@@ -11480,15 +11479,17 @@ msgid ""
 "PDF (or reverse) you can try that format."
 msgstr ""
 "Нажалост, у случају лоших PDF фајлова немате много доступних решења. За "
-"проблематичне PDF и EPUB документе је обично најбоље решење да покушате "
-"пронаћи њихову бољу верзију. Или ако може да се преузме други тип фајла, као "
-"што је EPUB уместо PDF (или обрнуто), пробајте тај формат."
+"проблематичне PDF документе је обично најбоље решење да покушате пронаћи "
+"њихову бољу верзију. Или ако може да се преузме други тип фајла, као што је "
+"EPUB уместо PDF (или обрнуто), пробајте тај формат."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5237-6
 msgid ""
 "Also you can try to convert your documents into the more flexible EPUB "
 "format. Here are some apps that can help you when working with PDFs:"
 msgstr ""
+"Такође можете покушати да конвертујете документе у флексибилнији EPUB "
+"формат. Ево неких апликација које вам могу помоћи у раду са PDF документима:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5240-7
 msgid ""
@@ -11532,23 +11533,19 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5250-6
 msgid "Manga and Comics"
-msgstr ""
+msgstr "Манга и стрипови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5252-6
-#, fuzzy
-#| msgid ""
-#| "Set your page refresh intervals for different reading conditions <a "
-#| "href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
 msgid ""
 "We have a dedicated section for optimizing manga and comics: <a href=\"#L2-"
 "mangaprepare\" class=\"internalink\">Optimizing Manga</a>"
 msgstr ""
-"Поставите интервале освежавања странице за различите услове читања <a "
-"href=\"#L2-mangarefresh\" class=\"internalink\"></a>"
+"Имамо посебан одељак посвећен оптимизовању манги и стрипова <a href=\"#L2-"
+"mangaprepare\" class=\"internalink\">Оптимизовање манги</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5254-6
 msgid "TEXT files"
-msgstr ""
+msgstr "TEXT фајлови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5256-6
 msgid ""
@@ -11558,6 +11555,11 @@ msgid ""
 "open. For example, online Chinese novels are known to reach tens of millions "
 "of words and generally saved as text files."
 msgstr ""
+"KOReader поседује веома ефикасан механизам за обраду текста. Књиге се "
+"приликом првог отварања и кеширају, тако да их KOReader наредни пут отвара "
+"брже. Али упркос овим оптимизацијама, неуобичајено велики текст фајлови би и "
+"даље могли дуго да се учитавају. На пример, познато је да кинески романи на "
+"мрежи достижу десетине милиона речи и обично се чувају као текст фајлови."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5258-6
 msgid ""
@@ -11571,6 +11573,15 @@ msgid ""
 "class=\"ui\">partial rendering</span> <a href=\"#L2-indicators\" "
 "class=\"internalink\">here</a>)."
 msgstr ""
+"Проблем са великим текст фајловима је кашњење приликом првог исцртавања "
+"књиге и касније, када се промени изглед текста. Ако покушате да промените "
+"величину фонта веома велике <b>.txt</b> књиге, приметићете велико кашњење "
+"након сваког подешавања, јер комплетна књига мора да поново да се исцрта. "
+"KOReader има систем <b>делимичог исцртавања</b> који значајно скраћује ову "
+"врсту кашњења. Али ова функционалност <b>не може да се користи са текст "
+"фајловима</b> јер они нису подељени на поглавља (више о <span class=\"ui\">"
+"делимичном исцетавању</span> можете да прочитате <a href=\"#L2-indicators\" "
+"class=\"internalink\">овде</a>)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5264-6
 msgid ""
@@ -11584,21 +11595,21 @@ msgid ""
 "span> from this <a href=\"https://calibre-ebook.com/\">page</a> and find "
 "online tutorials for the <b>TXT-to-EPUB conversion</b> procedure."
 msgstr ""
+"Да бисте имали користи од убрзања <b>делимичним исцртавањем</b>, велики "
+"текст фајл можете да конвертујете у <b>EPUB</b> формат користећи <span "
+"class=\"external\">Calibre</span> апликацију. <span class=\"external\">"
+"Calibre</span> ће током коверзије аутоматски да подели текст фајл у мање "
+"појединачне фајлове, па ће да их упакује у стандардни <b>EPUB</b> фајл. "
+"Након ове конверзије, изглед књиге можете да промените много брже. <span "
+"class=\"external\">Calibre</span> можете да преуузмете са следеће <a "
+"href=\"https://calibre-ebook.com/\">странице</a> и да пронађете туторијале "
+"на мрежи у вези са процедуром <b>TXT-у-EPUB конверзије</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5274-6
-#, fuzzy
-#| msgid "Turn pages"
 msgid "Web pages"
-msgstr "Окрећи странице"
+msgstr "Веб странице"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5276-6
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://github.com/gildas-lormeau/"
-#| "SingleFile#install\">SingleFile</a> is a browser extension for <b>Mozilla "
-#| "Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension "
-#| "allows saving a web page as a <b>single .html file</b> with all the "
-#| "resources (images, stylesheets, scripts) embedded."
 msgid ""
 "<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</"
 "a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and "
@@ -11609,9 +11620,10 @@ msgid ""
 msgstr ""
 "<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</"
 "a> је проширење за интернет прегледач <b>Mozilla Firefox, Google Chrome</b> "
-"и <b>Microsoft Edge</b>. Ово проширење омогућава чување веб страница као "
-"<b>један .html фајл</b> са уграђеним свим ресурсима (слике, листе стилова, "
-"скрипте)."
+"и <b>Microsoft Edge</b>. Ово проширење омогућава чување веб страница као <b>"
+"један .html фајл</b> са уграђеним свим ресурсима (слике, листе стилова, "
+"скрипте). Затим на свој уређај можете да копирате овај један фајл и да га "
+"читате програмом KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5281-6
 msgid "9.5 Using OPDS Catalogs"
@@ -11624,6 +11636,10 @@ msgid ""
 "you can browse these digital libraries, search for books on them and "
 "download the books directly to your device."
 msgstr ""
+"<b>OPDS (Open Publication Distribution System) каталог</b> је довод на мрежи "
+"који се понаша као индекс дигиталне библиотеке. KOReader има подршку за "
+"OPDS, тако да имате могућност да прегледате ове дигиталне библиотеке, "
+"претражујете књиге на њима и преузимате их директно на уређај."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5286-6
 msgid ""
@@ -11632,22 +11648,22 @@ msgid ""
 "href=\"https://standardebooks.org/\">Standard Ebooks</a> and you can add "
 "other OPDS catalogs. To open the OPDS dialog, go to:"
 msgstr ""
+"KOReader се испоручује преконфигурисан са негим великим OPDS каталозима, као "
+"што је <a href=\"https://www.gutenberg.org/\">Пројекат Гутенберг</a> и <a "
+"href=\"https://standardebooks.org/\">Standard Ebooks</a>, а можете да додате "
+"и остале OPDS каталоге. Ако ћелите да отворите OPDS дијалог, идите на:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5290-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_search.svg\" style=\"width:26px;\"> / OPDS catalog"
 msgstr ""
-"МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Статусна линија"
+"(ПРЕГЛЕДАЧ ФАЈЛОВА) МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/"
+"top_search.svg\" style=\"width:26px;\"> / OPDS каталог"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5293-6
 msgid "Using personal OPDS servers"
-msgstr ""
+msgstr "Употреба личних OPDS сервера"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5294-6
 msgid ""
@@ -11659,6 +11675,13 @@ msgid ""
 "class=\"external\">Calibre</span> instructions about configuring an OPDS "
 "server."
 msgstr ""
+"Уз јавне каталоге, OPDS систем можете да употребите и за управљање "
+"сопственом библиотеком. Користећи <span class=\"external\">Calibre</span> "
+"апликацију, књиге можете да сервирате са свог компјутера као OPDS каталог, "
+"који можете да листате директно из програма KOReader. Кликните на <a "
+"href=\"https://manual.calibre-ebook.com/generated/en/calibre-server.html\">"
+"овде</a> да видите <span class=\"external\">Calibre</span> упутства у вези "
+"са конфигурисањем OPDS сервера."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5299-6
 msgid ""
@@ -11672,6 +11695,17 @@ msgid ""
 "Documentation for <b>OPDS</b> and <b>progress sync</b> for KOReader users is "
 "<a href=\"https://wiki.kavitareader.com/guides/3rdparty/koreader/\">here</a>."
 msgstr ""
+"<span class=\"external\">Kavita</span> је још један сервер за читање "
+"отвореног кода, са доста функционалности и који ради на разним платформама. "
+"Можете да подесите сопствени сервер и да делите своју колекцију за читање са "
+"пријатељима и породицом. Он такође поседује <b>OPDS</b> и подржава <b>"
+"синхронизацију напретка читања</b> за KOReader. Употребом ове апликације "
+"можете да приступите својој билиотеци директно са уређаја за читање и да "
+"синхронизујете позицију читања са различитим уређајима, тако да на њима "
+"можете наставити читање тамо где сте стали. Страница пројекта се налази <a "
+"href=\"https://www.kavitareader.com/\">овде</a>. Документација за <b>OPDS</"
+"b> и <b>синхронизацију напретка</b> за KOReader кориснике је <a "
+"href=\"https://wiki.kavitareader.com/guides/3rdparty/koreader/\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5306-6
 msgid ""
@@ -11679,10 +11713,13 @@ msgid ""
 "Instructions are <a href=\"https://github.com/koreader/koreader/wiki/OPDS-"
 "support\">here</a>."
 msgstr ""
+"Када подесите сопствене OPDS сервере, морате да их додате у KOReader. "
+"Упутства се налазе <a href=\"https://github.com/koreader/koreader/wiki/OPDS-"
+"support\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5308-6
 msgid "9.6 Synchronizing Progress"
-msgstr ""
+msgstr "9.6 Синхронизација напретка читања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5310-6
 msgid ""
@@ -11692,6 +11729,12 @@ msgid ""
 "continue reading seamlessly when switching from your e-reader at home to "
 "your phone on the commute for example."
 msgstr ""
+"Ако KOReader користите на неколико уређаја, као што су e-читач, телефон, "
+"таблет или десктоп компјутер, KOReader може да синхонизује напредак вашег "
+"читања на све њих. Употребом функционалности <span class=\"ui\">"
+"синхронизације напретка читања</span>, глатко можете да наставите са читањем "
+"када пређете са свог e-читача у кући на телефон док путујете на посао, на "
+"пример."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5313-6
 msgid ""
@@ -11699,54 +11742,50 @@ msgid ""
 "plugin. Setting up synchronization involves these three steps which we will "
 "explain below:"
 msgstr ""
+"Овом функцијом управља додатак <span class=\"ui\">синхронизација напретка</"
+"span>. Постављање синхронизације се врши у три корака које ћемо да објаснимо "
+"испод:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5317-7
 msgid "Create a <b>sync account</b>"
-msgstr ""
+msgstr "Креирајте <b>налог за синхронизацију</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5318-7
 msgid ""
 "Login to your <b>sync account</b> from all the devices you want to "
 "synchronize"
 msgstr ""
+"Пријавите се на свој <b>налог за синхронизацију</b> са свих уређаја које "
+"желите да синхронизујете"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5320-7
 msgid "Automatically or manually synchronize your reading progress"
-msgstr ""
+msgstr "Синхронизујте напредак читања аутоматски или ручно"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5323-6
-#, fuzzy
-#| msgid "Creating and modifying collections"
 msgid "1. Creating a sync account"
-msgstr "Креирање и измена збирки"
+msgstr "1. Креирање налога за синхронизацију"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5325-6
 msgid ""
 "To create a sync account, connect to a network on your device and open the "
 "<span class=\"ui\">progress sync</span> plugin in KOReader:"
 msgstr ""
+"Да бисте креирали налог за синхронизацију, повежите на мрежу све своје "
+"уређаје и отворите додатак <span class=\"ui\">синхронизација напретка</span> "
+"у програму KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5328-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / Profiles"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / Progress sync"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Профили"
+"style=\"width:26px;\"> / Синхронизација напретка"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5331-6
-#, fuzzy
-#| msgid ""
-#| "Change the text in the dialog and press the <span class=\"ui\">Save</"
-#| "span> button"
 msgid "and press the <span class=\"ui\">Register/Login</span> button."
-msgstr ""
-"У дијалогу измените текст и притисните дугме <span class=\"ui\">Сачувај</"
-"span>"
+msgstr "и притисните дугме <span class=\"ui\">Региструјте се/пријавите</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5334-6
 msgid ""
@@ -11756,10 +11795,15 @@ msgid ""
 "class=\"external\">KOReader sync server</span> which will hold your reading "
 "progress."
 msgstr ""
+"У прозору који се отвори, унесите <span class=\"ui\">корисничко име</span> и "
+"<span class=\"ui\">лозинку</span>, па притисните дугме <span class=\"ui\">"
+"Регистрација</span>. Ово ће да креира налог на <span class=\"external\">"
+"KOReader серверу за синхронизацију</span> који ће да одржава напредак вашег "
+"читања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5340-6
 msgid "2. Login to your sync account"
-msgstr ""
+msgstr "2. Пријавите се на свој налог за синхронизацију"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5342-6
 msgid ""
@@ -11768,6 +11812,10 @@ msgid ""
 "time press the <span class=\"ui\">Login</span> button. After this, your "
 "devices will be connected to your sync account."
 msgstr ""
+"Отворите исти тај мени на уређајима које желите да синхрноизујете. Унесите "
+"своје <span class=\"ui\">корисничко име</span> и <span class=\"ui\">лозинку</"
+"span>, па овај пут притисните дугме <span class=\"ui\">Пријава</span>. Након "
+"тога, ваши уређаји ће се повезати на ваш налог за синхронизацију."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5347-6
 msgid ""
@@ -11775,16 +11823,21 @@ msgid ""
 "press the <span class=\"ui\">Device hostname</span> and enter a name for the "
 "current device."
 msgstr ""
+"Уређајима можете да дате препознатљива имена. Поново из истог меније, "
+"притисните <span class=\"ui\">Име хоста уређаја</span>, па унесите име за "
+"текући уређај."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5350-6
 msgid "3. Sync your progress"
-msgstr ""
+msgstr "3. Синхронизујте свој напредак читања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5352-6
 msgid ""
 "After everything is set up, you can synchronize your reading progress "
 "automatically or manually:"
 msgstr ""
+"Када се све подеси, напредак читања можете да синхронизујете аутоматски, или "
+"ручно:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5355-7
 msgid ""
@@ -11794,6 +11847,11 @@ msgid ""
 "KOReader will send your reading progress to the server (of course this "
 "requires an available network connection)."
 msgstr ""
+"<b>Аутоматска синхронизација:</b> ако желите да се напредак синхронизује <b>"
+"аутоматски</b>, укључите ставку менија <span class=\"ui\">Аутоматски "
+"одржавај документе синхронизоване</span>. Сада, кадгод <b>затворите књигу</b>"
+", или <b>успавате/пробудите свој уређај</b>, KOReader ће послати на сервер "
+"напредак читања (наравно, за то је потребна доступна мрежна веза)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5360-7
 msgid ""
@@ -11801,6 +11859,10 @@ msgid ""
 "device for battery or availability reasons, you can choose to synchronize "
 "<b>manually</b>. You have many options to trigger a synchronization:"
 msgstr ""
+"<b>Ручна синхронизација:</b> ако на уређају немате сталну везу са "
+"интернетом, због потрошње батерије или из разлога доступности, имате "
+"могућност да вршите <b>ручну</b> синхронизацију. Постоји доста опција за "
+"окидање синхронизације:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5364-8
 msgid ""
@@ -11810,6 +11872,12 @@ msgid ""
 "the server. To receive the latest progress from the server, press <span "
 "class=\"ui\">Pull progress from other devices now</span> menu item."
 msgstr ""
+"<b>Из менија:</b> у менију додатка <span class=\"ui\">Синхронизација "
+"напретка читања</span> можете да изаберете ставку менија <span class=\"ui\">"
+"Гурни напредак са овог уређаја сада</span> и тако пошаљете на сервер "
+"напредак читања на текућем уређају. Ако желите да примите са сервера "
+"најновији напредак читања, изаберите ставку менија <span class=\"ui\">Повуци "
+"напредак са других уређаја сада</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5370-8
 msgid ""
@@ -11817,14 +11885,17 @@ msgid ""
 "the <span class=\"ui\">Gesture manager</span> so you can assign them to any "
 "gesture you like."
 msgstr ""
+"<b>Помоћу гестикулација:</b> ове акције (гурање/повлачење напретка) су "
+"доступне у <span class=\"ui\">Менаџеру гестикулацијама</span>, тако да их "
+"можете доделити било којој гестикулацији која вам одговара."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5374-8
-#, fuzzy
-#| msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
 msgid ""
 "<b>With quick menu:</b> You can add these actions to your <span "
 "class=\"ui\">Quick Menu</span>."
-msgstr "Можете да га додате у свој <span class=\"ui\">Брзи мени</span>"
+msgstr ""
+"<b>Са брзим менијем:</b> ове акције можете да додате у свој <span "
+"class=\"ui\">Брзи мени</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5377-8
 msgid ""
@@ -11833,10 +11904,14 @@ msgid ""
 "<span class=\"ui\">profiles</span>, you can trigger sync with various "
 "filters and conditions."
 msgstr ""
+"<b>Из профила:</b> ове акције можете да додате у своје <span class=\"ui\">"
+"Профиле</span>. Посебно помоћу функционалности ауто-извршавања <span "
+"class=\"ui\">профила</span>, имате могућност да синхронизацију окинете "
+"разним филтерима у условима."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5382-6
 msgid "Document matching method options"
-msgstr ""
+msgstr "Опције методе подударања докумената"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5384-6
 msgid ""
@@ -11847,10 +11922,16 @@ msgid ""
 "class=\"ui\">Document matching method</span> option in the <b>progress sync</"
 "b> menu."
 msgstr ""
+"Да би синхронизовао напредак читања докиумента на два различита уређаја, "
+"KOReader најпре мора да идентификује ова два фајла као „иста”. Ово понекад "
+"може да буде компликовано, па тако имамо две методе које можете да "
+"изаберете, у зависности од начина на који користите KOReader. Методу можете "
+"да промените у опцији <span class=\"ui\">Метода подударања документа</span> "
+"менија <b>синхронизација напретка читања</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5389-6
 msgid "Binary matching (default)"
-msgstr ""
+msgstr "Бинарно подударање (подразумевано)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5390-6
 msgid ""
@@ -11861,6 +11942,12 @@ msgid ""
 "hash so <b>binary matching</b> method works only if both files are perfectly "
 "identical."
 msgstr ""
+"<b>Синхронизација напретка читања</b> за идентификацију фајлова "
+"подразумевано користи методу <span class=\"ui\">Бинарно подударање</span>. У "
+"овој методи, KOReader генерише делимични <b>MD5 хеш</b> садржаја фајла (који "
+"изгледа овако: 0b229176d4e8db7f...). Било каква ситна измена над фајлом, у "
+"потпуности мења овај хеш, тако да метода <b>бинарног подударања</b> "
+"функионише само ако су ова фајла савршено идентична."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5396-6
 msgid ""
@@ -11869,6 +11956,10 @@ msgid ""
 "class=\"external\">Calibre</span> to send books to your devices, <b>binary "
 "matching</b> will fail."
 msgstr ""
+"Ако на све своје уређаје ручно компирате <b>потпуно исти фајл</b>, ова "
+"метода би требало да функционише. Али, на пример, ако користите <span "
+"class=\"external\">Calibre</span> за слање књига на уређаје, <b>бинарно "
+"подударање</b> неће успети."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5401-6
 msgid ""
@@ -11879,10 +11970,16 @@ msgid ""
 "books. If you have this problem you can use the alternative method explained "
 "below."
 msgstr ""
+"Пошто <span class=\"external\">Calibre</span> записује сопствене "
+"информације, као што је <b>напредак приказивача</b>, директно у фајл, а то "
+"мења <b>израчунати хеш фајла</b>, KOReader ће онда ове фајлове (оригинал и "
+"онај који је изменио <span class=\"external\">Calibre</span>) третирати као "
+"две различите књиге. Ако имате овај проблем, употребите алтернативни метод "
+"који је објашњен испод."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5407-6
 msgid "Filename matching"
-msgstr ""
+msgstr "Подударање имена фајла"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5409-6
 msgid ""
@@ -11891,6 +11988,10 @@ msgid ""
 "other software like <span class=\"external\">Calibre</span>, as explained "
 "above."
 msgstr ""
+"Ово је „лабавија” метода поређења која је дизајнирана за кориснике чији "
+"фајлови на различитим уређајима могу донекле да се разликују услед измена "
+"које су, као што је описано изнад, над документима направили други програми, "
+"као што је <span class=\"external\">Calibre</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5411-6
 msgid ""
@@ -11900,6 +12001,11 @@ msgid ""
 "management software to manage your library across different devices, you can "
 "change to <span class=\"ui\">Filename matching</span>."
 msgstr ""
+"У овој методи KOReader проверава само да ли су <b>имена фајлова (укључујући "
+"и екстензију) два документа</b> идентична, и тако их упарује. Дакле, ако "
+"користите <span class=\"external\">Calibre</span>, или неки други софтвер за "
+"управљање библиотеком по разним уређајима, можете да пређете на <span "
+"class=\"ui\">Подударање имена фајлова</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5415-6
 msgid ""
@@ -11908,10 +12014,14 @@ msgid ""
 "class=\"internalink\">Book metadata storage options</a> section of the guide "
 "for in-depth information."
 msgstr ""
+"<span class=\"microns_info\" title=\"Контекстуална информација\"></span> "
+"Такође можете да погледате и одељак упутства <a href=\"#L2-metadatastorage\" "
+"class=\"internalink\">Опције за складиштење метаподатака књиге</a> у којем "
+"се налазе детаљне информације."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5419-6
 msgid "Privacy and security of the synchronization process"
-msgstr ""
+msgstr "Приватност и безбедност процеса синхронизације"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5422-7
 msgid ""
@@ -11920,6 +12030,11 @@ msgid ""
 "can find more information including the source code on its <a href=\"https://"
 "github.com/koreader/koreader-sync-server\">GitHub page</a>."
 msgstr ""
+"<span class=\"external\">KOReader сервер за синхронизацију</span>, софтвер "
+"који управља процесом KOReader синхронизације је пројекат отвореног кода. "
+"Више информација, као и изворни кôд, можете да пронађете на његовој <a "
+"href=\"https://github.com/koreader/koreader-sync-server\">GitHub страници</a>"
+"."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5424-7
 msgid ""
@@ -11928,38 +12043,44 @@ msgid ""
 "progress of a document, only this information is transferred and kept on the "
 "server:"
 msgstr ""
+"Сервер за синхронизацију <b>не чува име фајла или садржај</b>. Ово значи да "
+"сервер не може знати шта читате. Када синхронизујете напредак читања "
+"документа, на сервер се преносе и на њему чувају само следеће информације:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5427-9
 msgid "User name (that you have chosen)"
-msgstr ""
+msgstr "Корисничко име (које сте изабрали)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5428-9
 msgid ""
 "Unique id of the document (MD5 hash of the file which looks like this: "
 "0b229176...)"
 msgstr ""
+"Јединствени ид документа (MD5 хеш фајла који изгледа овако: 0b229176...)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5429-9
-#, fuzzy
-#| msgid "You are reading a PDF document"
 msgid "Furthest reading position for this document"
-msgstr "Читате PDF документ"
+msgstr "Најдаља позиција читања за овај документ"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5432-7
 msgid ""
 "Your password <b>is not stored</b> on the server (only a MD5 hash is kept)."
-msgstr ""
+msgstr "Ваша лозика <b>се не чува</b> на серверу (само њен MD5 хеш)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5435-7
 msgid ""
 "All communication between KOReader and the sync server is secured with HTTPS."
 msgstr ""
+"Сва комуникација између програма KOReader и сервера за синхронизацију је "
+"обезбеђена са HTTPS."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5438-6
 msgid ""
 "Hosting your own sync server <span class=\"microns_warning\" "
 "title=\"Advanced topic\"></span>"
 msgstr ""
+"Хостовање сопственог сервера за синхронизацију напретка читања <span "
+"class=\"microns_warning\" title=\"Напредна тема\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5440-6
 msgid ""
@@ -11969,6 +12090,12 @@ msgid ""
 "this <a href=\"https://github.com/ruiribeiro04/awesome-koreader/#sync-"
 "servers-self-hosted\">page</a>."
 msgstr ""
+"Ако то желите, имате могућност да и само хостујете свој сервер за "
+"синхронизацију напретка читања. Можете да користите званични <a "
+"href=\"https://github.com/koreader/koreader-sync-server\">KOReader сервер за "
+"синхронизацију</a>, или неку од алтернатива који можете видети на овој <a "
+"href=\"https://github.com/ruiribeiro04/awesome-koreader/#sync-servers-self-"
+"hosted\">страници</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5443-6
 msgid ""
@@ -11976,17 +12103,23 @@ msgid ""
 "calibre-web\">Calibre-Web</a> which are library management solutions with an "
 "integrated <b>KOReader sync server</b>."
 msgstr ""
+"Такође постоје и остали пројекти, као што је <a href=\"https://github.com/"
+"janeczku/calibre-web\">Calibre-Web</a>, који представљају решења за "
+"управљање библиотеком у која је уграђен <b>KOReader сервер за "
+"синхронизацију</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5446-6
 msgctxt "user_guide/en.html:L2-metadataarchive"
 msgid "9.7 Book Metadata Archive"
-msgstr ""
+msgstr "9.7 Архива метаподтака књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5448-6
 msgid ""
 "First we will explain KOReader's file deletion behavior so you will better "
 "understand the <b>Book Metadata Archive</b> feature:"
 msgstr ""
+"Најпре ћемо да објаснимо понашање програма KOReader приликом брисања фајла, "
+"тако да боље разумете функционалност <b>архиве метаподатака књиге</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5451-6
 msgid ""
@@ -11995,6 +12128,10 @@ msgid ""
 "class=\"ui\">your_document_name.sdr</span> and uses this directory to keep "
 "the settings, annotations and progress for this document."
 msgstr ""
+"Када копирате документ на свој уређај, и отворите га по први пут, KOReader "
+"обично креира нови директоријум под именом <span class=\"ui\">"
+"име_вашег_документа.sdr</span> који користи за чување подешавања, означавања "
+"и напретка читања за овај документ."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5454-6
 msgid ""
@@ -12004,6 +12141,11 @@ msgid ""
 "you copy this document to your e-reader again and open it with KOReader, it "
 "will be like opening it for the first time."
 msgstr ""
+"Када обришете документ користећи <span class=\"ui\">Прегледч фајлова</span> "
+"програма KOReader, он брише и овај <b>.sdr директоријум</b>. То значи да "
+"губите и сва подешавања, означавања и напредак читања за обрисани документ. "
+"Ако поново копирате овај документ на свој е-читач и отворите га програмом "
+"KOReader, то ће бити као да га отварате по први пут."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5457-6
 msgid ""
@@ -12012,30 +12154,31 @@ msgid ""
 "don't want to lose the highlights from these books? <b>Book Metadata "
 "Archive</b> feature allows you to do this."
 msgstr ""
+"Али на пример, шта ако желите да обришете завршене књиге (можда вам се не "
+"свиђа гужва у библиотеци, или немате довољно слободног простора), али такође "
+"не желите да изгубите и истицања у овим књигама? Функционалност <b>архиве "
+"метаподатака књиге</b> вам омогућава да то постигнете."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5462-6
-#, fuzzy
-#| msgid "To use this feature you need to:"
 msgid "How this feature works:"
-msgstr "Ако желите да користите ову функционалност, потребно је да:"
+msgstr "Како ради ова функционалност:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5465-7
 msgid ""
 "First you have to activate the feature by choosing an <b>archive location</"
 "b> here:"
 msgstr ""
+"Најпре је потребно да активирате функционалност избором <b>локације за "
+"архиву</b> овде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:5467-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:26px;\"> / Document / Book metadata location"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata archive / Archive location:"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Документ / Локација метаподатака књиге"
+"style=\"width:26px;\"> / Документ / Архива метаподатака књига / Локација "
+"архиве:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5470-7
 msgid ""
