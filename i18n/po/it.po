@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-15 08:52+0000\n"
-"PO-Revision-Date: 2026-11-12 15:51+0000\n"
-"Last-Translator: Massimo Pissarello "
-"<mapi68@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-11-15 11:57+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/it/>\n"
 "Language: it\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.11.2.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: user_guide/en.html%2Bhtml[lang]:2-1
 msgid "en"
@@ -608,8 +608,9 @@ msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> I am "
 "an info box. I give contextual information or extra explanations."
 msgstr ""
-"<span class=\"label_blue\">INFO</span> Sono un box informativo. Fornisco "
-"informazioni contestuali o spiegazioni aggiuntive."
+"<span class=\"microns_info\" title=\"Informazioni contestuali\"></span> "
+"Sono un riquadro informativo. Fornisco informazioni contestuali o "
+"spiegazioni aggiuntive."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.div:1299-6
 msgid ""
@@ -1905,7 +1906,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.table.tr.td:1673-9
 msgid "Change the font*"
-msgstr "<b>Modifica del carattere*</b>:"
+msgstr "Cambia il carattere*"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.table.tr.td.div:1674-13
 msgctxt "user_guide/en.html+basicusage.div.table.tr.td.div:139-12"
@@ -3427,8 +3428,9 @@ msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> If you long-tap on "
 "their names in the bottom menu, KOReader will show you an explanation."
 msgstr ""
-"<span class=\"label_green\">TIP</span> Toccando a lungo i loro nomi, è "
-"possibile visualizzare una spiegazione di queste voci"
+"<span class=\"microns_tip\" title=\"Suggerimento utile\"></span> Se tieni "
+"premuto a lungo sui loro nomi nel menu in basso, KOReader ti mostrerà una "
+"spiegazione."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2211-6
 msgid ""
@@ -3711,10 +3713,8 @@ msgstr ""
 "risultato è migliore:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2328-7
-#, fuzzy
-#| msgid "<span class=\"ui\">Left 90°</span> (landscape)"
 msgid "<span class=\"ui\">Off</span> Hinting is disabled."
-msgstr "<span class=\"ui\">Sinistra 90°</span> (orizzontale)"
+msgstr "<span class=\"ui\">Disattiva</span> Il suggerimento è disabilitato."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2330-7
 msgid ""
@@ -4628,11 +4628,9 @@ msgid "How to pin/unpin a page:"
 msgstr "Come aggiungere una pagina ai preferiti o rimuoverla dai preferiti:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2671-7
-#, fuzzy
-#| msgid "Open the <span class=\"ui\">Page browser</span> via:"
 msgctxt "user_guide/en.html+navigating.ol.li:139-1"
 msgid "Open the <span class=\"ui\">Skim widget</span>."
-msgstr "Aprire il <span class=\"ui\">navigatore di pagina</span> tramite:"
+msgstr "Apri il widget <span class=\"ui\">Skim</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2672-7
 #, fuzzy
@@ -4684,11 +4682,9 @@ msgid "How to jump to your pinned page:"
 msgstr "Come passare alla pagina aggiunta ai preferiti:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2690-7
-#, fuzzy
-#| msgid "Open the <span class=\"ui\">Page browser</span> via:"
 msgctxt "user_guide/en.html+navigating.ol.li:158-1"
 msgid "Open the <span class=\"ui\">Skim widget</span>."
-msgstr "Aprire il <span class=\"ui\">navigatore di pagina</span> tramite:"
+msgstr "Apri il widget <span class=\"ui\">Skim</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2691-7
 #, fuzzy
@@ -4705,12 +4701,12 @@ msgstr ""
 "class=\"ui\">Reimposta personalizzato</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2693-7
-#, fuzzy
-#| msgid "Press <span class=\"ui\">Edit text</span> in the menu"
 msgid ""
 "Press the <span class=\"ui\">Go to pinned page</span> button in the opening "
 "dialog."
-msgstr "Premere <span class=\"ui\">Modifica testo</span> nel menu"
+msgstr ""
+"Premi il pulsante <span class=\"ui\">Vai alla pagina bloccata</span> nella "
+"finestra di dialogo che si apre."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2699-6
 msgid "How to go back:"
@@ -4749,27 +4745,19 @@ msgstr ""
 "class=\"internalink\">gesto</a> a queste azioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2712-7
-#, fuzzy
-#| msgid ""
-#| "Basically, any action you can assign a gesture can be added to the <span "
-#| "class=\"ui\">Quick Menu</span>. Its advantages are:"
 msgid ""
 "For example you can assign a gesture to the <span class=\"ui\">Pin current "
 "page</span> action."
 msgstr ""
-"In pratica, qualsiasi azione a cui si può assegnare un gesto può essere "
-"aggiunta al <span class=\"ui\">Menu Rapido</span>. I suoi vantaggi sono:"
+"Ad esempio, è possibile assegnare un gesto all'azione <span class=\"ui\">"
+"Blocca la pagina attuale</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2715-7
-#, fuzzy
-#| msgid ""
-#| "This menu is very similar to the <span class=\"ui\">Gesture Manager</"
-#| "span> interface. In this menu:"
 msgid ""
 "Another gesture to the <span class=\"ui\">Go to pinned page</span> action."
 msgstr ""
-"Questo menu è molto simile all'interfaccia di <span class=\"ui\">Tocchi e "
-"gesti</span>. In questo menu:"
+"Un altro gesto per l'azione <span class=\"ui\">Vai alla pagina bloccata</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2718-7
 #, fuzzy
@@ -5490,19 +5478,14 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2963-7
-#, fuzzy
-#| msgid ""
-#| "You can open your <span class=\"ui\">Folder shortcuts</span> from the "
-#| "<span class=\"ui\">File Browser</span> or <span class=\"ui\">Reading "
-#| "screen</span> while reading a book."
 msgid ""
 "<span class=\"ui\">Bookmarks</span>, <span class=\"ui\">Table of Contents</"
 "span> and <span class=\"ui\">Page browser</span> shows <b>stable page "
 "numbers.</b>"
 msgstr ""
-"È possibile aprire i propri <span class=\"ui\">Scorciatoie per le cartelle</"
-"span> dal <span class=\"ui\">File Browser</span> o <span "
-"class=\"ui\">Schermo di lettura</span> durante la lettura di un libro."
+"<span class=\"ui\">Segnalibri</span>, <span class=\"ui\">Indice</span> e "
+"<span class=\"ui\">Browser pagine</span> mostrano <b>numeri di pagina "
+"stabili.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2967-7
 msgid ""
@@ -6359,15 +6342,11 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3251-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
-#| "chapter levels."
 msgid ""
 "<span class=\"ui\">short press</span> = change the font only for this book"
 msgstr ""
-"<span class=\"ui\">Livelli dei capitolo:</span> Modifica la profondità dei "
-"livelli di capitolo/sottocapitolo."
+"<span class=\"ui\">pressione breve</span> = cambia il font solo per questo "
+"libro"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3253-7
 msgid ""
@@ -6781,10 +6760,8 @@ msgid "EB Garamond"
 msgstr "EB Garamond"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:3423-41
-#, fuzzy
-#| msgid "Sans Serif:"
 msgid "Sans Serif suggestions"
-msgstr "Sans Serif:"
+msgstr "Suggerimenti per Sans Serif"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3425-9
 msgid "Geologica (Current user guide font)"
@@ -6837,18 +6814,12 @@ msgstr ""
 "href=\"https://www.programmingfonts.org/\">programmingfonts.org</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3443-6
-#, fuzzy
-#| msgid ""
-#| "Here are some example fonts which look good on an e-ink screen. You can "
-#| "find more of them on the <a href=\"https://fonts.google.com\">Google "
-#| "Fonts</a> website:"
 msgid ""
 "You can also discover more fonts on the <a href=\"https://"
 "fonts.google.com\">Google Fonts</a> website."
 msgstr ""
-"Ecco alcuni esempi di font che si presentano bene su uno schermo e-ink. È "
-"possibile trovarne altri sul sito web <a href=\"https://"
-"fonts.google.com\">Google Fonts</a>:"
+"Puoi anche scoprire altri font sul sito <a href=\"https://fonts.google.com\">"
+"Google Fonts</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3449-6
 msgid "Using different fonts in one document"
@@ -6984,15 +6955,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3491-7
-#, fuzzy
-#| msgid ""
-#| "When starting up, KOReader compiles the available fonts from the <b>font "
-#| "metadata/info</b> and classifies them according to family and weights. "
-#| "This means you can add different weights and variants of a font and "
-#| "KOReader will try to use the most suitable one. <b>Since it takes font "
-#| "family information from metadata, font names are not important when "
-#| "copying to your device. Installed fonts will be available after "
-#| "restarting KOReader.</b>"
 msgid ""
 "When starting up, KOReader compiles the available fonts by reading their "
 "embedded <b>font metadata/info</b> and classifies them according to family "
@@ -7000,13 +6962,11 @@ msgid ""
 "from the metadata included in the font, so <b>font names are not important</"
 "b> when copying to your device."
 msgstr ""
-"All'avvio, KOReader compila i font disponibili dai <b>metadati/info dei "
-"font</b> e li classifica in base alla famiglia e ai pesi. Ciò significa che "
-"potete aggiungere diversi pesi e varianti di un carattere e KOReader "
-"cercherà di utilizzare quello più adatto. <b>Poiché le informazioni sulla "
-"famiglia di font vengono ricavate dai metadati, i nomi dei font non sono "
-"importanti durante la copia sul dispositivo. I font installati saranno "
-"disponibili dopo il riavvio di KOReader.</b>"
+"All'avvio, KOReader analizza i font disponibili leggendo i relativi <b>"
+"metadati/informazioni</b> incorporati e li classifica in base alla famiglia "
+"e ai pesi. KOReader tenta di ricavare le <b>informazioni sulla famiglia del "
+"font</b> dai metadati in esso contenuti; pertanto, i <b>nomi dei file dei "
+"font</b> non sono rilevanti al momento della copia sul dispositivo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3496-7
 msgid ""
@@ -7984,14 +7944,8 @@ msgid "<span class=\"ui\">Search</span> the text on Wikipedia"
 msgstr "Scegliere <span class=\"ui\">Seleziona</span> dal menu a comparsa"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3876-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">About book map:</span> Short explanation of Book map "
-#| "usage and icon descriptions."
 msgid "<span class=\"ui\">Look up</span> the text in an installed dictionary"
-msgstr ""
-"<span class=\"ui\">informazioni sulla mappa del libro:</span> Breve "
-"spiegazione dell'uso della mappa del libro e descrizione delle icone."
+msgstr "<span class=\"ui\">Cerca</span> il testo in un dizionario installato"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3878-7
 #, fuzzy
@@ -9380,13 +9334,9 @@ msgid "Open your PDF file with KOReader"
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4377-7
-#, fuzzy
-#| msgid ""
-#| "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgid "Open the <span class=\"ui\">Bookmarks</span> dialog from here:"
 msgstr ""
-"Accedere all'elenco dei <span class=\"ui\">segnalibri</span> tramite menu o "
-"gesto"
+"Apri la finestra di dialogo <span class=\"ui\">Segnalibri</span> da qui:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4379-8
 #, fuzzy
@@ -9402,12 +9352,12 @@ msgstr ""
 "style=\"width:22px;\"> / Mappa del libro"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4382-7
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
 msgid ""
 "Press the <span class=\"ui\" style=\"font-family: microns;\"></span> button "
 "at the top-left corner."
-msgstr "<span style=\"font-family: microns;\"></span> - Indice dei contenuti"
+msgstr ""
+"Premi il pulsante <span class=\"ui\" style=\"font-family: microns;\"></"
+"span> nell'angolo in alto a sinistra."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4385-7
 msgid ""
@@ -10236,17 +10186,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4688-7
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:26px;\"> / Settings / Show hidden files"
 msgstr ""
-"MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Impostazioni / BookSegnalibrimarks / Mostra negli "
-"elementi: nota se impostato, altrimen..."
+"(ESPLORATORE DI FILE) MENU SUPERIORE / <img class=\"img_inline\" "
+"src=\"pictures/top_cabinet.svg\" style=\"width:26px;\"> / Impostazioni / "
+"Mostra file nascosti"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4691-7
 msgid ""
@@ -11667,10 +11613,8 @@ msgstr ""
 "seguito la soluzione."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5174-6
-#, fuzzy
-#| msgid "Collections"
 msgid "Solutions:"
-msgstr "Collezioni"
+msgstr "Soluzioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5177-7
 msgid ""
@@ -12110,14 +12054,8 @@ msgstr ""
 "style=\"width:22px;\"> / Profili"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5331-6
-#, fuzzy
-#| msgid ""
-#| "Change the text in the dialog and press the <span class=\"ui\">Save</"
-#| "span> button"
 msgid "and press the <span class=\"ui\">Register/Login</span> button."
-msgstr ""
-"Modificare il testo nella finestra di dialogo e premere il pulsante <span "
-"class=\"ui\">Salva</span>"
+msgstr "e premi il pulsante <span class=\"ui\">Registrati/Accedi</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5334-6
 msgid ""
@@ -12190,13 +12128,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5374-8
-#, fuzzy
-#| msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
 msgid ""
 "<b>With quick menu:</b> You can add these actions to your <span "
 "class=\"ui\">Quick Menu</span>."
 msgstr ""
-"E' possibile aggiungerlo al proprio <span class=\"ui\">Menu Rapido</span>"
+"<b>Con il menu rapido:</b> Puoi aggiungere queste azioni al tuo <span "
+"class=\"ui\">Menu rapido</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5377-8
 msgid ""
@@ -12398,16 +12335,13 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:5467-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:26px;\"> / Document / Book metadata location"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata archive / Archive location:"
 msgstr ""
 "MENU SUPERIORE / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Documento / Posizione dei metadata del libro"
+"style=\"width:26px;\"> / Documento / Archivio metadati del libro / Posizione "
+"dell'archivio:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5470-7
 msgid ""
@@ -15484,10 +15418,8 @@ msgid "There are many ways to activate a profile:"
 msgstr "Ci sono molti modi per attivare un profilo:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6570-7
-#, fuzzy
-#| msgid "Press <span class=\"ui\">Edit text</span> in the menu"
 msgid "With the <span class=\"ui\">Execute</span> action in its menu."
-msgstr "Premere <span class=\"ui\">Modifica testo</span> nel menu"
+msgstr "Con l'azione <span class=\"ui\">Esegui</span> nel suo menu."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6572-7
 msgid ""
@@ -15509,11 +15441,8 @@ msgstr ""
 "“QUALSIASI GESTO” / Generale / Profilo “il nome dato al profilo”"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6577-7
-#, fuzzy
-#| msgid "You can add it to your <span class=\"ui\">Quick Menu</span>"
 msgid "From your <span class=\"ui\">Quick Menu</span>."
-msgstr ""
-"E' possibile aggiungerlo al proprio <span class=\"ui\">Menu Rapido</span>"
+msgstr "Dal tuo <span class=\"ui\">Menu rapido</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6578-7
 msgid ""
@@ -15809,10 +15738,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6695-6
-#, fuzzy
-#| msgid "Profile auto-execution"
 msgid "Profile auto-execution examples:"
-msgstr "Esecuzione automatica del profilo"
+msgstr "Esempi di esecuzione automatica del profilo:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6697-6
 msgid ""
@@ -16527,20 +16454,16 @@ msgstr ""
 "archivio"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7009-6
-#, fuzzy
-#| msgid ""
-#| "<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves "
-#| "them as HTML files. Check our <a href=\"https://github.com/koreader/"
-#| "koreader/wiki/News-downloader\">wiki page</a> for how-to."
 msgid ""
 "<b> News Downloader </b> - Retrieves RSS and Atom news entries and saves "
 "them as HTML files. Check our <a href=\"https://github.com/koreader/koreader/"
 "wiki/News-downloader\">wiki page</a> for how-to. (only available on some "
 "devices)"
 msgstr ""
-"<b> Download di notizie </b> - Recupera le notizie RSS e Atom e le salva "
-"come file HTML. Consultate la nostra pagina <a href=\"https://github.com/"
-"koreader/koreader/wiki/News-downloader\">wiki</a> per sapere come fare."
+"<b> Download di notizie </b> - Recupera notizie tramite feed RSS e Atom e le "
+"salva come file HTML. Consulta la nostra <a href=\"https://github.com/"
+"koreader/koreader/wiki/News-downloader\">pagina wiki</a> per le istruzioni "
+"su come utilizzarlo. (disponibile solo su alcuni dispositivi)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7016-6
 msgid "<b> OPDS </b> - Allows you to download books from online catalogs"
@@ -16680,13 +16603,6 @@ msgstr ""
 "KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7108-6
-#, fuzzy
-#| msgid ""
-#| "This plugin allows you to control your device from another device over "
-#| "wifi. It works by running a simple HTTP server on your device which "
-#| "serves a page containing KOReader controls. You can access this page over "
-#| "your network and control your reader device. But be aware of these points "
-#| "when using this plugin:"
 msgid ""
 "This plugin allows you to control your device from another device over wifi. "
 "It works by running a simple HTTP server on your device which serves a page "
@@ -16696,11 +16612,12 @@ msgid ""
 "t=359837\">MobileRead forum</a>."
 msgstr ""
 "Questa estensione consente di controllare il dispositivo da un altro "
-"dispositivo via wifi. Funziona eseguendo un semplice server HTTP sul "
-"dispositivo che serve una pagina contenente i controlli di KOReader. È "
-"possibile accedere a questa pagina attraverso la rete e controllare il "
-"dispositivo di lettura. Tuttavia, quando si utilizza questa estensione, è "
-"necessario prestare attenzione ai seguenti punti:"
+"dispositivo tramite Wi-Fi. Il suo funzionamento si basa sull'esecuzione di "
+"un semplice server HTTP sul tuo dispositivo, che fornisce una pagina "
+"contenente i comandi per KOReader. Puoi accedere a questa pagina attraverso "
+"la tua rete e controllare così il dispositivo di lettura. Un esempio di "
+"utilizzo di questa estensione è disponibile sul <a href=\"https://"
+"www.mobileread.com/forums/showthread.php?t=359837\">forum di MobileRead</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7110-6
 msgid "But be aware of these points when using this plugin:"
@@ -17419,16 +17336,12 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7375-6
-#, fuzzy
-#| msgid ""
-#| "As we said above, you can toggle <span class=\"ui\">user style tweaks</"
-#| "span> from this menu location:"
 msgid ""
 "After taking your screenshot you can select <span class=\"ui\">Set as book "
 "cover</span> from the dialog."
 msgstr ""
-"Come abbiamo detto sopra, è possibile attivare i <span class=\"ui\">ritocchi "
-"stile utente</span> da questa posizione del menu:"
+"Dopo aver scattato lo screenshot, puoi selezionare <span class=\"ui\">"
+"Imposta come copertina del libro</span> dalla finestra di dialogo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7378-6
 msgid "You can remove the custom book cover from this menu:"
