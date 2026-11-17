@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-16 15:50+0000\n"
-"PO-Revision-Date: 2026-11-16 11:57+0000\n"
+"PO-Revision-Date: 2026-11-17 06:29+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -9080,17 +9080,13 @@ msgid "Open the <span class=\"ui\">Bookmarks</span> dialog from here:"
 msgstr "Отворите дијалог <span class=\"ui\">Листа маркера</span> одавде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4379-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Book map"
 msgctxt "user_guide/en.html+pdfs.ol.li.div:201-2"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Bookmarks"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Мапа књиге"
+"style=\"width:26px;\"> / Маркери књиге"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4382-7
 msgid ""
@@ -9106,28 +9102,33 @@ msgid ""
 "span>. Your highlights will be added to the <span class=\"ui\">Bookmarks</"
 "span> list."
 msgstr ""
+"У дијалогу који се отвори, изаберите <span class=\"ui\">Увези уграђене "
+"белешке</span>. Ваша истицања ће се додати на листу <span class=\"ui\">"
+"Маркери књиге</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4389-6
 msgid ""
 "After the import process, highlights in the PDF will turn into regular "
 "KOReader highlights. Which means, you can:"
 msgstr ""
+"Након процеса увоза, истицања у PDF документу ће се претворити у обична "
+"KOReader истицања. То значи да можете:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4392-7
 msgid "Add notes to them"
-msgstr ""
+msgstr "Да им додате белешке"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4393-7
 msgid "Change their style and color"
-msgstr ""
+msgstr "Да им промените стил и боју"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4394-7
 msgid "Delete them <b>(See the note below)</b>"
-msgstr ""
+msgstr "Да их обришете <b>(Погледајте напомену испод)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4395-7
 msgid "Export them in various formats"
-msgstr ""
+msgstr "Да их извезете у разне формате"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4398-6
 msgid ""
@@ -9138,6 +9139,11 @@ msgid ""
 "from the PDF file. You can open this PDF with another reader and still see "
 "the original highlights."
 msgstr ""
+"<b>Како функционише брисање:</b> Када увезете истицања, KOReader не мења "
+"оригинална истицања у PDF документу. Он увезена истицања додаје као слој "
+"преко оригиналних. Тако да ако обришете увезена истицања, брише се само овај "
+"<b>додати слој</b>. Ваш оригинална истицања се не бришу из PDF фајла. Овај "
+"PDF можете да отворите са неким другим читачем, и видите оригинална истицања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4402-6
 msgid ""
@@ -9146,25 +9152,22 @@ msgid ""
 "highlights too will be deleted from the PDF file when you delete an imported "
 "highlight."
 msgstr ""
+"<span class=\"microns_warning\" title=\"Упозорење\"></span> Ако укључите "
+"опцију <span class=\"ui\">Упиши истицања у PDF</span>, из PDF фајла ће се, "
+"када обришете увезена истицања, обрисати и уграђена истицања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:4406-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlights / Highlight color"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Highlights / Write highlights into PDF"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Истицања / Боја истицања"
+"style=\"width:26px;\"> / Истицања / Упиши истицања у PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4409-6
-#, fuzzy
-#| msgid "3. Using Calibre"
 msgctxt "user_guide/en.html:L2-ocr"
 msgid "7.5 Using OCR"
-msgstr "3. Употребом програма Calibre"
+msgstr "7.5 Употреба OCR (оптичког препознавања карактера)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4410-6
 msgid ""
@@ -9259,11 +9262,6 @@ msgid "This action is under:"
 msgstr "Ова акција се налази у:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4448-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
-#| "lights section / Full screen refresh rate"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / \"ANY "
@@ -9271,7 +9269,7 @@ msgid ""
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама / "
-"одељак Екран и светла / Освежавање целог екрана"
+"„БИЛО КОЈА ГЕСТИКУЛАЦИЈА” / Екран и светла / Пуна учесталост освежавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4451-6
 msgctxt "user_guide/en.html:L2-panelzoom"
@@ -9606,7 +9604,7 @@ msgstr "8.5 Остали манга савети"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4563-6
 msgid "Getting rid of rainbow effect on color e-ink screens"
-msgstr ""
+msgstr "Решавање ефекта дуге на e-ink екранима у боји"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4565-6
 msgid ""
@@ -12195,6 +12193,9 @@ msgid ""
 "span>, you will see this option is enabled in the confirmation dialog: <span "
 "class=\"ui\">[ ] save book to metadata archive</span>"
 msgstr ""
+"Када сада обришете документ из <span class=\"ui\">Прегледача фајлова</span>, "
+"видећете да је ова опија укључена у дијалогу за потврду: <span class=\"ui\">"
+"[ ] сачувај књигу у архиву метаподатака</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5472-7
 msgid ""
@@ -12202,12 +12203,17 @@ msgid ""
 "for this document to your archive directory which you have chosen at the "
 "first step above."
 msgstr ""
+"Ако приликом брисања штиклирате ову опцију, KOReader ће фајл подешавања за "
+"овај документ да копира у ваш директоријум архиве, који сте изабрали у првом "
+"кораку изнад."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5474-7
 msgid ""
 "Then KOReader will delete your document and its associated <span "
 "class=\"ui\">your_document_name.sdr</span> directory."
 msgstr ""
+"KOReader ће затим да обрише документ и његов придружен <span class=\"ui\">"
+"име_вашег_документа.sdr</span> директоријум."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5478-6
 msgid ""
@@ -12219,26 +12225,27 @@ msgid ""
 "span> button will use this archived settings file for this document so you "
 "will get back the settings, annotations and progress for this document."
 msgstr ""
+"Ваш документ је обрисан, али су његова подешавања у архиви. Ако га поново "
+"копирате на уређај и отворите га, KOReader ће приметити да се подешавања за "
+"тај документ налазе у архиви и обавестиће вас: <b>„Ова књига је раније "
+"отварана на овом уређају. Желите ли да вратите њене метаподатке из архиве?”</"
+"b> Дугме <span class=\"ui\">Обнови</span> ће користити овај архивирани фајл "
+"подешавања за документ, тако да ћете вратити назад подешавања, белешке и "
+"напредак читања за овај документ."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5482-6
-#, fuzzy
-#| msgid "You can remove this custom book cover here:"
 msgid "You can see the list of archived documents here:"
-msgstr "Овде можете да уклоните овај произвољни омот књиге:"
+msgstr "Овде можете да видите листу архивираних докумената:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5483-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:26px;\"> / Document / Book metadata location: book folder"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata archive / Archived books "
 "list"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Документ / Локација метаподатака књиге: "
-"директоријум са књигама"
+"style=\"width:26px;\"> / Документ / Архива метаподатака књига / Листа "
+"архивираних књига"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5486-6
 msgid ""
@@ -12246,6 +12253,9 @@ msgid ""
 "metadata</b> and <b>bookmarks</b> by tapping on the name of the document. "
 "Also you can delete the document from the archive."
 msgstr ""
+"Из ове листе можете да приступите <b>информацијама/метаподацима</b> и <b>"
+"маркерима</b> архивиране књиге тако што тапнете на име документа. Такође, "
+"документ можете и да обришете из архиве."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5492-6
 msgid "Save metadata to archive on book closing"
@@ -12259,6 +12269,11 @@ msgid ""
 "(Android file manager, when connected to your pc...) you will still have a "
 "backup of your document's settings."
 msgstr ""
+"Ако укључите ову опцију и истог менија поменутог изнад, KOReader ће приликом "
+"затварања да сачува копију <b>фајла са подрешавањима</b> за сваки документ. "
+"Чак и ако документ и његов .sdr фолдер обришете ван програма KOReader "
+"(Android фајл менаџер, када сте повезани са компјутером...), још увек ћете "
+"имати резервну копију подешавања свог документа."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5496-6
 msgid ""
@@ -12268,6 +12283,11 @@ msgid ""
 "dialog, KOReader will delete the previously created settings archive file "
 "for this document."
 msgstr ""
+"<span class=\"microns_info\"></span> Ако је укључена опција <span "
+"class=\"ui\">Сачувај метаподатке у архиву приликом затварања књиге</span>, "
+"али одштиклирате опцију <span class=\"ui\">сачувај књигу у архиву "
+"метаподатака</span> у дијалогу брисања фајла, KOReader ће обрисати претходно "
+"креирани фајл архиве подешавања за овај документ."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5501-6
 msgid ""
@@ -12280,6 +12300,15 @@ msgid ""
 "different file. See the next section of the guide for more detailed info: <a "
 "class=\"internalink\" href=\"L2-metadatastorage\">Book Metadata Storage</a>"
 msgstr ""
+"<span class=\"microns_warning\" title=\"Упозорење\"></span> KOReader "
+"обрисане фајлове препознаје користећи њихове хешеве. Ово значи да би фајл "
+"који копирате назад на уређеј требало да буде идентичан са обрисаним фајлом. "
+"Било каква промена, као што су Calibre метаподаци који се уписују у фајл, "
+"или додата PDF истицања, ће променити хеш фајла. У том случају, KOReader не "
+"може да вам понуди опцију <span class=\"ui\">Обнови</span>, јер ће сматрати "
+"да је у питању другачији фајл. Погледајте наредни одељак упутства да сазнате "
+"више детаља у вези са овиме: <a class=\"internalink\" href=\"L2-"
+"metadatastorage\">Складиште метаподатака књиге</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5505-6
 msgid ""
@@ -12436,17 +12465,12 @@ msgid "2. Metadata directories under a single KOReader directory"
 msgstr "2. Директоријуми метаподатака под једним KOReader директоријумом"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5552-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
-#| "docsettings"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: ./docsettings"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Документ/ Локација метаподатака књиге: .../koreader/"
+"style=\"width:26px;\"> / Документ / Локација метаподатака књиге: ./"
 "docsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5555-6
@@ -12508,18 +12532,13 @@ msgstr ""
 "директоријуму"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5573-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:26px;\"> / Document / Book metadata location: .../koreader/"
-#| "hashdocsettings"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Document / Book metadata location: ./hashdocsettings"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:26px;\"> / Документ / Локација метаподатака књиге: .../"
-"koreader/hashdocsettings"
+"style=\"width:26px;\"> / Документ / Локација метаподатака књиге: ./"
+"hashdocsettings"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5576-6
 msgid ""
@@ -12801,20 +12820,16 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5706-6
 msgctxt "user_guide/en.html+gestures.p:96-0"
 msgid "You can see an overview of your currently defined gestures here:"
-msgstr ""
+msgstr "Овде можете видети преглед ваших тренутно дефинисаних гестикулација:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5707-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and Gestures / Gesture Manager"
 msgctxt "user_guide/en.html+gestures.div:97-0"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Taps and gestures / Gesture overview"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама"
+"style=\"width:26px;\"> / Тапови и гестикулације / Преглед гестикулације"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:5714-7
 msgid "CORNER TAP"
@@ -12955,20 +12970,16 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5781-6
 msgctxt "user_guide/en.html+gestures.p:171-0"
 msgid "You can see an overview of your currently defined gestures here:"
-msgstr ""
+msgstr "Овде можете видети преглед ваших тренутно дефинисаних гестикулација:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5782-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and Gestures / Gesture Manager"
 msgctxt "user_guide/en.html+gestures.div:172-0"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Taps and gestures / Gesture overview"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама"
+"style=\"width:26px;\"> / Тапови и гестикулације / Преглед гестикулације"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5785-6
 msgid ""
@@ -13038,10 +13049,10 @@ msgid "Dictionary lookup"
 msgstr "Претрага речника"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5804-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Load dictionary preset <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Учитај сачувано подешавање речника <span style=\"font-family: microns;\"></"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5805-8
 msgid "Cycle through dictionary presets"
@@ -13085,10 +13096,8 @@ msgid "Show ephemeris"
 msgstr "Прикажи ефемериде"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5815-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Reading statistics <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Статистика читања <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5816-8
 msgid "Reading statistics: toggle"
@@ -13115,14 +13124,12 @@ msgid "Reading statistics: synchronize"
 msgstr "Статистика читања: синхронизација"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5822-8
-#, fuzzy
-#| msgid "Reader"
 msgid "Fast Reader"
-msgstr "Читач"
+msgstr "Брзи читач"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5823-8
 msgid "RSVP Reading"
-msgstr ""
+msgstr "Молим одговор читање"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:5826-7
 msgid "Device"
@@ -13182,11 +13189,11 @@ msgid "Invert page-turn buttons"
 msgstr "Обрни дугмад за окретање странице"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5842-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid ""
 "Set page-turn button inversion <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Постави инверзију дугмића за окретање странице <span style=\"font-family: "
+"microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5843-8
 msgid "Toggle key repeat"
@@ -13205,18 +13212,16 @@ msgid "Toggle lock auto rotation to current orientation"
 msgstr "Укљ./Искљ. закључавање ауто ротације на текућу оријентацију"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5847-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid ""
 "Set lock auto rotation to current orientation <span style=\"font-family: "
 "microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Постави закључавање аутоматске ротације на текућу оријентацију <span "
+"style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5848-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Rotation <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Ротација <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5850-8
 msgid "Toggle orientation"
@@ -13299,10 +13304,8 @@ msgid "Toggle night mode"
 msgstr "Укљ./Искљ. ноћни режим"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5873-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set night mode <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Постави ноћни режим <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5875-8
 msgid "Full screen refresh"
@@ -13321,36 +13324,36 @@ msgid "Full refresh rate (in night mode)"
 msgstr "Пуна учесталост освежавања (у ноћном режиму)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5879-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid ""
 "Always flash on chapter boundaries <span style=\"font-family: microns;\"></"
 "span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Увек трепни на границама поглавља <span style=\"font-family: microns;\"></"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5880-8
 msgid "Toggle flashing on chapter boundaries"
 msgstr "Укљ./Искљ. трептање на границама поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5881-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid ""
 "Never flash on chapter's 2nd page <span style=\"font-family: microns;\"></"
 "span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Никад не трепћи на другој страници поглавља <span style=\"font-family: "
+"microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5882-8
 msgid "Toggle flashing on chapter's 2nd page"
 msgstr "Укљ./Искљ. трептање на другој страници поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5883-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid ""
 "Always flash on pages with images <span style=\"font-family: microns;\"></"
 "span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Увек трепћи на страницама са сликама <span style=\"font-family: microns;\">"
+"</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5884-8
 msgid "Toggle flashing on pages with images"
@@ -13386,28 +13389,22 @@ msgid "File browser"
 msgstr "Прегледач фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5896-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set display mode <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Постави режим приказа <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5897-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Sort by <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Сортирај по <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5898-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Reverse sorting <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Обрнуто сортирање <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5899-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Folders and files mixed <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Директоријуми и фајлови измешани <span style=\"font-family: microns;\"></"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5900-8
 msgid "Show plus menu"
@@ -13474,10 +13471,10 @@ msgid "Toggle chapter progress bar"
 msgstr "Укљ./Искљ. траку напретка поглавља"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5919-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Load status bar preset <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Учитај сачуване ставке статусне линије <span style=\"font-family: microns;\">"
+"</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5920-8
 msgid "Previous chapter"
@@ -13656,10 +13653,8 @@ msgid "Toggle custom hidden flows"
 msgstr "Укљ./Искљ. произвољних скривених токова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5966-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set highlight action <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Постави акцију истицања <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5967-8
 msgid "Cycle highlight action"
@@ -13695,10 +13690,10 @@ msgid "Reading statistics: current book"
 msgstr "Статистика читања: текућа књига"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5976-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set auto progress sync <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Постави ауто синхронизацију напретка <span style=\"font-family: microns;\">"
+"</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5977-8
 msgid "Toggle auto progress sync"
@@ -13717,20 +13712,17 @@ msgid "Reflowable documents"
 msgstr "Документи који могу да се преслажу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5984-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set typography language <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr ""
+"Постави језик типографије <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5985-8
 msgid "Toggle hanging punctuation"
 msgstr "Укљ./Искљ. висећу интерпункцију"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5986-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Font <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Фонт <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5987-8
 msgid "Increase font size"
@@ -13745,59 +13737,41 @@ msgid "Font size"
 msgstr "Величина фонта"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5990-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Word spacing <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Размак између речи <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5991-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Word expansion <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Експанзија речи <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5992-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgctxt "user_guide/en.html+gestures.div.ol.li:382-2"
 msgid "Contrast <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Контраст <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5993-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Font weight <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Тежина фонта <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5994-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Font hinting <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Хинтовање фонта <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5996-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Font kerning <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Кернинг фонта <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5997-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Two columns <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Две колоне <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5998-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "L/R margins <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Л/Д маргине <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5999-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Sync T/B margins <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> - Назад"
+msgstr "Синхронизуј Г/До маргине <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:6000-8
 msgid "Top margin"
@@ -17313,7 +17287,7 @@ msgstr "Ажурирање програма KOReader"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7430-1
 msgctxt "user_guide/en.html+tips.ul.li:112--5"
 msgid "Adding a password lock"
-msgstr "Додавање лозинке за закључавање KOReader читача"
+msgstr "Додавање лозинке за закључавање"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7431-1
 msgctxt "user_guide/en.html+tips.ul.li:113--5"
@@ -17371,7 +17345,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7445-6
 msgctxt "user_guide/en.html:tip-passwordlock"
 msgid "Adding a password lock"
-msgstr "Додавање лозинке за закључавање KOReader читача"
+msgstr "Додавање лозинке за закључавање"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7446-6
 msgid ""
@@ -17614,12 +17588,6 @@ msgid "15 TROUBLESHOOTING"
 msgstr "15 РЕШАВАЊЕ ПРОБЛЕМА"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7512-6
-#, fuzzy
-#| msgid ""
-#| "If you can't find a solution to your problem in this guide, you can open "
-#| "an issue about it on the project's <b>GitHub</b> page or make a post in "
-#| "the KOReader section of the <b>Mobileread</b> forum. Please see the <a "
-#| "href=\"#L1-reachus\">last section</a> of this guide for details."
 msgid ""
 "If you can't find a solution to your problem in this guide, you can open an "
 "issue about it on the project's <b>GitHub</b> page or make a post in the "
@@ -17630,7 +17598,8 @@ msgstr ""
 "Ако решење свог проблема не можете да пронађете у овом упутству, отворите га "
 "као проблем на страници <b>GitHub</b> пројекта или поставите пост на "
 "KOReader теми <b>Mobileread</b> форума. За детаље, молимо вас да погледате "
-"<a href=\"#L1-reachus\">последњи одељак</a> овог упутства."
+"одељак овог упутства, <a class=\"internalink\" href=\"#L1-reachus\">ОБРАТИТЕ "
+"НАМ СЕ</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7519-1
 #, fuzzy
@@ -17720,11 +17689,9 @@ msgid "Clearing file cache"
 msgstr "Брисање кеша фајлова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7535-1
-#, fuzzy
-#| msgid "Nightly versions"
 msgctxt "user_guide/en.html+troubleshooting.ul.li:27--5"
 msgid "What is a Nightly Version?"
-msgstr "Ноћне верзије"
+msgstr "Шта је Ноћна верзија?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7538-6
 #, fuzzy
@@ -17809,16 +17776,9 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7572-6
-#, fuzzy
-#| msgid ""
-#| "Reasons mentioned above is generally valid if only some of your books are "
-#| "slow. If all of your books are slow, your problem might be device related:"
 msgid ""
 "If <b>all of your books are slow</b>, your problem might be device related:"
-msgstr ""
-"Разлози поменути изнад у општем случају важе само у онда када су неке од "
-"ваших књига споре. Ако су све ваше књиге споре, можда је проблем везан за "
-"уређај:"
+msgstr "Ако су <b>све ваше књиге споре</b>, можда је проблем везан за уређај:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7575-7
 msgid "Very slow CPU or low RAM."
@@ -18131,10 +18091,10 @@ msgid ""
 "your books in a folder with the <b>same name as your book</b>. You can "
 "backup these folders separately if you wish."
 msgstr ""
-"<span class=\"label_blue\">ИНФО</span> Ваша подешавања појединачних књига и "
-"истицања се чувају у истом директоријуму у којем се налазе и књиге, под "
-"<b>истим именом као и књига</b>. Ако то желите, можете посебно да направите "
-"резервну копију ових фолдера."
+"<span class=\"microns_info\" title=\"Контекстуална информација\"></span> "
+"Ваша подешавања појединачних књига и истицања се чувају у истом "
+"директоријуму у којем се налазе и књиге, под <b>истим именом као и књига</b>"
+". Ако то желите, можете посебно да направите резервну копију ових фолдера."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7672-6
 #, fuzzy
@@ -18192,22 +18152,16 @@ msgid "Small numbers on the side when reading"
 msgstr "Видим мале бројеве са стране док читам књигу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7690-6
-#, fuzzy
-#| msgid ""
-#| "Those small numbers are called <b>Reference Page Numbers</b>. In short, "
-#| "they are the real page numbers from the printed version of your book. For "
-#| "more information please click here <a href=\"#L2-readingscreen\">Reading "
-#| "Screen</a> to go to the relevant section."
 msgid ""
 "Those small numbers are called <b>publisher page numbers</b>. In short, they "
 "are the real page numbers from the printed version of your book. For more "
 "information please click here <a class=\"internalink\" href=\"#L2-"
 "pagenumbering\">Page Numbering</a> to go to the relevant section."
 msgstr ""
-"Ти мали бројеви се називају <b>Референтни бројеви страница</b>. Укратко, то "
-"су реални бројеви страница из штампане верзије ваше књиге. За више "
-"информација, молимо вас да кликнете овде <a href=\"#L2-readingscreen\">Екран "
-"читања</a> и одете на одговарајући одељак."
+"Ти мали бројеви се називају <b>бројеви страница издавача</b>. Укратко, то су "
+"реални бројеви страница из штампане верзије ваше књиге. За више информација, "
+"молимо вас да кликнете овде <a class=\"internalink\" href=\"#L2-"
+"pagenumbering\">Нумерисање страница</a> и одете на одговарајући одељак."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7693-6
 msgctxt "user_guide/en.html:ts-statusbardisappear"
@@ -18342,17 +18296,15 @@ msgid ""
 "clearing the cache will not provide any benefit. Instead, it will degrade "
 "the performance because your reader will have to render those pages again."
 msgstr ""
-"<span class=\"label_red\">УПОЗОРЕЊЕ</span> Обришите овај кеш <b>само ако вам "
-"је заиста потребан тај простор</b>. Ако имате довољно простора, брисање кеша "
-"неће донети никакве предности. Уместо тога, деградираће се перформансе јер "
-"читач мора поново да исцртава те странице."
+"<span class=\"microns_warning\" title=\"Упозорење\"></span> Обришите овај "
+"кеш <b>само ако вам је заиста потребан тај простор</b>. Ако имате довољно "
+"простора, брисање кеша неће донети никакве предности. Уместо тога, "
+"деградираће се перформансе јер читач мора поново да исцртава те странице."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7733-6
-#, fuzzy
-#| msgid "Nightly versions"
 msgctxt "user_guide/en.html:ts-nightlyversions"
 msgid "What is a Nightly Version?"
-msgstr "Ноћне верзије"
+msgstr "Шта је Ноћна верзија?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7734-6
 msgid "KOReader has two different versions:"
@@ -18446,11 +18398,11 @@ msgid ""
 "KOReader installation. Open source applications like <b>Shelter</b> and "
 "<b>Island</b> can help you with this."
 msgstr ""
-"<span class=\"label_green\">САВЕТ</span> Ако KOReader користите на Android "
-"уређају, искористите <b>Work Profile</b> функционалност Android ОС-а да "
-"тестирате Ноћну верзију без утицаја на вашу главну KOReader инсталацију. У "
-"овоме вам могу помоћи апликације отвореног кода као што су <b>Shelter</b> и "
-"<b>Island</b>."
+"<span class=\"microns_tip\" title=\"Користан савет\"></span> Ако KOReader "
+"користите на Android уређају, искористите <b>Work Profile</b> функционалност "
+"Android ОС-а да тестирате Ноћну верзију без утицаја на вашу главну KOReader "
+"инсталацију. У овоме вам могу помоћи апликације отвореног кода као што су <b>"
+"Shelter</b> и <b>Island</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7773-6
 msgctxt "user_guide/en.html:L1-reachus"
