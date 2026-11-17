@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-17 07:50+0000\n"
-"PO-Revision-Date: 2026-11-17 06:29+0000\n"
-"Last-Translator: Dan Sage <danielthesage@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-11-18 06:59+0000\n"
+"Last-Translator: Enrico Morelli <morellik@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/it/>\n"
 "Language: it\n"
@@ -12361,6 +12361,11 @@ msgid ""
 "href=\"https://standardebooks.org/\">Standard Ebooks</a> and you can add "
 "other OPDS catalogs. To open the OPDS dialog, go to:"
 msgstr ""
+"KOReader è preconfigurato con alcuni cataloghi OPDS di grandi dimensioni, "
+"come <a href=\"https://www.gutenberg.org/\">Project Gutenberg</a> e <a "
+"href=\"https://standardebooks.org/\">Standard Ebooks</a>, ed è possibile "
+"aggiungere altri cataloghi OPDS. Per aprire la finestra di dialogo OPDS, vai "
+"su:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5290-6
 #, fuzzy
@@ -12376,7 +12381,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5293-6
 msgid "Using personal OPDS servers"
-msgstr ""
+msgstr "Utilizzo di server OPDS personali"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5294-6
 msgid ""
@@ -12388,6 +12393,13 @@ msgid ""
 "class=\"external\">Calibre</span> instructions about configuring an OPDS "
 "server."
 msgstr ""
+"Oltre ai cataloghi pubblici, puoi utilizzare il sistema OPDS per gestire la "
+"tua libreria personale. Utilizzando l’applicazione <span class=\"external\">"
+"Calibre</span>, puoi rendere disponibili i libri presenti sul tuo computer "
+"come catalogo OPDS, che potrai sfogliare direttamente da KOReader. Clicca <a "
+"href=\"https://manual.calibre-ebook.com/generated/en/calibre-server.html\">"
+"qui</a> per le istruzioni di <span class=\"external\">Calibre</span> "
+"relative alla configurazione di un server OPDS."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5299-6
 msgid ""
@@ -12401,6 +12413,17 @@ msgid ""
 "Documentation for <b>OPDS</b> and <b>progress sync</b> for KOReader users is "
 "<a href=\"https://wiki.kavitareader.com/guides/3rdparty/koreader/\">here</a>."
 msgstr ""
+"<span class=\"external\">Kavita</span> è anche un server di lettura open "
+"source, ricco di funzionalità e multipiattaforma. Puoi configurare il tuo "
+"server personale e condividere la tua raccolta di libri con amici e "
+"familiari. Supporta inoltre <b>OPDS</b> e <b>sincronizzazione dei progressi</"
+"b> per KOReader. Utilizzando questa applicazione, puoi accedere alla tua "
+"libreria dal tuo dispositivo di lettura e sincronizzare la posizione di "
+"lettura tra diversi dispositivi per riprendere la lettura da dove l'avevi "
+"interrotta. La pagina del progetto è <a href=\"https://www.kavitareader.com/"
+"\">qui</a>. La documentazione relativa a <b>OPDS</b> e alla <b>"
+"sincronizzazione dei progressi</b> per gli utenti di KOReader è disponibile "
+"<a href=\"https://wiki.kavitareader.com/guides/3rdparty/koreader/\">qui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5306-6
 msgid ""
@@ -12408,10 +12431,13 @@ msgid ""
 "Instructions are <a href=\"https://github.com/koreader/koreader/wiki/OPDS-"
 "support\">here</a>."
 msgstr ""
+"Dopo aver configurato i propri server OPDS, è necessario aggiungerli a "
+"KOReader. Le istruzioni sono disponibili <a href=\"https://github.com/"
+"koreader/koreader/wiki/OPDS-support\">qui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5308-6
 msgid "9.6 Synchronizing Progress"
-msgstr ""
+msgstr "9.6 Sincronizzazione dei progressi"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5310-6
 msgid ""
@@ -12421,6 +12447,12 @@ msgid ""
 "continue reading seamlessly when switching from your e-reader at home to "
 "your phone on the commute for example."
 msgstr ""
+"Se utilizzi KOReader su più dispositivi, come e-reader, telefono, tablet o "
+"computer fisso, KOReader è in grado di sincronizzare i tuoi progressi di "
+"lettura tra di essi. Grazie alla funzione <span class=\"ui\">"
+"sincronizzazione dei progressi</span>, puoi continuare a leggere senza "
+"interruzioni quando, ad esempio, passi dall'e-reader a casa al telefono "
+"mentre sei in viaggio."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5313-6
 msgid ""
@@ -12428,20 +12460,25 @@ msgid ""
 "plugin. Setting up synchronization involves these three steps which we will "
 "explain below:"
 msgstr ""
+"Questa funzionalità è gestita dal plugin <span class=\"ui\">progress sync</"
+"span>. La configurazione della sincronizzazione prevede questi tre passaggi, "
+"che illustreremo di seguito:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5317-7
 msgid "Create a <b>sync account</b>"
-msgstr ""
+msgstr "Crea un <b>account di sincronizzazione</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5318-7
 msgid ""
 "Login to your <b>sync account</b> from all the devices you want to "
 "synchronize"
 msgstr ""
+"Accedi al tuo account di <b>sincronizzazione</b> da tutti i dispositivi che "
+"desideri sincronizzare"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5320-7
 msgid "Automatically or manually synchronize your reading progress"
-msgstr ""
+msgstr "Sincronizza automaticamente o manualmente i tuoi progressi di lettura"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5323-6
 #, fuzzy
@@ -12454,6 +12491,9 @@ msgid ""
 "To create a sync account, connect to a network on your device and open the "
 "<span class=\"ui\">progress sync</span> plugin in KOReader:"
 msgstr ""
+"Per creare un account di sincronizzazione, connettiti a una rete dal tuo "
+"dispositivo e apri il plugin <span class=\"ui\">progress sync</span> in "
+"KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5328-6
 #, fuzzy
@@ -12479,10 +12519,15 @@ msgid ""
 "class=\"external\">KOReader sync server</span> which will hold your reading "
 "progress."
 msgstr ""
+"Nella finestra iniziale, inserisci un <span class=\"ui\">nome utente</span> "
+"e una <span class=\"ui\">password</span>, quindi premi il pulsante <span "
+"class=\"ui\">Registrati</span>. In questo modo verrà creato un account sul "
+"<span class=\"external\">server di sincronizzazione di KOReader</span>, che "
+"memorizzerà i tuoi progressi di lettura."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5340-6
 msgid "2. Login to your sync account"
-msgstr ""
+msgstr "2. Accedi al tuo account di sincronizzazione"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5342-6
 msgid ""
@@ -12491,6 +12536,11 @@ msgid ""
 "time press the <span class=\"ui\">Login</span> button. After this, your "
 "devices will be connected to your sync account."
 msgstr ""
+"Apri lo stesso menu sui dispositivi che desideri sincronizzare. Inserisci il "
+"tuo <span class=\"ui\">nome utente</span> e la <span class=\"ui\">password</"
+"span>, quindi questa volta premi il pulsante <span class=\"ui\">Accedi</span>"
+". A questo punto, i tuoi dispositivi saranno collegati al tuo account di "
+"sincronizzazione."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5347-6
 msgid ""
@@ -12498,16 +12548,21 @@ msgid ""
 "press the <span class=\"ui\">Device hostname</span> and enter a name for the "
 "current device."
 msgstr ""
+"È possibile assegnare nomi riconoscibili ai propri dispositivi. Sempre dallo "
+"stesso menu, premere <span class=\"ui\">Nome host del dispositivo</span> e "
+"inserire un nome per il dispositivo corrente."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5350-6
 msgid "3. Sync your progress"
-msgstr ""
+msgstr "3. Sincronizza i tuoi progressi"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5352-6
 msgid ""
 "After everything is set up, you can synchronize your reading progress "
 "automatically or manually:"
 msgstr ""
+"Una volta completata la configurazione, puoi sincronizzare i tuoi progressi "
+"di lettura in modo automatico o manuale:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5355-7
 msgid ""
@@ -12517,6 +12572,12 @@ msgid ""
 "KOReader will send your reading progress to the server (of course this "
 "requires an available network connection)."
 msgstr ""
+"<b>Sincronizzazione automatica:</b> Per sincronizzare <b>automaticamente</b>"
+", attiva la voce di menu <span class=\"ui\">Mantieni automaticamente i "
+"documenti sincronizzati</span>. Ora, ogni volta che <b>chiudi un libro</b> o "
+"<b>metti in sospensione/riattivi il dispositivo</b>, KOReader invierà i tuoi "
+"progressi di lettura al server (ovviamente ciò richiede una connessione di "
+"rete disponibile)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5360-7
 msgid ""
@@ -12524,6 +12585,11 @@ msgid ""
 "device for battery or availability reasons, you can choose to synchronize "
 "<b>manually</b>. You have many options to trigger a synchronization:"
 msgstr ""
+"<b>Sincronizzazione manuale:</b> Se sul tuo dispositivo non disponi di una "
+"connessione Internet costante per motivi legati alla batteria o alla "
+"disponibilità della rete, puoi scegliere di effettuare la sincronizzazione "
+"<b>manualmente</b>. Hai a disposizione diverse opzioni per avviare una "
+"sincronizzazione:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5364-8
 msgid ""
@@ -12533,6 +12599,12 @@ msgid ""
 "the server. To receive the latest progress from the server, press <span "
 "class=\"ui\">Pull progress from other devices now</span> menu item."
 msgstr ""
+"<b>Dal menu:</b> Nel menu del plugin <span class=\"ui\">Progress sync</span> "
+"è possibile selezionare la voce <span class=\"ui\">Invia i progressi da "
+"questo dispositivo ora</span> per inviare i propri progressi dal dispositivo "
+"corrente al server. Per ricevere gli ultimi progressi dal server, "
+"selezionare la voce <span class=\"ui\">Recupera i progressi dagli altri "
+"dispositivi ora</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5370-8
 msgid ""
@@ -12540,6 +12612,9 @@ msgid ""
 "the <span class=\"ui\">Gesture manager</span> so you can assign them to any "
 "gesture you like."
 msgstr ""
+"<b>Con i gesti:</b> Queste azioni (avanzamento \"push/pull\") sono "
+"disponibili nelle <span class=\"ui\">Impostazioni dei gesti</span>, in modo "
+"da poterle assegnare a qualsiasi gesto desideri."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5374-8
 msgid ""
@@ -12556,10 +12631,14 @@ msgid ""
 "<span class=\"ui\">profiles</span>, you can trigger sync with various "
 "filters and conditions."
 msgstr ""
+"<b>Dai profili:</b> Puoi aggiungere queste azioni ai tuoi <span class=\"ui\">"
+"Profili</span>. In particolare, grazie alla funzione di esecuzione "
+"automatica dei <span class=\"ui\">profili</span>, puoi avviare la "
+"sincronizzazione in base a vari filtri e condizioni."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5382-6
 msgid "Document matching method options"
-msgstr ""
+msgstr "Opzioni relative al metodo di confronto dei documenti"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5384-6
 msgid ""
@@ -12570,10 +12649,17 @@ msgid ""
 "class=\"ui\">Document matching method</span> option in the <b>progress sync</"
 "b> menu."
 msgstr ""
+"Per sincronizzare lo stato di avanzamento di un documento su due dispositivi "
+"diversi, KOReader deve innanzitutto identificare questi due file come "
+"\"uguali\". A volte ciò può risultare complesso, pertanto sono disponibili "
+"due metodi tra cui scegliere, a seconda dell'utilizzo che si fa di KOReader. "
+"È possibile modificare il metodo dall'opzione <span class=\"ui\">Metodo di "
+"corrispondenza dei documenti</span> nel menu <b>Sincronizzazione dello stato "
+"di avanzamento</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5389-6
 msgid "Binary matching (default)"
-msgstr ""
+msgstr "Corrispondenza binaria (impostazione predefinita)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5390-6
 msgid ""
@@ -12584,6 +12670,12 @@ msgid ""
 "hash so <b>binary matching</b> method works only if both files are perfectly "
 "identical."
 msgstr ""
+"Per impostazione predefinita, <b>progress sync</b> utilizza il metodo <span "
+"class=\"ui\">Binary matching</span> per identificare i file. Con questo "
+"metodo, KOReader genera un <b>hash MD5</b> parziale del contenuto del file "
+"(che ha questo aspetto: 0b229176d4e8db7f...). Qualsiasi minima modifica al "
+"file cambia completamente questo hash, quindi il metodo <b>binary matching</"
+"b> funziona solo se entrambi i file sono perfettamente identici."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5396-6
 msgid ""
@@ -12592,6 +12684,10 @@ msgid ""
 "class=\"external\">Calibre</span> to send books to your devices, <b>binary "
 "matching</b> will fail."
 msgstr ""
+"Se stai copiando manualmente <b>lo stesso identico file</b> su tutti i tuoi "
+"dispositivi, questo metodo dovrebbe funzionare. Ma, ad esempio, se stai "
+"utilizzando <span class=\"external\">Calibre</span> per inviare libri ai "
+"tuoi dispositivi, <b>la corrispondenza binaria</b> non funzionerà."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5401-6
 msgid ""
@@ -12602,10 +12698,17 @@ msgid ""
 "books. If you have this problem you can use the alternative method explained "
 "below."
 msgstr ""
+"Poiché <span class=\"external\">Calibre</span> scrive le proprie "
+"informazioni, come <b>lo stato di avanzamento della lettura</b>, "
+"direttamente nel file, modificando così il <b>calcolo dell'hash del file</b>"
+", KOReader tratterà questi file (quello originale e quello modificato da "
+"<span class=\"external\">Calibre</span>) come due libri diversi. Se "
+"riscontri questo problema, puoi utilizzare il metodo alternativo spiegato di "
+"seguito."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5407-6
 msgid "Filename matching"
-msgstr ""
+msgstr "Corrispondenza dei nomi dei file"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5409-6
 msgid ""
@@ -12614,6 +12717,10 @@ msgid ""
 "other software like <span class=\"external\">Calibre</span>, as explained "
 "above."
 msgstr ""
+"Si tratta di un metodo di corrispondenza \"meno rigoroso\", pensato per gli "
+"utenti i cui file potrebbero presentare lievi differenze tra i vari "
+"dispositivi a causa delle modifiche apportate ai documenti da altri software "
+"come <span class=\"external\">Calibre</span>, come spiegato sopra."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5411-6
 msgid ""
@@ -12623,6 +12730,12 @@ msgid ""
 "management software to manage your library across different devices, you can "
 "change to <span class=\"ui\">Filename matching</span>."
 msgstr ""
+"In questo metodo, KOReader verifica solo se i nomi dei file <b> (compresa "
+"l'estensione) dei due documenti </b> sono identici per abbinarli. Pertanto, "
+"se utilizzi <span class=\"external\">Calibre</span> o un altro software di "
+"gestione della libreria per gestire la tua libreria su diversi dispositivi, "
+"puoi passare all'opzione <span class=\"ui\">Abbinamento dei nomi dei file</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5415-6
 msgid ""
@@ -12631,10 +12744,14 @@ msgid ""
 "class=\"internalink\">Book metadata storage options</a> section of the guide "
 "for in-depth information."
 msgstr ""
+"<span class=\"microns_info\" title=\"Informazioni contestuali\"></span> Per "
+"informazioni più approfondite, puoi anche consultare la sezione <a "
+"href=\"#L2-metadatastorage\" class=\"internalink\">Opzioni di archiviazione "
+"dei metadati dei libri</a> della guida."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5419-6
 msgid "Privacy and security of the synchronization process"
-msgstr ""
+msgstr "Privacy e sicurezza del processo di sincronizzazione"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5422-7
 msgid ""
@@ -12643,6 +12760,11 @@ msgid ""
 "can find more information including the source code on its <a href=\"https://"
 "github.com/koreader/koreader-sync-server\">GitHub page</a>."
 msgstr ""
+"<span class=\"external\">Il server di sincronizzazione di KOReader</span>, "
+"il software che gestisce il processo di sincronizzazione di KOReader, è un "
+"progetto open source. È possibile trovare ulteriori informazioni, compreso "
+"il codice sorgente, sulla sua <a href=\"https://github.com/koreader/koreader-"
+"sync-server\">pagina GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5424-7
 msgid ""
@@ -12651,16 +12773,22 @@ msgid ""
 "progress of a document, only this information is transferred and kept on the "
 "server:"
 msgstr ""
+"Il server di sincronizzazione <b> non memorizza né il nome né il contenuto "
+"dei file </b>. Ciò significa che il server non può sapere cosa stai "
+"leggendo. Quando sincronizzi lo stato di avanzamento di un documento, sul "
+"server vengono trasferite e conservate solo le seguenti informazioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5427-9
 msgid "User name (that you have chosen)"
-msgstr ""
+msgstr "Nome utente (da te scelto)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5428-9
 msgid ""
 "Unique id of the document (MD5 hash of the file which looks like this: "
 "0b229176...)"
 msgstr ""
+"ID univoco del documento (hash MD5 del file, che ha questo formato: "
+"0b229176...)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:5429-9
 #, fuzzy
@@ -12672,17 +12800,23 @@ msgstr "Si sta leggendo un documento PDF"
 msgid ""
 "Your password <b>is not stored</b> on the server (only a MD5 hash is kept)."
 msgstr ""
+"La tua password <b>non viene memorizzata</b> sul server (viene conservato "
+"solo un hash MD5)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5435-7
 msgid ""
 "All communication between KOReader and the sync server is secured with HTTPS."
 msgstr ""
+"Tutte le comunicazioni tra KOReader e il server di sincronizzazione sono "
+"protette tramite HTTPS."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5438-6
 msgid ""
 "Hosting your own sync server <span class=\"microns_warning\" "
 "title=\"Advanced topic\"></span>"
 msgstr ""
+"Come ospitare il proprio server di sincronizzazione <span "
+"class=\"microns_warning\" title=\"Argomento avanzato\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5440-6
 msgid ""
@@ -12692,6 +12826,12 @@ msgid ""
 "this <a href=\"https://github.com/ruiribeiro04/awesome-koreader/#sync-"
 "servers-self-hosted\">page</a>."
 msgstr ""
+"Se lo desideri, hai anche la possibilità di ospitare il tuo server di "
+"sincronizzazione. Puoi utilizzare il server di sincronizzazione ufficiale <a "
+"href=\"https://github.com/koreader/koreader-sync-server\">KOReader</a> "
+"oppure una delle alternative riportate in questa <a href=\"https://"
+"github.com/ruiribeiro04/awesome-koreader/#sync-servers-self-hosted\">pagina</"
+"a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5443-6
 msgid ""
@@ -12699,17 +12839,23 @@ msgid ""
 "calibre-web\">Calibre-Web</a> which are library management solutions with an "
 "integrated <b>KOReader sync server</b>."
 msgstr ""
+"Esistono anche altri progetti come <a href=\"https://github.com/janeczku/"
+"calibre-web\">Calibre-Web</a>, che sono soluzioni per la gestione delle "
+"librerie dotate di un <b>server di sincronizzazione KOReader</b> integrato."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5446-6
 msgctxt "user_guide/en.html:L2-metadataarchive"
 msgid "9.7 Book Metadata Archive"
-msgstr ""
+msgstr "9.7 Archivio dei metadati dei libri"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5448-6
 msgid ""
 "First we will explain KOReader's file deletion behavior so you will better "
 "understand the <b>Book Metadata Archive</b> feature:"
 msgstr ""
+"Per prima cosa illustreremo il funzionamento della funzione di eliminazione "
+"dei file di KOReader, in modo che possiate comprendere meglio la funzione <b>"
+"Archivio dei metadati dei libri</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5451-6
 msgid ""
@@ -12718,6 +12864,11 @@ msgid ""
 "class=\"ui\">your_document_name.sdr</span> and uses this directory to keep "
 "the settings, annotations and progress for this document."
 msgstr ""
+"Di norma, quando si copia un documento sul proprio dispositivo e lo si apre "
+"per la prima volta, KOReader crea una nuova cartella con un nome del tipo "
+"<span class=\"ui\">nome_del_documento.sdr</span> e utilizza questa cartella "
+"per conservare le impostazioni, le annotazioni e lo stato di lettura "
+"relative a quel documento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5454-6
 msgid ""
@@ -12727,6 +12878,12 @@ msgid ""
 "you copy this document to your e-reader again and open it with KOReader, it "
 "will be like opening it for the first time."
 msgstr ""
+"Quando si elimina un documento utilizzando il <span class=\"ui\">File "
+"Browser</span> di KOReader, KOReader elimina anche questa <b>.sdr directory</"
+"b>. Ciò significa che si perdono tutte le impostazioni, le annotazioni e i "
+"progressi relativi al documento eliminato. Se si copia nuovamente questo "
+"documento sul proprio e-reader e lo si apre con KOReader, sarà come aprirlo "
+"per la prima volta."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5457-6
 msgid ""
@@ -12735,6 +12892,11 @@ msgid ""
 "don't want to lose the highlights from these books? <b>Book Metadata "
 "Archive</b> feature allows you to do this."
 msgstr ""
+"Ma, ad esempio, cosa succede se vuoi eliminare i libri che hai già letto "
+"(magari perché non ti piace il disordine nella tua libreria o perché hai "
+"esaurito lo spazio), ma allo stesso tempo non vuoi perdere le parti "
+"evidenziate di quei libri? La funzione <b>Archivio metadati dei libri</b> ti "
+"permette di farlo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5462-6
 #, fuzzy
@@ -12747,6 +12909,8 @@ msgid ""
 "First you have to activate the feature by choosing an <b>archive location</"
 "b> here:"
 msgstr ""
+"Per prima cosa devi attivare la funzione selezionando una <b>posizione di "
+"archiviazione</b> qui:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:5467-8
 msgid ""
@@ -12763,6 +12927,9 @@ msgid ""
 "span>, you will see this option is enabled in the confirmation dialog: <span "
 "class=\"ui\">[ ] save book to metadata archive</span>"
 msgstr ""
+"Ora, quando elimini un documento dal <span class=\"ui\">File Browser</span>, "
+"vedrai che questa opzione è abilitata nella finestra di dialogo di conferma: "
+"<span class=\"ui\">[ ] salva il libro nell'archivio dei metadati</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5472-7
 msgid ""
@@ -12770,12 +12937,17 @@ msgid ""
 "for this document to your archive directory which you have chosen at the "
 "first step above."
 msgstr ""
+"Se selezioni questa opzione durante l'eliminazione, KOReader copierà il file "
+"delle impostazioni relativo a questo documento nella cartella di "
+"archiviazione che hai scelto nel primo passaggio sopra descritto."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5474-7
 msgid ""
 "Then KOReader will delete your document and its associated <span "
 "class=\"ui\">your_document_name.sdr</span> directory."
 msgstr ""
+"A quel punto KOReader eliminerà il documento e la relativa cartella <span "
+"class=\"ui\">nome_del_documento.sdr</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5478-6
 msgid ""
@@ -12787,6 +12959,15 @@ msgid ""
 "span> button will use this archived settings file for this document so you "
 "will get back the settings, annotations and progress for this document."
 msgstr ""
+"Il documento è stato eliminato, ma le sue impostazioni sono presenti "
+"nell’archivio. Se copi nuovamente questo documento sul tuo dispositivo e lo "
+"apri, KOReader rileverà che le impostazioni relative a questo documento si "
+"trovano nell’archivio e ti mostrerà il seguente messaggio: <b>\"Questo libro "
+"è stato aperto in precedenza su questo dispositivo. Desideri ripristinarne i "
+"metadati dall’archivio?\"</b> <span class=\"ui\">Il pulsante \"Ripristina</"
+"span>\" utilizzerà il file delle impostazioni archiviato relativo a questo "
+"documento, consentendoti così di recuperare le impostazioni, le annotazioni "
+"e lo stato di lettura del documento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5482-6
 #, fuzzy
@@ -12814,6 +12995,9 @@ msgid ""
 "metadata</b> and <b>bookmarks</b> by tapping on the name of the document. "
 "Also you can delete the document from the archive."
 msgstr ""
+"Da questo elenco è possibile accedere alle <b>informazioni/metadati</b> e ai "
+"<b>segnalibri</b> del documento archiviato toccando il nome del documento. È "
+"inoltre possibile eliminare il documento dall'archivio."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5492-6
 msgid "Save metadata to archive on book closing"
@@ -12827,6 +13011,12 @@ msgid ""
 "(Android file manager, when connected to your pc...) you will still have a "
 "backup of your document's settings."
 msgstr ""
+"Se attivi questa opzione dallo stesso menu menzionato sopra, KOReader "
+"salverà una copia del <b>file delle impostazioni</b> di ogni documento al "
+"momento della chiusura. Anche se elimini un documento e la relativa cartella "
+".sdr al di fuori di KOReader (tramite il file manager di Android, quando sei "
+"connesso al PC...), avrai comunque un backup delle impostazioni del tuo "
+"documento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5496-6
 msgid ""
@@ -12836,6 +13026,12 @@ msgid ""
 "dialog, KOReader will delete the previously created settings archive file "
 "for this document."
 msgstr ""
+"<span class=\"microns_info\"></span> Se l'opzione <span class=\"ui\">Salva "
+"i metadati nell'archivio alla chiusura del libro</span> è abilitata, ma si "
+"deseleziona l'opzione <span class=\"ui\">Salva il libro nell'archivio dei "
+"metadati</span> nella finestra di dialogo di eliminazione del file, KOReader "
+"eliminerà il file di archivio delle impostazioni creato in precedenza per "
+"questo documento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5501-6
 msgid ""
@@ -12848,6 +13044,15 @@ msgid ""
 "different file. See the next section of the guide for more detailed info: <a "
 "class=\"internalink\" href=\"L2-metadatastorage\">Book Metadata Storage</a>"
 msgstr ""
+"<span class=\"microns_warning\" title=\"Avviso\"></span> KOReader riconosce "
+"i file eliminati in base ai loro hash. Ciò significa che il file che hai "
+"copiato nuovamente sul tuo dispositivo deve essere identico a quello "
+"eliminato. Qualsiasi modifica, come i metadati di Calibre scritti nel file o "
+"le evidenziazioni aggiunte al PDF, altererà l'hash del file. In questo caso "
+"KOReader non potrà offrirti l’opzione <span class=\"ui\">Ripristina</span> "
+"poiché lo rileverà come un file diverso. Consulta la sezione successiva "
+"della guida per informazioni più dettagliate: <a class=\"internalink\" "
+"href=\"L2-metadatastorage\">Archiviazione dei metadati dei libri</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5505-6
 msgid ""
@@ -13366,7 +13571,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5706-6
 msgctxt "user_guide/en.html+gestures.p:96-0"
 msgid "You can see an overview of your currently defined gestures here:"
-msgstr ""
+msgstr "Qui puoi visualizzare una panoramica dei gesti attualmente definiti:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5707-6
 #, fuzzy
@@ -13523,7 +13728,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5781-6
 msgctxt "user_guide/en.html+gestures.p:171-0"
 msgid "You can see an overview of your currently defined gestures here:"
-msgstr ""
+msgstr "Qui puoi visualizzare una panoramica dei gesti attualmente definiti:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5782-6
 #, fuzzy
@@ -13690,7 +13895,7 @@ msgstr "Lettore"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5823-8
 msgid "RSVP Reading"
-msgstr ""
+msgstr "Lettura RSVP"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:5826-7
 msgid "Device"
@@ -15588,7 +15793,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6472-6
 msgid "Adding profiles as menu items to a Quick Menu"
-msgstr ""
+msgstr "Aggiunta di profili come voci di menu a un menu rapido"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6474-6
 msgid ""
@@ -15596,6 +15801,9 @@ msgid ""
 "your <b>profiles</b> as a menu item. This way, you can execute many actions "
 "at once with this single menu item."
 msgstr ""
+"Oltre ad aggiungere azioni al tuo <b>menu rapido</b>, puoi anche aggiungere "
+"i tuoi <b>profili</b> come voce di menu. In questo modo, potrai eseguire "
+"diverse azioni contemporaneamente tramite questa singola voce di menu."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6477-6
 msgid ""
@@ -15603,6 +15811,9 @@ msgid ""
 "which you want to add to this menu. With these ready, follow these "
 "instructions:"
 msgstr ""
+"Partiamo dal presupposto che tu disponga già di un <b>menu rapido</b> "
+"funzionante e di un <b>profilo</b> che desideri aggiungere a tale menu. Una "
+"volta che hai tutto pronto, segui queste istruzioni:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6481-7
 #, fuzzy
@@ -15645,10 +15856,15 @@ msgid ""
 "a profile as a sub-menu which allows you to have a nested menu. This method "
 "is explained in the next heading."
 msgstr ""
+"Dopo aver aggiunto il tuo profilo come voce di menu, puoi aprire il menu "
+"rapido e toccare questa voce per eseguire tutte le azioni presenti in quel "
+"profilo. Puoi anche aggiungere un profilo come sottomenu, il che ti permette "
+"di creare un menu annidato. Questo metodo viene spiegato nel prossimo "
+"paragrafo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6491-6
 msgid "Creating nested quick menus"
-msgstr ""
+msgstr "Creazione di menu rapidi annidati"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6493-6
 msgid ""
@@ -15657,6 +15873,10 @@ msgid ""
 "you have many quick menus but you don't want to assign different gestures to "
 "each one."
 msgstr ""
+"È inoltre possibile aggiungere un <b>menu rapido</b> come voce di menu "
+"all'interno di un altro <b>menu rapido</b>. In questo modo si otterrà una "
+"struttura di menu annidata. Ciò risulta utile quando si dispone di molti "
+"menu rapidi ma non si desidera assegnare gesti diversi a ciascuno di essi."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6497-7
 msgid ""
@@ -15665,6 +15885,10 @@ msgid ""
 "span>. This will make your profile visible in the <span class=\"ui\">Gesture "
 "manager</span>."
 msgstr ""
+"Vai alle <span class=\"ui\">Impostazioni</span> del profilo che desideri "
+"utilizzare come \"menu secondario\" e attiva l'opzione <span class=\"ui\">"
+"Mostra nell'elenco delle azioni</span>. In questo modo il tuo profilo sarà "
+"visibile nel <span class=\"ui\">Impostazioni dei gesti</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6500-7
 msgid ""
@@ -15674,6 +15898,12 @@ msgid ""
 "second page. This will tell KOReader to treat this profile as another menu "
 "which you can enter, instead of executing all its actions when you tap on it."
 msgstr ""
+"Quindi accedi al menu <span class=\"ui\">Modifica azioni</span> nelle stesse "
+"<span class=\"ui\">Impostazioni</span> del <b>menu secondario</b> del "
+"profilo. Ora abilita l'opzione <span class=\"ui\">Mostra come Menu rapido</"
+"span> che si trova nella seconda pagina. In questo modo KOReader tratterà "
+"questo profilo come un altro menu a cui puoi accedere, invece di eseguire "
+"tutte le sue azioni quando lo tocchi."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6506-7
 msgid ""
@@ -15682,6 +15912,11 @@ msgid ""
 "You can find your <b>child menu</b> profile under the <span "
 "class=\"ui\">General</span> tab, last page."
 msgstr ""
+"Ora puoi aggiungere questo profilo al tuo <span class=\"ui\">menu rapido</"
+"span> principale, proprio come le altre azioni presenti nelle <span "
+"class=\"ui\">Impostazioni dei gesti</span>. Puoi trovare il profilo del tuo "
+"<b>menu secondario</b> nella scheda <span class=\"ui\">Generale</span>, "
+"nell'ultima pagina."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6512-6
 msgid ""
@@ -15691,6 +15926,13 @@ msgid ""
 "on the child menu's name in the parent menu. This will also give you an "
 "<span class=\"ui\">Execute all</span> item at the top of the child menu."
 msgstr ""
+"<span class=\"microns_tip\" title=\"Suggerimento utile\"></span> Se nel "
+"secondo passaggio sopra indicato non si abilita l'opzione <span class=\"ui\">"
+"Mostra come Menu rapido</span> per il menu secondario, è comunque possibile "
+"accedere alle voci di menu di quest'ultimo effettuando una pressione "
+"prolungata sul nome del menu secondario all'interno del menu principale. In "
+"questo modo, nella parte superiore del menu secondario apparirà anche la "
+"voce <span class=\"ui\">Esegui tutto</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6517-6
 msgctxt "user_guide/en.html:L2-profiles"
@@ -15903,6 +16145,10 @@ msgid ""
 "the font bigger when I open a book from a certain collection <b>but only if "
 "it is evening time</b>\"."
 msgstr ""
+"Questa opzione <b>non è un attivatore, ma un limitatore</b>. È possibile "
+"utilizzare questa opzione per definire un intervallo di tempo per "
+"l'esecuzione del profilo. Ad esempio: \"ingrandisci il carattere quando apro "
+"un libro di una determinata collezione <b>ma solo se è sera</b>\"."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6596-8
 msgctxt "user_guide/en.html+qmandprofiles.table.tr.td:251-2"
@@ -16118,7 +16364,7 @@ msgstr "Combinato con <b>il libro è nelle collezioni</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6680-8
 msgid "On read timer expiry"
-msgstr ""
+msgstr "Alla scadenza del timer di lettura"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:6681-8
 #, fuzzy
@@ -16133,13 +16379,16 @@ msgstr "-"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6685-8
 msgid "On auto night mode activation"
-msgstr ""
+msgstr "All'attivazione della modalità notturna automatica"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:6686-8
 msgid ""
 "Run this profile every time the <b>Night Mode</b> (inverted screen color) is "
 "toggled or screen warmth is changed"
 msgstr ""
+"Esegui questo profilo ogni volta che viene attivata o disattivata la <b>"
+"Modalità notturna</b> (colori dello schermo invertiti) o viene modificata la "
+"temperatura dello schermo"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6687-80
 msgid ""
@@ -16150,6 +16399,9 @@ msgid ""
 "This trigger will activate on <b>every warmth change</b>. You can limit this "
 "by enabling the <span class=\"ui\">Only within time interval</span> option."
 msgstr ""
+"Questo attivatore si attiverà a ogni <b>variazione di temperatura</b>. È "
+"possibile limitare questa azione attivando l'opzione <span class=\"ui\">Solo "
+"all'interno dell'intervallo di tempo</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6695-6
 msgid "Profile auto-execution examples:"
@@ -16257,7 +16509,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6724-6
 msgid "Execute profile actions one by one"
-msgstr ""
+msgstr "Eseguire le azioni del profilo una alla volta"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6726-6
 msgid ""
@@ -16265,6 +16517,9 @@ msgid ""
 "profile are executed following the order that you have chosen in the <span "
 "class=\"ui\">Arrange actions</span> menu."
 msgstr ""
+"Normalmente, quando si esegue un profilo, <b>tutte le azioni</b> contenute "
+"nel profilo vengono eseguite seguendo l'ordine scelto nel menu <span "
+"class=\"ui\">Ordina azioni</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6730-6
 msgid ""
@@ -16272,14 +16527,17 @@ msgid ""
 "each time you invoke this profile, <b>only one of the actions (next one)</b> "
 "will be executed instead of all of them."
 msgstr ""
+"Ma hai anche la possibilità di eseguirle <b>una alla volta</b>. Ciò "
+"significa che, ogni volta che invochi questo profilo, <b>verrà eseguita solo "
+"una delle azioni (quella successiva)</b> anziché tutte."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6733-6
 msgid "Here is a useful example:"
-msgstr ""
+msgstr "Ecco un esempio utile:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6736-7
 msgid "Create a profile with these actions"
-msgstr ""
+msgstr "Crea un profilo seguendo questi passaggi"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:6738-9
 #, fuzzy
@@ -16299,6 +16557,8 @@ msgid ""
 "Assign it to an easy gesture like <span class=\"ui\">Tap bottom right "
 "corner</span>"
 msgstr ""
+"Associarlo a un gesto semplice come <span class=\"ui\">Toccare l'angolo in "
+"basso a destra</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:6744-7
 #, fuzzy
@@ -16318,6 +16578,10 @@ msgid ""
 "<b>pinned page</b> and your reading position. This can be useful for quickly "
 "jumping to <b>references section</b> and going back, for example."
 msgstr ""
+"Ora, ogni volta che tocchi l'angolo destro, passerai dalla tua <b>pagina "
+"aggiunta ai preferiti</b> alla posizione in cui ti trovi nella lettura. "
+"Questo può essere utile, ad esempio, per passare rapidamente alla <b>sezione "
+"dei riferimenti</b> e tornare indietro."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6753-6
 #, fuzzy
@@ -16332,6 +16596,10 @@ msgid ""
 "document</b>, profile has to be executed instantly to be able to perform its "
 "actions."
 msgstr ""
+"I profili vengono eseguiti automaticamente con un leggero ritardo per "
+"evitare interferenze con altre operazioni o eventi di KOReader. Tuttavia, in "
+"alcuni casi, come <b>la chiusura di un documento</b>, il profilo deve essere "
+"eseguito immediatamente per poter eseguire le azioni previste."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6757-6
 msgid "You can enable this instant execution option from:"
@@ -16358,6 +16626,10 @@ msgid ""
 "<b>before</b> the document is closed. This running order is necessary for "
 "proper execution in this case."
 msgstr ""
+"Quando si abilita questa opzione, ad esempio su un profilo con l'attivatore "
+"<span class=\"ui\">alla chiusura del libro</span>, il profilo verrà eseguito "
+"<b>prima</b> della chiusura del documento. In questo caso, tale ordine di "
+"esecuzione è necessario per garantire il corretto funzionamento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6765-6
 msgid ""
@@ -16366,6 +16638,10 @@ msgid ""
 "If you observe that your profile is not working correctly, then you can try "
 "disabling this option."
 msgstr ""
+"Ogni volta che si attiva <span class=\"ui\">Esecuzione automatica</span> per "
+"un profilo, consigliamo di attivare anche questa opzione <span class=\"ui\">"
+"Esegui immediatamente</span>. Se si nota che il profilo non funziona "
+"correttamente, è possibile provare a disattivare questa opzione."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6769-6
 msgid ""
@@ -16374,12 +16650,19 @@ msgid ""
 "profile is almost infinite and we don't know how they might interact. This "
 "is why it doesn't come enabled by <b>default</b>."
 msgstr ""
+"<span class=\"microns_warning\" title=\"Avviso\"></span> Questa "
+"impostazione potrebbe inoltre causare problemi (sconosciuti), poiché il "
+"numero di combinazioni di azioni in un profilo è pressoché infinito e non "
+"sappiamo come potrebbero interagire tra loro. Ecco perché non è abilitata di "
+"<b>default</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6772-6
 msgid ""
 "Technical details of Profiles and Quick Menu <span class=\"microns_warning\" "
 "title=\"Advanced topic\"></span>"
 msgstr ""
+"Dettagli tecnici su Profili e Menu rapido <span class=\"microns_warning\" "
+"title=\"Argomento avanzato\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6774-6
 msgid ""
@@ -16566,6 +16849,7 @@ msgstr ""
 msgid ""
 "External <span class=\"microns_warning\" title=\"Advanced topic\"></span>"
 msgstr ""
+"Esterno <span class=\"microns_warning\" title=\"Advanced topic\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6852-6
 msgid ""
@@ -16608,6 +16892,8 @@ msgid ""
 "AI plugins that allow you to use cloud or local models to interact with the "
 "text you are reading:"
 msgstr ""
+"Plugin di intelligenza artificiale che consentono di utilizzare modelli "
+"cloud o locali per interagire con il testo che si sta leggendo:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:6867-9
 msgid ""
@@ -16618,6 +16904,13 @@ msgid ""
 "running on your computer via <b>Ollama</b> compatibility. Very detailed "
 "instructions are in the linked GitHub page of the plugin."
 msgstr ""
+"<a href=\"https://github.com/zeeyado/koassistant.koplugin\" data-jump>Plugin "
+"KOAssistant:</a> Un plugin di intelligenza artificiale molto potente e "
+"personalizzabile. È possibile tradurre o spiegare testi, confrontare libri o "
+"articoli ecc. creando azioni personalizzate con contesti e istruzioni "
+"aggiuntivi. Supporta modelli locali in esecuzione sul proprio computer "
+"grazie alla compatibilità con <b>Ollama</b>. Istruzioni molto dettagliate "
+"sono disponibili nella pagina GitHub del plugin indicata nel link."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.ol.li:6871-9
 #, fuzzy
@@ -16675,7 +16968,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6890-6
 msgid "Finding more plugins"
-msgstr ""
+msgstr "Trovare altri plugin"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6892-11
 msgid ""
@@ -16683,12 +16976,18 @@ msgid ""
 "external plugins are <b>not a part of</b> the KOReader project. So be "
 "careful when installing and using them."
 msgstr ""
+"<span class=\"microns_warning\"></span> È necessario ribadire che questi "
+"plugin esterni <b>non fanno parte</b> del progetto KOReader. Si raccomanda "
+"quindi di prestare attenzione durante la loro installazione e il loro "
+"utilizzo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6895-6
 msgid ""
 "You can find more plugins on <span class=\"external\">Github</span> with "
 "these links:"
 msgstr ""
+"Puoi trovare altri plugin su <span class=\"external\">Github</span> tramite "
+"questi link:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:6897-7
 msgid ""
@@ -16705,6 +17004,8 @@ msgid ""
 "<a href=\"https://github.com/topics/koreader-plugin\">This page</a> shows a "
 "list of repos with the <b>koreaderplugin</b> tag."
 msgstr ""
+"<a href=\"https://github.com/topics/koreader-plugin\">Questa pagina</a> "
+"mostra un elenco di repository con il tag <b>koreaderplugin</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6904-6
 msgid ""
@@ -16712,18 +17013,27 @@ msgid ""
 "considerably, so it became much harder to decide which plugin to use. These "
 "curated lists of KOReader resources come handy when finding useful plugins:"
 msgstr ""
+"Con l'introduzione della programmazione basata sull'intelligenza "
+"artificiale, il numero di progetti relativi ai plugin per KOReader è "
+"aumentato notevolmente, rendendo molto più difficile scegliere quale plugin "
+"utilizzare. Questi elenchi selezionati di risorse per KOReader risultano "
+"molto utili quando si cercano plugin utili:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:6906-7
 msgid ""
 "<a href=\"https://github.com/jannick-holm/awesome-koreader\">Awesome "
 "KOReader</a> repo"
 msgstr ""
+"<a href=\"https://github.com/jannick-holm/awesome-koreader\">Awesome "
+"KOReader</a> repository"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:6909-7
 msgid ""
 "Another <a href=\"https://github.com/ruiribeiro04/awesome-koreader\">Awesome "
 "KOReader</a> repo"
 msgstr ""
+"Un altro <a href=\"https://github.com/ruiribeiro04/awesome-koreader\">"
+"Awesome KOReader</a> repository"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6914-6
 msgctxt "user_guide/en.html:L2-pluginslist"
@@ -16890,6 +17200,10 @@ msgid ""
 "class=\"internalink\" href=\"#L2-fastreadingplugins\">Plugins for Faster "
 "Reading</a>"
 msgstr ""
+"<b> Perception Expander </b> - Aiuta a sfruttare la visione periferica per "
+"leggere più velocemente. Viene spiegato in questa sezione della guida: <a "
+"class=\"internalink\" href=\"#L2-fastreadingplugins\">Plugin per una lettura "
+"più veloce</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7028-6
 msgid ""
@@ -17036,6 +17350,8 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7110-6
 msgid "But be aware of these points when using this plugin:"
 msgstr ""
+"Tuttavia, quando si utilizza questo plugin, è bene tenere presenti i "
+"seguenti punti:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7113-7
 msgid "This is an experimental plugin so <b>use this at your own risk</b>"
@@ -17065,6 +17381,8 @@ msgstr ""
 msgid ""
 "To see what you can control remotely using the <b>HTTP Inspector</b> plugin:"
 msgstr ""
+"Per scoprire quali elementi è possibile controllare da remoto utilizzando il "
+"plugin <b>HTTP Inspector</b>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7125-7
 #, fuzzy
@@ -17090,15 +17408,19 @@ msgid ""
 "Open this page <b>http://your-ereader-IP:8080/koreader/event</b> on a device "
 "that is connected to the same network as your e-reader"
 msgstr ""
+"Apri questa pagina <b>http://your-ereader-IP:8080/koreader/event</b> su un "
+"dispositivo connesso alla stessa rete del tuo e-reader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7134-6
 msgid ""
 "Your list will populate depending on the installed plugins and user patches."
 msgstr ""
+"L'elenco verrà compilato in base ai plugin installati e alle patch "
+"dell'utente."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7136-6
 msgid "Kompanion - KOReader Companion App"
-msgstr ""
+msgstr "Kompanion - KOReader Companion App"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7138-6
 msgid ""
@@ -17108,12 +17430,21 @@ msgid ""
 "KOReader. You can remotely perform many actions like turning pages, entering "
 "text, adjusting screen light, activating profiles."
 msgstr ""
+"Si tratta di un'applicazione Android che consente di controllare il proprio "
+"KOReader da un dispositivo con sistema operativo Android collegato alla "
+"stessa rete. Utilizza il plugin <span class=\"ui\">KOReader HTTP Inspector</"
+"span> per comunicare con KOReader. È possibile eseguire da remoto numerose "
+"azioni, come sfogliare le pagine, inserire testo, regolare la luminosità "
+"dello schermo e attivare i profili."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7141-6
 msgid ""
 "You can see the instructions and download the app from its project page: <a "
 "href=\"https://github.com/adpa1013/kompanion\">KOReader Companion App</a>"
 msgstr ""
+"È possibile consultare le istruzioni e scaricare l'app dalla pagina del "
+"progetto: <a href=\"https://github.com/adpa1013/kompanion\">KOReader "
+"Companion App</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7143-6
 #, fuzzy
@@ -17280,10 +17611,20 @@ msgid ""
 "a good starting point for understanding how KOReader's code is organized, if "
 "you want to contribute to the project."
 msgstr ""
+"<span class=\"microns_tip\" title=\"Suggerimento utile\"></span> <span "
+"class=\"external\">Deepwiki</span> è un servizio basato sull'intelligenza "
+"artificiale che crea panoramiche architetturali e diagrammi di flusso a "
+"partire dai repository <span class=\"external\">GitHub</span>. Puoi accedere "
+"alla documentazione creata per KOReader <a href=\"https://deepwiki.com/"
+"koreader/koreader\">qui</a>. Tieni presente che questa documentazione <b>non "
+"è</b> stata creata dagli sviluppatori di KOReader, ma i nostri sviluppatori "
+"la ritengono utile. Può essere un buon punto di partenza per comprendere "
+"come è organizzato il codice di KOReader, se desideri contribuire al "
+"progetto."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7211-6
 msgid "13 READING IMPROVEMENTS"
-msgstr ""
+msgstr "13 MIGLIORAMENTI NELLA LETTURA"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7213-6
 msgid ""
@@ -17291,15 +17632,19 @@ msgid ""
 "improve your reading speed. Then we will list some fonts that can improve "
 "your reading speed and comprehension."
 msgstr ""
+"In questa sezione illustreremo innanzitutto due plugin di KOreader che "
+"potrebbero aiutarti ad aumentare la tua velocità di lettura. Successivamente "
+"elencheremo alcuni caratteri tipografici che possono migliorare la tua "
+"velocità di lettura e la tua comprensione."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7215-6
 msgctxt "user_guide/en.html:L2-fastreadingplugins"
 msgid "13.1 Plugins for Faster Reading"
-msgstr ""
+msgstr "13.1 Plugin per una lettura più veloce"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7217-6
 msgid "1. Perception Expander plugin"
-msgstr ""
+msgstr "1. Plugin Perception Expander"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7219-6
 msgid ""
@@ -17310,24 +17655,35 @@ msgid ""
 "really need to look at the first and last words of a line directly, because "
 "with some practice you can perceive them with your peripheral vision."
 msgstr ""
+"Una volta attivato, questo plugin aggiunge due linee verticali all’area di "
+"lettura, vicino ai bordi sinistro e destro, come si può vedere nell’immagine "
+"qui sotto. Queste linee fungono da indicatori di inizio e fine per lo "
+"sguardo durante la lettura di una riga del libro. Il principio di "
+"funzionamento di questo plugin si basa sul fatto che non è realmente "
+"necessario guardare direttamente la prima e l’ultima parola di una riga, "
+"poiché con un po’ di pratica è possibile percepirle con la visione "
+"periferica."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7224-7
 msgid "<b>Vertical gray lines:</b> Perception expander indicators"
 msgstr ""
+"<b>Linee grigie verticali:</b> Indicatori di espansione della percezione"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7226-7
 msgid "<b>Red line:</b> Your eyes following the text normally"
-msgstr ""
+msgstr "<b>Linea rossa:</b> I tuoi occhi seguono il testo normalmente"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7228-7
 msgid ""
 "<b>Blue line:</b> Your eyes jumping between the indicators (shorter distance)"
 msgstr ""
+"<b>Linea blu:</b> Lo sguardo che salta da un indicatore all’altro (distanza "
+"più breve)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7232-6
 msgctxt "user_guide/en.html+readingimprovements.p:23-0"
 msgid "To use this plugin, you have to first enable it by going to:"
-msgstr ""
+msgstr "Per utilizzare questo plugin, devi prima attivarlo accedendo a:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7234-6
 #, fuzzy
@@ -17345,7 +17701,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7237-6
 msgctxt "user_guide/en.html+readingimprovements.p:28-0"
 msgid "After enabling the plugin, you will have a new menu item here:"
-msgstr ""
+msgstr "Dopo aver attivato il plugin, qui apparirà una nuova voce di menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7239-6
 #, fuzzy
@@ -17366,10 +17722,15 @@ msgid ""
 "You can watch the <b>Tim Ferriss</b> video that inspired this plugin <a "
 "href=\"https://youtu.be/jeOHqI9SqOI\">here</a>."
 msgstr ""
+"Da questo menu puoi attivare o disattivare le <b>righe di espansione</b> e "
+"configurare gli indicatori in base alle tue preferenze e al tuo livello di "
+"abilità nella visione periferica. Puoi guardare il video di <b>Tim Ferriss</"
+"b> che ha ispirato questo plugin <a href=\"https://youtu.be/jeOHqI9SqOI\">"
+"qui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7246-6
 msgid "2. FastReader Plugin"
-msgstr ""
+msgstr "2. Plugin FastReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7248-6
 msgid ""
@@ -17379,11 +17740,17 @@ msgid ""
 "speed can be faster. And if you improve the skill, you can perceive more "
 "than one word at once, which further increases the reading speed."
 msgstr ""
+"Questo plugin è un lettore <b>RSVP (Rapid Serial Visual Presentation)</b>. "
+"Questa tecnica si basa sulla visualizzazione rapida e alternata delle parole "
+"al centro dello schermo. Con questo metodo, gli occhi non devono muoversi "
+"durante la lettura, quindi la velocità di lettura può essere maggiore. "
+"Inoltre, se si affina questa tecnica, è possibile percepire più di una "
+"parola alla volta, aumentando ulteriormente la velocità di lettura."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7251-6
 msgctxt "user_guide/en.html+readingimprovements.p:42-0"
 msgid "To use this plugin, you have to first enable it by going to:"
-msgstr ""
+msgstr "Per utilizzare questo plugin, devi prima attivarlo accedendo a:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7253-6
 #, fuzzy
@@ -17401,7 +17768,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7256-6
 msgctxt "user_guide/en.html+readingimprovements.p:47-0"
 msgid "After enabling the plugin, you will have a new menu item here:"
-msgstr ""
+msgstr "Dopo aver attivato il plugin, qui apparirà una nuova voce di menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7258-6
 #, fuzzy
@@ -17420,12 +17787,16 @@ msgstr ""
 msgid ""
 "You can start the plugin from this menu and also configure the settings like:"
 msgstr ""
+"Da questo menu è possibile avviare il plugin e configurarne le impostazioni, "
+"ad esempio:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7264-7
 msgid ""
 "<span class=\"ui\">RSVP speed</span> - Flashing speed in WPM (words per "
 "minute)"
 msgstr ""
+"<span class=\"ui\">Velocità RSVP</span> - Velocità lampeggiante in WPM "
+"(parole al minuto)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7266-7
 #, fuzzy
@@ -17440,11 +17811,14 @@ msgid ""
 "You can start using the plugin in <b>single word</b> and <b>low WPM "
 "(slower)</b> mode and increase them as you get better."
 msgstr ""
+"Puoi iniziare a utilizzare il plugin nelle modalità <b>parola singola</b> e "
+"<b>basso WPM (più lento)</b>, per poi aumentare i livelli man mano che "
+"migliori."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7274-6
 msgctxt "user_guide/en.html:L2-specialfonts"
 msgid "13.2 Special Fonts"
-msgstr ""
+msgstr "13.2 Caratteri speciali"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7276-6
 msgid ""
@@ -17453,6 +17827,11 @@ msgid ""
 "including them here because sometimes our users ask about them in our issues "
 "and discussions."
 msgstr ""
+"In questa sezione vi mostreremo alcuni caratteri tipografici che potrebbero "
+"migliorare la vostra esperienza di lettura. Questi caratteri non sono una "
+"funzionalità esclusiva di KOReader, ma li includiamo qui perché a volte i "
+"nostri utenti ci chiedono informazioni al riguardo nelle segnalazioni e "
+"nelle discussioni."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7278-6
 msgid ""
@@ -17460,6 +17839,9 @@ msgid ""
 "add fonts to your device, we explain it in <a href=\"#L2-fonts\" "
 "class=\"internalink\">Using Your Own Fonts</a> section."
 msgstr ""
+"Puoi installare questi font come qualsiasi altro font. Se non sai come "
+"aggiungere font al tuo dispositivo, te lo spieghiamo nella sezione <a "
+"href=\"#L2-fonts\" class=\"internalink\">Utilizzo dei propri font</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7280-6
 msgid ""
@@ -17467,10 +17849,13 @@ msgid ""
 "have the same size - <b>11 pt</b> - but very different widths, line heights "
 "and readability):"
 msgstr ""
+"Panoramica dei caratteri presenti in questa sezione (si noti che tutti i "
+"caratteri in questa immagine hanno la stessa dimensione — <b>11 pt</b> — ma "
+"larghezze, interlinee e leggibilità molto diverse):"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7284-6
 msgid "Atkinson Hyperlegible"
-msgstr ""
+msgstr "Atkinson Hyperlegible"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7285-6
 msgid ""
@@ -17479,10 +17864,14 @@ msgid ""
 "distinctive letters and numbers. You can see the font and download it from "
 "<a href=\"https://www.brailleinstitute.org/freefont/\">here</a>"
 msgstr ""
+"Progettata dal Braille Institute, questa famiglia di caratteri ha lo scopo "
+"di migliorare la leggibilità per le persone ipovedenti. Presenta lettere e "
+"numeri chiari e ben distinguibili. È possibile visualizzare il font e "
+"scaricarlo da <a href=\"https://www.brailleinstitute.org/freefont/\">qui</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7288-6
 msgid "B612"
-msgstr ""
+msgstr "B612"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7289-6
 msgid ""
@@ -17493,10 +17882,17 @@ msgid ""
 "the font and download it from <a href=\"https://fonts.google.com/specimen/"
 "B612\">Google Fonts</a>"
 msgstr ""
+"B612 è una famiglia di caratteri altamente leggibile, progettata per essere "
+"utilizzata sugli schermi della cabina di pilotaggio degli aeromobili Airbus. "
+"Il suo design leggibile la rende particolarmente adatta a contesti con "
+"condizioni di visibilità ridotte e mira a ridurre l'affaticamento visivo e "
+"il carico cognitivo. Questi principi di progettazione la rendono un font "
+"adatto anche agli e-reader. È possibile visualizzare il font e scaricarlo da "
+"<a href=\"https://fonts.google.com/specimen/B612\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7292-6
 msgid "Lexend"
-msgstr ""
+msgstr "Lexend"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7293-6
 msgid ""
@@ -17505,10 +17901,15 @@ msgid ""
 "about the font <a href=\"https://www.lexend.com/\">here</a> and download it "
 "from <a href=\"https://fonts.google.com/specimen/Lexend\">Google Fonts</a>"
 msgstr ""
+"Il design di questo font si basa sui principi derivati da studi nel campo "
+"dell'educazione volti a migliorare le prestazioni di lettura degli studenti. "
+"Puoi trovare ulteriori informazioni sul font <a href=\"https://"
+"www.lexend.com/\">qui</a> e scaricarlo da <a href=\"https://fonts.google.com/"
+"specimen/Lexend\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7297-6
 msgid "Luciole"
-msgstr ""
+msgstr "Luciole"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7298-6
 msgid ""
@@ -17518,10 +17919,16 @@ msgid ""
 "mathematical symbols. You can see the font and download it from <a "
 "href=\"https://luciole-vision.com/en/index.html\">here</a>"
 msgstr ""
+"Questo font rispetta una dozzina di criteri di progettazione specifici per "
+"garantire la migliore esperienza di lettura possibile alle persone "
+"ipovedenti. Mette in risalto lo spazio “interno” delle lettere e presenta "
+"numeri e simboli matematici estremamente chiari e ben definiti. È possibile "
+"visualizzare il font e scaricarlo da <a href=\"https://luciole-vision.com/en/"
+"index.html\">qui</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7301-6
 msgid "Open Dyslexic"
-msgstr ""
+msgstr "Open Dyslexic"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7302-6
 msgid ""
@@ -17531,10 +17938,16 @@ msgid ""
 "You can download it from <a href=\"https://forge.hackers.town/antijingoist/"
 "opendyslexic\">here</a>"
 msgstr ""
+"Questo font è stato progettato per migliorare la leggibilità per i lettori "
+"affetti da dislessia. Le lettere presentano la parte inferiore più spessa "
+"per enfatizzarne la direzione. Le forme uniche di ciascuna lettera "
+"consentono di evitare confusione dovuta a capovolgimenti e scambi. È "
+"possibile scaricarlo da <a href=\"https://forge.hackers.town/antijingoist/"
+"opendyslexic\">qui</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7305-6
 msgid "Shantell Sans"
-msgstr ""
+msgstr "Shantell Sans"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7306-6
 msgid ""
@@ -17543,10 +17956,15 @@ msgid ""
 "wider letters and relaxed spacing. You can download it from <a "
 "href=\"https://fonts.google.com/specimen/Shantell+Sans\">Google Fonts</a>"
 msgstr ""
+"Questo font è stato progettato da un autore dislessico come carattere "
+"tipografico leggibile, accessibile e di facile lettura. Si presta bene anche "
+"ai testi di piccole dimensioni grazie alle lettere più larghe e alla "
+"spaziatura più ampia. È possibile scaricarlo da <a href=\"https://"
+"fonts.google.com/specimen/Shantell+Sans\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7309-6
 msgid "Fast Font"
-msgstr ""
+msgstr "Fast Font"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7310-6
 msgid ""
@@ -17559,6 +17977,15 @@ msgid ""
 "increase the reading speed but of course personal results may vary. "
 "Interestingly, readers with ADHD generally report benefits."
 msgstr ""
+"Si tratta di un font speciale che sostituisce le prime lettere di una parola "
+"con la loro variante in grassetto (il numero di lettere viene calcolato in "
+"base alla lunghezza della parola). <b>Th</b>is <b>bo</b>ld <b>let</b>ters <b>"
+"th</b>en <b>a</b>ct <b>a</b>s <b>arti</b>ficial <b>fix</b>ation <b>po</b>"
+"ints <b>f</b>or <b>t</b>he <b>e</ b>ye <b>t</b>o <b>ju</b>mp <b>o</b>n <b>a</"
+"b>s <b>y</b>ou <b>c</b>an <b>s</b>ee <b>i</b>n <b>th</b>is <b>sen</b>tence. "
+"In teoria ciò potrebbe aumentare la velocità di lettura, ma ovviamente i "
+"risultati personali possono variare. È interessante notare che i lettori con "
+"ADHD in genere riferiscono di trarne beneficio."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7312-6
 msgid ""
@@ -17568,6 +17995,12 @@ msgid ""
 "its variations (serif, monospace and dotted) from its <a href=\"https://"
 "github.com/Born2Root/Fast-Font\">GitHub repo</a>"
 msgstr ""
+"Questo font si avvale di speciali funzionalità OpenType supportate da "
+"KOReader. È quindi sufficiente scaricare il font, copiarlo sul proprio "
+"dispositivo e utilizzarlo come qualsiasi altro font. È possibile visionare "
+"gli esempi e scaricare questo font e le sue varianti (serif, monospazio e "
+"punteggiato) dal suo <a href=\"https://github.com/Born2Root/Fast-Font\">"
+"repository GitHub</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7320-6
 msgctxt "user_guide/en.html:L1-tips"
@@ -17597,6 +18030,8 @@ msgstr "Cambiare la copertina del libro"
 msgctxt "user_guide/en.html+tips.ul.li:10--5"
 msgid "Creating a sleep screen wallpaper from documents"
 msgstr ""
+"Creazione di uno sfondo per la schermata di sospensione a partire da "
+"documenti"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7329-1
 msgctxt "user_guide/en.html+tips.ul.li:11--5"
