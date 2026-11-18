@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-17 07:50+0000\n"
-"PO-Revision-Date: 2026-11-17 07:48+0000\n"
+"PO-Revision-Date: 2026-11-18 06:59+0000\n"
 "Last-Translator: eevan78 <eevan78@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/sr/>\n"
@@ -548,7 +548,7 @@ msgstr ""
 "<span style=\"color: var(--external-color); font-weight: bold;font-size: "
 "1rem;\">Спољне апликације и сервиси (љубичаста)</span> Ово су сервиси и "
 "апликације које функционишу са програмом KOReader. Они су означени "
-"другачијом бојом јер желимо истаћи да <b>они нису део KOReader пројекта,</b> "
+"другачијом бојом јер желимо истаћи да <b>они нису део KOReader пројекта</b>, "
 "тако да нису под нашом контролом:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.table.tr.td:1266-43
@@ -15301,7 +15301,7 @@ msgstr "-"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6610-8
 msgid "On exiting sleep screen"
-msgstr "Напусти екран спавања"
+msgstr "Приликом напуштања екрана спавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:6611-8
 msgid "Run this profile every time device exits the sleep screen"
@@ -16428,32 +16428,33 @@ msgstr ""
 "Покрените на свом уређају <span class=\"ui\">HTTP инспектор сервер</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:7127-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / More Tools / Battery Statistics"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / More tools / KOReader HTTP Inspector / Start HTTP "
 "server"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Још алата / Статистика батерије"
+"style=\"width:26px;\"> / Још алата / KOReader HTTP инспектор / Покрени HTTP "
+"сервер"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7130-7
 msgid ""
 "Open this page <b>http://your-ereader-IP:8080/koreader/event</b> on a device "
 "that is connected to the same network as your e-reader"
 msgstr ""
+"На уређају који је повезан на исту мрежу на коју је повезан и е-читач, "
+"отворите следећу страницу <b>http://IP-вашег-ечитача:8080/koreader/event</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7134-6
 msgid ""
 "Your list will populate depending on the installed plugins and user patches."
 msgstr ""
+"Листа ће се попунити у зависности од инсталираних додатака и корисничких "
+"закрпа."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7136-6
 msgid "Kompanion - KOReader Companion App"
-msgstr ""
+msgstr "Kompanion - KOReader пратећа апликација"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7138-6
 msgid ""
@@ -16463,12 +16464,20 @@ msgid ""
 "KOReader. You can remotely perform many actions like turning pages, entering "
 "text, adjusting screen light, activating profiles."
 msgstr ""
+"Ово је Android апликација која вам омогућава да свој KOReader контролишете "
+"са Android ОС уређаја на истој мрежи. Она користи <span class=\"ui\">"
+"KOReader HTTP инспектор</span> додатак за комуникацију са програмом "
+"KOReader. Даљински можете да извршите многе акције, као што су окретање "
+"страница, уност текста, подешавање екранског осветљења, активирање профила."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7141-6
 msgid ""
 "You can see the instructions and download the app from its project page: <a "
 "href=\"https://github.com/adpa1013/kompanion\">KOReader Companion App</a>"
 msgstr ""
+"Упутства и линк за преузимање апликације се налазе на страници њеног "
+"пројекта: <a href=\"https://github.com/adpa1013/kompanion\">KOReader "
+"Companion App</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7143-6
 msgid ""
@@ -16631,10 +16640,19 @@ msgid ""
 "a good starting point for understanding how KOReader's code is organized, if "
 "you want to contribute to the project."
 msgstr ""
+"<span class=\"microns_tip\" title=\"Користан савет\"></span> <span "
+"class=\"external\">Deepwiki</span> је сервис покретан са AI који креира "
+"архитектурне прегледе и дијаграме тока из <span class=\"external\">GitHub</"
+"span> репозиторијума. Креираној документацији за KOReader можете да "
+"приступите <a href=\"https://deepwiki.com/koreader/koreader\">овде</a>. "
+"Имајте на уму да ову документацију <b>нису</b> креирали KOReader програмери, "
+"мада је наши програмери оцењују као корисну. У случају да желите дати свој "
+"допринос пројекту, ово може да буде добра почетна тачка за разумевање начина "
+"на који је организован KOReader кôд."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7211-6
 msgid "13 READING IMPROVEMENTS"
-msgstr ""
+msgstr "13 ПОБОЉШАЊА ЧИТАЊА"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7213-6
 msgid ""
@@ -16642,15 +16660,18 @@ msgid ""
 "improve your reading speed. Then we will list some fonts that can improve "
 "your reading speed and comprehension."
 msgstr ""
+"У овом одељку ћемо најпре да објаснимо два KOreader додатка који би могли да "
+"повећају брзину којом читате. Затим ћемо да наведемо неке фонтове који могу "
+"да унапреде брзину читања и побољшају разумевање текста."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7215-6
 msgctxt "user_guide/en.html:L2-fastreadingplugins"
 msgid "13.1 Plugins for Faster Reading"
-msgstr ""
+msgstr "13.1 Додаци за брже читање"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7217-6
 msgid "1. Perception Expander plugin"
-msgstr ""
+msgstr "1. Додатак Проширивач перцепције"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7219-6
 msgid ""
@@ -16661,54 +16682,54 @@ msgid ""
 "really need to look at the first and last words of a line directly, because "
 "with some practice you can perceive them with your peripheral vision."
 msgstr ""
+"Када га укључите, овај додатак у поље читања додаје две вертикалне линије, у "
+"близини леве и десне ивице, као што можете да видите на слици испод. Док "
+"читате линију књиге, ове линије вашим очима служе као маркери почетка/краја. "
+"Принцип на који функционише овај додатак се заснива на чинњеници да нема "
+"потребе да заиста погледате у прве и последње речи на линији, јер уз мало "
+"вежбе можете да их ухватите својим периферним видом."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7224-7
 msgid "<b>Vertical gray lines:</b> Perception expander indicators"
-msgstr ""
+msgstr "<b>Вертикалне сиве линије:</b> индикатори Проширивача перцепције"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7226-7
 msgid "<b>Red line:</b> Your eyes following the text normally"
-msgstr ""
+msgstr "<b>Црвена линија:</b> ваше очи нормално следе текст"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7228-7
 msgid ""
 "<b>Blue line:</b> Your eyes jumping between the indicators (shorter distance)"
-msgstr ""
+msgstr "<b>Плава линија:</b> ваше очи скачу између индикатора (краћа раздаљина)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7232-6
 msgctxt "user_guide/en.html+readingimprovements.p:23-0"
 msgid "To use this plugin, you have to first enable it by going to:"
 msgstr ""
+"Да бисте користили овај додатак, најпре треба да га укључите тако што одете "
+"на:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7234-6
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4451-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / More tools / Plugin management"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / More tools / Plugin management / Perception expander"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Још алата / Управљање додацима"
+"style=\"width:26px;\"> / Још алата / Управљање додацима / Проширивач "
+"перцепције"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7237-6
 msgctxt "user_guide/en.html+readingimprovements.p:28-0"
 msgid "After enabling the plugin, you will have a new menu item here:"
-msgstr ""
+msgstr "Када укључите додатак, овде ће се појавити нови мени:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7239-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:26px;\"> / Style tweaks"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Speed reading module - perception expander"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:26px;\"> / Дотеривања стила"
+"style=\"width:26px;\"> / Модул брзог читања - проширивач перцепције"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7242-6
 msgid ""
@@ -16717,10 +16738,15 @@ msgid ""
 "You can watch the <b>Tim Ferriss</b> video that inspired this plugin <a "
 "href=\"https://youtu.be/jeOHqI9SqOI\">here</a>."
 msgstr ""
+"Из овог менија можете да укљ./искљ. <b>линије проширивача</b> и такође да "
+"подесите индикаторе онако како вам одговара, као и према нивоу вештине вашег "
+"периферног вида. <a href=\"https://youtu.be/jeOHqI9SqOI\">Овде</a> можете да "
+"погледате видео <b>Тима Фериса</b> који је послужо као инспирација за овај "
+"додатак."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7246-6
 msgid "2. FastReader Plugin"
-msgstr ""
+msgstr "2. FastReader додатак"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7248-6
 msgid ""
@@ -16730,71 +16756,74 @@ msgid ""
 "speed can be faster. And if you improve the skill, you can perceive more "
 "than one word at once, which further increases the reading speed."
 msgstr ""
+"Овај додатак је <b>RSVP (Rapid Serial Visual Presentation) (брза серијска "
+"визуелна презентација)</b> читач. Ова техника се заснива на брзом блескању "
+"речи (или више њих) у средини екрана. Нема потребе да се ваше очи током "
+"читања померају, тако да брзина читања може да буде већа. А ако унапредите "
+"вештину, моћи ћете да уочите више речи одједном, што још више убрзава читање."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7251-6
 msgctxt "user_guide/en.html+readingimprovements.p:42-0"
 msgid "To use this plugin, you have to first enable it by going to:"
 msgstr ""
+"Да бисте користили овај додатак, најпре треба да га укључите тако што одете "
+"на:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7253-6
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4451-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / More tools / Plugin management"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / More tools / Plugin management / FastReader"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Још алата / Управљање додацима"
+"style=\"width:26px;\"> / Још алата / Управљање додацима / FastReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7256-6
 msgctxt "user_guide/en.html+readingimprovements.p:47-0"
 msgid "After enabling the plugin, you will have a new menu item here:"
-msgstr ""
+msgstr "Када укључите додатак, овде ће се појавити нови мени:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7258-6
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4451-9"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / More tools / Plugin management"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / More tools / FastReader"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Још алата / Управљање додацима"
+"style=\"width:26px;\"> / Још алата / FastReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7261-6
 msgid ""
 "You can start the plugin from this menu and also configure the settings like:"
 msgstr ""
+"Из овог менија можете да покренете додатак и да конфигуришете подешавања, "
+"као што су:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7264-7
 msgid ""
 "<span class=\"ui\">RSVP speed</span> - Flashing speed in WPM (words per "
 "minute)"
 msgstr ""
+"<span class=\"ui\">RSVP брзина</span> - Брзина блескања у РПМ (речима по "
+"минути)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7266-7
-#, fuzzy
-#| msgid "<span class=\"ui\">History</span> - List of books you opened"
 msgid ""
 "<span class=\"ui\">Preview words</span> - How many words to show at once"
-msgstr "<span class=\"ui\">Историја</span> - листа књига које сте отворили"
+msgstr ""
+"<span class=\"ui\">Преглед речи</span> - Колико речи да се прикаже "
+"истовремено"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7270-6
 msgid ""
 "You can start using the plugin in <b>single word</b> and <b>low WPM "
 "(slower)</b> mode and increase them as you get better."
 msgstr ""
+"Додатак можете почети да користите у режиму <b>једна реч</b> и <b>ниски РПМ "
+"(спорије)</b>, па да повећавате како постанете бољи."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7274-6
 msgctxt "user_guide/en.html:L2-specialfonts"
 msgid "13.2 Special Fonts"
-msgstr ""
+msgstr "13.2 Специјални фонтови"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7276-6
 msgid ""
@@ -16803,6 +16832,10 @@ msgid ""
 "including them here because sometimes our users ask about them in our issues "
 "and discussions."
 msgstr ""
+"У овом одељку ћемо представити неке фонтове који би могли да вам унапреде "
+"искуство читања. Ови фонтови нису ексклузивна функционалност програма "
+"KOReader, овде их помињемо јер нас корисници понекада у проблемима и "
+"дискусијама питају у вези са њима."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7278-6
 msgid ""
@@ -16810,6 +16843,9 @@ msgid ""
 "add fonts to your device, we explain it in <a href=\"#L2-fonts\" "
 "class=\"internalink\">Using Your Own Fonts</a> section."
 msgstr ""
+"Ове фонтове можете да инсталирате као било који други фонт. Ако не знате "
+"како да на свој уређај додате фонтове, то смо објаснили у одељку <a "
+"href=\"#L2-fonts\" class=\"internalink\">Употреба ваших фонтова</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7280-6
 msgid ""
@@ -16817,10 +16853,13 @@ msgid ""
 "have the same size - <b>11 pt</b> - but very different widths, line heights "
 "and readability):"
 msgstr ""
+"Преглед фонтова у овом одељку (имајте на уму да сви фонтови на следећој "
+"слици имају исту величину - <b>11 pt</b> - али веома различите ширине, "
+"висине линије и читљивост):"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7284-6
 msgid "Atkinson Hyperlegible"
-msgstr ""
+msgstr "Atkinson Hyperlegible"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7285-6
 msgid ""
@@ -16829,10 +16868,14 @@ msgid ""
 "distinctive letters and numbers. You can see the font and download it from "
 "<a href=\"https://www.brailleinstitute.org/freefont/\">here</a>"
 msgstr ""
+"Дизанирао ју је Брај интитут, циљ ове фамилије фонтова је да унапреди "
+"читљивост и јасноћу особама са слабим видом. Има јасна, врло карактериснична "
+"слова и бројеве. Фонт можете да погледате и да га преузмете са <a "
+"href=\"https://www.brailleinstitute.org/freefont/\">ове</a> локације."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7288-6
 msgid "B612"
-msgstr ""
+msgstr "B612"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7289-6
 msgid ""
@@ -16843,10 +16886,16 @@ msgid ""
 "the font and download it from <a href=\"https://fonts.google.com/specimen/"
 "B612\">Google Fonts</a>"
 msgstr ""
+"B612 је врло читљива фамилија фонтова, дизајнирана да се користи на екранима "
+"у кокпиту Ербас авиона. Њен читљиви дизајн је чини посебно погодном у "
+"деградираним контекстма и има циљ да смањи визуелни замор и когнитивно "
+"оптерећење. Ово принципи дизајна је чине погодном и за е-читаче. Фонт можете "
+"да погледате и преузмете са <a href=\"https://fonts.google.com/specimen/"
+"B612\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7292-6
 msgid "Lexend"
-msgstr ""
+msgstr "Lexend"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7293-6
 msgid ""
@@ -16855,10 +16904,14 @@ msgid ""
 "about the font <a href=\"https://www.lexend.com/\">here</a> and download it "
 "from <a href=\"https://fonts.google.com/specimen/Lexend\">Google Fonts</a>"
 msgstr ""
+"Дизајн овог фонта је заснован на принципима изведеим из едукативних студија "
+"чији је циљ да унапреде перформансе читања студената. О фонту можете да "
+"читате <a href=\"https://www.lexend.com/\">овде</a> и да га преузмете са <a "
+"href=\"https://fonts.google.com/specimen/Lexend\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7297-6
 msgid "Luciole"
-msgstr ""
+msgstr "Luciole"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7298-6
 msgid ""
@@ -16868,10 +16921,15 @@ msgid ""
 "mathematical symbols. You can see the font and download it from <a "
 "href=\"https://luciole-vision.com/en/index.html\">here</a>"
 msgstr ""
+"Овај фонт се придржава десетинама критеријума дизајна да би особама са "
+"ослабљеним видом обезбедио најбоље могуће искуство читања. Он наглашава „"
+"унутрашњи” простор слова и има екстремно јасне, карактеристичне бројеве и "
+"математичке симболе. Фонт можете да погледате и да га преузмете <a "
+"href=\"https://luciole-vision.com/en/index.html\">одавде</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7301-6
 msgid "Open Dyslexic"
-msgstr ""
+msgstr "Open Dyslexic"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7302-6
 msgid ""
@@ -16881,10 +16939,15 @@ msgid ""
 "You can download it from <a href=\"https://forge.hackers.town/antijingoist/"
 "opendyslexic\">here</a>"
 msgstr ""
+"Овај фонт је дизајниран да побољша читљивост читаоцима са дисклексијом. "
+"Слова имају задебљане доње делове да би се истакао смер. Јединствени облици "
+"сваког слова спречавају забуну кроз превртање и замену. Можете да га "
+"преузмете <a href=\"https://forge.hackers.town/antijingoist/opendyslexic\">"
+"овде</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7305-6
 msgid "Shantell Sans"
-msgstr ""
+msgstr "Shantell Sans"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7306-6
 msgid ""
@@ -16893,10 +16956,14 @@ msgid ""
 "wider letters and relaxed spacing. You can download it from <a "
 "href=\"https://fonts.google.com/specimen/Shantell+Sans\">Google Fonts</a>"
 msgstr ""
+"Овај фонт је дизајнирао дислексични аутор као јасан, приступачан словни лик "
+"који се лако чита. Такође лепо функционише за мали текст захваљујући својим "
+"широким словима и релаксираним размацима. Можете да га преузмете са <a "
+"href=\"https://fonts.google.com/specimen/Shantell+Sans\">Google Fonts</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7309-6
 msgid "Fast Font"
-msgstr ""
+msgstr "Fast Font"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7310-6
 msgid ""
@@ -16909,6 +16976,14 @@ msgid ""
 "increase the reading speed but of course personal results may vary. "
 "Interestingly, readers with ADHD generally report benefits."
 msgstr ""
+"Ово је специјални фонт који замењује првих неколико слова речи својим "
+"варијантама у црном слогу (број слова се израчунава у зависности од дужине "
+"речи). <b>О</b>ва <b>сл</b>ова <b>у</b> <b>цр</b>ном <b>сл</b>огу <b>он</b>"
+"да <b>сл</b>уже <b>к</b>ао <b>та</b>чке <b>фикс</b>ирања <b>за</b> <b>о</b>"
+"чи <b>д</b>а <b>б</b>и <b>ска</b>кале <b>н</b>а <b>њ</b>их <b>ш</b>то <b>с</"
+"b>е <b>ви</b>ди <b>у</b> <b>ов</b>ој <b>рече</b>ници. У теорији би ово могло "
+"да повећа брзину читања, али наравно, лични резултати могу да варирају. "
+"Занимљиво, читаоци са АДХД у општем случају пријављују користи."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7312-6
 msgid ""
@@ -16918,6 +16993,12 @@ msgid ""
 "its variations (serif, monospace and dotted) from its <a href=\"https://"
 "github.com/Born2Root/Fast-Font\">GitHub repo</a>"
 msgstr ""
+"Овај фонт зависи од специјалних OpenType функционалности које KOReader "
+"подржава. Тако да просто можете да преузмете фонт, копирате га на свој "
+"уређај и користите га као и било који други. Можете да видите примере и "
+"преузмете овај фонт и његове варијанте (серифни, фиксне ширине и тачкасти) "
+"са његовог <a href=\"https://github.com/Born2Root/Fast-Font\">GitHub "
+"репозиторијума</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7320-6
 msgctxt "user_guide/en.html:L1-tips"
@@ -16946,7 +17027,7 @@ msgstr "Измена омота књиге"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7328-1
 msgctxt "user_guide/en.html+tips.ul.li:10--5"
 msgid "Creating a sleep screen wallpaper from documents"
-msgstr ""
+msgstr "Креирање позадине екрана спавања из докумената"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7329-1
 msgctxt "user_guide/en.html+tips.ul.li:11--5"
@@ -16961,7 +17042,7 @@ msgstr "Статистика читања након поноћи"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7331-1
 msgctxt "user_guide/en.html+tips.ul.li:13--5"
 msgid "Reading vertically formatted books"
-msgstr ""
+msgstr "Читање вертикално сложених књига"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7334-6
 msgctxt "user_guide/en.html:tip-switchdocuments"
@@ -17042,23 +17123,19 @@ msgid "You can change your book cover from this menu:"
 msgstr "Из следећег менија можете да измените слику омота књиге:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7356-6
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:4782-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-#| "style=\"width:22px;\"> / Book information"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
 "style=\"width:22px;\"> / Book information / (long-tap) Cover image: / Set "
 "custom"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/top_hamburger.svg\" "
-"style=\"width:22px;\"> / Информације о књизи"
+"style=\"width:22px;\"> / Информације о књизи / (дуги притисак) Слика "
+"корица: / Постави произвољно"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7359-6
 msgctxt "user_guide/en.html:tip-createwallpaper"
 msgid "Creating a sleep screen wallpaper from documents"
-msgstr ""
+msgstr "Креирање позадине екрана спавања из докумената"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7360-6
 msgid ""
@@ -17078,18 +17155,27 @@ msgid ""
 "current book’s cover. There are two screenshot gestures depending on where "
 "you are:"
 msgstr ""
+"У ситуацијама као што је ова, брзо можете да направите снимак екрана, па да "
+"га поставите као корице текуће књиге. Постоје две гестикулације за прављење "
+"снимка екрана, у зависности од тога где се налазите:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7365-7
 msgid ""
 "The default screenshot gesture <span class=\"ui\">long-diagonal swipe</span> "
 "if you are in <b>reader mode</b> and <b>file browser</b>"
 msgstr ""
+"Подразумевана гестикулација за прављење снимка екрана <span class=\"ui\">"
+"дуго дијагонално превлачење</span> ако сте у <b>речиму читача</b> и <b>"
+"прегледача фајлова</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7369-7
 msgid ""
 "The alternative screenshot gesture <span class=\"ui\">two-finger large "
 "diagonal tap on corners</span> if you are in the <b>image viewer</b>"
 msgstr ""
+"Алтернативна гестикулација за прављење слике екрана <span class=\"ui\">"
+"велики дијагонални тап на углове са два прста</span> ако сте у <b>"
+"приказивачу слике</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7373-6
 msgid ""
@@ -17097,6 +17183,9 @@ msgid ""
 "screenshot, so it will be cropped to exact size and aspect ratio of your "
 "device without stretching."
 msgstr ""
+"У <b>приказивачу слике</b>, слику можете да зумирате и померите пре прављења "
+"слике екрана, тако да ће бити опсечена на тачну величину и однос страница "
+"екрана уређаја без растезања."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7375-6
 msgid ""
@@ -17223,7 +17312,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7412-6
 msgctxt "user_guide/en.html:tip-verticaltategaki"
 msgid "Reading vertically formatted books"
-msgstr ""
+msgstr "Читање вертикално сложених књига"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7414-6
 msgid ""
@@ -17232,6 +17321,10 @@ msgid ""
 "that can do this. It is basically a clone of KOReader with added vertical "
 "text rendering."
 msgstr ""
+"Званични KOReader тренутно не подржава исцртавање књига сложених као "
+"вертикални текст (татегаки - 縦書き), али је један од наших корисника "
+"креирао рачву која то може да уради. То је у суштини клон програма KOReader "
+"са додатом могућности за исцртавање вертикалног текста."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7416-6
 msgid ""
@@ -17241,6 +17334,11 @@ msgid ""
 "languages. It can at least render Chinese too, according to the feedback "
 "from Chinese users."
 msgstr ""
+"Главни циљ ове рачве је <b>јапанско вертикално писање</b>. Али пошто "
+"имплементација подржава <b>EPUB writing-mode: vertical-rl</b> на нивоу "
+"механизма за исцртавање, такође би могло да функционише и за остале језике "
+"који се пишу вертикално. Према повратним информацијама кинеских корисника, "
+"барем је у стању да исцртава и кинески."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7420-6
 msgid ""
@@ -17249,6 +17347,10 @@ msgid ""
 "like they do in the official KOReader, so this replacement should be "
 "functionally equivalent."
 msgstr ""
+"Имајте на уму да је ово рачва (а не додатак или корисничка закрпа), тако да "
+"у потпуности замењује ваш KOReader. Али обичне хоризонталне књиге се "
+"понашају исто као и у званичном програму KOReader, тако да би ова замена "
+"требало да буде еквивалентна."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7422-6
 msgid ""
@@ -17258,6 +17360,11 @@ msgid ""
 "repo is <a href=\"https://github.com/koreader/koreader/issues/11469\">here</"
 "a>."
 msgstr ""
+"На ову рачву можете да пређете без потребе да прво уклоните текући KOReader. "
+"Једноставно пратите упутства на <a href=\"https://github.com/m-tky/koreader-"
+"tategumi\">репозиторијуму</a> рачве. Развојна дискусија на нашем "
+"репозиторијуму се налази <a href=\"https://github.com/koreader/koreader/"
+"issues/11469\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7424-6
 msgid ""
@@ -17265,6 +17372,9 @@ msgid ""
 "use the fork's repo for vertical text related questions/issues, instead of "
 "the official KOReader repo."
 msgstr ""
+"<span class=\"microns_warning\"></span>Ако пређете на ову рачву, молимо вас "
+"да за сва питања/проблеме у вези са вертикалним текстом користите "
+"репозиторијум рачве, а не званични KOReader репозиторијум."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7426-6
 msgid "14.2 Device Tips"
@@ -17291,11 +17401,9 @@ msgid "Automatic screen dimming"
 msgstr "Аутоматско затамњивање екрана"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7433-1
-#, fuzzy
-#| msgid "Optimizing your battery life"
 msgctxt "user_guide/en.html+tips.ul.li:115--5"
 msgid "Optimizing battery health"
-msgstr "Оптимизација трајања батерије"
+msgstr "Оптимизација здравља батерије"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7434-1
 msgctxt "user_guide/en.html+tips.ul.li:116--5"
@@ -17360,11 +17468,6 @@ msgstr ""
 "b> тако што одете на:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:7453-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and gestures / Gesture manager / \"your "
-#| "selected gesture\" / Device / Exit screensaver"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and gestures / Gesture manager / \"ANY "
@@ -17372,26 +17475,22 @@ msgid ""
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Тапови и гестикулације / Управљач гестикулацијама / "
-"„ваша изабрана гестикулација” / Уређај / Напусти екран спавања"
+"„БИЛО КОЈА ГЕСТИКУЛАЦИЈА” / Уређај / Напусти екран спавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7455-7
 msgid "And then enable this option:"
 msgstr "Па затим укључите следећу опцију:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:7456-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Screen / Screensaver / Settings / Keep the "
-#| "screensaver on screen after wakeup / Until 'Exit screensaver' gesture"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / Sleep screen / Postpone screen update "
 "after wake-up / Until 'Exit sleep screen' gesture"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Екран / Чувар екрана/ Подешавања / Задржи чувар "
-"екрана на екрану након буђења / Све до ’Напусти екран спавања’ гестикулације"
+"style=\"width:22px;\"> / Екран / Чувар екрана / Подешавања / Одложи "
+"ажурирање екрана након буђења / Док се не изврши гестикулација ’Напусти "
+"екран спавања’"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7460-6
 msgctxt "user_guide/en.html:tip-controlwithinspector"
@@ -17406,6 +17505,11 @@ msgid ""
 "KOReader. You can remotely perform many actions like turning pages, entering "
 "text, adjusting screen light, activating profiles."
 msgstr ""
+"Употребом Android апликације, свој KOReader можете да контролишете са "
+"Android ОС уређаја који је на истој мрежи. Она користи <span class=\"ui\">"
+"KOReader HTTP инспектор</span> додатак за комуникацију са програмом "
+"KOReader. Даљински можете да извршите многе акције, као што су окретање "
+"страница, уност текста, подешавање екранског осветљења, активирање профила."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7465-6
 msgid ""
@@ -17413,6 +17517,9 @@ msgid ""
 "href=\"https://github.com/TomasDiLeo/"
 "koreader_pageturner_companion\">KOReader Page Turner Companion</a>"
 msgstr ""
+"Упутства и линк за преузимање апликације се налазе на страници њеног "
+"пројекта: <a href=\"https://github.com/TomasDiLeo/"
+"koreader_pageturner_companion\">KOReader пратилац за окретање страница</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7467-6
 msgctxt "user_guide/en.html:tip-autoscreendim"
@@ -17437,22 +17544,11 @@ msgstr ""
 "style=\"width:22px;\"> / Екран / Аутоматски затамњивач"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7472-6
-#, fuzzy
-#| msgid "Optimizing your battery life"
 msgctxt "user_guide/en.html:tip-optimizebatteryhealth"
 msgid "Optimizing battery health"
-msgstr "Оптимизација трајања батерије"
+msgstr "Оптимизовање здравља батерије"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7474-6
-#, fuzzy
-#| msgid ""
-#| "Li-ion batteries experience more degradation at the extreme ends of their "
-#| "charge levels. To minimize this degradation and extend your battery life, "
-#| "you can limit your minimum discharge level to <b>20%</b> and maximum "
-#| "charge level to <b>80%</b> (as in electric vehicles and some newer "
-#| "phones). Which means you start charging your device when the battery goes "
-#| "down to 20% and unplug when it reaches 80% (or 25%-75% if you are extra "
-#| "cautious)."
 msgid ""
 "Li-ion batteries experience more degradation at the extreme ends of their "
 "charge levels. To minimize this degradation and extend your battery life, "
@@ -17466,7 +17562,7 @@ msgstr ""
 "трајања батерије, имате могућност да ограничите ниво пражњења на <b>20%</b> "
 "и максимални ниво напуњености на <b>80%</b> (као електрична возила и неки "
 "новији телефони). То значи да пуњење уређаја почиње када се батерија "
-"испразни на 20% и раскида веза са пуњачем када се достигне 80% (или 25%-75% "
+"испразни на 20% и раскида веза са пуњачем када се достигне 80% (или 30%-75% "
 "ако сте посебно опрезни)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7478-6
@@ -17593,11 +17689,9 @@ msgstr ""
 "НАМ СЕ</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7519-1
-#, fuzzy
-#| msgid "Text indentation problems"
 msgctxt "user_guide/en.html+troubleshooting.ul.li:11--5"
 msgid "Battery drain problems"
-msgstr "Проблеми са увлачењем текста"
+msgstr "Проблеми са пражњењем батерије"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7520-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:12--5"
@@ -17610,16 +17704,14 @@ msgid "Ghosting when turning pages"
 msgstr "Духови и остатак приликом окретања страница"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7522-1
-#, fuzzy
-#| msgid "Exit sleep screen"
 msgctxt "user_guide/en.html+troubleshooting.ul.li:14--5"
 msgid "Ghosting on sleep screen"
-msgstr "Напусти екран спавања"
+msgstr "Духови на екрану спавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7523-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:15--5"
 msgid "Progress Sync problems"
-msgstr ""
+msgstr "Проблеми са синхронизацијом напретка читања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7524-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:16--5"
@@ -17643,16 +17735,14 @@ msgid "Backup your KOReader settings"
 msgstr "Направите резервну копију KOReader подешавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7528-1
-#, fuzzy
-#| msgid "KOReader can control your device"
 msgctxt "user_guide/en.html+troubleshooting.ul.li:20--5"
 msgid "Resetting KOReader on Android devices"
-msgstr "KOReader може да контролише ваш уређај"
+msgstr "Ресетовање апликације KOReader на Android уређајима"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7529-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:21--5"
 msgid "Disabling ads on Amazon Kindle devices"
-msgstr ""
+msgstr "Искључивање реклама на Amazon Kindle уређајима"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7530-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:22--5"
@@ -17685,11 +17775,9 @@ msgid "What is a Nightly Version?"
 msgstr "Шта је Ноћна верзија?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7538-6
-#, fuzzy
-#| msgid "Text indentation problems"
 msgctxt "user_guide/en.html:ts-batterydrain"
 msgid "Battery drain problems"
-msgstr "Проблеми са увлачењем текста"
+msgstr "Проблеми са пражњењем батерије"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7540-6
 msgid ""
@@ -17697,36 +17785,42 @@ msgid ""
 "started draining abnormally when using KOReader, generally first suspect is "
 "the battery degradation."
 msgstr ""
+"KOReader батерију користи врло ефикасно. Тако да ако батерија вашег е-читача "
+"почне да се празни неуобичајено брзо током коришћења програма KOReader, "
+"обично се прво сумња на деградацију батерије."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7542-6
 msgid ""
 "But if you are sure that your battery is healthy and drain happens only in "
 "KOReader, cause might be:"
 msgstr ""
+"Али ако сте сигурни да је ваша батерија здрава и пражњење се дешава само у "
+"програму KOReader, узрок би могло да буде:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7544-7
 msgid "A problematic firmware update"
-msgstr ""
+msgstr "Проблематично ажурирање фирмвера"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7545-7
 msgid "A third-party plugin"
-msgstr ""
+msgstr "Додатак треће стране"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7546-7
-#, fuzzy
-#| msgid "User patches"
 msgid "A user patch"
-msgstr "Корисничке закрпе"
+msgstr "Корисничка закрпа"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7549-6
 msgid "These are the steps to follow if you have a drain problem:"
 msgstr ""
+"Ово су кораци које треба да следите ако имате проблем са пражњењем батерије:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7552-7
 msgid ""
 "<b>Update your device</b> to the latest firmware version. If there are no "
 "firmware updates for your device, skip to the next step."
 msgstr ""
+"<b>Ажурирајте свој уређај</b> на најновију верзију фирмвера. Ако за ваш "
+"уређај нема новије верзије фирмвера, пређите на наредни корак."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7555-7
 msgid ""
@@ -17734,6 +17828,9 @@ msgid ""
 "the third party plugins and user patches</b> that you have installed and "
 "restart KOReader."
 msgstr ""
+"Ако ажурирање фирмвера не реши проблем пражњења батерије, <b>уклоните све "
+"додатке треће стране и корисничике закрпе</b> које сте инсталирали и поново "
+"покрените KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:7558-7
 msgid ""
@@ -17741,18 +17838,18 @@ msgid ""
 "<b>factory resetting</b> your device and <b>reinstalling KOReader</b> (don't "
 "forget to backup your main library folder)."
 msgstr ""
+"Ако се проблем са пражњењем батерије настави и након прва два корака, "
+"последња опција је враћање уређаја на <b>фабричка подешавања</b> и <b>"
+"поновно инсталирање програма KOReader</b> (не заборавите да направите "
+"резервну копију вашег главног фолдера библиотеке)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7563-6
-#, fuzzy
-#| msgid ""
-#| "For more information, you can check the <a href=\"https://github.com/"
-#| "koreader/koreader/wiki/Virtual-keyboard\">related wiki page</a>."
 msgid ""
 "If your problem continues, you can open an issue on our <a href=\"https://"
 "github.com/koreader/koreader/issues\">GitHub page</a>."
 msgstr ""
-"За више информација, погледајте <a href=\"https://github.com/koreader/"
-"koreader/wiki/Virtual-keyboard\">одговарајућу вики страницу</a>."
+"Ако се ваш проблем настави, можете да отворите проблем на нашој <a "
+"href=\"https://github.com/koreader/koreader/issues\">GitHub страници</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7567-6
 msgctxt "user_guide/en.html:ts-slowbook"
@@ -17765,6 +17862,9 @@ msgid ""
 "Documents</a> section of the guide for tips and solutions <b>if a specific "
 "file is slow</b>."
 msgstr ""
+"Молимо вас да погледате одељак упутства <a class=\"internalink\" href=\"#L2-"
+"optimizing\">Оптимизација докумената</a> за савете и решења у случају када "
+"је <b>одређени фајл спор</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7572-6
 msgid ""
@@ -17872,11 +17972,9 @@ msgstr ""
 "class=\"ui\">кратко дијагонално превлачење</span>)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7596-6
-#, fuzzy
-#| msgid "Exit sleep screen"
 msgctxt "user_guide/en.html:ts-ghostingsleepscreen"
 msgid "Ghosting on sleep screen"
-msgstr "Напусти екран спавања"
+msgstr "Духови на екрану спавања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7598-6
 msgid ""
@@ -17885,24 +17983,26 @@ msgid ""
 "your <b>sleep screen</b> despite the refresh before sleep. You can get rid "
 "of this by increasing the number of refreshes from here:"
 msgstr ""
+"У неким случајевима (у зависности од многих фајктора, као што су садржај "
+"књиге, светлина слике екрана спавања и модел читача) можете да видите духове/"
+"остатке на <b>екрану спавања</b>, без обзира на то што сте урадили "
+"освежавање пре спавања. Овај проблем можете да решите повећањем броја "
+"освежавања:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7601-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Screen / E-ink Settings"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Screen / E-ink settings / Sleep screen anti-"
 "ghosting redraws"
 msgstr ""
 "МЕНИ НА ВРХУ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Екран / E-ink подешавања"
+"style=\"width:22px;\"> / Екран / E-ink подешавања / Поновна исцртавања "
+"екрана спавања против духова"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7605-6
 msgctxt "user_guide/en.html:ts-progresssync"
 msgid "Progress Sync problems"
-msgstr ""
+msgstr "Проблеми са синхронизацијом напретка читања"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7607-6
 msgid ""
@@ -18088,11 +18188,9 @@ msgstr ""
 "b>. Ако то желите, можете посебно да направите резервну копију ових фолдера."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7672-6
-#, fuzzy
-#| msgid "KOReader can control your device"
 msgctxt "user_guide/en.html:ts-androidreset"
 msgid "Resetting KOReader on Android devices"
-msgstr "KOReader може да контролише ваш уређај"
+msgstr "Ресетовање апликације KOReader на Android уређајима"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7674-6
 msgid ""
@@ -18102,6 +18200,12 @@ msgid ""
 "This location allows you to backup and synchronize your KOReader settings "
 "easily by saving them under this user-accessible directory."
 msgstr ""
+"На уређајима са Android ОС, KOReader чува своја подешавања у директоријуму "
+"<span class=\"ui\">Internal Storage/koreader/</span>. Ово је намерно "
+"понашање које се разликује од осталих Android апликација. Ова локација вам "
+"омогућава да једноставно направите резервну копију или да синхронизујете "
+"KOReader подешавања тако што их сачувате у овај кориснички доступан "
+"директоријум."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7677-6
 msgid ""
@@ -18110,6 +18214,10 @@ msgid ""
 "So if you uninstall KOReader and then install it again, it will start with "
 "your old settings."
 msgstr ""
+"Али када уклоните KOReader, или обришете његове податке из менија <b>Android "
+"ОС Подешавања</b>, овај директоријум KOReader подешавања <b>се не брише</b>. "
+"Тако да ако уклоните KOReader, па га поново инсталирате, он ће се покренути "
+"са вашим старим подешавањима."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7680-6
 msgid ""
@@ -18118,11 +18226,14 @@ msgid ""
 "directory, it will be automatically re-created with the <b>default settings</"
 "b>."
 msgstr ""
+"Ако желите да потпуно ресетујете KOReader на фабричка подешавања, требало би "
+"ручно да обришете овај директоријум. Када након тога покренете KOReader, он "
+"ће се аутоматски поново креирати са <b>подразумеваним подешавањима</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7683-6
 msgctxt "user_guide/en.html:ts-disableads"
 msgid "Disabling ads on Amazon Kindle devices"
-msgstr ""
+msgstr "Искључивање реклама на Amazon Kindle уређајима"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7685-6
 msgid ""
@@ -18136,6 +18247,15 @@ msgid ""
 "stance which you can read <a href=\"https://www.mobileread.com/forums/"
 "showthread.php?t=200942\">here</a>."
 msgstr ""
+"Ово је технички могуће, али нажалост, на овим читачима не можемо да "
+"променимо <b>подразумевано понашање екрана спавања</b>. Пошто би то могло да "
+"изазове негативну реакцију компаније Amazon, која би могла да закључа Kindle "
+"екосистем (нема више KOReader за Kindle уређаје), или чак да угрози цео "
+"пројекат (нема више KOReader програма). За више информација, погледајте "
+"дискусију са нашим програмерима <a href=\"https://github.com/koreader/"
+"koreader/issues/14098\">овде</a>. Наше становиште је сагласно са становиштем "
+"<b>MobileRead</b> форума које можете да прочитате <a href=\"https://"
+"www.mobileread.com/forums/showthread.php?t=200942\">овде</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7689-6
 msgctxt "user_guide/en.html:ts-publishernumbers"
