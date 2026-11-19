@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 08:52+0000\n"
-"PO-Revision-Date: 2026-11-15 11:57+0000\n"
+"PO-Revision-Date: 2026-11-19 19:56+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -5632,6 +5632,13 @@ msgid ""
 "b> and <b>sans-serif</b> (if you don't know what these mean, just click on "
 "the links to see the difference):"
 msgstr ""
+"<b>Оберіть гарний шрифт.</b> Спочатку потрібно обрати шрифт для книги, який "
+"би виглядав як у друкованій книзі та, водночас, добре б читався на екрані е-"
+"читалки. Якщо ви маєте улюблений шрифт, можна використати його. Інакше можна "
+"завантажити один з тих, які ми рекомендуємо нижче. Є два типи шрифтів, які "
+"виглядають по-різному: <b>з засічками (serif)</b> та <b>без засічок (sans-"
+"serif)</b> (якщо не розумієте, що це означає, натисніть посилання, щоб "
+"побачити різницю):"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3133-8
 msgid ""
@@ -5640,6 +5647,10 @@ msgid ""
 "download it from <a href=\"https://fonts.google.com/specimen/"
 "Lusitana\">here</a>."
 msgstr ""
+"Якщо вам подобаються шрифти <b>з засічками</b>, завантажте <b>Lusitana</b>. "
+"Це вишуканий класичний шрифт з засічками, який створений для читання довгих "
+"текстів. Його можна завантажити <a href=\"https://fonts.google.com/specimen/"
+"Lusitana\">звідси</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3136-8
 msgid ""
@@ -5647,6 +5658,10 @@ msgid ""
 "geometric sans typeface that prioritizes legibility. You can download it "
 "from <a href=\"https://fonts.google.com/specimen/Red+Hat+Text\">here</a>."
 msgstr ""
+"Якщо ж вам подобаються шрифти <b>без засічок</b>, завантажте <b>Red Hat "
+"Text</b>. Це геометричний шрифт без засічок, пріоритетом якого є "
+"читабельність. Його можна завантажити <a href=\"https://fonts.google.com/"
+"specimen/Red+Hat+Text\">звідси</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3140-7
 msgid ""
@@ -5656,6 +5671,12 @@ msgid ""
 "should restart KOReader after transferring the font so it can add the font "
 "to the <span class=\"ui\">font list</span>."
 msgstr ""
+"<b>Скопіюйте шрифт на свій пристрій.</b> Якщо не знаєте як це зробити, "
+"прочитайте цю частину посібника і поверніться сюди після копіювання шрифту "
+"на пристрій: <a href=\"#L2-fonts\" class=\"internalink\">Використання "
+"власних шрифтів</a>. Після копіювання шрифту на пристрій потрібно "
+"перезапустити KOReader, щоб шрифт з'явився у <span class=\"ui\">списку "
+"шрифтів</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3143-7
 msgid ""
@@ -5663,6 +5684,9 @@ msgid ""
 "Your newly added font should appear at the beginning of the font list. "
 "Select it:"
 msgstr ""
+"<b>Встановіть свій новий шрифт.</b> Відкрийте книгу і перейдіть до пункту "
+"меню, який бачите нижче. Новододаний шрифт повинен з'явитися на початку "
+"списку шрифтів. Виберіть його:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3145-7
 msgid ""
@@ -5681,18 +5705,20 @@ msgid ""
 "means that there are no fonts embedded in this book so you can skip to the "
 "next step:"
 msgstr ""
+"<b>Вимкніть <span class=\"ui\">Вбудовані шрифти</span>.</b> Тепер потрібно "
+"вимкнути цей параметр, встановивши його на «<span class=\"ui\">вимкнено</"
+"span>», щоб KOReader замість вбудованого у файл книги шрифту використовував "
+"раніше вибраний вами. Якщо параметр відображається <b>сірим</b>, то його "
+"неможливо змінити, бо у файл книги не вбудовано жодного шрифту. Тож можна "
+"перейти одразу до наступного кроку:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3152-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Alt Status Bar"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Embedded fonts"
 msgstr ""
 "НИЖНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Альтернативна панель стану"
+"style=\"width:26px;\"> / Вбудовані шрифти"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3155-7
 msgid ""
@@ -5702,18 +5728,21 @@ msgid ""
 "span>. However, this is a personal preference, so you can set it to whatever "
 "looks best to you. Set the font size here:"
 msgstr ""
+"<b>Припасуйте <span class=\"ui\">Розмір шрифту</span>.</b> Тепер потрібно "
+"припасувати розмір вибраного шрифту. Нам здається, що для <b>Lusitana</b> "
+"<span class=\"ui\">22.0</span> є хорошим розміром для багатьох екранів. Для "
+"шрифту <b>Red Hat Text</b> можна встановити розмір <span class=\"ui\">20.0</"
+"span>. Як би там не було, все залежить від особистих вподобань, тож "
+"встановіть такий розмір, який вам подобається найбільше. Розмір шрифту "
+"встановлюється тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3160-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-#| "style=\"width:22px;\"> / Reflow"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
 "style=\"width:26px;\"> / Font size"
 msgstr ""
 "НИЖНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Перекомпонування"
+"style=\"width:26px;\"> / Розмір шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3163-7
 msgid ""
@@ -5726,18 +5755,23 @@ msgid ""
 "span>. You can set it more precisely by tapping the <span class=\"ui\">three "
 "dots</span> at the end of the setting line:"
 msgstr ""
+"<b>Припасуйте <span class=\"ui\">Товщину шрифту</span>.</b> Якщо ви "
+"використовуєте KOReader на пристрої з екраном на е-чорнилах, текст "
+"виглядатиме <b>менш чорним</b> порівняно з екранами LCD/OLED. Загалом, "
+"шрифти не створюються спеціально для екранів на е-чорнилах, тому ми "
+"виправили цей недолік роблячи шрифт темнішим завдяки налаштуванню <span "
+"class=\"ui\">Товщини шрифту</span>. Параметр <span class=\"ui\">+1</span> є "
+"хорошою початковою точкою. Деякі тонкі шрифти можуть потребувати <span "
+"class=\"ui\">+2</span>. Товщину можна налаштувати точніше, якщо натиснути "
+"<span class=\"ui\">три крапки</span> в кінці рядка цього налаштування:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3169-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/"
-#| "bottom_contrast.svg\" style=\"width:22px;\"> / Render Quality"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
 "style=\"width:26px;\"> / Font weight"
 msgstr ""
 "НИЖНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/bottom_contrast.svg\" "
-"style=\"width:22px;\"> / Якість візуалізації"
+"style=\"width:26px;\"> / Товщина шрифту"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3172-7
 msgid ""
@@ -5749,18 +5783,21 @@ msgid ""
 "characters, can afford a tighter <span class=\"ui\">120 %</span>. Set it "
 "here:"
 msgstr ""
+"<b>Припасуйте <span class=\"ui\">Міжрядкові проміжки</span>.</b> Тепер "
+"припасуйте <span class=\"ui\">Міжрядкові проміжки</span>, які визначають "
+"вертикальну відстань між рядками тексту. Цей параметр є різним для різних "
+"шрифтів, залежно від геометрії символів. Для <b>Lusitana</b> можна "
+"встановити значення на <span class=\"ui\">135%</span>. <b>Red Hat Text</b> з "
+"його відкритішими символами можна встановити на <span class=\"ui\">120%</"
+"span>. Це можна зробити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3177-7
-#, fuzzy
-#| msgid ""
-#| "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-#| "style=\"width:22px;\"> / Reflow"
 msgid ""
 "BOTTOM MENU / <img class=\"img_inline\" src=\"pictures/bottom_document.svg\" "
 "style=\"width:26px;\"> / Line Spacing"
 msgstr ""
 "НИЖНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/bottom_font.svg\" "
-"style=\"width:22px;\"> / Перекомпонування"
+"style=\"width:26px;\"> / Міжрядкові проміжки"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3180-7
 msgid ""
@@ -5769,6 +5806,10 @@ msgid ""
 "span> (empty white space around our text) as the last touch and finish our "
 "adjustments. Now open this menu and adjust the settings as you see below:"
 msgstr ""
+"<b>Припасуйте <span class=\"ui\">Поля</span>.</b> Тепер вже наш текст "
+"виглядає досить гарно. Тепер ми припасуємо <span class=\"ui\">поля</span> "
+"(порожні білі простори навколо тексту сторінки). Відкрийте це меню і "
+"припасуйте налаштування як показано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:3183-7
 msgctxt "user_guide/en.html+formattingyourbook.ol.li.div:68-1"
@@ -5776,51 +5817,41 @@ msgid "BOTTOM MENU /"
 msgstr "НИЖНЄ МЕНЮ /"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3185-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">L/R Margins</span>: Set to <span class=\"ui\">level 7</"
 "span>"
 msgstr ""
-"Натисніть пункт меню <span class=\"ui\">Активувати</span>, а потім натисніть "
-"<span class=\"ui\">Згідно з положенням Сонця</span>"
+"<span class=\"ui\">Ліве/праве поля</span>. Встановіть на <span class=\"ui\">"
+"рівень 7</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3186-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Top Margin</span>: Set to <span class=\"ui\">level 6</"
 "span>"
 msgstr ""
-"Натисніть пункт меню <span class=\"ui\">Активувати</span>, а потім натисніть "
-"<span class=\"ui\">Згідно з положенням Сонця</span>"
+"<span class=\"ui\">Верхнє поле</span>. Встановіть на <span class=\"ui\">"
+"рівень 6</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3187-8
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Bottom Margin</span>: Set to <span class=\"ui\">level 6</"
 "span>"
 msgstr ""
-"Натисніть пункт меню <span class=\"ui\">Активувати</span>, а потім натисніть "
-"<span class=\"ui\">Згідно з положенням Сонця</span>"
+"<span class=\"ui\">Нижнє поле</span>. Встановіть на <span class=\"ui\">"
+"рівень 6</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3191-6
 msgid ""
 "After all these settings, your book should look more like a printed book. "
 "You can make further adjustments to these settings if you wish."
 msgstr ""
+"Після усіх цих налаштувань кожна сторінка вашої книга має виглядати дуже "
+"схожою на паперову. За бажанням, можна зробити також додаткові припасування."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3193-6
 msgctxt "user_guide/en.html:L2-howtokeepsettings"
 msgid "5.1 How To Save Settings"
-msgstr ""
+msgstr "5.1 Як зберегти налаштування"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3195-6
 msgid ""
@@ -5828,14 +5859,11 @@ msgid ""
 "like this too?\"</b> No, not automatically. Because all these changes are "
 "<b>valid only for the current book</b>."
 msgstr ""
+"Після всіх цих налаштувань ви можете запитати: <b>«Чи будуть усі інші мої "
+"книги виглядати як ця?»</b> Ні, не автоматично, бо усі ці зміни <b>чинні "
+"лише для поточної книги</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3198-6
-#, fuzzy
-#| msgid ""
-#| "In some reader applications, when you change a setting let's say the font "
-#| "used for books, it changes globally. Which means, if you change the "
-#| "default font to <b>Verdana</b>, any books you open next including the "
-#| "ones you are already reading will be shown in this Verdana font."
 msgid ""
 "In other reader applications, when you change a setting, let's say the font "
 "used for books, it changes <b>globally</b>. Which means, if you change the "
@@ -5843,8 +5871,8 @@ msgid ""
 "-including the ones that you are already reading- will be shown in this "
 "Verdana font."
 msgstr ""
-"У деяких програмах читання при зміні в налаштуваннях шрифту, який "
-"використовується для відображення книги, він змінюється глобально. Це "
+"У інших програмах читання при зміні в налаштуваннях шрифту, який "
+"використовується для відображення книги, він змінюється <b>глобально</b>. Це "
 "означає, що якщо ви змінили типовий шрифт на <b>Verdana</b>, після цього "
 "текст будь-якої відкритої книги буде відображатися шрифтом Verdana."
 
@@ -5867,19 +5895,23 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3204-6
 msgid "So this is how KOReader works:"
-msgstr ""
+msgstr "Ось як працює KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3207-7
 msgid ""
 "KOReader settings like font size, line spacing etc. have <b>default values</"
 "b>."
 msgstr ""
+"Налаштування KOReader, як от розмір шрифту, міжрядкові проміжки та ін., "
+"мають <b>типові значення</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3208-7
 msgid ""
 "If you open a new book, KOReader refers to these <b>default values</b> to "
 "set the appearance of your book."
 msgstr ""
+"Якщо ви відкриєте нову книгу, KOReader використає ці <b>типові значення</b>, "
+"щоб встановити вигляд вашої книги."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:3210-7
 msgid ""
@@ -5935,6 +5967,8 @@ msgid ""
 "Settings in KOReader generally can be set as default with a long-press. Have "
 "a look at the screenshot below:"
 msgstr ""
+"Зазвичай налаштування в KOReader можна встановити як типові, якщо їх "
+"затиснути. Погляньте на знімок екрану нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3240-6
 msgid ""
@@ -5943,44 +5977,42 @@ msgid ""
 "<span class=\"ui\">+1</span> normally, it will change only for this book. "
 "But if you long-press on it, you will see this dialog:"
 msgstr ""
+"Значення праворуч, які позначені синім, можна затиснути, щоб встановити їх "
+"як <b>типові</b>. Скажімо, потрібно зробити шрифт жирнішим. Якщо натиснути "
+"<span class=\"ui\">+1</span> як зазвичай, значення зміниться тільки для "
+"поточної книги. Однак, якщо затиснути це значення, то з'явиться діалог:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3245-6
-#, fuzzy
-#| msgid ""
-#| "Add a folder by pressing the <span class=\"ui\">PLUS icon</span> at the "
-#| "top left corner of that screen, which will open the <span "
-#| "class=\"ui\">Folder chooser screen</span>."
 msgid ""
 "If you press the <span class=\"ui\">Set as default</span> button, this book "
 "and the books that you will open in the future will have <span "
 "class=\"ui\">+1 font weight</span>."
 msgstr ""
-"Додайте теку, натиснувши <span class=\"ui\">значок + (плюс)</span> у "
-"верхньому лівому куті екрана, що відкриє <span class=\"ui\">екран вибору "
-"тек</span>."
+"Якщо натиснути кнопку <span class=\"ui\">Встановити типовим</span>, у цій "
+"книзі та у всіх відкритих в подальшому книгах буде <span class=\"ui\">"
+"товщина шрифту +1</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3248-6
 msgid ""
 "This \"long-press to set as default\" rule works in menus too. For example "
 "when changing the font from the top menu:"
 msgstr ""
+"Це правило «затисніть, щоб встановити типовим» діє також і в меню. "
+"Наприклад, при зміні шрифту з верхнього меню:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3251-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">Chapter levels:</span> Change the depth of chapter/sub "
-#| "chapter levels."
 msgid ""
 "<span class=\"ui\">short press</span> = change the font only for this book"
 msgstr ""
-"<span class=\"ui\">Рівні заголовків:</span> змінює глибину рівнів розділів/"
-"підрозділів."
+"<span class=\"ui\">натиснення</span> = змінити шрифт тільки для цієї книги"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3253-7
 msgid ""
 "<span class=\"ui\">long-press</span> = change the font for this book and all "
 "the future books"
 msgstr ""
+"<span class=\"ui\">затиснення</span> = змінити шрифт для цієї і усіх "
+"наступних книг"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3257-6
 msgid ""
@@ -5988,6 +6020,9 @@ msgid ""
 "or shown with a <span class=\"ui\">black border</span> around the indicators "
 "as seen below:"
 msgstr ""
+"У системі меню типові значення позначені <span class=\"ui\">зіркою</span> "
+"(★) або <span class=\"ui\">чорною рамкою</span> навколо індикатора, як "
+"показано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3264-6
 msgid ""
@@ -5995,12 +6030,13 @@ msgid ""
 "already opened will keep their own settings. Changing defaults don't affect "
 "them."
 msgstr ""
+"<span class=\"microns_info\"></span> Пам'ятайте, що книги, які вже були "
+"раніше відкриті, збережуть власні налаштування. Зміна типових не вплине на "
+"них."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3267-6
-#, fuzzy
-#| msgid "Saving current book settings as defaults"
 msgid "2. Setting \"all of the settings\" as defaults at once"
-msgstr "Збереження налаштувань поточної книги як типових"
+msgstr "2. Встановлення «всіх налаштувань разом» типовими"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3269-6
 msgid ""
@@ -6008,6 +6044,9 @@ msgid ""
 "defaults instead of one-by-one. This is useful if you make many changes to a "
 "book and you want all your books to look like this one."
 msgstr ""
+"Також є можливість встановити усі разом налаштування поточної книги як "
+"типові. Це корисно, якщо зроблено багато змін у налаштуваннях книги і "
+"потрібно, щоб всі книги виглядали як поточна."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3271-6
 msgid ""
@@ -6017,17 +6056,14 @@ msgstr ""
 "Зберегти налаштування як <span class=\"ui\">типові</span> можна обравши:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3274-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Save document settings as default"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Document settings / Save document settings as "
 "default"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Зберегти налаштування документа як типові"
+"style=\"width:22px;\"> / Налаштування документа / Зберегти налаштування "
+"документа як типові"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3277-6
 msgid ""
@@ -6035,6 +6071,9 @@ msgid ""
 "So all the books that you will open after pressing this menu item will look "
 "exactly like your current book."
 msgstr ""
+"Це замінить усі налаштування на налаштування поточного документа. Всі книги, "
+"які будуть відкриватися після натиснення цього пункту меню, будуть виглядати "
+"як поточна книга."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3279-6
 msgid ""
@@ -6043,19 +6082,20 @@ msgid ""
 "to any book now. Just open the book that you want to change, go to the same "
 "menu and press this item:"
 msgstr ""
+"А як щодо вже відкритих книг? Що ж, якщо ви вже натиснули вищевказаний пункт "
+"меню і встановили <b>нові типові</b> налаштування, їх тепер можна легко "
+"застосувати до будь-якої книги. Просто відкрийте книгу, налаштування якої "
+"потрібно змінити, перейдіть до того ж меню й натисніть цей пункт:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3281-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Reset document settings to default"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:22px;\"> / Document settings / Reset document settings to "
 "default"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Скинути налаштування документа до типових"
+"style=\"width:22px;\"> / Налаштування документа / Скинути налаштування "
+"документа до типових"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3284-6
 msgid ""
@@ -6071,19 +6111,21 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3288-6
 msgid "Applying a group of settings using profiles"
-msgstr ""
+msgstr "Застосування групи налаштувань використовуючи профілі"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3290-6
 msgid "Ok, at this point you already know:"
-msgstr ""
+msgstr "Зараз ви вже знаєте таке:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3293-7
 msgid "How to change the individual settings of the current book"
-msgstr ""
+msgstr "Як змінити налаштування поточної книги"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3294-7
 msgid "How to set your changes as <b>defaults</b> so all books can use them"
 msgstr ""
+"Як встановити зроблені зміни в якості <b>типових</b> налаштувань, щоб "
+"використовувати для всіх книг"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3298-6
 msgid ""
