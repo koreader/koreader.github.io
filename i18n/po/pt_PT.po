@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-18 08:19+0000\n"
-"PO-Revision-Date: 2026-11-18 06:59+0000\n"
+"PO-Revision-Date: 2026-11-19 08:51+0000\n"
 "Last-Translator: António Oliveira <antonio.oliveira5487@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_PT/>\n"
@@ -2979,27 +2979,27 @@ msgid ""
 "A layout with <b>memory usage</b> item when reading large comics to keep an "
 "eye on your memory"
 msgstr ""
+"Um layout com um item de <b>utilização de memória</b> ao ler bandas "
+"desenhadas grandes para ficar atento à sua memória."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2146-6
 msgid ""
 "To create a preset, first adjust your status bar to your liking by adding "
 "and ordering items (as explained before in this section). Then select:"
 msgstr ""
+"Para criar uma predefinição, primeiro ajuste a sua barra de estados a seu "
+"gosto ao adicionar e ordenar itens (conforme explicado anteriormente nesta "
+"secção). Depois selecione:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2148-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Configure items / Arrange items in "
-#| "status bar"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Status bar / Status bar presets / Create new preset "
 "from current settings"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Barra de estado / Configurar itens / Organizar "
-"itens na barra de estado"
+"style=\"width:26px;\"> / Barra de estado / Predefinições de barra de "
+"estado / Criar nova predefinição a partir das definições atuais"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2151-6
 msgid ""
@@ -3010,10 +3010,16 @@ msgid ""
 "class=\"ui\">quick menu</span> to quickly switch between your <b>status bar "
 "presets</b>."
 msgstr ""
+"Isto criará uma predefinição com o layout da sua barra de estado atual. "
+"Repita isto para outros layouts que queira criar. Após isto, pode alternar "
+"entre os seus novos layouts a partir do mesmo menu. Também pode usar <span "
+"class=\"ui\">gestos</span>, <span class=\"ui\">perfis</span> e <span "
+"class=\"ui\">menu rápido</span> para mudar rapidamente entre as suas <b>"
+"predefinições da barra de estado</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2155-6
 msgid "External content item"
-msgstr ""
+msgstr "Item de conteúdo externo"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2157-6
 msgid ""
@@ -3023,19 +3029,20 @@ msgid ""
 "the status bar. Currently you don't need to enable it manually but you can "
 "find it here:"
 msgstr ""
+"<span class=\"ui\">Conteúdo externo</span> é um item de barra de estado "
+"especial que permite plugins do KOReader mostrem conteúdo na barra de "
+"estado. Por exemplo, o plugin <span class=\"ui\">Read Timer</span> utiliza "
+"este item para mostrar o temporizador na barra de estado. Atualmente não "
+"precisa de o ativar manualmente mas pode encontrá-lo aqui:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2161-6
-#, fuzzy
-#| msgctxt "user_guide/en.html+html.body.div.div:1627-5"
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / Alt status bar"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Status bar / Status bar items / External content"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Barra de estado / Alternativa à barra de estado"
+"style=\"width:26px;\"> / Barra de estado / Itens da barra de estado / "
+"Conteúdo externo"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2164-6
 msgctxt "user_guide/en.html:L2-topexplained"
@@ -3063,17 +3070,12 @@ msgstr ""
 "livro...</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2176-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">TYPESETTING:</span> This menu contains items that "
-#| "allows you to change the appearance of your book. <b>Font settings, style "
-#| "tweaks...</b>"
 msgid ""
 "<span class=\"ui\">TYPESETTING</span> This menu contains items that allows "
 "you to change the appearance of your book. <b>Font settings, style tweaks..."
 "</b>"
 msgstr ""
-"<span class=\"ui\">CONFIGURAÇÕES:</span> Este menu contém itens que permitem "
+"<span class=\"ui\">CONFIGURAÇÕES</span> Este menu contém itens que permitem "
 "alterar o aspecto do seu livro. <b>Definições de tipos de letra, ajustes de "
 "estilo...</b>"
 
@@ -3320,6 +3322,10 @@ msgid ""
 "ink screen. When enabled, the result is sharper and easier to read "
 "characters, at the cost of slight distortion of the original font design."
 msgstr ""
+"<span class=\"ui\">Ajustes de fonte</span> é uma técnica tipográfica que "
+"ajusta os carateres numa fonte para encaixá-la em uma grelha de baixa "
+"resolução, tal como num ecrã e-ink. Quando ativa, o resultado é mais nítido, "
+"a troco de uma leve distorção do design da fonte original."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2288-6
 msgid ""
@@ -3328,30 +3334,38 @@ msgid ""
 "screen, the difference is much less noticeable because the pixels are small "
 "enough."
 msgstr ""
+"A diferença de <b>ajuste de fonte</b> é mais visível em <b>ecrãs de "
+"resolução padrão</b> ou em <b>fontes de tamanho menor</b>. Em um ecrã de "
+"alta resolução, a diferença é muito menos percetível porque os pixeis são "
+"suficientemente pequenos."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2292-6
 msgid "Here is a more detailed comparison:"
-msgstr ""
+msgstr "Aqui está uma comparação mais detalhada:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:2296-41
 msgid "Hinting OFF"
-msgstr ""
+msgstr "Ajustes DESLIGADO"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:2298-9
 msgid ""
 "KOReader shows the font's true mathematical shape, without forcing it to "
 "snap to the pixel grid."
 msgstr ""
+"O KOReader mostra a forma matemática verdadeira da fonte, sem forçá-la a "
+"alinhar-se à grelha de pixeis."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:2301-41
 msgid "Hinting ON"
-msgstr ""
+msgstr "Ajustes ATIVADOS"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:2303-9
 msgid ""
 "The font is modified to fit the pixel grid of your screen. Letter shapes may "
 "differ slightly from the original font."
 msgstr ""
+"A fonte é modificada para encaixar na grelha de pixeis do seu ecrã. Formas "
+"de letras podem distorcer ligeiramente da fonte original."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:2310-10
 msgid ""
@@ -3359,12 +3373,17 @@ msgid ""
 "b> (e.g., the two vertical lines in an 'M' might look like they have "
 "different thicknesses)."
 msgstr ""
+"A fonte pode parecer ligeiramente <b>mais suave, desfocada, ou ter alguma "
+"irregularidade</b> (p.ex., as duas linhas verticais em um 'M' podem parecer "
+"que tenham espessuras diferentes)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:2317-10
 msgid ""
 "The font appears <b>sharper, crisper, and more solid</b>. The letters have "
 "consistent stroke weights."
 msgstr ""
+"A fonte parece <b>mais nítida, clara, e mais sólida</b>. As letras têm "
+"espessuras de traço consistentes."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2323-6
 msgid ""
@@ -3374,18 +3393,24 @@ msgid ""
 "instructions might be broken). But you can try the font designer's "
 "instructions embedded in the font file to see if it looks better:"
 msgstr ""
+"No KOReader, <span class=\"ui\">ajuste de fonte</span> está <b>ativado por "
+"predefinição</b> e utiliza o algoritmo de ajuste da <b>biblioteca FreeType</"
+"b> em vez das instruções internas da fonte (para ser seguro porque as "
+"instruções internas da fonte podem estar estragadas). Mas pode experimentar "
+"as instruções do autor da fonte embutidas no ficheiro da fonte para ver que "
+"parece melhor:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2328-7
-#, fuzzy
-#| msgid "<span class=\"ui\">Left 90°</span> (landscape)"
 msgid "<span class=\"ui\">Off</span> Hinting is disabled."
-msgstr "<span class=\"ui\">90° esquerda</span> (paisagem)"
+msgstr "<span class=\"ui\">Desligado</span> Ajustes estão desativados."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2330-7
 msgid ""
 "<span class=\"ui\">Native</span> KOReader uses the font's internal hinting "
 "instructions."
 msgstr ""
+"<span class=\"ui\">Nativo</span> KOReader utiliza as instruções de ajuste "
+"internas da fonte."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2332-7
 msgid ""
@@ -3393,6 +3418,9 @@ msgid ""
 "FreeType's hinting algorithm, ignoring font's internal hinting. Handles "
 "<b>CJK</b> text better."
 msgstr ""
+"<span class=\"ui\">Automático</span><b>(ativado por predefinição)</b> O "
+"KOReader utiliza o algoritmo de ajustes FreeType, ignorando os ajustes "
+"internos da fonte. Lida com texto <b>CJK</b> melhor."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2342-6
 msgid ""
@@ -3694,6 +3722,11 @@ msgid ""
 "these windows to search them further in the dictionary/wikipedia. This will "
 "open another window with the result, so you won't lose your previous search."
 msgstr ""
+"Ao ver os resultados do <span class=\"ui\">dicionário</span> e <span "
+"class=\"ui\">wikipedia</span>, pode fazer um toque longo em palavra(s) "
+"nestas janelas para pesquisá-las mais a fundo no dicionário/wikipedia. Isto "
+"abrirá outra janela com o resultado, e por isso não perderá a sua pesquisa "
+"antiga."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:2469-8
 msgid ""
