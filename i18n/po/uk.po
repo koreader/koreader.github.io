@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-21 23:12+0000\n"
-"PO-Revision-Date: 2026-11-21 22:58+0000\n"
+"PO-Revision-Date: 2026-11-22 23:51+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -6787,6 +6787,16 @@ msgid ""
 "Normal</b> and <b>Medium</b> variants because it has already found a \"not "
 "bold\" font for the document."
 msgstr ""
+"<span class=\"microns_warning\"></span> Якщо наявні також інші варіанти, "
+"ситуація може стати заплутаною. Скажімо, ви скопіювали на пристрій сімейство "
+"шрифтів. Під час запуску KOReader прочитав такі варіанти шрифту: <b>легкий, "
+"тонкий, звичайний, середній, дуже чорний, напівжирний, жирний, чорний</b> "
+"саме в такому порядку. Ви будете очікувати побачити, що <b>звичайний</b> "
+"використовується як типовий шрифт документу (тому що він називається <b>"
+"звичайний</b>), але KOReader буде використовувати <b>легкий</b> варіант, бо "
+"це перший шрифт у списку, який не містить <b>мітки жирного</b>. І програма "
+"буде ігнорувати <b>тонкий, звичайний</b> та <b>середній</b> варіанти, бо "
+"вона вже знайшла для документу «не жирний» шрифт."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3525-6
 msgid ""
@@ -6795,6 +6805,10 @@ msgid ""
 "KOReader will ignore the <b>SemiBold, Bold, Black</b> variants, because "
 "KOReader has already found the \"bold\" it is looking for."
 msgstr ""
+"Знову ж, відповідно до цього списку, <b>дуже жирний</b> буде "
+"використовуватися як жирний шрифт, бо він стоїть першим у списку з <b>міткою "
+"жирного</b>. Тож KOReader буде нехтувати <b>напівжирним, жирним і чорним</b> "
+"варіантами, оскільки KOReader вже знайшов «жирний» шрифт."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3529-6
 msgid ""
@@ -6804,12 +6818,20 @@ msgid ""
 "order of the fonts that are fed to KOReader is not under our control so "
 "\"first come is first served\"."
 msgstr ""
+"Підсумовуючи вищевказане, ви копіюєте ціле сімейство шрифтів і очікуєте, що "
+"будуть використані <b>звичайний</b> і <b>жирний</b> варіанти, але натомість "
+"KOReader використає <b>легкий</b> і <b>дуже чорний</b> варіанти. Це "
+"трапляється через черговість шрифтів, що передаються до KOReader, тож їх "
+"використання відбувається за правилом «першим отриманий – першим використаний"
+"»."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3535-6
 msgid ""
 "Solution is, transferring only the font files that you want to be used, like "
 "this:"
 msgstr ""
+"Вирішенням цієї проблеми є копіювання на пристрій лише тих файлів шрифтів, "
+"які потрібно використовувати, наприклад:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3538-7
 msgid ""
@@ -6817,26 +6839,34 @@ msgid ""
 "used as the <b>regular font</b> (If your <b>Regular</b> font is too thin, "
 "just replace it with <b>Medium</b> weight if you have it)."
 msgstr ""
+"З варіантів <b>тонкий, надлегкий, легкий, звичайний, середній</b> залишити "
+"лише один. Залишений шрифт буде використовуватися як <b>звичайний шрифт</b> "
+"(якщо <b>звичайний</b> шрифт занадто тонкий, замініть його на шрифт <b>"
+"середньої</b> насиченості, якщо такий є)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3542-7
 msgid ""
 "Keep only one of <b>Semi Bold, Bold, Extra Bold, Black, Extra Black</b>: It "
 "will be used as the <b>bold font</b>."
 msgstr ""
+"З варіантів <b>напівжирний, жирний, дуже жирний, чорний, дуже чорний</b> "
+"залишити лише один. Він буде використовуватися як <b>жирний шрифт</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3543-7
 msgid ""
 "You can also add italic variants of the same weight (i.e. medium/medium-"
 "italic)."
 msgstr ""
+"Також можна додати курсивні варіанти тієї ж насиченості (наприклад, "
+"середній, середній курсив)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3546-6
-#, fuzzy
-#| msgid "Style tweaks <span class=\"microns\"></span>"
 msgid ""
 "5.3 Style tweaks <span class=\"microns_warning\" title=\"Advanced topic\"></"
 "span>"
-msgstr "5.3 Підлаштування стилів <span class=\"microns\"></span>"
+msgstr ""
+"5.3 Підлаштування стилів <span class=\"microns_warning\" title=\"Тема "
+"поглибленого рівня\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3548-6
 msgid ""
@@ -7170,13 +7200,6 @@ msgstr ""
 "style=\"width:26px;\"> / Підлаштування стилів / Підлаштування окремої книги"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3667-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> In the editor we have a <span "
-#| "class=\"ui\">CSS</span> menu on the bottom toolbar. This menu contains "
-#| "many useful CSS syntax and properties. When you open this menu please "
-#| "first read the <span class=\"ui\">Long-press for info</span> help. Also "
-#| "you can long-press on CSS items in this menu to see a description."
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> In the editor we "
 "have a <span class=\"ui\">CSS</span> menu on the bottom toolbar. This menu "
@@ -7184,12 +7207,12 @@ msgid ""
 "please first read the <span class=\"ui\">Long-press for info</span> help. "
 "Also you can long-press on CSS items in this menu to see a description."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> У редакторі на нижній панелі "
-"інструментів є меню <span class=\"ui\">CSS</span>. Це меню містить багато "
-"корисних синтаксису і властивостей CSS. Коли відкриєте це меню, радимо "
-"спершу прочитати довідкову інформацію <span class=\"ui\">Затисніть для "
-"відомостей</span>. Щоб побачити описи, можна також затискати елементи CSS у "
-"меню."
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> У редакторі на "
+"нижній панелі інструментів є меню <span class=\"ui\">CSS</span>. Це меню "
+"містить багато корисних синтаксису і властивостей CSS. Коли відкриєте це "
+"меню, радимо спершу прочитати довідкову інформацію <span class=\"ui\">"
+"Затисніть для відомостей</span>. Щоб побачити описи, можна також затискати "
+"елементи CSS у меню."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3672-6
 msgid "3. User style tweaks"
@@ -7493,7 +7516,7 @@ msgstr "H1 { border-top: 2px solid black; }"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3781-6
 msgctxt "user_guide/en.html:L1-annotating"
 msgid "6 ANNOTATING DOCUMENTS"
-msgstr ""
+msgstr "6 АНОТУВАННЯ ДОКУМЕНТІВ"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3783-6
 msgid ""
@@ -7674,10 +7697,8 @@ msgstr ""
 "style=\"width:22px;\"> / Стиль виділення / Позначка нотатки"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3861-6
-#, fuzzy
-#| msgid "Tap on the highlight"
 msgid "What you can do with your highlight?"
-msgstr "Торкніться до виділення"
+msgstr "Що можна робити з виділеним?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3863-6
 msgid ""
@@ -7686,54 +7707,49 @@ msgid ""
 "you can reach another extended menu by tapping on the <span class=\"ui\">... "
 "(three dots)</span> button as shown below:"
 msgstr ""
+"Після виділення частини документу, можна торкнутися виділення, щоб побачити "
+"<span class=\"ui\">меню виділення</span>. З цього меню виділення можна "
+"перейти до іншого, розширеного, меню натиснувши кнопку <span class=\"ui\">"
+"... (три крапки)</span>, як показано нижче:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3868-6
 msgid "Using this extended menu you can:"
-msgstr ""
+msgstr "За допомогою цього розширеного меню можна:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3870-7
 msgid "<span class=\"ui\">Extend</span> your highlight to include more text"
 msgstr ""
+"<span class=\"ui\">Розширити</span> виділення, щоб включити більше тексту"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3872-7
-#, fuzzy
-#| msgid "<span class=\"ui\">History</span> - List of books you opened"
 msgid "<span class=\"ui\">Copy</span> the text to clipboard to paste elsewhere"
-msgstr "<span class=\"ui\">Історія</span> – список книг, які ви відкривали"
+msgstr ""
+"<span class=\"ui\">Копіювати</span> текст до буфера обміну, щоб вставити "
+"деінде"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3874-7
-#, fuzzy
-#| msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
 msgid "<span class=\"ui\">Search</span> the text on Wikipedia"
-msgstr "У зринаючому меню натисніть <span class=\"ui\">Вибрати</span>"
+msgstr "<span class=\"ui\">Шукати</span> текст у Вікіпедії"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3876-7
-#, fuzzy
-#| msgid ""
-#| "<span class=\"ui\">About book map:</span> Short explanation of Book map "
-#| "usage and icon descriptions."
 msgid "<span class=\"ui\">Look up</span> the text in an installed dictionary"
-msgstr ""
-"<span class=\"ui\">Про мапу книги:</span> коротка довідка про використання "
-"мапи книги і пояснення значків."
+msgstr "<span class=\"ui\">Знайти</span> текст у встановленому словнику"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3878-7
-#, fuzzy
-#| msgid ""
-#| "Tap <span class=\"ui\">Activate</span> menu item and then tap <span "
-#| "class=\"ui\">According to the sun's position</span>"
 msgid ""
 "<span class=\"ui\">Translate</span> the text using the <span "
 "class=\"external\">Google Translate</span> service"
 msgstr ""
-"Натисніть пункт меню <span class=\"ui\">Активувати</span>, а потім натисніть "
-"<span class=\"ui\">Згідно з положенням Сонця</span>"
+"<span class=\"ui\">Перекласти</span> текст за допомогою служби <span "
+"class=\"external\">Google Перекладач</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3881-7
 msgid ""
 "<span class=\"ui\">View HTML</span> source of the highlighted section, which "
 "is useful when writing a <span class=\"ui\">style tweak</span>"
 msgstr ""
+"<span class=\"ui\">Переглянути HTML</span> код-сирець виділеної частини, що "
+"корисно при написанні <span class=\"ui\">підлаштування стилю</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3883-7
 msgid ""
@@ -7741,19 +7757,18 @@ msgid ""
 "text, to scan from another device with a camera and a QR-code reader "
 "application"
 msgstr ""
+"<span class=\"ui\">Згенерувати QR-код</span>, який включає виділений текст, "
+"щоб сканувати його іншим пристроєм з камерою і програмою-розпізнавачем QR-"
+"кодів"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:3885-7
-#, fuzzy
-#| msgid "Choose <span class=\"ui\">Select</span> from the popup menu"
 msgid "<span class=\"ui\">Search</span> for the text in the book"
-msgstr "У зринаючому меню натисніть <span class=\"ui\">Вибрати</span>"
+msgstr "<span class=\"ui\">Шукати</span> текст у книзі"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3889-6
-#, fuzzy
-#| msgid "Exit highlighting mode"
 msgctxt "user_guide/en.html:L2-howtohighlight"
 msgid "6.1 Highlight Modes"
-msgstr "6.1 Вийти з режиму виділення"
+msgstr "6.1 Режими виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3891-6
 msgid "KOReader has two highlighting modes for different use cases:"
@@ -7815,21 +7830,23 @@ msgid ""
 "these actions to a gesture or use them in your <span class=\"ui\">quick "
 "menu</span>. You can find them here:"
 msgstr ""
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> <span "
+"class=\"ui\">Жест затиснення в куті</span> може спричинити проблему коли "
+"потрібно натиснути на текст біля кутів екрану. Є спеціальні <span "
+"class=\"ui\">дії керування жестами</span>, які дозволяють <b>перемикати</b> "
+"або <b>тимчасово вимикати</b> жести затиснення в кутах. Ці дії можна "
+"призначити на жест або виконувати їх з <span class=\"ui\">швидкого меню</"
+"span>. Вони доступні тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:3917-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and gestures / Gesture manager / “ANY "
-#| "GESTURE” / General / Open Previous Document"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:26px;\"> / Gesture manager / \"ANY GESTURE\" / Device / "
 "Toggle┆Ignore long-press on corners"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Дотики та жести / Менеджер жестів / «БУДЬ-ЯКИЙ "
-"ЖЕСТ» / Загальне / Відкрити попередній документ"
+"style=\"width:26px;\"> / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ» / Пристрій / "
+"Перемкнути┆Нехтувати затисканням в кутах"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3920-6
 msgid "Select and highlight mode"
@@ -7850,19 +7867,14 @@ msgstr ""
 "протягувати пальцем по екрану."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3925-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> If you have dictionary lookup "
-#| "enabled, when you long-press a word, you have to drag your finger to "
-#| "initiate this mode."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> If "
 "you have dictionary lookup enabled, when you long-press a word, you have to "
 "drag your finger to initiate this mode."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Якщо в програмі увімкнено пошук "
-"у словнику затисканням слова, тоді для запуску цього режиму потрібно "
-"провести пальцем."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> Якщо в "
+"програмі увімкнено пошук у словнику затисканням слова, тоді для запуску "
+"цього режиму потрібно провести пальцем."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3928-6
 msgid ""
@@ -7941,15 +7953,6 @@ msgstr ""
 "діалогу виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3951-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> There is a <b>faster</b> method "
-#| "for this mode if you don’t need <b>long-press menu items</b> shown above. "
-#| "You can disable the popup menu completely so when you long-press on a "
-#| "word you will immediately enter the <span class=\"ui\">Select and "
-#| "highlight</span> mode. This method is much faster and you can highlight "
-#| "any length of text with just two taps. To use this method enable this "
-#| "option:"
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> There is a "
 "<b>faster</b> method for this mode if you don’t need <b>long-press menu "
@@ -7959,10 +7962,10 @@ msgid ""
 "and you can highlight any length of text with just two taps. To use this "
 "method enable this option:"
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Існує <b>швидший</b> спосіб для "
-"цього режиму, якщо вам не потрібні показані вище <b>пункти меню з "
-"затисканням</b>. Можна взагалі вимкнути контекстне меню, щоб після "
-"затискання слова одразу активувався <span class=\"ui\">Режим вибору й "
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Існує <b>"
+"швидший</b> спосіб для цього режиму, якщо вам не потрібні показані вище <b>"
+"пункти меню з затисканням</b>. Можна взагалі вимкнути контекстне меню, щоб "
+"після затискання слова одразу активувався <span class=\"ui\">Режим вибору й "
 "виділення</span>. Цей спосіб значно швидший і дає змогу виділяти уривки будь-"
 "якого розміру тільки двома дотиками. Щоб використовувати такий спосіб, "
 "увімкніть цей параметр:"
@@ -7978,16 +7981,6 @@ msgstr ""
 "виділити"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3959-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> KOReader can highlight a passage "
-#| "in different styles. If you use <span class=\"ui\">Lighten</span> option, "
-#| "text background will be gray. Due to e-ink limitations, screens can’t "
-#| "change from white to gray directly, so highlighted part first has to turn "
-#| "black and then gray. If you want to avoid this flashing, you can choose "
-#| "<span class=\"ui\">Inverted</span> as your highlight style. In this mode "
-#| "text background will be black so it can be set without flashing. You can "
-#| "adjust these highlighting options from:"
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> KOReader can "
 "highlight a passage in different styles. If you use <span "
@@ -7998,14 +7991,14 @@ msgid ""
 "highlight style. In this mode text background will be black so it can be set "
 "without flashing. You can adjust these highlighting options from:"
 msgstr ""
-"<span class=\"label_green\">ПІДКАЗКА</span> KOReader може виділяти уривки "
-"різними стилями. Якщо використовується стиль <span class=\"ui\">Освітлити</"
-"span>, тло тексту буде сірим. Через специфіку роботи е-чорнил, екран не може "
-"змінитися безпосередньо з білого на сірий, тому виділена частина спершу "
-"стане чорною, а потім сірою. Якщо бажаєте уникнути такого блимання, можна "
-"обрати стиль виділення <span class=\"ui\">Інверсія</span>. За такого стилю "
-"виділення тло тексту буде ставати чорним без блимання. Вказати стиль "
-"виділення можна тут:"
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> KOReader може "
+"виділяти уривки різними стилями. Якщо використовується стиль <span "
+"class=\"ui\">Освітлити</span>, тло тексту буде сірим. Через специфіку роботи "
+"е-чорнил, екран не може змінитися безпосередньо з білого на сірий, тому "
+"виділена частина спершу стане чорною, а потім сірою. Якщо бажаєте уникнути "
+"такого блимання, можна обрати стиль виділення <span class=\"ui\">Інверсія</"
+"span>. За такого стилю виділення тло тексту буде ставати чорним без "
+"блимання. Вказати стиль виділення можна тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:3963-6
 msgctxt "user_guide/en.html+annotating.div.div:184-0"
@@ -8017,22 +8010,16 @@ msgstr ""
 "style=\"width:22px;\"> / Стиль виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3966-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> You can add multiple highlights "
-#| "and notes to the same section of text. If they are overlapping, when you "
-#| "tap on a highlight you will be presented with a menu to choose which "
-#| "highlight you want to edit."
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> You can add "
 "multiple highlights and notes to the same section of text. If they are "
 "overlapping, when you tap on a highlight you will be presented with a menu "
 "to choose which highlight you want to edit."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Один шматок тексту можна "
-"багаторазово виділити й додати до нього різні нотатки. Якщо виділення "
-"накладаються одне на інше, дотик до виділеного відкриє меню, в якому можна "
-"вибрати, що з виділеного потрібно редагувати."
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Один шматок "
+"тексту можна багаторазово виділити й додати до нього різні нотатки. Якщо "
+"виділення накладаються одне на інше, дотик до виділеного відкриє меню, в "
+"якому можна вибрати, що з виділеного потрібно редагувати."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3969-6
 msgid "Selecting punctuation while highlighting"
@@ -8084,22 +8071,17 @@ msgstr ""
 "використовуються для розширення чи звуження виділення."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:3985-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> This adjustment works only on "
-#| "reflowable documents like EPUBs. If you want to extend or shrink a "
-#| "highlight on PDFs, you have to delete it and highlight again due to the "
-#| "limitations of the PDF format."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> This "
 "adjustment works only on reflowable documents like EPUBs. If you want to "
 "extend or shrink a highlight on PDFs, you have to delete it and highlight "
 "again due to the limitations of the PDF format."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Це пристосування працює тільки "
-"у документах, які можна перекомпоновувати (наприклад, EPUB). Якщо бажаєте "
-"розширити або звузити виділення у PDF, доведеться видалити його та знову "
-"додати виділення необхідного обсягу. Це спричинено обмеженнями формату PDF."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span>  Це "
+"пристосування працює тільки у документах, які можна перекомпоновувати "
+"(наприклад, EPUB). Якщо бажаєте розширити або звузити виділення у PDF, "
+"доведеться видалити його та знову додати виділення необхідного обсягу. Це "
+"спричинено обмеженнями формату PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3988-6
 msgid ""
@@ -8263,22 +8245,16 @@ msgid "<b>Note if there is one</b>, otherwise highlight text"
 msgstr "<b>Нотатку, якщо вона є</b>, інакше виділений текст"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4049-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> Normally number of items in the "
-#| "bookmarks window is static and divided equally. If you want a more "
-#| "flexible layout, you can change the <span class=\"ui\">Max lines per "
-#| "bookmark</span> setting from here:"
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> Normally number of "
 "items in the bookmarks window is static and divided equally. If you want a "
 "more flexible layout, you can change the <span class=\"ui\">Max lines per "
 "bookmark</span> setting from here:"
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Зазвичай кількість елементів у "
-"вікні закладок є статичною та розподілена порівну. Якщо потрібен більш "
-"гнучкий макет, можна змінити параметр <span class=\"ui\">Максимум рядків у "
-"закладці</span> тут:"
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Зазвичай "
+"кількість елементів у вікні закладок є статичною та розподілена порівну. "
+"Якщо потрібен більш гнучкий макет, можна змінити параметр <span class=\"ui\">"
+"Максимум рядків у закладці</span> тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:4052-6
 msgid ""
@@ -8478,19 +8454,14 @@ msgid "Select <span class=\"ui\">Export highlights</span> from the menu shown"
 msgstr "Виберіть у меню <span class=\"ui\">Експорт виділеного</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4139-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> You can also export only some of "
-#| "these highlight styles: <b>lighten, underline, strikeout, invert</b>. "
-#| "Normally KOReader exports all of them. You can choose from:"
 msgid ""
 "<span class=\"microns_info\"></span> You can also export only chosen "
 "highlight styles: <b>lighten, underline, strikeout, invert</b>. Normally "
 "KOReader exports all of them. You can choose from:"
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Ви також можете експортувати лише "
-"деякі з цих стилів виділення: <b>освітлення, підкреслення, закреслення, "
-"інверсія</b>. Зазвичай KOReader експортує їх усі. Можна вибрати тут:"
+"<span class=\"microns_info\"></span> Ви також можете експортувати лише "
+"обрані стилі виділення: <b>освітлення, підкреслення, закреслення, інверсія</"
+"b>. Зазвичай KOReader експортує їх усі. Можна вибрати тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4142-6
 msgid ""
@@ -8506,23 +8477,21 @@ msgid ""
 "exports from the plugin's menu (<span class=\"ui\">Set export filename</"
 "span>) to include date/time information and other useful info."
 msgstr ""
+"<span class=\"microns_info\"></span> В меню модуля можна налаштувати назви "
+"файлів експорту (<span class=\"ui\">Вказати назву файлу експорту</span>), "
+"щоб включити інформацію про дату/час та інше."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4148-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> You can assign export actions to "
-#| "gestures for quicker access. You can find these under the <span "
-#| "class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
-#| "Manager</span>."
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> You can assign "
 "export actions to gestures for quicker access. You can find these under the "
 "<span class=\"ui\">Reader</span> category of the <span class=\"ui\">Gesture "
 "Manager</span>."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Для швидкого доступу можна "
-"призначити дії експорту на жест. Їх можна знайти у категорії <span "
-"class=\"ui\">Читання</span> у <span class=\"ui\">Менеджері жестів</span>."
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Для швидкого "
+"доступу можна призначити дії експорту на жест. Їх можна знайти у категорії "
+"<span class=\"ui\">Читання</span> у <span class=\"ui\">Менеджері жестів</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4154-6
 msgid "2. Using KoHighlights"
@@ -8565,13 +8534,6 @@ msgstr ""
 "\">на сторінці проєкту</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4171-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> When you open a document in "
-#| "KOReader, it creates a directory alongside the document with same name as "
-#| "the document. This directory contains a .LUA file which includes all the "
-#| "highlights, notes and user options (formatting properties etc.) related "
-#| "to that document. You can manually backup/restore these directories."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> When "
 "you open a document in KOReader, it creates a directory alongside the "
@@ -8580,11 +8542,12 @@ msgid ""
 "properties etc.) related to that document. You can manually backup/restore "
 "these directories."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> При відкритті документа в "
-"KOReader поряд одночасно створюється тека з такою ж, як в документа, назвою. "
-"Ця тека містить файл .LUA, в якому знаходяться усі виділені уривки, нотатки "
-"та користувацькі параметри (форматування тексту та ін.), що стосуються цього "
-"документа. Можна власноруч зробити резервні копії цих тек або відновити їх."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> При "
+"відкритті документа в KOReader поряд одночасно створюється тека з такою ж, "
+"як в документа, назвою. Ця тека містить файл .LUA, в якому знаходяться усі "
+"виділені уривки, нотатки та користувацькі параметри (форматування тексту та "
+"ін.), що стосуються цього документа. Можна власноруч зробити резервні копії "
+"цих тек або відновити їх."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4180-6
 msgctxt "user_guide/en.html:L1-pdfs"
@@ -8748,14 +8711,6 @@ msgstr ""
 "розмірів екрану пристрою. Поекспериментуйте з цими налаштуваннями."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4249-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> When reading a PDF document, if "
-#| "you are in a zoomed in view other than 100% (column, row or manual) or in "
-#| "the <span class=\"ui\">reflow mode</span>, you can tap the top left "
-#| "corner of screen to enter <span class=\"ui\">flip mode</span>. This mode "
-#| "temporarily displays the full page without cropping, scaled to fit your "
-#| "screen. You can turn the pages in this mode. To exit, tap on this icon."
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> When reading a PDF "
 "document, if you are in a zoomed in view other than 100% (column, row or "
@@ -8764,13 +8719,13 @@ msgid ""
 "mode temporarily displays the full page without cropping, scaled to fit your "
 "screen. You can turn the pages in this mode. To exit, tap on this icon."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> Під час читання PDF-документа, "
-"якщо його масштаб відмінний від 100% (стовпчик, рядок або вручну), або в "
-"<span class=\"ui\">режимі перекомпонування</span>, дотик у верхньому лівому "
-"куті екрана переведе вас у <span class=\"ui\">режим гортання</span>. У цьому "
-"режимі тимчасово відображається повна сторінка (без обтинання), припасована "
-"до розміру екрана. У цьому режимі можна перегортати сторінки. Щоб вийти, "
-"торкніться цього значка."
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> Під час "
+"читання PDF-документа, якщо його масштаб відмінний від 100% (стовпчик, рядок "
+"або вручну), або в <span class=\"ui\">режимі перекомпонування</span>, дотик "
+"у верхньому лівому куті екрана переведе вас у <span class=\"ui\">режим "
+"гортання</span>. У цьому режимі тимчасово відображається повна сторінка (без "
+"обтинання), припасована до розміру екрана. У цьому режимі можна перегортати "
+"сторінки. Щоб вийти, торкніться цього значка."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4252-6
 msgctxt "user_guide/en.html:L2-pdfbottom"
@@ -8872,11 +8827,9 @@ msgstr ""
 "пристрою</b> (залежить від декількох чинників)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4297-6
-#, fuzzy
-#| msgid "2. Using KoHighlights"
 msgctxt "user_guide/en.html:L2-savepdfhighlights"
 msgid "7.3 Saving PDF Highlights"
-msgstr "2. За допомогою KoHighlights"
+msgstr "7.3 Збереження виділеного в PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4299-6
 msgid ""
@@ -8916,17 +8869,12 @@ msgid ""
 "Browser, Foxit Reader, Ghostscript, LibreOffice, Moon Reader, MuPDF, Okular, "
 "Xpdf, Zathura."
 msgstr ""
+"Ця функція повинна працювати на усіх програмах для перегляду PDF. "
+"Працездатність перевірена у таких програмах: Adobe Acrobat Reader, Chrome "
+"Browser, Deepin Reader, Evince, Firefox Browser, Foxit Reader, Ghostscript, "
+"LibreOffice, Moon Reader, MuPDF, Okular, Xpdf, Zathura."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4306-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_red\">WARNING</span> If you are using the <span "
-#| "class=\"ui\">Progress Sync</span> plugin, saving PDF highlights will "
-#| "change your file so your synchronization will fail. If you are planning "
-#| "to use both features, in the <span class=\"ui\">Progress Sync</span> "
-#| "plugin's settings, change the <span class=\"ui\">Document matching "
-#| "method</span> to <span class=\"ui\">Filename</span> instead of the "
-#| "default <span class=\"ui\">Binary</span> matching:"
 msgid ""
 "<span class=\"microns_warning\" title=\"Warning\"></span> If you are using "
 "the <span class=\"ui\">Progress Sync</span> plugin, saving PDF highlights "
@@ -8936,13 +8884,13 @@ msgid ""
 "span> to <span class=\"ui\">Filename</span> instead of the default <span "
 "class=\"ui\">Binary</span> matching:"
 msgstr ""
-"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> При використанні модуля <span "
-"class=\"ui\">Синхронізація поступу</span> збереження виділених фрагментів "
-"PDF-файлу змінить ваш файл, тому синхронізація не вдасться. Якщо плануєте "
-"використовувати обидві функції, у налаштуваннях модуля <span "
-"class=\"ui\">Синхронізація поступу</span> змініть параметри <span "
-"class=\"ui\">Метод зіставлення документів</span> на <span class=\"ui\">За "
-"назвою</span> замість стандартного методу зіставлення <span "
+"<span class=\"microns_warning\" title=\"Попередження\"></span> При "
+"використанні модуля <span class=\"ui\">Синхронізація поступу</span> "
+"збереження виділених фрагментів PDF-файлу змінить ваш файл, тому "
+"синхронізація не вдасться. Якщо плануєте використовувати обидві функції, у "
+"налаштуваннях модуля <span class=\"ui\">Синхронізація поступу</span> змініть "
+"параметри <span class=\"ui\">Метод зіставлення документів</span> на <span "
+"class=\"ui\">За назвою</span> замість стандартного методу зіставлення <span "
 "class=\"ui\">Двійковий</span>:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:4313-6
@@ -9128,45 +9076,38 @@ msgid ""
 "PDF applications. We can't give a list of compatible applications, but "
 "import feature generally works with popular PDF readers."
 msgstr ""
+"KOReader вміє імпортувати виділене з файлів PDF, виділення в яких зроблені в "
+"іншій програмі. Ми не можемо надати список сумісних програм, але функція "
+"імпорту загалом працює з популярними програмами перегляду PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4372-6
-#, fuzzy
-#| msgid "Tap on the highlight"
 msgid "To import the highlights:"
-msgstr "Торкніться до виділення"
+msgstr "Щоб імпортувати виділене:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4375-7
 msgid "Open your PDF file with KOReader"
-msgstr ""
+msgstr "Відкрийте PDF-файл у KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4377-7
-#, fuzzy
-#| msgid ""
-#| "Go to the <span class=\"ui\">Bookmarks list</span> via menu or gesture"
 msgid "Open the <span class=\"ui\">Bookmarks</span> dialog from here:"
-msgstr ""
-"Перейдіть до <span class=\"ui\">списку закладок</span> через меню або жест"
+msgstr "Відкрийте діалог <span class=\"ui\">Закладки</span> тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4379-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Book map"
 msgctxt "user_guide/en.html+pdfs.ol.li.div:201-2"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Bookmarks"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Мапа книги"
+"style=\"width:26px;\"> / Закладки"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4382-7
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Table of contents"
 msgid ""
 "Press the <span class=\"ui\" style=\"font-family: microns;\"></span> button "
 "at the top-left corner."
-msgstr "<span style=\"font-family: microns;\"></span> – Зміст"
+msgstr ""
+"Натисніть кнопку <span class=\"ui\" style=\"font-family: microns;\"></span> "
+"у верхньому лівому куті."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4385-7
 msgid ""
@@ -9174,28 +9115,33 @@ msgid ""
 "span>. Your highlights will be added to the <span class=\"ui\">Bookmarks</"
 "span> list."
 msgstr ""
+"У відкритому діалозі виберіть <span class=\"ui\">Імпортувати вбудовані "
+"анотації</span>. Виділене буде додано до списку <span class=\"ui\">Закладки</"
+"span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4389-6
 msgid ""
 "After the import process, highlights in the PDF will turn into regular "
 "KOReader highlights. Which means, you can:"
 msgstr ""
+"Після імпортування виділене з PDF перетвориться у звичайне виділене "
+"KOReader. Це означає, що можна:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4392-7
 msgid "Add notes to them"
-msgstr ""
+msgstr "Додавати до нього нотатки"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4393-7
 msgid "Change their style and color"
-msgstr ""
+msgstr "Змінювати його стиль і колір"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4394-7
 msgid "Delete them <b>(See the note below)</b>"
-msgstr ""
+msgstr "Видаляти його <b>(див. примітку нижче)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:4395-7
 msgid "Export them in various formats"
-msgstr ""
+msgstr "Експортувати його у різні формати"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4398-6
 msgid ""
@@ -9206,6 +9152,12 @@ msgid ""
 "from the PDF file. You can open this PDF with another reader and still see "
 "the original highlights."
 msgstr ""
+"<b>Як працює видалення.</b> При імпорті виділень KOReader не змінює "
+"оригінальні виділення у PDF. Він додає імпортовані виділення як шар поверх "
+"оригінального. Тож якщо видалити імпортоване виділене, видаляється тільки "
+"цей <b>доданий шар</b>. При цьому ваші оригінальні виділення не будуть "
+"виділені з PDF-файлу. Ви можете відкрити цей PDF у іншій програмі перегляду "
+"і все ще бачити оригінальні виділення."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4402-6
 msgid ""
@@ -9214,25 +9166,23 @@ msgid ""
 "highlights too will be deleted from the PDF file when you delete an imported "
 "highlight."
 msgstr ""
+"<span class=\"microns_warning\" title=\"Попередження\"></span> Якщо "
+"увімкнути функцію <span class=\"ui\">Записати виділене у PDF</span>, при "
+"видаленні імпортованих виділень вбудовані виділення теж будуть видалені з "
+"PDF."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:4406-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-#| "style=\"width:22px;\"> / Highlights / Highlight color"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
 "style=\"width:26px;\"> / Highlights / Write highlights into PDF"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_document.svg\" "
-"style=\"width:22px;\"> / Виділення / Колір виділення"
+"style=\"width:26px;\"> / Виділення / Записати виділене в PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4409-6
-#, fuzzy
-#| msgid "3. Using Calibre"
 msgctxt "user_guide/en.html:L2-ocr"
 msgid "7.5 Using OCR"
-msgstr "3. За допомогою Calibre"
+msgstr "7.5 Використання OCR"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4410-6
 msgid ""
@@ -9268,13 +9218,6 @@ msgstr ""
 "(для всіх мов, крім англійської й китайської)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4424-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> Buttons on OCR menu <b>will not "
-#| "function</b> until you install the necessary Tesseract files. Details of "
-#| "this process can be read in our <a href=\"https://github.com/koreader/"
-#| "koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
-#| "pages\">related wiki page</a>."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> "
 "Buttons of the OCR menu <b>will not function</b> until you install the "
@@ -9282,11 +9225,12 @@ msgid ""
 "href=\"https://github.com/koreader/koreader/wiki/Dictionary-"
 "support#dictionary-lookups-in-scanned-pages\">related wiki page</a>."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Кнопки в меню OCR <b>не "
-"працюють</b> доки не встановлені необхідні файли для Tesseract. Подробиці "
-"щодо виконання цього процесу можна знайти <a href=\"https://github.com/"
-"koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-"
-"pages\">на відповідній сторінці вікі</a>."
+"<span class=\"label_blue\">INFOmicrons_info\" title=\"Контекстна "
+"інформація\"></span> Кнопки в меню OCR <b>не працюють</b> доки не "
+"встановлені необхідні файли для Tesseract. Подробиці щодо виконання цього "
+"процесу можна знайти <a href=\"https://github.com/koreader/koreader/wiki/"
+"Dictionary-support#dictionary-lookups-in-scanned-pages\">на відповідній "
+"сторінці вікі</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4434-6
 msgctxt "user_guide/en.html:L1-manga"
@@ -9332,19 +9276,14 @@ msgid "This action is under:"
 msgstr "Це налаштовується тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4448-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / Screen and "
-#| "lights section / Full screen refresh rate"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Taps and Gestures / Gesture manager / \"ANY "
 "GESTURE\" / Screen and lights / Full refresh rate"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Дотики та жести / Менеджер жестів / Екран і "
-"підсвічування / Частота повного оновлення екрану"
+"style=\"width:22px;\"> / Дотики та жести / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ"
+"» / Екран і підсвічування / Частота повного оновлення екрану"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4451-6
 msgctxt "user_guide/en.html:L2-panelzoom"
@@ -9526,15 +9465,6 @@ msgstr ""
 "але використовують формат архіву <b>TAR</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4515-6
-#, fuzzy
-#| msgid ""
-#| "Easiest way to convert a manga to <b>CBZ</b> is to get the manga as "
-#| "images from various websites, then convert them using <span "
-#| "class=\"external\">Kindle Comic Converter</span> (<a href=\"https://"
-#| "github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>). There "
-#| "are some useful settings like <b>auto-rotating two-page splits to "
-#| "landscape and applying dithering</b> so that eink-rendered gradients are "
-#| "smoothly dithered without jagged layers."
 msgid ""
 "Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images "
 "from various websites, then convert them using <a href=\"https://github.com/"
@@ -9543,12 +9473,11 @@ msgid ""
 "b> so that e-ink rendered gradients are smoothly dithered without jagged "
 "layers."
 msgstr ""
-"Найпростіший спосіб перетворити манґу на <b>CBZ</b> — зберегти манґу з "
-"сайтів як зображення, а потім перетворити її за допомогою <span "
-"class=\"external\">Kindle Comic Converter</span> (<a href=\"https://"
-"github.com/ciromattia/kcc\">https://github.com/ciromattia/kcc</a>). Там є "
-"корисні параметри, як от <b>автоматичне повертання двосторінкових розворотів "
-"у альбомну орієнтацію та застосування дитерингу</b>, щоб градієнти, "
+"Найпростіший спосіб перетворити манґу на <b>CBZ</b> – зберегти манґу з "
+"сайтів як зображення, а потім перетворити її за допомогою <a href=\"https://"
+"github.com/ciromattia/kcc\">Kindle Comic Converter</a>. Там є корисні "
+"параметри, як от <b>автоматичне повертання двосторінкових розворотів у "
+"альбомну орієнтацію та застосування дитерингу</b>, щоб градієнти, "
 "візуалізовані е-чорнилами, плавно розтушовувалися без нерівних шарів."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4519-6
@@ -9603,12 +9532,6 @@ msgstr ""
 "здатністю (наприклад, <b>200/400</b> та <b>300/600</b> DPI)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4533-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> KOReader doesn't parse <b>spine "
-#| "page-progression-direction=\"rtl\"</b> attribute of the books. So it "
-#| "doesn’t change page turning direction even though the file was created "
-#| "with right-to-left reading. Users can switch this via:"
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> "
 "KOReader doesn't parse <b>spine page-progression-direction=\"rtl\"</b> "
@@ -9616,10 +9539,11 @@ msgid ""
 "though the file was created with right-to-left reading. Users can switch "
 "this via:"
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> KOReader не обробляє атрибут "
-"книги <b>spine page-progression-direction=\"rtl\"</b>. Тому він не змінює "
-"орієнтацію сторінки навіть у файлах, які були створені для читання справа "
-"наліво. Це можна змінити тут:"
+"<span class=\"label_blue\">INFOmicrons_info\" title=\"Контекстна "
+"інформація\"></span> KOReader не обробляє атрибут книги <b>spine page-"
+"progression-direction=\"rtl\"</b>. Тому він не змінює орієнтацію сторінки "
+"навіть у файлах, які були створені для читання справа наліво. Це можна "
+"змінити тут:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:4537-6
 msgid ""
@@ -9737,6 +9661,8 @@ msgid ""
 "Extra step for smooth gradients <span class=\"microns_warning\" "
 "title=\"Advanced topic\"></span>"
 msgstr ""
+"Додаткові дії для згладження градієнтів <span class=\"microns_warning\" "
+"title=\"Тема поглибленого рівня\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4579-6
 msgid ""
@@ -13306,7 +13232,7 @@ msgstr "Частота повного оновлення (не нічний ре
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5878-8
 msgid "Full refresh rate (in night mode)"
-msgstr "Повна частота оновлення (нічний режим)"
+msgstr "Частота повного оновлення (нічний режим)"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5879-8
 #, fuzzy
