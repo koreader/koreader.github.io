@@ -2896,21 +2896,21 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="microns_info"></span> Якщо затиснути в нижньому меню позначку <span class="ui">Насиченість шрифту</span>, буде показано підказку які класи насиченості забезпечує поточний шрифт.</p>
 
-					<p><span class="microns_warning"></span> If your font also has other variants, things can get confusing. Let's say you copied a font family to your device. And upon startup, KOReader has read these variants of the font: <b>Light, Thin, Normal, Medium, ExtraBlack, SemiBold, Bold, Black</b> in this order. You would expect to see <b>Normal</b> variant to be used as the document's normal font (because it is named as <b>Normal</b>) but KOReader will use the <b>Light</b> variant because that is the first font in the list that doesn't have the <b>bold flag</b>. And it will ignore the <b>Thin, Normal</b> and <b>Medium</b> variants because it has already found a "not bold" font for the document.</p>
+					<p><span class="microns_warning"></span> Якщо наявні також інші варіанти, ситуація може стати заплутаною. Скажімо, ви скопіювали на пристрій сімейство шрифтів. Під час запуску KOReader прочитав такі варіанти шрифту: <b>легкий, тонкий, звичайний, середній, дуже чорний, напівжирний, жирний, чорний</b> саме в такому порядку. Ви будете очікувати побачити, що <b>звичайний</b> використовується як типовий шрифт документу (тому що він називається <b>звичайний</b>), але KOReader буде використовувати <b>легкий</b> варіант, бо це перший шрифт у списку, який не містить <b>мітки жирного</b>. І програма буде ігнорувати <b>тонкий, звичайний</b> та <b>середній</b> варіанти, бо вона вже знайшла для документу «не жирний» шрифт.</p>
 
-					<p>And again according to this list, <b>ExtraBlack</b> will be used as the bold font because it is the first font in the list with the <b>bold flag</b>. And KOReader will ignore the <b>SemiBold, Bold, Black</b> variants, because KOReader has already found the "bold" it is looking for.</p>
+					<p>Знову ж, відповідно до цього списку, <b>дуже жирний</b> буде використовуватися як жирний шрифт, бо він стоїть першим у списку з <b>міткою жирного</b>. Тож KOReader буде нехтувати <b>напівжирним, жирним і чорним</b> варіантами, оскільки KOReader вже знайшов «жирний» шрифт.</p>
 
-					<p>As a summary of the above: We copied the whole family and expected <b>Normal</b> and <b>Bold</b> variants to be chosen but instead, KOReader used <b>Light</b> and <b>ExtraBlack</b> variants. This happened because the order of the fonts that are fed to KOReader is not under our control so "first come is first served".</p>
+					<p>Підсумовуючи вищевказане, ви копіюєте ціле сімейство шрифтів і очікуєте, що будуть використані <b>звичайний</b> і <b>жирний</b> варіанти, але натомість KOReader використає <b>легкий</b> і <b>дуже чорний</b> варіанти. Це трапляється через черговість шрифтів, що передаються до KOReader, тож їх використання відбувається за правилом «першим отриманий – першим використаний».</p>
 
-					<p>Solution is, transferring only the font files that you want to be used, like this:</p>
+					<p>Вирішенням цієї проблеми є копіювання на пристрій лише тих файлів шрифтів, які потрібно використовувати, наприклад:</p>
 
 					<ul>
-						<li>Keep only one of <b>Thin, Extra Light, Light, Normal, Medium</b>: It will be used as the <b>regular font</b> (If your <b>Regular</b> font is too thin, just replace it with <b>Medium</b> weight if you have it).</li>
-						<li>Keep only one of <b>Semi Bold, Bold, Extra Bold, Black, Extra Black</b>: It will be used as the <b>bold font</b>.</li>
-						<li>You can also add italic variants of the same weight (i.e. medium/medium-italic).</li>
+						<li>З варіантів <b>тонкий, надлегкий, легкий, звичайний, середній</b> залишити лише один. Залишений шрифт буде використовуватися як <b>звичайний шрифт</b> (якщо <b>звичайний</b> шрифт занадто тонкий, замініть його на шрифт <b>середньої</b> насиченості, якщо такий є).</li>
+						<li>З варіантів <b>напівжирний, жирний, дуже жирний, чорний, дуже чорний</b> залишити лише один. Він буде використовуватися як <b>жирний шрифт</b>.</li>
+						<li>Також можна додати курсивні варіанти тієї ж насиченості (наприклад, середній, середній курсив).</li>
 					</ul>
 
-					<div class="L2-Sub-heading" id="L2-styletweaks">5.3 Style tweaks <span class="microns_warning" title="Advanced topic"></span></div>
+					<div class="L2-Sub-heading" id="L2-styletweaks">5.3 Підлаштування стилів <span class="microns_warning" title="Тема поглибленого рівня"></span></div>
 
 					<p>Функція підлаштування стилів у KOReader дозволяє змінювати те, як KOReader буде візуалізувати книгу. Ми не будемо тут описувати повний курс CSS. Тут буде пояснено основи, щоб при погляді на підлаштування стилів ви принаймні мали загальне уявлення, що це таке.</p>
 
@@ -3001,7 +3001,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Підлаштування стилів / Підлаштування окремої книги</div>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> In the editor we have a <span class="ui">CSS</span> menu on the bottom toolbar. This menu contains many useful CSS syntax and properties. When you open this menu please first read the <span class="ui">Long-press for info</span> help. Also you can long-press on CSS items in this menu to see a description.</div>
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> У редакторі на нижній панелі інструментів є меню <span class="ui">CSS</span>. Це меню містить багато корисних синтаксису і властивостей CSS. Коли відкриєте це меню, радимо спершу прочитати довідкову інформацію <span class="ui">Затисніть для відомостей</span>. Щоб побачити описи, можна також затискати елементи CSS у меню.</div>
 
 					<div class="L3-Smaller-heading">3. Підлаштування стилів користувача</div>
 
@@ -3092,7 +3092,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<section id="annotating">
 
-					<div class="L1-Chapter-heading" id="L1-annotating">6 ANNOTATING DOCUMENTS</div>
+					<div class="L1-Chapter-heading" id="L1-annotating">6 АНОТУВАННЯ ДОКУМЕНТІВ</div>
 
 					<p>KOReader дає можливість взаємодіяти з книгою начеб з паперовою. Багато налаштувань вікна закладки можна змінити тут:</p>
 
@@ -3155,25 +3155,25 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Стиль виділення / Позначка нотатки</div>
 
-					<div class="L3-Smaller-heading" data-jump>What you can do with your highlight?</div>
+					<div class="L3-Smaller-heading" data-jump>Що можна робити з виділеним?</div>
 
-					<p>After highlighting a part of your document, you can tap on the highlight to see the <span class="ui">highlight menu</span>. From this highlight menu, you can reach another extended menu by tapping on the <span class="ui">... (three dots)</span> button as shown below:</p>
+					<p>Після виділення частини документу, можна торкнутися виділення, щоб побачити <span class="ui">меню виділення</span>. З цього меню виділення можна перейти до іншого, розширеного, меню натиснувши кнопку <span class="ui">... (три крапки)</span>, як показано нижче:</p>
 
 					<img loading="lazy" src="pictures/highlight_extended_menu.png" style="width: 60%;">
 
-					<p>Using this extended menu you can:</p>
+					<p>За допомогою цього розширеного меню можна:</p>
 					<ul>
-						<li><span class="ui">Extend</span> your highlight to include more text</li>
-						<li><span class="ui">Copy</span> the text to clipboard to paste elsewhere</li>
-						<li><span class="ui">Search</span> the text on Wikipedia</li>
-						<li><span class="ui">Look up</span> the text in an installed dictionary</li>
-						<li><span class="ui">Translate</span> the text using the <span class="external">Google Translate</span> service</li>
-						<li><span class="ui">View HTML</span> source of the highlighted section, which is useful when writing a <span class="ui">style tweak</span></li>
-						<li><span class="ui">Generate QR code</span> which includes the highlighted text, to scan from another device with a camera and a QR-code reader application</li>
-						<li><span class="ui">Search</span> for the text in the book</li>
+						<li><span class="ui">Розширити</span> виділення, щоб включити більше тексту</li>
+						<li><span class="ui">Копіювати</span> текст до буфера обміну, щоб вставити деінде</li>
+						<li><span class="ui">Шукати</span> текст у Вікіпедії</li>
+						<li><span class="ui">Знайти</span> текст у встановленому словнику</li>
+						<li><span class="ui">Перекласти</span> текст за допомогою служби <span class="external">Google Перекладач</span></li>
+						<li><span class="ui">Переглянути HTML</span> код-сирець виділеної частини, що корисно при написанні <span class="ui">підлаштування стилю</span></li>
+						<li><span class="ui">Згенерувати QR-код</span>, який включає виділений текст, щоб сканувати його іншим пристроєм з камерою і програмою-розпізнавачем QR-кодів</li>
+						<li><span class="ui">Шукати</span> текст у книзі</li>
 					</ul>
 
-					<div class="L2-Sub-heading" id="L2-howtohighlight">6.1 Highlight Modes</div>
+					<div class="L2-Sub-heading" id="L2-howtohighlight">6.1 Режими виділення</div>
 
 					<p>
 						KOReader має два режими виділення для використання у різних випадках:
@@ -3193,14 +3193,14 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Затискання тексту / Автопрокручування коли виділення досягає кута</div>
 
-					<div class="tip" data-jump><span class="microns_tip" title="Useful tip"></span> <span class="ui">Long-press on corner gesture</span> can cause problem when you want to long-press on text near the corners. We have special <span class="ui">gesture manager actions</span> that allows you to <b>toggle</b> or <b>temporarily disable</b> corner long-press gestures. You can assign these actions to a gesture or use them in your <span class="ui">quick menu</span>. You can find them here:
-					<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Gesture manager / "ANY GESTURE" / Device / Toggle┆Ignore long-press on corners</div></div>
+					<div class="tip" data-jump><span class="microns_tip" title="Корисна порада"></span> <span class="ui">Жест затиснення в куті</span> може спричинити проблему коли потрібно натиснути на текст біля кутів екрану. Є спеціальні <span class="ui">дії керування жестами</span>, які дозволяють <b>перемикати</b> або <b>тимчасово вимикати</b> жести затиснення в кутах. Ці дії можна призначити на жест або виконувати їх з <span class="ui">швидкого меню</span>. Вони доступні тут:
+					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:26px;"> / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ» / Пристрій / Перемкнути┆Нехтувати затисканням в кутах</div></div>
 
 					<div class="L3-Smaller-heading">Режим вибору і виділення</div>
 
 					<p><span class="ui">Режим вибору і виділення</span> більше підходить для виділення великих уривків, розміщених на двох і більше сторінках. Він також може краще працювати якщо є проблеми з чутливістю сенсорного екрану або моторикою рук користувача, оскільки в цьому режимі виділення немає потреби протягувати пальцем по екрану.</p>
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> If you have dictionary lookup enabled, when you long-press a word, you have to drag your finger to initiate this mode.</div>
+					<div class="info"><span class="microns_info" title="Контекстна інформація"></span> Якщо в програмі увімкнено пошук у словнику затисканням слова, тоді для запуску цього режиму потрібно провести пальцем.</div>
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Затискання тексту / Словник при виборі одного слова</div>
 
@@ -3221,13 +3221,13 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Затискання тексту / Позиція діалогу виділення</div>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> There is a <b>faster</b> method for this mode if you don’t need <b>long-press menu items</b> shown above. You can disable the popup menu completely so when you long-press on a word you will immediately enter the <span class="ui">Select and highlight</span> mode. This method is much faster and you can highlight any length of text with just two taps. To use this method enable this option:
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> Існує <b>швидший</b> спосіб для цього режиму, якщо вам не потрібні показані вище <b>пункти меню з затисканням</b>. Можна взагалі вимкнути контекстне меню, щоб після затискання слова одразу активувався <span class="ui">Режим вибору й виділення</span>. Цей спосіб значно швидший і дає змогу виділяти уривки будь-якого розміру тільки двома дотиками. Щоб використовувати такий спосіб, увімкніть цей параметр:
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Затискання тексту / Вибрати й виділити</div></div>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> KOReader can highlight a passage in different styles. If you use <span class="ui">Lighten</span> option, text background will be gray. Due to e-ink limitations, screens can’t change from white to gray directly, so highlighted part first has to turn black and then gray. If you want to avoid this flashing, you can choose <span class="ui">Inverted</span> as your highlight style. In this mode text background will be black so it can be set without flashing. You can adjust these highlighting options from:
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> KOReader може виділяти уривки різними стилями. Якщо використовується стиль <span class="ui">Освітлити</span>, тло тексту буде сірим. Через специфіку роботи е-чорнил, екран не може змінитися безпосередньо з білого на сірий, тому виділена частина спершу стане чорною, а потім сірою. Якщо бажаєте уникнути такого блимання, можна обрати стиль виділення <span class="ui">Інверсія</span>. За такого стилю виділення тло тексту буде ставати чорним без блимання. Вказати стиль виділення можна тут:
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:22px;"> / Стиль виділення</div></div>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> You can add multiple highlights and notes to the same section of text. If they are overlapping, when you tap on a highlight you will be presented with a menu to choose which highlight you want to edit.</div>
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> Один шматок тексту можна багаторазово виділити й додати до нього різні нотатки. Якщо виділення накладаються одне на інше, дотик до виділеного відкриє меню, в якому можна вибрати, що з виділеного потрібно редагувати.</div>
 
 					<div class="L3-Smaller-heading">Вибір пунктуації під час виділення тексту</div>
 
@@ -3241,7 +3241,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<img loading="lazy" src="pictures/highlight_edit.png" style="width: 70%;">
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> This adjustment works only on reflowable documents like EPUBs. If you want to extend or shrink a highlight on PDFs, you have to delete it and highlight again due to the limitations of the PDF format.</div>
+					<div class="info"><span class="microns_info" title="Контекстна інформація"></span>  Це пристосування працює тільки у документах, які можна перекомпоновувати (наприклад, EPUB). Якщо бажаєте розширити або звузити виділення у PDF, доведеться видалити його та знову додати виділення необхідного обсягу. Це спричинено обмеженнями формату PDF.</div>
 
 					<p>Якщо затиснути виділений текст <b>з доданою нотаткою</b>, відкриється це контекстне меню. Торкніться <span class="ui">Змінити виділений текст</span>, щоб відкрити вищезгадане меню, за допомогою якого можна змінити й виділення, і нотатку:</p>
 
@@ -3288,7 +3288,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li><b>Нотатку, якщо вона є</b>, інакше виділений текст</li>
 					</ul>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> Normally number of items in the bookmarks window is static and divided equally. If you want a more flexible layout, you can change the <span class="ui">Max lines per bookmark</span> setting from here:
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> Зазвичай кількість елементів у вікні закладок є статичною та розподілена порівну. Якщо потрібен більш гнучкий макет, можна змінити параметр <span class="ui">Максимум рядків у закладці</span> тут:
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Налаштування / Закладки / Максимум рядків у закладці</div></div>
 
 					<div class="L2-Sub-heading" id="L2-exportinghighlights">6.3 Експорт виділеного</div>
@@ -3361,13 +3361,13 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li>Виберіть у меню <span class="ui">Експорт виділеного</span></li>
 					</ol>
 
-					<p><span class="microns_info"></span> You can also export only chosen highlight styles: <b>lighten, underline, strikeout, invert</b>. Normally KOReader exports all of them. You can choose from:</p>
+					<p><span class="microns_info"></span> Ви також можете експортувати лише обрані стилі виділення: <b>освітлення, підкреслення, закреслення, інверсія</b>. Зазвичай KOReader експортує їх усі. Можна вибрати тут:</p>
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Експорт виділеного / Обрати стиль виділення</div>
 
-					<p><span class="microns_info"></span> You can customize the filename of the exports from the plugin's menu (<span class="ui">Set export filename</span>) to include date/time information and other useful info.</p>
+					<p><span class="microns_info"></span> В меню модуля можна налаштувати назви файлів експорту (<span class="ui">Вказати назву файлу експорту</span>), щоб включити інформацію про дату/час та інше.</p>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> You can assign export actions to gestures for quicker access. You can find these under the <span class="ui">Reader</span> category of the <span class="ui">Gesture Manager</span>.</div>
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> Для швидкого доступу можна призначити дії експорту на жест. Їх можна знайти у категорії <span class="ui">Читання</span> у <span class="ui">Менеджері жестів</span>.</div>
 
 					<br>
 
@@ -3381,7 +3381,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="external">Calibre</span> – це зовнішня програма, яку можна встановити на свій комп’ютер. Імпортувати виділені фрагменти до бази даних <span class="external">Calibre</span> можна за допомогою модуля <span class="external">KOReader Sync</span>. Встановлювати згаданий модуль потрібно безпосередньо у програмі <span class="external">Calibre</span>. Завантажити та дізнатися більше можна <a href="https://calibre-ebook.com/">на сторінці проєкту</a>.</p>
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> When you open a document in KOReader, it creates a directory alongside the document with same name as the document. This directory contains a .LUA file which includes all the highlights, notes and user options (formatting properties etc.) related to that document. You can manually backup/restore these directories.</div>
+					<div class="info"><span class="microns_info" title="Контекстна інформація"></span> При відкритті документа в KOReader поряд одночасно створюється тека з такою ж, як в документа, назвою. Ця тека містить файл .LUA, в якому знаходяться усі виділені уривки, нотатки та користувацькі параметри (форматування тексту та ін.), що стосуються цього документа. Можна власноруч зробити резервні копії цих тек або відновити їх.</div>
 
 					</section>
 
@@ -3447,7 +3447,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>В цьому режимі, з того ж меню, також можна налаштувати <span class="ui">Горизонтальне/Вертикальне перекриття</span> та <span class="ui">Кількість стовпців</span>, щоб краще припасувати текст до розмірів екрану пристрою. Поекспериментуйте з цими налаштуваннями.</p>
 
-					<div class="tip"><span class="microns_tip" title="Useful tip"></span> When reading a PDF document, if you are in a zoomed in view other than 100% (column, row or manual) or in the <span class="ui">reflow mode</span>, you can tap the top left corner of screen to enter <span class="ui">flip mode</span>. This mode temporarily displays the full page without cropping, scaled to fit your screen. You can turn the pages in this mode. To exit, tap on this icon.</div>
+					<div class="tip"><span class="microns_tip" title="Корисна порада"></span> Під час читання PDF-документа, якщо його масштаб відмінний від 100% (стовпчик, рядок або вручну), або в <span class="ui">режимі перекомпонування</span>, дотик у верхньому лівому куті екрана переведе вас у <span class="ui">режим гортання</span>. У цьому режимі тимчасово відображається повна сторінка (без обтинання), припасована до розміру екрана. У цьому режимі можна перегортати сторінки. Щоб вийти, торкніться цього значка.</div>
 
 					<div class="L2-Sub-heading" id="L2-pdfbottom">7.2 Особливі елементи нижнього меню для PDF</div>
 
@@ -3477,14 +3477,14 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="ui">Корекція нахилу</span> може вирівняти сторінки проблемного документу. Наприклад, сторінки PDF, які відскановані під кутом. Воно доступне для документів <b>PDF, DJVU, CBZ/CBT</b> та файлів <b>зображень</b>. Щоб увімкнути, оберіть максимальний кут нахилу, який KOReader буде намагатися виправити. Якщо це не допоможе, спробуйте обрати більший кут нахилу. Майте на увазі, що ця функція <b>може сповільнити роботу пристрою</b> (залежить від декількох чинників).</p>
 
-					<div class="L2-Sub-heading" id="L2-savepdfhighlights">7.3 Saving PDF Highlights</div>
+					<div class="L2-Sub-heading" id="L2-savepdfhighlights">7.3 Збереження виділеного в PDF</div>
 
 					<p>Щоб зберегти виділені фрагменти, можна скористатися функцією <span class="ui">Експорт виділеного</span>, про яку йшлося в попередньому розділі.</p>
 					<p>Якщо ви робите виділення в PDF-документі, KOReader також може зберігати їх безпосередньо у PDF-файлі. Це може бути корисним у певних ситуаціях, оскільки за допомогою цього методу виділення тексту стають частиною PDF-файлу. Це означає, що можна переглядати їх в інших програмах або на інших платформах без встановлення KOReader. Наприклад, якщо ви надсилаєте файл із виділеннями тексту іншому користувачеві, йому не потрібно встановлювати KOReader, щоб бачити виділене вами. Можна просто надіслати PDF-файл зі збереженими в ньому виділеннями, і його можна відкрити та переглянути виділення за допомогою <b>сумісної</b> програми для читання PDF.</p>
 
-					<p>This feature should work on all PDF readers. We tested and confirmed these: Adobe Acrobat Reader, Chrome Browser, Deepin Reader, Evince, Firefox Browser, Foxit Reader, Ghostscript, LibreOffice, Moon Reader, MuPDF, Okular, Xpdf, Zathura.</p>
+					<p>Ця функція повинна працювати на усіх програмах для перегляду PDF. Працездатність перевірена у таких програмах: Adobe Acrobat Reader, Chrome Browser, Deepin Reader, Evince, Firefox Browser, Foxit Reader, Ghostscript, LibreOffice, Moon Reader, MuPDF, Okular, Xpdf, Zathura.</p>
 
-					<div class="warning"><span class="microns_warning" title="Warning"></span> If you are using the <span class="ui">Progress Sync</span> plugin, saving PDF highlights will change your file so your synchronization will fail. If you are planning to use both features, in the <span class="ui">Progress Sync</span> plugin's settings, change the <span class="ui">Document matching method</span> to <span class="ui">Filename</span> instead of the default <span class="ui">Binary</span> matching:
+					<div class="warning"><span class="microns_warning" title="Попередження"></span> При використанні модуля <span class="ui">Синхронізація поступу</span> збереження виділених фрагментів PDF-файлу змінить ваш файл, тому синхронізація не вдасться. Якщо плануєте використовувати обидві функції, у налаштуваннях модуля <span class="ui">Синхронізація поступу</span> змініть параметри <span class="ui">Метод зіставлення документів</span> на <span class="ui">За назвою</span> замість стандартного методу зіставлення <span class="ui">Двійковий</span>:
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_tools.svg" style="width:22px;"> / Синхронізація поступу / Метод зіставлення документів</div></div>
 
 					<div class="L3-Smaller-heading">Важлива інформація про функцію зберігання виділень до PDF-файлу</div>
@@ -3521,37 +3521,37 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="L2-Sub-heading" id="L2-importpdfhighlights" data-jump>7.4 Імпорт виділеного в PDF</div>
 
-					<p>KOReader can import highlights from PDF files which are marked with other PDF applications. We can't give a list of compatible applications, but import feature generally works with popular PDF readers.</p>
+					<p>KOReader вміє імпортувати виділене з файлів PDF, виділення в яких зроблені в іншій програмі. Ми не можемо надати список сумісних програм, але функція імпорту загалом працює з популярними програмами перегляду PDF.</p>
 
-					<p>To import the highlights:</p>
+					<p>Щоб імпортувати виділене:</p>
 
 					<ol>
-						<li>Open your PDF file with KOReader</li>
+						<li>Відкрийте PDF-файл у KOReader</li>
 
-						<li>Open the <span class="ui">Bookmarks</span> dialog from here:
-							<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Bookmarks</div></li>
+						<li>Відкрийте діалог <span class="ui">Закладки</span> тут:
+							<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_bookmark.svg" style="width:26px;"> / Закладки</div></li>
 
-						<li>Press the <span class="ui" style="font-family: microns;"></span> button at the top-left corner.</li>
+						<li>Натисніть кнопку <span class="ui" style="font-family: microns;"></span> у верхньому лівому куті.</li>
 
-						<li>On the opened dialog, choose <span class="ui">Import embedded annotations</span>. Your highlights will be added to the <span class="ui">Bookmarks</span> list.</li>
+						<li>У відкритому діалозі виберіть <span class="ui">Імпортувати вбудовані анотації</span>. Виділене буде додано до списку <span class="ui">Закладки</span>.</li>
 					</ol>
 
-					<p>After the import process, highlights in the PDF will turn into regular KOReader highlights. Which means, you can:</p>
+					<p>Після імпортування виділене з PDF перетвориться у звичайне виділене KOReader. Це означає, що можна:</p>
 
 					<ul>
-						<li>Add notes to them</li>
-						<li>Change their style and color</li>
-						<li>Delete them <b>(See the note below)</b></li>
-						<li>Export them in various formats</li>
+						<li>Додавати до нього нотатки</li>
+						<li>Змінювати його стиль і колір</li>
+						<li>Видаляти його <b>(див. примітку нижче)</b></li>
+						<li>Експортувати його у різні формати</li>
 					</ul>
 
-					<p><b>How deletion works:</b> When you import highlights, KOReader doesn't modify the original highlights in your PDF. It adds imported highlights as a layer on top of the originals. So if you delete an imported highlight, only this <b>added layer</b> is deleted. Your original highlights are not deleted from the PDF file. You can open this PDF with another reader and still see the original highlights.</p>
+					<p><b>Як працює видалення.</b> При імпорті виділень KOReader не змінює оригінальні виділення у PDF. Він додає імпортовані виділення як шар поверх оригінального. Тож якщо видалити імпортоване виділене, видаляється тільки цей <b>доданий шар</b>. При цьому ваші оригінальні виділення не будуть виділені з PDF-файлу. Ви можете відкрити цей PDF у іншій програмі перегляду і все ще бачити оригінальні виділення.</p>
 
-					<div class="warning"><span class="microns_warning" title="Warning"></span> If you enable the <span class="ui">Write highlights into PDF</span> option, embedded highlights too will be deleted from the PDF file when you delete an imported highlight.
+					<div class="warning"><span class="microns_warning" title="Попередження"></span> Якщо увімкнути функцію <span class="ui">Записати виділене у PDF</span>, при видаленні імпортованих виділень вбудовані виділення теж будуть видалені з PDF.
 
-					<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Highlights / Write highlights into PDF</div></div>
+					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_document.svg" style="width:26px;"> / Виділення / Записати виділене в PDF</div></div>
 
-					<div class="L2-Sub-heading" id="L2-ocr">7.5 Using OCR</div>
+					<div class="L2-Sub-heading" id="L2-ocr">7.5 Використання OCR</div>
 					<p>
 						<b>OCR (оптичне розпізнавання символів)</b> – це процес отримання тексту із зображень. У контексті KOReader він зазвичай використовується для отримання тексту зі сканованих сторінок книг у PDF-файлах. KOReader для цього завдання використовує <a href="https://github.com/tesseract-ocr/tessdoc">Tesseract Open Source OCR Engine</a>.
 					</p>
@@ -3562,7 +3562,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li>Додати нововстановлені мови до файлу конфігурації /koreader/defaults.lua (для всіх мов, крім англійської й китайської)</li>
 					</ol>
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> Buttons of the OCR menu <b>will not function</b> until you install the necessary Tesseract files. Details of this process can be read in our <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">related wiki page</a>.</div>
+					<div class="info"><span class="label_blue">INFOmicrons_info" title="Контекстна інформація"></span> Кнопки в меню OCR <b>не працюють</b> доки не встановлені необхідні файли для Tesseract. Подробиці щодо виконання цього процесу можна знайти <a href="https://github.com/koreader/koreader/wiki/Dictionary-support#dictionary-lookups-in-scanned-pages">на відповідній сторінці вікі</a>.</div>
 
 					</section>
 
@@ -3580,7 +3580,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>Це налаштовується тут:</p>
 
-					<div class="menu-breadcrumbs">TOP MENU / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Taps and Gestures / Gesture manager / "ANY GESTURE" / Screen and lights / Full refresh rate</div>
+					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Менеджер жестів / «БУДЬ-ЯКИЙ ЖЕСТ» / Екран і підсвічування / Частота повного оновлення екрану</div>
 
 					<div class="L2-Sub-heading" id="L2-panelzoom">8.2 Масштабування панелі</div>
 
@@ -3626,14 +3626,14 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>Найкращий варіант – створення файлу <b>CBZ</b>, який в KOReader працює краще. Файл з розширенням <b>.cbz</b> по суті є файлом zip-архіву (без стиснення) з набором зображень. Він містить багато зображень, зазвичай файли <b>.png</b> або <b>.jpeg</b>, організовані як сторінки мальопису. KOReader також може відкривати файли <b>CBT</b>, які є подібні до файлів <b>CBZ</b>, але використовують формат архіву <b>TAR</b>.</p>
 
-					<p>Easiest way to convert a manga to <b>CBZ</b> is to get the manga as images from various websites, then convert them using <a href="https://github.com/ciromattia/kcc">Kindle Comic Converter</a>. There are some useful settings like <b>auto-rotating two-page splits to landscape and applying dithering</b> so that e-ink rendered gradients are smoothly dithered without jagged layers.</p>
+					<p>Найпростіший спосіб перетворити манґу на <b>CBZ</b> – зберегти манґу з сайтів як зображення, а потім перетворити її за допомогою <a href="https://github.com/ciromattia/kcc">Kindle Comic Converter</a>. Там є корисні параметри, як от <b>автоматичне повертання двосторінкових розворотів у альбомну орієнтацію та застосування дитерингу</b>, щоб градієнти, візуалізовані е-чорнилами, плавно розтушовувалися без нерівних шарів.</p>
 
 					<div class="L3-Smaller-heading">Яку роздільну здатність використовувати</div>
 					<p>Найкращого результату можна досягти змінивши розміри зображень та зробивши їх розмір точно таким, як роздільна здатність екрана вашого пристрою. Пристосовані до розміру екрана, на якому їх будуть переглядати, зображення у файлі <b>CBZ</b> не потребують зміни їх масштабу під час читання мальопису. Під час читання KOReader зменшує масштаб зображень, але це не рекомендується, бо KOReader перед зміною масштабу додає перехід дитерингу і це призводить до втрати якості.</p>
 
 					<p>Але якщо бажаєте використовувати власноруч створені файли <b>CBZ</b> на кількох пристроях або хочете зберегти високу роздільну здатність для подальшої перевірки, найкращим рішенням може бути створення <b>CBZ</b> для пристрою з вищою роздільною здатністю екрану. Або застосуйте довільну «високу» роздільну здатність, наприклад, не змінюючи оригінальну роздільну здатність зображень. <b>300 PPI</b> або вищу (до <b>450 PPI</b> чи навіть <b>600 PPI</b>), звісно, якщо оригінальна роздільна здатність зображень не нижча. Якщо припустити, що розмір екрану <b>8", 1500×2000</b> пікселів є хорошою роздільною здатністю. Для більших зображень варто перевірити їх вигляд на екрані пристрою, щоб побачити чи справляється пристрій з зображеннями такого розміру. Особливо старі пристрої Kindle, які мають малий обсяг пам'яті, можуть мати проблеми з зображеннями, наприклад, розміром <b>3000×4000</b> пікселів. Якщо ви автоматизуєте процес, варто розглянути можливість одночасного створення версій з нижчою та вищою роздільною здатністю (наприклад, <b>200/400</b> та <b>300/600</b> DPI).</p>
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> KOReader doesn't parse <b>spine page-progression-direction="rtl"</b> attribute of the books. So it doesn’t change page turning direction even though the file was created with right-to-left reading. Users can switch this via:
+					<div class="info"><span class="label_blue">INFOmicrons_info" title="Контекстна інформація"></span> KOReader не обробляє атрибут книги <b>spine page-progression-direction="rtl"</b>. Тому він не змінює орієнтацію сторінки навіть у файлах, які були створені для читання справа наліво. Це можна змінити тут:
 
 					<div class="menu-breadcrumbs">ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/gear.svg" style="width:22px;"> / Дотики та жести / Гортання сторінок / Інвертувати гортання сторінок дотиком і протягуванням / кнопки</div></div>
 
@@ -3666,7 +3666,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						Якщо бажаєте просто зануритися у читання манґи, при створенні свого файлу <b>CBZ</b> за допомогою <b>KCC</b> переконайтеся, що вибрали саме ту роздільну здатність, яку має екран вашого пристрою для читання. Під час читання манґи у KOReader також можна сховати панель поступу внизу екрану. Тож повністю весь екран, без будь-яких завад, буде відображати лише вашу манґу.
 					</p>
 
-					<div class="L3-Smaller-heading">Extra step for smooth gradients <span class="microns_warning" title="Advanced topic"></span></div>
+					<div class="L3-Smaller-heading">Додаткові дії для згладження градієнтів <span class="microns_warning" title="Тема поглибленого рівня"></span></div>
 
 					<p>
 						Після створення файлу <b>CBZ</b> за допомогою <span class="external">KCC</span> додатково можна виконати <b>дитеринг</b> зображення. В цьому випадку візуалізовані е-чорнилами градієнти будуть плавно вирівняні без зазубрених шарів. Цей крок дасть змогу створити тонко підігнані частини манґи, які матимуть кращий вигляд у KOReader.
@@ -4580,7 +4580,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 							<li>Вказати розмір шрифту</li>
 							<li>Частота повного оновлення (завжди)</li>
 							<li>Частота повного оновлення (не нічний режим)</li>
-							<li>Повна частота оновлення (нічний режим)</li>
+							<li>Частота повного оновлення (нічний режим)</li>
 							<li>Always flash on chapter boundaries <span style="font-family: microns;"></span></li>
 							<li>Перемкнути оновлення на межі розділів</li>
 							<li>Never flash on chapter's 2nd page <span style="font-family: microns;"></span></li>
