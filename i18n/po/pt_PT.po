@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-22 23:52+0000\n"
-"PO-Revision-Date: 2026-11-19 08:51+0000\n"
+"PO-Revision-Date: 2026-11-25 01:51+0000\n"
 "Last-Translator: António Oliveira <antonio.oliveira5487@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) <https://hosted.weblate.org/projects/"
 "koreader/user-guide/pt_PT/>\n"
@@ -3734,6 +3734,9 @@ msgid ""
 "you can close them <b>all at once</b> by long-pressing the close <span "
 "class=\"ui\">X</span> button."
 msgstr ""
+"Sem tem várias janelas de procura abertas conforme descrito na dica "
+"anterior, pode fechá-las <b>de uma só vez</b> ao fazer um toque longo no "
+"botão <span class=\"ui\">X</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:2475-12
 msgid ""
@@ -3897,7 +3900,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2534-6
 msgctxt "user_guide/en.html:L1-navigating"
 msgid "4 NAVIGATING YOUR DOCUMENT"
-msgstr ""
+msgstr "4 NAVEGAR O SEU DOCUMENTO"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2536-6
 msgid ""
@@ -4255,7 +4258,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2653-6
 msgid "4.2 Marking Pages"
-msgstr ""
+msgstr "4.2 Marcar Páginas"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2655-6
 msgid ""
@@ -4263,12 +4266,13 @@ msgid ""
 "in a document. This will allow us to quickly jump between different parts of "
 "our document."
 msgstr ""
+"Após aprender como navegar, agora aprenderá <b>como marcar páginas</b> num "
+"documento. Isto permitir-nos-á saltar rapidamente entre diferentes partes do "
+"nosso documento."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2658-6
-#, fuzzy
-#| msgid "Random page"
 msgid "Pinned page"
-msgstr "Página aleatória"
+msgstr "Página afixada"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2662-6
 msgid ""
@@ -4278,31 +4282,29 @@ msgid ""
 "need more places to jump, check the <span class=\"ui\">Bookmarks</span> "
 "feature below."
 msgstr ""
+"Se existe uma página em um documento para a qual salta frequentemente (por "
+"exemplo a secção <b>Páginas de referências</b> de um livro), pode afixar "
+"esta página para saltar facilmente para lá. Só pode ter apenas <b>uma página "
+"afixada por livro</b>, e por isso se precisar de mais sítios para saltar, "
+"verifique a funcionalidade <span class=\"ui\">Marcadores</span> abaixo."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2668-6
 msgid "How to pin/unpin a page:"
-msgstr ""
+msgstr "Como afixar/desafixar uma página:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2671-7
-#, fuzzy
-#| msgid "Open the <span class=\"ui\">Page browser</span> via:"
 msgctxt "user_guide/en.html+navigating.ol.li:139-1"
 msgid "Open the <span class=\"ui\">Skim widget</span>."
-msgstr "Abra o <span class=\"ui\">Navegador de Páginas</span> através de:"
+msgstr "Abra o <span class=\"ui\">widget Folhear</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2672-7
-#, fuzzy
-#| msgid ""
-#| "On the book information page, long-press on the <span class=\"ui\">Cover "
-#| "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgctxt "user_guide/en.html+navigating.ol.li:140-1"
 msgid ""
 "Press the <span class=\"ui\">page number</span> in the <span "
 "class=\"ui\">Skim widget</span>."
 msgstr ""
-"Na página de informação do livro, pressione longamente no item <span "
-"class=\"ui\">Imagem de capa</span> e selecione <span class=\"ui\">Reiniciar "
-"customizada</span>."
+"Pressione o <span class=\"ui\">número de página</span> no <span class=\"ui\">"
+"widget Folhear</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2674-7
 msgid ""
@@ -4310,67 +4312,63 @@ msgid ""
 "span> button there. Press normally <b>to pin</b> the page or long-press "
 "<b>to remove the pin.</b>"
 msgstr ""
+"Um diálogo será aberto e irá ver o botão <span class=\"ui\">Afixar página "
+"atual</span> lá. Pressione normalmente <b>para afixar</b> a página ou faça "
+"um toque longo <b>para remover o afixado.</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.p:2678-8
 msgid ""
 "You can reach this dialog from this menu too, which you can also assign a "
 "<span class=\"ui\">gesture</span> to reach:"
 msgstr ""
+"Pode alcançar este diálogo a partir deste menu também, ao qual pode atribuir "
+"um <span class=\"ui\">gesto</span> para o alcançar:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:2681-8
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Book map"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:22px;\"> / Go to page"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Mapa do Livro"
+"style=\"width:22px;\"> / Ir para a página"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2687-6
 msgid "How to jump to your pinned page:"
-msgstr ""
+msgstr "Como saltar para a sua página fixada:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2690-7
-#, fuzzy
-#| msgid "Open the <span class=\"ui\">Page browser</span> via:"
 msgctxt "user_guide/en.html+navigating.ol.li:158-1"
 msgid "Open the <span class=\"ui\">Skim widget</span>."
-msgstr "Abra o <span class=\"ui\">Navegador de Páginas</span> através de:"
+msgstr "Abra o <span class=\"ui\">widget Folhear</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2691-7
-#, fuzzy
-#| msgid ""
-#| "On the book information page, long-press on the <span class=\"ui\">Cover "
-#| "image</span> item and then select <span class=\"ui\">Reset custom</span>."
 msgctxt "user_guide/en.html+navigating.ol.li:159-1"
 msgid ""
 "Press the <span class=\"ui\">page number</span> in the <span "
 "class=\"ui\">Skim widget</span>."
 msgstr ""
-"Na página de informação do livro, pressione longamente no item <span "
-"class=\"ui\">Imagem de capa</span> e selecione <span class=\"ui\">Reiniciar "
-"customizada</span>."
+"Pressione o <span class=\"ui\">número de página</span> no <span class=\"ui\">"
+"widget Folhear</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:2693-7
-#, fuzzy
-#| msgid "Press <span class=\"ui\">Edit text</span> in the menu"
 msgid ""
 "Press the <span class=\"ui\">Go to pinned page</span> button in the opening "
 "dialog."
-msgstr "Clique <span class=\"ui\">Editar texto</span> no menu"
+msgstr ""
+"Pressione o botão <span class=\"ui\">Ir para página afixada</span> no "
+"diálogo que abre."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2699-6
 msgid "How to go back:"
-msgstr ""
+msgstr "Como voltar para trás:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2701-6
 msgid ""
 "After jumping to the pinned page, you can return to your previous reading "
 "position with this menu action:"
 msgstr ""
+"Após saltar para a página afixada, pode retornar para a sua posição de "
+"leitura anterior com esta ação de menu:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2703-6
 msgid ""
@@ -4385,47 +4383,38 @@ msgid ""
 "Also you can use the <span class=\"ui\">swipe left then right</span> single "
 "finger swipe to go back."
 msgstr ""
+"Também pode usar o gesto de deslize de dedo individual <span class=\"ui\">"
+"deslizar para a esquerda e para a direita</span> para voltar para trás."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2709-6
 msgid ""
 "Pinning/jumping is much faster if you assign <a href=\"#L1-gestures\" "
 "class=\"internalink\">Gestures</a> to these actions:"
 msgstr ""
+"Afixar/saltar é muito mais rápido se atribuir <a href=\"#L1-gestures\" "
+"class=\"internalink\">Gestos</a> a estas ações:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2712-7
-#, fuzzy
-#| msgid ""
-#| "Basically, any action you can assign a gesture can be added to the <span "
-#| "class=\"ui\">Quick Menu</span>. Its advantages are:"
 msgid ""
 "For example you can assign a gesture to the <span class=\"ui\">Pin current "
 "page</span> action."
 msgstr ""
-"Basicamente, qualquer ação que possa atribuir a um gesto pode ser adicionado "
-"ao <span class=\"ui\">Menu Rápido</span>. As suas vantagens são:"
+"Por exemplo pode atribuir um gesto à ação <span class=\"ui\">Afixar página "
+"atual</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2715-7
-#, fuzzy
-#| msgid ""
-#| "This menu is very similar to the <span class=\"ui\">Gesture Manager</"
-#| "span> interface. In this menu:"
 msgid ""
 "Another gesture to the <span class=\"ui\">Go to pinned page</span> action."
 msgstr ""
-"Este menu é muito semelhante à interface do <span class=\"ui\">Gestor de "
-"gestos</span>. Neste menu:"
+"Outro gesto para a ação <span class=\"ui\">Ir para a página afixada</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:2718-7
-#, fuzzy
-#| msgid ""
-#| "In the dialog press the button <span class=\"ui\">Show in action list</"
-#| "span>"
 msgid ""
 "And some other gesture to the <span class=\"ui\">Back to previous location</"
 "span>"
 msgstr ""
-"Na caixa de diálogo, prima o botão <span class=\"ui\">Mostrar lista de "
-"ações</span>"
+"E outro gesto qualquer para o <span class=\"ui\">Ir para a localização "
+"anterior</span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2721-6
 msgid ""
@@ -4433,6 +4422,10 @@ msgid ""
 "just three taps. You can also add these actions to your <a href=\"#L1-"
 "qmandprofiles\" class=\"internalink\">Quick Menu</a> of course."
 msgstr ""
+"Agora pode rapidamente afixar uma página, saltar para a mesma enquanto lê e "
+"voltar para trás com apenas três toques. Também pode adicionar estas ações "
+"ao seu <a href=\"#L1-qmandprofiles\" class=\"internalink\">Menu Rápido</a> "
+"com certeza."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2724-6
 msgctxt "user_guide/en.html+navigating.div:192-0"
@@ -4455,19 +4448,18 @@ msgid ""
 "You can access your bookmarks from the <span class=\"ui\">Bookmarks</span> "
 "window and then tap on the bookmarks to jump to the relevant page:"
 msgstr ""
+"Pode aceder aos seus marcadores a partir da janela <span class=\"ui\">"
+"Marcadores</span> e depois tocar nos marcadores para saltar para a página "
+"relevante:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2733-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Book map"
 msgctxt "user_guide/en.html+navigating.div:201-0"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
 "style=\"width:26px;\"> / Bookmarks"
 msgstr ""
 "MENU SUPERIOR / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Mapa do Livro"
+"style=\"width:26px;\"> / Marcadores"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2736-6
 #, fuzzy
@@ -4858,10 +4850,8 @@ msgstr ""
 "distrair alguns utilizadores. Pode experimentar os dois e usar o que quiser."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:2873-6
-#, fuzzy
-#| msgid "Page zooming"
 msgid "4.5 Page Numbering"
-msgstr "4.5 Zoom de página"
+msgstr "4.5 Numeração de Página"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:2875-6
 msgid ""
@@ -6359,7 +6349,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.p:3416-41
 msgid "Serif suggestions"
-msgstr ""
+msgstr "Sugestões Serif"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3418-9
 msgid "Spectral"
@@ -6391,7 +6381,7 @@ msgstr "Wix Madefor Text"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td.ul.li:3428-9
 msgid "Google Sans Flex"
-msgstr ""
+msgstr "Google Sans Flex"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3433-6
 msgid ""
@@ -6410,10 +6400,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3440-6
-#, fuzzy
-#| msgid "Monospace font scale"
 msgid "Monospace suggestion"
-msgstr "Escala da fonte Monospace"
+msgstr "Sugestão Monospace"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:3441-6
 msgid ""
@@ -6618,11 +6606,11 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3502-9
 msgid "Luciole-Regular-Italic.ttf"
-msgstr ""
+msgstr "Luciole-Regular-Italic.ttf"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul.li:3503-9
 msgid "Luciole-Bold-Italic.ttf"
-msgstr ""
+msgstr "Luciole-Bold-Italic.ttf"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.ul:3503-36
 msgid ""
@@ -11123,10 +11111,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5159-6
-#, fuzzy
-#| msgid "Profiles"
 msgid "EPUB files"
-msgstr "Perfis"
+msgstr "Ficheiros EPUB"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5162-7
 msgid ""
@@ -11188,10 +11174,8 @@ msgstr ""
 "isto faz com que o virar da página se torne lento. Veja abaixo a solução."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5174-6
-#, fuzzy
-#| msgid "Collections"
 msgid "Solutions:"
-msgstr "Coleções"
+msgstr "Soluções:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5177-7
 msgid ""
@@ -11295,10 +11279,8 @@ msgstr ""
 "href=\"https://github.com/w3c/epubcheck/wiki/GUI\">aqui</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5210-6
-#, fuzzy
-#| msgid "Profiles"
 msgid "PDF files"
-msgstr "Perfis"
+msgstr "Ficheiros PDF"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5212-6
 msgid "PDF files can be slow because of these problems:"
@@ -11450,7 +11432,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5254-6
 msgid "TEXT files"
-msgstr ""
+msgstr "Ficheiros TEXT"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5256-6
 msgid ""
@@ -11488,10 +11470,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5274-6
-#, fuzzy
-#| msgid "Turn pages"
 msgid "Web pages"
-msgstr "Virar páginas"
+msgstr "Páginas Web"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5276-6
 #, fuzzy
@@ -11784,7 +11764,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5407-6
 msgid "Filename matching"
-msgstr ""
+msgstr "Correspondência de nome de ficheiro"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5409-6
 msgid ""
@@ -12867,14 +12847,12 @@ msgid "Reading statistics: synchronize"
 msgstr "Estatísticas de Leitura: sincronizar"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5822-8
-#, fuzzy
-#| msgid "Reader"
 msgid "Fast Reader"
-msgstr "Leitor"
+msgstr "Leitor Rápido"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5823-8
 msgid "RSVP Reading"
-msgstr ""
+msgstr "RSVP de Leitura"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.div:5826-7
 msgid "Device"
@@ -15308,8 +15286,6 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.table.tr.td:6687-80
-#, fuzzy
-#| msgid ""
 msgid ""
 msgstr ""
 
@@ -15485,10 +15461,8 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:6753-6
-#, fuzzy
-#| msgid "Profile auto-execution"
 msgid "Profile troubleshooting"
-msgstr "Execução automática de perfil"
+msgstr "Diagnosticar de problemas de perfil"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:6755-6
 msgid ""
@@ -16442,7 +16416,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7211-6
 msgid "13 READING IMPROVEMENTS"
-msgstr ""
+msgstr "13 MELHORIAS DE LEITURA"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7213-6
 msgid ""
@@ -16628,7 +16602,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7284-6
 msgid "Atkinson Hyperlegible"
-msgstr ""
+msgstr "Atkinson Hyperlegible"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7285-6
 msgid ""
@@ -16640,7 +16614,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7288-6
 msgid "B612"
-msgstr ""
+msgstr "B612"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7289-6
 msgid ""
@@ -16654,7 +16628,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7292-6
 msgid "Lexend"
-msgstr ""
+msgstr "Lexend"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7293-6
 msgid ""
@@ -16666,7 +16640,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7297-6
 msgid "Luciole"
-msgstr ""
+msgstr "Luciole"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7298-6
 msgid ""
@@ -16679,7 +16653,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7301-6
 msgid "Open Dyslexic"
-msgstr ""
+msgstr "Open Dyslexic"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7302-6
 msgid ""
@@ -16692,7 +16666,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7305-6
 msgid "Shantell Sans"
-msgstr ""
+msgstr "Shantell Sans"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7306-6
 msgid ""
@@ -16704,7 +16678,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7309-6
 msgid "Fast Font"
-msgstr ""
+msgstr "Fonte Fast"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7310-6
 msgid ""
@@ -17504,11 +17478,9 @@ msgid "What is a Nightly Version?"
 msgstr "Versões noturnas"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7538-6
-#, fuzzy
-#| msgid "Text indentation problems"
 msgctxt "user_guide/en.html:ts-batterydrain"
 msgid "Battery drain problems"
-msgstr "Problemas de indentação no texto"
+msgstr "Problemas de"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7540-6
 msgid ""
