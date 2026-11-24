@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-22 23:52+0000\n"
-"PO-Revision-Date: 2026-11-22 23:51+0000\n"
+"PO-Revision-Date: 2026-11-25 01:51+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -9625,7 +9625,7 @@ msgstr "8.5 Інші поради щодо манґи"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4563-6
 msgid "Getting rid of rainbow effect on color e-ink screens"
-msgstr ""
+msgstr "Як позбутися ефекту веселки на кольорових екранах на е-чорнилах"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4565-6
 msgid ""
@@ -9636,6 +9636,13 @@ msgid ""
 "detailed info and install instructions on the <a href=\"https://github.com/"
 "Euphoriyy/derainbowify.koplugin\">GitHub page</a> of this plugin."
 msgstr ""
+"Через особливості технології кольорових е-чорнил, під час читання чорно-"
+"білих коміксів/манґи з дрібним штрихуванням або точками можна бачити "
+"кольорові артефакти схожі на веселку. Для вирішення цієї проблеми існує "
+"модуль для KOReader під назвою <span class=\"external\">Derainbowify</span>. "
+"Детальніші відомості та інструкцію встановлення можна знайти на <a "
+"href=\"https://github.com/Euphoriyy/derainbowify.koplugin\">сторінці модуля "
+"на GitHub</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4569-6
 msgid "Immersive mode in KOReader"
@@ -9727,22 +9734,16 @@ msgstr ""
 "здатність на ту, яку має ваш пристрій (в обох місцях файлу <b>BAT</b>)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4602-8
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_red\">WARNING</span> Next step will replace all the "
-#| "images in the directory with the processed ones. So make sure that you "
-#| "have a copy of them in some other directory if you want to keep the "
-#| "originals."
 msgid ""
 "<span class=\"microns_warning\" title=\"Warning\"></span> Next step will "
 "replace all the images in the directory with the processed ones. So make "
 "sure that you have a copy of them in some other directory if you want to "
 "keep the originals."
 msgstr ""
-"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Виконання наступного кроку "
-"замінить усі зображення у теці, в якій розміщено оброблювані зображення. Тож "
-"якщо хочете зберегти оригінали, переконайтеся, що зберегли копії цих "
-"оригіналів у іншій теці."
+"<span class=\"microns_warning\" title=\"Попередження\"></span> Виконання "
+"наступного кроку замінить усі зображення у теці, в якій розміщено "
+"оброблювані зображення. Тож якщо хочете зберегти оригінали, переконайтеся, "
+"що зберегли копії цих оригіналів у іншій теці."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4604-7
 msgid ""
@@ -9761,12 +9762,12 @@ msgstr ""
 "<b>CBZ</b>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4612-6
-#, fuzzy
-#| msgid "Reversing the page turn direction for authentic Japanese manga"
 msgid ""
 "Reversing the page turn direction for authentic Japanese manga <span "
 "class=\"microns_warning\" title=\"Advanced topic\"></span>"
-msgstr "Зворотній напрямок гортання сторінок для справжньої японської манґи"
+msgstr ""
+"Зворотній напрямок гортання сторінок для справжньої японської манґи <span "
+"class=\"microns_warning\" title=\"Тема поглибленого рівня\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4614-6
 msgid ""
@@ -9862,22 +9863,16 @@ msgstr ""
 "вікні."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4662-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_red\">WARNING</span> Be very careful when using the "
-#| "<span class=\"ui\">reset</span> dialog and double check which items are "
-#| "marked, otherwise you can reset everything related to your book "
-#| "accidentally."
 msgid ""
 "<span class=\"microns_warning\" title=\"Warning\"></span> Be very careful "
 "when using the <span class=\"ui\">reset</span> dialog and double check which "
 "items are marked, otherwise you can reset everything related to your book "
 "accidentally."
 msgstr ""
-"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Будьте дуже обережними коли "
-"використовуєте діалог <span class=\"ui\">Скинути</span> та двічі перевірте, "
-"які елементи позначені, інакше є ризик випадково видалити усе, що пов'язане "
-"з відповідною книгою."
+"<span class=\"microns_warning\" title=\"Попередження\"></span> Будьте дуже "
+"обережними коли використовуєте діалог <span class=\"ui\">Скинути</span> та "
+"двічі перевірте, які елементи позначені, інакше є ризик випадково видалити "
+"усе, що пов'язане з відповідною книгою."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4666-6
 msgid ""
@@ -9929,13 +9924,15 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4680-6
 msgid "Showing hidden files and directories in File Browser"
-msgstr ""
+msgstr "Показ прихованих файлів і тек у Оглядачі файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:4681-6
 msgid ""
 "Normally, KOReader <b>file browser</b> doesn't show these two groups of "
 "files and directories:"
 msgstr ""
+"Зазвичай <b>оглядач файлів</b> KOReader'а не відображає ці дві групи файлів "
+"і тек:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4685-7
 msgid ""
@@ -9943,18 +9940,18 @@ msgid ""
 "start with a dot (.) character, like <span class=\"ui\">.screensavers</"
 "span>. If you want to see these directories and files, enable this option:"
 msgstr ""
+"<b>Приховані файли і теки.</b> Це файли і теки, назва яких починається з "
+"символу крапки (.), наприклад <span class=\"ui\">.screensavers</span>. Якщо "
+"бажаєте бачити такі теки і файли, увімкніть цей параметр:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4688-7
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:22px;\"> / Settings / Bookmarks / Show in items"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:26px;\"> / Settings / Show hidden files"
 msgstr ""
-"ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:22px;\"> / Налаштування / Закладки / Показувати в елементах"
+"(ОГЛЯДАЧ ФАЙЛІВ) ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/"
+"top_cabinet.svg\" style=\"width:26px;\"> / Налаштування / Показувати "
+"приховані файли"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:4691-7
 msgid ""
@@ -9966,18 +9963,22 @@ msgid ""
 "the <span class=\"ui\">file browser</span>. If you want to see the "
 "unsupported file types too, you can enable this option:"
 msgstr ""
+"<b>Непідтримувані типи файлів.</b> Це типи файлів, які KOReader <b>не може "
+"відкрити безпосередньо</b>, на зразок файлів шрифтів з розширенням <b>.ttf</"
+"b>. KOReader може безпосередньо відкривати такі типи файлів: PDF, EPUB, "
+"DJVU, MOBI, CBR, CBZ, CBT, DOCX, RTF, HTML, HTMLZ, TXT, XPS, FB2, PDB, CHM "
+"та MD, зображення та архіви ZIP/RAR, тому тільки ці файли видимі у <span "
+"class=\"ui\">Оглядачі файлів</span>. Якщо бажаєте бачити також типи файлів, "
+"які не підтримуються, увімкніть цей параметр:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li.div:4695-7
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-#| "style=\"width:26px;\"> / Settings / Bookmarks"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_cabinet.svg\" style=\"width:26px;\"> / Settings / Show unsupported files"
 msgstr ""
-"ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_bookmark.svg\" "
-"style=\"width:26px;\"> / Налаштування / Закладки"
+"(ОГЛЯДАЧ ФАЙЛІВ) ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/"
+"top_cabinet.svg\" style=\"width:26px;\"> / Налаштування / Показувати "
+"непідтримувані файли"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:4699-6
 msgid "Working on multiple files"
@@ -10880,14 +10881,6 @@ msgstr ""
 "яка значно спрощує керування метаданими книг."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5032-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> Be aware that <span "
-#| "class=\"external\">Calibre</span> changes the metadata within the book "
-#| "itself, so the changed metadata is visible outside of <span "
-#| "class=\"external\">Calibre</span>. But KOReader doesn't change the book "
-#| "file, it only adds custom metadata as a file in the book's <b>.sdr "
-#| "folder</b>, so this metadata is visible in KOReader only."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> Be "
 "aware that <span class=\"external\">Calibre</span> changes the metadata "
@@ -10896,12 +10889,12 @@ msgid ""
 "file, it only adds custom metadata as a file in the book's <b>.sdr folder</"
 "b>, so this metadata is visible in KOReader only."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Майте на увазі, що <span "
-"class=\"external\">Calibre</span> змінює метадані у файлі книги, тому "
-"змінені метадані видно поза <span class=\"external\">Calibre</span>. А "
-"KOReader не змінює файл книги, він лише додає власні метадані як окремий "
-"файл до теки <b>.sdr</b>, що пов'язана з книгою, тому ці метадані видно лише "
-"в KOReader."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> Майте "
+"на увазі, що <span class=\"external\">Calibre</span> змінює метадані у файлі "
+"книги, тому змінені метадані видно поза <span class=\"external\">Calibre</"
+"span>. А KOReader не змінює файл книги, він лише додає власні метадані як "
+"окремий файл до теки <b>.sdr</b>, що пов'язана з книгою, тому ці метадані "
+"видно лише в KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5036-6
 msgid "Searching in collections"
@@ -11247,7 +11240,7 @@ msgstr ""
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5153-6
 msgctxt "user_guide/en.html:L2-optimizing"
 msgid "9.4 Optimizing Documents"
-msgstr ""
+msgstr "9.4 Оптимізація документів"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5155-6
 msgid ""
@@ -11283,20 +11276,15 @@ msgstr ""
 "насиченості шрифту чи проміжків між рядками."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li.div:5165-8
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> KOReader doesn't support <b>fixed "
-#| "layout EPUBs</b>. They will open, but will render as reflowable EPUBs and "
-#| "probably won't look nice or readable."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> "
 "KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will "
 "render as reflowable EPUBs and probably won't look nice or readable."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> KOReader не підтримує <b>EPUB з "
-"фіксованим макетом</b>. Вони відкриються, але будуть візуалізовані як "
-"перекомпоновувані EPUB та, ймовірно, матимуть не дуже гарний вигляд або "
-"навіть будуть нечитабельними."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> "
+"KOReader не підтримує <b>EPUB з фіксованим макетом</b>. Вони відкриються, "
+"але будуть візуалізовані як перекомпоновувані EPUB та, ймовірно, матимуть не "
+"дуже гарний вигляд або навіть будуть нечитабельними."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5168-7
 msgid ""
@@ -11317,29 +11305,21 @@ msgstr ""
 "окремого розділу, повинен опрацювати книгу повністю."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5171-7
-#, fuzzy
-#| msgid ""
-#| "Another rare case of slowness is when the content is wrapped in a <b>HTML "
-#| "table tag</b>. KOReader has to render/draw each cell on each page turn, "
-#| "so if a cell (containing many paragraphs) spans 50 pages, this will make "
-#| "page turning quite slow. See below for the solution."
 msgid ""
 "Another rare case of slowness is when the content is wrapped in a <b>HTML "
 "table tag</b>. KOReader has to render/draw each cell on each page turn, so "
 "if a cell (containing many paragraphs) spans 50 pages, this will make page "
 "turning quite slow."
 msgstr ""
-"Інший, рідкісний, випадок сповільнення роботи — коли вміст розміщено у "
-"<b>теґу HTML-таблиці</b>. В такому випадку KOReader повинен візуалізувати "
-"кожну комірку при кожному перегортанні сторінки, тож якщо комірка (з "
-"багатьма абзацами всередині) охоплює 50 сторінок, це зробить гортання "
-"сторінок повільним. Спосіб усунення цієї проблеми описано нижче."
+"Інший, рідкісний, випадок сповільнення роботи — коли вміст розміщено у <b>"
+"теґу HTML-таблиці</b>. В такому випадку KOReader повинен візуалізувати кожну "
+"комірку при кожному перегортанні сторінки, тож якщо комірка (з багатьма "
+"абзацами всередині) охоплює 50 сторінок, це зробить гортання сторінок "
+"повільним."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5174-6
-#, fuzzy
-#| msgid "Collections"
 msgid "Solutions:"
-msgstr "Добірки"
+msgstr "Способи вирішення:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:5177-7
 msgid ""
@@ -11581,7 +11561,7 @@ msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5250-6
 msgid "Manga and Comics"
-msgstr ""
+msgstr "Мальописи і манґа"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5252-6
 #, fuzzy
@@ -11635,19 +11615,10 @@ msgid ""
 msgstr ""
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5274-6
-#, fuzzy
-#| msgid "Turn pages"
 msgid "Web pages"
-msgstr "Гортання сторінок"
+msgstr "Вебсторінки"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5276-6
-#, fuzzy
-#| msgid ""
-#| "<a href=\"https://github.com/gildas-lormeau/"
-#| "SingleFile#install\">SingleFile</a> is a browser extension for <b>Mozilla "
-#| "Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension "
-#| "allows saving a web page as a <b>single .html file</b> with all the "
-#| "resources (images, stylesheets, scripts) embedded."
 msgid ""
 "<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</"
 "a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and "
@@ -11659,7 +11630,8 @@ msgstr ""
 "<a href=\"https://github.com/gildas-lormeau/SingleFile#install\">SingleFile</"
 "a> – це розширення для вебоглядачів <b>Mozilla Firefox, Google Chrome</b> та "
 "<b>Microsoft Edge</b>. Воно дозволяє зберігати вебсторінку з усіма ресурсами "
-"як <b>єдиний файл .html</b> (зображеннями, таблицями стилів, скриптами)."
+"як <b>єдиний файл .html</b> (зображеннями, таблицями стилів, скриптами). "
+"Після цього можна копіювати цей єдиний файл на пристрій і читати в KOReader."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5281-6
 msgid "9.5 Using OPDS Catalogs"
