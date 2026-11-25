@@ -3656,9 +3656,9 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<div class="L2-Sub-heading" id="L2-mangatips">8.5 Інші поради щодо манґи</div>
 
-					<div class="L3-Smaller-heading">Getting rid of rainbow effect on color e-ink screens</div>
+					<div class="L3-Smaller-heading">Як позбутися ефекту веселки на кольорових екранах на е-чорнилах</div>
 
-					<p>Due to the color e-ink screen technology, it is possible to see rainbow like color artifacts when reading black-and-white comics/manga with fine shading or dots. If you are having this problem, there is a KOReader plugin named <span class="external">Derainbowify</span> that solves it. You can see the detailed info and install instructions on the <a href="https://github.com/Euphoriyy/derainbowify.koplugin">GitHub page</a> of this plugin.</p>
+					<p>Через особливості технології кольорових е-чорнил, під час читання чорно-білих коміксів/манґи з дрібним штрихуванням або точками можна бачити кольорові артефакти схожі на веселку. Для вирішення цієї проблеми існує модуль для KOReader під назвою <span class="external">Derainbowify</span>. Детальніші відомості та інструкцію встановлення можна знайти на <a href="https://github.com/Euphoriyy/derainbowify.koplugin">сторінці модуля на GitHub</a>.</p>
 
 					<div class="L3-Smaller-heading">Режим занурення у KOReader</div>
 
@@ -3680,12 +3680,12 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li>Розпакуйте ці три файли в одній теці з зображеннями, які будете обробляти</li>
 						<li>Відредагуйте <b>_magick_manga_ditherN_resize.bat</b> та змініть роздільну здатність на ту, яку має ваш пристрій (в обох місцях файлу <b>BAT</b>).
 
-							<div class="warning"><span class="microns_warning" title="Warning"></span> Next step will replace all the images in the directory with the processed ones. So make sure that you have a copy of them in some other directory if you want to keep the originals.</div></li>
+							<div class="warning"><span class="microns_warning" title="Попередження"></span> Виконання наступного кроку замінить усі зображення у теці, в якій розміщено оброблювані зображення. Тож якщо хочете зберегти оригінали, переконайтеся, що зберегли копії цих оригіналів у іншій теці.</div></li>
 						<li>Запустіть <b>_magick_manga_ditherN_resize.bat</b>, щоб змінити і розмити зображення.</li>
 						<li>Припускаємо, що ви маєте встановлений <b>7-Zip</b>, тож виконайте <b>_batch_archive.bat</b>, щоб запакувати усі оброблені зображення у архів <b>CBZ</b>.</li>
 					</ol>
 
-					<div class="L3-Smaller-heading">Reversing the page turn direction for authentic Japanese manga <span class="microns_warning" title="Advanced topic"></span></div>
+					<div class="L3-Smaller-heading">Зворотній напрямок гортання сторінок для справжньої японської манґи <span class="microns_warning" title="Тема поглибленого рівня"></span></div>
 
 					<p>Можна налаштувати, щоб KOReader перегортав сторінки <b>зліва направо</b>, тобто щоб зони протягувань та дотиків помінялися місцями. Щоб увімкнути це, додайте такі рядки:</p>
 
@@ -3725,7 +3725,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="ui">СКИНУТИ:</span> Цей параметр дозволяє вам скинути деякі властивості вашого документа, такі як <b>прогрес читання, закладки, власне зображення обкладинки</b> тощо, які можна вибрати у наступному діалоговому вікні.</p>
 
-					<div class="warning"><span class="microns_warning" title="Warning"></span> Be very careful when using the <span class="ui">reset</span> dialog and double check which items are marked, otherwise you can reset everything related to your book accidentally.</div>
+					<div class="warning"><span class="microns_warning" title="Попередження"></span> Будьте дуже обережними коли використовуєте діалог <span class="ui">Скинути</span> та двічі перевірте, які елементи позначені, інакше є ризик випадково видалити усе, що пов'язане з відповідною книгою.</div>
 
 					<p><span class="ui">ВІДКРИТИ ЗА ДОПОМОГОЮ:</span> KOReader має різні рушії для опрацювання різних типів файлів. В деяких випадках є можливість відкрити файл в іншому рушії, щоб отримати деякі інші функції. Дивіться розділи <b>Перегляд архівів</b> та <b>Перегляд файлів зображень</b> нижче.</p>
 
@@ -3735,17 +3735,17 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p><span class="ui">ОНОВИТИ КЕШОВАНІ ВІДОМОСТІ ПРО КНИГУ:</span> KOReader кешує метадані й обкладинки книг під час додавання книг до бібліотеки. Якщо після перенесення книг на пристрій до файлів вносилися зміни, може знадобитися оновлення кешованої інформації. Якщо відображається хибна обкладинка чи метадані, за допомогою цього пункту меню можна оновити відомості про книгу.</p>
 
-					<div class="L3-Smaller-heading" data-jump>Showing hidden files and directories in File Browser</div>
-					<p>Normally, KOReader <b>file browser</b> doesn't show these two groups of files and directories:</p>
+					<div class="L3-Smaller-heading" data-jump>Показ прихованих файлів і тек у Оглядачі файлів</div>
+					<p>Зазвичай <b>оглядач файлів</b> KOReader'а не відображає ці дві групи файлів і тек:</p>
 
 					<ol>
-						<li><b>Hidden files and directories:</b> These are files and directories that start with a dot (.) character, like <span class="ui">.screensavers</span>. If you want to see these directories and files, enable this option:
+						<li><b>Приховані файли і теки.</b> Це файли і теки, назва яких починається з символу крапки (.), наприклад <span class="ui">.screensavers</span>. Якщо бажаєте бачити такі теки і файли, увімкніть цей параметр:
 
-						<div class="menu-breadcrumbs">(FILE BROWSER) TOP MENU / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> / Settings / Show hidden files</div></li>
+						<div class="menu-breadcrumbs">(ОГЛЯДАЧ ФАЙЛІВ) ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> / Налаштування / Показувати приховані файли</div></li>
 
-						<li><b>Unsupported file types:</b> These are the file types that KOReader <b>can't open directly</b>, like font files with a <b>.ttf</b> extension. KOReader can directly open these file types: PDF, EPUB, DJVU, MOBI, CBR, CBZ, CBT, DOCX, RTF, HTML, HTMLZ, TXT, XPS, FB2, PDB, CHM and MD document types, image files and ZIP/RAR archives, so only these files are visible in the <span class="ui">file browser</span>. If you want to see the unsupported file types too, you can enable this option:
+						<li><b>Непідтримувані типи файлів.</b> Це типи файлів, які KOReader <b>не може відкрити безпосередньо</b>, на зразок файлів шрифтів з розширенням <b>.ttf</b>. KOReader може безпосередньо відкривати такі типи файлів: PDF, EPUB, DJVU, MOBI, CBR, CBZ, CBT, DOCX, RTF, HTML, HTMLZ, TXT, XPS, FB2, PDB, CHM та MD, зображення та архіви ZIP/RAR, тому тільки ці файли видимі у <span class="ui">Оглядачі файлів</span>. Якщо бажаєте бачити також типи файлів, які не підтримуються, увімкніть цей параметр:
 
-						<div class="menu-breadcrumbs">(FILE BROWSER) TOP MENU / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> / Settings / Show unsupported files</div></li>
+						<div class="menu-breadcrumbs">(ОГЛЯДАЧ ФАЙЛІВ) ВЕРХНЄ МЕНЮ / <img class="img_inline" src="pictures/top_cabinet.svg" style="width:26px;"> / Налаштування / Показувати непідтримувані файли</div></li>
 					</ol>
 
 					<div class="L3-Smaller-heading">Робота з багатьма файлами</div>
@@ -3952,7 +3952,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>Метадані книги можна оновити затиснувши книгу в <span class="ui">Оглядачі файлів</span> та вибравши пункт меню <span class="ui">Відомості про книгу</span>. У зринаючому вікні можна затиснути будь-яке поле, щоб змінити наявні в ньому метадані, як от <b>автор</b> чи <b>ключові слова</b>. Для цього також можна використати програму <span class="external">Calibre</span>, яка значно спрощує керування метаданими книг.</p>
 
-					<div class="info"><span class="microns_info" title="Contextual information"></span> Be aware that <span class="external">Calibre</span> changes the metadata within the book itself, so the changed metadata is visible outside of <span class="external">Calibre</span>. But KOReader doesn't change the book file, it only adds custom metadata as a file in the book's <b>.sdr folder</b>, so this metadata is visible in KOReader only.</div>
+					<div class="info"><span class="microns_info" title="Контекстна інформація"></span> Майте на увазі, що <span class="external">Calibre</span> змінює метадані у файлі книги, тому змінені метадані видно поза <span class="external">Calibre</span>. А KOReader не змінює файл книги, він лише додає власні метадані як окремий файл до теки <b>.sdr</b>, що пов'язана з книгою, тому ці метадані видно лише в KOReader.</div>
 
 					<div class="L3-Smaller-heading">Пошук у добірках</div>
 
@@ -4040,7 +4040,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li>Можна додати до добірки проблемні PDF-файли, щоб під час їх відкриття разом з профілем активувалося <span class="ui">примусове OCR</span> (оптичне розпізнавання символів) або <span class="ui">режим перекомпонування</span>.</li>
 					</ul>
 
-					<div class="L2-Sub-heading" id="L2-optimizing">9.4 Optimizing Documents</div>
+					<div class="L2-Sub-heading" id="L2-optimizing">9.4 Оптимізація документів</div>
 
 					<p>
 						KOReader is designed to work efficiently even on the limited hardware of e-book readers. But there will always be poorly formatted documents which slow down KOReader. Here we will give some tips for optimizing your document depending on the file type.
@@ -4051,14 +4051,14 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 					<ul>
 						<li>EPUB-файли загалом складаються з тексту і зображень та містять певні правила, які визначають як ці елементи повинні показуватись на екрані. В ідеальних умовах це дуже простий процес, тому зазвичай файли EPUB відкриваються у KOReader швидко. <b>Але деякі книги EPUB містять величезну кількість правил форматування, для дотримання яких KOReader повинен виконати багато обчислень навіть щоб показати одне речення.</b> Це сповільнює відкриття книги, гортання сторінок і зміну параметрів показу книги на кшталт насиченості шрифту чи проміжків між рядками.
 
-							<div class="info"><span class="microns_info" title="Contextual information"></span> KOReader doesn't support <b>fixed layout EPUBs</b>. They will open, but will render as reflowable EPUBs and probably won't look nice or readable.</div></li>
+							<div class="info"><span class="microns_info" title="Контекстна інформація"></span> KOReader не підтримує <b>EPUB з фіксованим макетом</b>. Вони відкриються, але будуть візуалізовані як перекомпоновувані EPUB та, ймовірно, матимуть не дуже гарний вигляд або навіть будуть нечитабельними.</div></li>
 
 						<li>EPUB-файли є ZIP-архівами, всередині яких містяться файли HTML. Деякі книги можуть містити єдиний файл HTML, а інші — багато файлів HTML, кожен з яких є окремим розділом книги. <b>Якщо вся книга міститься в одному файлі HTML, часткова візуалізація не працює.</b> Тому зміни зовнішнього вигляду можуть відбуватися повільніше, ніж у книгах з розділами у окремих файлах HTML. Так відбувається тому, що для показу кожної зміни KOReader, замість опрацювання окремого розділу, повинен опрацювати книгу повністю.</li>
 
-						<li>Another rare case of slowness is when the content is wrapped in a <b>HTML table tag</b>. KOReader has to render/draw each cell on each page turn, so if a cell (containing many paragraphs) spans 50 pages, this will make page turning quite slow.</li>
+						<li>Інший, рідкісний, випадок сповільнення роботи — коли вміст розміщено у <b>теґу HTML-таблиці</b>. В такому випадку KOReader повинен візуалізувати кожну комірку при кожному перегортанні сторінки, тож якщо комірка (з багатьма абзацами всередині) охоплює 50 сторінок, це зробить гортання сторінок повільним.</li>
 					</ul>
 
-					<p><b>Solutions:</b></p>
+					<p><b>Способи вирішення:</b></p>
 
 					<ul>
 						<li>Можна в нижньому меню вибрати для <span class="ui">Вбудованих стилів</span> стан «<b>вимкнено</b>» та подивитися чи нехтування усіма вбудованими стилями документа зробить роботу з ним швидшою (ймовірно, буде відсутнє певне гарне форматування, зате зможете дізнатися в чому причина).</li>
@@ -4111,7 +4111,7 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 						<li><a href="https://github.com/ocrmypdf/OCRmyPDF">OCRmyPDF</a> – це програма командного рядка, яка може додавати оптично розпізнаний (OCR) текстовий шар до сканованих PDF-файлів, що містять лише зображення без текстового шару. Це дозволяє здійснювати пошук у тексті фалу та копіювати його текст. Це може бути особливо корисно для читання старих сканованих книг. Програма також може оптимізувати зображення, щоб зменшити розмір файлу.</li>
 					</ul>
 
-					<div class="L3-Smaller-heading">Manga and Comics</div>
+					<div class="L3-Smaller-heading">Мальописи і манґа</div>
 
 					<p>We have a dedicated section for optimizing manga and comics: <a href="#L2-mangaprepare" class="internalink">Optimizing Manga</a></p>
 
@@ -4123,9 +4123,9 @@ Everything is automatically generated based on en.html + PO files from Weblate.
 
 					<p>To benefit from <b>partial rendering</b> speed-up, you can convert your large text file to <b>EPUB</b> format using the <span class="external">Calibre</span> application. <span class="external">Calibre</span> will automatically divide your text file into smaller individual files during conversion and pack them into a standard <b>EPUB</b> file. After this conversion, you can change your book appearance much faster. You can download <span class="external">Calibre</span> from this <a href="https://calibre-ebook.com/">page</a> and find online tutorials for the <b>TXT-to-EPUB conversion</b> procedure.</p>
 
-					<div class="L3-Smaller-heading">Web pages</div>
+					<div class="L3-Smaller-heading">Вебсторінки</div>
 
-					<p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> is a browser extension for <b>Mozilla Firefox, Google Chrome</b> and <b>Microsoft Edge</b>. This extension allows saving a web page as a <b>single .html file</b> with all the resources (images, stylesheets, scripts) embedded. Then you can copy this single file to your device and read with KOReader.</p>
+					<p><a href="https://github.com/gildas-lormeau/SingleFile#install">SingleFile</a> – це розширення для вебоглядачів <b>Mozilla Firefox, Google Chrome</b> та <b>Microsoft Edge</b>. Воно дозволяє зберігати вебсторінку з усіма ресурсами як <b>єдиний файл .html</b> (зображеннями, таблицями стилів, скриптами). Після цього можна копіювати цей єдиний файл на пристрій і читати в KOReader.</p>
 
 					<div class="L2-Sub-heading" id="L2-opdscatalogs" data-jump>9.5 Каталог OPDS</div>
 
