@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-26 09:11+0000\n"
-"PO-Revision-Date: 2026-11-26 02:51+0000\n"
+"PO-Revision-Date: 2026-11-27 09:51+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -11659,6 +11659,10 @@ msgid ""
 "you can browse these digital libraries, search for books on them and "
 "download the books directly to your device."
 msgstr ""
+"<b>Каталог OPDS (Open Publication Distribution System / відкрита система "
+"розповсюдження публікацій)</b> є каталогом цифрової бібліотеки. KOReader має "
+"підтримку OPDS, тож за допомогою нього можна переглядати цифрові бібліотеки, "
+"шукати у книги і завантажувати книги прямо на пристрій."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5286-6
 msgid ""
@@ -11667,22 +11671,22 @@ msgid ""
 "href=\"https://standardebooks.org/\">Standard Ebooks</a> and you can add "
 "other OPDS catalogs. To open the OPDS dialog, go to:"
 msgstr ""
+"В KOReader одразу прописані деякі каталоги OPDS (наприклад, <a "
+"href=\"https://www.gutenberg.org/\">Проєкт Ґутенберґ</a> та <a "
+"href=\"https://standardebooks.org/\">Standard Ebooks</a>) і можуть бути "
+"додані інші каталоги OPDS. Щоб відкрити діалог OPDS, перейдіть сюди:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5290-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar"
 msgid ""
 "(FILE BROWSER) TOP MENU / <img class=\"img_inline\" src=\"pictures/"
 "top_search.svg\" style=\"width:26px;\"> / OPDS catalog"
 msgstr ""
-"ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Панель стану"
+"(ОГЛЯДАЧ ФАЙЛІВ) ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/"
+"top_search.svg\" style=\"width:26px;\"> / Каталог OPDS"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5293-6
 msgid "Using personal OPDS servers"
-msgstr ""
+msgstr "Використання власних OPDS"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5294-6
 msgid ""
@@ -11694,6 +11698,13 @@ msgid ""
 "class=\"external\">Calibre</span> instructions about configuring an OPDS "
 "server."
 msgstr ""
+"На додачу до загальнодоступних каталогів, систему OPDS можна "
+"використовувати, щоб управляти власною бібліотекою. За допомогою програми "
+"<span class=\"external\">Calibre</span> можна надати доступ до книг на "
+"комп'ютері як до каталогу OPDS, який можна переглядати прямо з KOReader. "
+"Натисніть <a href=\"https://manual.calibre-ebook.com/generated/en/calibre-"
+"server.html\">тут</a>, щоб прочитати інструкцію як у <span "
+"class=\"external\">Calibre</span> налаштувати сервер OPDS."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5299-6
 msgid ""
@@ -11707,6 +11718,17 @@ msgid ""
 "Documentation for <b>OPDS</b> and <b>progress sync</b> for KOReader users is "
 "<a href=\"https://wiki.kavitareader.com/guides/3rdparty/koreader/\">here</a>."
 msgstr ""
+"<span class=\"external\">Kavita</span> – це багатоплатформний, багатий на "
+"функціоналу сервер читання з відкритим вихідним кодом. Можна налаштувати "
+"власний сервер і ділитися своїми колекціями читання з сім'єю і друзями. Він "
+"також має підтримку <b>OPDS</b> та <b>синхронізації поступу</b> для "
+"KOReader. За допомогою цієї програми можна отримувати доступ до власної "
+"бібліотеки з е-читалки та синхронізувати позицію читання між різними "
+"пристроями, щоб продовжувати з того місця, на якому воно було перервано. "
+"Сторінка проєкту знаходиться <a href=\"https://www.kavitareader.com/\">тут</"
+"a>. Документація щодо <b>OPDS</b> та <b>синхронізації поступу</b> для "
+"користувачів KOReader є <a href=\"https://wiki.kavitareader.com/guides/"
+"3rdparty/koreader/\">тут</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5306-6
 msgid ""
@@ -11714,10 +11736,13 @@ msgid ""
 "Instructions are <a href=\"https://github.com/koreader/koreader/wiki/OPDS-"
 "support\">here</a>."
 msgstr ""
+"Після запуску власних серверів OPDS їх потрібно додати до KOReader. Як це "
+"зробити описано <a href=\"https://github.com/koreader/koreader/wiki/OPDS-"
+"support\">тут</a>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5308-6
 msgid "9.6 Synchronizing Progress"
-msgstr ""
+msgstr "9.6 Синхронізація поступу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5310-6
 msgid ""
@@ -17455,15 +17480,6 @@ msgid "Optimizing battery health"
 msgstr "Продовження життя акумулятора"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7474-6
-#, fuzzy
-#| msgid ""
-#| "Li-ion batteries experience more degradation at the extreme ends of their "
-#| "charge levels. To minimize this degradation and extend your battery life, "
-#| "you can limit your minimum discharge level to <b>20%</b> and maximum "
-#| "charge level to <b>80%</b> (as in electric vehicles and some newer "
-#| "phones). Which means you start charging your device when the battery goes "
-#| "down to 20% and unplug when it reaches 80% (or 25%-75% if you are extra "
-#| "cautious)."
 msgid ""
 "Li-ion batteries experience more degradation at the extreme ends of their "
 "charge levels. To minimize this degradation and extend your battery life, "
@@ -17478,7 +17494,7 @@ msgstr ""
 "максимальний рівень заряджання на <b>80%</b> (як в електромобілях та деяких "
 "нових телефонах). Тобто, заряджати пристрій потрібно коли заряд акумулятора "
 "знизиться до 20% і припинити заряджання коли заряд досягне рівня 80% (або, "
-"якщо ви особливо обережні, в діапазоні 25%-75%)."
+"якщо ви особливо обережні, в діапазоні 30%-70%)."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7478-6
 msgid ""
@@ -17489,17 +17505,13 @@ msgstr ""
 "рівнів:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7479-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Device Status Alerts / Battery Level"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Device / Device Status Alerts / Battery Level"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Сповіщення про стан пристрою / Рівень заряду "
-"акумулятора"
+"style=\"width:22px;\"> / Пристрій / Сповіщення про стан пристрою / Рівень "
+"заряду акумулятора"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7482-6
 msgctxt "user_guide/en.html:tip-seebatterydetails"
@@ -17564,17 +17576,14 @@ msgstr ""
 "до <span class=\"ui\">Панелі стану</span> відповідний елемент з показниками."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7497-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-#| "style=\"width:22px;\"> / Status Bar / KOReader memory usage"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
 "style=\"width:22px;\"> / Status bar / Status bar items / KOReader memory "
 "usage"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/gear.svg\" "
-"style=\"width:22px;\"> / Панель стану / Використання пам'яті KOReader"
+"style=\"width:22px;\"> / Панель стану / Елементи панелі стану / Використання "
+"пам'яті KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7500-6
 msgid ""
@@ -17677,7 +17686,7 @@ msgstr "KOReader може контролювати ваш пристрій"
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7529-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:21--5"
 msgid "Disabling ads on Amazon Kindle devices"
-msgstr ""
+msgstr "Вимкнення реклами на пристроях Amazon Kindle"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7530-1
 msgctxt "user_guide/en.html+troubleshooting.ul.li:22--5"
@@ -17705,11 +17714,9 @@ msgid "Clearing file cache"
 msgstr "Очищення кешу файлів"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ul.li:7535-1
-#, fuzzy
-#| msgid "Nightly versions"
 msgctxt "user_guide/en.html+troubleshooting.ul.li:27--5"
 msgid "What is a Nightly Version?"
-msgstr "Нічні версії"
+msgstr "Що таке нічні версії?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7538-6
 #, fuzzy
@@ -18114,22 +18121,16 @@ msgstr ""
 "наявні)</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7669-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_blue\">INFO</span> Your individual book settings and "
-#| "highlights are kept in the same directory as your books in a folder with "
-#| "the <b>same name as your book</b>. You can backup these folders "
-#| "separately if you wish."
 msgid ""
 "<span class=\"microns_info\" title=\"Contextual information\"></span> Your "
 "individual book settings and highlights are kept in the same directory as "
 "your books in a folder with the <b>same name as your book</b>. You can "
 "backup these folders separately if you wish."
 msgstr ""
-"<span class=\"label_blue\">ІНФОРМАЦІЯ</span> Індивідуальні налаштування "
-"ваших книг і виділене зберігаються у підтеці <b>з такою ж назвою, що й назва "
-"файлу книги</b> тієї ж теки, де розміщена книга. За бажанням, можна зробити "
-"резервні копії також і цих тек."
+"<span class=\"microns_info\" title=\"Контекстна інформація\"></span> "
+"Індивідуальні налаштування ваших книг і виділене зберігаються у підтеці <b>з "
+"такою ж назвою, що й назва файлу книги</b> тієї ж теки, де розміщена книга. "
+"За бажанням, можна зробити резервні копії також і цих тек."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7672-6
 #, fuzzy
@@ -18325,29 +18326,22 @@ msgstr ""
 "розробника / Очистити кеш"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7729-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_red\">WARNING</span> Clear this cache <b>only if you "
-#| "really need this space</b>. If you have enough space, clearing the cache "
-#| "will not provide any benefit. Instead, it will degrade the performance "
-#| "because your reader will have to render those pages again."
 msgid ""
 "<span class=\"microns_warning\" title=\"Warning\"></span> Clear this cache "
 "<b>only if you really need this space</b>. If you have enough space, "
 "clearing the cache will not provide any benefit. Instead, it will degrade "
 "the performance because your reader will have to render those pages again."
 msgstr ""
-"<span class=\"label_red\">ПОПЕРЕДЖЕННЯ</span> Очищуйте цей кеш <b>тільки "
-"якщо справді потребуєте це місце</b>. Якщо на пристрої і без того достатньо "
-"місця, очищення місця не принесе жодної користі. Навпаки, це погіршить "
-"швидкодію, оскільки застосунок повторно візуалізуватиме ці сторінки."
+"<span class=\"microns_warning\" title=\"Попередження\"></span> Очищуйте цей "
+"кеш <b>тільки якщо справді потребуєте це місце</b>. Якщо на пристрої і без "
+"того достатньо місця, очищення місця не принесе жодної користі. Навпаки, це "
+"погіршить швидкодію, оскільки застосунок повторно візуалізуватиме ці "
+"сторінки."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7733-6
-#, fuzzy
-#| msgid "Nightly versions"
 msgctxt "user_guide/en.html:ts-nightlyversions"
 msgid "What is a Nightly Version?"
-msgstr "Нічні версії"
+msgstr "Що таке нічні версії?"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:7734-6
 msgid "KOReader has two different versions:"
@@ -18434,13 +18428,6 @@ msgstr ""
 "11068\">FAQ: Як відстежувати останні нічні збірки</a>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7760-6
-#, fuzzy
-#| msgid ""
-#| "<span class=\"label_green\">TIP</span> If you are using KOReader on an "
-#| "Android device, you can use the <b>Work Profile</b> feature of the "
-#| "Android OS to test the Nightly versions without affecting your main "
-#| "KOReader installation. Open source applications like <b>Shelter</b> and "
-#| "<b>Island</b> can help you with this."
 msgid ""
 "<span class=\"microns_tip\" title=\"Useful tip\"></span> If you are using "
 "KOReader on an Android device, you can use the <b>Work Profile</b> feature "
@@ -18448,11 +18435,11 @@ msgid ""
 "KOReader installation. Open source applications like <b>Shelter</b> and "
 "<b>Island</b> can help you with this."
 msgstr ""
-"<span class=\"label_green\">ПОРАДА</span> На пристроях Android можна "
-"скористатися функцією <b>Робочий профіль</b> ОС Android, щоб протестувати "
-"нічні версії, не впливаючи на основну інсталяцію KOReader. Програми з "
-"відкритим кодом, як <b>Shelter</b> та <b>Island</b>, можуть допомогти у "
-"цьому."
+"<span class=\"label_green\">TIPmicrons_tip\" title=\"Корисна порада\"></"
+"span> На пристроях Android можна скористатися функцією <b>Робочий профіль</"
+"b> ОС Android, щоб протестувати нічні версії, не впливаючи на основну "
+"інсталяцію KOReader. Програми з відкритим кодом, як <b>Shelter</b> та <b>"
+"Island</b>, можуть допомогти у цьому."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7773-6
 msgctxt "user_guide/en.html:L1-reachus"
