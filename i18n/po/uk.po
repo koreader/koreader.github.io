@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-27 09:52+0000\n"
-"PO-Revision-Date: 2026-11-27 09:51+0000\n"
+"PO-Revision-Date: 2026-11-28 10:51+0000\n"
 "Last-Translator: Vitalii <stopchan@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/koreader/user-"
 "guide/uk/>\n"
@@ -25,7 +25,7 @@ msgstr "Посібник користувача KOReader"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.button[aria-label]:996-5
 msgid "Close sidebar"
-msgstr ""
+msgstr "Закрити бічну панель"
 
 #: user_guide/en.html%2Bhtml.body.div.nav.button:996-5
 msgid "✕"
@@ -11756,6 +11756,12 @@ msgid ""
 "continue reading seamlessly when switching from your e-reader at home to "
 "your phone on the commute for example."
 msgstr ""
+"Якщо ви використовуєте KOReader на кількох пристроях (наприклад, е-читалка, "
+"телефон, планшет, комп'ютер), тоді KOReader може синхронізувати поступ "
+"вашого читання між пристроями. За допомогою функції <span class=\"ui\">"
+"синхронізація поступу</span> можна почати читати на одному пристрої і "
+"продовжити читати на іншому пристрої з того ж місця тексті, на якому ви "
+"зупинилися на першому пристрої."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5313-6
 msgid ""
@@ -11763,54 +11769,49 @@ msgid ""
 "plugin. Setting up synchronization involves these three steps which we will "
 "explain below:"
 msgstr ""
+"Ця функція виконується модулем <span class=\"ui\">синхронізація поступу</"
+"span>. Синхронізація включає такі три кроки:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5317-7
 msgid "Create a <b>sync account</b>"
-msgstr ""
+msgstr "Створення <b>облікового запису синхронізації</b>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5318-7
 msgid ""
 "Login to your <b>sync account</b> from all the devices you want to "
 "synchronize"
 msgstr ""
+"Вхід у <b>обліковий запис синхронізації</b> з усіх пристроїв, які потрібно "
+"синхронізувати"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.ol.li:5320-7
 msgid "Automatically or manually synchronize your reading progress"
-msgstr ""
+msgstr "Автоматична або власноручна синхронізація поступу читання"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5323-6
-#, fuzzy
-#| msgid "Creating and modifying collections"
 msgid "1. Creating a sync account"
-msgstr "Створення та редагування добірок"
+msgstr "1. Створення облікового запису синхронізації"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5325-6
 msgid ""
 "To create a sync account, connect to a network on your device and open the "
 "<span class=\"ui\">progress sync</span> plugin in KOReader:"
 msgstr ""
+"Щоб створити обліковий запис синхронізації, підключіть свій пристрій до "
+"мережі та відкрийте модуль <span class=\"ui\">синхронізація поступу</span> у "
+"KOReader:"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5328-6
-#, fuzzy
-#| msgid ""
-#| "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-#| "style=\"width:22px;\"> / Profiles"
 msgid ""
 "TOP MENU / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
 "style=\"width:26px;\"> / Progress sync"
 msgstr ""
 "ВЕРХНЄ МЕНЮ / <img class=\"img_inline\" src=\"pictures/top_tools.svg\" "
-"style=\"width:22px;\"> / Профілі"
+"style=\"width:26px;\"> / Синхронізація поступу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5331-6
-#, fuzzy
-#| msgid ""
-#| "Change the text in the dialog and press the <span class=\"ui\">Save</"
-#| "span> button"
 msgid "and press the <span class=\"ui\">Register/Login</span> button."
-msgstr ""
-"Змініть текст у діалоговому вікні та натисніть кнопку <span "
-"class=\"ui\">Зберегти</span>"
+msgstr "і натисніть кнопку <span class=\"ui\">Зареєструватись/увійти</span>."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.p:5334-6
 msgid ""
@@ -11820,6 +11821,11 @@ msgid ""
 "class=\"external\">KOReader sync server</span> which will hold your reading "
 "progress."
 msgstr ""
+"У вікні, яке відкрилося, впишіть <span class=\"ui\">ім'я користувача</span> "
+"та <span class=\"ui\">пароль</span>, а потім натисніть кнопку <span "
+"class=\"ui\">Зареєструватись</span>. Це створить обліковий запис на <span "
+"class=\"external\">сервері синхронізації KOReader</span>, який буде "
+"зберігати ваш поступ читання."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:5340-6
 msgid "2. Login to your sync account"
@@ -13404,10 +13410,10 @@ msgid "Toggle chapter progress bar"
 msgstr "Перемкнути смугу поступу читання розділу"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5919-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Load status bar preset <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> – Назад"
+msgstr ""
+"Завантажити шаблон панелі стану <span style=\"font-family: microns;\"></"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5920-8
 msgid "Previous chapter"
@@ -13586,14 +13592,12 @@ msgid "Toggle custom hidden flows"
 msgstr "Перемкнути власні приховані частини"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5966-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set highlight action <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> – Назад"
+msgstr "Вказати дію виділення <span style=\"font-family: microns;\"></span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5967-8
 msgid "Cycle highlight action"
-msgstr "Допасування"
+msgstr "Циклічна дія виділення"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5968-8
 msgid "Cycle highlight style"
@@ -13625,10 +13629,10 @@ msgid "Reading statistics: current book"
 msgstr "Статистика читання: поточна книга"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5976-8
-#, fuzzy
-#| msgid "<span style=\"font-family: microns;\"></span> - Back"
 msgid "Set auto progress sync <span style=\"font-family: microns;\"></span>"
-msgstr "<span style=\"font-family: microns;\"></span> – Назад"
+msgstr ""
+"Вказати автосинхронізацію поступу <span style=\"font-family: microns;\"></"
+"span>"
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div.ol.li:5977-8
 msgid "Toggle auto progress sync"
@@ -18439,11 +18443,11 @@ msgid ""
 "KOReader installation. Open source applications like <b>Shelter</b> and "
 "<b>Island</b> can help you with this."
 msgstr ""
-"<span class=\"label_green\">TIPmicrons_tip\" title=\"Корисна порада\"></"
-"span> На пристроях Android можна скористатися функцією <b>Робочий профіль</"
-"b> ОС Android, щоб протестувати нічні версії, не впливаючи на основну "
-"інсталяцію KOReader. Програми з відкритим кодом, як <b>Shelter</b> та "
-"<b>Island</b>, можуть допомогти у цьому."
+"<span class=\"microns_tip\" title=\"Корисна порада\"></span> На пристроях "
+"Android можна скористатися функцією <b>Робочий профіль</b> ОС Android, щоб "
+"протестувати нічні версії, не впливаючи на основну інсталяцію KOReader. "
+"Програми з відкритим кодом, як <b>Shelter</b> та <b>Island</b>, можуть "
+"допомогти у цьому."
 
 #: user_guide/en.html%2Bhtml.body.div.main.div.section.div:7773-6
 msgctxt "user_guide/en.html:L1-reachus"
